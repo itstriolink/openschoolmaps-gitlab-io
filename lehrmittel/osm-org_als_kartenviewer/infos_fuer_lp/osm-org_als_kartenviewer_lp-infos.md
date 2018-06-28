@@ -1,0 +1,60 @@
+Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer bedienen"
+===
+OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
+### Ziel
+
+Nach bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.
+
+### Zielgruppe
+
+SuS im Lehrplan-21-Zyklus **TODO** (X. bis Y. Schuljahr)
+
+### Zeitplanung:
+
+* Arbeitsblatt "OSM kennenlernen": 20 Minuten
+* Arbeitsblatt "OSM editieren": 10 Minuten
+* Arbeitsblatt "Hinter den Kulissen": 15 Minuten
+
+Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
+
+### Vorbereitung:
+Die SuS sollten einen **physischen Atlas oder eine Papierkarte** zur Verfügung haben, und nach Möglichkeit auch einen Globus.
+
+Alternativ zu einem Globus kann das Computerprogramm "Marble" verwendet werden.
+
+Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen **Webbrowser** mit **Internet-Zugang** (mindestens zu https://openstreetmap.org).
+
+## Zusatzaufgaben
+
+### Web-Kompetenz
+
+Wie hat sich der Inhalt der Browser-Adressleiste verändert, als du auf `osm.org` gegangen bist?
+
+<span style='color:red'>`osm.org` wurde automatisch durch etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224` ersetzt.</span>
+
+Kannst du die einzelnen Teile der Adresse erklären?
+
+<div style='color:red'>
+
+* `https://`: Das verwendete Protokoll. HTTP (Hypertext transfer protocol) ist die Art und Weise wie Internet-Seiten und sonstige Daten im World Wide Web übertragen werden. Das `s` am Ende zeigt an, dass die Verbindung zur Website verschüsselt erfolgt.
+
+* `openstreetmap.org`: Die Haupt-Domain des OpenStreetMap-Projekts. Die Endung (="Top-Level-Domain") `.org` wurde gewählt, um zu betonen, dass es sich um ein Projekt von Freiwilligen handelt, nicht um ein Kommerzielles unterfangen wie vieles unter `.com`. `osm.org` ist eine weitere Domain des Projekts, die auf die entsprechenden `openstreetmap.org`-Seiten weiterleitet. So kann man sich Tipparbeit sparen.
+
+* `www.`: Eine Sub-Domain, die anzeigt, dass es sich um eine Website im World Wide Web (WWW) handelt. Etwas redundant, da das durch das HTTP-Protokoll und die global erreichbare Domain bereits impliziert ist.
+
+* `#map=8/46.825/8.224`: Der Karten-Ausschnitt. Dabei ist:
+
+  * `8`: Das "Zoom-Level". Je grösser diese Zahl, um so "näher ran" gezoomt ist die Ansicht.
+
+  * `46.825`: Die geografische Breite in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
+
+  * `8.224`: Die geografische Länge in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
+</div>
+
+#### Anregung
+
+Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas in OpenStreetMap-URLs übersetzt werden.
+
+### Aufgabe für fortgeschritte SuS / höhere Klassen:
+
+Zoome so weit heraus, dass du ganze Kontinente oder gar die ganze Erde siehtst. Dann verschiebe die Karte nord- oder südwerts ohne zu zoomen. Wieso verändert sich dabei der Maßstab?

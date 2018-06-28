@@ -1,0 +1,74 @@
+Lehrpersonen-Informationen zum Arbeitsblatt "OpenStreetMap ergänzen"
+===
+OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
+
+mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
+
+**Ein Arbeitsblatt für Lehrpersonen**
+
+
+Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
+
+## Zeitplanung
+
+Für die einzelnen Aufgaben sind etwa folgende Zeit benötigt:
+
+* Registrierung: 5 Minuten
+* Rundgang für den Editor: 20~30 Minuten
+* Selber auf OpenStreetMap Daten eintragen: 20~30 Minuten
+
+Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
+
+## Vorbereitung
+
+Für diese Aufgabe ist ein OSM-Konto benötigt
+
+## Benutzerkonto erstellen und anmelden
+  
+Um ein Benutzerkonto zu erstellen drückst du auf die Schaltfläche "Registrieren" oben rechts. Dazu musst du deine Email-Adresse angeben und dir einen Benutzername und ein Passwort aussuchen. Falls du bereits ein OpenStreetMap-Benutzerkonto hast, kannst du stattdessen natürlich direkt auf "Anmelden" klicken.
+
+Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir OpenStreetMap ein Email und die Adresse, die du angegeben hast, um zu prüfen, ob du wirklich über diese Email-Adresse erreichbar bist. In dieser Email-Nachricht wirst du einen Bestätigungs-Link finden, den du besuchen musst, um die Registrierung abzuschliessen.
+
+<span style="color: red">Alternativ kann man auch mit einem Google-, Facebook- oder Microsoft-Konto einloggen.</span>
+
+## Sprache umstellen (falls nötig)
+
+Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgerndermassen ändern:
+
+1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
+2. Wähle im Dropdown-Menü "Settings" aus
+3. Unter der Einstellung "Preferred Languages" ersetzt du den Text mit `de-CH de`
+4. Klicke den "Save Changes"-Knopf ganz unten, um diese Änderung zu speichern
+
+Der im Folgenden verwendete Editor wird die selbe Sprache verwenden, falls verfügbar.
+
+## iD, der Web-Editor von OpenStreetMap
+
+Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. Wir werden den Editor namens "iD" verwenden, der auf der openstreetmap.org-Website bereits eingebaut ist.
+
+### Rundgang
+
+Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf das Fragezeichen-Symbol (auf der rechten Seite) und startest von dort aus den Rundgang.
+
+<span style="color: red">Bitte spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.</span>
+
+<span style="color: red">**Mögliche Fragen, die aufkommen können:**
+
+- <span style="color: red">**Wie vervollständigt man eine Fläche?**
+Eine Fläche wird erstellt, sobald mal den Umriss beendet hat, indem man wieder den ersten Punkt anklickt oder Enter drückt.
+
+- <span style="color: red">**Der Kreis um den Tank ist zu gross!**
+Die viereckige Fläche, die für den Kreis verwendet wird, muss im Tank drin sein und mit den Ecken den Rand berühren.
+
+<span style="color: red">Ansonsten sollte das Tutorial selbsterklärend sein.
+
+### Und los geht's!
+
+Alle Änderungen, die du während des "Rundgangs" gemacht hast, waren nur zur Übung und wurden nicht wirklich in OpenStreetMap eingetragen.
+
+Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? Vielleicht fällt dir an deinem Wohnort oder in der Gegend deines Schulhauses etwas auf, das verbessert oder ergänzt werden kann. Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
+
+Da du im Rundgang gelernt hast, wie du Dinge in OpenStreetMap eintragen und ändern kannst, kannst du nun fehlendes eintragen und falsches korrigieren!
+
+Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen als Icon ![](https://md.coredump.ch/uploads/upload_7a5a8e900ef8d0c8f85ecf3d47db115e.PNG)) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
+
