@@ -7,7 +7,7 @@ Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openst
 
 ### Zielgruppe
 
-SuS im Lehrplan-21-Zyklus **TODO** (X. bis Y. Schuljahr)
+SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
 
 ### Zeitplanung:
 
