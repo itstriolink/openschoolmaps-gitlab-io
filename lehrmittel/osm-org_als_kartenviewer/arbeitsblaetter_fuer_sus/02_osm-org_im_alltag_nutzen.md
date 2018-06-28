@@ -25,9 +25,11 @@ Klicke den Knopf mit den Pfeilsymbolen neben dem "Los!"-Knopf des Suchfelds. Nun
 
 Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehrsmittel/die Bewegungsart (per Auto, per Velo oder zu Fuss) und das Weg-Such-Programm (in der Fachsprache: den Routing-Algorithmus) wählen.
 
+:::info
 #### Zwischenstationen
 
 Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich. Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-Planungs-Möglichkeit, die jedoch nur für Strecken innerhalb der Schweiz funktioniert.
+:::
 
 #### Aufgaben
 
