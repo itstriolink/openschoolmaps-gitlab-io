@@ -43,7 +43,7 @@ Angabe in Metern oder Kilometern
 
 \________________________________________________
 
-Stimmt die vorrausgesagte Dauer mit deiner Erfahung überein?
+Stimmt die vorrausgesagte Dauer mit deiner Erfahrung überein?
 
 \________________________________________________
 
