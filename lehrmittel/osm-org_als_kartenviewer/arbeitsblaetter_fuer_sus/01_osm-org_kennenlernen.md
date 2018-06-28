@@ -117,7 +117,7 @@ Oben links findest du ein Text-Eingabefeld für Such-Anfragen. Hier können Orte
 * Suche deinen Kanton
 * Suche deine Gemeinde oder deinen Ortsteil
 
-Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder dich einfach auf der Karte bewegen wie im Abschnitt oben gelernt. Falls OpenStreetMap deine Schule nicht über ihren Namen oder ihre Adresse findet, kannst du auch beides kombinieren: Suche zuerst nach dem Ort oder Quartier, und zoome und verschiebe den Karten-Auschnitt dorthin, wo deine Schule sein sollte.
+Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder dich einfach auf der Karte bewegen wie im Abschnitt oben gelernt. Falls OpenStreetMap deine Schule nicht über ihren Namen oder ihre Adresse findet, kannst du auch beides kombinieren: Suche zuerst nach dem Ort oder Quartier, und zoome und verschiebe den Karten-Ausschnitt dorthin, wo deine Schule sein sollte.
 
 Ist dein Schulhaus in OpenStreetMap eingetragen?
 
