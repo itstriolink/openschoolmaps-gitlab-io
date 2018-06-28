@@ -3,7 +3,7 @@ Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer bedienen"
 OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
 ### Ziel
 
-Nach bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.
+Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.
 
 ### Zielgruppe
 
