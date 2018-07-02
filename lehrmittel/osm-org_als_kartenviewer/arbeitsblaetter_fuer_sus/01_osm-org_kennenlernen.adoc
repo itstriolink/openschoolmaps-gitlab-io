@@ -1,53 +1,53 @@
-OSM.org als Karten-Viewer
-Blatt 1: openstreetmap.org kennenlernen
-===
-OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
+= OSM.org als Karten-Viewer
 
+== Blatt 1: openstreetmap.org kennenlernen
+
+OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
 **Ein Arbeitsblatt für Schülerinnen und Schüler**
 
-:::info
+IMPORTANT:
 In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren Webkarte zu suchen und die Karte zu lesen.
-:::
 
-<!--
+
+////
 Relevante sCHoolmaps-Materialien:
 https://www.schoolmaps.ch/wp-content/uploads/2015/11/Arbeit_Swisstopo.pdf
 
 https://www.schoolmaps.ch/2017/06/02/kartenlesen-leicht-gemacht-swisstopo-unterrichtseinheiten-zum-kartenlesen-zyklus-2-von-kiknet/ > https://www.kiknet-swisstopo.org/deutsch/karten-lesen/zyklus-2/ u.A. https://www.kiknet-swisstopo.org/app/download/10636227895/07+geo.admin.ch.pdf?t=1522852539
--->
+////
 
-## Kennst du OpenStreetMap?
+== Kennst du OpenStreetMap?
 
 Gehe mit deinem Web-Browser auf osm.org. (Der Adresszeilen-Inhalt ändert dabei automatisch zu etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224`.)
 
 Du kommst auf eine Website, deren Haupt-Teil eine Landkarte ist. Erkennst du den Karten-Ausschnitt? Welches Gebiet ist abgebildet?
 
-<!--
+////
 Falls man schon einemal mit diesem Computer und Browser auf openstreetmap.org war,
 sieht man den Karten-Ausschnitt, den man zuletzt auf der Website angezeigt hatte.
 
 Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf zugreift,
 sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.
--->
+////
 
 \________________________________________________
 
 Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkommens-Nachricht erschienen. Falls die Nachricht bereits weggeklickt wurde, ist hier nochmal ihr Inhalt:
 
-> ### Willkommen bei OpenStreetMap!
+> Willkommen bei OpenStreetMap!
 > OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei verwendbar unter einer offenen Lizenz.
 >
 > Das Hosting wird von [...] unterstützt.
 >
-> [<kbd>Mehr erfahren</kbd>](https://www.openstreetmap.org/about) [<kbd>Mit dem Kartieren anfangen</kbd>](https://www.openstreetmap.org/user/new)
+> link:https://www.openstreetmap.org/about[Mehr erfahren] | link:https://www.openstreetmap.org/user/new[Mit dem Kartieren anfangen]
 
 Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.
 
-### Karten-Ausschnitt ändern
+=== Karten-Ausschnitt ändern
 
-Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den <kbd>&minus;</kbd>-Knopf. Was passiert?
+Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den btn:[-]-Knopf. Was passiert?
 
-<!--
+////
 Zoomt "heraus":
 Es wird ein grösserer Ausschnitt der Welt angezeigt,
 wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)
@@ -60,57 +60,53 @@ Beschriftungen werden weggelassen.)
 (Falls man bereits ganz rausgezoomt ist
 (Zoomlevel `0`, bei dem die Erde je nach Fensterbreite
 bereits mehrmals dargestellt wird), dann passiert nichts.)
--->
+////
 
 \________________________________________________
 
 Was denkst du, was der <kbd>&plus;</kbd>-Knopf macht? Probier es aus!
 
-<!--
-Zoomt "herein"
--->
+//Zoomt "herein"
 
 \________________________________________________
 
 Falls du eine Maus mit Scroll-Rad hast, halte den Mauszeiger über den Bereich der Website mit der Landkarte und drehe das Rad (langsam) nach vorn oder hinten. Was beobachtest du?
 
-<!--
+////
 Auch so kann gezoomt werden
--->
+////
 
 \________________________________________________
 
 Spielt es dabei eine Rolle, wo auf der Karte der Zeiger steht?
 
-<!--
+////
 Ja, die Zeigerposition dient als Zentrum der Verkleinerungs oder Vergrösserungs-Bewegung. D.h. die Karten-Position unter dem Zeiger steht fast still, und die
 Positionen darum herum bewegen sich auf den Zeiger zu oder von ihm weg.
--->
+////
 
 \________________________________________________
 
 Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus, wie?
 
-<!--
+////
 Mauszeiger über der Karte platzieren.
 
 Primäre (meist linke) Maustaste gedrückt halten
 und Zeiger in gewünschte Richtung ziehen.
 
 (Karte bewegt sich mit dem Zeiger mit.)
--->
+////
 
 \________________________________________________
 
 Was passiert, wenn du eine Stelle auf der Karte doppel-klickst?
 
-<!--
-Zoomt (1 Stufe) herein, mit Klick-Position als Zoom-Zentrum.
--->
+//Zoomt (1 Stufe) herein, mit Klick-Position als Zoom-Zentrum.
 
 \________________________________________________
 
-### Such-Feld
+=== Such-Feld
 
 Oben links findest du ein Text-Eingabefeld für Such-Anfragen. Hier können Orte, Adressen, Sehenswürdigkeiten und Namen von Läden, Hotels, Restaurants und vielem mehr eingegeben werden.
 
@@ -137,24 +133,22 @@ OpenStreetMap funkioniert nicht nur in der Schweiz. Du kannst auch Orte wie New 
 
 Welche Stadt heisst auf Italienisch "Ciūrichas"?
 
-<!--
-Zürich
--->
+//Zürich
 
 \________________________________________________
 
 Eine spanische Touristin fragt nach dem Weg nach "Ginebra". Wo in der Schweiz will sie hin?
 
-<!--
+////
 nach Genf / Genève
 
 Da es auch in Kolumbien einen Ort namens "Ginebra" gibt,
 muss bei der Suche evtl. das Land mit angegeben werden.
--->
+////
 \________________________________________________
 
 
-### Orientierung
+=== Orientierung
 
 Eine Windrose sucht man auf openstreetmap.org vergeblich. Wie ist die Karte auf der Website ausgerichtet? Falls nötig, suche einen Ort, von dem du auch eine Papier-Karte hast oder bei dem du die Himmelsrichtungen kennst, und vergleiche OpenStreetMap mit der Papier-Karte oder deinem Wissen.
 
@@ -163,21 +157,21 @@ Norden liegt \_______________ <!-- oben --> auf der openstreetmap.org-Karte.
 Süden liegt \_______________ <!-- unten --> auf der openstreetmap.org-Karte.
 Westen liegt \_______________ <!-- links --> auf der openstreetmap.org-Karte.
 
-### Grössenverhältnisse
+=== Grössenverhältnisse
 
 Zoome heraus, bis du die ganze Erde siehst. Grönland und Süd-Amerika sehen etwa gleich gross aus. Kann es sein, dass sie tatsächlich etwa gleich gross sind? Falls möglich, schau auf dem Globus nach, und vergleich mit diesem.
 
 Unten links findest du einen Karten-Maßstab. Anders als bei Papier-Karten steht hier jedoch keine Maßstabs-Zahl (z.B. 1:10'000). Wieso wohl nicht?
 
-<!--
+////
 Die Website kann nicht wissen, wie gross und wie hochaufgelöst dein Bildschirm ist.
 Daher kann auch das Verhältnis zwischen tatsächlichen Grössen/Längen/Abständen und den Grössen/Längen/Abständen auf der Kartendarstellung nicht von der Website berechnet werden.
--->
+////
 \________________________________________________
 \________________________________________________
 \________________________________________________
 
-### Legende
+=== Legende
 
 Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den "i"-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
 
@@ -185,7 +179,7 @@ Je weiter du herein-zoomst, um so mehr Details werden auf der Karte dargestellt 
 
 Welche Bedeutung haben die verschieden dicken violetten Linien?
 
-<!--
+////
 Das sind politische Grenzen.
 
 Je höher die "Einheit", um so dicker die Linie:
@@ -195,7 +189,7 @@ und diese wiederum dicker als Bezirks- und Gemeindegrenzen.
 (Letztere Information ist nicht in der Legende ersichtlich,
 lässt sich aber aus der Karte einer Gegend ablesen,
 deren politische Gebiete man bereits kennt.)
--->
+////
 
 \________________________________________________
 \________________________________________________
