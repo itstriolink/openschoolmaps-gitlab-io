@@ -1,0 +1,39 @@
+Mit uMap einen Lageplan erstellen (mithilfe von OpenStreetMap)
+
+= OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
+
+am Beispiel eines Anlasses beim Schulhaus
+
+*Eine Anleitung für Lehrpersonen*
+
+
+== Ziel dieser Anleitung
+Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMap eine Karte zu erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
+
+image::https://md.coredump.ch/uploads/upload_6e7c09ccc01062879c25c0beae260227.png[]
+
+Sie werden für das Beispiel etwa 10-15 Minuten brauchen.
+
+Die Internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
+
+== Was ist uMap?
+Mit uMap kann man auf OpenStreetMap Hintergrund eine eigene Karte zeichnen. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie fehlende Gebäude oder Strassen auf der Karte finden, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online Editor von OpenStreetMap finden Sie [hier]( https://md.coredump.ch/openschoolmaps-osm-editieren-lehrer).
+
+== Anleitung für uMap
+
+Als Beispiel wird ein Sportevent einer Schule verwendet.
+
+1. Besuchen Sie https://umap.osm.ch
+2. Wählen Sie "Erstelle eine Karte"
+3. Navigieren Sie zu dem Ort, wo sie eine Karte erstellen möchten, zum Beispiel Ihre Schule.
+4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-icon image:https://md.coredump.ch/uploads/upload_4ffee7bd4bf374d9acf496dd82a09596.PNG[]. Diesen können Sie dann auf der Map platzieren. image:https://md.coredump.ch/uploads/upload_e818f7d853c4515150a14ce817d49097.PNG[]
+5. Eine weitere Möglichkeit ist, einen Weg image:https://md.coredump.ch/uploads/upload_26090d48aa31a00c42a57b4b188ead75.PNG[] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben. image:https://md.coredump.ch/uploads/upload_f9fe040a9cb8e6e2a58cb59b9be1431c.PNG[]
+6. Für Flächen, klicken sie auf das Flächensymbol iamge:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG[]. Wir haben hier den Sportplatz eingezeichnet.
+image:https://md.coredump.ch/uploads/upload_3570b2bc65881fc17c24f879ce2ca8d7.PNG[]
+
+
+Die volle Beispielkarte sehen Sie https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575[hier]. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+
+uMap und das OpenSchoolMaps Projekt basieren auf https://osm.org[OpenStreetMap].
+
+//(Siehe auch Abschnitt [Erstellen eines Lageplanes mit uMap](https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.2) im Foliensatz des DINAcon-Vortrags [Nutzung von OpenStreetMap für Standortkarten und Online-Stories](https://dinacon.ch/sessions/2017/osm/).)
