@@ -1,6 +1,5 @@
-:title: Not Found
+:title: Seite nicht gefunden
 :status: hidden
 :save_as: 404.html
 
-
-The page you're looking for could not be found.
+Die gewünschte Seite konnte nicht gefunden werden.

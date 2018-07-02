@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'thedude'
-SITENAME = u'Example Pelican website using GitLab Pages!'
+AUTHOR = u'OpenSchoolMaps'
+SITENAME = u'OpenSchoolMaps.ch'
 SITEURL = ''
 
 PATH = 'content'
@@ -12,9 +12,9 @@ OUTPUT_PATH = 'public'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['asciidoc_reader']
 
-TIMEZONE = 'Europe/Athens'
+TIMEZONE = 'Europe/Zurich'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'de'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -24,14 +24,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('OpenStreetMap-Wiki', 'https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel#OpenSchoolMaps'),
+    ('GitLab', 'https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch'),
+    ('Issue-Tracker', 'https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/issues'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = LINKS
 
 DEFAULT_PAGINATION = 5
 
