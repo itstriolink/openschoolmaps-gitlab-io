@@ -1,19 +1,22 @@
 OSM.org als Karten-Viewer
-Blatt 3: OpenStreetMap-Daten untersuchen
-===
+
+= Blatt 3: OpenStreetMap-Daten untersuchen
+
 OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
 
-**Ein Arbeitsblatt für Schülerinnen und Schüler**
+*Ein Arbeitsblatt für Schülerinnen und Schüler*
 
-:::info
+[NOTE]
+====
 Dieses Arbeitsblatt zeigt dir, wie du auf openstreetmap.org einen Blick in die Daten werfen kannst, die der Karte zugrundeliegenden.
 
 Ausserdem lernst du, wie du die OpenStreetMap-Gemeinschaft auf Fehler in der Karte hinweisen kannst. So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halten.
-:::
+====
 
-## Ein erster Blick hinter den Kulissen
+== Ein erster Blick hinter den Kulissen
 
-### Objekte abfragen
+
+=== Objekte abfragen
 
 Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. Klicke dazu den untersten der Knöpfe auf der rechten Seite auf openstreetmap.org, den mit dem Pfeilchen und dem Fragezeichen als Icon.
 
@@ -21,31 +24,31 @@ Dadurch ändert sich dein Mauszeiger. Klicke nun an die ungefähre Stelle auf de
 
 Klick den entsprechenden Link an, und du siehst die Eigenschaften ("Attribute") des Objekts sowie den Kommentar zur letzten Änderung, die daran gemacht wurde und weitere Informationen.
 
-### (alle) Kartendaten anzeigen
+=== (alle) Kartendaten anzeigen
 
 Gerade bei Objekten, die auf der Karte gar nicht angezeigt werden, kann es schwierig sein, sie auf diese Weise zu finden und zu untersuchen. In der Seitenleiste mit den Kartenebenen können die örtlichen OpenStreetMap-Daten mit der Checkbox "Kartendaten" eingeblendet werden.
 
-Aber Vorsicht: Vor dem Setzen des Häkchens sollte man **so weit wie möglich hereingezoomt haben**, denn je mehr Daten gleichzeitig angezeigt werden müssen, um so träger und schwerer zu bedienen wird der Webbrowser.
+Aber Vorsicht: Vor dem Setzen des Häkchens sollte man *so weit wie möglich hereingezoomt haben*, denn je mehr Daten gleichzeitig angezeigt werden müssen, um so träger und schwerer zu bedienen wird der Webbrowser.
 
 Die Daten-Objekte werden als blaue Kreise (für Punkt-Objekte) und Linien (für Linien-Objekte und Grenzen von Flächen-Objekten) über die Karte gelegt. Diese können (auch ohne den oben beschriebenen Objekt-Abfrage-Modus) angeklickt werden, um wiederum zur Detail-Ansicht des jeweiligen Objekts zu gelangen.
 
-## OpenStreetMap verbessern helfen
+== OpenStreetMap verbessern helfen
 
 Wie von der Willkommensnachricht verkündet, werden die OpenStreetMap-Daten von Menschen wie dir zusammengetragen. Auch ohne Einarbeitung kannst du zur Verbesserung von OpenStreetMap beitragen, in dem du die OpenStreetMap-Gemeinschaft auf Fehler und Auslassungen hinweist.
 
 Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schulgebäude? Oder gibt es in der Umgebung der Schule ein Bänkli, einen Brunnen oder einen Abfallkübel, der noch nicht eingetragen ist? Oder ist dir auf der Karte sogar etwas aufgefallen was falsch oder veraltet ist?
 
-### Notiz erstellen
+=== Notiz erstellen
 
 Um die OpenStreetMap-Gemeinschaft auf so etwas hinzuweisen, kannst du eine Notiz erstellen. Klicke dazu auf den zweituntersten Knopf rechts. (Den mit der Sprechblase und dem "+" als Icon.)
 
 Auf der Karte erscheint eine Positions-Nadel mit "+"-Zeichen. Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zur Zeit falsch ist.
 
-:::info
-
+[NOTE]
+====
 Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. Man kann sie sich wie einen leicht wieder entfernbaren Klebezettel (auch bekannt als "Post-It") vorstellen, auf den man etwas schreibt, und den man auf die Karte klebt. Du brauchst also keine Angst haben, dabei Fehler zu machen!
 
 Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter Anderem, weil das doch am meisten Spass macht).
-:::
+====
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/69/3MPostItNote2.jpg)
+image::https://upload.wikimedia.org/wikipedia/commons/6/69/3MPostItNote2.jpg[Sticky note, 715, 473]
