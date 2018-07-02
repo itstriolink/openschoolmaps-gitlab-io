@@ -9,6 +9,9 @@ SITEURL = ''
 PATH = 'content'
 OUTPUT_PATH = 'public'
 
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['asciidoc_reader']
+
 TIMEZONE = 'Europe/Athens'
 
 DEFAULT_LANG = u'en'
