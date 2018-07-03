@@ -64,7 +64,7 @@ bereits mehrmals dargestellt wird), dann passiert nichts.)
 
 \________________________________________________
 
-Was denkst du, was der <kbd>&plus;</kbd>-Knopf macht? Probier es aus!
+Was denkst du, was der `+`-Knopf macht? Probier es aus!
 
 //Zoomt "herein"
 
