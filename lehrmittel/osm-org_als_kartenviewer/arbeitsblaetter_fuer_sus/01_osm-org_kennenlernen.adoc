@@ -159,17 +159,37 @@ muss bei der Suche evtl. das Land mit angegeben werden.
 
 Eine Windrose sucht man auf openstreetmap.org vergeblich. Wie ist die Karte auf der Website ausgerichtet? Falls nötig, suche einen Ort, von dem du auch eine Papier-Karte hast oder bei dem du die Himmelsrichtungen kennst, und vergleiche OpenStreetMap mit der Papier-Karte oder deinem Wissen.
 
-Osten liegt \_______________
-// rechts
+Osten liegt
+ifdef::show_solutions[]
+[.underline]#rechts#
+endif::show_solutions[]
+ifndef::show_solutions[]
+[.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
+endif::show_solutions[]
 auf der openstreetmap.org-Karte. +
-Norden liegt \_______________
-// oben
+Norden liegt
+ifdef::show_solutions[]
+[.underline]#oben#
+endif::show_solutions[]
+ifndef::show_solutions[]
+[.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
+endif::show_solutions[]
 auf der openstreetmap.org-Karte. +
-Süden liegt \_______________
-// unten
+Süden liegt
+ifdef::show_solutions[]
+[.underline]#unten#
+endif::show_solutions[]
+ifndef::show_solutions[]
+[.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
+endif::show_solutions[]
 auf der openstreetmap.org-Karte. +
-Westen liegt \_______________
-// links
+Westen liegt
+ifdef::show_solutions[]
+[.underline]#links#
+endif::show_solutions[]
+ifndef::show_solutions[]
+[.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
+endif::show_solutions[]
 auf der openstreetmap.org-Karte.
 
 === Grössenverhältnisse
