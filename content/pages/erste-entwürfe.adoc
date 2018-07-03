@@ -1,0 +1,17 @@
+= Entwürfe Arbeitsblätter und Anleitungen
+
+:date: 2018-07-03
+:category: OpenSchoolMaps
+:tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
+:slug: erste-entwürfe
+
+Erste Entwürfe der geplanten Arbeitsblätter und Anleitungen
+sind auf GitLab
+https://gitlab.com/openschoolmaps/openschoolmaps.ch/-/jobs/artifacts/master/browse/lehrmittel?job=PDFs[als PDFs]
+verfügbar.
+(https://gitlab.com/openschoolmaps/openschoolmaps.ch/-/jobs/artifacts/master/download?job=PDFs[alle Herunterladen])
+
+Diese PDFs werden
+aus den https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc]-Dateien
+in https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel
+erzeugt.
