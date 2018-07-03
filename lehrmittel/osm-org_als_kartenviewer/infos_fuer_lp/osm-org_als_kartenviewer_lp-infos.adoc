@@ -1,15 +1,13 @@
 = Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer bedienen"
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
-=== Ziel
-
+.Ziel
 Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.
 
-=== Zielgruppe
-
+.Zielgruppe
 SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
 
-=== Zeitplanung:
+.Zeitplanung:
 
 * Arbeitsblatt "OSM kennenlernen": 20 Minuten
 * Arbeitsblatt "OSM editieren": 10 Minuten
@@ -17,7 +15,7 @@ SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
 
 Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
 
-=== Vorbereitung:
+== Vorbereitung:
 Die SuS sollten einen *physischen Atlas oder eine Papierkarte* zur Verfügung haben, und nach Möglichkeit auch einen Globus.
 
 Alternativ zu einem Globus kann das Computerprogramm "Marble" verwendet werden.
@@ -53,8 +51,7 @@ ifdef::show_solutions[]
   * `8.224`: Die geografische Länge in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
 endif::show_solutions[]
 
-==== Anregung
-
+.Anregung
 Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas in OpenStreetMap-URLs übersetzt werden.
 
 === Aufgabe für fortgeschritte SuS / höhere Klassen:

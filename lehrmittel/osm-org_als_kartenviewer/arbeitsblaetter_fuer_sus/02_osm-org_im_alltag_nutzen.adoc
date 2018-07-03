@@ -5,13 +5,13 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 NOTE: In diesem Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
 
-=== Kartenstile
+== Kartenstile
 
 Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. Und nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschieden Karten für verschiedene Zwecke.
 
 Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol über dem "i"-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 
-=== Navigation (Routen-Planung)
+== Navigation (Routen-Planung)
 
 Mit der OpenStreetMap-Geodatensammlung können Computer mehr machen, als "nur" Karten zu zeichnen! Die Such-Funktion, die wir bereits angesehen haben, verwendet die selben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
 
@@ -27,7 +27,7 @@ Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehr
 Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich. Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-Planungs-Möglichkeit, die jedoch nur für Strecken innerhalb der Schweiz funktioniert.
 ====
 
-#### Aufgaben
+=== Aufgaben
 
 Untersuche mit der Navigations-Funktion deinen Schulweg.
 
@@ -70,6 +70,6 @@ ausgebremst.
 
 _Line_
 
-=== Positionen (mit)teilen
+== Positionen (mit)teilen
 
 Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhälst du einen solchen wenn du auf den "Teilen"-Knopf rechts klickst.
