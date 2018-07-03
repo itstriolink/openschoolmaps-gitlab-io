@@ -166,7 +166,8 @@ endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte. +
+auf der openstreetmap.org-Karte.
+
 Norden liegt
 ifdef::show_solutions[]
 [.underline]#oben#
@@ -174,7 +175,8 @@ endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte. +
+auf der openstreetmap.org-Karte.
+
 Süden liegt
 ifdef::show_solutions[]
 [.underline]#unten#
@@ -182,7 +184,8 @@ endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte. +
+auf der openstreetmap.org-Karte.
+
 Westen liegt
 ifdef::show_solutions[]
 [.underline]#links#
