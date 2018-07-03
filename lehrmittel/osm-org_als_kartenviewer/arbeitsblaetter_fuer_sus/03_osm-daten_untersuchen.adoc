@@ -1,5 +1,15 @@
 = OSM.org als Karten-Viewer, Blatt 3: OpenStreetMap-Daten untersuchen
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+//
+// HACK: suppress title page.
+// See https://github.com/asciidoctor/asciidoctor-pdf/issues/95
+ifdef::backend-pdf[:notitle:]
+ifdef::backend-pdf[]
+[discrete]
+== {doctitle}
+
+{author}
+endif::[]
 
 *Ein Arbeitsblatt für Schülerinnen und Schüler*
 
