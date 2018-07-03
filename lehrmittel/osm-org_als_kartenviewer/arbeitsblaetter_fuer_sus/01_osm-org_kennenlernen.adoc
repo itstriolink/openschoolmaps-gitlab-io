@@ -29,15 +29,20 @@ Gehe mit deinem Web-Browser auf osm.org. (Der Adresszeilen-Inhalt ändert dabei 
 
 Du kommst auf eine Website, deren Haupt-Teil eine Landkarte ist. Erkennst du den Karten-Ausschnitt? Welches Gebiet ist abgebildet?
 
-////
+====
+ifdef::show_solutions[]
 Falls man schon einemal mit diesem Computer und Browser auf openstreetmap.org war,
 sieht man den Karten-Ausschnitt, den man zuletzt auf der Website angezeigt hatte.
 
 Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf zugreift,
 sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.
-////
-
-\________________________________________________
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+{empty} +
+{empty} +
+endif::show_solutions[]
+====
 
 Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkommens-Nachricht erschienen. Falls die Nachricht bereits weggeklickt wurde, ist hier nochmal ihr Inhalt:
 
@@ -54,7 +59,8 @@ Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu se
 
 Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den btn:[-]-Knopf. Was passiert?
 
-////
+====
+ifdef::show_solutions[]
 Zoomt "heraus":
 Es wird ein grösserer Ausschnitt der Welt angezeigt,
 wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)
@@ -67,51 +73,70 @@ Beschriftungen werden weggelassen.)
 (Falls man bereits ganz rausgezoomt ist
 (Zoomlevel `0`, bei dem die Erde je nach Fensterbreite
 bereits mehrmals dargestellt wird), dann passiert nichts.)
-////
-
-\________________________________________________
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+endif::show_solutions[]
+====
 
 Was denkst du, was der `+`-Knopf macht? Probier es aus!
 
-//Zoomt "herein"
-
-\________________________________________________
+====
+ifdef::show_solutions[Zoomt "herein"]
+ifndef::show_solutions[]
+{empty} +
+endif::show_solutions[]
+====
 
 Falls du eine Maus mit Scroll-Rad hast, halte den Mauszeiger über den Bereich der Website mit der Landkarte und drehe das Rad (langsam) nach vorn oder hinten. Was beobachtest du?
 
-////
-Auch so kann gezoomt werden
-////
-
-\________________________________________________
+====
+ifdef::show_solutions[Auch so kann gezoomt werden]
+ifndef::show_solutions[]
+{empty} +
+endif::show_solutions[]
+====
 
 Spielt es dabei eine Rolle, wo auf der Karte der Zeiger steht?
 
-////
+====
+ifdef::show_solutions[]
 Ja, die Zeigerposition dient als Zentrum der Verkleinerungs oder Vergrösserungs-Bewegung. D.h. die Karten-Position unter dem Zeiger steht fast still, und die
 Positionen darum herum bewegen sich auf den Zeiger zu oder von ihm weg.
-////
-
-\________________________________________________
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+{empty} +
+{empty} +
+endif::show_solutions[]
+====
 
 Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus, wie?
 
-////
+====
+ifdef::show_solutions[]
 Mauszeiger über der Karte platzieren.
 
 Primäre (meist linke) Maustaste gedrückt halten
 und Zeiger in gewünschte Richtung ziehen.
 
 (Karte bewegt sich mit dem Zeiger mit.)
-////
-
-\________________________________________________
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+{empty} +
+{empty} +
+endif::show_solutions[]
+====
 
 Was passiert, wenn du eine Stelle auf der Karte doppel-klickst?
 
-//Zoomt (1 Stufe) herein, mit Klick-Position als Zoom-Zentrum.
-
-\________________________________________________
+====
+ifdef::show_solutions[Zoomt (1 Stufe) herein, mit Klick-Position als Zoom-Zentrum.]
+ifndef::show_solutions[]
+{empty} +
+endif::show_solutions[]
+====
 
 === Such-Feld
 
@@ -124,11 +149,15 @@ Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder di
 
 Ist dein Schulhaus in OpenStreetMap eingetragen?
 
-\________________________________________________
+====
+{empty} +
+====
 
 Suche das Haus, in dem du wohnst. Lässt es sich über deine Adresse finden?
 
-\________________________________________________
+====
+{empty} +
+====
 
 Falls nicht, suche es wieder duch verschieben und zoomen der Karte.
 
@@ -140,20 +169,26 @@ OpenStreetMap funkioniert nicht nur in der Schweiz. Du kannst auch Orte wie New 
 
 Welche Stadt heisst auf Italienisch "Ciūrichas"?
 
-//Zürich
-
-\________________________________________________
+====
+ifdef::show_solutions[Zürich]
+ifndef::show_solutions[{empty} +]
+====
 
 Eine spanische Touristin fragt nach dem Weg nach "Ginebra". Wo in der Schweiz will sie hin?
 
-////
+====
+ifdef::show_solutions[]
 nach Genf / Genève
 
 Da es auch in Kolumbien einen Ort namens "Ginebra" gibt,
 muss bei der Suche evtl. das Land mit angegeben werden.
-////
-\________________________________________________
-
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+{empty} +
+{empty} +
+endif::show_solutions[]
+====
 
 === Orientierung
 
@@ -201,13 +236,17 @@ Zoome heraus, bis du die ganze Erde siehst. Grönland und Süd-Amerika sehen etw
 
 Unten links findest du einen Karten-Maßstab. Anders als bei Papier-Karten steht hier jedoch keine Maßstabs-Zahl (z.B. 1:10'000). Wieso wohl nicht?
 
-////
+====
+ifdef::show_solutions[]
 Die Website kann nicht wissen, wie gross und wie hochaufgelöst dein Bildschirm ist.
 Daher kann auch das Verhältnis zwischen tatsächlichen Grössen/Längen/Abständen und den Grössen/Längen/Abständen auf der Kartendarstellung nicht von der Website berechnet werden.
-////
-\________________________________________________
-\________________________________________________
-\________________________________________________
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+{empty} +
+{empty} +
+endif::show_solutions[]
+====
 
 === Legende
 
@@ -217,7 +256,8 @@ Je weiter du herein-zoomst, um so mehr Details werden auf der Karte dargestellt 
 
 Welche Bedeutung haben die verschieden dicken violetten Linien?
 
-////
+====
+ifdef::show_solutions[]
 Das sind politische Grenzen.
 
 Je höher die "Einheit", um so dicker die Linie:
@@ -227,10 +267,13 @@ und diese wiederum dicker als Bezirks- und Gemeindegrenzen.
 (Letztere Information ist nicht in der Legende ersichtlich,
 lässt sich aber aus der Karte einer Gegend ablesen,
 deren politische Gebiete man bereits kennt.)
-////
-
-\________________________________________________
-\________________________________________________
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+{empty} +
+{empty} +
+endif::show_solutions[]
+====
 
 
 
