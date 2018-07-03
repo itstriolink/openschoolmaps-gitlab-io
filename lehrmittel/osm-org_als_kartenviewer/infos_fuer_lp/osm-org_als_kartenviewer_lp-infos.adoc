@@ -1,6 +1,5 @@
-Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer bedienen"
-
-= OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+= Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer bedienen"
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 === Ziel
 

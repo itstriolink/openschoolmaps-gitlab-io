@@ -1,6 +1,5 @@
-Lehrpersonen-Informationen zum Arbeitsblatt "OpenStreetMap ergänzen"
-
-= OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+= Lehrpersonen-Informationen zum Arbeitsblatt "OpenStreetMap ergänzen"
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
 

@@ -1,7 +1,4 @@
-OSM.org als Karten-Viewer
-
-= Blatt 3: OpenStreetMap-Daten untersuchen
-
+= OSM.org als Karten-Viewer, Blatt 3: OpenStreetMap-Daten untersuchen
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 *Ein Arbeitsblatt für Schülerinnen und Schüler*

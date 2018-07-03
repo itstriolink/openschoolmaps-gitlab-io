@@ -1,6 +1,5 @@
-OpenStreetMap bearbeiten
-
-= OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+= OpenStreetMap bearbeiten
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
 

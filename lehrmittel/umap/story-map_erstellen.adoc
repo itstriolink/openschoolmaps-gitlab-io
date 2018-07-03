@@ -1,6 +1,5 @@
-Mit uMap eine Story-Map mit Bildern erstellen
-
-= OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+= Mit uMap eine Story-Map mit Bildern erstellen
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 *Eine Anleitung für alle an Mapping-Interessierten*
 
