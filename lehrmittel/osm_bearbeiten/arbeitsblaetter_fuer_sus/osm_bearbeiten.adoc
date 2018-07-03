@@ -6,7 +6,7 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 ifdef::backend-pdf[:notitle:]
 ifdef::backend-pdf[]
 [discrete]
-== {doctitle}
+= {doctitle}
 
 {author}
 endif::[]
