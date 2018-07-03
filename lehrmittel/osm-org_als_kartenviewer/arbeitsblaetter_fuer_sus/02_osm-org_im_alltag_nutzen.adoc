@@ -2,7 +2,7 @@ OSM.org als Karten-Viewer
 
 = Blatt 2: openstreetmap.org im Alltag benutzen
 
-OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 *Ein Arbeitsblatt für Schülerinnen und Schüler*
 
@@ -10,7 +10,7 @@ NOTE: In diesem Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu 
 
 === Kartenstile
 
-Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. Und nicht nur eine Karte, sondern &ndash; basierend auf den gleichen Daten &ndash; verschieden Karten für verschiedene Zwecke.
+Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. Und nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschieden Karten für verschiedene Zwecke.
 
 Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol über dem "i"-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 

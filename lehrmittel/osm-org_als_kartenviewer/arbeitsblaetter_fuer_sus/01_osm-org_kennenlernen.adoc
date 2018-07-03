@@ -2,7 +2,7 @@
 
 == Blatt 1: openstreetmap.org kennenlernen
 
-OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 **Ein Arbeitsblatt für Schülerinnen und Schüler**
 
 IMPORTANT:

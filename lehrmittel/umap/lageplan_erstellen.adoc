@@ -1,6 +1,6 @@
 Mit uMap einen Lageplan erstellen (mithilfe von OpenStreetMap)
 
-= OpenSchoolMaps.ch &ndash; Freie Lernmaterialien zu freien Geodaten und Karten.
+= OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 
 am Beispiel eines Anlasses beim Schulhaus
 
