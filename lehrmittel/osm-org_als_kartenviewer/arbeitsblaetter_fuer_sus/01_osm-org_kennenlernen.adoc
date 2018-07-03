@@ -159,9 +159,9 @@ muss bei der Suche evtl. das Land mit angegeben werden.
 
 Eine Windrose sucht man auf openstreetmap.org vergeblich. Wie ist die Karte auf der Website ausgerichtet? Falls nötig, suche einen Ort, von dem du auch eine Papier-Karte hast oder bei dem du die Himmelsrichtungen kennst, und vergleiche OpenStreetMap mit der Papier-Karte oder deinem Wissen.
 
-Osten liegt \_______________ <!-- rechts --> auf der openstreetmap.org-Karte.
-Norden liegt \_______________ <!-- oben --> auf der openstreetmap.org-Karte.
-Süden liegt \_______________ <!-- unten --> auf der openstreetmap.org-Karte.
+Osten liegt \_______________ <!-- rechts --> auf der openstreetmap.org-Karte. +
+Norden liegt \_______________ <!-- oben --> auf der openstreetmap.org-Karte. +
+Süden liegt \_______________ <!-- unten --> auf der openstreetmap.org-Karte. +
 Westen liegt \_______________ <!-- links --> auf der openstreetmap.org-Karte.
 
 === Grössenverhältnisse
