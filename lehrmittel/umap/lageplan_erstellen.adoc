@@ -26,7 +26,7 @@ Sie werden für das Beispiel etwa 10-15 Minuten brauchen.
 Die Internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
 
 == Was ist uMap?
-Mit uMap kann man auf OpenStreetMap Hintergrund eine eigene Karte zeichnen. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie fehlende Gebäude oder Strassen auf der Karte finden, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online Editor von OpenStreetMap finden Sie [hier]( https://md.coredump.ch/openschoolmaps-osm-editieren-lehrer).
+Mit uMap kann man auf OpenStreetMap Hintergrund eine eigene Karte zeichnen. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie fehlende Gebäude oder Strassen auf der Karte finden, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online Editor von OpenStreetMap finden Sie unter https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
 
 == Anleitung für uMap
 
