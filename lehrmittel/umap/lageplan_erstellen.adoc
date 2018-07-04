@@ -35,13 +35,13 @@ Als Beispiel wird ein Sportevent einer Schule verwendet.
 1. Besuchen Sie https://umap.osm.ch
 2. Wählen Sie "Erstelle eine Karte"
 3. Navigieren Sie zu dem Ort, wo sie eine Karte erstellen möchten, zum Beispiel Ihre Schule.
-4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-icon image:https://md.coredump.ch/uploads/upload_4ffee7bd4bf374d9acf496dd82a09596.PNG[]. Diesen können Sie dann auf der Map platzieren.
+4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-Icon image:https://md.coredump.ch/uploads/upload_4ffee7bd4bf374d9acf496dd82a09596.PNG["Stecknadel-Icon", 20, 20]. Diesen können Sie dann auf der Map platzieren.
 +
 image::https://md.coredump.ch/uploads/upload_e818f7d853c4515150a14ce817d49097.PNG[]
-5. Eine weitere Möglichkeit ist, einen Weg image:https://md.coredump.ch/uploads/upload_26090d48aa31a00c42a57b4b188ead75.PNG[] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
+5. Eine weitere Möglichkeit ist, einen Weg image:https://md.coredump.ch/uploads/upload_26090d48aa31a00c42a57b4b188ead75.PNG["Weg-Icon", 20, 20] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
 +
 image::https://md.coredump.ch/uploads/upload_f9fe040a9cb8e6e2a58cb59b9be1431c.PNG[]
-6. Für Flächen, klicken sie auf das Flächensymbol image:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG[]. Wir haben hier den Sportplatz eingezeichnet.
+6. Für Flächen, klicken sie auf das Flächensymbol image:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG["Flächen-Icon", 20, 20]. Wir haben hier den Sportplatz eingezeichnet.
 +
 image::https://md.coredump.ch/uploads/upload_3570b2bc65881fc17c24f879ce2ca8d7.PNG[]
 
