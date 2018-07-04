@@ -46,7 +46,7 @@ image::https://md.coredump.ch/uploads/upload_f9fe040a9cb8e6e2a58cb59b9be1431c.PN
 image::https://md.coredump.ch/uploads/upload_3570b2bc65881fc17c24f879ce2ca8d7.PNG[]
 
 
-Die volle Beispielkarte sehen Sie https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575[hier]. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
 
 uMap und das OpenSchoolMaps Projekt basieren auf https://osm.org[OpenStreetMap].
 
