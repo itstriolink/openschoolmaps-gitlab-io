@@ -13,7 +13,7 @@ PDFs:
         --attribute icons=font
         $f;
     done
-  - for f in $(find ./lehrmittel/ -name '*.adoc');
+  - for f in $(grep -rl 'def::show_solutions\[' lehrmittel/ | grep '.adoc$');
     do
       asciidoctor-pdf
         --attribute allow-uri-read
