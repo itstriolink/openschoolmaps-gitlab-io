@@ -10,9 +10,11 @@ PDFs:
     do
       asciidoctor-pdf
         --attribute allow-uri-read
+        --attribute icons=font
         $f;
       asciidoctor-pdf
         --attribute allow-uri-read
+        --attribute icons=font
         --attribute exercise_solution
         $f
         -o ${f%.*}_solutions.pdf;

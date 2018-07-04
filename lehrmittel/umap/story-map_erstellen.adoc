@@ -7,7 +7,7 @@ ifdef::backend-pdf[:notitle:]
 
 ifdef::backend-pdf[]
 [discrete]
-== {doctitle}
+= {doctitle}
 
 {author}
 endif::[]
