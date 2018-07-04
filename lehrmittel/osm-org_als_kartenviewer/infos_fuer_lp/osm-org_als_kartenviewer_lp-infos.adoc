@@ -11,6 +11,7 @@ ifdef::backend-pdf[]
 
 {author}
 endif::[]
+// END OF suppress title page HACK
 
 .Ziel
 Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.

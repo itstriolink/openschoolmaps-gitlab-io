@@ -11,6 +11,7 @@ ifdef::backend-pdf[]
 
 {author}
 endif::[]
+// END OF suppress title page HACK
 
 **Ein Arbeitsblatt für Schülerinnen und Schüler**
 

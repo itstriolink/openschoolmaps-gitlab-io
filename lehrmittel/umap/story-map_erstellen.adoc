@@ -11,6 +11,7 @@ ifdef::backend-pdf[]
 
 {author}
 endif::[]
+// END OF suppress title page HACK
 
 *Eine Anleitung für alle an Mapping-Interessierten*
 

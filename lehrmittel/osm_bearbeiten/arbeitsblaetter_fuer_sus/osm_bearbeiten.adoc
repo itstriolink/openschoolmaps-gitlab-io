@@ -11,6 +11,7 @@ ifdef::backend-pdf[]
 
 {author}
 endif::[]
+// END OF suppress title page HACK
 
 mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
 
