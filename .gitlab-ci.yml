@@ -6,6 +6,7 @@ PDFs:
   tags:
   - docker
   script:
+  - set -e
   - for f in $(find ./lehrmittel/ -name '*.adoc');
     do
       asciidoctor-pdf
