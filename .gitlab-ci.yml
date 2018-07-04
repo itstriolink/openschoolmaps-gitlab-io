@@ -12,6 +12,9 @@ PDFs:
         --attribute allow-uri-read
         --attribute icons=font
         $f;
+    done
+  - for f in $(find ./lehrmittel/ -name '*.adoc');
+    do
       asciidoctor-pdf
         --attribute allow-uri-read
         --attribute icons=font
