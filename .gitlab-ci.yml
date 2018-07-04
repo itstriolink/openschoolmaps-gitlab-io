@@ -13,7 +13,7 @@ PDFs:
         $f;
       asciidoctor-pdf
         --attribute allow-uri-read
-        --attribute exercise_solution
+        --attribute show_solutions
         $f
         -o ${f%.*}_solutions.pdf;
     done
