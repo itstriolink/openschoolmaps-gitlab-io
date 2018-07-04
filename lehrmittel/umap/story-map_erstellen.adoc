@@ -20,6 +20,8 @@ Und so wird so eine Karte erstellt:
 
 image::https://md.coredump.ch/uploads/upload_49f6642d0c75b31c8776649028900d63.png[]
 
+Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+
 == Vorbereitung
 Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können. 
 Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional, aber sehr nützlich, um später schneller voranzukommen.
