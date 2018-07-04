@@ -15,7 +15,7 @@ PDFs:
       asciidoctor-pdf
         --attribute allow-uri-read
         --attribute icons=font
-        --attribute exercise_solution
+        --attribute show_solutions
         $f
         -o ${f%.*}_solutions.pdf;
     done
