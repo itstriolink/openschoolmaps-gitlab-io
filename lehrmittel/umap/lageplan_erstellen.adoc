@@ -41,7 +41,7 @@ image::https://md.coredump.ch/uploads/upload_e818f7d853c4515150a14ce817d49097.PN
 5. Eine weitere Möglichkeit ist, einen Weg image:https://md.coredump.ch/uploads/upload_26090d48aa31a00c42a57b4b188ead75.PNG[] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
 +
 image::https://md.coredump.ch/uploads/upload_f9fe040a9cb8e6e2a58cb59b9be1431c.PNG[]
-6. Für Flächen, klicken sie auf das Flächensymbol iamge:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG[]. Wir haben hier den Sportplatz eingezeichnet.
+6. Für Flächen, klicken sie auf das Flächensymbol image:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG[]. Wir haben hier den Sportplatz eingezeichnet.
 +
 image::https://md.coredump.ch/uploads/upload_3570b2bc65881fc17c24f879ce2ca8d7.PNG[]
 
