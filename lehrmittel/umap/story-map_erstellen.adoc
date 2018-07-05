@@ -20,6 +20,8 @@ endif::[]
 Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. Eine Story-Map ist eine Karte mit Punkten, zu denen periodisch zu einem der Punkte mehr Informationen wie Bilder und Beschreibungen angezeigt werden.
 Und so wird so eine Karte erstellt:  
 
+.Kartendaten (C) OpenStreetMap Contributors
+[caption=""]
 image::https://md.coredump.ch/uploads/upload_49f6642d0c75b31c8776649028900d63.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
@@ -36,6 +38,8 @@ Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können.
 image::https://md.coredump.ch/uploads/upload_e7900e6c14c222eac03565be0569b1e8.png[]
   * Tragen Sie Punkte image:https://md.coredump.ch/uploads/upload_4ffee7bd4bf374d9acf496dd82a09596.PNG[], Linien image:https://md.coredump.ch/uploads/upload_26090d48aa31a00c42a57b4b188ead75.PNG[] und Flächen image:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG[] ein, die sie gerne auf der Map hätten.
 +
+.Kartendaten (C) OpenStreetMap Contributors
+[caption=""]
 image::https://md.coredump.ch/uploads/upload_a5bb6b019d67aa7d255a7b83196cd225.png[]
   * Sie können Ihren Objekten weitere Eigenschaften hinzufügen, indem Sie auf die Ebenenverwaltung image:https://md.coredump.ch/uploads/upload_b0ecc5b17e5daf625608aecab2b50dea.png[] gehen und dann auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:https://md.coredump.ch/uploads/upload_f9c47bfacbdd8022af17ad484d64bbe8.png[] klicken. Oben in der Seitenleiste erscheint dann eine Schaltfläche image:https://md.coredump.ch/uploads/upload_96475f53bb009e85afa21092b4fced03.png[].
 * Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:https://md.coredump.ch/uploads/upload_d091555d28033d448ca42c04a45886cc.png[] -> Diashow -> Diashowmodus" aktivieren. Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
@@ -47,4 +51,5 @@ image::https://md.coredump.ch/uploads/upload_a5bb6b019d67aa7d255a7b83196cd225.pn
 * Sie können die Informationen des Popups auch in der Seitenleiste anzeigen lassen. Dazu gehen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popupstil" und wählen "Seitenleiste" aus. Nach dem Speichern und Erneuern der Website, sollten die Popup-Informationen in der Seitenleiste angezeigt werden.
 
 uMap und das OpenSchoolMaps Projekt basieren auf https://osm.org[OpenStreetMap].
-Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
+
+IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
