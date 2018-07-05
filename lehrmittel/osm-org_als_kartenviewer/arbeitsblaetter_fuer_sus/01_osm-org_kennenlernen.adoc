@@ -59,7 +59,7 @@ Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu se
 
 === Karten-Ausschnitt ändern
 
-Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den btn:[-]-Knopf. Was passiert?
+Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den `-`-Knopf. Was passiert?
 
 ====
 ifdef::show_solutions[]
