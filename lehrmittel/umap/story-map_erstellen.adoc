@@ -13,7 +13,7 @@ endif::[]
 
 *Eine Anleitung für alle an Mapping-Interessierten*
 
-//(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2517/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2517/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
+//(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
 
 Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. Eine Story-Map ist eine Karte mit Punkten, zu denen periodisch zu einem der Punkte mehr Informationen wie Bilder und Beschreibungen angezeigt werden.
 Und so wird so eine Karte erstellt:  
