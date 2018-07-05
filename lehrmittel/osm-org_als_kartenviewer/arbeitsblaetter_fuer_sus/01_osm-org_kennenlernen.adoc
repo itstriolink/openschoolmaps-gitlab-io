@@ -33,7 +33,7 @@ Du kommst auf eine Website, deren Haupt-Teil eine Landkarte ist. Erkennst du den
 
 ====
 ifdef::show_solutions[]
-Falls man schon einemal mit diesem Computer und Browser auf openstreetmap.org war,
+Falls man schon einmal mit diesem Computer und Browser auf openstreetmap.org war,
 sieht man den Karten-Ausschnitt, den man zuletzt auf der Website angezeigt hatte.
 
 Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf zugreift,
@@ -146,6 +146,8 @@ Oben links findest du ein Text-Eingabefeld für Such-Anfragen. Hier können Orte
 
 * Suche deinen Kanton
 * Suche deine Gemeinde oder deinen Ortsteil
+
+IMPORTANT: Das Suchfeld achtet auf Rechtschreibung und Schreibweise. Wenn das, was du suchst, nicht gefunden wird, heisst das entweder, dass es in der Datenbank noch nicht existiert, oder, dass es anders geschrieben wird als das, was du eingegeben hast. Ändere einfach die Abfrage etwas und versuch es erneut!
 
 Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder dich einfach auf der Karte bewegen wie im Abschnitt oben gelernt. Falls OpenStreetMap deine Schule nicht über ihren Namen oder ihre Adresse findet, kannst du auch beides kombinieren: Suche zuerst nach dem Ort oder Quartier, und zoome und verschiebe den Karten-Ausschnitt dorthin, wo deine Schule sein sollte.
 
