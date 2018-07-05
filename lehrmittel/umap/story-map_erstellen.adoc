@@ -47,3 +47,4 @@ image::https://md.coredump.ch/uploads/upload_a5bb6b019d67aa7d255a7b83196cd225.pn
 * Sie können die Informationen des Popups auch in der Seitenleiste anzeigen lassen. Dazu gehen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popupstil" und wählen "Seitenleiste" aus. Nach dem Speichern und Erneuern der Website, sollten die Popup-Informationen in der Seitenleiste angezeigt werden.
 
 uMap und das OpenSchoolMaps Projekt basieren auf https://osm.org[OpenStreetMap].
+Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
