@@ -34,11 +34,12 @@ Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können.
   * Erstellen Sie eine neue Karte. +
 +
 image::https://md.coredump.ch/uploads/upload_e7900e6c14c222eac03565be0569b1e8.png[]
-Mapdaten von openstreetmap.org
   * Tragen Sie Punkte image:https://md.coredump.ch/uploads/upload_4ffee7bd4bf374d9acf496dd82a09596.PNG[], Linien image:https://md.coredump.ch/uploads/upload_26090d48aa31a00c42a57b4b188ead75.PNG[] und Flächen image:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG[] ein, die sie gerne auf der Map hätten.
 +
+.Kartendaten (C) OpenStreetMap Contributors
+[caption=""]
 image::https://md.coredump.ch/uploads/upload_a5bb6b019d67aa7d255a7b83196cd225.png[]
-Mapdaten von openstreetmap.org
+
   * Sie können Ihren Objekten weitere Eigenschaften hinzufügen, indem Sie auf die Ebenenverwaltung image:https://md.coredump.ch/uploads/upload_b0ecc5b17e5daf625608aecab2b50dea.png[] gehen und dann auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:https://md.coredump.ch/uploads/upload_f9c47bfacbdd8022af17ad484d64bbe8.png[] klicken. Oben in der Seitenleiste erscheint dann eine Schaltfläche image:https://md.coredump.ch/uploads/upload_96475f53bb009e85afa21092b4fced03.png[].
 * Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:https://md.coredump.ch/uploads/upload_d091555d28033d448ca42c04a45886cc.png[] -> Diashow -> Diashowmodus" aktivieren. Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
 
