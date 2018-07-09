@@ -23,7 +23,7 @@ Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMa
 
 .Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
-image::https://md.coredump.ch/uploads/upload_6e7c09ccc01062879c25c0beae260227.png[]
+image::../../bilder/umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
 Sie werden für das Beispiel etwa 10-15 Minuten brauchen.
 
@@ -39,24 +39,24 @@ Als Beispiel wird ein Sportevent einer Schule verwendet.
 1. Besuchen Sie https://umap.osm.ch
 2. Wählen Sie "Erstelle eine Karte"
 3. Navigieren Sie zu dem Ort, wo sie eine Karte erstellen möchten, zum Beispiel Ihre Schule.
-4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-Icon image:https://md.coredump.ch/uploads/upload_4ffee7bd4bf374d9acf496dd82a09596.PNG["Stecknadel-Icon", 25, 25]. Diesen können Sie dann auf der Map platzieren.
+4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-Icon image:../../bilder/umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25]. Diesen können Sie dann auf der Map platzieren.
 
 +
 .Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
-image::https://md.coredump.ch/uploads/upload_e818f7d853c4515150a14ce817d49097.PNG[]
-5. Eine weitere Möglichkeit ist, einen Weg image:https://md.coredump.ch/uploads/upload_26090d48aa31a00c42a57b4b188ead75.PNG["Weg-Icon", 25, 25] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
+image::../../bilder/umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
+5. Eine weitere Möglichkeit ist, einen Weg image:../../bilder/umap/weg_icon.PNG["Weg-Icon", 25, 25] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
 
 +
 .Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
-image::https://md.coredump.ch/uploads/upload_f9fe040a9cb8e6e2a58cb59b9be1431c.PNG[]
-6. Für Flächen, klicken sie auf das Flächensymbol image:https://md.coredump.ch/uploads/upload_8ccdbf29d8cc07ca71a900e778bc6504.PNG["Flächen-Icon", 25, 25]. Wir haben hier den Sportplatz eingezeichnet.
+image::../../bilder/umap/lageplan_erstellen/weg_platzieren.PNG[]
+6. Für Flächen, klicken sie auf das Flächensymbol image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25]. Wir haben hier den Sportplatz eingezeichnet.
 
 +
 .Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
-image::https://md.coredump.ch/uploads/upload_3570b2bc65881fc17c24f879ce2ca8d7.PNG[]
+image::../../bilder/umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.

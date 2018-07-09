@@ -10,14 +10,12 @@ PDFs:
   - for f in $(find ./lehrmittel/ -name '*.adoc');
     do
       asciidoctor-pdf
-        --attribute allow-uri-read
         --attribute icons=font
         $f;
     done
   - for f in $(grep -rl 'def::show_solutions\[' lehrmittel/ | grep '.adoc$');
     do
       asciidoctor-pdf
-        --attribute allow-uri-read
         --attribute icons=font
         --attribute show_solutions
         $f
