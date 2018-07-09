@@ -53,7 +53,7 @@ Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkomm
 >
 > Das Hosting wird von [...] unterstützt.
 >
-> link:https://www.openstreetmap.org/about[Mehr erfahren] | link:https://www.openstreetmap.org/user/new[Mit dem Kartieren anfangen]
+> https://www.osm.org/about Mehr erfahren | https://www.osm.org/user/new Mit dem Kartieren anfangen
 
 Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.
 

@@ -25,8 +25,8 @@ Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auc
 Für die einzelnen Aufgaben sind etwa folgende Zeit benötigt:
 
 * Registrierung: 5 Minuten
-* Rundgang für den Editor: 20~30 Minuten
-* Selber auf OpenStreetMap Daten eintragen: 20~30 Minuten
+* Rundgang für den Editor: 20–30 Minuten
+* Selber auf OpenStreetMap Daten eintragen: 20–30 Minuten
 
 Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
 
@@ -83,6 +83,7 @@ Alle Änderungen, die du während des "Rundgangs" gemacht hast, waren nur zur Ü
 Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? Vielleicht fällt dir an deinem Wohnort oder in der Gegend deines Schulhauses etwas auf, das verbessert oder ergänzt werden kann. Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
 
 Da du im Rundgang gelernt hast, wie du Dinge in OpenStreetMap eintragen und ändern kannst, kannst du nun fehlendes eintragen und falsches korrigieren!
+Innerhalb von 5–30 Minuten werden deine Änderungen durchgeführt und auf die Karte angewendet!
 
 Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen als Icon image:https://md.coredump.ch/uploads/upload_7a5a8e900ef8d0c8f85ecf3d47db115e.PNG["Flächen Icon", 25, 25]) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
 
