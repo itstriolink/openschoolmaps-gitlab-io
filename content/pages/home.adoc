@@ -1,9 +1,11 @@
-= Was ist OpenSchoolMaps?
-
-:date: 2018-07-03
+= Willkommen auf OpenSchoolMaps.ch
+:date: 2018-07-09
 :category: OpenSchoolMaps
 :tags: meta, mission statement
-:slug: was-ist-openschoolmaps
+:url:
+:save_as: index.html
+
+== Was ist OpenSchoolMaps?
 
 OpenSchoolMaps.ch
 ist ein Projekt zur Förderung
