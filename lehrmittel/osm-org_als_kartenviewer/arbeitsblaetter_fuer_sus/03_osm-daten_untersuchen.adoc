@@ -60,4 +60,4 @@ Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. Man 
 Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter Anderem, weil das doch am meisten Spass macht).
 ====
 
-image::../../../../bilder/osm-org_als_kartenviewer/sticky_note.jpg[Sticky note, 715, 473]
+image::../../../bilder/osm-org_als_kartenviewer/sticky_note.jpg[Sticky note, 715, 473]
