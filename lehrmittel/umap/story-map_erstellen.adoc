@@ -37,7 +37,6 @@ Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können.
 +
 image::../../bilder/umap/story-map_erstellen/uMap_homepage.png[]
   * Tragen Sie Punkte image:../../bilder/umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] ein, die Sie gerne auf der Map hätten. Sie können auch Linien image:../../bilder/umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] auf die Karte eintragen wenn Sie möchten.
-  * Sie können Ihren Objekten weitere Eigenschaften hinzufügen, indem Sie auf die Ebenenverwaltung image:../../bilder/umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] gehen und dann auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:../../bilder/umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25] klicken. Oben in der Seitenleiste erscheint dann eine Schaltfläche image:../../bilder/umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20].
 * Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:../../bilder/umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] -> Diashow -> Diashowmodus" aktivieren. Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
 
 == Beschreibung hinzufügen
@@ -71,7 +70,7 @@ Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und
 == Optionale Einstellungen
 
 * Sie können das Aussehen von Pins unter "Einstellungen -> Standard-Formeigenschaften -> Bildzeichenform" ändern.
-* Wenn Sie die Reihenfolge, in der die Popups in der Diashow angezeigt werden, ändern wollen, tun Sie das, indem Sie ihren Objekten eine eigene Eigenschaft (zum Beispiel "Index") hinzufügen und diesen dann unter Einstellungen -> Standardeigenschaften -> Sortierschlüssel auswählen. (Hier wird Ihnen keine Auswahl gestellt - Sie müssen den Namen des Feldes selber eintragen!)
+* Wenn Sie die Reihenfolge, in der die Popups in der Diashow angezeigt werden, ändern wollen, tun Sie das, indem Sie ihren Objekten eine eigene Eigenschaft (zum Beispiel "Index") hinzufügen. Um Ihren Objekten weitere Eigenschaften hinzuzufügen, müssen Sie auf die Ebenenverwaltung image:../../bilder/umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] gehen und dann auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:../../bilder/umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25] klicken. Oben in der Seitenleiste erscheint dann eine Schaltfläche image:../../bilder/umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20]. Diese Eigenschaft können Sie dann unter Einstellungen -> Standardeigenschaften -> Sortierschlüssel auswählen. (Hier wird Ihnen keine Auswahl gestellt - Sie müssen den Namen des Feldes selber eintragen!)
 * Sie können die Informationen des Popups auch in der Seitenleiste anzeigen lassen. Dazu gehen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popupstil" und wählen "Seitenleiste" aus. Nach dem Speichern und Erneuern der Website, sollten die Popup-Informationen in der Seitenleiste angezeigt werden.
 
 uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
