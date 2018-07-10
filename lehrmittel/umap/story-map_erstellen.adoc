@@ -44,6 +44,32 @@ image::../../bilder/umap/story-map_erstellen/objekte_einzeichnen_in_umap.png[]
   * Sie können Ihren Objekten weitere Eigenschaften hinzufügen, indem Sie auf die Ebenenverwaltung image:../../bilder/umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] gehen und dann auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:../../bilder/umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25] klicken. Oben in der Seitenleiste erscheint dann eine Schaltfläche image:../../bilder/umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20].
 * Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:../../bilder/umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] -> Diashow -> Diashowmodus" aktivieren. Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
 
+== Beschreibung hinzufügen
+
+Da Sie nun verschiedene Punkte der Karte hinzugefügt haben, können wir jetzt jeden Punkt noch mit einer Beschreibung ergänzen. Diese Beschreibungen werden während der Diashow dargestellt.
+
+Um eine Beschreibung hinzuzufügen, klicken Sie auf den Punkt, den Sie editieren möchten (im Editiermodus) und schreiben Sie ihren Text in die Box "Beschreibung".
+
+[NOTE]
+====
+Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
+
+	* Um eine kursive Schrift zu machen, brauchen Sie `*Ein Stern*`.
+	* Um eine fette Schrift zu machen, brauchen Sie `**Zwei Sterne**`.
+	* Um Überschriften zu machen brauchen Sie `# Titel`. Je mehr `#` desto kleiner die Überschrift.
+====
+
+Um ein Bild in die Beschreibung hinzuzufügen, brauchen Sie zuerst den Link zum Bild.
+Danach brauchen Sie folgenden Text einzugeben: `{{Hier der Link zum Bild}}`
+
+Ihre Beschreibung sollte nun etwa so aussehen: Bild
+
+IMPORTANT: Vergewissern Sie sich, dass der Link eine korrekte Endung hat, wie zum Beispiel `.jpeg, .jpg, .png, .svg` etc.
+
+Fügen Sie nun jedem Punkt eine Beschreibung hinzu und wenn Sie zufrieden sind mit dem Ergebnis können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
+
+Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten.
+
 == Optionale Einstellungen
 
 * Sie können das Aussehen von Pins unter "Einstellungen -> Standard-Formeigenschaften -> Bildzeichenform" ändern.
