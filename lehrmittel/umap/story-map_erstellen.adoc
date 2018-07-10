@@ -43,8 +43,8 @@ image::../../bilder/umap/story-map_erstellen/uMap_homepage.png[]
 
 Da Sie nun verschiedene Punkte der Karte hinzugefügt haben, können wir jetzt jeden Punkt noch mit einer Beschreibung ergänzen. Diese Beschreibungen werden während der Diashow dargestellt.
 
-Um eine Beschreibung hinzuzufügen, klicken Sie auf den Punkt, den Sie editieren möchten (im Editiermodus) und schreiben Sie ihren Text in die Box "Beschreibung".
-Schreiben Sie zusätzlich in der Textbox Name noch einen geeigneten Namen für den Punkt, da wir diesen später brauchen werden.
+Um eine Beschreibung hinzuzufügen, klicken Sie (im Editiermodus) auf den Punkt, den Sie editieren möchten und schreiben Sie Ihren Text in die Box "Beschreibung".
+Schreiben Sie zusätzlich in die Textbox "Name" noch einen geeigneten Namen für den Punkt, da wir diesen später brauchen werden.
 
 [NOTE]
 ====
@@ -53,10 +53,12 @@ Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
 	* Um eine kursive Schrift zu machen, brauchen Sie `+*Ein Stern*+`.
 	* Um eine fette Schrift zu machen, brauchen Sie `+**Zwei Sterne**+`.
 	* Um Überschriften zu machen brauchen Sie `# Titel`. Je mehr `#` desto kleiner die Überschrift.
+	
+	Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Textbox von "Beschreibung" klicken.
 ====
 
 Um ein Bild in die Beschreibung hinzuzufügen, brauchen Sie zuerst den Link zum Bild.
-Danach brauchen Sie folgenden Text einzugeben: `{{Hier der Link zum Bild}}`
+Wenn der Link "https://www.example.com/picture.png" ist, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
 
 Ihre Beschreibung sollte nun etwa so aussehen:
 
@@ -64,9 +66,12 @@ image::../../bilder/umap/story-map_erstellen/beschreibung.PNG["Text in der Besch
 
 IMPORTANT: Vergewissern Sie sich, dass der Link eine korrekte Endung hat, wie zum Beispiel `.jpeg, .jpg, .png, .svg` etc.
 
-Fügen Sie nun jedem Punkt eine Beschreibung hinzu und wenn Sie zufrieden sind mit dem Ergebnis können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
+//Stimmt es, dass der Link mit einer Bilddateiendung aufhören muss?
+
+Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit dem Ergebnis, können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
 
 Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Storymap anschauen.
+Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
 
 == Optionale Einstellungen
 
