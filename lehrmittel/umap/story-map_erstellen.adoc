@@ -36,11 +36,7 @@ Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können.
   * Erstellen Sie eine neue Karte. +
 +
 image::../../bilder/umap/story-map_erstellen/uMap_homepage.png[]
-  * Tragen Sie Punkte image:../../bilder/umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25], Linien image:../../bilder/umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] ein, die Sie gerne auf der Map hätten.
-+
-.Kartendaten (C) OpenStreetMap Contributors
-[caption=""]
-image::../../bilder/umap/story-map_erstellen/objekte_einzeichnen_in_umap.png[]
+  * Tragen Sie Punkte image:../../bilder/umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] ein, die Sie gerne auf der Map hätten. Sie können auch Linien image:../../bilder/umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] auf die Karte eintragen wenn Sie möchten.
   * Sie können Ihren Objekten weitere Eigenschaften hinzufügen, indem Sie auf die Ebenenverwaltung image:../../bilder/umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] gehen und dann auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:../../bilder/umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25] klicken. Oben in der Seitenleiste erscheint dann eine Schaltfläche image:../../bilder/umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20].
 * Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:../../bilder/umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] -> Diashow -> Diashowmodus" aktivieren. Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
 
