@@ -58,7 +58,9 @@ Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
 Um ein Bild in die Beschreibung hinzuzufügen, brauchen Sie zuerst den Link zum Bild.
 Danach brauchen Sie folgenden Text einzugeben: `{{Hier der Link zum Bild}}`
 
-Ihre Beschreibung sollte nun etwa so aussehen: Bild
+Ihre Beschreibung sollte nun etwa so aussehen:
+
+image::../../bilder/umap/story-map_erstellen/beschreibung.PNG["Text in der Beschreibung", 293, 418]
 
 IMPORTANT: Vergewissern Sie sich, dass der Link eine korrekte Endung hat, wie zum Beispiel `.jpeg, .jpg, .png, .svg` etc.
 
