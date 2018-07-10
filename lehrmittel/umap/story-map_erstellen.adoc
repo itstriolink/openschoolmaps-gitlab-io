@@ -73,23 +73,27 @@ Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit 
 Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Storymap anschauen.
 Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
 
-== Optionale Einstellungen
+== Darstellung ändern (Optional)
 
 * Sie können das Aussehen von Pins unter "Einstellungen -> Standard-Formeigenschaften -> Bildzeichenform" ändern.
-* Wenn Sie die Reihenfolge, in der die Popups in der Diashow angezeigt werden, ändern wollen, tun Sie das, indem Sie ihren Objekten eine eigene Eigenschaft (zum Beispiel "Index") hinzufügen. Um Ihren Objekten weitere Eigenschaften hinzuzufügen, müssen Sie auf die Ebenenverwaltung image:../../bilder/umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] gehen und dann auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:../../bilder/umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25] klicken. Oben in der Seitenleiste erscheint dann eine Schaltfläche image:../../bilder/umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20]. Diese Eigenschaft können Sie dann unter Einstellungen -> Standardeigenschaften -> Sortierschlüssel auswählen. (Hier wird Ihnen keine Auswahl gestellt - Sie müssen den Namen des Feldes selber eintragen!)
 * Sie können die Informationen des Popups auch in der Seitenleiste anzeigen lassen. Dazu gehen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popupstil" und wählen "Seitenleiste" aus. Nach dem Speichern und Erneuern der Website, sollten die Popup-Informationen in der Seitenleiste angezeigt werden.
 
-== Merkmale hinzufügen (Fortgeschritten)
+== Reihenfolge der Diashow steuern (Für Fortgeschrittene)
+
+Um die Reihenfolge der Orte in der Diashow zu steuern, müssen wir diesen einen Sortierschlüssel hinzufügen. Öffnen Sie dazu die Ebenenverwaltung image:../../bilder/umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] und klicken Sie auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:../../bilder/umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25]. Klicken Sie dort auf die Schaltfläche image:../../bilder/umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20] und geben Sie einen Namen (zum Beispiel "Index") ein. Nun können Sie für jeden Ort einen Wert in der Spalte "index" eingeben mit dem die Website die Reihenfolge sortieren kann. Da die Tabelle in uMap lexiographisch sortiert, wird zum Beispiel die Nummer 20 vor der Nummer 3 vorkommen. Um das zu verhindern sollten Sie zum Beispiel Werte wie 1000 und aufwärts brauchen um zu sortieren. Wenn Sie für jede Ortschaft einen Sortierschlüssel hinzugefügt haben, können müssen Sie dann unter Einstellungen -> Standardeigenschaften -> Sortierschlüssel die neu erstellte Sortierschlüssel-Spalte auswählen. (Hier wird Ihnen keine Auswahl gestellt - Sie müssen den Namen des Feldes selber eintragen!)
+
+== Merkmale hinzufügen (Für Fortgeschrittene)
 
 Für eine kleine Storymap wie die, die wir jetzt gerade erstellt haben, ist es einfacher wenn wir die Beschreibung immer selber schreiben. Doch wenn wir sehr viele Punkte auf der Karte haben, kann es sehr mühsam sein für jeden Punkt einzeln die Beschreibung zu schreiben. Um uns diesen Vorgang zu vereinfachen, können wir diese Informationen mit Merkmalen speichern.
 
-Um ein Merkmal zu erstellen, gehen Sie im Editiermodus auf die Ebenenverwaltung image:../../bilder/umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25]. Danach klicken sie oben im Ebenenmenu auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:../../bilder/umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25]. Nun sollten Sie eine Tabelle in der Seitenleiste sehen mit einer Spalte "name". Erstellen Sie nun weitere Spalten indem Sie auf die Schaltfläche image:../../bilder/umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20] klicken. Zwei weitere Spalten, die sie sicherlich brauchen sind "bildurl" und "text". Wir haben im Beispiel noch eine weitere Spalte "oeffnungszeiten" hinzugefügt. Diese ist jedoch optional und natürlich können Sie auch andere Spalten hinzufügen wenn Sie möchten.
+Wie Sie im vorherigen Schritt "Reihenfolge der Diashow steuern" gelernt haben, müssen Sie hier auch neue Merkmale der Tabelle hinzufügen.
+Zwei weitere Spalten, die sie sicherlich brauchen sind "bildurl" und "text". Wir haben im Beispiel noch eine weitere Spalte "oeffnungszeiten" hinzugefügt. Diese ist jedoch optional und natürlich können Sie auch andere Spalten hinzufügen wenn Sie möchten.
 
 Füllen Sie die neu erstellten Spalten mit Werten und schliessen Sie die Seitenleiste wieder. Das Ergebnis sollte etwa so aussehen:
 
 image::../../bilder/umap/story-map_erstellen/merkmale_gefuellt.PNG["Gefüllte Merkmalen-Tabelle"]
 
-Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie für jeden Punkt die Beschreibung mit diesem Text ersetzten:
+Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popup Vorlage" diesen Text einfügen:
 
 ....
 {text}
@@ -99,7 +103,7 @@ Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie für jeden Punk
 
 NOTE: Wenn Sie keine Spalte "oeffungszeiten" haben oder generell andere Spaltennamen genutzt haben, müssen Sie diese entsprechend abändern oder entfernen.
 
-Von nun an müssen Sie für die neuen Punkte auf der Karte nur noch die Informationen in der Tabelle ergänzen und in der Beschreibung den obigen Text eingeben.
+Von nun an müssen Sie für die neuen Punkte auf der Karte nur noch die Informationen in der Tabelle ergänzen und danach wird der Anzeigetext für das Popup automatisch zusammengestellt.
 
 uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
 
