@@ -50,8 +50,8 @@ Um eine Beschreibung hinzuzufügen, klicken Sie auf den Punkt, den Sie editieren
 ====
 Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
 
-	* Um eine kursive Schrift zu machen, brauchen Sie `*Ein Stern*`.
-	* Um eine fette Schrift zu machen, brauchen Sie `**Zwei Sterne**`.
+	* Um eine kursive Schrift zu machen, brauchen Sie `+*Ein Stern*+`.
+	* Um eine fette Schrift zu machen, brauchen Sie `+**Zwei Sterne**+`.
 	* Um Überschriften zu machen brauchen Sie `# Titel`. Je mehr `#` desto kleiner die Überschrift.
 ====
 
