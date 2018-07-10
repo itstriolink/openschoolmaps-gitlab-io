@@ -82,7 +82,7 @@ Um ein Merkmal zu erstellen, gehen Sie im Editiermodus auf die Ebenenverwaltung 
 
 Füllen Sie die neu erstellten Spalten mit Werten und schliessen Sie die Seitenleiste wieder. Das Ergebnis sollte etwa so aussehen:
 
-Bild
+image::../../bilder/umap/story-map_erstellen/merkmale_gefuellt.PNG["Gefüllte Merkmalen-Tabelle"]
 
 Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie für jeden Punkt die Beschreibung mit diesem Text ersetzten:
 
