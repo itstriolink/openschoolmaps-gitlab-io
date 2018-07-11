@@ -60,7 +60,7 @@ image::../../bilder/umap/lageplan_erstellen/weg_platzieren.PNG[]
 [caption=""]
 image::../../bilder/umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
-Wenn Sie mit ihrem Lageplan zufrieden sind, können Sie auf die Schaltfläche "Speichern" oben rechts klicken. Danach können Sie noch den Editiermodus verlassen, indem Sie auf den Schriftzug "Bearbeiten deaktivieren", auch oben rechts, klicken.
+Wenn Sie mit Ihrem Lageplan zufrieden sind, können Sie auf die Schaltfläche "Speichern" oben rechts klicken. Danach können Sie noch den Editiermodus verlassen, indem Sie auf den Schriftzug "Bearbeiten deaktivieren", auch oben rechts, klicken.
 Sie haben nun erfolgreich Ihren ersten Lageplan erstellt mit uMap!
 
 uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
