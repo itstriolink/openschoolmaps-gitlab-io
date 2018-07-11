@@ -1,4 +1,4 @@
-==Willkommen bei OpenSchoolMaps!
+= Was ist OpenSchoolMaps?
 
 :date: 2018-07-11
 :category: OpenSchoolMaps
@@ -6,8 +6,6 @@
 :status: hidden
 :url:
 :save_as: index.html
-
-== Was ist OpenSchoolMaps?
 
 OpenSchoolMaps.ch
 ist ein Projekt zur Förderung
