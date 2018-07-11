@@ -83,7 +83,7 @@ Um die Reihenfolge der Orte in der Diashow zu steuern, müssen wir diesen einen 
 Für eine kleine Storymap wie die, die wir jetzt gerade erstellt haben, ist es einfacher wenn wir die Beschreibung immer selber schreiben. Doch wenn wir sehr viele Punkte auf der Karte haben, kann es sehr mühsam sein für jeden Punkt einzeln die Beschreibung zu schreiben. Um uns diesen Vorgang zu vereinfachen, können wir diese Informationen mit Merkmalen speichern.
 
 Wie Sie im vorherigen Schritt "Reihenfolge der Diashow steuern" gelernt haben, müssen Sie hier auch neue Merkmale der Tabelle hinzufügen.
-Zwei weitere Spalten, die sie sicherlich brauchen sind "bildurl" und "text". Wir haben im Beispiel noch eine weitere Spalte "oeffnungszeiten" hinzugefügt. Diese ist jedoch optional und natürlich können Sie auch andere Spalten hinzufügen wenn Sie möchten.
+Zwei weitere Spalten, die Sie sicherlich brauchen, sind "bildurl" und "text". Wir haben im Beispiel noch eine weitere Spalte "oeffnungszeiten" hinzugefügt. Diese ist jedoch optional und natürlich können Sie auch andere Spalten hinzufügen, wenn Sie möchten.
 
 Füllen Sie die neu erstellten Spalten mit Werten und schliessen Sie die Seitenleiste wieder. Das Ergebnis sollte etwa so aussehen:
 
