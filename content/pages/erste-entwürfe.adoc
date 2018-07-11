@@ -1,11 +1,11 @@
 = Entwürfe Arbeitsblätter und Anleitungen
 
-:date: 2018-07-03
+:date: 2018-07-11
 :category: OpenSchoolMaps
 :tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
 :slug: erste-entwürfe
 
-Erste Entwürfe der geplanten Arbeitsblätter und Anleitungen
+Erste Unterrichtsmaterialien
 sind auf GitLab
 https://gitlab.com/openschoolmaps/openschoolmaps.ch/-/jobs/artifacts/master/browse/lehrmittel?job=PDFs[als PDFs]
 verfügbar.
