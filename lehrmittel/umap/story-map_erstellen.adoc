@@ -58,7 +58,7 @@ Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Te
 ====
 
 Um ein Bild in die Beschreibung hinzuzufügen, brauchen Sie zuerst den Link zum Bild.
-Wenn der Link "https://www.example.com/picture.png" ist, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
+Wenn der Link `https://www.example.com/picture.png` ist, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
 
 Ihre Beschreibung sollte nun etwa so aussehen:
 
