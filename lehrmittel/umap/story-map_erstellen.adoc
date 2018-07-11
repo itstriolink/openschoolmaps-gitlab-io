@@ -64,10 +64,6 @@ Ihre Beschreibung sollte nun etwa so aussehen:
 
 image::../../bilder/umap/story-map_erstellen/beschreibung.PNG["Text in der Beschreibung", 293, 418]
 
-IMPORTANT: Vergewissern Sie sich, dass der Link eine korrekte Endung hat, wie zum Beispiel `.jpeg, .jpg, .png, .svg` etc.
-
-//Stimmt es, dass der Link mit einer Bilddateiendung aufhören muss?
-
 Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit dem Ergebnis, können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
 
 Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Storymap anschauen.
