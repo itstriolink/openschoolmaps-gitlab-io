@@ -1,3 +1,9 @@
+==Weitere Unterrichtsideen
+
+:date: 2018-07-11
+:category: OpenSchoolMaps
+:tags: Unterricht, Ideen, PDF
+:slug: weitere-unterrichtsideen
 Inspirieren lassen können Sie sich von https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel.
 
 Die HSR übernimmt Patenschaften für Maturaarbeiten. Mit OpenStreetMap lassen sich interessante Spiele und "Maps" gestalten. So ist z.B. https://kastgames.com/?page=Globat%20Pixels&pageid=12[das Spiel  "Globat Pixel"] entstanden. Interessenten melden sich bei Prof. Stefan Keller.
