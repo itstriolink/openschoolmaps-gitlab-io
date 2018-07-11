@@ -36,7 +36,7 @@ Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können.
   * Erstellen Sie eine neue Karte. +
 +
 image::../../bilder/umap/story-map_erstellen/uMap_homepage.png[]
-  * Tragen Sie Punkte image:../../bilder/umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] ein, die Sie gerne auf der Map hätten. Sie können auch Linien image:../../bilder/umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] auf die Karte eintragen wenn Sie möchten.
+  * Tragen Sie Punkte image:../../bilder/umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] ein, die Sie gerne auf der Map hätten. Sie können auch Linien image:../../bilder/umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] auf die Karte eintragen, wenn Sie möchten.
 * Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:../../bilder/umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] -> Diashow -> Diashowmodus" aktivieren. Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
 
 == Beschreibung hinzufügen
