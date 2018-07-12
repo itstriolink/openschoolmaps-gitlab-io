@@ -9,36 +9,26 @@
 
 === OSM.org als Kartenviewer:
 
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_osm-org_kennenlernen.pdf?job=PDFs[OSM.org kennenlernen]
 
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_osm-org_kennenlernen.pdf[OSM.org kennenlernen]
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/02_osm-org_im_alltag_nutzen.pdf?job=PDFs[OSM.org im Alttag nutzen]
 
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/02_osm-org_im_alltag_nutzen.pdf[OSM.org im Alttag nutzen]
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_osm-daten_untersuchen.pdf?job=PDFs[OSM-Daten untersuchen]
 
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_osm-daten_untersuchen.pdf[OSM-Daten untersuchen]
-
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf[Infos für Lehrpersonen]
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Infos für Lehrpersonen]
 
 === OSM bearbeiten:
 
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/arbeitsblaetter_fuer_sus/osm_bearbeiten.pdf?job=PDFs[OSM bearbeiten]
 
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/osm_bearbeiten/arbeitsblaetter_fuer_sus/osm_bearbeiten.pdf[OSM bearbeiten]
-
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/osm_bearbeiten/infos_fuer_lp/osm_bearbeiten_lp-infos.pdf[Infos für Lehrperson]
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/infos_fuer_lp/osm_bearbeiten_lp-infos.pdf?job=PDFs[Infos für Lehrperson]
 
 === uMap:
 
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs[Lageplan erstellen]
 
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/umap/lageplan_erstellen.pdf[Lageplan erstellen]
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/story-map_erstellen.pdf?job=PDFs[Storymap erstellen]
 
-* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/80438147/artifacts/file/lehrmittel/umap/story-map_erstellen.pdf[Storymap erstellen]
-
-////
-Erste Unterrichtsmaterialien
-sind auf GitLab
-https://gitlab.com/openschoolmaps/openschoolmaps.ch/-/jobs/artifacts/master/browse/lehrmittel?job=PDFs[als PDFs]
-verfügbar.
-(https://gitlab.com/openschoolmaps/openschoolmaps.ch/-/jobs/artifacts/master/download?job=PDFs[alle Herunterladen])
-////
 Diese PDFs werden
 aus den https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc]-Dateien
 in https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel
