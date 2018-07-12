@@ -25,7 +25,7 @@ Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher 
 
 == Navigation (Routen-Planung)
 
-Mit der OpenStreetMap-Geodatensammlung können Computer mehr machen, als "nur" Karten zu zeichnen! Die Such-Funktion, die wir bereits angesehen haben, verwendet die selben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
+Mit der OpenStreetMap-Geodatensammlung können Computer mehr machen, als "nur" Karten zu zeichnen! Die Such-Funktion, die wir bereits angesehen haben, verwendet dieselben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
 
 Auch Wege von A nach B zu finden, ist mit den OpenStreetMap-Daten möglich. Das geht so:
 
@@ -53,7 +53,7 @@ Angabe in Metern oder Kilometern
 
 _Line_
 
-Stimmt die vorrausgesagte Dauer mit deiner Erfahrung überein?
+Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 
 _Line_
 
@@ -84,4 +84,4 @@ _Line_
 
 == Positionen (mit)teilen
 
-Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhälst du einen solchen wenn du auf den "Teilen"-Knopf rechts klickst.
+Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen wenn du auf den "Teilen"-Knopf rechts klickst.
