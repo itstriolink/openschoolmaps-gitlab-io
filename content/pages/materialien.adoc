@@ -11,11 +11,15 @@
 
 * https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_osm-org_kennenlernen.pdf?job=PDFs[OSM.org kennenlernen]
 
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_osm-org_kennenlernen_solutions.pdf?job=PDFs[OSM.org kennenlernen Lösungen]
+
 * https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/02_osm-org_im_alltag_nutzen.pdf?job=PDFs[OSM.org im Alttag nutzen]
 
 * https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_osm-daten_untersuchen.pdf?job=PDFs[OSM-Daten untersuchen]
 
 * https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Infos für Lehrpersonen]
+
+* https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos_solutions.pdf?job=PDFs[Infos für Lehrpersonen mit Lösungen] zu den fortgeschrittenen Aufgaben
 
 === OSM bearbeiten:
 
