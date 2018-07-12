@@ -281,5 +281,4 @@ endif::show_solutions[]
 
 Noch Fragen? Wende dich an OSM Schweiz (info@osm.ch) oder Stefan Keller (sfkeller@hsr.ch)!
 
-
-
+include::../../../snippets/kontaktinformationen.adoc[]
