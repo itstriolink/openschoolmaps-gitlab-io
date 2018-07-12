@@ -44,7 +44,7 @@ NOTE: Alternativ kann man auch mit einem Google-, Facebook- oder Microsoft-Konto
 
 == Sprache umstellen (falls nötig)
 
-Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgerndermassen ändern:
+Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
 
 1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
 2. Wähle im Dropdown-Menü "Settings" aus

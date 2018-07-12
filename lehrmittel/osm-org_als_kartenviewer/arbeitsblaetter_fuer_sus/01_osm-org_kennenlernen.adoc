@@ -69,7 +69,7 @@ wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)
 kleiner dargestellt werden. Beschriftungen und Kartensymbole
 bleiben jedoch ungefähr gleich gross.
 
-(Je weiter man heraus-zoomt um so mehr Details und
+(Je weiter man heraus-zoomt umso mehr Details und
 Beschriftungen werden weggelassen.)
 
 (Falls man bereits ganz rausgezoomt ist
@@ -81,7 +81,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Was denkst du, was der `+`-Knopf macht? Probier es aus!
+Was denkst du, was der `+`-Knopf macht? Probiere es aus!
 
 ====
 ifdef::show_solutions[Zoomt "herein"]
@@ -163,7 +163,7 @@ Suche das Haus, in dem du wohnst. Lässt es sich über deine Adresse finden?
 {empty} +
 ====
 
-Falls nicht, suche es wieder duch verschieben und zoomen der Karte.
+Falls nicht, suche es wieder durch verschieben und zoomen der Karte.
 
 Versuche, andere dir bekannte Orte so zu finden.
 
@@ -256,7 +256,7 @@ endif::show_solutions[]
 
 Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den "i"-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
 
-Je weiter du herein-zoomst, um so mehr Details werden auf der Karte dargestellt und um so länger wird auch diese Kartenlegende.
+Je weiter du herein-zoomst, umso mehr Details werden auf der Karte dargestellt und umso länger wird auch diese Kartenlegende.
 
 Welche Bedeutung haben die verschieden dicken violetten Linien?
 
@@ -264,7 +264,7 @@ Welche Bedeutung haben die verschieden dicken violetten Linien?
 ifdef::show_solutions[]
 Das sind politische Grenzen.
 
-Je höher die "Einheit", um so dicker die Linie:
+Je höher die "Einheit", umso dicker die Linie:
 Landesgrenzen sind dicker dargestellt als Kantonsgrenzen
 und diese wiederum dicker als Bezirks- und Gemeindegrenzen.
 
