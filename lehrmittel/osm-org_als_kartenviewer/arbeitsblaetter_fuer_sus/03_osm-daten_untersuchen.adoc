@@ -61,3 +61,5 @@ Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert w
 ====
 
 image::../../../bilder/osm-org_als_kartenviewer/sticky_note.jpg[Sticky note, 715, 473]
+
+include::../../../snippets/kontaktinformationen.adoc[]

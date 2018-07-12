@@ -104,3 +104,5 @@ Von nun an müssen Sie für die neuen Punkte auf der Karte nur noch die Informat
 uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
 
 IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
+
+include::../../../snippets/kontaktinformationen.adoc[]
