@@ -25,6 +25,8 @@ Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMa
 [caption=""]
 image::../../bilder/umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
+Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+
 Sie werden für das Beispiel etwa 10-15 Minuten brauchen.
 
 Die Internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
@@ -58,8 +60,8 @@ image::../../bilder/umap/lageplan_erstellen/weg_platzieren.PNG[]
 [caption=""]
 image::../../bilder/umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
-
-Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+Wenn Sie mit Ihrem Lageplan zufrieden sind, können Sie auf die Schaltfläche "Speichern" oben rechts klicken. Danach können Sie noch den Editiermodus verlassen, indem Sie auf den Schriftzug "Bearbeiten deaktivieren", auch oben rechts, klicken.
+Sie haben nun erfolgreich Ihren ersten Lageplan mit uMap erstellt!
 
 uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
 
