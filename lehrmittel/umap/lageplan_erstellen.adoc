@@ -27,7 +27,7 @@ image::../../bilder/umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
 
-Sie werden für das Beispiel etwa 10-15 Minuten brauchen.
+Sie werden für das Beispiel etwa 10-15 Minuten brauchen. Als Mittel dienen ein beliebiges Gerät mit Internetzugang und die uMap-Website.
 
 Die Internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
 
