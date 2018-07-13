@@ -7,7 +7,7 @@
 :url:
 :save_as: index.html
 
-image::{filename}/images/schoolkids.jpg[]
+//image::{filename}/images/schoolkids.jpg[]
 
 OpenSchoolMaps.ch
 ist ein Projekt zur Förderung
