@@ -33,3 +33,5 @@ Diese PDFs werden
 aus den https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc]-Dateien
 auf https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel[dieser Seite]
 erzeugt.
+
+Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmaterialien verbessern kann, schauen Sie sich die Seite "Weitere Unterrichtsideen" an.
