@@ -105,4 +105,4 @@ uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org)
 
 IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
 
-include::../../../snippets/kontaktinformationen.adoc[]
+include::../../snippets/kontaktinformationen.adoc[]
