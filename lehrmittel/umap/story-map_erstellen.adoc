@@ -17,7 +17,7 @@ endif::[]
 
 //(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
 
-Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. Eine Story-Map ist eine Karte mit Punkten, zu denen periodisch zu einem der Punkte mehr Informationen wie Bilder und Beschreibungen angezeigt werden.
+Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. Laut Esri ermöglicht eine Story-Map eine ansprechende und informative Kombination aus öffentlich verfügbaren Karten, begleitendem Text, Bildern und Multimedia-Inhalten.
 So sieht die Karte aus, die wir erstellen werden:
 
 .Kartendaten (C) OpenStreetMap Contributors
