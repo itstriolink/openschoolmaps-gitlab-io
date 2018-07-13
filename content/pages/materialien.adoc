@@ -31,5 +31,5 @@
 
 Diese PDFs werden
 aus den https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc]-Dateien
-in https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel
+auf https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel[dieser Seite]
 erzeugt.
