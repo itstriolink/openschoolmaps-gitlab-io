@@ -29,9 +29,9 @@
 
 * Storymap erstellen (https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/story-map_erstellen.pdf?job=PDFs[Arbeitsblatt])
 
-Diese PDFs werden
-aus den https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc]-Dateien
-auf https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel[dieser Seite]
+Diese Arbeitsblätter (PDFs) werden
+aus den Dateien
+auf https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel[dieser Seite], die in der Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc] geschrieben sind,
 erzeugt.
 
 Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmaterialien verbessern kann, schauen Sie sich die Seite "Weitere Unterrichtsideen" an.
