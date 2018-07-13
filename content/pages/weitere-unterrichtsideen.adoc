@@ -7,3 +7,9 @@
 Inspirieren lassen können Sie sich von https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel.
 
 Die HSR übernimmt Patenschaften für Maturaarbeiten. Mit OpenStreetMap lassen sich interessante Spiele und "Maps" gestalten. So ist z.B. https://kastgames.com/?page=Globat%20Pixels&pageid=12[das Spiel  "Globat Pixel"] entstanden. Interessenten melden sich bei Prof. Stefan Keller.
+
+Sie wollen zu OpenSchoolMaps beitragen? Das können Sie auf verschiedene Arten:
+
+- Laden Sie die PDF-Dateien runter und annotieren Sie Verbesserungsvorschläge an den entsprechenden Stellen. Diese PDF's können Sie uns dann Emailen.
+- Erstellen Sie https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=[hier] einen Issue (Verbesserungsvorschlag), den das Entwicklungsteam umsetzen soll.
+- Falls Sie Erfahrung mit Git haben, können Sie auch einfach einen Pull Request mit Ihren Änderungen einreichen. 
