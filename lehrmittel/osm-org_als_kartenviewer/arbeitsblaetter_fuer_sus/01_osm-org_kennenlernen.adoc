@@ -278,5 +278,3 @@ ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
-
-include::../../../snippets/kontaktinformationen.adoc[]

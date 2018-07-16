@@ -13,6 +13,8 @@ ifdef::backend-pdf[]
 endif::[]
 // END OF suppress title page HACK
 
+*Ein Arbeitsblatt für Lehrpersonen*
+
 .Ziel
 Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.
 
@@ -69,8 +71,3 @@ Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und
 === Aufgabe für fortgeschrittene SuS / höhere Klassen:
 
 Zoome so weit heraus, dass du ganze Kontinente oder gar die ganze Erde siehst. Dann verschiebe die Karte nord- oder südwärts ohne zu zoomen. Wieso verändert sich dabei der Maßstab?
-
-
-
-
-include::../../../snippets/kontaktinformationen.adoc[]
