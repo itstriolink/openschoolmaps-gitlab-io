@@ -21,7 +21,7 @@ am Beispiel eines Anlasses beim Schulhaus
 == Ziel dieser Anleitung
 Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMap eine Karte zu erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
 
-.Kartendaten (C) OpenStreetMap Contributors
+.Abbildung 1. Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
 image::../../bilder/umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
@@ -44,19 +44,19 @@ Als Beispiel wird ein Sportevent einer Schule verwendet.
 4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-Icon image:../../bilder/umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25]. Diesen können Sie dann auf der Map platzieren.
 
 +
-.Kartendaten (C) OpenStreetMap Contributors
+.Abbildung 2. Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
 image::../../bilder/umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
 5. Eine weitere Möglichkeit ist, einen Weg image:../../bilder/umap/weg_icon.PNG["Weg-Icon", 25, 25] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
 
 +
-.Kartendaten (C) OpenStreetMap Contributors
+.Abbildung 3. Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
 image::../../bilder/umap/lageplan_erstellen/weg_platzieren.PNG[]
 6. Für Flächen, klicken sie auf das Flächensymbol image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25]. Wir haben hier den Sportplatz eingezeichnet.
 
 +
-.Kartendaten (C) OpenStreetMap Contributors
+.Abbildung 4. Kartendaten (C) OpenStreetMap Contributors
 [caption=""]
 image::../../bilder/umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
