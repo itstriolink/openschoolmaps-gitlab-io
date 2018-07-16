@@ -29,7 +29,7 @@ Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir Ope
 
 == Sprache umstellen (falls nötig)
 
-Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgerndermassen ändern:
+Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
 
 1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
 2. Wähle im Dropdown-Menü "Settings" aus
@@ -60,10 +60,14 @@ Innerhalb von 5–30 Minuten werden deine Änderungen durchgeführt und auf die 
 OpenStreetMap speichert Objekt-Eigenschaften in Form von so genannten Tags.
 Diese siehst du auf der linken Seite im iD-Editor, nachdem du ein Objekt angewählt hast.
 
+.Abbildung 1
+[caption=""]
 image::../../../bilder/osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 295, 394]
 
 Wenn du das Feld "Alle Eigenschaften" aufklappst, sieht du alle Tags des Objekts.
 
+.Abbildung 2
+[caption=""]
 image::../../../bilder/osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
 Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet nachschauen.

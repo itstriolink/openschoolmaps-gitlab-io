@@ -43,7 +43,7 @@ Die Daten-Objekte werden als blaue Kreise (für Punkt-Objekte) und Linien (für 
 
 == OpenStreetMap verbessern helfen
 
-Wie von der Willkommensnachricht verkündet, werden die OpenStreetMap-Daten von Menschen wie dir zusammengetragen. Auch ohne Einarbeitung kannst du zur Verbesserung von OpenStreetMap beitragen, in dem du die OpenStreetMap-Gemeinschaft auf Fehler und Auslassungen hinweist.
+Wie von der Willkommensnachricht verkündet, werden die OpenStreetMap-Daten von Menschen wie dir zusammengetragen. Auch ohne Einarbeitung kannst du zur Verbesserung von OpenStreetMap beitragen, indem du die OpenStreetMap-Gemeinschaft auf Fehler und Auslassungen hinweist.
 
 Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schulgebäude? Oder gibt es in der Umgebung der Schule ein Bänkli, einen Brunnen oder einen Abfallkübel, der noch nicht eingetragen ist? Oder ist dir auf der Karte sogar etwas aufgefallen was falsch oder veraltet ist?
 
@@ -51,13 +51,13 @@ Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schul
 
 Um die OpenStreetMap-Gemeinschaft auf so etwas hinzuweisen, kannst du eine Notiz erstellen. Klicke dazu auf den zweituntersten Knopf rechts. (Den mit der Sprechblase und dem "+" als Icon.)
 
-Auf der Karte erscheint eine Positions-Nadel mit "+"-Zeichen. Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zur Zeit falsch ist.
+Auf der Karte erscheint eine Positions-Nadel mit "+"-Zeichen. Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zurzeit falsch ist.
 
 [NOTE]
 ====
 Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. Man kann sie sich wie einen leicht wieder entfernbaren Klebezettel (auch bekannt als "Post-It") vorstellen, auf den man etwas schreibt, und den man auf die Karte klebt. Du brauchst also keine Angst haben, dabei Fehler zu machen!
 
-Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter Anderem, weil das doch am meisten Spass macht).
+Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter anderem, weil das doch am meisten Spass macht).
 ====
 
 image::../../../bilder/osm-org_als_kartenviewer/sticky_note.jpg[Sticky note, 715, 473]
