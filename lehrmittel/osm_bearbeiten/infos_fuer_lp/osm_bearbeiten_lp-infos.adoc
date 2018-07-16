@@ -18,7 +18,7 @@ mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eint
 *Ein Arbeitsblatt für Lehrpersonen*
 
 
-Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
+Auf OpenStreetMap können Sie nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchen Sie zuerst ein Benutzerkonto.
 
 == Zeitplanung
 
@@ -36,20 +36,20 @@ Für diese Aufgabe ist ein OSM-Konto benötigt
 
 == Benutzerkonto erstellen und anmelden
   
-Um ein Benutzerkonto zu erstellen drückst du auf die Schaltfläche "Registrieren" oben rechts. Dazu musst du deine Email-Adresse angeben und dir einen Benutzername und ein Passwort aussuchen. Falls du bereits ein OpenStreetMap-Benutzerkonto hast, kannst du stattdessen natürlich direkt auf "Anmelden" klicken.
+Um ein Benutzerkonto zu erstellen drücken Sie auf die Schaltfläche "Registrieren" oben rechts. Dazu müssen Sie Ihre Email-Adresse angeben und sich einen Benutzernamen und ein Passwort aussuchen. Falls Sie bereits ein OpenStreetMap-Benutzerkonto haben, können Sie stattdessen natürlich direkt auf "Anmelden" klicken.
 
-Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir OpenStreetMap ein Email und die Adresse, die du angegeben hast, um zu prüfen, ob du wirklich über diese Email-Adresse erreichbar bist. In dieser Email-Nachricht wirst du einen Bestätigungs-Link finden, den du besuchen musst, um die Registrierung abzuschliessen.
+Nachdem Sie die Registrierung abgeschlossen haben, schickt Ihnen OpenStreetMap eine Email und die Adresse, die Sie angegeben haben, um zu prüfen, ob Sie wirklich über diese Email-Adresse erreichbar sind. In dieser Nachricht werden Sie einen Bestätigungs-Link finden, den Sie besuchen müssen, um die Registrierung zu vervollständigen.
 
-NOTE: Alternativ kann man auch mit einem Google-, Facebook- oder Microsoft-Konto einloggen.
+NOTE: Alternativ kann man sich auch mit einem Google-, Facebook- oder Microsoft-Konto einloggen.
 
 == Sprache umstellen (falls nötig)
 
-Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
+Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, können Sie das folgendermassen ändern:
 
-1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
-2. Wähle im Dropdown-Menü "Settings" aus
-3. Unter der Einstellung "Preferred Languages" ersetzt du den Text mit `de-CH de`
-4. Klicke den "Save Changes"-Knopf ganz unten, um diese Änderung zu speichern
+1. Klicken Sie oben rechts auf den Knopf mit Ihrem Benutzernamen
+2. Wählen Sie im Dropdown-Menü "Settings" aus
+3. Unter der Einstellung "Preferred Languages" ersetzen Sie den Text mit `de-CH de`
+4. Klicken Sie den "Save Changes"-Knopf ganz unten, um diese Änderung zu speichern
 
 Der im Folgenden verwendete Editor wird die selbe Sprache verwenden, falls verfügbar.
 
@@ -59,7 +59,7 @@ Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. W
 
 === Rundgang
 
-Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf das Fragezeichen-Symbol (auf der rechten Seite) und startest von dort aus den Rundgang.
+Um diesen Editor kennenzulernen, sollten Sie zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drücken Sie auf den "Bearbeiten"-Knopf oben links. Falls Ihnen danach eine Willkommens-Nachricht angezeigt wird, drücken Sie auf "Rundgang starten". Andernfalls drücken Sie auf das Fragezeichen-Symbol (auf der rechten Seite) und starten von dort aus den Rundgang.
 
 IMPORTANT: Bitte spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
 
@@ -78,27 +78,27 @@ Ansonsten sollte das Tutorial selbsterklärend sein.
 
 === Und los geht's!
 
-Alle Änderungen, die du während des "Rundgangs" gemacht hast, waren nur zur Übung und wurden nicht wirklich in OpenStreetMap eingetragen.
+Alle Änderungen, die Sie während des "Rundgangs" gemacht haben, waren nur zur Übung und wurden nicht wirklich in OpenStreetMap eingetragen.
 
-Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? Vielleicht fällt dir an deinem Wohnort oder in der Gegend deines Schulhauses etwas auf, das verbessert oder ergänzt werden kann. Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
+Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? Vielleicht fällt Ihnen an Ihrem Wohnort oder in der Gegend Ihres Schulhauses etwas auf, das verbessert oder ergänzt werden kann. Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
 
-Da du im Rundgang gelernt hast, wie du Dinge in OpenStreetMap eintragen und ändern kannst, kannst du nun fehlendes eintragen und falsches korrigieren!
-Innerhalb von 5–30 Minuten werden deine Änderungen durchgeführt und auf die Karte angewendet!
+Da Sie im Rundgang gelernt haben, wie Sie Dinge in OpenStreetMap eintragen und ändern können, können Sie nun Fehlendes eintragen und Falsches korrigieren!
+Innerhalb von 5–30 Minuten werden Ihre Änderungen durchgeführt und auf die Karte angewendet!
 
 [NOTE]
 ====
 OpenStreetMap speichert Objekt-Eigenschaften in Form von so genannten Tags.
-Diese siehst du auf der linken Seite im iD-Editor, nachdem du ein Objekt angewählt hast.
+Diese sehen Sie auf der linken Seite im iD-Editor, nachdem Sie ein Objekt angewählt haben.
 
 image::../../../bilder/osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 295, 394]
 
-Wenn du das Feld "Alle Eigenschaften" aufklappst, sieht du alle Tags des Objekts.
+Wenn Sie das Feld "Alle Eigenschaften" aufklappen, sehen Sie alle Tags des Objekts.
 
 image::../../../bilder/osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
-Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet nachschauen.
+Wenn Sie nicht wissen, welchen Tag Sie verwenden sollen, können Sie im Cheatsheet nachschauen.
 ====
 
-Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen als Icon image:../../../bilder/osm_editieren/osm_ebene_icon.PNG["Flächen Icon", 25, 25]) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
+Falls Ihnen selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicken Sie auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicken Sie dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:../../../bilder/osm_editieren/osm_ebene_icon.PNG["Flächen Icon", 25, 25] als Icon) und wählen Sie die Checkbox "Hinweise/Fehlermeldungen" an. Schauen Sie, ob Sie Notizen anderer Kartenbenutzer sehen, die auf Fehler oder Auslassungen hinweisen, die Sie durch Änderungen beheben können. Wenn Sie etwas gefunden haben, klicken Sie wieder auf "Bearbeiten".
 
 include::../../../snippets/kontaktinformationen.adoc[]
