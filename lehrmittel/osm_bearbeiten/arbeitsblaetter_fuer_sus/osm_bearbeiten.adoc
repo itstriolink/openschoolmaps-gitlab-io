@@ -67,7 +67,6 @@ image::../../../bilder/osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften
 Wenn du das Feld "Alle Eigenschaften" aufklappst, sieht du alle Tags des Objekts.
 
 .Abbildung 2
-[caption=""]
 image::../../../bilder/osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
 Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet nachschauen.
