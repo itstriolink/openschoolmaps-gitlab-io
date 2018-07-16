@@ -4,6 +4,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 // HACK: suppress title page.
 // See https://github.com/asciidoctor/asciidoctor-pdf/issues/95
 ifdef::backend-pdf[:notitle:]
+:lang: de
+:figure-caption: Abbildung
 
 ifdef::backend-pdf[]
 [discrete]
@@ -21,7 +23,6 @@ Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts
 So sieht die Karte aus, die wir erstellen werden:
 
 .Kartendaten (C) OpenStreetMap Contributors
-[caption=""]
 image::../../bilder/umap/story-map_erstellen/endprodukt.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
