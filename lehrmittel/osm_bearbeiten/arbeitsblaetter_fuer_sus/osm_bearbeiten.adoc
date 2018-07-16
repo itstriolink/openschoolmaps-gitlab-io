@@ -60,13 +60,10 @@ Innerhalb von 5–30 Minuten werden deine Änderungen durchgeführt und auf die 
 OpenStreetMap speichert Objekt-Eigenschaften in Form von so genannten Tags.
 Diese siehst du auf der linken Seite im iD-Editor, nachdem du ein Objekt angewählt hast.
 
-.Abbildung 1
-[caption=""]
 image::../../../bilder/osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 295, 394]
 
 Wenn du das Feld "Alle Eigenschaften" aufklappst, sieht du alle Tags des Objekts.
 
-.Abbildung 2
 image::../../../bilder/osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
 Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet nachschauen.
