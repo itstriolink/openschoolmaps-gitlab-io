@@ -26,3 +26,5 @@ PDFs:
     paths:
     - lehrmittel/**/*.pdf
     - lehrmittel/**/**/*.pdf
+    - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
+    - lehrmittel/OpenStreetMap Tagging Cheatsheet.pdf
