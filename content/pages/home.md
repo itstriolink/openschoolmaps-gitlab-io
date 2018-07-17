@@ -23,7 +23,7 @@ als auch
 die Lehr- und Lernmaterialien dazu
 werden
 als Open Educational Resource
-(https://de.wikipedia.org/wiki/Open_Educational_Resources[OER])
+[OER](https://de.wikipedia.org/wiki/Open_Educational_Resources)
 bereitgestellt,
 so dass jeder
 zu ihnen beitragen,
