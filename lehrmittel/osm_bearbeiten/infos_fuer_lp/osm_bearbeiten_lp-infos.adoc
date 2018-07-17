@@ -1,4 +1,4 @@
-= Lehrpersonen-Informationen zum Arbeitsblatt "OpenStreetMap ergänzen"
+= Lehrpersonen-Informationen zum Arbeitsblatt "OpenStreetMap bearbeiten"
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 //
 // HACK: suppress title page.
@@ -104,5 +104,3 @@ Wenn Sie nicht wissen, welchen Tag Sie verwenden sollen, können Sie im Cheatshe
 ====
 
 Falls Ihnen selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicken Sie auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicken Sie dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:../../../bilder/osm_editieren/osm_ebene_icon.PNG["Flächen Icon", 25, 25] als Icon) und wählen Sie die Checkbox "Hinweise/Fehlermeldungen" an. Schauen Sie, ob Sie Notizen anderer Kartenbenutzer sehen, die auf Fehler oder Auslassungen hinweisen, die Sie durch Änderungen beheben können. Wenn Sie etwas gefunden haben, klicken Sie wieder auf "Bearbeiten".
-
-include::../../../snippets/kontaktinformationen.adoc[]
