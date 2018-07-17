@@ -1,13 +1,12 @@
-= Was ist OpenSchoolMaps?
+Title: Was ist OpenSchoolMaps?
+Date: 2018-07-11
+Category: OpenSchoolMaps
+Tags: meta, mission statement
+Status: hidden
+Url:
+Save_as: index.html
 
-:date: 2018-07-11
-:category: OpenSchoolMaps
-:tags: meta, mission statement
-:status: hidden
-:url:
-:save_as: index.html
-
-//image::{filename}/images/schoolkids.jpg[]
+![]({filename}/images/schoolkids.jpg)
 
 OpenSchoolMaps.ch
 ist ein Projekt zur Förderung
@@ -24,7 +23,7 @@ als auch
 die Lehr- und Lernmaterialien dazu
 werden
 als Open Educational Resource
-(https://de.wikipedia.org/wiki/Open_Educational_Resources[OER])
+[OER](https://de.wikipedia.org/wiki/Open_Educational_Resources)
 bereitgestellt,
 so dass jeder
 zu ihnen beitragen,
