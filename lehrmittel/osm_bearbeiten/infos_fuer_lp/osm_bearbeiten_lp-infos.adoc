@@ -4,6 +4,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 // HACK: suppress title page.
 // See https://github.com/asciidoctor/asciidoctor-pdf/issues/95
 ifdef::backend-pdf[:notitle:]
+:lang: de
+:figure-caption: Abbildung
 
 ifdef::backend-pdf[]
 [discrete]
@@ -90,14 +92,12 @@ Innerhalb von 5–30 Minuten werden Ihre Änderungen durchgeführt und auf die K
 OpenStreetMap speichert Objekt-Eigenschaften in Form von so genannten Tags.
 Diese sehen Sie auf der linken Seite im iD-Editor, nachdem Sie ein Objekt angewählt haben.
 
-.Abbildung 2
-[caption=""]
+.{zwsp}
 image::../../../bilder/osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 295, 394]
 
 Wenn Sie das Feld "Alle Eigenschaften" aufklappen, sehen Sie alle Tags des Objekts.
 
-.Abbildung 2
-[caption=""]
+.{zwsp}
 image::../../../bilder/osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
 Wenn Sie nicht wissen, welchen Tag Sie verwenden sollen, können Sie im Cheatsheet nachschauen.

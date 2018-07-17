@@ -4,6 +4,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 // HACK: suppress title page.
 // See https://github.com/asciidoctor/asciidoctor-pdf/issues/95
 ifdef::backend-pdf[:notitle:]
+:lang: de
+:figure-caption: Abbildung
 
 ifdef::backend-pdf[]
 [discrete]
@@ -60,6 +62,7 @@ Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. Man 
 Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter anderem, weil das doch am meisten Spass macht).
 ====
 
-.Abbildung 1
-[caption=""]
+.{zwsp}
 image::../../../bilder/osm-org_als_kartenviewer/sticky_note.jpg[Sticky note, 715, 473]
+
+include::../../../snippets/kontaktinformationen.adoc[]

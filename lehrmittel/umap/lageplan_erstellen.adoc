@@ -3,6 +3,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 //
 // HACK: suppress title page.
 // See https://github.com/asciidoctor/asciidoctor-pdf/issues/95
+:lang: de
+:figure-caption: Abbildung
 ifdef::backend-pdf[:notitle:]
 
 ifdef::backend-pdf[]
@@ -21,8 +23,7 @@ am Beispiel eines Anlasses beim Schulhaus
 == Ziel dieser Anleitung
 Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMap eine Karte zu erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
 
-.Abbildung 1. Kartendaten (C) OpenStreetMap Contributors
-[caption=""]
+.Kartendaten (C) OpenStreetMap Contributors
 image::../../bilder/umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
@@ -44,20 +45,17 @@ Als Beispiel wird ein Sportevent einer Schule verwendet.
 4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-Icon image:../../bilder/umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25]. Diesen können Sie dann auf der Map platzieren.
 
 +
-.Abbildung 2. Kartendaten (C) OpenStreetMap Contributors
-[caption=""]
+.Kartendaten (C) OpenStreetMap Contributors
 image::../../bilder/umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
 5. Eine weitere Möglichkeit ist, einen Weg image:../../bilder/umap/weg_icon.PNG["Weg-Icon", 25, 25] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
 
 +
-.Abbildung 3. Kartendaten (C) OpenStreetMap Contributors
-[caption=""]
+.Kartendaten (C) OpenStreetMap Contributors
 image::../../bilder/umap/lageplan_erstellen/weg_platzieren.PNG[]
 6. Für Flächen, klicken sie auf das Flächensymbol image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25]. Wir haben hier den Sportplatz eingezeichnet.
 
 +
-.Abbildung 4. Kartendaten (C) OpenStreetMap Contributors
-[caption=""]
+.Kartendaten (C) OpenStreetMap Contributors
 image::../../bilder/umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
 Wenn Sie mit Ihrem Lageplan zufrieden sind, können Sie auf die Schaltfläche "Speichern" oben rechts klicken. Danach können Sie noch den Editiermodus verlassen, indem Sie auf den Schriftzug "Bearbeiten deaktivieren", auch oben rechts, klicken.
