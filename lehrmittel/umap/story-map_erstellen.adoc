@@ -105,6 +105,12 @@ NOTE: Wenn Sie keine Spalte "oeffungszeiten" haben oder generell andere Spaltenn
 
 Von nun an müssen Sie für die neuen Punkte auf der Karte nur noch die Informationen in der Tabelle ergänzen und danach wird der Anzeigetext für das Popup automatisch zusammengestellt.
 
+IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
+
 uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
 
-IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
+include::../../../snippets/kontaktinformationen.adoc[]
+
+https://www.openschoolmaps.org
+
+Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
