@@ -109,8 +109,8 @@ IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht ver
 
 uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
 
-include::../../../snippets/kontaktinformationen.adoc[]
+include::../../snippets/kontaktinformationen.adoc[]
 
 https://www.openschoolmaps.org
 
-Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
+Frei verwendbar unter CC0 1.0 image:../../bilder/license.png[Lizenz, 66, 23]: http://creativecommons.org/publicdomain/zero/1.0/
