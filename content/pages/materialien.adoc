@@ -3,7 +3,7 @@
 :date: 2018-07-11
 :category: OpenSchoolMaps
 :tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
-:slug: erste-entwürfe
+:slug: materialien
 
 == Arbeitsblätter:
 
