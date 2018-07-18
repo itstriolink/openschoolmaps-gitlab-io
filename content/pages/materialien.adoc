@@ -24,6 +24,11 @@
 
 * OSM bearbeiten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/arbeitsblaetter_fuer_sus/osm_bearbeiten.pdf?job=PDFs[Arbeitsblatt]
 
+==== Zusätzliche Infomaterialien für OSM:
+
+* Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF]
+              https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[PDF]
+
 === uMap:
 
 * Lageplan erstellen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs[Arbeitsblatt]
