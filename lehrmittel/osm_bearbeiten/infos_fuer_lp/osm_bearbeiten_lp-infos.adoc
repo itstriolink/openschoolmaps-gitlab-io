@@ -65,9 +65,9 @@ Um diesen Editor kennenzulernen, sollten Sie zuerst dessen eingebauten "Rundgang
 
 IMPORTANT: Bitte spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
 
+.Mögliche Fragen, die aufkommen können:
 [NOTE]
 ====
-*Mögliche Fragen, die aufkommen können:*
 
 * *Wie vervollständigt man eine Fläche?*
 Eine Fläche wird erstellt, sobald mal den Umriss beendet hat, indem man wieder den ersten Punkt anklickt oder Enter drückt.
