@@ -85,3 +85,7 @@ _Line_
 == Positionen (mit)teilen
 
 Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen wenn du auf den "Teilen"-Knopf rechts klickst.
+
+https://www.openschoolmaps.org
+
+Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
