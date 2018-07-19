@@ -3,9 +3,9 @@
 ifdef::backend-pdf[:notitle:]
 
 ifdef::backend-pdf[]
+{author}
+
 [discrete]
 = {doctitle}
-
-{author}
 endif::[]
 // END OF suppress title page HACK
