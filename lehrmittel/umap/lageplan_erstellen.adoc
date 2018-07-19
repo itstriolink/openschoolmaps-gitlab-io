@@ -15,12 +15,11 @@ ifdef::backend-pdf[]
 endif::[]
 // END OF suppress title page HACK
 
-am Beispiel eines Anlasses beim Schulhaus
-
 *Eine Anleitung für Lehrpersonen*
 
+== Übersicht
 
-== Ziel dieser Anleitung
+.Ziel
 Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMap eine Karte zu erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
 
 .Kartendaten (C) OpenStreetMap Contributors
@@ -28,9 +27,13 @@ image::../../bilder/umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
 
+.Zeitplanung
 Sie werden für das Beispiel etwa 10-15 Minuten brauchen. Als Mittel dienen ein beliebiges Gerät mit Internetzugang und die uMap-Website.
 
+[NOTE]
+====
 Die Internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
+====
 
 == Was ist uMap?
 Mit uMap kann man auf OpenStreetMap Hintergrund eine eigene Karte zeichnen. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie fehlende Gebäude oder Strassen auf der Karte finden, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online Editor von OpenStreetMap finden Sie unter https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
