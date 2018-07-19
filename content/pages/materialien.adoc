@@ -25,7 +25,6 @@
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
 
 .uMap:
-
 * Lageplan erstellen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs[Arbeitsblatt]
 
 * Storymap erstellen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/story-map_erstellen.pdf?job=PDFs[Arbeitsblatt]

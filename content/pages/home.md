@@ -8,26 +8,8 @@ Save_as: index.html
 
 ![]({filename}/images/schoolkids.jpg)
 
-OpenSchoolMaps.ch
-ist ein Projekt zur Förderung
-offener Karten im Unterricht,
-sei es
-in digitaler Form,
-im Browser,
-auf mobilen Geräten
-oder
-in gedruckter Form.
-Sowohl
-die Karten und Karten-Daten
-als auch
-die Lehr- und Lernmaterialien dazu
-werden
-als Open Educational Resource
-[OER](https://de.wikipedia.org/wiki/Open_Educational_Resources)
-bereitgestellt,
-so dass jeder
-zu ihnen beitragen,
-sie frei (auch ausserhalb des Unterrichts!) nutzen
-und
-weitergeben
-kann und darf.
+OpenSchoolMaps.ch ist ein Projekt zur Förderung offener Karten im Unterricht, sei es in digitaler Form, im Browser, auf mobilen Geräten oder in gedruckter Form. Dabei werden vornehmlich freie Daten von OpenStreetMap eingesetzt.
+
+Angesprochen sind vor allem Lehrpersonen auf Sekundar- und Gymnasialstufe.
+
+Sowohl die Karten und Karten-Daten als auch die Lehr- und Lernmaterialien dazu werden als Open Educational Resource (OER) bereitgestellt, so dass jeder zu ihnen beitragen, sie frei (auch ausserhalb des Unterrichts!) nutzen und weitergeben kann und darf.
