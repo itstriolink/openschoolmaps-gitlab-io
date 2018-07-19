@@ -1,0 +1,11 @@
+// HACK: suppress title page.
+// See https://github.com/asciidoctor/asciidoctor-pdf/issues/95
+ifdef::backend-pdf[:notitle:]
+
+ifdef::backend-pdf[]
+[discrete]
+= {doctitle}
+
+{author}
+endif::[]
+// END OF suppress title page HACK
