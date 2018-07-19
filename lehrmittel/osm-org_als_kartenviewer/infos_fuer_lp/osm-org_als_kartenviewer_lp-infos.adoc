@@ -71,3 +71,10 @@ Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und
 === Aufgabe für fortgeschrittene SuS / höhere Klassen:
 
 Zoome so weit heraus, dass du ganze Kontinente oder gar die ganze Erde siehst. Dann verschiebe die Karte nord- oder südwärts ohne zu zoomen. Wieso verändert sich dabei der Maßstab?
+
+
+include::../../../snippets/kontaktinformationen.adoc[]
+
+https://www.openschoolmaps.org
+
+image:../../../bilder/license.png[Lizenz, 66, 23] Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/

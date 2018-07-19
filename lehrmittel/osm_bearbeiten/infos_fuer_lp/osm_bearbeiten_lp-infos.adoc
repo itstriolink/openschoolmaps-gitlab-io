@@ -65,9 +65,9 @@ Um diesen Editor kennenzulernen, sollten Sie zuerst dessen eingebauten "Rundgang
 
 IMPORTANT: Bitte spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
 
+.Mögliche Fragen, die aufkommen können:
 [NOTE]
 ====
-*Mögliche Fragen, die aufkommen können:*
 
 * *Wie vervollständigt man eine Fläche?*
 Eine Fläche wird erstellt, sobald mal den Umriss beendet hat, indem man wieder den ersten Punkt anklickt oder Enter drückt.
@@ -104,3 +104,9 @@ Wenn Sie nicht wissen, welchen Tag Sie verwenden sollen, können Sie im Cheatshe
 ====
 
 Falls Ihnen selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicken Sie auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicken Sie dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:../../../bilder/osm_editieren/osm_ebene_icon.PNG["Flächen Icon", 25, 25] als Icon) und wählen Sie die Checkbox "Hinweise/Fehlermeldungen" an. Schauen Sie, ob Sie Notizen anderer Kartenbenutzer sehen, die auf Fehler oder Auslassungen hinweisen, die Sie durch Änderungen beheben können. Wenn Sie etwas gefunden haben, klicken Sie wieder auf "Bearbeiten".
+
+include::../../../snippets/kontaktinformationen.adoc[]
+
+https://www.openschoolmaps.org
+
+image:../../../bilder/license.png[Lizenz, 66, 23] Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
