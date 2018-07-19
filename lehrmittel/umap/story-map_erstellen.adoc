@@ -1,7 +1,6 @@
 = Mit uMap eine Story-Map mit Bildern erstellen
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
-:lang: de
-:figure-caption: Abbildung
+include::../../snippets/lang/de.adoc[]
 //
 // HACK: suppress title page.
 // See https://github.com/asciidoctor/asciidoctor-pdf/issues/95
