@@ -1,14 +1,13 @@
-= Unterrichtsmaterialien
+== Unterrichtsmaterialien
 
 :date: 2018-07-11
 :category: OpenSchoolMaps
 :tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
 :slug: materialien
 
-== Arbeitsblätter:
+=== Arbeitsblätter:
 
-=== OSM.org als Kartenviewer:
-
+.OSM.org als Kartenviewer:
 * Infos für Lehrpersonen und Aufgaben für Fortgeschrittene: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Infos] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos_solutions.pdf?job=PDFs[Lösungen]
 
 * OSM.org kennenlernen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_osm-org_kennenlernen.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_osm-org_kennenlernen_solutions.pdf?job=PDFs[Lösungen]
@@ -17,19 +16,16 @@
 
 * OSM-Daten untersuchen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_osm-daten_untersuchen.pdf?job=PDFs[Arbeitsblatt]
 
-
-=== OSM bearbeiten:
-
+.OSM bearbeiten:
 * Infos für Lehrpersonen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/infos_fuer_lp/osm_bearbeiten_lp-infos.pdf?job=PDFs[Arbeitsblatt]
 
 * OSM bearbeiten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/arbeitsblaetter_fuer_sus/osm_bearbeiten.pdf?job=PDFs[Arbeitsblatt]
 
-==== Zusätzliche Infomaterialien für OSM:
-
+.Zusätzliche Materialien für OpenStreetMap:
 * Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF]
 * Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
 
-=== uMap:
+.uMap:
 
 * Lageplan erstellen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs[Arbeitsblatt]
 
