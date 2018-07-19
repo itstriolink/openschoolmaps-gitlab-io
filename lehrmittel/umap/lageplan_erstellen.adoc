@@ -68,8 +68,6 @@ uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org)
 
 include::../../snippets/kontaktinformationen.adoc[]
 
-https://www.openschoolmaps.org
-
-image:../../../bilder/license.png[Lizenz, 66, 23] Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
+include::../../snippets/quellenangabe.adoc[]
 
 //(Siehe auch Abschnitt [Erstellen eines Lageplanes mit uMap](https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.2) im Foliensatz des DINAcon-Vortrags [Nutzung von OpenStreetMap für Standortkarten und Online-Stories](https://dinacon.ch/sessions/2017/osm/).)

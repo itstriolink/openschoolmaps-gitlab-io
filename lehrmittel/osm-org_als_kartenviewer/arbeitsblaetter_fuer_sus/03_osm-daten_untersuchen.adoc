@@ -62,6 +62,4 @@ Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. Man 
 Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter anderem, weil das doch am meisten Spass macht).
 ====
 
-https://www.openschoolmaps.org
-
-image:../../../bilder/license.png[Lizenz, 66, 23] Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
+include::../../../snippets/quellenangabe.adoc[]

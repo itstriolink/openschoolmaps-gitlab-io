@@ -86,6 +86,4 @@ _Line_
 
 Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen wenn du auf den "Teilen"-Knopf rechts klickst.
 
-https://www.openschoolmaps.org
-
-image:../../../bilder/license.png[Lizenz, 66, 23] Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
+include::../../../snippets/quellenangabe.adoc[]
