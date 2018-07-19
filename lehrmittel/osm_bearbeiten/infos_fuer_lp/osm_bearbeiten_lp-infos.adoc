@@ -15,17 +15,17 @@ ifdef::backend-pdf[]
 endif::[]
 // END OF suppress title page HACK
 
-mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
-
 *Ein Arbeitsblatt für Lehrpersonen*
 
+== Übersicht
 
-Auf OpenStreetMap können Sie nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchen Sie zuerst ein Benutzerkonto.
+.Ziel
+Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf openstreetmap.org Daten zu ergänzen oder abzuändern, wie ein Bänkli, einen Brunnen oder einen Abfallkübel, mit Hilfe des iD-Editors.
 
-== Zeitplanung
+.Zielgruppe
+SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
 
-Für die einzelnen Aufgaben sind etwa folgende Zeit benötigt:
-
+.Zeitplanung
 * Registrierung: 5 Minuten
 * Rundgang für den Editor: 20–30 Minuten
 * Selber auf OpenStreetMap Daten eintragen: 20–30 Minuten
@@ -34,7 +34,7 @@ Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
 
 == Vorbereitung
 
-Für diese Aufgabe ist ein OSM-Konto benötigt
+Für diese Aufgabe benötigen die SuS ein OSM-Konto.
 
 == Benutzerkonto erstellen und anmelden
   
