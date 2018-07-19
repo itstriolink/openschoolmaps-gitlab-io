@@ -4,7 +4,9 @@
 :category: OpenSchoolMaps
 :tags: Unterricht, Ideen, PDF
 :slug: weitere-unterrichtsideen
-Inspirieren lassen können Sie sich von https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel.
+Auf dieser Wiki-Seite [https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel] von OpenStreetMap sind weitere Unterrichtsmaterialien und Lehrmittel zusammengestellt.
+
+Auf erwähnter Wiki-Seite sind auch Datenquellen (Geodaten und Webservices) angegeben, die nützlich für den Unterricht sein könnten. Mit entsprechendem technischem Know-How kann man Geodaten namentlich in uMap importieren und dort direkt nutzen, ohne die Daten von Hand (noch einmal) eintragen zu müssen. Beispiele von aus OpenStreetMap extrahierbaren Daten sind Sitzbänkli, Brunnen, Abfalleimer und Burgen - so wie sie teilweise auch in den Arbeitsblättern und im "OpenStreetMap Tagging Cheatsheet" erwähnt werden.
 
 Die HSR übernimmt Patenschaften für Maturaarbeiten. Mit OpenStreetMap lassen sich interessante Spiele und "Maps" gestalten. So ist z.B. https://kastgames.com/?page=Globat%20Pixels&pageid=12[das Spiel  "Globat Pixel"] entstanden. Interessenten melden sich bei Prof. Stefan Keller.
 
