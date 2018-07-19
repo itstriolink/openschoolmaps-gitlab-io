@@ -15,10 +15,9 @@ ifdef::backend-pdf[]
 endif::[]
 // END OF suppress title page HACK
 
-*Eine Anleitung für alle an Mapping-Interessierten*
+== Übersicht
 
-//(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
-
+.Ziel
 Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. In der Geographie ermöglicht eine Story-Map eine ansprechende und informative Kombination aus öffentlich verfügbaren Karten, begleitendem Text, Bildern und Multimedia-Inhalten.
 So sieht die Karte aus, die wir erstellen werden:
 
@@ -26,6 +25,14 @@ So sieht die Karte aus, die wir erstellen werden:
 image::../../bilder/umap/story-map_erstellen/endprodukt.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+
+.Zielgruppe
+Für alle die an "Mapping" interessiert sind.
+
+.Zeitplanung
+Je nach grösse Ihrer Storymap sollten Sie etwa 45 Minuten für diese Anleitung planen.
+
+//(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
 
 == Vorbereitung
 Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können. 
