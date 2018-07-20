@@ -27,10 +27,12 @@ Sowohl
 die Karten und Karten-Daten
 als auch
 die Lehr- und Lernmaterialien dazu
-werden als Open Educational Resource
+werden
+als Open Educational Resource
 (OER)
 bereitgestellt,
-so dass jeder zu ihnen beitragen,
+so dass jeder
+zu ihnen beitragen,
 sie frei (auch ausserhalb des Unterrichts!) nutzen
 und
 weitergeben
