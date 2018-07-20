@@ -11,7 +11,8 @@ Save_as: index.html
 OpenSchoolMaps.ch
 ist ein Projekt zur Förderung
 offener Karten im Unterricht,
-sei es in digitaler Form,
+sei es
+in digitaler Form,
 im Browser,
 auf mobilen Geräten
 oder
