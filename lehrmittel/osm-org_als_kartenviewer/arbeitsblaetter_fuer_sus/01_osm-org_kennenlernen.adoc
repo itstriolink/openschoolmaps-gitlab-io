@@ -1,5 +1,6 @@
 = OSM.org als Karten-Viewer, Blatt 1: openstreetmap.org kennenlernen
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+:imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
@@ -52,7 +53,7 @@ Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu se
 
 === Karten-Ausschnitt ändern
 
-image::../../../bilder/osm-org_als_kartenviewer/osm_homepage.PNG[]
+image::osm-org_als_kartenviewer/osm_homepage.PNG[]
 Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den `-`-Knopf. Was passiert?
 
 ====
