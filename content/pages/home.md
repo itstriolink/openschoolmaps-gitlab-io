@@ -17,6 +17,12 @@ im Browser,
 auf mobilen Geräten
 oder
 in gedruckter Form.
+Dabei werden vornehmlich
+freie Daten von OpenStreetMap
+eingesetzt.
+
+Angesprochen sind vor allem Lehrpersonen auf Sekundar- und Gymnasialstufe.
+
 Sowohl
 die Karten und Karten-Daten
 als auch
