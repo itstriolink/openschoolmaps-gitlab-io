@@ -41,19 +41,19 @@ Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
 Angabe in Metern oder Kilometern
 ////
 
-_Line_
+'''
 
 Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 
-_Line_
+'''
 
 Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
 
-_Line_
+'''
 
 Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
 
-_Line_
+'''
 
 Wieso kann wohl je nach Verkehrsmittel eine andere Strecke vorgeschlagen werden?
 
@@ -70,7 +70,7 @@ und Fussgänger werden von einer solchen nicht
 ausgebremst.
 ////
 
-_Line_
+'''
 
 == Positionen (mit)teilen
 
