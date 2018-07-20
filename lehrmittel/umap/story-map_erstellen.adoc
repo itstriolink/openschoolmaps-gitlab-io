@@ -10,7 +10,7 @@ include::../../snippets/suppress_title_page.adoc[]
 Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. In der Geographie ermöglicht eine Story-Map eine ansprechende und informative Kombination aus öffentlich verfügbaren Karten, begleitendem Text, Bildern und Multimedia-Inhalten.
 So sieht die Karte aus, die wir erstellen werden:
 
-.Kartendaten (C) OpenStreetMap Contributors
+.Beispiel einer mit uMap erstellten Storymap. Kartendaten (C) OpenStreetMap Contributors
 image::../../bilder/umap/story-map_erstellen/endprodukt.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
@@ -24,7 +24,7 @@ Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können.
   * Besuchen Sie die Seite umap.osm.ch.
   * Erstellen Sie eine neue Karte. +
 +
-.{zwsp}
+.Die Startseite von umap.osm.ch
 image::../../bilder/umap/story-map_erstellen/uMap_homepage.png[]
   * Tragen Sie Punkte image:../../bilder/umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] ein, die Sie gerne auf der Map hätten. Sie können auch Linien image:../../bilder/umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:../../bilder/umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] auf die Karte eintragen, wenn Sie möchten.
 * Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:../../bilder/umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] -> Diashow -> Diashowmodus aktivieren". Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
@@ -52,7 +52,7 @@ Wenn der Link `https://www.example.com/picture.png` ist, dann müssen Sie folgen
 
 Ihre Beschreibung sollte nun etwa so aussehen:
 
-.{zwsp}
+.Element-Eigenschaften mit ausgefüllter Beschreibung
 image::../../bilder/umap/story-map_erstellen/beschreibung.PNG["Text in der Beschreibung", 293, 418]
 
 Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit dem Ergebnis, können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
@@ -78,7 +78,7 @@ Zwei weitere Spalten, die Sie sicherlich brauchen, sind "bildurl" und "text". Wi
 
 Füllen Sie die neu erstellten Spalten mit Werten und schliessen Sie die Seitenleiste wieder. Das Ergebnis sollte etwa so aussehen:
 
-.{zwsp}
+.Die neu erstellten Spalten "bildurl" (ganz links) und "text" (ganz rechts)
 image::../../bilder/umap/story-map_erstellen/merkmale_gefuellt.PNG["Gefüllte Merkmalen-Tabelle"]
 
 Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popup Vorlage" diesen Text einfügen:
