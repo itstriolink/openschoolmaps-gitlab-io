@@ -52,7 +52,7 @@ Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu se
 
 === Karten-Ausschnitt ändern
 
-.Die Homepage OpenStreetMap.org
+.Die Webseite OpenStreetMap.org
 image::../../../bilder/osm-org_als_kartenviewer/osm_homepage.PNG[]
 Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den `-`-Knopf. Was passiert?
 
