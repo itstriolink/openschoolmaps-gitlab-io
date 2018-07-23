@@ -41,7 +41,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
-    ('Home', '/OpenSchoolMaps.ch/'),
     ('Unterrichtsmaterialien', '/OpenSchoolMaps.ch/pages/materialien.html'),
     ('Weitere Unterrichtsideen', '/OpenSchoolMaps.ch/pages/weitere-unterrichtsideen.html'),
     ('Kontakt', '/OpenSchoolMaps.ch/pages/kontakt.html')
