@@ -4,7 +4,7 @@
 :category: OpenSchoolMaps
 :tags: Unterricht, Ideen, PDF
 :slug: weitere-unterrichtsideen
-Auf dieser Wiki-Seite [https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel] von OpenStreetMap sind weitere Unterrichtsmaterialien und Lehrmittel zusammengestellt.
+Auf dieser https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel[Wiki-Seite] von OpenStreetMap sind weitere Unterrichtsmaterialien und Lehrmittel zusammengestellt.
 
 Auf erwähnter Wiki-Seite sind auch Datenquellen (Geodaten und Webservices) angegeben, die nützlich für den Unterricht sein könnten. Mit entsprechendem technischem Know-How kann man Geodaten namentlich in uMap importieren und dort direkt nutzen, ohne die Daten von Hand (noch einmal) eintragen zu müssen. Beispiele von aus OpenStreetMap extrahierbaren Daten sind Sitzbänkli, Brunnen, Abfalleimer und Burgen - so wie sie teilweise auch in den Arbeitsblättern und im "OpenStreetMap Tagging Cheatsheet" erwähnt werden.
 
