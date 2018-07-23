@@ -59,7 +59,7 @@ Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet n
 
 [[eigenschaften_zugeklappt]]
 .Die Tags finden sich im Abschnitt "Alle Eigenschaften", der eventuell zugeklappt ist.
-image::osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 295, 394]
+image::osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 265, 354]
 
 [[eigenschaften_aufgeklappt]]
 .Mit einem Klick kann der Abschnitt "Alle Eigenschaften" aufgeklappt werden.
