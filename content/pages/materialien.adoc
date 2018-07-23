@@ -5,7 +5,7 @@
 :tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
 :slug: materialien
 
-== Arbeitsblätter:
+== Arbeitsblätter
 
 .OSM.org als Kartenviewer:
 * Infos für Lehrpersonen und Aufgaben für Fortgeschrittene: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Infos] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos_solutions.pdf?job=PDFs[Lösungen]
