@@ -14,12 +14,12 @@
 
 * Webseite OSM.org im Alltag nutzen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/02_webseite_osm-org_im_alltag_nutzen.pdf?job=PDFs[Arbeitsblatt]
 
-* OSM-Daten untersuchen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_osm-daten_untersuchen.pdf?job=PDFs[Arbeitsblatt]
+* OpenStreetMap-Daten untersuchen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_openstreetmap-daten_untersuchen.pdf?job=PDFs[Arbeitsblatt]
 
-.OSM bearbeiten:
-* Infos für Lehrpersonen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/infos_fuer_lp/osm_bearbeiten_lp-infos.pdf?job=PDFs[Arbeitsblatt]
+.OpenStreetMap bearbeiten:
+* Infos für Lehrpersonen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/infos_fuer_lp/openstreetmap_bearbeiten_lp-infos.pdf?job=PDFs[Arbeitsblatt]
 
-* OSM bearbeiten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/arbeitsblaetter_fuer_sus/osm_bearbeiten.pdf?job=PDFs[Arbeitsblatt]
+* OpenStreetMap bearbeiten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/arbeitsblaetter_fuer_sus/openstreetmap_bearbeiten.pdf?job=PDFs[Arbeitsblatt]
 
 .Zusätzliche Materialien für OpenStreetMap:
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
