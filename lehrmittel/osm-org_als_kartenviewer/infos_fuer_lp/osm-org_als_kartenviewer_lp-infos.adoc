@@ -1,4 +1,4 @@
-= Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer bedienen"
+= Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer"
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
@@ -16,9 +16,9 @@ Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openst
 SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
 
 .Zeitplanung
-* Arbeitsblatt "OSM kennenlernen": 20 Minuten
-* Arbeitsblatt "OSM editieren": 10 Minuten
-* Arbeitsblatt "Hinter den Kulissen": 15 Minuten
+* Arbeitsblatt "Webseite OSM.org kennenlernen": 20 Minuten
+* Arbeitsblatt "Webseite OSM.org im Alltag nutzen": 10 Minuten
+* Arbeitsblatt "OpenStreetMap-Daten untersuchen": 15 Minuten
 
 Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
 
