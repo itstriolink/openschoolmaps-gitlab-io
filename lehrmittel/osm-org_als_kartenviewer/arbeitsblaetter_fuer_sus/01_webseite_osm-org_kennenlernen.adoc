@@ -55,7 +55,7 @@ Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu se
 
 .Die Webseite OpenStreetMap.org
 image::osm-org_als_kartenviewer/osm_homepage.PNG[]
-Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den `-`-Knopf. Was passiert?
+Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-Knopf. Was passiert?
 
 ====
 ifdef::show_solutions[]
@@ -77,7 +77,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Was denkst du, was der `+`-Knopf macht? Probiere es aus!
+Was denkst du, was der image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-Knopf macht? Probiere es aus!
 
 ====
 ifdef::show_solutions[Zoomt "herein"]
@@ -252,7 +252,7 @@ endif::show_solutions[]
 
 === Legende
 
-Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den "i"-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
+Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
 
 Je weiter du herein-zoomst, umso mehr Details werden auf der Karte dargestellt und umso länger wird auch diese Kartenlegende.
 

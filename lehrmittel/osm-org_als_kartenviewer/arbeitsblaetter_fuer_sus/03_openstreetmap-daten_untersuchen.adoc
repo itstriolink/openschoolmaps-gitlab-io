@@ -18,7 +18,7 @@ Ausserdem lernst du, wie du die OpenStreetMap-Gemeinschaft auf Fehler in der Kar
 
 === Objekte abfragen
 
-Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. Klicke dazu den untersten der Knöpfe auf der rechten Seite auf openstreetmap.org, den mit dem Pfeilchen und dem Fragezeichen als Icon.
+Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. Klicke dazu den image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-Knopf auf der rechten Seite auf openstreetmap.org.
 
 Dadurch ändert sich dein Mauszeiger. Klicke nun an die ungefähre Stelle auf der Karte, wo das fragliche Objekt liegt. Links erscheint dann eine Liste der dort gefundenen geografischen Objekte. (Es können auch welche dabei sein, die nicht auf der Karte zu sehen sind. Nicht alle in der OpenStreetMap-Datensammlung enthaltenen Daten werden in jedem Kartenstil angezeigt, manches sogar in gar keinem.)
 
@@ -40,9 +40,9 @@ Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schul
 
 === Notiz erstellen
 
-Um die OpenStreetMap-Gemeinschaft auf so etwas hinzuweisen, kannst du eine Notiz erstellen. Klicke dazu auf den zweituntersten Knopf rechts. (Den mit der Sprechblase und dem "+" als Icon.)
+Um die OpenStreetMap-Gemeinschaft auf so etwas hinzuweisen, kannst du eine Notiz erstellen. Klicke dazu auf den image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-Knopf rechts.
 
-Auf der Karte erscheint eine Positions-Nadel mit "+"-Zeichen. Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zurzeit falsch ist.
+Auf der Karte erscheint eine Positions-Nadel image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zurzeit falsch ist.
 
 [NOTE]
 ====

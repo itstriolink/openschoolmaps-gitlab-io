@@ -36,7 +36,7 @@ Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. W
 
 === Rundgang
 
-Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf das Fragezeichen-Symbol (auf der rechten Seite) und startest von dort aus den Rundgang.
+Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf den image:osm_editieren/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
 
 === Und los geht's!
 
