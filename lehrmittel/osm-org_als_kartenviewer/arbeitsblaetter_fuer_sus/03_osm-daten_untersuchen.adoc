@@ -18,7 +18,7 @@ Ausserdem lernst du, wie du die OpenStreetMap-Gemeinschaft auf Fehler in der Kar
 
 === Objekte abfragen
 
-Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. Klicke dazu den untersten der Knöpfe auf der rechten Seite auf openstreetmap.org, den mit dem Pfeilchen und dem Fragezeichen als Icon.
+Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. Klicke dazu den image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-Knopf auf der rechten Seite auf openstreetmap.org.
 
 Dadurch ändert sich dein Mauszeiger. Klicke nun an die ungefähre Stelle auf der Karte, wo das fragliche Objekt liegt. Links erscheint dann eine Liste der dort gefundenen geografischen Objekte. (Es können auch welche dabei sein, die nicht auf der Karte zu sehen sind. Nicht alle in der OpenStreetMap-Datensammlung enthaltenen Daten werden in jedem Kartenstil angezeigt, manches sogar in gar keinem.)
 
