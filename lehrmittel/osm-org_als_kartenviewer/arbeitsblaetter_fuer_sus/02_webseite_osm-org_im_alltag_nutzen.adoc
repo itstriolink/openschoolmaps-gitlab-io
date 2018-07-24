@@ -12,7 +12,7 @@ NOTE: In diesem Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu 
 
 Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. Und nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschieden Karten für verschiedene Zwecke.
 
-Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
+Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 
 == Navigation (Routen-Planung)
 
@@ -89,6 +89,6 @@ ausgebremst.
 
 == Positionen (mit)teilen
 
-Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen wenn du auf den image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 25, 25]-Knopf rechts klickst.
+Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen wenn du auf den image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 20, 20]-Knopf rechts klickst.
 
 include::../../../snippets/quellenangabe.adoc[]
