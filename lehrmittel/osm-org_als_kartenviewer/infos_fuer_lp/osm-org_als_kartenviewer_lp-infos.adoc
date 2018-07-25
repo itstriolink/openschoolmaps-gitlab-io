@@ -61,7 +61,7 @@ endif::show_solutions[]
 .Anregung
 Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas in OpenStreetMap-URLs übersetzt werden.
 
-=== Aufgabe für fortgeschrittene SuS / höhere Klassen:
+=== Aufgabe für fortgeschrittene SuS / höhere Klassen
 
 Zoome so weit heraus, dass du ganze Kontinente oder gar die ganze Erde siehst. Dann verschiebe die Karte nord- oder südwärts ohne zu zoomen. Wieso verändert sich dabei der Maßstab?
 
