@@ -29,6 +29,8 @@ Alternativ zu einem Globus kann das Computerprogramm "Marble" verwendet werden.
 
 Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang* (mindestens zu https://openstreetmap.org).
 
+<<<
+
 == Zusatzaufgaben
 
 === Web-Kompetenz
