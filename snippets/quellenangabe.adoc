@@ -1,3 +1,1 @@
-https://www.openschoolmaps.ch
-
 image:license.png[Lizenz, 66, 23] Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
