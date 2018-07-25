@@ -93,6 +93,10 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
+ifdef::show_solutions[]
+<<<
+endif::show_solutions[]
+
 Spielt es dabei eine Rolle, wo auf der Karte der Zeiger steht?
 
 ====
@@ -231,6 +235,10 @@ ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
 auf der openstreetmap.org-Karte.
+
+ifdef::show_solutions[]
+<<<
+endif::show_solutions[]
 
 === Grössenverhältnisse
 
