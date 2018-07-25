@@ -49,8 +49,6 @@ Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkomm
 
 Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.
 
-<<<
-
 === Karten-Ausschnitt ändern
 
 .Die Webseite OpenStreetMap.org
@@ -108,8 +106,6 @@ ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
-
-<<<
 
 Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus, wie?
 
