@@ -152,13 +152,19 @@ Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder di
 Ist dein Schulhaus in OpenStreetMap eingetragen?
 
 ====
+ifdef::show_solutions[-]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 Suche das Haus, in dem du wohnst. Lässt es sich über deine Adresse finden?
 
 ====
+ifdef::show_solutions[-]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 Falls nicht, suche es wieder durch verschieben und zoomen der Karte.
