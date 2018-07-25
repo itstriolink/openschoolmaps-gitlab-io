@@ -1,11 +1,11 @@
 = OSM.org als Karten-Viewer, Blatt 1: Webseite OSM.org kennenlernen
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt für Schülerinnen und Schüler*
-ifdef::show_solutions[*LÖSUNGEN*]
+ifdef::show_solutions[- *LÖSUNGEN*]
 
 NOTE: In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren Webkarte zu suchen und die Karte zu lesen.
 
@@ -46,8 +46,6 @@ Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkomm
 > https://www.osm.org/about Mehr erfahren | https://www.osm.org/user/new Mit dem Kartieren anfangen
 
 Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.
-
-<<<
 
 === Karten-Ausschnitt ändern
 
