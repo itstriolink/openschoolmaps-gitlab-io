@@ -5,7 +5,7 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt für Lehrpersonen*
-ifdef::show_solutions[*LÖSUNGEN*]
+ifdef::show_solutions[- *LÖSUNGEN*]
 
 == Übersicht
 

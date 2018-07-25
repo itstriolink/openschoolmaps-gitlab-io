@@ -5,7 +5,7 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt für Schülerinnen und Schüler*
-ifdef::show_solutions[*LÖSUNGEN*]
+ifdef::show_solutions[- *LÖSUNGEN*]
 
 NOTE: In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren Webkarte zu suchen und die Karte zu lesen.
 
