@@ -33,8 +33,6 @@ sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
-{empty} +
-{empty} +
 endif::show_solutions[]
 ====
 
@@ -109,7 +107,9 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
+ifndef::show_solutions[]
 <<<
+endif::show_solutions[]
 
 Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus, wie?
 
