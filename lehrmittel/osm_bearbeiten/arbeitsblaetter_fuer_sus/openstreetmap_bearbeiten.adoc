@@ -1,5 +1,5 @@
 = OpenStreetMap bearbeiten
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten.
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
