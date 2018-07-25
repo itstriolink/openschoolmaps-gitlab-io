@@ -47,6 +47,8 @@ Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkomm
 
 Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.
 
+<<<
+
 === Karten-Ausschnitt ändern
 
 .Die Webseite OpenStreetMap.org
