@@ -23,6 +23,8 @@ Je nach grösse Ihrer Storymap sollten Sie etwa 45 Minuten für diese Anleitung 
 
 //(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
 
+<<<
+
 == Vorbereitung
 Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können. 
 Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional, aber sehr nützlich, um später schneller voranzukommen.
@@ -67,6 +69,8 @@ Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit 
 
 Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Storymap anschauen.
 Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
+
+<<<
 
 == Darstellung ändern (Optional)
 
