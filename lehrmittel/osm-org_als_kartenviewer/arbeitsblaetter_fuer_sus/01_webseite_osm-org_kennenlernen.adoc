@@ -1,4 +1,4 @@
-= OSM.org as map viewer, sheet 1: Get to know the OSM.org website
+= OSM.org as map viewer, worksheet 1: Get to know the OSM.org website
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
@@ -21,7 +21,7 @@ https://www.schoolmaps.ch/2017/06/02/kartenlesen-leicht-gemacht-swisstopo-unterr
 
 Go to osm.org with your web browser. (The content of the address field will change to something like `https://www.openstreetmap.org/#map=8/46.825/8.224`.)
 
-You will get to a website. The main part of which is a map. Can you see the map section? Which area is shown?
+You will be brought to a website. The main part of which is a map. Can you see the map section? Which area is shown?
 
 ====
 ifdef::show_solutions[]
@@ -39,9 +39,10 @@ endif::show_solutions[]
 If this is your first visit to openstreetmap.org, a welcome message will appear in the upper left corner. If the message has already been clicked away, here is its content again:
 
 > Welcome to OpenStreetMap!
+>
 > OpenStreetMap is a map of the world, created by people like you and freely usable under an open license.
 >
-> Hosting is supported by [...] unterstützt.
+> Hosting is supported by [...].
 >
 > https://www.osm.org/about Learn more | https://www.osm.org/user/new Start mapping
 
@@ -57,7 +58,7 @@ At the right margin are some dark grey buttons with white symbols. Click the ima
 
 ====
 ifdef::show_solutions[]
-Zooms "out":
+Zoom out:
 A larger part of the world is displayed,
 whereby the individual objects (houses, lakes, cantons,...)
 are displayed in a smaller size. However, labels and map symbols remain approximately the same size.
@@ -76,7 +77,7 @@ endif::show_solutions[]
 What do you think the image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-button does? Try it out!
 
 ====
-ifdef::show_solutions[Zooms "in"]
+ifdef::show_solutions[Zoom in]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -141,7 +142,7 @@ endif::show_solutions[]
 === Search Box
 
 At the top left you will find a text input field for search queries. It can be places, addresses,
-Enter sights and names of shops, hotels, restaurants and much more. Some of the examples are:
+sights and names of shops, hotels, restaurants and much more. Some other examples are:
 
 * Search your canton
 * Search your church or your district
@@ -150,7 +151,7 @@ IMPORTANT: The search field takes care of spelling and wording. If what you're s
 is not found, it is either not in the database or that it is spelled differently from what you entered
 you have. Just change the query and try again!
 
-Try finding your school, you can use the search field or simply move on the map as learned in the section above. If OpenStreetMap does not find your school by name or address, you can combine both: First search for the location or accommodation, and zoom and drag the map section to where your school should be.
+Try finding your school, you can use the search field or simply move around the map as learned in the section above. If OpenStreetMap does not find your school by name or address, you can try including both. 
 
 Is your school building registered in OpenStreetMap?
 
@@ -161,7 +162,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Try searchng for your house. Can it be found by your address?
+Try searching for your house. Can it be found by your address?
 
 ====
 ifdef::show_solutions[-]
@@ -170,9 +171,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-If not, search for it again by moving and zooming the map.
-
-Try to find other places you know.
+If not, search for it again by moving and zooming the map. Try to find other places you know.
 
 OpenStreetMap does not only work in Switzerland. You can also find places like New York, Tokyo and Kolkata. Important cities can be found under different names, so instead of "Tokio" you can use the English spelling "Tokyo" or the local (Japanese) "東京".
 
@@ -186,7 +185,7 @@ ifdef::show_solutions[Zürich]
 ifndef::show_solutions[{empty} +]
 ====
 
-A Spanish tourist asks about the way to "Ginebra". Where is she tryin to go to (in Switzerland)?
+A Spanish tourist asks about the way to "Ginebra". Where is she trying to go to (in Switzerland)?
 
 ====
 ifdef::show_solutions[]

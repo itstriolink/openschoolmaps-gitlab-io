@@ -1,99 +1,98 @@
-= Mit uMap eine Story-Map mit Bildern erstellen
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= Create a story map with pictures with uMap
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-== Übersicht
+== Synopsis
 
-.Ziel
-Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. In der Geographie ermöglicht eine Story-Map eine ansprechende und informative Kombination aus öffentlich verfügbaren Karten, begleitendem Text, Bildern und Multimedia-Inhalten.
-So sieht die Karte aus, die wir erstellen werden:
-
-.Beispiel einer mit uMap erstellten Storymap. Kartendaten (C) OpenStreetMap Contributors
+.Aim
+The aim of this guide is to create a story map with uMap as part of the OpenSchoolMaps project. In geography, a story map provides an attractive and informative combination of publicly available maps, accompanying text, images and multimedia content.
+This is the map we will create:
+.Example of a story map created with uMap. Map data (C) OpenStreetMap Contributors
 image::umap/story-map_erstellen/endprodukt.png[]
 
-Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+You can see the full example map at  https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. You may have to zoom in on the blue pins.
 
-.Zielgruppe
-Für alle die an "Mapping" interessiert sind.
+.Target Group
+For all who are interested in "Mapping".
 
-.Zeitplanung
-Je nach grösse Ihrer Storymap sollten Sie etwa 45 Minuten für diese Anleitung planen.
+.Time Schedule
+Depending on the size of your story map you should plan about 45 minutes for this guide.
 
 //(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
 
 <<<
 
-== Vorbereitung
-Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können. 
-Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional, aber sehr nützlich, um später schneller voranzukommen.
+== Prearrangement
+First you need a web browser in which you can open the page. 
+Consider in advance what the end product should look like and note which points you want to have in it. This step is optional, of course, but very useful to make faster progress later.
 
-== Erstellen der Story-Map
+== Creating the Story Map
 
-  * Besuchen Sie die Seite umap.osm.ch.
-  * Erstellen Sie eine neue Karte. +
+  * Visit the page umap.osm.ch.
+  * Create a new map +
 +
-.Die Startseite von umap.osm.ch
+.The umap.osm.ch homepage
 image::umap/story-map_erstellen/uMap_homepage.png[]
-  * Tragen Sie Punkte image:umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] ein, die Sie gerne auf der Map hätten. Sie können auch Linien image:umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] auf die Karte eintragen, wenn Sie möchten.
-* Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] -> Diashow -> Diashowmodus aktivieren". Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
+  * Enter points image:umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] you would like to have on the map. You can also select the line image:umap/weg_icon.PNG["Linien-Icon", 25, 25] and area image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25].
+* Now to the actual "story". The most important step is to activate the slide show under "Settings image:umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] Slide show -> Activate slide show mode". After saving the settings, you probably need to refresh with F5.
 
-== Beschreibung hinzufügen
+== Add Description
 
-Da Sie nun verschiedene Punkte der Karte hinzugefügt haben, können wir jetzt jeden Punkt noch mit einer Beschreibung ergänzen. Diese Beschreibungen werden während der Diashow dargestellt.
+Now that you have added several points to the map, we can add a description for each point. These descriptions are displayed during the slide show.
 
-Um eine Beschreibung hinzuzufügen, klicken Sie (im Editiermodus) auf den Punkt, den Sie editieren möchten und schreiben Sie Ihren Text in die Box "Beschreibung".
-Schreiben Sie zusätzlich in die Textbox "Name" noch einen geeigneten Namen für den Punkt, da wir diesen später brauchen werden.
+To add a description, click (in edit mode) on the item you want to edit and write your text in the "Description" box.
+In addition, write a suitable name for the point in the "Name" text box, as we will need it later.
 
 [NOTE]
 ====
-Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
+To create a nice description we have some tips for you:
 
-* Um eine kursive Schrift zu machen, brauchen Sie `+*Ein Stern*+`.
-* Um eine fette Schrift zu machen, brauchen Sie `+**Zwei Sterne**+`.
-* Um Überschriften zu machen brauchen Sie `# Titel`. Je mehr `#` desto kleiner die Überschrift.
+* To make an italic font, you need `+*one asterisk*+`..
+* To make a bold font, you need `+**two asterisk**+`.
+* To make headlines you need `# titles`. The more `#` the smaller the heading.
 	
-Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Textbox von "Beschreibung" klicken.
+Further display modes can be found by clicking on the question mark above the "Description" text box.
 ====
 
-Um ein Bild in die Beschreibung hinzuzufügen, brauchen Sie zuerst den Link zum Bild.
-Wenn der Link `https://www.example.com/picture.png` ist, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
+To add an image to the description, you first need the link to the image.
+If the link is `https://www.example.com/picture.png`, then you must enter the following: `{{https://www.example.com/picture.png}}`
 
-Ihre Beschreibung sollte nun etwa so aussehen:
+Your description should now look something like this:
 
-.Element-Eigenschaften mit ausgefüllter Beschreibung
+.Element properties with filled description
 image::umap/story-map_erstellen/beschreibung.PNG["Text in der Beschreibung", 293, 418]
 
-Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit dem Ergebnis, können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
+Now add a description to each item. If you are satisfied with the result, you can click on the "Save" button at the top right and exit the editing mode.
 
-Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Storymap anschauen.
-Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
+By clicking on the play button you can start the slide show and view its story map.
+Clicking the Stop button allows you to stop the slideshow.
 
 <<<
 
-== Darstellung ändern (Optional)
+== Change display (optional)
 
-* Sie können das Aussehen von Pins unter "Einstellungen -> Standard-Formeigenschaften -> Bildzeichenform" ändern.
-* Sie können die Informationen des Popups auch in der Seitenleiste anzeigen lassen. Dazu gehen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popupstil" und wählen "Seitenleiste" aus. Nach dem Speichern und Erneuern der Website, sollten die Popup-Informationen in der Seitenleiste angezeigt werden.
+* You can change the appearance of pins under "Settings -> Default shape properties -> Symbol shape".
+* You can also display the pop-up information in the sidebar. To do this, go to "Settings -> Default interaction options -> Popup style" and select "Sidebar". After saving and refreshing the site, the pop-up information should appear in the sidebar.
 
-== Reihenfolge der Diashow steuern (Für Fortgeschrittene)
+== Controlling the order of the slideshow (Advanced)
 
-Um die Reihenfolge der Orte in der Diashow zu steuern, müssen wir diesen einen Sortierschlüssel hinzufügen. Öffnen Sie dazu die Ebenenverwaltung image:umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] und klicken Sie auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25]. Klicken Sie dort auf die Schaltfläche image:umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20] und geben Sie einen Namen (zum Beispiel "index") ein. Nun können Sie für jeden Ort einen Wert in der Spalte "index" eingeben mit dem die Website die Reihenfolge sortieren kann. Da die Tabelle in uMap lexiographisch sortiert, wird zum Beispiel die Nummer 20 vor der Nummer 3 vorkommen. Um das zu verhindern sollten Sie zum Beispiel Werte wie 1000 und aufwärts verwenden um zu sortieren. Wenn Sie für jede Ortschaft einen Sortierschlüssel hinzugefügt haben, müssen Sie dann unter Einstellungen -> Standardeigenschaften -> Sortierschlüssel die neu erstellte Sortierschlüssel-Spalte auswählen. (Hier wird Ihnen keine Auswahl gestellt - Sie müssen den Namen des Feldes selber eintragen!)
+To control the order of the locations in the slideshow, we need to add a sort key. Open the layer management image:umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] and click on the tiny icon "Edit properties in a table"  image:umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25] Click on the button image:umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20] and enter a name (for example "index"). Now you can enter a value for each location in the "index" column with which the website can sort the order. Since the table in uMap sorts lexographically, for example, the number 20 will appear before the number 3. To prevent this, you should use values such as 1000 and above to sort. If you have added a sort key for each location, you must then select the newly created sort key column under Settings -> Default properties -> Sort key. (No selection is made here - you must enter the name of the field yourself!)
 
-== Merkmale hinzufügen (Für Fortgeschrittene)
+== Add Features (Advanced)
 
-Bisher haben wir die ganze Beschreibung immer selbst geschrieben. Um uns diesen Vorgang zu vereinfachen, können wir diese Informationen mit Merkmalen speichern.
+So far we have always written the whole description ourselves. In order to simplify this process, we may store this information with characteristics.
 
-Wie Sie im vorherigen Schritt "Reihenfolge der Diashow steuern" gelernt haben, müssen Sie hier auch neue Merkmale der Tabelle hinzufügen.
-Zwei weitere Spalten, die Sie sicherlich brauchen, sind "bildurl" und "text". Wir haben im Beispiel noch eine weitere Spalte "oeffnungszeiten" hinzugefügt. Diese ist jedoch optional und natürlich können Sie auch andere Spalten hinzufügen, wenn Sie möchten.
+As you learned in the previous step "Controlling the order of the slideshow", you must also add new features to the table here.
+Two more columns that you will certainly need are "bildurl" and "text". We have added another column "opening hours" in the example. However, this is optional and of course you can add other columns if you wish.
 
-Füllen Sie die neu erstellten Spalten mit Werten und schliessen Sie die Seitenleiste wieder. Das Ergebnis sollte etwa so aussehen:
+Fill the newly created columns with values and close the sidebar again. The result should look something like this:
 
-.Die neu erstellten Spalten "bildurl" (ganz links) und "text" (ganz rechts)
+The newly created columns "bildurl" (far left) and "text" (far right).
 image::umap/story-map_erstellen/merkmale_gefuellt.PNG["Gefüllte Merkmalen-Tabelle"]
 
-Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popup Vorlage" diesen Text einfügen:
+To use these values from the table, you must insert this text under "Settings -> Standard interaction options -> Popup template":
 
 ....
 {text}
@@ -101,13 +100,13 @@ Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie unter "Einstell
 {oeffnungszeiten}
 ....
 
-NOTE: Wenn Sie keine Spalte "oeffungszeiten" haben oder generell andere Spaltennamen genutzt haben, müssen Sie diese entsprechend abändern oder entfernen.
+NOTE: If you do not have any column "opening times" or have generally used other column names, you must change or remove these accordingly.
 
-Von nun an müssen Sie für die neuen Punkte auf der Karte nur noch die Informationen in der Tabelle ergänzen und danach wird der Anzeigetext für das Popup automatisch zusammengestellt.
+From now on you only have to add the information in the table for the new points on the map and afterwards the display text for the popup is compiled automatically.
 
-IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
+IMPORTANT: When creating a uMap, the data in OpenStreetMap is not changed, only "drawn on".
 
-uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
+uMap and the OpenSchoolMaps project are based on OpenStreetMap (https://osm.org).
 
 include::../../snippets/kontaktinformationen.adoc[]
 

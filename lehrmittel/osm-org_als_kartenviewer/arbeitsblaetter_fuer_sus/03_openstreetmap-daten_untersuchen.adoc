@@ -1,54 +1,59 @@
-= OSM.org als Karten-Viewer, Blatt 3: OpenStreetMap-Daten untersuchen
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= OSM.org as map viewer, worksheet 3: Examining OpenStreetMap data
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*A worksheet for students*
 
 [NOTE]
 ====
-Dieses Arbeitsblatt zeigt dir, wie du auf openstreetmap.org einen Blick in die Daten werfen kannst, die der Karte zugrundeliegenden.
+This worksheet shows you how to openstreetmap.org to get a look at the data on which the map is based on.
 
-Ausserdem lernst du, wie du die OpenStreetMap-Gemeinschaft auf Fehler in der Karte hinweisen kannst. So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halten.
+You'll also learn how to make report to the OpenStreetMap community about errors in the
+on the map. This is how you can help to keep the OpenStreetMap running and to keep them up to date.
+
 ====
 
-== Ein erster Blick hinter den Kulissen
+== A Look Behind The Scenes
 
 
-=== Objekte abfragen
+=== Querying Objects
 
-Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. Klicke dazu den image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-Knopf auf der rechten Seite auf openstreetmap.org.
+You can know what data is behind an object on the map by using the object query. To do this, click the image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-button on the right side of openstreetmap.org.
 
-Dadurch ändert sich dein Mauszeiger. Klicke nun an die ungefähre Stelle auf der Karte, wo das fragliche Objekt liegt. Links erscheint dann eine Liste der dort gefundenen geografischen Objekte. (Es können auch welche dabei sein, die nicht auf der Karte zu sehen sind. Nicht alle in der OpenStreetMap-Datensammlung enthaltenen Daten werden in jedem Kartenstil angezeigt, manches sogar in gar keinem.)
+You should notice that in your mouse pointer changes. Now click on the approximate location on the map where the object in question is located. A list of the geographical objects found there appears on the left. (There may also be some that are not shown on the map. The map layers does not neccessarily use all the the geographical objects.)
 
-Klick den entsprechenden Link an, und du siehst die Eigenschaften ("Attribute") des Objekts sowie den Kommentar zur letzten Änderung, die daran gemacht wurde und weitere Informationen.
+Click the appropriate link and you will see the properties ("Attributes") of the object as well as the comment on the last change made to it and further information.
 
-=== (alle) Kartendaten anzeigen
+=== (All) Show Map Data
 
-Gerade bei Objekten, die auf der Karte gar nicht angezeigt werden, kann es schwierig sein, sie auf diese Weise zu finden und zu untersuchen. In der Seitenleiste mit den Kartenebenen können die örtlichen OpenStreetMap-Daten mit der Checkbox "Kartendaten" eingeblendet werden.
+Especially with objects that are not displayed on the map, it can be difficult to find and examine them in this way. Click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side. A sidebar with the map layers will pop out. At the bottom of the sidebar, select the "Map data" checkbox.
 
-Aber Vorsicht: Vor dem Setzen des Häkchens sollte man *so weit wie möglich hereingezoomt haben*, denn je mehr Daten gleichzeitig angezeigt werden müssen, um so träger und schwerer zu bedienen wird der Webbrowser.
+Do take note: before ticking the box you should zoom in as much as possible
+so as to reduce the data that is being displayed. Otherwise, it can take some time for the browser to load.
 
-Die Daten-Objekte werden als blaue Kreise (für Punkt-Objekte) und Linien (für Linien-Objekte und Grenzen von Flächen-Objekten) über die Karte gelegt. Diese können (auch ohne den oben beschriebenen Objekt-Abfrage-Modus) angeklickt werden, um wiederum zur Detail-Ansicht des jeweiligen Objekts zu gelangen.
+The data objects are placed over the map as blue circles (for point objects) and lines (for line objects and boundaries of area objects). These can be clicked on (even without the object query mode described above) to once again access the detailed view of the respective object.
 
-== OpenStreetMap verbessern helfen
+== Help To Improve OpenStreetMap
 
-Wie von der Willkommensnachricht verkündet, werden die OpenStreetMap-Daten von Menschen wie dir zusammengetragen. Auch ohne Einarbeitung kannst du zur Verbesserung von OpenStreetMap beitragen, indem du die OpenStreetMap-Gemeinschaft auf Fehler und Auslassungen hinweist.
+As announced by the welcome message, the OpenStreetMap data is gathered by people like you. Even without training, you can help improve OpenStreetMap by reporting errors and omissions to the OpenStreetMap community.
 
-Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schulgebäude? Oder gibt es in der Umgebung der Schule ein Bänkli, einen Brunnen oder einen Abfallkübel, der noch nicht eingetragen ist? Oder ist dir auf der Karte sogar etwas aufgefallen was falsch oder veraltet ist?
+Is the address of your school missing in OpenStreetMap? Is the whole school building missing? Or is there a bench, a well or a litter bin in the school's vicinity that has not yet been registered? Or did you even notice something on the map that is wrong or outdated?
 
-=== Notiz erstellen
+=== Create Note
 
-Um die OpenStreetMap-Gemeinschaft auf so etwas hinzuweisen, kannst du eine Notiz erstellen. Klicke dazu auf den image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-Knopf rechts.
+You can make a note to alert the OpenStreetMap community by clicking on the image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-button on the right.
 
-Auf der Karte erscheint eine Positions-Nadel image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zurzeit falsch ist.
+On the map a position needle image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. Move it so that the bottom of the needle points as exactly as possible to the affected map area. Describe as exactly as possible in the text field what should be changed or added or what is currently wrong.
 
 [NOTE]
 ====
-Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. Man kann sie sich wie einen leicht wieder entfernbaren Klebezettel (auch bekannt als "Post-It") vorstellen, auf den man etwas schreibt, und den man auf die Karte klebt. Du brauchst also keine Angst haben, dabei Fehler zu machen!
+An OpenStreetMap note does not change the map data or the maps.
+You can use them like an easily removable adhesive label (also known as
+as "Post-It") on which you write something and place on a card. So don't be afraid to make mistakes!
 
-Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter anderem, weil das doch am meisten Spass macht).
+Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter anderem, weil das doch am meisten Spass macht). //here
 ====
 
 include::../../../snippets/quellenangabe.adoc[]

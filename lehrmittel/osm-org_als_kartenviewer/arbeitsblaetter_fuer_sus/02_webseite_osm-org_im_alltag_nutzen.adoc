@@ -1,45 +1,48 @@
-= OSM.org als Karten-Viewer, Blatt 2: Webseite OSM.org im Alltag benutzen
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= OSM.org as map viewer, worksheet 2: Using the OSM.org website in everyday life
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*A worksheet for students*
 
-NOTE: In diesem Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
+NOTE: In this worksheet you will learn how to toggle between the map layers, use the route planning and share the positions found on your map with others.
 
-== Kartenstile
+== Map Layers
 
-Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. Und nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschieden Karten für verschiedene Zwecke.
+Despite what the name suggests, OpenStreetMap is not really a map. It is a collection of detailed geographical data from which computers can generate a map. And not just one map, but - based on the same data - different maps for different purposes.
 
-Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
+Some of them can be selected from the openstreetmap.org website. What you have seen so far is the OpenStreetMap default map layer. If you click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side, you can switch between these different map views.
 
-== Navigation (Routen-Planung)
+== Navigation (route planning)
 
-Mit der OpenStreetMap-Geodatensammlung können Computer mehr machen, als "nur" Karten zu zeichnen! Die Such-Funktion, die wir bereits angesehen haben, verwendet dieselben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
+With the OpenStreetMap geodata collection, computers can do more than "just" draw maps! The search function uses these data and also free ly available data from sources such as WikiData (a sister project of Wikipedia).
 
-Auch Wege von A nach B zu finden, ist mit den OpenStreetMap-Daten möglich. Das geht so:
+Finding your route from point A to point B is possible. It can be done by:
 
-Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld. Nun kannst du entweder per Text-Eingabe (z.B. Adresse) nach Start- und Zielort suchen, oder die rote und grüne Stecknadel aus dem Suchformular auf die entsprechende Stelle auf der Karte ziehen.
+Click on the image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-button next to the search field. Now you can either enter text (e.g. address) for start and destination, or drag the red and green pins from the search form
+to the desired place on the map.
 
-Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehrsmittel/die Bewegungsart (per Auto, per Velo oder zu Fuss) und das Weg-Such-Programm (in der Fachsprache: den Routing-Algorithmus) wählen.
+Next, the drop-down box below the start and destination field allows you to choose your means of transport/ type of movement to get to your destination.
 
-.Zwischenstationen
+.Stopovers
 [NOTE]
 ====
-Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich. Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-Planungs-Möglichkeit, die jedoch nur für Strecken innerhalb der Schweiz funktioniert.
+The specification of stopovers or "Via "s is unfortunately not available on openstreetmap.org. However, you can visit http://routing.osm.ch ,another OpenStreetMap-based 
+route planning option, where you can specify your stopovers (only available for routes within Switzerland).
+
 ====
 
-=== Aufgaben
+=== Task
 
-Untersuche mit der Navigations-Funktion deinen Schulweg.
+Use the navigation function to find your direction to school from home and remember to change to your usual mode of transport.
 
-Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
+How long would you normally take to get the school?
 
 ////
-(ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.)
+(Public transport / timetable query is unfortunately not supported.)
 
-Angabe in Metern oder Kilometern
+Indication is in meters or kilometers
 ////
 
 ====
@@ -47,28 +50,28 @@ Angabe in Metern oder Kilometern
 ====
 
 
-Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
+Compare it with the estimated time taken generated by openstreetmap.org, is the estimation accurate?
 
 ====
 {empty} +
 ====
 
 
-Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
+Does the proposed route matches the one you normally take?
 
 ====
 {empty} +
 ====
 
 
-Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
+Try changing the mode of transport, is the proposed route the same?
 
 ====
 {empty} +
 ====
 
 
-Wieso kann wohl je nach Verkehrsmittel eine andere Strecke vorgeschlagen werden?
+Why do you think that the means of transport will result in a different route be suggested?
 
 ////
 Nicht jedes Verkehrsmittel ist überall erlaubt:
@@ -81,14 +84,25 @@ Im Auto kann sich ein kleiner Umweg lohnen,
 um eine 30er-Zone zu vermeiden. Velofahrerinnen
 und Fussgänger werden von einer solchen nicht
 ausgebremst.
+
+Not every means of transport is allowed everywhere:
+Cars are not allowed in the pedestrian zone,
+on foot not on the highway.
+
+Also which route is the fastest,
+can depend on the selected mode of transport:
+A short detour in the car can be worthwhile,
+to avoid a 30 zone. cyclists
+and pedestrians are not affected by such
+thwarted.
 ////
 
 ====
 {empty} +
 ====
 
-== Positionen (mit)teilen
+== Position sharing
 
-Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen wenn du auf den image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 20, 20]-Knopf rechts klickst.
+You can get a link to send someone the map section or a marked place on your screen by clicking on the image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 20, 20]-button on the right.
 
 include::../../../snippets/quellenangabe.adoc[]

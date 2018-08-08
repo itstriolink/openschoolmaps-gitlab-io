@@ -1,59 +1,58 @@
-= Mit uMap einen Lageplan erstellen (mithilfe von OpenStreetMap)
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= Create a map with uMap (using OpenStreetMap)
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-*Eine Anleitung für Lehrpersonen*
+*Teacher's Guide*
 
-== Übersicht
+== Synopsis
 
-.Ziel
-Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMap eine Karte zu erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
+.Aim
+The aim of this guide is for teachers like you to be able to use uMap to create a site plan that can be used as a map.
 
-.Beispiel eines mit uMap erstellten Lageplans. Kartendaten (C) OpenStreetMap Contributors
-image::umap/lageplan_erstellen/lageplan_endprodukt.png[]
+.Example of a site plan created with uMap. Map data (C) OpenStreetMap Contributors
 
-Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+You can see the full example map at https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. You may have to zoom in on the blue pins.
 
-.Zeitplanung
-Sie werden für das Beispiel etwa 10-15 Minuten brauchen. Als Mittel dienen ein beliebiges Gerät mit Internetzugang und die uMap-Website.
+.Time Schedule
+You will need about 10-15 minutes for the example. Any device with Internet access and the uMap website serve as a means.
 
 [NOTE]
 ====
-Die Internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
+The international version of uMap is available at https://umap.openstreetmap.fr/de/, but we recommend that you use the Swiss version if your map is in Switzerland.
 ====
 
-== Was ist uMap?
-Mit uMap kann man auf OpenStreetMap Hintergrund eine eigene Karte zeichnen. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie fehlende Gebäude oder Strassen auf der Karte finden, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online Editor von OpenStreetMap finden Sie unter https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
+== What is uMap?
+With uMap you can draw your own map on OpenStreetMap background. All drawings and objects are only visible on the map you have created. If you find missing buildings or streets on the map, you can log on to openstreetmap.org and add the missing objects there. Instructions for the online editor of OpenStreetMap can be found at  https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
 
-== Anleitung für uMap
+== Instructions for uMap
 
-Als Beispiel wird ein Sportevent einer Schule verwendet.
+A school sports event is used as an example.
 
-1. Besuchen Sie https://umap.osm.ch
-2. Wählen Sie "Erstelle eine Karte"
-3. Navigieren Sie zu dem Ort, wo sie eine Karte erstellen möchten, zum Beispiel Ihre Schule.
-4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-Icon image:umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25]. Diesen können Sie dann auf der Map platzieren.
+1. Visit https://umap.osm.ch
+2. Select "Create a map
+3. Navigate to the place where you want to create a map, for example your school.
+4. If you want to create a point, here for example the reception, click on the pin icon image:umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25] in the top right corner of the map. You can then place it on the map.
 
 +
-.In uMap eine Stecknadel setzten. Kartendaten (C) OpenStreetMap Contributors
+.Put a pin in uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
-5. Eine weitere Möglichkeit ist, einen Weg image:umap/weg_icon.PNG["Weg-Icon", 25, 25] einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle zum Event gelangen, so wie wir das hier getan haben.
+5. Another way is to draw a way image:umap/weg_icon.PNG["Weg-Icon", 25, 25], for example to show how visitors get from the bus stop to the event, as we did here.
 
 +
-.In uMap eine Line (z.B einen Weg) einzeichnen. Kartendaten (C) OpenStreetMap Contributors
+.Draw a line (e.g. a path) into uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/weg_platzieren.PNG[]
-6. Für Flächen, klicken sie auf das Flächensymbol image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25]. Wir haben hier den Sportplatz eingezeichnet.
+6. For surfaces, click on the image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25]. We have drawn the sports field here.
 
 +
-.In uMap eine Fläche einzeichnen. Kartendaten (C) OpenStreetMap Contributors
+.Draw an area in uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
-Wenn Sie mit Ihrem Lageplan zufrieden sind, können Sie auf die Schaltfläche "Speichern" oben rechts klicken. Danach können Sie noch den Editiermodus verlassen, indem Sie auf den Schriftzug "Bearbeiten deaktivieren", auch oben rechts, klicken.
-Sie haben nun erfolgreich Ihren ersten Lageplan mit uMap erstellt!
+If you are satisfied with your site plan, you can click on the "Save" button in the upper right-hand corner. After that you can still leave the editing mode by clicking on the writing "Deactivate editing", also at the top right.
+You have now successfully created your first map with uMap!
 
-uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
+uMap and the OpenSchoolMaps project are based on OpenStreetMap (https://osm.org).
 
 include::../../snippets/kontaktinformationen.adoc[]
 

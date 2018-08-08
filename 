@@ -1,0 +1,116 @@
+[1mdiff --git a/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.adoc b/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.adoc[m
+[1mindex 415b610..fa87c90 100644[m
+[1m--- a/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.adoc[m
+[1m+++ b/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.adoc[m
+[36m@@ -4,77 +4,78 @@[m [mOpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten[m
+ include::../../../snippets/lang/de.adoc[][m
+ include::../../../snippets/suppress_title_page.adoc[][m
+ [m
+[31m-*Ein Arbeitsblatt für Schülerinnen und Schüler*[m
+[31m-ifdef::show_solutions[- *LÖSUNGEN*][m
+[32m+[m[32m*A worksheet for students*[m
+[32m+[m[32mifdef::show_solutions[- *SOLUTIONS*][m
+ [m
+[31m-NOTE: In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren Webkarte zu suchen und die Karte zu lesen.[m
+[32m+[m[32mNOTE: This worksheet introduces you to the OpenStreetMap project and its main website openstreetmap.org. You will learn to search for places and read the map there.[m
+ [m
+ [m
+ ////[m
+[31m-Relevante sCHoolmaps-Materialien:[m
+[32m+[m[32mRelevant schoolmaps materials[m
+ https://www.schoolmaps.ch/wp-content/uploads/2015/11/Arbeit_Swisstopo.pdf[m
+ [m
+ https://www.schoolmaps.ch/2017/06/02/kartenlesen-leicht-gemacht-swisstopo-unterrichtseinheiten-zum-kartenlesen-zyklus-2-von-kiknet/ > https://www.kiknet-swisstopo.org/deutsch/karten-lesen/zyklus-2/ u.A. https://www.kiknet-swisstopo.org/app/download/10636227895/07+geo.admin.ch.pdf?t=1522852539[m
+ ////[m
+ [m
+[31m-== Kennst du OpenStreetMap?[m
+[32m+[m[32m== Do you know OpenStreetMap?[m
+ [m
+[31m-Gehe mit deinem Web-Browser auf osm.org. (Der Adresszeilen-Inhalt ändert dabei automatisch zu etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224`.)[m
+[32m+[m[32mGo to osm.org with your web browser. (The content of the address field will change to something like `https://www.openstreetmap.org/#map=8/46.825/8.224`.)[m
+ [m
+[31m-Du kommst auf eine Website, deren Haupt-Teil eine Landkarte ist. Erkennst du den Karten-Ausschnitt? Welches Gebiet ist abgebildet?[m
+[32m+[m[32mYou will get to a website, the main part of which is a map. Can you see the map section? Which area is shown?[m
+ [m
+ ====[m
+ ifdef::show_solutions[][m
+[31m-Falls man schon einmal mit diesem Computer und Browser auf openstreetmap.org war,[m
+[31m-sieht man den Karten-Ausschnitt, den man zuletzt auf der Website angezeigt hatte.[m
+[32m+[m[32mIf you have visited openstreetmap.org with this computer and browser,[m
+[32m+[m[32myou will be shown the map section that was last displayed on the website.[m
+ [m
+[31m-Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf zugreift,[m
+[31m-sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.[m
+[32m+[m[32mIf you are on openstreetmap.org for the first time and access it from Switzerland,[m
+[32m+[m[32myou will be shown the whole of Switzerland.[m
+ endif::show_solutions[][m
+ ifndef::show_solutions[][m
+ {empty} +[m
+ endif::show_solutions[][m
+ ====[m
+ [m
+[31m-Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkommens-Nachricht erschienen. Falls die Nachricht bereits weggeklickt wurde, ist hier nochmal ihr Inhalt:[m
+[32m+[m[32mIf this is your first visit to openstreetmap.org, a welcome message will appear in the upper left corner. Any here is its content again:[m
+ [m
+[31m-> Willkommen bei OpenStreetMap![m
+[31m-> OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei verwendbar unter einer offenen Lizenz.[m
+[32m+[m[32mWelcome to OpenStreetMap![m
+[32m+[m[32mOpenStreetMap is a map of the world, created by people like you and freely usable under an open license.[m
+ >[m
+[31m-> Das Hosting wird von [...] unterstützt.[m
+[32m+[m[32mHosting is supported by [...] unterstützt.[m
+ >[m
+[31m-> https://www.osm.org/about Mehr erfahren | https://www.osm.org/user/new Mit dem Kartieren anfangen[m
+[32m+[m[32m> https://www.osm.org/about Learn more | https://www.osm.org/user/new Start mapping[m
+ [m
+[31m-Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.[m
+[32m+[m[32mRead the message and then close it to see the rest of the map.[m
+ [m
+ <<<[m
+ [m
+[31m-=== Karten-Ausschnitt ändern[m
+[32m+[m[32m=== Change map section[m
+ [m
+[31m-.Die Webseite OpenStreetMap.org[m
+[31m-image::osm-org_als_kartenviewer/osm_homepage.PNG[][m
+[31m-Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-Knopf. Was passiert?[m
+[32m+[m[32mThe OpenStreetMap.org website.[m
+[32m+[m[32mimage::osm-org_as_cards_viewer/osm_homepage.PNG[][m
+[32m+[m[32mAt the right margin are some dark grey buttons with white symbols. Click on the image:osm-org_as_card_viewer/minus_button.PNG["Minus Button", 20, 20] button. What's happening?[m
+ [m
+ ====[m
+ ifdef::show_solutions[][m
+[31m-Zoomt "heraus":[m
+[31m-Es wird ein grösserer Ausschnitt der Welt angezeigt,[m
+[31m-wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)[m
+[31m-kleiner dargestellt werden. Beschriftungen und Kartensymbole[m
+[31m-bleiben jedoch ungefähr gleich gross.[m
+[31m-[m
+[31m-(Je weiter man heraus-zoomt umso mehr Details und[m
+[31m-Beschriftungen werden weggelassen.)[m
+[31m-[m
+[31m-(Falls man bereits ganz rausgezoomt ist[m
+[31m-(Zoomlevel `0`, bei dem die Erde je nach Fensterbreite[m
+[31m-bereits mehrmals dargestellt wird), dann passiert nichts.)[m
+[32m+[m[32mZooms out:[m
+[32m+[m[32mA larger part of the world is displayed,[m
+[32m+[m[32mwhereby the individual objects (houses, lakes, cantons,...)[m
+[32m+[m[32mcan be displayed smaller. Labels and map symbols[m
+[32m+[m[32mhowever, remain approximately the same size.[m
+[32m+[m
+[32m+[m[32m(The further you zoom out, the more details and[m
+[32m+[m[32mLabels are omitted.)[m
+[32m+[m
+[32m+[m[32m(If you are already fully zoomed out[m
+[32m+[m[32m(Zoom level `0`, at which the earth, depending on the window width[m
+[32m+[m[32mis already displayed several times), then nothing happens.)[m
+ endif::show_solutions[][m
+ ifndef::show_solutions[][m
+ {empty} +[m
+ endif::show_solutions[][m
+ ====[m
+ [m
+[32m+[m
+ Was denkst du, was der image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-Knopf macht? Probiere es aus![m
+ [m
+ ====[m

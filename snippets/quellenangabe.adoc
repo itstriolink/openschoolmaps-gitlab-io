@@ -1,1 +1,1 @@
-image:license.png[Lizenz, 66, 23] Frei verwendbar unter CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
+image:license.png[Lizenz, 66, 23] Freely usable under CC0 1.0: http://creativecommons.org/publicdomain/zero/1.0/
