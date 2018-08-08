@@ -1,70 +1,60 @@
-= OpenStreetMap bearbeiten
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= Edit OpenStreetMap
+OpenSchoolMaps.ch - Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
+use the iD-Editor to enter a bench, a well or a waste bin
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*A worksheet for students*
 
-NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" eingebauten "Rundgang" (ein Software-Geführter Einführungskurs) lernst du, OpenStreetMap-Daten mit diesem Editor zu bearbeiten. So kannst du die Karte selbst verbessern und ergänzen.
+NOTE: With this worksheet and the "tour" (a software-guided introductory course) built into the online OpenStreetMap editor "iD", you will learn how to edit OpenStreetMap data with this editor. This way you can improve and complete the map yourself.
 
-Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
+On OpenStreetMap you can not only view the world map, but also edit it. To add or change data, you first need a user account.
 
-== Benutzerkonto erstellen und anmelden
+== Create and login user account
   
-Um ein Benutzerkonto zu erstellen drückst du auf die Schaltfläche "Registrieren" oben rechts. Dazu musst du deine Email-Adresse angeben und dir einen Benutzername und ein Passwort aussuchen. Falls du bereits ein OpenStreetMap-Benutzerkonto hast, kannst du stattdessen natürlich direkt auf "Anmelden" klicken.
+To create an account, press the "Register" button at the top right. You have to enter your email address and choose a username and password. If you already have an OpenStreetMap user account, you can of course click on "Login" instead.
 
-Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir OpenStreetMap ein Email und die Adresse, die du angegeben hast, um zu prüfen, ob du wirklich über diese Email-Adresse erreichbar bist. In dieser Email-Nachricht wirst du einen Bestätigungs-Link finden, den du besuchen musst, um die Registrierung abzuschliessen.
+After you have clicked your way through the registration process, OpenStreetMap sends you an email and the address you entered to check if you can really be reached via this email address. In this email message you will find a confirmation link that you must visit to complete the registration process
 
-== Sprache umstellen (falls nötig)
+== iD, the web editor of OpenStreetMap
 
-Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
+There are several editors that can be used to edit OpenStreetMap. We will use the editor called "iD", which is already installed on the openstreetmap.org website.
 
-1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
-2. Wähle im Dropdown-Menü "Settings" aus
-3. Unter der Einstellung "Preferred Languages" ersetzt du den Text mit `de-CH de`
-4. Klicke den "Save Changes"-Knopf ganz unten, um diese Änderung zu speichern
+=== Walkthrough
 
-Der im Folgenden verwendete Editor wird die selbe Sprache verwenden, falls verfügbar.
+To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start tour". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides int and click on "Start the Walkthrough" to begin the walkthrough.
 
-== iD, der Web-Editor von OpenStreetMap
 
-Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. Wir werden den Editor namens "iD" verwenden, der auf der openstreetmap.org-Website bereits eingebaut ist.
+=== And here we go!
+All changes you made during the "walkthrough" were for practice only and were not really entered in OpenStreetMap.
 
-=== Rundgang
+Is something missing on the OpenStreetMap map, or is something even wrong? Perhaps you notice something at your place of residence or in the area of your school building that can be improved or supplemented. For example, is there a bench, a fountain or a waste bin that is still missing?
 
-Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf den image:osm_editieren/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
+Since you learned in the walkthrough how to enter and change things in OpenStreetMap, you can now enter what is missing and correct what is wrong!
 
-=== Und los geht's!
-
-Alle Änderungen, die du während des "Rundgangs" gemacht hast, waren nur zur Übung und wurden nicht wirklich in OpenStreetMap eingetragen.
-
-Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? Vielleicht fällt dir an deinem Wohnort oder in der Gegend deines Schulhauses etwas auf, das verbessert oder ergänzt werden kann. Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
-
-Da du im Rundgang gelernt hast, wie du Dinge in OpenStreetMap eintragen und ändern kannst, kannst du nun fehlendes eintragen und falsches korrigieren!
-Innerhalb von 5–30 Minuten werden deine Änderungen durchgeführt und auf die Karte angewendet!
+Your changes will be made and applied to the map within 5-30 minutes!
 
 [NOTE]
 ====
-OpenStreetMap speichert Objekt-Eigenschaften in Form von so genannten Tags.
-Diese siehst du auf der linken Seite im iD-Editor, nachdem du ein Objekt angewählt hast, wie du in <<eigenschaften_zugeklappt>> siehst.
+OpenStreetMap saves object properties as tags.
+You can see this on the left side of the iD editor after selecting an object, as you can see in <<properties_closed>>.
 
-Wenn du das Feld "Alle Eigenschaften" aufklappst, sieht du alle Tags des Objekts, wie in <<eigenschaften_aufgeklappt>>.
+If you expand the field "All properties", you will see all tags of the object, as in <<properties_expanded>>.
 
-Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet nachschauen.
+If you don't know which tag to use, you can check the cheatsheet.
 ====
 
 [[eigenschaften_zugeklappt]]
-.Die Tags finden sich im Abschnitt "Alle Eigenschaften", der eventuell zugeklappt ist.
+.The tags can be found in the "All Properties" section, which may be closed.
 image::osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 265, 354]
 
 [[eigenschaften_aufgeklappt]]
-.Mit einem Klick kann der Abschnitt "Alle Eigenschaften" aufgeklappt werden.
+.The "All properties" section can be opened by clicking
 image::osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
-Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
+If you haven't noticed anything that needs changing or adding, click on the OpenStreetMap logo in the upper left corner to exit the iD Editor and return to the map. Then click on the "Layers"-button (the one with the stacked areas image:osm_editieren/osm_ebene_icon.PNG["Area-Icon", 25, 25] as icon) and select the checkbox "Notes/Error messages". See if you see notes from other map users indicating errors or omissions that you can fix by making changes. When you have found something, click on "Edit" again.
 
 include::../../../snippets/quellenangabe.adoc[]
