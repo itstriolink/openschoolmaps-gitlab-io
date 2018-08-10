@@ -20,15 +20,15 @@ on the map. This is how you can help to keep the OpenStreetMap running and to ke
 
 === Querying Objects
 
-You can know what data is behind an object on the map by using the object query. To do this, click the image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-button on the right side of openstreetmap.org.
+You can know what data is behind an object on the map by using the object query. To do this, click on the image:osm-org_als_kartenviewer/object_query_button.PNG["Query Features Button", 20, 20]-button on the right side of openstreetmap.org.
 
 You should notice that in your mouse pointer changes. Now click on the approximate location on the map where the object in question is located. A list of the geographical objects found there appears on the left. (There may also be some that are not shown on the map. The map layers does not neccessarily use all the the geographical objects.)
 
-Click the appropriate link and you will see the properties ("Attributes") of the object as well as the comment on the last change made to it and further information.
+Click on the appropriate link and you will see the properties ("Attributes") of the object as well as the comment on the last change made to it and further information.
 
 === (All) Show Map Data
 
-Especially with objects that are not displayed on the map, it can be difficult to find and examine them in this way. Click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side. A sidebar with the map layers will pop out. At the bottom of the sidebar, select the "Map data" checkbox.
+Especially with objects that are not displayed on the map, it can be difficult to find and examine them in this way. Click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side. A sidebar with the map layers will pop out. At the bottom of the sidebar, select the "Map data" checkbox.
 
 Do take note: before ticking the box you should zoom in as much as possible
 so as to reduce the data that is being displayed. Otherwise, it can take some time for the browser to load.
@@ -53,7 +53,7 @@ An OpenStreetMap note does not change the map data or the maps.
 You can use them like an easily removable adhesive label (also known as
 as "Post-It") on which you write something and place on a card. So don't be afraid to make mistakes!
 
-Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. Wer also tatsächlich selbst etwas bewirken will, dem raten wir, die Änderungen doch gleich selbst durchzuführen (unter anderem, weil das doch am meisten Spass macht). //here
+But this also means that by creating a note, the database of OpenStreetMap is not changed yet. If you really want to make a difference yourself, we hope that you can make the changes in the edit mode instead(among other things, because it's the most fun).
 ====
 
 include::../../../snippets/quellenangabe.adoc[]

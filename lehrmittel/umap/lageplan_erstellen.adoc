@@ -31,25 +31,25 @@ With uMap you can draw your own map on OpenStreetMap background. All drawings an
 A school sports event is used as an example.
 
 1. Visit https://umap.osm.ch
-2. Select "Create a map
+2. Select "Create a map"
 3. Navigate to the place where you want to create a map, for example your school.
-4. If you want to create a point, here for example the reception, click on the pin icon image:umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25] in the top right corner of the map. You can then place it on the map.
+4. If you want to create a marker, click on the marker icon image:umap/stecknadel_icon.PNG["Marker icon", 25, 25] in the top right corner of the map. You can then place it on the map.
 
 +
-.Put a pin in uMap. Map data (C) OpenStreetMap Contributors
+.Draw a marker on uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
-5. Another way is to draw a way image:umap/weg_icon.PNG["Weg-Icon", 25, 25], for example to show how visitors get from the bus stop to the event, as we did here.
+5. Another way is to click on the polyline image:umap/weg_icon.PNG["Polyline icon", 25, 25], for example to show how visitors get from the bus stop to the event, as we did here.
 
 +
-.Draw a line (e.g. a path) into uMap. Map data (C) OpenStreetMap Contributors
+.Draw a polyline (e.g. a path) on uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/weg_platzieren.PNG[]
-6. For surfaces, click on the image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25]. We have drawn the sports field here.
+6. Lastly, click on the polygon image:umap/flaeche_icon.PNG["Polygon icon", 25, 25]. We have drawn the area of the sports field here.
 
 +
-.Draw an area in uMap. Map data (C) OpenStreetMap Contributors
+.Draw a polygon on uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
-If you are satisfied with your site plan, you can click on the "Save" button in the upper right-hand corner. After that you can still leave the editing mode by clicking on the writing "Deactivate editing", also at the top right.
+If you are satisfied with your site plan, you can click on the "Save" button in the upper right-hand corner. Otherwise, you can leave the editing mode by clicking on the "Disable editing", also at the top right.
 You have now successfully created your first map with uMap!
 
 uMap and the OpenSchoolMaps project are based on OpenStreetMap (https://osm.org).

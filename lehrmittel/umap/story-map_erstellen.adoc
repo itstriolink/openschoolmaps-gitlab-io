@@ -35,14 +35,14 @@ Consider in advance what the end product should look like and note which points 
 +
 .The umap.osm.ch homepage
 image::umap/story-map_erstellen/uMap_homepage.png[]
-  * Enter points image:umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] you would like to have on the map. You can also select the line image:umap/weg_icon.PNG["Linien-Icon", 25, 25] and area image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25].
-* Now to the actual "story". The most important step is to activate the slide show under "Settings image:umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] Slide show -> Activate slide show mode". After saving the settings, you probably need to refresh with F5.
+  * You can select the draw a marker icon image:umap/stecknadel_icon.PNG["Draw a marker icon", 25, 25] you would like to have on the map. You can also select the draw a polyline icon image:umap/weg_icon.PNG["Draw a polyline icon", 25, 25] or draw a polygon icon image:umap/flaeche_icon.PNG["Draw a polygon icon", 25, 25].
+  * Now to the actual "story". The most important step is to activate the slide show under "Edit map settings image:umap/story-map_erstellen/zahnrad_icon.png["Edit map settings icon", 25, 25] Slideshow -> Toggle the Activate slideshow mode". After saving the settings, you probably need to refresh with F5.
 
 == Add Description
 
 Now that you have added several points to the map, we can add a description for each point. These descriptions are displayed during the slide show.
 
-To add a description, click (in edit mode) on the item you want to edit and write your text in the "Description" box.
+To add a description, click (in edit mode) on the item you want to edit and write your text in the "Description" text box.
 In addition, write a suitable name for the point in the "Name" text box, as we will need it later.
 
 [NOTE]
@@ -51,7 +51,7 @@ To create a nice description we have some tips for you:
 
 * To make an italic font, you need `+*one asterisk*+`..
 * To make a bold font, you need `+**two asterisk**+`.
-* To make headlines you need `# titles`. The more `#` the smaller the heading.
+* To make headings you need `# titles`. The more `#` the smaller the heading gets.
 	
 Further display modes can be found by clicking on the question mark above the "Description" text box.
 ====
@@ -62,7 +62,7 @@ If the link is `https://www.example.com/picture.png`, then you must enter the fo
 Your description should now look something like this:
 
 .Element properties with filled description
-image::umap/story-map_erstellen/beschreibung.PNG["Text in der Beschreibung", 293, 418]
+image::umap/story-map_erstellen/beschreibung.PNG["Text in the description", 293, 418]
 
 Now add a description to each item. If you are satisfied with the result, you can click on the "Save" button at the top right and exit the editing mode.
 
@@ -73,12 +73,12 @@ Clicking the Stop button allows you to stop the slideshow.
 
 == Change display (optional)
 
-* You can change the appearance of pins under "Settings -> Default shape properties -> Symbol shape".
-* You can also display the pop-up information in the sidebar. To do this, go to "Settings -> Default interaction options -> Popup style" and select "Sidebar". After saving and refreshing the site, the pop-up information should appear in the sidebar.
+* You can change the appearance of pins under "Edit map settings image:umap/story-map_erstellen/zahnrad_icon.png["Edit map settings icon", 25, 25] -> Default shape properties -> Icon symbol".
+* You can also display the pop-up information in the sidebar. To do this, go to "Edit map settings image:umap/story-map_erstellen/zahnrad_icon.png["Edit map settings icon", 25, 25] -> Default interaction options -> Popup style" and select "Side panel". After saving and refreshing the site, the pop-up information should appear in the side panel.
 
 == Controlling the order of the slideshow (Advanced)
 
-To control the order of the locations in the slideshow, we need to add a sort key. Open the layer management image:umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] and click on the tiny icon "Edit properties in a table"  image:umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25] Click on the button image:umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20] and enter a name (for example "index"). Now you can enter a value for each location in the "index" column with which the website can sort the order. Since the table in uMap sorts lexographically, for example, the number 20 will appear before the number 3. To prevent this, you should use values such as 1000 and above to sort. If you have added a sort key for each location, you must then select the newly created sort key column under Settings -> Default properties -> Sort key. (No selection is made here - you must enter the name of the field yourself!)
+To control the order of the locations in the slideshow, we need to add a sort key. Open the layer management image:umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] on left side of the screen and click on the tiny icon "Edit properties in a table"  image:umap/story-map_erstellen/merkmal_bearbeiten.png["Property icon", 25, 25] Click on the button image:umap/story-map_erstellen/merkmal_hinzufügen.png["Add a new property icon", 100, 20] and enter a name (for example "index"). Now you can enter a value for each location in the "index" column with which the website can sort the order. Since the table in uMap sorts lexographically, for example, the number 20 will appear before the number 3. To prevent this, you should use values such as 1000 and above to sort. If you have added a sort key for each location, you must then select the newly created sort key column under Edit map settings image:umap/story-map_erstellen/zahnrad_icon.png["Edit map settings icon", 25, 25] -> Default properties -> Sort key. (No selection is made here - you must enter the name of the field yourself!)
 
 == Add Features (Advanced)
 
@@ -90,9 +90,9 @@ Two more columns that you will certainly need are "bildurl" and "text". We have 
 Fill the newly created columns with values and close the sidebar again. The result should look something like this:
 
 The newly created columns "bildurl" (far left) and "text" (far right).
-image::umap/story-map_erstellen/merkmale_gefuellt.PNG["Gefüllte Merkmalen-Tabelle"]
+image::umap/story-map_erstellen/merkmale_gefuellt.PNG["Filled characteristics table"]
 
-To use these values from the table, you must insert this text under "Settings -> Standard interaction options -> Popup template":
+To use these values from the table, you must insert this text under "Edit map settings image:umap/story-map_erstellen/zahnrad_icon.png["Edit map settings icon", 25, 25] -> Default interaction options -> Popup content template":
 
 ....
 {text}

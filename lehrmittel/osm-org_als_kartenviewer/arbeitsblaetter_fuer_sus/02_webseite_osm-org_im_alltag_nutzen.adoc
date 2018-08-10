@@ -12,7 +12,7 @@ NOTE: In this worksheet you will learn how to toggle between the map layers, use
 
 Despite what the name suggests, OpenStreetMap is not really a map. It is a collection of detailed geographical data from which computers can generate a map. And not just one map, but - based on the same data - different maps for different purposes.
 
-Some of them can be selected from the openstreetmap.org website. What you have seen so far is the OpenStreetMap default map layer. If you click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side, you can switch between these different map views.
+Some of them can be selected from the openstreetmap.org website. What you have seen so far is the OpenStreetMap default map layer. If you click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side, you can switch between these different map views.
 
 == Navigation (route planning)
 

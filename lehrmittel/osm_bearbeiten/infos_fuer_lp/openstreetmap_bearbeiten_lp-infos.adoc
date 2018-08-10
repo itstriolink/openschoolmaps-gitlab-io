@@ -9,10 +9,10 @@ include::../../../snippets/suppress_title_page.adoc[]
 == Synopsis
 
 .Aim
-After editing the corresponding worksheet, students should be able to add or modify data on openstreetmap.org, such as a bench, a well or a waste bin, using the iD editor.
+After editing the corresponding worksheet, students should be able to add or modify data, such as a bench, a well or a waste bin, on openstreetmap.org using the iD editor.
 
 .Target Group
-SuS in Lehrplan 21 Zyklus 2 or 3 (4th to 9th school year)
+Students in Lehrplan 21 Zyklus 2 or 3 (4th to 9th school year)
 
 .Time Schedule
 * Registration: 5 minutes
@@ -39,7 +39,7 @@ There are several editors that can be used to edit OpenStreetMap. We will use th
 
 === Walkthrough
 
-To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start tour". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides int and click on "Start the Walkthrough" to begin the walkthrough.
+To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides int and click on "Start the Walkthrough" to begin the walkthrough.
 
 IMPORTANT: Please play through the walkthrough before introducing OpenSchoolMap to your students.
 
@@ -69,6 +69,7 @@ Your changes will be made and applied to the map within 5-30 minutes!
 [NOTE]
 ====
 OpenStreetMap saves object properties as tags.
+
 You can see this on the left side of the iD editor after selecting an object, as you can see in <<properties_closed>>.
 
 If you expand the field "All properties", you will see all tags of the object, as in <<properties_expanded>>.
@@ -76,15 +77,15 @@ If you expand the field "All properties", you will see all tags of the object, a
 If you don't know which tag to use, you can check the cheatsheet.
 ====
 
-[[eigenschaften_zugeklappt]]
+[[properties_closed]]
 .The tags can be found in the "All Properties" section, which may be closed.
-image::osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 265, 354]
+image::osm_editieren/eigenschaften_zugeklappt.PNG["properties closed", 265, 354]
 
-[[eigenschaften_aufgeklappt]]
+[[properties_expanded]]
 .The "All properties" section can be opened by clicking
-image::osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
+image::osm_editieren/eigenschaften_aufgeklappt.PNG["properties expanded"]
 
-If you haven't noticed anything that needs changing or adding, click on the OpenStreetMap logo in the upper left corner to exit the iD Editor and return to the map. Then click on the "Layers"-button (the one with the stacked areas image:osm_editieren/osm_ebene_icon.PNG["Area-Icon", 25, 25] as icon) and select the checkbox "Notes/Error messages". See if you see notes from other map users indicating errors or omissions that you can fix by making changes. When you have found something, click on "Edit" again.
+If you haven't noticed anything that needs changing or adding, click on the OpenStreetMap logo in the upper left corner to exit the iD Editor and return to the map. Then click on the "Layers"-button image:osm_editieren/osm_ebene_icon.PNG["Layers icon", 25, 25] and select the checkbox "Map Notes". See if you see notes from other map users indicating errors or omissions that you can fix by making changes. When you have found something, click on "Edit" again.
 
 include::../../../snippets/kontaktinformationen.adoc[]
 

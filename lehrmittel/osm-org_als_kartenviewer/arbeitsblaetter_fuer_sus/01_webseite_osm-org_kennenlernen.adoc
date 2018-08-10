@@ -67,7 +67,7 @@ are displayed in a smaller size. However, labels and map symbols remain approxim
 labels are omitted.)
 
 (If you are already fully zoomed out
-(Zoomlevel `0`, whereas depending on the window width, the Earth is already displayed several times), then nothing happens.)
+(Zoomlevel `0`, whereas depending on the window width, the Earth will be displayed several times), then nothing happens.)
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -101,7 +101,7 @@ Does it matter where you hover the mouse pointer as you scroll your mouse?
 
 ====
 ifdef::show_solutions[]
-Yes, the position of the mouse pointer will determine the area which you wants to zoom "in" to or zoom "out" from.
+Yes, the position of the mouse pointer will determine the area which you wants to zoom in to or zoom out from.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -267,7 +267,7 @@ endif::show_solutions[]
 
 To see the meaning of different line colors and types on the map, click on the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]- button on the right. Also different surface types and some (not all) map symbols are listed there.
 
-The further you zooms "in", the more details are displayed on the map and the longer this map key becomes.
+The further you zooms in, the more details are displayed on the map and the longer this map key becomes.
 
 What do the purple lines of different thicknesses mean?
 
