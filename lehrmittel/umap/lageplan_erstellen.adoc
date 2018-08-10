@@ -34,17 +34,17 @@ A school sports event is used as an example.
 1. Visit https://umap.osm.ch
 2. Select "Create a map"
 3. Navigate to the place where you want to create a map, for example your school.
-4. If you want to create a marker, click on the marker icon image:umap/stecknadel_icon.PNG["Marker icon", 25, 25] in the top right corner of the map. You can then place it on the map.
+4. Firstly, click on the marker icon image:umap/stecknadel_icon.PNG["Marker icon", 25, 25] in the top right corner of the map. You can then place it on the map.
 
 +
 .Draw a marker on uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
-5. Another way is to click on the polyline image:umap/weg_icon.PNG["Polyline icon", 25, 25] It can be used to show how visitors get from the bus stop to the event, as seen below.
+5. Secondly, click on the polyline image:umap/weg_icon.PNG["Polyline icon", 25, 25] It is used to show how visitors get from the bus stop to the event, as seen below.
 
 +
 .Draw a polyline (e.g. a path) on uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/weg_platzieren.PNG[]
-6. Lastly, click on the polygon image:umap/flaeche_icon.PNG["Polygon icon", 25, 25]. We used the polygon to draw the area of the sports field.
+6. Thirdly, click on the polygon image:umap/flaeche_icon.PNG["Polygon icon", 25, 25]. It is used to represent the area of the sports field.
 
 +
 .Draw a polygon on uMap. Map data (C) OpenStreetMap Contributors

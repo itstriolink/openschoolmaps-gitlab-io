@@ -39,7 +39,7 @@ There are several editors that can be used to edit OpenStreetMap. We will use th
 
 === Walkthrough
 
-To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides in and click on "Start the Walkthrough" to begin the walkthrough.
+To get to know this editor, you should first work through its built-in "walkthrough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides in and click on "Start the Walkthrough" to begin the walkthrough.
 
 IMPORTANT: Please play through the walkthrough before introducing OpenSchoolMap to your students.
 
