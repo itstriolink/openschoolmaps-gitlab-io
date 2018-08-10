@@ -9,13 +9,14 @@ include::../../snippets/suppress_title_page.adoc[]
 .Aim
 The aim of this guide is to create a story map with uMap as part of the OpenSchoolMaps project. In geography, a story map provides an attractive and informative combination of publicly available maps, accompanying text, images and multimedia content.
 This is the map we will create:
+
 .Example of a story map created with uMap. Map data (C) OpenStreetMap Contributors
 image::umap/story-map_erstellen/endprodukt.png[]
 
 You can see the full example map at  https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. You may have to zoom in on the blue pins.
 
 .Target Group
-For all who are interested in "Mapping".
+Anyone who are interested in "Mapping".
 
 .Time Schedule
 Depending on the size of your story map you should plan about 45 minutes for this guide.
@@ -89,7 +90,7 @@ Two more columns that you will certainly need are "bildurl" and "text". We have 
 
 Fill the newly created columns with values and close the sidebar again. The result should look something like this:
 
-The newly created columns "bildurl" (far left) and "text" (far right).
+.The newly created columns "bildurl" (far left) and "text" (far right).
 image::umap/story-map_erstellen/merkmale_gefuellt.PNG["Filled characteristics table"]
 
 To use these values from the table, you must insert this text under "Edit map settings image:umap/story-map_erstellen/zahnrad_icon.png["Edit map settings icon", 25, 25] -> Default interaction options -> Popup content template":
@@ -97,7 +98,7 @@ To use these values from the table, you must insert this text under "Edit map se
 ....
 {text}
 {{{bildurl}}}
-{oeffnungszeiten}
+{opening hours}
 ....
 
 NOTE: If you do not have any column "opening times" or have generally used other column names, you must change or remove these accordingly.

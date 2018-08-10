@@ -39,7 +39,7 @@ There are several editors that can be used to edit OpenStreetMap. We will use th
 
 === Walkthrough
 
-To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides int and click on "Start the Walkthrough" to begin the walkthrough.
+To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides in and click on "Start the Walkthrough" to begin the walkthrough.
 
 IMPORTANT: Please play through the walkthrough before introducing OpenSchoolMap to your students.
 
@@ -60,11 +60,11 @@ Otherwise the tutorial should be self-explanatory.
 
 All changes you made during the "walkthrough" were for practice only and were not really entered in OpenStreetMap.
 
-Is something missing on the OpenStreetMap map, or is something even wrong? Perhaps you notice something at your place of residence or in the area of your school building that can be improved or supplemented. For example, is there a bench, a fountain or a waste bin that is still missing?
+Is something missing on the OpenStreetMap map, or is something even wrong? Perhaps you may notice something at your place of residence or in the area of your school building that can be improved or supplemented. 
 
 Since you learned in the walkthrough how to enter and change things in OpenStreetMap, you can now enter what is missing and correct what is wrong!
 
-Your changes will be made and applied to the map within 5-30 minutes!
+Your changes will be made, updated and applied to the map within 5-30 minutes!
 
 [NOTE]
 ====

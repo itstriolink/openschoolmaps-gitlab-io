@@ -12,6 +12,7 @@ include::../../snippets/suppress_title_page.adoc[]
 The aim of this guide is for teachers like you to be able to use uMap to create a site plan that can be used as a map.
 
 .Example of a site plan created with uMap. Map data (C) OpenStreetMap Contributors
+image::umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
 You can see the full example map at https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. You may have to zoom in on the blue pins.
 
@@ -38,12 +39,12 @@ A school sports event is used as an example.
 +
 .Draw a marker on uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
-5. Another way is to click on the polyline image:umap/weg_icon.PNG["Polyline icon", 25, 25], for example to show how visitors get from the bus stop to the event, as we did here.
+5. Another way is to click on the polyline image:umap/weg_icon.PNG["Polyline icon", 25, 25] It can be used to show how visitors get from the bus stop to the event, as seen below.
 
 +
 .Draw a polyline (e.g. a path) on uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/weg_platzieren.PNG[]
-6. Lastly, click on the polygon image:umap/flaeche_icon.PNG["Polygon icon", 25, 25]. We have drawn the area of the sports field here.
+6. Lastly, click on the polygon image:umap/flaeche_icon.PNG["Polygon icon", 25, 25]. We used the polygon to draw the area of the sports field.
 
 +
 .Draw a polygon on uMap. Map data (C) OpenStreetMap Contributors

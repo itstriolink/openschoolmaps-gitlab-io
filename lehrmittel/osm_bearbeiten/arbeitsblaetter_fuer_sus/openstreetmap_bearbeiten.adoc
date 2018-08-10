@@ -5,7 +5,7 @@ OpenSchoolMaps.ch - Free learning materials for free geodata and maps
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-use the iD-Editor to enter a bench, a well or a waste bin
+Use the iD-Editor to enter a bench, a well or a waste bin
 
 *A worksheet for students*
 
@@ -47,11 +47,11 @@ If you expand the field "All properties", you will see all tags of the object, a
 If you don't know which tag to use, you can check the cheatsheet.
 ====
 
-[[eigenschaften_zugeklappt]]
+[[properties_closed]]
 .The tags can be found in the "All Properties" section, which may be closed.
 image::osm_editieren/eigenschaften_zugeklappt.PNG["properties closed", 265, 354]
 
-[[eigenschaften_aufgeklappt]]
+[[properties_expanded]]
 .The "All properties" section can be opened by clicking
 image::osm_editieren/eigenschaften_aufgeklappt.PNG["properties expanded"]
 

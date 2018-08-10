@@ -5,7 +5,7 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet for students*
-ifdef::show_solutions[- *STUDENTS*]
+ifdef::show_solutions[- *SOLUTIONS*]
 
 NOTE: This worksheet introduces you to the OpenStreetMap project and its main website openstreetmap.org. You will learn to search for places and read the map there.
 
@@ -189,9 +189,9 @@ A Spanish tourist asks about the way to "Ginebra". Where is she trying to go to 
 
 ====
 ifdef::show_solutions[]
-to Geneva / Genève
+She is trying to asks the way to Geneva / Genève.
 
-Since there is also a place called "Ginebra" in Colombia, it may be necessary to clarify.
+However, do note that there is also a place called "Ginebra" in Colombia.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
