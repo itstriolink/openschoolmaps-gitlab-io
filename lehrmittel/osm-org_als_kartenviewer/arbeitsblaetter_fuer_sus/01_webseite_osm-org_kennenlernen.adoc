@@ -271,14 +271,13 @@ What do the purple lines of different thicknesses mean?
 
 ====
 ifdef::show_solutions[]
-These are the political boundaries.
+These are the political boundaries. National borders are shown thicker than cantonal borders and these in turn thicker than district and city borders. 
 
-National borders are shown thicker than cantonal borders and these in turn thicker than district and city borders. To sumarise, in terms of thickness:
-
+To sumarise, in terms of thickness:
 political > cantonal > district > city
 (This information is not shown in the map key, but can be deduced from the map with some geographical knowledge)
 
-endif::show_solutions[]
+endif::show_solutions[]xx	
 ifndef::show_solutions[]
 {empty} +
 {empty} +
