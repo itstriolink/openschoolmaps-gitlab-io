@@ -1,7 +1,6 @@
 = Create a story map with pictures with uMap
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../bilder/
-include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
 == Synopsis

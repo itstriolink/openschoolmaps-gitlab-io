@@ -1,7 +1,6 @@
 = OSM.org as map viewer, worksheet 1: Get to know the OSM.org website
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet for students*
@@ -54,7 +53,7 @@ Read the message and then close it to return to the map.
 
 .The OpenStreetMap.org website.
 image::osm-org_als_kartenviewer/osm_homepage.PNG[]
-At the right margin are some dark grey buttons with white symbols. Click the image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]- button. What happened?
+At the right margin, there are some dark grey buttons with white symbols. Click on the image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]- button. What happened?
 
 ====
 ifdef::show_solutions[]
@@ -148,10 +147,9 @@ sights and names of shops, hotels, restaurants and much more. Some other example
 * Search your church or your district
 
 IMPORTANT: The search field takes care of spelling and wording. If what you're searching
-is not found, it is either not in the database or that it is spelled differently from what you entered
-you have. Just change the query and try again!
+is not found, it is either not in the database or what you have entered is spelled differently in the database. Just change the query and try again!
 
-Try finding your school, you can use the search field or simply move around the map as learned in the section above. If OpenStreetMap does not find your school by name or address, you can try including both. 
+Try finding your school, you can use the search field or simply move around the map as learned in the section above. If OpenStreetMap fails to query your school by the name or address, you can try including both. 
 
 Is your school building registered in OpenStreetMap?
 
@@ -275,9 +273,11 @@ What do the purple lines of different thicknesses mean?
 ifdef::show_solutions[]
 These are the political boundaries.
 
-National borders are shown thicker than cantonal borders and these in turn thicker than district and city borders.
+National borders are shown thicker than cantonal borders and these in turn thicker than district and city borders. To sumarise, in terms of thickness:
 
-(The latter information is not shown in the map key, but can be deduced from the map.)
+political > cantonal > district > city
+(This information is not shown in the map key, but can be deduced from the map with some geographical knowledge)
+
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +

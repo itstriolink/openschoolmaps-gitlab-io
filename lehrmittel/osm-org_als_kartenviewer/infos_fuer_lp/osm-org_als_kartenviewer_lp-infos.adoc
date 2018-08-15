@@ -1,7 +1,6 @@
 = Teacher information on the "OSM.org as a map viewer" worksheet
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet for teachers*
@@ -62,7 +61,7 @@ ifdef::show_solutions[]
 endif::show_solutions[]
 
 .Suggestion
-In geography lessons it is often common to enter angular coordinates in degrees, minutes and seconds. Use this opportunity to practice the conversion between decimal fraction and the degree-minute-second system. For example, coordinate data from the register of an atlas can be translated into OpenStreetMap URLs.
+In geography lessons it is often common to enter angular coordinates in degrees, minutes and seconds. Use this opportunity to practice the conversion between decimal fraction and the degree-minute-second system. For example, coordinate data from the register of an atlas can be translated into OpenStreetMap URLs. //note
 
 === Task for advanced students / higher classes
 Zoom out so far that you can see whole continents or even the whole earth. Then move the map north or south without zooming. Why does the scale change?

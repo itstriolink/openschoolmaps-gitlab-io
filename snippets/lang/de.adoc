@@ -1,2 +1,0 @@
-:lang: de
-:figure-caption: Figure

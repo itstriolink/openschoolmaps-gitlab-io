@@ -1,8 +1,7 @@
-= Edit OpenStreetMap
+= Edit OpenStreetMap worksheet
 OpenSchoolMaps.ch - Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 Use the iD-Editor to enter a bench, a well or a waste bin
@@ -17,7 +16,7 @@ On OpenStreetMap you can not only view the world map, but also edit it. To add o
   
 To create an account, press the "Register" button at the top right. You have to enter your email address and choose a username and password. If you already have an OpenStreetMap user account, you can of course click on "Login" instead.
 
-After you have clicked your way through the registration process, OpenStreetMap sends you an email and the address you entered to check if you can really be reached via this email address. In this email message you will find a confirmation link that you must visit to complete the registration process
+After you have clicked your way through the registration process, OpenStreetMap sends you an email and the address you entered to check if you can be reached via this email address. In this email message you will find a confirmation link that you must visit to complete the registration process
 
 == iD, the web editor of OpenStreetMap
 
@@ -25,11 +24,11 @@ There are several editors that can be used to edit OpenStreetMap. We will use th
 
 === Walkthrough
 
-To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides int and click on "Start the Walkthrough" to begin the walkthrough.
+To get to know this editor, you should first work through its built-in "walkthough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side), scroll down from the window that slides in and click on "Start the Walkthrough" to begin the walkthrough.
 
 
 === And here we go!
-All changes you made during the "walkthrough" were for practice only and were not really entered in OpenStreetMap.
+All changes you made during the "walkthrough" were for practice only and were not entered in OpenStreetMap.
 
 Is something missing on the OpenStreetMap map, or is something even wrong? Perhaps you notice something at your place of residence or in the area of your school building that can be improved or supplemented. For example, is there a bench, a fountain or a waste bin that is still missing?
 
@@ -55,6 +54,6 @@ image::osm_editieren/eigenschaften_zugeklappt.PNG["properties closed", 265, 354]
 .The "All properties" section can be opened by clicking
 image::osm_editieren/eigenschaften_aufgeklappt.PNG["properties expanded"]
 
-If you haven't noticed anything that needs changing or adding, click on the OpenStreetMap logo in the upper left corner to exit the iD Editor and return to the map. Then click on the "Layers"-button image:osm_editieren/osm_ebene_icon.PNG["Layers icon", 25, 25] and select the checkbox "Map Notes". See if you see notes from other map users indicating errors or omissions that you can fix by making changes. When you have found something, click on "Edit" again.
+If you haven't noticed anything that needs changing or adding, click on the OpenStreetMap logo in the upper left corner to exit the iD Editor and return to the map. Then click on the "Layers"-button image:osm_editieren/osm_ebene_icon.PNG["Layers icon", 25, 25] and select the checkbox "Map Notes". If you see notes from other map users indicating errors or omissions, you can fix it by making changes. 
 
 include::../../../snippets/quellenangabe.adoc[]

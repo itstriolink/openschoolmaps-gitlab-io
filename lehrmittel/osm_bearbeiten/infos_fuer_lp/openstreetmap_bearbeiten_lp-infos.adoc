@@ -1,7 +1,6 @@
-= Teacher information on the "Edit OpenStreetMap" worksheet"
+= Teacher information on the "Edit OpenStreetMap" worksheet
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet for teachers*
@@ -39,7 +38,7 @@ There are several editors that can be used to edit OpenStreetMap. We will use th
 
 === Walkthrough
 
-To get to know this editor, you should first work through its built-in "walkthrough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side) scroll down from the window that slides in and click on "Start the Walkthrough" to begin the walkthrough.
+To get to know this editor, you should first work through its built-in "walkthrough". To do this, press the "Edit"-button in the upper left corner. If a welcome message is then displayed, click on "Start the Walkthrough". Otherwise press the image:osm_editieren/help_button.PNG["Help Button", 20, 20]-button (on the right side), scroll down from the window that slides in and click on "Start the Walkthrough" to begin the walkthrough.
 
 IMPORTANT: Please play through the walkthrough before introducing OpenSchoolMap to your students.
 
@@ -58,7 +57,7 @@ Otherwise the tutorial should be self-explanatory.
 
 === And here we go!
 
-All changes you made during the "walkthrough" were for practice only and were not really entered in OpenStreetMap.
+All changes you made during the "walkthrough" were for practice only and were not entered in OpenStreetMap.
 
 Is something missing on the OpenStreetMap map, or is something even wrong? Perhaps you may notice something at your place of residence or in the area of your school building that can be improved or supplemented. 
 
@@ -85,7 +84,7 @@ image::osm_editieren/eigenschaften_zugeklappt.PNG["properties closed", 265, 354]
 .The "All properties" section can be opened by clicking
 image::osm_editieren/eigenschaften_aufgeklappt.PNG["properties expanded"]
 
-If you haven't noticed anything that needs changing or adding, click on the OpenStreetMap logo in the upper left corner to exit the iD Editor and return to the map. Then click on the "Layers"-button image:osm_editieren/osm_ebene_icon.PNG["Layers icon", 25, 25] and select the checkbox "Map Notes". See if you see notes from other map users indicating errors or omissions that you can fix by making changes. When you have found something, click on "Edit" again.
+If you haven't noticed anything that needs changing or adding, click on the OpenStreetMap logo in the upper left corner to exit the iD Editor and return to the map. Then click on the "Layers"-button image:osm_editieren/osm_ebene_icon.PNG["Layers icon", 25, 25] and select the checkbox "Map Notes". If you see notes from other map users indicating errors or omissions, you can fix it by making changes. 
 
 include::../../../snippets/kontaktinformationen.adoc[]
 

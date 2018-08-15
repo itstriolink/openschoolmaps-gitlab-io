@@ -1,39 +1,38 @@
 = OSM.org as map viewer, worksheet 3: Examining OpenStreetMap data
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet for students*
 
 [NOTE]
 ====
-This worksheet shows you how to openstreetmap.org to get a look at the data on which the map is based on.
+This worksheet shows you how to use openstreetmap.org to get a look at the data on which the map is based on.
 
-You'll also learn how to make report to the OpenStreetMap community about errors in the
-on the map. This is how you can help to keep the OpenStreetMap running and to keep them up to date.
+You'll also learn how to make reports to the OpenStreetMap community about errors in the
+on the map. This is how you can help to keep the OpenStreetMap running and up to date.
 
 ====
 
 == A Look Behind The Scenes
 
 
-=== Querying Objects
+=== Querying Features
 
-You can know what data is behind an object on the map by using the object query. To do this, click on the image:osm-org_als_kartenviewer/object_query_button.PNG["Query Features Button", 20, 20]-button on the right side of openstreetmap.org.
+You can know what data is behind an features on the map by using the object features. To do this, click on the image:osm-org_als_kartenviewer/object_query_button.PNG["Query Features Button", 20, 20]-button on the right side of openstreetmap.org.
 
-You should notice that in your mouse pointer changes. Now click on the approximate location on the map where the object in question is located. A list of the geographical objects found there appears on the left. (There may also be some that are not shown on the map. The map layers does not neccessarily use all the the geographical objects.)
+You should notice that your mouse pointer changes. Now, click on the approximate location on the map where you want to find out more information on. A list of the geographical features found there appears on the left. (There may also be some that are not shown on the map. The map layers does not neccessarily use all the the geographical features.)
 
-Click on the appropriate link and you will see the properties ("Attributes") of the object as well as the comment on the last change made to it and further information.
+Click on the features on the left panel, and you will be able to obtain additional information such as the Tags and Members of the selected features.
 
 === (All) Show Map Data
 
-Especially with objects that are not displayed on the map, it can be difficult to find and examine them in this way. Click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side. A sidebar with the map layers will pop out. At the bottom of the sidebar, select the "Map data" checkbox.
+Especially with features that are not displayed on the map, it can be difficult to find and examine them in this way. Click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side. A sidebar with the map layers will pop out. At the bottom of the sidebar, select the "Map data" checkbox.
 
-Do take note: before ticking the box you should zoom in as much as possible
+Do take note: before clicking the box you should zoom in as much as possible
 so as to reduce the data that is being displayed. Otherwise, it can take some time for the browser to load.
 
-The data objects are placed over the map as blue circles (for point objects) and lines (for line objects and boundaries of area objects). These can be clicked on (even without the object query mode described above) to once again access the detailed view of the respective object.
+The data features are placed all over the map,  blue circles for point features, lines for line features and boundaries of area features). These can be clicked on (even without the object query mode described above) to once again access the detailed view of the respective features.
 
 == Help To Improve OpenStreetMap
 
@@ -45,15 +44,16 @@ Is the address of your school missing in OpenStreetMap? Is the whole school buil
 
 You can make a note to alert the OpenStreetMap community by clicking on the image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-button on the right.
 
-On the map a position needle image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. Move it so that the bottom of the needle points as exactly as possible to the affected map area. Describe as exactly as possible in the text field what should be changed or added or what is currently wrong.
+Drag the position needle image:osm-org_als_kartenviewer/needle_symbol.PNG["Needle Icon", 25, 25] out to the map. Move it, so that the bottom of the needle points as exactly as possible to the affected map area. Describe as exactly as possible in the text field what should be changed, added or wrong.
 
 [NOTE]
 ====
-An OpenStreetMap note does not change the map data or the maps.
+This note does not change the map data or the maps.
 You can use them like an easily removable adhesive label (also known as
-as "Post-It") on which you write something and place on a card. So don't be afraid to make mistakes!
+as "Post-It") on which you write something and place on a card. This note will be submitted to trained personnel to make the update if deemed neccessary.So don't be afraid to make mistakes!
 
-But this also means that by creating a note, the database of OpenStreetMap is not changed yet. If you really want to make a difference yourself, we hope that you can make the changes in the edit mode instead(among other things, because it's the most fun).
+If you really want to make a difference, we hope that you can make the changes in the edit mode instead. The instructions is in the Edit OpenStreetMaps worksheet.
+If you really want to make a difference, we hope that you can make the changes in the edit mode instead. The instructions is in the Edit OpenStreetMaps worksheet.
 ====
 
 include::../../../snippets/quellenangabe.adoc[]
