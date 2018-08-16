@@ -277,7 +277,7 @@ To sumarise, in terms of thickness:
 political > cantonal > district > city
 (This information is not shown in the map key, but can be deduced from the map with some geographical knowledge)
 
-endif::show_solutions[]xx	
+endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
 {empty} +
