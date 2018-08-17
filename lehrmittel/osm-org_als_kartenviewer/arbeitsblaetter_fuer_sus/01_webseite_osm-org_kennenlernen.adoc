@@ -1,13 +1,12 @@
-= OSM.org als Karten-Viewer, Blatt 1: Webseite OSM.org kennenlernen
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= OSM.org as map viewer, worksheet 1: Get to know the OSM.org website
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
-ifdef::show_solutions[- *LÖSUNGEN*]
+*A worksheet for students*
+ifdef::show_solutions[- *SOLUTIONS*]
 
-NOTE: In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren Webkarte zu suchen und die Karte zu lesen.
+NOTE: This worksheet introduces you to the OpenStreetMap project and its main website openstreetmap.org. You will learn to search for places and read the map there.
 
 
 ////
@@ -17,77 +16,76 @@ https://www.schoolmaps.ch/wp-content/uploads/2015/11/Arbeit_Swisstopo.pdf
 https://www.schoolmaps.ch/2017/06/02/kartenlesen-leicht-gemacht-swisstopo-unterrichtseinheiten-zum-kartenlesen-zyklus-2-von-kiknet/ > https://www.kiknet-swisstopo.org/deutsch/karten-lesen/zyklus-2/ u.A. https://www.kiknet-swisstopo.org/app/download/10636227895/07+geo.admin.ch.pdf?t=1522852539
 ////
 
-== Kennst du OpenStreetMap?
+== Have you heard of the OpenStreetMap?
 
-Gehe mit deinem Web-Browser auf osm.org. (Der Adresszeilen-Inhalt ändert dabei automatisch zu etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224`.)
+Go to osm.org with your web browser. (The content of the address field will change to something like `https://www.openstreetmap.org/#map=8/46.825/8.224`.)
 
-Du kommst auf eine Website, deren Haupt-Teil eine Landkarte ist. Erkennst du den Karten-Ausschnitt? Welches Gebiet ist abgebildet?
+You will be brought to a website. The main part of which is a map. Can you see the map section? Which area is shown?
 
 ====
 ifdef::show_solutions[]
-Falls man schon einmal mit diesem Computer und Browser auf openstreetmap.org war,
-sieht man den Karten-Ausschnitt, den man zuletzt auf der Website angezeigt hatte.
+If you have visited openstreetmap.org with this computer and browser,
+you will be shown the map section that was last displayed on the website.
 
-Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf zugreift,
-sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.
+If you are on openstreetmap.org for the first time and access it from Switzerland,
+you will be shown the whole of Switzerland.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
 
-Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkommens-Nachricht erschienen. Falls die Nachricht bereits weggeklickt wurde, ist hier nochmal ihr Inhalt:
+If this is your first visit to openstreetmap.org, a welcome message will appear in the upper left corner. If the message has already been clicked away, here is its content again:
 
-> Willkommen bei OpenStreetMap!
-> OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei verwendbar unter einer offenen Lizenz.
+> Welcome to OpenStreetMap!
 >
-> Das Hosting wird von [...] unterstützt.
+> OpenStreetMap is a map of the world, created by people like you and freely usable under an open license.
 >
-> https://www.osm.org/about Mehr erfahren | https://www.osm.org/user/new Mit dem Kartieren anfangen
+> Hosting is supported by [...].
+>
+> https://www.osm.org/about Learn more | https://www.osm.org/user/new Start mapping
 
-Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.
+Read the message and then close it to return to the map.
 
 <<<
 
-=== Karten-Ausschnitt ändern
+=== Map Section
 
-.Die Webseite OpenStreetMap.org
+.The OpenStreetMap.org website.
 image::osm-org_als_kartenviewer/osm_homepage.PNG[]
-Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-Knopf. Was passiert?
+At the right margin, there are some dark grey buttons with white symbols. Click on the image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]- button. What happened?
 
 ====
 ifdef::show_solutions[]
-Zoomt "heraus":
-Es wird ein grösserer Ausschnitt der Welt angezeigt,
-wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)
-kleiner dargestellt werden. Beschriftungen und Kartensymbole
-bleiben jedoch ungefähr gleich gross.
+Zoom out:
+A larger part of the world is displayed,
+whereby the individual objects (houses, lakes, cantons,...)
+are displayed in a smaller size. However, labels and map symbols remain approximately the same size.
 
-(Je weiter man heraus-zoomt umso mehr Details und
-Beschriftungen werden weggelassen.)
+(The more you zoom out, the more details and
+labels are omitted.)
 
-(Falls man bereits ganz rausgezoomt ist
-(Zoomlevel `0`, bei dem die Erde je nach Fensterbreite
-bereits mehrmals dargestellt wird), dann passiert nichts.)
+(If you are already fully zoomed out
+(Zoomlevel `0`, whereas depending on the window width, the Earth will be displayed several times), then nothing happens.)
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
 
-Was denkst du, was der image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-Knopf macht? Probiere es aus!
+What do you think the image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-button does? Try it out!
 
 ====
-ifdef::show_solutions[Zoomt "herein"]
+ifdef::show_solutions[Zoom in]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
 
-Falls du eine Maus mit Scroll-Rad hast, halte den Mauszeiger über den Bereich der Website mit der Landkarte und drehe das Rad (langsam) nach vorn oder hinten. Was beobachtest du?
+If you have a mouse with a scroll wheel, hover the mouse pointer over the map and scroll (slowly) forwards or backwards. What did you notice?
 
 ====
-ifdef::show_solutions[Auch so kann gezoomt werden]
+ifdef::show_solutions[You can also zoom in this way]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -97,12 +95,12 @@ ifdef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-Spielt es dabei eine Rolle, wo auf der Karte der Zeiger steht?
+Does it matter where you hover the mouse pointer as you scroll your mouse?
+
 
 ====
 ifdef::show_solutions[]
-Ja, die Zeigerposition dient als Zentrum der Verkleinerungs oder Vergrösserungs-Bewegung. D.h. die Karten-Position unter dem Zeiger steht fast still, und die
-Positionen darum herum bewegen sich auf den Zeiger zu oder von ihm weg.
+Yes, the position of the mouse pointer will determine the area which you wants to zoom in to or zoom out from.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -115,16 +113,14 @@ ifndef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus, wie?
+Of course, the map section can also be moved without enlarging or changing its size.
+reduce. Can you figure out how?
 
 ====
 ifdef::show_solutions[]
-Mauszeiger über der Karte platzieren.
-
-Primäre (meist linke) Maustaste gedrückt halten
-und Zeiger in gewünschte Richtung ziehen.
-
-(Karte bewegt sich mit dem Zeiger mit.)
+Place the mouse pointer over the map.
+Hold down the primary (usually left) mouse button and drag the pointer in the desired direction.
+(Map moves with the pointer.)
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -133,27 +129,29 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Was passiert, wenn du eine Stelle auf der Karte doppel-klickst?
+What happens when you double-click a spot on the map?
 
 ====
-ifdef::show_solutions[Zoomt (1 Stufe) herein, mit Klick-Position als Zoom-Zentrum.]
+ifdef::show_solutions[Zooms in (1 level), with click position as zoom center]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
 
-=== Such-Feld
+=== Search Box
 
-Oben links findest du ein Text-Eingabefeld für Such-Anfragen. Hier können Orte, Adressen, Sehenswürdigkeiten und Namen von Läden, Hotels, Restaurants und vielem mehr eingegeben werden.
+At the top left you will find a text input field for search queries. It can be places, addresses,
+sights and names of shops, hotels, restaurants and much more. Some other examples are:
 
-* Suche deinen Kanton
-* Suche deine Gemeinde oder deinen Ortsteil
+* Search your canton
+* Search your church or your district
 
-IMPORTANT: Das Suchfeld achtet auf Rechtschreibung und Schreibweise. Wenn das, was du suchst, nicht gefunden wird, heisst das entweder, dass es in der Datenbank noch nicht existiert, oder, dass es anders geschrieben wird als das, was du eingegeben hast. Ändere einfach die Abfrage etwas und versuch es erneut!
+IMPORTANT: The search field takes care of spelling and wording. If what you're searching
+is not found, it is either not in the database or what you have entered is spelled differently in the database. Just change the query and try again!
 
-Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder dich einfach auf der Karte bewegen wie im Abschnitt oben gelernt. Falls OpenStreetMap deine Schule nicht über ihren Namen oder ihre Adresse findet, kannst du auch beides kombinieren: Suche zuerst nach dem Ort oder Quartier, und zoome und verschiebe den Karten-Ausschnitt dorthin, wo deine Schule sein sollte.
+Try finding your school, you can use the search field or simply move around the map as learned in the section above. If OpenStreetMap fails to query your school by the name or address, you can try including both. 
 
-Ist dein Schulhaus in OpenStreetMap eingetragen?
+Is your school building registered in OpenStreetMap?
 
 ====
 ifdef::show_solutions[-]
@@ -162,7 +160,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Suche das Haus, in dem du wohnst. Lässt es sich über deine Adresse finden?
+Try searching for your house. Can it be found by your address?
 
 ====
 ifdef::show_solutions[-]
@@ -171,29 +169,27 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Falls nicht, suche es wieder durch verschieben und zoomen der Karte.
+If not, search for it again by moving and zooming the map. Try to find other places you know.
 
-Versuche, andere dir bekannte Orte so zu finden.
+OpenStreetMap does not only work in Switzerland. You can also find places like New York, Tokyo and Kolkata. Important cities can be found under different names, so instead of "Tokio" you can use the English spelling "Tokyo" or the local (Japanese) "東京".
 
-OpenStreetMap funkioniert nicht nur in der Schweiz. Du kannst auch Orte wie New York, Tokio und Kalkutta finden. Wichtige Städte sind dabei unter verschiedensprachigen Namen zu finden, du kannst also anstatt "Tokio" auch die englische Schreibweise "Tokyo" oder die örtliche (japanische) "東京" verwenden.
+* Have you recently been on holiday (at home or abroad) or visiting relatives?
+Try to find the resort which you resides in. Can you locate them on the map?
 
-* Warst du kürzlich in den Ferien (sei es im In- oder Ausland) oder zu Besuch bei Verwandten? Versuche den Ferienort zu finden. Erkennst du ihn auf der Karte wieder?
-
-Welche Stadt heisst auf Italienisch "Ciūrichas"?
+Which city is called "Ciūrichas" in Italian?
 
 ====
 ifdef::show_solutions[Zürich]
 ifndef::show_solutions[{empty} +]
 ====
 
-Eine spanische Touristin fragt nach dem Weg nach "Ginebra". Wo in der Schweiz will sie hin?
+A Spanish tourist asks about the way to "Ginebra". Where is she trying to go to (in Switzerland)?
 
 ====
 ifdef::show_solutions[]
-nach Genf / Genève
+She is trying to asks the way to Geneva / Genève.
 
-Da es auch in Kolumbien einen Ort namens "Ginebra" gibt,
-muss bei der Suche evtl. das Land mit angegeben werden.
+However, do note that there is also a place called "Ginebra" in Colombia.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -202,60 +198,61 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-=== Orientierung
+=== Orientation
 
-Eine Windrose sucht man auf openstreetmap.org vergeblich. Wie ist die Karte auf der Website ausgerichtet? Falls nötig, suche einen Ort, von dem du auch eine Papier-Karte hast oder bei dem du die Himmelsrichtungen kennst, und vergleiche OpenStreetMap mit der Papier-Karte oder deinem Wissen.
+There is no compass rose on openstreetmap.org. What is the map orientation? If necessary, you can compare a physical map with the virtual map from openstreetmap.org.
 
-Osten liegt
+East is on the
 ifdef::show_solutions[]
-[.underline]#rechts#
+[.underline]#right#
 endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+of the openstreetmap.org map.
 
-Norden liegt
+North is at the
 ifdef::show_solutions[]
-[.underline]#oben#
+[.underline]#top#
 endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+of the openstreetmap.org map
 
-Süden liegt
+South is at the
 ifdef::show_solutions[]
-[.underline]#unten#
+[.underline]#bottom#
 endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+of the openstreetmap.org map
 
-Westen liegt
+West is on the 
 ifdef::show_solutions[]
-[.underline]#links#
+[.underline]#left#
 endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+of the openstreetmap.org map
 
 ifdef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-=== Grössenverhältnisse
+=== Proportions On The Map
 
-Zoome heraus, bis du die ganze Erde siehst. Grönland und Süd-Amerika sehen etwa gleich gross aus. Kann es sein, dass sie tatsächlich etwa gleich gross sind? Falls möglich, schau auf dem Globus nach, und vergleich mit diesem.
+Zoom out until you can see the entire map. You will realize that Greenland and South America seems to have the same size. Could it be that they are actually about the same size? If possible, look at the globe and compare with that.
 
-Unten links findest du einen Karten-Maßstab. Anders als bei Papier-Karten steht hier jedoch keine Maßstabs-Zahl (z.B. 1:10'000). Wieso wohl nicht?
+At the bottom left you will find a map scale. In contrast to physical map, there is no
+Scale number (e.g. 1:10'000). Can you imagine why?
 
 ====
 ifdef::show_solutions[]
-Die Website kann nicht wissen, wie gross und wie hochaufgelöst dein Bildschirm ist.
-Daher kann auch das Verhältnis zwischen tatsächlichen Grössen/Längen/Abständen und den Grössen/Längen/Abständen auf der Kartendarstellung nicht von der Website berechnet werden.
+The website cannot know how large your screen is and what resolution it has.
+Therefore, the ratio between actual sizes/lengths/distances and the sizes/lengths/distances on the screen cannot be calculated by the website.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -264,25 +261,22 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-=== Legende
+=== Map Key
 
-Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
+To see the meaning of different line colors and types on the map, click on the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]- button on the right. Also different surface types and some (not all) map symbols are listed there.
 
-Je weiter du herein-zoomst, umso mehr Details werden auf der Karte dargestellt und umso länger wird auch diese Kartenlegende.
+The further you zooms in, the more details are displayed on the map and the longer this map key becomes.
 
-Welche Bedeutung haben die verschieden dicken violetten Linien?
+What do the purple lines of different thicknesses mean?
 
 ====
 ifdef::show_solutions[]
-Das sind politische Grenzen.
+These are the political boundaries. National borders are shown thicker than cantonal borders and these in turn thicker than district and city borders. 
 
-Je höher die "Einheit", umso dicker die Linie:
-Landesgrenzen sind dicker dargestellt als Kantonsgrenzen
-und diese wiederum dicker als Bezirks- und Gemeindegrenzen.
+To sumarise, in terms of thickness:
+political > cantonal > district > city
+(This information is not shown in the map key, but can be deduced from the map with some geographical knowledge)
 
-(Letztere Information ist nicht in der Legende ersichtlich,
-lässt sich aber aus der Karte einer Gegend ablesen,
-deren politische Gebiete man bereits kennt.)
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +

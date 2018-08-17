@@ -1,71 +1,70 @@
-= Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer"
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= Teacher information on the "OSM.org as a map viewer" worksheet
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Lehrpersonen*
-ifdef::show_solutions[- *LÖSUNGEN*]
+*A worksheet for teachers*
+ifdef::show_solutions[- *SOLUTIONS*]
 
-== Übersicht
+== Synopsis
 
-.Ziel
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.
+.Aim
+After editing the corresponding worksheet, students should be able to use openstreetmap.org to view the OpenStreetMap, find places and things on the map, use the routing function and enter "notes" in OpenStreetMap to help improve the map data.
 
-.Zielgruppe
-SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
+.Target Group
+Students in Lehrplan 21 Zyklus 2 or 3 (4th to 9th school year)
 
-.Zeitplanung
-* Arbeitsblatt "Webseite OSM.org kennenlernen": 20 Minuten
-* Arbeitsblatt "Webseite OSM.org im Alltag nutzen": 10 Minuten
-* Arbeitsblatt "OpenStreetMap-Daten untersuchen": 15 Minuten
+.Time Schedule
+* "Get to know the OSM.org website" worksheet: 20 minutes	
+* "Using the OSM.org website in everyday life" worksheet: 10 minutes
+* "Examine OpenStreetMap data" worksheet: 15 Minuten
 
-Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
+The total time taken should be about one lesson (45 minutes).
 
-== Vorbereitung
-Die SuS sollten einen *physischen Atlas oder eine Papierkarte* zur Verfügung haben, und nach Möglichkeit auch einen Globus.
+== Prearrangement
 
-Alternativ zu einem Globus kann das Computerprogramm "Marble" verwendet werden.
+The students should have a *physical atlas or a physical map*, and if possible also a globe.
 
-Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang* (mindestens zu https://openstreetmap.org).
+As an alternative to a globe, the computer program "Marble" can be used.
+
+The students require a *web browser* with *Internet access* (at least to https://openstreetmap.org) for them to work on the worksheet.
 
 <<<
 
-== Zusatzaufgaben
+== Additional Task
 
-=== Web-Kompetenz
+=== Web-Competence
 
-Wie hat sich der Inhalt der Browser-Adressleiste verändert, als du auf `osm.org` gegangen bist?
-
-ifdef::show_solutions[]
-`osm.org` wurde automatisch durch etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224` ersetzt.
-endif::show_solutions[]
-
-Kannst du die einzelnen Teile der Adresse erklären?
+How did the content of the browser address bar change when you went to `osm.org`?
 
 ifdef::show_solutions[]
-
-* `https://`: Das verwendete Protokoll. HTTP (Hypertext transfer protocol) ist die Art und Weise wie Internet-Seiten und sonstige Daten im World Wide Web übertragen werden. Das `s` am Ende zeigt an, dass die Verbindung zur Website verschüsselt erfolgt.
-
-* `openstreetmap.org`: Die Haupt-Domain des OpenStreetMap-Projekts. Die Endung (="Top-Level-Domain") `.org` wurde gewählt, um zu betonen, dass es sich um ein Projekt von Freiwilligen handelt, nicht um ein Kommerzielles unterfangen wie vieles unter `.com`. `osm.org` ist eine weitere Domain des Projekts, die auf die entsprechenden `openstreetmap.org`-Seiten weiterleitet. So kann man sich Tipparbeit sparen.
-
-* `www.`: Eine Sub-Domain, die anzeigt, dass es sich um eine Website im World Wide Web (WWW) handelt. Etwas redundant, da das durch das HTTP-Protokoll und die global erreichbare Domain bereits impliziert ist.
-
-* `#map=8/46.825/8.224`: Der Karten-Ausschnitt. Dabei ist:
-
-  * `8`: Das "Zoom-Level". Je grösser diese Zahl, um so "näher ran" gezoomt ist die Ansicht.
-
-  * `46.825`: Die geografische Breite in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
-
-  * `8.224`: Die geografische Länge in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
+`osm.org` was automatically replaced by something like `https://www.openstreetmap.org/#map=8/46.825/8.224`.
 endif::show_solutions[]
 
-.Anregung
-Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas in OpenStreetMap-URLs übersetzt werden.
+Can you explain the individual parts of the address?
 
-=== Aufgabe für fortgeschrittene SuS / höhere Klassen
+ifdef::show_solutions[]
 
-Zoome so weit heraus, dass du ganze Kontinente oder gar die ganze Erde siehst. Dann verschiebe die Karte nord- oder südwärts ohne zu zoomen. Wieso verändert sich dabei der Maßstab?
+* `https://`: The protocol used. HTTP (Hypertext transfer protocol) is the way Internet pages and other data are transmitted on the World Wide Web. The `s` (Secure) at the end indicates that the connection to the website is encrypted.
+
+* `openstreetmap.org`: The main domain of the OpenStreetMap project. The extension (="top-level domain") `.org` was chosen to emphasize that this is a volunteer project, not a commercial venture like much of `.com`. `osm.org` is another domain of the project, which forwards to the corresponding `openstreetmap.org` pages. This saves you typing.
+
+* `www.`: A sub-domain indicating that it is a website on the World Wide Web (WWW). Somewhat redundant, as this is already implied by the HTTP protocol and the globally accessible domain.
+
+* `#map=8/46.825/8.224`: DThe map section. This includes:
+
+  * `8`: The "zoom level". The larger this number, the closer the view is zoomed.
+
+  * `46.825`: The latitude in WGS-84 coordinates as decimal number (degrees with decimal places)
+
+  * `8.224`: The geographic longitude in WGS-84 coordinates as decimal number (degrees with decimal places)
+endif::show_solutions[]
+
+.Suggestion
+In geography lessons it is often common to enter angular coordinates in degrees, minutes and seconds. Use this opportunity to practice the conversion between decimal fraction and the degree-minute-second system. For example, coordinate data from the register of an atlas can be translated into OpenStreetMap URLs. //note
+
+=== Task for advanced students / higher classes
+Zoom out so far that you can see whole continents or even the whole earth. Then move the map north or south without zooming. Why does the scale change?
 
 
 include::../../../snippets/kontaktinformationen.adoc[]
