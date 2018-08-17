@@ -35,3 +35,7 @@ auf https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel[d
 erzeugt.
 
 Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmaterialien verbessern kann, schauen Sie sich die Seite "Weitere Unterrichtsideen" an.
+
+=== English version
+
+Get https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/english/download?job=PDFs[these materials in English] (Zip archive).
