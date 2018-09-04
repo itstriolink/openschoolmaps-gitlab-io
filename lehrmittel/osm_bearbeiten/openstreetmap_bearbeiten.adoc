@@ -1,9 +1,9 @@
 = OpenStreetMap bearbeiten
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
-:imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
-include::../../../snippets/suppress_title_page.adoc[]
+:imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
 
 mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
 
@@ -119,4 +119,4 @@ image::osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
 Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
 
-include::../../../snippets/quellenangabe.adoc[]
+include::../../snippets/quellenangabe.adoc[]
