@@ -75,20 +75,21 @@ Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. W
 
 Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf den image:osm_editieren/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
 
-====
 ifdef::show_solutions[]
 IMPORTANT: Bitte spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
 
 .Mögliche Fragen, die von Ihren Schülern aufkommen könnten:
-*Wie vervollständigt man eine Fläche?*
+[NOTE]
+====
+* *Wie vervollständigt man eine Fläche?*
 Eine Fläche wird erstellt, sobald mal den Umriss beendet hat, indem man wieder den ersten Punkt anklickt oder Enter drückt.
 
-*Der Kreis um den Tank ist zu gross!*
+* *Der Kreis um den Tank ist zu gross!*
 Die viereckige Fläche, die für den Kreis verwendet wird, muss im Tank drin sein und mit den Ecken den Rand berühren.
+====
 
 Ansonsten sollte das Tutorial selbsterklärend sein.
 endif::show_solutions[]
-====
 
 === Und los geht's!
 
