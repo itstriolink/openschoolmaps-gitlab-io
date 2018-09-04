@@ -53,7 +53,7 @@ endif::show_solutions[]
 Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir OpenStreetMap ein Email und die Adresse, die du angegeben hast, um zu prüfen, ob du wirklich über diese Email-Adresse erreichbar bist. In dieser Email-Nachricht wirst du einen Bestätigungs-Link finden, den du besuchen musst, um die Registrierung abzuschliessen.
 
 ifdef::show_solutions[]
-Alternativ kann man sich auch mit einem Google-, Facebook- oder Microsoft-Konto einloggen.
+NOTE: Alternativ kann man sich auch mit einem Google-, Facebook- oder Microsoft-Konto einloggen.
 endif::show_solutions[]
 
 == Sprache umstellen (falls nötig)
