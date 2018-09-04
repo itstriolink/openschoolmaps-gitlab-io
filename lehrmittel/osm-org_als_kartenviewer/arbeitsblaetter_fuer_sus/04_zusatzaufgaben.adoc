@@ -1,0 +1,46 @@
+= OSM.org als Karten-Viewer, Zusatzaufgaben
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Schülerinnen und Schüler*
+ifdef::show_solutions[- *LÖSUNGEN*]
+
+== Zusatzaufgaben
+
+=== Web-Kompetenz
+
+Wie hat sich der Inhalt der Browser-Adressleiste verändert, als du auf `osm.org` gegangen bist?
+
+ifdef::show_solutions[]
+`osm.org` wurde automatisch durch etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224` ersetzt.
+endif::show_solutions[]
+
+Kannst du die einzelnen Teile der Adresse erklären?
+
+ifdef::show_solutions[]
+
+* `https://`: Das verwendete Protokoll. HTTP (Hypertext transfer protocol) ist die Art und Weise wie Internet-Seiten und sonstige Daten im World Wide Web übertragen werden. Das `s` am Ende zeigt an, dass die Verbindung zur Website verschüsselt erfolgt.
+
+* `openstreetmap.org`: Die Haupt-Domain des OpenStreetMap-Projekts. Die Endung (="Top-Level-Domain") `.org` wurde gewählt, um zu betonen, dass es sich um ein Projekt von Freiwilligen handelt, nicht um ein Kommerzielles unterfangen wie vieles unter `.com`. `osm.org` ist eine weitere Domain des Projekts, die auf die entsprechenden `openstreetmap.org`-Seiten weiterleitet. So kann man sich Tipparbeit sparen.
+
+* `www.`: Eine Sub-Domain, die anzeigt, dass es sich um eine Website im World Wide Web (WWW) handelt. Etwas redundant, da das durch das HTTP-Protokoll und die global erreichbare Domain bereits impliziert ist.
+
+* `#map=8/46.825/8.224`: Der Karten-Ausschnitt. Dabei ist:
+
+  * `8`: Das "Zoom-Level". Je grösser diese Zahl, um so "näher ran" gezoomt ist die Ansicht.
+
+  * `46.825`: Die geografische Breite in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
+
+  * `8.224`: Die geografische Länge in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
+endif::show_solutions[]
+
+.Anregung
+Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas in OpenStreetMap-URLs übersetzt werden.
+
+=== Aufgabe für fortgeschrittene SuS / höhere Klassen
+
+Zoome so weit heraus, dass du ganze Kontinente oder gar die ganze Erde siehst. Dann verschiebe die Karte nord- oder südwärts ohne zu zoomen. Wieso verändert sich dabei der Maßstab?
+
+include::../../../snippets/quellenangabe.adoc[]
