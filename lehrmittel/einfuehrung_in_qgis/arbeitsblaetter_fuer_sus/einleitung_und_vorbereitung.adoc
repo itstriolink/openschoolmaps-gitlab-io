@@ -67,7 +67,7 @@ http://www.qgis.org/
 
 Falls die Seite in Englisch angezeigt wird, kannst du rechts oben durch Klicken auf die deutsche Flagge die Sprache der Homepage von Englisch auf Deutsch wechseln. Wenn du auf die Schaltfläche "Jetzt herunterladen" klickst, gelangst du auf die Seite, auf welcher das Programm runtergeladen werden kann. QGIS ist für die Betriebssysteme Windows, MacOS X und Linux erhältlich.
 
-Fähle für dein Betriebssystem den richtigen Download und lade die Installationsdatei herunter.
+Wähle für dein Betriebssystem den richtigen Download und lade die Installationsdatei herunter.
 
 Dieses Leitprogramm wurde für die QGIS-Version 3.2.2-Bonn geschrieben. Achte deshalb beim Herunterladen darauf, dass du die folgende Datei runterlädst: QGIS-OSGeo4W-3.2.2-Setup-x86_64.exe oder QGIS-OSGeo4W-3.2.2-Setup-x86.exe
 
