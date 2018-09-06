@@ -51,3 +51,28 @@ Falls Antworten fehlerhaft, zurück zu 3.
 . ....
 
 Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
+
+== Vorbereitung
+
+=== Installation der GIS-Software QGIS
+
+Falls du in der Schule nicht mit deinem eigenen Computer arbeitest, frage eine Lehrperson, ob sie dir die Software auf einem Computer installieren kann oder ob sie schon auf einem Computer installiert ist, welchen du für das Bearbeiten des Leitprogrammes benützen könntest.
+
+Wenn du mit deinem eigenen Computer arbeitest, kannst du, je nachdem wie geübt du im Umgang mit Computern bist, das Programm QGIS selber installieren oder jemanden fragen (z.B. deine/n Lehrer/in oder deine Eltern), ob er / sie dir bei der Installation behilflich sein kann.
+
+Um auf einem Computer eine neue Software installieren zu können, brauchst du Administratorenrecht.
+
+Die Installation von QGIS ist nicht schwierig. Das Programm kann unter folgendem Link heruntergeladen werden:
+http://www.qgis.org/
+
+Falls die Seite in Englisch angezeigt wird, kannst du rechts oben durch Klicken auf die deutsche Flagge die Sprache der Homepage von Englisch auf Deutsch wechseln. Wenn du auf die Schaltfläche "Jetzt herunterladen" klickst, gelangst du auf die Seite, auf welcher das Programm runtergeladen werden kann. QGIS ist für die Betriebssysteme Windows, MacOS X und Linux erhältlich.
+
+Fähle für dein Betriebssystem den richtigen Download und lade die Installationsdatei herunter.
+
+Dieses Leitprogramm wurde für die QGIS-Version 3.2.2-Bonn geschrieben. Achte deshalb beim Herunterladen darauf, dass du die folgende Datei runterlädst: QGIS-OSGeo4W-3.2.2-Setup-x86_64.exe oder QGIS-OSGeo4W-3.2.2-Setup-x86.exe
+
+=== Beispieldaten herunterladen
+
+Lade das zip-File mit den Daten für die Übungen dieses Leitprogrammes unter folgendem Link herunter.
+
+http://www.qgis-lp.ethz.ch/V16/Daten_Leitprogramm_QGIS.zip[Daten Leitprogramm]
