@@ -1,0 +1,53 @@
+= Einleitung
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Schülerinnen und Schüler*
+
+Herzlich willkommen zum HSR-Leitprogramm "Einführung in die Opensource-Software QGIS". Bevor du mit der Bearbeitung des Leitprogramms beginnst, hier noch einige Informationen. Bitte lies diese aufmerksam durch.
+
+== Wieso GIS im Unterricht?
+
+In sehr vielen Unterrichtsfächern werden Inhalte gelehrt, die einen Raumbezug haben. Dieser Raumbezug wird teilweise in einer Karte, oft aber auch gar nicht visualisiert. Einige Schüler haben Mühe ohne Visualisierung der Themen die räumlichen Zusammenhänge zu erkennen. Dadurch, dass die Computer immer leistungsfähiger und günstiger werden, kann den Schülern auch die Möglichkeit geboten werden, Arbeiten wie z.B. die Maturaarbeit an Computern durchzuführen.
+Durch die Darstellung räumlicher Inhalte mit Hilfe eines Geoinformationssystems (kurz GIS) haben die Schüler die Möglichkeit, räumliche Zusammenhänge besser zu erkennen und auch räumliche Analysen durchzuführen. Deshalb sollten die Schüler am Gymnasium eine Einführung ins Thema „Geoinformationssysteme“ erhalten und die Grundfunktionen eines GIS kennenlernen. Sie sollten somit die Möglichkeit haben, das Programm entweder im Unterricht oder selbständig bei der Maturaarbeit einsetzen zu können.
+
+== Lernziele
+
+Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können:
+
+* die Funktionen und Komponenten eines GIS aufzählen
+* ein kleineres GIS-Projekt von den Projekteinstellungen über die Erfassung, Verwaltung, Analyse und Präsentation der Daten durchführen
+* Rasterdaten von Vektordaten unterscheiden und die Unterscheidung auch begründen
+* Eine Karte entwerfen und den Entwurf im GIS umsetzen
+
+== Ablauf
+
+Nachdem das Programm QGIS auf dem Computer installiert ist und du die Daten zu dieser Übung bei dir lokal auf dem Computer gespeichert hast, kannst du mit der Bearbeitung des Leitprogrammes beginnen.
+
+Das Leitprogramm ist in 5 Kapitel zu folgenden Themen unterteilt:
+
+* Was ist ein Geoinformationssystem
+* Geodaten und Raumbezug
+* Erfassung und Verwaltung von Daten
+* Datenanalyse
+* Präsentation und Ausgabe von Daten
+
+Jedes einzelne Kapitel ist nochmals in folgende 3 Teile unterteilt: Theorie, Übung und Kapiteltest. Im Übungsteil erhälst du eine theoretische Einführung ins Thema. Im Übungsblock hast du dann die Möglichkeit, das theoretische Wissen mit Hilfe von praktischen Anwendungen zu vertiefen. Wenn du das Gefühl hast, dass du den Inhalt des Kapitels verstanden hast, dann kannst du zum Kapiteltest gehen. Dieser Test muss ohne Unterlagen und Notizen gelöst werden. Wenn du alle Fragen beantwortet hast, gehe mit deinen Antworten zu deinem Lehrer. Er wird deine Antworten korrigieren. Wenn die Antworten richtig waren, dann gibt er dir grünes Licht um mit dem nächsten Kapitel weiter zu machen. Falls du eine Frage falsch beantwortet hast, hast du Zeit, die Theorie nochmals durchzugehen und dir Frage nochmals zu beantworten. Wenn der Lehrer dann mit deiner Antwort zufrieden ist, dann kannst du auch mit dem nächsten Kapitel weitermachen.
+
+In jedem Kapitel triffst du immer wieder auf folgendes Zeichen: Aufgabe 4.2.02. Dieses Zeichen gibt den Hinweis, dass du etwas schriftlich notieren musst. Du musst also immer ein Blatt Papier oder ein Heft zur Hand haben. Lies jeweils die Frage durch und beantworte sie schriftlich. Wenn du sie beantwortet hast, kannst du auf das Ausrufezeichen klicken um die Lösung zu sehen. Diese Lösung kannst du dann mit deiner Antwort vergleichen.
+
+Hier das Ganze nochmals in der Zusammenfassung:
+
+. Theorie durcharbeiten
+. Übung mit Hilfe des Programms QGIS lösen
+. Kapiteltest lösen
+. Antworten von Lehrperson korrigieren lassen.
+Falls grünes Licht durch Lehrperson, weiter zu 5.
+Falls Antworten fehlerhaft, zurück zu 3.
+. Theorie von nächstem Kapitel durcharbeiten
+. ....
+
+Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
