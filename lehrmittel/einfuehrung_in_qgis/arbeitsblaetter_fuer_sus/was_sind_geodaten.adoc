@@ -12,3 +12,11 @@ include::../../../snippets/suppress_title_page.adoc[]
 Im letzten Kapitel hast du gelernt, dass es sich bei den Daten, die in einem GIS dargestellt werden, um raumbezogene Daten handelt. Diese raumbezogenen Daten werden oft auch Geodaten genannt.
 
 image:image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Überlege dir als Einstieg in dieses Kapitel, was mit den Begriffen Geodaten und raumbezogen gemeint sein könnte. Denke dabei auch an andere Wörter mit der Vorsilbe Geo (z.B. Geografie, Geologie etc.). Verzichte darauf die Wörter im Internet oder in einem Lexikon nachzuschlagen. Schreibe deine Überlegungen auf dein Arbeitsblatt._
+
+=== Lernziele der Theorie
+
+Nach diesem Kapitel bist du in der Lage:
+
+* Die Begriffe "Geodaten" und "Raumbezug" in eigenen Worten zu erklären
+* Rasterdaten von Vektordaten zu unterscheiden
+* Den Nutzen von Koordinatensystemen zu erläutern
