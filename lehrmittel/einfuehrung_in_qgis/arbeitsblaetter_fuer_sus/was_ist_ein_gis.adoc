@@ -96,19 +96,20 @@ Die Benutzeroberfläche ist in sechs Bereiche gegliedert.
 
 * Menüleiste
 * Werkzeugleiste
-* Layer
+* Räumliche Lesezeichen
 * Browser
-* Layergestaltung
-* Verarbeitungswerkzeuge
-* Übersicht
+* Layer
+* Kartenfenster
 
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.png["QGIS Benutzeroberfläche", 401, 312]
 
 Findest du die einzelnen Bereiche auch in deiner Benutzeroberfläche?
 
-Falls die Legende oder die Kartenübersicht nicht eingeblendet sind, kannst du diese über das Menü _Ansicht_ -> _Bedienfelder_ und _Bedienfelder Layer_ für Legende oder _Bedienfelder Übersicht_ für Übersicht tun.
+Falls der Layer oder der Browser nicht eingeblendet sind, kannst du diese über das Menü _Ansicht_ -> _Bedienfelder_ und _Bedienfelder Layer_  oder _Bedienfelder Browser_ tun.
 
 image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 266]
+
+Für den Moment kannst du das Bedienfeld "Räumliche Lesezeichen" ausblenden und das Bedienfeld "Übersicht" dafür einschalten.
 
 Probiere diese 3 Möglichkeiten aus und wähle eine, die du in Zukunft verwenden möchtest.
 
