@@ -153,3 +153,35 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Probiere
 ** _Leertaste gedrückt halten und mit Mauszeiger über Kartenfenster fahren_
 
 Wenn du mit der Aufgabe fertig bist, kannst du das Projekt unter einem anderen Namen abspeichern, wie zum Beispiel *Teil1_gelöst.qgs*.
+
+== Kapiteltest 1
+
+Mit Hilfe des Kapiteltests kannst du prüfen, ob du den Stoff des letzten Kapitels beherrschst. Dieser Test dient also als Lernkontrolle. Du sollst erst im Stoff weitergehen, wenn du den Inhalt des Kapitels auch wirklich verstanden hast.
+
+Um dies zu überprüfen, schreibe die Antworten zu den Fragen in dein Heft oder auf ein Blatt Papier. Wenn du alle Fragen beantwortet hast, gib das Blatt deinem Lehrer zur Korrektur ab.
+
+=== Frage 1
+
+Jemand fragt dich, was man mit einem GIS denn überhaupt alles machen kann.
+
+_Wie lautet deine Antwort?_
+
+Denke bei deiner Antwort an die ersten drei Aufgaben im Theorieteil. Notiere einige Schlagwörter und zusätzlich einen Beschrieb, was diese Schlagwörter beinhalten.
+
+=== Frage 2
+
+Im Rahmen der Übung hast du einige Funktionen kennengelernt, um den Ausschnitt, der im Kartenfenster angezeigt wird, den Bedürfnissen anzupassen.
+
+_Welche Werkzeuge und Möglichkeiten hast du kennengelernt, um in der Karte zu navigieren?_
+
+Zähle 5 Möglichkeiten auf und erkläre in wenigen Worten, was diese Werkzeuge und Möglichkeiten bewirken.
+
+=== Frage 3
+
+Denke an die Fächer, die du im Gymnasium besuchst.
+
+. _In welchem Fach und welchem spezifischen Thema dieses Faches wäre der Einsatz eines GIS sinnvoll?_
+Notiere in eigenen Worten, welches Thema und weshalb es geeignet wäre. Denke bei der Beantwortung dieser Frage nicht unbedingt nur an das Fach, in welchem du dieses Leitprogramm durcharbeitest.
+
+. _Was würde dein GIS in diesem Fach beinhalten?_
+Beschreibe in einigen Sätzen, welche Inhalte die Daten dieses GIS hätten und welche GIS-Funktionen du verwenden würdest.
