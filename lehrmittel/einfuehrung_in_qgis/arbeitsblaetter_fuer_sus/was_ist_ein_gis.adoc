@@ -116,3 +116,17 @@ Probiere diese 3 Möglichkeiten aus und wähle eine, die du in Zukunft verwenden
 In dieser Übung werden wir mit einem bereits erstellten QGIS-Projekt arbeiten. Dieses Projekt wollen wir jetzt laden. Klicke dazu auf den Button mit dem Namen Projekt öffnen und navigiere zum Ordner, in welchem du die Daten zu diesem Leitprogramm abgespeichert hast. Wähle die Datei Teil1.qgs aus und bestätige deine Eingabe durch Klicken auf den Open-Button.
 
 In der Legende erscheinen nun zwei Einträge: Seen und Kantonsgrenzen. Diese Einträge werden Layer genannt. Im Kartenfenster sind die grossen Seen und die Kantone grafisch dargestellt.
+
+==== Legende und Kartenfenster
+
+In einem ersten Schritt wollen wir das Zusammenspiel der Legende und des Kartenfensters etwas besser kennenlernen.
+
+Die einzelnen Layer können im Kartenfenster ein- und ausgeblendet werden, indem das Kreuz im Feld vor dem Layernamen gesetzt oder entfernt wird. Teste diese Funktion, indem du die Seen in der Karte ein- und ausblendest. Beobachte dabei die Veränderungen im Kartenfenster.
+
+TIP: Wenn du im Kartenfenster die Seen und Kantonsgrenzen nicht siehst, kannst du auf einen Layer rechtsklick drücken und _Auf den Layer zoomen_ klicken. Nun solltest du die Karte im Kartenfenster sehen.
+
+Die Darstellungsreihenfolge im Kartenfenster entspricht der Reihenfolge in der Legende. D.h. die Seen liegen in der Legende oberhalb der Kantonsgrenzen und werden deshalb auch im Kartenfenster über diesen angezeigt.
+
+Die Reihenfolge der Layer kann auch verändert werden. Dazu klickst du auf den Layer, den du gerne verschieben möchtest, und bewegst ihn mit gedrückter Maustaste an die neue Stelle. Probiere diese Funktion aus, indem du die Kantonsgrenzen in der Legende über die Seen legst. Beobachte dabei, was mit der Darstellung im Kartenfenster geschieht.
+
+Verschiebe anschliessend die Layer wieder in die Anfangsposition zurück.
