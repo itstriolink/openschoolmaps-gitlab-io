@@ -107,11 +107,15 @@ Findest du die einzelnen Bereiche auch in deiner Benutzeroberfläche?
 
 Falls der Layer oder der Browser nicht eingeblendet sind, kannst du diese über das Menü _Ansicht_ -> _Bedienfelder_ und _Bedienfelder Layer_  oder _Bedienfelder Browser_ tun.
 
+Über das Menü _Ansichten_ -> _Werkzeugkästen_ gelangt man zu einer Auflistung der Werkzeugkästen. Die einzelnen Werkzeugkästen können durch Setzen oder Entfernen des Kreuzes vor dem Namen in der Werkzeugleiste ein- oder ausgeblendet werden.
+
+Eine andere Möglichkeit um die Legende, die Kartenübersicht oder einzelne Werkzeugkästen ein- und auszublenden, ist, mit der rechten Maustaste auf den grau gepunkteten Rand eines Werkzeugkastens, der Legende oder der Kartenübersicht zu klicken. Dann erscheint die Auswahl der Bedienfelder und der Werkzeugkästen gemeinsam in einer Liste.
+
 image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 266]
 
-Für den Moment kannst du das Bedienfeld "Räumliche Lesezeichen" ausblenden und das Bedienfeld "Übersicht" dafür einschalten.
-
 Probiere diese 3 Möglichkeiten aus und wähle eine, die du in Zukunft verwenden möchtest.
+
+Für den Moment kannst du das Bedienfeld "Räumliche Lesezeichen" ausblenden und das Bedienfeld "Übersicht" dafür einblenden.
 
 ==== Bestehendes Projekt öffnen
 
