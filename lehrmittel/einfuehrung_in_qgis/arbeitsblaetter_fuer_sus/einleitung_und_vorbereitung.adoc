@@ -13,12 +13,12 @@ Herzlich willkommen zum HSR-Leitprogramm "Einführung in die Opensource-Software
 
 === Wieso GIS im Unterricht?
 
-In sehr vielen Unterrichtsfächern werden Inhalte gelehrt, die einen Raumbezug haben. Dieser Raumbezug wird teilweise in einer Karte, oft aber auch gar nicht visualisiert. Einige Schüler haben Mühe ohne Visualisierung der Themen die räumlichen Zusammenhänge zu erkennen. Dadurch, dass die Computer immer leistungsfähiger und günstiger werden, kann den Schülern auch die Möglichkeit geboten werden, Arbeiten wie z.B. die Maturaarbeit an Computern durchzuführen.
+In vielen Unterrichtsfächern werden Inhalte gelehrt, die einen Raumbezug haben. Dieser Raumbezug wird teilweise in einer Karte, oft aber auch gar nicht visualisiert. Einige Schüler haben Mühe ohne Visualisierung der Themen die räumlichen Zusammenhänge zu erkennen. Dadurch, dass die Computer immer leistungsfähiger und günstiger werden, kann den Schülern auch die Möglichkeit geboten werden, Arbeiten wie z.B. die Maturaarbeit an Computern durchzuführen.
 Durch die Darstellung räumlicher Inhalte mit Hilfe eines Geoinformationssystems (kurz GIS) haben die Schüler die Möglichkeit, räumliche Zusammenhänge besser zu erkennen und auch räumliche Analysen durchzuführen. Deshalb sollten die Schüler am Gymnasium eine Einführung ins Thema „Geoinformationssysteme“ erhalten und die Grundfunktionen eines GIS kennenlernen. Sie sollten somit die Möglichkeit haben, das Programm entweder im Unterricht oder selbständig bei der Maturaarbeit einsetzen zu können.
 
 === Lernziele
 
-Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können:
+Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können (ausser du wurdest anders instruiert):
 
 * die Funktionen und Komponenten eines GIS aufzählen
 * ein kleineres GIS-Projekt von den Projekteinstellungen über die Erfassung, Verwaltung, Analyse und Präsentation der Daten durchführen
