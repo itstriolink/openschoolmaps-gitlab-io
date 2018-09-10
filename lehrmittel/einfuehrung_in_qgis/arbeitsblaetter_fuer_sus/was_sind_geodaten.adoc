@@ -20,3 +20,9 @@ Nach diesem Kapitel bist du in der Lage:
 * Die Begriffe "Geodaten" und "Raumbezug" in eigenen Worten zu erklären
 * Rasterdaten von Vektordaten zu unterscheiden
 * Den Nutzen von Koordinatensystemen zu erläutern
+
+=== Theorie
+
+==== Geodaten
+
+Die Vorsilbe geo stammt aus dem Griechischen und bedeutet Erde. Geodaten müssen also Daten sein, die einen Bezug zur Erde haben.
