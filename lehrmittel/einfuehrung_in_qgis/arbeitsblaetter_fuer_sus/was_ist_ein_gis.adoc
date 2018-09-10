@@ -94,12 +94,12 @@ Beim Installieren der QGIS-Software wird automatisch ein Order mit Verknüpfunge
 
 Die Benutzeroberfläche ist in sechs Bereiche gegliedert.
 
-* Menüleiste
-* Werkzeugleiste
-* Räumliche Lesezeichen
-* Browser
-* Layer
-* Kartenfenster
+. Menüleiste
+. Werkzeugleiste
+. Räumliche Lesezeichen
+. Browser
+. Layer
+. Kartenfenster
 
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.png["QGIS Benutzeroberfläche", 401, 312]
 
