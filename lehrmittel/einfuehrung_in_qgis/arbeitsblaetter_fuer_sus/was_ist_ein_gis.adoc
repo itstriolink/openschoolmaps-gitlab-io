@@ -151,3 +151,5 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Probiere
 ** _Pfeiltasten_
 ** _PageUp/PageDown_
 ** _Leertaste gedrückt halten und mit Mauszeiger über Kartenfenster fahren_
+
+Wenn du mit der Aufgabe fertig bist, kannst du das Projekt unter einem anderen Namen abspeichern, wie zum Beispiel *Teil1_gelöst.qgs*.
