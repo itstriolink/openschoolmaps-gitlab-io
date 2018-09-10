@@ -71,3 +71,7 @@ Eine weitere Komponente sind die Anwendungen, die in einem GIS gemacht werden. D
 === Zusammenfassung Komponenten
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Gehe die Komponenten eines GIS nochmals durch (auch physisch) und notiere falls bekannt in eigenen Worten, wie diese an deinem Arbeitsplatz aussehen._
+
+== Übung 1
+
+Im ersten Theorieteil hast du gelernt, dass die Software eine der vier Komponenten eines GIS-Systems ist. Im Übungsteil sollst du nun den Aufbau und die Benutzeroberfläche der Opensource-Software QGIS kennen lernen.
