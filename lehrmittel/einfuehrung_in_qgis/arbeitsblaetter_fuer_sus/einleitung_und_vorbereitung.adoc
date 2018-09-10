@@ -1,4 +1,4 @@
-= Einleitung und Vorbereitung
+= Einleitung und Vorbereitung -- Einführung in QGIS 3
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/
