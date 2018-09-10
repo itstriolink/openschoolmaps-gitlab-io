@@ -1,4 +1,4 @@
-= Was ist ein Geoinformationssystem? -- Einführung in QGIS 3
+= Was ist ein Geoinformationssystem? — Einführung in QGIS 3
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/
