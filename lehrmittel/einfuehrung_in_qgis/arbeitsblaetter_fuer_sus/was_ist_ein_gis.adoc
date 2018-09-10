@@ -110,3 +110,9 @@ Falls die Legende oder die Kartenübersicht nicht eingeblendet sind, kannst du d
 image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 127, 367]
 
 Probiere diese 3 Möglichkeiten aus und wähle eine, die du in Zukunft verwenden möchtest.
+
+==== Bestehendes Projekt öffnen
+
+In dieser Übung werden wir mit einem bereits erstellten QGIS-Projekt arbeiten. Dieses Projekt wollen wir jetzt laden. Gehe dazu unter _Datei_ -> _Öffnen_ und navigiere zum Ordner, in welchem du die Daten zu diesem Leitprogramm abgespeichert hast. Wähle die Datei Teil1.qgs aus und bestätige deine Eingabe durch Klicken auf den Open-Button.
+
+In der Legende erscheinen nun zwei Einträge: Seen und Kantonsgrenzen. Diese Einträge werden Layer genannt. Im Kartenfenster sind die grossen Seen und die Kantone grafisch dargestellt.
