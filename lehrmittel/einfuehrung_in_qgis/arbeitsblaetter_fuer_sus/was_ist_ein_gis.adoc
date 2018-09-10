@@ -27,7 +27,7 @@ Ein Geo-Informationssystem ist ein rechnergestütztes System, das aus Hardware, 
 https://de.wikipedia.org/wiki/Geoinformationssystem[Bill 1999]
 ====
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Studiere die Definition und versuche die folgenden Fragen auf deinem Arbeitsblatt zu beantworten:_
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Studiere die Definition und versuche die folgenden Fragen auf deinem Arbeitsblatt zu beantworten:_
 
 
 . _Welche Infrastruktur muss man sich besorgen, um ein GIS betreiben zu können?_
@@ -70,7 +70,7 @@ Eine weitere Komponente sind die Anwendungen, die in einem GIS gemacht werden. D
 
 === Zusammenfassung Komponenten
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Gehe die Komponenten eines GIS nochmals durch (auch physisch) und notiere falls bekannt in eigenen Worten, wie diese an deinem Arbeitsplatz aussehen._
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Gehe die Komponenten eines GIS nochmals durch (auch physisch) und notiere falls bekannt in eigenen Worten, wie diese an deinem Arbeitsplatz aussehen._
 
 == Übung 1
 
@@ -140,11 +140,11 @@ Die Werkzeuge für die Navigation im Kartenfenster sind im Werkzeugkasten _Karte
 
 image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.png["Kartennavigationswerkzeuge"]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere die einzelnen Werkzeuge des Werkzeugkastens Kartennavigation aus und schreibe in eigenen Worten auf, was mit dem entsprechenden Werkzeug gemacht werden kann. Beobachte dabei auch, was beim Navigieren im Kartenfenster in der Kartenübersicht geschieht._
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Probiere die einzelnen Werkzeuge des Werkzeugkastens Kartennavigation aus und schreibe in eigenen Worten auf, was mit dem entsprechenden Werkzeug gemacht werden kann. Beobachte dabei auch, was beim Navigieren im Kartenfenster in der Kartenübersicht geschieht._
 
 NOTE: Für die Navigation im Kartenfenster können auch das Mausrad und die Tastatur verwendet werden.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere folgende Punkte aus und notiere wieder in eigenen Worten, was geschieht._
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Probiere folgende Punkte aus und notiere wieder in eigenen Worten, was geschieht._
 
 * _Mausrad nach vorne und nach hinten bewegen während der Mauszeiger auf der Karte liegt_
 * _Folgende Tasten auf der Tastatur:_
