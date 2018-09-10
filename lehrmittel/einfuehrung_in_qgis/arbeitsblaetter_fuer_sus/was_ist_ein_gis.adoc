@@ -89,3 +89,24 @@ Nach dieser Übung kannst du:
 ==== Programm QGIS starten
 
 Beim Installieren der QGIS-Software wird automatisch ein Order mit Verknüpfungen (ein sogenannter Shortcut) auf die Programme auf deinem Desktop erstellt. Durch Doppelklick auf den Shortcut QGIS 3.2.x kann das Programm gestartet werden. Dadurch öffnet sich eine grafische Benutzeroberfläche. Falls dieser Shortcut fehlt, findest du das Programm in dem du im Start den Begriff QGIS eingibts. Stelle sicher, dass du das Programm QGIS 3.2.x öffnest ohne die Endung "with Grass".
+
+==== Die grafische Benutzeroberfläche
+
+Die Benutzeroberfläche ist in sechs Bereiche gegliedert.
+
+* Menüleiste
+* Werkzeugleiste
+* Layer
+* Browser
+* Layergestaltung
+* Verarbeitungswerkzeuge
+
+image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.png["QGIS Benutzeroberfläche", 401, 312]
+
+Findest du die einzelnen Bereiche auch in deiner Benutzeroberfläche?
+
+Falls die Legende oder die Kartenübersicht nicht eingeblendet sind, kannst du diese über das Menü _Ansicht_ -> _Bedienfelder_ und _Bedienfelder Layer_ für Legende oder _Bedienfelder Browser_ für Browser tun.
+
+image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 127, 367]
+
+Probiere diese 3 Möglichkeiten aus und wähle eine, die du in Zukunft verwenden möchtest.
