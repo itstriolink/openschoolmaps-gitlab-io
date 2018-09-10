@@ -142,7 +142,7 @@ image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.png["Kartennavigation
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Probiere die einzelnen Werkzeuge des Werkzeugkastens Kartennavigation aus und schreibe in eigenen Worten auf, was mit dem entsprechenden Werkzeug gemacht werden kann. Beobachte dabei auch, was beim Navigieren im Kartenfenster in der Kartenübersicht geschieht._
 
-NOTE: Für die Navigation im Kartenfenster können auch das Mausrad und die Tastatur verwendet werden.
+NOTE: Für die Navigation im Kartenfenster können auch das Mausrad und die Tastatur verwendet werden. Mit gedrückter Leertaste und der mittleren Maustaste, kann sich die Karte verschieben lassen, unabhängig davon welches Werkzeug aktuell ausgewählt ist.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Probiere folgende Punkte aus und notiere wieder in eigenen Worten, was geschieht._
 
