@@ -131,3 +131,23 @@ Die Darstellungsreihenfolge im Kartenfenster entspricht der Reihenfolge in der L
 Die Reihenfolge der Layer kann auch verändert werden. Dazu klickst du auf den Layer, den du gerne verschieben möchtest, und bewegst ihn mit gedrückter Maustaste an die neue Stelle. Probiere diese Funktion aus, indem du die Kantonsgrenzen in der Legende über die Seen legst. Beobachte dabei, was mit der Darstellung im Kartenfenster geschieht.
 
 Verschiebe anschliessend die Layer wieder in die Anfangsposition zurück.
+
+=== Navigation im Kartenfenster
+
+Bevor du mit dem Navigieren in der Karte beginnst, solltest du zuerst ein Hintergrundbild für das Bedienfeld Übersicht wählen. Die Kantonsgrenzen würden sich gut für diesen Zweck eignen. Um den Inhalt dieses Layers als Hintergrundskarte zu wählen, klicke mit der rechten Maustaste auf den Layer und setze ein Kreuz bei der Option In der Übersicht anzeigen. Die Kantonsgrenzen erscheinen in der Kartenübersicht. Es können beliebige weitere Layer hinzugefügt werden. Die Darstellungsreihenfolge wird von der Reihenfolge in der Legende übernommen.
+
+Die Werkzeuge für die Navigation im Kartenfenster sind im Werkzeugkasten _Kartennavigation_ abgespeichert.
+
+image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge["Kartennavigationswerkzeuge"]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere die einzelnen Werkzeuge des Werkzeugkastens Kartennavigation aus und schreibe in eigenen Worten auf, was mit dem entsprechenden Werkzeug gemacht werden kann. Beobachte dabei auch, was beim Navigieren im Kartenfenster in der Kartenübersicht geschieht._
+
+NOTE: Für die Navigation im Kartenfenster können auch das Mausrad und die Tastatur verwendet werden.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere folgende Punkte aus und notiere wieder in eigenen Worten, was geschieht.
+
+* Mausrad nach vorne und nach hinten bewegen während der Mauszeiger auf der Karte liegt
+* Folgende Tasten auf der Tastatur:
+** Pfeiltasten
+** PageUp/PageDown
+** Leertaste gedrückt halten und mit Mauszeiger über Kartenfenster fahren_
