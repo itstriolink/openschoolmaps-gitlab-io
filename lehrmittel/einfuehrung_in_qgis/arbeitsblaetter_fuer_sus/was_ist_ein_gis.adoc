@@ -83,3 +83,9 @@ Nach dieser Übung kannst du:
 * bestehende Projekte in QGIS öffnen
 * die verschiedenen Navigationsmöglichkeiten nennen und anwenden
 * die Anzeige der Daten über die Layer-Eigenschaften verändern
+
+=== Übung
+
+==== Programm QGIS starten
+
+Beim Installieren der QGIS-Software wird automatisch ein Order mit Verknüpfungen (ein sogenannter Shortcut) auf die Programme auf deinem Desktop erstellt. Durch Doppelklick auf den Shortcut QGIS 3.2.x kann das Programm gestartet werden. Dadurch öffnet sich eine grafische Benutzeroberfläche. Falls dieser Shortcut fehlt, findest du das Programm in dem du im Start den Begriff QGIS eingibts. Stelle sicher, dass du das Programm QGIS 3.2.x öffnest ohne die Endung "with Grass".
