@@ -144,10 +144,10 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere
 
 NOTE: Für die Navigation im Kartenfenster können auch das Mausrad und die Tastatur verwendet werden.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere folgende Punkte aus und notiere wieder in eigenen Worten, was geschieht.
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere folgende Punkte aus und notiere wieder in eigenen Worten, was geschieht._
 
-* Mausrad nach vorne und nach hinten bewegen während der Mauszeiger auf der Karte liegt
-* Folgende Tasten auf der Tastatur:
-** Pfeiltasten
-** PageUp/PageDown
-** Leertaste gedrückt halten und mit Mauszeiger über Kartenfenster fahren_
+* _Mausrad nach vorne und nach hinten bewegen während der Mauszeiger auf der Karte liegt_
+* _Folgende Tasten auf der Tastatur:_
+** _Pfeiltasten_
+** _PageUp/PageDown_
+** _Leertaste gedrückt halten und mit Mauszeiger über Kartenfenster fahren_
