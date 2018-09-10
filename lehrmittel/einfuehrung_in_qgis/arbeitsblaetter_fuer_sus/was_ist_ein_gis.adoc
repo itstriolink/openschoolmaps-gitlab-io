@@ -75,3 +75,11 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Gehe die
 == Übung 1
 
 Im ersten Theorieteil hast du gelernt, dass die Software eine der vier Komponenten eines GIS-Systems ist. Im Übungsteil sollst du nun den Aufbau und die Benutzeroberfläche der Opensource-Software QGIS kennen lernen.
+
+=== Lernziele
+
+Nach dieser Übung kannst du:
+
+* bestehende Projekte in QGIS öffnen
+* die verschiedenen Navigationsmöglichkeiten nennen und anwenden
+* die Anzeige der Daten über die Layer-Eigenschaften verändern
