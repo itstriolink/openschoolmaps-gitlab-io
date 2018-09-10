@@ -138,7 +138,7 @@ Bevor du mit dem Navigieren in der Karte beginnst, solltest du zuerst ein Hinter
 
 Die Werkzeuge für die Navigation im Kartenfenster sind im Werkzeugkasten _Kartennavigation_ abgespeichert.
 
-image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge["Kartennavigationswerkzeuge"]
+image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.png["Kartennavigationswerkzeuge"]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 20, 20]_Probiere die einzelnen Werkzeuge des Werkzeugkastens Kartennavigation aus und schreibe in eigenen Worten auf, was mit dem entsprechenden Werkzeug gemacht werden kann. Beobachte dabei auch, was beim Navigieren im Kartenfenster in der Kartenübersicht geschieht._
 
