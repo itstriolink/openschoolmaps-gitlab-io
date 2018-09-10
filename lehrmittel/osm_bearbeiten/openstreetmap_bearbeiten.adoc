@@ -19,8 +19,8 @@ NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" ei
 
 Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
 
-====
 ifdef::show_solutions[]
+====
 *Übersicht*
 
 .Ziel
@@ -39,8 +39,8 @@ Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
 *Vorbereitung*
 
 Für diese Aufgabe benötigen die SuS ein OSM-Konto.
-endif::show_solutions[]
 ====
+endif::show_solutions[]
 
 == Benutzerkonto erstellen und anmelden
   
