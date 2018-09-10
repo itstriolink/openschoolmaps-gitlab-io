@@ -9,12 +9,14 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 Herzlich willkommen zum HSR-Leitprogramm "Einführung in die Opensource-Software QGIS". Bevor du mit der Bearbeitung des Leitprogramms beginnst, hier noch einige Informationen. Bitte lies diese aufmerksam durch.
 
-== Wieso GIS im Unterricht?
+== Einleitung
+
+=== Wieso GIS im Unterricht?
 
 In sehr vielen Unterrichtsfächern werden Inhalte gelehrt, die einen Raumbezug haben. Dieser Raumbezug wird teilweise in einer Karte, oft aber auch gar nicht visualisiert. Einige Schüler haben Mühe ohne Visualisierung der Themen die räumlichen Zusammenhänge zu erkennen. Dadurch, dass die Computer immer leistungsfähiger und günstiger werden, kann den Schülern auch die Möglichkeit geboten werden, Arbeiten wie z.B. die Maturaarbeit an Computern durchzuführen.
 Durch die Darstellung räumlicher Inhalte mit Hilfe eines Geoinformationssystems (kurz GIS) haben die Schüler die Möglichkeit, räumliche Zusammenhänge besser zu erkennen und auch räumliche Analysen durchzuführen. Deshalb sollten die Schüler am Gymnasium eine Einführung ins Thema „Geoinformationssysteme“ erhalten und die Grundfunktionen eines GIS kennenlernen. Sie sollten somit die Möglichkeit haben, das Programm entweder im Unterricht oder selbständig bei der Maturaarbeit einsetzen zu können.
 
-== Lernziele
+=== Lernziele
 
 Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können:
 
@@ -23,7 +25,7 @@ Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können:
 * Rasterdaten von Vektordaten unterscheiden und die Unterscheidung auch begründen
 * Eine Karte entwerfen und den Entwurf im GIS umsetzen
 
-== Ablauf
+=== Ablauf
 
 Nachdem das Programm QGIS auf dem Computer installiert ist und du die Daten zu dieser Übung bei dir lokal auf dem Computer gespeichert hast, kannst du mit der Bearbeitung des Leitprogrammes beginnen.
 
