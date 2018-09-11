@@ -25,6 +25,8 @@ Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können (ausser du 
 * Rasterdaten von Vektordaten unterscheiden und die Unterscheidung auch begründen
 * Eine Karte entwerfen und den Entwurf im GIS umsetzen
 
+<<<
+
 === Ablauf
 
 Nachdem das Programm QGIS auf dem Computer installiert ist und du die Daten zu dieser Übung bei dir lokal auf dem Computer gespeichert hast, kannst du mit der Bearbeitung des Leitprogrammes beginnen.
