@@ -99,3 +99,23 @@ Gehe anschliessend unter _Projekt_ -> _Properties_ in den Reiter mit dem Namen A
 Unter Pfade speichern kannst du wählen, ob die Pfade zu den Daten relativ oder absolut abgespeichert werden sollen. Der Vorteil der relativen Pfade ist, dass du den Ordner mit dem QGIS-Projekt und den Daten auch an einen anderen Ort hin kopieren kannst, ohne anschliessend die ganzen Pfade zu den Daten wieder anpassen zu müssen. Wähle deshalb für dein neues Projekt die Option Relativ.
 
 Schliesse anschliessend das Fenster Projekteinstellungen durch Klicken auf den OK-Button. Damit die neue Hintergrundfarbe erscheint, muss im Kartenfenster eine Navigationsfunktion wie z.B. Karte verschieben ausgeführt werden.
+
+==== Projekt speichern
+
+Speichere mit dem Projekt speichern-Button dein neues Projekt in den Ordner, in welchem du die Daten für diese Übung abgespeichert hast.
+
+==== Daten einlesen
+
+Die Karte ist nun soweit bereit, dass Daten eingelesen werden können. Dazu wird das Menu Layer in der Menuleiste verwendet. Für die unterschiedlichen Arten von Daten, die eingelesen werden können, hat es auch unterschiedliche Buttons.
+
+===== Vektordaten einlesen
+
+In einem ersten Schritt sollen nun die Vektordaten aus der ersten Übung eingefügt werden. Klicke dazu auf den Button _Vektorlayer hinzufügen_ und navigiere mit Hilfe des _Durchsuchen-Buttons_ zum Ordner mit den Daten der Übung 1 und wähle die Shapefiles mit dem Namen _Kantonsgrenzen.shp_ und _Seen.shp_ aus (mit Hilfe der _Shift-_ oder der _Ctrl-_Taste sind Mehrfachwahlen möglich).
+
+Wähle die Kantonsgrenzen als Hintergrund für die Kartenübersicht. Falls du nicht mehr genau weisst, wie du vorgehen musst, schaue nochmals in der ersten Übung nach.
+
+Welche Informationen sind denn überhaupt in den beiden Shapefiles gespeichert? Dies wollen wir uns nun etwas genauer anschauen. Klicke dazu mit der rechten Maustaste auf den Layer Seen und wähle _Attributtabelle öffnen_. Es öffnet sich die Tabelle mit den thematischen Informationen, die zu den Seen erfasst wurden. Welche Informationen wurden als Attribut abgespeichert?
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Schaue dir die Tabelle genau an und schreibe auf, welche Daten die einzelnen Spalten beinhalten._
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Mache das Gleiche auch für die Kantonsgrenzen._
