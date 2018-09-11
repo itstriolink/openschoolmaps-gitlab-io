@@ -69,3 +69,15 @@ Zu den Geodaten werden auch immer Metadaten, d.h. Daten über die Daten mit abge
 ===== Web Map Services
 
 Immer mehr Anbieter haben Daten auf einem Server gespeichert und bieten anderen Nutzern Ausschnitte aus diesen Daten als Karte über spezielle Schnittstellen, sogenannte Web Map Services (kurz WMS), übers Internet an. Die Nutzer können so diese Karten in ihr GIS-Projekt mit einbinden. Wichtig ist jedoch, dass immer die Verbindung zum Server bestehen muss, auf dem die Daten abgespeichert sind. Hat man z.B. keine Internetverbindung mehr, so ist auch die Karte im GIS-Projekt nicht mehr sichtbar.
+
+== Übung 2
+
+Im Theorieteil hast du einiges über Vektor- und Rasterdaten erfahren. In dieser Übung möchten wir nun ein neues GIS-Projekt erstellen und in dieses Projekt Vektor- und Rasterdaten laden.
+
+=== Lernziele
+
+Nach dieser Übung bist du in der Lage folgendes zu tun:
+
+* Das richtige Koordinatenbezugssystem für ein neues Projekt wählen
+* Vektordaten und WMS-Dienste ins Projekt laden
+* Objekte anhand von Attributen einfärben
