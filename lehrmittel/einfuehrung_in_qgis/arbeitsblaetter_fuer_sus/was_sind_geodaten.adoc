@@ -65,3 +65,7 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Stelle d
 ===== Metadaten 
 
 Zu den Geodaten werden auch immer Metadaten, d.h. Daten über die Daten mit abgespeichert. Darin können Informationen über die räumliche Ausdehnung, der Ersteller, die Qualität etc. der Daten vermerkt werden. Wenn man z.B. mit Daten von einer externen Quelle arbeitet, so kann nachgeschaut werden, woher die Daten stammen und ob sie wirklich das beinhalten, was man braucht.
+
+===== Web Map Services
+
+Immer mehr Anbieter haben Daten auf einem Server gespeichert und bieten anderen Nutzern Ausschnitte aus diesen Daten als Karte über spezielle Schnittstellen, sogenannte Web Map Services (kurz WMS), übers Internet an. Die Nutzer können so diese Karten in ihr GIS-Projekt mit einbinden. Wichtig ist jedoch, dass immer die Verbindung zum Server bestehen muss, auf dem die Daten abgespeichert sind. Hat man z.B. keine Internetverbindung mehr, so ist auch die Karte im GIS-Projekt nicht mehr sichtbar.
