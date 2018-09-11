@@ -57,3 +57,7 @@ Zu jedem Pixel kann eine Information mit abgespeichert werden. Dies kann ein Gra
 ===== Vektordaten
 
 Zu den Vektordaten gehören z.B. die Shapefiles, die du in der ersten Übung verwendet hast. Bei Vektordaten wird die Geometrie der Objekte als Punkte, Linien oder Flächen gespeichert, wobei eine Linie als Verbindung zweier Punkte und eine Fläche als geschlossener Linienzug definiert ist. Die weiteren Informationen zum Objekt, sogenannte Sachdaten, werden zusätzlich zur Geometrie in einer Tabelle abgespeichert.
+
+===== Vergleich Vektor- und Rasterdaten
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Stelle dir nun vor, dass du ein Gebäude in einem GIS darstellen möchtest. Einmal wird das Gebäude in Form von Raster- und einmal in Form von Vektordaten abgespeichert. Wie sieht die Hauskante bei den Rasterdaten aus und wie bei den Vektordaten, wenn du nun ganz nahe an eine Hauskante zoomst? Zeichne dies auf deinem Arbeitsblatt auf. Überlege dir, welches Format (Raster oder Vektor) wohl mehr Speicherplatz benötigt?_
