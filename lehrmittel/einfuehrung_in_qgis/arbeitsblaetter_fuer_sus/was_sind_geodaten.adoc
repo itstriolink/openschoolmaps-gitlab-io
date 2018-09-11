@@ -36,3 +36,20 @@ Stelle dir vor, du hast ein Mobiltelefon oder eine Kamera mit eingebautem GPS, m
 ==== Georeferenzierung
 
 Objekten ohne Raumbezug kann oftmals ein direkter oder indirekter Raumbezug zugeordnet werden. Dieser Vorgang wird georeferenzieren genannt. Der Raumbezug bezieht sich natürlich immer auf eine Erdabbildung, d.h. ein Koordinatensystem. Diese Koordinatensysteme wurden eingeführt, um die geographische Lage eines Ortes auf der Erde in Zahlen angeben zu können. Die verschiedenen Koordinatensysteme kennst du bestimmt noch aus dem Geografieunterricht.
+
+==== Abspeicherungsart von Daten
+
+Geodaten können entweder in Form von Raster- oder von Vektordaten abgespeichert werden. Was heisst das genauer? 
+
+===== Rasterdaten
+
+Wenn du dir auf dem Computer digitale Fotos anschaust, dann schaust du dir Rasterdaten an. 
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Um die wichtigsten Eigenschaften eines Rasterbildes kennen zu lernen, öffne das Bild Testfoto.jpg, welches sich im Ordner mit den Daten zu diesem Leitprogramm befindet, in einem Grafikprogramm. Beantworte anschliessend folgende Fragen. Gehe erst weiter im Text, wenn du die Fragen beantwortet hast._
+
+* _Was passiert mit dem Bild, wenn du immer weiter reinzoomst?_
+* _Wie sind die Objekte, die auf dem Bild dargestellt sind, abgespeichert?_
+
+Rasterdaten kann man sich so vorstellen, als würde z.B. über die Landschaft, die man darstellen will, von oben ein regelmässiges Gitternetz gelegt, welches den Ausschnitt in viele gleich grosse Zellen, auch Pixels genannt, unterteilt. In jedem Pixel wird nun der Farbwert abgespeichert, welcher die darunterliegenden Farben am besten repräsentiert. Die Anzahl der Pixel pro Einheit wird auch Punktdichte oder Auflösung genannt. Eine oft verwendete Einheit für die Punktdichte ist die Bezeichnung dpi (dots per inch), zu deutsch Punkte pro Zoll. 1 Zoll entspricht 25.4 mm. Somit bedeutet z.B. eine Auflösung von 72 dpi, dass 2.83 Punkte pro mm abgespeichert werden. Zum Vergleich werden bei einer Auflösung von 300 dpi  11.81 Punkte pro mm abgespeichert.
+
+Zu jedem Pixel kann eine Information mit abgespeichert werden. Dies kann ein Grau- oder Farbwert sein wie z.B. bei Fotos oder bei Pixelkarten (wie du sie in der Übung noch kennenlernen wirst) oder numerische Informationen wie z.B. ein Messwert. Schaue dir als Beispiel für Raster aus Messwerten die Karte mit den Schneehöhen auf der https://www.slf.ch/de.html[Homepage] des Instituts für Schnee- und Lawinenforschung (SLF) an.
