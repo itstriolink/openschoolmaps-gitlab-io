@@ -137,6 +137,22 @@ Die Reihenfolge der Layer kann auch verändert werden. Dazu klickst du auf den L
 
 Verschiebe anschliessend die Layer wieder in die Anfangsposition zurück.
 
+=== Darstellungsfarben ändern
+
+Wie bist du denn mit den Darstellungsfarben der Seen und der Kantone zufrieden? Bist du nicht auch der Meinung, dass die Farbe hellgelb für die Einfärbung der Kantone und die Farbe blau für die Seen besser geeignet wäre? Um die Darstellungsfarbe zu ändern, musst du durch Rechtsmausklick auf den Layer -> Eigenschaften oder durch Doppelklick auf den Layer das Fenster mit dem Namen Layereigenschaften öffnen.
+
+Zuerst soll die Darstellung der Kantone geändert werden. Öffne deshalb das Layereigenschaften-Fenster für die Kantonsgrenzen.
+
+[SCREENSHOT Layer-Eigenschaften Kantone]
+
+Überprüfe, ob im Auswahlfenster auf der linken Seite die Option Darstellung ausgewählt ist. So gelangst du zu einer Maske, in welcher du mit wenigen Schritten die Füllfarbe und –art und die Umrandungsoptionen ändern kannst. Probiere diese Optionen aus und wähle für die Kantonsflächen eine hellgelbe Füllfarbe und eine orangefarbene Umrandung. Durch Klicken auf den Anwenden-Button kannst du deine Einstellungen schon mal im Kartenfenster betrachten. Wenn du zufrieden bist, kannst du das Fenster durch Klicken auf den OK-Button schliessen.
+
+Die Seen sollen eine zweifarbige Füllung erhalten. Öffne dazu das Fenster mit dem Namen Layereigenschaften für den Layer Seen.
+
+[SCREENSHOT Layer-Eigenschaften Seen]
+
+Erstelle dazu durch Klicken auf den + -Button einen zweiten Symbollayer. Wähle für den unteren Layer die Füllfarbe hellblau und den Füllstil Ausgefüllt und für den oberen Layer als Füllfarbe ein dunkleres Blau als für den ersten Layer und als Füllstil die Option Dichte 4. Die Randfarbe soll die gleiche sein wie die Füllfarbe und die Randbreite soll 0.4 betragen. Wenn du zufrieden bist mit der Füllung, schliesse die beiden Fenster durch klicken auf OK. Bist du nicht auch der Meinung, dass die Darstellung im Kartenfenster nun schon viel besser aussieht?
+
 === Navigation im Kartenfenster
 
 Bevor du mit dem Navigieren in der Karte beginnst, solltest du zuerst ein Hintergrundbild für das Bedienfeld Übersicht wählen. Die Kantonsgrenzen würden sich gut für diesen Zweck eignen. Um den Inhalt dieses Layers als Hintergrundskarte zu wählen, klicke mit der rechten Maustaste auf den Layer und setze ein Kreuz bei der Option In der Übersicht anzeigen. Die Kantonsgrenzen erscheinen in der Kartenübersicht. Es können beliebige weitere Layer hinzugefügt werden. Die Darstellungsreihenfolge wird von der Reihenfolge in der Legende übernommen.
