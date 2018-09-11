@@ -61,3 +61,7 @@ Zu den Vektordaten gehören z.B. die Shapefiles, die du in der ersten Übung ver
 ===== Vergleich Vektor- und Rasterdaten
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_Stelle dir nun vor, dass du ein Gebäude in einem GIS darstellen möchtest. Einmal wird das Gebäude in Form von Raster- und einmal in Form von Vektordaten abgespeichert. Wie sieht die Hauskante bei den Rasterdaten aus und wie bei den Vektordaten, wenn du nun ganz nahe an eine Hauskante zoomst? Zeichne dies auf deinem Arbeitsblatt auf. Überlege dir, welches Format (Raster oder Vektor) wohl mehr Speicherplatz benötigt?_
+
+===== Metadaten 
+
+Zu den Geodaten werden auch immer Metadaten, d.h. Daten über die Daten mit abgespeichert. Darin können Informationen über die räumliche Ausdehnung, der Ersteller, die Qualität etc. der Daten vermerkt werden. Wenn man z.B. mit Daten von einer externen Quelle arbeitet, so kann nachgeschaut werden, woher die Daten stammen und ob sie wirklich das beinhalten, was man braucht.
