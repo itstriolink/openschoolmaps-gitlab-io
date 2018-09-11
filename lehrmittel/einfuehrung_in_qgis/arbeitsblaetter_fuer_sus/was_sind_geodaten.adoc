@@ -81,3 +81,21 @@ Nach dieser Übung bist du in der Lage folgendes zu tun:
 * Das richtige Koordinatenbezugssystem für ein neues Projekt wählen
 * Vektordaten und WMS-Dienste ins Projekt laden
 * Objekte anhand von Attributen einfärben
+
+=== Übung
+
+Um ein leeres Projekt zu öffnen, schliesse und öffne entweder QGIS neu oder klicke auf den Button Neues Projekt. In das leere Projekt sollen nun Geodaten geladen werden.
+
+==== Projekteinstellungen
+
+Bevor jedoch Daten geladen werden, sollte das Koordinatensystem des Projektes definiert werden. Dazu drückst du rechts unten in QGIS auf die Schaltfläche _Aktuelles KBS_. Mit dem Filter kannst du dann das gewünschte Koordinatensystem suchen.
+
+Für die Schweiz wird folgendes Koordinatensystem verwendet: CH1903 /LV03 (EPSG: 21781)
+
+Wähle das vorgegebene System mit Hilfe der Suche aus und bestätige die Einstellung durch Klicken auf den Anwenden-Button.
+
+Gehe anschliessend unter _Projekt_ -> _Properties_ in den Reiter mit dem Namen Allgemein, setze dort den Projekttitel „Die Schweiz“ und bestimme eine Hintergrundfarbe.
+
+Unter Pfade speichern kannst du wählen, ob die Pfade zu den Daten relativ oder absolut abgespeichert werden sollen. Der Vorteil der relativen Pfade ist, dass du den Ordner mit dem QGIS-Projekt und den Daten auch an einen anderen Ort hin kopieren kannst, ohne anschliessend die ganzen Pfade zu den Daten wieder anpassen zu müssen. Wähle deshalb für dein neues Projekt die Option Relativ.
+
+Schliesse anschliessend das Fenster Projekteinstellungen durch Klicken auf den OK-Button. Damit die neue Hintergrundfarbe erscheint, muss im Kartenfenster eine Navigationsfunktion wie z.B. Karte verschieben ausgeführt werden.
