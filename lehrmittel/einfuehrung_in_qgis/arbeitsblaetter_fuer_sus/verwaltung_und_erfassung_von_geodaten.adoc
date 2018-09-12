@@ -380,3 +380,78 @@ das Freistellen etc. an,
 bis die Beschriftung "ins Bild" passt.
 Wähle ausserdem zusätzlich
 geeignetere Punktsymbole für die Hauptorte.
+
+==== Objekte erfassen
+
+Es sollen nun zusätzlich
+zu den bestehenden Seen
+zwei weitere Seen erfasst werden:
+der _Lungernsee_ und der _Wägitalersee_.
+
+Um den Lungernsee zu erfassen,
+zoome in die Nähe von _Sarnen_.
+Der See zwischen _Giswil_,
+_Brienz_ und _Meiringen_ ist der _Lungernsee_.
+Um überhaupt Daten erfassen zu können,
+muss der Layer mit den Seen markiert werden
+und aus dem Werkzeugkasten _Digitizing Toolbar_
+der Button _Toggle Editing_
+ausgewählt werden.
+Das Gleiche geschieht mit Rechtsmausklick
+auf den Layer und dann
+die Option _Toggle Editing_ wählen.
+Probiere beide Methoden mal aus
+und entscheide dich für eine,
+welche du in Zukunft verwenden möchtest.
+
+Die Buttons,
+welche für die Digitalisierung
+gebraucht werden können,
+werden nun aktiviert.
+Wähle den Button _Add Polygon Feature_
+und setze Punkte entlang der hellblauen Linie
+des Uferbereiches auf der Karte ab.
+Um die Fläche zu schliessen,
+drücke die rechte Maustaste.
+Es erscheint automatisch ein Fenster,
+in welchem die Attribute
+eingegeben werden können.
+Gib folgende Werte ein:
+
+*Name:* Lungernsee;
+*Type:* Speichersee;
+
+*Fläche:* 2.01 km3;
+*Höhe:* 688.0 m.ü.M;
+*Tiefe:* 68 m;
+*Volumen:* 0.065 km3
+
+Der zweite zu erfassende See
+hat wie bereits erwähnt
+den Namen _Wägitalersee_
+und liegt zwischen dem _Sihlsee_,
+dem _Zürichsee_
+und der Ortschaft _Glarus_.
+Erfasse auch die Geometrie
+und die Attribute dieses Sees.
+Hier noch einige Infos:
+
+*Name:* Wägitalersee;
+*Type:* Speichersee;
+
+*Fläche:* 4.18 km3;
+*Höhe:* 900.0 m.ü.M;
+*Tiefe:* 65 m;
+*Volumen:* 0.150 km3
+
+Um die Änderungen zu speichern,
+muss der Bearbeitungsstatus
+wieder umgestellt werden.
+Solange du dies nicht tust,
+sind die Daten,
+die du erfasst hast,
+nicht abgespeichert.
+
+Herzliche Gratulation,
+du hast deine ersten Objekte
+mit QGIS selber erfasst!
