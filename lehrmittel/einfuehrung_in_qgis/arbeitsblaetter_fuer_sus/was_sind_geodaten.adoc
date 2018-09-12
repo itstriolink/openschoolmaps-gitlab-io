@@ -247,11 +247,13 @@ einiges über Vektor-
 und Rasterdaten erfahren.
 In dieser Übung möchten wir nun
 ein neues GIS-Projekt erstellen
-und in dieses Projekt Vektor- und Rasterdaten laden.
+und in dieses Projekt Vektor-
+und Rasterdaten laden.
 
 === Lernziele
 
-Nach dieser Übung bist du in der Lage folgendes zu tun:
+Nach dieser Übung bist du
+in der Lage folgendes zu tun:
 
 * Das richtige Koordinatenbezugssystem
 für ein neues Projekt wählen
@@ -335,7 +337,8 @@ hat es auch unterschiedliche Buttons.
 In einem ersten Schritt
 sollen nun die Vektordaten
 aus der ersten Übung eingefügt werden.
-Klicke dazu auf den Button _Vektorlayer hinzufügen_
+Klicke dazu auf
+den Button _Vektorlayer hinzufügen_
 und navigiere mit Hilfe des _Durchsuchen-Buttons_
 zum Ordner mit den Daten der Übung 1
 und wähle die Shapefiles
@@ -371,3 +374,95 @@ welche Daten die einzelnen Spalten beinhalten._
 image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
 _Mache das Gleiche
 auch für die Kantonsgrenzen._
+
+===== Rasterdaten einlesen
+
+Die Rasterdaten sollen in Form
+eines WMS-Layers eingelesen werden.
+Weisst du noch,
+was ein WMS-Layer ist?
+Wenn nicht,
+schaue nochmals im Theorieteil nach.
+
+Der Bund bietet auf seiner Homepage
+einen Überblick über die Verfügbaren WMS-Dienste an
+(http://www.geo.admin.ch unter
+Dienstleistungen -> Geodienste ->
+Darstellungsdienste -> Web Map Services).
+
+Unter dem Titel Verfügbare WMS-Dienste
+sind unter GetCapabilities die Anfragen
+in Form von Links abgespeichert.
+Wenn du z.B. auf den Link
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de[GetCapabilities BGDI]
+klickst,
+wird eine Anfrage an den Server
+http://wms.geo.admin.ch/
+gestartet und du erhältst
+als Antwort eine Auflistung
+der verfügbaren WMS-Services.
+
+Unter <_Title_> findest du den Titel
+des WMS-Services und unter <_Abstract->
+einen kurzen Beschrieb,
+was genau in den Daten abgespeichert ist.
+Zusätzlich sind auch Informationen
+über die Ausdehnung
+und die möglichen Koordinatensysteme
+erhältlich.
+
+Aus diesen Daten möchten wir
+die Übersichtskarte
+in unser Projekt einbinden.
+Wähle im Werkzeugkasten
+_Manage Layers_
+das Werkzeug _Add WMS/WMTS Layer_.
+Wenn du im Reiter _Layers_
+beim obersten Balken
+auf den Pfeil klickst,
+siehst du,
+dass bereits einige Server
+standardmässig eingebunden sind.
+Um den Server
+mit den öffentlichen Daten
+der _Bundes Geodaten-Infrastruktur_ (BGDI)
+ebenfalls einzubinden,
+muss eine neue WMS-Verbindung
+erstellt werden.
+Dazu muss auf den _New_-Button
+geklickt werden.
+Gib im Fenster _Create a New WMS/WMTS Connection_ anlegen
+den Namen der Verbindung an (z.B. WMS-BGDI)
+und die URL zum gewünschten Server
+(in unserem Fall http://wms.geo.admin.ch/).
+Benutzername und Passwort werden
+in diesem Fall nicht gebraucht.
+
+Wenn du jetzt nochmals auf den Pfeil
+des ersten Balkens klickst,
+sollte die neu angelegte Verbindung
+ebenfalls erscheinen.
+Wähle diese aus
+und klicke auf _Connect_.
+
+Nun werden alle WMS-Dienste angezeigt,
+die auf dem Server der BGDI
+öffentlich angeboten werden.
+Klicke auf die _Übersichtskarte Hydrogeologie_
+und wähle als Layername „Übersichtskarte“
+und ändere das Koordinatenbezugssystem
+von WGS 84 auf das schweizerische
+Bezugssystem CH1903 / LV03.
+Am einfachsten wählst du
+den Filter aus
+und gibst als Text CH1903 ein.
+So erscheint das gewünschte System
+in der Auswahl.
+Anschliessend können der WMS-Layer hinzugefügt
+und das Fenster geschlossen werden.
+
+Damit die Übersichtskarte im Kartenfenster
+nicht die Kantonsgrenzen und Seen überdeckt,
+muss die Layerreihenfolge angepasst werden.
+Denke dir eine geeignete Reihenfolge aus
+und wende sie an.
