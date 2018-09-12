@@ -314,7 +314,7 @@ wie z.B. Karte verschieben ausgeführt werden.
 
 ==== Projekt speichern
 
-Speichere mit dem Projekt speichern-Button
+Speichere mit dem _Save Project_-Button
 dein neues Projekt in den Ordner,
 in welchem du die Daten
 für diese Übung abgespeichert hast.
