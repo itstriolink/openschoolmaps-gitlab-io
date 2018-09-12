@@ -466,3 +466,88 @@ nicht die Kantonsgrenzen und Seen überdeckt,
 muss die Layerreihenfolge angepasst werden.
 Denke dir eine geeignete Reihenfolge aus
 und wende sie an.
+
+===== Vergleich zwischen Raster- und Vektordaten
+
+Zum Schluss dieser Übung
+sollst du dir die Unterschiede
+zwischen Vektor- und Rasterdaten
+nochmals etwas genauer anschauen.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Blende dazu den Layer mit den Kantonsgrenzen aus
+und zoome zu einem beliebigen See.
+Zoome am Uferbereich immer weiter hinein
+und beobachte,
+was mit den Seegrenzen bei den Vektor-
+und den Rasterdaten passiert
+und welches die Unterschiede sind.
+Wenn nicht beide Grenzen sichtbar sind,
+kannst du die Seen ein- und ausblenden,
+um auch die Rasterdaten
+unter dem See-Layer zu sehen.
+Schreibe deine Beobachtungen
+in eigenen Worten auf._
+
+Speichere dein Projekt ab.
+In der nächsten Übung wirst du
+mit dem gleichen Projekt weiterarbeiten.
+Aber vorher musst du noch den Kapiteltest bestehen.
+
+== Kapiteltest 2
+
+Schon ist es wieder soweit.
+Du bist wieder bei einem Kapiteltest angelangt.
+Lege wieder alle Unterlagen weg,
+ausser einem Blatt Papier und einem Stift.
+Hier die Fragen zum Kapitel 2:
+
+=== Frage 1
+
+Du möchtest in deinem GIS eine Mauer darstellen,
+welche aus der Luft gesehen so aussieht,
+als würden sich zwei Linien
+in einem Winkel von 135 Grad treffen.
+
+_Wie sieht die Darstellung aus, wenn du_
+
+. das Rasterformat
+. das Vektorformat
+
+_als Speicherformat wählst?
+Was wird bei den einzelnen Formaten
+von der Mauer abgespeichert?_
+
+Beantworte die Fragen in eigenen Worten.
+Erstelle zusätzlich zur Beschreibung
+je eine Skizze der Mauer
+im Raster- und Vektorformat.
+
+=== Frage 2
+
+Im Kapitel 2 war oft von Geodaten die Rede.
+
+_Was bedeutet der Begriff Geodaten?
+Welches ist der Unterschied zwischen
+Geodaten und "normalen" Daten?_
+
+Beantworte die Fragen so,
+dass sie auch
+von einem GIS-Laien verstanden werden.
+Verzichte also auf Fachbegriffe.
+
+=== Frage 3
+
+Im Übungsteil hast du neben Vektordaten
+auch einen WMS-Layer in dein Projekt geladen.
+
+Welches ist der Unterschied
+zwischen dem Vektordaten-Layer
+und dem WMS-Layer bezüglich:
+
+* Format
+* Speicherort
+* Verfügbarkeit
+
+Schreibe zu jedem Punkt
+mindestens einen Satz.
