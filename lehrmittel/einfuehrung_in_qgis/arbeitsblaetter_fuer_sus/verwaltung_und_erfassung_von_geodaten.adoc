@@ -38,3 +38,20 @@ ohne Hilfsmittel aufzählen
 wieso es sich lohnt,
 Geld und Zeit in die Datenerfassung
 und -verwaltung zu stecken
+
+== Theorie
+
+Im Kapitel Geodaten
+und Raumbezug haben wir gesehen,
+dass es generell zwei Arten gibt,
+um Geodaten abzuspeichern:
+In Form von Vektor-
+und von Rasterdaten.
+Da du wahrscheinlich
+bei zukünftigen GIS-Projekten
+die Daten,
+die du erfasst,
+als Vektordaten abspeichern wirst,
+werden wir uns in diesem Kapitel
+auch grösstenteils mit
+der Erfassung von Vektordaten beschäftigen.
