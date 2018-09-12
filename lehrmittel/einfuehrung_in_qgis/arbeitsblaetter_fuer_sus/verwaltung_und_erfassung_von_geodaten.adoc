@@ -291,3 +291,76 @@ in einem GIS räumlich visualisieren
 eines Attributwertes beschriften
 * neue Objekte erfassen
 (Geometrie und Sachattribute)
+
+=== Übung
+
+==== Objekt aus Textfile
+
+Die Lage der Kantonshauptorte
+ist im Textfile Hauptorte.txt abgespeichert.
+Öffne diese Datei in einem Texteditor
+und schaue dir den Inhalt etwas genauer an.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_In welcher Form ist die Lage
+der Hauptorte abgespeichert
+und wie sind die Informationen
+voneinander getrennt?
+Schreibe deine Erkenntnisse
+auf dein Arbeitsblatt._
+
+Das Werkzeug _Add Delimited Text Layer_
+um Koordinatenwerte
+aus einem Textfile zu lesen,
+kann in der Werkzeugleiste _Manage Layers Toolbar_
+gefunden werden.
+Wenn du nicht mehr weisst,
+wie man Werkzeuleisten einblendet,
+schaue dir nochmals Kapitel 1 an.
+
+Öffne das neue Werkzeug
+und gib zuerst die Art
+des Trennzeichens ein,
+welches die Informationen
+im Textfile voneinander trennt
+(siehe Resultat der letzten Aufgabe).
+
+Klicke dann auf den … -Button
+und wähle die Textdatei _Hautporte.txt_ aus.
+Das Werkzeug trennt das Textfile
+nun automatisch in verschiedene Felder auf,
+wobei das gewählte Trennzeichen
+den Ausschlag gibt,
+wo das neue Feld beginnt.
+
+Unter der Geometrie erscheint nun
+automatisch ein Vorschlag,
+welches Feld als X-Feld
+und welches als Y-Feld
+benutzt werden soll.
+Vergleiche den Vorschlag
+mit deinen Überlegungen.
+Falls du nicht einverstanden bist,
+ändere den Eintrag.
+Klicke anschliessend auf den OK-Button
+um die Hauptorte im Projekt anzuzeigen.
+
+Um später auch räumliche Analysen
+mit dem neuen Layer Hauptorte
+durchführen zu können,
+muss dem Layer noch das gleiche Koordinatenbezugssystem
+wie den restlichen Layern
+zugeordnet werden.
+Öffne die _Properties_ der Hauptorte
+und suche unter _Source:
+das richtige _CRS_/_KBS_.
+Wähle das Koordinatensystem
+CH1903 /LV03 mit der EPSG-Nr. 21781.
+
+Wenn du nun die Attributstabelle öffnest,
+siehst du die Informationen des Textfiles
+in einer Tabelle dargestellt.
+Zusätzlich wurde aus den ausgewählten Zahlen
+für die X- und Y-Koordinaten
+eine Position in der Karte berechnet
+und dort ein Punkt abgesetzt.
