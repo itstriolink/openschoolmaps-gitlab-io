@@ -267,3 +267,27 @@ Wobei bei der Erfassung der Daten
 nicht der Grundsatz gilt
 „so genau wie möglich“
 sondern „so genau wie nötig“.
+
+== Übung 3
+
+Im Theorieteil hast du gelernt,
+wie du zu den Geodaten kommst,
+die du für dein GIS brauchst.
+Im Rahmen dieser Übung wirst du
+Daten aus einem Textfile in dein GIS einbinden,
+sodass sie einen Raumbezug erhalten
+und geographisch dargestellt werden können.
+Ausserdem wirst du Daten
+in einem bestehenden Datensatz nachführen.
+
+=== Lernziele
+
+Wenn du die Übung gelöst hast,
+hast du folgendes gelernt:
+
+* ein Textfile mit Koordinatenwerten
+in einem GIS räumlich visualisieren
+* einen Layer anhand
+eines Attributwertes beschriften
+* neue Objekte erfassen
+(Geometrie und Sachattribute)
