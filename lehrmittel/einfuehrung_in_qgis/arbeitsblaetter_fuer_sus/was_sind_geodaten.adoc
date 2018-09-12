@@ -258,7 +258,6 @@ in der Lage folgendes zu tun:
 * Das richtige Koordinatenbezugssystem
 für ein neues Projekt wählen
 * Vektordaten und WMS-Dienste ins Projekt laden
-* Objekte anhand von Attributen einfärben
 
 === Übung
 
