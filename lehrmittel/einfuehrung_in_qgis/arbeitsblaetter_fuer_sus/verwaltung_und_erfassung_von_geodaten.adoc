@@ -55,3 +55,99 @@ als Vektordaten abspeichern wirst,
 werden wir uns in diesem Kapitel
 auch grösstenteils mit
 der Erfassung von Vektordaten beschäftigen.
+
+=== Tabelle
+
+Zuerst werden wir uns
+aber allgemein mit der Erfassung
+von Werten in Tabellen beschäftigen.
+Eine Tabelle besteht aus
+Zeilen und aus Spalten.
+Die Zeile verläuft horizontal
+und in ihr werden
+die verschiedenen Datensätze
+gespeichert.
+Die Spalte verläuft vertikal
+und in ihr wird
+eine gewisse Eigenschaft
+eines Datensatzes abgelegt.
+
+Tabellen werden sehr oft verwendet,
+um Werte von Messungen abzuspeichern.
+In einer Tabelle können
+z.B. die Anzahl Schüler
+einer Klasse abgespeichert werden.
+Die Anzahl Schüler
+einer Klasse können gezählt werden.
+Zusätzlich könnte z.B. auch noch
+der Klassenlehrer in der Tabelle
+erfasst werden.
+Die entsprechende Tabelle
+würde dann wie folgt aussehen.
+
+[%header,cols=3*]
+|===
+|Klasse
+|Anzahl Schüler
+|KlassenlehrerIn
+
+|1c
+|22
+|Gaby Meyer
+
+|2b
+|24
+|Franz Peter
+
+|...
+|...
+|...
+|===
+
+Die Namen der Spalten
+(z.B. Klasse, Anzahl Schüler…)
+werden *Attribute* genannt.
+
+Bei Geodaten muss zusätzlich
+zu den Sachattributen
+auch noch die Geometrie
+abgespeichert werden.
+In den bisherigen Übungen
+hast du bereits das Shapefile
+als Speicherart für Geodaten
+kennengelernt.
+Beim Shapefile werden
+die Geometrie und die Sachdaten
+in unterschiedlichen Dateien abgespeichert.
+
+Öffne im Windows Explorer den Ordner,
+in welchem die Daten
+für die Übung abgespeichert sind
+und schaue dir die Daten
+mal etwas genauer an.
+Zusätzlich zur Hauptdatei
+mit der Endung _.shp_
+gibt es noch weitere Dateien
+mit dem gleichen Namen
+aber anderer Endung.
+In der Datei mit der Endung _.dbf_
+sind z.B. die Sachdaten
+und in der Datei mit der Endung _.prj_
+das Koordinatensystem abgespeichert.
+Alle diese Dateien zusammen
+bilden das Shapefile.
+
+Geodaten können auch
+in speziellen Datenbanken,
+sogenannten *Geodatenbanken*
+abgespeichert werden.
+Diese Datenbanken funktionieren
+ähnlich wie normale Datenbanken,
+bieten aber zusätzlich
+noch die Möglichkeit,
+neben Sachinformationen
+auch die Geometrie zu verwalten.
+Normale Datenbanken können dies nicht.
+Beispiele für Geodatenbanken
+sind z.B. _Oracle Spatial_
+und _PostGIS_.
