@@ -455,3 +455,98 @@ nicht abgespeichert.
 Herzliche Gratulation,
 du hast deine ersten Objekte
 mit QGIS selber erfasst!
+
+== Kapiteltest 3
+
+Willkommen beim Kapiteltest 3.
+Inzwischen bist du ja schon
+ein alter Kapiteltest-Hase
+und weisst genau,
+was zu erledigen ist.
+Deshalb hier
+ohne grosse Worte
+die Fragen:
+
+=== Frage 1
+
+Vektordaten können in
+unterschiedlicher Form
+abgespeichert werden.
+
+_Welche zwei Arten
+kennst du?_
+
+Schreibe bei jeder Form
+noch einen zusätzlichen Satz,
+in welchem du je
+eine Besonderheit nennst.
+
+=== Frage 2
+
+Nicht nur in einem GIS
+werden Informationen oft
+in Form einer Tabelle
+abgespeichert.
+
+_Wie würdest du jemandem,
+der noch nie
+eine Tabelle gesehen hat,
+den Aufbau
+einer solchen beschreiben?_
+
+Zur Beantwortung dieser Frage
+darfst du auch eine Skizze
+zu Hilfe nehmen.
+Die wichtigen Begriffe
+müssen jedoch in deiner Antwort
+schriftlich stehen.
+
+=== Frage 3
+
+Eine Art,
+um Informationen zu Objekten
+abzuspeichern ist,
+diese in ein Textfile
+zu schreiben.
+
+. Was muss in einem Textfile
+minimal gespeichert werden,
+damit die Information
+aus dem File im Kartenfenster
+angezeigt werden kann
+. Was muss beim Erfassen der Werte
+im Textfile beachtet werden.
+Wieso muss dies beachtet werden?
+
+Beantworte die Fragen
+in eigenen Worten
+und begründe deine Antworten.
+Denke bei der Beantwortung
+der Fragen auch
+an die Übung zurück.
+
+=== Frage 4
+
+Du erhältst von deinem Klassenlehrer
+den Auftrag,
+für die nächste Schulreise
+ein GIS zu erstellen,
+in welchem die
+verschiedenen Zwischenstationen
+des Ausfluges
+und die Wanderroute
+räumlich dargestellt sind.
+
+_Welche Möglichkeiten hast du,
+um an die verschiedenen Daten zu kommen?_
+
+Wähle zwei Themen aus,
+die du im Schulreise-GIS
+darstellen möchtest.
+Beantworte die Frage
+für beide Themen.
+Es müssen jedoch
+zwei unterschiedliche Erfassungsarten
+beschrieben werden.
+Es gibt mehrere
+richtige Möglichkeiten.
