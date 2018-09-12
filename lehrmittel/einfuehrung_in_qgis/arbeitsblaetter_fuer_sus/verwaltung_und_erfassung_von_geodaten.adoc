@@ -151,3 +151,119 @@ Normale Datenbanken können dies nicht.
 Beispiele für Geodatenbanken
 sind z.B. _Oracle Spatial_
 und _PostGIS_.
+
+=== Datenerfassung
+
+Jetzt hast du gelernt,
+in welcher Form Geodaten
+abgespeichert werden können.
+Aber wie kommt man von den Objekten
+in der realen Welt denn
+überhaupt zu den Informationen,
+die abgespeichert werden sollen?
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Überlege zwei bis drei Minuten,
+aus welchen Quellen
+die Daten stammen könnten
+und welche Erfassungsmethoden du kennst.
+Gehe erst dann im Text weiter._
+
+Es gibt viele Methoden,
+um Geodaten erfassen zu können.
+Auf einige möchten wir kurz eingehen.
+
+. Im Teil 1 dieses Leitprogramms
+wurde das Beispiel mit dem Mobiltelefon
+mit integriertem GPS verwendet.
+GPS ist neben dem Messen mit Tachymetern
+eine beliebte Methode
+in der Vermessung,
+um die Geometrie von Objekten
+auf dem Feld zu erfassen.
+Oft muss das Resultat
+von Messungen als Textfile,
+auf welchem Koordinaten-
+und Attributwerte stehen,
+ins GIS-Projekt eingelesen werden.
+. Luftbilder werden oft
+als Hintergrundbild verwendet.
+. Oft liegen Pläne noch
+in analoger Form,
+d.h. als Papierkarte vor.
+Um diese Pläne
+in eine digitale Form zu bringen,
+müssen sie eingescannt werden.
+Nach dem Scannen
+sind die Daten zwar digital,
+haben aber noch keinen Raumbezug.
+Um einen Raumbezug zu erhalten,
+müssen sie zusätzlich
+georeferenziert werden
+(siehe Kapitel Geodaten und Raumbezug).
+. Luftbilder und digitalisierte
+und georeferenzierte Pläne
+bieten oft auch eine gute Grundlage,
+um Objekte ins Vektorformat umzuwandeln.
+Dieser Vorgang wird auch
+Vektorisieren genannt.
+. Gewisse Daten wurden bereits
+im Rahmen eines anderen
+GIS-Projektes erhoben.
+Diese Daten können teilweise
+ohne Anpassungen übernommen werden.
+Oft müssen jedoch
+z.B. noch das Datenformat
+oder das Koordinatensystem
+angepasst oder zusätzliche Attribute
+erfasst werden.
+. Statistische Ämter publizieren
+eine Vielzahl von statistischen Erhebungen.
+Diese statistischen Daten
+können übernommen
+und mit den entsprechenden
+geometrischen Objekten,
+wie z.B. den Kantonsgrenzen,
+verknüpft werden,
+um einen Raumbezug zu erhalten.
+
+Die Datenerfassung und –verwaltung
+nimmt meist sehr viel Zeit in Anspruch.
+Der Aufwand lohnt sich aber,
+denn die Daten können als Kernstück
+des GIS angesehen werden.
+Ist die Qualität der Daten schlecht
+oder sind die Daten unvollständig
+oder veraltet,
+so sind auch die Resultate
+der Auswertungen oder
+die aus den Daten erstellten Karten
+entsprechend schlecht.
+
+Die Daten haben im Vergleich
+zu den anderen GIS-Komponenten
+Software und Hardware
+eine sehr lange Lebensdauer.
+Während immer bessere
+und schnellere Computer
+auf den Markt kommen
+und die Softwareprodukte
+nach einigen Jahren
+meist schon veraltet sind,
+können die Daten
+über Jahrzehnte hinweg
+verwendet werden.
+
+Da die Erfassung sehr aufwändig ist,
+ist man natürlich
+auch daran interessiert,
+die Daten möglichst lange
+verwenden zu können.
+Um dies zu gewährleisten,
+ist eine regelmässige Nachführung
+genauso wichtig wie die gute
+und saubere Erfassung der Daten.
+Wobei bei der Erfassung der Daten
+nicht der Grundsatz gilt
+„so genau wie möglich“
+sondern „so genau wie nötig“.
