@@ -351,7 +351,7 @@ durchführen zu können,
 muss dem Layer noch das gleiche Koordinatenbezugssystem
 wie den restlichen Layern
 zugeordnet werden.
-Öffne die _Properties_ der Hauptorte
+Öffne die _Layer Properties_ der Hauptorte
 und suche unter _Source:
 das richtige _CRS_/_KBS_.
 Wähle das Koordinatensystem
@@ -364,3 +364,19 @@ Zusätzlich wurde aus den ausgewählten Zahlen
 für die X- und Y-Koordinaten
 eine Position in der Karte berechnet
 und dort ein Punkt abgesetzt.
+
+==== Beschriftung eines Layers
+
+Nun sollen die Hauptorte
+noch beschriftet werden.
+Öffne dazu das _Layer Properties_-Fenster
+und wähle die Option _Labels_.
+Wähle bei Beschriftungen anzeigen
+das Feld _Single Labels_ und wähle als _Beschreibungsfeld_
+das Feld mit dem Namen _Hauptort_.
+Passe anschliessend die Schriftgrösse,
+die Platzierung,
+das Freistellen etc. an,
+bis die Beschriftung "ins Bild" passt.
+Wähle ausserdem zusätzlich
+geeignetere Punktsymbole für die Hauptorte.
