@@ -1,0 +1,27 @@
+= Einführung in QGIS 3: Erfassung und Verwaltung von Daten (Kapitel 3)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Schülerinnen und Schüler*
+
+Bestimmt hast du schon mal Daten
+in einer Tabelle
+(z.B. einer Exceltabelle)
+erfasst.
+Was waren das für Daten
+die du da erfasst hast?
+Woher kamen die Werte,
+die du eingetragen hast?
+Woher könnten allgemein
+ausgedrückt Werte kommen,
+die in einer Tabelle abgespeichert werden.
+Mache dir als Einstieg
+in dieses Kapitel
+zwei bis drei Minuten lang Gedanken
+zu diesen Fragestellungen.
+Notiere diese stichwortartig
+auf deinem Arbeitsblatt.
+Gehe erst dann weiter in diesem Kapitel.
