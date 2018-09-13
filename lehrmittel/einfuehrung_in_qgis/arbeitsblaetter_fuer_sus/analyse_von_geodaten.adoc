@@ -1,0 +1,8 @@
+= Einführung in QGIS 3: Datenanalyse (Kapitel 4)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Schülerinnen und Schüler*
