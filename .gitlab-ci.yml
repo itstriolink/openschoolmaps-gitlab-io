@@ -36,6 +36,7 @@ Daten_Leitprogramm_QGIS:
   # because we only need to collect some files from the Git repo as artifacts.
   - "true"
   artifacts:
+    name: "Daten_Leitprogramm_QGIS"
     expire_in: 3 mos
     paths:
     - lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
