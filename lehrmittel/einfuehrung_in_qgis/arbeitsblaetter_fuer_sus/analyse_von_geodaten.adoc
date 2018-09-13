@@ -110,3 +110,43 @@ werden entweder
 die Daten verändert
 oder es werden
 neue Daten erzeugt.
+
+=== Abfragen
+
+Es gibt drei Möglichkeiten,
+nach welchen Gesichtspunkten
+eine Abfrage durchgeführt
+werden kann.
+
+. Abfragen anhand von Sachdaten.
+Beispiel: Selektiere alle Seen,
+die eine Wassertiefe haben,
+die grösser als 100 m ist.
+Diese Abfragen werden
+*thematische Abfragen
+oder Selektionen* genannt.
+. Abfragen anhand von Beziehungen
+zwischen verschiedenen
+geometrischen Objekten.
+Beispiel: Selektiere alle Seen,
+die vollständig innerhalb
+eines Kantons liegen.
+Diese Abfragen werden
+*topologische Abfragen
+oder Selektionen* genannt.
+. Abfragen über
+die Geometrie der Objekte.
+Beispiel: Welche Hauptorte
+liegen in einem Abstand
+von weniger als 20 km
+um den Vierwaldstättersee.
+Diese Abfragen werden
+*geometrische Abfragen
+oder Selektionen* genannt.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Überlege dir,
+um welche Arten
+von Abfragen es sich
+bei der Einstiegsübung
+handelte?_
