@@ -543,3 +543,46 @@ _Wie viele Seen
 erfüllen diese Bedingung?
 Schreibe die Lösung
 auf dein Arbeitsblatt._
+
+=== Felder berechnen
+
+Als nächstes soll mit Hilfe
+von bestehenden Attributen
+ein neuer Wert erzeugt werden.
+Genauer gesagt soll
+die Einwohnerdichte
+der Kantone berechnet werden.
+Diese geschieht durch
+folgende Formel:
+
+_Einwohnerdichte pro
+km2 = Anzahl Einwohner
+/ Fläche in km2_
+
+Für diese Berechnung
+muss die Attributstabelle
+der Kantone werden.
+Wähle die Option _Open field calculator_.
+Falls du den Dichtewert
+in eine bereits bestehende Spalte
+schreiben möchtest,
+kannst du in der Maske
+_Update existing field_ ankreuzen
+und im Dropdown-Menu
+deine gewünschte Spalte auswählen.
+In unserem Fall möchten wir jedoch
+ein neues Feld anlegen.
+Gib deshalb unter _Output field name_
+den Begriff _Dichte_ ein.
+Wähle als _Output field type
+Ganzzahl (integer)_
+und als _Output field length 10_.
+
+Wenn du den Dichtewert
+für alle und nicht nur
+für die selektierten Kantone
+berechnen möchtest,
+musst du darauf achten,
+dass das Kreuz bei
+_Only update x selected features_
+nicht gesetzt ist.
