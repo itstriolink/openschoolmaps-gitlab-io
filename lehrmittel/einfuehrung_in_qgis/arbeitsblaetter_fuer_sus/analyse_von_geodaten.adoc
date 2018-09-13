@@ -34,3 +34,79 @@ und diese mit Hilfe
 je eines Beispiels erklären
 * für eine thematische Abfrage
 eine korrekte SQL-Abfrage formulieren
+
+== Theorie
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Löse als Einstieg
+in das Kapitel Datenanalyse
+folgende Aufgaben:_
+
+. _Suche 1:
+Rufe die Homepage http://tel.local.ch/de/ auf
+und gib den Namen
+und falls bekannt
+auch den Wohnort einer Person ein,
+die du kennst
+und die einen Eintrag
+im Telefonbuch haben könnte
+(z.B. deine Eltern oder deine Grosseltern).
+Klicke anschliessend
+auf den Suchen - Button.
+Was ist das Resultat
+deiner Suche?
+In welcher Form
+sind die Eingabe
+und die Ausgabe der Suche,
+wenn du die Suche
+auf der Seite tel.local.ch
+allgemein betrachtest?_
+. _Suche 2:
+Rufe als nächstes
+die Homepage http://www.sbb.ch/ auf
+und suche nach der nächsten Verbindung
+vom Bahnhof der am nächsten
+bei deinem Wohnort liegt nach Chur.
+Betrachte wieder die Eingabe-
+und Ausgabewerte.
+Dabei sind nicht so sehr
+die Resultate selber wichtig
+sondern die Form,
+in welcher die Resultate
+ausgegeben werden.
+Mache dir dazu
+wieder einige Notizen._
+. _Vergleich:
+Was fällt dir auf,
+wenn du nun die Art
+der Resultate der Suche 1
+und der Suche 2 vergleichst?
+Schreibe deine Feststellungen auf._
+
+Behalte deine Lösungen
+im Hinterkopf.
+Wir werden später
+in diesem Kapitel
+nochmals auf diese Aufgabe
+zurückkommen.
+
+Wie bereits
+in der Einleitung angedeutet,
+ist das Ableiten von neuen Informationen
+aus bestehenden raumbezogenen Daten
+eine der wertvollsten
+und wichtigsten Funktionen
+eines GIS.
+
+Allgemein werden
+zwei Arten von Analysen
+unterschieden:
+Abfragen und Manipulationen.
+Bei den Abfragen
+werden die Daten
+nicht verändert,
+bei den Manipulationen
+werden entweder
+die Daten verändert
+oder es werden
+neue Daten erzeugt.
