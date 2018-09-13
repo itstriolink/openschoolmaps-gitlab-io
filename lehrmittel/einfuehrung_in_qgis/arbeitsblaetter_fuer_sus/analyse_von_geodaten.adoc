@@ -150,3 +150,177 @@ um welche Arten
 von Abfragen es sich
 bei der Einstiegsübung
 handelte?_
+
+=== Datenbanksprache SQL
+
+Um thematische
+Abfragen durchzuführen,
+wird die Datenbanksprache
+*SQL (Structured Query Language)*
+verwendet.
+Falls du bereits
+mit Datenbanken gearbeitet hast,
+wirst du die Sprache bestimmt
+bereits kennen.
+Dann ist für dich
+der nächste Abschnitt Repetition.
+Für alle anderen
+ist es eine kurze Einführung
+über die wichtigsten Strukturen
+und Ausdrücke
+einer Abfrage mit SQL.
+
+Eine _SQL-Abfrage_
+ist vereinfacht dargestellt
+wie folgt aufgebaut:
+
+*SELECT AUSWAHLLISTE* +
+*FROM QUELLE* +
+*WHERE WHERE-KLAUSEL*
+
+Überblick über die Variablen
+die du für einfache Abfragen
+kennen solltest:
+
+*AUSWAHLLISTE:*
+Namen aller Attribute,
+die als Resultat
+angezeigt werden sollen.
+* bedeutet,
+es werden alle
+Attribute angezeigt.
+Bei thematischen Abfragen
+in einem GIS
+ist nur die Abfrage
+nach allen Attributen möglich.
+Deshalb muss diese Variable
+im GIS nicht eingestellt werden.
+
+*QUELLE:*
+Namen der Tabellen,
+die Attribute enthalten,
+welche bei der Abfrage
+eine Rolle spielen
+
+*WHERE-KLAUSEL:*
+Bedingungen,
+die erfüllt werden müssen
+
+Überblick über
+die SQL-Ausdrücke,
+welche in einer Where-Klausel
+verwendet werden können,
+und ihre Bedeutung:
+
+[%header,cols=2*]
+|===
+|SQL Ausdruck
+|Bedeutung
+
+|=
+|gleich
+
+|<
+|kleiner
+
+|$$<=$$
+|kleiner oder gleich
+
+|>
+|grösser
+
+|>=
+|grösser oder gleich
+
+|<>
+|nicht gleich, verschieden
+
+|LIKE
+|Vergleich von Zeichenfolgen.
+Dabei können folgende Zeichen
+als Platzhalter eingesetzt werden:
+%: Platzhalter für
+beliebig viele Zeichen.
+Z.B. LIKE
+‚F%’ für alle Einträge,
+die mit dem Buchstaben F beginnen
+_ : Platzhalter für
+genau ein Zeichen.
+Z.B. LIKE ‚Me_er’,
+wenn man nach einer Person
+sucht und nicht weiss,
+ob ihr Nachname Meier
+oder Meyer ist.
+Bei LIKE ‚M__er’
+könnte er zusätzlich
+auch Mayer lauten.
+
+|IS NULL
+|Zelle enthält keinen Wert
+
+|IS NOT NULL
+|Zelle enthält einen Wert
+
+|BETWEEN
+|zwischen zwei Werten
+|===
+
+Es können auch
+mehrere Bedingungen
+hintereinander gesetzt werden.
+Durch logische Operatoren
+kann definiert werden,
+ob die _Bedingung 1_
+*und* (*AND*) _Bedingung 2_
+*oder* _Bedingung 1_
+oder (*OR*) _Bedingung 2_
+oder _Bedingung 1_
+*und nicht* (*NOT*) _Bedingung 2_
+gelten sollen.
+
+Hier zur Veranschaulichung
+das Ganze nochmals
+mit Hilfe von Venn-Diagrammen
+dargestellt:
+
+[cols="1,1a"]
+|===
+
+|*AND*-Operator:
+Welches Element
+gehört zur Menge A
+und zur Menge B?
+|image::einfuehrung_in_qgis/and_operator.jpg["AND Operator", 113, 69]
+
+|*OR*-Operator:
+Welches Element
+gehört zur Menge A
+oder zur Menge B?
+|image::einfuehrung_in_qgis/or_operator.jpg["OR Operator", 113, 69]
+
+|*NOT*-Operator:
+Welches Element
+gehört zur Menge A
+aber nicht zur Menge B?
+|image::einfuehrung_in_qgis/not_operator.jpg["NOT Operator", 113, 69]
+|===
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Probiere nun
+selber mal aus,
+folgende einfache Abfrage
+in SQL zu formulieren:_
+
+. _Es sollen alle Seen
+selektiert werden,
+deren Fläche grösser
+als 20 km2 sind
+und die tiefer
+als 400 m.ü.M. liegen._
+. _Die Suche die du
+als Einstieg
+in die Theorie
+als Suche 1
+auf der Homepage
+http://tel.local.ch/de/
+durchgeführt hast._
