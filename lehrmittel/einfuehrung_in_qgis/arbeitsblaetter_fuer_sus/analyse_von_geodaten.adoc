@@ -333,3 +333,16 @@ in der Theorie vermittelt werden.
 In diesem Kapitel wirst du
 selber einige thematische
 und räumliche Abfragen durchführen.
+
+=== Lernziele
+
+Am Ende dieser Übung
+beherrscht du folgende Punkte:
+
+* Elemente anhand
+von thematischen
+und räumlichen
+Kriterien selektieren
+* Aus bestehenden Werten
+für ein Feld
+einen neuen Wert berechnen
