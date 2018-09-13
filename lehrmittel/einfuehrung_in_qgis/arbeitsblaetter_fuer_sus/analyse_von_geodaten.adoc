@@ -19,3 +19,18 @@ aus bestehenden raumbezogenen Daten.
 Dieses Ableiten
 von neuen Informationen
 nennt man Analyse.
+
+== Lernziele
+
+Dieses Kapitel beinhaltet
+folgende Lernziele:
+
+* den Unterschied zwischen
+Abfragen und Manipulationen
+in eigenen Worten erklären
+* aufzählen,
+welche Abfragearten es gibt
+und diese mit Hilfe
+je eines Beispiels erklären
+* für eine thematische Abfrage
+eine korrekte SQL-Abfrage formulieren
