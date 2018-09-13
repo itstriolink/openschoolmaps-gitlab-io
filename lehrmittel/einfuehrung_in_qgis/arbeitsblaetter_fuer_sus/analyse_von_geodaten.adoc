@@ -324,3 +324,12 @@ als Suche 1
 auf der Homepage
 http://tel.local.ch/de/
 durchgeführt hast._
+
+== Übung 4
+
+Die "Spezialität" eines GIS
+soll natürlich auch nicht nur
+in der Theorie vermittelt werden.
+In diesem Kapitel wirst du
+selber einige thematische
+und räumliche Abfragen durchführen.
