@@ -29,7 +29,7 @@ PDFs:
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.pdf
 
-Daten_Leitprogramm_QGIS:
+QGIS excercise data:
   stage: build
   script:
   # Dummy script,
