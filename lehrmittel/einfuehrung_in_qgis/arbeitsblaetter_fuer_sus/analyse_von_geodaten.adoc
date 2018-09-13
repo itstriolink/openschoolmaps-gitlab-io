@@ -346,3 +346,200 @@ Kriterien selektieren
 * Aus bestehenden Werten
 für ein Feld
 einen neuen Wert berechnen
+
+=== Übung
+
+=== Thematische Selektion
+
+Zu Beginn
+dieser Übung
+möchten wir
+eine einfache Abfrage
+durchführen.
+Du kennst sie bereits
+aus der SQL-Übung
+im Theorieteil:
+
+_Es sollen alle Seen
+selektiert werden,
+deren Fläche grösser
+als 20 km2 sind
+und die tiefer
+als 400 m.ü.M. liegen._
+
+Um diese Seen
+zu selektieren,
+könntest du nun
+jede einzelne Zeile
+der Attributtabelle durchschauen
+und so bestimmen,
+welche Objekte dazu gehören
+und welche nicht.
+Wenn du aber viele Objekte hast,
+dann würde diese Art von Suche
+sehr schnell sehr viel Zeit
+in Anspruch nehmen.
+
+Einfacher geht es,
+wenn die vordefinierten Suchmasken
+verwendet werden.
+Wenn du nur nach einem Namen
+oder einer Zahl suchst,
+dann ist es am Einfachsten,
+den _Field Filter_
+in der Attributtabelle
+zu benützen.
+
+Probiere diese Suche
+an einem kleinen Beispiel aus.
+Öffne die Attributstabelle
+der Seen.
+Im unteren linken Bereich
+siehst du eine Zeile
+auf der _Show All Features_ steht
+und ein Menu,
+dass du aufklappen kannst.
+Suche in diesem Menu,
+im _Field Filter_,
+nach dem Attribut,
+nach welchem du
+sortieren möchtest.
+Zusätzlich musst du
+den Begriff noch eingeben,
+nach dem du filtern möchtest.
+Du möchtest nun z.B.
+nach allen Seen suchen,
+in denen im Namen „Lago“ vorkommt.
+Wähle das Attribut „name“ aus
+im Menu unten links
+und suche nach
+dem Begriff Lago.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Wie viele Lösungen
+erhältst du?_
+
+Kommen wir aber
+zum Anfangsbeispiel zurück.
+Diese Abfrage ist
+etwas komplizierter.
+Öffne durch Klicken
+auf den Button
+_Select features using an expression_
+den Abfrageeditor.
+Hier kann die Abfrage
+in Form einer _SQL_-Abfrage
+formuliert werden.
+Es muss jedoch
+nur die _Where-Klausel_
+der _SQL_-Abfrage
+eingegeben werden.
+Von _Select * from Seen where max_Tiefe > 100_
+muss also nur der Teil
+_max_Tiefe > 100_
+ins Abfragefeld
+eingetippt werden.
+
+Die einzelnen Komponenten
+der Where-Klausel können
+durch Doppelklick
+auf die Felder
+im rechten Fenster
+zusammengesetzt werden.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Formuliere nun
+die Where-Klausel
+der SQL-Abfrage
+für die Einstiegsaufgabe
+und führe die Abfrage durch.
+Wie viele Seen
+erfüllen diese Bedingungen?_
+
+=== Räumliche Selektion
+
+Im ersten Teil
+dieses Abschnittes wurde
+eine Abfrage anhand
+von Werten formuliert,
+die in der Attributstabelle
+abgespeichert sind.
+Nun soll eine Abfrage
+durchgeführt werden,
+bei welcher die Position
+der Objekte berücksichtigt wird.
+Es handelt sich dabei
+um eine räumliche Abfrage.
+
+Das Werkzeug für
+die räumlichen Abfragen
+findet man,
+in dem man den Button
+_Toolbox_ klickt
+und aus dem neuen Fenster
+unter _Vector selection_
+das Werkzeug
+_Select by location_
+auswählt.
+
+Es sollen alle Kantone
+selektiert werden,
+bei denen mindestens
+einer der erfassten Seen
+ganz innerhalb liegt
+(d.h. der Kanton teilt sich
+den See nicht
+mit einem anderen Kanton
+oder einem anderen Land).
+
+Der _Select features from_ Layer
+in der Maske
+ist der Layer,
+in welchem die Elemente
+selektiert werden sollen.
+Da im vorliegenden Fall
+die Kantone selektiert
+werden sollen,
+wählen wir hier
+den Layer Kantonsgrenzen.
+Somit sind die Seen
+der _By comapring to the features from_ Layer.
+Die Checkbox _Selected features only_
+muss ausgewählt sein,
+damit nur die Seen
+mit einer Tiefe von
+mindestens 100 Metern
+ausgewählt werden.
+
+Die Seen sollen
+vollständig innerhalb
+eines Kantones liegen.
+D.h. die Kantonsflächen
+enthalten die Seeflächen.
+Deshalb lautet
+die topologische Operation _contain_.
+Man geht bei der Wahl
+der topologischen Operation
+also immer vom Ziellayer aus
+und überprüft,
+wie er im Verhältnis
+zum Referenzlayer steht.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Führe diese Abfrage durch.
+Wie viele Kantone
+erfüllen diese Bedingung?_
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Wie müsste die Abfrage lauten,
+wenn alle Seen
+selektiert werden sollen,
+die zu mehr
+als einem Kanton
+oder Land gehören?_
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Wie viele Seen
+erfüllen diese Bedingung?
+Schreibe die Lösung
+auf dein Arbeitsblatt._
