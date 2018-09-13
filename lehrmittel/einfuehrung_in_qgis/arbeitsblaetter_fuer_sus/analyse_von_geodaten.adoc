@@ -6,3 +6,16 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt für Schülerinnen und Schüler*
+
+In den letzten Kapiteln
+hast du erfahren,
+wie Geodaten erfasst
+und in einem GIS dargestellt werden.
+Somit ist alles vorbereitet
+für die „Spezialität“ des GIS,
+nämlich das Ableiten
+von neuen Informationen
+aus bestehenden raumbezogenen Daten.
+Dieses Ableiten
+von neuen Informationen
+nennt man Analyse.
