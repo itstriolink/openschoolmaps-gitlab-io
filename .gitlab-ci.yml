@@ -28,3 +28,15 @@ PDFs:
     - lehrmittel/**/**/*.pdf
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.pdf
+
+QGIS excercise data:
+  stage: build
+  script:
+  # Dummy script,
+  # because we only need to collect some files from the Git repo as artifacts.
+  - "true"
+  artifacts:
+    name: "Daten_Leitprogramm_QGIS"
+    expire_in: 3 mos
+    paths:
+    - lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
