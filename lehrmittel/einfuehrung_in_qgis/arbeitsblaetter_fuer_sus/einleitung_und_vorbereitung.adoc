@@ -183,4 +183,4 @@ Lade das zip-File
 mit den Daten für die Übungen dieses Leitprogrammes
 unter folgendem Link herunter.
 
-http://www.qgis-lp.ethz.ch/V16/Daten_Leitprogramm_QGIS.zip[Daten Leitprogramm]
+https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/download?job=QGIS+excercise+data
