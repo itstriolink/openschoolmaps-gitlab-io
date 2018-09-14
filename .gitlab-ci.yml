@@ -1,3 +1,7 @@
+stages:
+- build
+- pages
+
 PDFs:
   image: asciidoctor/docker-asciidoctor:latest
   stage: build
@@ -43,6 +47,7 @@ QGIS excercise data:
 
 pages:
   image: asciidoctor/docker-asciidoctor
+  stage: pages
   script:
   - cd pages/
   - apk update
