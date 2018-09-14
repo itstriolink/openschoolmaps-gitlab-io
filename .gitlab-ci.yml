@@ -40,3 +40,18 @@ QGIS excercise data:
     expire_in: 3 mos
     paths:
     - lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
+
+pages:
+  image: asciidoctor/docker-asciidoctor
+  script:
+  - cd pages/
+  - apk update
+  - apk add git py2-pip
+  - git clone --depth 1 https://github.com/getpelican/pelican-plugins
+  - git clone --depth 1 https://gitlab.com/openschoolmaps/pelican-themes.git
+  - pip install -r requirements.txt
+  - pelican -s publishconf.py
+  - mv public/ ..
+  artifacts:
+    paths:
+    - public/
