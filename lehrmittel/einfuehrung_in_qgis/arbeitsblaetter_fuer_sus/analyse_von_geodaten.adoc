@@ -721,3 +721,34 @@ Schreibe deine Antwort
 in eigenen Worten.
 Füge bei jeder Art
 noch ein Beispiel hinzu.
+
+=== Frage 2
+
+Du hast gelernt,
+dass thematische Abfragen
+mit Hilfe
+der Datenbanksprache SQL
+formuliert werden.
+
+_Erstelle für
+die folgende Fragestellung
+eine SQL-Abfrage:_ +
+_"Welche Kantone
+haben eine
+grössere Einwohnerdichte
+als 200 Einwohner pro km2,
+traten der Schweiz
+vor dem Jahr 1600 n.Chr. bei
+und haben einen Namen,
+der nicht
+mit dem Buchstaben Z beginnt?"
+
+Benutze bei der Formulierung
+den vereinfachten Aufbau
+einer SQL-Abfrage.
+Hebe die typischen Elemente
+des Aufbaus speziell hervor.
+Die Bezeichnungen der Tabellen
+und Attribute sollen
+von den Daten
+der Übung übernommen werden.
