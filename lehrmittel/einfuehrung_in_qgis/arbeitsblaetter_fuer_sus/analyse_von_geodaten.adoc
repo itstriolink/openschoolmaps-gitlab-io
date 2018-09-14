@@ -752,3 +752,38 @@ Die Bezeichnungen der Tabellen
 und Attribute sollen
 von den Daten
 der Übung übernommen werden.
+
+=== Frage 3
+
+Es gibt neben
+den thematischen Abfragen
+auch noch weitere
+Abfragemöglichkeiten.
+Die verschiedenen Abfragen
+können auch kombiniert werden.
+
+_Erstelle für
+die folgende Fragestellung
+eine SQL-Abfrage:_ +
+_"Selektiere alle Kantone,
+die nach 1600 der Schweiz
+beigetreten sind
+und Kontakt mit einem See haben,
+der grösser als 50 km2 ist"_
+
+Bei der Beantwortung
+dieser Frage müssen nur
+die Seen berücksichtigt werden,
+welche im Shapefile seen.shp
+abgespeichert sind.
+Führe die Abfrage durch
+und schreibe Schritt für Schritt auf,
+wie du dabei vorgehst.
+Kleiner Tipp:
+Denke an die Aufgabe
+aus der Übung,
+in welcher die Namen
+aller Hauptorte selektiert wurden,
+deren zugehörige Kantone
+gewisse thematische Bedingungen
+erfüllen mussten.
