@@ -52,6 +52,9 @@ pages:
   - pip install -r requirements.txt
   - pelican -s publishconf.py
   - mv public/ ..
+  only:
+    refs:
+      - master
   artifacts:
     paths:
     - public/
