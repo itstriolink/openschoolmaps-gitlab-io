@@ -699,3 +699,25 @@ berücksichtig werden.
 image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
 _Um welche Hauptorte
 handelt es sich?_
+
+== Kapiteltest 4
+
+=== Frage 1
+
+Im Kapitel 4
+hast du gelernt,
+dass allgemein zwei Arten
+von Analysen
+unterschieden werden,
+die Abfrage
+und die Manipulation.
+
+_Welches ist
+der Unterschied
+zwischen diesen
+beiden Analysearten?_
+
+Schreibe deine Antwort
+in eigenen Worten.
+Füge bei jeder Art
+noch ein Beispiel hinzu.
