@@ -390,6 +390,9 @@ den _Field Filter_
 in der Attributtabelle
 zu benützen.
 
+NOTE: Siehe auch
+Locator Bar in QGIS 3
+
 Probiere diese Suche
 an einem kleinen Beispiel aus.
 Öffne die Attributstabelle
