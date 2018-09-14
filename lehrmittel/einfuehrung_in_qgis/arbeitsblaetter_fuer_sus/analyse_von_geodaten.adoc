@@ -619,3 +619,83 @@ dann speichere
 die Änderungen ab.
 Falls nicht,
 verwerfe diese.
+
+=== Kombinierte Selektion
+
+Bestimme in einer weiteren Abfrage
+die Namen aller Hauptorte,
+deren zugehörige Kantone
+eine Bevölkerungsdichte von mehr
+als 200 Einwohner pro km2 haben
+und die zwischen 1800
+und 1900 der Schweiz
+beigetreten sind.
+
+Es soll also nun
+eine Abfrage durchgeführt werden,
+in welcher sowohl thematische
+als auch die räumliche Komponente
+eine Rolle spielt.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Überlege kurz,
+bei welchen Komponenten
+es sich um die thematische
+und bei welchen
+um räumliche Abfragen
+handelt._
+
+Wir werden bei
+dieser Abfrage
+in zwei Schritten vorgehen.
+Im ersten Schritt wird
+die thematische Abfrage
+durchgeführt.
+Öffne dazu
+die Attributstabelle der Kantone
+und selektiere mit Hilfe
+der _Select by expression_
+alle Kantone,
+bei denen die Bevölkerungsdichte
+grösser als
+200 Einwohner pro km2 beträgt
+und die zwischen 1800
+und 1900 der Schweiz
+beigetreten sind.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Wie lautet
+die Where-Klausel?_
+
+Jetzt sind
+alle Kantone selektiert,
+die diese Bedingung erfüllen.
+
+Nun sollen noch
+die dazugehörigen Hauptorte
+herausgefunden werden.
+Dies geschieht mit Hilfe
+einer räumlichen Abfrage.
+Öffne dazu
+das _Select by Locataion_-Werkzeug.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Welcher Layer ist denn
+nun der
+_Select features from_-Layer
+und welcher der
+_By comparing to
+the features from_-Layer?
+Welche Topologische Operation
+muss gewählt werden?_
+
+Überprüfe vor
+dem Durchführen der Abfrage,
+dass die Einstellungen so sind,
+dass von den Kantonsgrenzen
+nur die Selektierten
+berücksichtig werden.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Um welche Hauptorte
+handelt es sich?_
