@@ -1,6 +1,5 @@
-image: asciidoctor/docker-asciidoctor
-
 pages:
+  image: asciidoctor/docker-asciidoctor
   script:
   - cd pages/
   - apk update
