@@ -456,9 +456,9 @@ in der Kartenübersicht geschieht._
 NOTE: Für die Navigation im Kartenfenster
 können auch das Mausrad und die Tastatur
 verwendet werden.
-Mit gedrückter Leertaste und der mittleren Maustaste,
+Mit gedrückter Leertaste und der mittleren Maustaste
 kann sich die Karte verschieben lassen,
-unabhängig davon
+unabhängig davon,
 welches Werkzeug aktuell ausgewählt ist.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
