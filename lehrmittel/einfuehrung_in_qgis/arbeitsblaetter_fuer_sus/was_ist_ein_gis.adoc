@@ -516,7 +516,7 @@ was diese Schlagwörter beinhalten.
 Im Rahmen der Übung
 hast du einige Funktionen kennengelernt,
 um den Ausschnitt,
-er im Kartenfenster angezeigt wird,
+der im Kartenfenster angezeigt wird,
 den Bedürfnissen anzupassen.
 
 _Welche Werkzeuge und Möglichkeiten hast du kennengelernt,
