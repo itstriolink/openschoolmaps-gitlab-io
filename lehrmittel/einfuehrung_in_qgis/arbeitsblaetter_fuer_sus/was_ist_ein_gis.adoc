@@ -162,10 +162,13 @@ den Support einer Firma wie ESRI
 oder Intergraph beizuziehen.
 Dafür steht aber hinter jeder Open-Source-Software
 eine Gemeinschaft (engl. community).
-Bei Problemen kannst du die Dokumentation von QGIS
+Bei Problemen kannst du dich entweder,
+bei der QGIS Gemeinschaft erkundigen
+oder die Dokumentation von QGIS
 als Hilfe anschauen.
 Mehr dazu erfährst du auch
-unter folgendem Link:
+unter folgenden Links:
+https://www.qgis.org/de/site/forusers/support.html[Gemeinschaft]
 https://www.qgis.org/de/docs/index.html[Dokumentation]
 
 === Daten
