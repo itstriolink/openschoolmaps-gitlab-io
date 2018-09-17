@@ -230,7 +230,7 @@ kann das Programm gestartet werden.
 Dadurch öffnet sich eine grafische Benutzeroberfläche.
 Falls dieser Shortcut fehlt,
 findest du das Programm
-indem du im Start den Begriff QGIS eingibst.
+indem du im Startmenü den Begriff QGIS eingibst.
 Stelle sicher,
 dass du das Programm QGIS 3.2.x öffnest
 ohne die Endung "with Grass".
