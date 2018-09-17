@@ -223,7 +223,7 @@ nennen und anwenden
 
 Beim Installieren der QGIS-Software
 wird automatisch ein Order mit Verknüpfungen
-(ein sogenannter Shortcut)
+(sogenannte Shortcuts)
 auf die Programme auf deinem Desktop erstellt.
 Durch Doppelklick auf den Shortcut QGIS 3.2.x
 kann das Programm gestartet werden.
