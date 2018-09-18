@@ -188,8 +188,8 @@ in einer Tabelle abgespeichert.
 
 ===== Vergleich Vektor- und Rasterdaten
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]_
-Stelle dir nun vor,
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+_Stelle dir nun vor,
 dass du ein Gebäude
 in einem GIS darstellen möchtest.
 Einmal wird das Gebäude
