@@ -231,7 +231,7 @@ kann das Programm gestartet werden.
 Dadurch öffnet sich eine grafische Benutzeroberfläche.
 Falls dieser Shortcut fehlt,
 findest du das Programm
-in dem du im Start den Begriff QGIS eingibst.
+indem du im Startmenü den Begriff QGIS eingibst.
 Stelle sicher,
 dass du das Programm QGIS 3.2.x öffnest
 ohne die Endung "with Grass".
@@ -455,9 +455,9 @@ in der Kartenübersicht geschieht._
 NOTE: Für die Navigation im Kartenfenster
 können auch das Mausrad und die Tastatur
 verwendet werden.
-Mit gedrückter Leertaste und der mittleren Maustaste,
+Mit gedrückter Leertaste und der mittleren Maustaste
 kann sich die Karte verschieben lassen,
-unabhängig davon
+unabhängig davon,
 welches Werkzeug aktuell ausgewählt ist.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
@@ -515,7 +515,7 @@ was diese Schlagwörter beinhalten.
 Im Rahmen der Übung
 hast du einige Funktionen kennengelernt,
 um den Ausschnitt,
-er im Kartenfenster angezeigt wird,
+der im Kartenfenster angezeigt wird,
 den Bedürfnissen anzupassen.
 
 _Welche Werkzeuge und Möglichkeiten hast du kennengelernt,
