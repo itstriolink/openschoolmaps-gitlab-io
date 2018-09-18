@@ -251,6 +251,75 @@ Hat man z.B. keine Internetverbindung mehr,
 so ist auch die Karte
 im GIS-Projekt nicht mehr sichtbar.
 
+==== Projektionen
+
+In QGIS
+werden Projektionen
+meistens mit
+einem EPSG Code
+mitgegeben.
+
+QGIS hat einige nützliche
+Werkzeuge um nach spezifischen
+Projektionen zu suchen.
+Dazu kann QGIS,
+in Echtzeit,
+das KBS
+(Koordinatenbezugssystem)
+für ein Projekt
+projizieren.
+
+===== Projizieren in Echtzeit
+
+Du kannst das KBS
+eines Projekts abändern,
+in dem du
+in der Statusleiste
+auf den EPSG Code klickst
+und ein neues KBS auswählst.
+
+===== Projektion eines Layers
+
+Um für einen
+bestimmten Layer
+ein spezifisches
+KBS anzugeben,
+klickst du rechts
+auf den Layer
+und bewegst den
+Mauszeiger über
+das Menu _Set CRS_
+und wählst
+_Set Layer CRS..._ aus.
+Danach kannst du
+das gewünschte
+KBS auswählen.
+
+===== Reprojizieren der Daten
+
+Um die Daten
+in deiner Tabelle
+reprojizieren zu können,
+musst nur den Layernamen
+rechtsklicken,
+auf _Export_ klicken
+und _Save Feature As..._
+auswählen.
+Im oberen Teil
+des Fensters
+kannst du dann
+das KBS abändern.
+
+Wenn du dir
+nicht sicher bist
+welchen EPSG Code
+du brauchen sollst,
+kannst du auf
+dieser Webseite:
+http://spatialreference.org/
+nachschauen.
+
+
 == Übung 2
 
 Im Theorieteil hast du
