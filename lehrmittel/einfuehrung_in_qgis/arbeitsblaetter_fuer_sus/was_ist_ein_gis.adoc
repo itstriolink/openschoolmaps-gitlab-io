@@ -243,8 +243,8 @@ Die Benutzeroberfläche ist in sechs Bereiche gegliedert.
 . Menüleiste
 . Werkzeugleiste
 . Räumliche Lesezeichen
-. Browser
-. Layer
+. Browser-Fenster
+. Layerfenster
 . Kartenfenster
 
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläche", 401, 312]
