@@ -98,6 +98,17 @@ auf der Erde in Zahlen angeben zu können.
 Die verschiedenen Koordinatensysteme
 kennst du bestimmt noch
 aus dem Geografieunterricht.
+Falls du dein Wissen
+in diesem Bereich
+wieder etwas auffrischen möchtest,
+kannst du dies mit Hilfe
+des Leitprogramms
+„Karten“ tun.
+Dieses Leitprogramm ist
+auf dem EducETH-Server
+unter dem Link
+http://www.educ.ethz.ch/unterrichtsmaterialien/geographie-umweltlehre/karten-leitprogramm.html
+erhältlich.
 
 ==== Abspeicherungsart von Daten
 
