@@ -326,8 +326,8 @@ im Kartenfenster.
 
 TIP: Wenn du im Kartenfenster
 die Seen und Kantonsgrenzen nicht siehst,
-kannst du auf einen Layer rechtsklick drücken
-und _Zoom to Layer_ klicken.
+kannst du auf einen Layer rechtsklicken
+und _Zoom to Layer_ wählen.
 Nun solltest du die Karte im Kartenfenster sehen.
 
 Die Darstellungsreihenfolge im Kartenfenster
