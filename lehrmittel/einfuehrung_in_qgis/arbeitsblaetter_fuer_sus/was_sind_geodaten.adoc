@@ -200,7 +200,7 @@ Wie sieht die Hauskante
 bei den Rasterdaten aus
 und wie bei den Vektordaten,
 wenn du nun ganz nahe an eine Hauskante zoomst?
-Zeichne dies auf deinem Arbeitsblatt auf.
+Zeichne dies auf deinem Arbeitsblatt auf. +
 Überlege dir,
 welches Format (Raster oder Vektor)
 wohl mehr Speicherplatz benötigt?_
