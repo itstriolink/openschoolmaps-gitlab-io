@@ -50,7 +50,7 @@ und bedeutet Erde.
 Geodaten müssen also Daten sein,
 die einen Bezug zur Erde haben.
 
-==== Raumdaten
+==== Raumbezug
 
 Raumbezug kann so gedeutet werden,
 dass ein Objekt zu einem Ort
