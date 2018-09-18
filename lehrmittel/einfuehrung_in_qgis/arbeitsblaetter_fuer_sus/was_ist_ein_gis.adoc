@@ -238,7 +238,7 @@ ohne die Endung "with Grass".
 
 ==== Die grafische Benutzeroberfläche
 
-Die Benutzeroberfläche ist in sechs Bereiche gegliedert.
+Die Benutzeroberfläche ist in sieben Bereiche gegliedert.
 
 . Menüleiste
 . Werkzeugleiste
@@ -246,6 +246,7 @@ Die Benutzeroberfläche ist in sechs Bereiche gegliedert.
 . Browser-Fenster
 . Layerfenster
 . Kartenfenster
+. Statusleiste
 
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläche", 401, 312]
 
