@@ -533,7 +533,7 @@ die du im Gymnasium besuchst.
 
 . _In welchem Fach
 und welchem spezifischen Thema
-dieses Faches wäre der Einsatz eines GIS sinnvoll?_
+dieses Faches wäre der Einsatz eines GIS sinnvoll?_ +
 Notiere in eigenen Worten,
 welches Thema
 und weshalb es geeignet wäre.
@@ -541,7 +541,7 @@ Denke bei der Beantwortung dieser Frage
 nicht unbedingt nur an das Fach,
 in welchem du dieses Leitprogramm durcharbeitest.
 
-. _Was würde dein GIS in diesem Fach beinhalten?_
+. _Was würde dein GIS in diesem Fach beinhalten?_ +
 Beschreibe in einigen Sätzen,
 welche Inhalte die Daten dieses GIS hätten
 und welche GIS-Funktionen du verwenden würdest.
