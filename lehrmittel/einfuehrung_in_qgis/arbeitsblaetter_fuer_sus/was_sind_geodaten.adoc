@@ -203,7 +203,7 @@ wenn du nun ganz nahe an eine Hauskante zoomst?
 Zeichne dies auf deinem Arbeitsblatt auf. +
 Überlege dir,
 welches Format (Raster oder Vektor)
-wohl mehr Speicherplatz benötigt?_
+wohl mehr Speicherplatz benötigt._
 
 ===== Metadaten 
 
