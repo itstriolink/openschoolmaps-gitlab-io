@@ -168,8 +168,9 @@ oder die Dokumentation von QGIS
 als Hilfe anschauen.
 Mehr dazu erfährst du auch
 unter folgenden Links:
-https://www.qgis.org/de/site/forusers/support.html[Gemeinschaft]
-https://www.qgis.org/de/docs/index.html[Dokumentation]
+
+https://www.qgis.org/de/site/forusers/support.html - Gemeinschaft +
+https://www.qgis.org/de/docs/index.html - Dokumentation
 
 === Daten
 
