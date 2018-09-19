@@ -171,3 +171,21 @@ In dieser letzten Übung
 soll nun der Kartenentwurf
 aus dem Theorieteil
 im GIS umgesetzt werden.
+
+=== Lernziele
+
+Am Ende dieser Übung
+solltest du
+folgende Punkte
+beherrschen:
+
+* Mit Hilfe von QGIS
+eine Karte erstellen,
+in welcher alle
+wichtigen Kartenelemente
+enthalten sind
+* Je nach Zweck
+der Karte
+ein geeignetes Ausgabeformat
+wählen und die Wahl
+auch begründen
