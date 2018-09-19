@@ -125,3 +125,42 @@ in der Umgebung
 und den Begriffen "GIS"
 und "Online" startest.
 Notiere dir den Link._
+
+==== Ausgedruckte Karte oder Karte als PDF
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Schaue dir folgenden Karten an,
+und notiere,
+welche Elemente
+neben den Daten
+auf eine Karte gehören.
+Überlege dir
+bei jedem Element,
+das du notierst,
+welchen Zweck es erfüllt._
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Erstelle mit den Erkenntnissen
+aus den betrachteten Karten
+ein Konzept für deine
+eigene Karte.
+Dieses Konzept gilt es dann
+im Übungsteil umzusetzen.
+Das Konzept soll
+aus einer Skizze bestehen,
+in welcher die Position
+der Karte und der Kartenelemente
+festgelegt ist.
+Überlege dir bei
+der Gestaltung auch
+folgende Punkte:_
+
+* _welches Thema möchtest du darstellen?_
+* _was soll die Karte aussagen?_
+* _wen willst du mit deiner Karte ansprechen (Nutzerkreis)?_
+
+Bis du zufrieden
+mit deinem Konzept?
+Dann geht es jetzt
+an die Umsetzung
+dieses Entwurfes.
