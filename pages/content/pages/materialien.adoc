@@ -27,6 +27,18 @@
 .Zusätzliche Materialien für OpenStreetMap:
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
 
+.Einführung in QGIS 3:
+* Infos für Lehrpersonen: Infos
+* Einleitung und Vorbereitung: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/einleitung_und_vorbereitung.pdf?job=PDFs[Infos]
+
+//-
+. Was ist ein GIS? https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] | Lösungen
+. Was sind Geodaten? https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel2_projektionen/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] | Lösungen
+. Verwaltung und Erfassung von Geodaten: https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel3/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | Lösungen
+. Analyse von Geodaten: https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel4/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | Lösungen
+. Präsentation von Geodaten: Arbeitsblatt | Lösungen
+
+
 Diese Arbeitsblätter (PDFs) werden
 aus den Dateien
 auf https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel[dieser Seite], die in der Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc] geschrieben sind,
