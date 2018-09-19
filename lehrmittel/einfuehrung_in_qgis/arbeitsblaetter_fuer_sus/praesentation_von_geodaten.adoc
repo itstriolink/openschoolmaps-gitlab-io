@@ -189,3 +189,181 @@ der Karte
 ein geeignetes Ausgabeformat
 wählen und die Wahl
 auch begründen
+
+=== Übung
+
+Bevor du mit
+der Erstellung
+der Karte beginnen kannst,
+musst du den Ausschnitt
+im Kartenfenster
+so gestalten,
+wie du ihn
+in deiner Karte
+darstellen möchtest.
+Dazu gehört auch,
+dass du Layer ein-
+und ausblendest,
+je nachdem ob du
+sie in der Karte
+darstellen möchtest
+oder nicht.
+Wenn du mit der Darstellung
+und dem Ausschnitt
+zufrieden bist,
+kannst du in der Übung
+weiter gehen.
+
+Für die Erstellung
+einer Karte gibt es
+eine eigene Maske.
+Öffne diese über
+das Menü
+_Datei_ ->
+_Neue Druckzusammenstellung_.
+
+[SCREENSHOT]
+
+Die Maske ist so aufgebaut,
+dass sich im oberen Bereich
+wieder die Menüs
+und Werkzeuge befinden.
+Der mittlere Teil ist
+in zwei Bereiche aufgeteilt,
+auf der linken Seite
+ist das Kartenfenster,
+in welchem die Karte
+gestaltet werden kann,
+und auf der rechten Seite
+können die entsprechenden Parameter
+gesetzt und Einstellungen
+gemacht werden.
+
+Auf der rechten Seite
+hat es drei Reiter,
+einen mit
+dem Namen _Layout_,
+einen mit
+dem Namen _Item Properties_
+und einen
+mit dem Namen _Guides_.
+Unter _Layout_
+können Einstellungen
+vorgenommen werden,
+die die
+ganze Karte betreffen.
+Im Gegensatz
+dazu betreffen
+die Einstellungen
+unter _Item Properties_
+immer nur das
+gerade selektierte Element
+(z.B. Karte oder Legende).
+
+Bevor du mit
+der Gestaltung der Karte beginnst,
+musst du auf die weisse Karte
+rechtsklicken
+und _Page Properties_ auswählen.
+Dadurch sollte auf
+der rechten Seite,
+der Reiter _Page Properties_
+ausgewählt werden
+mit dem du das Papierformat
+dann wählen kannst
+für die zu gestaltende Karte.
+Unter _Size_ hast du eine Auswahl
+von gängigen Papierformaten
+sowie die Option _Custom_,
+mit welcher du
+dein eigenes Format
+erstellen kannst.
+Lasse diese Einstellung
+auf _A4_ stehen.
+
+Unter _Orientation_
+kannst du zwischen _Landscape_
+und _Portrait_ wählen.
+Wähle das Format aus,
+welches du im Theorieteil
+für deinen Kartenentwurf
+gewählt hast.
+
+Es ist zudem sinnvoll,
+dass du ein Raster
+über das Kartenblatt legst,
+an welchem du
+die Elemente,
+die du auf
+die Karte setzt,
+ausrichten kannst.
+Dazu musst du
+in der Menüleiste _View_
+die Optionen
+_Show Grid_
+und _Snap to Grid_
+aktivieren und
+unter dem Reiter _Layout_
+-> _Guides and Grid_
+den _Grid spacing_
+auf den 10.00mm setzen.
+
+Somit sind die
+allgemeinen Einstellungen
+gemacht und es kann
+mit der Kartengestaltung
+begonnen werden.
+
+Als erstes sollen
+die Layer in der Karte
+dargestellt werden.
+Klicke dazu auf
+den Button _Add Map_
+und ziehe einen Rahmen
+in der Grösse auf,
+wie du es
+in deinem Kartenentwurf
+vorgesehen hast.
+Es erscheinen nun
+der Kartenausschnitt
+und diejenigen Layer,
+die du zu Beginn
+der Übung gewählt hast.
+
+Mit Hilfe des Buttons
+_Select/Move item_
+kann die neue Karte
+ausgewählt und die Grösse
+durch Klicken auf den Rand
+verändert werden.
+Zusätzlich kann diese auch
+in der Druckzusammenstellung
+verschoben werden.
+Die Grösse kann auch
+im Reiter _Item Properties_
+unter _Position and size_
+durch die Eingabe
+von _Width_ und _Height_
+bestimmt werden.
+
+Mit Hilfe
+des Buttons
+_Move item content_
+kann der Inhalt
+der Karte
+verschoben werden.
+Unter dem Reiter
+_Item Properties_
+unter _Main properties_
+können zudem noch
+der Massstab (_Scale_)
+und der Drehwinkel (_Map rotation_)
+der Karte
+eingestellt werden.
+Falls die Koordinaten
+der Ausdehnung
+des darzustellenden Ausschnittes
+bekannt sind,
+können diese auch
+unter _Extents_
+eingegeben werden.
