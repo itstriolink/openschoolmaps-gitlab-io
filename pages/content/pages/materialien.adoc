@@ -33,9 +33,9 @@
 
 //-
 . Was ist ein GIS? https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] | Lösungen
-. Was sind Geodaten? https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel2_projektionen/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] | Lösungen
+. Was sind Geodaten? https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel2/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel2_projektionen/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt mit Kapitel Projektion von Nates] | Lösungen
 . Verwaltung und Erfassung von Geodaten: https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel3/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | Lösungen
-. Analyse von Geodaten: https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel4/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | Lösungen
+. Analyse von Geodaten: https://gitlab.com/raytlye/OpenSchoolMaps.ch/-/jobs/artifacts/qgis_kapitel4/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | Lösungen
 . Präsentation von Geodaten: Arbeitsblatt | Lösungen
 
 
