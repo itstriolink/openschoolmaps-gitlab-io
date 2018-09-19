@@ -32,3 +32,63 @@ im GIS in geeigneter
 Form ausgeben
 * die wichtigen
 Kartenelemente nennen
+
+=== Theorie
+
+Es gibt
+unterschiedliche Möglichkeiten,
+um die visualisierten,
+neu erfassten
+oder veränderten Daten
+oder die Resultate
+von Abfragen und Manipulationen
+zu präsentieren
+oder an andere
+Personen abzugeben.
+
+Hier eine
+Auswahl davon:
+
+* Eine Methode,
+die schon seit
+sehr langem
+verwendet wird
+und auch heute
+noch sehr beliebt ist,
+ist der *Papierplan*.
+Besonders auf Baustellen
+wird noch sehr oft
+mit Papierplänen gearbeitet.
+Um einen Papierplan
+zu erstellen,
+kann in einem Drucklayout
+oder einer Layoutansicht
+im GIS eine Karte
+gestaltet und anschliessend
+auf Papier
+ausgedruckt werden.
+* Der im Drucklayout
+erstellte Plan
+kann auch als *PDF*
+abgespeichert werden
+und dann z.B.
+per E-Mail
+weiterverschickt werden.
+* Eine weitere Methode,
+die immer beliebter wird,
+ist die Darstellung
+von Geodaten im Internet
+in einem sogenannten
+*Web-GIS* oder *Internet-GIS*.
+* Ausserdem können
+die Resultate von Analysen
+auch in Form von *Tabellen*
+oder *Grafiken*
+ausgegeben werden.
+
+Zwei von
+diesen Ausgabearten
+wollen wir noch
+etwas genauer anhand
+von Beispielen
+betrachten.
