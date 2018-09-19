@@ -92,3 +92,36 @@ wollen wir noch
 etwas genauer anhand
 von Beispielen
 betrachten.
+
+==== Internet- oder Web-GIS
+
+Klicke auf
+den folgenden Link,
+um auf das WebGIS
+des Kanton Zürichs
+zu gelangen:
+
+https://maps.zh.ch/
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Beantworte folgende Fragen:
+Welche GIS-Funktionen
+werden in diesem
+Web-GIS angeboten?
+Welche Daten
+können betrachtet werden?_
+
+image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Bestimmt gibt es auch
+von Wohnkanton
+oder vom Nachbarskanton
+im Internet ein WebGIS.
+Überprüfe dies,
+indem du über Google
+eine Suche nach
+deinem Wohnkanton
+oder dem Nachbarkanton
+in der Umgebung
+und den Begriffen "GIS"
+und "Online" startest.
+Notiere dir den Link._
