@@ -164,3 +164,10 @@ mit deinem Konzept?
 Dann geht es jetzt
 an die Umsetzung
 dieses Entwurfes.
+
+== Übung 5
+
+In dieser letzten Übung
+soll nun der Kartenentwurf
+aus dem Theorieteil
+im GIS umgesetzt werden.
