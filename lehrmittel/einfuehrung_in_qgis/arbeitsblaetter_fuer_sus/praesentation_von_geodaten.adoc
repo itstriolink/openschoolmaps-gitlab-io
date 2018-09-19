@@ -19,3 +19,16 @@ geht es noch um
 das P von EVAP,
 der Präsentation
 der Daten.
+
+=== Lernziele
+
+Nach diesem Kapitel
+bist du in der Lage
+folgendes zu tun:
+
+* die Resultate
+deiner Abfragen
+im GIS in geeigneter
+Form ausgeben
+* die wichtigen
+Kartenelemente nennen
