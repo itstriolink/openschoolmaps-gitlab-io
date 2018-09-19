@@ -1,0 +1,21 @@
+= Einführung in QGIS 3: Präsentation von Geodaten (Kapitel 5)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Schülerinnen und Schüler*
+
+== Präsentation und Ausgabe von Daten
+
+In den letzten Kapiteln
+hast du gelernt,
+wie Geodaten erfasst,
+verwaltet
+und analysiert werden.
+Im letzten Kapitel
+geht es noch um
+das P von EVAP,
+der Präsentation
+der Daten.
