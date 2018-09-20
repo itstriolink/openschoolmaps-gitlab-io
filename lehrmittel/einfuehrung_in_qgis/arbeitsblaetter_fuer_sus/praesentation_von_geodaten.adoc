@@ -222,7 +222,7 @@ das Menü
 _Project_ ->
 _New Print Layout..._.
 
-[SCREENSHOT]
+image::einfuehrung_in_qgis/qgis_print_layout.PNG["Druckzusammenstellung", 510, 317]
 
 Die Maske ist so aufgebaut,
 dass sich im oberen Bereich
