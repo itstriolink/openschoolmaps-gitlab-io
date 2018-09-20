@@ -169,6 +169,14 @@ die Daten stammen könnten
 und welche Erfassungsmethoden du kennst.
 Gehe erst dann im Text weiter._
 
+ifdef::show_solutions[]
+====
+Vergleiche deine Lösung mit den
+Datenerfassungmöglichkeiten aus der Theorie.
+====
+endif::show_solutions[]
+
+
 Es gibt viele Methoden,
 um Geodaten erfassen zu können.
 Auf einige möchten wir kurz eingehen.
