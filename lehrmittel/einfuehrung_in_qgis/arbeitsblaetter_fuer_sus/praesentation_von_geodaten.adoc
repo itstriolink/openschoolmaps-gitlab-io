@@ -367,3 +367,68 @@ bekannt sind,
 können diese auch
 unter _Extents_
 eingegeben werden.
+
+Zusätzlich kann
+unter _Grids_
+die Option
+gewählt werden,
+ob ein Gitter
+über der Karte
+angezeigt werden soll.
+Dieses Gitter kann
+zum Beispiel vom Typ
+_Cross_ oder _Solid_
+sein und zusätzlich
+beschriftet werden.
+
+Unter _Frame_
+kannst du bestimmen,
+ob der Rahmen
+um das Kartenelement
+angezeigt werden soll
+und falls ja,
+in welcher Farbe
+und welcher Strichstärke.
+
+Gestalte dein Kartenelement
+mit den beschriebenen Möglichkeiten.
+Wenn du mit
+deinem Resultat
+zufrieden bist,
+kannst du durch Klicken
+des _Save project_-Buttons
+deine Einstellungen sichern.
+
+Füge anschliessend
+die weiteren
+Kartenelemente hinzu,
+die du auf
+deinem Entwurf hast.
+Die Buttons dazu
+findest du
+in der Werkzeugleiste.
+Wenn ein Element
+hinzugefügt wurde,
+kannst du jeweils
+unter dem Reiter
+_Item Properties_
+diese Elemente
+noch anpassen.
+
+Bist du mit
+deiner Karte fertig
+und zufrieden damit,
+wie sie aussieht?
+Dann überprüfe nochmals,
+ob deine Karte
+wirklich alle wichtigen
+Kartenelemente enthält.
+Ist auch das _Copyright_
+für die Daten enthalten?
+Wenn ja,
+dann steht ja jetzt
+nichts mehr im Wege
+um die Karte
+in ein Format zu bringen,
+das für die Weitergabe
+geeignet ist.
