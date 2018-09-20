@@ -461,7 +461,7 @@ auch diese Möglichkeit.
 
 Im Rahmen dieser Übung
 soll ein Plan
-in Form eines _PDF_s
+in Form eines __PDF__s
 erstellt werden.
 Klicke deshalb
 auf den Button
