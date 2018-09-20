@@ -317,6 +317,35 @@ voneinander getrennt?
 Schreibe deine Erkenntnisse
 auf dein Arbeitsblatt._
 
+ifdef::show_solutions[]
+====
+image:einfuehrung_in_qgis/abspeichern.png["Abspeichern", 502, 192]
+
+Die Lage der Hauptorte ist durch die Angabe
+der X-Koordinate (XKoordinate) und der
+Y-Koordinate (YKoordinate) angegeben. +
+
+In der ersten Zeile des Textfiles sind
+die Attributnamen abgespeichert. Diese Werte
+sind in unserem Fall durch Kommas getrennt. +
+
+Ab der 2. Zeile folgen die erfassten
+Objekte. Die Attribte der einzelnen
+Objekte sind ebenfalls durch Kommas
+getrennt. Ein neues Objekt beginnt immer
+auf einer neuen Zeile. Bei Textwerten
+müssen zu Beginn und am Schluss des
+Wertes Anführungszeichen stehen. +
+
+In der ersten Zeile wird definiert,
+welche Trennungszeichen im Dokument
+verwendet werden. Die Zeichen die dort
+gewählt wurden, müssen auch im weiteren
+Dokument als Trennungszeichen angewendet werden.
+====
+endif::show_solutions[]
+
+
 Das Werkzeug _Add Delimited Text Layer_
 um Koordinatenwerte
 aus einem Textfile zu lesen,
