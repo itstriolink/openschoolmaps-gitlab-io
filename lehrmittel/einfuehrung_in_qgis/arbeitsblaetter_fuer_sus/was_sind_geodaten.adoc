@@ -251,6 +251,15 @@ Hat man z.B. keine Internetverbindung mehr,
 so ist auch die Karte
 im GIS-Projekt nicht mehr sichtbar.
 
+NOTE: Das KBS
+(Koordinatenbezugssystem) sollte,
+in unserem vorgegebenen Projekt,
+schon richtig gesetzt sein.
+Wenn du trotzdem wissen wolltest,
+wie du das KBS ändern kannst,
+kannst du das folgende
+optionale Kapitel lesen.
+
 ==== Projektionen
 
 In QGIS
@@ -265,7 +274,6 @@ Projektionen zu suchen.
 Dazu kann QGIS,
 in Echtzeit,
 das KBS
-(Koordinatenbezugssystem)
 für ein Projekt
 projizieren.
 
