@@ -7,7 +7,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt für Schülerinnen und Schüler*
 
-Herzlich willkommen zum HSR-Leitprogramm
+Herzlich willkommen zum Leitprogramm
 "Einführung in die Opensource-Software QGIS".
 Bevor du mit der Bearbeitung des Leitprogramms beginnst,
 hier noch einige Informationen.
