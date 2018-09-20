@@ -498,6 +498,21 @@ kann sich die Karte verschieben lassen,
 unabhängig davon,
 welches Werkzeug aktuell ausgewählt ist.
 
+ifdef::show_solutions[]
+====
+* Karte verschieben +
+* Karte zu gewählten Objekt verschieben +
+* Hineinzoomen +
+* Hinauszoomen +
+* Auf eigene Auflösung zoomen +
+* Volle Ausdehnung +
+* Zur Auswahl zoomen +
+* Auf den Layer zoomen +
+* Zoom zurück +
+* Zoom vor
+====
+endif::show_solutions[]
+
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
 _Probiere folgende Punkte aus
 und notiere wieder in eigenen Worten,
@@ -512,6 +527,41 @@ der Mauszeiger auf der Karte liegt_
 ** _Leertaste gedrückt halten
 und mit Mauszeiger
 über Kartenfenster fahren_
+//-
+ifdef::show_solutions[]
+====
+* Wenn das Mausrad nach vorne und nach
+hinten bewegt wird, während der Mauszeiger
+auf der Karte liegt, so kann in der Karte
+hinausgezoom (vorne) bzw. hineingezoomt
+(hinten) werden. Der Mauszeiger bildet
+dabei das Zoomzentrum.
+* Folgende Tasten auf der Tastatur:
+** _Pfeiltasten_ bewegen den Ausschnitt
+im Kartenfenster in die entsprechende
+Pfeilrichtung: rechte Pfeiltaste nach
+Osten, linke Pfeiltasten nach Westen,
+Hoch-Pfeiltasten nach Norden und Unten-
+Pfeiltasten nach Süden.
+** _PageUp/PageDown_ bewirken, dass
+um einen vordefinierten Zoomfaktor
+hinein- bzw. hinausgezoomt wird. Dabei
+wird der gleiche Zoomfaktor wie beim
+Mausrad verwendet.
+** Wenn die _Leertaste_ gedrückt gehalten
+wird, während mit dem Mauszeiger über das
+Kartenfenster gefahren wird, so verschiebt
+sich der Kartenausschnitt mit dem Mauszeiger.
+
+Bemerkung: Der Zoomfaktor, welcher beim Navigieren
+mit dem Mausrad und den Tasten PageUp und PageDown
+verwendet wird, kann im Menü _Einstellungen -> Optionen_
+unter der Option _Kartenwerkzeuge_ eingestellt werden.
+Defaultmässig hat er den Wert _3_.  Hier
+könnte dem Mausrad auch eine andere Funktion
+als die Zoomfunktion zugewiesen werden.
+====
+endif::show_solutions[]
 
 Wenn du mit der Aufgabe fertig bist,
 kannst du das Projekt
