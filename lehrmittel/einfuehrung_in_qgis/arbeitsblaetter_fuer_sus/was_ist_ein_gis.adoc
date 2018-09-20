@@ -213,6 +213,25 @@ _Gehe die Komponenten eines GIS nochmals durch (auch physisch)
 und notiere falls bekannt in eigenen Worten,
 wie diese an deinem Arbeitsplatz aussehen._
 
+ifdef::show_solutions[]
+====
+An deinem Arbeitsplatz wird wahrscheinlich ein Rechner
+mit Bildschirm, Tastatur und Maus
+oder ein Laptop mit Maus zur Verfügung stehen.
+Evtl. Hast du noch einen Drucker und einen Scanner.
+Beim Computer oder Laptop handelt es sich bestimmt
+um ein Modell, welches auch bei Interdiscount oder
+Mediamarkt erhältlich ist. Es braucht also keinen
+extrem teuren Computer um ein GIS betreiben zu können.
+
+Beim Betriebsystem handelt es sich bei dir entweder
+um Linux, Unix, Mac OS X und Windows
+
+Als GIS-Software hast du ja im Kapitel Vorbereitung
+die OpenSource Software QGIS installieren.
+====
+endif::show_solutions[]
+
 == Übung 1
 
 Im ersten Theorieteil
@@ -223,6 +242,7 @@ Im Übungsteil sollst du nun den Aufbau
 und die Benutzeroberfläche
 der Opensource-Software QGIS
 kennen lernen.
+
 
 === Lernziele
 
@@ -235,6 +255,7 @@ nennen und anwenden
 über die Layer-Eigenschaften verändern
 
 === Übung
+
 
 ==== Programm QGIS starten
 
