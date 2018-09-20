@@ -27,6 +27,11 @@ Verzichte darauf die Wörter im Internet
 oder in einem Lexikon nachzuschlagen.
 Schreibe deine Überlegungen
 auf dein Arbeitsblatt._
+ifdef::show_solutions[]
+====
+Vergleiche deine Lösung mit der Theorie im ersten Teil dieses Kapitels.
+====
+endif::show_solutions[]
 
 === Lernziele der Theorie
 
