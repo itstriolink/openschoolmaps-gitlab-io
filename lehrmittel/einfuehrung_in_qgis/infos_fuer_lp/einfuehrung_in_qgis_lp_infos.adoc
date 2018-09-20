@@ -1,0 +1,32 @@
+= Lehrpersonen-Informationen zum Arbeitsblatt "Einführung in QGIS 3"
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Interessierte und Lehrpersonen*
+
+== Übersicht
+
+.Ziel
+Nach Bearbeiten des zugehörigen Arbeitsblattes sind Sie / die SuS in der Lage, die Grundfunktionen von QGIS zu verwenden.
+
+.Zielgruppen
+* SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr) begleitet von einer Lehrperson
+* Interessierte und Selbststudierende
+
+.Zeitplanung
+* Arbeitsblatt "Was ist ein GIS?": - Minuten
+* Arbeitsblatt "Was sind Geodaten?": - Minuten
+* Arbeitsblatt "Verwaltung und Erfassung von Geodaten": - Minuten
+* Arbeitsblatt "Analyse von Geodaten": - Minuten
+* Arbeitsblatt "Präsentation von Geodaten": - Minuten
+
+== Vorbereitung
+Sie / die SuS sollten das Programm QGIS Version 3.x auf ihrem Rechner installiert haben.
+
+Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang*.
+
+include::../../../snippets/kontaktinformationen.adoc[]
+
+include::../../../snippets/quellenangabe.adoc[]
