@@ -219,8 +219,8 @@ einer Karte gibt es
 eine eigene Maske.
 Öffne diese über
 das Menü
-_Datei_ ->
-_Neue Druckzusammenstellung_.
+_Project_ ->
+_New Print Layout..._.
 
 [SCREENSHOT]
 
