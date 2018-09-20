@@ -71,6 +71,22 @@ Aufgabe:
 Ordne die in der Definition 1 erwähnten Funktionen
 den vier Komponenten zu._
 
+//-
+
+ifdef::show_solutions[]
+====
+. _Es müssen die Hardware (Minimum Computer mit Tastatur und Bildschirm
+oder Laptop und zusätzlich eine Maus) und
+die Software (Betriebssystem und GIS-Software)
+besorgt werden._
+. _Die Daten haben einen Raumbezug._
+. *E* (Eingabe): _modelliert, digital erfasst, gespeichert_ +
+*V* (Verwaltung): _redigiert, reorganisiert_ +
+*A* (Analyse): _analysiert_ +
+*P* (Präsentation): _alphanumerisch und graphisch präsentiert_
+====
+endif::show_solutions[]
+
 == Komponenten eines Geoinformationssystems
 
 Wir möchten nun
