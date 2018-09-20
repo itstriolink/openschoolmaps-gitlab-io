@@ -47,8 +47,7 @@ einsetzen zu können.
 
 === Lernziele
 
-Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können
-(ausser du wurdest anders instruiert):
+Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können:
 
 * die Funktionen und Komponenten eines GIS aufzählen
 * ein kleineres GIS-Projekt
