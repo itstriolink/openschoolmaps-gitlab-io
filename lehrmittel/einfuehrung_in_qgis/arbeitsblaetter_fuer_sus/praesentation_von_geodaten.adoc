@@ -432,3 +432,61 @@ um die Karte
 in ein Format zu bringen,
 das für die Weitergabe
 geeignet ist.
+
+==== Karte für Weitergabe vorbereiten
+
+Die Karte kann als Raster
+oder als _SVG_ gespeichert,
+als _PDF_ exportiert
+oder auf einem _Drucker_
+gedruckt werden.
+Die Speicherung
+im Rasterformat kann
+z.B. verwendet werden,
+wenn die Karte
+in einen Bericht
+eingebunden werden soll.
+Wenn du die Karte
+per E-Mail
+weiterschicken möchtest,
+ist das PDF-Format
+gut geeignet.
+Oft werden aber
+immer noch
+gedruckte Pläne verwendet.
+Deshalb hast du
+in der Maske
+_Druckerzusammenstellung_
+auch diese Möglichkeit.
+
+Im Rahmen dieser Übung
+soll ein Plan
+in Form eines _PDF_s
+erstellt werden.
+Klicke deshalb
+auf den Button
+_Export as PDF_,
+wähle den Speicherort aus
+und starte
+die Erstellung des PDFs.
+Falls in der Karte
+auch ein _WMS_-Service
+enthalten ist,
+der abgespeichert
+werden soll,
+so muss je nach
+verwendeter Zoomstufe
+vor der Erstellung
+des _PDF_ unter
+_Export settings_
+im Reiter _Layout_
+die Qualität
+verringert werden.
+
+Schaue dir
+die Karte im PDF
+nochmals an.
+Zufrieden damit?
+Dann wird es Zeit
+für den letzten
+Kapiteltest.
