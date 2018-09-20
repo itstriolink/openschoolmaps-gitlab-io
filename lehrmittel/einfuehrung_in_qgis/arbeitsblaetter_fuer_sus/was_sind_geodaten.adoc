@@ -431,6 +431,7 @@ auch für die Kantonsgrenzen._
 ifdef::show_solutions[]
 ====
 image:einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120] +
+
 _Name:_ Die Namen der Seen +
 _Type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
 _Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
@@ -563,6 +564,13 @@ um auch die Rasterdaten
 unter dem See-Layer zu sehen.
 Schreibe deine Beobachtungen
 in eigenen Worten auf._
+
+ifdef::show_solutions[]
+====
+Bei den Rasterdaten besteht die Seegrenze aus
+blauen Pixeln und bei den Vektordaten aus Linien.
+====
+endif::show_solutions[]
 
 Speichere dein Projekt ab.
 In der nächsten Übung wirst du
