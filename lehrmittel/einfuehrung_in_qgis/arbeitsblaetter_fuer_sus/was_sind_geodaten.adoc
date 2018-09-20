@@ -412,8 +412,8 @@ gestartet und du erhältst
 als Antwort eine Auflistung
 der verfügbaren WMS-Services.
 
-Unter <__Title__> findest du den Titel
-des WMS-Services und unter <__Abstract__>
+Unter _Title_ findest du den Titel
+des WMS-Services und unter _Abstract_
 einen kurzen Beschrieb,
 was genau in den Daten abgespeichert ist.
 Zusätzlich sind auch Informationen
