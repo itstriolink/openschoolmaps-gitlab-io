@@ -1,0 +1,668 @@
+= Einführung in QGIS 3: Was sind Geodaten? (Kapitel 2)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Schülerinnen und Schüler*
+
+== Geodaten und Raumbezug
+
+Im letzten Kapitel hast du gelernt,
+dass es sich bei den Daten,
+die in einem GIS dargestellt werden,
+um raumbezogene Daten handelt.
+Diese raumbezogenen Daten
+werden oft auch Geodaten genannt.
+
+.Aufgabe 1
+_Überlege dir als Einstieg in dieses Kapitel,
+was mit den Begriffen Geodaten
+und raumbezogen gemeint sein könnte.
+Denke dabei auch an andere Wörter
+mit der Vorsilbe Geo
+(z.B. Geografie, Geologie etc.).
+Verzichte darauf die Wörter im Internet
+oder in einem Lexikon nachzuschlagen.
+Schreibe deine Überlegungen
+auf dein Arbeitsblatt._
+
+ifdef::show_solutions[]
+====
+.Lösung
+Vergleiche deine Lösung mit der Theorie im ersten Teil dieses Kapitels.
+====
+endif::show_solutions[]
+
+=== Lernziele der Theorie
+
+Nach diesem Kapitel bist du in der Lage:
+
+* Die Begriffe "Geodaten"
+und "Raumbezug" in eigenen Worten
+zu erklären
+* Rasterdaten von Vektordaten
+zu unterscheiden
+* Den Nutzen von Koordinatensystemen
+zu erläutern
+
+=== Theorie
+
+==== Geodaten
+
+Die Vorsilbe geo
+stammt aus dem Griechischen
+und bedeutet Erde.
+Geodaten müssen also Daten sein,
+die einen Bezug zur Erde haben.
+
+==== Raumbezug
+
+Raumbezug kann so gedeutet werden,
+dass ein Objekt zu einem Ort
+auf der Erde zugeordnet werden kann.
+Dabei werden zwei verschieden Arten
+von Raumbezug unterschieden.
+Wird wie z.B. in der amtlichen Vermessung
+der Raumbezug durch gemessene
+zwei- oder dreidimensionale Koordinaten angegeben,
+dann spricht man von direktem Raumbezug.
+Im Bereich der amtlichen Statistik hingegen
+müssen die Koordinaten
+für die Positionierung von Informationen
+im Raum nicht so genau sein.
+Dort werden die Informationen oft
+mit generalisierten administrativen Grenzen
+wie die Kantonsgrenzen verknüpft.
+In so einem Fall
+wird von indirektem Raumbezug gesprochen.
+
+Stelle dir vor,
+du hast ein Mobiltelefon
+oder eine Kamera mit eingebautem GPS,
+mit welchem du die Position,
+an welcher du gerade stehst,
+bestimmten kannst.
+Wenn du nun ein Foto machst,
+so können die Koordinaten,
+an der du das Foto gemacht hast,
+im digitalen Bild mit abgespeichert werden.
+Das Foto hat also einen Raumbezug.
+
+==== Georeferenzierung
+
+Objekten ohne Raumbezug
+kann oftmals ein direkter
+oder indirekter Raumbezug zugeordnet werden.
+Dieser Vorgang wird georeferenzieren genannt.
+Der Raumbezug bezieht sich natürlich immer
+auf eine Erdabbildung,
+d.h. ein Koordinatensystem.
+Diese Koordinatensysteme wurden eingeführt,
+um die geographische Lage eines Ortes
+auf der Erde in Zahlen angeben zu können.
+Die verschiedenen Koordinatensysteme
+kennst du bestimmt noch
+aus dem Geografieunterricht.
+Falls du dein Wissen
+in diesem Bereich
+wieder etwas auffrischen möchtest,
+kannst du dies mit Hilfe
+des Leitprogramms
+„Karten“ tun.
+Dieses Leitprogramm ist
+auf dem EducETH-Server
+unter dem Link
+http://www.educ.ethz.ch/unterrichtsmaterialien/geographie-umweltlehre/karten-leitprogramm.html
+erhältlich.
+
+==== Abspeicherungsart von Daten
+
+Geodaten können entweder in Form von Raster-
+oder von Vektordaten abgespeichert werden.
+Was heisst das genauer?
+
+===== Rasterdaten
+
+Wenn du dir
+auf dem Computer
+digitale Fotos anschaust,
+dann schaust du dir Rasterdaten an.
+
+.Aufgabe 2
+_Um die wichtigsten Eigenschaften eines Rasterbildes kennen zu lernen,
+öffne das Bild Testfoto.jpg,
+welches sich im Ordner
+mit den Daten zu diesem Leitprogramm befindet,
+in einem Grafikprogramm.
+Beantworte anschliessend folgende Fragen.
+Gehe erst weiter im Text,
+wenn du die Fragen beantwortet hast._
+
+* _Was passiert mit dem Bild,
+wenn du immer weiter reinzoomst?_
+* _Wie sind die Objekte,
+die auf dem Bild dargestellt sind,
+abgespeichert?_
+
+//-
+
+ifdef::show_solutions[]
+====
+.Lösung
+. Wenn du weiter ins Bild reinzoomst, dann
+siehst du ab einer gewissen Zoomstufe, dass
+das Bild aus vielen farbigen Rechtecken besteht.
+Je weiter du reinzoomst, desto grösser
+werden diese Rechtecke.
+. Ein Objekt mit Hilfe von vielen
+farbigen Rechtecken abgespeichert.
+====
+endif::show_solutions[]
+
+Rasterdaten kann man sich so vorstellen,
+als würde z.B. über die Landschaft,
+die man darstellen will,
+von oben ein regelmässiges Gitternetz gelegt,
+welches den Ausschnitt
+in viele gleich grosse Zellen,
+auch Pixels genannt,
+unterteilt.
+In jedem Pixel wird nun
+der Farbwert abgespeichert,
+welcher die darunterliegenden Farben
+am besten repräsentiert.
+Die Anzahl der Pixel pro Einheit
+wird auch Punktdichte oder Auflösung genannt.
+Eine oft verwendete Einheit
+für die Punktdichte ist
+die Bezeichnung dpi (dots per inch),
+zu deutsch Punkte pro Zoll.
+1 Zoll entspricht 25.4 mm.
+Somit bedeutet z.B. eine Auflösung von 72 dpi,
+dass 2.83 Punkte pro mm abgespeichert werden.
+Zum Vergleich werden bei einer Auflösung
+von 300 dpi 11.81 Punkte pro mm abgespeichert.
+
+Zu jedem Pixel kann eine Information
+mit abgespeichert werden.
+Dies kann ein Grau-
+oder Farbwert sein
+wie z.B. bei Fotos
+oder bei Pixelkarten
+(wie du sie in der Übung
+noch kennenlernen wirst)
+oder numerische Informationen
+wie z.B. ein Messwert.
+Schaue dir als Beispiel
+für Raster aus Messwerten
+die Karte mit den Schneehöhen
+auf der https://www.slf.ch/de.html[Homepage]
+des Instituts für Schnee-
+und Lawinenforschung (SLF) an.
+
+===== Vektordaten
+
+Zu den Vektordaten gehören
+z.B. die Shapefiles,
+die du in der ersten Übung
+verwendet hast.
+Bei Vektordaten wird die Geometrie
+der Objekte als Punkte,
+Linien oder Flächen gespeichert,
+wobei eine Linie als Verbindung zweier Punkte
+und eine Fläche
+als geschlossener Linienzug definiert ist.
+Die weiteren Informationen zum Objekt,
+sogenannte Sachdaten,
+werden zusätzlich zur Geometrie
+in einer Tabelle abgespeichert.
+
+===== Vergleich Vektor- und Rasterdaten
+
+.Aufgabe 3
+_Stelle dir nun vor,
+dass du ein Gebäude
+in einem GIS darstellen möchtest.
+Einmal wird das Gebäude
+in Form von Raster-
+und einmal in Form von
+Vektordaten abgespeichert.
+Wie sieht die Hauskante
+bei den Rasterdaten aus
+und wie bei den Vektordaten,
+wenn du nun ganz nahe an eine Hauskante zoomst?
+Zeichne dies auf deinem Arbeitsblatt auf. +
+Überlege dir,
+welches Format (Raster oder Vektor)
+wohl mehr Speicherplatz benötigt._
+
+ifdef::show_solutions[]
+====
+.Lösung
+*Rasterdaten*
+
+.Beispiel für Rasterdaten
+image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
+
+*Vektordaten*
+
+.Beispiel für Vektordaten
+image::einfuehrung_in_qgis/vektordaten.png["Vektordaten", 185, 112]
+
+*Speicherplatzbedarf* +
+Bei den Rasterdaten wird für jedes Pixel
+ein Wert abgespeichert. Bei den Vektordaten
+wird die Fläche des Gebäudes als geschlossener
+Linienzug abgespeichert. Und jede Linie dieses
+Linienzuges wird durch zwei Punkte definiert.
+Deshalb ist der Speicherbedarf bei den
+Vektordaten viel kleiner.
+
+Damit der Speicherbedarf bei den
+Rasterdaten kleiner wird, können
+Formate verwendet werden, welche
+die Raster komprimieren. Dabei wird
+zwischen verlustbehafteten (z.B. jpg)
+und verlustfreien Kompressionen
+(z.B. .png, .bmp) unterschieden.
+
+Falls du mehr zum Thema
+Datenkompression
+erfahren möchtest,
+kannst du
+den folgenden Artikel
+auf Wikipedia lesen:
+
+https://de.wikipedia.org/wiki/Bildkompression
+====
+endif::show_solutions[]
+
+===== Metadaten 
+
+Zu den Geodaten werden auch immer Metadaten,
+d.h. Daten über die Daten mit abgespeichert.
+Darin können Informationen
+über die räumliche Ausdehnung,
+der Ersteller,
+die Qualität etc. der Daten
+vermerkt werden.
+Wenn man z.B. mit Daten
+von einer externen Quelle arbeitet,
+so kann nachgeschaut werden,
+woher die Daten stammen
+und ob sie wirklich das beinhalten,
+was man braucht.
+
+===== Web Map Services
+
+Immer mehr Anbieter haben Daten
+auf einem Server gespeichert
+und bieten anderen Nutzern Ausschnitte
+aus diesen Daten
+als Karte über spezielle Schnittstellen,
+sogenannte Web Map Services (kurz WMS),
+übers Internet an.
+Die Nutzer können so diese Karten
+in ihr GIS-Projekt mit einbinden.
+Wichtig ist jedoch,
+dass immer die Verbindung
+zum Server bestehen muss,
+auf dem die Daten abgespeichert sind.
+Hat man z.B. keine Internetverbindung mehr,
+so ist auch die Karte
+im GIS-Projekt nicht mehr sichtbar.
+
+== Übung 2
+
+Im Theorieteil hast du
+einiges über Vektor-
+und Rasterdaten erfahren.
+In dieser Übung möchten wir nun
+ein neues GIS-Projekt erstellen
+und in dieses Projekt Vektor-
+und Rasterdaten laden.
+
+=== Lernziele
+
+Nach dieser Übung bist du
+in der Lage folgendes zu tun:
+
+* Das richtige Koordinatenbezugssystem
+für ein neues Projekt wählen
+* Vektordaten und WMS-Dienste ins Projekt laden
+
+=== Übung
+
+Um ein leeres Projekt zu öffnen,
+schliesse und öffne entweder QGIS neu
+oder klicke auf den Button Neues Projekt.
+In das leere Projekt sollen nun
+Geodaten geladen werden.
+
+==== Projekteinstellungen
+
+Bevor jedoch Daten geladen werden,
+sollte das Koordinatensystem
+des Projektes definiert werden.
+Dazu drückst du rechts unten in QGIS
+auf die Schaltfläche _Aktuelles KBS_.
+Mit dem Filter kannst du dann
+das gewünschte Koordinatensystem suchen.
+
+Für die Schweiz wird
+folgendes Koordinatensystem verwendet:
+CH1903 /LV03 (EPSG: 21781)
+
+Wähle das vorgegebene System
+mit Hilfe der Suche aus
+und bestätige die Einstellung
+durch Klicken auf den Anwenden-Button.
+
+Gehe anschliessend
+unter _Projekt_ -> _Properties_
+in den Reiter mit dem Namen Allgemein,
+setze dort den Projekttitel „Die Schweiz“
+und bestimme eine Hintergrundfarbe.
+
+Unter Pfade speichern
+kannst du wählen,
+ob die Pfade zu den Daten
+relativ oder absolut
+abgespeichert werden sollen.
+Der Vorteil der relativen Pfade ist,
+dass du den Ordner mit dem QGIS-Projekt
+und den Daten auch
+an einen anderen Ort hin kopieren kannst,
+ohne anschliessend die ganzen Pfade
+zu den Daten wieder anpassen zu müssen.
+Wähle deshalb für dein neues Projekt
+die Option Relativ.
+
+Schliesse anschliessend
+das Fenster Projekteinstellungen
+durch Klicken auf den OK-Button.
+Damit die neue Hintergrundfarbe erscheint,
+muss im Kartenfenster eine Navigationsfunktion
+wie z.B. Karte verschieben ausgeführt werden.
+
+==== Projekt speichern
+
+Speichere mit dem _Save Project_-Button
+dein neues Projekt in den Ordner,
+in welchem du die Daten
+für diese Übung abgespeichert hast.
+
+==== Daten einlesen
+
+Die Karte ist nun soweit bereit,
+dass Daten eingelesen werden können.
+Dazu wird das Menu Layer
+in der Menuleiste verwendet.
+Für die unterschiedlichen Arten
+von Daten,
+die eingelesen werden können,
+hat es auch unterschiedliche Buttons.
+
+===== Vektordaten einlesen
+
+In einem ersten Schritt
+sollen nun die Vektordaten
+aus der ersten Übung eingefügt werden.
+Klicke dazu auf
+den Button _Vektorlayer hinzufügen_
+und navigiere mit Hilfe des _Durchsuchen-Buttons_
+zum Ordner mit den Daten der Übung 1
+und wähle die Shapefiles
+mit dem Namen _Kantonsgrenzen.shp_
+und _Seen.shp_ aus
+(mit Hilfe der _Shift-_
+oder der _Ctrl-_Taste sind Mehrfachwahlen möglich).
+
+Wähle die Kantonsgrenzen
+als Hintergrund für die Kartenübersicht.
+Falls du nicht mehr genau weisst,
+wie du vorgehen musst,
+schaue nochmals in der ersten Übung nach.
+
+Welche Informationen sind denn überhaupt
+in den beiden Shapefiles gespeichert?
+Dies wollen wir uns nun
+etwas genauer anschauen.
+Klicke dazu mit der rechten Maustaste
+auf den Layer Seen
+und wähle _Attributtabelle öffnen_.
+Es öffnet sich die Tabelle
+mit den thematischen Informationen,
+die zu den Seen erfasst wurden.
+Welche Informationen wurden
+als Attribut abgespeichert?
+
+.Aufgabe 4
+_Schaue dir die Tabelle genau an
+und schreibe auf,
+welche Daten die einzelnen Spalten beinhalten._
+
+ifdef::show_solutions[]
+====
+_Lösung_
+
+.Tabelle des Layers Seen
+image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
+
+_name:_ Die Namen der Seen +
+_type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
+_Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
+_max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
+_Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
+_Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
+====
+endif::show_solutions[]
+
+.Aufgabe 5
+_Mache das Gleiche
+auch für die Kantonsgrenzen._
+
+ifdef::show_solutions[]
+====
+_Lösung_
+
+.Tabelle des Layers Kantone
+image::einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120]
+
+_Name:_ Namen der Kantone +
+_Kuerzel:_ Kantonskürzel +
+_Beitrittsj:_ Beitrittsjahr zur Schweiz +
+_Einwohner:_ Anzahl Einwohner +
+_Gemeinden:_ Anzahl Gemeinden +
+_Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
+_Staende:_ Anzahl Stände (0.5 = Halbkanton) +
+_Flaeche:_ Fläche des Kantons in Quadratkilometer [km^2^]
+====
+endif::show_solutions[]
+
+===== Rasterdaten einlesen
+
+Die Rasterdaten sollen in Form
+eines WMS-Layers eingelesen werden.
+Weisst du noch,
+was ein WMS-Layer ist?
+Wenn nicht,
+schaue nochmals im Theorieteil nach.
+
+Der Bund bietet auf seiner Homepage
+einen Überblick über die Verfügbaren WMS-Dienste an
+(http://www.geo.admin.ch unter
+Dienstleistungen -> Geodienste ->
+Darstellungsdienste -> Web Map Services).
+
+Unter dem Titel Verfügbare WMS-Dienste
+sind unter GetCapabilities die Anfragen
+in Form von Links abgespeichert.
+Wenn du z.B. auf den Link
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de[GetCapabilities BGDI]
+klickst,
+wird eine Anfrage an den Server
+http://wms.geo.admin.ch/
+gestartet und du erhältst
+als Antwort eine Auflistung
+der verfügbaren WMS-Services.
+
+Unter _Title_ findest du den Titel
+des WMS-Services und unter _Abstract_
+einen kurzen Beschrieb,
+was genau in den Daten abgespeichert ist.
+Zusätzlich sind auch Informationen
+über die Ausdehnung
+und die möglichen Koordinatensysteme
+erhältlich.
+
+Aus diesen Daten möchten wir
+die Übersichtskarte
+in unser Projekt einbinden.
+Wähle im Werkzeugkasten
+_Manage Layers_
+das Werkzeug _Add WMS/WMTS Layer_.
+Wenn du im Reiter _Layers_
+beim obersten Balken
+auf den Pfeil klickst,
+siehst du,
+dass bereits einige Server
+standardmässig eingebunden sind.
+Um den Server
+mit den öffentlichen Daten
+der _Bundes Geodaten-Infrastruktur_ (BGDI)
+ebenfalls einzubinden,
+muss eine neue WMS-Verbindung
+erstellt werden.
+Dazu muss auf den _New_-Button
+geklickt werden.
+Gib im Fenster _Create a New WMS/WMTS Connection_
+den Namen der Verbindung an (z.B. WMS-BGDI)
+und die URL zum gewünschten Server
+(in unserem Fall http://wms.geo.admin.ch/).
+Benutzername und Passwort werden
+in diesem Fall nicht gebraucht.
+
+Wenn du jetzt nochmals auf den Pfeil
+des ersten Balkens klickst,
+sollte die neu angelegte Verbindung
+ebenfalls erscheinen.
+Wähle diese aus
+und klicke auf _Connect_.
+
+Nun werden alle WMS-Dienste angezeigt,
+die auf dem Server der BGDI
+öffentlich angeboten werden.
+Klicke auf die _Übersichtskarte Hydrogeologie_
+und wähle als Layername „Übersichtskarte“
+und ändere das Koordinatenbezugssystem
+von WGS 84 auf das schweizerische
+Bezugssystem CH1903 / LV03.
+Am einfachsten wählst du
+den Filter aus
+und gibst als Text CH1903 ein.
+So erscheint das gewünschte System
+in der Auswahl.
+Anschliessend können der WMS-Layer hinzugefügt
+und das Fenster geschlossen werden.
+
+Damit die Übersichtskarte im Kartenfenster
+nicht die Kantonsgrenzen und Seen überdeckt,
+muss die Layerreihenfolge angepasst werden.
+Denke dir eine geeignete Reihenfolge aus
+und wende sie an.
+
+===== Vergleich zwischen Raster- und Vektordaten
+
+Zum Schluss dieser Übung
+sollst du dir die Unterschiede
+zwischen Vektor- und Rasterdaten
+nochmals etwas genauer anschauen.
+
+.Aufgabe 6
+_Blende dazu den Layer mit den Kantonsgrenzen aus
+und zoome zu einem beliebigen See.
+Zoome am Uferbereich immer weiter hinein
+und beobachte,
+was mit den Seegrenzen bei den Vektor-
+und den Rasterdaten passiert
+und welches die Unterschiede sind.
+Wenn nicht beide Grenzen sichtbar sind,
+kannst du die Seen ein- und ausblenden,
+um auch die Rasterdaten
+unter dem See-Layer zu sehen.
+Schreibe deine Beobachtungen
+in eigenen Worten auf._
+
+ifdef::show_solutions[]
+====
+.Lösung
+Bei den Rasterdaten besteht die Seegrenze aus
+blauen Pixeln und bei den Vektordaten aus Linien.
+====
+endif::show_solutions[]
+
+Speichere dein Projekt ab.
+In der nächsten Übung wirst du
+mit dem gleichen Projekt weiterarbeiten.
+Aber vorher musst du noch den Kapiteltest bestehen.
+
+== Kapiteltest 2
+
+Schon ist es wieder soweit.
+Du bist wieder bei einem Kapiteltest angelangt.
+Lege wieder alle Unterlagen weg,
+ausser einem Blatt Papier und einem Stift.
+Hier die Fragen zum Kapitel 2:
+
+=== Frage 1
+
+Du möchtest in deinem GIS eine Mauer darstellen,
+welche aus der Luft gesehen so aussieht,
+als würden sich zwei Linien
+in einem Winkel von 135 Grad treffen.
+
+_Wie sieht die Darstellung aus, wenn du_
+
+. das Rasterformat
+. das Vektorformat
+
+_als Speicherformat wählst?
+Was wird bei den einzelnen Formaten
+von der Mauer abgespeichert?_
+
+Beantworte die Fragen in eigenen Worten.
+Erstelle zusätzlich zur Beschreibung
+je eine Skizze der Mauer
+im Raster- und Vektorformat.
+
+=== Frage 2
+
+Im Kapitel 2 war oft von Geodaten die Rede.
+
+_Was bedeutet der Begriff Geodaten?
+Welches ist der Unterschied zwischen
+Geodaten und "normalen" Daten?_
+
+Beantworte die Fragen so,
+dass sie auch
+von einem GIS-Laien verstanden werden.
+Verzichte also auf Fachbegriffe.
+
+=== Frage 3
+
+Im Übungsteil hast du neben Vektordaten
+auch einen WMS-Layer in dein Projekt geladen.
+
+Welches ist der Unterschied
+zwischen dem Vektordaten-Layer
+und dem WMS-Layer bezüglich:
+
+* Format
+* Speicherort
+* Verfügbarkeit
+
+Schreibe zu jedem Punkt
+mindestens einen Satz.
