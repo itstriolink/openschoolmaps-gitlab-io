@@ -455,8 +455,8 @@ _Name:_ Die Namen der Seen +
 _Type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
 _Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
 _Max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
-_Volumen:_ Volumen des Sees in Kubikkilometer [km3] +
-_Flaeche:_ Fläche des Sees in Quadratkilometer [km2]
+_Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
+_Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
 ====
 endif::show_solutions[]
 
@@ -478,7 +478,7 @@ _Einwohner:_ Anzahl Einwohner +
 _Gemeinden:_ Anzahl Gemeinden +
 _Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
 _Staende:_ Anzahl Ständeratssitze (0.5 = Halbkanton) +
-_Flaeche:_ Fläche des Kantons in Quadratkilometer [km2]
+_Flaeche:_ Fläche des Kantons in Quadratkilometer [km^2^]
 ====
 endif::show_solutions[]
 
