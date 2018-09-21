@@ -685,8 +685,11 @@ auf dein Arbeitsblatt._
 
 ifdef::show_solutions[]
 ====
-Resultat: +
-image:einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296] +
+.Lösung
+Resultat:
+
+image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296]
+
 12 Seen erfüllen die Bedingung.
 ====
 endif::show_solutions[]
