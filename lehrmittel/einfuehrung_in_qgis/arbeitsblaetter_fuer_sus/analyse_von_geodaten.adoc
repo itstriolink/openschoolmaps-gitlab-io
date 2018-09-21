@@ -85,38 +85,39 @@ Schreibe deine Feststellungen auf._
 
 ifdef::show_solutions[]
 ====
+.Lösung
 *Frage 1* +
 Um eine Abfrage zu starten, muss
 man Name, Vorname und Ort in
 Textform in eine Maske eingeben.
-Die Abfrage könnte wie folgt aussehen: +
+Die Abfrage könnte wie folgt aussehen:
 
-image:einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1", 775, 244] +
+image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1", 775, 244]
 
-Und hier die entsprechenden Resultate: +
+Und hier die entsprechenden Resultate:
 
-image:einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1", 547, 238] +
+image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1", 547, 238] +
 
 *Frage 2* +
 Um eine Abfrage zu starten, muss man
 mindestens die Felder Start- und
 Zielort, Datum und Zeit in Textform
 ausfüllen. Die Abfrage könnte wie
-folgt aussehen: +
+folgt aussehen:
 
-image:einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2", 317, 247] +
+image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2", 317, 247]
 
-Die Resultate werden in Textform ausgegeben: +
+Die Resultate werden in Textform ausgegeben:
 
-image:einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2", 644, 173] +
+image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2", 644, 173]
 
 
 *Frage 3* +
-Bei beiden Suchen sind die Eingabewerte in Textform. +
+Bei beiden Suchen sind die Eingabewerte in Textform.
 
 Die Resultate werden einmal in Textform
 und räumlich ausgegeben, bei der zweiten
-Suche nur in Textform. +
+Suche nur in Textform.
 
 Bei der ersten Suche möchte man
 oftmals nicht nur wissen an welcher
@@ -129,7 +130,7 @@ es wie in unserem Fall mehrere
 Peter Müller in Bern gibt. Wenn
 man weiss in welchem Gebiet er
 wohnt, dann kann man die Suche
-visuell eingrenzen. +
+visuell eingrenzen.
 
 Bei der Fahrplanauskunft möchte
 man in erster Linie die Abfahrt-
@@ -137,7 +138,6 @@ und Ankunftszeiten wissen. Die
 räumliche Komponente ist beim
 Resultat zweitrangig und wird
 deshalb auch nicht angezeigt.
-
 ====
 endif::show_solutions[]
 
