@@ -16,7 +16,7 @@ um raumbezogene Daten handelt.
 Diese raumbezogenen Daten
 werden oft auch Geodaten genannt.
 
-.Aufgabe 1.1
+.Aufgabe 1
 _Überlege dir als Einstieg in dieses Kapitel,
 was mit den Begriffen Geodaten
 und raumbezogen gemeint sein könnte.
@@ -130,7 +130,7 @@ auf dem Computer
 digitale Fotos anschaust,
 dann schaust du dir Rasterdaten an.
 
-.Aufgabe 1.2
+.Aufgabe 2
 _Um die wichtigsten Eigenschaften eines Rasterbildes kennen zu lernen,
 öffne das Bild Testfoto.jpg,
 welches sich im Ordner
@@ -221,7 +221,7 @@ in einer Tabelle abgespeichert.
 
 ===== Vergleich Vektor- und Rasterdaten
 
-.Aufgabe 1.3
+.Aufgabe 3
 _Stelle dir nun vor,
 dass du ein Gebäude
 in einem GIS darstellen möchtest.
@@ -439,7 +439,7 @@ die zu den Seen erfasst wurden.
 Welche Informationen wurden
 als Attribut abgespeichert?
 
-.Aufgabe 1.4
+.Aufgabe 4
 _Schaue dir die Tabelle genau an
 und schreibe auf,
 welche Daten die einzelnen Spalten beinhalten._
@@ -460,7 +460,7 @@ _Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
 ====
 endif::show_solutions[]
 
-.Aufgabe 1.5
+.Aufgabe 5
 _Mache das Gleiche
 auch für die Kantonsgrenzen._
 
@@ -581,7 +581,7 @@ sollst du dir die Unterschiede
 zwischen Vektor- und Rasterdaten
 nochmals etwas genauer anschauen.
 
-.Aufgabe 1.6
+.Aufgabe 6
 _Blende dazu den Layer mit den Kantonsgrenzen aus
 und zoome zu einem beliebigen See.
 Zoome am Uferbereich immer weiter hinein
