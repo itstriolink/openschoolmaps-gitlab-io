@@ -669,8 +669,10 @@ oder Land gehören?_
 
 ifdef::show_solutions[]
 ====
-Abfrage: +
-image:einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage",350,432]
+.Lösung
+Abfrage:
+
+image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage",350,432]
 ====
 endif::show_solutions[]
 
