@@ -763,6 +763,7 @@ der Feldrechnerausdruck?_
 
 ifdef::show_solutions[]
 ====
+.Lösung
 to int ( Einwohner / Flaeche)
 ====
 endif::show_solutions[]
