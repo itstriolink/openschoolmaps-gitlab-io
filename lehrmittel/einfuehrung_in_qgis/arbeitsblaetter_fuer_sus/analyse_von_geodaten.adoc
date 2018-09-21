@@ -827,6 +827,13 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
 _Wie lautet
 die Where-Klausel?_
 
+ifdef::show_solutions[]
+====
+WHERE Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
+====
+endif::show_solutions[]
+
+
 Jetzt sind
 alle Kantone selektiert,
 die diese Bedingung erfüllen.
@@ -848,6 +855,15 @@ und welcher der
 the features from*-Layer?
 Welche Topologische Operation
 muss gewählt werden?_
+
+ifdef::show_solutions[]
+====
+*Ziellayer:* Hauptorte +
+*Referenzlayer:* Kantonsgrenzen +
+
+*Topologische Operation:* innerhalb
+====
+endif::show_solutions[]
 
 Überprüfe vor
 dem Durchführen der Abfrage,
