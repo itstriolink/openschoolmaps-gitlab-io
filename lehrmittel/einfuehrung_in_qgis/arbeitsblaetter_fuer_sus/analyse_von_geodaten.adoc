@@ -395,6 +395,7 @@ durchgeführt hast._
 
 ifdef::show_solutions[]
 ====
+.Lösung
 . SELECT * +
 FROM seen +
 WHERE Flaeche > 20 AND Tiefe < 400 +
