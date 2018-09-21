@@ -506,10 +506,14 @@ erhältst du?_
 
 ifdef::show_solutions[]
 ====
-Abfrage: +
-image:einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36] +
-Lösung: +
-image:einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
+.Lösung
+Abfrage:
+
+image::einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36]
+
+Lösung:
+
+image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
 ====
 endif::show_solutions[]
 
