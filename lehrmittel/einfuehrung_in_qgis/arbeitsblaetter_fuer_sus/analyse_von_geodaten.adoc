@@ -643,18 +643,18 @@ erfüllen diese Bedingung?_
 
 ifdef::show_solutions[]
 ====
-Abfrage: +
-image:einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 6 Abfrage", 356, 434] +
+.Lösung
+Abfrage:
 
-Lösung: +
+image::einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 6 Abfrage", 356, 434]
 
-image:einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189] +
+Lösung:
+
+image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189]
 
 8 Kantone erfüllen die Bedingung:
 Bern, Freiburg, Luzern, Obwalden,
 Schwyz, Waadt, Zug und Zürich.
-
-
 ====
 endif::show_solutions[]
 
