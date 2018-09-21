@@ -435,10 +435,6 @@ _Schaue dir die Tabelle genau an
 und schreibe auf,
 welche Daten die einzelnen Spalten beinhalten._
 
-.Aufgabe 1.5
-_Mache das Gleiche
-auch für die Kantonsgrenzen._
-
 ifdef::show_solutions[]
 ====
 _Lösung_
@@ -452,6 +448,16 @@ _Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
 _Max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
 _Volumen:_ Volumen des Sees in Kubikkilometer [km3] +
 _Flaeche:_ Fläche des Sees in Quadratkilometer [km2]
+====
+endif::show_solutions[]
+
+.Aufgabe 1.5
+_Mache das Gleiche
+auch für die Kantonsgrenzen._
+
+ifdef::show_solutions[]
+====
+_Lösung_
 
 .Tabelle des Layers Kantone
 image::einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120]
