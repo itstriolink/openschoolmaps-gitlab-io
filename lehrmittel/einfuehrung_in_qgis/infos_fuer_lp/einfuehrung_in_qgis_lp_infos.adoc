@@ -16,11 +16,11 @@ Nach Bearbeiten des zugehörigen Arbeitsblattes sind Sie / die SuS in der Lage, 
 * Interessierte und Selbststudierende
 
 .Zeitplanung
-* Arbeitsblatt "Was ist ein GIS?": - Minuten
-* Arbeitsblatt "Was sind Geodaten?": - Minuten
-* Arbeitsblatt "Verwaltung und Erfassung von Geodaten": - Minuten
-* Arbeitsblatt "Analyse von Geodaten": - Minuten
-* Arbeitsblatt "Präsentation von Geodaten": - Minuten
+* Arbeitsblatt "Was ist ein GIS?": 45 Minuten
+* Arbeitsblatt "Was sind Geodaten?": 30 Minuten
+* Arbeitsblatt "Verwaltung und Erfassung von Geodaten": 30 Minuten
+* Arbeitsblatt "Analyse von Geodaten": 40 Minuten
+* Arbeitsblatt "Präsentation von Geodaten": 30 Minuten
 
 == Vorbereitung
 Sie / die SuS sollten das Programm QGIS Version 3.x auf ihrem Rechner installiert haben.
