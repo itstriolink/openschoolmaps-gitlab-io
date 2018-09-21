@@ -171,6 +171,7 @@ Gehe erst dann im Text weiter._
 
 ifdef::show_solutions[]
 ====
+.Lösung
 Vergleiche deine Lösung mit den
 Datenerfassungmöglichkeiten aus der Theorie.
 ====
@@ -318,6 +319,8 @@ auf dein Arbeitsblatt._
 
 ifdef::show_solutions[]
 ====
+_Lösung_
+
 .Attribute der Kantone in Textform
 image::einfuehrung_in_qgis/abspeichern.png["Abspeichern", 502, 192]
 
