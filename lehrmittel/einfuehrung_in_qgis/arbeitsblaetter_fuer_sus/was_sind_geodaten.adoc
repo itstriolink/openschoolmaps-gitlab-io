@@ -477,7 +477,7 @@ _Beitrittsj:_ Beitrittsjahr zur Schweiz +
 _Einwohner:_ Anzahl Einwohner +
 _Gemeinden:_ Anzahl Gemeinden +
 _Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
-_Staende:_ Anzahl Ständeratssitze (0.5 = Halbkanton) +
+_Staende:_ Anzahl Stände (0.5 = Halbkanton) +
 _Flaeche:_ Fläche des Kantons in Quadratkilometer [km^2^]
 ====
 endif::show_solutions[]
