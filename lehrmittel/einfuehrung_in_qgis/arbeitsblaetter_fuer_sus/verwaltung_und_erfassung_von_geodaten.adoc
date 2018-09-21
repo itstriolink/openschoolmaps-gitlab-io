@@ -318,7 +318,8 @@ auf dein Arbeitsblatt._
 
 ifdef::show_solutions[]
 ====
-image:einfuehrung_in_qgis/abspeichern.png["Abspeichern", 502, 192]
+.Attribute der Kantone in Textform
+image::einfuehrung_in_qgis/abspeichern.png["Abspeichern", 502, 192]
 
 Die Lage der Hauptorte ist durch die Angabe
 der X-Koordinate (XKoordinate) und der
