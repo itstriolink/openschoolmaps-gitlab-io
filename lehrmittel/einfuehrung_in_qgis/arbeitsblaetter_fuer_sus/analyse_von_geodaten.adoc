@@ -557,6 +557,7 @@ erfüllen diese Bedingungen?_
 
 ifdef::show_solutions[]
 ====
+.Lösung
 SELECT * +
 FROM seen +
 WHERE Flaeche > 20 AND Hoehe_muM < 400 +
