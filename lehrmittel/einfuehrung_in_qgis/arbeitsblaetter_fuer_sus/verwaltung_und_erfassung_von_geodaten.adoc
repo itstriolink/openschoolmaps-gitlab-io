@@ -176,7 +176,6 @@ Datenerfassungmöglichkeiten aus der Theorie.
 ====
 endif::show_solutions[]
 
-
 Es gibt viele Methoden,
 um Geodaten erfassen zu können.
 Auf einige möchten wir kurz eingehen.
@@ -344,7 +343,6 @@ gewählt wurden, müssen auch im weiteren
 Dokument als Trennungszeichen angewendet werden.
 ====
 endif::show_solutions[]
-
 
 Das Werkzeug _Add Delimited Text Layer_
 um Koordinatenwerte
