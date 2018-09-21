@@ -30,6 +30,7 @@ auf dein Arbeitsblatt._
 
 ifdef::show_solutions[]
 ====
+.Lösung
 Vergleiche deine Lösung mit der Theorie im ersten Teil dieses Kapitels.
 ====
 endif::show_solutions[]
@@ -149,6 +150,7 @@ abgespeichert?_
 
 ifdef::show_solutions[]
 ====
+.Lösung
 . Wenn du weiter ins Bild reinzoomst, dann
 siehst du ab einer gewissen Zoomstufe, dass
 das Bild aus vielen farbigen Rechtecken besteht.
@@ -238,6 +240,7 @@ wohl mehr Speicherplatz benötigt._
 
 ifdef::show_solutions[]
 ====
+.Lösung
 *Rasterdaten*
 
 image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
@@ -436,6 +439,8 @@ auch für die Kantonsgrenzen._
 
 ifdef::show_solutions[]
 ====
+_Lösung_
+
 image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
 
 _Name:_ Die Namen der Seen +
@@ -574,6 +579,7 @@ in eigenen Worten auf._
 
 ifdef::show_solutions[]
 ====
+.Lösung
 Bei den Rasterdaten besteht die Seegrenze aus
 blauen Pixeln und bei den Vektordaten aus Linien.
 ====
