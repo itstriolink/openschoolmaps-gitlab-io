@@ -267,6 +267,15 @@ die Raster komprimieren. Dabei wird
 zwischen verlustbehafteten (z.B. jpg)
 und verlustfreien Kompressionen
 (z.B. .png, .bmp) unterschieden.
+
+Falls du mehr zum Thema
+Datenkompression
+erfahren möchtest,
+kannst du
+den folgenden Artikel
+auf Wikipedia lesen:
+
+https://de.wikipedia.org/wiki/Bildkompression
 ====
 endif::show_solutions[]
 
