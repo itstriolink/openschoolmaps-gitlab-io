@@ -210,6 +210,14 @@ von Abfragen es sich
 bei der Einstiegsübung
 handelte?_
 
+ifdef::show_solutions[]
+====
+Es handelt sich bei beiden
+Fällen um thematische Abfragen.
+====
+endif::show_solutions[]
+
+
 === Datenbanksprache SQL
 
 Um thematische
@@ -383,6 +391,19 @@ als Suche 1
 auf der Homepage
 http://tel.local.ch/de/
 durchgeführt hast._
+
+ifdef::show_solutions[]
+====
+. SELECT * +
+FROM seen +
+WHERE Flaeche > 20 AND Tiefe < 400 +
+. SELECT * +
+FROM Adressen +
+WHERE Name = 'Müller' AND Vorname
+= 'Peter' AND Ort = 'Bern'
+====
+endif::show_solutions[]
+
 
 == Übung 4
 
