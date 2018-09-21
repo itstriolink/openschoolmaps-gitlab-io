@@ -212,6 +212,7 @@ handelte?_
 
 ifdef::show_solutions[]
 ====
+.Lösung
 Es handelt sich bei beiden
 Fällen um thematische Abfragen.
 ====
