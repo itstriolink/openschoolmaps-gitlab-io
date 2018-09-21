@@ -502,6 +502,16 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
 _Wie viele Lösungen
 erhältst du?_
 
+ifdef::show_solutions[]
+====
+Abfrage: +
+image:einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36] +
+Lösung: +
+image:einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
+====
+endif::show_solutions[]
+
+
 Kommen wir aber
 zum Anfangsbeispiel zurück.
 Diese Abfrage ist
@@ -538,6 +548,17 @@ für die Einstiegsaufgabe
 und führe die Abfrage durch.
 Wie viele Seen
 erfüllen diese Bedingungen?_
+
+ifdef::show_solutions[]
+====
+SELECT * +
+FROM seen +
+WHERE Flaeche > 20 AND Hoehe_muM < 400 +
+
+4 Seen
+====
+endif::show_solutions[]
+
 
 === Räumliche Selektion
 
