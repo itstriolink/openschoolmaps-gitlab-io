@@ -243,10 +243,12 @@ ifdef::show_solutions[]
 .Lösung
 *Rasterdaten*
 
+.Beispiel für Rasterdaten
 image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
 
 *Vektordaten*
 
+.Beispiel für Vektordaten
 image::einfuehrung_in_qgis/vektordaten.png["Vektordaten", 185, 112]
 
 *Speicherplatzbedarf* +
@@ -441,6 +443,7 @@ ifdef::show_solutions[]
 ====
 _Lösung_
 
+.Tabelle des Layers Seen
 image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
 
 _Name:_ Die Namen der Seen +
@@ -450,6 +453,7 @@ _Max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
 _Volumen:_ Volumen des Sees in Kubikkilometer [km3] +
 _Flaeche:_ Fläche des Sees in Quadratkilometer [km2]
 
+.Tabelle des Layers Kantone
 image::einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120]
 
 _Name:_ Namen der Kantone +
