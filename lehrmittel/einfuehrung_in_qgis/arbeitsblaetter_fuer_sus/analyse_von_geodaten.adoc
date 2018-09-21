@@ -874,6 +874,7 @@ muss gewählt werden?_
 
 ifdef::show_solutions[]
 ====
+.Lösung
 *Ziellayer:* Hauptorte +
 *Referenzlayer:* Kantonsgrenzen +
 
