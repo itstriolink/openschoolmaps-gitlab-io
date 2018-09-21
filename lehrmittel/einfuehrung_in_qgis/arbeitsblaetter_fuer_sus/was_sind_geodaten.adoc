@@ -538,7 +538,7 @@ muss eine neue WMS-Verbindung
 erstellt werden.
 Dazu muss auf den _New_-Button
 geklickt werden.
-Gib im Fenster _Create a New WMS/WMTS Connection_ anlegen
+Gib im Fenster _Create a New WMS/WMTS Connection_
 den Namen der Verbindung an (z.B. WMS-BGDI)
 und die URL zum gewünschten Server
 (in unserem Fall http://wms.geo.admin.ch/).
