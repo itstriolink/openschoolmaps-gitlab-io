@@ -844,6 +844,7 @@ die Where-Klausel?_
 
 ifdef::show_solutions[]
 ====
+.Lösung
 WHERE Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
 ====
 endif::show_solutions[]
