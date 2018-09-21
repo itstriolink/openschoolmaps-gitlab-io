@@ -893,6 +893,13 @@ berücksichtig werden.
 _Um welche Hauptorte
 handelt es sich?_
 
+ifdef::show_solutions[]
+====
+.Lösung
+Aarau, Frauenfeld, Genève, Lausanne, Neuchâtel, Sankt Gallen
+====
+endif::show_solutions[]
+
 == Kapiteltest 4
 
 === Frage 1
