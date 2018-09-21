@@ -27,6 +27,7 @@ Verzichte darauf die Wörter im Internet
 oder in einem Lexikon nachzuschlagen.
 Schreibe deine Überlegungen
 auf dein Arbeitsblatt._
+
 ifdef::show_solutions[]
 ====
 Vergleiche deine Lösung mit der Theorie im ersten Teil dieses Kapitels.
@@ -143,7 +144,9 @@ wenn du immer weiter reinzoomst?_
 * _Wie sind die Objekte,
 die auf dem Bild dargestellt sind,
 abgespeichert?_
+
 //-
+
 ifdef::show_solutions[]
 ====
 . Wenn du weiter ins Bild reinzoomst, dann
@@ -155,6 +158,7 @@ werden diese Rechtecke.
 farbigen Rechtecken abgespeichert.
 ====
 endif::show_solutions[]
+
 Rasterdaten kann man sich so vorstellen,
 als würde z.B. über die Landschaft,
 die man darstellen will,
@@ -234,12 +238,13 @@ wohl mehr Speicherplatz benötigt._
 
 ifdef::show_solutions[]
 ====
-*Rasterdaten* +
-image:einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
+*Rasterdaten*
 
+image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
 
-*Vektordaten* +
-image:einfuehrung_in_qgis/vektordaten.png["Vektordaten", 185, 112]
+*Vektordaten*
+
+image::einfuehrung_in_qgis/vektordaten.png["Vektordaten", 185, 112]
 
 *Speicherplatzbedarf* +
 Bei den Rasterdaten wird für jedes Pixel
@@ -259,6 +264,7 @@ und verlustfreien Kompressionen
 (z.B. .png, .bmp) unterschieden.
 ====
 endif::show_solutions[]
+
 ===== Metadaten 
 
 Zu den Geodaten werden auch immer Metadaten,
@@ -430,16 +436,17 @@ auch für die Kantonsgrenzen._
 
 ifdef::show_solutions[]
 ====
-image:einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120] +
+image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
 
 _Name:_ Die Namen der Seen +
 _Type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
 _Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
 _Max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
 _Volumen:_ Volumen des Sees in Kubikkilometer [km3] +
-_Flaeche:_ Fläche des Sees in Quadratkilometer [km2] +
+_Flaeche:_ Fläche des Sees in Quadratkilometer [km2]
 
-image:einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120] +
+image::einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120]
+
 _Name:_ Namen der Kantone +
 _Kuerzel:_ Kantonskürzel +
 _Beitrittsj:_ Beitrittsjahr zur Schweiz +
@@ -447,7 +454,7 @@ _Einwohner:_ Anzahl Einwohner +
 _Gemeinden:_ Anzahl Gemeinden +
 _Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
 _Staende:_ Anzahl Ständeratssitze (0.5 = Halbkanton) +
-_Flaeche:_ Fläche des Kantons in Quadratkilometer [km2] +
+_Flaeche:_ Fläche des Kantons in Quadratkilometer [km2]
 ====
 endif::show_solutions[]
 
