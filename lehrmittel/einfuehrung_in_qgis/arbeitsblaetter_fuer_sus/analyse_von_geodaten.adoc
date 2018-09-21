@@ -749,6 +749,13 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
 _Wie lautet
 der Feldrechnerausdruck?_
 
+ifdef::show_solutions[]
+====
+to int ( Einwohner / Flaeche)
+====
+endif::show_solutions[]
+
+
 Nach dem Berechnen
 muss der Editiermodus
 wieder ausgeschaltet werden.
@@ -783,6 +790,20 @@ es sich um die thematische
 und bei welchen
 um räumliche Abfragen
 handelt._
+ifdef::show_solutions[]
+====
+*thematisch:*
+
+* Bevölkerungsdichte von mehr als
+200 Einwohner pro km2
+* zwischen 1800 und 1900
+der Schweiz beigetreten
+
+*räumlich:* +
+Hauptorte, die in den entsprechenden Kantonen liegen.
+====
+endif::show_solutions[]
+
 
 Wir werden bei
 dieser Abfrage
