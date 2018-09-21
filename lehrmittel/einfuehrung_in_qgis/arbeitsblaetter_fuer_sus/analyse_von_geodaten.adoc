@@ -803,8 +803,10 @@ es sich um die thematische
 und bei welchen
 um räumliche Abfragen
 handelt._
+
 ifdef::show_solutions[]
 ====
+.Lösung
 *thematisch:*
 
 * Bevölkerungsdichte von mehr als
