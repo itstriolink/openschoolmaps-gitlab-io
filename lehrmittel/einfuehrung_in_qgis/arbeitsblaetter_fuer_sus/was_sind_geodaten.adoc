@@ -27,6 +27,11 @@ Verzichte darauf die Wörter im Internet
 oder in einem Lexikon nachzuschlagen.
 Schreibe deine Überlegungen
 auf dein Arbeitsblatt._
+ifdef::show_solutions[]
+====
+Vergleiche deine Lösung mit der Theorie im ersten Teil dieses Kapitels.
+====
+endif::show_solutions[]
 
 === Lernziele der Theorie
 
@@ -138,7 +143,18 @@ wenn du immer weiter reinzoomst?_
 * _Wie sind die Objekte,
 die auf dem Bild dargestellt sind,
 abgespeichert?_
-
+//-
+ifdef::show_solutions[]
+====
+. Wenn du weiter ins Bild reinzoomst, dann
+siehst du ab einer gewissen Zoomstufe, dass
+das Bild aus vielen farbigen Rechtecken besteht.
+Je weiter du reinzoomst, desto grösser
+werden diese Rechtecke.
+. Ein Objekt mit Hilfe von vielen
+farbigen Rechtecken abgespeichert.
+====
+endif::show_solutions[]
 Rasterdaten kann man sich so vorstellen,
 als würde z.B. über die Landschaft,
 die man darstellen will,
@@ -216,6 +232,33 @@ Zeichne dies auf deinem Arbeitsblatt auf. +
 welches Format (Raster oder Vektor)
 wohl mehr Speicherplatz benötigt._
 
+ifdef::show_solutions[]
+====
+*Rasterdaten* +
+image:einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
+
+
+*Vektordaten* +
+image:einfuehrung_in_qgis/vektordaten.png["Vektordaten", 185, 112]
+
+*Speicherplatzbedarf* +
+Bei den Rasterdaten wird für jedes Pixel
+ein Wert abgespeichert. Bei den Vektordaten
+wird die Fläche des Gebäudes als geschlossener
+Linienzug abgespeichert. Und jede Linie dieses
+Linienzuges wird durch zwei Punkte definiert.
+Deshalb ist der Speicherbedarf bei den
+Vektordaten viel kleiner.
+
+Damit der Speicherbedarf bei den
+Rasterdaten kleiner wird, können
+Formate verwendet werden, welche
+die Raster komprimieren. Dabei wird
+zwischen verlustbehafteten (z.B. jpg)
+und verlustfreien Kompressionen
+(z.B. .png, .bmp) unterschieden.
+====
+endif::show_solutions[]
 ===== Metadaten 
 
 Zu den Geodaten werden auch immer Metadaten,
@@ -385,6 +428,29 @@ image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
 _Mache das Gleiche
 auch für die Kantonsgrenzen._
 
+ifdef::show_solutions[]
+====
+image:einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120] +
+
+_Name:_ Die Namen der Seen +
+_Type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
+_Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
+_Max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
+_Volumen:_ Volumen des Sees in Kubikkilometer [km3] +
+_Flaeche:_ Fläche des Sees in Quadratkilometer [km2] +
+
+image:einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120] +
+_Name:_ Namen der Kantone +
+_Kuerzel:_ Kantonskürzel +
+_Beitrittsj:_ Beitrittsjahr zur Schweiz +
+_Einwohner:_ Anzahl Einwohner +
+_Gemeinden:_ Anzahl Gemeinden +
+_Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
+_Staende:_ Anzahl Ständeratssitze (0.5 = Halbkanton) +
+_Flaeche:_ Fläche des Kantons in Quadratkilometer [km2] +
+====
+endif::show_solutions[]
+
 ===== Rasterdaten einlesen
 
 Die Rasterdaten sollen in Form
@@ -498,6 +564,13 @@ um auch die Rasterdaten
 unter dem See-Layer zu sehen.
 Schreibe deine Beobachtungen
 in eigenen Worten auf._
+
+ifdef::show_solutions[]
+====
+Bei den Rasterdaten besteht die Seegrenze aus
+blauen Pixeln und bei den Vektordaten aus Linien.
+====
+endif::show_solutions[]
 
 Speichere dein Projekt ab.
 In der nächsten Übung wirst du
