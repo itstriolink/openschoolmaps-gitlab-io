@@ -19,7 +19,7 @@ von neuen Informationen
 aus bestehenden raumbezogenen Daten.
 Dieses Ableiten
 von neuen Informationen
-nennt man Analyse.
+nennt man *Analyse*.
 
 == Lernziele
 
@@ -166,7 +166,7 @@ eines GIS.
 Allgemein werden
 zwei Arten von Analysen
 unterschieden:
-Abfragen und Manipulationen.
+*Abfragen* und *Manipulationen*.
 Bei den Abfragen
 werden die Daten
 nicht verändert,
@@ -390,7 +390,7 @@ in SQL zu formulieren:_
 . _Es sollen alle Seen
 selektiert werden,
 deren Fläche grösser
-als 20 km2 sind
+als 20 km^2^ sind
 und die tiefer
 als 400 m.ü.M. liegen._
 . _Die Suche die du
