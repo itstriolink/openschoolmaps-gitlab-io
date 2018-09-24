@@ -91,7 +91,6 @@ Dieser Test muss ohne Unterlagen und Notizen gelöst werden.
 Wenn du alle Fragen beantwortet hast,
 gehe mit deinen Antworten zu deinem Lehrer
 oder korrigiere deine Antworten selber
->>>>>>> master
 mit dem Lösungsblatt.
 Wenn dein Lehrer deine Antworten korrigiert
 und die Antworten richtig waren,
