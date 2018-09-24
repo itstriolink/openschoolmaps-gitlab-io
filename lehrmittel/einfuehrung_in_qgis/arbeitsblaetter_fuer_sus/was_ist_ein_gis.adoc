@@ -510,6 +510,15 @@ ifdef::show_solutions[]
 * Auf den Layer zoomen +
 * Zoom zurück +
 * Zoom vor
+
+_Was geschieht in der Kartenübersicht beim Navigieren?_
+
+Das rote Rechteck passt sich dem
+Ausschnitt im Kartenfenster an. +
+
+Wenn das rote Rechteck in der Kartenübersicht
+verschoben wird, so passt sich umgekehrt
+auch der Ausschnitt im Kartenfenster an.
 ====
 endif::show_solutions[]
 
