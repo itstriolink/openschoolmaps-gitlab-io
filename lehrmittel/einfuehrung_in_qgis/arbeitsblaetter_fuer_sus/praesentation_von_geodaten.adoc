@@ -112,6 +112,61 @@ Web-GIS angeboten?
 Welche Daten
 können betrachtet werden?_
 
+ifdef::show_solutions[]
+====
+*1. Funktionen*
+
+*Suche:*
+
+image::einfuehrung_in_qgis/webgissuche.png["Suche WebGIS", 200, 100]
+
+Es kann nach folgenden Kriterien
+eine Suche gestartet werden:
+
+* Adresse
+* Gemeinden
+* Koordinaten
+* Parzellen
+
+*Navigation, identifiziern und messen*
+
+image::einfuehrung_in_qgis/webgisnavi.png["Navigation WebGIS", 105, 12]
+
+Folgende Werkzeuge stehen zur Verfügung:
+
+* Vergrössern
+* Verkleinern
+* Verschieben
+* Identifizieren
+* Distanzen messen
+* Flächen messen
+
+*Eben, Legende und Drucken*
+
+image::einfuehrung_in_qgis/webgislayer.png["Layer WebGiS", 65,11]
+
+Folgende Werkzeuge stehen zur Verfügung:
+
+* Ebenen ein- und ausschalten
+* Legende
+* Druckvorschau
+
+*2. Daten*
+
+Je nach Zoomstufe werden unterschiedliche Daten angezeigt.
+
+
+*Vektordaten*
+
+image::einfuehrung_in_qgis/webgisvector.png["Vektor WebGiS", 151, 207]
+
+*Rasterdaten*
+
+image::einfuehrung_in_qgis/webgisraster.png["Raster WebGIS", 135, 183]
+====
+endif::show_solutions[]
+
+
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 2_ +
 _Bestimmt gibt es auch
@@ -128,6 +183,21 @@ und den Begriffen "GIS"
 und "Online" startest.
 Notiere dir den Link._
 
+ifdef::show_solutions[]
+====
+Unter folgendem Link findest du
+eine Liste von Karten aus den
+verschiedenen Kantonen. Darunter
+findest du auch einige Internet-GIS:
+
+http://www.kartenportal.ch/
+
+Schaue nach, ob der Link den
+du gefunden hast auch dabei ist.
+====
+endif::show_solutions[]
+
+
 ==== Ausgedruckte Karte oder Karte als PDF
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
@@ -141,6 +211,54 @@ auf eine Karte gehören.
 bei jedem Element,
 das du notierst,
 welchen Zweck es erfüllt._
+
+ifdef::show_solutions[]
+====
+*Kartenelemente Karte Thun*
+
+* Titel
+* Nordpfel
+* Legende
+* Massstab
+* Angaben zum Hersteller
+* Raster für Strassenverzeichnis
+
+//-
+
+*Kartenelemente OL-Karte*
+
+* Titel
+* Nordpfel
+* Legende
+* Massstab (inkl. Massstabsbalken)
+* Äquidistanz
+* Stand der Daten
+* Infos über Herausgeber, Copyright, Bezug etc.
+
+*Zusammenfassung wichtige Kartenelemente*
+
+Zusammenfassung der wichtigsten Kartenelemente
+aus den oben aufgelisteten Elementen:
+
+* _Titel:_ Wahl eines sinnvollen und aussagekräftigen Titels +
+* _Nordpfeil:_ Um die Nordrichtung der Karte
+anzugeben, dient der Orientierung. Bei einigen
+Karten wird der Nordpfeil durch ein Koordinatenraster
+ersetzt. Dieses Koordinatenraster ist immer
+nach Norden ausgerichtet. +
+* _Legende:_ Um den Inhalt der Karte zu erklären +
+* _Massstab/Massstabsbalken:_ Um Distanzen in der
+Karte abschätzen zu können +
+* _Infos über Herausgeber, Copyright, Bezug etc.:_
+Damit der Kartennutzer weiss,
+woher die Karte stammt und
+unter welchen Umständen
+er die Karte weiterverwenden darf +
+* _Stand der Daten:_ Damit der
+Kartennutzer weiss, wie aktuell
+die Daten sind.
+====
+endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 4_ +
@@ -159,9 +277,26 @@ festgelegt ist.
 der Gestaltung auch
 folgende Punkte:_
 
+ifdef::show_solutions[]
+====
+Eine eindeutige Lösung gibt es zu dieser
+Aufgabe nicht. Überprüfe einfach nochmals,
+ob die wichtigsten Kartenelemente enthalten sind.
+
+* Titel
+* Nordpfeil und Koordinatenraster
+* Legende
+* Massstab/Massstabsbalken
+* Infos über Herausgeber, Copyright, Bezug etc.
+* Stand der Daten
+====
+endif::show_solutions[]
+
+
 * _welches Thema möchtest du darstellen?_
 * _was soll die Karte aussagen?_
 * _wen willst du mit deiner Karte ansprechen (Nutzerkreis)?_
+
 
 Bis du zufrieden
 mit deinem Konzept?
