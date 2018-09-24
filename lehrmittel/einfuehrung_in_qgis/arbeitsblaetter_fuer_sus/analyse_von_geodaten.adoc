@@ -93,11 +93,13 @@ man Name, Vorname und Ort in
 Textform in eine Maske eingeben.
 Die Abfrage könnte wie folgt aussehen:
 
+.Eingabe für die Suche auf local.ch
 image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1", 775, 244]
 
 Und hier die entsprechenden Resultate:
 
-image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1", 547, 238] +
+.Ausgabe für die Suche auf local.ch
+image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1", 547, 238]
 
 *Frage 2* +
 Um eine Abfrage zu starten, muss man
@@ -106,10 +108,12 @@ Zielort, Datum und Zeit in Textform
 ausfüllen. Die Abfrage könnte wie
 folgt aussehen:
 
+.Eingabe für die Suche auf sbb.ch
 image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2", 317, 247]
 
 Die Resultate werden in Textform ausgegeben:
 
+.Ausgabe für die Suche auf sbb.ch
 image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2", 644, 173]
 
 
@@ -513,10 +517,12 @@ ifdef::show_solutions[]
 .Lösung
 Abfrage:
 
+.Sucheingabe in QGIS
 image::einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36]
 
 Lösung:
 
+.Die Einträge die ausgegeben werden nach der Abfrage in QGIS
 image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
 ====
 endif::show_solutions[]
@@ -652,10 +658,12 @@ ifdef::show_solutions[]
 .Lösung
 Abfrage:
 
+.Räumliches Abfragefenster von QGIS
 image::einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 6 Abfrage", 356, 434]
 
 Lösung:
 
+.Ausgabe in der Tabelle von QGIS
 image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189]
 
 8 Kantone erfüllen die Bedingung:
@@ -678,6 +686,7 @@ ifdef::show_solutions[]
 .Lösung
 Abfrage:
 
+.Räumlcihes Abfragefenster von QGIS
 image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage",350,432]
 ====
 endif::show_solutions[]
@@ -694,6 +703,7 @@ ifdef::show_solutions[]
 .Lösung
 Resultat:
 
+.Ausgabe in der Tabelle von QGIS
 image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296]
 
 12 Seen erfüllen die Bedingung.
