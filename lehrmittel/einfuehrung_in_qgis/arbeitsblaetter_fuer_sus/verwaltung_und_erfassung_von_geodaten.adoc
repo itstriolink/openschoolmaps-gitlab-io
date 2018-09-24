@@ -61,14 +61,14 @@ der Erfassung von Vektordaten beschäftigen.
 
 Zuerst werden wir uns
 aber allgemein mit der Erfassung
-von Werten in Tabellen beschäftigen.
+von Werten in *Tabellen* beschäftigen.
 Eine Tabelle besteht aus
-Zeilen und aus Spalten.
-Die Zeile verläuft horizontal
+*Zeilen* und aus *Spalten*.
+Die Zeile verläuft _horizontal_
 und in ihr werden
 die verschiedenen Datensätze
 gespeichert.
-Die Spalte verläuft vertikal
+Die Spalte verläuft _vertikal_
 und in ihr wird
 eine gewisse Eigenschaft
 eines Datensatzes abgelegt.
