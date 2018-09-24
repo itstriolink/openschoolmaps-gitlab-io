@@ -175,6 +175,11 @@ QGIS-OSGeo4W-3.2.2-Setup-x86_64.exe
 oder
 QGIS-OSGeo4W-3.2.2-Setup-x86.exe
 
+NOTE: Eine Alternative zur Installtion der Software QGIS
+wäre der Lernstick
+https://lernstick.ch
+(Zurzeit wird auf dem Lernstick nur QGIS 2.18 unterstützt)
+
 === Beispieldaten herunterladen
 
 Das zip-File
