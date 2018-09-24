@@ -413,7 +413,7 @@ Nun sollen die Hauptorte
 noch beschriftet werden.
 Öffne dazu das _Layer Properties_-Fenster
 und wähle die Option _Labels_.
-Wähle bei Beschriftungen anzeigen
+Wähle bei _Beschriftungen anzeigen_
 das Feld _Single Labels_ und wähle als _Beschreibungsfeld_
 das Feld mit dem Namen _Hauptort_.
 Passe anschliessend die Schriftgrösse,
