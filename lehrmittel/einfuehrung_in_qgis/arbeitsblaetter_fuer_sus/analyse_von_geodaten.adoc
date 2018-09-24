@@ -5,7 +5,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*Ein Arbeitsblatt*
+ifdef::show_solutions[- *LÖSUNGEN*]
 
 In den letzten Kapiteln
 hast du erfahren,
