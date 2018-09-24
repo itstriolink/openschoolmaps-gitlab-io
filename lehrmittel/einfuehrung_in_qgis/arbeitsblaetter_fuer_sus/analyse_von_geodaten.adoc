@@ -102,6 +102,10 @@ Und hier die entsprechenden Resultate:
 .Ausgabe für die Suche auf local.ch
 image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1", 547, 238]
 
+Die Resultat werden
+als Adressen (Textform) ausgegeben
+und als Eintrag in einer Karte.
+
 *Frage 2* +
 Um eine Abfrage zu starten, muss man
 mindestens die Felder Start- und
