@@ -17,7 +17,7 @@ um raumbezogene Daten handelt.
 Diese raumbezogenen Daten
 werden oft auch Geodaten genannt.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 1_ +
 _Überlege dir als Einstieg in dieses Kapitel,
 was mit den Begriffen Geodaten
@@ -132,7 +132,7 @@ auf dem Computer
 digitale Fotos anschaust,
 dann schaust du dir Rasterdaten an.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 2_ +
 _Um die wichtigsten Eigenschaften eines Rasterbildes kennen zu lernen,
 öffne das Bild Testfoto.jpg,
@@ -224,7 +224,7 @@ in einer Tabelle abgespeichert.
 
 ===== Vergleich Vektor- und Rasterdaten
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 3_ +
 _Stelle dir nun vor,
 dass du ein Gebäude
@@ -443,7 +443,7 @@ die zu den Seen erfasst wurden.
 Welche Informationen wurden
 als Attribut abgespeichert?
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 4_ +
 _Schaue dir die Tabelle genau an
 und schreibe auf,
@@ -465,7 +465,7 @@ _Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
 ====
 endif::show_solutions[]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 5_ +
 _Mache das Gleiche
 auch für die Kantonsgrenzen._
@@ -587,7 +587,7 @@ sollst du dir die Unterschiede
 zwischen Vektor- und Rasterdaten
 nochmals etwas genauer anschauen.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 6_ +
 _Blende dazu den Layer mit den Kantonsgrenzen aus
 und zoome zu einem beliebigen See.
