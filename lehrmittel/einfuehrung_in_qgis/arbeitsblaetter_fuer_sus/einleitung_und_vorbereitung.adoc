@@ -128,8 +128,6 @@ Falls Antworten fehlerhaft, zurück zu 3.
 . Theorie von nächstem Kapitel durcharbeiten
 . ....
 
-Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
-
 == Vorbereitung
 
 === Installation der GIS-Software QGIS
