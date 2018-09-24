@@ -118,6 +118,7 @@ ifdef::show_solutions[]
 
 *Suche:*
 
+.Sucheingabefeld von Web-GIS
 image::einfuehrung_in_qgis/webgissuche.png["Suche WebGIS", 200, 100]
 
 Es kann nach folgenden Kriterien
@@ -130,6 +131,7 @@ eine Suche gestartet werden:
 
 *Navigation, identifiziern und messen*
 
+.Navigationswerkzeuge von Web-GIS
 image::einfuehrung_in_qgis/webgisnavi.png["Navigation WebGIS", 105, 12]
 
 Folgende Werkzeuge stehen zur Verfügung:
@@ -143,6 +145,7 @@ Folgende Werkzeuge stehen zur Verfügung:
 
 *Eben, Legende und Drucken*
 
+.Ebenen, Legende und Druckvorschau Werkzeuge von Web-GIS
 image::einfuehrung_in_qgis/webgislayer.png["Layer WebGiS", 65,11]
 
 Folgende Werkzeuge stehen zur Verfügung:
@@ -158,14 +161,15 @@ Je nach Zoomstufe werden unterschiedliche Daten angezeigt.
 
 *Vektordaten*
 
+.Vektordaten, die eingezeigt werden bei gewisser Zoomstufe
 image::einfuehrung_in_qgis/webgisvector.png["Vektor WebGiS", 151, 207]
 
 *Rasterdaten*
 
+.Rasterdaten, die eingezeigt werden bei gewisser Zoomstufe
 image::einfuehrung_in_qgis/webgisraster.png["Raster WebGIS", 135, 183]
 ====
 endif::show_solutions[]
-
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 2_ +
@@ -361,6 +365,7 @@ das Menü
 _Project_ ->
 _New Print Layout..._.
 
+.Leeres Druckzusammenstellungs-Fenster in QGIS 3
 image::einfuehrung_in_qgis/qgis_print_layout.PNG["Druckzusammenstellung", 510, 317]
 
 Die Maske ist so aufgebaut,
