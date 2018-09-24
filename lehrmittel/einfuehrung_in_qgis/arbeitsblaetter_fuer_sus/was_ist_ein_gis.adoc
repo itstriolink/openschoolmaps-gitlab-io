@@ -53,6 +53,7 @@ https://de.wikipedia.org/wiki/Geoinformationssystem[Bill 1999]
 ====
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Aufgabe 1_ +
 _Studiere die Definition
 und versuche die folgenden Fragen
 auf deinem Arbeitsblatt zu beantworten:_
@@ -193,6 +194,7 @@ einige Anwendungen durchführen.
 === Zusammenfassung Komponenten
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Aufgabe 2_ +
 _Gehe die Komponenten eines GIS nochmals durch (auch physisch)
 und notiere falls bekannt in eigenen Worten,
 wie diese an deinem Arbeitsplatz aussehen._
@@ -444,6 +446,7 @@ sind im Werkzeugkasten _Map Navigation Toolbar_ abgespeichert.
 image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.PNG["Kartennavigationswerkzeuge"]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Aufgabe 3_ +
 _Probiere die einzelnen Werkzeuge
 des Werkzeugkastens Kartennavigation aus
 und schreibe in eigenen Worten auf,
@@ -462,6 +465,7 @@ unabhängig davon,
 welches Werkzeug aktuell ausgewählt ist.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Aufgabe 4_ +
 _Probiere folgende Punkte aus
 und notiere wieder in eigenen Worten,
 was geschieht._
