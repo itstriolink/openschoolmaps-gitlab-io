@@ -5,7 +5,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*Ein Arbeitsblatt*
+ifdef::show_solutions[- *LÖSUNGEN*]
 
 Bestimmt hast du den Begriff Geoinformationssysteme
 oder GIS schon irgendwo gehört
@@ -52,7 +53,8 @@ und graphisch präsentiert werden.
 https://de.wikipedia.org/wiki/Geoinformationssystem[Bill 1999]
 ====
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 1_ +
 _Studiere die Definition
 und versuche die folgenden Fragen
 auf deinem Arbeitsblatt zu beantworten:_
@@ -70,6 +72,22 @@ kurz EVAP (IMAP).
 Aufgabe:
 Ordne die in der Definition 1 erwähnten Funktionen
 den vier Komponenten zu._
+
+//-
+
+ifdef::show_solutions[]
+====
+. _Es müssen die Hardware (Minimum Computer mit Tastatur und Bildschirm
+oder Laptop und zusätzlich eine Maus) und
+die Software (Betriebssystem und GIS-Software)
+besorgt werden._
+. _Die Daten haben einen Raumbezug._
+. *E* (Eingabe): _modelliert, digital erfasst, gespeichert_ +
+*V* (Verwaltung): _redigiert, reorganisiert_ +
+*A* (Analyse): _analysiert_ +
+*P* (Präsentation): _alphanumerisch und graphisch präsentiert_
+====
+endif::show_solutions[]
 
 == Komponenten eines Geoinformationssystems
 
@@ -192,10 +210,30 @@ einige Anwendungen durchführen.
 
 === Zusammenfassung Komponenten
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 2_ +
 _Gehe die Komponenten eines GIS nochmals durch (auch physisch)
 und notiere falls bekannt in eigenen Worten,
 wie diese an deinem Arbeitsplatz aussehen._
+
+ifdef::show_solutions[]
+====
+An deinem Arbeitsplatz wird wahrscheinlich ein Rechner
+mit Bildschirm, Tastatur und Maus
+oder ein Laptop mit Maus zur Verfügung stehen.
+Evtl. Hast du noch einen Drucker und einen Scanner.
+Beim Computer oder Laptop handelt es sich bestimmt
+um ein Modell, welches auch bei Interdiscount oder
+Mediamarkt erhältlich ist. Es braucht also keinen
+extrem teuren Computer um ein GIS betreiben zu können.
+
+Beim Betriebsystem handelt es sich bei dir entweder
+um Linux, Unix, Mac OS X und Windows
+
+Als GIS-Software hast du ja im Kapitel Vorbereitung
+die OpenSource Software QGIS installieren.
+====
+endif::show_solutions[]
 
 == Übung 1
 
@@ -208,6 +246,7 @@ und die Benutzeroberfläche
 der Opensource-Software QGIS
 kennen lernen.
 
+
 === Lernziele
 
 Nach dieser Übung kannst du:
@@ -219,6 +258,7 @@ nennen und anwenden
 über die Layer-Eigenschaften verändern
 
 === Übung
+
 
 ==== Programm QGIS starten
 
@@ -248,6 +288,7 @@ Die Benutzeroberfläche ist in sieben Bereiche gegliedert.
 . Kartenfenster
 . Statusleiste
 
+.Benutzeroberfläche von QGIS 3
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläche", 401, 312]
 
 Findest du die einzelnen Bereiche
@@ -278,6 +319,7 @@ der Legende oder der Kartenübersicht zu klicken.
 Dann erscheint die Auswahl der Bedienfelder
 und der Werkzeugkästen gemeinsam in einer Liste.
 
+.Liste mit Werkzeugen
 image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 266]
 
 Probiere diese 3 Möglichkeiten aus
@@ -372,6 +414,7 @@ der Kantone geändert werden.
 Öffne deshalb das _Layer Properties_-Fenster
 für die Kantonsgrenzen.
 
+.Darstellungsoptionen des Layers Kantonsgrenzen
 image::einfuehrung_in_qgis/qgis_layer_properties_kantonsgrenzen.PNG["Layer-Eigenschaften Kantonsgrenzen", 537, 359]
 
 Überprüfe,
@@ -396,6 +439,7 @@ Die Seen sollen eine zweifarbige Füllung erhalten.
 mit dem Namen _Layer Properties_
 für den Layer Seen.
 
+.Darstellungsoptionen des Layers Seen
 image::einfuehrung_in_qgis/qgis_layer_properties_seen.PNG["Layer-Eigenschaften Seen", 537, 359]
 
 Erstelle dazu
@@ -441,9 +485,11 @@ Die Werkzeuge für die Navigation
 im Kartenfenster
 sind im Werkzeugkasten _Map Navigation Toolbar_ abgespeichert.
 
+.Navigationswerkzeuge von QGIS
 image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.PNG["Kartennavigationswerkzeuge"]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 3_ +
 _Probiere die einzelnen Werkzeuge
 des Werkzeugkastens Kartennavigation aus
 und schreibe in eigenen Worten auf,
@@ -461,7 +507,32 @@ kann sich die Karte verschieben lassen,
 unabhängig davon,
 welches Werkzeug aktuell ausgewählt ist.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+ifdef::show_solutions[]
+====
+* Karte verschieben +
+* Karte zu gewählten Objekt verschieben +
+* Hineinzoomen +
+* Hinauszoomen +
+* Auf eigene Auflösung zoomen +
+* Volle Ausdehnung +
+* Zur Auswahl zoomen +
+* Auf den Layer zoomen +
+* Zoom zurück +
+* Zoom vor
+
+_Was geschieht in der Kartenübersicht beim Navigieren?_
+
+Das rote Rechteck passt sich dem
+Ausschnitt im Kartenfenster an. +
+
+Wenn das rote Rechteck in der Kartenübersicht
+verschoben wird, so passt sich umgekehrt
+auch der Ausschnitt im Kartenfenster an.
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 4_ +
 _Probiere folgende Punkte aus
 und notiere wieder in eigenen Worten,
 was geschieht._
@@ -475,6 +546,41 @@ der Mauszeiger auf der Karte liegt_
 ** _Leertaste gedrückt halten
 und mit Mauszeiger
 über Kartenfenster fahren_
+//-
+ifdef::show_solutions[]
+====
+* Wenn das Mausrad nach vorne und nach
+hinten bewegt wird, während der Mauszeiger
+auf der Karte liegt, so kann in der Karte
+hinausgezoom (vorne) bzw. hineingezoomt
+(hinten) werden. Der Mauszeiger bildet
+dabei das Zoomzentrum.
+* Folgende Tasten auf der Tastatur:
+** _Pfeiltasten_ bewegen den Ausschnitt
+im Kartenfenster in die entsprechende
+Pfeilrichtung: rechte Pfeiltaste nach
+Osten, linke Pfeiltasten nach Westen,
+Hoch-Pfeiltasten nach Norden und Unten-
+Pfeiltasten nach Süden.
+** _PageUp/PageDown_ bewirken, dass
+um einen vordefinierten Zoomfaktor
+hinein- bzw. hinausgezoomt wird. Dabei
+wird der gleiche Zoomfaktor wie beim
+Mausrad verwendet.
+** Wenn die _Leertaste_ gedrückt gehalten
+wird, während mit dem Mauszeiger über das
+Kartenfenster gefahren wird, so verschiebt
+sich der Kartenausschnitt mit dem Mauszeiger.
+
+Bemerkung: Der Zoomfaktor, welcher beim Navigieren
+mit dem Mausrad und den Tasten PageUp und PageDown
+verwendet wird, kann im Menü _Einstellungen -> Optionen_
+unter der Option _Kartenwerkzeuge_ eingestellt werden.
+Defaultmässig hat er den Wert _3_.  Hier
+könnte dem Mausrad auch eine andere Funktion
+als die Zoomfunktion zugewiesen werden.
+====
+endif::show_solutions[]
 
 Wenn du mit der Aufgabe fertig bist,
 kannst du das Projekt
