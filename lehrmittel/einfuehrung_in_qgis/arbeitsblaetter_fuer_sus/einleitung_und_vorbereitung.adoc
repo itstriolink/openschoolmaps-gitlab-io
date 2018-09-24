@@ -177,8 +177,10 @@ QGIS-OSGeo4W-3.2.2-Setup-x86.exe
 
 === Beispieldaten herunterladen
 
-Lade das zip-File
-mit den Daten für die Übungen dieses Leitprogrammes
-unter folgendem Link herunter.
-
-https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/download?job=QGIS+excercise+data
+Das zip-File
+mit den Daten
+für die Übungen
+dieses Leitprogrammes
+findest du auf
+https://www.openschoolmaps.ch
+unter Unterrichtsmaterialien.
