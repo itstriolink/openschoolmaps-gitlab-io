@@ -38,7 +38,7 @@ eine korrekte SQL-Abfrage formulieren
 
 == Theorie
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 1_ +
 _Löse als Einstieg
 in das Kapitel Datenanalyse
@@ -209,7 +209,7 @@ Diese Abfragen werden
 *geometrische Abfragen
 oder Selektionen* genannt.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 2_ +
 _Überlege dir,
 um welche Arten
@@ -380,7 +380,7 @@ aber nicht zur Menge B?
 |image::einfuehrung_in_qgis/not_operator.jpg["NOT Operator", 113, 69]
 |===
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 3_ +
 _Probiere nun
 selber mal aus,
@@ -508,7 +508,7 @@ im Menu unten links
 und suche nach
 dem Begriff Lago.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 4_ +
 _Wie viele Lösungen
 erhältst du?_
@@ -557,7 +557,7 @@ auf die Felder
 im rechten Fenster
 zusammengesetzt werden.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 5_ +
 _Formuliere nun
 die Where-Klausel
@@ -648,7 +648,7 @@ und überprüft,
 wie er im Verhältnis
 zum Referenzlayer steht.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 6_ +
 _Führe diese Abfrage durch.
 Wie viele Kantone
@@ -673,7 +673,7 @@ Schwyz, Waadt, Zug und Zürich.
 ====
 endif::show_solutions[]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 7_ +
 _Wie müsste die Abfrage lauten,
 wenn alle Seen
@@ -692,7 +692,7 @@ image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage",350,432]
 ====
 endif::show_solutions[]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _.Aufgabe 8_ +
 _Wie viele Seen
 erfüllen diese Bedingung?
@@ -774,7 +774,7 @@ Deshalb muss
 die Option zu _Whole number_
 gewählt werden.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 9_ +
 _Wie lautet
 der Feldrechnerausdruck?_
@@ -814,7 +814,7 @@ in welcher sowohl thematische
 als auch die räumliche Komponente
 eine Rolle spielt.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 10_ +
 _Überlege kurz,
 bei welchen Komponenten
@@ -857,7 +857,7 @@ und die zwischen 1800
 und 1900 der Schweiz
 beigetreten sind.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 11_ +
 _Wie lautet
 die Where-Klausel?_
@@ -882,7 +882,7 @@ einer räumlichen Abfrage.
 Öffne dazu
 das _Select by Locataion_-Werkzeug.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
 _Welcher Layer ist denn
 nun der
@@ -910,7 +910,7 @@ dass von den Kantonsgrenzen
 nur die Selektierten
 berücksichtig werden.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 13_ +
 _Um welche Hauptorte
 handelt es sich?_
