@@ -103,7 +103,8 @@ zu gelangen:
 
 https://maps.zh.ch/
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 1_ +
 _Beantworte folgende Fragen:
 Welche GIS-Funktionen
 werden in diesem
@@ -111,7 +112,8 @@ Web-GIS angeboten?
 Welche Daten
 können betrachtet werden?_
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 2_ +
 _Bestimmt gibt es auch
 von Wohnkanton
 oder vom Nachbarskanton
@@ -128,7 +130,8 @@ Notiere dir den Link._
 
 ==== Ausgedruckte Karte oder Karte als PDF
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 3_ +
 _Schaue dir folgenden Karten an,
 und notiere,
 welche Elemente
@@ -139,7 +142,8 @@ bei jedem Element,
 das du notierst,
 welchen Zweck es erfüllt._
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 4_ +
 _Erstelle mit den Erkenntnissen
 aus den betrachteten Karten
 ein Konzept für deine
