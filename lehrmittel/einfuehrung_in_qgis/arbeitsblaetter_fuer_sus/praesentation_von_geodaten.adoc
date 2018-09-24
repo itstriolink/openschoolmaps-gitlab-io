@@ -115,8 +115,9 @@ ifdef::show_solutions[]
 ====
 *1. Funktionen*
 
-*Suche:* +
-image:einfuehrung_in_qgis/webgissuche.png["Suche WebGIS", 200, 100]
+*Suche:*
+
+image::einfuehrung_in_qgis/webgissuche.png["Suche WebGIS", 200, 100]
 
 Es kann nach folgenden Kriterien
 eine Suche gestartet werden:
@@ -126,8 +127,9 @@ eine Suche gestartet werden:
 * Koordinaten
 * Parzellen
 
-*Navigation, identifiziern und messen* +
-image:einfuehrung_in_qgis/webgisnavi.png["Navigation WebGIS", 105, 12]
+*Navigation, identifiziern und messen*
+
+image::einfuehrung_in_qgis/webgisnavi.png["Navigation WebGIS", 105, 12]
 
 Folgende Werkzeuge stehen zur Verfügung:
 
@@ -138,8 +140,9 @@ Folgende Werkzeuge stehen zur Verfügung:
 * Distanzen messen
 * Flächen messen
 
-*Eben, Legende und Drucken* +
-image:einfuehrung_in_qgis/webgislayer.png["Layer WebGiS", 65,11]
+*Eben, Legende und Drucken*
+
+image::einfuehrung_in_qgis/webgislayer.png["Layer WebGiS", 65,11]
 
 Folgende Werkzeuge stehen zur Verfügung:
 
@@ -152,11 +155,13 @@ Folgende Werkzeuge stehen zur Verfügung:
 Je nach Zoomstufe werden unterschiedliche Daten angezeigt.
 
 
-*Vektordaten* +
-image:einfuehrung_in_qgis/webgisvector.png["Vektor WebGiS", 151, 207]
+*Vektordaten*
 
-*Rasterdaten* +
-image:einfuehrung_in_qgis/webgisraster.png["Raster WebGIS", 135, 183]
+image::einfuehrung_in_qgis/webgisvector.png["Vektor WebGiS", 151, 207]
+
+*Rasterdaten*
+
+image::einfuehrung_in_qgis/webgisraster.png["Raster WebGIS", 135, 183]
 ====
 endif::show_solutions[]
 
@@ -181,9 +186,9 @@ ifdef::show_solutions[]
 Unter folgendem Link findest du
 eine Liste von Karten aus den
 verschiedenen Kantonen. Darunter
-findest du auch einige Internet-GIS: +
+findest du auch einige Internet-GIS:
 
-http://www.kartenportal.ch/ +
+http://www.kartenportal.ch/
 
 Schaue nach, ob der Link den
 du gefunden hast auch dabei ist.
@@ -216,19 +221,18 @@ ifdef::show_solutions[]
 * Raster für Strassenverzeichnis +
 //-
 *Kartenelemente OL-Karte* +
-
 * Titel
 * Nordpfel
 * Legende
 * Massstab (inkl. Massstabsbalken)
 * Äquidistanz
 * Stand der Daten
-* Infos über Herausgeber, Copyright, Bezug etc. +
+* Infos über Herausgeber, Copyright, Bezug etc.
 
-*Zusammenfassung wichtige Kartenelemente* +
+*Zusammenfassung wichtige Kartenelemente*
 
 Zusammenfassung der wichtigsten Kartenelemente
-aus den oben aufgelisteten Elementen: +
+aus den oben aufgelisteten Elementen:
 
 * _Titel:_ Wahl eines sinnvollen und aussagekräftigen Titels +
 * _Nordpfeil:_ Um die Nordrichtung der Karte
@@ -266,20 +270,19 @@ festgelegt ist.
 Überlege dir bei
 der Gestaltung auch
 folgende Punkte:_
+
 ifdef::show_solutions[]
 ====
 Eine eindeutige Lösung gibt es zu dieser
 Aufgabe nicht. Überprüfe einfach nochmals,
-ob die wichtigsten Kartenelemente enthalten sind. +
+ob die wichtigsten Kartenelemente enthalten sind.
 
 * Titel
 * Nordpfeil und Koordinatenraster
 * Legende
 * Massstab/Massstabsbalken
 * Infos über Herausgeber, Copyright, Bezug etc.
-* Stand der Daten +
-
-
+* Stand der Daten
 ====
 endif::show_solutions[]
 
