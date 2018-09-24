@@ -162,7 +162,8 @@ in der realen Welt denn
 überhaupt zu den Informationen,
 die abgespeichert werden sollen?
 
-.Aufgabe 1
+image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Aufgabe 1_ +
 _Überlege zwei bis drei Minuten,
 aus welchen Quellen
 die Daten stammen könnten
@@ -309,7 +310,8 @@ ist im Textfile Hauptorte.txt abgespeichert.
 Öffne diese Datei in einem Texteditor
 und schaue dir den Inhalt etwas genauer an.
 
-.Aufgabe 2
+image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+_Aufgabe 2_ +
 _In welcher Form ist die Lage
 der Hauptorte abgespeichert
 und wie sind die Informationen
