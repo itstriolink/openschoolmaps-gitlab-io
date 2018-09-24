@@ -463,7 +463,7 @@ Gib folgende Werte ein:
 *Name:* Lungernsee;
 *Type:* Speichersee;
 
-*Fläche:* 2.01 km3;
+*Fläche:* 2.01 km^3^;
 *Höhe:* 688.0 m.ü.M;
 *Tiefe:* 68 m;
 *Volumen:* 0.065 km3
@@ -481,7 +481,7 @@ Hier noch einige Infos:
 *Name:* Wägitalersee;
 *Type:* Speichersee;
 
-*Fläche:* 4.18 km3;
+*Fläche:* 4.18 km^3^;
 *Höhe:* 900.0 m.ü.M;
 *Tiefe:* 65 m;
 *Volumen:* 0.150 km3
