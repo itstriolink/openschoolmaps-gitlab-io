@@ -250,6 +250,7 @@ Die Benutzeroberfläche ist in sieben Bereiche gegliedert.
 . Kartenfenster
 . Statusleiste
 
+.Benutzeroberfläche von QGIS 3
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläche", 401, 312]
 
 Findest du die einzelnen Bereiche
@@ -280,6 +281,7 @@ der Legende oder der Kartenübersicht zu klicken.
 Dann erscheint die Auswahl der Bedienfelder
 und der Werkzeugkästen gemeinsam in einer Liste.
 
+.Liste mit Werkzeugen
 image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 266]
 
 Probiere diese 3 Möglichkeiten aus
@@ -374,6 +376,7 @@ der Kantone geändert werden.
 Öffne deshalb das _Layer Properties_-Fenster
 für die Kantonsgrenzen.
 
+.Darstellungsoptionen des Layers Kantonsgrenzen
 image::einfuehrung_in_qgis/qgis_layer_properties_kantonsgrenzen.PNG["Layer-Eigenschaften Kantonsgrenzen", 537, 359]
 
 Überprüfe,
@@ -398,6 +401,7 @@ Die Seen sollen eine zweifarbige Füllung erhalten.
 mit dem Namen _Layer Properties_
 für den Layer Seen.
 
+.Darstellungsoptionen des Layers Seen
 image::einfuehrung_in_qgis/qgis_layer_properties_seen.PNG["Layer-Eigenschaften Seen", 537, 359]
 
 Erstelle dazu
@@ -443,6 +447,7 @@ Die Werkzeuge für die Navigation
 im Kartenfenster
 sind im Werkzeugkasten _Map Navigation Toolbar_ abgespeichert.
 
+.Navigationswerkzeuge von QGIS
 image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.PNG["Kartennavigationswerkzeuge"]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
