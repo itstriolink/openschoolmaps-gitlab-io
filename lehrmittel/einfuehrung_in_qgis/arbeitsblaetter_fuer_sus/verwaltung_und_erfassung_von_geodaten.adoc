@@ -394,7 +394,7 @@ muss dem Layer noch das gleiche Koordinatenbezugssystem
 wie den restlichen Layern
 zugeordnet werden.
 Öffne die _Layer Properties_ der Hauptorte
-und suche unter _Source:
+und suche unter _Source_:
 das richtige _CRS_/_KBS_.
 Wähle das Koordinatensystem
 CH1903 /LV03 mit der EPSG-Nr. 21781.
