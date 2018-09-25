@@ -121,7 +121,6 @@ Die Resultate werden in Textform ausgegeben:
 .Ausgabe für die Suche auf sbb.ch
 image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2", 644, 173]
 
-
 *Frage 3* +
 Bei beiden Suchen sind die Eingabewerte in Textform.
 
@@ -150,7 +149,6 @@ Resultat zweitrangig und wird
 deshalb auch nicht angezeigt.
 ====
 endif::show_solutions[]
-
 
 Behalte deine Lösungen
 im Hinterkopf.
@@ -228,7 +226,6 @@ Es handelt sich bei beiden
 Fällen um thematische Abfragen.
 ====
 endif::show_solutions[]
-
 
 === Datenbanksprache SQL
 
@@ -425,8 +422,7 @@ WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
 ====
 endif::show_solutions[]
 
-
-== Übung 4
+== QGIS Übung
 
 Die "Spezialität" eines GIS
 soll natürlich auch nicht nur
@@ -447,8 +443,6 @@ Kriterien selektieren
 * Aus bestehenden Werten
 für ein Feld
 einen neuen Wert berechnen
-
-=== Übung
 
 === Thematische Selektion
 
@@ -545,7 +539,6 @@ image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
 ====
 endif::show_solutions[]
 
-
 Kommen wir aber
 zum Anfangsbeispiel zurück.
 Diese Abfrage ist
@@ -595,7 +588,6 @@ WHERE Flaeche > 20 AND Hoehe_muM < 400
 4 Seen
 ====
 endif::show_solutions[]
-
 
 === Räumliche Selektion
 
@@ -729,7 +721,6 @@ image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296]
 ====
 endif::show_solutions[]
 
-
 === Felder berechnen
 
 Als nächstes soll mit Hilfe
@@ -804,7 +795,6 @@ to int ( Einwohner / Flaeche)
 ====
 endif::show_solutions[]
 
-
 Nach dem Berechnen
 muss der Editiermodus
 wieder ausgeschaltet werden.
@@ -855,7 +845,6 @@ der Schweiz beigetreten
 Hauptorte, die in den entsprechenden Kantonen liegen.
 ====
 endif::show_solutions[]
-
 
 Wir werden bei
 dieser Abfrage
