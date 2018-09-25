@@ -705,7 +705,7 @@ ifdef::show_solutions[]
 .Lösung
 Abfrage:
 
-.Räumlcihes Abfragefenster von QGIS
+.Räumliches Abfragefenster von QGIS
 image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage",350,432]
 ====
 endif::show_solutions[]
