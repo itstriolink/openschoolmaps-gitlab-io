@@ -278,7 +278,7 @@ nicht der Grundsatz gilt
 „so genau wie möglich“
 sondern „so genau wie nötig“.
 
-== Übung 3
+== QGIS Übung
 
 Im Theorieteil hast du gelernt,
 wie du zu den Geodaten kommst,
@@ -302,9 +302,7 @@ eines Attributwertes beschriften
 * neue Objekte erfassen
 (Geometrie und Sachattribute)
 
-=== Übung
-
-==== Objekt aus Textfile
+=== Objekt aus Textfile
 
 Die Lage der Kantonshauptorte
 ist im Textfile Hauptorte.txt abgespeichert.
@@ -407,7 +405,7 @@ für die X- und Y-Koordinaten
 eine Position in der Karte berechnet
 und dort ein Punkt abgesetzt.
 
-==== Beschriftung eines Layers
+=== Beschriftung eines Layers
 
 Nun sollen die Hauptorte
 noch beschriftet werden.
@@ -423,7 +421,7 @@ bis die Beschriftung "ins Bild" passt.
 Wähle ausserdem zusätzlich
 geeignetere Punktsymbole für die Hauptorte.
 
-==== Objekte erfassen
+=== Objekte erfassen
 
 Es sollen nun zusätzlich
 zu den bestehenden Seen
