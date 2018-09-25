@@ -95,12 +95,12 @@ Textform in eine Maske eingeben.
 Die Abfrage könnte wie folgt aussehen:
 
 .Eingabe für die Suche auf local.ch
-image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1", 775, 244]
+image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1"]
 
 Und hier die entsprechenden Resultate:
 
 .Ausgabe für die Suche auf local.ch
-image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1", 547, 238]
+image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1"]
 
 Die Resultat werden
 als Adressen (Textform) ausgegeben
@@ -114,12 +114,12 @@ ausfüllen. Die Abfrage könnte wie
 folgt aussehen:
 
 .Eingabe für die Suche auf sbb.ch
-image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2", 317, 247]
+image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2"]
 
 Die Resultate werden in Textform ausgegeben:
 
 .Ausgabe für die Suche auf sbb.ch
-image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2", 644, 173]
+image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
 
 *Frage 3* +
 Bei beiden Suchen sind die Eingabewerte in Textform.
