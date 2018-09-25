@@ -502,7 +502,7 @@ Im unteren linken Bereich
 siehst du eine Zeile
 auf der _Show All Features_ steht
 und ein Menu,
-dass du aufklappen kannst.
+das du aufklappen kannst.
 Suche in diesem Menu,
 im _Field Filter_,
 nach dem Attribut,
