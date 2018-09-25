@@ -202,7 +202,6 @@ du gefunden hast auch dabei ist.
 ====
 endif::show_solutions[]
 
-
 ==== Ausgedruckte Karte oder Karte als PDF
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
@@ -297,7 +296,6 @@ ob die wichtigsten Kartenelemente enthalten sind.
 ====
 endif::show_solutions[]
 
-
 * _welches Thema möchtest du darstellen?_
 * _was soll die Karte aussagen?_
 * _wen willst du mit deiner Karte ansprechen (Nutzerkreis)?_
@@ -309,7 +307,7 @@ Dann geht es jetzt
 an die Umsetzung
 dieses Entwurfes.
 
-== Übung 5
+== QGIS Übung
 
 In dieser letzten Übung
 soll nun der Kartenentwurf
@@ -334,7 +332,7 @@ ein geeignetes Ausgabeformat
 wählen und die Wahl
 auch begründen
 
-=== Übung
+=== Druckzusammenstellung
 
 Bevor du mit
 der Erstellung
@@ -578,7 +576,7 @@ in ein Format zu bringen,
 das für die Weitergabe
 geeignet ist.
 
-==== Karte für Weitergabe vorbereiten
+=== Karte für Weitergabe vorbereiten
 
 Die Karte kann als Raster
 oder als _SVG_ gespeichert,
