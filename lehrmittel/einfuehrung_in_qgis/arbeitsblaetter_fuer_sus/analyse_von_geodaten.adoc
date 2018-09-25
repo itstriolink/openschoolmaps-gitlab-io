@@ -661,10 +661,10 @@ Deshalb lautet
 die topologische Operation _contains_.
 Man geht bei der Wahl
 der topologischen Operation
-also immer vom Ziellayer aus
+also immer vom _Select features from_ aus
 und überprüft,
 wie er im Verhältnis
-zum Referenzlayer steht.
+zum _By comapring to the features from_ steht.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 6_ +
@@ -916,8 +916,9 @@ muss gewählt werden?_
 ifdef::show_solutions[]
 ====
 .Lösung
-*Ziellayer:* Hauptorte +
-*Referenzlayer:* Kantonsgrenzen +
+*Select features from:* Hauptorte +
+*By comparing to
+the features from:* Kantonsgrenzen +
 
 *Topologische Operation:* innerhalb
 ====
