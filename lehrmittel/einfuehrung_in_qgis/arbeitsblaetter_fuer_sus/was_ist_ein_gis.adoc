@@ -254,8 +254,6 @@ Nach dieser Übung kannst du:
 * bestehende Projekte in QGIS öffnen
 * die verschiedenen Navigationsmöglichkeiten
 nennen und anwenden
-* die Anzeige der Daten
-über die Layer-Eigenschaften verändern
 
 === Übung
 
