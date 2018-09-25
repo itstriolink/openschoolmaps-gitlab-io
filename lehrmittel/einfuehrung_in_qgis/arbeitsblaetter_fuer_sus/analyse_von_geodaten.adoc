@@ -464,7 +464,7 @@ im Theorieteil:
 _Es sollen alle Seen
 selektiert werden,
 deren Fläche grösser
-als 20 km2 sind
+als 20 km^2^ sind
 und die tiefer
 als 400 m.ü.M. liegen._
 
@@ -821,7 +821,7 @@ Bestimme in einer weiteren Abfrage
 die Namen aller Hauptorte,
 deren zugehörige Kantone
 eine Bevölkerungsdichte von mehr
-als 200 Einwohner pro km2 haben
+als 200 Einwohner pro km^2^ haben
 und die zwischen 1800
 und 1900 der Schweiz
 beigetreten sind.
@@ -847,7 +847,7 @@ ifdef::show_solutions[]
 *thematisch:*
 
 * Bevölkerungsdichte von mehr als
-200 Einwohner pro km2
+200 Einwohner pro km^2^
 * zwischen 1800 und 1900
 der Schweiz beigetreten
 
@@ -870,7 +870,7 @@ der _Select by expression_
 alle Kantone,
 bei denen die Bevölkerungsdichte
 grösser als
-200 Einwohner pro km2 beträgt
+200 Einwohner pro km^2^ beträgt
 und die zwischen 1800
 und 1900 der Schweiz
 beigetreten sind.
@@ -978,7 +978,7 @@ eine SQL-Abfrage:_ +
 _"Welche Kantone
 haben eine
 grössere Einwohnerdichte
-als 200 Einwohner pro km2,
+als 200 Einwohner pro km^2^,
 traten der Schweiz
 vor dem Jahr 1600 n.Chr. bei
 und haben einen Namen,
@@ -1011,7 +1011,7 @@ _"Selektiere alle Kantone,
 die nach 1600 der Schweiz
 beigetreten sind
 und Kontakt mit einem See haben,
-der grösser als 50 km2 ist"_
+der grösser als 50 km^2^ ist"_
 
 Bei der Beantwortung
 dieser Frage müssen nur
