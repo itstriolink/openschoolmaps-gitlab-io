@@ -253,9 +253,11 @@ Eine _SQL-Abfrage_
 ist vereinfacht dargestellt
 wie folgt aufgebaut:
 
-*SELECT AUSWAHLLISTE* +
-*FROM QUELLE* +
-*WHERE WHERE-KLAUSEL*
+....
+SELECT AUSWAHLLISTE
+FROM QUELLE
+WHERE WHERE-KLAUSEL
+....
 
 Überblick über die Variablen
 die du für einfache Abfragen
@@ -407,14 +409,19 @@ durchgeführt hast._
 
 ifdef::show_solutions[]
 ====
-.Lösung
-. SELECT * +
-FROM seen +
-WHERE Flaeche > 20 AND Tiefe < 400 +
-. SELECT * +
-FROM Adressen +
-WHERE Name = 'Müller' AND Vorname
-= 'Peter' AND Ort = 'Bern'
+.Lösung 1
+....
+SELECT
+FROM seen
+WHERE Flaeche > 20 AND Tiefe < 400
+....
+
+.Lösung 2
+....
+SELECT
+FROM Adressen
+WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
+....
 ====
 endif::show_solutions[]
 
@@ -574,10 +581,11 @@ erfüllen diese Bedingungen?_
 ifdef::show_solutions[]
 ====
 .Lösung
-SELECT * +
-FROM seen +
-WHERE Flaeche > 20 AND Hoehe_muM < 400 +
-
+....
+SELECT
+FROM seen
+WHERE Flaeche > 20 AND Hoehe_muM < 400
+....
 4 Seen
 ====
 endif::show_solutions[]
@@ -869,7 +877,9 @@ die Where-Klausel?_
 ifdef::show_solutions[]
 ====
 .Lösung
+....
 WHERE Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
+....
 ====
 endif::show_solutions[]
 
