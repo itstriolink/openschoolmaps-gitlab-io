@@ -514,10 +514,16 @@ nach dem du filtern möchtest.
 Du möchtest nun z.B.
 nach allen Seen suchen,
 in denen im Namen „Lago“ vorkommt.
-Wähle das Attribut „name“ aus
-im Menu unten links
+Wähle das Attribut „name“
+im Menu unten links aus
 und suche nach
 dem Begriff Lago.
+
+Damit du sofort siehst,
+wie viele Elemente ausgewählt wurden,
+kannst du die Option
+_Show Selected Features_
+aktivieren.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 4_ +
@@ -652,7 +658,7 @@ eines Kantones liegen.
 D.h. die Kantonsflächen
 enthalten die Seeflächen.
 Deshalb lautet
-die topologische Operation _contain_.
+die topologische Operation _contains_.
 Man geht bei der Wahl
 der topologischen Operation
 also immer vom Ziellayer aus
