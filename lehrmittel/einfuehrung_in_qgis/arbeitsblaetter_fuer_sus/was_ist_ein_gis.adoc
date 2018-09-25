@@ -309,13 +309,13 @@ vor dem Namen in der Werkzeugleiste
 ein- oder ausgeblendet werden.
 
 Eine andere Möglichkeit
-um die Legende,
+um das Layerfenster,
 die Kartenübersicht
 oder einzelne Werkzeugkästen ein- und auszublenden,
 ist,
 mit der rechten Maustaste
 auf den grau gepunkteten Rand eines Werkzeugkastens,
-der Legende oder der Kartenübersicht zu klicken.
+dem Layerfenster oder der Kartenübersicht zu klicken.
 Dann erscheint die Auswahl der Bedienfelder
 und der Werkzeugkästen gemeinsam in einer Liste.
 
@@ -343,7 +343,7 @@ Wähle die Datei Teil1.qgs aus
 und bestätige deine Eingabe
 durch Klicken auf den Open-Button.
 
-In der Legende
+Im Layerfenster
 erscheinen nun zwei Einträge:
 Seen und Kantonsgrenzen.
 Diese Einträge werden Layer genannt.
@@ -351,10 +351,10 @@ Im Kartenfenster
 sind die grossen Seen
 und die Kantone grafisch dargestellt.
 
-==== Legende und Kartenfenster
+==== Layerfenster und Kartenfenster
 
 In einem ersten Schritt
-wollen wir das Zusammenspiel der Legende
+wollen wir das Zusammenspiel des Layerfensters
 und des Kartenfensters etwas besser kennenlernen.
 
 Die einzelnen Layer
@@ -374,8 +374,8 @@ und _Zoom to Layer_ wählen.
 Nun solltest du die Karte im Kartenfenster sehen.
 
 Die Darstellungsreihenfolge im Kartenfenster
-entspricht der Reihenfolge in der Legende.
-D.h. die Seen liegen in der Legende
+entspricht der Reihenfolge im Layerfenster.
+D.h. die Seen liegen im Layerfenser
 oberhalb der Kantonsgrenzen
 und werden deshalb auch im Kartenfenster
 über diesen angezeigt.
@@ -387,7 +387,7 @@ den du gerne verschieben möchtest,
 und bewegst ihn
 mit gedrückter Maustaste an die neue Stelle.
 Probiere diese Funktion aus,
-indem du die Kantonsgrenzen in der Legende
+indem du die Kantonsgrenzen im Layerfenster
 über die Seen legst.
 Beobachte dabei,
 was mit der Darstellung im Kartenfenster geschieht.
@@ -479,7 +479,7 @@ Die Kantonsgrenzen erscheinen in der Kartenübersicht.
 Es können beliebige weitere Layer
 hinzugefügt werden.
 Die Darstellungsreihenfolge wird von der Reihenfolge
-in der Legende übernommen.
+im Layerfenster übernommen.
 
 Die Werkzeuge für die Navigation
 im Kartenfenster
