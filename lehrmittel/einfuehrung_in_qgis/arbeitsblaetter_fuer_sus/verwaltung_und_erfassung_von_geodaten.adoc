@@ -301,6 +301,8 @@ in einem GIS räumlich visualisieren
 eines Attributwertes beschriften
 * neue Objekte erfassen
 (Geometrie und Sachattribute)
+* die Anzeige der Daten
+über die Layer-Eigenschaften verändern
 
 === Übung
 
