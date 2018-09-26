@@ -30,3 +30,28 @@ Schauen Sie sich dazu das Arbeitsblatt
 auf
 https://www.openschoolmaps.ch
 an.
+
+=== Geodaten erfassen
+
+Wenn Sie stattdessen die Geodaten selber erfassen wollen,
+können Sie dies mit zum Beispiel geojson.io
+oder QGIS Desktop
+(Sehen Sie dazu: https://www.qgistutorials.com/de/)
+machen.
+
+Nachdem Sie ihre Geodaten erfasst haben,
+kopieren Sie sich die Daten in die Zwischenablage
+und fügen Sie es in uMap unter _Import Data_ ein.
+
+NOTE: Stellen Sie sicher,
+dass Sie ihre Daten in einer der folgenden Dateiformaten erfasst haben:
+*geojson, csv, gpx, kml, osm, georss, umap*
+
+.Beispiel wie man ein GeoJSON in uMap importiert
+image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMap", 275, 306]
+
+Sie haben auch die Möglichkeit eine Datei
+(Sehen Sie Kapitel tbd.)
+oder eine Webseite
+(Sehen Sie Kapitel tbd.)
+zu importieren.
