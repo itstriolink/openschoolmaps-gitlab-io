@@ -256,7 +256,7 @@ NOTE: Das KBS
 (Koordinatenbezugssystem) sollte
 in unserem vorgegebenen Projekt
 schon richtig gesetzt sein.
-Wenn du trotzdem wissen wolltest,
+Wenn du trotzdem wissen willst,
 wie du das KBS ändern kannst,
 kannst du das folgende
 optionale Kapitel lesen.
