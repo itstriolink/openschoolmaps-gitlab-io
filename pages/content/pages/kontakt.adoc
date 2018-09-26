@@ -1,0 +1,7 @@
+= Kontakt
+
+:date: 2018-07-11
+:category: OpenSchoolMaps
+:tags: Kontakt, Kontaktdaten, Email, PDF
+:slug: kontakt
+Bei Fragen, wenden Sie sich an OSM Schweiz (info@osm.ch) oder Stefan Keller (sfkeller@hsr.ch).
