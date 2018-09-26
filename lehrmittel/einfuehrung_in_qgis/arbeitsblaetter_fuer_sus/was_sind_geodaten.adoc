@@ -265,7 +265,7 @@ optionale Kapitel lesen.
 In QGIS
 werden Projektionen
 meistens mit
-einem EPSG Code
+einem EPSG-Code
 mitgegeben.
 
 QGIS hat einige nützliche
