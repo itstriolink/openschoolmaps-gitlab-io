@@ -323,7 +323,6 @@ nicht sicher bist,
 welchen EPSG-Code
 du verwenden sollst,
 kannst du auf
-dieser Webseite:
 http://spatialreference.org/
 nachschauen.
 
