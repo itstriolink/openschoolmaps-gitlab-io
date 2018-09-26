@@ -50,11 +50,19 @@ dass Sie ihre Daten in einer der folgenden Dateiformaten erfasst haben:
 .Beispiel wie man ein GeoJSON in uMap importiert
 image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMap", 275, 306]
 
-Sie haben auch die Möglichkeit eine Datei
+NOTE: Sie haben auch die Möglichkeit eine Datei
 (Sehen Sie Kapitel tbd.)
 oder eine Webseite
 (Sehen Sie Kapitel tbd.)
 zu importieren.
+
+Unter
+_Choose the layer to import in_
+müssen Sie das Dateiformat ihrer Datei angeben.
+
+Mit der Schaltfläche
+_Import_
+werden Ihre Dateien in uMap importiert.
 
 === Daten in OpenStreetMap erfassen
 
