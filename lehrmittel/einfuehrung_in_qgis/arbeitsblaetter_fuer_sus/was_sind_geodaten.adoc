@@ -320,7 +320,7 @@ das KBS abändern.
 
 Wenn du dir
 nicht sicher bist,
-welchen EPSG Code
+welchen EPSG-Code
 du brauchen sollst,
 kannst du auf
 dieser Webseite:
