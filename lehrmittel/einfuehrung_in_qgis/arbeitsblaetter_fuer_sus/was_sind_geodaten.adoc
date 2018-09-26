@@ -176,7 +176,7 @@ wie z.B. ein Messwert.
 Schaue dir als Beispiel
 für Raster aus Messwerten
 die Karte mit den Schneehöhen
-auf der https://www.slf.ch/de.html[Homepage]
+auf der https://www.slf.ch/de.html
 des Instituts für Schnee-
 und Lawinenforschung (SLF) an.
 
@@ -477,7 +477,7 @@ Unter dem Titel Verfügbare WMS-Dienste
 sind unter GetCapabilities die Anfragen
 in Form von Links abgespeichert.
 Wenn du z.B. auf den Link
-http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de[GetCapabilities BGDI]
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de
 klickst,
 wird eine Anfrage an den Server
 http://wms.geo.admin.ch/
