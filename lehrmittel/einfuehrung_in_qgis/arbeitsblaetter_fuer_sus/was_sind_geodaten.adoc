@@ -5,7 +5,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*Ein Arbeitsblatt*
+ifdef::show_solutions[- *LÖSUNGEN*]
 
 == Geodaten und Raumbezug
 
@@ -16,7 +17,8 @@ um raumbezogene Daten handelt.
 Diese raumbezogenen Daten
 werden oft auch Geodaten genannt.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 1_ +
 _Überlege dir als Einstieg in dieses Kapitel,
 was mit den Begriffen Geodaten
 und raumbezogen gemeint sein könnte.
@@ -27,6 +29,13 @@ Verzichte darauf die Wörter im Internet
 oder in einem Lexikon nachzuschlagen.
 Schreibe deine Überlegungen
 auf dein Arbeitsblatt._
+
+ifdef::show_solutions[]
+====
+.Lösung
+Vergleiche deine Lösung mit der Theorie im ersten Teil dieses Kapitels.
+====
+endif::show_solutions[]
 
 === Lernziele der Theorie
 
@@ -123,7 +132,8 @@ auf dem Computer
 digitale Fotos anschaust,
 dann schaust du dir Rasterdaten an.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 2_ +
 _Um die wichtigsten Eigenschaften eines Rasterbildes kennen zu lernen,
 öffne das Bild Testfoto.jpg,
 welches sich im Ordner
@@ -138,6 +148,21 @@ wenn du immer weiter reinzoomst?_
 * _Wie sind die Objekte,
 die auf dem Bild dargestellt sind,
 abgespeichert?_
+
+//-
+
+ifdef::show_solutions[]
+====
+.Lösung
+. Wenn du weiter ins Bild reinzoomst, dann
+siehst du ab einer gewissen Zoomstufe, dass
+das Bild aus vielen farbigen Rechtecken besteht.
+Je weiter du reinzoomst, desto grösser
+werden diese Rechtecke.
+. Ein Objekt mit Hilfe von vielen
+farbigen Rechtecken abgespeichert.
+====
+endif::show_solutions[]
 
 Rasterdaten kann man sich so vorstellen,
 als würde z.B. über die Landschaft,
@@ -199,7 +224,8 @@ in einer Tabelle abgespeichert.
 
 ===== Vergleich Vektor- und Rasterdaten
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 3_ +
 _Stelle dir nun vor,
 dass du ein Gebäude
 in einem GIS darstellen möchtest.
@@ -215,6 +241,47 @@ Zeichne dies auf deinem Arbeitsblatt auf. +
 Überlege dir,
 welches Format (Raster oder Vektor)
 wohl mehr Speicherplatz benötigt._
+
+ifdef::show_solutions[]
+====
+.Lösung
+*Rasterdaten*
+
+.Beispiel für Rasterdaten
+image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
+
+*Vektordaten*
+
+.Beispiel für Vektordaten
+image::einfuehrung_in_qgis/vektordaten.png["Vektordaten", 185, 112]
+
+*Speicherplatzbedarf* +
+Bei den Rasterdaten wird für jedes Pixel
+ein Wert abgespeichert. Bei den Vektordaten
+wird die Fläche des Gebäudes als geschlossener
+Linienzug abgespeichert. Und jede Linie dieses
+Linienzuges wird durch zwei Punkte definiert.
+Deshalb ist der Speicherbedarf bei den
+Vektordaten viel kleiner.
+
+Damit der Speicherbedarf bei den
+Rasterdaten kleiner wird, können
+Formate verwendet werden, welche
+die Raster komprimieren. Dabei wird
+zwischen verlustbehafteten (z.B. jpg)
+und verlustfreien Kompressionen
+(z.B. .png, .bmp) unterschieden.
+
+Falls du mehr zum Thema
+Datenkompression
+erfahren möchtest,
+kannst du
+den folgenden Artikel
+auf Wikipedia lesen:
+
+https://de.wikipedia.org/wiki/Bildkompression
+====
+endif::show_solutions[]
 
 ===== Metadaten 
 
@@ -324,7 +391,7 @@ kannst du auf
 http://spatialreference.org/
 nachschauen.
 
-== Übung 2
+== QGIS Übung
 
 Im Theorieteil hast du
 einiges über Vektor-
@@ -343,15 +410,13 @@ in der Lage folgendes zu tun:
 für ein neues Projekt wählen
 * Vektordaten und WMS-Dienste ins Projekt laden
 
-=== Übung
+=== Projekteinstellungen
 
 Um ein leeres Projekt zu öffnen,
 schliesse und öffne entweder QGIS neu
 oder klicke auf den Button Neues Projekt.
 In das leere Projekt sollen nun
 Geodaten geladen werden.
-
-==== Projekteinstellungen
 
 Bevor jedoch Daten geladen werden,
 sollte das Koordinatensystem
@@ -397,14 +462,14 @@ Damit die neue Hintergrundfarbe erscheint,
 muss im Kartenfenster eine Navigationsfunktion
 wie z.B. Karte verschieben ausgeführt werden.
 
-==== Projekt speichern
+=== Projekt speichern
 
 Speichere mit dem _Save Project_-Button
 dein neues Projekt in den Ordner,
 in welchem du die Daten
 für diese Übung abgespeichert hast.
 
-==== Daten einlesen
+=== Daten einlesen
 
 Die Karte ist nun soweit bereit,
 dass Daten eingelesen werden können.
@@ -415,7 +480,7 @@ von Daten,
 die eingelesen werden können,
 hat es auch unterschiedliche Buttons.
 
-===== Vektordaten einlesen
+==== Vektordaten einlesen
 
 In einem ersten Schritt
 sollen nun die Vektordaten
@@ -449,16 +514,52 @@ die zu den Seen erfasst wurden.
 Welche Informationen wurden
 als Attribut abgespeichert?
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 4_ +
 _Schaue dir die Tabelle genau an
 und schreibe auf,
 welche Daten die einzelnen Spalten beinhalten._
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+ifdef::show_solutions[]
+====
+_Lösung_
+
+.Tabelle des Layers Seen
+image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
+
+_name:_ Die Namen der Seen +
+_type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
+_Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
+_max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
+_Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
+_Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 5_ +
 _Mache das Gleiche
 auch für die Kantonsgrenzen._
 
-===== Rasterdaten einlesen
+ifdef::show_solutions[]
+====
+_Lösung_
+
+.Tabelle des Layers Kantone
+image::einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120]
+
+_Name:_ Namen der Kantone +
+_Kuerzel:_ Kantonskürzel +
+_Beitrittsj:_ Beitrittsjahr zur Schweiz +
+_Einwohner:_ Anzahl Einwohner +
+_Gemeinden:_ Anzahl Gemeinden +
+_Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
+_Staende:_ Anzahl Stände (0.5 = Halbkanton) +
+_Flaeche:_ Fläche des Kantons in Quadratkilometer [km^2^]
+====
+endif::show_solutions[]
+
+==== Rasterdaten einlesen
 
 Die Rasterdaten sollen in Form
 eines WMS-Layers eingelesen werden.
@@ -485,8 +586,8 @@ gestartet und du erhältst
 als Antwort eine Auflistung
 der verfügbaren WMS-Services.
 
-Unter <__Title__> findest du den Titel
-des WMS-Services und unter <__Abstract__>
+Unter _Title_ findest du den Titel
+des WMS-Services und unter _Abstract_
 einen kurzen Beschrieb,
 was genau in den Daten abgespeichert ist.
 Zusätzlich sind auch Informationen
@@ -514,7 +615,7 @@ muss eine neue WMS-Verbindung
 erstellt werden.
 Dazu muss auf den _New_-Button
 geklickt werden.
-Gib im Fenster _Create a New WMS/WMTS Connection_ anlegen
+Gib im Fenster _Create a New WMS/WMTS Connection_
 den Namen der Verbindung an (z.B. WMS-BGDI)
 und die URL zum gewünschten Server
 (in unserem Fall http://wms.geo.admin.ch/).
@@ -550,14 +651,15 @@ muss die Layerreihenfolge angepasst werden.
 Denke dir eine geeignete Reihenfolge aus
 und wende sie an.
 
-===== Vergleich zwischen Raster- und Vektordaten
+==== Vergleich zwischen Raster- und Vektordaten
 
 Zum Schluss dieser Übung
 sollst du dir die Unterschiede
 zwischen Vektor- und Rasterdaten
 nochmals etwas genauer anschauen.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 6_ +
 _Blende dazu den Layer mit den Kantonsgrenzen aus
 und zoome zu einem beliebigen See.
 Zoome am Uferbereich immer weiter hinein
@@ -571,6 +673,14 @@ um auch die Rasterdaten
 unter dem See-Layer zu sehen.
 Schreibe deine Beobachtungen
 in eigenen Worten auf._
+
+ifdef::show_solutions[]
+====
+.Lösung
+Bei den Rasterdaten besteht die Seegrenze aus
+blauen Pixeln und bei den Vektordaten aus Linien.
+====
+endif::show_solutions[]
 
 Speichere dein Projekt ab.
 In der nächsten Übung wirst du
