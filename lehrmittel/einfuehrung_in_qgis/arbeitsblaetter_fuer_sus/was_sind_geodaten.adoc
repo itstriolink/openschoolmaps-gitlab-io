@@ -271,19 +271,17 @@ mitgegeben.
 QGIS hat einige nützliche
 Werkzeuge, um nach spezifischen
 Projektionen zu suchen.
-Dazu kann QGIS,
+Hierzu kann QGIS,
 in Echtzeit
 das KBS
 für ein Projekt
 projizieren.
 
-===== Projizieren in Echtzeit
-
-Du kannst das KBS
-eines Projekts abändern,
-in dem du
+Um das KBS
+eines Projekts zu ändern,
+kannst du
 in der Statusleiste
-auf den EPSG-Code klickst
+auf den EPSG-Code klicken
 und ein neues KBS auswählst.
 
 ===== Projektion eines Layers
