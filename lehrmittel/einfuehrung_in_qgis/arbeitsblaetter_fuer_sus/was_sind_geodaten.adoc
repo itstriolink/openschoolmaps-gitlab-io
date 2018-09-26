@@ -253,8 +253,8 @@ so ist auch die Karte
 im GIS-Projekt nicht mehr sichtbar.
 
 NOTE: Das KBS
-(Koordinatenbezugssystem) sollte,
-in unserem vorgegebenen Projekt,
+(Koordinatenbezugssystem) sollte
+in unserem vorgegebenen Projekt
 schon richtig gesetzt sein.
 Wenn du trotzdem wissen wolltest,
 wie du das KBS ändern kannst,
