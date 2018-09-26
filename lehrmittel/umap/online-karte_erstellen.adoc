@@ -47,14 +47,14 @@ NOTE: Stellen Sie sicher,
 dass Sie ihre Daten in einer der folgenden Dateiformaten erfasst haben:
 *geojson, csv, gpx, kml, osm, georss, umap*
 
-.Beispiel wie man ein GeoJSON in uMap importiert
-image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMap", 275, 306]
-
 NOTE: Sie haben auch die Möglichkeit eine Datei
 (Sehen Sie Kapitel tbd.)
 oder eine Webseite
 (Sehen Sie Kapitel tbd.)
 zu importieren.
+
+.Beispiel wie man ein GeoJSON in uMap importiert
+image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMap", 275, 306]
 
 Unter
 _Choose the layer to import in_
