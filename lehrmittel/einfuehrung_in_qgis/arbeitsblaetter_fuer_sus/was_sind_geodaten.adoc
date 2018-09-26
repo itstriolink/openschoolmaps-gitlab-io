@@ -324,7 +324,6 @@ kannst du auf
 http://spatialreference.org/
 nachschauen.
 
-
 == Übung 2
 
 Im Theorieteil hast du
