@@ -267,7 +267,7 @@ In QGIS
 werden Projektionen
 meistens mit
 einem EPSG-Code
-mitgegeben.
+angegeben.
 
 QGIS hat einige nützliche
 Werkzeuge, um nach spezifischen
