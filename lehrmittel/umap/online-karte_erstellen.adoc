@@ -86,3 +86,7 @@ müssen Sie das Dateiformat ihrer Datei angeben.
 Mit der Schaltfläche
 _Import_
 werden Ihre Dateien in uMap importiert.
+
+CAUTION: Vergewissern Sie sich,
+falls Ihre Daten vom Internet stammen,
+dass Sie keine Lizenzen verstossen.
