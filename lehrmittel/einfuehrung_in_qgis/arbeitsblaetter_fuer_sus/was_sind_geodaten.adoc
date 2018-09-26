@@ -319,7 +319,7 @@ kannst du dann
 das KBS abändern.
 
 Wenn du dir
-nicht sicher bist
+nicht sicher bist,
 welchen EPSG Code
 du brauchen sollst,
 kannst du auf
