@@ -303,11 +303,11 @@ Danach kannst du
 das gewünschte
 KBS auswählen.
 
-===== Reprojizieren der Daten
+===== Umprojizieren der Daten
 
 Um die Daten
 in deiner Tabelle
-reprojizieren zu können,
+umprojizieren zu können,
 musst nur den Layernamen
 rechtsklicken,
 auf _Export_ klicken
