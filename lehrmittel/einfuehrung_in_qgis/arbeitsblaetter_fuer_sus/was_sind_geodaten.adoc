@@ -176,9 +176,10 @@ wie z.B. ein Messwert.
 Schaue dir als Beispiel
 für Raster aus Messwerten
 die Karte mit den Schneehöhen
-auf der https://www.slf.ch/de.html
+auf der Homepage
 des Instituts für Schnee-
-und Lawinenforschung (SLF) an.
+und Lawinenforschung (SLF) an:
+https://www.slf.ch/de.html
 
 ===== Vektordaten
 
