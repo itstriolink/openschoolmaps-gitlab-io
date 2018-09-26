@@ -269,10 +269,10 @@ einem EPSG-Code
 mitgegeben.
 
 QGIS hat einige nützliche
-Werkzeuge um nach spezifischen
+Werkzeuge, um nach spezifischen
 Projektionen zu suchen.
 Dazu kann QGIS,
-in Echtzeit,
+in Echtzeit
 das KBS
 für ein Projekt
 projizieren.
