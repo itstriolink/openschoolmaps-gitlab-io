@@ -321,7 +321,7 @@ das KBS abändern.
 Wenn du dir
 nicht sicher bist,
 welchen EPSG-Code
-du brauchen sollst,
+du verwenden sollst,
 kannst du auf
 dieser Webseite:
 http://spatialreference.org/
