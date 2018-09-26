@@ -318,7 +318,7 @@ Hat man z.B. keine Internetverbindung mehr,
 so ist auch die Karte
 im GIS-Projekt nicht mehr sichtbar.
 
-== Übung 2
+== QGIS Übung
 
 Im Theorieteil hast du
 einiges über Vektor-
@@ -337,15 +337,13 @@ in der Lage folgendes zu tun:
 für ein neues Projekt wählen
 * Vektordaten und WMS-Dienste ins Projekt laden
 
-=== Übung
+=== Projekteinstellungen
 
 Um ein leeres Projekt zu öffnen,
 schliesse und öffne entweder QGIS neu
 oder klicke auf den Button Neues Projekt.
 In das leere Projekt sollen nun
 Geodaten geladen werden.
-
-==== Projekteinstellungen
 
 Bevor jedoch Daten geladen werden,
 sollte das Koordinatensystem
@@ -391,14 +389,14 @@ Damit die neue Hintergrundfarbe erscheint,
 muss im Kartenfenster eine Navigationsfunktion
 wie z.B. Karte verschieben ausgeführt werden.
 
-==== Projekt speichern
+=== Projekt speichern
 
 Speichere mit dem _Save Project_-Button
 dein neues Projekt in den Ordner,
 in welchem du die Daten
 für diese Übung abgespeichert hast.
 
-==== Daten einlesen
+=== Daten einlesen
 
 Die Karte ist nun soweit bereit,
 dass Daten eingelesen werden können.
@@ -409,7 +407,7 @@ von Daten,
 die eingelesen werden können,
 hat es auch unterschiedliche Buttons.
 
-===== Vektordaten einlesen
+==== Vektordaten einlesen
 
 In einem ersten Schritt
 sollen nun die Vektordaten
@@ -488,7 +486,7 @@ _Flaeche:_ Fläche des Kantons in Quadratkilometer [km^2^]
 ====
 endif::show_solutions[]
 
-===== Rasterdaten einlesen
+==== Rasterdaten einlesen
 
 Die Rasterdaten sollen in Form
 eines WMS-Layers eingelesen werden.
@@ -580,7 +578,7 @@ muss die Layerreihenfolge angepasst werden.
 Denke dir eine geeignete Reihenfolge aus
 und wende sie an.
 
-===== Vergleich zwischen Raster- und Vektordaten
+==== Vergleich zwischen Raster- und Vektordaten
 
 Zum Schluss dieser Übung
 sollst du dir die Unterschiede

@@ -278,7 +278,7 @@ nicht der Grundsatz gilt
 „so genau wie möglich“
 sondern „so genau wie nötig“.
 
-== Übung 3
+== QGIS Übung
 
 Im Theorieteil hast du gelernt,
 wie du zu den Geodaten kommst,
@@ -304,9 +304,7 @@ eines Attributwertes beschriften
 * die Anzeige der Daten
 über die Layer-Eigenschaften verändern
 
-=== Übung
-
-==== Objekt aus Textfile
+=== Objekt aus Textfile
 
 Die Lage der Kantonshauptorte
 ist im Textfile Hauptorte.txt abgespeichert.
@@ -409,7 +407,7 @@ für die X- und Y-Koordinaten
 eine Position in der Karte berechnet
 und dort ein Punkt abgesetzt.
 
-==== Beschriftung eines Layers
+=== Beschriftung eines Layers
 
 Nun sollen die Hauptorte
 noch beschriftet werden.

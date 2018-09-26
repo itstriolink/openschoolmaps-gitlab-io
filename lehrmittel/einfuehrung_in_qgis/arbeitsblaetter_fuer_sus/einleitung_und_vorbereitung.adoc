@@ -112,9 +112,9 @@ Du musst also immer ein Blatt Papier oder ein Heft zur Hand haben.
 Lies jeweils die Frage durch
 und beantworte sie schriftlich.
 Wenn du sie beantwortet hast,
-kannst du auf das Ausrufezeichen klicken
-um die Lösung zu sehen.
-Diese Lösung kannst du dann mit deiner Antwort vergleichen.
+kannst du deine Lösung
+mit der Lösung
+im Lösungsblatt vergleichen.
 
 Hier das Ganze nochmals in der Zusammenfassung:
 
@@ -126,8 +126,6 @@ Falls grünes Licht durch Lehrperson, weiter zu 5.
 Falls Antworten fehlerhaft, zurück zu 3.
 . Theorie von nächstem Kapitel durcharbeiten
 . ....
-
-Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
 
 == Vorbereitung
 
@@ -176,10 +174,17 @@ QGIS-OSGeo4W-3.2.2-Setup-x86_64.exe
 oder
 QGIS-OSGeo4W-3.2.2-Setup-x86.exe
 
+NOTE: Eine Alternative zur Installation der Software QGIS
+ist der Lernstick
+https://lernstick.ch
+(Zurzeit wird auf dem Lernstick nur QGIS 2.18 unterstützt)
+
 === Beispieldaten herunterladen
 
-Lade das zip-File
-mit den Daten für die Übungen dieses Leitprogrammes
-unter folgendem Link herunter.
-
-https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/download?job=QGIS+excercise+data
+Das zip-File
+mit den Daten
+für die Übungen
+dieses Leitprogrammes
+findest du auf
+https://www.openschoolmaps.ch
+unter Unterrichtsmaterialien.
