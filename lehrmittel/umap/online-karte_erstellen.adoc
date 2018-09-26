@@ -1,0 +1,32 @@
+= Mit uMap eine thematische Online-Karte erstellen
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+
+*Eine Anleitung für Lehrpersonen*
+
+== Übersicht
+
+.Ziel
+Das Ziel dieser Anleitung ist es,
+dass Lehrpersonen wie Sie fähig sind,
+mit uMap eine thematische Online-Karte zu erstellen,
+die sich immer aktuell haltet.
+
+.Zeitplanung
+tbd.
+
+== Daten nicht in OpenStreetMap vorhanden?
+
+=== Daten manuell in uMap erfassen
+
+Wenn sich die Daten,
+die Sie in uMap einbinden wollen,
+nicht in OpenStreetMap befinden,
+können Sie die Daten von Hand in uMap erfassen.
+Schauen Sie sich dazu das Arbeitsblatt
+"Mit uMap einen Lageplan erstellen"
+auf
+https://www.openschoolmaps.ch
+an.
