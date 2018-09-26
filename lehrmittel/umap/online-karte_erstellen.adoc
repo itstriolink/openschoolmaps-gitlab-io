@@ -55,3 +55,10 @@ Sie haben auch die Möglichkeit eine Datei
 oder eine Webseite
 (Sehen Sie Kapitel tbd.)
 zu importieren.
+
+=== Daten in OpenStreetMap erfassen
+
+Eine weitere Möglichkeit ist,
+dass Sie die Daten selber in OpenStreetMap gleich erfassen.
+Nachdem OpenStreetMap erfolgreich die Daten auf der Webseite darstellt,
+können Sie auf Kapitel *Daten in OpenStreetMap vorhanden* fortfahren.
