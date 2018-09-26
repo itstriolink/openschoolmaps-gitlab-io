@@ -283,7 +283,7 @@ Du kannst das KBS
 eines Projekts abändern,
 in dem du
 in der Statusleiste
-auf den EPSG Code klickst
+auf den EPSG-Code klickst
 und ein neues KBS auswählst.
 
 ===== Projektion eines Layers
