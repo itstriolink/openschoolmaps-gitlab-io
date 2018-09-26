@@ -5,9 +5,7 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
-
-Herzlich willkommen zum HSR-Leitprogramm
+Herzlich willkommen zum Leitprogramm
 "Einführung in die Opensource-Software QGIS".
 Bevor du mit der Bearbeitung des Leitprogramms beginnst,
 hier noch einige Informationen.
@@ -47,8 +45,7 @@ einsetzen zu können.
 
 === Lernziele
 
-Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können
-(ausser du wurdest anders instruiert):
+Du sollst nach dem Durcharbeiten des Leitprogramms folgendes können:
 
 * die Funktionen und Komponenten eines GIS aufzählen
 * ein kleineres GIS-Projekt
@@ -92,16 +89,18 @@ dass du den Inhalt des Kapitels verstanden hast,
 dann kannst du zum Kapiteltest gehen.
 Dieser Test muss ohne Unterlagen und Notizen gelöst werden.
 Wenn du alle Fragen beantwortet hast,
-gehe mit deinen Antworten zu deinem Lehrer.
-Er wird deine Antworten korrigieren.
-Wenn die Antworten richtig waren,
+gehe mit deinen Antworten zu deinem Lehrer
+oder korrigiere deine Antworten selber
+mit dem Lösungsblatt.
+Wenn dein Lehrer deine Antworten korrigiert
+und die Antworten richtig waren,
 dann gibt er dir grünes Licht
 um mit dem nächsten Kapitel weiter zu machen.
 Falls du eine Frage falsch beantwortet hast,
 hast du Zeit,
 die Theorie nochmals durchzugehen
 und
-dir Frage nochmals zu beantworten.
+die Frage nochmals zu beantworten.
 Wenn der Lehrer dann mit deiner Antwort zufrieden ist,
 dann kannst du auch mit dem nächsten Kapitel weitermachen.
 
@@ -113,9 +112,9 @@ Du musst also immer ein Blatt Papier oder ein Heft zur Hand haben.
 Lies jeweils die Frage durch
 und beantworte sie schriftlich.
 Wenn du sie beantwortet hast,
-kannst du auf das Ausrufezeichen klicken
-um die Lösung zu sehen.
-Diese Lösung kannst du dann mit deiner Antwort vergleichen.
+kannst du deine Lösung
+mit der Lösung
+im Lösungsblatt vergleichen.
 
 Hier das Ganze nochmals in der Zusammenfassung:
 
@@ -127,8 +126,6 @@ Falls grünes Licht durch Lehrperson, weiter zu 5.
 Falls Antworten fehlerhaft, zurück zu 3.
 . Theorie von nächstem Kapitel durcharbeiten
 . ....
-
-Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
 
 == Vorbereitung
 
@@ -177,10 +174,17 @@ QGIS-OSGeo4W-3.2.2-Setup-x86_64.exe
 oder
 QGIS-OSGeo4W-3.2.2-Setup-x86.exe
 
+NOTE: Eine Alternative zur Installation der Software QGIS
+ist der Lernstick
+https://lernstick.ch
+(Zurzeit wird auf dem Lernstick nur QGIS 2.18 unterstützt)
+
 === Beispieldaten herunterladen
 
-Lade das zip-File
-mit den Daten für die Übungen dieses Leitprogrammes
-unter folgendem Link herunter.
-
-http://www.qgis-lp.ethz.ch/V16/Daten_Leitprogramm_QGIS.zip[Daten Leitprogramm]
+Das zip-File
+mit den Daten
+für die Übungen
+dieses Leitprogrammes
+findest du auf
+https://www.openschoolmaps.ch
+unter Unterrichtsmaterialien.
