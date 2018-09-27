@@ -17,6 +17,19 @@ die sich immer aktuell haltet.
 .Zeitplanung
 tbd.
 
+== Geodaten in uMap einbinden
+
+Um zu beginnen suchen Sie in OpenStreetMap nach den Geodaten,
+die Sie in uMap einbinden wollen.
+Wenn sich die Geodaten,
+die Sie wollen,
+nicht in OpenStreetMap befinden,
+können Sie mit dem nächsten Kapitel fortfahren.
+
+Andernfalls fahren Sie zum Kapitel
+_Daten in OpenStreetMap vorhanden_
+fort.
+
 == Daten nicht in OpenStreetMap vorhanden?
 
 === Daten manuell in uMap erfassen
