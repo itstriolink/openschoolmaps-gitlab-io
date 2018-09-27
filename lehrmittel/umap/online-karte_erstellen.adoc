@@ -16,6 +16,9 @@ die sich immer aktuell haltet.
 .Zeitplanung
 tbd.
 
+.Kapitelübersicht
+image::umap/online-karte_erstellen/uml_diagram.svg["SVG"]
+
 :sectnums:
 == Geodaten in uMap einbinden
 
