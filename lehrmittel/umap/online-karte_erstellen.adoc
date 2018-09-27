@@ -140,3 +140,66 @@ können Sie unter _Export_ die Ergebnisse als GeoJSON exportieren.
 
 Wie Sie eine Datei in uMap importieren,
 sehen Sie im Kapitel _Geodaten erfassen_.
+
+=== Daten immer auf dem aktuellsten Stand halten
+
+Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten,
+ist das ganze ein wenig komplizierter.
+Öffnen Sie hierzu wieder https://overpass-turbo.osm.ch/
+und suchen Sie mit dem Wizard nach z.b *amenity=bar*.
+Nun drücken Sie auf
+_convert to (*compact*)_
+unter _Export_ -> _Query_.
+
+Ihnen wird ein neuer Tab geöffnet mit einem Hyperlink.
+Öffnen Sie den Hyperlink und kopieren Sie sich die URL.
+Auf https://meyerweb.com/eric/tools/dencoder/ können Sie die URL einfügen und decodieren.
+
+Nun müssen Sie im decodierten Code alle 3 Koordinatenangaben mit
+`+({south},{west},{north},{east})+`
+ersetzten.
+
+Die URL sollte nun etwa so aussehen:
+
+....
+https://overpass.osm.ch/api/interpreter?data=[out:json][timeout:25];(node["amenity"="bar"]({south},{west},{north},{east});way["amenity"="bar"]({south},{west},{north},{east});relation["amenity"="bar"]({south},{west},{north},{east}););out;>;out skel qt;
+....
+
+Kopieren Sie sich diese URL
+und
+gehen Sie auf Ihre uMap Karte.
+Editieren Sie den aktuellen Layer
+(oder erzeugen Sie einen neuen Layer)
+in dem Sie auf das Stift-Symbol klicken
+unter _Manage layers_.
+
+.Layer editieren in uMap
+image::umap/online-karte_erstellen/umap_manage_layers.PNG["Manage Layers Menu"]
+
+Im Editiermenu öffnen Sie das Menu
+_Remote Data_
+und fügen Sie die kopierte URL in das Textfeld URL.
+
+Als _Format_ wählen Sie OSM aus
+und
+aktivieren Sie dazu noch die Schaltfläche _Dynamic_.
+
+.Remote Data in uMap eintragen
+image::umap/online-karte_erstellen/umap_remote_data.PNG["Remote Data Menu"]
+
+Unter _From zoom_ können Sie noch ein minimum Zoom angeben,
+für den Fall,
+dass Sie viele Daten haben die uMap in angezeigt werden müssen.
+
+Mit einem Klick auf die blaue
+_Save_-Schaltfläche
+oben rechts
+und
+der
+_Disable editing_-Schaltfläche
+ist Ihre Karte nun fertig!
+
+Sie können nun Ihre Karte teilen,
+in Webseiten einbinden
+und
+sie bleibt immer auf dem neusten Stand von OpenStreetMap!
