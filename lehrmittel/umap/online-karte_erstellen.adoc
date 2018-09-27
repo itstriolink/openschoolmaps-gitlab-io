@@ -60,9 +60,23 @@ Nachdem Sie ihre Geodaten erfasst haben,
 kopieren Sie sich die Daten in die Zwischenablage
 und fügen Sie es in uMap unter _Import Data_ ein.
 
-NOTE: Stellen Sie sicher,
+[NOTE]
+====
+Stellen Sie sicher,
 dass Sie ihre Daten in einer der folgenden Dateiformaten erfasst haben:
 *geojson, csv, gpx, kml, osm, georss, umap*
+
+Wir empfehlen Ihnen die Daten im GeoJSON-Format zu importieren.
+Im GeoJSON-Format werden alle Attribute importiert.
+Mit anderen Formaten werden möglicherweise nicht alle Attribute mit importiert.
+
+Wenn Sie sich entscheiden CSV zu brauchen,
+vergewissern Sie sich,
+dass Sie eine Kolumne _lat_
+und
+_lon_ haben.
+Alle andere Kolumnen werden als Attribute importiert.
+====
 
 NOTE: Sie haben auch die Möglichkeit eine Datei
 (Sehen Sie Kapitel tbd.)
