@@ -174,7 +174,7 @@ in dem Sie auf das Stift-Symbol klicken
 unter _Manage layers_.
 
 .Layer editieren in uMap
-image::umap/online-karte_erstellen/umap_manage_layers.PNG["Manage Layers Menu"]
+image::umap/online-karte_erstellen/umap_manage_layers.PNG["Manage Layers Menu", 342, 288]
 
 Im Editiermenu öffnen Sie das Menu
 _Remote Data_
@@ -185,7 +185,7 @@ und
 aktivieren Sie dazu noch die Schaltfläche _Dynamic_.
 
 .Remote Data in uMap eintragen
-image::umap/online-karte_erstellen/umap_remote_data.PNG["Remote Data Menu"]
+image::umap/online-karte_erstellen/umap_remote_data.PNG["Remote Data Menu", 274, 532]
 
 Unter _From zoom_ können Sie noch ein minimum Zoom angeben,
 für den Fall,
