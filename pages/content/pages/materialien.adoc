@@ -37,7 +37,7 @@
 
 .Zusätzliche Materialien:
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
-* QGIS Leitprogramm: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/download?job=QGIS%20excercise%20data[Beispieldaten]
+* Einführung in QGIS 3: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/download?job=QGIS%20excercise%20data[Daten]
 
 Diese Arbeitsblätter (PDFs) werden
 aus den Dateien
