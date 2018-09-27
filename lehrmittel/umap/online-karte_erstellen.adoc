@@ -96,7 +96,12 @@ werden Ihre Dateien in uMap importiert.
 === Daten in OpenStreetMap erfassen
 
 Eine weitere Möglichkeit ist,
+wenn Sie die Daten nicht sofort brauchen,
 dass Sie die Daten selber in OpenStreetMap gleich erfassen.
+(Sehen Sie sich dazu das Arbeitsblatt "OpenStreetMap bearbeiten"
+auf
+https://www.openschoolmaps.ch
+an.
 Nachdem OpenStreetMap erfolgreich die Daten auf der Webseite darstellt,
 können Sie auf Kapitel *Daten in OpenStreetMap vorhanden* fortfahren.
 
