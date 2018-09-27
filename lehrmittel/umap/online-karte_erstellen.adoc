@@ -155,8 +155,8 @@ Ihnen wird ein neuer Tab geöffnet mit einem Hyperlink.
 Öffnen Sie den Hyperlink und kopieren Sie sich die URL.
 Auf https://meyerweb.com/eric/tools/dencoder/ können Sie die URL einfügen und decodieren.
 
-Nun müssen Sie im decodierten Code alle 3 Koordinatenangaben mit
-`+({south},{west},{north},{east})+`
+Nun müssen Sie in der decodierten URL alle 3 Koordinatenangaben mit
+`({south},{west},{north},{east})`
 ersetzten.
 
 Die URL sollte nun etwa so aussehen:
