@@ -126,3 +126,17 @@ werden Ihre Dateien in uMap importiert.
 CAUTION: Vergewissern Sie sich,
 falls Ihre Daten vom Internet stammen,
 dass Sie keine Lizenzen verstossen.
+
+== Daten in OpenStreetMap vorhanden
+
+=== Einen Snapshot der OSM-Daten
+
+Um nur den aktuellen Stand der Daten in uMap zu importieren,
+verwenden Sie https://overpass-turbo.osm.ch/.
+Mit dem Werkzeug Wizard,
+können Sie nach bestimmten Tags in OpenStreetMap suchen.
+Wenn Sie mit den Ergebnissen zufrieden sind,
+können Sie unter _Export_ die Ergebnisse als GeoJSON exportieren.
+
+Wie Sie eine Datei in uMap importieren,
+sehen Sie im Kapitel _Geodaten erfassen_.
