@@ -490,7 +490,7 @@ Bist du nicht auch der Meinung,
 dass die Darstellung im Kartenfenster
 nun schon viel besser aussieht?
 
-==== Objekte erfassen
+=== Objekte erfassen
 
 Es sollen nun zusätzlich
 zu den bestehenden Seen
