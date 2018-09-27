@@ -201,9 +201,10 @@ wie z.B. ein Messwert.
 Schaue dir als Beispiel
 für Raster aus Messwerten
 die Karte mit den Schneehöhen
-auf der https://www.slf.ch/de.html[Homepage]
+auf der Homepage
 des Instituts für Schnee-
-und Lawinenforschung (SLF) an.
+und Lawinenforschung (SLF) an:
+https://www.slf.ch/de.html
 
 ===== Vektordaten
 
@@ -317,6 +318,79 @@ auf dem die Daten abgespeichert sind.
 Hat man z.B. keine Internetverbindung mehr,
 so ist auch die Karte
 im GIS-Projekt nicht mehr sichtbar.
+
+NOTE: Das KBS
+(Koordinatenbezugssystem) sollte
+in unserem vorgegebenen Projekt
+schon richtig gesetzt sein.
+Wenn du trotzdem wissen willst,
+wie du das KBS ändern kannst,
+kannst du das folgende
+optionale Kapitel lesen.
+
+==== Projektionen
+
+In QGIS
+werden Projektionen
+meistens mit
+einem EPSG-Code
+angegeben.
+
+QGIS hat einige nützliche
+Werkzeuge, um nach spezifischen
+Projektionen zu suchen.
+Hierzu kann QGIS,
+in Echtzeit
+das KBS
+für ein Projekt
+projizieren.
+
+Um das KBS
+eines Projekts zu ändern,
+kannst du
+in der Statusleiste
+auf den EPSG-Code klicken
+und ein neues KBS auswählen.
+
+===== Projektion eines Layers
+
+Um für einen
+bestimmten Layer
+ein spezifisches
+KBS anzugeben,
+klickst du rechts
+auf den Layer
+und bewegst den
+Mauszeiger über
+das Menu _Set CRS_
+und wählst
+_Set Layer CRS..._ aus.
+Danach kannst du
+das gewünschte
+KBS auswählen.
+
+===== Umprojizieren der Daten
+
+Um die Daten
+in deiner Tabelle
+umprojizieren zu können,
+musst nur den Layernamen
+rechtsklicken,
+auf _Export_ klicken
+und _Save Feature As..._
+auswählen.
+Im oberen Teil
+des Fensters
+kannst du dann
+das KBS abändern.
+
+Wenn du dir
+nicht sicher bist,
+welchen EPSG-Code
+du verwenden sollst,
+kannst du auf
+http://spatialreference.org/
+nachschauen.
 
 == QGIS Übung
 
@@ -505,7 +579,7 @@ Unter dem Titel Verfügbare WMS-Dienste
 sind unter GetCapabilities die Anfragen
 in Form von Links abgespeichert.
 Wenn du z.B. auf den Link
-http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de[GetCapabilities BGDI]
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de
 klickst,
 wird eine Anfrage an den Server
 http://wms.geo.admin.ch/
