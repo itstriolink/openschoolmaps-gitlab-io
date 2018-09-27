@@ -86,7 +86,7 @@ zu importieren.
 image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMap", 275, 306]
 
 Unter
-_Choose the layer to import in_
+_Choose the format of the data to import_
 müssen Sie das Dateiformat ihrer Datei angeben.
 
 Mit der Schaltfläche
@@ -109,7 +109,7 @@ und klicken Sie auf die _Browse..._ Schaltfläche.
 Wählen Sie ihre Datei aus und bestätigen Sie mit "Öffnen".
 
 Unter
-_Choose the layer to import in_
+_Choose the format of the data to import_
 müssen Sie das Dateiformat ihrer Datei angeben.
 
 Mit der Schaltfläche
