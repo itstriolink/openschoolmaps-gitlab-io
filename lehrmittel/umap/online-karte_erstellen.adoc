@@ -4,6 +4,7 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
+:sectnums!:
 == Übersicht
 
 .Ziel
@@ -15,6 +16,7 @@ die sich immer aktuell haltet.
 .Zeitplanung
 tbd.
 
+:sectnums:
 == Geodaten in uMap einbinden
 
 Um zu beginnen suchen Sie in OpenStreetMap nach den Geodaten,
