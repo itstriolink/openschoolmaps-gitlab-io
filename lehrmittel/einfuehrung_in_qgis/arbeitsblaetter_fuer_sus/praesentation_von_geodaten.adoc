@@ -220,6 +220,9 @@ bei jedem Element,
 das du notierst,
 welchen Zweck es erfüllt._
 
+* http://www.zumbo.ch/maps/navigate/navigate.php?map_nr=62&lang=de
+* http://www.omstrom.ch/images/olkarten/gwattholz_11.pdf
+
 ifdef::show_solutions[]
 ====
 *Kartenelemente Karte Thun*
