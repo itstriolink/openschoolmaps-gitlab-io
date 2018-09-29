@@ -228,7 +228,7 @@ ifdef::show_solutions[]
 *Kartenelemente Karte Thun*
 
 * Titel
-* Nordpfel
+* Nordpfeil
 * Legende
 * Massstab
 * Angaben zum Hersteller
@@ -239,7 +239,7 @@ ifdef::show_solutions[]
 *Kartenelemente OL-Karte*
 
 * Titel
-* Nordpfel
+* Nordpfeil
 * Legende
 * Massstab (inkl. Massstabsbalken)
 * Äquidistanz
