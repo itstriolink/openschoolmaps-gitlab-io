@@ -126,9 +126,10 @@ Es kann nach folgenden Kriterien
 eine Suche gestartet werden:
 
 * Adresse
-* Gemeinden
-* Koordinaten
-* Parzellen
+* Ortschaft
+* Flurname
+* Postleitzahl
+* Grundstücksnummer
 
 *Navigation, identifiziern und messen*
 
@@ -137,12 +138,13 @@ image::einfuehrung_in_qgis/webgisnavi.png["Navigation WebGIS", 105, 12]
 
 Folgende Werkzeuge stehen zur Verfügung:
 
-* Vergrössern
-* Verkleinern
 * Verschieben
-* Identifizieren
+* Zoomen
+* Informationsabfrage
+* Markierung und Selektion aufheben
 * Distanzen messen
 * Flächen messen
+* Zeichnen
 
 *Eben, Legende und Drucken*
 
@@ -154,6 +156,8 @@ Folgende Werkzeuge stehen zur Verfügung:
 * Ebenen ein- und ausschalten
 * Legende
 * Druckvorschau
+* Datenbezug
+* Kartenausschnitt teilen
 
 *2. Daten*
 
