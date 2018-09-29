@@ -147,7 +147,7 @@ Folgende Werkzeuge stehen zur Verfügung:
 *Eben, Legende und Drucken*
 
 .Ebenen, Legende und Druckvorschau Werkzeuge von Web-GIS
-image::einfuehrung_in_qgis/webgislayer.png["Layer WebGiS", 65,11]
+image::einfuehrung_in_qgis/webgislayer.png["Layer WebGiS", 261, 57]
 
 Folgende Werkzeuge stehen zur Verfügung:
 
