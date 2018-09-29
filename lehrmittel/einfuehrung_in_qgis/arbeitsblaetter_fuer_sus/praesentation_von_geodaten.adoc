@@ -204,6 +204,16 @@ http://www.kartenportal.ch/
 Schaue nach, ob der Link,
 den du gefunden hast,
 auch dabei ist.
+
+*Einige Beispielkantone*
+
+Luzern: https://www.geo.lu.ch/map/grundbuchplan/
+
+Nidwalden: https://www.gis-daten.ch/map/plan_fuer_grundbuch_bund_nw
+
+St. Gallen: https://www.geoportal.ch/st_gallen/map/40?y=2746170.00&x=1254330.00&scale=2000&rotation=0
+
+Appenzell: https://www.geoportal.ch/appenzell/map/40?y=2749700.00&x=1244220.00&scale=10000&rotation=0
 ====
 endif::show_solutions[]
 
