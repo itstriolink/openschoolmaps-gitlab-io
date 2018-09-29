@@ -201,8 +201,9 @@ findest du auch einige Internet-GIS:
 
 http://www.kartenportal.ch/
 
-Schaue nach, ob der Link den
-du gefunden hast auch dabei ist.
+Schaue nach, ob der Link,
+den du gefunden hast,
+auch dabei ist.
 ====
 endif::show_solutions[]
 
