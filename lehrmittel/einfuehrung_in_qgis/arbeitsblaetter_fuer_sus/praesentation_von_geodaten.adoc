@@ -544,18 +544,10 @@ zum Beispiel vom Typ
 _Cross_ oder _Solid_
 sein und zusätzlich
 beschriftet werden.
-Je nachdem wie weit du in die Karte
-reingezoomst hast
-musst du die Gitter-Intervalle
-anders einstellen.
-Ein guter Ausgangspunkt wäre
-die
-_Intverval Units_
-auf _Centimeter_
-umzustellen
-und unter _Interval_
-die _X_ und _Y_ Koordinaten
-auf _2_ oder _2.5_ zu stellen.
+Für die Schweiz wäre
+ein Gitterintervall
+von 25‘000 m
+oder 50‘000 m geeignet.
 
 Unter _Frame_
 kannst du bestimmen,
