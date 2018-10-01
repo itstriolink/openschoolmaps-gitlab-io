@@ -29,9 +29,11 @@ taginfo,
 wiki
 oder tagfinder dazu verwenden.
 Wenn sich die Geodaten,
-die Sie wollen,
+die Sie verwenden möchten,
 nicht in OpenStreetMap befinden,
-können Sie mit dem nächsten Kapitel fortfahren.
+können Sie mit dem nächsten Kapitel
+(_Daten nicht in OpenStreetMap vorhanden_)
+fortfahren.
 
 Andernfalls fahren Sie zum Kapitel
 _Daten in OpenStreetMap vorhanden_
@@ -53,7 +55,8 @@ Schauen Sie sich dazu das Arbeitsblatt
 "Mit uMap einen Lageplan erstellen"
 auf
 https://www.openschoolmaps.ch
-an.
+an,
+wenn Sie sich für diese Methode entscheiden.
 
 === Geodaten erfassen
 
