@@ -502,8 +502,8 @@ sich der Kartenausschnitt mit dem Mauszeiger.
 
 Bemerkung: Der Zoomfaktor, welcher beim Navigieren
 mit dem Mausrad und den Tasten PageUp und PageDown
-verwendet wird, kann im Menü _Einstellungen -> Optionen_
-unter der Option _Kartenwerkzeuge_ eingestellt werden.
+verwendet wird, kann im Menü _Settings_ -> _Optionen..._
+unter der Option _Map Tools_ eingestellt werden.
 Defaultmässig hat er den Wert _3_.  Hier
 könnte dem Mausrad auch eine andere Funktion
 als die Zoomfunktion zugewiesen werden.
