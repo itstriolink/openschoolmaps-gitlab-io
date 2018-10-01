@@ -60,15 +60,30 @@ wenn Sie sich für diese Methode entscheiden.
 
 === Geodaten erfassen
 
-Wenn Sie stattdessen die Geodaten selber erfassen wollen,
+Wenn Sie stattdessen die Geodaten,
+in Form von Text,
+erzeugen möchten,
 können Sie dies mit zum Beispiel geojson.io
 oder QGIS Desktop
 (Sehen Sie dazu: https://www.qgistutorials.com/de/)
 machen.
 
+geojson.io ist eine Webseite,
+die Ihnen ermöglicht auf einer Karte
+Punkte,
+Linien,
+Rechtecke
+und Polygons zu zeichnen
+und diese danach in Form eines GeoJSONs abzuspeichern.
+
 Nachdem Sie ihre Geodaten erfasst haben,
 kopieren Sie sich die Daten in die Zwischenablage
 und fügen Sie es in uMap unter _Import Data_ ein.
+
+Wenn Sie eine Datei mit Geodaten importieren möchten,
+sehen Sie sich das Kapitel
+_Daten als externe Datenquelle/Datei vorhanden_
+an.
 
 [NOTE]
 ====
@@ -86,13 +101,13 @@ dass Sie eine Kolumne _lat_
 und
 _lon_ haben.
 Alle andere Kolumnen werden als Attribute importiert.
-====
 
-NOTE: Sie haben auch die Möglichkeit eine Datei
+Sie haben auch die Möglichkeit eine Datei
 (Sehen Sie Kapitel tbd.)
 oder eine Webseite
 (Sehen Sie Kapitel tbd.)
 zu importieren.
+====
 
 .Beispiel wie man ein GeoJSON in uMap importiert
 image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMap", 275, 306]
