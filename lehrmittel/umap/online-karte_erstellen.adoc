@@ -101,12 +101,6 @@ dass Sie eine Kolumne _lat_
 und
 _lon_ haben.
 Alle andere Kolumnen werden als Attribute importiert.
-
-Sie haben auch die Möglichkeit eine Datei
-(Sehen Sie Kapitel tbd.)
-oder eine Webseite
-(Sehen Sie Kapitel tbd.)
-zu importieren.
 ====
 
 .Beispiel wie man ein GeoJSON in uMap importiert
