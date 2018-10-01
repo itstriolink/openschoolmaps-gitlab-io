@@ -128,7 +128,7 @@ dass Sie die Daten selber in OpenStreetMap gleich erfassen.
 (Sehen Sie sich dazu das Arbeitsblatt "OpenStreetMap bearbeiten"
 auf
 https://www.openschoolmaps.ch
-an.
+an.)
 Nachdem OpenStreetMap erfolgreich die Daten auf der Webseite darstellt,
 können Sie auf Kapitel *Daten in OpenStreetMap vorhanden* fortfahren.
 
