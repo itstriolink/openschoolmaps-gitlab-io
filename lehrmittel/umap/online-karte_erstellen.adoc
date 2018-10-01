@@ -76,7 +76,7 @@ Rechtecke
 und Polygons zu zeichnen
 und diese danach in Form eines GeoJSONs abzuspeichern.
 
-Nachdem Sie ihre Geodaten erfasst haben,
+Nachdem Sie Ihre Geodaten erfasst haben,
 kopieren Sie sich die Daten in die Zwischenablage
 und fügen Sie es in uMap unter _Import Data_ ein.
 
@@ -88,7 +88,7 @@ an.
 [NOTE]
 ====
 Stellen Sie sicher,
-dass Sie ihre Daten in einer der folgenden Dateiformaten erfasst haben:
+dass Sie Ihre Daten in einer der folgenden Dateiformaten erfasst haben:
 *geojson, csv, gpx, kml, osm, georss, umap*
 
 Wir empfehlen Ihnen die Daten im GeoJSON-Format zu importieren.
@@ -114,7 +114,7 @@ image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMa
 
 Unter
 _Choose the format of the data to import_
-müssen Sie das Dateiformat ihrer Datei angeben.
+müssen Sie das Dateiformat Ihrer Datei angeben.
 
 Mit der Schaltfläche
 _Import_
@@ -138,7 +138,7 @@ Wenn Sie die Daten als Datei vorhanden haben,
 können Sie die auch in uMap importieren.
 Navigieren Sie dazu wieder in uMap unter _Import Data_
 und klicken Sie auf die _Browse..._ Schaltfläche.
-Wählen Sie ihre Datei aus und bestätigen Sie mit "Öffnen".
+Wählen Sie Ihre Datei aus und bestätigen Sie mit "Öffnen".
 
 NOTE: Wiederum empfehlen wir Ihnen,
 wenn möglich,
@@ -146,7 +146,7 @@ eine Datei im GeoJSON-Format zu importieren
 
 Unter
 _Choose the format of the data to import_
-müssen Sie das Dateiformat ihrer Datei angeben.
+müssen Sie das Dateiformat Ihrer Datei angeben.
 
 Mit der Schaltfläche
 _Import_
