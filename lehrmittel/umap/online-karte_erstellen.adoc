@@ -168,7 +168,8 @@ Wenn Sie mit den Ergebnissen zufrieden sind,
 können Sie unter _Export_ die Ergebnisse als GeoJSON exportieren.
 
 Wie Sie eine Datei in uMap importieren,
-sehen Sie im Kapitel _Geodaten erfassen_.
+sehen Sie im Kapitel
+_Daten als externe Datenquelle/Datei vorhanden_.
 
 === Daten immer auf dem aktuellsten Stand halten
 
