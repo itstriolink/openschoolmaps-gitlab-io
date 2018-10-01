@@ -222,6 +222,8 @@ Unter _From zoom_ können Sie noch einen Mindest-Zoom angeben,
 für den Fall,
 dass Sie viele Daten haben die uMap in angezeigt werden müssen.
 
+== Abschluss
+
 Mit einem Klick auf die blaue
 _Save_-Schaltfläche
 oben rechts
