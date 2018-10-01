@@ -249,12 +249,12 @@ ifdef::show_solutions[]
 *Rasterdaten*
 
 .Beispiel für Rasterdaten
-image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten", 185, 112]
+image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten"]
 
 *Vektordaten*
 
 .Beispiel für Vektordaten
-image::einfuehrung_in_qgis/vektordaten.png["Vektordaten", 185, 112]
+image::einfuehrung_in_qgis/vektordaten.png["Vektordaten"]
 
 *Speicherplatzbedarf* +
 Bei den Rasterdaten wird für jedes Pixel
