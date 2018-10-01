@@ -490,6 +490,28 @@ Bist du nicht auch der Meinung,
 dass die Darstellung im Kartenfenster
 nun schon viel besser aussieht?
 
+=== Locator Bar
+
+Eine neues Werkzeug,
+welches in QGIS 3 eingeführt wurde,
+ist die _Locator Bar_.
+
+In QGIS kann die _Locator Bar_ mit dem Tastaturkürzel
+*Strg + K*
+geöffnet werden.
+
+Mit der _Locator Bar_ können Aktionen,
+Rechner,
+Verarbeitungsalgorithmen
+und vieles Mehr von QGIS gesucht werden.
+
+Probiere das Werkzeug selber aus,
+in dem du den Layer Seen selektierst
+und in der _Locator Bar_ nach einem See suchst.
+Verwende für die Suche den Präfix `f`.
+
+Beispiel: `f Greifensee`
+
 === Objekte erfassen
 
 Es sollen nun zusätzlich
