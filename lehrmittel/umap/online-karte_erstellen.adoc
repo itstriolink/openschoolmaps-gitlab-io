@@ -10,8 +10,7 @@ include::../../snippets/suppress_title_page.adoc[]
 .Ziel
 Das Ziel dieser Anleitung ist es,
 dass Lehrpersonen wie Sie fähig sind,
-mit uMap eine thematische Online-Karte zu erstellen,
-die sich immer aktuell haltet.
+mit uMap eine thematische Online-Karte zu erstellen.
 
 .Zeitplanung
 tbd.
@@ -128,7 +127,7 @@ können Sie auf Kapitel *Daten in OpenStreetMap vorhanden* fortfahren.
 
 == Daten als externe Datenquelle/Datei vorhanden
 
-Wenn Sie die Daten als Datei vorhanden haben,
+Wenn Sie die Geodaten als Datei vorhanden haben,
 können Sie die auch in uMap importieren.
 Navigieren Sie dazu wieder in uMap unter _Import Data_
 und klicken Sie auf die _Browse..._ Schaltfläche.
