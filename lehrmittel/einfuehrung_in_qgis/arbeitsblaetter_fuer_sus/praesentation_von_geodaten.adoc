@@ -431,10 +431,11 @@ und _Page Properties_ auswählen.
 Dadurch sollte auf
 der rechten Seite,
 der Reiter _Page Properties_
-ausgewählt werden
-mit dem du das Papierformat
-dann wählen kannst
-für die zu gestaltende Karte.
+ausgewählt werden,
+mit dem du dann
+das Papierformat 
+für die zu gestaltende Karte
+wählen kannst.
 Unter _Size_ hast du eine Auswahl
 von gängigen Papierformaten
 sowie die Option _Custom_,
