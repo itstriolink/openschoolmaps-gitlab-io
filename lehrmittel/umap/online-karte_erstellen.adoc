@@ -140,7 +140,9 @@ Navigieren Sie dazu wieder in uMap unter _Import Data_
 und klicken Sie auf die _Browse..._ Schaltfläche.
 Wählen Sie ihre Datei aus und bestätigen Sie mit "Öffnen".
 
-NOTE: Wiederum empfehlen wir Ihnen wenn möglich eine Datei im GeoJSON-Format zu importieren
+NOTE: Wiederum empfehlen wir Ihnen,
+wenn möglich,
+eine Datei im GeoJSON-Format zu importieren
 
 Unter
 _Choose the format of the data to import_
