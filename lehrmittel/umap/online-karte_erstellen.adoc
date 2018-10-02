@@ -67,8 +67,8 @@ wenn Sie nur wenige Geodaten erfassen müssen.
 
 === Geodaten erfassen
 
-Wenn Sie stattdessen die Geodaten,
-in Form von Text,
+Wenn Sie stattdessen die Geodaten
+in Form von Text
 erzeugen möchten,
 können Sie dies mit zum Beispiel geojson.io
 oder QGIS Desktop
