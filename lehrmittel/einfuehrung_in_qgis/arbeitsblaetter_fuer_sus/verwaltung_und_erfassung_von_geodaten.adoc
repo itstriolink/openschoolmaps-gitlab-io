@@ -501,7 +501,7 @@ In QGIS kann die _Locator Bar_ mit dem Tastaturkürzel
 geöffnet werden.
 
 Mit der _Locator Bar_ können Aktionen,
-Rechner,
+"Rechner" (Rechen-Operationen),
 Verarbeitungsalgorithmen
 und vieles mehr von QGIS gesucht werden.
 
