@@ -26,7 +26,7 @@ suchen Sie in OpenStreetMap nach den Geodaten,
 die Sie in uMap einbinden wollen.
 Sie können Werkzeuge wie
 taginfo,
-wiki
+das OpenStreetMap-Wiki
 oder tagfinder dazu verwenden.
 Wenn sich die Geodaten,
 die Sie verwenden möchten,
@@ -38,6 +38,13 @@ fortfahren.
 Andernfalls fahren Sie zum Kapitel
 _Daten in OpenStreetMap vorhanden_
 fort.
+
+[NOTE]
+====
+Taginfo: https://taginfo.openstreetmap.ch/ +
+OpenStreetMap-Wiki: https://wiki.openstreetmap.org/ +
+Tagfinder: http://tagfinder.herokuapp.com/
+====
 
 == Daten nicht in OpenStreetMap vorhanden
 
