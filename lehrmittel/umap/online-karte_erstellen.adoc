@@ -48,12 +48,23 @@ Tagfinder: http://tagfinder.herokuapp.com/
 
 == Daten nicht in OpenStreetMap vorhanden
 
-=== Daten manuell in uMap erfassen
-
 Wenn sich die Daten,
 die Sie in uMap einbinden wollen,
 nicht in OpenStreetMap befinden,
-können Sie die Daten von Hand in uMap erfassen.
+haben Sie folgende Möglichkeiten:
+
+* <<Daten manuell in uMap erfassen>>:
+Wenn Sie nicht viele Daten zum Erfassen haben
+* <<Geodaten erfassen>>:
+Wenn Sie in textformat vorliegende Datein einlesen möchten
+* <<Daten in OpenStreetMap erfassen>>:
+Wenn Sie Zeit haben und in OpenStreetMap beitragen möchten
+* <<Daten als externe Datenquelle/Datei vorhanden>>:
+Wenn Sie Ihre Daten als Textdokument vorhanden haben
+
+=== Daten manuell in uMap erfassen
+
+Sie können die Daten von Hand in uMap erfassen.
 Hierbei spielt es eine Rolle,
 um wie viele Geodaten es sich handelt.
 Je nach Menge der Geodaten
