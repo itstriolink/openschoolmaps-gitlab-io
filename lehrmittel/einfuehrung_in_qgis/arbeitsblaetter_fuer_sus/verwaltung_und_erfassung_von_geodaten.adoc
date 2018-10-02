@@ -503,14 +503,20 @@ geöffnet werden.
 Mit der _Locator Bar_ können Aktionen,
 Rechner,
 Verarbeitungsalgorithmen
-und vieles Mehr von QGIS gesucht werden.
+und vieles mehr von QGIS gesucht werden.
 
 Probiere das Werkzeug selber aus,
-in dem du den Layer Seen selektierst
+indem du den Layer Seen selektierst
 und in der _Locator Bar_ nach einem See suchst.
 Verwende für die Suche den Präfix `f`.
 
 Beispiel: `f Greifensee`
+
+NOTE: Die Präfixe findest du,
+indem du mit *Strg + K* den Locator öffnest,
+oder unter _Settings_ ->
+_Options..._ ->
+_Locator_
 
 === Objekte erfassen
 
