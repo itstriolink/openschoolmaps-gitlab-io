@@ -63,7 +63,7 @@ Schauen Sie sich dazu das Arbeitsblatt
 auf
 https://www.openschoolmaps.ch
 an,
-wenn Sie sich für diese Methode entscheiden.
+wenn Sie nur wenige Geodaten erfassen müssen.
 
 === Geodaten erfassen
 
