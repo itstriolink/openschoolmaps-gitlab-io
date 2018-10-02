@@ -21,7 +21,8 @@ image::umap/online-karte_erstellen/uml_diagram.svg["SVG"]
 :sectnums:
 == Geodaten in uMap einbinden
 
-Um zu beginnen suchen Sie in OpenStreetMap nach den Geodaten,
+Um zu beginnen,
+suchen Sie in OpenStreetMap nach den Geodaten,
 die Sie in uMap einbinden wollen.
 Sie können Werkzeuge wie
 taginfo,
