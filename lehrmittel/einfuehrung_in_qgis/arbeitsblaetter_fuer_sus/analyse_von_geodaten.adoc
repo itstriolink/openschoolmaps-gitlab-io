@@ -951,6 +951,38 @@ in eigenen Worten.
 Füge bei jeder Art
 noch ein Beispiel hinzu.
 
+ifdef::show_solutions[]
+====
+Abfrage: +
+Die Daten werden bei einer
+Abfrage nicht verändert,
+sondern lediglich bezogen.
+
+Beispielsweise möchte man
+wissen, wie viele Einwohner
+einer Stadt mehr als 150‘000
+CHF pro Jahr verdienen und
+gleichzeitig jünger als 30
+Jahre alt sind.
+
+Manipulation: +
+Die Daten werden bei einer
+Manipulation verändert,
+ergänzt oder sogar neue
+Daten erzeugt.
+
+Beispielsweise führt man
+in ein bestehendes
+Verkehrssystem ein neues
+Attribut ein, ob eine Strecke
+stark belastet ist oder nicht.
+Oder eine weitere Möglichkeit
+wäre auch das Einfügen von noch
+unbekannten Wanderwegen
+in ein GIS-System.
+====
+endif::show_solutions[]
+
 === Frage 2
 
 Du hast gelernt,
@@ -981,6 +1013,16 @@ Die Bezeichnungen der Tabellen
 und Attribute sollen
 von den Daten
 der Übung übernommen werden.
+
+ifdef::show_solutions[]
+====
+SELECT * +
+FROM Kantone +
+WHERE  Einwohnerdichte > 200
+AND Beitritt < 1600 AND
+Name NOT LIKE ‘Z%’
+====
+endif::show_solutions[]
 
 === Frage 3
 
@@ -1016,3 +1058,11 @@ aller Hauptorte selektiert wurden,
 deren zugehörige Kantone
 gewisse thematische Bedingungen
 erfüllen mussten.
+ifdef::show_solutions[]
+====
+SELECT * +
+FROM Kantone +
+WHERE Beitritt >
+1600 AND See > 50
+====
+endif::show_solutions[]
