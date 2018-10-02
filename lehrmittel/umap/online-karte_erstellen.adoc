@@ -78,13 +78,15 @@ wenn Sie nur wenige Geodaten erfassen müssen.
 
 === Geodaten erfassen
 
-Wenn Sie stattdessen die Geodaten
-in Form von Text
-erzeugen möchten,
-können Sie dies mit zum Beispiel geojson.io
-oder QGIS Desktop
-(Sehen Sie dazu: https://www.qgistutorials.com/de/)
-machen.
+Anstatt die Daten in uMap selbst zu erfassen,
+können Sie diese auch aus einer einfach zu erstellenden Datei einlesen.
+Diese kann im textbasierten GeoJSON-Format vorliegen,
+das Sie z.B.
+auf der Website geojson.io
+oder mit QGIS Desktop
+erzeugen können.
+(Für letzteres sehen Sie
+https://www.qgistutorials.com/de/.)
 
 geojson.io ist eine Webseite,
 die Ihnen ermöglicht,
