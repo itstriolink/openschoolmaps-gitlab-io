@@ -121,7 +121,7 @@ Beim Shapefile werden
 die Geometrie und die Sachdaten
 in unterschiedlichen Dateien abgespeichert.
 
-Öffne im Windows Explorer den Ordner,
+Öffne den Dateiordner,
 in welchem die Daten
 für die Übung abgespeichert sind
 und schaue dir die Daten
