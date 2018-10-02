@@ -56,9 +56,9 @@ haben Sie folgende Möglichkeiten:
 * <<Daten manuell in uMap erfassen>>:
 Wenn Sie nicht viele Daten zum Erfassen haben
 * <<Geodaten erfassen>>:
-Wenn Sie in textformat vorliegende Datein einlesen möchten
+Wenn Sie Ihre Daten in Textformat erfassen möchten
 * <<Daten in OpenStreetMap erfassen>>:
-Wenn Sie Zeit haben und in OpenStreetMap beitragen möchten
+Wenn Sie Zeit haben und zu OpenStreetMap beitragen möchten
 * <<Daten als externe Datenquelle/Datei vorhanden>>:
 Wenn Sie Ihre Daten als Textdokument vorhanden haben
 
