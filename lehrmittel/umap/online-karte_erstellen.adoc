@@ -32,11 +32,11 @@ Wenn sich die Geodaten,
 die Sie verwenden möchten,
 nicht in OpenStreetMap befinden,
 können Sie mit dem nächsten Kapitel
-(_Daten nicht in OpenStreetMap vorhanden_)
+<<Daten nicht in OpenStreetMap vorhanden>>
 fortfahren.
 
 Andernfalls fahren Sie zum Kapitel
-_Daten in OpenStreetMap vorhanden_
+<<Daten in OpenStreetMap vorhanden>>
 fort.
 
 [NOTE]
@@ -90,7 +90,7 @@ und fügen Sie sie in uMap unter _Import Data_ ein.
 
 Wenn Sie eine Datei mit Geodaten importieren möchten,
 sehen Sie sich das Kapitel
-_Daten als externe Datenquelle/Datei vorhanden_
+<<Daten als externe Datenquelle/Datei vorhanden>>
 an.
 
 [NOTE]
@@ -132,7 +132,7 @@ auf
 https://www.openschoolmaps.ch
 an.)
 Nachdem OpenStreetMap erfolgreich die Daten auf der Webseite darstellt,
-können Sie auf Kapitel *Daten in OpenStreetMap vorhanden* fortfahren.
+können Sie auf Kapitel <<Daten in OpenStreetMap vorhanden>> fortfahren.
 
 == Daten als externe Datenquelle/Datei vorhanden
 
@@ -171,7 +171,7 @@ können Sie unter _Export_ die Ergebnisse als GeoJSON exportieren.
 
 Wie Sie eine Datei in uMap importieren,
 sehen Sie im Kapitel
-_Daten als externe Datenquelle/Datei vorhanden_.
+<<Daten als externe Datenquelle/Datei vorhanden>>.
 
 === Daten immer auf dem aktuellsten Stand halten
 
