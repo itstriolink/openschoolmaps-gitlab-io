@@ -81,7 +81,7 @@ auf einer Karte
 Punkte,
 Linien,
 Rechtecke
-und Polygons zu zeichnen
+und Polygone zu zeichnen
 und diese danach in Form eines GeoJSONs abzuspeichern.
 
 Nachdem Sie Ihre Geodaten erfasst haben,
