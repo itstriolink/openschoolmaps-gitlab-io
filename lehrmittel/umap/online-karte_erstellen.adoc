@@ -56,7 +56,7 @@ nicht in OpenStreetMap befinden,
 können Sie die Daten von Hand in uMap erfassen.
 Hierbei spielt es eine Rolle,
 um wie viele Geodaten es sich handelt.
-Je nach Menge der Geodaten,
+Je nach Menge der Geodaten
 kann sich diese Prozedur sehr in die Länge ziehen.
 Schauen Sie sich dazu das Arbeitsblatt
 "Mit uMap einen Lageplan erstellen"
