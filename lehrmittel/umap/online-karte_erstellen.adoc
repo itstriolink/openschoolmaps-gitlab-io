@@ -85,7 +85,7 @@ und Polygone zu zeichnen
 und diese danach in Form eines GeoJSONs abzuspeichern.
 
 Nachdem Sie Ihre Geodaten erfasst haben,
-kopieren Sie sich die Daten in die Zwischenablage
+kopieren Sie die Daten in die Zwischenablage
 und fügen Sie es in uMap unter _Import Data_ ein.
 
 Wenn Sie eine Datei mit Geodaten importieren möchten,
