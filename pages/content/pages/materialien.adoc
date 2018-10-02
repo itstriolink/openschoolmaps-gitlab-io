@@ -5,6 +5,8 @@
 :tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
 :slug: materialien
 
+image::../images/schoolkids.jpg["Schulkinder"]
+
 == Arbeitsblätter
 
 .OSM.org als Kartenviewer:
