@@ -76,7 +76,8 @@ oder QGIS Desktop
 machen.
 
 geojson.io ist eine Webseite,
-die Ihnen ermöglicht auf einer Karte
+die Ihnen ermöglicht,
+auf einer Karte
 Punkte,
 Linien,
 Rechtecke
