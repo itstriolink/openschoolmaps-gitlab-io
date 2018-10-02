@@ -400,7 +400,7 @@ für diese Übung abgespeichert hast.
 
 Die Karte ist nun soweit bereit,
 dass Daten eingelesen werden können.
-Dazu wird das Menu Layer
+Dazu wird das Menu Datenbank
 in der Menuleiste verwendet.
 Für die unterschiedlichen Arten
 von Daten,
@@ -411,16 +411,20 @@ hat es auch unterschiedliche Buttons.
 
 In einem ersten Schritt
 sollen nun die Vektordaten
-aus der ersten Übung eingefügt werden.
-Klicke dazu auf
-den Button _Vektorlayer hinzufügen_
-und navigiere mit Hilfe des _Durchsuchen-Buttons_
-zum Ordner mit den Daten der Übung 1
-und wähle die Shapefiles
-mit dem Namen _Kantonsgrenzen.shp_
-und _Seen.shp_ aus
-(mit Hilfe der _Shift-_
-oder der _Ctrl-_Taste sind Mehrfachwahlen möglich).
+aus der ersten Übung eingefügt
+werden. Klicke dazu auf den
+Reiter GeoPackage, wenn du
+dan nicht den Reiter
+einfuehrung_in_qgis_daten.gpkg
+siehst, mach einen Rechtscklik
+auf GeoPackage und navigiere
+dich zum Aufgaben Ordner für
+Teil 1. Wenn du die Datenbank
+siehst öffnen den Reiter und
+nutz Rechtscklick und wähle
+zur Karte hinzufügen um
+sowohl Kantonsgrenzen und
+Seen der Karte hinzuzufügen.
 
 Wähle die Kantonsgrenzen
 als Hintergrund für die Kartenübersicht.
@@ -429,7 +433,7 @@ wie du vorgehen musst,
 schaue nochmals in der ersten Übung nach.
 
 Welche Informationen sind denn überhaupt
-in den beiden Shapefiles gespeichert?
+in den beiden Layers gespeichert?
 Dies wollen wir uns nun
 etwas genauer anschauen.
 Klicke dazu mit der rechten Maustaste
@@ -642,6 +646,16 @@ Beantworte die Fragen in eigenen Worten.
 Erstelle zusätzlich zur Beschreibung
 je eine Skizze der Mauer
 im Raster- und Vektorformat.
+ifdef::show_solutions[]
+====
+Rasterformat speichert die punkte über
+die die Mauer läuft. +
+Vektorformat speichert Parameter woraus
+es die Mauer darstellen kann
+
+====
+endif::show_solutions[]
+
 
 === Frage 2
 
@@ -655,6 +669,12 @@ Beantworte die Fragen so,
 dass sie auch
 von einem GIS-Laien verstanden werden.
 Verzichte also auf Fachbegriffe.
+
+ifdef::show_solutions[]
+====
+Geodaten sind Daten die sich auf die Erde beziehen.
+====
+endif::show_solutions[]
 
 === Frage 3
 
@@ -671,3 +691,18 @@ und dem WMS-Layer bezüglich:
 
 Schreibe zu jedem Punkt
 mindestens einen Satz.
+
+ifdef::show_solutions[]
+====
+Format: Das Vektor-Layer nutzt Vektordaten
+im gegensatz zu den Rasterdaten des WMS-Layers. +
+Spaeicherot: Das Vektor-Layer bassiert auf
+lokal gespeicherte Daten, während das WMS-Layer
+sich auf Serverseitige Daten bezieht. +
+Verfügbarkeit: WMS-Layerläuft über einen Server
+und hat deshalb eine schlechter Verfügbarkeit
+als das Vektor-Layer. Auch sendet der Server die
+Karte als ein einzelnes Bild, was es nochamls
+verlangsamt.
+====
+endif::show_solutions[]

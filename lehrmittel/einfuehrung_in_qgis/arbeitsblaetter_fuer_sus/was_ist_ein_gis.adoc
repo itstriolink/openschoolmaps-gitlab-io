@@ -447,7 +447,12 @@ ifdef::show_solutions[]
 * Auf den Layer zoomen +
 * Zoom zurück +
 * Zoom vor
+====
+endif::show_solutions[]
 
+image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
+====
+ifdef::show_solutions[]
 _Was geschieht in der Kartenübersicht beim Navigieren?_
 
 Das rote Rechteck passt sich dem
@@ -545,6 +550,20 @@ Notiere einige Schlagwörter
 und zusätzlich einen Beschrieb,
 was diese Schlagwörter beinhalten.
 
+ifdef::show_solutions[]
+====
+Lösung +
+
+Ein GIS (Geoinformationssystem) erlaubt
+es Raumbezogene Daten digital zu erfassen,
+speicher und Reorganisieren. +
+Man kann die Daten auch Modellieren, Analysieren
+und sowohl auf Alphanumerische als auch
+Graphisch darstellen.
+====
+endif::show_solutions[]
+
+
 === Frage 2
 
 Im Rahmen der Übung
@@ -560,6 +579,24 @@ Zähle 5 Möglichkeiten auf
 und erkläre in wenigen Worten,
 was diese Werkzeuge
 und Möglichkeiten bewirken.
+
+ifdef::show_solutions[]
+====
+Lösung (Funktionen des Navigationsmenues)
+
+* Karte verschieben +
+* Karte zu gewählten Objekt verschieben +
+* Hineinzoomen +
+* Hinauszoomen +
+* Auf eigene Auflösung zoomen +
+* Volle Ausdehnung +
+* Zur Auswahl zoomen +
+* Auf den Layer zoomen +
+* Zoom zurück +
+* Zoom vor
+====
+endif::show_solutions[]
+
 
 === Frage 3
 
@@ -580,3 +617,15 @@ in welchem du dieses Leitprogramm durcharbeitest.
 Beschreibe in einigen Sätzen,
 welche Inhalte die Daten dieses GIS hätten
 und welche GIS-Funktionen du verwenden würdest.
+
+ifdef::show_solutions[]
+====
+Lösung
+
+//----
+* Geologie (Karten) GIS sind ideal dafür Karten auf verschiedene Weise
+darzustellen und zu modifizieren. +
+* Mathematik (Geometrie) Vektorgraphik lässt sich relative einfach für Geometrie nutzen.
+
+====
+endif::show_solutions[]
