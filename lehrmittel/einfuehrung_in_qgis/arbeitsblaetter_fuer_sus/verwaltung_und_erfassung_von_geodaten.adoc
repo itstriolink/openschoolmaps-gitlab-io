@@ -278,7 +278,7 @@ nicht der Grundsatz gilt
 „so genau wie möglich“
 sondern „so genau wie nötig“.
 
-== QGIS Übung
+== QGIS-Übung
 
 Im Theorieteil hast du gelernt,
 wie du zu den Geodaten kommst,

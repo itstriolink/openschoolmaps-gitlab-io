@@ -392,7 +392,7 @@ kannst du auf
 http://spatialreference.org/
 nachschauen.
 
-== QGIS Übung
+== QGIS-Übung
 
 Im Theorieteil hast du
 einiges über Vektor-

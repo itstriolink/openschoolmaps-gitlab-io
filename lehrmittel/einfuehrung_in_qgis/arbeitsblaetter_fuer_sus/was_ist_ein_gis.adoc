@@ -235,7 +235,7 @@ die OpenSource Software QGIS installieren.
 ====
 endif::show_solutions[]
 
-== QGIS Übung
+== QGIS-Übung
 
 Im ersten Theorieteil
 hast du gelernt,
