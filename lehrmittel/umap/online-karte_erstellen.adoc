@@ -31,7 +31,7 @@ oder tagfinder dazu verwenden.
 Wenn sich die Geodaten,
 die Sie verwenden möchten,
 nicht in OpenStreetMap befinden,
-können Sie mit dem nächsten Kapitel
+können Sie mit dem übernächsten Kapitel
 <<Daten nicht in OpenStreetMap vorhanden>>
 fortfahren.
 
@@ -60,7 +60,7 @@ Wenn Sie Ihre Daten in Textformat erfassen möchten
 * <<Daten in OpenStreetMap erfassen>>:
 Wenn die Daten für OpenStreetMap geeignet sind und Sie sie dort einpflegen wollen
 * <<Daten als externe Datenquelle/Datei vorhanden>>:
-Wenn Sie Ihre Daten als Textdokument vorhanden haben
+Wenn Ihre Daten bereits in einem von uMap unterstützten Geo-Informations-Format vorliegen.
 
 === Daten manuell in uMap erfassen
 
