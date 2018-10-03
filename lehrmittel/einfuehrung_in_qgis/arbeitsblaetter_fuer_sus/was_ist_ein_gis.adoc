@@ -56,6 +56,8 @@ analysiert sowie alphanumerisch und graphisch präsentiert werden.
 GIS bezeichnet sowohl eine Technologie,
 Produkte als auch Vorhaben zur Bereitstellung
 und Behandlung von Geoinformationen.
+
+Ralf Bill, Grundlagen der Geo-Informationssysteme, 6th ed. Berlin: Wichmann, 2016, p. 8.
 ====
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
