@@ -43,14 +43,19 @@ hier eine Definition des Begriffes:
 .Definition
 [NOTE]
 ====
-Ein Geo-Informationssystem ist ein rechnergestütztes System,
-das aus Hardware, Software, Daten
-und den Anwendungen besteht.
-Mit ihm können raumbezogene Daten digital erfasst
-und redigiert, gespeichert und reorganisiert, modelliert
-und analysiert sowie alphanumerisch
-und graphisch präsentiert werden.
-https://de.wikipedia.org/wiki/Geoinformationssystem[Bill 1999]
+Ein Geo-Informationssystem (GIS) ist ein rechnergestütztes System,
+das aus Hardware, Software und Daten besteht
+und mit dem sich raumbezogene Problemstellungen
+in unterschiedlichsten Anwendungsgebieten modellieren
+und bearbeiten lassen.
+Die dafür benötigten raumbezogenen
+Daten/Informationen
+können digital erfasst und redigiert,
+verwaltet und reorganisiert,
+analysiert sowie alphanumerisch und graphisch präsentiert werden.
+GIS bezeichnet sowohl eine Technologie,
+Produkte als auch Vorhaben zur Bereitstellung
+und Behandlung von Geoinformationen.
 ====
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
