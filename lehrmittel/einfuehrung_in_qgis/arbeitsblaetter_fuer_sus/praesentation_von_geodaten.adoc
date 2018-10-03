@@ -732,6 +732,17 @@ und auch die Gestaltung
 der Layer
 bereits
 abgeschlossen ist.
+ifdef::show_solutions[]
+====
+. Exportieren als: +
+Bild: Rastergrafik +
+SVG: Vektorgrafik +
+PDF: Portable Dokument Format +
+. Vergleiche deine
+Lösung mit dem letzten
+Kapitel
+====
+endif::show_solutions[]
 
 === Frage 2
 
@@ -794,3 +805,16 @@ die du
 bei der Gestaltung
 deiner Karte
 gemacht hast.
+
+ifdef::show_solutions[]
+====
+. Es fehlen volgende Elemente +
+* Titel +
+* Nordpfeil +
+* Legende +
+* Stand der Daten +
+* Zusatz Informationen
+
+. Grössere Städte in der Schweiz
+====
+endif::show_solutions[]
