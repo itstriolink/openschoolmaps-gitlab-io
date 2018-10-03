@@ -37,3 +37,5 @@ sie frei (auch ausserhalb des Unterrichts!) nutzen
 und
 weitergeben
 kann und darf.
+
+Bildquelle: Thomas Ingold
