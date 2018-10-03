@@ -451,10 +451,10 @@ ifdef::show_solutions[]
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
-====
-ifdef::show_solutions[]
-_Was geschieht in der Kartenübersicht beim Navigieren?_
 
+_Was geschieht in der Kartenübersicht beim Navigieren?_
+ifdef::show_solutions[
+====
 Das rote Rechteck passt sich dem
 Ausschnitt im Kartenfenster an. +
 
@@ -584,15 +584,15 @@ ifdef::show_solutions[]
 ====
 Lösung (Funktionen des Navigationsmenues)
 
-* Karte verschieben +
-* Karte zu gewählten Objekt verschieben +
-* Hineinzoomen +
-* Hinauszoomen +
-* Auf eigene Auflösung zoomen +
-* Volle Ausdehnung +
-* Zur Auswahl zoomen +
-* Auf den Layer zoomen +
-* Zoom zurück +
+* Karte verschieben
+* Karte zu gewählten Objekt verschieben
+* Hineinzoomen
+* Hinauszoomen
+* Auf eigene Auflösung zoomen
+* Volle Ausdehnung
+* Zur Auswahl zoomen
+* Auf den Layer zoomen
+* Zoom zurück
 * Zoom vor
 ====
 endif::show_solutions[]
@@ -621,8 +621,7 @@ und welche GIS-Funktionen du verwenden würdest.
 ifdef::show_solutions[]
 ====
 Lösung
-
-//----
+//-
 * Geologie (Karten) GIS sind ideal dafür Karten auf verschiedene Weise
 darzustellen und zu modifizieren. +
 * Mathematik (Geometrie) Vektorgraphik lässt sich relative einfach für Geometrie nutzen.

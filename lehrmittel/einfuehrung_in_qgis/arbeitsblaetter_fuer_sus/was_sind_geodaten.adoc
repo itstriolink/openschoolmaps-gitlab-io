@@ -414,13 +414,13 @@ sollen nun die Vektordaten
 aus der ersten Übung eingefügt
 werden. Klicke dazu auf den
 Reiter GeoPackage, wenn du
-dan nicht den Reiter
+dann nicht den Reiter
 einfuehrung_in_qgis_daten.gpkg
-siehst, mach einen Rechtscklik
+siehst, mach einen Rechtsklik
 auf GeoPackage und navigiere
 dich zum Aufgaben Ordner für
 Teil 1. Wenn du die Datenbank
-siehst öffnen den Reiter und
+siehst, öffne den Reiter und
 nutz Rechtscklick und wähle
 zur Karte hinzufügen um
 sowohl Kantonsgrenzen und
@@ -648,7 +648,7 @@ je eine Skizze der Mauer
 im Raster- und Vektorformat.
 ifdef::show_solutions[]
 ====
-Rasterformat speichert die punkte über
+Rasterformat speichert die Punkte über
 die die Mauer läuft. +
 Vektorformat speichert Parameter woraus
 es die Mauer darstellen kann
@@ -695,14 +695,14 @@ mindestens einen Satz.
 ifdef::show_solutions[]
 ====
 Format: Das Vektor-Layer nutzt Vektordaten
-im gegensatz zu den Rasterdaten des WMS-Layers. +
-Spaeicherot: Das Vektor-Layer bassiert auf
+im Gegensatz zu den Rasterdaten des WMS-Layers. +
+Speicherort: Das Vektor-Layer basiert auf
 lokal gespeicherte Daten, während das WMS-Layer
-sich auf Serverseitige Daten bezieht. +
+sich auf Daten von Servern bezieht. +
 Verfügbarkeit: WMS-Layerläuft über einen Server
 und hat deshalb eine schlechter Verfügbarkeit
 als das Vektor-Layer. Auch sendet der Server die
-Karte als ein einzelnes Bild, was es nochamls
+Karte als ein einzelnes Bild, was es nochmals
 verlangsamt.
 ====
 endif::show_solutions[]
