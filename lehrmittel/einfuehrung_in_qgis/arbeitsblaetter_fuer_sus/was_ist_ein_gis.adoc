@@ -437,15 +437,15 @@ welches Werkzeug aktuell ausgewählt ist.
 
 ifdef::show_solutions[]
 ====
-* Karte verschieben +
-* Karte zu gewählten Objekt verschieben +
-* Hineinzoomen +
-* Hinauszoomen +
-* Auf eigene Auflösung zoomen +
-* Volle Ausdehnung +
-* Zur Auswahl zoomen +
-* Auf den Layer zoomen +
-* Zoom zurück +
+* Karte verschieben
+* Karte zu gewählten Objekt verschieben
+* Hineinzoomen
+* Hinauszoomen
+* Auf eigene Auflösung zoomen
+* Volle Ausdehnung
+* Zur Auswahl zoomen
+* Auf den Layer zoomen
+* Zoom zurück
 * Zoom vor
 
 _Was geschieht in der Kartenübersicht beim Navigieren?_
