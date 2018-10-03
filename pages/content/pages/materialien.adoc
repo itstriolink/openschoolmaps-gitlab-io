@@ -5,7 +5,7 @@
 :tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
 :slug: materialien
 
-image::../images/schoolkids.jpg["Schulkinder"]
+image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 == Arbeitsblätter
 

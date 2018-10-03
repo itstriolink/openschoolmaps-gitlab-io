@@ -5,7 +5,7 @@
 :tags: Unterricht, Ideen, PDF
 :slug: weitere-unterrichtsideen
 
-image::../images/schoolkids.jpg["Schulkinder"]
+image::../images/locks.jpg["Schlösser"]
 
 Auf dieser https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel[Wiki-Seite] von OpenStreetMap sind weitere Unterrichtsmaterialien und Lehrmittel zusammengestellt.
 
