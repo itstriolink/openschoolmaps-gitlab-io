@@ -13,7 +13,8 @@ dass Lehrpersonen wie Sie fähig sind,
 mit uMap eine thematische Online-Karte zu erstellen.
 
 .Zeitplanung
-tbd.
+Sie werden je nach Methode
+und Anzahl Geodaten etwa 20-40min für dieses Arbeitsblatt brauchen.
 
 .Kapitelübersicht
 image::umap/online-karte_erstellen/uml_diagram.svg["SVG"]
