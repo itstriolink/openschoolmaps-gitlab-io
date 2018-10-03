@@ -58,7 +58,7 @@ Wenn Sie nicht viele Daten zum Erfassen haben
 * <<Geodaten erfassen>>:
 Wenn Sie Ihre Daten in Textformat erfassen möchten
 * <<Daten in OpenStreetMap erfassen>>:
-Wenn Sie Zeit haben und zu OpenStreetMap beitragen möchten
+Wenn die Daten für OpenStreetMap geeignet sind und Sie sie dort einpflegen wollen
 * <<Daten als externe Datenquelle/Datei vorhanden>>:
 Wenn Sie Ihre Daten als Textdokument vorhanden haben
 
@@ -146,6 +146,11 @@ https://www.openschoolmaps.ch
 an.)
 Nachdem OpenStreetMap erfolgreich die Daten auf der Webseite darstellt,
 können Sie auf Kapitel <<Daten in OpenStreetMap vorhanden>> fortfahren.
+
+NOTE: Stellen Sie sicher,
+dass Ihre Daten auch für OpenStreetMap geeignet sind.
+Das heisst *keine* persönliche Daten
+und *nur* objektive/überprüfbare Fakten
 
 == Daten als externe Datenquelle/Datei vorhanden
 
