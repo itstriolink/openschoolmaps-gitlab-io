@@ -4,12 +4,12 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-*Eine Anleitung für Lehrpersonen*
+*Eine Anleitung für Interessierte und Lehrpersonen*
 
 == Übersicht
 
 .Ziel
-Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, mit uMap eine Karte zu erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
+Das Ziel dieser Anleitung ist es, dass Sie fähig sind, mit uMap eine Karte zu erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
 
 .Beispiel eines mit uMap erstellten Lageplans. Kartendaten (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/lageplan_endprodukt.png[]
@@ -17,21 +17,24 @@ image::umap/lageplan_erstellen/lageplan_endprodukt.png[]
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
 
 .Zeitplanung
-Sie werden für das Beispiel etwa 10-15 Minuten brauchen. Als Mittel dienen ein beliebiges Gerät mit Internetzugang und die uMap-Website.
+Sie werden für das Beispiel etwa 10-15 Minuten brauchen. 
+
+.Vorbereitung
+Als Mittel dienen ein beliebiges Gerät mit Internetzugang und die uMap-Website. uMap kann ohne Login genutzt werden. Falls man jedoch Karten editieren oder neu erstellen will, wird ein OSM-Konto vorausgesetzt (vgl. das Arbeitsblatt "OpenStreetMap bearbeiten").
 
 [NOTE]
 ====
-Die Internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
+Die internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/, aber wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich Ihre Karte in der Schweiz befindet.
 ====
 
 == Was ist uMap?
-Mit uMap kann man auf OpenStreetMap Hintergrund eine eigene Karte zeichnen. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie fehlende Gebäude oder Strassen auf der Karte finden, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online Editor von OpenStreetMap finden Sie unter https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
+Mit dem Karteneditor 'uMap' kann man eine eigene Karte zeichnen. Es gibt dazu verschieden Hintergrundkarten zur Auswahl. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie Gebäude oder Strassen finden, die auf der Karte fehlen, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online-Editor von OpenStreetMap (genannt 'iD') finden Sie unter https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
 
 == Anleitung für uMap
 
 Als Beispiel wird ein Sportevent einer Schule verwendet.
 
-1. Besuchen Sie https://umap.osm.ch
+1. Besuchen Sie https://umap.osm.ch (oder wahlweise die internationale Version)
 2. Wählen Sie "Erstelle eine Karte"
 3. Navigieren Sie zu dem Ort, wo sie eine Karte erstellen möchten, zum Beispiel Ihre Schule.
 4. Wenn Sie einen Punkt erstellen wollen, hier zum Beispiel den Empfang, klicken Sie oben rechts in der Map auf das Stecknadel-Icon image:umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25]. Diesen können Sie dann auf der Map platzieren.
