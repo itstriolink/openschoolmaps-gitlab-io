@@ -734,6 +734,7 @@ bereits
 abgeschlossen ist.
 ifdef::show_solutions[]
 ====
+Lösung: +
 . Exportieren als: +
 Bild: Rastergrafik +
 SVG: Vektorgrafik +
@@ -808,7 +809,8 @@ gemacht hast.
 
 ifdef::show_solutions[]
 ====
-. Es fehlen volgende Elemente +
+Lösung: +
+. Es fehlen folgende Elemente +
 * Titel +
 * Nordpfeil +
 * Legende +

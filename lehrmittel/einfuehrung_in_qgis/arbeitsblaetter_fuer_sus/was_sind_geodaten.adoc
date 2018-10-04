@@ -722,6 +722,7 @@ je eine Skizze der Mauer
 im Raster- und Vektorformat.
 ifdef::show_solutions[]
 ====
+Lösung: +
 Rasterformat speichert die Punkte über
 die die Mauer läuft. +
 Vektorformat speichert Parameter woraus
@@ -746,6 +747,7 @@ Verzichte also auf Fachbegriffe.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 Geodaten sind Daten die sich auf die Erde beziehen.
 ====
 endif::show_solutions[]
@@ -768,6 +770,7 @@ mindestens einen Satz.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 Format: Das Vektor-Layer nutzt Vektordaten
 im Gegensatz zu den Rasterdaten des WMS-Layers. +
 Speicherort: Das Vektor-Layer basiert auf

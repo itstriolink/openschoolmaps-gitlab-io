@@ -592,6 +592,7 @@ eine Besonderheit nennst.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 1. Shapefile +
 Die einfachste und schnellste
 Form der Speicherung von
@@ -635,6 +636,7 @@ schriftlich stehen.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 |===
 |ID	|Vorname|Nachname|	Email
 
@@ -701,6 +703,7 @@ an die Übung zurück.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 . Es müssen Koordinaten- und
 Attributwerte vorhanden sein +
 . Es muss darauf geachtet
@@ -743,6 +746,7 @@ richtige Möglichkeiten.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 . Haltestellen der ÖV-Verbindungen +
 Zeitplan und Ort der Haltestellen
 auf Homepage der ÖV-Anbieter

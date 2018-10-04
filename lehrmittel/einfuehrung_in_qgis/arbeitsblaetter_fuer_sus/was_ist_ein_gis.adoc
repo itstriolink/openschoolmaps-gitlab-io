@@ -437,6 +437,7 @@ welches Werkzeug aktuell ausgewählt ist.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 * Karte verschieben
 * Karte zu gewählten Objekt verschieben
 * Hineinzoomen
@@ -452,9 +453,10 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
 
-_Was geschieht in der Kartenübersicht beim Navigieren?_
-ifdef::show_solutions[
+ifdef::show_solutions[]
 ====
+_Was geschieht in der Kartenübersicht beim Navigieren?_
+
 Das rote Rechteck passt sich dem
 Ausschnitt im Kartenfenster an. +
 
