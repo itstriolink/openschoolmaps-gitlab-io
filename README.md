@@ -1,3 +1,7 @@
+# Homepage
+
+Hier unsere Webseite: https://www.openschoolmaps.ch
+
 # Links zu PDF Previews und Rohdateien
 
 ## Mit uMap eine thematische Online-Karte erstellen
