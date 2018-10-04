@@ -1,6 +1,6 @@
 # Homepage
 
-Hier unsere Webseite: https://www.openschoolmaps.ch
+Hier unsere Webseite: https://openschoolmaps.ch
 
 # Links zu PDF Previews und Rohdateien
 
