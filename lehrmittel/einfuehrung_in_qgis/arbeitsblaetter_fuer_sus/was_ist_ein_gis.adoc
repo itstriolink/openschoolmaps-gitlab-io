@@ -555,12 +555,22 @@ was diese Schlagwörter beinhalten.
 ifdef::show_solutions[]
 ====
 .Lösung
-Ein GIS (Geoinformationssystem) erlaubt
-es Raumbezogene Daten digital zu erfassen,
-speicher und Reorganisieren. +
-Man kann die Daten auch Modellieren, Analysieren
-und sowohl auf Alphanumerische als auch
-Graphisch darstellen.
+Ein GIS (Geoinformationssystem) erlaubt es,
+mit raumbezogene Daten zu arbeiten:
+Man kann damit solche Daten
+digital erfassen und speichern (*Eingabe*),
+sie redigieren (verändern), verwalten und reorganisierten (*Verwaltung*).
+Man kann die Daten auch analysieren (*Analyse*)
+und
+das Ergebnis oder die Daten selbst
+textuell oder graphisch darstellen (*Präsentation*).
+
+Ein GIS deckt somit
+alle klassischen Komponenten der Datenverarbeitung
+(Eingabe, Verwaltung, Analyse, Präsentation; kurz *EVAP*)
+ab,
+jedoch spezifisch in Hinblick auf
+*geographische* (raumbezogene) Informationen.
 ====
 endif::show_solutions[]
 
