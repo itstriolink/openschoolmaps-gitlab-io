@@ -284,7 +284,7 @@ https://de.wikipedia.org/wiki/Bildkompression
 ====
 endif::show_solutions[]
 
-===== Metadaten 
+===== Metadaten
 
 Zu den Geodaten werden auch immer Metadaten,
 d.h. Daten über die Daten mit abgespeichert.
@@ -720,17 +720,16 @@ Beantworte die Fragen in eigenen Worten.
 Erstelle zusätzlich zur Beschreibung
 je eine Skizze der Mauer
 im Raster- und Vektorformat.
+
 ifdef::show_solutions[]
 ====
-Lösung: +
+.Lösung
 Rasterformat speichert die Punkte über
 die die Mauer läuft. +
 Vektorformat speichert Parameter woraus
 es die Mauer darstellen kann
-
 ====
 endif::show_solutions[]
-
 
 === Frage 2
 
@@ -747,8 +746,8 @@ Verzichte also auf Fachbegriffe.
 
 ifdef::show_solutions[]
 ====
-Lösung: +
-Geodaten sind Daten die sich auf die Erde beziehen.
+.Lösung
+Geodaten sind Daten, die sich auf die Erde beziehen.
 ====
 endif::show_solutions[]
 
@@ -770,13 +769,18 @@ mindestens einen Satz.
 
 ifdef::show_solutions[]
 ====
-Lösung: +
-Format: Das Vektor-Layer nutzt Vektordaten
-im Gegensatz zu den Rasterdaten des WMS-Layers. +
-Speicherort: Das Vektor-Layer basiert auf
+.Lösung
+*Format* +
+Der Vektor-Layer nutzt Vektordaten
+im Gegensatz zu den Rasterdaten des WMS-Layers.
+
+*Speicherort* +
+Der Vektor-Layer basiert auf
 lokal gespeicherte Daten, während das WMS-Layer
-sich auf Daten von Servern bezieht. +
-Verfügbarkeit: WMS-Layerläuft über einen Server
+sich auf Daten von Servern bezieht.
+
+*Verfügbarkeit* +
+WMS-Layerläuft über einen Server
 und hat deshalb eine schlechter Verfügbarkeit
 als das Vektor-Layer. Auch sendet der Server die
 Karte als ein einzelnes Bild, was es nochmals
