@@ -156,7 +156,7 @@ Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder di
 Ist dein Schulhaus in OpenStreetMap eingetragen?
 
 ====
-ifdef::show_solutions[-]
+ifdef::show_solutions[Zum Beispiel: Schule Paradies, Rapperswil]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -165,7 +165,7 @@ endif::show_solutions[]
 Suche das Haus, in dem du wohnst. Lässt es sich über deine Adresse finden?
 
 ====
-ifdef::show_solutions[-]
+ifdef::show_solutions[Zum Beispiel: Paradiesweg 20 Jona]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -175,7 +175,9 @@ Falls nicht, suche es wieder durch verschieben und zoomen der Karte.
 
 Versuche, andere dir bekannte Orte so zu finden.
 
-OpenStreetMap funkioniert nicht nur in der Schweiz. Du kannst auch Orte wie New York, Tokio und Kalkutta finden. Wichtige Städte sind dabei unter verschiedensprachigen Namen zu finden, du kannst also anstatt "Tokio" auch die englische Schreibweise "Tokyo" oder die örtliche (japanische) "東京" verwenden.
+OpenStreetMap funkioniert nicht nur in der Schweiz, sondern auch weit über die Landesgrenzen hinweg. 
+Du kannst auch Orte wie München, New York, Tokio und Kalkutta finden. 
+Wichtige Städte sind dabei unter verschiedensprachigen Namen zu finden, du kannst also anstatt "Tokio" auch die englische Schreibweise "Tokyo" oder die örtliche (japanische) "東京" verwenden.
 
 * Warst du kürzlich in den Ferien (sei es im In- oder Ausland) oder zu Besuch bei Verwandten? Versuche den Ferienort zu finden. Erkennst du ihn auf der Karte wieder?
 
@@ -193,7 +195,8 @@ ifdef::show_solutions[]
 nach Genf / Genève
 
 Da es auch in Kolumbien einen Ort namens "Ginebra" gibt,
-muss bei der Suche evtl. das Land mit angegeben werden.
+muss bei der Suche evtl. das Land mit angegeben werden, 
+also "Ginebra Schweiz".
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
