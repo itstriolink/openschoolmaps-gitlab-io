@@ -592,15 +592,14 @@ eine Besonderheit nennst.
 
 ifdef::show_solutions[]
 ====
-Lösung: +
-1. Shapefile +
+.Lösung
+. Shapefile +
 Die einfachste und schnellste
 Form der Speicherung von
 Vektordaten sind Shapefiles,
 welche ihre Daten auf verschiedene
-Dateien verteilen. +
-
-2. Geodatenbanken +
+Dateien verteilen.
+. Geodatenbanken +
 Eine weitere Form der
 Speicherung von Vektordaten
 sind spezielle Datenbanken,
@@ -636,7 +635,8 @@ schriftlich stehen.
 
 ifdef::show_solutions[]
 ====
-Lösung: +
+_Lösung_
+
 |===
 |ID	|Vorname|Nachname|	Email
 
@@ -676,7 +676,6 @@ Datensatzes darstellen.
 ====
 endif::show_solutions[]
 
-
 === Frage 3
 
 Eine Art,
@@ -703,7 +702,7 @@ an die Übung zurück.
 
 ifdef::show_solutions[]
 ====
-Lösung: +
+.Lösung
 . Es müssen Koordinaten- und
 Attributwerte vorhanden sein +
 . Es muss darauf geachtet
@@ -716,7 +715,6 @@ bei welchen die Attribute auch
 durch Kommas getrennt werden. +
 ====
 endif::show_solutions[]
-
 
 === Frage 4
 
@@ -746,7 +744,7 @@ richtige Möglichkeiten.
 
 ifdef::show_solutions[]
 ====
-Lösung: +
+.Lösung
 . Haltestellen der ÖV-Verbindungen +
 Zeitplan und Ort der Haltestellen
 auf Homepage der ÖV-Anbieter
