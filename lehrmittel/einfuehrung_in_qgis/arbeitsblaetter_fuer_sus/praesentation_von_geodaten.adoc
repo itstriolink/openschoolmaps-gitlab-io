@@ -433,7 +433,7 @@ der rechten Seite,
 der Reiter _Page Properties_
 ausgewählt werden,
 mit dem du dann
-das Papierformat 
+das Papierformat
 für die zu gestaltende Karte
 wählen kannst.
 Unter _Size_ hast du eine Auswahl
@@ -732,8 +732,10 @@ und auch die Gestaltung
 der Layer
 bereits
 abgeschlossen ist.
+
 ifdef::show_solutions[]
 ====
+.Lösung
 . Exportieren als: +
 Bild: Rastergrafik +
 SVG: Vektorgrafik +
@@ -808,7 +810,8 @@ gemacht hast.
 
 ifdef::show_solutions[]
 ====
-. Es fehlen volgende Elemente +
+.Lösung
+. Es fehlen folgende Elemente +
 * Titel +
 * Nordpfeil +
 * Legende +

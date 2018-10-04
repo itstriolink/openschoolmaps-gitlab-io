@@ -437,6 +437,7 @@ welches Werkzeug aktuell ausgewählt ist.
 
 ifdef::show_solutions[]
 ====
+Lösung: +
 * Karte verschieben
 * Karte zu gewählten Objekt verschieben
 * Hineinzoomen
@@ -452,9 +453,10 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
 
-_Was geschieht in der Kartenübersicht beim Navigieren?_
-ifdef::show_solutions[
+ifdef::show_solutions[]
 ====
+_Was geschieht in der Kartenübersicht beim Navigieren?_
+
 Das rote Rechteck passt sich dem
 Ausschnitt im Kartenfenster an. +
 
@@ -552,8 +554,7 @@ was diese Schlagwörter beinhalten.
 
 ifdef::show_solutions[]
 ====
-Lösung
-
+.Lösung
 Ein GIS (Geoinformationssystem) erlaubt es,
 mit raumbezogene Daten zu arbeiten:
 Man kann damit solche Daten
@@ -573,7 +574,6 @@ jedoch spezifisch in Hinblick auf
 ====
 endif::show_solutions[]
 
-
 === Frage 2
 
 Im Rahmen der Übung
@@ -592,8 +592,7 @@ und Möglichkeiten bewirken.
 
 ifdef::show_solutions[]
 ====
-Lösung (Funktionen des Navigationsmenues)
-
+.Lösung
 * Karte verschieben
 * Karte zu gewählten Objekt verschieben
 * Hineinzoomen
@@ -606,7 +605,6 @@ Lösung (Funktionen des Navigationsmenues)
 * Zoom vor
 ====
 endif::show_solutions[]
-
 
 === Frage 3
 
@@ -630,11 +628,9 @@ und welche GIS-Funktionen du verwenden würdest.
 
 ifdef::show_solutions[]
 ====
-Lösung
-//-
+.Lösung
 * Geologie (Karten) GIS sind ideal dafür Karten auf verschiedene Weise
 darzustellen und zu modifizieren. +
 * Mathematik (Geometrie) Vektorgraphik lässt sich relative einfach für Geometrie nutzen.
-
 ====
 endif::show_solutions[]
