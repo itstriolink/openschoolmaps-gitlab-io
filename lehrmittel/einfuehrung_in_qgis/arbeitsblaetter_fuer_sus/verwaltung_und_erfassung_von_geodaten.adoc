@@ -639,19 +639,13 @@ _Lösung_
 
 |===
 |ID	|Vorname|Nachname|	Email
-
-
 |1|Elena|Meller|Elena.me@gmail
-
-
 |2|Nina|Schurter|Nina.Schur@gmx
-
 |3|Ben|Schulte|Ben.Schul@gmx
-
 |4|Miriam|Orler|Miriam.orl@hotmail
-
 |5|Lukas|Gerber	|Lukas.gerb@gmail
 |===
+
 Die oben abgebildeten Daten haben die
 Form einer Tabelle und sie sollen hierbei
 als Beispiel dienen, um eine Tabelle
