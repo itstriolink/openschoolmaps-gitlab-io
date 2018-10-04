@@ -554,8 +554,7 @@ was diese Schlagwörter beinhalten.
 
 ifdef::show_solutions[]
 ====
-Lösung +
-
+.Lösung
 Ein GIS (Geoinformationssystem) erlaubt
 es Raumbezogene Daten digital zu erfassen,
 speicher und Reorganisieren. +
@@ -564,7 +563,6 @@ und sowohl auf Alphanumerische als auch
 Graphisch darstellen.
 ====
 endif::show_solutions[]
-
 
 === Frage 2
 
@@ -584,8 +582,7 @@ und Möglichkeiten bewirken.
 
 ifdef::show_solutions[]
 ====
-Lösung (Funktionen des Navigationsmenues)
-
+.Lösung
 * Karte verschieben
 * Karte zu gewählten Objekt verschieben
 * Hineinzoomen
@@ -598,7 +595,6 @@ Lösung (Funktionen des Navigationsmenues)
 * Zoom vor
 ====
 endif::show_solutions[]
-
 
 === Frage 3
 
@@ -622,11 +618,9 @@ und welche GIS-Funktionen du verwenden würdest.
 
 ifdef::show_solutions[]
 ====
-Lösung
-//-
+.Lösung
 * Geologie (Karten) GIS sind ideal dafür Karten auf verschiedene Weise
 darzustellen und zu modifizieren. +
 * Mathematik (Geometrie) Vektorgraphik lässt sich relative einfach für Geometrie nutzen.
-
 ====
 endif::show_solutions[]
