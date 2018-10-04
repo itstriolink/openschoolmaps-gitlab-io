@@ -986,7 +986,6 @@ Möglichkeit wäre auch
 das Einfügen von noch
 unbekannten Wanderwegen
 in ein GIS-System.
-
 ====
 endif::show_solutions[]
 
@@ -1032,7 +1031,6 @@ AND Name NOT LIKE ‘Z%’
 ====
 endif::show_solutions[]
 
-
 === Frage 3
 
 Es gibt neben
@@ -1074,7 +1072,6 @@ Lösung: +
 SELECT * +
 FROM Kantone +
 WHERE Beitritt >
-1600 AND See > 50
 1600 AND See > 50
 ====
 endif::show_solutions[]
