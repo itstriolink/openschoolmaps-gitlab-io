@@ -422,7 +422,7 @@ WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
 ====
 endif::show_solutions[]
 
-== QGIS Übung
+== QGIS-Übung
 
 Die "Spezialität" eines GIS
 soll natürlich auch nicht nur

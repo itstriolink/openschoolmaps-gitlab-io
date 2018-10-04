@@ -327,7 +327,7 @@ Dann geht es jetzt
 an die Umsetzung
 dieses Entwurfes.
 
-== QGIS Übung
+== QGIS-Übung
 
 In dieser letzten Übung
 soll nun der Kartenentwurf

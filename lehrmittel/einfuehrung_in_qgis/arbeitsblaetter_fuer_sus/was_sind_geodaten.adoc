@@ -248,12 +248,12 @@ ifdef::show_solutions[]
 .Lösung
 *Rasterdaten*
 
-.Beispiel für Rasterdaten
+.Beispiel für Rasterdaten (Quelle: Skizze angelehnt an einen Azavea Blog-Post 2014)
 image::einfuehrung_in_qgis/rasterdaten.png["Rasterdaten"]
 
 *Vektordaten*
 
-.Beispiel für Vektordaten
+.Beispiel für Vektordaten (Quelle: Skizze angelehnt an einen Azavea Blog-Post 2014)
 image::einfuehrung_in_qgis/vektordaten.png["Vektordaten"]
 
 *Speicherplatzbedarf* +
@@ -392,7 +392,7 @@ kannst du auf
 http://spatialreference.org/
 nachschauen.
 
-== QGIS Übung
+== QGIS-Übung
 
 Im Theorieteil hast du
 einiges über Vektor-
