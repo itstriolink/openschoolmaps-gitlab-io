@@ -7,10 +7,10 @@ include::../../snippets/suppress_title_page.adoc[]
 == Übersicht
 
 .Ziel
-Das Ziel dieser Anleitung ist es, mit uMap im Rahmen des OpenSchoolMaps-Projekts eine Story-Map zu erstellen. In der Geographie ermöglicht eine Story-Map eine ansprechende und informative Kombination aus öffentlich verfügbaren Karten, begleitendem Text, Bildern und Multimedia-Inhalten.
+Das Ziel dieser Anleitung ist es, mit dem Karteneditor uMap eine Story-Map zu erstellen. In der Geografie ermöglicht eine Story-Map eine ansprechende und informative Kombination aus öffentlich verfügbaren Karten, begleitendem Text, Bildern und Multimedia-Inhalten.
 So sieht die Karte aus, die wir erstellen werden:
 
-.Beispiel einer mit uMap erstellten Storymap. Kartendaten (C) OpenStreetMap Contributors
+.Beispiel einer mit uMap erstellten Story-Map. Kartendaten (C) OpenStreetMap Contributors
 image::umap/story-map_erstellen/endprodukt.png[]
 
 Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
@@ -19,7 +19,7 @@ Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rap
 Für alle die an "Mapping" interessiert sind.
 
 .Zeitplanung
-Je nach grösse Ihrer Storymap sollten Sie etwa 45 Minuten für diese Anleitung planen.
+Je nach Grösse Ihrer Story-Map sollten Sie etwa 45 Minuten für diese Anleitung planen.
 
 //(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
 
@@ -27,11 +27,11 @@ Je nach grösse Ihrer Storymap sollten Sie etwa 45 Minuten für diese Anleitung 
 
 == Vorbereitung
 Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können. 
-Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional, aber sehr nützlich, um später schneller voranzukommen.
+Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional aber nützlich, um effizienter zum Ziel zu kommen.
 
 == Erstellen der Story-Map
 
-  * Besuchen Sie die Seite umap.osm.ch.
+  * Besuchen Sie die Seite https://umap.osm.ch/ .
   * Erstellen Sie eine neue Karte. +
 +
 .Die Startseite von umap.osm.ch
@@ -67,7 +67,7 @@ image::umap/story-map_erstellen/beschreibung.PNG["Text in der Beschreibung", 293
 
 Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit dem Ergebnis, können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
 
-Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Storymap anschauen.
+Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Story-Map anschauen.
 Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
 
 <<<
@@ -107,7 +107,11 @@ Von nun an müssen Sie für die neuen Punkte auf der Karte nur noch die Informat
 
 IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
 
-uMap und das OpenSchoolMaps Projekt basieren auf OpenStreetMap (https://osm.org).
+NOTE: Auf der OpenSchoolMaps-Homepage gibt es weitere Unterrichtsmaterialien zu uMap.
+
+---
+
+uMap und das OpenSchoolMaps-Projekt basieren auf OpenStreetMap (https://osm.org).
 
 include::../../snippets/kontaktinformationen.adoc[]
 
