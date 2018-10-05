@@ -981,8 +981,8 @@ Verkehrssystem ein
 neues Attribut ein,
 ob eine Strecke stark
 belastet ist oder nicht.
-Oder eine weitere
-Möglichkeit wäre auch
+Eine weitere
+Möglichkeit wäre
 das Einfügen von noch
 unbekannten Wanderwegen
 in ein GIS-System.
@@ -1025,8 +1025,8 @@ ifdef::show_solutions[]
 .Lösung
 SELECT * +
 FROM Kantone +
-WHERE  Einwohnerdichte >
-200 AND Beitritt < 1600
+WHERE Einwohner / Flaeche >
+200 AND Beitrittsj < 1600
 AND Name NOT LIKE ‘Z%’
 ====
 endif::show_solutions[]
@@ -1070,8 +1070,9 @@ ifdef::show_solutions[]
 ====
 .Lösung
 SELECT * +
-FROM Kantone +
-WHERE Beitritt >
-1600 AND See > 50
+FROM Kantone, Seen +
+WHERE Kantone.Beitrittsj >
+1600 AND Seen.Flaeche > 50
+AND -- TODO
 ====
 endif::show_solutions[]
