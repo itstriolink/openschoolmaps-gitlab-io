@@ -724,10 +724,10 @@ im Raster- und Vektorformat.
 ifdef::show_solutions[]
 ====
 .Lösung
-Rasterformat speichert die Punkte über
+Rasterformat speichert die Raster-Punkte, über
 die die Mauer läuft. +
-Vektorformat speichert Parameter woraus
-es die Mauer darstellen kann
+Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt,
+an dem die Mauer eine Ecke macht.
 ====
 endif::show_solutions[]
 
@@ -737,7 +737,7 @@ Im Kapitel 2 war oft von Geodaten die Rede.
 
 _Was bedeutet der Begriff Geodaten?
 Welches ist der Unterschied zwischen
-Geodaten und "normalen" Daten?_
+Geodaten und anderen Daten?_
 
 Beantworte die Fragen so,
 dass sie auch
@@ -747,7 +747,8 @@ Verzichte also auf Fachbegriffe.
 ifdef::show_solutions[]
 ====
 .Lösung
-Geodaten sind Daten, die sich auf die Erde beziehen.
+Geodaten sind Daten, die einen Raumbezug haben,
+die sich also auf bestimme Orte oder Gebiete beziehen.
 ====
 endif::show_solutions[]
 
@@ -775,14 +776,13 @@ Der Vektor-Layer nutzt Vektordaten
 im Gegensatz zu den Rasterdaten des WMS-Layers.
 
 *Speicherort* +
-Der Vektor-Layer basiert auf
-lokal gespeicherte Daten, während das WMS-Layer
-sich auf Daten von Servern bezieht.
+Die Daten des Vektor-Layers sind lokal gespeichert,
+während die des WMS-Layers auf einem Server gespeichert sind und für die Darstellung von dort abgerufen werden.
 
 *Verfügbarkeit* +
-WMS-Layerläuft über einen Server
-und hat deshalb eine schlechter Verfügbarkeit
-als das Vektor-Layer. Auch sendet der Server die
+Der WMS-Layer läuft über einen Server
+und hat deshalb eine schlechtere Verfügbarkeit
+als der Vektor-Layer. Auch sendet der Server die
 Karte als ein einzelnes Bild, was es nochmals
 verlangsamt.
 ====
