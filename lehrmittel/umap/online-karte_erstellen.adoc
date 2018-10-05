@@ -85,7 +85,7 @@ Mit anderen Formaten werden möglicherweise nicht alle Attribute mit importiert.
 
 Wenn Sie sich entscheiden CSV zu brauchen, vergewissern Sie sich, dass Sie 
 eine Kolumne _lat_ und _lon_ haben.
-Alle andere Kolumnen werden als Attribute importiert.
+Alle anderen Kolumnen werden als Attribute importiert.
 ====
 
 .Beispiel wie man ein GeoJSON in uMap importiert
@@ -137,7 +137,7 @@ Wie Sie eine Datei in uMap importieren, sehen Sie im Kapitel <<Daten als externe
 === Daten immer auf dem aktuellsten Stand halten
 
 Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten, ist das ganze ein wenig aufwändiger.
-Öffnen Sie hierzu wieder https://overpass-turbo.osm.ch/ und suchen Sie mit dem Wizard nach z.b *amenity=bar*.
+Öffnen Sie hierzu wieder https://overpass-turbo.osm.ch/ und suchen Sie mit dem Wizard nach z.B. *amenity=bar*.
 Nun drücken Sie auf _convert to (*compact*)_ unter _Export_ -> _Query_.
 
 Ihnen wird ein neuer Tab mit einem Hyperlink geöffnet.
