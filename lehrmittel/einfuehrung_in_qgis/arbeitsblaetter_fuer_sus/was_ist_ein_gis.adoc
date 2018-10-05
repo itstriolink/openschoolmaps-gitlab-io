@@ -597,7 +597,7 @@ ifdef::show_solutions[]
 * Karte zu gewählten Objekt verschieben
 * Hineinzoomen
 * Hinauszoomen
-* Auf eigene Auflösung zoomen
+* Auf eigene Auflösung zoomen (100%)
 * Volle Ausdehnung
 * Zur Auswahl zoomen
 * Auf den Layer zoomen
