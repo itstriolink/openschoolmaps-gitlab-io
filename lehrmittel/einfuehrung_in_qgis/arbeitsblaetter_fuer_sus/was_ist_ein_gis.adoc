@@ -609,7 +609,7 @@ endif::show_solutions[]
 === Frage 3
 
 Denke an die Fächer,
-die du im Gymnasium besuchst.
+die du in der Schule besuchst.
 
 . _In welchem Fach
 und welchem spezifischen Thema
