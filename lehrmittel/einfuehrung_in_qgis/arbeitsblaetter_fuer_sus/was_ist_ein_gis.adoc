@@ -629,8 +629,10 @@ und welche GIS-Funktionen du verwenden würdest.
 ifdef::show_solutions[]
 ====
 .Lösung
-* Geologie (Karten) GIS sind ideal dafür Karten auf verschiedene Weise
-darzustellen und zu modifizieren. +
-* Mathematik (Geometrie) Vektorgraphik lässt sich relative einfach für Geometrie nutzen.
+* Geographie
+** Kartenkunde (Fertige Karten als Rasterdaten oder Karten-Grundlagen-Daten als Vektordaten)
+** Briefträger-Geographie (Administrative Gebiete (Länder, Bezirke, Gemeinden usw.) und deren Hauptorte als Flächen- und Punkt-Vektordaten)
+** Klimakunde (Temperatur- oder sonstige Klimadaten, vmtl. als Rasterdaten)
+* Informatik: Arbeiten mit spezialisierten Computersystemen und -anwendungen.
 ====
 endif::show_solutions[]
