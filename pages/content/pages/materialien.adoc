@@ -29,6 +29,8 @@ https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/
 
 * Mit uMap eine Story-Map mit Bildern erstellen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/story-map_erstellen.pdf?job=PDFs[Arbeitsblatt]
 
+* Mit uMap eine thematische Online-Karte erstellen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/online-karte_erstellen.pdf?job=PDFs[Arbeitsblatt]
+
 .Einführung in QGIS 3:
 * Infos für Lehrpersonen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/infos_fuer_lp/einfuehrung_in_qgis_lp_infos.pdf?job=PDFs[Infos]
 * Einleitung und Vorbereitung: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/einleitung_und_vorbereitung.pdf?job=PDFs[Infos]
