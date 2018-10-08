@@ -26,7 +26,7 @@ Je nach Grösse Ihrer Story-Map sollten Sie etwa 45 Minuten für diese Anleitung
 <<<
 
 == Vorbereitung
-Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können. 
+Zuerst brauchen Sie einen Web-Browser mit dem Sie die Seite öffnen können.
 Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional aber nützlich, um effizienter zum Ziel zu kommen.
 
 == Erstellen der Story-Map
@@ -53,11 +53,19 @@ Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
 * Um eine kursive Schrift zu machen, brauchen Sie `+*Ein Stern*+`.
 * Um eine fette Schrift zu machen, brauchen Sie `+**Zwei Sterne**+`.
 * Um Überschriften zu machen brauchen Sie `# Titel`. Je mehr `#` desto kleiner die Überschrift.
-	
+
 Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Textbox von "Beschreibung" klicken.
 ====
 
 Um ein Bild in die Beschreibung hinzuzufügen, brauchen Sie zuerst den Link zum Bild.
+Wenn Sie daher eigene Bilder auf der Storymap darstellen möchten, müssen Sie die Bilder auf einer Online-Platform hochladen.
+Eine Methode, mit der Sie gleichzeitig in OpenStreetMap mitwirken können, ist _Mapillary_. (https://mapillary.com)
+Sie können auf der Webseite Bilder hochladen und mit einer Ortschaft in Verbindung setzen,
+oder schon bestehende Bilder auf _Mapillary_ nutzen, und diese in uMap einzubinden.
+Um nachzuschauen ob es schon Bilder in der Umgebung gibt, in welcher Sie ihren Punkt eingetragen haben,
+können Sie http://projets.pavie.info/pic4carto/ brauchen.
+Unabhängig von OpenStreetMap, können Sie Ihre Bilder auch auf Webseiten wie z.B https://www.imgur.com hochladen.
+
 Wenn der Link `https://www.example.com/picture.png` ist, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
 
 Ihre Beschreibung sollte nun etwa so aussehen:
