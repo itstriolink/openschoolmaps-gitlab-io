@@ -26,7 +26,7 @@ Je nach Grösse Ihrer Story-Map sollten Sie etwa 45 Minuten für diese Anleitung
 <<<
 
 == Vorbereitung
-Zuerst brauchen Sie einen Web-Browser in dem Sie die Seite öffnen können. 
+Zuerst brauchen Sie einen Web-Browser mit dem Sie die Seite öffnen können.
 Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional aber nützlich, um effizienter zum Ziel zu kommen.
 
 == Erstellen der Story-Map
