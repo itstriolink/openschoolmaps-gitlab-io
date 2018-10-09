@@ -444,7 +444,8 @@ welches Werkzeug aktuell ausgewählt ist.
 
 ifdef::show_solutions[]
 ====
-Lösung: +
+Lösung:
+
 * Karte verschieben
 * Karte zu gewählten Objekt verschieben
 * Hineinzoomen
@@ -457,8 +458,6 @@ Lösung: +
 * Zoom vor
 ====
 endif::show_solutions[]
-
-image:einfuehrung_in_qgis/ausrufezeichen.png["Aufgabe: ", 15, 15]
 
 ifdef::show_solutions[]
 ====
