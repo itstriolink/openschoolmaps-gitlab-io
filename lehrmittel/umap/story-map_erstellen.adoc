@@ -80,8 +80,6 @@ Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit 
 Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Story-Map anschauen.
 Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
 
-<<<
-
 == Darstellung ändern (Optional)
 
 * Sie können das Aussehen von Pins unter "Einstellungen -> Standard-Formeigenschaften -> Bildzeichenform" ändern.
