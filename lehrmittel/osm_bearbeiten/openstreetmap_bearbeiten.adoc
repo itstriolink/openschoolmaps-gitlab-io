@@ -8,7 +8,7 @@ include::../../snippets/suppress_title_page.adoc[]
 mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
 
 ifndef::show_solutions[]
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*Ein Arbeitsblatt*
 endif::show_solutions[]
 
 ifdef::show_solutions[]
