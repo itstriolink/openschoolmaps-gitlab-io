@@ -62,11 +62,21 @@ Wenn Sie daher eigene Bilder auf der Storymap darstellen möchten, müssen Sie d
 Eine Methode, mit der Sie gleichzeitig in OpenStreetMap mitwirken können, ist _Mapillary_. (https://mapillary.com)
 Sie können auf der Webseite Bilder hochladen und mit einer Ortschaft in Verbindung setzen,
 oder schon bestehende Bilder auf _Mapillary_ nutzen, und diese in uMap einzubinden.
+
+Wenn Sie nur die bestehenden Bilder von _Mapillary_ verwenden möchten, müssen Sie lediglich ein Bild auswählen
+und unter _Image options_ auf _Download image_ klicken.
+Ein neuer Tab mit dem Bild öffnet sich und Sie können die URL kopieren und in Ihre uMap Karte einbinden.
+Um auf _Mapillary_ eigene Bilder hochzuladen, benötigen Sie ein Benutzerkonto.
+Danach können Sie mit den gleichen Schritten, wie wenn Sie ein bestehendes Bild kopieren möchten, Ihr Bild in uMap einbinden.
+
+NOTE: Ihre hochgeladenen Bilder werden vom Mapillary Team verifiziert.
+Daher könnte es einige Studen dauern, bis Ihre Bilder auf der Webseite verfügbar sind.
+
 Um nachzuschauen ob es schon Bilder in der Umgebung gibt, in welcher Sie ihren Punkt eingetragen haben,
 können Sie http://projets.pavie.info/pic4carto/ brauchen.
-Unabhängig von OpenStreetMap, können Sie Ihre Bilder auch auf Webseiten wie z.B https://www.imgur.com hochladen.
+Unabhängig von OpenStreetMap, können Sie Ihre Bilder auch auf Webseiten wie z.B https://commons.wikimedia.org oder https://imgur.com hochladen.
 
-Wenn der Link `https://www.example.com/picture.png` ist, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
+Wenn Sie nun eine Bild-URL haben wie: `https://www.example.com/picture.png`, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
 
 Ihre Beschreibung sollte nun etwa so aussehen:
 
@@ -77,8 +87,6 @@ Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit 
 
 Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Story-Map anschauen.
 Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
-
-<<<
 
 == Darstellung ändern (Optional)
 
