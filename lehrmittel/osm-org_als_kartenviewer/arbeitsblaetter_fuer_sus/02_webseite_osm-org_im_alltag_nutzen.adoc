@@ -4,7 +4,7 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Schülerinnen und Schüler*
+*Ein Arbeitsblatt*
 
 NOTE: In diesem Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
 

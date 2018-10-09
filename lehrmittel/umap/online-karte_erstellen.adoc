@@ -4,6 +4,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
+*Eine Anleitung für Interessierte und Lehrpersonen*
+
 :sectnums!:
 == Übersicht
 
