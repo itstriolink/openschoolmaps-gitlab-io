@@ -59,16 +59,30 @@ Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
 Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Textbox von "Beschreibung" klicken.
 ====
 
-Um ein Bild in die Beschreibung hinzuzufügen, brauchen Sie zuerst den Link zum Bild.
-Wenn Sie daher eigene Bilder auf der Storymap darstellen möchten, müssen Sie die Bilder auf einer Online-Platform hochladen.
-Eine Methode, mit der Sie gleichzeitig in OpenStreetMap mitwirken können, ist _Mapillary_. (https://mapillary.com)
-Sie können auf der Webseite Bilder hochladen und mit einer Ortschaft in Verbindung setzen,
-oder schon bestehende Bilder auf _Mapillary_ nutzen, und diese in uMap einzubinden.
-Um nachzuschauen ob es schon Bilder in der Umgebung gibt, in welcher Sie ihren Punkt eingetragen haben,
-können Sie http://projets.pavie.info/pic4carto/ brauchen.
-Unabhängig von OpenStreetMap, können Sie Ihre Bilder auch auf Webseiten wie z.B https://www.imgur.com hochladen.
+Um ein Bild in die Beschreibung hinzuzufügen,
+braucht man die URL zum Bild.
+Dazu muss das Bild im Web (z.B. auf einer Online-Plattform) vorhanden sein.
 
-Wenn der Link `https://www.example.com/picture.png` ist, dann müssen Sie folgenden Text eingeben: `{{https://www.example.com/picture.png}}`
+Um nachzuschauen, ob es schon Bilder in der Umgebung gibt,
+können Sie http://projets.pavie.info/pic4carto/ verwenden.
+Eines der Portale, in denen _Pic4Carto_ nachschaut, ist _Mapillary_.
+
+_Mapillary_ ist eine Plattform, auf der man Street-Level-Bilder hochladen kann,
+die danach für alle Personen frei zur Verfügung stehen.
+Unter anderem können Sie damit in OpenStreetMap mitwirken.
+
+Wenn Sie bestehende Bilder von _Mapillary_ verwenden möchten,
+müssen Sie lediglich eines auswählen und unter _Image options_ auf _Download image_ klicken.
+Ein neuer Tab mit dem Bild öffnet sich und Sie können die URL kopieren und in Ihre uMap-Karte einbinden.
+
+Um auf _Mapillary_ eigene Bilder hochzuladen, benötigen Sie ein Benutzerkonto.
+Nach dem Upload können Sie Ihr Bild mit den oben beschriebenen Schritten in uMap einbinden.
+
+NOTE: Hochgeladene Bilder werden vom Mapillary Team verifiziert. Es kann einige Zeit dauern, bis die Bilder auf _Mapillary_ verfügbar sind.
+
+Unabhängig von OpenStreetMap können Sie Ihre Bilder auch auf Webseiten wie z.B https://commons.wikimedia.org oder https://imgur.com hochladen.
+
+Wenn Sie nun eine Bild-URL wie `https://www.example.com/picture.png` haben, müssen Sie `{{https://www.example.com/picture.png}}` eingeben.
 
 Ihre Beschreibung sollte nun etwa so aussehen:
 
