@@ -74,7 +74,7 @@ müssen Sie lediglich eines auswählen und unter _Image options_ auf _Download i
 Ein neuer Tab mit dem Bild öffnet sich und Sie können die URL kopieren und in Ihre uMap-Karte einbinden.
 
 Um auf _Mapillary_ eigene Bilder hochzuladen, benötigen Sie ein Benutzerkonto.
-Nach dem Upload können Sie Ihr Bild mit den gleichen Schritten oben in uMap einbinden.
+Nach dem Upload können Sie Ihr Bild mit den oben beschriebenen Schritten in uMap einbinden.
 
 NOTE: Hochgeladene Bilder werden vom Mapillary Team verifiziert. Es kann einige Zeit dauern, bis die Bilder auf _Mapillary_ verfügbar sind.
 
