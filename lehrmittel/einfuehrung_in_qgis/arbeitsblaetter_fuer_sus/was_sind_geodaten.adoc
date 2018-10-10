@@ -284,7 +284,7 @@ https://de.wikipedia.org/wiki/Bildkompression
 ====
 endif::show_solutions[]
 
-===== Metadaten 
+===== Metadaten
 
 Zu den Geodaten werden auch immer Metadaten,
 d.h. Daten über die Daten mit abgespeichert.
@@ -474,7 +474,7 @@ für diese Übung abgespeichert hast.
 
 Die Karte ist nun soweit bereit,
 dass Daten eingelesen werden können.
-Dazu wird das Menu Layer
+Dazu wird das Menu Datenbank
 in der Menuleiste verwendet.
 Für die unterschiedlichen Arten
 von Daten,
@@ -485,16 +485,20 @@ hat es auch unterschiedliche Buttons.
 
 In einem ersten Schritt
 sollen nun die Vektordaten
-aus der ersten Übung eingefügt werden.
-Klicke dazu auf
-den Button _Vektorlayer hinzufügen_
-und navigiere mit Hilfe des _Durchsuchen-Buttons_
-zum Ordner mit den Daten der Übung 1
-und wähle die Shapefiles
-mit dem Namen _Kantonsgrenzen.shp_
-und _Seen.shp_ aus
-(mit Hilfe der _Shift-_
-oder der _Ctrl-_Taste sind Mehrfachwahlen möglich).
+aus der ersten Übung eingefügt
+werden. Klicke dazu auf den
+Reiter GeoPackage, wenn du
+dann nicht den Reiter
+einfuehrung_in_qgis_daten.gpkg
+siehst, mach einen Rechtsklik
+auf GeoPackage und navigiere
+dich zum Aufgaben Ordner für
+Teil 1. Wenn du die Datenbank
+siehst, öffne den Reiter und
+nutz Rechtscklick und wähle
+zur Karte hinzufügen um
+sowohl Kantonsgrenzen und
+Seen der Karte hinzuzufügen.
 
 Wähle die Kantonsgrenzen
 als Hintergrund für die Kartenübersicht.
@@ -503,7 +507,7 @@ wie du vorgehen musst,
 schaue nochmals in der ersten Übung nach.
 
 Welche Informationen sind denn überhaupt
-in den beiden Shapefiles gespeichert?
+in den beiden Layers gespeichert?
 Dies wollen wir uns nun
 etwas genauer anschauen.
 Klicke dazu mit der rechten Maustaste
@@ -717,18 +721,36 @@ Erstelle zusätzlich zur Beschreibung
 je eine Skizze der Mauer
 im Raster- und Vektorformat.
 
+ifdef::show_solutions[]
+====
+.Lösung
+Rasterformat speichert die Raster-Punkte, über
+die die Mauer läuft. +
+Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt,
+an dem die Mauer eine Ecke macht.
+====
+endif::show_solutions[]
+
 === Frage 2
 
 Im Kapitel 2 war oft von Geodaten die Rede.
 
 _Was bedeutet der Begriff Geodaten?
 Welches ist der Unterschied zwischen
-Geodaten und "normalen" Daten?_
+Geodaten und anderen Daten?_
 
 Beantworte die Fragen so,
 dass sie auch
 von einem GIS-Laien verstanden werden.
 Verzichte also auf Fachbegriffe.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Geodaten sind Daten, die einen Raumbezug haben,
+die sich also auf bestimme Orte oder Gebiete beziehen.
+====
+endif::show_solutions[]
 
 === Frage 3
 
@@ -745,3 +767,23 @@ und dem WMS-Layer bezüglich:
 
 Schreibe zu jedem Punkt
 mindestens einen Satz.
+
+ifdef::show_solutions[]
+====
+.Lösung
+*Format* +
+Der Vektor-Layer nutzt Vektordaten
+im Gegensatz zu den Rasterdaten des WMS-Layers.
+
+*Speicherort* +
+Die Daten des Vektor-Layers sind lokal gespeichert,
+während die des WMS-Layers auf einem Server gespeichert sind und für die Darstellung von dort abgerufen werden.
+
+*Verfügbarkeit* +
+Der WMS-Layer läuft über einen Server
+und hat deshalb eine schlechtere Verfügbarkeit
+als der Vektor-Layer. Auch sendet der Server die
+Karte als ein einzelnes Bild, was es nochmals
+verlangsamt.
+====
+endif::show_solutions[]

@@ -433,7 +433,7 @@ der rechten Seite,
 der Reiter _Page Properties_
 ausgewählt werden,
 mit dem du dann
-das Papierformat 
+das Papierformat
 für die zu gestaltende Karte
 wählen kannst.
 Unter _Size_ hast du eine Auswahl
@@ -733,6 +733,19 @@ der Layer
 bereits
 abgeschlossen ist.
 
+ifdef::show_solutions[]
+====
+.Lösung
+. Exportieren als: +
+Bild: Rastergrafik +
+SVG: Vektorgrafik +
+PDF: Portable Dokument Format +
+. Vergleiche deine
+Lösung mit dem letzten
+Kapitel
+====
+endif::show_solutions[]
+
 === Frage 2
 
 Immer wieder,
@@ -794,3 +807,17 @@ die du
 bei der Gestaltung
 deiner Karte
 gemacht hast.
+
+ifdef::show_solutions[]
+====
+.Lösung
+. Es fehlen folgende Elemente +
+* Titel +
+* Nordpfeil +
+* Legende +
+* Stand der Daten +
+* Zusatz Informationen
+
+. Grössere Städte in der Schweiz
+====
+endif::show_solutions[]

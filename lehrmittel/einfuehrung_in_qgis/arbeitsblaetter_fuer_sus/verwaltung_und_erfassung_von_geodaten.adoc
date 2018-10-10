@@ -618,6 +618,29 @@ noch einen zusätzlichen Satz,
 in welchem du je
 eine Besonderheit nennst.
 
+ifdef::show_solutions[]
+====
+.Lösung
+. Shapefile +
+Die einfachste und schnellste
+Form der Speicherung von
+Vektordaten sind Shapefiles,
+welche ihre Daten auf verschiedene
+Dateien verteilen.
+. Geodatenbanken +
+Eine weitere Form der
+Speicherung von Vektordaten
+sind spezielle Datenbanken,
+sogenannte Geodatenbanken.
+Sie unterscheiden sich von
+normalen Datenbanken dadurch,
+dass sich mit ihnen zusätzlich
+noch die Geometrie verwalten
+lässt und nicht nur die Daten.
+====
+endif::show_solutions[]
+
+
 === Frage 2
 
 Nicht nur in einem GIS
@@ -637,6 +660,43 @@ zu Hilfe nehmen.
 Die wichtigen Begriffe
 müssen jedoch in deiner Antwort
 schriftlich stehen.
+
+ifdef::show_solutions[]
+====
+_Lösung_
+
+|===
+|ID	|Vorname|Nachname|	Email
+|1|Elena|Meller|Elena.me@gmail
+|2|Nina|Schurter|Nina.Schur@gmx
+|3|Ben|Schulte|Ben.Schul@gmx
+|4|Miriam|Orler|Miriam.orl@hotmail
+|5|Lukas|Gerber	|Lukas.gerb@gmail
+|===
+
+Die oben abgebildeten Daten haben die
+Form einer Tabelle und sie sollen hierbei
+als Beispiel dienen, um eine Tabelle
+zu veranschaulichen. +
+
+Tabellen dienen dazu, Informationen
+geordnet abzulegen. Dabei bestehen
+sie aus Zeilen (horizontal) und
+Spalten (vertikal). Eine Zeile
+beinhaltet einen sogenannten
+Datensatz, auch Tupel genannt.
+Ein Datensatz beinhaltet
+verschiedene Daten, welche
+zusammengehören und erst zusammen
+aussagekräftig sind. Oben im Beispiel
+wäre Elena Meller mit der Email
+Elena.me@gmail und der ID 1 eine
+Datensatz. Daneben gibt es noch
+Spalten, welche Attribute enthalten,
+welche wiederum eine Teilmenge eines
+Datensatzes darstellen.
+====
+endif::show_solutions[]
 
 === Frage 3
 
@@ -661,6 +721,22 @@ und begründe deine Antworten.
 Denke bei der Beantwortung
 der Fragen auch
 an die Übung zurück.
+
+ifdef::show_solutions[]
+====
+.Lösung
+. Es müssen Koordinaten- und
+Attributwerte vorhanden sein +
+. Es muss darauf geachtet
+werden, dass die erste Zeile
+des Textfiles die Attributnamen
+getrennt durch ein Komma enthält.
+Danach, in den darauffolgenden
+Zeilen, folgen die Objekte,
+bei welchen die Attribute auch
+durch Kommas getrennt werden. +
+====
+endif::show_solutions[]
 
 === Frage 4
 
@@ -687,3 +763,21 @@ zwei unterschiedliche Erfassungsarten
 beschrieben werden.
 Es gibt mehrere
 richtige Möglichkeiten.
+
+ifdef::show_solutions[]
+====
+.Lösung
+. Haltestellen der ÖV-Verbindungen +
+Zeitplan und Ort der Haltestellen
+auf Homepage der ÖV-Anbieter
+nachschauen und im GIS
+implementieren. +
+. Ungefährliche Wanderwege
+durch Naturlandschaft +
+Frei zugängliche Luftaufnahmen
+(Bsp. Bing Maps) analysieren
+und bestmögliche Route bestimmen
+und einzeichnen.
+
+====
+endif::show_solutions[]

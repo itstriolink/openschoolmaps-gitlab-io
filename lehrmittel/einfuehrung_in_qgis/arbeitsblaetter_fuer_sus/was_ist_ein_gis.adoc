@@ -444,17 +444,23 @@ welches Werkzeug aktuell ausgewählt ist.
 
 ifdef::show_solutions[]
 ====
-* Karte verschieben +
-* Karte zu gewählten Objekt verschieben +
-* Hineinzoomen +
-* Hinauszoomen +
-* Auf eigene Auflösung zoomen +
-* Volle Ausdehnung +
-* Zur Auswahl zoomen +
-* Auf den Layer zoomen +
-* Zoom zurück +
-* Zoom vor
+Lösung:
 
+* Karte verschieben
+* Karte zu gewählten Objekt verschieben
+* Hineinzoomen
+* Hinauszoomen
+* Auf eigene Auflösung zoomen
+* Volle Ausdehnung
+* Zur Auswahl zoomen
+* Auf den Layer zoomen
+* Zoom zurück
+* Zoom vor
+====
+endif::show_solutions[]
+
+ifdef::show_solutions[]
+====
 _Was geschieht in der Kartenübersicht beim Navigieren?_
 
 Das rote Rechteck passt sich dem
@@ -550,6 +556,28 @@ Notiere einige Schlagwörter
 und zusätzlich einen Beschrieb,
 was diese Schlagwörter beinhalten.
 
+ifdef::show_solutions[]
+====
+.Lösung
+Ein GIS (Geoinformationssystem) erlaubt es,
+mit raumbezogene Daten zu arbeiten:
+Man kann damit solche Daten
+digital erfassen und speichern (*Eingabe*),
+sie redigieren (verändern), verwalten und reorganisierten (*Verwaltung*).
+Man kann die Daten auch analysieren (*Analyse*)
+und
+das Ergebnis oder die Daten selbst
+textuell oder graphisch darstellen (*Präsentation*).
+
+Ein GIS deckt somit
+alle klassischen Komponenten der Datenverarbeitung
+(Eingabe, Verwaltung, Analyse, Präsentation; kurz *EVAP*)
+ab,
+jedoch spezifisch in Hinblick auf
+*geographische* (raumbezogene) Informationen.
+====
+endif::show_solutions[]
+
 === Frage 2
 
 Im Rahmen der Übung
@@ -566,10 +594,26 @@ und erkläre in wenigen Worten,
 was diese Werkzeuge
 und Möglichkeiten bewirken.
 
+ifdef::show_solutions[]
+====
+.Lösung
+* Karte verschieben
+* Karte zu gewählten Objekt verschieben
+* Hineinzoomen
+* Hinauszoomen
+* Auf eigene Auflösung zoomen (100%)
+* Volle Ausdehnung
+* Zur Auswahl zoomen
+* Auf den Layer zoomen
+* Zoom zurück
+* Zoom vor
+====
+endif::show_solutions[]
+
 === Frage 3
 
 Denke an die Fächer,
-die du im Gymnasium besuchst.
+die du in der Schule besuchst.
 
 . _In welchem Fach
 und welchem spezifischen Thema
@@ -585,3 +629,14 @@ in welchem du dieses Leitprogramm durcharbeitest.
 Beschreibe in einigen Sätzen,
 welche Inhalte die Daten dieses GIS hätten
 und welche GIS-Funktionen du verwenden würdest.
+
+ifdef::show_solutions[]
+====
+.Lösung
+* Geographie
+** Kartenkunde (Fertige Karten als Rasterdaten oder Karten-Grundlagen-Daten als Vektordaten)
+** Briefträger-Geographie (Administrative Gebiete (Länder, Bezirke, Gemeinden usw.) und deren Hauptorte als Flächen- und Punkt-Vektordaten)
+** Klimakunde (Temperatur- oder sonstige Klimadaten, vmtl. als Rasterdaten)
+* Informatik: Arbeiten mit spezialisierten Computersystemen und -anwendungen.
+====
+endif::show_solutions[]
