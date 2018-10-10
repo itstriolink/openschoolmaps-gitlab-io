@@ -57,17 +57,27 @@ Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
 Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Textbox von "Beschreibung" klicken.
 ====
 
-Um ein Bild in die Beschreibung hinzuzufügen, braucht man den Link zum Bild.
+Um ein Bild in die Beschreibung hinzuzufügen,
+braucht man die URL zum Bild.
 
 Dieses Bild muss auf einer Online-Plattform vorhanden sein.
 
-Um nachzuschauen, ob es schon Bilder in der Umgebung gibt, können Sie http://projets.pavie.info/pic4carto/ verwenden.
+Um nachzuschauen, ob es schon Bilder in der Umgebung gibt,
+können Sie http://projets.pavie.info/pic4carto/ verwenden.
+Eines der Portale, in denen _Pic4Carto_ nachschaut, ist _Mapillary_.
 
-Wenn Sie bestehende Bilder von _Mapillary_ verwenden möchten, müssen Sie lediglich eines auswählen und unter _Image options_ auf _Download image_ klicken. Ein neuer Tab mit dem Bild öffnet sich und Sie können die URL kopieren und in Ihre uMap-Karte einbinden.
+_Mapillary_ ist eine Plattform, auf der man Street-Level-Bilder hochladen kann,
+die danach für alle Personen frei zur Verfügung steht.
+Unter anderem können Sie damit in OpenStreetMap mitwirken.
 
-Eine Methode, mit der Sie gleichzeitig eigene Bilder teilen und in OpenStreetMap mitwirken können, ist _Mapillary_ (https://mapillary.com). Sie können auf  _Mapillary_  Bilder an einem Ort selber hochladen oder schon bestehende Bilder nutzen, und diese dann z.B. in uMap einbinden. Um auf _Mapillary_ eigene Bilder hochzuladen, benötigen Sie ein Benutzerkonto. Nach dem Upload können Sie mit den gleichen Schritten oben Ihr Bild in uMap einbinden.
+Wenn Sie bestehende Bilder von _Mapillary_ verwenden möchten,
+müssen Sie lediglich eines auswählen und unter _Image options_ auf _Download image_ klicken.
+Ein neuer Tab mit dem Bild öffnet sich und Sie können die URL kopieren und in Ihre uMap-Karte einbinden.
 
-NOTE: Hochgeladene Bilder werden vom Mapillary Team verifiziert. Das kann einige Zeit dauern, bis die Bilder auf _Mapillary_ verfügbar sind.
+Um auf _Mapillary_ eigene Bilder hochzuladen, benötigen Sie ein Benutzerkonto.
+Nach dem Upload können Sie mit den gleichen Schritten oben Ihr Bild in uMap einbinden.
+
+NOTE: Hochgeladene Bilder werden vom Mapillary Team verifiziert. Es kann einige Zeit dauern, bis die Bilder auf _Mapillary_ verfügbar sind.
 
 Unabhängig von OpenStreetMap können Sie Ihre Bilder auch auf Webseiten wie z.B https://commons.wikimedia.org oder https://imgur.com hochladen.
 
