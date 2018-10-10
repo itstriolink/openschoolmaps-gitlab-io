@@ -59,8 +59,7 @@ Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Te
 
 Um ein Bild in die Beschreibung hinzuzufügen,
 braucht man die URL zum Bild.
-
-Dieses Bild muss auf einer Online-Plattform vorhanden sein.
+Dazu muss das Bild im Web (z.B. auf einer Online-Plattform) vorhanden sein.
 
 Um nachzuschauen, ob es schon Bilder in der Umgebung gibt,
 können Sie http://projets.pavie.info/pic4carto/ verwenden.
