@@ -10,7 +10,7 @@ include::../../snippets/suppress_title_page.adoc[]
 == Übersicht
 
 .Ziel
-Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, 
+Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind,
 mit uMap eine thematische Online-Karte zu erstellen.
 
 .Zielgruppe
@@ -27,7 +27,7 @@ image::umap/online-karte_erstellen/uml_diagram.svg["SVG"]
 
 Um zu beginnen, suchen Sie in OpenStreetMap nach den Geodaten, die Sie in uMap einbinden wollen.
 Sie können Werkzeuge wie taginfo, das OpenStreetMap-Wiki oder tagfinder dazu verwenden.
-Wenn sich die Geodaten, die Sie verwenden möchten, nicht in OpenStreetMap befinden, 
+Wenn sich die Geodaten, die Sie verwenden möchten, nicht in OpenStreetMap befinden,
 können Sie mit dem übernächsten Kapitel <<Daten nicht in OpenStreetMap vorhanden>> fortfahren.
 
 Andernfalls fahren Sie mit dem Kapitel <<Daten in OpenStreetMap vorhanden>> fort.
@@ -67,7 +67,7 @@ Anstatt die Daten in uMap selbst zu erfassen, können Sie diese auch aus einer e
 Diese kann im textbasierten GeoJSON-Format vorliegen, das Sie z.B. auf der Website geojson.io oder mit QGIS Desktop erzeugen können.
 Für letzteres sehen Sie das Arbeitsblatt "Verwaltung und Erfassung von Geodaten" in der "Einführung in QGIS 3" auf https://www.openschoolmaps.ch an.
 
-geojson.io ist eine Webseite, die Ihnen ermöglicht, auf einer Karte Punkte, 
+geojson.io ist eine Webseite, die Ihnen ermöglicht, auf einer Karte Punkte,
 Linien, Rechtecke und Polygone zu zeichnen und diese danach in Form eines GeoJSONs abzuspeichern.
 
 Nachdem Sie Ihre Geodaten erfasst haben, kopieren Sie die Daten in die Zwischenablage
@@ -85,7 +85,7 @@ Wir empfehlen Ihnen die Daten im GeoJSON-Format zu importieren.
 Im GeoJSON-Format werden alle Attribute importiert.
 Mit anderen Formaten werden möglicherweise nicht alle Attribute mit importiert.
 
-Wenn Sie sich entscheiden CSV zu brauchen, vergewissern Sie sich, dass Sie 
+Wenn Sie sich entscheiden CSV zu brauchen, vergewissern Sie sich, dass Sie
 eine Kolumne _lat_ und _lon_ haben.
 Alle anderen Kolumnen werden als Attribute importiert.
 ====
@@ -100,11 +100,11 @@ Mit der Schaltfläche _Import_ werden Ihre Dateien in uMap importiert.
 === Daten in OpenStreetMap erfassen
 
 Eine weitere Möglichkeit ist, dass Sie die Daten gleich in OpenStreetMap erfassen.
-Der Vorteil hier ist, dass die Daten damit in verschiedenen Diensten genutzt werden und allen zur Verfügung stehen. 
-Man beachte jedoch auch, dass die Daten nicht sofort zur Verfügung stehen, da sie zuerst 
+Der Vorteil hier ist, dass die Daten damit in verschiedenen Diensten genutzt werden und allen zur Verfügung stehen.
+Man beachte jedoch auch, dass die Daten nicht sofort zur Verfügung stehen, da sie zuerst
 auf diese Dienste verteilt und verarbeitet werden müssen.
 
-Das Arbeitsblatt "OpenStreetMap bearbeiten" auf https://www.openschoolmaps.ch erläutert, wie man die Daten in OpenStreetMap erfasst. 
+Das Arbeitsblatt "OpenStreetMap bearbeiten" auf https://www.openschoolmaps.ch erläutert, wie man die Daten in OpenStreetMap erfasst.
 Wenn die Daten in OpenStreetMap erfolgreich erfasst worden sind, können Sie bei Kapitel <<Daten in OpenStreetMap vorhanden>> fortfahren.
 Wie erwähnt, kann es einige Zeit dauern, bis die Daten verfügbar sind.
 
@@ -114,7 +114,7 @@ Das heisst *keine* persönliche Daten und *nur* objektive/überprüfbare Fakten.
 == Daten als externe Datenquelle/Datei vorhanden
 
 Wenn Sie die Geodaten als Datei vorhanden haben, können Sie die auch in uMap importieren.
-Navigieren Sie dazu wieder in uMap unter _Import Data_ und klicken Sie auf 
+Navigieren Sie dazu wieder in uMap unter _Import Data_ und klicken Sie auf
 die _Browse..._ Schaltfläche.
 Wählen Sie Ihre Datei aus und bestätigen Sie mit "Öffnen".
 
@@ -131,37 +131,25 @@ CAUTION: Vergewissern Sie sich, falls Ihre Daten vom Internet stammen, dass Sie 
 === Einen Snapshot der OSM-Daten
 
 Um den aktuellen Stand der Daten in uMap zu importieren, verwenden Sie https://overpass-turbo.osm.ch/.
-Mit dem Werkzeug Wizard, können Sie nach bestimmten Tags in OpenStreetMap suchen. 
+Mit dem Werkzeug Wizard, können Sie nach bestimmten Tags in OpenStreetMap suchen.
 Wenn Sie mit den Ergebnissen zufrieden sind, können Sie unter _Export_ die Ergebnisse als GeoJSON exportieren.
 
 Wie Sie eine Datei in uMap importieren, sehen Sie im Kapitel <<Daten als externe Datenquelle/Datei vorhanden>>.
 
 === Daten immer auf dem aktuellsten Stand halten
 
-Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten, ist das ganze ein wenig aufwändiger.
+Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten, ist das ganze sehr ähnlich.
 Öffnen Sie hierzu wieder https://overpass-turbo.osm.ch/ und suchen Sie mit dem Wizard nach z.B. *amenity=bar*.
-Nun drücken Sie auf _convert to (*compact*)_ unter _Export_ -> _Query_.
+Nun drücken Sie auf _copy_ unter _convert to OverpassQL_.
 
-Ihnen wird ein neuer Tab mit einem Hyperlink geöffnet.
-Öffnen Sie den Hyperlink und kopieren Sie sich die URL.
-Auf https://meyerweb.com/eric/tools/dencoder/ können Sie die URL einfügen und decodieren.
+.Query aus Overpass-Turbo exportieren
+image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Query", width="50%"]
 
-Kopieren Sie sich den decodierten Code in einen Texteditor Ihrer Wahl.
-
-Nun müssen Sie in der decodierten URL alle allfällig vorhandenen Koordinaten 
-(die Bounding Boxes darstellen) durch folgendes ersetzten: 
-+ `({south},{west},{north},{east})`
-
-Die URL sollte nun etwa so aussehen:
-
-....
-https://overpass.osm.ch/api/interpreter?data=[out:json][timeout:25];(node["amenity"="bar"]({south},{west},{north},{east});way["amenity"="bar"]({south},{west},{north},{east});relation["amenity"="bar"]({south},{west},{north},{east}););out;>;out skel qt;
-....
-
-Kopieren Sie sich diese URL und gehen Sie auf Ihre uMap Karte.
+Ihnen wird eine URL in die Zwischenablage gespeichert.
+Gehen Sie nun in ihre uMap-Karte.
 Editieren Sie den aktuellen Layer (oder erzeugen Sie einen neuen Layer) in dem Sie auf das Stift-Symbol klicken unter _Manage layers_.
 
-.Layer editieren in uMap 
+.Layer editieren in uMap
 image::umap/online-karte_erstellen/umap_manage_layers.PNG["Manage Layers Menu", 342, 288]
 
 Im Editier-Menu öffnen Sie das Menu _Remote Data_ und fügen Sie die kopierte URL in das Textfeld URL.
