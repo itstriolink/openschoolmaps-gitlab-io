@@ -10,11 +10,10 @@ include::../../snippets/suppress_title_page.adoc[]
 == Übersicht
 
 .Ziel
-Das Ziel dieser Anleitung ist es, dass Lehrpersonen wie Sie fähig sind, 
-mit uMap eine thematische Online-Karte zu erstellen.
+Das Ziel dieser Anleitung ist es mit uMap eine thematische Online-Karte zu erstellen.
 
 .Zielgruppe
-Alle, die am Kartieren (Digialisieren) und am Erstellen einer eigenen Karte interessiert sind.
+Alle, die am Kartieren (Digitalisieren) und am Erstellen einer eigenen Karte interessiert sind.
 
 .Zeitplanung
 Je nach Methode und Anzahl Geodaten benötigt die Bearbeitung dieses Arbeitsblatts etwa 20-40 min.
