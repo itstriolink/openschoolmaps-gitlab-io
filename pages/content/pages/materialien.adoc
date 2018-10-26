@@ -24,6 +24,8 @@ https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/
 .OpenStreetMap bearbeiten:
 * OpenStreetMap bearbeiten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/openstreetmap_bearbeiten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/openstreetmap_bearbeiten_solutions.pdf?job=PDFs[Lösungen]
 
+* OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/osm-daten_beziehen.pdf?job=PDFs[Arbeitsblatt]
+
 .uMap der Karteneditor:
 * Mit uMap einen Lageplan erstellen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs[Arbeitsblatt]
 
