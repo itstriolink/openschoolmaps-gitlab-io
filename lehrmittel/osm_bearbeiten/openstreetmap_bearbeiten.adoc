@@ -43,7 +43,7 @@ Für diese Aufgabe benötigen die SuS ein OSM-Konto.
 endif::show_solutions[]
 
 == Benutzerkonto erstellen und anmelden
-  
+
 Um ein Benutzerkonto zu erstellen drückst du auf die Schaltfläche "Registrieren" oben rechts. Dazu musst du deine Email-Adresse angeben und dir einen Benutzername und ein Passwort aussuchen. Falls du bereits ein OpenStreetMap-Benutzerkonto hast, kannst du stattdessen natürlich direkt auf "Anmelden" klicken.
 
 ifdef::show_solutions[]
@@ -73,7 +73,7 @@ Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. W
 
 === Rundgang
 
-Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf den image:osm_editieren/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
+Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf den image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
 
 ifdef::show_solutions[]
 IMPORTANT: Bitte spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
@@ -112,12 +112,12 @@ Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet n
 
 [[eigenschaften_zugeklappt]]
 .Die Tags finden sich im Abschnitt "Alle Eigenschaften", der eventuell zugeklappt ist.
-image::osm_editieren/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 265, 354]
+image::osm_editieren/osm_bearbeiten/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 265, 354]
 
 [[eigenschaften_aufgeklappt]]
 .Mit einem Klick kann der Abschnitt "Alle Eigenschaften" aufgeklappt werden.
-image::osm_editieren/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
+image::osm_editieren/osm_bearbeiten/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
-Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
+Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
 
 include::../../snippets/quellenangabe.adoc[]
