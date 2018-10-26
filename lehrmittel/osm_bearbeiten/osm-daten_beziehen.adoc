@@ -1,0 +1,164 @@
+= OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+
+Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturanden
+
+== Übersicht
+
+.Ziel
+Das Ziel dieser Anleitung ist es, aufzuzeigen, wie man OpenStreetMap-Daten beziehen kann und wie man diese Geodaten in QGIS 3 nutzen kann.
+
+.Zielgruppe
+Alle, die am Erstellen einer eigenen Karte (online, als druckbarer Plan) und die am Analysieren von Geodaten interessiert sind.
+
+.Zeitplanung
+Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkentnissen unterschiedliche Zeit, da man einzelne Abschnitte, die nicht interessieren, überspringen kann.
+
+[NOTE]
+====
+Bei dieser Anleitung geht es um das reine Nutzen bestehender Daten aus OpenStreetMap.
+Wer selber Datenerfassen will, kann sich mit dem Arbeitsblatt
+"Mit uMap eine thematische Online-Karte erstellen"
+und auf https://learnosm.org/de/ informieren.
+====
+
+== OpenStreetMap-Daten extrahieren und downloaden
+
+Die Daten von OpenStreetMap können in unterschiedlichen Datenformaten auf dem Rechner lokal gespeichert werden.
+Daher werden wir zuerst mal einige dieser Dateiformaten genauer erläutern.
+
+=== OpenStreetMap und Geoinformationssysteme
+
+Die Geometrie der Objekte in OpenStreetMap (OSM) sind intern als topologische Strukturen (Node, Ways) abgelegt.
+Und die Objekt-Attribute als Tags (Key-Value-Paare) nur teilweise strukturiert.
+Dieses beliebig erweiterbare Datenschema muss für Geoinformationssysteme (GIS) und deren Formate zuerst umgewandelt werden.
+Es gibt kein einheitliches "GIS"-Datenschema für OSM.
+Kaum ein Export aus OSM ist darum gleich wie der andere.
+
+=== Dateiformate
+
+Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
+
+* OSM-spezifische Formate sind v.a. OSM XML, und OSM PBF.
+* GIS-kompatible Formate sind Geopackage (sowie verwandt: Spatialite/SQLite oder MBTile/SQLite), Shapefiles, GeoJSON (TopoJSON).
+* Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
+* Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
+
+=== OpenStreetMap-Daten länderweise beziehen
+
+Die Webseite https://geofabrik.de bietet OpenStreetMap-Daten für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
+Auf ihrem Download-Server können die Daten als `.osm.pbf`, `.shp.zip` oder `.osm.bz2` heruntergeladen werden.
+Die Daten sind in einzelne Regionen unterteilt.
+Wenn man auf eine Region klickt, werden die Daten der Länder in dieser Region angezeigt.
+Je nach Land kann man auch noch kleinere Ausschnitte aus dem Land herunterladen.
+Wenn man mit der Maus über eine Region oder Land geht sieht man, auf der rechten Seite der Webseite, eine Vorschau der Ortschaft.
+Die Daten auf GeoFabrik werden alle 24 Stunden aktualisert mit den Daten von OpenStreetMap.
+Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat,
+muss man mindestens 1 Tag warten bis sie auch auf Geofabrik verfügbar sind.
+Stelle sicher welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
+
+=== OSM.org
+
+Auf https://openstreetmap.org können auch Daten heruntergeladen werden.
+Diese können aber immer nur in kleinen, rechteckigen Abschnitten bezogen werden und nur im `OSM XML`-Format.
+
+=== HOTOSM
+
+Das Humanitarian OpenStreetMap Team (HOT) bietet auch einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
+Um HOTOSM zu verwenden brauchst du lediglich einen OpenStreetMap Benutzerkonto und eine gültige E-Mail Adresse um die Daten herunterzuladen.
+Nach dem Anmelden kann hat man auf der linken Seite die Export Einstellungen und auf der rechten Seite die Karte, die man exportieren möchte.
+
+.Export von HOTOSM
+image::osm_editieren/osm-daten_beziehen/hotosm.png[]
+
+Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, auswählen.
+
+Du kannst entweder:
+
+* Eine Ortschaft in der Suche eingeben
+* Mit Koordinaten eine Bounding Box angeben
+* Eine Bounding Box selber zeichnen
+* Ein Polygon zeichnen
+* Die aktuelle Ansicht herunterladen
+* Eine geojson Datei hochladen
+
+Für die ersten zwei Möglichkeiten, muss nur das Suchfeld genutzt werden.
+Entweder die gewünschte Ortschaft eingeben oder eine Bounding Box (Westen, Süden, Osten, Norden) angeben.
+
+Um eine Bounding Box oder ein Polygon zu zeichnen muss auf der rechten Seite der Karte die _Draw_-Schaltfläche gedrückt werden.
+
+Um die aktuelle Ansicht herunterzuladen muss auf die Schaltfläche _This View_ gedrückt werden.
+
+Wenn du eine geojson Datei hochladen möchtest, kannst du dies mit der Schaltfläche _Import_ machen.
+Eine Webseite die sich dafür eignet ist http://geojson.io.
+
+CAUTION: Achte darauf, dass du keine Multipolygone hochlädst
+
+Nachdem du deine geojson Datei erstellt hast mit z.b http://geojson.io musst du sie noch für HOTOSM anpassen.
+Kopiere dir dazu das geojson in einen Texteditor.
+Die einfachste Version verlangt nur eine Typ Angabe und eine Liste mit den Koordinaten:
+
+.Format der JSON-Datei für HOTOSM
+image::osm_editieren/osm-daten_beziehen/json_format.png[]
+
+=== BBBike
+
+BBBike bietet die Daten von Planet.osm in vielen verschiedenen Dateiformaten an.
+Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
+Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512mb als Datei.
+Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
+Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
+
+=== OSMaxx
+
+Mit OSMaxx können bestehende und neue Auszüge von OpenStreetMap in verschiedenen GIS-Formaten heruntergeladen werden.
+Um OSMaxx nutzen zu können benötigt man ein OSM-Konto mit einer gültigen E-Mail Adresse.
+
+Unter _Existing Excerpt / Country_ können bestehende Auszüge heruntergeladen werden.
+Es kann ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
+welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt werden sollen.
+
+Unter _New Exceprt_ kannst du eigene Bereiche von OpenStreetMap auswählen, die du herunterladen möchtest.
+Dazu kann man ein Viereck oder ein Polygon über die Karte zeichnen.
+Es kann widerum ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
+welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt werden sollen.
+
+Das exportieren der Daten geht etwa 30 Minuten.
+
+== OpenStreetMap-Daten in QGIS importieren oder direkt extrahieren
+
+=== Mit eingebauten QGIS-Tools
+
+Resultat direkt in QGIS.
+
+(Quellen: https://learnosm.org/de/osm-data/osm-in-qgis/, http://www.qgistutorials.com/de/docs/downloading_osm_data.html (ersteres bitte ohne OpenLayers-plugin)? => Was ist Export to Spatialite in QGIS 3?).
+
+tbd.
+
+=== Mit QGIS-Plugin QuickOSM
+
+Man kann die Daten auch direkt aus OSM ins QGIS importieren. Dazu benötigt man das Plugin _QuickOSM_.
+Dafür muss man unter _Plugins_ -> _Manage and Install Plugins..._ nach _QuickOSM_ suchen und installieren.
+
+.QuickOSM Plugin in QGIS installieren
+image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
+
+Nach der Installation öffne das Plugin unter _Vector_ -> _QuickOSM_.
+Ein neues Fenster öffnet sich. Unter _Quick query_ kann eine einfache Query erstellt werden, die vom Overpass-API verarbeitet wird.
+
+Unter der Leiste _Query_ und unter _Parameters_ können die verschiedenen Overpass-API-Instanzen ausgewählt werden.
+So kann z.B. die voreingestellte Overpass-Instanz durch http://overpass-turbo.osm.ch/ ersetzen.
+
+Anspruchsvollere Abfragen können mit OverpassQL von Hand erstellt werden.
+OverpassQL ist recht komplex und v.a. für "Techies" zu empfehlen.
+
+Mehr Informationen zu OverpassQL, bzw. Overpass-Turbo gibt es u.a. auf https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL und auf http://osmlab.github.io/learnoverpass/en/.
+
+.Query Erstellung mit dem QuickOSM Plugin
+image::osm_editieren/osm-daten_beziehen/quick_query.png[]
+
+Das Resultat der Queries wird direkt als neuer Layer ins QGIS eingefügt.
