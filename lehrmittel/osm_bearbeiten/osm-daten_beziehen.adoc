@@ -16,7 +16,7 @@ Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten bezieh
 Alle, die am Erstellen einer eigenen Karte (online, als druckbarer Plan) und die am Analysieren von Geodaten interessiert sind.
 
 .Zeitplanung
-Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkentnissen unterschiedliche Zeit, da man einzelne Abschnitte, die nicht interessieren, überspringen kann.
+Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkentnissen unterschiedlich viel Zeit, da man einzelne Abschnitte, die nicht interessieren, überspringen kann.
 
 [NOTE]
 ====
