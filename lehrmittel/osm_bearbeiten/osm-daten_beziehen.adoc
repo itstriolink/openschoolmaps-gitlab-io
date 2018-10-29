@@ -21,7 +21,7 @@ Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkentnissen unterschiedl
 [NOTE]
 ====
 Bei dieser Anleitung geht es um das reine Nutzen bestehender Daten aus OpenStreetMap.
-Wer selber Datenerfassen will, kann sich mit dem Arbeitsblatt
+Wer selber Daten erfassen will, kann sich mit dem Arbeitsblatt
 "Mit uMap eine thematische Online-Karte erstellen"
 und auf https://learnosm.org/de/ informieren.
 ====
