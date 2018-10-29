@@ -30,7 +30,7 @@ und auf https://learnosm.org/de/ informieren.
 == OpenStreetMap-Daten extrahieren und downloaden
 
 Die Daten von OpenStreetMap können in unterschiedlichen Datenformaten auf dem Rechner lokal gespeichert werden.
-Daher werden wir zuerst mal einige dieser Dateiformaten genauer erläutern.
+Daher werden wir zunächst einige dieser Dateiformaten genauer erläutern.
 
 === OpenStreetMap und Geoinformationssysteme
 
@@ -159,7 +159,7 @@ Ein neuer Layer sollte nun hinzugefügt worden sein mit allen Punkten aus dem Au
 Schliesse die offenen Dialogen.
 
 Nun wollen wir die Punkte filtern nach bestimmten Kriterien.
-In unserem Fall filtern wir mal nach Bars.
+In unserem Fall filtern wir 'mal nach Bars.
 Natürlich kannst auch nach anderen Punkten filtern.
 
 Um zu Filtern drückst du die rechte Maustaste auf dem Punkte-Layer und wählst _Open Attribute Table_.
