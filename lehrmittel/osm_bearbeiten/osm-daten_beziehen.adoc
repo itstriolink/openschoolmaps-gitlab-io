@@ -10,7 +10,7 @@ Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturand
 == Übersicht
 
 .Ziel
-Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten beziehen kann und wie man diese Geodaten in QGIS 3 nutzen kann.
+Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten beziehen und in QGIS 3 nutzen kann.
 
 .Zielgruppe
 Alle, die am Erstellen einer eigenen Karte (online, als druckbarer Plan) und die am Analysieren von Geodaten interessiert sind.
