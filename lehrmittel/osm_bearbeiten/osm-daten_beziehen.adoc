@@ -52,7 +52,7 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 === OpenStreetMap-Daten länderweise beziehen
 
 Die Webseite https://geofabrik.de bietet OpenStreetMap-Daten für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
-Auf ihrem Download-Server können die Daten als `.osm.pbf`, `.shp.zip` oder `.osm.bz2` heruntergeladen werden.
+Die Daten können als `.osm.pbf`, `.shp.zip` oder `.osm.bz2` heruntergeladen werden.
 Die Daten sind in einzelne Regionen unterteilt.
 Wenn man auf eine Region klickt, werden die Daten der Länder in dieser Region angezeigt.
 Je nach Land kann man auch noch kleinere Ausschnitte aus dem Land herunterladen.
