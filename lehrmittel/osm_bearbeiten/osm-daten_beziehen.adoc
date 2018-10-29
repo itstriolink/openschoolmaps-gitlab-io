@@ -56,7 +56,7 @@ Die Daten können als `.osm.pbf`, `.shp.zip` oder `.osm.bz2` heruntergeladen wer
 Die Daten sind in einzelne Regionen unterteilt.
 Wenn man auf eine Region klickt, werden die Daten der Länder in dieser Region angezeigt.
 Je nach Land kann man auch noch kleinere Ausschnitte aus dem Land herunterladen.
-Wenn man mit der Maus über eine Region oder Land geht, sieht man auf der rechten Seite der Webseite eine Vorschau der Ortschaft.
+Wenn man den Mauszeiger über eine Region oder ein Land hält, sieht man in der Karte auf der rechten Seite der Webseite das jeweilige Gebiet.
 Die Daten auf GeoFabrik werden alle 24 Stunden aktualisert mit den Daten von OpenStreetMap.
 Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat,
 muss man mindestens 1 Tag warten bis sie auch auf Geofabrik verfügbar sind.
