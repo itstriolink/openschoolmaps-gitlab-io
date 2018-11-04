@@ -58,6 +58,6 @@ Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmate
 
 === English version
 
-Get https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/english/download?job=PDFs[these materials in English] (Zip archive).
+Get https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/english/download?job=PDFs[these materials in English] (Zip archive)
 
 Bildquelle: Yves Maurer
