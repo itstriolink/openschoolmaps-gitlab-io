@@ -22,6 +22,7 @@ Sie wollen zu OpenSchoolMaps beitragen? Das können Sie auf verschiedene Arten t
 = News
 
 - Workshop zu "OER in der Schule - Open School Maps und H5P" am Sa. 6. April 2019: "Open Education Day 2019" in Bern. https://openeducationday.ch/
+- New post on Geometa Lab HSR Blog, published 2018-01-15, about http://geometalab.tumblr.com/post/182036823612/creating-a-thematic-online-map-using-umap["Creating a Thematic Online-Map using uMap"].
 - Am Sa. 6. Oktober 2018 hielt Stefan Keller anlässlich der WikiCon 2018 in St. Gallen einen Vortrag mit dem Titel "OpenSchoolMaps mit OpenStreetMap und Geodaten editieren mit QGIS". https://wikicon.org
 - Am 3. Juli 2018 wurde anlässlich der Opendata.ch/2018-Konferenz in St. Gallen ein "Community Showcase" vorgestellt mit dem Titel "OpenSchoolMaps - OpenStreetMap als Open Educational Resource". https://hack.opendata.ch/project/204
 - Am 6. und 7. Juni 2018 gab es einen Edu Workshop für Lehrpersonen am GEOSchool Day in Bern. Der Beitrag von Stefan Keller hatte den Titel "OpenStreetMap". http://geoschoolday.ch/ (vgl. Folien).
