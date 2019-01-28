@@ -19,7 +19,7 @@ als Open Educational Resource ([OER](https://de.wikipedia.org/wiki/Open_Educatio
 bereitgestellt, so dass jeder zu den Lehr- und Lernmaterialien beitragen, 
 sie frei - auch ausserhalb des Unterrichts! - nutzen und weitergeben kann und darf.
 
-== News
+## News
 
 - Workshop zu "OER in der Schule - OpenSchoolMaps und H5P" von Nicole Berva und Stefan Keller am Sa. 6. April 2019: "Open Education Day 2019" in Bern. https://openeducationday.ch/
 - Inputvortrag von Stefan Keller zu "OpenSchoolMaps - Unterricht mit offen Karten" am Sa. 16. März in Wil/SG an der ICT-Kadervernetzung 2019 vor Kursleitenden in Medien und Informatik aller Kantone der Ostschweiz sowie Liechtenstein. http://educanet2.ch/kadervernetzung/.ws_gen/
