@@ -9,23 +9,18 @@ image::../images/locks.jpg["Schlösser"]
 
 Auf dieser https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel[Wiki-Seite] von OpenStreetMap sind weitere Unterrichtsmaterialien und Lehrmittel zusammengestellt.
 
-Auf erwähnter Wiki-Seite sind auch Datenquellen (Geodaten und Webservices) angegeben, die nützlich für den Unterricht sein könnten. Mit entsprechendem technischem Know-How kann man Geodaten namentlich in uMap importieren und dort direkt nutzen, ohne die Daten von Hand (noch einmal) eintragen zu müssen. Beispiele von aus OpenStreetMap extrahierbaren Daten sind Sitzbänkli, Brunnen, Abfalleimer und Burgen - so wie sie teilweise auch in den Arbeitsblättern und im "OpenStreetMap Tagging Cheatsheet" erwähnt werden.
+Auf erwähnter Wiki-Seite sind auch Datenquellen (Geodaten und Webservices) angegeben, die nützlich für den Unterricht sein könnten. 
+Mit entsprechendem technischem Know-How kann man Geodaten namentlich in uMap importieren und dort direkt nutzen, ohne die Daten von Hand (noch einmal) eintragen zu müssen. 
+Beispiele von aus OpenStreetMap extrahierbaren Daten sind Sitzbänkli, Brunnen, Abfalleimer und Burgen - so wie sie teilweise auch in den Arbeitsblättern 
+und im "OpenStreetMap Tagging Cheatsheet" (vgl. "Unterrichtsmaterialien) erwähnt werden.
 
-Die HSR übernimmt Patenschaften für Maturaarbeiten. Mit OpenStreetMap lassen sich interessante Spiele und "Maps" gestalten. So ist z.B. das Spiel "Globat Pixel" (kastgames.com) entstanden. Interessenten melden sich bei Prof. Stefan Keller.
+Die HSR übernimmt Patenschaften für Maturaarbeiten. Mit OpenStreetMap lassen sich interessante Spiele und "Maps" gestalten. 
+So ist z.B. das Spiel "Globat Pixel" (kastgames.com) entstanden. Interessenten können sich unter "Kontakt" melden.
 
 Sie wollen zu OpenSchoolMaps beitragen? Das können Sie auf verschiedene Arten tun:
 
-- Laden Sie die PDF-Dateien runter und annotieren Sie Verbesserungsvorschläge an den entsprechenden Stellen. Diese PDF's können Sie uns dann emailen.
+- Laden Sie die PDF-Dateien herunter und annotieren Sie Verbesserungsvorschläge an den entsprechenden Stellen. Diese PDF's können Sie uns dann e-mailen.
 - Erstellen Sie auf dem Repository von https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/issues[OpenSchoolMaps hier] einen Issue (Verbesserungsvorschlag) zuhanden des Entwicklungsteams.
 - Falls Sie Erfahrung mit Git haben, können Sie auch einfach einen 'Pull Request' mit Ihren Änderungen einreichen.
-
-= News
-
-- Workshop zu "OER in der Schule - Open School Maps und H5P" am Sa. 6. April 2019: "Open Education Day 2019" in Bern. https://openeducationday.ch/
-- New post on Geometa Lab HSR Blog, published 2018-01-15, about http://geometalab.tumblr.com/post/182036823612/creating-a-thematic-online-map-using-umap["Creating a Thematic Online-Map using uMap"].
-- Am Sa. 6. Oktober 2018 hielt Stefan Keller anlässlich der WikiCon 2018 in St. Gallen einen Vortrag mit dem Titel "OpenSchoolMaps mit OpenStreetMap und Geodaten editieren mit QGIS". https://wikicon.org
-- Am 3. Juli 2018 wurde anlässlich der Opendata.ch/2018-Konferenz in St. Gallen ein "Community Showcase" vorgestellt mit dem Titel "OpenSchoolMaps - OpenStreetMap als Open Educational Resource". https://hack.opendata.ch/project/204
-- Am 6. und 7. Juni 2018 gab es einen Edu Workshop für Lehrpersonen am GEOSchool Day in Bern. Der Beitrag von Stefan Keller hatte den Titel "OpenStreetMap". http://geoschoolday.ch/ (vgl. Folien).
-- Am 28. April 2018 wurde anlässlich des "Open Education Day 2018", FHNW Brugg, erstmals von Stefan Keller OpenSchoolMaps vorgestellt Hier https://openeducationday.ch/das-programm/die-freie-weltkarte-openstreetmap-grenzueberschreitend-nutzen/ die Folien und hier der Workshop "Die freie Weltkarte OpenStreetMap grenzüberschreitend nutzen" https://openeducationday.ch/
 
 Bildquelle: Yves Maurer 2018
