@@ -89,7 +89,7 @@ of the Canton of Zurich:
 
 https://maps.zh.ch/
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
 _Task 1_ +
 _Answer the following questions:
 Which GIS functions
