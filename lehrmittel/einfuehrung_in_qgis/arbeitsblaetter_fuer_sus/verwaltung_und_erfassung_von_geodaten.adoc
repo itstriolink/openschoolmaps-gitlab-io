@@ -425,153 +425,122 @@ _Locator_
 
 === Entering Objects
 
-Es sollen nun zusätzlich
-zu den bestehenden Seen
-zwei weitere Seen erfasst werden:
-der _Lungernsee_ und der _Wägitalersee_.
+In addition to the existing lakes, 
+two further lakes are now to be 
+included: the _Lungernsee_ and 
+the _Wägitalersee_.
 
-Um den Lungernsee zu erfassen,
-zoome in die Nähe von _Sarnen_.
-Der See zwischen _Giswil_,
-_Brienz_ und _Meiringen_ ist der _Lungernsee_.
-Um überhaupt Daten erfassen zu können,
-muss der Layer mit den Seen markiert werden
-und aus dem Werkzeugkasten _Digitizing Toolbar_
-der Button _Toggle Editing_
-ausgewählt werden.
-Das Gleiche geschieht mit Rechtsmausklick
-auf den Layer und dann
-die Option _Toggle Editing_ wählen.
-Probiere beide Methoden mal aus
-und entscheide dich für eine,
-welche du in Zukunft verwenden möchtest.
+To capture the Lungernsee, zoom near _Sarnen_. 
+The lake between _Giswil_, _Brienz_ and _Meiringen_
+is the _Lungernsee_. In order to collect data at
+all, the layer must be marked with the lakes and
+the _Toggle Editing_ button must be selected
+from the _Digitizing Toolbar_ toolbox. The 
+same is done by right-clicking on the layer 
+and then selecting the _Toggle Editing_ option.
+Try both methods and decide which one you
+want to use in the future.
 
-Die Buttons,
-welche für die Digitalisierung
-gebraucht werden können,
-werden nun aktiviert.
-Wähle den Button _Add Polygon Feature_
-und setze Punkte entlang der hellblauen Linie
-des Uferbereiches auf der Karte ab.
-Um die Fläche zu schliessen,
-drücke die rechte Maustaste.
-Es erscheint automatisch ein Fenster,
-in welchem die Attribute
-eingegeben werden können.
-Gib folgende Werte ein:
+The buttons that can be used for digitizing are
+now activated. Select the _Add Polygon Feature_
+button and place points along the light blue 
+line of the shore area on the map. To close the
+area press the right mouse button. A window 
+appears automatically in which the attributes
+can be entered. Enter the following values:
 
 *Name:* Lungernsee;
 *Type:* Speichersee;
 
-*Fläche:* 2.01 km^2^;
-*Höhe:* 688.0 m.ü.M;
-*Tiefe:* 68 m;
-*Volumen:* 0.065 km^3^
+*Area:* 2.01 km^2^;
+*Height:* 688.0 m.ü.M;
+*Depth:* 68 m;
+*Volume:* 0.065 km^3^
 
-Der zweite zu erfassende See
-hat wie bereits erwähnt
-den Namen _Wägitalersee_
-und liegt zwischen dem _Sihlsee_,
-dem _Zürichsee_
-und der Ortschaft _Glarus_.
-Erfasse auch die Geometrie
-und die Attribute dieses Sees.
-Hier noch einige Infos:
+As already mentioned, the second lake to
+be covered is called Lakeägitalersee and
+lies between Lake Sihl, Lake Zurich and
+the village of Glarus. Also record the
+geometry and attributes of this lake.
+Here some more information:
 
 *Name:* Wägitalersee;
 *Type:* Speichersee;
 
-*Fläche:* 4.18 km^2^;
-*Höhe:* 900.0 m.ü.M;
-*Tiefe:* 65 m;
-*Volumen:* 0.150 km^3^
+*Area:* 4.18 km^2^;
+*Height:* 900.0 m.ü.M;
+*Depth:* 65 m;
+*Volume:* 0.150 km^3^
 
-Um die Änderungen zu speichern,
-muss der Bearbeitungsstatus
-wieder umgestellt werden.
-Solange du dies nicht tust,
-sind die Daten,
-die du erfasst hast,
-nicht abgespeichert.
+To save the changes, the editing status must
+be changed again. As long as you do not do
+this, the data you have entered will
+not be saved.
 
-Herzliche Gratulation,
-du hast deine ersten Objekte
-mit QGIS selber erfasst!
+Congratulations, you have
+captured your first objects
+yourself with QGIS!
 
-== Kapiteltest 3
+== Chapter test 3
 
-Willkommen beim Kapiteltest 3.
-Inzwischen bist du ja schon
-ein alter Kapiteltest-Hase
-und weisst genau,
-was zu erledigen ist.
-Deshalb hier
-ohne grosse Worte
-die Fragen:
+Welcome to the chapter test 3.
+Meanwhile you are already an
+old chapter test rabbit and know
+exactly what to do. Therefore 
+here without big words the questions:
 
-=== Frage 1
+=== Question 1
 
-Vektordaten können in
-unterschiedlicher Form
-abgespeichert werden.
+Vector data can be stored
+in different forms.
 
-_Welche zwei Arten
-kennst du?_
+_What two species do you know?_
 
-Schreibe bei jeder Form
-noch einen zusätzlichen Satz,
-in welchem du je
-eine Besonderheit nennst.
+Write an additional sentence
+for each form in which you name
+a special feature.
 
 ifdef::show_solutions[]
 ====
-.Lösung
+.Solution
 . Shapefile +
-Die einfachste und schnellste
-Form der Speicherung von
-Vektordaten sind Shapefiles,
-welche ihre Daten auf verschiedene
-Dateien verteilen.
-. Geodatenbanken +
-Eine weitere Form der
-Speicherung von Vektordaten
-sind spezielle Datenbanken,
-sogenannte Geodatenbanken.
-Sie unterscheiden sich von
-normalen Datenbanken dadurch,
-dass sich mit ihnen zusätzlich
-noch die Geometrie verwalten
-lässt und nicht nur die Daten.
+The easiest and fastest way to store
+vector data are Shapefiles, which 
+distribute their data to 
+different files.
+. Geo databases +
+Another form of storing vector data
+are special databases, so-called 
+geodatabases. They differ from normal
+databases in that they can also be
+used to manage the geometry and not
+just the data.
 ====
 endif::show_solutions[]
 
 
-=== Frage 2
+=== Question 2
 
-Nicht nur in einem GIS
-werden Informationen oft
-in Form einer Tabelle
-abgespeichert.
+It is not only in a GIS that 
+information is often stored in
+the form of a table.
 
-_Wie würdest du jemandem,
-der noch nie
-eine Tabelle gesehen hat,
-den Aufbau
-einer solchen beschreiben?_
+_How would you describe the 
+structure of such a table to
+someone who has never seen
+one before?_
 
-Zur Beantwortung dieser Frage
-darfst du auch eine Skizze
-zu Hilfe nehmen.
-Die wichtigen Begriffe
-müssen jedoch in deiner Antwort
-schriftlich stehen.
+You may also use a sketch to 
+answer this question. The important
+terms, however, must be written 
+in your answer.
 
 ifdef::show_solutions[]
 ====
-_Lösung_
+_Solution_
 
 |===
-|ID	|Vorname|Nachname|	Email
+|ID	|First name|Last name|	Email
 |1|Elena|Meller|Elena.me@gmail
 |2|Nina|Schurter|Nina.Schur@gmx
 |3|Ben|Schulte|Ben.Schul@gmx
@@ -579,99 +548,82 @@ _Lösung_
 |5|Lukas|Gerber	|Lukas.gerb@gmail
 |===
 
-Die oben abgebildeten Daten haben die
-Form einer Tabelle und sie sollen hierbei
-als Beispiel dienen, um eine Tabelle
-zu veranschaulichen. +
+The above data is in the form of a 
+table and is intended to serve as 
+an example to illustrate a table. +
 
-Tabellen dienen dazu, Informationen
-geordnet abzulegen. Dabei bestehen
-sie aus Zeilen (horizontal) und
-Spalten (vertikal). Eine Zeile
-beinhaltet einen sogenannten
-Datensatz, auch Tupel genannt.
-Ein Datensatz beinhaltet
-verschiedene Daten, welche
-zusammengehören und erst zusammen
-aussagekräftig sind. Oben im Beispiel
-wäre Elena Meller mit der Email
-Elena.me@gmail und der ID 1 eine
-Datensatz. Daneben gibt es noch
-Spalten, welche Attribute enthalten,
-welche wiederum eine Teilmenge eines
-Datensatzes darstellen.
+Tables are used to store information
+in an orderly manner. They consist
+of rows (horizontal) and columns
+(vertical). A row contains a so-called
+data set, also known as a tuple. A data
+set contains various data that belong
+together and are only meaningful 
+together. In the example above, 
+Elena Meller would be a data record
+with the email Elena.me@gmail and 
+the ID 1. There are also columns that
+contain attributes, which in turn
+represent a subset of a data set.
 ====
 endif::show_solutions[]
 
-=== Frage 3
+=== Question 3
 
-Eine Art,
-um Informationen zu Objekten
-abzuspeichern ist,
-diese in ein Textfile
-zu schreiben.
+One way to store information
+about objects is to write
+them into a text file.
 
-. Was muss in einem Textfile
-minimal gespeichert werden,
-damit die Information
-aus dem File im Kartenfenster
-angezeigt werden kann
-. Was muss beim Erfassen der Werte
-im Textfile beachtet werden.
-Wieso muss dies beachtet werden?
+. What has to be saved in a text 
+file in order to display the 
+information from the file 
+in the map window?
+. What has to be considered
+when entering the values in the 
+text file? Why does this 
+have to be considered?
 
-Beantworte die Fragen
-in eigenen Worten
-und begründe deine Antworten.
-Denke bei der Beantwortung
-der Fragen auch
-an die Übung zurück.
+Answer the questions in your own
+words and justify your answers.
+Think back to the exercise when
+answering the questions.
 
 ifdef::show_solutions[]
 ====
-.Lösung
-. Es müssen Koordinaten- und
-Attributwerte vorhanden sein +
-. Es muss darauf geachtet
-werden, dass die erste Zeile
-des Textfiles die Attributnamen
-getrennt durch ein Komma enthält.
-Danach, in den darauffolgenden
-Zeilen, folgen die Objekte,
-bei welchen die Attribute auch
-durch Kommas getrennt werden. +
+.Solution
+. Coordinate and attribute values
+must be available. +
+. It must be ensured that the 
+first line of the text file contains
+the attribute names separated by
+a comma. Then, in the following lines,
+follow the objects where the 
+attributes are also separated
+by commas. +
 ====
 endif::show_solutions[]
 
-=== Frage 4
+=== Question 4
 
-Du erhältst von deinem Klassenlehrer
-den Auftrag,
-für die nächste Schulreise
-ein GIS zu erstellen,
-in welchem die
-verschiedenen Zwischenstationen
-des Ausfluges
-und die Wanderroute
-räumlich dargestellt sind.
+Your class teacher will instruct you
+to create a GIS for your next school
+trip, in which the various intermediate
+stations of the trip and the hiking
+route are spatially represented.
 
-_Welche Möglichkeiten hast du,
-um an die verschiedenen Daten zu kommen?_
+_What possibilities do you have to
+get the different dates?_
 
-Wähle zwei Themen aus,
-die du im Schulreise-GIS
-darstellen möchtest.
-Beantworte die Frage
-für beide Themen.
-Es müssen jedoch
-zwei unterschiedliche Erfassungsarten
-beschrieben werden.
-Es gibt mehrere
-richtige Möglichkeiten.
+Select two topics that you would like
+to present in the School Travel GIS.
+Answer the question for both topics.
+However, two different entry types 
+must be described. There are several
+correct ways.
 
 ifdef::show_solutions[]
 ====
-.Lösung
+.Solution
 . Haltestellen der ÖV-Verbindungen +
 Zeitplan und Ort der Haltestellen
 auf Homepage der ÖV-Anbieter
