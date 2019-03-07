@@ -1,0 +1,706 @@
+= Introduction to QGIS 3: What is Geodata? (Chapter 2)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*A worksheet*
+ifdef::show_solutions[- *LÖSUNGEN*]
+
+== Geodata and spatial reference
+
+In the last chapter you learned
+that the data presented in a GIS
+is spatial data. These spatial 
+data are often called geodata.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
+_Task 1_ +
+_As an introduction to this chapter, 
+consider what the terms geodata and 
+spatial might mean. Think also of other
+words with the prefix Geo (e.g. geography,
+geology etc.). Do not look up the words
+on the Internet or in a lexicon. Write
+your thoughts on your worksheet._
+
+ifdef::show_solutions[]
+====
+.Solution
+Compare your solution with the theory in the first part of this chapter.
+====
+endif::show_solutions[]
+
+=== Learning objectives of the theory
+
+After this chapter, you will be able to:
+
+* Explain the terms "geodata" and 
+"spatial reference" in their own words
+* Distinguish raster data
+from vector data
+* Explain the benefits of 
+coordinate systems
+
+=== Theory
+
+==== Geodata
+
+The prefix geo comes from Greek and 
+means earth. Geodata must therefore
+be data that is related to the earth.
+
+==== Spatial reference
+
+A spatial reference can be interpreted
+in such a way that an object can be 
+assigned to a place on earth. There are
+two different types of spatial reference.
+If the spatial reference is indicated by
+measured two- or three-dimensional
+coordinates, for example in the official
+cadastral survey, then one speaks of a direct
+spatial reference. In the area of official
+statistics, however, the coordinates for 
+positioning information in space do not have
+to be so precise. There, the information is
+often linked to generalised administrative
+boundaries such as cantonal borders. In such 
+a case, the term indirect spatial
+reference is used.
+
+Imagine you have a mobile phone or a camera
+with a built-in GPS, which you can use to
+determine the position where you are standing.
+If you now take a photo, the coordinates at
+which you took the photo can be saved in the
+digital image. So the photo has a spatial reference.
+
+==== Georeferencing
+
+Objects without a room reference can often
+be assigned a direct or indirect room reference.
+This process is called georeferencing. Of course,
+the spatial reference always refers to an earth 
+image, i.e. a coordinate system. These coordinate 
+systems were introduced in order to be able to 
+indicate the geographical position of a place on 
+earth in numbers. You probably know the different
+coordinate systems from geography lessons. If you 
+would like to refresh your knowledge in this area, 
+you can do so with the help of the "Maps" guide 
+program. This guide is available on the EducETH 
+server under the link 
+http://www.educ.ethz.ch/unterrichtsmaterialien/geographie-umweltlehre/karten-leitprogramm.html .
+
+==== Type of data storage
+
+Geodata can be stored either in the 
+form of raster or vector data. What 
+does this mean more precisely?
+
+===== Raster data
+
+When you look at digital photos on
+your computer, you look at raster data.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
+_Task 2_ +
+_To get to know the most important properties of
+a raster image,open the image Testfoto.jpg, 
+which is located in the folder with the data
+for this guide program, in a graphics program.
+Then answer the following questions. Do not 
+go any further until you have answered the questions._
+
+* _What happens to the picture
+if you keep zooming in?_
+* _How are the objects displayed
+in the image saved?_
+
+//-
+
+ifdef::show_solutions[]
+====
+.Solution
+. If you zoom further into the image, 
+you will see that at a certain zoom level
+the image consists of many colored 
+rectangles. The further you zoom in,
+the larger these rectangles become.
+. An object saved with the help
+of many colored rectangles.
+====
+endif::show_solutions[]
+
+Raster data can be imagined as if, for 
+example, a regular grid was laid from 
+above over the landscape to be displayed,
+dividing the section into many equally
+sized cells, also known as pixels. In 
+each pixel the color value is stored, 
+which best represents the underlying 
+colors. The number of pixels per unit 
+is also called point density or resolution.
+An often used unit for dot density 
+is the term dpi (dots per inch). 1 inch
+corresponds to 25.4 mm. Thus, for example,
+a resolution of 72 dpi means that 2.83 
+dots per mm are stored. For comparison,
+11.81 points per mm are saved at a 
+resolution of 300 dpi.
+
+Information can be saved for each pixel.
+This can be a gray or color value as for
+example with photos or pixel maps (as you
+will get to know them in the exercise) or
+numerical information as for example a 
+measured value. Take a look at the map with
+the snow depths on the homepage of the 
+Institute for Snow and Avalanche Research
+(SLF) as an example for grids from 
+measured values: https://www.slf.ch/de.html
+
+===== Vector data
+
+The vector data includes, for example, 
+the shapefiles you used in the first 
+exercise. With vector data, the geometry
+of the objects is saved as points, 
+lines or areas, where one line is defined
+as the connection of two points and 
+one area as a closed line. Further 
+information about the object, so-called
+attribute data, is stored in a table 
+in addition to the geometry.
+
+===== Comparison of vector and raster data
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
+_Task 3_ +
+_Now imagine that you want to 
+represent a building in a GIS. 
+Once the building is saved in
+the form of raster data and once 
+in the form of vector data. What
+does the house edge look like with
+the raster data and like with
+the vector data, if you zoom 
+now completely near to a house
+edge? Record this on your worksheet. +
+Think about which format 
+(raster or vector)
+needs more space._
+
+ifdef::show_solutions[]
+====
+.Solution
+*Raster data*
+
+.Example for raster data (source: sketch based on an Azavea blog post 2014)
+image::einfuehrung_in_qgis/rasterdaten.png["Raster data"]
+
+*Vector data*
+
+.Example for vector data (source: sketch based on an Azavea blog post 2014)
+image::einfuehrung_in_qgis/vektordaten.png["Vector data"]
+
+*Storage requirements* +
+A value is stored for each pixel in the raster
+data. For vector data, the area of the building
+is saved as a closed polyline. And each 
+line of this polyline is defined by two points.
+Therefore, the memory requirement for
+vector data is much smaller.
+
+In order to reduce the memory requirements
+for raster data, formats can be used that
+compress the raster. A distinction is made
+between lossy compression (e.g. jpg) 
+and lossless compression (e.g. .png, .bmp).
+
+If you want to learn more about
+data compression, you can read 
+the following article on Wikipedia:
+
+https://en.wikipedia.org/wiki/Image_compression
+====
+endif::show_solutions[]
+
+===== Metadata
+
+Metadata, i.e. data about the data, 
+is also always stored with the geodata.
+Information about the spatial extent,
+the creator, the quality etc. of the 
+data can be noted in it. For example, 
+if you work with data from an external 
+source, you can check where the data 
+comes from and whether it really 
+contains what you need.
+
+===== Web Map Services
+
+More and more providers have data stored on
+a server and offer other users excerpts from
+this data as maps via special interfaces, 
+so-called Web Map Services (WMS), via the 
+Internet. This allows users to integrate these
+maps into their GIS projects. However, it is 
+important that there is always a connection to
+the server on which the data is stored. For 
+example, if you no longer have an Internet 
+connection, the map is no longer visible in
+the GIS project.
+
+NOTE: The CRS (coordinate reference system) 
+should already be set correctly in our 
+given project. If you still want to 
+know how to change the KBS, you can
+read the following optional chapter.
+
+==== Projections
+
+In QGIS, projections
+are usually specified 
+with an EPSG code.
+
+QGIS has some useful tools to 
+search for specific projections.
+QGIS can project the CRS for
+a project in real time.
+
+To change the CRS of a project, 
+you can click on the EPSG code 
+in the status bar and select
+a new CRS. 
+
+===== Projection of a layer
+
+To specify a specific KBS for a 
+specific layer, right-click on
+the layer and move the mouse 
+pointer over the _Set CRS_ menu
+and select _Set Layer CRS..._. 
+Then you can select the 
+desired CRS.
+
+===== Re-projecting the data
+
+Um die Daten
+in deiner Tabelle
+umprojizieren zu können,
+musst nur den Layernamen
+rechtsklicken,
+auf _Export_ klicken
+und _Save Feature As..._
+auswählen.
+Im oberen Teil
+des Fensters
+kannst du dann
+das KBS abändern.
+
+Wenn du dir
+nicht sicher bist,
+welchen EPSG-Code
+du verwenden sollst,
+kannst du auf
+http://spatialreference.org/
+nachschauen.
+
+== QGIS-Übung
+
+Im Theorieteil hast du
+einiges über Vektor-
+und Rasterdaten erfahren.
+In dieser Übung möchten wir nun
+ein neues GIS-Projekt erstellen
+und in dieses Projekt Vektor-
+und Rasterdaten laden.
+
+=== Lernziele
+
+Nach dieser Übung bist du
+in der Lage folgendes zu tun:
+
+* Das richtige Koordinatenbezugssystem
+für ein neues Projekt wählen
+* Vektordaten und WMS-Dienste ins Projekt laden
+
+=== Projekteinstellungen
+
+Um ein leeres Projekt zu öffnen,
+schliesse und öffne entweder QGIS neu
+oder klicke auf den Button Neues Projekt.
+In das leere Projekt sollen nun
+Geodaten geladen werden.
+
+Bevor jedoch Daten geladen werden,
+sollte das Koordinatensystem
+des Projektes definiert werden.
+Dazu drückst du rechts unten in QGIS
+auf die Schaltfläche _Aktuelles KBS_.
+Mit dem Filter kannst du dann
+das gewünschte Koordinatensystem suchen.
+
+Für die Schweiz wird
+folgendes Koordinatensystem verwendet:
+CH1903 /LV03 (EPSG: 21781)
+
+Wähle das vorgegebene System
+mit Hilfe der Suche aus
+und bestätige die Einstellung
+durch Klicken auf den Anwenden-Button.
+
+Gehe anschliessend
+unter _Projekt_ -> _Properties_
+in den Reiter mit dem Namen Allgemein,
+setze dort den Projekttitel „Die Schweiz“
+und bestimme eine Hintergrundfarbe.
+
+Unter Pfade speichern
+kannst du wählen,
+ob die Pfade zu den Daten
+relativ oder absolut
+abgespeichert werden sollen.
+Der Vorteil der relativen Pfade ist,
+dass du den Ordner mit dem QGIS-Projekt
+und den Daten auch
+an einen anderen Ort hin kopieren kannst,
+ohne anschliessend die ganzen Pfade
+zu den Daten wieder anpassen zu müssen.
+Wähle deshalb für dein neues Projekt
+die Option Relativ.
+
+Schliesse anschliessend
+das Fenster Projekteinstellungen
+durch Klicken auf den OK-Button.
+Damit die neue Hintergrundfarbe erscheint,
+muss im Kartenfenster eine Navigationsfunktion
+wie z.B. Karte verschieben ausgeführt werden.
+
+=== Projekt speichern
+
+Speichere mit dem _Save Project_-Button
+dein neues Projekt in den Ordner,
+in welchem du die Daten
+für diese Übung abgespeichert hast.
+
+=== Daten einlesen
+
+Die Karte ist nun soweit bereit,
+dass Daten eingelesen werden können.
+Dazu wird das Menu Datenbank
+in der Menuleiste verwendet.
+Für die unterschiedlichen Arten
+von Daten,
+die eingelesen werden können,
+hat es auch unterschiedliche Buttons.
+
+==== Vektordaten einlesen
+
+In einem ersten Schritt
+sollen nun die Vektordaten
+aus der ersten Übung eingefügt
+werden. Klicke dazu auf den
+Reiter GeoPackage, wenn du
+dann nicht den Reiter
+einfuehrung_in_qgis_daten.gpkg
+siehst, mach einen Rechtsklik
+auf GeoPackage und navigiere
+dich zum Aufgaben Ordner für
+Teil 1. Wenn du die Datenbank
+siehst, öffne den Reiter und
+nutz Rechtscklick und wähle
+zur Karte hinzufügen um
+sowohl Kantonsgrenzen und
+Seen der Karte hinzuzufügen.
+
+Wähle die Kantonsgrenzen
+als Hintergrund für die Kartenübersicht.
+Falls du nicht mehr genau weisst,
+wie du vorgehen musst,
+schaue nochmals in der ersten Übung nach.
+
+Welche Informationen sind denn überhaupt
+in den beiden Layers gespeichert?
+Dies wollen wir uns nun
+etwas genauer anschauen.
+Klicke dazu mit der rechten Maustaste
+auf den Layer Seen
+und wähle _Attributtabelle öffnen_.
+Es öffnet sich die Tabelle
+mit den thematischen Informationen,
+die zu den Seen erfasst wurden.
+Welche Informationen wurden
+als Attribut abgespeichert?
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 4_ +
+_Schaue dir die Tabelle genau an
+und schreibe auf,
+welche Daten die einzelnen Spalten beinhalten._
+
+ifdef::show_solutions[]
+====
+_Lösung_
+
+.Tabelle des Layers Seen
+image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
+
+_name:_ Die Namen der Seen +
+_type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
+_Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
+_max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
+_Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
+_Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 5_ +
+_Mache das Gleiche
+auch für die Kantonsgrenzen._
+
+ifdef::show_solutions[]
+====
+_Lösung_
+
+.Tabelle des Layers Kantone
+image::einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120]
+
+_Name:_ Namen der Kantone +
+_Kuerzel:_ Kantonskürzel +
+_Beitrittsj:_ Beitrittsjahr zur Schweiz +
+_Einwohner:_ Anzahl Einwohner +
+_Gemeinden:_ Anzahl Gemeinden +
+_Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
+_Staende:_ Anzahl Stände (0.5 = Halbkanton) +
+_Flaeche:_ Fläche des Kantons in Quadratkilometer [km^2^]
+====
+endif::show_solutions[]
+
+==== Rasterdaten einlesen
+
+Die Rasterdaten sollen in Form
+eines WMS-Layers eingelesen werden.
+Weisst du noch,
+was ein WMS-Layer ist?
+Wenn nicht,
+schaue nochmals im Theorieteil nach.
+
+Der Bund bietet auf seiner Homepage
+einen Überblick über die Verfügbaren WMS-Dienste an
+(http://www.geo.admin.ch unter
+Dienstleistungen -> Geodienste ->
+Darstellungsdienste -> Web Map Services).
+
+Unter dem Titel Verfügbare WMS-Dienste
+sind unter GetCapabilities die Anfragen
+in Form von Links abgespeichert.
+Wenn du z.B. auf den Link
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de
+klickst,
+wird eine Anfrage an den Server
+http://wms.geo.admin.ch/
+gestartet und du erhältst
+als Antwort eine Auflistung
+der verfügbaren WMS-Services.
+
+Unter _Title_ findest du den Titel
+des WMS-Services und unter _Abstract_
+einen kurzen Beschrieb,
+was genau in den Daten abgespeichert ist.
+Zusätzlich sind auch Informationen
+über die Ausdehnung
+und die möglichen Koordinatensysteme
+erhältlich.
+
+Aus diesen Daten möchten wir
+die Übersichtskarte
+in unser Projekt einbinden.
+Wähle im Werkzeugkasten
+_Manage Layers_
+das Werkzeug _Add WMS/WMTS Layer_.
+Wenn du im Reiter _Layers_
+beim obersten Balken
+auf den Pfeil klickst,
+siehst du,
+dass bereits einige Server
+standardmässig eingebunden sind.
+Um den Server
+mit den öffentlichen Daten
+der _Bundes Geodaten-Infrastruktur_ (BGDI)
+ebenfalls einzubinden,
+muss eine neue WMS-Verbindung
+erstellt werden.
+Dazu muss auf den _New_-Button
+geklickt werden.
+Gib im Fenster _Create a New WMS/WMTS Connection_
+den Namen der Verbindung an (z.B. WMS-BGDI)
+und die URL zum gewünschten Server
+(in unserem Fall http://wms.geo.admin.ch/).
+Benutzername und Passwort werden
+in diesem Fall nicht gebraucht.
+
+Wenn du jetzt nochmals auf den Pfeil
+des ersten Balkens klickst,
+sollte die neu angelegte Verbindung
+ebenfalls erscheinen.
+Wähle diese aus
+und klicke auf _Connect_.
+
+Nun werden alle WMS-Dienste angezeigt,
+die auf dem Server der BGDI
+öffentlich angeboten werden.
+Klicke auf die _Übersichtskarte Hydrogeologie_
+und wähle als Layername „Übersichtskarte“
+und ändere das Koordinatenbezugssystem
+von WGS 84 auf das schweizerische
+Bezugssystem CH1903 / LV03.
+Am einfachsten wählst du
+den Filter aus
+und gibst als Text CH1903 ein.
+So erscheint das gewünschte System
+in der Auswahl.
+Anschliessend können der WMS-Layer hinzugefügt
+und das Fenster geschlossen werden.
+
+Damit die Übersichtskarte im Kartenfenster
+nicht die Kantonsgrenzen und Seen überdeckt,
+muss die Layerreihenfolge angepasst werden.
+Denke dir eine geeignete Reihenfolge aus
+und wende sie an.
+
+==== Vergleich zwischen Raster- und Vektordaten
+
+Zum Schluss dieser Übung
+sollst du dir die Unterschiede
+zwischen Vektor- und Rasterdaten
+nochmals etwas genauer anschauen.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 6_ +
+_Blende dazu den Layer mit den Kantonsgrenzen aus
+und zoome zu einem beliebigen See.
+Zoome am Uferbereich immer weiter hinein
+und beobachte,
+was mit den Seegrenzen bei den Vektor-
+und den Rasterdaten passiert
+und welches die Unterschiede sind.
+Wenn nicht beide Grenzen sichtbar sind,
+kannst du die Seen ein- und ausblenden,
+um auch die Rasterdaten
+unter dem See-Layer zu sehen.
+Schreibe deine Beobachtungen
+in eigenen Worten auf._
+
+ifdef::show_solutions[]
+====
+.Lösung
+Bei den Rasterdaten besteht die Seegrenze aus
+blauen Pixeln und bei den Vektordaten aus Linien.
+====
+endif::show_solutions[]
+
+Speichere dein Projekt ab.
+In der nächsten Übung wirst du
+mit dem gleichen Projekt weiterarbeiten.
+Aber vorher musst du noch den Kapiteltest bestehen.
+
+== Kapiteltest 2
+
+Schon ist es wieder soweit.
+Du bist wieder bei einem Kapiteltest angelangt.
+Lege wieder alle Unterlagen weg,
+ausser einem Blatt Papier und einem Stift.
+Hier die Fragen zum Kapitel 2:
+
+=== Frage 1
+
+Du möchtest in deinem GIS eine Mauer darstellen,
+welche aus der Luft gesehen so aussieht,
+als würden sich zwei Linien
+in einem Winkel von 135 Grad treffen.
+
+_Wie sieht die Darstellung aus, wenn du_
+
+. das Rasterformat
+. das Vektorformat
+
+_als Speicherformat wählst?
+Was wird bei den einzelnen Formaten
+von der Mauer abgespeichert?_
+
+Beantworte die Fragen in eigenen Worten.
+Erstelle zusätzlich zur Beschreibung
+je eine Skizze der Mauer
+im Raster- und Vektorformat.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Rasterformat speichert die Raster-Punkte, über
+die die Mauer läuft. +
+Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt,
+an dem die Mauer eine Ecke macht.
+====
+endif::show_solutions[]
+
+=== Frage 2
+
+Im Kapitel 2 war oft von Geodaten die Rede.
+
+_Was bedeutet der Begriff Geodaten?
+Welches ist der Unterschied zwischen
+Geodaten und anderen Daten?_
+
+Beantworte die Fragen so,
+dass sie auch
+von einem GIS-Laien verstanden werden.
+Verzichte also auf Fachbegriffe.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Geodaten sind Daten, die einen Raumbezug haben,
+die sich also auf bestimme Orte oder Gebiete beziehen.
+====
+endif::show_solutions[]
+
+=== Frage 3
+
+Im Übungsteil hast du neben Vektordaten
+auch einen WMS-Layer in dein Projekt geladen.
+
+Welches ist der Unterschied
+zwischen dem Vektordaten-Layer
+und dem WMS-Layer bezüglich:
+
+* Format
+* Speicherort
+* Verfügbarkeit
+
+Schreibe zu jedem Punkt
+mindestens einen Satz.
+
+ifdef::show_solutions[]
+====
+.Lösung
+*Format* +
+Der Vektor-Layer nutzt Vektordaten
+im Gegensatz zu den Rasterdaten des WMS-Layers.
+
+*Speicherort* +
+Die Daten des Vektor-Layers sind lokal gespeichert,
+während die des WMS-Layers auf einem Server gespeichert sind und für die Darstellung von dort abgerufen werden.
+
+*Verfügbarkeit* +
+Der WMS-Layer läuft über einen Server
+und hat deshalb eine schlechtere Verfügbarkeit
+als der Vektor-Layer. Auch sendet der Server die
+Karte als ein einzelnes Bild, was es nochmals
+verlangsamt.
+====
+endif::show_solutions[]
