@@ -1,4 +1,4 @@
-= Introduction to QGIS 3: Erfassung und Verwaltung von Daten (Kapitel 3)
+= Introduction to QGIS 3: Data collection and Management (Chapter 3)
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/
@@ -8,24 +8,19 @@ include::../../../snippets/suppress_title_page.adoc[]
 *A worksheet*
 ifdef::show_solutions[- *LÖSUNGEN*]
 
-Bestimmt hast du schon mal Daten
-in einer Tabelle
-(z.B. einer Exceltabelle)
-erfasst.
-Was waren das für Daten
-die du da erfasst hast?
-Woher kamen die Werte,
-die du eingetragen hast?
-Woher könnten allgemein
-ausgedrückt Werte kommen,
-die in einer Tabelle abgespeichert werden.
-Mache dir als Einstieg
-in dieses Kapitel
-zwei bis drei Minuten lang Gedanken
-zu diesen Fragestellungen.
-Notiere diese stichwortartig
-auf deinem Arbeitsblatt.
-Gehe erst dann weiter in diesem Kapitel.
+You have probably already 
+entered datain a table (e.g. an Excel
+spreadsheet).What kind of data did you
+enter? Where did the values 
+you entered come from? Where could
+values come from in general 
+terms that are stored in a table?
+As an introduction to this 
+chapter, think about these 
+questions for two to three 
+minutes. Make a note of them
+on your worksheet. Go on in this
+chapter only then.
 
 == Learning objectives of the theory
 
@@ -56,32 +51,24 @@ collection of vector data.
 
 === Table
 
-Zuerst werden wir uns
-aber allgemein mit der Erfassung
-von Werten in *Tabellen* beschäftigen.
-Eine Tabelle besteht aus
-*Zeilen* und aus *Spalten*.
-Die Zeile verläuft _horizontal_
-und in ihr werden
-die verschiedenen Datensätze
-gespeichert.
-Die Spalte verläuft _vertikal_
-und in ihr wird
-eine gewisse Eigenschaft
-eines Datensatzes abgelegt.
+First, however, we will deal with 
+the general recording of values in
+*tables*. A table consists of *rows*
+and *columns*. The row is _horizontal_
+and the different datasets are stored
+in it. The column is _vertical_ and 
+a certain property of a data set is
+stored in it.
 
-Tabellen werden sehr oft verwendet,
-um Werte von Messungen abzuspeichern.
-In einer Tabelle können
-z.B. die Anzahl Schüler
-einer Klasse abgespeichert werden.
-Die Anzahl Schüler
-einer Klasse können gezählt werden.
-Zusätzlich könnte z.B. auch noch
-der Klassenlehrer in der Tabelle
-erfasst werden.
-Die entsprechende Tabelle
-würde dann wie folgt aussehen.
+Tables are often used to store values
+from measurements. For example, the 
+number of students in a class can be
+stored in a table. The number of 
+students of a class can be counted. 
+In addition, the class teacher could
+also be entered in the table. 
+The corresponding table would then 
+look as follows.
 
 [%header,cols=3*]
 |===
@@ -102,55 +89,43 @@ würde dann wie folgt aussehen.
 |...
 |===
 
-Die Namen der Spalten
-(z.B. Klasse, Anzahl Schüler…)
-werden *Attribute* genannt.
+The names of the columns 
+(e.g. class, number of students...) 
+are called *attributes*.
 
-Bei Geodaten muss zusätzlich
-zu den Sachattributen
-auch noch die Geometrie
-abgespeichert werden.
-In den bisherigen Übungen
-hast du bereits das Shapefile
-als Speicherart für Geodaten
-kennengelernt.
-Beim Shapefile werden
-die Geometrie und die Sachdaten
-in unterschiedlichen Dateien abgespeichert.
+For geodata, the geometry must also
+be saved in addition to the 
+attributes. In the previous exercises
+you already got to know the shapefile
+as a storage type for geodata. With
+the Shapefile, the geometry and the
+attribute data are saved in 
+different files.
 
-Öffne das Verzeichnis,
-in welchem die Daten
-für die Übung abgespeichert sind
-und schaue dir die Daten
-mal etwas genauer an.
-Zusätzlich zur Hauptdatei
-mit der Endung _.shp_
-gibt es noch weitere Dateien
-mit dem gleichen Namen
-aber anderer Endung.
-In der Datei mit der Endung _.dbf_
-sind z.B. die Sachdaten
-und in der Datei mit der Endung _.prj_
-das Koordinatensystem abgespeichert.
-Alle diese Dateien zusammen
-bilden das Shapefile.
+Open the directory in which the data
+for the exercise is stored and take a
+closer look at the data. In addition
+to the main file with the extension 
+_.shp_ there are other files with the
+same name but a different extension. 
+For example, the file with the 
+extension _.dbf_ contains the factual
+data and the file with the extension 
+_.prj_ contains the coordinate system.
+All these files together form 
+the shape file.
 
-Geodaten können auch
-in speziellen Datenbanken,
-sogenannten *Geodatenbanken*
-abgespeichert werden.
-Diese Datenbanken funktionieren
-ähnlich wie normale Datenbanken,
-bieten aber zusätzlich
-noch die Möglichkeit,
-neben Sachinformationen
-auch die Geometrie zu verwalten.
-Normale Datenbanken können dies nicht.
-Beispiele für Geodatenbanken
-sind z.B. _Oracle Spatial_
-und _PostGIS_.
+The geodata can also be stored in 
+special databases, so-called 
+*geodatabases*. These databases 
+function similarly to normal databases,
+but additionally offer the possibility
+to manage geometry as well as factual 
+information. Normal databases cannot 
+do this. Examples for geo databases 
+are e.g. _Oracle Spatial_ and _PostGIS_.
 
-=== Datenerfassung
+=== Data acquisition
 
 Jetzt hast du gelernt,
 in welcher Form Geodaten
