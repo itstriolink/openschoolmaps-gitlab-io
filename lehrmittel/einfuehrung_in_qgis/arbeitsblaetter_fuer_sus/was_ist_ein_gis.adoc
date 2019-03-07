@@ -165,4 +165,147 @@ For a first step we should take a closer look at the interaction between Layer w
 
 Die individual layers can be shown and hidden by placing the cross infront of the layer name. Test this function by showing and hiding both layers in the mapwindow.
 
+TIP: If you cna't see the lake or cantons boarders you can right cklick the layer and select _Zoom to Layer_.
 
+The map view order is based on the orders in the layer window. So if in the lakes lay over the cantons boarders in the layer window, the same will be true in the map window.
+
+You can change that in the layer window. Simply click on the the layer and move it up or down, try it with the lake layer and ovserve what happens.
+
+Return the layers back to their original orders.
+
+=== Navigation in the map window
+
+Beofre you start navigate on the map, you should set a background for the field _Overview_. The canton boarders would be perfect for that, just right click the layer and set the cross on the option _Show in Overview_. The cantons boarders are now vissible in the mapoverview, you can add as many layers as you like and theyll take their order form the layer window.
+
+The tools for navigation can be found in the toolbox _Map Navigation Toolbar_.
+
+.Navigationstools of QGIS
+image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.PNG["Kartennavigationswerkzeuge"]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 3_ +
+_Try out the diffrent tools of the toolbox map navigation and write down in your own words what each one does, pay attention to what happens in the overview as well._
+
+NOTE: For the navigation in the mapwindow you can use mouseweel and keyboard as well. Holding spacebar will and the middle mouse button, you can move the map without changing your current tool.
+
+ifdef::show_solutions[]
+====
+Solutions:
+
+* Move map
+* Move map to selected Object
+* Zoom in
+* Zoom out
+* Zoom to own resolution
+* Full expanse
+* Zoom to selection
+* Zoom to layer
+* Zoom back
+* Zoom forward
+====
+endif::show_solutions[]
+
+ifdef::show_solutions[]
+====
+_What happens in the map overview during navigation?_
+
+The red rectangle matches the
+section in the map window. +
+
+If the red rectangle is moved in the overview, the map view matches it as well.
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 4_ +
+_Try the following points and make notes of what happens._
+
+* _Move the mousweel forward and backwards while the pointer is on the map._
+* _Following keys on the keyboard_
+** _Arrow keys_
+** _PageUp/PageDown_
+** _Hold space down and move your pointer over the map window._
+
+ifdef::show_solutions[]
+====
+*When you move the mouseweel forward or bakcwards on the map, you cna zoom in and out. The pointer becomes the center of the zoom.
+* The keys do the following:
+** _Arrow Keys_ move the map in the corresponding direction.
+** _PageUp/PageDown_ Zooms in and out by a predefined factor, which is the same as with the mouseweel.
+**_Space bar_ Holding it while moving the pointer over the map it couses the map view to shift with it.
+
+NOTE: You can change the zoomfactor under _Settings_ -> _Options..._ -> _Map Toos_, the defaultvalue is _200%_
+====
+endif::show_solutions[]
+
+Once you're finished with all the exercises you can save the project under a diffrent name, for example *Part1_solved.qgs*
+
+=== Chapter test 1
+
+With the help of the chapter test you can check if you understood the current information of this worksheet.
+It serves as a controlfunction, you should only continue if you understood everything in this chapter.
+
+To do so, write all the answers on a sheet of paper and once you've finished them all give it to your teacher to check.
+
+=== Question 1
+
+Somebody ask you what a GIS is and what it can do.
+
+_What do you answer?_
+
+Think about the first three question in the theory part and write down bullet points of what they contained.
+
+ifdef::show_solutions[]
+====
+.Solution
+A Gis (Geographic Information System) allows you to work with spatial data.
+You can capture and save (*input*) change, administrate and reorganize (*manipulate*).
+You can analyse (*analyse*) the data and present them either graphicaly or as text (*Presentation*)
+
+A GIS covers all classic components of data management (Input, Manipulate, Analysis, Presentation, *IMAP*)
+but only for *geographical* Information.
+====
+endif::show_solutions[]
+
+=== Question 2
+
+During one of the exercises with which you can change the excerpt in the map window to your requirements.
+_Which tools and options did you get introduced to to navigate the Map?_
+
+Write down 3 option and explain what they do in a few words.
+
+ifdef::show_solutions[]
+====
+.Solution
+* Move map
+* Move map to selected object
+* Zoom in
+* Zoom out
+* Zoom to own resolution
+* Full expans
+* Zoom to selection
+* Zoom to Layer
+* Zoom back
+* Zoom forward
+====
+endif::show_solutions[]
+
+=== Question 3
+
+Think about the subjects you have in school.
+
+._In which subjects and in which specific part of the subjects would the use of a GIS make sense?_ Write down which topics would make sense and why. Don't only think about the subject you're in right now.
+
+._What would a GIS in that subject contain?_
+Describe in a few sentences, what kind of data the GIS should have and what functions you would use.
+
+ifdef::show_solutions[]
+====
+.Lösung
+* Geographie
+** Map studies (finished maps as raster data or basic map data as vector data)
+** Postal carrier geography (administrative areas countries, districts, municipalities etc. and their main locations as area and point vector data)
+** Climatology (temperature or other climate data, possibly as raster data)
+* Computer Science: Working with specialized computer systems and applications.
+====
+endif::show_solutions[]
