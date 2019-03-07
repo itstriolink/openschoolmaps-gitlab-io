@@ -160,7 +160,7 @@ image::einfuehrung_in_qgis/webgisraster.png["Raster WebGIS", 135, 183]
 ====
 endif::show_solutions[]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
 _Task 2_ +
 _I'm sure there's also
 from canton of residence
@@ -202,7 +202,7 @@ endif::show_solutions[]
 
 ==== Printed map or map in PDF format
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
 _Task 3_ +
 _Look at these cards
 and write down,
@@ -265,7 +265,7 @@ the data is.
 ====
 endif::show_solutions[]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
 _Task 4_ +
 _Create a concept for your own card 
 using the findings from the cards 
