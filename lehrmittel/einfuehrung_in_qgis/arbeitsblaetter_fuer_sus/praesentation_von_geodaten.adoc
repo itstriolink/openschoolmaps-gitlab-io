@@ -540,72 +540,51 @@ for correction.
 
 === Question 1
 
-Kommen wir nochmals
-zur Situation
-aus Frage 4
-aus dem Kapiteltest 3 zurück:
-Du erhältst
-von deinem Klassenlehrer
-den Auftrag,
-für die nächste Schulreise
-ein GIS zu erstellen,
-auf welchem
-die verschiedenen Zwischenstationen
-des Ausfluges und die Wanderroute
-räumlich dargestellt sind.
-Die GIS-Karte
-sollst du zum Schluss
-auf irgend welche
-Art und Weise
-auch an die anderen
-Schüler weitergeben.
+Let's come back to the situation
+from question 4 of chapter test 3: 
+Your class teacher instructs you
+to create a GIS for the next school
+trip, on which the different 
+intermediate stations of the trip
+and the hiking route are spatially
+represented. At the end you should
+pass on the GIS map to the other 
+students in some way.
 
-. _Welches Ausgabeformat
-wählst du
-für die Karte?_ +
-Schreibe deine Wahl auf
-und begründe sie
-in eigenen Worten.
-Es gibt mehrere
-richtige Möglichkeiten.
-. _Wie gehst du
-in QGIS bei der Gestaltung
-der Karte vor?_ +
-Beschreibe dein Vorgehen
-in eigenen Worten.
-Verzichte dabei auf
-das Nachschauen
-im letzten Kapitel.
-Du darfst aber gerne
-die einzelnen Schritte
-während des Aufschreibens
-im Programm QGIS
-nachmals durchgehen.
-Gehe bei deiner Erklärung
-davon aus,
-dass die Daten
-bereits ins GIS
-eingelesen bzw.
-neu erfasst wurden
-und auch die Gestaltung
-der Layer
-bereits
-abgeschlossen ist.
+. _Which output format
+do you choose for the card?_ +
+Write down your choice 
+and explain it in your
+own words. There are 
+several real possibilities.
+. _How do you design
+the card in QGIS?_ +
+Describe your actions 
+in your own words. Do not 
+look in the last chapter.
+However, you are welcome to 
+go through the individual 
+steps while writing in the
+QGIS program. Assume in your
+explanation that the data 
+has already been read into 
+the GIS or newly entered and 
+that the design of the layers
+has already been completed.
 
 ifdef::show_solutions[]
 ====
-.Lösung
-. Exportieren als: +
-Bild: Rastergrafik +
-SVG: Vektorgrafik +
-PDF: Portable Dokument Format +
-. Vergleiche deine
-Lösung mit dem letzten
-Kapitel
+.Solution
+. Export as: +
+Image: raster graphic +
+SVG: vector graphic +
+PDF: Portable Document Format +
+. Compare your solution
+with the last chapter
 ====
 endif::show_solutions[]
 
-=== Frage 2
+=== Question 2
 
 Immer wieder,
 sei es in Zeitungen,
