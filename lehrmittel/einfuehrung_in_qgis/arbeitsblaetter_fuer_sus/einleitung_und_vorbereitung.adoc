@@ -98,7 +98,7 @@ When the teacher is satisfied with your answer
 you can move on to the next chapter.
 
 In each chapter you will come across the following symbol again and again:
-image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15].
+image:einfuehrung_in_qgis/ausrufezeichen.png["exclamation mark", 15, 15].
 This sign gives the hint
 that you need to write something down.
 So you must always have a piece of paper or a notebook at hand. 
