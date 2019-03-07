@@ -181,3 +181,281 @@ Bei LIKE ,M_-er' can it also be Mayer
 |between to values
 |===
 
+You can combine diffrent requirments together and use logical Operators
+if _Condition 1_ *and* (*AND*) _Condition 2_ 
+*or* _Condition 1_ or (*OR*) _Condition 2_
+*or* _Condition 1_ *and not* (*NOT*) -Condition 2_
+should be valid.
+
+Here for illustration the hole thing again as a Venn-Diagramm
+
+[cols="1,1a"]
+|===
+
+|*AND*-Operator:
+Which element belongs both to Group A and Group B
+|image::einfuehrung_in_qgis/and_operator.jpg["AND Operator", 113, 69]
+
+|*OR*-Operator:
+Whcih element belongs to either Group A or Group B
+|image::einfuehrung_in_qgis/or_operator.jpg["OR Operator", 113, 69]
+
+|*NOT*-Operator:
+Which element belongs to Group A but not to Group B
+|image::einfuehrung_in_qgis/not_operator.jpg["NOT Operator", 113, 69]
+|===
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Excersise 3_ +
+_Try it now for yourself and formulate the following query in SQL:_
+
+. _Select every lake with a surface area larger then 20km^2^ and lie below 400 meters above sealevel._
+. _The search that you did as introduction in the Search 1 on local.ch._
+
+ifdef::show_solutions[]
+====
+.Solution 1
+....
+SELECT
+FROM seen
+WHERE Flaeche > 20 AND Tiefe < 400
+....
+
+.Solution 2
+....
+SELECT
+FROM Adressen
+WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
+....
+====
+endif::show_solutions[]
+
+== QGIS-Exercise
+
+The "speciality" of a GIS
+should of course not only be thaught 
+in theory.
+In this chapter you will perform 
+some thematic
+and spatial queries.
+
+=== Objectives
+
+At the end of this exercise.
+you've mastered the following points:
+
+* Select elements based on
+from thematic
+and spatial
+criteria
+* Calculate a new value for a field from existing values
+
+=== Thematic selection
+
+At the beginning of this exercise
+we would like to perform a simple query
+that you already know from the SQL exercise
+in the theory part:
+
+_You should select every lake which has a surface area above 20 km^2^ and a lie below 400 meter above sealevel._
+
+You could look threw each cell in the Attributstable and check which ones fit the criteria and which don't.
+But if you have a large table that becomes rather time intensive.
+
+It's simpler to use the prepared search interface. For simple searches like a name it's easiest o use _Field Filter_ in the table.
+
+Try this method in a small example.
+Open the attribute table for lakes.
+In the lower left area
+you see a line
+on which _Show All Features_ is written
+and a menu,
+that you can unfold.
+Search in this menu,
+in the _Field Filter_,
+forthe attribute,
+after which you want to sort out.
+In addition, you must enter the term,
+you want to filter by. You want now for example
+search for all lakes, in which the name "Lago" appears. Choose the attribute "name".
+in the menu and search for
+the term Lago.
+
+So you can see right away,
+how many elements were selected,
+you can activate the option
+_Show Selected Features_.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+task 4_ +
+How many solutions
+Do you get?_
+
+ifdef::show_solutions[]
+====
+.Solution
+Query:
+
+.Input in QGIS
+image::einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36]
+
+Lösung:
+
+.The returned entries in QGIS
+image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
+====
+endif::show_solutions[]
+
+But let's get back to the initial example.
+This query is a little more complicated.
+Open by clicking on the button
+_Select features using an expression_
+the query editor.
+Here the query can be formulated 
+in the form of a _SQL_ query.
+However, only the _Where clause_
+of the _SQL_ query can be inserted.
+From _Select * from lakes where max_depth > 100_ so only _max_depth > 100_
+can be written into the query field
+
+The single components of teh Where-Clausel can be put together, via doublecklicking on the windows to the right.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 5_ +
+_Formulate the where-clause
+of the SQL query
+for the initial task
+and run the query.
+How many lakes
+meet these conditions?_
+
+ifdef::show_solutions[]
+====
+.Solution
+....
+SELECT
+FROM seen
+WHERE Flaeche > 20 AND Hoehe_muM < 400
+....
+4 Seen
+====
+endif::show_solutions[]
+
+=== Spatial selection
+
+In the first part
+of this section  a query was created based on values from the attribute table. Now a query should be run which takes the position of the object into consideration, also called spatial selection.
+
+
+You can find the tools for the spartial queries when you click on the button _Toolbox_ and selecting _Select by location_ from _Vector selection_
+
+All the cantons should
+be selected, which contain at least on of the found lakes completly.
+(i.e. the canton doesn't share the lack with another canton or country.)
+
+The _Select features from_ Layer 
+gives information from which layer we select the elements. In this case we select from cantons and because of that we choose the layer Kantonsgrenzen. The lakes are noted in the _By comparing to the features from_ layer.
+Check the box _Selected features only_ so that only the correct lakes are selected.
+
+The lakes should be
+completely within the boarders
+of a canton.
+I.e. the cantonal areas
+contain the lake areas.
+Therefore
+the topological operation _contains_.
+By selecting torpological operations one always takes from _Select features from_ and checks how it compares to _By comapring to the features from_.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_.Exercise 6_ +
+_Run the query. How many cantons fulfill the condition
+
+ifdef::show_solutions[]
+====
+.Solution
+Query:
+
+.Topological query window QGIS
+image::einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 6 Abfrage", 470, 374]
+
+Lösung:
+
+.Tabel output from QGIS
+image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189]
+
+8 cantons meet the condition:
+Bern, Freiburg, Luzern, Obwalden,
+Schwyz, Waadt, Zug und Zürich.
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_.Exercise 7_ +
+_How would you need to modify the query if all lakes should be selected which are part of more then one canton or country?_
+
+ifdef::show_solutions[]
+====
+.Solution
+Query:
+
+.Topological query window QGIS
+image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage", 470, 374]
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_.Exercise 8_ +
+_How many lakes meet the condition._
+
+ifdef::show_solutions[]
+====
+.Solution
+Result:
+
+.Output in the table from QGIS
+image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296]
+
+12 Lakes meet the condition.
+====
+endif::show_solutions[]
+
+=== Calculate fields
+
+Next a new value can be generated, 
+with the help of
+of existing attributes..
+To be more precise
+the population density
+of the cantons.
+This is done by
+has the following formula:
+
+_Population density per
+km^2^ = Number of inhabitants
+/ Surface area in km^2^_
+
+For this calculation
+we'll need the attribute table
+of the cantons.
+Select the option _Open field calculator_.
+If you want to use the density value
+into an existing column
+you can check 
+_Update existing field_ in the mask
+and in the dropdown menu
+select your desired column.
+In our case, however, we would like to
+create a new field.
+Therefore enter _Output field name_
+enter the term _density_.
+Select as _Output field type
+Integer (integer)_
+and as _Output field length 10_.
+
+if you want to calculate the density value 
+for all and not only
+for the selected cantons,
+You have to be careful,
+that _Only update x selected features_
+is not checked.
+
