@@ -1,0 +1,100 @@
+= Introduction in QGIS 3: Presentation of Geographic Information (Chapter 5)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*A worksheet*
+ifdef::show_solutions[- *LÖSUNGEN*]
+
+== Präsentation und Ausgabe von Daten
+
+In the last few chapters
+you've learned
+how geodata is captured,
+administered and analyzed.
+In the last chapter
+it's about
+the P of EVAP,
+the presentation
+of the data.
+
+=== Learning objectives
+
+After this chapter
+you will be able to
+to do the following:
+
+* output the results
+of your queries
+in GIS in suitable
+form
+* name the important
+map elements
+
+=== Theory
+
+There are
+different possibilities
+to present or provide the visualized,
+newly recorded
+or changed data
+or results
+of queries and manipulations
+to others.
+
+Here is a selection of them:
+
+* A method,
+that has been used
+for a long time
+and still is very popular,
+is the *paper plan*.
+Especially on construction sites
+paper plans are still often used.
+To create a paper plan, 
+you can use a map in a print layout or a layout view in GIS
+and then print it out on paper.
+* The plan, which was created
+in the print layout,
+can also be stored as *PDF*
+and then e.g.
+be forwarded
+by e-mail.
+* Another method,
+which is becoming more and more popular,
+is the representation
+of geodata on the Internet
+in a so-called
+*Web-GIS* or *Internet-GIS*.
+* In addition,
+the results of analyses
+can also be output
+in form of *tables*
+or *graphics*.
+
+Two of
+these output types
+we'd like to look at
+more accurately
+with some examples.
+
+==== Internet or Web-GIS
+
+Klicke auf
+den folgenden Link,
+um auf das WebGIS
+des Kanton Zürichs
+zu gelangen:
+
+https://maps.zh.ch/
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 1_ +
+_Beantworte folgende Fragen:
+Welche GIS-Funktionen
+werden in diesem
+Web-GIS angeboten?
+Welche Daten
+können betrachtet werden?_
