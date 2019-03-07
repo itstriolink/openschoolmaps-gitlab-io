@@ -1,0 +1,8 @@
+Introduction in QGIS 3: Dataanalysis (Chapter 4)
+
+../../../snippets/suppress_title_page.adoc
+
+A Worksheet
+
+In the last Chapter you learned how to capture Geographic Data und present them in a GIS. With that we've prepared everything for the "speciality" of the GIS, namely the the collection of new Information from existing spatial data. This process is called analysis.
+
