@@ -105,7 +105,7 @@ ifdef::show_solutions[]
 *Search:*
 
 .Search input field of Web-GIS
-image::einfuehrung_in_qgis/webgissuche.png["Suche WebGIS", 200, 100]
+image::einfuehrung_in_qgis/webgissuche.png["Search WebGIS", 200, 100]
 
 A search can be started according to the following criteria:
 
@@ -151,7 +151,7 @@ Different data is displayed depending on the zoom level.
 *Vector data*
 
 .Vector data that is displayed at a certain zoom level.
-image::einfuehrung_in_qgis/webgisvector.png["Vektor WebGiS", 151, 207]
+image::einfuehrung_in_qgis/webgisvector.png["Vector WebGiS", 151, 207]
 
 *Raster data*
 
