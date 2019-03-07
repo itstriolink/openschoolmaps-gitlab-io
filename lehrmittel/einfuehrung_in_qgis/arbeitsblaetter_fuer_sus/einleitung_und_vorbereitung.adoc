@@ -1,0 +1,40 @@
+= Introduction to QGIS 3: Introduction und preparation
+
+Welcome to the tutorial
+"Introduction to the Opensource-Software QGIS".
+Before you start with the tutorial
+take a look to some information.
+Please read these carefully.
+
+== Introduction
+
+=== Why GIS in class?
+
+In many subjects contents are taught,
+that have a room reference.
+This room reference is visualized in a map sometimes,
+but often not visualized at all.
+Some students have trouble
+without visualization of the topics
+to recognize the spatial relationships.
+By making computers more powerful and cheaper,
+the students can also be offered the opportunity 
+to work on projects such as the Matura thesis
+on computers.
+
+Through the representation of spatial contents
+with the help of a Geographic Information System (GIS)
+the students have the possibility to recognize spatial relationships better
+and also to perform spatial analyses.
+That's why the students at grammar school should
+receive an introduction to the topic "Geographic Information Systems
+and
+get to know the basic functions of a GIS.
+Therefore, they should have the opportunity
+to use the program either in class or self-employed for the Matura thesis.
+
+=== learning objectives
+
+You should be able to do the following after working through the tutorial:
+
+
