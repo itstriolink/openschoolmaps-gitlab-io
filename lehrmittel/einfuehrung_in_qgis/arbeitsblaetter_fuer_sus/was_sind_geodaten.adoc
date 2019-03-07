@@ -616,18 +616,18 @@ ifdef::show_solutions[]
 ====
 .Solution
 *Format* +
-Der Vektor-Layer nutzt Vektordaten
-im Gegensatz zu den Rasterdaten des WMS-Layers.
+The vector layer uses vector data in contrast
+to the raster data of the WMS layer.
 
 *Storage location* +
-Die Daten des Vektor-Layers sind lokal gespeichert,
-während die des WMS-Layers auf einem Server gespeichert sind und für die Darstellung von dort abgerufen werden.
+The vector layer data is stored locally, while the 
+WMS layer data is stored on a server and retrieved
+from there for display.
 
 *Availability* +
-Der WMS-Layer läuft über einen Server
-und hat deshalb eine schlechtere Verfügbarkeit
-als der Vektor-Layer. Auch sendet der Server die
-Karte als ein einzelnes Bild, was es nochmals
-verlangsamt.
+The WMS layer runs on a server and therefore
+has alower availability than the vector layer. 
+The server also sends the map as a single image,
+which slows it down again.
 ====
 endif::show_solutions[]
