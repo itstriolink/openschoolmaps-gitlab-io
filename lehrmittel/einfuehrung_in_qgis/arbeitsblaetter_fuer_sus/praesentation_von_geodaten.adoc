@@ -437,176 +437,108 @@ in the _Item Properties_ tab
 under _Position and size_ by 
 entering _Width_ and _Height_.
 
-Mit Hilfe
-des Buttons
-_Move item content_
-kann der Inhalt
-der Karte
-verschoben werden.
-Unter dem Reiter
-_Item Properties_
-unter _Main properties_
-können zudem noch
-der Massstab (_Scale_)
-und der Drehwinkel (_Map rotation_)
-der Karte
-eingestellt werden.
-Falls die Koordinaten
-der Ausdehnung
-des darzustellenden Ausschnittes
-bekannt sind,
-können diese auch
-unter _Extents_
-eingegeben werden.
+The _Move item content_ 
+button can be used to move 
+the content of the map. Under
+the _Item Properties_ tab 
+under _Main properties_ you 
+can also set the scale (_Scale_)
+and the rotation angle 
+(_Map rotation_) of the map. 
+If the coordinates of the extent
+of the section to be displayed 
+are known, they can also be 
+entered under _Extents_.
 
-Zusätzlich kann
-unter _Grids_
-die Option
-gewählt werden,
-ob ein Gitter
-über der Karte
-angezeigt werden soll.
-Dieses Gitter kann
-zum Beispiel vom Typ
-_Cross_ oder _Solid_
-sein und zusätzlich
-beschriftet werden.
-Für die Schweiz wäre
-ein Gitterintervall
-von 25‘000 m
-oder 50‘000 m geeignet.
+In addition, the option can
+be selected under _Grids_ 
+whether a grid should be 
+displayed above the map. For
+example, this grid can be of
+type _Cross_ or _Solid_ and 
+additionally labeled. For 
+Switzerland a grid interval 
+of 25'000 m or 50'000 m would
+be suitable.
 
-Unter _Frame_
-kannst du bestimmen,
-ob der Rahmen
-um das Kartenelement
-angezeigt werden soll
-und falls ja,
-in welcher Farbe
-und welcher Strichstärke.
+Under _Frame_ you can determine
+whether the frame around the 
+map element should be displayed
+and if so, in which color 
+and which line width.
 
-Gestalte dein Kartenelement
-mit den beschriebenen Möglichkeiten.
-Wenn du mit
-deinem Resultat
-zufrieden bist,
-kannst du durch Klicken
-des _Save project_-Buttons
-deine Einstellungen sichern.
+Design your card element 
+with the described possibilities.
+If you are satisfied with 
+your result, you can save 
+your settings by clicking the
+_Save project_ button.
 
-Füge anschliessend
-die weiteren
-Kartenelemente hinzu,
-die du auf
-deinem Entwurf hast.
-Die Buttons dazu
-findest du
-in der Werkzeugleiste.
-Wenn ein Element
-hinzugefügt wurde,
-kannst du jeweils
-unter dem Reiter
-_Item Properties_
-diese Elemente
-noch anpassen.
+Then add the other map elements
+you have on your design. 
+The buttons can be found in 
+the toolbar. If an element has
+been added, you can adjust 
+these elements under the
+_Item Properties_ tab.
 
-Bist du mit
-deiner Karte fertig
-und zufrieden damit,
-wie sie aussieht?
-Dann überprüfe nochmals,
-ob deine Karte
-wirklich alle wichtigen
-Kartenelemente enthält.
-Ist auch das _Copyright_
-für die Daten enthalten?
-Wenn ja,
-dann steht ja jetzt
-nichts mehr im Wege
-um die Karte
-in ein Format zu bringen,
-das für die Weitergabe
-geeignet ist.
+Are you done with your card and
+satisfied with what it looks 
+like? Then check again to see
+if your card really contains all
+the important card elements. 
+Is the _copyright_ for the data 
+included? If so, then there's nothing
+standing in the way of bringing 
+the card into a format that is 
+suitable for distribution.
 
-=== Karte für Weitergabe vorbereiten
+=== Prepare card for transfer
 
-Die Karte kann als Raster
-oder als _SVG_ gespeichert,
-als _PDF_ exportiert
-oder auf einem _Drucker_
-gedruckt werden.
-Die Speicherung
-im Rasterformat kann
-z.B. verwendet werden,
-wenn die Karte
-in einen Bericht
-eingebunden werden soll.
-Wenn du die Karte
-per E-Mail
-weiterschicken möchtest,
-ist das PDF-Format
-gut geeignet.
-Oft werden aber
-immer noch
-gedruckte Pläne verwendet.
-Deshalb hast du
-in der Maske
-_Druckerzusammenstellung_
-auch diese Möglichkeit.
+The map can be saved as a raster
+or as _SVG_, exported as _PDF_ 
+or printed on a _printer_. 
+Saving in raster format can
+be used, for example, if the map
+is to be included in a report. 
+If you want to forward the map by
+e-mail, the PDF format is well 
+suited. Often, however, printed 
+plans are still used. Therefore
+you have this option in the mask 
+_Printer compositio
 
-Im Rahmen dieser Übung
-soll ein Plan
-in Form eines __PDF__s
-erstellt werden.
-Klicke deshalb
-auf den Button
-_Export as PDF_,
-wähle den Speicherort aus
-und starte
-die Erstellung des PDFs.
-Falls in der Karte
-auch ein _WMS_-Service
-enthalten ist,
-der abgespeichert
-werden soll,
-so muss je nach
-verwendeter Zoomstufe
-vor der Erstellung
-des _PDF_ unter
-_Export settings_
-im Reiter _Layout_
-die Qualität
-verringert werden.
+In this exercise, a plan in the
+form of a __PDF__s is to be 
+created. Therefore, click the 
+_Export as PDF_ button, select 
+the location and start creating 
+the PDF. If the map also contains
+a _WMS_ service that is to be saved,
+the quality must be reduced in the 
+_Layout_ tab under _Export settings_
+before the _PDF_ is created, 
+depending on the zoom level used.
 
-Schaue dir
-die Karte im PDF
-nochmals an.
-Zufrieden damit?
-Dann wird es Zeit
-für den letzten
-Kapiteltest.
+Take a look at the map again 
+in PDF format. Satisfied with 
+it? Then it's time for the 
+last chapter test.
 
-== Kapiteltest 5
+== Chapter test 5
 
-Mit dem Wissen
-das du dir
-im letzten Kapitel
-angeeignet hast,
-sollte es möglich sein,
-die Fragen
-des letzten Kapiteltests
-zu beantworten.
-Schreibe die Antworten
-zu den Fragen
-wiederum in dein Heft
-oder auf ein Blatt Papier.
-Wenn du alle Fragen
-beantwortet hast,
-gibst du das Blatt
-deinem Lehrer
-zur Korrektur ab.
+With the knowledge you acquired 
+in the last chapter, it should 
+be possible to answer the questions
+of the last chapter test. 
+Write the answers to the questions
+again in your notebook or on a 
+piece of paper. When you have 
+answered all the questions, give 
+the sheet to your teacher 
+for correction.
 
-=== Frage 1
+=== Question 1
 
 Kommen wir nochmals
 zur Situation
