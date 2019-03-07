@@ -360,113 +360,82 @@ can be designed, and on the right side
 the corresponding parameters 
 can be set and settings made.
 
-Auf der rechten Seite
-hat es drei Reiter,
-einen mit
-dem Namen _Layout_,
-einen mit
-dem Namen _Item Properties_
-und einen
-mit dem Namen _Guides_.
-Unter _Layout_
-können Einstellungen
-vorgenommen werden,
-die die
-ganze Karte betreffen.
-Im Gegensatz
-dazu betreffen
-die Einstellungen
-unter _Item Properties_
-immer nur das
-gerade selektierte Element
-(z.B. Karte oder Legende).
+On the right side there are
+three tabs, one named 
+_Layout_, one named
+_Item Properties_ and one
+named _Guides_.
+Under _Layout_ you can 
+make settings that affect
+the whole map.
+In contrast, the settings
+under _Item Properties_
+only affect the currently
+selected element 
+(e.g. map or legend).
 
-Bevor du mit
-der Gestaltung der Karte beginnst,
-musst du auf die weisse Karte
-rechtsklicken
-und _Page Properties_ auswählen.
-Dadurch sollte auf
-der rechten Seite,
-der Reiter _Page Properties_
-ausgewählt werden,
-mit dem du dann
-das Papierformat
-für die zu gestaltende Karte
-wählen kannst.
-Unter _Size_ hast du eine Auswahl
-von gängigen Papierformaten
-sowie die Option _Custom_,
-mit welcher du
-dein eigenes Format
-erstellen kannst.
-Lasse diese Einstellung
-auf _A4_ stehen.
+Before you start designing
+the map, right-click on
+the white map and select
+_Page Properties_.
+This should select the 
+_Page Properties_ tab on
+the right side, which you
+can then use to select the
+paper format for the map
+you want to design.
+Under _Size_ you have
+a choice of common paper
+formats as well as the option
+_Custom_, with which you can
+create your own format. 
+Leave this setting at _A4_.
 
-Unter _Orientation_
-kannst du zwischen _Landscape_
-und _Portrait_ wählen.
-Wähle das Format aus,
-welches du im Theorieteil
-für deinen Kartenentwurf
-gewählt hast.
+Under _Orientation_ you can 
+choose between _Landscape_ 
+and _Portrait_. Choose the 
+format, which you have chosen
+in the theory part for your 
+map design.
 
-Es ist zudem sinnvoll,
-dass du ein Raster
-über das Kartenblatt legst,
-an welchem du
-die Elemente,
-die du auf
-die Karte setzt,
-ausrichten kannst.
-Dazu musst du
-in der Menüleiste _View_
-die Optionen
-_Show Grid_
-und _Snap to Grid_
-aktivieren und
-unter dem Reiter _Layout_
--> _Guides and Grid_
-den _Grid spacing_
-auf den 10.00mm setzen.
+It also makes sense to 
+place a grid over the map 
+sheet where you can align 
+the elements you place 
+on the map.
+You have to activate the 
+options _Show Grid_ and 
+_Snap to Grid_ in the menu 
+bar _View_ and set the 
+_Grid spacing_ to 10.00mm 
+under the tab _Layout_ 
+-> _Guides and Grid_.
 
-Somit sind die
-allgemeinen Einstellungen
-gemacht und es kann
-mit der Kartengestaltung
-begonnen werden.
+Thus the general settings
+are made and it can be
+begun with the map organization.
 
-Als erstes sollen
-die Layer in der Karte
-dargestellt werden.
-Klicke dazu auf
-den Button _Add Map_
-und ziehe einen Rahmen
-in der Grösse auf,
-wie du es
-in deinem Kartenentwurf
-vorgesehen hast.
-Es erscheinen nun
-der Kartenausschnitt
-und diejenigen Layer,
-die du zu Beginn
-der Übung gewählt hast.
+First the layers should be
+displayed in the map. 
+Click on the _Add Map_ 
+button and draw a frame in
+the size you have chosen 
+in your map design. The map
+section and the layers you
+selected at the beginning 
+of the exercise will appear.
 
-Mit Hilfe des Buttons
-_Select/Move item_
-kann die neue Karte
-ausgewählt und die Grösse
-durch Klicken auf den Rand
-verändert werden.
-Zusätzlich kann diese auch
-in der Druckzusammenstellung
-verschoben werden.
-Die Grösse kann auch
-im Reiter _Item Properties_
-unter _Position and size_
-durch die Eingabe
-von _Width_ und _Height_
-bestimmt werden.
+With the help of the button
+_Select/Move item_ the new
+map can be selected and the
+size can be changed by 
+clicking on the border. 
+Additionally the map can be
+moved in the print compilation.
+The size can also be determined
+in the _Item Properties_ tab 
+under _Position and size_ by 
+entering _Width_ and _Height_.
 
 Mit Hilfe
 des Buttons
