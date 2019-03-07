@@ -443,220 +443,187 @@ endif::show_solutions[]
 
 ==== Read raster data
 
-Die Rasterdaten sollen in Form
-eines WMS-Layers eingelesen werden.
-Weisst du noch,
-was ein WMS-Layer ist?
-Wenn nicht,
-schaue nochmals im Theorieteil nach.
+The raster data are to be read in
+in the form of a WMS layer. Do you
+remember what a WMS layer is? If 
+not, check again in the theory part.
 
-Der Bund bietet auf seiner Homepage
-einen Überblick über die Verfügbaren WMS-Dienste an
-(http://www.geo.admin.ch unter
-Dienstleistungen -> Geodienste ->
-Darstellungsdienste -> Web Map Services).
+The Federal Government offers an overview
+of the available WMS services on its homepage
+(http://www.geo.admin.ch under Services
+-> Geoservices -> Presentation services
+-> Web Map Services).
 
-Unter dem Titel Verfügbare WMS-Dienste
-sind unter GetCapabilities die Anfragen
-in Form von Links abgespeichert.
-Wenn du z.B. auf den Link
-http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=de
-klickst,
-wird eine Anfrage an den Server
-http://wms.geo.admin.ch/
-gestartet und du erhältst
-als Antwort eine Auflistung
-der verfügbaren WMS-Services.
+Under the title Available WMS Services,
+GetCapabilities stores the requests in
+the form of links. For example, if you
+click on the link
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0&lang=en, 
+a request to the server
+http://wms.geo.admin.ch/ 
+will be started and you will receive
+a list of available WMS services in response.
 
-Unter _Title_ findest du den Titel
-des WMS-Services und unter _Abstract_
-einen kurzen Beschrieb,
-was genau in den Daten abgespeichert ist.
-Zusätzlich sind auch Informationen
-über die Ausdehnung
-und die möglichen Koordinatensysteme
-erhältlich.
+Under _Title_ you will find the title of the
+WMS service and under _Abstract_ a short
+description of exactly what is stored in
+the data. In addition, information about 
+the extension and the possible coordinate
+systems is also available.
 
-Aus diesen Daten möchten wir
-die Übersichtskarte
-in unser Projekt einbinden.
-Wähle im Werkzeugkasten
-_Manage Layers_
-das Werkzeug _Add WMS/WMTS Layer_.
-Wenn du im Reiter _Layers_
-beim obersten Balken
-auf den Pfeil klickst,
-siehst du,
-dass bereits einige Server
-standardmässig eingebunden sind.
-Um den Server
-mit den öffentlichen Daten
-der _Bundes Geodaten-Infrastruktur_ (BGDI)
-ebenfalls einzubinden,
-muss eine neue WMS-Verbindung
-erstellt werden.
-Dazu muss auf den _New_-Button
-geklickt werden.
-Gib im Fenster _Create a New WMS/WMTS Connection_
-den Namen der Verbindung an (z.B. WMS-BGDI)
-und die URL zum gewünschten Server
-(in unserem Fall http://wms.geo.admin.ch/).
-Benutzername und Passwort werden
-in diesem Fall nicht gebraucht.
+From these data we would like to integrate
+the overview map into our project. Select
+the tool _Add WMS/WMTS Layer_ in the toolbox
+_Manage Layers_. If you click on the arrow
+in the top bar of the _Layers_ tab, you will
+see that some servers are already included
+by default. To include the server with the
+public data of the _Bund Geodaten-Infrastruktur_
+(BGDI) as well, a new WMS connection must be
+created. To do this, click on the _New_ button.
+In the _Create a New WMS/WMTS Connection_ window,
+enter the name of the connection (e.g. WMS-BGDI)
+and the URL to the desired server (in our case
+http://wms.geo.admin.ch/). Username and password
+are not needed in this case.
 
-Wenn du jetzt nochmals auf den Pfeil
-des ersten Balkens klickst,
-sollte die neu angelegte Verbindung
-ebenfalls erscheinen.
-Wähle diese aus
-und klicke auf _Connect_.
+If you now click on the arrow of the first bar
+again, the newly created connection should
+also appear. Select it and click _Connect_.
 
-Nun werden alle WMS-Dienste angezeigt,
-die auf dem Server der BGDI
-öffentlich angeboten werden.
-Klicke auf die _Übersichtskarte Hydrogeologie_
-und wähle als Layername „Übersichtskarte“
-und ändere das Koordinatenbezugssystem
-von WGS 84 auf das schweizerische
-Bezugssystem CH1903 / LV03.
-Am einfachsten wählst du
-den Filter aus
-und gibst als Text CH1903 ein.
-So erscheint das gewünschte System
-in der Auswahl.
-Anschliessend können der WMS-Layer hinzugefügt
-und das Fenster geschlossen werden.
+Now all WMS services that are publicly offered
+on the BGDI server are displayed. Click on
+the _overview map hydrogeology_ and select
+"overview map" as layer name and change the
+coordinate reference system from WGS 84 to
+the Swiss reference system CH1903 / LV03.
+The easiest way is to select the filter and
+enter CH1903 as text. The desired system will
+appear in the selection. Then you can add
+the WMS layer and close the window.
 
-Damit die Übersichtskarte im Kartenfenster
-nicht die Kantonsgrenzen und Seen überdeckt,
-muss die Layerreihenfolge angepasst werden.
-Denke dir eine geeignete Reihenfolge aus
-und wende sie an.
+The layer order must be adjusted so that the
+overview map in the map window does not
+cover the cantonal borders and lakes.
+Think of a suitable order and apply it.
 
-==== Vergleich zwischen Raster- und Vektordaten
+==== Comparison between raster and vector data
 
-Zum Schluss dieser Übung
-sollst du dir die Unterschiede
-zwischen Vektor- und Rasterdaten
-nochmals etwas genauer anschauen.
+At the end of this exercise you
+should take a closer look at the
+differences between vector and raster data.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 6_ +
-_Blende dazu den Layer mit den Kantonsgrenzen aus
-und zoome zu einem beliebigen See.
-Zoome am Uferbereich immer weiter hinein
-und beobachte,
-was mit den Seegrenzen bei den Vektor-
-und den Rasterdaten passiert
-und welches die Unterschiede sind.
-Wenn nicht beide Grenzen sichtbar sind,
-kannst du die Seen ein- und ausblenden,
-um auch die Rasterdaten
-unter dem See-Layer zu sehen.
-Schreibe deine Beobachtungen
-in eigenen Worten auf._
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
+_Task 6_ +
+_To do this, fade out the layer with the
+cantonal borders and zoom to any lake.
+Zoom in on the shore area and observe 
+what happens with the sea borders in the
+vector and raster data and what the
+differences are. If not both borders are
+visible, you can show or hide the 
+lakes to see the raster data below 
+the lake layer. Write down your observations 
+in your own words._
 
 ifdef::show_solutions[]
 ====
-.Lösung
-Bei den Rasterdaten besteht die Seegrenze aus
-blauen Pixeln und bei den Vektordaten aus Linien.
+.Solution
+For raster data, the sea border consists of 
+blue pixels and for vector data it consists of lines.
 ====
 endif::show_solutions[]
 
-Speichere dein Projekt ab.
-In der nächsten Übung wirst du
-mit dem gleichen Projekt weiterarbeiten.
-Aber vorher musst du noch den Kapiteltest bestehen.
+Save your project. In the next exercise you
+will continue working with the same project.
+But first you have to pass the chapter test.
 
-== Kapiteltest 2
+== Chapter test 2
 
-Schon ist es wieder soweit.
-Du bist wieder bei einem Kapiteltest angelangt.
-Lege wieder alle Unterlagen weg,
-ausser einem Blatt Papier und einem Stift.
-Hier die Fragen zum Kapitel 2:
+Here we go again. You have reached a chapter
+test again. Put all documents away again,
+except a sheet of paper and a pen. 
+Here are the questions for chapter 2:
 
-=== Frage 1
+=== Question 1
 
-Du möchtest in deinem GIS eine Mauer darstellen,
-welche aus der Luft gesehen so aussieht,
-als würden sich zwei Linien
-in einem Winkel von 135 Grad treffen.
+You want to represent a wall in your GIS
+that looks like two lines meeting at an
+angle of 135 degrees when seen from the air.
 
-_Wie sieht die Darstellung aus, wenn du_
+_What's the picture if you're choosing_
 
-. das Rasterformat
-. das Vektorformat
+. the raster format
+. the vector format
 
-_als Speicherformat wählst?
-Was wird bei den einzelnen Formaten
-von der Mauer abgespeichert?_
+_as the storage format?
+What is stored in the 
+individual formats of the wall?_
 
-Beantworte die Fragen in eigenen Worten.
-Erstelle zusätzlich zur Beschreibung
-je eine Skizze der Mauer
-im Raster- und Vektorformat.
+Answer the questions in your own words.
+In addition to the description,
+create a sketch of the wall in
+raster and vector format.
 
 ifdef::show_solutions[]
 ====
-.Lösung
-Rasterformat speichert die Raster-Punkte, über
-die die Mauer läuft. +
-Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt,
-an dem die Mauer eine Ecke macht.
+.Solution
+Rasterformat saves the grid points 
+over which the wall runs. +
+Vector format stores the start and end points
+of the wall and the point at which the
+wall makes a corner.
 ====
 endif::show_solutions[]
 
-=== Frage 2
+=== Question 2
 
-Im Kapitel 2 war oft von Geodaten die Rede.
+Chapter 2 often referred to geodata.
 
-_Was bedeutet der Begriff Geodaten?
-Welches ist der Unterschied zwischen
-Geodaten und anderen Daten?_
+_What does the term geodata mean?
+What is the difference between 
+geodata and other data?_
 
-Beantworte die Fragen so,
-dass sie auch
-von einem GIS-Laien verstanden werden.
-Verzichte also auf Fachbegriffe.
+Answer the questions in a way that
+they can be understood by a GIS
+layperson. So don't use technical terms.
 
 ifdef::show_solutions[]
 ====
-.Lösung
-Geodaten sind Daten, die einen Raumbezug haben,
-die sich also auf bestimme Orte oder Gebiete beziehen.
+.Solution
+Geodata is data that has a spatial reference,
+i.e. that refers to specific locations or areas.
 ====
 endif::show_solutions[]
 
-=== Frage 3
+=== Question 3
 
-Im Übungsteil hast du neben Vektordaten
-auch einen WMS-Layer in dein Projekt geladen.
+In the exercise section you have loaded a WMS
+layer into your project in addition to vector data.
 
-Welches ist der Unterschied
-zwischen dem Vektordaten-Layer
-und dem WMS-Layer bezüglich:
+What is the difference between
+the vector data layer and the
+WMS layer regarding:
 
 * Format
-* Speicherort
-* Verfügbarkeit
+* Storage location
+* Availability
 
-Schreibe zu jedem Punkt
-mindestens einen Satz.
+Write at least one sentence 
+for each point.
 
 ifdef::show_solutions[]
 ====
-.Lösung
+.Solution
 *Format* +
 Der Vektor-Layer nutzt Vektordaten
 im Gegensatz zu den Rasterdaten des WMS-Layers.
 
-*Speicherort* +
+*Storage location* +
 Die Daten des Vektor-Layers sind lokal gespeichert,
 während die des WMS-Layers auf einem Server gespeichert sind und für die Darstellung von dort abgerufen werden.
 
-*Verfügbarkeit* +
+*Availability* +
 Der WMS-Layer läuft über einen Server
 und hat deshalb eine schlechtere Verfügbarkeit
 als der Vektor-Layer. Auch sendet der Server die
