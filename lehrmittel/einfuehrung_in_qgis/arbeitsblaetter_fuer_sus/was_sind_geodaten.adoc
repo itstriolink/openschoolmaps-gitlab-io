@@ -278,7 +278,7 @@ a new CRS.
 
 ===== Projection of a layer
 
-To specify a specific KBS for a 
+To specify a specific CRS for a 
 specific layer, right-click on
 the layer and move the mouse 
 pointer over the _Set CRS_ menu
@@ -323,152 +323,125 @@ open QGIS again or click the New Project
 button. Now you want to load geodata
 into the empty project.
 
-Bevor jedoch Daten geladen werden,
-sollte das Koordinatensystem
-des Projektes definiert werden.
-Dazu drückst du rechts unten in QGIS
-auf die Schaltfläche _Aktuelles KBS_.
-Mit dem Filter kannst du dann
-das gewünschte Koordinatensystem suchen.
+However, before loading data, the coordinate
+system of the project should be defined.
+To do this, press the _Current CRS_ button
+in the lower right corner of QGIS. With the
+filter you can then search for the
+desired coordinate system.
 
-Für die Schweiz wird
-folgendes Koordinatensystem verwendet:
-CH1903 /LV03 (EPSG: 21781)
+The following coordinate system
+is used for Switzerland:
+CH1903 /LV03 (EPSG: 21781) 
 
-Wähle das vorgegebene System
-mit Hilfe der Suche aus
-und bestätige die Einstellung
-durch Klicken auf den Anwenden-Button.
+Select the default system using
+the search function and confirm
+the setting by clicking the
+Apply button.
 
-Gehe anschliessend
-unter _Projekt_ -> _Properties_
-in den Reiter mit dem Namen Allgemein,
-setze dort den Projekttitel „Die Schweiz“
-und bestimme eine Hintergrundfarbe.
+Then go under _Project_ -> _Properties_
+to the tab with the name General,
+set the project title "Switzerland"
+and define a background color.
 
-Unter Pfade speichern
-kannst du wählen,
-ob die Pfade zu den Daten
-relativ oder absolut
-abgespeichert werden sollen.
-Der Vorteil der relativen Pfade ist,
-dass du den Ordner mit dem QGIS-Projekt
-und den Daten auch
-an einen anderen Ort hin kopieren kannst,
-ohne anschliessend die ganzen Pfade
-zu den Daten wieder anpassen zu müssen.
-Wähle deshalb für dein neues Projekt
-die Option Relativ.
+Under Save paths you can choose whether
+the paths should be saved relative
+or absolute to the data. The advantage
+of the relative paths is that you can
+copy the folder with the QGIS project
+and the data to another location without
+having to adjust the whole paths to
+the data. So choose the Relative
+option for your new project.
 
-Schliesse anschliessend
-das Fenster Projekteinstellungen
-durch Klicken auf den OK-Button.
-Damit die neue Hintergrundfarbe erscheint,
-muss im Kartenfenster eine Navigationsfunktion
-wie z.B. Karte verschieben ausgeführt werden.
+Then close the Project Settings window by
+clicking the OK button. In order for the
+new background color to appear, a navigation
+function such as Move map must be
+executed in the map window.
 
-=== Projekt speichern
+=== Save project
 
-Speichere mit dem _Save Project_-Button
-dein neues Projekt in den Ordner,
-in welchem du die Daten
-für diese Übung abgespeichert hast.
+Use the _Save Project_ button to save
+your new project to the folder where
+you saved the data for this exercise.
 
-=== Daten einlesen
+=== Import data
 
-Die Karte ist nun soweit bereit,
-dass Daten eingelesen werden können.
-Dazu wird das Menu Datenbank
-in der Menuleiste verwendet.
-Für die unterschiedlichen Arten
-von Daten,
-die eingelesen werden können,
-hat es auch unterschiedliche Buttons.
+The card is now ready to read data.
+The menu Database in the menu bar
+is used for this purpose. For the 
+different types of data that can
+be read, it also has different buttons.
 
-==== Vektordaten einlesen
+==== Read in vector data
 
-In einem ersten Schritt
-sollen nun die Vektordaten
-aus der ersten Übung eingefügt
-werden. Klicke dazu auf den
-Reiter GeoPackage, wenn du
-dann nicht den Reiter
-einfuehrung_in_qgis_daten.gpkg
-siehst, mach einen Rechtsklik
-auf GeoPackage und navigiere
-dich zum Aufgaben Ordner für
-Teil 1. Wenn du die Datenbank
-siehst, öffne den Reiter und
-nutz Rechtscklick und wähle
-zur Karte hinzufügen um
-sowohl Kantonsgrenzen und
-Seen der Karte hinzuzufügen.
+The first step is to insert the vector data
+from the first exercise. Click on the
+tab GeoPackage, if you don't see the
+tab introduction_in_qgis_data.gpkg, 
+right-click on GeoPackage and navigate
+to the tasks folder for part 1. If you 
+see the database, open the tab and use 
+right-click and choose Add to map to add 
+canton borders and lakes to the map.
 
-Wähle die Kantonsgrenzen
-als Hintergrund für die Kartenübersicht.
-Falls du nicht mehr genau weisst,
-wie du vorgehen musst,
-schaue nochmals in der ersten Übung nach.
+Select the cantonal borders as background for
+the map overview. If you don't know exactly
+how to proceed, check again in the first exercise.
 
-Welche Informationen sind denn überhaupt
-in den beiden Layers gespeichert?
-Dies wollen wir uns nun
-etwas genauer anschauen.
-Klicke dazu mit der rechten Maustaste
-auf den Layer Seen
-und wähle _Attributtabelle öffnen_.
-Es öffnet sich die Tabelle
-mit den thematischen Informationen,
-die zu den Seen erfasst wurden.
-Welche Informationen wurden
-als Attribut abgespeichert?
+What information is stored in the two layers at all?
+Let's take a closer look at this. Click with the
+right mouse button on the layer lakes and choose 
+_Open attribute table_. The table will open with 
+the thematic information about the lakes. Which 
+information was saved as attribute?
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 4_ +
-_Schaue dir die Tabelle genau an
-und schreibe auf,
-welche Daten die einzelnen Spalten beinhalten._
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
+_Task 4_ +
+_Take a close look at the table and
+write down what data each column contains._
 
 ifdef::show_solutions[]
 ====
-_Lösung_
+_Solution_
 
-.Tabelle des Layers Seen
-image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
+.Table of the layer lakes
+image::einfuehrung_in_qgis/seetable.png["Sea Table", 650, 120]
 
-_name:_ Die Namen der Seen +
-_type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
-_Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See +
-_max_Tiefe:_ Tief des Sees an der tiefsten Stelle in Meter [m] +
-_Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
-_Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
+_name:_ The names of the lakes +
+_type:_ the lake serves as a reservoir lake (entry reservoir lake) or not (entry lake) +
+_height:_ How high is the lake in meters above sea level? +
+_max_Depth:_ Deep of the lake at the deepest point in meters [m] +
+_volume:_ Volume of the lake in cubic kilometres [km^3^] +
+_area:_ Area of the lake in square kilometres [km^2^]
 ====
 endif::show_solutions[]
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 5_ +
-_Mache das Gleiche
-auch für die Kantonsgrenzen._
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
+_Task 5_ +
+_Do the same for the 
+cantonal borders._
 
 ifdef::show_solutions[]
 ====
-_Lösung_
+_Solution_
 
-.Tabelle des Layers Kantone
-image::einfuehrung_in_qgis/kantonetable.png["Kantone Tabelle", 650, 120]
+.Table of the layer Cantons
+image::einfuehrung_in_qgis/kantonetable.png["Cantons Table", 650, 120]
 
-_Name:_ Namen der Kantone +
-_Kuerzel:_ Kantonskürzel +
-_Beitrittsj:_ Beitrittsjahr zur Schweiz +
-_Einwohner:_ Anzahl Einwohner +
-_Gemeinden:_ Anzahl Gemeinden +
-_Amtssprache:_ Amtssprachen die im Kanton gesprochen werden +
-_Staende:_ Anzahl Stände (0.5 = Halbkanton) +
-_Flaeche:_ Fläche des Kantons in Quadratkilometer [km^2^]
+_Name:_ Names of the cantons +
+_Abbreviation:_ canton abbreviation +
+_AccessionYear:_ Year of accession to Switzerland +
+_Inhabitants:_ Number of inhabitants +
+_Municipalities:_ Number of municipalities +
+_OfficialLanguage:_ Official languages spoken in the canton +
+_Stands:_ Number of stands (0.5 = half canton) +
+_Area:_ Area of the canton in square kilometres [km^2^]
 ====
 endif::show_solutions[]
 
-==== Rasterdaten einlesen
+==== Read raster data
 
 Die Rasterdaten sollen in Form
 eines WMS-Layers eingelesen werden.
