@@ -133,7 +133,7 @@ you get from the objects in the
 real world to the information you 
 want to store?
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 1_ +
 _Think for two to three minutes
 about what sources the data might
@@ -252,7 +252,7 @@ is stored in the text file Hauptorte.txt.
 Open this file in a text editor and 
 take a closer look at the content.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 2_ +
 _In what form is the location of
 themain locations stored and how
@@ -265,7 +265,7 @@ ifdef::show_solutions[]
 _Solution_
 
 .Attributes of the cantons in text form
-image::einfuehrung_in_qgis/abspeichern.png["Abspeichern", 502, 192]
+image::einfuehrung_in_qgis/abspeichern.png["Saving", 502, 192]
 
 The position of the main locations is 
 indicated by the X-coordinate (X-coordinate)
@@ -290,174 +290,140 @@ separators in the rest of the document.
 ====
 endif::show_solutions[]
 
-Das Werkzeug _Add Delimited Text Layer_
-um Koordinatenwerte
-aus einem Textfile zu lesen,
-kann in der Werkzeugleiste _Manage Layers Toolbar_
-gefunden werden.
-Wenn du nicht mehr weisst,
-wie man Werkzeuleisten einblendet,
-schaue dir nochmals Kapitel 1 an.
+The _Add Delimited Text Layer_ tool
+for reading coordinates from a text
+file can be found in the 
+_Manage Layers Toolbar_ toolbar. If 
+you don't know how to show toolbars
+anymore, have a look at chapter 1 again.
 
-Öffne das neue Werkzeug
-und gib zuerst die Art
-des Trennzeichens ein,
-welches die Informationen
-im Textfile voneinander trennt
-(siehe Resultat der letzten Aufgabe).
+Open the new tool and first enter the 
+type of separator that separates the 
+information in the text file 
+(see Result of the last task).
 
-Klicke dann auf den … -Button
-und wähle die Textdatei _Hautporte.txt_ aus.
-Das Werkzeug trennt das Textfile
-nun automatisch in verschiedene Felder auf,
-wobei das gewählte Trennzeichen
-den Ausschlag gibt,
-wo das neue Feld beginnt.
+Then click on the ... button and select
+the text file _Hautporte.txt_. The tool
+now automatically divides the text file
+into different fields, whereby the 
+selected separator determines where
+the new field begins.
 
-Unter der Geometrie erscheint nun
-automatisch ein Vorschlag,
-welches Feld als X-Feld
-und welches als Y-Feld
-benutzt werden soll.
-Vergleiche den Vorschlag
-mit deinen Überlegungen.
-Falls du nicht einverstanden bist,
-ändere den Eintrag.
-Klicke anschliessend auf den OK-Button
-um die Hauptorte im Projekt anzuzeigen.
+Below the geometry a suggestion appears 
+automatically, which field should be
+used as X-field and which as Y-field.
+Compare the suggestion with your 
+considerations. If you don't agree, 
+change the entry. Then click on the OK
+button to display the main locations
+in the project.
 
-Um später auch räumliche Analysen
-mit dem neuen Layer Hauptorte
-durchführen zu können,
-muss dem Layer noch das gleiche Koordinatenbezugssystem
-wie den restlichen Layern
-zugeordnet werden.
-Öffne die _Layer Properties_ der Hauptorte
-und suche unter _Source_:
-das richtige _CRS_/_KBS_.
-Wähle das Koordinatensystem
-CH1903 /LV03 mit der EPSG-Nr. 21781.
+In order to be able to perform spatial
+analyses with the new Layer Main Locations
+later, the same coordinate reference 
+system as the other layers must be assigned
+to the Layer. Open the _Layer Properties_ 
+of the main locations and search under 
+_Source_: the correct _CRS_/_KBS_. 
+Select the coordinate system CH1903 
+/LV03 with the EPSG-No. 21781.
 
-Wenn du nun die Attributstabelle öffnest,
-siehst du die Informationen des Textfiles
-in einer Tabelle dargestellt.
-Zusätzlich wurde aus den ausgewählten Zahlen
-für die X- und Y-Koordinaten
-eine Position in der Karte berechnet
-und dort ein Punkt abgesetzt.
+If you now open the attributes table, 
+you will see the information of the text
+file displayed in a table. Additionally a
+position in the map was calculated from 
+the selected numbers for the X- and 
+Y-coordinates and a point was placed there.
 
-=== Beschriftung eines Layers
+=== Labeling of a layer
 
-Nun sollen die Hauptorte
-noch beschriftet werden.
-Öffne dazu das _Layer Properties_-Fenster
-und wähle die Option _Labels_.
-Wähle bei _Beschriftungen anzeigen_
-das Feld _Single Labels_ und wähle als _Beschreibungsfeld_
-das Feld mit dem Namen _Hauptort_.
-Passe anschliessend die Schriftgrösse,
-die Platzierung,
-das Freistellen etc. an,
-bis die Beschriftung "ins Bild" passt.
-Wähle ausserdem zusätzlich
-geeignetere Punktsymbole für die Hauptorte.
+Now the main locations are to be labelled.
+Open the _Layer Properties_ window and 
+select the _Labels_ option. For 
+_Show labels_ select the _Single Labels_
+field and as _Description_ field select
+the field with the name _Main_. Then adjust
+the font size, placement, clipping, etc.
+until the label fits "into the image". 
+In addition, select more suitable point
+symbols for the main locations.
 
-==== Darstellungsfarben ändern
+==== Change display colors
 
-Wie bist du denn mit den Darstellungsfarben
-der Seen und der Kantone zufrieden?
-Bist du nicht auch der Meinung,
-dass die Farbe hellgelb für die Einfärbung der Kantone
-und die Farbe blau für die Seen
-besser geeignet wäre?
-Um die Darstellungsfarbe zu ändern,
-musst du durch Rechtsmausklick
-auf den Layer -> _Properties..._
-oder durch Doppelklick auf den Layer
-das Fenster mit dem Namen _Layer Properties_ öffnen.
+How satisfied are you with the colours 
+of the lakes and cantons? Don't you think
+that the light yellow colour would be 
+better for the cantons and the blue colour
+for the lakes? To change the display color,
+right-click on the layer -> _Properties..._
+or double-click on the layer to open the 
+window called _Layer Properties_.
 
-Zuerst soll die Darstellung
-der Kantone geändert werden.
-Öffne deshalb das _Layer Properties_-Fenster
-für die Kantonsgrenzen.
+First of all, the representation of the 
+cantons should be changed. Therefore open
+the _Layer Properties_ window for
+the canton boundaries.
 
-.Darstellungsoptionen des Layers Kantonsgrenzen
-image::einfuehrung_in_qgis/qgis_layer_properties_kantonsgrenzen.PNG["Layer-Eigenschaften Kantonsgrenzen", 537, 359]
+.Display options of the layer Canton boundaries
+image::einfuehrung_in_qgis/qgis_layer_properties_kantonsgrenzen.PNG["Layer Properties Canton Borders", 537, 359]
 
-Überprüfe,
-ob im Auswahlfenster auf der linken Seite
-die Option Darstellung ausgewählt ist.
-So gelangst du zu einer Maske,
-in welcher du mit wenigen Schritten
-die Füllfarbe und –art
-und die Umrandungsoptionen ändern kannst.
-Probiere diese Optionen aus
-und wähle für die Kantonsflächen eine hellgelbe Füllfarbe
-und eine orangefarbene Umrandung.
-Durch Klicken auf den _Apply_-Button
-kannst du deine Einstellungen
-schon mal im Kartenfenster betrachten.
-Wenn du zufrieden bist,
-kannst du das Fenster durch Klicken
-auf den OK-Button schliessen.
+Check whether the Display option is selected in 
+the selection window on the left. This will take
+you to a mask where you can change the fill color,
+type and border options in just a few steps. 
+Try these options and choose a light yellow fill
+color and an orange border for the canton areas. 
+By clicking on the _Apply_ button you can view 
+your settings in the map window. If you are satisfied,
+you can close the window by clicking the OK button.
 
-Die Seen sollen eine zweifarbige Füllung erhalten.
-Öffne dazu das Fenster
-mit dem Namen _Layer Properties_
-für den Layer Seen.
+The lakes are to be given a two-coloured filling.
+Open the window with the name 
+_Layer Properties_ for the lakes layer.
 
-.Darstellungsoptionen des Layers Seen
-image::einfuehrung_in_qgis/qgis_layer_properties_seen.PNG["Layer-Eigenschaften Seen", 537, 359]
+.Display options of the lakes layer
+image::einfuehrung_in_qgis/qgis_layer_properties_seen.PNG["Layer Properties Lakes", 537, 359]
 
-Erstelle dazu
-durch Klicken auf den + -Button
-einen zweiten Symbollayer.
-Wähle für den unteren Layer
-die Füllfarbe hellblau
-und den Füllstil _Solid_
-und für den oberen Layer
-als Füllfarbe ein dunkleres Blau
-als für den ersten Layer
-und als Füllstil die Option _Dense 4_.
-Die Randfarbe soll die gleiche sein
-wie die Füllfarbe
-und die Randbreite soll _0.4_ betragen.
-Wenn du zufrieden bist mit der Füllung,
-schliesse die beiden Fenster
-durch klicken auf OK.
-Bist du nicht auch der Meinung,
-dass die Darstellung im Kartenfenster
-nun schon viel besser aussieht?
+Create a second symbol layer by clicking 
+on the + button. Select the fill color 
+light blue and the fill style _Solid_ for
+the lower layer and a darker blue as fill 
+color for the upper layer than for the first
+layer and the option _Dense 4_ as fill style.
+The border color should be the same as the 
+fill color and the border width should be _0.4_.
+When you are satisfied with the fill, close 
+both windows by clicking OK. Don't you think
+that the map window looks much better now?
 
 === Locator Bar
 
-Eine neues Werkzeug,
-welches in QGIS 3 eingeführt wurde,
-ist die _Locator Bar_.
+A new tool introduced in QGIS 3 
+is the _Locator Bar_.
 
-In QGIS kann die _Locator Bar_ mit dem Tastaturkürzel
-*Strg + K*
-geöffnet werden.
+In QGIS, the _Locator Bar_ can be 
+opened with the keyboard 
+shortcut *Ctrl + K*.
 
-Mit der _Locator Bar_ können Aktionen,
-"Rechner" (Rechen-Operationen),
-Verarbeitungsalgorithmen
-und vieles mehr von QGIS gesucht werden.
+With the _Locator Bar_ you can search for
+actions, "computers" (calculation operations),
+processing algorithms and much more from QGIS.
 
-Probiere das Werkzeug selber aus,
-indem du den Layer Seen selektierst
-und in der _Locator Bar_ nach einem See suchst.
-Verwende für die Suche den Präfix `f`.
+Try the tool yourself by selecting the lakes
+layer and searching for a lake in the 
+_Locator Bar_. Use the prefix `f` 
+for the search. 
 
-Beispiel: `f Greifensee`
+Example: `f Greifensee`
 
-NOTE: Die Präfixe findest du,
-indem du mit *Strg + K* den Locator öffnest,
-oder unter _Settings_ ->
-_Options..._ ->
+You can find the prefixes by opening 
+the locator with *Ctrl + K*, or 
+under
+_Settings_ ->
+_Options..._ -> 
 _Locator_
 
-=== Objekte erfassen
+=== Entering Objects
 
 Es sollen nun zusätzlich
 zu den bestehenden Seen
