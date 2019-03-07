@@ -1,68 +1,183 @@
-Introduction to QGIS 3: Data Analysis (Chapter 4)
+= Introduction to QGIS 3: Data Analysis (Chapter 4)
 
 ../../../snippets/suppress_title_page.adoc
 
-A Worksheet
+*A Worksheet*
+ifdef::show_solutions[- *Solutions*]
 
-In the last chapters you've learned, how geodata is captured and can be displayed in a GIS. Thus everything is prepared for the "speciality" of GIS, namely the derivation of new information from existing spatial data. This derivation of new information is called analysis.
+In the last chapters you've learned, how geodata is captured and can be displayed in a GIS. Thus everything is prepared for the "speciality" of GIS, namely the derivation of new information from existing spatial data. This derivation of new information is called *analysis*.
 
-Objectives
+== Objectives
 
 This Chapter has the following Objectives
 
-State  the difference between Queries and manipulations in one's own words
+* State  the difference between Queries and manipulations in one's own words
 
-List, which query types exist and to explain those with the help of an example
+* List, which query types exist and to explain those with the help of an example
 
-For a thematic query formulate a correct SQL query
+* For a thematic query formulate a correct SQL query
 
-Theories
+== Theory
 
-Exercise 1
+_Exercise 1_ +
 
-As introduction for this chapter solve the folowing Exercises:
+_As introduction for this chapter solve the folowing Exercises:_
 
-1. Search 1: Call the websiete http://tel.local.ch/de/ and enter the name and if possible the adress of a person which you know and could have an entry in the phone book (for example your parents). Finish by pressing the search button. What is the result of your search? In what form are both the inputs and outputs of the website?
+. 1. Search 1: Call the websiete http://tel.local.ch/de/ and enter the name and if possible the adress of a person which you know and could have an entry in the phone book (for example your parents). Finish by pressing the search button. What is the result of your search? In what form are both the inputs and outputs of the website?
 
-2. Search 2: Next call the website http://www.sbb.ch/ and search for the next connection between the nearest train station and Chur. Again pay attention to the output and input values. The result isn't as important as teh Format. Add these observations to your notes.
+. 2. Search 2: Next call the website http://www.sbb.ch/ and search for the next connection between the nearest train station and Chur. Again pay attention to the output and input values. The result isn't as important as teh Format. Add these observations to your notes.
 
-3. Compare: What do you notice when you compare the form of both results, write down your observations.
+. 3. Compare: What do you notice when you compare the form of both results, write down your observations.
+
+ifdef::show_solutions[]
+====
+.Solution
+*Question 1* +
+In order to start a query, you must
+give Name, first name and city into the textfield. The query could look like this:
+
+.Input for the search on local.ch
+image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1"]
+
+And here the coresponding result:
+
+.Output for the search on local.ch
+image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1"]
+
+The results are returned as adress and as a mark on a map.
+
+*Qestion 2*
+To start a query, you have to
+give Start,
+Destination, date and time in the fields. The query could be like
+looks like:
+
+.Input for the search on sbb.ch
+image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2"]
+
+The result is returned in textform:
+
+.Output for the search on sbb.ch
+image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
+
+*Question 3* +
+In both searches, the input values are in text form.
+
+The results are displayed once in text form.
+and spatially displayed, the second
+Search only gives it in text form.
+
+In the first search you would like to
+often not only know at which
+street a person lives on or
+what her phone number is,
+but also where the place of residence is located 
+on the map. In addition a 
+map entry may be helpful if
+as in our case, there are several
+Peter Müller in Bern. If
+you know what area he's in.
+you can search for the
+visually.
+
+For the timetable information
+the first thing you have to do is departure
+and arrival times. The
+map is not included in the
+result of secondary importance.
+====
+endif::show_solutions[]
 
 Keep your solutions in the back of my mind. We will later in this chapter come back to them.
 
 As already mentioned in the introduction, the derivation of new information from existing spatial data is one of the most valuable and most important functions of a GIS.
 
-In general we differentiate between two types of analysis: Queries and manipulations. For the queries the data remains unchanged, manipulations either change the data or even generated new data.
+In general we differentiate between two types of analysis: *Queries* and *manipulations*. For the queries the data remains unchanged, manipulations either change the data or even generated new data.
 
-Query
+
+=== Query
 
 There are three points of view according to which a query can be carried out.
 
-1. Queries based on factual data. Example: Select all lakes, that have a water depth, that's lower then 100 meters. These queries are thematic queries or selections.
+. Queries based on factual data. Example: Select all lakes, that have a water depth, that's lower then 100 meters. These queries are thematic queries or selections.
 
-2. Queries based on relationships between different geometric objects. Example: Select all lakes, which are completely of a canton. These queries are topological queries or selections.
+. Queries based on relationships between different geometric objects. Example: Select all lakes, which are completely of a canton. These queries are topological queries or selections.
 
-3. Queries via the geometry of the objects. Example: Which main locations lie at a distance of less than 20 km around Lake Lucerne. These queries are geometric queries or selections.
+. Queries via the geometry of the objects. Example: Which main locations lie at a distance of less than 20 km around Lake Lucerne. These queries are geometric queries or selections.
 
-Exercise 2
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 2_
 
 Think about what type of queries you used in the introduction.
 
-Databaselanguage SQL 
+ifdef::show_solutions[]
+====
+.Solution
+Both of them are thematic queries.
+====
+endif::show_solutions[]
 
-We use SQL (Structured Query Language) to run thematic queries. If you already worked with databases, then you wil already know about it and the next step is a simple revision, for all others its a short introduction into the most imperotant structural elements and terms of an SQL query.
+=== Databaselanguage SQL 
 
-A simplified SQL query is structured as follows:
+We use *SQL (Structured Query Language)* to run thematic queries. If you already worked with databases, then you wil already know about it and the next step is a simple revision, for all others its a short introduction into the most imperotant structural elements and terms of an SQL query.
 
+A simplified _SQL query_ is structured as follows:
+
+....
 SELECT AUSWAHLLISTE
 FROM QUELLE
 WHERE WHERE-KLAUSEL
+.... 
 
 Overview of the variables which you should know for simple queries:
 
-Auswahlliste: Names of all attributes, which should be displayed as the result of the query* means, all Attributes are displayed. For thematic queries in a GIS this is the  only query possible. Therefore, this variable must not be set in the GIS.
+*Auswahlliste:* Names of all attributes, which should be displayed as the result of the query* means, all Attributes are displayed. For thematic queries in a GIS this is the  only query possible. Therefore, this variable must not be set in the GIS.
 
-Quelle: Name of the Table, which contains the attributes need for the query.
+*Quelle:* Name of the Table, which contains the attributes need for the query.
 
-Where clause: The requirment the data needs to have.
+*Where Klausel:* The requirment the data needs to have.
+
+Overview over the SQL-Expressions which use the where-klausel and their meaning.
+
+[%header,cols=2*]
+|===
+|SQL Expression
+|Meaning
+
+|=
+|equal
+
+|<
+|smaller
+
+|$$<=$$
+|smaller or equal
+
+|>
+|greater
+
+|>=
+|greater or  equal
+
+|<>
+|not equal, different
+
+|LIKE
+|Comparison of characters. You can use symbols as placeholders:
+%: Placeholder for an unknown amount of characters
+for example LIKE ,F%' is for all entries which begin with the letter F
+_ : Placeholder for a single character
+for example LIKE ,Me_er', if you're looking for a person and don't know if the name is Meyer or Meier.
+Bei LIKE ,M_-er' can it also be Mayer 
+
+|IS NULL
+|Cell is empty
+
+|IS NOT NULL
+|Cell is not empty
+
+|BETWEEN
+|between to values
+|===
 
