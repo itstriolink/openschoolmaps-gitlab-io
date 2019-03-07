@@ -32,7 +32,7 @@ with the help of a Geographic Information System (GIS)
 the students have the possibility to recognize spatial relationships better
 and also to perform spatial analyses.
 That's why the students at grammar school should
-receive an introduction to the topic "Geographic Information Systems
+receive an introduction to the topic "Geographic Information Systems"
 and
 get to know the basic functions of a GIS.
 Therefore, they should have the opportunity
@@ -61,14 +61,14 @@ After
 the QGIS program is installed on the computer
 and
 you saved the data for this exercise locally on your computer,
-you can start editing the tutorial.
+you can start by working through the tutorial.
 
 The tutorial is divided into 5 chapters on the following topics:
 
 * What is a Geographic Information System?
 * Geodata and spatial reference
 * Collection and management of data
-* data analysis
+* Data analysis
 * Presentation and output of data
 
 Each individual chapter is again divided into the following 3 parts:
@@ -149,7 +149,7 @@ http://www.qgis.org/
 
 If the page is displayed in German,
 you can change the language
-by clicking on the englisch flag
+by clicking on the english flag
 above right of the homepage.
 When you click on the "Download Now" button,
 you get to the side
