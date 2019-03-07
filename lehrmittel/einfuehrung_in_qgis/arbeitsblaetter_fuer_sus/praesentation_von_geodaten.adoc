@@ -267,73 +267,64 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Task 4_ +
-_Erstelle mit den Erkenntnissen
-aus den betrachteten Karten
-ein Konzept für deine
-eigene Karte.
-Dieses Konzept gilt es dann
-im Übungsteil umzusetzen.
-Das Konzept soll
-aus einer Skizze bestehen,
-in welcher die Position
-der Karte und der Kartenelemente
-festgelegt ist.
-Überlege dir bei
-der Gestaltung auch
-folgende Punkte:_
+_Create a concept for your own card 
+using the findings from the cards 
+you are looking at.
+This concept then applies to
+in the exercise part.
+The concept should consist of a 
+sketch in which the position of 
+the map and the map elements 
+is determined.
+Also consider the following points when designing. Points:_
 
 ifdef::show_solutions[]
 ====
-Eine eindeutige Lösung gibt es zu dieser
-Aufgabe nicht. Überprüfe einfach nochmals,
-ob die wichtigsten Kartenelemente enthalten sind.
+There is no clear solution to this problem. 
+Just check again if the most important 
+map elements are included.
 
-* Titel
-* Nordpfeil und Koordinatenraster
-* Legende
-* Massstab/Massstabsbalken
-* Infos über Herausgeber, Copyright, Bezug etc.
-* Stand der Daten
+* Title
+* North arrow and coordinate grid
+* Legend
+* Scale/Scale bar
+* Information about the manufacturer, Copyright, etc.
+* Status of data
 ====
 endif::show_solutions[]
 
-* _welches Thema möchtest du darstellen?_
-* _was soll die Karte aussagen?_
-* _wen willst du mit deiner Karte ansprechen (Nutzerkreis)?_
+* _what topic would you like to present?_
+* _what's the card supposed to say?_
+* _whom do you want to address with your card (user group)?_
 
 
-Bis du zufrieden
-mit deinem Konzept?
-Dann geht es jetzt
-an die Umsetzung
-dieses Entwurfes.
+Are you satisfied 
+with your concept?
+Then it's on to the 
+implementation of this draft.
 
-== QGIS-Übung
+== QGIS-Exercise
 
-In dieser letzten Übung
-soll nun der Kartenentwurf
-aus dem Theorieteil
-im GIS umgesetzt werden.
+In this last exercise, 
+the map design from the 
+theory part will be 
+implemented in GIS.
 
-=== Lernziele
+=== Learning objectives
 
-Am Ende dieser Übung
-solltest du
-folgende Punkte
-beherrschen:
+At the end of this exercise
+you should have mastered
+the following points:
 
-* Mit Hilfe von QGIS
-eine Karte erstellen,
-in welcher alle
-wichtigen Kartenelemente
-enthalten sind
-* Je nach Zweck
-der Karte
-ein geeignetes Ausgabeformat
-wählen und die Wahl
-auch begründen
+* Using QGIS, create a map 
+that contains all important 
+map elements
+* Depending on the purpose
+of the card, select a 
+suitable output format 
+and justify your choice
 
-=== Druckzusammenstellung
+=== Print composition
 
 Bevor du mit
 der Erstellung
