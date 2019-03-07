@@ -506,7 +506,7 @@ e-mail, the PDF format is well
 suited. Often, however, printed 
 plans are still used. Therefore
 you have this option in the mask 
-_Printer compositio
+_Printer composition_
 
 In this exercise, a plan in the
 form of a __PDF__s is to be 
