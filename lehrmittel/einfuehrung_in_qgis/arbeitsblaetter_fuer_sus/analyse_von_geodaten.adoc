@@ -1,8 +1,68 @@
-Introduction in QGIS 3: Dataanalysis (Chapter 4)
+Introduction to QGIS 3: Data Analysis (Chapter 4)
 
 ../../../snippets/suppress_title_page.adoc
 
 A Worksheet
 
-In the last Chapter you learned how to capture Geographic Data und present them in a GIS. With that we've prepared everything for the "speciality" of the GIS, namely the the collection of new Information from existing spatial data. This process is called analysis.
+In the last chapters you've learned, how geodata is captured and can be displayed in a GIS. Thus everything is prepared for the "speciality" of GIS, namely the derivation of new information from existing spatial data. This derivation of new information is called analysis.
+
+Objectives
+
+This Chapter has the following Objectives
+
+State  the difference between Queries and manipulations in one's own words
+
+List, which query types exist and to explain those with the help of an example
+
+For a thematic query formulate a correct SQL query
+
+Theories
+
+Exercise 1
+
+As introduction for this chapter solve the folowing Exercises:
+
+1. Search 1: Call the websiete http://tel.local.ch/de/ and enter the name and if possible the adress of a person which you know and could have an entry in the phone book (for example your parents). Finish by pressing the search button. What is the result of your search? In what form are both the inputs and outputs of the website?
+
+2. Search 2: Next call the website http://www.sbb.ch/ and search for the next connection between the nearest train station and Chur. Again pay attention to the output and input values. The result isn't as important as teh Format. Add these observations to your notes.
+
+3. Compare: What do you notice when you compare the form of both results, write down your observations.
+
+Keep your solutions in the back of my mind. We will later in this chapter come back to them.
+
+As already mentioned in the introduction, the derivation of new information from existing spatial data is one of the most valuable and most important functions of a GIS.
+
+In general we differentiate between two types of analysis: Queries and manipulations. For the queries the data remains unchanged, manipulations either change the data or even generated new data.
+
+Query
+
+There are three points of view according to which a query can be carried out.
+
+1. Queries based on factual data. Example: Select all lakes, that have a water depth, that's lower then 100 meters. These queries are thematic queries or selections.
+
+2. Queries based on relationships between different geometric objects. Example: Select all lakes, which are completely of a canton. These queries are topological queries or selections.
+
+3. Queries via the geometry of the objects. Example: Which main locations lie at a distance of less than 20 km around Lake Lucerne. These queries are geometric queries or selections.
+
+Exercise 2
+
+Think about what type of queries you used in the introduction.
+
+Databaselanguage SQL 
+
+We use SQL (Structured Query Language) to run thematic queries. If you already worked with databases, then you wil already know about it and the next step is a simple revision, for all others its a short introduction into the most imperotant structural elements and terms of an SQL query.
+
+A simplified SQL query is structured as follows:
+
+SELECT AUSWAHLLISTE
+FROM QUELLE
+WHERE WHERE-KLAUSEL
+
+Overview of the variables which you should know for simple queries:
+
+Auswahlliste: Names of all attributes, which should be displayed as the result of the query* means, all Attributes are displayed. For thematic queries in a GIS this is the  only query possible. Therefore, this variable must not be set in the GIS.
+
+Quelle: Name of the Table, which contains the attributes need for the query.
+
+Where clause: The requirment the data needs to have.
 
