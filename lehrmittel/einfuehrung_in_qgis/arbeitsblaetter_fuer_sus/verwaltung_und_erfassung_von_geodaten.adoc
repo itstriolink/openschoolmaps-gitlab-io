@@ -72,9 +72,9 @@ look as follows.
 
 [%header,cols=3*]
 |===
-|Klasse
-|Anzahl Schüler
-|KlassenlehrerIn
+|Class
+|Number of students
+|Teacher
 
 |1c
 |22
@@ -127,199 +127,166 @@ are e.g. _Oracle Spatial_ and _PostGIS_.
 
 === Data acquisition
 
-Jetzt hast du gelernt,
-in welcher Form Geodaten
-abgespeichert werden können.
-Aber wie kommt man von den Objekten
-in der realen Welt denn
-überhaupt zu den Informationen,
-die abgespeichert werden sollen?
+Now you have learned in which form
+geodata can be saved. But how do 
+you get from the objects in the 
+real world to the information you 
+want to store?
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 1_ +
-_Überlege zwei bis drei Minuten,
-aus welchen Quellen
-die Daten stammen könnten
-und welche Erfassungsmethoden du kennst.
-Gehe erst dann im Text weiter._
+image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
+_Task 1_ +
+_Think for two to three minutes
+about what sources the data might
+come from and what collection 
+methods you know. Continue 
+in the text only then._
 
 ifdef::show_solutions[]
 ====
-.Lösung
-Vergleiche deine Lösung mit den
-Datenerfassungmöglichkeiten aus der Theorie.
+.Solution
+Compare your solution with the data 
+collection possibilities from theory.
 ====
 endif::show_solutions[]
 
-Es gibt viele Methoden,
-um Geodaten erfassen zu können.
-Auf einige möchten wir kurz eingehen.
+There are many methods to capture 
+geodata. We would like to 
+briefly discuss some of them. 
 
-. Im Teil 1 dieses Leitprogramms
-wurde das Beispiel mit dem Mobiltelefon
-mit integriertem GPS verwendet.
-GPS ist neben dem Messen mit Tachymetern
-eine beliebte Methode
-in der Vermessung,
-um die Geometrie von Objekten
-auf dem Feld zu erfassen.
-Oft muss das Resultat
-von Messungen als Textfile,
-auf welchem Koordinaten-
-und Attributwerte stehen,
-ins GIS-Projekt eingelesen werden.
-. Luftbilder werden oft
-als Hintergrundbild verwendet.
-. Oft liegen Pläne noch
-in analoger Form,
-d.h. als Papierkarte vor.
-Um diese Pläne
-in eine digitale Form zu bringen,
-müssen sie eingescannt werden.
-Nach dem Scannen
-sind die Daten zwar digital,
-haben aber noch keinen Raumbezug.
-Um einen Raumbezug zu erhalten,
-müssen sie zusätzlich
-georeferenziert werden
-(siehe Kapitel Geodaten und Raumbezug).
-. Luftbilder und digitalisierte
-und georeferenzierte Pläne
-bieten oft auch eine gute Grundlage,
-um Objekte ins Vektorformat umzuwandeln.
-Dieser Vorgang wird auch
-Vektorisieren genannt.
-. Gewisse Daten wurden bereits
-im Rahmen eines anderen
-GIS-Projektes erhoben.
-Diese Daten können teilweise
-ohne Anpassungen übernommen werden.
-Oft müssen jedoch
-z.B. noch das Datenformat
-oder das Koordinatensystem
-angepasst oder zusätzliche Attribute
-erfasst werden.
-. Statistische Ämter publizieren
-eine Vielzahl von statistischen Erhebungen.
-Diese statistischen Daten
-können übernommen
-und mit den entsprechenden
-geometrischen Objekten,
-wie z.B. den Kantonsgrenzen,
-verknüpft werden,
-um einen Raumbezug zu erhalten.
+. In part 1 of this guidance program,
+the example with the mobile phone 
+with integrated GPS was used. Besides
+measuring with tachymeters, GPS is 
+a popular method in surveying to 
+record the geometry of objects in the
+field. Often the result of 
+measurements has to be read into the 
+GIS project as a text file containing
+coordinate and attribute values.
+. Aerial images are often used
+as background images.
+. Often plans are still available in
+analogue form, i.e. as paper maps. 
+In order to convert these plans into
+digital form, they must be scanned. 
+After scanning, the data is digital, 
+but has no spatial reference. In order
+to obtain a spatial reference, they must
+also be georeferenced (see chapter 
+Geodata and spatial reference).
+. Aerial photographs and digitized and
+georeferenced plans often provide a good
+basis for converting objects into vector
+format. This process is also 
+called vectorizing.
+. Some data have already been collected
+in another GIS project. Some of these 
+data can be transferred without adjustments.
+Often the data format or the coordinate 
+system have to be adapted or additional 
+attributes have to be entered.
+. Statistical offices publish a large 
+number of statistical surveys. These
+statistical data can be imported and
+linked to the corresponding geometric
+objects, such as cantonal boundaries,
+in order to obtain a spatial reference.
 
-Die Datenerfassung und –verwaltung
-nimmt meist sehr viel Zeit in Anspruch.
-Der Aufwand lohnt sich aber,
-denn die Daten können als Kernstück
-des GIS angesehen werden.
-Ist die Qualität der Daten schlecht
-oder sind die Daten unvollständig
-oder veraltet,
-so sind auch die Resultate
-der Auswertungen oder
-die aus den Daten erstellten Karten
-entsprechend schlecht.
+Data acquisition and management usually
+takes a lot of time. But the effort is
+worth it, because the data can be 
+regarded as the core of the GIS. If the
+quality of the data is poor or the data
+is incomplete or outdated, the results
+of the evaluations or the maps created
+from the data are correspondingly poor.
 
-Die Daten haben im Vergleich
-zu den anderen GIS-Komponenten
-Software und Hardware
-eine sehr lange Lebensdauer.
-Während immer bessere
-und schnellere Computer
-auf den Markt kommen
-und die Softwareprodukte
-nach einigen Jahren
-meist schon veraltet sind,
-können die Daten
-über Jahrzehnte hinweg
-verwendet werden.
+Compared to the other GIS components 
+software and hardware, the data have
+a very long service life. While 
+better and faster computers are coming
+onto the market and the software 
+products are usually outdated after
+a few years, the data can be 
+used for decades.
 
-Da die Erfassung sehr aufwändig ist,
-ist man natürlich
-auch daran interessiert,
-die Daten möglichst lange
-verwenden zu können.
-Um dies zu gewährleisten,
-ist eine regelmässige Nachführung
-genauso wichtig wie die gute
-und saubere Erfassung der Daten.
-Wobei bei der Erfassung der Daten
-nicht der Grundsatz gilt
-„so genau wie möglich“
-sondern „so genau wie nötig“.
+Since the collection is very complex,
+one is naturally also interested in 
+being able to use the data as long as
+possible. In order to guarantee this,
+regular updating is just as important
+as good and clean data collection. The
+principle "as accurate as possible" 
+does not apply to the collection of 
+data, but "as accurate as necessary".
 
-== QGIS-Übung
+== QGIS Exercise
 
-Im Theorieteil hast du gelernt,
-wie du zu den Geodaten kommst,
-die du für dein GIS brauchst.
-Im Rahmen dieser Übung wirst du
-Daten aus einem Textfile in dein GIS einbinden,
-sodass sie einen Raumbezug erhalten
-und geographisch dargestellt werden können.
-Ausserdem wirst du Daten
-in einem bestehenden Datensatz nachführen.
+In the theory part you learned how
+to get the geodata you need for your
+GIS. In this exercise, you will 
+integrate data from a text file into
+your GIS so that it can be spatially 
+referenced and geographically 
+represented. You will also update data
+in an existing dataset.
 
-=== Lernziele
+=== Learning objectives
 
-Wenn du die Übung gelöst hast,
-hast du folgendes gelernt:
+When you've solved the exercise,
+you've learned the following:
 
-* ein Textfile mit Koordinatenwerten
-in einem GIS räumlich visualisieren
-* einen Layer anhand
-eines Attributwertes beschriften
-* neue Objekte erfassen
-(Geometrie und Sachattribute)
-* die Anzeige der Daten
-über die Layer-Eigenschaften verändern
+* spatially visualize a text
+file with coordinates in a GIS
+* label a layer with an
+attribute value
+* create new objects 
+(geometry and attributes)
+* change the display of the data
+via the layer properties
 
-=== Objekt aus Textfile
+=== Object from text file
 
-Die Lage der Kantonshauptorte
-ist im Textfile Hauptorte.txt abgespeichert.
-Öffne diese Datei in einem Texteditor
-und schaue dir den Inhalt etwas genauer an.
+The location of the cantonal capitals
+is stored in the text file Hauptorte.txt.
+Open this file in a text editor and 
+take a closer look at the content.
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 2_ +
-_In welcher Form ist die Lage
-der Hauptorte abgespeichert
-und wie sind die Informationen
-voneinander getrennt?
-Schreibe deine Erkenntnisse
-auf dein Arbeitsblatt._
+image:einfuehrung_in_qgis/ausrufezeichen.png[exclamation mark, 15, 15]
+_Task 2_ +
+_In what form is the location of
+themain locations stored and how
+is the information separated 
+from each other? Write your 
+findings on your worksheet._
 
 ifdef::show_solutions[]
 ====
-_Lösung_
+_Solution_
 
-.Attribute der Kantone in Textform
+.Attributes of the cantons in text form
 image::einfuehrung_in_qgis/abspeichern.png["Abspeichern", 502, 192]
 
-Die Lage der Hauptorte ist durch die Angabe
-der X-Koordinate (XKoordinate) und der
-Y-Koordinate (YKoordinate) angegeben. +
+The position of the main locations is 
+indicated by the X-coordinate (X-coordinate)
+and the Y-coordinate (Y-coordinate). +
 
-In der ersten Zeile des Textfiles sind
-die Attributnamen abgespeichert. Diese Werte
-sind in unserem Fall durch Kommas getrennt. +
+The attribute names are stored in the first
+line of the text file. In our case, these
+values are separated by commas. +
 
-Ab der 2. Zeile folgen die erfassten
-Objekte. Die Attribte der einzelnen
-Objekte sind ebenfalls durch Kommas
-getrennt. Ein neues Objekt beginnt immer
-auf einer neuen Zeile. Bei Textwerten
-müssen zu Beginn und am Schluss des
-Wertes Anführungszeichen stehen. +
+From the 2nd line onwards, the captured
+objects follow. The attributes of the
+individual objects are also separated by
+commas. A new object always starts on a 
+new line. For text values, quotation marks
+must appear at the beginning and 
+end of the value. +
 
-In der ersten Zeile wird definiert,
-welche Trennungszeichen im Dokument
-verwendet werden. Die Zeichen die dort
-gewählt wurden, müssen auch im weiteren
-Dokument als Trennungszeichen angewendet werden.
+The first line defines which separators are
+used in the document. The characters 
+selected there must also be used as 
+separators in the rest of the document.
 ====
 endif::show_solutions[]
 
