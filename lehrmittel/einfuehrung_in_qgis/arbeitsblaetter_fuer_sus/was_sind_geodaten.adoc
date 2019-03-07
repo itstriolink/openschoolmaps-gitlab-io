@@ -257,7 +257,7 @@ the GIS project.
 NOTE: The CRS (coordinate reference system) 
 should already be set correctly in our 
 given project. If you still want to 
-know how to change the KBS, you can
+know how to change the CRS, you can
 read the following optional chapter.
 
 ==== Projections
