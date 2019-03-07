@@ -288,53 +288,40 @@ desired CRS.
 
 ===== Re-projecting the data
 
-Um die Daten
-in deiner Tabelle
-umprojizieren zu können,
-musst nur den Layernamen
-rechtsklicken,
-auf _Export_ klicken
-und _Save Feature As..._
-auswählen.
-Im oberen Teil
-des Fensters
-kannst du dann
-das KBS abändern.
+To re-project the data in your 
+table, just right-click the layer
+name, click _Export_ and select
+_Save Feature As..._. In the
+upper part of the window you
+can change the CRS.
 
-Wenn du dir
-nicht sicher bist,
-welchen EPSG-Code
-du verwenden sollst,
-kannst du auf
-http://spatialreference.org/
-nachschauen.
+If you are not sure which EPSG 
+code to use, you can look it
+up at http://spatialreference.org/
 
-== QGIS-Übung
+== QGIS Exercise
 
-Im Theorieteil hast du
-einiges über Vektor-
-und Rasterdaten erfahren.
-In dieser Übung möchten wir nun
-ein neues GIS-Projekt erstellen
-und in dieses Projekt Vektor-
-und Rasterdaten laden.
+In the theory part you learned a 
+lot about vector and raster data.
+In this exercise we want to create
+a new GIS project and load 
+vector and raster data into it.
 
-=== Lernziele
+=== Learning objectives
 
-Nach dieser Übung bist du
-in der Lage folgendes zu tun:
+After this exercise you 
+will be able to do the following:
 
-* Das richtige Koordinatenbezugssystem
-für ein neues Projekt wählen
-* Vektordaten und WMS-Dienste ins Projekt laden
+* Choosing the right coordinate 
+reference system for a new project
+* Load vector data and WMS services into the project
 
-=== Projekteinstellungen
+=== Project settings
 
-Um ein leeres Projekt zu öffnen,
-schliesse und öffne entweder QGIS neu
-oder klicke auf den Button Neues Projekt.
-In das leere Projekt sollen nun
-Geodaten geladen werden.
+To open an empty project, either close and 
+open QGIS again or click the New Project
+button. Now you want to load geodata
+into the empty project.
 
 Bevor jedoch Daten geladen werden,
 sollte das Koordinatensystem
