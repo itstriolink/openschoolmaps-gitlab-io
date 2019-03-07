@@ -162,38 +162,37 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Task 2_ +
-_Bestimmt gibt es auch
-von Wohnkanton
-oder vom Nachbarskanton
-im Internet ein WebGIS.
-Überprüfe dies,
-indem du über Google
-eine Suche nach
-deinem Wohnkanton
-oder dem Nachbarkanton
-in der Umgebung
-und den Begriffen "GIS"
-und "Online" startest.
-Notiere dir den Link._
+_I'm sure there's also
+from canton of residence
+or from the neighbouring canton
+a WebGIS on the Internet.
+Check this out
+by using Google.
+Search for
+your canton of residence
+or the neighbouring canton
+in the surrounding
+and the terms "GIS" and "Online".
+Note the link._
 
 ifdef::show_solutions[]
 ====
-Unter folgendem Link findest du
-eine Liste von Karten aus den
-verschiedenen Kantonen. Darunter
-findest du auch einige Internet-GIS:
+Under the following link you will find
+a list of cards from the
+different cantons. Below
+you'll also find some Internet-GIS:
 
 http://www.kartenportal.ch/
 
-Schaue nach, ob der Link,
-den du gefunden hast,
-auch dabei ist.
+Look up if the link
+you found
+is in it too.
 
-*Einige Beispielkantone*
+*Some example cantons*
 
-Luzern: https://www.geo.lu.ch/map/grundbuchplan/
+Lucerne: https://www.geo.lu.ch/map/grundbuchplan/
 
-Nidwalden: https://www.gis-daten.ch/map/plan_fuer_grundbuch_bund_nw
+Nidwald: https://www.gis-daten.ch/map/plan_fuer_grundbuch_bund_nw
 
 St. Gallen: https://www.geoportal.ch/st_gallen/map/40
 
@@ -201,75 +200,73 @@ Appenzell: https://www.geoportal.ch/appenzell/map/40
 ====
 endif::show_solutions[]
 
-==== Ausgedruckte Karte oder Karte als PDF
+==== Printed map or map in PDF format
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 3_ +
-_Schaue dir folgenden Karten an,
-und notiere,
-welche Elemente
-neben den Daten
-auf eine Karte gehören.
-Überlege dir
-bei jedem Element,
-das du notierst,
-welchen Zweck es erfüllt._
+_Task 3_ +
+_Look at these cards
+and write down,
+which elements
+next to the data
+belong on a card.
+Think about each element
+that you're writing down,
+what purpose it serves._
 
-* Stadtplan Thun aus dem Jahre 1935:
+* Map of Thun from 1935:
 http://www.zumbo.ch/maps/navigate/navigate.php?map_nr=62&lang=de
-* OL Karte Gwattholz:
+* OL Map Gwattholz:
 http://www.omstrom.ch/images/olkarten/gwattholz_11.pdf
 
 ifdef::show_solutions[]
 ====
-*Kartenelemente Karte Thun*
+*Map elements Map Thun*
 
-* Titel
-* Nordpfeil
-* Legende
-* Massstab
-* Angaben zum Hersteller
-* Raster für Strassenverzeichnis
+* Title
+* North arrow
+* Legend
+* Scale
+* Information about the manufacturer
+* Grid for street directory
 
 //-
 
-*Kartenelemente OL-Karte*
+*Map elements OL map*
 
-* Titel
-* Nordpfeil
-* Legende
-* Massstab (inkl. Massstabsbalken)
-* Äquidistanz
-* Stand der Daten
-* Infos über Herausgeber, Copyright, Bezug etc.
+* Title
+* North arrow
+* Legend
+* Scale (incl. scale bar)
+* equidistance
+* Status of data
+* Information about publisher, copyright, purchase etc.
 
-*Zusammenfassung wichtige Kartenelemente*
+*Summary of important map elements*
 
-Zusammenfassung der wichtigsten Kartenelemente
-aus den oben aufgelisteten Elementen:
+Summary of the most important map elements
+from the elements listed above:
 
-* _Titel:_ Wahl eines sinnvollen und aussagekräftigen Titels +
-* _Nordpfeil:_ Um die Nordrichtung der Karte
-anzugeben, dient der Orientierung. Bei einigen
-Karten wird der Nordpfeil durch ein Koordinatenraster
-ersetzt. Dieses Koordinatenraster ist immer
-nach Norden ausgerichtet. +
-* _Legende:_ Um den Inhalt der Karte zu erklären +
-* _Massstab/Massstabsbalken:_ Um Distanzen in der
-Karte abschätzen zu können +
-* _Infos über Herausgeber, Copyright, Bezug etc.:_
-Damit der Kartennutzer weiss,
-woher die Karte stammt und
-unter welchen Umständen
-er die Karte weiterverwenden darf +
-* _Stand der Daten:_ Damit der
-Kartennutzer weiss, wie aktuell
-die Daten sind.
+* _Title:_ Selection of a meaningful and expressive title +
+* _North arrow:_ To change the north direction of the map
+is for orientation only. For some
+maps, the north arrow is replaced by a coordinate grid. 
+This coordinate grid is always
+north-facing. +
+* _Legend:_ To explain the contents of the map +
+* _Scale/Scale bar:_ To be able to estimate distances on the map +
+* _Information about the manufacturer, Copyright, etc.:_
+So that the card user knows
+where the map came from and
+under what circumstances
+he may continue to use the card +
+* _Status of data:_ So that the
+Card user knows how up to date
+the data is.
 ====
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 4_ +
+_Task 4_ +
 _Erstelle mit den Erkenntnissen
 aus den betrachteten Karten
 ein Konzept für deine
