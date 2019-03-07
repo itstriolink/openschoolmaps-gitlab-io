@@ -624,17 +624,17 @@ correct ways.
 ifdef::show_solutions[]
 ====
 .Solution
-. Haltestellen der ÖV-Verbindungen +
-Zeitplan und Ort der Haltestellen
-auf Homepage der ÖV-Anbieter
-nachschauen und im GIS
-implementieren. +
-. Ungefährliche Wanderwege
-durch Naturlandschaft +
-Frei zugängliche Luftaufnahmen
-(Bsp. Bing Maps) analysieren
-und bestmögliche Route bestimmen
-und einzeichnen.
+. Stops of the public transport connections +
+Check the timetable and location of the
+stops on the homepage of the public 
+transport providers and implement
+them in the GIS. +
+. Non-hazardous hiking trails
+through natural landscape +
+Analyse freely accessible 
+aerial photographs (e.g. Bing Maps)
+and determine and draw 
+the best possible route.
 
 ====
 endif::show_solutions[]
