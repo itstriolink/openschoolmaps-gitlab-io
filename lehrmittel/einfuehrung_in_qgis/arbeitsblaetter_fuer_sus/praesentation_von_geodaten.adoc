@@ -326,53 +326,39 @@ and justify your choice
 
 === Print composition
 
-Bevor du mit
-der Erstellung
-der Karte beginnen kannst,
-musst du den Ausschnitt
-im Kartenfenster
-so gestalten,
-wie du ihn
-in deiner Karte
-darstellen möchtest.
-Dazu gehört auch,
-dass du Layer ein-
-und ausblendest,
-je nachdem ob du
-sie in der Karte
-darstellen möchtest
-oder nicht.
-Wenn du mit der Darstellung
-und dem Ausschnitt
-zufrieden bist,
-kannst du in der Übung
-weiter gehen.
+Before you can start 
+creating the map, 
+you must design the section
+of the map window as you
+would like it to appear
+on your map.
+This includes showing and
+hiding layers, depending on
+whether you want to display
+them on the map or not.
+When you are satisfied 
+with the presentation and
+the detail, you can continue
+with the exercise.
 
-Für die Erstellung
-einer Karte gibt es
-eine eigene Maske.
-Öffne diese über
-das Menü
+There is a separate mask 
+for creating a map. 
+Open it via the menu 
 _Project_ ->
 _New Print Layout..._.
 
-.Leeres Druckzusammenstellungs-Fenster in QGIS 3
+.Empty Print Composition window in QGIS 3
 image::einfuehrung_in_qgis/qgis_print_layout.PNG["Druckzusammenstellung", 510, 317]
 
-Die Maske ist so aufgebaut,
-dass sich im oberen Bereich
-wieder die Menüs
-und Werkzeuge befinden.
-Der mittlere Teil ist
-in zwei Bereiche aufgeteilt,
-auf der linken Seite
-ist das Kartenfenster,
-in welchem die Karte
-gestaltet werden kann,
-und auf der rechten Seite
-können die entsprechenden Parameter
-gesetzt und Einstellungen
-gemacht werden.
+The mask is structured in such a way 
+that the menus and tools are again 
+located in the upper area. 
+The middle part is divided into 
+two areas, on the left side is 
+the map window, in which the map 
+can be designed, and on the right side
+the corresponding parameters 
+can be set and settings made.
 
 Auf der rechten Seite
 hat es drei Reiter,
