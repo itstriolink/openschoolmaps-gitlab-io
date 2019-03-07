@@ -8,12 +8,12 @@ include::../../../snippets/suppress_title_page.adoc[]
 *A worksheet*
 ifdef::show_solutions[- *LÖSUNGEN*]
 
-== Präsentation und Ausgabe von Daten
+== Presentation and output of data
 
 In the last few chapters
 you've learned
 how geodata is captured,
-administered and analyzed.
+managed and analyzed.
 In the last chapter
 it's about
 the P of EVAP,
@@ -84,7 +84,7 @@ with some examples.
 
 Click on
 the following link,
-to access the WebGIS
+to access the Web-GIS
 of the Canton of Zurich:
 
 https://maps.zh.ch/
@@ -148,7 +148,7 @@ The following tools are available:
 Different data is displayed depending on the zoom level.
 
 
-*vector data*
+*Vector data*
 
 .Vector data that is displayed at a certain zoom level.
 image::einfuehrung_in_qgis/webgisvector.png["Vektor WebGiS", 151, 207]
@@ -220,7 +220,7 @@ http://www.omstrom.ch/images/olkarten/gwattholz_11.pdf
 
 ifdef::show_solutions[]
 ====
-*Map elements Map Thun*
+*Map elements map Thun*
 
 * Title
 * North arrow
@@ -303,7 +303,7 @@ with your concept?
 Then it's on to the 
 implementation of this draft.
 
-== QGIS-Exercise
+== QGIS Exercise
 
 In this last exercise, 
 the map design from the 
@@ -576,8 +576,8 @@ ifdef::show_solutions[]
 ====
 .Solution
 . Export as: +
-Image: raster graphic +
-SVG: vector graphic +
+Image: Raster graphic +
+SVG: Vector graphic +
 PDF: Portable Document Format +
 . Compare your solution
 with the last chapter
@@ -586,76 +586,59 @@ endif::show_solutions[]
 
 === Question 2
 
-Immer wieder,
-sei es in Zeitungen,
-Büchern
-oder im Internet,
-werden die
-räumlichen Zusammenhänge
-von Daten
-und Ereignissen
-eines Berichtes
-mit Hilfe
-einer Karte
-visualisiert.
-Doch beinhalten
-diese Karten
-auch die wichtigsten
-Kartenelemente? +
-Du hast
-diese Elemente
-in diesem Kapitel
-kennengelernt
-und eigene Erfahrungen
-mit der Gestaltung
-einer Karte gemacht.
-Betrachte die Karte
-unter dem Link
+Again and again, be 
+it in newspapers, 
+books or on the Internet,
+the spatial relationships
+between data and events 
+in a report are visualized
+with the help of a map. 
+But do these maps also 
+contain the most important
+map elements? +
+You got to know these 
+elements in this chapter 
+and made your own experiences
+with the design of a card. 
+Look at the map under the link 
 http://www.mygeo.info/landkarten/schweiz/schweiz_cia_2005.gif
-und beantworte
-die folgenden Fragen:
+and answered the 
+following questions:
 
-. _Sind alle
-wichtigen Kartenelemente
-in der Karte enthalten?
-Falls nein,
-welche fehlen?_ +
-Erstelle eine Liste
-mit allen vorhandenen
-und nicht vorhandenen
-Kartenelementen.
-Überlege dir auch
-die Auswirkungen,
-wenn die einzelnen
-Kartenelemente fehlen.
-. _Wie beurteilst du
-die Umsetzung
-der Karte
-und die Darstellung
-der Informationen?_ +
-_Was soll
-die Karte aussagen?_ +
-Beantworte die Frage
-in eigenen Worten.
-Denke bei der Beantwortung
-der Frage auch
-an deine
-eigenen Erfahrungen,
-die du
-bei der Gestaltung
-deiner Karte
-gemacht hast.
+. _Are all important 
+map elements included
+in the map? If not, 
+which ones are 
+missing?_ +
+Create a list of all
+existing and non-existing
+map elements. Also 
+consider the effects 
+of missing map elements.
+. _How do you assess 
+the implementation of
+the map and the 
+presentation of 
+the information?_ +
+_What's the card 
+supposed to say?_ +
+Answer the question in your
+own words. When answering 
+the question, also think of
+your own experiences that
+you made when designing 
+your card.
 
 ifdef::show_solutions[]
 ====
-.Lösung
-. Es fehlen folgende Elemente +
-* Titel +
-* Nordpfeil +
-* Legende +
-* Stand der Daten +
-* Zusatz Informationen
+.Solution
+. The following elements are missing +
+* Title +
+* North arrow +
+* Legend +
+* Status of data +
+* Additional Information
 
-. Grössere Städte in der Schweiz
+. Larger cities in Switzerland
 ====
 endif::show_solutions[]
