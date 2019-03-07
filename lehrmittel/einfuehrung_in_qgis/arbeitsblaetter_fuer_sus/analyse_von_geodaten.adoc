@@ -9,9 +9,9 @@ In the last chapters you've learned, how geodata is captured and can be displaye
 
 == Learning objectives
 
-This Chapter has the following Objectives
+This chapter has the following objectives
 
-* State  the difference between Queries and manipulations in one's own words
+* State  the difference between queries and manipulations in one's own words
 
 * List, which query types exist and to explain those with the help of an example
 
@@ -34,7 +34,7 @@ ifdef::show_solutions[]
 .Solution
 *Question 1* +
 In order to start a query, you must
-give Name, first name and city into the textfield. The query could look like this:
+give name, first name and city into the textfield. The query could look like this:
 
 .Input for the search on local.ch
 image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1"]
@@ -48,8 +48,8 @@ The results are returned as adress and as a mark on a map.
 
 *Qestion 2*
 To start a query, you have to
-give Start,
-Destination, date and time in the fields. The query could be like
+give start,
+destination, date and time in the fields. The query could be like
 looks like:
 
 .Input for the search on sbb.ch
@@ -118,7 +118,7 @@ Both of them are thematic queries.
 ====
 endif::show_solutions[]
 
-=== Databaselanguage SQL 
+=== Database language SQL 
 
 We use *SQL (Structured Query Language)* to run thematic queries. If you already worked with databases, then you wil already know about it and the next step is a simple revision, for all others its a short introduction into the most imperotant structural elements and terms of an SQL query.
 
@@ -132,9 +132,9 @@ WHERE where-expression
 
 Overview of the variables which you should know for simple queries:
 
-*select-expression:* Names of all attributes, which should be displayed as the result of the query* means, all Attributes are displayed. For thematic queries in a GIS this is the  only query possible. Therefore, this variable must not be set in the GIS.
+*select-expression:* Names of all attributes, which should be displayed as the result of the query* means, all attributes are displayed. For thematic queries in a GIS this is the  only query possible. Therefore, this variable must not be set in the GIS.
 
-*our-table:* Name of the Table, which contains the attributes need for the query.
+*our-table:* Name of the table, which contains the attributes need for the query.
 
 *where-expression:* The requirment the data needs to have.
 
@@ -547,3 +547,110 @@ Now, all cantons are selected, which who fulfill this condition.
 
 After that we need to find the coresponding the main towns, this is done with the help of spartial selection.
 For that you open the tool _Select by Location_.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 12_ +
+_Which layer is now the
+*Select features from*-Layer
+andwhich one the
+*By comparing to the features from*-Layer?
+Which Topological Surgery
+should be chosen?_
+
+ifdef::show_solutions[]
+====
+.Solution
+*Select features from:* main towns +
+*By comparing to
+the features from:* canton borders +
+
+*Topologische Operation:* within
+====
+endif::show_solutions[]
+
+Before
+the execution of the query check ,
+that the attitudes are set so,
+that from the cantonal borders
+only the selected ones
+are taken into account.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 13_ +
+_Which main towns are the result?_
+
+ifdef::show_solutions[]
+====
+.Solution
+Aarau, Frauenfeld, Genève, Lausanne, Neuchâtel, Sankt Gallen
+====
+endif::show_solutions[]
+
+== Chapter test 4
+
+=== Question 1
+
+In chapter 4 you have learned to differentiate between to variants of analysis namely queries and manipulations.
+
+_What's the diffrence between this two variants._
+
+Write down your answer using your own words and add an example for each.
+
+ifdef::show_solutions[]
+====
+.Solution
+Query: +
+A query only accesses the data
+and does not change it in any form
+
+For example if you want to know how many people under 30 earn more then 150'000 CHF per year
+
+Manipulation: +
+Manipulation changes or even adds new Data.
+
+For example in an existing transport system
+you can add a new attribute that shows how strong the strain on it is.
+Another option would be the adding of yet untracked routs.
+====
+endif::show_solutions[]
+
+== Question 2
+
+You have learned to formulate thematic queries with SQL.
+
+_Create an SQL query for the following question:_+
+_"Which cantons have a greater population density then 200 people per km^2^,
+joined switzerland before the year 1600 and whose name doesn't start with a Z?_
+
+
+Use the simplified version of the SQL-guery and mark the typical elements of it seperatly.
+The names of the tables and Attributes can be taken from the data given to you.
+
+ifdef::show_solutions[]
+====
+.Solution
+SELECT * +
+FROM canton +
+WHERE Population / SurfaceArea >
+200 AND JoiningYear < 1600
+AND Name NOT LIKE ‘Z%’
+====
+endif::show_solutions[]
+
+=== Question 3
+
+Besides the thematic queries, their are other variants which can be combined.
+
+_For the following question create an SQL-Query:_ +
+_"Select all cantons which joind switzerland after 1600 and have contact with a lake greater then 50km^2^._
+
+ifdef::show_solutions[]
+====
+.Solution
+SELECT * +
+FROM canton, lake +
+WHERE canton.JoiningYear >
+1600 AND lake.SurfaceArea > 50
+AND -- TODO
+====
+endif::show_solutions[]
