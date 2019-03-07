@@ -1,4 +1,9 @@
 = Introduction to QGIS 3: Introduction und Preparation
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
 
 Welcome to the tutorial
 "Introduction to the Opensource-Software QGIS".
