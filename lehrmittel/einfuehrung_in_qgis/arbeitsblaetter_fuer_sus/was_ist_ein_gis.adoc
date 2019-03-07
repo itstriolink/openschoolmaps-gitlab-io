@@ -1,0 +1,168 @@
+= Introduction in QGIS 3: What is a  Geographic Information System? (Kapitel 1)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*a worksheet*
+ifdef::show_solutions[- *Solutions*]
+
+I'm sure you've heard or read about Geographic Information Systems or GIS somewhere already. Since computers have become more and more powerful and cheaper, more and more people are able to buy a computer, who has enough computing power, to run a GIS program. Therefore, the number of GIS applications has risen. But what exactly do you understand under a Geographic Information System? We will answer this question in the first chapter.
+
+== Learning objectives of the theory part
+
+After the completion of the first chapter you should have learned the following:
+
+* know the components which are needed for a Geographic Information System
+* List the functionalities of a Geographic Information System without help
+
+== Theory
+
+To help understand what a Geographic Information System is, we have here a deffinition for it:
+
+.Definition
+[NOTE]
+====
+A Geographic Information System (GIS) is a computersupported System, which is made out of Hardware, Software and Data and with witch one can model and modify spatial problems in diffrent fields of application.
+The data/information required for this can be digitaly edited, managed, reorganized, analysed and presented both alphanumerically and graphically.
+GIS denominates a technology as well as both a product and a means to access and modify geographic information.
+
+Ralf Bill, Baisics of Geographic Information System, 2016, Wichmann
+====
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 1_ +
+_Study the definition and try to answere the following questions:_
+
+._What infrastructure is required to use a GIS?_
+._What's special about the data shown in a GIS?_
+._Chalkin created the Fourcomponent Model in the year 1977. He described the function of a GIS with 4 components
+Input, Manipulation, Analysis and Presentation, short IMAP.
+Exercise:
+Order each of these components to one of the functions mentioned in the definition._
+
+ifdef::show_solutions[]
+====
+. _You'll need the hardware (at least keyboard and Screen, or a laptop plus a mous) and the software (operating system and GIS software)_
+._The information have a spatial reference._
+. *I* (Input): _modelled, digitally acquired, saved_ +
+*M* (Manipulate): _edited, reorganized_ +
+*A* (Analysis): _analysed_ +
+*P* (Presentation): _alphanumerical and graphicly presented_
+====
+endif::show_solutions[]
+
+== Components of a Geographic Information System
+
+We know to get deeper into the individual systemcomponents _Hardware, Softwar and Data_ and tell you something more about them.
+
+=== Hardware
+
+The most important hardwarecomponent that belong to a GIs are like mentioned in Exercis 1a, a computer with keyboard, display and mouse. Beside peripherals like printer and a means to read in data, (look Chapter  Data collection and Management) for example a GPS or scanner.
+
+=== Software
+
+To even run a GIS on your computer you'll need an operating system. The most common ones are Microsoft Windows, Apple Max OS X, Unix and Linux.
+
+Once an operating system is present you can install the GIS software. The choice is dependant on your operating system, since not every GIS supports each one.
+
+The common GIS products can be devided into two classes. On one hand comercial products like ArcGIS from ESRI or Geomedia from Intergraph and on the other OpenSource-Products like QGIS which are free.
+
+For products to be allowed to run under OpenSource, they need to comply with the Open-Source-License. This License gives user the allowance to freely use, modify and spread of the software. Access to the sourcecode is unristriced, but the user also has a few obligations. But these mostly concern development and passing around of the product and are of no consequence.
+
+You surely have heard the term free software or freeware. Freeware isn't the same as Open-source-Software. They don't cost anything but you can't access the sorucecode.
+
+In this tutorial we'll use the Open-Source-Software QGIS, which runs on most operating systems.
+
+We chose QGIS because it lacks licesing cost and is free to install on any computer. You can use it both in school and at home without paying anything.
+
+If their is a problem when using the software, you wont have the support offered by firms like ESRI or Intergraph. But behind every Open-source-Software stands a community. So don't be afraid to contact them if you're facing problems are read threw the documentation. Here are the links to those
+
+https://www.qgis.org/de/site/forusers/support.html - community +
+https://www.qgis.org/de/docs/index.html - documentation
+
+=== Data
+
+Like you can take from the definition, this is data with a spartial aspect, you'll learn in the next chapter.
+
+=== Uses
+
+Another component are the uses which a GIS has.These reach from simple visualizations to komplex analysis. In this turtorial you'll go threw some of the use cases.
+
+=== Summary component
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 2_+
+_Repeat for yourself the diffrent components of a GIS and write down a few words about each of them and not what they are in your case._
+
+ifdef::show_solutions[]
+====
+On your workspace their is probably a computer with a screen, keyboard and a mouse. Or perhaps it's just a laptop with a mouse. You might only have a simple printer and scanner, but thanks to technological advancement you don't need very expensive equipment for a GIS.
+
+Your OS is probably Windows, Mac OS X, Linux or Unix.
+
+And your GIS-Software is probably QGIS which you installed in the Chapter Preparation.
+====
+endif::show_solutions[]
+
+== QGIS exercise
+
+In the first part of the theory you've learned that software is one of four components of the GIS System. In the exercis part you now should learn how to use QGIS.
+
+=== Learning objectives
+
+After these Exercise you will be able to:
+* open existing projects in QGIS
+* name and use the diffrent navigation options
+
+=== Starting QGIS
+
+When you installed the QGIS software, it automaticaly created a folder with shortucts for the programm on your desktop.
+You can double click on that shortcut (named QGIS + versionnumber) to start the programm. Doing that opens a simple graphical user interface.
+If this shortcut is missing you find the program if you use your computers searchfunction. Make sure you open the version that doesn't have "with grass" on it.
+
+=== The graphical user interface
+
+The interface is seperated into seven areas:
+
+. Menubar
+. Toolbar
+. Spatial bookmarks
+. Browser window
+. Layer window
+. Map window
+. Status bar
+
+.User interface of QGIS 3
+image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläche", 401, 312]
+
+Can you find each area on your own user interface.
+
+If you can't see the layer or the browser you can get them via _View_ -> _Panels_ and _Layers_ or _Browser_.
+
+Over the menu _View_ -> _Toolbars_ you can get the lists of toolboxes. You can add and remove them to your interface by setting the cross infront of its name.
+
+Another option to show and hide the layer window, map overview or toolboxes is using the right mousebutton. Simple click with it on the grey boarder of them and an options menu opens up.
+
+.List with tools
+image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 266]
+
+Try out these 3 methods und find out which one oyu like the most, for use in the future.
+
+Hide the window _Spartial Bookmarks_ and show instead the window _Overview_.
+
+=== Open existing project
+
+In this task we will work with an existing QGIS Project. But first we'll need to load the project into our QGIs.
+Klick for that on the button _Open Project_ and navigate to where you saved the data for this turtorial. Select the file Teil1.qgs and click on the button Open.
+
+In the window Layers you should now be able to see two entries, Lakes and Canton borders. These entries are called layers and are shown graphicaly in the map window.
+
+=== Layerwindow and Mapwindow
+
+For a first step we should take a closer look at the interaction between Layer window and Mapwind.
+
+Die individual layers can be shown and hidden by placing the cross infront of the layer name. Test this function by showing and hiding both layers in the mapwindow.
+
+
