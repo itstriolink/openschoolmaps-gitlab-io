@@ -347,8 +347,8 @@ Open it via the menu
 _Project_ ->
 _New Print Layout..._.
 
-.Empty Print Composition window in QGIS 3
-image::einfuehrung_in_qgis/qgis_print_layout.PNG["Druckzusammenstellung", 510, 317]
+.Empty Print Composition window in QGIS
+image::einfuehrung_in_qgis/qgis_print_layout.PNG["Print composition", 510, 317]
 
 The mask is structured in such a way 
 that the menus and tools are again 
