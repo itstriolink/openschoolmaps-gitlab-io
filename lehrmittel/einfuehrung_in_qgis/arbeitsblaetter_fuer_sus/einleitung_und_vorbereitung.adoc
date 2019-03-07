@@ -1,4 +1,4 @@
-= Introduction to QGIS 3: Introduction und preparation
+= Introduction to QGIS 3: Introduction und Preparation
 
 Welcome to the tutorial
 "Introduction to the Opensource-Software QGIS".
@@ -33,8 +33,145 @@ get to know the basic functions of a GIS.
 Therefore, they should have the opportunity
 to use the program either in class or self-employed for the Matura thesis.
 
-=== learning objectives
+=== Learning objectives
 
 You should be able to do the following after working through the tutorial:
 
+* enumerate the functions and components of a GIS
+* run a smaller GIS project
+  from the project settings
+  on the collection, management, analysis to the presentation of the data
+* Distinguish raster data from vector data
+  and
+  also justify the distinction
+* Create a map
+  and
+  implement the design in GIS
 
+<<<
+
+=== Procedure
+
+After
+the QGIS program is installed on the computer
+and
+you saved the data for this exercise locally on your computer,
+you can start editing the tutorial.
+
+The tutorial is divided into 5 chapters on the following topics:
+
+* What is a Geographic Information System?
+* Geodata and spatial reference
+* Collection and management of data
+* data analysis
+* Presentation and output of data
+
+Each individual chapter is again divided into the following 3 parts:
+Theory, exercise and chapter test.
+In the practice section you will get a theoretical introduction to the topic.
+In the practice block, you have the opportunity
+to deepen the theoretical knowledge
+with the help of practical applications.
+If you have the feeling
+that you understood the content of the chapter,
+then you can go to the chapter test.
+This test must be solved without documentation and notes.
+When you've answered all the questions
+go with your answers to your teacher
+or correct your answers yourself
+with the solution sheet.
+If your teacher corrects your answers
+and the answers were right,
+he'll give you the green light
+to move on to the next chapter.
+If you answered a question wrong
+you have time
+to go over the theory again
+and
+to answer the question again.
+When the teacher is satisfied with your answer
+you can move on to the next chapter.
+
+In each chapter you will come across the following symbol again and again:
+image:einfuehrung_in_qgis/ausrufezeichen.png["Ausrufe Zeichen", 15, 15].
+This sign gives the hint
+that you need to write something down.
+So you must always have a piece of paper or a notebook at hand. 
+Read through the question
+and answer them in writing.
+When you've answered them
+you can compare your solution
+with the solution
+in the solution sheet.
+
+Here the whole thing summarized:
+
+. Work through theory
+. Solving an exercise using the QGIS program
+. Solve chapter test
+. Have teacher's answers corrected.
+If green light by teacher, proceed to 5.
+If answers are incorrect, return to 3.
+. Work through the theory of the next chapter
+. ....
+
+== Preparation
+
+=== Installation of the GIS-Software QGIS
+
+If you don't work with your own computer at school,
+ask a teacher
+if she can install the software on a computer for you
+or
+if it's already installed on a computer,
+which you could use to work through the tutorial.
+
+If you work with your own computer,
+you can,
+depending on how proficient you are with computers,
+install the QGIS program yourself
+or
+ask someone
+(e.g. your teacher or your parents),
+if he/she can help you with the installation.
+
+To install new software on a computer,
+you need administrator rights.
+
+Installing QGIS is not difficult.
+The program can be downloaded from the following link:
+http://www.qgis.org/
+
+If the page is displayed in German,
+you can change the language
+by clicking on the englisch flag
+above right of the homepage.
+When you click on the "Download Now" button,
+you get to the side
+on which the program can be downloaded.
+QGIS is available for the operating systems Windows, MacOS X and Linux.
+
+Choose the right download for your operating system
+and
+download the installation file.
+
+This guide was written for QGIS version 3.2.2-Bonn.
+Therefore pay attention to download the following file:
+QGIS-OSGeo4W-3.2.2-Setup-x86_64.exe
+or
+QGIS-OSGeo4W-3.2.2-Setup-x86.exe
+
+NOTE: An alternative to installing the QGIS software
+is the learning stick
+https://lernstick.ch
+(Currently only QGIS 2.18 is supported on the learning stick)
+
+=== Download sample data
+
+The zip file
+with the data
+for the exercises
+of this guide
+you'll find on
+https://www.openschoolmaps.ch
+under teaching materials.
