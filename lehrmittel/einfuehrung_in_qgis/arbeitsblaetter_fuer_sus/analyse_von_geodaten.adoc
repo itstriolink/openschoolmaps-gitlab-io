@@ -2,12 +2,12 @@
 
 ../../../snippets/suppress_title_page.adoc
 
-*A Worksheet*
+*A worksheet*
 ifdef::show_solutions[- *Solutions*]
 
 In the last chapters you've learned, how geodata is captured and can be displayed in a GIS. Thus everything is prepared for the "speciality" of GIS, namely the derivation of new information from existing spatial data. This derivation of new information is called *analysis*.
 
-== Objectives
+== Learning objectives
 
 This Chapter has the following Objectives
 
@@ -125,18 +125,18 @@ We use *SQL (Structured Query Language)* to run thematic queries. If you already
 A simplified _SQL query_ is structured as follows:
 
 ....
-SELECT AUSWAHLLISTE
-FROM QUELLE
-WHERE WHERE-KLAUSEL
+SELECT select-expression
+FROM our-table
+WHERE where-expression
 .... 
 
 Overview of the variables which you should know for simple queries:
 
-*Auswahlliste:* Names of all attributes, which should be displayed as the result of the query* means, all Attributes are displayed. For thematic queries in a GIS this is the  only query possible. Therefore, this variable must not be set in the GIS.
+*select-expression:* Names of all attributes, which should be displayed as the result of the query* means, all Attributes are displayed. For thematic queries in a GIS this is the  only query possible. Therefore, this variable must not be set in the GIS.
 
-*Quelle:* Name of the Table, which contains the attributes need for the query.
+*our-table:* Name of the Table, which contains the attributes need for the query.
 
-*Where Klausel:* The requirment the data needs to have.
+*where-expression:* The requirment the data needs to have.
 
 Overview over the SQL-Expressions which use the where-klausel and their meaning.
 
@@ -459,3 +459,91 @@ You have to be careful,
 that _Only update x selected features_
 is not checked.
 
+Now you can use
+the _Field Calculator Expression_
+according to the formula
+for the population density.
+All you have to do is put in
+the expression after
+the equal sign.
+
+We would also like to caluclate
+the density
+as a whole rounded number
+without decimal point.
+Therefore
+the option to _Whole number_
+can be selected.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 9_ +
+_What do you write into the calculator?_
+
+ifdef::show_solutions[]
+====
+.Solution
+to int ( Einwohner / Flaeche)
+====
+endif::show_solutions[]
+
+After the calculation
+the editing mode must be
+switched off again.
+If you are satisfied with the calculation
+then save the changes.
+If not reject them.
+
+=== Combined selection
+
+Determine in another query
+the names of all major locations,
+their associated cantons which have
+a population density of more than
+than 200 inhabitants per km^2^ 
+and have joined Switzerland between 1800
+and 1900.
+
+Now a query should be executed,
+in which both thematic and spartial components are involved.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 10_ +
+_Think about which component is thematic and which is spartial._
+
+ifdef::show_solutions[]
+====
+.Solution
+*thematic:*
+
+* Population density of more than
+200 inhabitants per km^2^
+* joined Switzerland between 1800 and 1900
+
+*spartial:* +
+Main towns located in the corresponding cantons.
+====
+endif::show_solutions[]
+
+for this query we'll do two steps
+in the first one we'll run the thematic query.
+Open for that the attribute table for cantons
+and select with help of _Select by expression_ all cantons
+With the population density greater then 200 People pro km^2^ and joined Switzerland between 1800 and 1900.
+
+mage:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 11_ +
+_How goes the where-clausel?_
+
+ifdef::show_solutions[]
+====
+.Solution
+....
+WHERE Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
+....
+====
+endif::show_solutions[]
+
+Now, all cantons are selected, which who fulfill this condition.
+
+After that we need to find the coresponding the main towns, this is done with the help of spartial selection.
+For that you open the tool _Select by Location_.
