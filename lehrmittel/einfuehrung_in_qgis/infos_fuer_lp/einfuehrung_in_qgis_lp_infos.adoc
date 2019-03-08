@@ -28,27 +28,32 @@ Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit 
 Siehe Kapitel „Kapiteltest“ am Ende der entsprechenden Kapitel bzw. Arbeitsblätter.
 
 Kapitel 1 Was ist ein Geoinformationssystem? 
+
 * Frage 1 Was ist GIS?
 * Frage 2 Was gibt es für Werkzeuge, um in der Karte zu navigieren?
 * Frage 3 In welchem Fach wäre GIS sinnvoll?  
 
 Kapitel 2 Was sind Geodaten?
+
 * Frage 1 Wie sieht die Darstellung aus beim Raster- und Vektorformat?  
 * Frage 2 Was bedeutet der Begriff Geodaten?  
 * Frage 3 Was ist der Unterschied zwischen WMS-Layer und Vektordaten-Layer?  
 
 Kapitel 3 Erfassung und Verwaltung von Geodaten 
+
 * Frage 1 Welche zwei Arten kennst du zum Speichern von Vektordaten?  
 * Frage 2 Beschreibe den Aufbau einer Tabelle.
 * Frage 3 Was muss ein Textfile enthalten, um im Kartenfester sichtbar zu sein?  
 * Frage 4 Welche Möglichkeiten hast du, um an die verschiedenen Daten zu kommen?  
 
 Kapitel 4 Analyse von Geodaten 
+
 * Frage 1 Was ist der Unterschied zwischen Abfrage und Manipulation?  
 * Frage 2 Erstellen einer SQL-Abfrage  
 * Frage 3 Kombination von SQL-Abfragen  
 
 Kapitel 5 Präsentation von Geodaten 
+
 * Frage 1 Erstellen und Exportieren einer Karte  
 * Frage 2 Karte beurteilen 
 
