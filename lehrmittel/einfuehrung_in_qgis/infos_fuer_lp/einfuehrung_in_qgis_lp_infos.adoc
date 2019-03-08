@@ -29,7 +29,7 @@ See chapter "Chapter test" at the end of the corresponding chapter or worksheet.
 
 Chapter 1 What is a  Geographic Information System?
 
-* Question 1 What is a GIS?
+* Question 1 What can you do with a GIS?
 * Question 2 What tools do you have to navigate on the map?
 * Question 3 In which subject would GIS be useful?  
 
