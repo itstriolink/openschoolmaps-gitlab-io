@@ -9,19 +9,19 @@ include::../../../snippets/suppress_title_page.adoc[]
 == Overview
 
 .Objective
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind Sie / die SuS in der Lage, die Grundfunktionen von QGIS zu verwenden.
+After completing the corresponding worksheet, you/the students will be able to use the basic functions of QGIS.
 
 .Target group
-* SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr) begleitet von einer Lehrperson
-* Interessierte (Selbststudium)
+* Students in curriculum 21 cycle 2 or 3 (4th to 9th school year) supported by a teacher
+* Interested (self-study)
 
 .Scheduling
-* Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
+* Each chapter should take about 1 hour.
 
 == Preparation
-Sie / die SuS sollten das Programm QGIS Version 3.x auf ihrem Rechner installiert haben.
+You / the students should have installed the program QGIS Version 3.x on your computer.
 
-Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang*.
+The students need a *Webbrowser* with *internet access* to complete the worksheets.
 
 == Chapter test questions
 
@@ -57,7 +57,7 @@ Chapter 5 Presentation of Geographic Information
 * Question 1 Creating and exporting a map  
 * Question 2 Evaluate map 
 
-Noch Fragen?
-Wenden Sie sich an QGIS (https://www.qgis.org) oder Stefan Keller (sfkeller@hsr.ch)!
+Any questions?
+Turn to QGIS (https://www.qgis.org) or Stefan Keller (sfkeller@hsr.ch)!
 
 include::../../../snippets/quellenangabe.adoc[]
