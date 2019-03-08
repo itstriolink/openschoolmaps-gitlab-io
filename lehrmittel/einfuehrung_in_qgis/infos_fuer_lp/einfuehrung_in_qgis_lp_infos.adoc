@@ -1,4 +1,4 @@
-= Lehrpersonen-Informationen zum Arbeitsblatt "Einführung in QGIS 3"
+= Lehrpersonen-Informationen zur "Einführung in QGIS 3 und GIS"
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
@@ -22,6 +22,40 @@ Nach Bearbeiten des zugehörigen Arbeitsblattes sind Sie / die SuS in der Lage, 
 Sie / die SuS sollten das Programm QGIS Version 3.x auf ihrem Rechner installiert haben.
 
 Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang*.
+
+== Kapiteltest-Fragen
+
+Siehe Kapitel „Kapiteltest“ am Ende der entsprechenden Kapitel bzw. Arbeitsblätter
+
+Kapitel 1 Was ist ein Geoinformationssystem?
+
+* Frage 1 Was kann man mit einem GIS alles machen?
+* Frage 2 Was für Werkzeuge gibt es, um die Karte zu navigieren?
+* Frage 3 In welchem Schulfach wäre ein GIS sinnvoll?
+
+Kapitel 2 Was sind Geodaten?
+
+* Frage 1 Wie sieht die Darstellung beim Raster- und Vektorformat aus?
+* Frage 2 Was bedeutet der Begriff Geodaten?
+* Frage 3 Was ist der Unterschied zwischen WMS-Layer und Vektordaten-Layer?
+
+Kapitel 3 Erfassung und Verwaltung von Geodaten
+
+* Frage 1 Welche zwei Arten zum Speichern von Vektordaten kennst du?
+* Frage 2 Beschreibe den Aufbau einer Tabelle.
+* Frage 3 Was muss ein Textfile enthalten, um im Kartenfester sichtbar zu sein?
+* Frage 4 Welche Möglichkeiten hast du, um an die verschiedenen Daten zu kommen?
+
+Kapitel 4 Analyse von Geodaten
+
+* Frage 1 Was ist der Unterschied zwischen Abfrage und Manipulation?
+* Frage 2 Erstellen einer SQL-Abfrage
+* Frage 3 Kombination von SQL-Abfragen
+
+Kapitel 5 Präsentation von Geodaten
+
+* Frage 1 Erstellen und Exportieren einer Karte
+* Frage 2 Karte beurteilen
 
 Noch Fragen?
 Wenden Sie sich an QGIS (https://www.qgis.org) oder Stefan Keller (sfkeller@hsr.ch)!
