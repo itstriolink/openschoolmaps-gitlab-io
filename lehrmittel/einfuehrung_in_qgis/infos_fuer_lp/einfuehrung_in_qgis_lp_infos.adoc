@@ -1,10 +1,10 @@
-= Lehrpersonen-Informationen zur "Einführung in QGIS 3 und GIS"
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= Teacher information on "Introduction to QGIS 3 and GIS
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Informationsblatt für Interessierte und Lehrpersonen*
+*An information sheet for interested people and teachers*
 
 == Overview
 
