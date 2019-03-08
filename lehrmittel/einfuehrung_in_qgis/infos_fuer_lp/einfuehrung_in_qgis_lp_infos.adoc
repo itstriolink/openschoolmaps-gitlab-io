@@ -6,19 +6,19 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Informationsblatt für Interessierte und Lehrpersonen*
 
-== Übersicht
+== Overview
 
-.Ziel
+.Objective
 Nach Bearbeiten des zugehörigen Arbeitsblattes sind Sie / die SuS in der Lage, die Grundfunktionen von QGIS zu verwenden.
 
-.Zielgruppen
+.Target group
 * SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr) begleitet von einer Lehrperson
 * Interessierte (Selbststudium)
 
-.Zeitplanung
+.Scheduling
 * Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
 
-== Vorbereitung
+== Preparation
 Sie / die SuS sollten das Programm QGIS Version 3.x auf ihrem Rechner installiert haben.
 
 Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang*.
