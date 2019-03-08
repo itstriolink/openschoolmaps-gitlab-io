@@ -24,6 +24,7 @@ Sie / die SuS sollten das Programm QGIS Version 3.x auf ihrem Rechner installier
 Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang*.
 
 ===
+
 == Kapiteltest-Fragen
 
 Siehe Kapitel „Kapiteltest“ am Ende der entsprechenden Kapitel bzw. Arbeitsblätter.
@@ -51,7 +52,8 @@ Kapitel 4 Analyse von Geodaten
 
 Kapitel 5 Präsentation von Geodaten 
 * Frage 1 Erstellen und Exportieren einer Karte  
-* Frage 2 Karte beurteilen  
+* Frage 2 Karte beurteilen 
+
 ===
 
 
