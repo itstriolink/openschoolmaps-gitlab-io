@@ -1,5 +1,5 @@
 = Introduction in QGIS 3: What is a  Geographic Information System? (Kapitel 1)
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
@@ -8,27 +8,36 @@ include::../../../snippets/suppress_title_page.adoc[]
 *a worksheet*
 ifdef::show_solutions[- *Solutions*]
 
-I'm sure you've heard or read about Geographic Information Systems or GIS somewhere already. Since computers have become more and more powerful and cheaper, more and more people are able to buy a computer, who has enough computing power, to run a GIS program. Therefore, the number of GIS applications has risen. But what exactly do you understand under a Geographic Information System? We will answer this question in the first chapter.
+I'm sure you've heard or read about Geographic Information Systems or GIS 
+somewhere already. Since computers have become more and more powerful and 
+cheaper, more and more people are able to buy a computer, who has enough 
+computing power, to run a GIS program. Therefore, the number of GIS 
+applications has risen. But what exactly do you understand under a Geographic 
+Information System? We will answer this question in the first chapter.
 
-== Learning objectives of the theory part
+== Learning objectives of the theory
 
 After the completion of the first chapter you should have learned the following:
 
-* know the components which are needed for a Geographic Information System
-* List the functionalities of a Geographic Information System without help
+* Know the components which are needed for a Geographic Information System.
+* List the functionalities of a Geographic Information System without help.
 
 == Theory
 
-To help understand what a Geographic Information System is, we have here a deffinition for it:
+To help understand what a Geographic Information System is, we have here a definition for it:
 
 .Definition
 [NOTE]
 ====
-A Geographic Information System (GIS) is a computersupported System, which is made out of Hardware, Software and Data and with witch one can model and modify spatial problems in diffrent fields of application.
-The data/information required for this can be digitaly edited, managed, reorganized, analysed and presented both alphanumerically and graphically.
-GIS denominates a technology as well as both a product and a means to access and modify geographic information.
+A Geographic Information System (GIS) is a computersupported System, which is 
+made out of Hardware, Software and Data and with witch one can model and 
+modify spatial problems in diffrent fields of application.
+The data/information required for this can be digitaly edited, managed, 
+reorganized, analysed and presented both alphanumerically and graphically.
+GIS denominates a technology as well as both a product and a means to access 
+and modify geographic information.
 
-Ralf Bill, Baisics of Geographic Information System, 2016, Wichmann
+Ralf Bill, Basics of Geographic Information System, 2016, Wichmann
 ====
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
@@ -37,15 +46,16 @@ _Study the definition and try to answere the following questions:_
 
 ._What infrastructure is required to use a GIS?_
 ._What's special about the data shown in a GIS?_
-._Chalkin created the Fourcomponent Model in the year 1977. He described the function of a GIS with 4 components
-Input, Manipulation, Analysis and Presentation, short IMAP.
-Exercise:
-Order each of these components to one of the functions mentioned in the definition._
+._Chalkin created the Fourcomponent Model in the year 1977. He described the 
+function of a GIS with 4 components Input, Manipulation, Analysis and 
+Presentation, short IMAP. Exercise: Order each of these components to one of 
+the functions mentioned in the definition._
 
 ifdef::show_solutions[]
 ====
-. _You'll need the hardware (at least keyboard and Screen, or a laptop plus a mous) and the software (operating system and GIS software)_
-._The information have a spatial reference._
+. _You'll need the hardware (at least keyboard and Screen, or a laptop plus a 
+mouse) and the software (operating system and GIS software)_
+._The data has a spatial reference._
 . *I* (Input): _modelled, digitally acquired, saved_ +
 *M* (Manipulate): _edited, reorganized_ +
 *A* (Analysis): _analysed_ +
@@ -55,40 +65,65 @@ endif::show_solutions[]
 
 == Components of a Geographic Information System
 
-We know to get deeper into the individual systemcomponents _Hardware, Softwar and Data_ and tell you something more about them.
+We know to get deeper into the individual systemcomponents _Hardware, Software 
+and Data_ and tell you something more about them.
 
 === Hardware
 
-The most important hardwarecomponent that belong to a GIs are like mentioned in Exercis 1a, a computer with keyboard, display and mouse. Beside peripherals like printer and a means to read in data, (look Chapter  Data collection and Management) for example a GPS or scanner.
+The most important hardware component that belong to a GIS are already 
+mentioned in exercise 1a, a computer with keyboard, display and mouse. 
+Beside peripherals like printer and a means to read in data, (see Chapter 
+"Data Collection and Management") for example a GPS or scanner.
 
 === Software
 
-To even run a GIS on your computer you'll need an operating system. The most common ones are Microsoft Windows, Apple Max OS X, Unix and Linux.
+To even run a GIS on your computer you'll need an operating system. The most 
+common ones are Microsoft Windows, Apple Max OS X, Unix and Linux.
 
-Once an operating system is present you can install the GIS software. The choice is dependant on your operating system, since not every GIS supports each one.
+Once an operating system is present you can install the GIS software. The 
+choice is dependant on your operating system, since not every GIS supports 
+each one.
 
-The common GIS products can be devided into two classes. On one hand comercial products like ArcGIS from ESRI or Geomedia from Intergraph and on the other OpenSource-Products like QGIS which are free.
+The common GIS products can be devided into two classes. On one hand 
+commercial products like ArcGIS from ESRI or Geomedia from Intergraph and on 
+the other hand open source projects like QGIS, which are free to use.
 
-For products to be allowed to run under OpenSource, they need to comply with the Open-Source-License. This License gives user the allowance to freely use, modify and spread of the software. Access to the sourcecode is unristriced, but the user also has a few obligations. But these mostly concern development and passing around of the product and are of no consequence.
+For products to be allowed to run under open source, they need to comply with 
+the open source license. This license gives user the allowance to freely use, 
+modify and spread of the software. Access to the sourcecode is unrestriced, 
+but the user also has a few obligations. But these mostly concern development 
+and passing around of the product and have of no further implication for our 
+tutorial.
 
-You surely have heard the term free software or freeware. Freeware isn't the same as Open-source-Software. They don't cost anything but you can't access the sorucecode.
+You surely have heard the term free software or freeware. Freeware isn't the 
+same as open source software. They don't cost anything but you can't access 
+the source code.
 
-In this tutorial we'll use the Open-Source-Software QGIS, which runs on most operating systems.
+In this tutorial we'll use the open source software QGIS, which runs on most 
+operating systems.
 
-We chose QGIS because it lacks licesing cost and is free to install on any computer. You can use it both in school and at home without paying anything.
+We chose QGIS because it lacks licensing cost and is free to install on any 
+computer. You can use it both in school and at home without paying anything.
 
-If their is a problem when using the software, you wont have the support offered by firms like ESRI or Intergraph. But behind every Open-source-Software stands a community. So don't be afraid to contact them if you're facing problems are read threw the documentation. Here are the links to those
+If there is a problem when using the software, you won't have the support 
+offered by companies like ESRI or Intergraph. 
+But behind every open source software stands a community. So don't be afraid 
+to contact them if you're facing problems or read trough the documentation. 
+You can find out more about this under the following links:
 
-https://www.qgis.org/de/site/forusers/support.html - community +
-https://www.qgis.org/de/docs/index.html - documentation
+* Community: https://www.qgis.org/de/site/forusers/support.html
+* Documentation: https://www.qgis.org/de/docs/index.html
 
 === Data
 
-Like you can take from the definition, this is data with a spartial aspect, you'll learn in the next chapter.
+As you can see from the definition, the data in a GIS is spatial data.
+You will learn more about this topic in the next chapter.
 
 === Uses
 
-Another component are the uses which a GIS has.These reach from simple visualizations to komplex analysis. In this turtorial you'll go threw some of the use cases.
+A further component are the applications that are made in a GIS.
+These range from simple visualizations to complex analyses.
+You, too, will carry out some applications within this tutorial.
 
 === Summary component
 
@@ -98,33 +133,41 @@ _Repeat for yourself the diffrent components of a GIS and write down a few words
 
 ifdef::show_solutions[]
 ====
-On your workspace their is probably a computer with a screen, keyboard and a mouse. Or perhaps it's just a laptop with a mouse. You might only have a simple printer and scanner, but thanks to technological advancement you don't need very expensive equipment for a GIS.
+On your workspace their is probably a computer with a screen, keyboard and a 
+mouse. Or perhaps it's just a laptop with a mouse. You might only have a 
+simple printer and scanner, but thanks to technological advancement you don't 
+need very expensive equipment for a GIS.
 
 Your OS is probably Windows, Mac OS X, Linux or Unix.
 
-And your GIS-Software is probably QGIS which you installed in the Chapter Preparation.
+And your GIS software is probably QGIS which you installed in the Chapter 
+"Preparation".
 ====
 endif::show_solutions[]
 
 == QGIS exercise
 
-In the first part of the theory you've learned that software is one of four components of the GIS System. In the exercis part you now should learn how to use QGIS.
+In the first part of the theory you've learned that software is one of four components of the GIS system. In this exercise part you now learn how to use QGIS.
 
 === Learning objectives
 
-After these Exercise you will be able to:
+After this exercise you will be able to:
 * open existing projects in QGIS
 * name and use the diffrent navigation options
 
 === Starting QGIS
 
-When you installed the QGIS software, it automaticaly created a folder with shortucts for the programm on your desktop.
-You can double click on that shortcut (named QGIS + versionnumber) to start the programm. Doing that opens a simple graphical user interface.
-If this shortcut is missing you find the program if you use your computers searchfunction. Make sure you open the version that doesn't have "with grass" on it.
+When you installed the QGIS software, it automaticaly created a folder with 
+shortcuts for the programm on your desktop.
+You can double click on that shortcut (named QGIS + version number) to start 
+the programm. Doing that opens a simple graphical user interface.
+If this shortcut is missing you find the program if you use your computers 
+search function. Make sure you open the version that doesn't have "with Grass" 
+on it.
 
 === The graphical user interface
 
-The interface is seperated into seven areas:
+The user interface is seperated into seven areas:
 
 . Menubar
 . Toolbar
@@ -137,56 +180,83 @@ The interface is seperated into seven areas:
 .User interface of QGIS 3
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläche", 401, 312]
 
-Can you find each area on your own user interface.
+Can you find each area on your own user interface?
 
-If you can't see the layer or the browser you can get them via _View_ -> _Panels_ and _Layers_ or _Browser_.
+If you can't see the layer or the browser you can get them via _View_ -> 
+_Panels_ and _Layers_ or _Browser_.
 
-Over the menu _View_ -> _Toolbars_ you can get the lists of toolboxes. You can add and remove them to your interface by setting the cross infront of its name.
+From the menu _View_ -> _Toolbars_ you can get the lists of toolboxes. You can 
+add and remove them to your interface by setting the cross in front of its name.
 
-Another option to show and hide the layer window, map overview or toolboxes is using the right mousebutton. Simple click with it on the grey boarder of them and an options menu opens up.
+Another option to show and hide the layer window, map overview or toolboxes is 
+using the right mouse button. Simply click with it on the grey dotted boarder 
+and and options menu opens up.
 
 .List with tools
 image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 266]
 
-Try out these 3 methods und find out which one oyu like the most, for use in the future.
+Try out these three methods und find out which one you like the most, for use in the future.
 
-Hide the window _Spartial Bookmarks_ and show instead the window _Overview_.
+Hide the window "Spatial Bookmarks" and show the window "Overview" instead.
 
 === Open existing project
 
-In this task we will work with an existing QGIS Project. But first we'll need to load the project into our QGIs.
-Klick for that on the button _Open Project_ and navigate to where you saved the data for this turtorial. Select the file Teil1.qgs and click on the button Open.
+In this task we will work with an existing QGIS project. 
+But first we'll need to load the project into our QGIS.
+Klick for that on the button _Open Project_ and navigate to where you saved 
+the data for this tutorial. Select the file Teil1.qgs and click on the "Open" button.
 
-In the window Layers you should now be able to see two entries, Lakes and Canton borders. These entries are called layers and are shown graphicaly in the map window.
+In the Layers window you should now be able to see two entries, Lakes and 
+Canton borders. These entries are called layers and are shown graphicaly in 
+the map window.
 
-=== Layerwindow and Mapwindow
+=== Layer window and map window
 
-For a first step we should take a closer look at the interaction between Layer window and Mapwind.
+For a first step we should take a closer look at the interaction between Layer 
+window and Map window.
 
-Die individual layers can be shown and hidden by placing the cross infront of the layer name. Test this function by showing and hiding both layers in the mapwindow.
+Die individual layers can be shown and hidden by checking the cross in front 
+of the layer name. Test this function by showing and hiding both layers in the 
+Map window.
 
-TIP: If you cna't see the lake or cantons boarders you can right cklick the layer and select _Zoom to Layer_.
+TIP: If you can't see the lake or cantons boarders you can right-cklick the 
+layer and select _Zoom to Layer_.
 
-The map view order is based on the orders in the layer window. So if in the lakes lay over the cantons boarders in the layer window, the same will be true in the map window.
+The order in the map view corresponds on the order in the layer window. So, 
+the lakes entry in the layer window is above the cantons boarders layer, and 
+the same will be true in the map window.
 
-You can change that in the layer window. Simply click on the the layer and move it up or down, try it with the lake layer and ovserve what happens.
+You can change the order of the layers. 
+Simply click on the the layer and move it up or down, try it with the lake 
+layer and look what happens.
 
-Return the layers back to their original orders.
+Return finally the layers back to their original position.
 
 === Navigation in the map window
 
-Beofre you start navigate on the map, you should set a background for the field _Overview_. The canton boarders would be perfect for that, just right click the layer and set the cross on the option _Show in Overview_. The cantons boarders are now vissible in the mapoverview, you can add as many layers as you like and theyll take their order form the layer window.
+Before you start to navigate on the map, you should set a background for the 
+field _Overview_. The canton boarders would be perfect for that, just right 
+click the layer and set the check the option _Show in Overview_. The canton 
+boarders are now visible in the map overview. 
+You can add as many layers as you like.
+The display order is taken from the order in the layer window.
 
-The tools for navigation can be found in the toolbox _Map Navigation Toolbar_.
+The tools for navigation in the map window can be found in the toolbox _Map 
+Navigation Toolbar_.
 
 .Navigationstools of QGIS
 image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.PNG["Kartennavigationswerkzeuge"]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 3_ +
-_Try out the diffrent tools of the toolbox map navigation and write down in your own words what each one does, pay attention to what happens in the overview as well._
+_Try out the diffrent tools of the toolbox map navigation and write down in 
+your own words what each one does, pay attention to what happens in the 
+overview as well._
 
-NOTE: For the navigation in the mapwindow you can use mouseweel and keyboard as well. Holding spacebar will and the middle mouse button, you can move the map without changing your current tool.
+NOTE: For the navigation in the map window you can use mouse weel and keyboard 
+as well. 
+Holding spacebar will and the middle mouse button, you can move the map 
+without changing your current tool.
 
 ifdef::show_solutions[]
 ====
@@ -209,8 +279,7 @@ ifdef::show_solutions[]
 ====
 _What happens in the map overview during navigation?_
 
-The red rectangle matches the
-section in the map window. +
+The red rectangle matches the section in the map window. +
 
 If the red rectangle is moved in the overview, the map view matches it as well.
 ====
@@ -220,21 +289,25 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 4_ +
 _Try the following points and make notes of what happens._
 
-* _Move the mousweel forward and backwards while the pointer is on the map._
+* _Move the mouse weel forward and backwards while the cursor is on the map._
 * _Following keys on the keyboard_
 ** _Arrow keys_
-** _PageUp/PageDown_
+** _Page Up/Page Down_
 ** _Hold space down and move your pointer over the map window._
 
 ifdef::show_solutions[]
 ====
-*When you move the mouseweel forward or bakcwards on the map, you cna zoom in and out. The pointer becomes the center of the zoom.
+*When you move the mouseweel forward or backward on the map, you can zoom in 
+and out. The cursor becomes the center of the zoom.
 * The keys do the following:
 ** _Arrow Keys_ move the map in the corresponding direction.
-** _PageUp/PageDown_ Zooms in and out by a predefined factor, which is the same as with the mouseweel.
-**_Space bar_ Holding it while moving the pointer over the map it couses the map view to shift with it.
+** _PageUp/PageDown_ Zooms in and out by a predefined factor, which is the 
+same as with the mouseweel.
+**_Space bar_ Holding it while moving the cursor over the map the map view is 
+being panned with the cursor.
 
-NOTE: You can change the zoomfactor under _Settings_ -> _Options..._ -> _Map Toos_, the defaultvalue is _200%_
+NOTE: You can change the zoom factor under _Settings_ -> _Options..._ -> _Map 
+Toos_, the default value is _200%_.
 ====
 endif::show_solutions[]
 
@@ -242,34 +315,41 @@ Once you're finished with all the exercises you can save the project under a dif
 
 === Chapter test 1
 
-With the help of the chapter test you can check if you understood the current information of this worksheet.
-It serves as a controlfunction, you should only continue if you understood everything in this chapter.
+With the help of the chapter test you can check if you understood the current 
+information of this worksheet.
+It serves as an assessment. You should only continue if you understood 
+everything in this chapter.
 
-To do so, write all the answers on a sheet of paper and once you've finished them all give it to your teacher to check.
+To do so, write all the answers down. Once you've finished them all give it to 
+your teacher to check.
 
 === Question 1
 
-Somebody ask you what a GIS is and what it can do.
+Somebody asks you what a GIS is and what it can do.
 
 _What do you answer?_
 
-Think about the first three question in the theory part and write down bullet points of what they contained.
+Think about the first three question in the theory part and write down bullet 
+points of what they contained.
 
 ifdef::show_solutions[]
 ====
 .Solution
-A Gis (Geographic Information System) allows you to work with spatial data.
-You can capture and save (*input*) change, administrate and reorganize (*manipulate*).
-You can analyse (*analyse*) the data and present them either graphicaly or as text (*Presentation*)
+A GIS (Geographic Information System) allows you to work with spatial data.
+You can capture and save (*input*) change, administrate and reorganize 
+(*manipulate*).
+You can analyse (*analyse*) the data and present them either graphically or as 
+text (*Presentation*).
 
-A GIS covers all classic components of data management (Input, Manipulate, Analysis, Presentation, *IMAP*)
-but only for *geographical* Information.
+A GIS covers all classic components of data management (Input, Manipulate, 
+Analysis, Presentation, *IMAP*), but specifically for *geographical* 
+information.
 ====
 endif::show_solutions[]
 
 === Question 2
 
-During one of the exercises with which you can change the excerpt in the map window to your requirements.
+During the exercise you've learnd some functions to adapt the view in the map window to your requirements.
 _Which tools and options did you get introduced to to navigate the Map?_
 
 Write down 3 option and explain what they do in a few words.
@@ -281,10 +361,10 @@ ifdef::show_solutions[]
 * Move map to selected object
 * Zoom in
 * Zoom out
-* Zoom to own resolution
-* Full expans
+* Zoom to own resolution (100%)
+* Full extent
 * Zoom to selection
-* Zoom to Layer
+* Zoom to layer
 * Zoom back
 * Zoom forward
 ====
@@ -292,20 +372,25 @@ endif::show_solutions[]
 
 === Question 3
 
-Think about the subjects you have in school.
+Think about the classes you have (had) in school.
 
-._In which subjects and in which specific part of the subjects would the use of a GIS make sense?_ Write down which topics would make sense and why. Don't only think about the subject you're in right now.
+._In which class and in which specific part of the class would the use of a 
+GIS make sense?_ +
+Write down which topics would make sense and why. Don't only think about the 
+class you're in right now.
 
-._What would a GIS in that subject contain?_
-Describe in a few sentences, what kind of data the GIS should have and what functions you would use.
+._What would a GIS in that subject contain?_ +
+Describe in a few sentences what kind of data the GIS should have and what GIS 
+functions you would use.
 
 ifdef::show_solutions[]
 ====
 .Lösung
-* Geographie
-** Map studies (finished maps as raster data or basic map data as vector data)
-** Postal carrier geography (administrative areas countries, districts, municipalities etc. and their main locations as area and point vector data)
-** Climatology (temperature or other climate data, possibly as raster data)
+* Geography
+** Cartography (finished maps as raster data or basic map data as vector data).
+** "Postal carrier" geography (administrative areas countries, districts, 
+municipalities etc. and their main locations as area and point vector data).
+** Climatology (temperature or other climate data, possibly as raster data).
 * Computer Science: Working with specialized computer systems and applications.
 ====
 endif::show_solutions[]
