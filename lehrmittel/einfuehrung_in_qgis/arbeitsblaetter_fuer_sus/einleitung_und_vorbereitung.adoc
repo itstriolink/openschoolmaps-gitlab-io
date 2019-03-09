@@ -1,4 +1,4 @@
-= Introduction to QGIS 3: Introduction und Preparation
+= Introduction to QGIS 3: Introduction and Preparation
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
