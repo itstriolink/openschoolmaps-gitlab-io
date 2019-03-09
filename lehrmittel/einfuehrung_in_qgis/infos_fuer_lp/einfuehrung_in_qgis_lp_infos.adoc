@@ -4,30 +4,30 @@ OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*An information sheet for interested people and teachers*
+*A handout for interested people and teachers*
 
 == Overview
 
 .Objective
-After completing the corresponding worksheet, you/the students will be able to use the basic functions of QGIS.
+After completing the corresponding worksheets, you or the students will understand some fundamentals of GIS and be able to use the basic functions of QGIS 3. 
 
 .Target group
 * Students in curriculum 21 cycle 2 or 3 (4th to 9th school year) supported by a teacher
-* Interested (self-study)
+* Autodidacts with self-study
 
 .Scheduling
-* Each chapter should take about 1 hour.
+* Each chapter takes at least 1 hour.
 
 == Preparation
-You / the students should have installed the program QGIS Version 3.x on your computer.
+You / the students should have installed or have access to the desktop software QGIS version 3.x on a computer. In case of problems choose QGIS version 3.4.5 LTR (64 bit).
 
-The students need a *Webbrowser* with *internet access* to complete the worksheets.
+The students need a *web browser* with *internet access* to complete the worksheets.
 
 == Chapter test questions
 
-See chapter "Chapter test" at the end of the corresponding chapter or worksheet.
+There are currently 5 chapters respectively 5 worksheets. See chapter "Chapter test" at the end of the corresponding chapters or worksheets.
 
-Chapter 1 What is a  Geographic Information System?
+Chapter 1 What is a Geographic Information System?
 
 * Question 1 What can you do with a GIS?
 * Question 2 What tools do you have to navigate on the map?
@@ -36,10 +36,10 @@ Chapter 1 What is a  Geographic Information System?
 Chapter 2 What is Geodata? 
 
 * Question 1 What do the raster and vector format look like?  
-* Question 2 What does the term geographical data mean?
+* Question 2 What does the terms geodata/spatial data mean?
 * Question 3 What is the difference between WMS layer and vector data layer?  
 
-Chapter 3 Data collection and Management
+Chapter 3 Data Collection and Management
 
 * Question 1 What two ways do you know of storing vector data?  
 * Question 2 Describe the structure of a table.
