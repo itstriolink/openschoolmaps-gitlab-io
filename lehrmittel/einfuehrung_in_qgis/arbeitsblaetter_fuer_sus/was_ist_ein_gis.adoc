@@ -1,4 +1,4 @@
-= Introduction in QGIS 3: What is a  Geographic Information System? (Kapitel 1)
+= Introduction in QGIS 3: What is a  Geographic Information System? (Chapter 1)
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
