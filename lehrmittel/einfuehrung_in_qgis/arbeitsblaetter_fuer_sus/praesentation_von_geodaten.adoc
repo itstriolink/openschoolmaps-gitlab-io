@@ -350,22 +350,13 @@ different intermediate stations of the trip and the hiking route are spatially
 represented. At the end you should pass on the GIS map to the other students 
 in some way.
 
-. _Which output format do you choose for the card?_ + Write down your choice and 
+. _Which output format do you choose for the card?_ Write down your choice and 
 explain it in your own words. There are several real possibilities.
-. _How do you design
-the card in QGIS?_ +
-Describe your actions 
-in your own words. Do not 
-look in the last chapter.
-However, you are welcome to 
-go through the individual 
-steps while writing in the
-QGIS program. Assume in your
-explanation that the data 
-has already been read into 
-the GIS or newly entered and 
-that the design of the layers
-has already been completed.
+. _How do you design the card in QGIS?_ Describe your actions in your own 
+words. Do not look in the last chapter. However, you are welcome to go through 
+the individual steps while writing in the QGIS program. Assume in your 
+explanation that the data has already been read into the GIS or newly entered 
+and that the design of the layers has already been completed.
 
 ifdef::show_solutions[]
 ====
@@ -374,55 +365,29 @@ ifdef::show_solutions[]
 Image: Raster graphic +
 SVG: Vector graphic +
 PDF: Portable Document Format +
-. Compare your solution
-with the last chapter
+. Compare your solution with the last chapter
 ====
 endif::show_solutions[]
 
 === Question 2
 
-Again and again, be 
-it in newspapers, 
-books or on the Internet,
-the spatial relationships
-between data and events 
-in a report are visualized
-with the help of a map. 
-But do these maps also 
-contain the most important
-map elements? +
-You got to know these 
-elements in this chapter 
-and made your own experiences
-with the design of a card. 
-Look at the map under the link 
+Again and again, be it in newspapers, books or on the Internet, the spatial 
+relationships between data and events in a report are visualized with the help 
+of a map. But do these maps also contain the most important map elements? +
+You got to know these elements in this chapter and made your own experiences 
+with the design of a card. Look at the map under the link 
 http://www.mygeo.info/landkarten/schweiz/schweiz_cia_2005.gif
-and answered the 
-following questions:
+and answer the following questions:
 
-. _Are all important 
-map elements included
-in the map? If not, 
-which ones are 
+. _Are all important map elements included in the map? If not, which ones are 
 missing?_ +
-Create a list of all
-existing and non-existing
-map elements. Also 
-consider the effects 
-of missing map elements.
-. _How do you assess 
-the implementation of
-the map and the 
-presentation of 
-the information?_ +
-_What's the card 
-supposed to say?_ +
-Answer the question in your
-own words. When answering 
-the question, also think of
-your own experiences that
-you made when designing 
-your card.
+Create a list of all existing and non-existing map elements. Also consider the 
+effects of missing map elements.
+. _How do you assess the implementation of the map and the presentation of the 
+information?_ +
+_What's the card supposed to say?_ +
+Answer the question in your own words. When answering the question, also think 
+of your own experiences that you made when designing your card.
 
 ifdef::show_solutions[]
 ====
