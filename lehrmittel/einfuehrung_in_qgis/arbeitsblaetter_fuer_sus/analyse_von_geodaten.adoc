@@ -255,7 +255,7 @@ endif::show_solutions[]
 The "specialty" of a GIS should of course not only be thought in theory. In 
 this chapter you will perform some thematic and spatial queries.
 
-=== Objectives
+=== Learning objectives
 
 At the end of this exercise. you've mastered the following points:
 
@@ -275,7 +275,7 @@ the criteria and which do not. However, if you have a large table that becomes
 rather time intensive.
 
 It's simpler to use the prepared search interface. For simple searches like a 
-name it's easiest o use _Field Filter_ in the table.
+name it's easiest to use _Field Filter_ in the table.
 
 Try this method in a small example. Open the attribute table for lakes. In the 
 lower left area you see a line on which _Show All Features_ is written and a 
@@ -316,7 +316,7 @@ inserted. From _Select * from lakes where max_depth > 100_ so only _max_depth
 > 100_ can be written into the query field
 
 The single components of the Where-Expression can be put together, via 
-double-clickon the windows to the right.
+double-click on the windows to the right.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 5_ +
@@ -337,7 +337,7 @@ endif::show_solutions[]
 
 === Spatial selection
 
-In the first part of this section  a query was created based on values from 
+In the first part of this section a query was created based on values from 
 the attribute table. Now a query should be run which takes the position of the 
 object into consideration, also called spatial selection.
 
@@ -346,7 +346,7 @@ You can find the tools for the spartial queries when you click on the button
 _Toolbox_ and selecting _Select by location_ from _Vector selection_
 
 All the cantons should be selected, which contain at least on of the found 
-lakes completely. (i.e. the canton doesn't share the lack with another canton 
+lakes completely. (i.e. the canton doesn't share the lake with another canton 
 or country.) 
 
 The _Select features from_ Layer gives information from which layer we select 
@@ -429,7 +429,7 @@ to create a new field. Therefore enter _Output field name_ enter the term
 _density_. Select as _Output field type Integer (integer)_ and as _Output_ 
 _field length 10_.
 
-if you want to calculate the density value for all and not only for the 
+If you want to calculate the density value for all and not only for the 
 selected cantons, You have to be careful, that _Only update x selected_ 
 _features_ is not checked.
 
@@ -482,8 +482,8 @@ endif::show_solutions[]
 
 for this query we'll do two steps in the first one we'll run the thematic 
 query. Open for that the attribute table for cantons and select with help of 
-_Select by expression_ all cantons With the population density greater then 
-200 People pro km^2^ and joined Switzerland between 1800 and 1900.
+_Select by expression_ all cantons with the population density greater than 
+200 people per km^2^ and joined Switzerland between 1800 and 1900.
 
 mage:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 11_ +
@@ -498,7 +498,7 @@ WHERE Density > 200 AND accession year > 1800 AND accession year < 1900
 ====
 endif::show_solutions[]
 
-Now, all cantons are selected, which who fulfill this condition.
+Now all cantons are selected which fulfill this condition.
 
 After that we need to find the corresponding the main towns, this is done with 
 the help of spartial selection. For that you open the tool _Select by Location_.
@@ -520,7 +520,7 @@ the features from:* canton borders +
 ====
 endif::show_solutions[]
 
-Before the execution of the query check , that the attitudes are set so, that 
+Before the execution of the query check, that the attitudes are set so, that 
 from the cantonal borders only the selected ones are taken into account.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
@@ -555,9 +555,9 @@ For example if you want to know how many people under 30 earn more than
 150'000 CHF per year
 
 Manipulation: +
-Manipulation changes or even adds new Data.
+Manipulation changes or even adds new data.
 
-For example in an existing transport system you can add a new attribute that 
+For example: In an existing transport system you can add a new attribute that 
 shows how strong the strain on it is. Another option would be the adding of 
 yet untracked routs.
 ====
@@ -589,7 +589,7 @@ endif::show_solutions[]
 
 === Question 3
 
-Besides the thematic queries, their are other variants which can be combined.
+Besides the thematic queries, there are other variants which can be combined.
 
 _For the following question create an SQL-Query:_ +
 _"Select all cantons which joined Switzerland after 1600 and have contact with 
