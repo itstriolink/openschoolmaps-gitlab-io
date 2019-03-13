@@ -1,5 +1,5 @@
 = Introduction in QGIS 3: Presentation of Geographic Information (Chapter 5)
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
