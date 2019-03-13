@@ -1,5 +1,5 @@
 = Introduction to QGIS 3: Data collection and Management (Chapter 3)
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
@@ -142,7 +142,7 @@ regular updating is just as important as good and clean data collection. The
 principle "as accurate as possible" does not apply to the collection of data, 
 but "as accurate as necessary".
 
-== QGIS Exercise
+== QGIS exercise
 
 In the theory part you learned how to get the geodata you need for your GIS. 
 In this exercise, you will integrate data from a text file into your GIS so 
@@ -263,7 +263,7 @@ and the border width should be _0.4_. When you are satisfied with the fill,
 close both windows by clicking OK. Don't you think that the map window looks 
 much better now?
 
-=== Locator Bar
+=== Locator bar
 
 A new tool introduced in QGIS 3 is the _Locator Bar_.
 
@@ -280,7 +280,7 @@ Example: `f Greifensee`
 You can find the prefixes by opening the locator with *Ctrl + K*, or under 
 _Settings_ -> _Options..._ -> _Locator_
 
-=== Entering Objects
+=== Entering objects
 
 In addition to the existing lakes, two further lakes are now to be included: 
 the _Lungernsee_ and the _Wägitalersee_.
