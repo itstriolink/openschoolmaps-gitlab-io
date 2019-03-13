@@ -379,8 +379,8 @@ endif::show_solutions[]
 
 Think about the classes you have (had) in school.
 
-._In which class and in which specific part of the class would the use of a 
-GIS make sense?_ +
+._In which class and in which specific part of the class would the use of a_ 
+_GIS make sense?_ +
 Write down which topics would make sense and why. Don't only think about the 
 class you're in right now.
 
