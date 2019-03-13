@@ -415,9 +415,9 @@ endif::show_solutions[]
 
 === Calculate fields
 
-Next a new value can be generated, with the help of of existing attributes.. 
-To be more precise the population density of the cantons. This is done by has 
-the following formula: 
+Next a new value can be generated, with the help of of existing attributes. In 
+this case the population density of the cantons using the following formula:
+
 
 _Population density per km^2^ = Number of inhabitants / Surface area in km^2^_
 
