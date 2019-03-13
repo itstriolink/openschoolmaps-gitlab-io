@@ -137,7 +137,8 @@ _Now imagine that you want to represent a building in a GIS. Once the building
 is saved in the form of raster data and once in the form of vector data. What 
 does the house edge look like with the raster data and like with the vector 
 data, if you zoom now completely near to a house edge? Record this on your 
-worksheet. + Think about which format (raster or vector) needs more space._
+worksheet. +
+Think about which format (raster or vector) needs more space._
 
 ifdef::show_solutions[]
 ====
