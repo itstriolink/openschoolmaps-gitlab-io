@@ -16,7 +16,7 @@ the data.
 
 === Learning objectives
 
-After this chapter you will be able to to do the following:
+After this chapter you will be able to do the following:
 
 * output the results of your queries in GIS in suitable form 
 * name the important map elements
@@ -116,9 +116,9 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 2_ +
-_I'm sure there's also from canton of residence or from the neighbouring 
+_I'm sure there's also from canton of residence or from the neigboring 
 canton a WebGIS on the Internet. Check this out by using Google. Search for 
-your canton of residence or the neighbouring canton in the surrounding and the 
+your canton of residence or the neigboring canton in the surrounding and the 
 terms "GIS" and "Online". Note the link._
 
 ifdef::show_solutions[]
@@ -200,7 +200,7 @@ _Task 4_ +
 _Create a concept for your own card using the findings from the cards you are 
 looking at. This concept then applies to in the exercise part. The concept 
 should consist of a sketch in which the position of the map and the map 
-elements is determined. Also consider the following points when designing. 
+elements is determined. Also, consider the following points when designing. 
 Points:_
 
 ifdef::show_solutions[]
