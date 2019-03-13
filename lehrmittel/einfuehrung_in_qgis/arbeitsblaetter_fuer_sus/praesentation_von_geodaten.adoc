@@ -10,108 +10,50 @@ ifdef::show_solutions[- *LÖSUNGEN*]
 
 == Präsentation und Ausgabe von Daten
 
-In den letzten Kapiteln
-hast du gelernt,
-wie Geodaten erfasst,
-verwaltet
-und analysiert werden.
-Im letzten Kapitel
-geht es noch um
-das P von EVAP,
-der Präsentation
-der Daten.
+In den letzten Kapiteln hast du gelernt, wie Geodaten erfasst, verwaltet und 
+analysiert werden. Im letzten Kapitel geht es noch um das P von EVAP, der 
+Präsentation der Daten.
 
 === Lernziele
 
-Nach diesem Kapitel
-bist du in der Lage
-folgendes zu tun:
+Nach diesem Kapitel bist du in der Lage folgendes zu tun:
 
-* die Resultate
-deiner Abfragen
-im GIS in geeigneter
-Form ausgeben
-* die wichtigen
-Kartenelemente nennen
+* die Resultate deiner Abfragen im GIS in geeigneter Form ausgeben
+* die wichtigen Kartenelemente nennen
 
 === Theorie
 
-Es gibt
-unterschiedliche Möglichkeiten,
-um die visualisierten,
-neu erfassten
-oder veränderten Daten
-oder die Resultate
-von Abfragen und Manipulationen
-zu präsentieren
-oder an andere
-Personen abzugeben.
+Es gibt unterschiedliche Möglichkeiten, um die visualisierten, neu erfassten 
+oder veränderten Daten oder die Resultate von Abfragen und Manipulationen zu 
+präsentieren oder an andere Personen abzugeben.
 
-Hier eine
-Auswahl davon:
+Hier eine Auswahl davon:
 
-* Eine Methode,
-die schon seit
-sehr langem
-verwendet wird
-und auch heute
-noch sehr beliebt ist,
-ist der *Papierplan*.
-Besonders auf Baustellen
-wird noch sehr oft
-mit Papierplänen gearbeitet.
-Um einen Papierplan
-zu erstellen,
-kann in einem Drucklayout
-oder einer Layoutansicht
-im GIS eine Karte
-gestaltet und anschliessend
-auf Papier
-ausgedruckt werden.
-* Der im Drucklayout
-erstellte Plan
-kann auch als *PDF*
-abgespeichert werden
-und dann z.B.
-per E-Mail
-weiterverschickt werden.
-* Eine weitere Methode,
-die immer beliebter wird,
-ist die Darstellung
-von Geodaten im Internet
-in einem sogenannten
-*Web-GIS* oder *Internet-GIS*.
-* Ausserdem können
-die Resultate von Analysen
-auch in Form von *Tabellen*
-oder *Grafiken*
-ausgegeben werden.
+* Eine Methode, die schon seit sehr langem verwendet wird und auch heute noch 
+sehr beliebt ist, ist der *Papierplan*. Besonders auf Baustellen wird noch 
+sehr oft mit Papierplänen gearbeitet. Um einen Papierplan zu erstellen, kann 
+in einem Drucklayout oder einer Layoutansicht im GIS eine Karte gestaltet und 
+anschliessend auf Papier ausgedruckt werden.
+* Der im Drucklayout erstellte Plan kann auch als *PDF* abgespeichert werden 
+und dann z.B. per E-Mail weiterverschickt werden. * Eine weitere Methode, die 
+immer beliebter wird, ist die Darstellung von Geodaten im Internet in einem 
+sogenannten *Web-GIS* oder *Internet-GIS*.
+* Ausserdem können die Resultate von Analysen auch in Form von *Tabellen* oder 
+*Grafiken* ausgegeben werden.
 
-Zwei von
-diesen Ausgabearten
-wollen wir noch
-etwas genauer anhand
-von Beispielen
-betrachten.
+Zwei von diesen Ausgabearten wollen wir noch etwas genauer anhand von 
+Beispielen betrachten.
 
 ==== Internet- oder Web-GIS
 
-Klicke auf
-den folgenden Link,
-um auf das WebGIS
-des Kanton Zürichs
-zu gelangen:
+Klicke auf den folgenden Link, um auf das WebGIS des Kanton Zürichs zu gelangen:
 
 https://maps.zh.ch/
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 1_ +
-_Beantworte folgende Fragen:
-Welche GIS-Funktionen
-werden in diesem
-Web-GIS angeboten?
-Welche Daten
-können betrachtet werden?_
+_Beantworte folgende Fragen: Welche GIS-Funktionen werden in diesem Web-GIS 
+angeboten? Welche Daten können betrachtet werden?_
 
 ifdef::show_solutions[]
 ====
@@ -122,8 +64,7 @@ ifdef::show_solutions[]
 .Sucheingabefeld von Web-GIS
 image::einfuehrung_in_qgis/webgissuche.png["Suche WebGIS", 200, 100]
 
-Es kann nach folgenden Kriterien
-eine Suche gestartet werden:
+Es kann nach folgenden Kriterien eine Suche gestartet werden:
 
 * Adresse
 * Ortschaft
@@ -178,32 +119,19 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 2_ +
-_Bestimmt gibt es auch
-von Wohnkanton
-oder vom Nachbarskanton
-im Internet ein WebGIS.
-Überprüfe dies,
-indem du über Google
-eine Suche nach
-deinem Wohnkanton
-oder dem Nachbarkanton
-in der Umgebung
-und den Begriffen "GIS"
-und "Online" startest.
-Notiere dir den Link._
+_Bestimmt gibt es auch von Wohnkanton oder vom Nachbarskanton im Internet ein 
+WebGIS. Überprüfe dies, indem du über Google eine Suche nach deinem Wohnkanton 
+oder dem Nachbarkanton in der Umgebung und den Begriffen "GIS" und "Online" 
+startest. Notiere dir den Link._
 
 ifdef::show_solutions[]
 ====
-Unter folgendem Link findest du
-eine Liste von Karten aus den
-verschiedenen Kantonen. Darunter
-findest du auch einige Internet-GIS:
+Unter folgendem Link findest du eine Liste von Karten aus den verschiedenen 
+Kantonen. Darunter findest du auch einige Internet-GIS:
 
 http://www.kartenportal.ch/
 
-Schaue nach, ob der Link,
-den du gefunden hast,
-auch dabei ist.
+Schaue nach, ob der Link, den du gefunden hast, auch dabei ist.
 
 *Einige Beispielkantone*
 
@@ -221,14 +149,8 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 3_ +
-_Schaue dir folgenden Karten an,
-und notiere,
-welche Elemente
-neben den Daten
-auf eine Karte gehören.
-Überlege dir
-bei jedem Element,
-das du notierst,
+_Schaue dir folgenden Karten an, und notiere, welche Elemente neben den Daten 
+auf eine Karte gehören. Überlege dir bei jedem Element, das du notierst, 
 welchen Zweck es erfüllt._
 
 * Stadtplan Thun aus dem Jahre 1935:
@@ -265,47 +187,31 @@ Zusammenfassung der wichtigsten Kartenelemente
 aus den oben aufgelisteten Elementen:
 
 * _Titel:_ Wahl eines sinnvollen und aussagekräftigen Titels +
-* _Nordpfeil:_ Um die Nordrichtung der Karte
-anzugeben, dient der Orientierung. Bei einigen
-Karten wird der Nordpfeil durch ein Koordinatenraster
-ersetzt. Dieses Koordinatenraster ist immer
-nach Norden ausgerichtet. +
+* _Nordpfeil:_ Um die Nordrichtung der Karte anzugeben, dient der 
+Orientierung. Bei einigen Karten wird der Nordpfeil durch ein 
+Koordinatenraster ersetzt. Dieses Koordinatenraster ist immer nach Norden 
+ausgerichtet. +
 * _Legende:_ Um den Inhalt der Karte zu erklären +
-* _Massstab/Massstabsbalken:_ Um Distanzen in der
-Karte abschätzen zu können +
-* _Infos über Herausgeber, Copyright, Bezug etc.:_
-Damit der Kartennutzer weiss,
-woher die Karte stammt und
-unter welchen Umständen
-er die Karte weiterverwenden darf +
-* _Stand der Daten:_ Damit der
-Kartennutzer weiss, wie aktuell
-die Daten sind.
+* _Massstab/Massstabsbalken:_ Um Distanzen in der Karte abschätzen zu können +
+* _Infos über Herausgeber, Copyright, Bezug etc.:_ Damit der Kartennutzer 
+weiss, woher die Karte stammt und unter welchen Umständen er die Karte 
+weiterverwenden darf +
+* _Stand der Daten:_ Damit der Kartennutzer weiss, wie aktuell die Daten sind.
 ====
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 4_ +
-_Erstelle mit den Erkenntnissen
-aus den betrachteten Karten
-ein Konzept für deine
-eigene Karte.
-Dieses Konzept gilt es dann
-im Übungsteil umzusetzen.
-Das Konzept soll
-aus einer Skizze bestehen,
-in welcher die Position
-der Karte und der Kartenelemente
-festgelegt ist.
-Überlege dir bei
-der Gestaltung auch
+_Erstelle mit den Erkenntnissen aus den betrachteten Karten ein Konzept für 
+deine eigene Karte. Dieses Konzept gilt es dann im Übungsteil umzusetzen. Das 
+Konzept soll aus einer Skizze bestehen, in welcher die Position der Karte und 
+der Kartenelemente festgelegt ist. Überlege dir bei der Gestaltung auch 
 folgende Punkte:_
 
 ifdef::show_solutions[]
 ====
-Eine eindeutige Lösung gibt es zu dieser
-Aufgabe nicht. Überprüfe einfach nochmals,
-ob die wichtigsten Kartenelemente enthalten sind.
+Eine eindeutige Lösung gibt es zu dieser Aufgabe nicht. Überprüfe einfach 
+nochmals, ob die wichtigsten Kartenelemente enthalten sind.
 
 * Titel
 * Nordpfeil und Koordinatenraster
@@ -321,417 +227,157 @@ endif::show_solutions[]
 * _wen willst du mit deiner Karte ansprechen (Nutzerkreis)?_
 
 
-Bis du zufrieden
-mit deinem Konzept?
-Dann geht es jetzt
-an die Umsetzung
+Bis du zufrieden mit deinem Konzept? Dann geht es jetzt an die Umsetzung 
 dieses Entwurfes.
 
 == QGIS-Übung
 
-In dieser letzten Übung
-soll nun der Kartenentwurf
-aus dem Theorieteil
-im GIS umgesetzt werden.
+In dieser letzten Übung soll nun der Kartenentwurf aus dem Theorieteil im GIS 
+umgesetzt werden.
 
 === Lernziele
 
-Am Ende dieser Übung
-solltest du
-folgende Punkte
-beherrschen:
+Am Ende dieser Übung solltest du folgende Punkte beherrschen:
 
-* Mit Hilfe von QGIS
-eine Karte erstellen,
-in welcher alle
-wichtigen Kartenelemente
-enthalten sind
-* Je nach Zweck
-der Karte
-ein geeignetes Ausgabeformat
-wählen und die Wahl
+* Mit Hilfe von QGIS eine Karte erstellen, in welcher alle wichtigen 
+Kartenelemente enthalten sind
+* Je nach Zweck der Karte ein geeignetes Ausgabeformat wählen und die Wahl 
 auch begründen
 
 === Druckzusammenstellung
 
-Bevor du mit
-der Erstellung
-der Karte beginnen kannst,
-musst du den Ausschnitt
-im Kartenfenster
-so gestalten,
-wie du ihn
-in deiner Karte
-darstellen möchtest.
-Dazu gehört auch,
-dass du Layer ein-
-und ausblendest,
-je nachdem ob du
-sie in der Karte
-darstellen möchtest
-oder nicht.
-Wenn du mit der Darstellung
-und dem Ausschnitt
-zufrieden bist,
-kannst du in der Übung
-weiter gehen.
+Bevor du mit der Erstellung der Karte beginnen kannst, musst du den Ausschnitt 
+im Kartenfenster so gestalten, wie du ihn in deiner Karte darstellen möchtest. 
+Dazu gehört auch, dass du Layer ein- und ausblendest, je nachdem ob du sie in 
+der Karte darstellen möchtest oder nicht. Wenn du mit der Darstellung und dem 
+Ausschnitt zufrieden bist, kannst du in der Übung weiter gehen.
 
-Für die Erstellung
-einer Karte gibt es
-eine eigene Maske.
-Öffne diese über
-das Menü
+Für die Erstellung einer Karte gibt es eine eigene Maske. Öffne diese über das 
+Menü
 _Project_ ->
 _New Print Layout..._.
 
 .Leeres Druckzusammenstellungs-Fenster in QGIS 3
 image::einfuehrung_in_qgis/qgis_print_layout.PNG["Druckzusammenstellung", 510, 317]
 
-Die Maske ist so aufgebaut,
-dass sich im oberen Bereich
-wieder die Menüs
-und Werkzeuge befinden.
-Der mittlere Teil ist
-in zwei Bereiche aufgeteilt,
-auf der linken Seite
-ist das Kartenfenster,
-in welchem die Karte
-gestaltet werden kann,
-und auf der rechten Seite
-können die entsprechenden Parameter
-gesetzt und Einstellungen
-gemacht werden.
+Die Maske ist so aufgebaut, dass sich im oberen Bereich wieder die Menüs und 
+Werkzeuge befinden. Der mittlere Teil ist in zwei Bereiche aufgeteilt, auf der 
+linken Seite ist das Kartenfenster, in welchem die Karte gestaltet werden 
+kann, und auf der rechten Seite können die entsprechenden Parameter gesetzt 
+und Einstellungen gemacht werden.
 
-Auf der rechten Seite
-hat es drei Reiter,
-einen mit
-dem Namen _Layout_,
-einen mit
-dem Namen _Item Properties_
-und einen
-mit dem Namen _Guides_.
-Unter _Layout_
-können Einstellungen
-vorgenommen werden,
-die die
-ganze Karte betreffen.
-Im Gegensatz
-dazu betreffen
-die Einstellungen
-unter _Item Properties_
-immer nur das
-gerade selektierte Element
-(z.B. Karte oder Legende).
+Auf der rechten Seite hat es drei Reiter, einen mit dem Namen _Layout_, einen 
+mit dem Namen _Item Properties_ und einen mit dem Namen _Guides_. Unter 
+_Layout_ können Einstellungen vorgenommen werden, die die ganze Karte 
+betreffen. Im Gegensatz dazu betreffen die Einstellungen unter _Item 
+Properties_ immer nur das gerade selektierte Element (z.B. Karte oder Legende).
 
 Bevor du mit
-der Gestaltung der Karte beginnst,
-musst du auf die weisse Karte
-rechtsklicken
-und _Page Properties_ auswählen.
-Dadurch sollte auf
-der rechten Seite,
-der Reiter _Page Properties_
-ausgewählt werden,
-mit dem du dann
-das Papierformat
-für die zu gestaltende Karte
-wählen kannst.
-Unter _Size_ hast du eine Auswahl
-von gängigen Papierformaten
-sowie die Option _Custom_,
-mit welcher du
-dein eigenes Format
-erstellen kannst.
-Lasse diese Einstellung
-auf _A4_ stehen.
+der Gestaltung der Karte beginnst, musst du auf die weisse Karte rechtsklicken 
+und _Page Properties_ auswählen. Dadurch sollte auf der rechten Seite, der 
+Reiter _Page Properties_ ausgewählt werden, mit dem du dann das Papierformat 
+für die zu gestaltende Karte wählen kannst. Unter _Size_ hast du eine Auswahl 
+von gängigen Papierformaten sowie die Option _Custom_, mit welcher du dein 
+eigenes Format erstellen kannst. Lasse diese Einstellung auf _A4_ stehen.
 
-Unter _Orientation_
-kannst du zwischen _Landscape_
-und _Portrait_ wählen.
-Wähle das Format aus,
-welches du im Theorieteil
-für deinen Kartenentwurf
+Unter _Orientation_ kannst du zwischen _Landscape_ und _Portrait_ wählen. 
+Wähle das Format aus, welches du im Theorieteil für deinen Kartenentwurf 
 gewählt hast.
 
-Es ist zudem sinnvoll,
-dass du ein Raster
-über das Kartenblatt legst,
-an welchem du
-die Elemente,
-die du auf
-die Karte setzt,
-ausrichten kannst.
-Dazu musst du
-in der Menüleiste _View_
-die Optionen
-_Show Grid_
-und _Snap to Grid_
-aktivieren und
-unter dem Reiter _Layout_
--> _Guides and Grid_
-den _Grid spacing_
-auf den 10.00mm setzen.
+Es ist zudem sinnvoll, dass du ein Raster über das Kartenblatt legst, an 
+welchem du die Elemente, die du auf die Karte setzt, ausrichten kannst. Dazu 
+musst du in der Menüleiste _View_ die Optionen _Show Grid_ und _Snap to Grid_ 
+aktivieren und unter dem Reiter _Layout_ -> _Guides and Grid_ den _Grid 
+spacing_ auf den 10.00mm setzen.
 
-Somit sind die
-allgemeinen Einstellungen
-gemacht und es kann
-mit der Kartengestaltung
-begonnen werden.
+Somit sind die allgemeinen Einstellungen gemacht und es kann mit der 
+Kartengestaltung begonnen werden.
 
-Als erstes sollen
-die Layer in der Karte
-dargestellt werden.
-Klicke dazu auf
-den Button _Add Map_
-und ziehe einen Rahmen
-in der Grösse auf,
-wie du es
-in deinem Kartenentwurf
-vorgesehen hast.
-Es erscheinen nun
-der Kartenausschnitt
-und diejenigen Layer,
-die du zu Beginn
-der Übung gewählt hast.
+Als erstes sollen die Layer in der Karte dargestellt werden. Klicke dazu auf 
+den Button _Add Map_ und ziehe einen Rahmen in der Grösse auf, wie du es in 
+deinem Kartenentwurf vorgesehen hast. Es erscheinen nun der Kartenausschnitt 
+und diejenigen Layer, die du zu Beginn der Übung gewählt hast.
 
-Mit Hilfe des Buttons
-_Select/Move item_
-kann die neue Karte
-ausgewählt und die Grösse
-durch Klicken auf den Rand
-verändert werden.
-Zusätzlich kann diese auch
-in der Druckzusammenstellung
-verschoben werden.
-Die Grösse kann auch
-im Reiter _Item Properties_
-unter _Position and size_
-durch die Eingabe
-von _Width_ und _Height_
-bestimmt werden.
+Mit Hilfe des Buttons _Select/Move item_ kann die neue Karte ausgewählt und 
+die Grösse durch Klicken auf den Rand verändert werden. Zusätzlich kann diese 
+auch in der Druckzusammenstellung verschoben werden. Die Grösse kann auch im 
+Reiter _Item Properties_ unter _Position and size_ durch die Eingabe von 
+_Width_ und _Height_ bestimmt werden.
 
-Mit Hilfe
-des Buttons
-_Move item content_
-kann der Inhalt
-der Karte
-verschoben werden.
-Unter dem Reiter
-_Item Properties_
-unter _Main properties_
-können zudem noch
-der Massstab (_Scale_)
-und der Drehwinkel (_Map rotation_)
-der Karte
-eingestellt werden.
-Falls die Koordinaten
-der Ausdehnung
-des darzustellenden Ausschnittes
-bekannt sind,
-können diese auch
-unter _Extents_
+Mit Hilfe des Buttons _Move item content_ kann der Inhalt der Karte verschoben 
+werden. Unter dem Reiter _Item Properties_ unter _Main properties_ können 
+zudem noch der Massstab (_Scale_) und der Drehwinkel (_Map rotation_) der 
+Karte eingestellt werden. Falls die Koordinaten der Ausdehnung des 
+darzustellenden Ausschnittes bekannt sind, können diese auch unter _Extents_ 
 eingegeben werden.
 
-Zusätzlich kann
-unter _Grids_
-die Option
-gewählt werden,
-ob ein Gitter
-über der Karte
-angezeigt werden soll.
-Dieses Gitter kann
-zum Beispiel vom Typ
-_Cross_ oder _Solid_
-sein und zusätzlich
-beschriftet werden.
-Für die Schweiz wäre
-ein Gitterintervall
-von 25‘000 m
-oder 50‘000 m geeignet.
+Zusätzlich kann unter _Grids_ die Option gewählt werden, ob ein Gitter über 
+der Karte angezeigt werden soll. Dieses Gitter kann zum Beispiel vom Typ 
+_Cross_ oder _Solid_ sein und zusätzlich beschriftet werden. Für die Schweiz 
+wäre ein Gitterintervall von 25‘000 m oder 50‘000 m geeignet.
 
-Unter _Frame_
-kannst du bestimmen,
-ob der Rahmen
-um das Kartenelement
-angezeigt werden soll
-und falls ja,
-in welcher Farbe
-und welcher Strichstärke.
+Unter _Frame_ kannst du bestimmen, ob der Rahmen um das Kartenelement 
+angezeigt werden soll und falls ja, in welcher Farbe und welcher Strichstärke.
 
-Gestalte dein Kartenelement
-mit den beschriebenen Möglichkeiten.
-Wenn du mit
-deinem Resultat
-zufrieden bist,
-kannst du durch Klicken
-des _Save project_-Buttons
-deine Einstellungen sichern.
+Gestalte dein Kartenelement mit den beschriebenen Möglichkeiten. Wenn du mit 
+deinem Resultat zufrieden bist, kannst du durch Klicken des _Save 
+project_-Buttons deine Einstellungen sichern.
 
-Füge anschliessend
-die weiteren
-Kartenelemente hinzu,
-die du auf
-deinem Entwurf hast.
-Die Buttons dazu
-findest du
-in der Werkzeugleiste.
-Wenn ein Element
-hinzugefügt wurde,
-kannst du jeweils
-unter dem Reiter
-_Item Properties_
-diese Elemente
-noch anpassen.
+Füge anschliessend die weiteren Kartenelemente hinzu, die du auf deinem 
+Entwurf hast. Die Buttons dazu findest du in der Werkzeugleiste. Wenn ein 
+Element hinzugefügt wurde, kannst du jeweils unter dem Reiter _Item 
+Properties_ diese Elemente noch anpassen.
 
-Bist du mit
-deiner Karte fertig
-und zufrieden damit,
-wie sie aussieht?
-Dann überprüfe nochmals,
-ob deine Karte
-wirklich alle wichtigen
-Kartenelemente enthält.
-Ist auch das _Copyright_
-für die Daten enthalten?
-Wenn ja,
-dann steht ja jetzt
-nichts mehr im Wege
-um die Karte
-in ein Format zu bringen,
-das für die Weitergabe
-geeignet ist.
+Bist du mit deiner Karte fertig und zufrieden damit, wie sie aussieht? Dann 
+überprüfe nochmals, ob deine Karte wirklich alle wichtigen Kartenelemente 
+enthält. Ist auch das _Copyright_ für die Daten enthalten? Wenn ja, dann steht 
+ja jetzt nichts mehr im Wege um die Karte in ein Format zu bringen, das für 
+die Weitergabe geeignet ist.
 
 === Karte für Weitergabe vorbereiten
 
-Die Karte kann als Raster
-oder als _SVG_ gespeichert,
-als _PDF_ exportiert
-oder auf einem _Drucker_
-gedruckt werden.
-Die Speicherung
-im Rasterformat kann
-z.B. verwendet werden,
-wenn die Karte
-in einen Bericht
-eingebunden werden soll.
-Wenn du die Karte
-per E-Mail
-weiterschicken möchtest,
-ist das PDF-Format
-gut geeignet.
-Oft werden aber
-immer noch
-gedruckte Pläne verwendet.
-Deshalb hast du
-in der Maske
-_Druckerzusammenstellung_
-auch diese Möglichkeit.
+Die Karte kann als Raster oder als _SVG_ gespeichert, als _PDF_ exportiert 
+oder auf einem _Drucker_ gedruckt werden. Die Speicherung im Rasterformat kann 
+z.B. verwendet werden, wenn die Karte in einen Bericht eingebunden werden 
+soll. Wenn du die Karte per E-Mail weiterschicken möchtest, ist das PDF-Format 
+gut geeignet. Oft werden aber immer noch gedruckte Pläne verwendet. Deshalb 
+hast du in der Maske _Druckerzusammenstellung_ auch diese Möglichkeit.
 
-Im Rahmen dieser Übung
-soll ein Plan
-in Form eines __PDF__s
-erstellt werden.
-Klicke deshalb
-auf den Button
-_Export as PDF_,
-wähle den Speicherort aus
-und starte
-die Erstellung des PDFs.
-Falls in der Karte
-auch ein _WMS_-Service
-enthalten ist,
-der abgespeichert
-werden soll,
-so muss je nach
-verwendeter Zoomstufe
-vor der Erstellung
-des _PDF_ unter
-_Export settings_
-im Reiter _Layout_
-die Qualität
-verringert werden.
+Im Rahmen dieser Übung soll ein Plan in Form eines __PDF__s erstellt werden. 
+Klicke deshalb auf den Button _Export as PDF_, wähle den Speicherort aus und 
+starte die Erstellung des PDFs. Falls in der Karte auch ein _WMS_-Service 
+enthalten ist, der abgespeichert werden soll, so muss je nach verwendeter 
+Zoomstufe vor der Erstellung des _PDF_ unter _Export settings_ im Reiter 
+_Layout_ die Qualität verringert werden.
 
-Schaue dir
-die Karte im PDF
-nochmals an.
-Zufrieden damit?
-Dann wird es Zeit
-für den letzten
-Kapiteltest.
+Schaue dir die Karte im PDF nochmals an. Zufrieden damit? Dann wird es Zeit 
+für den letzten Kapiteltest.
 
 == Kapiteltest 5
 
-Mit dem Wissen
-das du dir
-im letzten Kapitel
-angeeignet hast,
-sollte es möglich sein,
-die Fragen
-des letzten Kapiteltests
-zu beantworten.
-Schreibe die Antworten
-zu den Fragen
-wiederum in dein Heft
-oder auf ein Blatt Papier.
-Wenn du alle Fragen
-beantwortet hast,
-gibst du das Blatt
-deinem Lehrer
-zur Korrektur ab.
+Mit dem Wissen das du dir im letzten Kapitel angeeignet hast, sollte es 
+möglich sein, die Fragen des letzten Kapiteltests zu beantworten. Schreibe die 
+Antworten zu den Fragen wiederum in dein Heft oder auf ein Blatt Papier. Wenn 
+du alle Fragen beantwortet hast, gibst du das Blatt deinem Lehrer zur 
+Korrektur ab.
 
 === Frage 1
 
-Kommen wir nochmals
-zur Situation
-aus Frage 4
-aus dem Kapiteltest 3 zurück:
-Du erhältst
-von deinem Klassenlehrer
-den Auftrag,
-für die nächste Schulreise
-ein GIS zu erstellen,
-auf welchem
-die verschiedenen Zwischenstationen
-des Ausfluges und die Wanderroute
-räumlich dargestellt sind.
-Die GIS-Karte
-sollst du zum Schluss
-auf irgend welche
-Art und Weise
-auch an die anderen
-Schüler weitergeben.
+Kommen wir nochmals zur Situation aus Frage 4 aus dem Kapiteltest 3 zurück: Du 
+erhältst von deinem Klassenlehrer den Auftrag, für die nächste Schulreise ein 
+GIS zu erstellen, auf welchem die verschiedenen Zwischenstationen des 
+Ausfluges und die Wanderroute räumlich dargestellt sind. Die GIS-Karte sollst 
+du zum Schluss auf irgend welche Art und Weise auch an die anderen Schüler 
+weitergeben.
 
-. _Welches Ausgabeformat
-wählst du
-für die Karte?_ +
-Schreibe deine Wahl auf
-und begründe sie
-in eigenen Worten.
-Es gibt mehrere
-richtige Möglichkeiten.
-. _Wie gehst du
-in QGIS bei der Gestaltung
-der Karte vor?_ +
-Beschreibe dein Vorgehen
-in eigenen Worten.
-Verzichte dabei auf
-das Nachschauen
-im letzten Kapitel.
-Du darfst aber gerne
-die einzelnen Schritte
-während des Aufschreibens
-im Programm QGIS
-nachmals durchgehen.
-Gehe bei deiner Erklärung
-davon aus,
-dass die Daten
-bereits ins GIS
-eingelesen bzw.
-neu erfasst wurden
-und auch die Gestaltung
-der Layer
-bereits
-abgeschlossen ist.
+. _Welches Ausgabeformat wählst du für die Karte?_ + Schreibe deine Wahl auf 
+und begründe sie in eigenen Worten. Es gibt mehrere richtige Möglichkeiten.
+. _Wie gehst du in QGIS bei der Gestaltung der Karte vor?_ +
+Beschreibe dein Vorgehen in eigenen Worten. Verzichte dabei auf das 
+Nachschauen im letzten Kapitel. Du darfst aber gerne die einzelnen Schritte 
+während des Aufschreibens im Programm QGIS nachmals durchgehen. Gehe bei 
+deiner Erklärung davon aus, dass die Daten bereits ins GIS eingelesen bzw. neu 
+erfasst wurden und auch die Gestaltung der Layer bereits abgeschlossen ist.
 
 ifdef::show_solutions[]
 ====
@@ -740,72 +386,30 @@ ifdef::show_solutions[]
 Bild: Rastergrafik +
 SVG: Vektorgrafik +
 PDF: Portable Dokument Format +
-. Vergleiche deine
-Lösung mit dem letzten
-Kapitel
+. Vergleiche deine Lösung mit dem letzten Kapitel
 ====
 endif::show_solutions[]
 
 === Frage 2
 
-Immer wieder,
-sei es in Zeitungen,
-Büchern
-oder im Internet,
-werden die
-räumlichen Zusammenhänge
-von Daten
-und Ereignissen
-eines Berichtes
-mit Hilfe
-einer Karte
-visualisiert.
-Doch beinhalten
-diese Karten
-auch die wichtigsten
-Kartenelemente? +
-Du hast
-diese Elemente
-in diesem Kapitel
-kennengelernt
-und eigene Erfahrungen
-mit der Gestaltung
-einer Karte gemacht.
-Betrachte die Karte
-unter dem Link
-http://www.mygeo.info/landkarten/schweiz/schweiz_cia_2005.gif
-und beantworte
-die folgenden Fragen:
+Immer wieder, sei es in Zeitungen, Büchern oder im Internet, werden die 
+räumlichen Zusammenhänge von Daten und Ereignissen eines Berichtes mit Hilfe 
+einer Karte visualisiert. Doch beinhalten diese Karten auch die wichtigsten 
+Kartenelemente? + Du hast diese Elemente in diesem Kapitel kennengelernt und 
+eigene Erfahrungen mit der Gestaltung einer Karte gemacht. Betrachte die Karte 
+unter dem Link http://www.mygeo.info/landkarten/schweiz/schweiz_cia_2005.gif
+und beantworte die folgenden Fragen:
 
-. _Sind alle
-wichtigen Kartenelemente
-in der Karte enthalten?
-Falls nein,
+. _Sind alle wichtigen Kartenelemente in der Karte enthalten? Falls nein, 
 welche fehlen?_ +
-Erstelle eine Liste
-mit allen vorhandenen
-und nicht vorhandenen
-Kartenelementen.
-Überlege dir auch
-die Auswirkungen,
-wenn die einzelnen
+Erstelle eine Liste mit allen vorhandenen und nicht vorhandenen 
+Kartenelementen. Überlege dir auch die Auswirkungen, wenn die einzelnen 
 Kartenelemente fehlen.
-. _Wie beurteilst du
-die Umsetzung
-der Karte
-und die Darstellung
-der Informationen?_ +
-_Was soll
-die Karte aussagen?_ +
-Beantworte die Frage
-in eigenen Worten.
-Denke bei der Beantwortung
-der Frage auch
-an deine
-eigenen Erfahrungen,
-die du
-bei der Gestaltung
-deiner Karte
+. _Wie beurteilst du die Umsetzung der Karte und die Darstellung der 
+Informationen?_ +
+_Was soll die Karte aussagen?_ +
+Beantworte die Frage in eigenen Worten. Denke bei der Beantwortung der Frage 
+auch an deine eigenen Erfahrungen, die du bei der Gestaltung deiner Karte 
 gemacht hast.
 
 ifdef::show_solutions[]
