@@ -16,10 +16,9 @@ data. These spatial data are often called geodata.
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 1_ +
 _As an introduction to this chapter, consider what the terms geodata and 
-spatial might mean. 
-Think also of other words with the prefix Geo (e.g. geography, geology etc.). 
-Do not look up the words on the Internet or in a lexicon. Write your thoughts 
-on your worksheet._
+spatial might mean. Think also of other words with the prefix Geo (e.g. 
+geography, geology etc.). Do not look up the words on the Internet or in a 
+lexicon. Write your thoughts on your worksheet._
 
 ifdef::show_solutions[]
 ====
@@ -40,43 +39,40 @@ After this chapter, you will be able to:
 
 ==== Geodata
 
-The prefix geo comes from Greek and means earth. 
-Geodata must therefore be data that is related to the earth.
+The prefix geo comes from Greek and means earth. Geodata must therefore be 
+data that is related to the earth.
 
 ==== Spatial reference
 
 A spatial reference can be interpreted in such a way that an object can be 
-assigned to a place on earth. 
-There are two different types of spatial reference. If the spatial reference 
-is indicated by measured two- or three-dimensional coordinates, for example in 
-the official cadastral survey, then one speaks of a direct spatial reference. 
-In the area of official statistics, however, the coordinates for positioning 
-information in space do not have to be so precise. 
-There, the information is often linked to generalised administrative 
-boundaries such as cantonal borders. In such a case, the term indirect spatial 
-reference is used.
+assigned to a place on earth. There are two different types of spatial 
+reference. If the spatial reference is indicated by measured two- or 
+three-dimensional coordinates, for example in the official cadastral survey, 
+then one speaks of a direct spatial reference. In the area of official 
+statistics, however, the coordinates for positioning information in space do 
+not have to be so precise. There, the information is often linked to 
+generalized administrative boundaries such as cantonal borders. In such a 
+case, the term indirect spatial reference is used.
 
 Imagine you have a mobile phone or a camera with a built-in GPS, which you can 
-use to determine the position where you are standing.
-If you now take a photo, the coordinates at which you took the photo can be 
-saved in the digital image. 
+use to determine the position where you are standing. If you now take a photo, 
+the coordinates at which you took the photo can be saved in the digital image. 
 So the photo has a spatial reference.
 
 ==== Georeferencing
 
 Objects without a spatial reference can often be assigned a direct or indirect 
-spatial reference. This process is called "georeferencing". 
-With postal addresses the spatial reference can be calculated through "geocoding".
-Of course, the spatial reference always refers to an earth image, i.e. a 
-coordinate system. 
-These coordinate systems were introduced in order to be able to indicate the 
-geographical position of a place on earth in numbers. 
-You probably know the different coordinate systems from geography lessons. 
-If you would like to refresh your knowledge in this area, you can do so with 
-the help of the "Maps" guide program. 
-This guide is available on the EducETH server under the link 
+spatial reference. This process is called "georeferencing". With postal 
+addresses the spatial reference can be calculated through "geocoding". Of 
+course, the spatial reference always refers to an earth image, i.e. a 
+coordinate system. These coordinate systems were introduced in order to be 
+able to indicate the geographical position of a place on earth in numbers. You 
+probably know the different coordinate systems from geography lessons. If you 
+would like to refresh your knowledge in this area, you can do so with the help 
+of the "Maps" guide program. This guide is available on the EducETH server 
+under the link 
 http://www.educ.ethz.ch/unterrichtsmaterialien/geographie-umweltlehre/karten-lei
- tprogramm.html .
+tprogramm.html .
 
 ==== Type of data storage
 
@@ -91,9 +87,8 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 2_ +
 _To get to know the most important properties of a raster image,open the image 
 Testfoto.jpg, which is located in the folder with the data for this guide 
-program, in a graphics program.
-Then answer the following questions. Do not go any further until you have 
-answered the questions._
+program, in a graphics program. Then answer the following questions. Do not go 
+any further until you have answered the questions._
 
 * _What happens to the picture if you keep zooming in?_
 * _How are the objects displayed in the image saved?_
@@ -103,55 +98,46 @@ answered the questions._
 ifdef::show_solutions[]
 ====
 .Solution
-. If you zoom further into the image, you will see that at a certain zoom 
-level the image consists of many colored rectangles. 
-The further you zoom in, the larger these rectangles become.
-. An object saved with the help of many colored rectangles.
+. If you zoom further into the image, you will see that at a certain zoom level 
+the image consists of many colored rectangles. The further you zoom in, the 
+larger these rectangles become. . An object saved with the help of many 
+colored rectangles.
 ====
 endif::show_solutions[]
 
 Raster data can be imagined as if, for example, a regular grid was laid from 
 above over the landscape to be displayed, dividing the section into many 
-equally sized cells, also known as pixels. 
-In each pixel the color value is stored, which best represents the underlying 
-colors. The number of pixels per unit is also called point density or 
-resolution.
-An often used unit for dot density is the term dpi (dots per inch). 
-1 inch 
-corresponds to 25.4 mm. 
-Thus, for example, a resolution of 72 dpi means that 2.83 dots per mm are 
-stored. 
+equally sized cells, also known as pixels. In each pixel the color value is 
+stored, which best represents the underlying colors. The number of pixels per 
+unit is also called point density or resolution. An often used unit for dot 
+density is the term dpi (dots per inch). 1 inch corresponds to 25.4 mm. Thus, 
+for example, a resolution of 72 dpi means that 2.83 dots per mm are stored. 
 For comparison, 11.81 points per mm are saved at a resolution of 300 dpi.
 
-Information can be saved for each pixel.
-This can be a gray or color value as for example with photos or pixel maps (as 
-you will get to know them in the exercise) or numerical information as for 
-example a measured value. 
-Take a look at the map with the snow depths on the homepage of the Institute 
-for Snow and Avalanche Research (SLF) as an example for grids from measured 
-values: https://www.slf.ch/de.html
+Information can be saved for each pixel. This can be a gray or color value as 
+for example with photos or pixel maps (as you will get to know them in the 
+exercise) or numerical information as for example a measured value. Take a 
+look at the map with the snow depths on the homepage of the Institute for Snow 
+and Avalanche Research (SLF) as an example for grids from measured values:
+https://www.slf.ch/de.html
 
 ===== Vector data
 
 The vector data includes, for example, the shapefiles you used in the first 
-exercise. 
-With vector data, the geometry of the objects is saved as points, lines or 
-areas, where one line is defined as the connection of two points and one area 
-as a closed line. 
-Further information about the object, so-called attribute data, is stored in a 
-table in addition to the geometry.
+exercise. With vector data, the geometry of the objects is saved as points, 
+lines or areas, where one line is defined as the connection of two points and 
+one area as a closed line. Further information about the object, so-called 
+attribute data, is stored in a table in addition to the geometry.
 
 ===== Comparison of vector and raster data
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 3_ +
-_Now imagine that you want to represent a building in a GIS. 
-Once the building is saved in the form of raster data and once in the form of 
-vector data. 
-What does the house edge look like with the raster data and like with the 
-vector data, if you zoom now completely near to a house edge? Record this on 
-your worksheet. +
-Think about which format (raster or vector) needs more space._
+_Now imagine that you want to represent a building in a GIS. Once the building 
+is saved in the form of raster data and once in the form of vector data. What 
+does the house edge look like with the raster data and like with the vector 
+data, if you zoom now completely near to a house edge? Record this on your 
+worksheet. + Think about which format (raster or vector) needs more space._
 
 ifdef::show_solutions[]
 ====
@@ -168,14 +154,13 @@ image::einfuehrung_in_qgis/vektordaten.png["Vector data"]
 
 *Storage requirements* +
 A value is stored for each pixel in the raster data. For vector data, the area 
-of the building is saved as a closed polyline. 
-And each line of this polyline is defined by two points. Therefore, the memory 
-requirement for vector data is much smaller.
+of the building is saved as a closed polyline. And each line of this polyline 
+is defined by two points. Therefore, the memory requirement for vector data is 
+much smaller.
 
 In order to reduce the memory requirements for raster data, formats can be 
-used that compress the raster. 
-A distinction is made between lossy compression (e.g. jpg) and lossless 
-compression (e.g. .png, .bmp).
+used that compress the raster. A distinction is made between lossy compression 
+(e.g. jpg) and lossless compression (e.g. .png, .bmp).
 
 If you want to learn more about data compression, you can read the following 
 article on Wikipedia:
@@ -185,27 +170,25 @@ endif::show_solutions[]
 
 ===== Metadata
 
-Metadata, i.e. data about the data, is also always stored with the geodata.
+Metadata, i.e. data about the data, is also always stored with the geodata. 
 Information about the spatial extent, the creator, the quality etc. of the 
-data can be noted in it. 
-For example, if you work with data from an external source, you can check 
-where the data comes from and whether it really contains what you need.
+data can be noted in it. For example, if you work with data from an external 
+source, you can check where the data comes from and whether it really contains 
+what you need.
 
 ===== Web Map Services
 
 More and more providers have data stored on a server and offer other users 
 excerpts from this data as maps via special interfaces, so-called Web Map 
-Services (WMS), via the Internet. 
-This allows users to integrate these maps into their GIS projects. 
-However, it is important that there is always a connection to the server on 
-which the data is stored. 
-For example, if you no longer have an Internet connection, the map is no 
-longer accessible in the GIS project.
+Services (WMS), via the Internet. This allows users to integrate these maps 
+into their GIS projects. However, it is important that there is always a 
+connection to the server on which the data is stored. For example, if you no 
+longer have an Internet connection, the map is no longer accessible in the GIS 
+project.
 
-NOTE: The CRS (coordinate reference system) should already be set correctly in 
-our given project. 
-If you still want to know how to change the CRS, you can read the following 
-optional chapter.
+NOTE: The CRS (coordinate reference system) should already be set correctly in our 
+given project. If you still want to know how to change the CRS, you can read 
+the following optional chapter.
 
 ==== Map Projections
 
@@ -226,8 +209,8 @@ Then you can select the desired CRS.
 ===== Re-projecting the data
 
 To re-project the data in your table, just right-click the layer name, click 
-_Export_ and select _Save Feature As..._. 
-In the upper part of the window you can change the CRS.
+_Export_ and select _Save Feature As..._. In the upper part of the window you 
+can change the CRS.
 
 If you are not sure which EPSG code to use, you can look it up at 
 http://spatialreference.org/ .
@@ -251,9 +234,8 @@ To open an empty project, either close and open QGIS again or click the "New
 Project" button. Now you want to load geodata into the empty project.
 
 However, before loading data, the coordinate system of the project should be 
-defined.
-To do this, press the _Current CRS_ button in the lower right corner of QGIS. 
-With the filter you can then search for the desired coordinate system.
+defined. To do this, press the _Current CRS_ button in the lower right corner 
+of QGIS. With the filter you can then search for the desired coordinate system.
 
 The following coordinate system are used for Switzerland: The EPSG:2056 
 (CH1903+/LV95) and sometimes still CH1903 /LV03 (EPSG: 21781).
@@ -265,15 +247,14 @@ Then go under _Project_ -> _Properties_ to the tab with the name General, set
 the project title "Switzerland" and define a background color.
 
 Under "Save paths" you can choose whether the paths should be saved relative 
-or absolute to the data. 
-The advantage of the relative paths is that you can copy the folder with the 
-QGIS project and the data to another location without having to adjust the 
-whole paths to the data. 
-So choose the "Relative" option for your new project.
+or absolute to the data. The advantage of the relative paths is that you can 
+copy the folder with the QGIS project and the data to another location without 
+having to adjust the whole paths to the data. So choose the "Relative" option 
+for your new project.
 
-Then close the Project Settings window by clicking the "OK" button. 
-In order for the new background color to appear, a navigation function such as 
-Move map must be executed in the map window.
+Then close the Project Settings window by clicking the "OK" button. In order 
+for the new background color to appear, a navigation function such as Move map 
+must be executed in the map window.
 
 === Save project
 
@@ -283,27 +264,24 @@ saved the data for this exercise.
 === Import data
 
 The map is now ready to read data. The menu "Database" in the menu bar is used 
-for this purpose. 
-For the different types of data that can be read, it also has different buttons.
+for this purpose. For the different types of data that can be read, it also 
+has different buttons.
 
 ==== Import vector data
 
-The first step is to import the vector data from the first exercise. 
-Click on the tab GeoPackage, if you don't see the tab 
-introduction_in_qgis_data.gpkg, right-click on GeoPackage and navigate to the 
-tasks folder for part 1. 
-If you see the database, open the tab and use right-click and choose "Add to 
-map" to add canton borders and lakes to the map.
+The first step is to import the vector data from the first exercise. Click on 
+the tab GeoPackage, if you don't see the tab introduction_in_qgis_data.gpkg, 
+right-click on GeoPackage and navigate to the tasks folder for part 1. If you 
+see the database, open the tab and use right-click and choose "Add to map" to 
+add canton borders and lakes to the map.
 
-Select the cantonal borders as background for the map overview. 
-If you don't know exactly how to proceed, check again in the first exercise.
+Select the cantonal borders as background for the map overview. If you don't 
+know exactly how to proceed, check again in the first exercise.
 
-What information is stored in the two layers at all?
-Let's take a closer look at this. 
-Click with the right mouse button on the layer lakes and choose _Open 
-attribute table_. 
-The table will open with the thematic information about the lakes. 
-Which information was saved as attribute?
+What information is stored in the two layers at all? Let's take a closer look 
+at this. Click with the right mouse button on the layer lakes and choose _Open_ 
+_attribute table_. The table will open with the thematic information about the 
+lakes. Which information was saved as attribute?
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 4_ +
@@ -316,12 +294,11 @@ _Solution_
 .Table of the layer lakes
 image::einfuehrung_in_qgis/seetable.png["Sea Table", 650, 120]
 
-_name:_ The names of the lakes +
-_type:_ the lake serves as a reservoir lake (entry reservoir lake) or not (entry lake) +
-_height:_ How high is the lake in meters above sea level? +
-_max_Depth:_ Depth of the lake at the deepest point in meters [m] +
-_volume:_ Volume of the lake in cubic kilometres [km^3^] +
-_area:_ Area of the lake in square kilometres [km^2^]
+_name:_ The names of the lakes + _type:_ the lake serves as a reservoir lake 
+(entry reservoir lake) or not (entry lake) + _height:_ How high is the lake in 
+meters above sea level? + _max_Depth:_ Depth of the lake at the deepest point 
+in meters [m] + _volume:_ Volume of the lake in cubic kilometers [km^3^] + 
+_area:_ Area of the lake in square kilometers [km^2^]
 ====
 endif::show_solutions[]
 
@@ -336,61 +313,52 @@ _Solution_
 .Table of the layer cantons
 image::einfuehrung_in_qgis/kantonetable.png["Cantons Table", 650, 120]
 
-_Name:_ Names of the cantons +
-_Abbreviation:_ canton abbreviation +
-_AccessionYear:_ Year of accession to Switzerland +
-_Inhabitants:_ Number of inhabitants +
-_Municipalities:_ Number of municipalities +
-_OfficialLanguage:_ Official languages spoken in the canton +
-_Stands:_ Number of stands (0.5 = half canton) +
-_Area:_ Area of the canton in square kilometres [km^2^]
+_Name:_ Names of the cantons + _Abbreviation:_ canton abbreviation + 
+_AccessionYear:_ Year of accession to Switzerland + _Inhabitants:_ Number of 
+inhabitants + _Municipalities:_ Number of municipalities + _OfficialLanguage:_ 
+Official languages spoken in the canton + _Stands:_ Number of stands (0.5 = 
+half canton) + _Area:_ Area of the canton in square kilometers [km^2^]
 ====
 endif::show_solutions[]
 
 ==== Read raster data
 
-The raster data are to be read in in the form of a WMS layer. 
-Do you remember what a WMS layer is? If not, check again in the theory part.
+The raster data are to be read in in the form of a WMS layer. Do you remember 
+what a WMS layer is? If not, check again in the theory part.
 
 The Federal Government offers an overview of the available WMS services on its 
 homepage (http://www.geo.admin.ch under Services -> Geoservices -> 
 Presentation services -> Web Map Services).
 
 Under the title "Available WMS Services", "GetCapabilities" stores the 
-requests in the form of links. 
-For example, if you click on the link 
-http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang=
-en, a request to the server http://wms.geo.admin.ch/ will be started and you 
+requests in the form of links. For example, if you click on the link 
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang=en
+, a request to the server http://wms.geo.admin.ch/ will be started and you 
 will receive a list of available WMS services in response.
 
 Under _Title_ you will find the title of the WMS service and under _Abstract_ 
-a short description of exactly what is stored in the data. 
-In addition, information about the extension and the possible coordinate 
-systems is also available.
+a short description of exactly what is stored in the data. In addition, 
+information about the extension and the possible coordinate systems is also 
+available.
 
 From these data we would like to integrate the overview map into our project. 
-Select the tool _Add WMS/WMTS Layer_ in the toolbox _Manage Layers_. 
-If you click on the arrow in the top bar of the _Layers_ tab, you will see 
-that some servers are already included by default. 
-To include the server with the public data of the _Bund 
-Geodaten-Infrastruktur_ (BGDI) as well, a new WMS connection must be created. 
-To do this, click on the _New_ button.
-In the _Create a New WMS/WMTS Connection_ window, enter the name of the 
-connection (e.g. WMS-BGDI) and the URL to the desired server (in our case 
-http://wms.geo.admin.ch/). 
+Select the tool _Add WMS/WMTS Layer_ in the toolbox _Manage Layers_. If you 
+click on the arrow in the top bar of the _Layers_ tab, you will see that some 
+servers are already included by default. To include the server with the public 
+data of the _Bund Geodaten-Infrastruktur_ (BGDI) as well, a new WMS connection 
+must be created. To do this, click on the _New_ button. In the _Create a New 
+WMS/WMTS Connection_ window, enter the name of the connection (e.g. WMS-BGDI) 
+and the URL to the desired server (in our case http://wms.geo.admin.ch/). 
 Username and password are not needed in this case.
 
 If you now click on the arrow of the first bar again, the newly created 
-connection should also appear. 
-Select it and click _Connect_.
+connection should also appear. Select it and click _Connect_.
 
 Now all WMS services that are publicly offered on the BGDI server are 
-displayed. 
-Click on the _overview map hydrogeology_ and select "overview map" as layer 
-name and change the coordinate reference system from WGS 84 to the Swiss 
-reference system CH1903 / LV03.
-The easiest way is to select the filter and enter CH1903 as text. 
-The desired system will appear in the selection. 
+displayed. Click on the _overview map hydrogeology_ and select "overview map" 
+as layer name and change the coordinate reference system from WGS 84 to the 
+Swiss reference system CH1903 / LV03. The easiest way is to select the filter 
+and enter CH1903 as text. The desired system will appear in the selection. 
 Then you can add the WMS layer and close the window.
 
 The layer order must be adjusted so that the overview map in the map window 
@@ -406,10 +374,9 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 6_ +
 _To do this, fade out the layer with the cantonal borders and zoom to any 
 lake. Zoom in on the shore area and observe what happens with the sea borders 
-in the vector and raster data and what the differences are. 
-If not both borders are visible, you can show or hide the lakes to see the 
-raster data below the lake layer. 
-Write down your observations in your own words._
+in the vector and raster data and what the differences are. If not both 
+borders are visible, you can show or hide the lakes to see the raster data 
+below the lake layer. Write down your observations in your own words._
 
 ifdef::show_solutions[]
 ====
@@ -419,16 +386,14 @@ consists of lines.
 ====
 endif::show_solutions[]
 
-Save your project. 
-In the next exercise you will continue working with the same project. But 
-first you have to pass the chapter test.
+Save your project. In the next exercise you will continue working with the 
+same project. But first you have to pass the chapter test.
 
 == Chapter test 2
 
-Here we go again. 
-You have reached a chapter test again. Put all documents away again, except a 
-sheet of paper and a pen. 
-Here are the questions for chapter 2:
+Here we go again. You have reached a chapter test again. Put all documents 
+away again, except a sheet of paper and a pen. Here are the questions for 
+chapter 2:
 
 === Question 1
 
@@ -440,19 +405,17 @@ _What's the picture if you're choosing_
 . the raster format
 . the vector format
 
-_as the storage format?
-What is stored in the individual formats of the wall?_
+_as the storage format? What is stored in the individual formats of the wall?_
 
-Answer the questions in your own words. 
-In addition to the description, create a sketch of the wall in raster and 
-vector format.
+Answer the questions in your own words. In addition to the description, create 
+a sketch of the wall in raster and vector format.
 
 ifdef::show_solutions[]
 ====
 .Solution
-Rasterformat saves the grid points over which the wall runs. +
-Vector format stores the start and end points of the wall and the point at 
-which the wall makes a corner.
+Rasterformat saves the grid points over which the wall runs. + Vector format 
+stores the start and end points of the wall and the point at which the wall 
+makes a corner.
 ====
 endif::show_solutions[]
 
@@ -460,8 +423,8 @@ endif::show_solutions[]
 
 Chapter 2 often referred to geodata.
 
-_What does the term geodata mean?
-What is the difference between geodata and other data?_
+_What does the term geodata mean? What is the difference between geodata and 
+other data?_
 
 Answer the questions in a way that they can be understood by a GIS layperson. 
 So don't use technical terms.
@@ -501,7 +464,7 @@ a server and retrieved from there for display.
 
 *Availability* +
 The WMS layer runs on a server and therefore has alower availability than the 
-vector layer. 
-The server also sends the map as a single image, which slows it down again.
+vector layer. The server also sends the map as a single image, which slows it 
+down again.
 ====
 endif::show_solutions[]
