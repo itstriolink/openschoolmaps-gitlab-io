@@ -16,7 +16,7 @@ data. These spatial data are often called geodata.
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 1_ +
 _As an introduction to this chapter, consider what the terms geodata and 
-spatial might mean. Think also of other words with the prefix Geo (e.g. 
+spatial might mean. Think also of other words with the prefix geo (e.g. 
 geography, geology etc.). Do not look up the words on the Internet or in a 
 lexicon. Write your thoughts on your worksheet._
 
