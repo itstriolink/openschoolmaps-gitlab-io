@@ -8,7 +8,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 *A worksheet*
 ifdef::show_solutions[- *SOLUTIONS*]
 
-You have probably already entered datain a table (e.g. an Excel 
+You have probably already entered data in a table (e.g. an Excel 
 spreadsheet).What kind of data did you enter? Where did the values you entered 
 come from? Where could values come from in general terms that are stored in a 
 table? As an introduction to this chapter, think about these questions for two 
@@ -117,7 +117,7 @@ obtain a spatial reference, they must also be georeferenced (see chapter
 Geodata and spatial reference).
 . Aerial photographs and digitized and georeferenced plans often provide a good 
 basis for converting objects into vector format. This process is also called 
-vectorizing.
+vectorising.
 . Some data have already been collected in another GIS project. Some of these 
 data can be transferred without adjustments. Often the data format or the 
 coordinate system have to be adapted or additional attributes have to be 
@@ -166,7 +166,7 @@ content.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 2_ +
-_In what form is the location of themain locations stored and how is the 
+_In what form is the location of them stored in locations and how is the 
 information separated from each other? Write your findings on your worksheet._
 
 ifdef::show_solutions[]
@@ -228,7 +228,7 @@ field and as _Description_ field select the field with the name _Main_. Then
 adjust the font size, placement, clipping, etc. until the label fits "into the 
 image". In addition, select more suitable point symbols for the main locations.
 
-==== Change display colors
+==== Change display colours
 
 How satisfied are you with the colours of the lakes and cantons? Don't you 
 think that the light yellow colour would be better for the cantons and the 
@@ -302,7 +302,7 @@ following values:
 *Type:* Speichersee;
 
 *Area:* 2.01 km^2^;
-*Height:* 688.0 m.ü.M;
+*Height:* 688.0 meters above sea level;
 *Depth:* 68 m;
 *Volume:* 0.065 km^3^
 
@@ -314,7 +314,7 @@ the geometry and attributes of this lake. Here some more information:
 *Type:* Speichersee;
 
 *Area:* 4.18 km^2^;
-*Height:* 900.0 m.ü.M;
+*Height:* 900.0 meters above sea level;
 *Depth:* 65 m;
 *Volume:* 0.150 km^3^
 
