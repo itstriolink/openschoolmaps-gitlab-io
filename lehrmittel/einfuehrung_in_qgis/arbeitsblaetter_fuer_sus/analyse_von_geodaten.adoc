@@ -250,7 +250,7 @@ WHERE Name = 'Müller' AND Surname = 'Peter' AND Ort = 'Bern'
 ====
 endif::show_solutions[]
 
-== QGIS-Exercise
+== QGIS Exercise
 
 The "specialty" of a GIS should of course not only be thought in theory. In 
 this chapter you will perform some thematic and spatial queries.
