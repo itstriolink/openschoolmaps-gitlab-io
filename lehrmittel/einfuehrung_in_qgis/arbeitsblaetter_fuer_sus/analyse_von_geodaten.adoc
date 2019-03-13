@@ -1,6 +1,9 @@
 = Introduction to QGIS 3: Data Analysis (Chapter 4)
-
 ../../../snippets/suppress_title_page.adoc
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet*
 ifdef::show_solutions[- *SOLUTIONS*]
