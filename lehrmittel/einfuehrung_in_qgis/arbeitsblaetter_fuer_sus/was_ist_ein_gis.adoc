@@ -128,7 +128,7 @@ You, too, will carry out some applications within this tutorial.
 === Summary component
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Exercise 2_+
+_Exercise 2_ +
 _Repeat for yourself the different components of a GIS and write down a few 
 words about each of them and not what they are in your case._
 
