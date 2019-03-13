@@ -9,23 +9,30 @@ include::../../../snippets/suppress_title_page.adoc[]
 == Overview
 
 .Objective
-After completing the corresponding worksheets, you or the students will understand some fundamentals of GIS and be able to use the basic functions of QGIS 3. 
+After completing the corresponding worksheets, you or the students will 
+understand some fundamentals of GIS and be able to use the basic functions of 
+QGIS 3. 
 
 .Target group
-* Students in curriculum 21 cycle 2 or 3 (4th to 9th school year) supported by a teacher
+* Students in curriculum 21 cycle 2 or 3 (4th to 9th school year) supported by 
+a teacher
 * Autodidacts with self-study
 
 .Scheduling
 * Each chapter takes at least 1 hour.
 
 == Preparation
-You / the students should have installed or have access to the desktop software QGIS version 3.x on a computer. In case of problems choose QGIS version 3.4.5 LTR (64 bit).
+You / the students should have installed or have access to the desktop 
+software QGIS version 3.x on a computer. In case of problems choose QGIS 
+version 3.4.5 LTR (64 bit).
 
-The students need a *web browser* with *internet access* to complete the worksheets.
+The students need a *web browser* with *internet access* to complete the 
+worksheets.
 
 == Chapter test questions
 
-There are currently 5 chapters respectively 5 worksheets. See chapter "Chapter test" at the end of the corresponding chapters or worksheets.
+There are currently 5 chapters respectively 5 worksheets. See chapter "Chapter 
+test" at the end of the corresponding chapters or worksheets.
 
 Chapter 1 What is a Geographic Information System?
 
@@ -43,7 +50,8 @@ Chapter 3 Data Collection and Management
 
 * Question 1 What two ways do you know of storing vector data?  
 * Question 2 Describe the structure of a table.
-* Question 3 What must a text file contain in order to be visible in the map window?  
+* Question 3 What must a text file contain in order to be visible in the map 
+window?  
 * Question 4 What possibilities do you have to get the different data?  
 
 Chapter 4 Data Analysis
