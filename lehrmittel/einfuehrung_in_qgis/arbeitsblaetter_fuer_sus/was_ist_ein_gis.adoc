@@ -5,8 +5,8 @@ OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*a worksheet*
-ifdef::show_solutions[- *Solutions*]
+*A worksheet*
+ifdef::show_solutions[- *SOLUTIONS*]
 
 I'm sure you've heard or read about Geographic Information Systems or GIS 
 somewhere already. Since computers have become more and more powerful and 
