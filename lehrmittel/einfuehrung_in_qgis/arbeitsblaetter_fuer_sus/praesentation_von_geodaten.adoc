@@ -6,97 +6,52 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet*
-ifdef::show_solutions[- *LÖSUNGEN*]
+ifdef::show_solutions[- *SOLUTIONS*]
 
 == Presentation and output of data
 
-In the last few chapters
-you've learned
-how geodata is captured,
-managed and analyzed.
-In the last chapter
-it's about
-the P of EVAP,
-the presentation
-of the data.
+In the last few chapters you've learned how geodata is captured, managed and 
+analyzed. In the last chapter it's about the P of EVAP, the presentation of 
+the data.
 
 === Learning objectives
 
-After this chapter
-you will be able to
-to do the following:
+After this chapter you will be able to to do the following:
 
-* output the results
-of your queries
-in GIS in suitable
-form
-* name the important
-map elements
+* output the results of your queries in GIS in suitable form 
+* name the important map elements
 
 === Theory
 
-There are
-different possibilities
-to present or provide the visualized,
-newly recorded
-or changed data
-or results
-of queries and manipulations
-to others.
+There are different possibilities to present or provide the visualized, newly 
+recorded or changed data or results of queries and manipulations to others.
 
 Here is a selection of them:
 
-* A method,
-that has been used
-for a long time
-and still is very popular,
-is the *paper plan*.
-Especially on construction sites
-paper plans are still often used.
-To create a paper plan, 
-you can use a map in a print layout or a layout view in GIS
-and then print it out on paper.
-* The plan, which was created
-in the print layout,
-can also be stored as *PDF*
-and then e.g.
-be forwarded
-by e-mail.
-* Another method,
-which is becoming more and more popular,
-is the representation
-of geodata on the Internet
-in a so-called
-*Web-GIS* or *Internet-GIS*.
-* In addition,
-the results of analyses
-can also be output
-in form of *tables*
-or *graphics*.
+* A method, that has been used for a long time and still is very popular, is the 
+*paper plan*. Especially on construction sites paper plans are still often 
+used. To create a paper plan, you can use a map in a print layout or a layout 
+view in GIS and then print it out on paper.
+* The plan, which was created in the print layout, can also be stored as *PDF* 
+and then e.g. be forwarded by e-mail.
+* Another method, which is becoming more and more popular, is the representation 
+of geodata on the Internet in a so-called *Web-GIS* or *Internet-GIS*.
+* In addition, the results of analyses can also be output in form of *tables* or 
+*graphics*.
 
-Two of
-these output types
-we'd like to look at
-more accurately
-with some examples.
+Two of these output types we'd like to look at more accurately with some 
+examples.
 
 ==== Internet or Web-GIS
 
-Click on
-the following link,
-to access the Web-GIS
-of the Canton of Zurich:
+Click on the following link, to access the Web-GIS of the Canton of Zurich:
 
 https://maps.zh.ch/
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 1_ +
-_Answer the following questions:
-Which GIS functions
-are used in this
-Web GIS offered?
-Which data
-can be considered?_
+_Answer the following questions: Which GIS functions are used in this Web GIS 
+offered? Which data can be considered?_
 
 ifdef::show_solutions[]
 ====
@@ -147,7 +102,6 @@ The following tools are available:
 
 Different data is displayed depending on the zoom level.
 
-
 *Vector data*
 
 .Vector data that is displayed at a certain zoom level.
@@ -162,31 +116,19 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 2_ +
-_I'm sure there's also
-from canton of residence
-or from the neighbouring canton
-a WebGIS on the Internet.
-Check this out
-by using Google.
-Search for
-your canton of residence
-or the neighbouring canton
-in the surrounding
-and the terms "GIS" and "Online".
-Note the link._
+_I'm sure there's also from canton of residence or from the neighbouring 
+canton a WebGIS on the Internet. Check this out by using Google. Search for 
+your canton of residence or the neighbouring canton in the surrounding and the 
+terms "GIS" and "Online". Note the link._
 
 ifdef::show_solutions[]
 ====
-Under the following link you will find
-a list of cards from the
-different cantons. Below
-you'll also find some Internet-GIS:
+Under the following link you will find a list of cards from the different 
+cantons. Below you'll also find some Internet-GIS:
 
 http://www.kartenportal.ch/
 
-Look up if the link
-you found
-is in it too.
+Look up if the link you found is in it too.
 
 *Some example cantons*
 
@@ -204,14 +146,9 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 3_ +
-_Look at these cards
-and write down,
-which elements
-next to the data
-belong on a card.
-Think about each element
-that you're writing down,
-what purpose it serves._
+_Look at these cards and write down, which elements next to the data belong on 
+a card. Think about each element that you're writing down, what purpose it 
+serves._
 
 * Map of Thun from 1935:
 http://www.zumbo.ch/maps/navigate/navigate.php?map_nr=62&lang=de
@@ -243,46 +180,33 @@ ifdef::show_solutions[]
 
 *Summary of important map elements*
 
-Summary of the most important map elements
-from the elements listed above:
+Summary of the most important map elements from the elements listed above:
 
 * _Title:_ Selection of a meaningful and expressive title +
-* _North arrow:_ To change the north direction of the map
-is for orientation only. For some
-maps, the north arrow is replaced by a coordinate grid. 
-This coordinate grid is always
-north-facing. +
+* _North arrow:_ To change the north direction of the map is for orientation 
+only. For some maps, the north arrow is replaced by a coordinate grid. This 
+coordinate grid is always north-facing. +
 * _Legend:_ To explain the contents of the map +
 * _Scale/Scale bar:_ To be able to estimate distances on the map +
-* _Information about the manufacturer, Copyright, etc.:_
-So that the card user knows
-where the map came from and
-under what circumstances
-he may continue to use the card +
-* _Status of data:_ So that the
-Card user knows how up to date
-the data is.
+* _Information about the manufacturer, Copyright, etc.:_ So that the card user 
+knows where the map came from and under what circumstances he may continue to 
+use the card +
+* _Status of data:_ So that the Card user knows how up to date the data is.
 ====
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[Exclamation mark, 15, 15]
 _Task 4_ +
-_Create a concept for your own card 
-using the findings from the cards 
-you are looking at.
-This concept then applies to
-in the exercise part.
-The concept should consist of a 
-sketch in which the position of 
-the map and the map elements 
-is determined.
-Also consider the following points when designing. Points:_
+_Create a concept for your own card using the findings from the cards you are 
+looking at. This concept then applies to in the exercise part. The concept 
+should consist of a sketch in which the position of the map and the map 
+elements is determined. Also consider the following points when designing. 
+Points:_
 
 ifdef::show_solutions[]
 ====
-There is no clear solution to this problem. 
-Just check again if the most important 
-map elements are included.
+There is no clear solution to this problem. Just check again if the most 
+important map elements are included.
 
 * Title
 * North arrow and coordinate grid
@@ -298,265 +222,136 @@ endif::show_solutions[]
 * _whom do you want to address with your card (user group)?_
 
 
-Are you satisfied 
-with your concept?
-Then it's on to the 
-implementation of this draft.
+Are you satisfied with your concept? Then it's on to the implementation of 
+this draft.
 
 == QGIS Exercise
 
-In this last exercise, 
-the map design from the 
-theory part will be 
-implemented in GIS.
+In this last exercise, the map design from the theory part will be implemented 
+in GIS.
 
 === Learning objectives
 
-At the end of this exercise
-you should have mastered
-the following points:
+At the end of this exercise you should have mastered the following points:
 
-* Using QGIS, create a map 
-that contains all important 
-map elements
-* Depending on the purpose
-of the card, select a 
-suitable output format 
-and justify your choice
+* Using QGIS, create a map that contains all important map elements
+* Depending on the purpose of the card, select a suitable output format and 
+justify your choice
 
 === Print composition
 
-Before you can start 
-creating the map, 
-you must design the section
-of the map window as you
-would like it to appear
-on your map.
-This includes showing and
-hiding layers, depending on
-whether you want to display
-them on the map or not.
-When you are satisfied 
-with the presentation and
-the detail, you can continue
-with the exercise.
+Before you can start creating the map, you must design the section of the map 
+window as you would like it to appear on your map.
+This includes showing and hiding layers, depending on whether you want to 
+display them on the map or not. When you are satisfied with the presentation 
+and the detail, you can continue with the exercise.
 
-There is a separate mask 
-for creating a map. 
-Open it via the menu 
+There is a separate mask for creating a map. Open it via the menu 
 _Project_ ->
 _New Print Layout..._.
 
 .Empty Print Composition window in QGIS
 image::einfuehrung_in_qgis/qgis_print_layout.PNG["Print composition", 510, 317]
 
-The mask is structured in such a way 
-that the menus and tools are again 
-located in the upper area. 
-The middle part is divided into 
-two areas, on the left side is 
-the map window, in which the map 
-can be designed, and on the right side
-the corresponding parameters 
-can be set and settings made.
+The mask is structured in such a way that the menus and tools are again 
+located in the upper area. The middle part is divided into two areas, on the 
+left side is the map window, in which the map can be designed, and on the 
+right side the corresponding parameters can be set and settings made.
 
-On the right side there are
-three tabs, one named 
-_Layout_, one named
-_Item Properties_ and one
-named _Guides_.
-Under _Layout_ you can 
-make settings that affect
-the whole map.
-In contrast, the settings
-under _Item Properties_
-only affect the currently
-selected element 
-(e.g. map or legend).
+On the right side there are three tabs, one named _Layout_, one named _Item 
+Properties_ and one named _Guides_. Under _Layout_ you can make settings that 
+affect the whole map. In contrast, the settings under _Item Properties_ only 
+affect the currently selected element (e.g. map or legend).
 
-Before you start designing
-the map, right-click on
-the white map and select
-_Page Properties_.
-This should select the 
-_Page Properties_ tab on
-the right side, which you
-can then use to select the
-paper format for the map
-you want to design.
-Under _Size_ you have
-a choice of common paper
-formats as well as the option
-_Custom_, with which you can
-create your own format. 
-Leave this setting at _A4_.
+Before you start designing the map, right-click on the white map and select 
+_Page Properties_. This should select the _Page Properties_ tab on the right 
+side, which you can then use to select the paper format for the map you want 
+to design. Under _Size_ you have a choice of common paper formats as well as 
+the option _Custom_, with which you can create your own format. Leave this 
+setting at _A4_.
 
-Under _Orientation_ you can 
-choose between _Landscape_ 
-and _Portrait_. Choose the 
-format, which you have chosen
-in the theory part for your 
-map design.
+Under _Orientation_ you can choose between _Landscape_ and _Portrait_. Choose 
+the format, which you have chosen in the theory part for your map design.
 
-It also makes sense to 
-place a grid over the map 
-sheet where you can align 
-the elements you place 
-on the map.
-You have to activate the 
-options _Show Grid_ and 
-_Snap to Grid_ in the menu 
-bar _View_ and set the 
-_Grid spacing_ to 10.00mm 
-under the tab _Layout_ 
--> _Guides and Grid_.
+It also makes sense to place a grid over the map sheet where you can align the 
+elements you place on the map. You have to activate the options _Show Grid_ 
+and _Snap to Grid_ in the menu bar _View_ and set the _Grid spacing_ to 
+10.00mm under the tab _Layout_ -> _Guides and Grid_.
 
-Thus the general settings
-are made and it can be
-begun with the map organization.
+Thus the general settings are made and it can be begun with the map 
+organization.
 
-First the layers should be
-displayed in the map. 
-Click on the _Add Map_ 
-button and draw a frame in
-the size you have chosen 
-in your map design. The map
-section and the layers you
-selected at the beginning 
-of the exercise will appear.
+First the layers should be displayed in the map. Click on the _Add Map_ button 
+and draw a frame in the size you have chosen in your map design. The map 
+section and the layers you selected at the beginning of the exercise will 
+appear.
 
-With the help of the button
-_Select/Move item_ the new
-map can be selected and the
-size can be changed by 
-clicking on the border. 
-Additionally the map can be
-moved in the print compilation.
-The size can also be determined
-in the _Item Properties_ tab 
-under _Position and size_ by 
-entering _Width_ and _Height_.
+With the help of the button _Select/Move item_ the new map can be selected and 
+the size can be changed by clicking on the border. Additionally the map can be 
+moved in the print compilation. The size can also be determined in the _Item 
+Properties_ tab under _Position and size_ by entering _Width_ and _Height_.
 
-The _Move item content_ 
-button can be used to move 
-the content of the map. Under
-the _Item Properties_ tab 
-under _Main properties_ you 
-can also set the scale (_Scale_)
-and the rotation angle 
-(_Map rotation_) of the map. 
-If the coordinates of the extent
-of the section to be displayed 
-are known, they can also be 
-entered under _Extents_.
+The _Move item content_ button can be used to move the content of the map. 
+Under the _Item Properties_ tab under _Main properties_ you can also set the 
+scale (_Scale_) and the rotation angle (_Map rotation_) of the map. If the 
+coordinates of the extent of the section to be displayed are known, they can 
+also be entered under _Extents_.
 
-In addition, the option can
-be selected under _Grids_ 
-whether a grid should be 
-displayed above the map. For
-example, this grid can be of
-type _Cross_ or _Solid_ and 
-additionally labeled. For 
-Switzerland a grid interval 
-of 25'000 m or 50'000 m would
-be suitable.
+In addition, the option can be selected under _Grids_ whether a grid should be 
+displayed above the map. For example, this grid can be of type _Cross_ or 
+_Solid_ and additionally labeled. For Switzerland a grid interval of 25'000 m 
+or 50'000 m would be suitable.
 
-Under _Frame_ you can determine
-whether the frame around the 
-map element should be displayed
-and if so, in which color 
-and which line width.
+Under _Frame_ you can determine whether the frame around the map element 
+should be displayed and if so, in which color and which line width.
 
-Design your card element 
-with the described possibilities.
-If you are satisfied with 
-your result, you can save 
-your settings by clicking the
-_Save project_ button.
+Design your card element with the described possibilities. If you are 
+satisfied with your result, you can save your settings by clicking the _Save 
+project_ button.
 
-Then add the other map elements
-you have on your design. 
-The buttons can be found in 
-the toolbar. If an element has
-been added, you can adjust 
-these elements under the
-_Item Properties_ tab.
+Then add the other map elements you have on your design. The buttons can be 
+found in the toolbar. If an element has been added, you can adjust these 
+elements under the _Item Properties_ tab.
 
-Are you done with your card and
-satisfied with what it looks 
-like? Then check again to see
-if your card really contains all
-the important card elements. 
-Is the _copyright_ for the data 
-included? If so, then there's nothing
-standing in the way of bringing 
-the card into a format that is 
-suitable for distribution.
+Are you done with your card and satisfied with what it looks like? Then check 
+again to see if your card really contains all the important card elements. Is 
+the _copyright_ for the data included? If so, then there's nothing standing in 
+the way of bringing the card into a format that is suitable for distribution.
 
 === Prepare card for transfer
 
-The map can be saved as a raster
-or as _SVG_, exported as _PDF_ 
-or printed on a _printer_. 
-Saving in raster format can
-be used, for example, if the map
-is to be included in a report. 
-If you want to forward the map by
-e-mail, the PDF format is well 
-suited. Often, however, printed 
-plans are still used. Therefore
-you have this option in the mask 
-_Printer composition_
+The map can be saved as a raster or as _SVG_, exported as _PDF_ or printed on 
+a _printer_. Saving in raster format can be used, for example, if the map is 
+to be included in a report. If you want to forward the map by e-mail, the PDF 
+format is well suited. Often, however, printed plans are still used. Therefore 
+you have this option in the mask _Printer composition_
 
-In this exercise, a plan in the
-form of a __PDF__s is to be 
-created. Therefore, click the 
-_Export as PDF_ button, select 
-the location and start creating 
-the PDF. If the map also contains
-a _WMS_ service that is to be saved,
-the quality must be reduced in the 
-_Layout_ tab under _Export settings_
-before the _PDF_ is created, 
-depending on the zoom level used.
+In this exercise, a plan in the form of a __PDF__s is to be created. 
+Therefore, click the _Export as PDF_ button, select the location and start 
+creating the PDF. If the map also contains a _WMS_ service that is to be 
+saved, the quality must be reduced in the _Layout_ tab under _Export settings_ 
+before the _PDF_ is created, depending on the zoom level used.
 
-Take a look at the map again 
-in PDF format. Satisfied with 
-it? Then it's time for the 
-last chapter test.
+Take a look at the map again in PDF format. Satisfied with it? Then it's time 
+for the last chapter test.
 
 == Chapter test 5
 
-With the knowledge you acquired 
-in the last chapter, it should 
-be possible to answer the questions
-of the last chapter test. 
-Write the answers to the questions
-again in your notebook or on a 
-piece of paper. When you have 
-answered all the questions, give 
-the sheet to your teacher 
-for correction.
+With the knowledge you acquired in the last chapter, it should be possible to 
+answer the questions of the last chapter test. Write the answers to the 
+questions again in your notebook or on a piece of paper. When you have 
+answered all the questions, give the sheet to your teacher for correction.
 
 === Question 1
 
-Let's come back to the situation
-from question 4 of chapter test 3: 
-Your class teacher instructs you
-to create a GIS for the next school
-trip, on which the different 
-intermediate stations of the trip
-and the hiking route are spatially
-represented. At the end you should
-pass on the GIS map to the other 
-students in some way.
+Let's come back to the situation from question 4 of chapter test 3: Your class 
+teacher instructs you to create a GIS for the next school trip, on which the 
+different intermediate stations of the trip and the hiking route are spatially 
+represented. At the end you should pass on the GIS map to the other students 
+in some way.
 
-. _Which output format
-do you choose for the card?_ +
-Write down your choice 
-and explain it in your
-own words. There are 
-several real possibilities.
+. _Which output format do you choose for the card?_ + Write down your choice and 
+explain it in your own words. There are several real possibilities.
 . _How do you design
 the card in QGIS?_ +
 Describe your actions 
