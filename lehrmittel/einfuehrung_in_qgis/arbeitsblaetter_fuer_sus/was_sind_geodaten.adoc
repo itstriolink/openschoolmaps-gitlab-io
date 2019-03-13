@@ -6,7 +6,7 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet*
-ifdef::show_solutions[- *LÖSUNGEN*]
+ifdef::show_solutions[- *SOLUTIONS*]
 
 == Geodata and spatial reference
 
@@ -295,7 +295,7 @@ _Solution_
 .Table of the layer lakes
 image::einfuehrung_in_qgis/seetable.png["Sea Table", 650, 120]
 
-_name:_ The names of the lakes + _type:_ the lake serves as a reservoir lake 
+_Name:_ The names of the lakes + _type:_ the lake serves as a reservoir lake 
 (entry reservoir lake) or not (entry lake) + _height:_ How high is the lake in 
 meters above sea level? + _max_Depth:_ Depth of the lake at the deepest point 
 in meters [m] + _volume:_ Volume of the lake in cubic kilometers [km^3^] + 
