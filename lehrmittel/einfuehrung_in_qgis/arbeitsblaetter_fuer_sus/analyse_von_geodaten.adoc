@@ -3,7 +3,7 @@
 ../../../snippets/suppress_title_page.adoc
 
 *A worksheet*
-ifdef::show_solutions[- *Solutions*]
+ifdef::show_solutions[- *SOLUTIONS*]
 
 In the last chapters you've learned, how geodata is captured and can be 
 displayed in a GIS. Thus, everything is prepared for the "specialty" of GIS, 
