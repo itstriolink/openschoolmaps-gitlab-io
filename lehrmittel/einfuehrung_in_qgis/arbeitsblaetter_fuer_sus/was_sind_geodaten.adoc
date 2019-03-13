@@ -348,54 +348,50 @@ endif::show_solutions[]
 
 ==== Rasterdaten einlesen
 
-Die Rasterdaten sollen in Form eines WMS-Layers eingelesen werden.
-Weisst du noch, was ein WMS-Layer ist? Wenn nicht, schaue nochmals im 
-Theorieteil nach.
+Die Rasterdaten sollen in Form eines WMS-Layers eingelesen werden. Weisst du 
+noch, was ein WMS-Layer ist? Wenn nicht, schaue nochmals im Theorieteil nach.
 
 Der Bund bietet auf seiner Homepage einen Überblick über die verfügbaren 
 WMS-Dienste an (http://www.geo.admin.ch unter Dienstleistungen -> Geodienste 
 -> Darstellungsdienste -> Web Map Services).
 
 Unter dem Titel "Verfügbare WMS-Dienste" sind unter "GetCapabilities" die 
-Anfragen in Form von Links abgespeichert.
-Wenn du z.B. auf den Link http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang=
-de klickst, wird eine Anfrage an den Server http://wms.geo.admin.ch/ gestartet 
-und du erhältst als Antwort eine Auflistung der verfügbaren WMS-Services.
+Anfragen in Form von Links abgespeichert. Wenn du z.B. auf den Link 
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang= de klickst, 
+wird eine Anfrage an den Server http://wms.geo.admin.ch/ gestartet und du 
+erhältst als Antwort eine Auflistung der verfügbaren WMS-Services.
 
 Unter _Title_ findest du den Titel des WMS-Services und unter _Abstract_ einen 
-kurzen Beschrieb, was genau in den Daten abgespeichert ist.
-Zusätzlich sind auch Informationen über die Ausdehnung und die möglichen 
-Koordinatensysteme erhältlich.
+kurzen Beschrieb, was genau in den Daten abgespeichert ist. Zusätzlich sind 
+auch Informationen über die Ausdehnung und die möglichen Koordinatensysteme 
+erhältlich.
 
-Aus diesen Daten möchten wir die Übersichtskarte in unser Projekt einbinden.
-Wähle im Werkzeugkasten _Manage Layers_ das Werkzeug _Add WMS/WMTS Layer_.
+Aus diesen Daten möchten wir die Übersichtskarte in unser Projekt einbinden. 
+Wähle im Werkzeugkasten _Manage Layers_ das Werkzeug _Add WMS/WMTS Layer_. 
 Wenn du im Reiter _Layers_ beim obersten Balken auf den Pfeil klickst, siehst 
-du, dass bereits einige Server standardmässig eingebunden sind.
-Um den Server mit den öffentlichen Daten der _Bundes Geodaten-Infrastruktur_ 
-(BGDI) ebenfalls einzubinden, muss eine neue WMS-Verbindung erstellt werden.
-Dazu muss auf den _New_-Button geklickt werden.
-Gib im Fenster _Create a New WMS/WMTS Connection_ den Namen der Verbindung an 
-(z.B. WMS-BGDI) und die URL zum gewünschten Server (in unserem Fall 
-http://wms.geo.admin.ch/).
+du, dass bereits einige Server standardmässig eingebunden sind. Um den Server 
+mit den öffentlichen Daten der _Bundes Geodaten-Infrastruktur_ (BGDI) 
+ebenfalls einzubinden, muss eine neue WMS-Verbindung erstellt werden. Dazu 
+muss auf den _New_-Button geklickt werden. Gib im Fenster _Create a New 
+WMS/WMTS Connection_ den Namen der Verbindung an (z.B. WMS-BGDI) und die URL 
+zum gewünschten Server (in unserem Fall http://wms.geo.admin.ch/). 
 Benutzername und Passwort werden in diesem Fall nicht gebraucht.
 
 Wenn du jetzt nochmals auf den Pfeil des ersten Balkens klickst, sollte die 
-neu angelegte Verbindung ebenfalls erscheinen.
-Wähle diese aus und klicke auf _Connect_.
+neu angelegte Verbindung ebenfalls erscheinen. Wähle diese aus und klicke auf 
+_Connect_.
 
 Nun werden alle WMS-Dienste angezeigt, die auf dem Server der BGDI öffentlich 
-angeboten werden.
-Klicke auf die _Übersichtskarte Hydrogeologie_ und wähle als Layername 
-„Übersichtskarte“ und ändere das Koordinatenbezugssystem von WGS 84 auf das 
-schweizerische Bezugssystem CH1903 / LV03.
-Am Einfachsten wählst du den Filter aus und gibst als Text CH1903 ein.
-So erscheint das gewünschte System in der Auswahl.
-Anschliessend können der WMS-Layer hinzugefügt und das Fenster geschlossen 
-werden.
+angeboten werden. Klicke auf die _Übersichtskarte Hydrogeologie_ und wähle als 
+Layername „Übersichtskarte“ und ändere das Koordinatenbezugssystem von WGS 84 
+auf das schweizerische Bezugssystem CH1903 / LV03. Am Einfachsten wählst du 
+den Filter aus und gibst als Text CH1903 ein. So erscheint das gewünschte 
+System in der Auswahl. Anschliessend können der WMS-Layer hinzugefügt und das 
+Fenster geschlossen werden.
 
 Damit die Übersichtskarte im Kartenfenster nicht die Kantonsgrenzen und Seen 
-überdeckt, muss die Layerreihenfolge angepasst werden.
-Denke dir eine geeignete Reihenfolge aus und wende sie an.
+überdeckt, muss die Layerreihenfolge angepasst werden. Denke dir eine 
+geeignete Reihenfolge aus und wende sie an.
 
 ==== Vergleich zwischen Raster- und Vektordaten
 
@@ -405,12 +401,11 @@ Rasterdaten nochmals etwas genauer anschauen.
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 6_ +
 _Blende dazu den Layer mit den Kantonsgrenzen aus und zoome zu einem 
-beliebigen See.
-Zoome am Uferbereich immer weiter hinein und beobachte, was mit den Seegrenzen 
-bei den Vektor- und den Rasterdaten passiert und welches die Unterschiede sind.
-Wenn nicht beide Grenzen sichtbar sind, kannst du die Seen ein- und 
-ausblenden, um auch die Rasterdaten unter dem See-Layer zu sehen.
-Schreibe deine Beobachtungen in eigenen Worten auf._
+beliebigen See. Zoome am Uferbereich immer weiter hinein und beobachte, was 
+mit den Seegrenzen bei den Vektor- und den Rasterdaten passiert und welches 
+die Unterschiede sind. Wenn nicht beide Grenzen sichtbar sind, kannst du die 
+Seen ein- und ausblenden, um auch die Rasterdaten unter dem See-Layer zu 
+sehen. Schreibe deine Beobachtungen in eigenen Worten auf._
 
 ifdef::show_solutions[]
 ====
@@ -420,15 +415,13 @@ Vektordaten aus Linien.
 ====
 endif::show_solutions[]
 
-Speichere dein Projekt ab.
-In der nächsten Übung wirst du mit dem gleichen Projekt weiterarbeiten.
-Aber vorher musst du noch den Kapiteltest bestehen.
+Speichere dein Projekt ab. In der nächsten Übung wirst du mit dem gleichen 
+Projekt weiterarbeiten. Aber vorher musst du noch den Kapiteltest bestehen.
 
 == Kapiteltest 2
 
-Schon ist es wieder soweit.
-Du bist wieder bei einem Kapiteltest angelangt. Lege wieder alle Unterlagen 
-weg, ausser einem Blatt Papier und einem Stift.
+Schon ist es wieder soweit. Du bist wieder bei einem Kapiteltest angelangt. 
+Lege wieder alle Unterlagen weg, ausser einem Blatt Papier und einem Stift. 
 Hier die Fragen zum Kapitel 2:
 
 === Frage 1
@@ -441,19 +434,18 @@ _Wie sieht die Darstellung aus, wenn du_
 . das Rasterformat
 . das Vektorformat
 
-_als Speicherformat wählst?
-Was wird bei den einzelnen Formaten von der Mauer abgespeichert?_
+_als Speicherformat wählst? Was wird bei den einzelnen Formaten von der Mauer 
+abgespeichert?_
 
-Beantworte die Fragen in eigenen Worten.
-Erstelle zusätzlich zur Beschreibung je eine Skizze der Mauer im Raster- und 
-Vektorformat.
+Beantworte die Fragen in eigenen Worten. Erstelle zusätzlich zur Beschreibung 
+je eine Skizze der Mauer im Raster- und Vektorformat.
 
 ifdef::show_solutions[]
 ====
 .Lösung
-Das Rasterformat speichert die Raster-Punkte, über die die Mauer läuft. +
-Das Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt, an 
-dem die Mauer eine Ecke macht.
+Das Rasterformat speichert die Raster-Punkte, über die die Mauer läuft. + Das 
+Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt, an dem 
+die Mauer eine Ecke macht.
 ====
 endif::show_solutions[]
 
@@ -461,8 +453,8 @@ endif::show_solutions[]
 
 Im Kapitel 2 war oft von Geodaten die Rede.
 
-_Was bedeutet der Begriff Geodaten?
-Welches ist der Unterschied zwischen Geodaten und anderen Daten?_
+_Was bedeutet der Begriff Geodaten? Welches ist der Unterschied zwischen 
+Geodaten und anderen Daten?_
 
 Beantworte die Fragen so, dass sie auch von einem GIS-Laien verstanden werden. 
 Verzichte also auf Fachbegriffe.
