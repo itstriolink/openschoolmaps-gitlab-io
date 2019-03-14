@@ -27,22 +27,22 @@ each
 == Theory
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 1_ +
-_As introduction for this chapter solve the following exercises:_
+_As an introduction to the data analysis chapter, solve the following tasks:_
 
-. Search 1: Call the website http://tel.local.ch/de/ and enter the name and if 
-possible the address of a person that you know and could have an entry in the 
-phone book (for example your parents). Finish by pressing the search button. 
-What is the result of your search? In what form are both the inputs and 
-outputs of the website?
+. Search 1: Go to the homepage http://tel.local.ch/de/ and enter the name and, 
+if known, the place of residence of a person you know who might have an entry 
+in the phone book (e.g. your parents or grandparents). Then click on the 
+search button. What is the result of your search? In which form are the input 
+and the output of the search, if you look at the search on the page 
+tel.local.ch in general?
 
-. Search 2: Next, go to the website http://www.sbb.ch/ and search for the next 
-connection between the nearest train station and Chur. 
-Again, pay attention to the output and input values. 
-The result isn't as important as the format. 
-Add these observations to your notes.
+. Search 2: Next, go to the homepage http://www.sbb.ch/ and look for the next 
+connection from the station closest to your home to Chur. Look again at the 
+input and output values. The results themselves are not so important as the 
+form in which the results are output. Make some notes about it again.  
 
-. Compare: What do you notice when you compare the form of both results, write 
-down your observations.
+. Comparison: What do you notice if you now compare the type of results of 
+search 1 and search 2? Write down your findings.
 
 ifdef::show_solutions[]
 ====
@@ -63,7 +63,7 @@ The results are returned as address and as a mark on a map.
 
 *Question 2*
 To start a query, you have to give start, destination, date and time in the 
-fields. The query could be like looks like:
+fields. The query could look like this:
 
 .Input for the search on sbb.ch
 image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2"]
@@ -74,38 +74,38 @@ The result is returned in text form:
 image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
 
 *Question 3* +
-In both searches, the input values are in text form.
+In both searches the input values are in text form.
 
-The results are displayed once in text form and spatially displayed, the 
-second search only returns it in text form.
+The results are output once in text form and spatially, in the second search
+only in text form.
 
-In the first search you would like to often not only know at which street a 
-person lives on, or what her phone number is, but also where the place of 
-residence is located on the map. In addition a map entry may be helpful if as 
-in our case, there are several Peter Müller in Bern. If you know what area 
-he's in, you can search for this visually.
+The first time you search, you often want to know not only which street a 
+person lives on or what their telephone number is, but also where they live on 
+the map. The map entry can also be helpful if, as in our case, there are 
+several Peter Müller in Bern. If you know in which area he lives, you can 
+narrow down the search visually.
 
-For the timetable information the first thing you have to do, is departure and 
-arrival times. The map is not included in the result being of lower 
-importance.
+When it comes to timetable information, the first thing you want to know is 
+the departure and arrival times. The spatial component is of secondary 
+importance for the result and is therefore not displayed.
 ====
 endif::show_solutions[]
 
-Keep your solutions in your my mind. We will come back to them later in 
+Keep your solutions in your mind. We will come back to them later in 
 this chapter.
 
 As already mentioned in the introduction, the derivation of new information 
 from existing spatial data is one of the most valuable and most important 
 functions of a GIS.
 
-In general we differentiate between two types of analysis: *queries* and 
+In general, we differentiate between two types of analysis: *queries* and 
 *manipulations*. For the queries the data remains unchanged, manipulations 
 either change the data or even generate new data.
 
 
 === Query
 
-A query can be carried out according to three points of view.
+There are three ways in which a query can be executed.
 
 . Queries based on factual data. 
 Example: Select all lakes that have a water depth, that's lower than 100 meters. 
