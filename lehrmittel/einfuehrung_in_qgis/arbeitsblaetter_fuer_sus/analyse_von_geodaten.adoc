@@ -140,32 +140,33 @@ Einführung über die wichtigsten Strukturen und Ausdrücke einer Abfrage mit SQ
 Eine _SQL-Abfrage_ ist vereinfacht dargestellt wie folgt aufgebaut:
 
 ....
-SELECT AUSWAHLLISTE
-FROM QUELLE
-WHERE WHERE-KLAUSEL
+SELECT Auswahlliste
+FROM Quelle
+WHERE Where-Klausel
 ....
 
 Überblick über die Variablen die du für einfache Abfragen kennen solltest:
 
-*AUSWAHLLISTE:*
-Namen aller Attribute, die als Resultat angezeigt werden sollen. * bedeutet, 
-es werden alle Attribute angezeigt. Bei thematischen Abfragen in einem GIS ist 
-nur die Abfrage nach allen Attributen möglich. Deshalb muss diese Variable im 
-GIS nicht eingestellt werden.
+*Auswahlliste:*
+Namen aller Attribute, die als Resultat angezeigt werden sollen.
+Ein * bedeutet, es werden alle Attribute angezeigt.
+Bei thematischen Abfragen in einem GIS ist nur die Abfrage nach allen 
+Attributen möglich.
+Deshalb muss diese Variable im GIS nicht eingestellt werden.
 
-*QUELLE:*
+*Quelle:*
 Namen der Tabellen, die Attribute enthalten, welche bei der Abfrage eine Rolle 
-spielen
+spielen.
 
-*WHERE-KLAUSEL:*
-Bedingungen, die erfüllt werden müssen
+*WHERE-Klausel:*
+Bedingungen, die erfüllt werden müssen.
 
-Überblick über die SQL-Ausdrücke, welche in einer Where-Klausel verwendet 
-werden können, und ihre Bedeutung:
+Überblick über die SQL-Ausdrücke, die in einer Where-Klausel verwendet werden 
+können, und ihre Bedeutung:
 
 [%header,cols=2*]
 |===
-|SQL Ausdruck
+|SQL-Ausdruck
 |Bedeutung
 
 |=
@@ -187,21 +188,23 @@ werden können, und ihre Bedeutung:
 |nicht gleich, verschieden
 
 |LIKE
-|Vergleich von Zeichenfolgen. Dabei können folgende Zeichen als Platzhalter 
-eingesetzt werden: %: Platzhalter für beliebig viele Zeichen. Z.B. LIKE ‚F%’ 
-für alle Einträge, die mit dem Buchstaben F beginnen _ : Platzhalter für genau 
-ein Zeichen. Z.B. LIKE ‚Me_er’, wenn man nach einer Person sucht und nicht 
-weiss, ob ihr Nachname Meier oder Meyer ist. Bei LIKE ‚M__er’ könnte er 
-zusätzlich auch Mayer lauten.
+|Vergleich von Zeichenfolgen.
+Dabei können folgende Zeichen als Platzhalter eingesetzt werden:
+%: Platzhalter für beliebig viele Zeichen.
+Z.B. LIKE 'F%' für alle Einträge, die mit dem Buchstaben F beginnen
+_ : Platzhalter für genau ein Zeichen.
+Z.B. LIKE 'Me_er', wenn man nach einer Person sucht und nicht weiss, ob ihr 
+Nachname Meier oder Meyer ist.
+Bei LIKE 'M__er' könnte er zusätzlich auch Mayer lauten.
 
 |IS NULL
-|Zelle enthält keinen Wert
+|Zelle enthält keinen Wert.
 
 |IS NOT NULL
-|Zelle enthält einen Wert
+|Zelle enthält einen Wert.
 
 |BETWEEN
-|zwischen zwei Werten
+|zwischen zwei Werten.
 |===
 
 Es können auch mehrere Bedingungen hintereinander gesetzt werden. Durch 
@@ -385,8 +388,8 @@ Lösung:
 .Ausgabe in der Tabelle von QGIS
 image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189]
 
-8 Kantone erfüllen die Bedingung: Bern, Freiburg, Luzern, Obwalden, Schwyz, 
-Waadt, Zug und Zürich.
+8 Kantone erfüllen die Bedingung: 
+Bern, Freiburg, Luzern, Obwalden, Schwyz, Waadt, Zug und Zürich.
 ====
 endif::show_solutions[]
 
@@ -456,7 +459,7 @@ _Wie lautet der Feldrechnerausdruck?_
 ifdef::show_solutions[]
 ====
 .Lösung
-to int ( Einwohner / Flaeche)
+to_int ( Einwohner / Flaeche)
 ====
 endif::show_solutions[]
 
@@ -481,12 +484,12 @@ welchen um räumliche Abfragen handelt._
 ifdef::show_solutions[]
 ====
 .Lösung
-*thematisch:*
+*Thematische Abfrage:*
 
 * Bevölkerungsdichte von mehr als 200 Einwohner pro km^2^
 * zwischen 1800 und 1900 der Schweiz beigetreten
 
-*räumlich:* +
+*Räumliche Abfrage:* +
 Hauptorte, die in den entsprechenden Kantonen liegen.
 ====
 endif::show_solutions[]
@@ -520,18 +523,16 @@ Locataion_-Werkzeug.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
-_Welcher Layer ist denn nun der *Select features from*-Layer und welcher der 
-*By comparing to the features from*-Layer? Welche Topologische Operation muss 
-gewählt werden?_
+_Welcher Layer ist denn nun der *Select features from*-Layer
+und welcher der *By comparing to the features from*-Layer?
+Welche Topologische Operation muss gewählt werden?_
 
 ifdef::show_solutions[]
 ====
 .Lösung
-*Select features from:* Hauptorte +
-*By comparing to
-the features from:* Kantonsgrenzen +
-
-*Topologische Operation:* innerhalb
+*Select features from:* Layer "Hauptorte" +
+*By comparing to the features from:* Layer "Kantonsgrenzen" +
+*Topologische Operation:* "innerhalb"
 ====
 endif::show_solutions[]
 
