@@ -370,8 +370,8 @@ _Select_features from_ and checks how it compares to
 _By comparing to the features from_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_.Exercise 6_ +
-_Run the query. How many cantons fulfill the condition?
+_Exercise 6_ +
+_Run the query. How many cantons fulfill the condition?_
 
 ifdef::show_solutions[]
 ====
@@ -392,7 +392,7 @@ Zug und Zürich.
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_.Exercise 7_ +
+_Exercise 7_ +
 _How would you need to modify the query if all lakes should be selected which_
 _are part of more than one canton or country?_
 ifdef::show_solutions[]
@@ -406,7 +406,7 @@ image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage", 470, 374]
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_.Exercise 8_ +
+_Exercise 8_ +
 _How many lakes meet the condition._
 
 ifdef::show_solutions[]
