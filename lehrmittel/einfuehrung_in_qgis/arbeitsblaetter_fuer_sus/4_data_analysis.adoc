@@ -148,18 +148,17 @@ WHERE where-expression
 
 Overview of the variables that you should know for simple queries:
 
-*select-expression:* Names of all attributes, which should be displayed as the 
-result of the query. 
-* means, all attributes are displayed. 
-For thematic queries in a GIS this is the only query possible. 
-Therefore, this variable must not be set in the GIS.
+*select-expression:*  Names of all attributes, which should be displayed as 
+the result of the query. A * means, all attributes are displayed. For thematic 
+queries in a GIS this is the only query possible. Therefore, this variable 
+must not be set in the GIS.
 
 *our-table:* Name of the table, which contains the attributes needed for the 
 query.
 
 *where-expression:* The conditions to filter the data.
 
-Overview over the SQL expressions, which use the where-expression and their 
+Overview over the SQL expressions, which use the where-expression, and their 
 meaning.
 
 [%header,cols=2*]
