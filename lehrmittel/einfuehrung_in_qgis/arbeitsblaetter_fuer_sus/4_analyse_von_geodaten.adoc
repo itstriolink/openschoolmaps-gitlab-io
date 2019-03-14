@@ -1,0 +1,633 @@
+= Einführung in QGIS 3: Datenanalyse (Kapitel 4)
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt*
+ifdef::show_solutions[- *LÖSUNGEN*]
+
+In den letzten Kapiteln hast du erfahren, wie Geodaten erfasst und in einem 
+GIS dargestellt werden. Somit ist alles vorbereitet für die „Spezialität“ des 
+GIS, nämlich das Ableiten von neuen Informationen aus bestehenden 
+raumbezogenen Daten. Dieses Ableiten von neuen Informationen nennt man 
+*Analyse*.
+
+== Lernziele
+
+Dieses Kapitel beinhaltet folgende Lernziele:
+
+* den Unterschied zwischen Abfragen und Manipulationen in eigenen Worten erklären
+* aufzählen, welche Abfragearten es gibt und diese mit Hilfe
+je eines Beispiels erklären
+* für eine thematische Abfrage eine korrekte SQL-Abfrage formulieren
+
+== Theorie
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 1_ +
+_Löse als Einstieg in das Kapitel Datenanalyse folgende Aufgaben:_
+
+. _Suche 1: Rufe die Homepage http://tel.local.ch/de/ auf und gib den Namen und 
+falls bekannt auch den Wohnort einer Person ein, die du kennst und die einen 
+Eintrag im Telefonbuch haben könnte (z.B. deine Eltern oder deine 
+Grosseltern). Klicke anschliessend auf den Suchen - Button. Was ist das 
+Resultat deiner Suche? In welcher Form sind die Eingabe und die Ausgabe der 
+Suche, wenn du die Suche auf der Seite tel.local.ch allgemein betrachtest?_
+. _Suche 2: Rufe als nächstes die Homepage http://www.sbb.ch/ auf und suche 
+nach der nächsten Verbindung vom Bahnhof der am nächsten bei deinem Wohnort 
+liegt nach Chur. Betrachte wieder die Eingabe- und Ausgabewerte. Dabei sind 
+nicht so sehr die Resultate selber wichtig sondern die Form, in welcher die 
+Resultate ausgegeben werden. Mache dir dazu wieder einige Notizen._
+. _Vergleich: Was fällt dir auf, wenn du nun die Art der Resultate der Suche 1 
+und der Suche 2 vergleichst? Schreibe deine Feststellungen auf._
+
+ifdef::show_solutions[]
+====
+.Lösung
+*Frage 1* + Um eine Abfrage zu starten, muss man Name, Vorname und Ort in 
+Textform in eine Maske eingeben. Die Abfrage könnte wie folgt aussehen:
+
+.Eingabe für die Suche auf local.ch
+image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1"]
+
+Und hier die entsprechenden Resultate:
+
+.Ausgabe für die Suche auf local.ch
+image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1"]
+
+Die Resultat werden als Adressen (Textform) ausgegeben und als Eintrag in 
+einer Karte.
+
+*Frage 2* +
+Um eine Abfrage zu starten, muss man mindestens die Felder Start- und Zielort, 
+Datum und Zeit in Textform ausfüllen. Die Abfrage könnte wie folgt aussehen:
+
+.Eingabe für die Suche auf sbb.ch
+image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2"]
+
+Die Resultate werden in Textform ausgegeben:
+
+.Ausgabe für die Suche auf sbb.ch
+image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
+
+*Frage 3* +
+Bei beiden Suchen sind die Eingabewerte in Textform.
+
+Die Resultate werden einmal in Textform und räumlich ausgegeben, bei der 
+zweiten Suche nur in Textform.
+
+Bei der ersten Suche möchte man oftmals nicht nur wissen an welcher Strasse 
+eine Person wohnt oder welche Telefonnummer sie hat, sondern auch, wo der 
+Wohnort auf der Karte liegt. Ausserdem kann der Karteneintrag hilfreich sein, 
+wenn es wie in unserem Fall mehrere Peter Müller in Bern gibt. Wenn man weiss 
+in welchem Gebiet er wohnt, dann kann man die Suche visuell eingrenzen.
+
+Bei der Fahrplanauskunft möchte man in erster Linie die Abfahrt- und 
+Ankunftszeiten wissen. Die räumliche Komponente ist beim Resultat zweitrangig 
+und wird deshalb auch nicht angezeigt.
+====
+endif::show_solutions[]
+
+Behalte deine Lösungen im Hinterkopf. Wir werden später in diesem Kapitel 
+nochmals auf diese Aufgabe zurückkommen.
+
+Wie bereits in der Einleitung angedeutet, ist das Ableiten von neuen 
+Informationen aus bestehenden raumbezogenen Daten eine der wertvollsten und 
+wichtigsten Funktionen eines GIS.
+
+Allgemein werden zwei Arten von Analysen unterschieden: *Abfragen* und 
+*Manipulationen*. Bei den Abfragen werden die Daten nicht verändert, bei den 
+Manipulationen werden entweder die Daten verändert oder es werden neue Daten 
+erzeugt.
+
+=== Abfragen
+
+Es gibt drei Möglichkeiten, nach welchen Gesichtspunkten eine Abfrage 
+durchgeführt werden kann.
+
+. Abfragen anhand von Sachdaten. Beispiel: Selektiere alle Seen, die eine 
+Wassertiefe haben, die grösser als 100 m ist. Diese Abfragen werden 
+*thematische Abfragen oder Selektionen* genannt.
+. Abfragen anhand von Beziehungen zwischen verschiedenen geometrischen Objekten. 
+Beispiel: Selektiere alle Seen, die vollständig innerhalb eines Kantons 
+liegen. Diese Abfragen werden *topologische Abfragen oder Selektionen* genannt.
+. Abfragen über die Geometrie der Objekte. Beispiel: Welche Hauptorte liegen in 
+einem Abstand von weniger als 20 km um den Vierwaldstättersee. Diese Abfragen 
+werden *geometrische Abfragen oder Selektionen* genannt.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 2_ +
+_Überlege dir, um welche Arten von Abfragen es sich bei der Einstiegsübung 
+handelte?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+Es handelt sich bei beiden Fällen um thematische Abfragen.
+====
+endif::show_solutions[]
+
+=== Datenbanksprache SQL
+
+Um thematische Abfragen durchzuführen, wird die Datenbanksprache *SQL 
+(Structured Query Language)* verwendet. Falls du bereits mit Datenbanken 
+gearbeitet hast, wirst du die Sprache bestimmt bereits kennen. Dann ist für 
+dich der nächste Abschnitt Repetition. Für alle anderen ist es eine kurze 
+Einführung über die wichtigsten Strukturen und Ausdrücke einer Abfrage mit SQL.
+
+Eine _SQL-Abfrage_ ist vereinfacht dargestellt wie folgt aufgebaut:
+
+....
+SELECT Auswahlliste
+FROM Quelle
+WHERE Where-Klausel
+....
+
+Überblick über die Variablen die du für einfache Abfragen kennen solltest:
+
+*Auswahlliste:*
+Namen aller Attribute, die als Resultat angezeigt werden sollen.
+Ein * bedeutet, es werden alle Attribute angezeigt.
+Bei thematischen Abfragen in einem GIS ist nur die Abfrage nach allen 
+Attributen möglich.
+Deshalb muss diese Variable im GIS nicht eingestellt werden.
+
+*Quelle:*
+Namen der Tabellen, die Attribute enthalten, welche bei der Abfrage eine Rolle 
+spielen.
+
+*WHERE-Klausel:*
+Bedingungen, die erfüllt werden müssen.
+
+Überblick über die SQL-Ausdrücke, die in einer Where-Klausel verwendet werden 
+können, und ihre Bedeutung:
+
+[%header,cols=2*]
+|===
+|SQL-Ausdruck
+|Bedeutung
+
+|=
+|gleich
+
+|<
+|kleiner
+
+|$$<=$$
+|kleiner oder gleich
+
+|>
+|grösser
+
+|>=
+|grösser oder gleich
+
+|<>
+|nicht gleich, verschieden
+
+|LIKE
+|Vergleich von Zeichenfolgen.
+Dabei können folgende Zeichen als Platzhalter eingesetzt werden:
+%: Platzhalter für beliebig viele Zeichen.
+Z.B. LIKE 'F%' für alle Einträge, die mit dem Buchstaben F beginnen
+_ : Platzhalter für genau ein Zeichen.
+Z.B. LIKE 'Me_er', wenn man nach einer Person sucht und nicht weiss, ob ihr 
+Nachname Meier oder Meyer ist.
+Bei LIKE 'M__er' könnte er zusätzlich auch Mayer lauten.
+
+|IS NULL
+|Zelle enthält keinen Wert.
+
+|IS NOT NULL
+|Zelle enthält einen Wert.
+
+|BETWEEN
+|zwischen zwei Werten.
+|===
+
+Es können auch mehrere Bedingungen hintereinander gesetzt werden. Durch 
+logische Operatoren kann definiert werden, ob die _Bedingung 1_ *und* (*AND*) 
+_Bedingung 2_ *oder* _Bedingung 1_ oder (*OR*) _Bedingung 2_ oder _Bedingung 
+1_ *und nicht* (*NOT*) _Bedingung 2_ gelten sollen.
+
+Hier zur Veranschaulichung das Ganze nochmals mit Hilfe von Venn-Diagrammen 
+dargestellt:
+
+[cols="1,1a"]
+|===
+
+|*AND*-Operator: Welches Element gehört zur Menge A und zur Menge B?
+|image::einfuehrung_in_qgis/and_operator.jpg["AND Operator", 113, 69]
+
+|*OR*-Operator: Welches Element gehört zur Menge A oder zur Menge B?
+|image::einfuehrung_in_qgis/or_operator.jpg["OR Operator", 113, 69]
+
+|*NOT*-Operator: Welches Element gehört zur Menge A aber nicht zur Menge B?
+|image::einfuehrung_in_qgis/not_operator.jpg["NOT Operator", 113, 69]
+|===
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 3_ +
+_Probiere nun selber mal aus, folgende einfache Abfrage in SQL zu formulieren:_
+
+. _Es sollen alle Seen selektiert werden, deren Fläche grösser als 20 km^2^ 
+sind und die tiefer als 400 m.ü.M. liegen._
+. _Die Suche die du als Einstieg in die Theorie als Suche 1 auf der Homepage 
+http://tel.local.ch/de/ durchgeführt hast._
+
+ifdef::show_solutions[]
+====
+.Lösung 1
+....
+SELECT
+FROM seen
+WHERE Flaeche > 20 AND Tiefe < 400
+....
+
+.Lösung 2
+....
+SELECT
+FROM Adressen
+WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
+....
+====
+endif::show_solutions[]
+
+== QGIS-Übung
+
+Die "Spezialität" eines GIS soll natürlich auch nicht nur in der Theorie 
+vermittelt werden. In diesem Kapitel wirst du selber einige thematische und 
+räumliche Abfragen durchführen.
+
+=== Lernziele
+
+Am Ende dieser Übung beherrscht du folgende Punkte:
+
+* Elemente anhand von thematischen und räumlichen Kriterien selektieren
+* Aus bestehenden Werten für ein Feld einen neuen Wert berechnen
+
+=== Thematische Selektion
+
+Zu Beginn dieser Übung möchten wir eine einfache Abfrage durchführen. Du 
+kennst sie bereits aus der SQL-Übung im Theorieteil:
+
+_Es sollen alle Seen selektiert werden, deren Fläche grösser als 20 km^2^ sind 
+und die tiefer als 400 m.ü.M. liegen._
+
+Um diese Seen zu selektieren, könntest du nun jede einzelne Zeile der 
+Attributtabelle durchschauen und so bestimmen, welche Objekte dazu gehören und 
+welche nicht. Wenn du aber viele Objekte hast, dann würde diese Art von Suche 
+sehr schnell sehr viel Zeit in Anspruch nehmen.
+
+Einfacher geht es, wenn die vordefinierten Suchmasken verwendet werden. Wenn 
+du nur nach einem Namen oder einer Zahl suchst, dann ist es am Einfachsten, 
+den _Field Filter_ in der Attributtabelle zu benützen.
+
+Probiere diese Suche an einem kleinen Beispiel aus. Öffne die Attributstabelle 
+der Seen. Im unteren linken Bereich siehst du eine Zeile auf der _Show All 
+Features_ steht und ein Menu, das du aufklappen kannst. Suche in diesem Menu, 
+im _Field Filter_, nach dem Attribut, nach welchem du sortieren möchtest. 
+Zusätzlich musst du den Begriff noch eingeben, nach dem du filtern möchtest. 
+Du möchtest nun z.B. nach allen Seen suchen, in denen im Namen „Lago“ 
+vorkommt. Wähle das Attribut „name“ im Menu unten links aus und suche nach dem 
+Begriff Lago.
+
+Damit du sofort siehst, wie viele Elemente ausgewählt wurden, kannst du die 
+Option _Show Selected Features_ aktivieren.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 4_ +
+_Wie viele Lösungen erhältst du?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+Abfrage:
+
+.Sucheingabe in QGIS
+image::einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36]
+
+Lösung:
+
+.Die Einträge die ausgegeben werden nach der Abfrage in QGIS
+image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
+====
+endif::show_solutions[]
+
+Kommen wir aber zum Anfangsbeispiel zurück. Diese Abfrage ist etwas 
+komplizierter. Öffne durch Klicken auf den Button _Select features using an 
+expression_ den Abfrageeditor. Hier kann die Abfrage in Form einer 
+_SQL_-Abfrage formuliert werden. Es muss jedoch nur die _Where-Klausel_ der 
+_SQL_-Abfrage eingegeben werden. Von _Select * from Seen where max_Tiefe > 
+100_ muss also nur der Teil _max_Tiefe > 100_ ins Abfragefeld eingetippt werden.
+
+Die einzelnen Komponenten der Where-Klausel können durch Doppelklick auf die 
+Felder im rechten Fenster zusammengesetzt werden.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 5_ +
+_Formuliere nun die Where-Klausel der SQL-Abfrage für die Einstiegsaufgabe und 
+führe die Abfrage durch. Wie viele Seen erfüllen diese Bedingungen?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+....
+SELECT
+FROM seen
+WHERE Flaeche > 20 AND Hoehe_muM < 400
+....
+4 Seen
+====
+endif::show_solutions[]
+
+=== Räumliche Selektion
+
+Im ersten Teil dieses Abschnittes wurde eine Abfrage anhand von Werten 
+formuliert, die in der Attributstabelle abgespeichert sind. Nun soll eine 
+Abfrage durchgeführt werden, bei welcher die Position der Objekte 
+berücksichtigt wird. Es handelt sich dabei um eine räumliche Abfrage.
+
+Das Werkzeug für die räumlichen Abfragen findet man, in dem man den Button 
+_Toolbox_ klickt und aus dem neuen Fenster unter _Vector selection_ das 
+Werkzeug _Select by location_ auswählt.
+
+Es sollen alle Kantone selektiert werden, bei denen mindestens einer der 
+erfassten Seen ganz innerhalb liegt (d.h. der Kanton teilt sich den See nicht 
+mit einem anderen Kanton oder einem anderen Land).
+
+Der _Select features from_ Layer in der Maske ist der Layer, in welchem die 
+Elemente selektiert werden sollen. Da im vorliegenden Fall die Kantone 
+selektiert werden sollen, wählen wir hier den Layer Kantonsgrenzen. Somit sind 
+die Seen der _By comapring to the features from_ Layer. Die Checkbox _Selected 
+features only_ muss ausgewählt sein, damit nur die Seen mit einer Tiefe von 
+mindestens 100 Metern ausgewählt werden.
+
+Die Seen sollen vollständig innerhalb eines Kantones liegen. D.h. die 
+Kantonsflächen enthalten die Seeflächen. Deshalb lautet die topologische 
+Operation _contains_. Man geht bei der Wahl der topologischen Operation also 
+immer vom _Select features from_ aus und überprüft, wie er im Verhältnis zum 
+_By comapring to the features from_ steht.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 6_ +
+_Führe diese Abfrage durch. Wie viele Kantone erfüllen diese Bedingung?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+Abfrage:
+
+.Räumliches Abfragefenster von QGIS
+image::einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 6 Abfrage", 470, 374]
+
+Lösung:
+
+.Ausgabe in der Tabelle von QGIS
+image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189]
+
+8 Kantone erfüllen die Bedingung: 
+Bern, Freiburg, Luzern, Obwalden, Schwyz, Waadt, Zug und Zürich.
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 7_ +
+_Wie müsste die Abfrage lauten, wenn alle Seen selektiert werden sollen, die 
+zu mehr als einem Kanton oder Land gehören?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+Abfrage:
+
+.Räumliches Abfragefenster von QGIS
+image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage", 470, 374]
+====
+endif::show_solutions[]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_.Aufgabe 8_ +
+_Wie viele Seen erfüllen diese Bedingung? Schreibe die Lösung auf dein 
+Arbeitsblatt._
+
+ifdef::show_solutions[]
+====
+.Lösung
+Resultat:
+
+.Ausgabe in der Tabelle von QGIS
+image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296]
+
+12 Seen erfüllen die Bedingung.
+====
+endif::show_solutions[]
+
+=== Felder berechnen
+
+Als nächstes soll mit Hilfe von bestehenden Attributen ein neuer Wert erzeugt 
+werden. Genauer gesagt soll die Einwohnerdichte der Kantone berechnet werden. 
+Diese geschieht durch folgende Formel:
+
+_Einwohnerdichte pro km^2^ = Anzahl Einwohner / Fläche in km^2^_
+
+Für diese Berechnung muss die Attributstabelle der Kantone werden. Wähle die 
+Option _Open field calculator_. Falls du den Dichtewert in eine bereits 
+bestehende Spalte schreiben möchtest, kannst du in der Maske _Update existing 
+field_ ankreuzen und im Dropdown-Menu deine gewünschte Spalte auswählen. In 
+unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
+_Output field name_ den Begriff _Dichte_ ein. Wähle als _Output field type 
+Ganzzahl (integer)_ und als _Output field length 10_.
+
+Wenn du den Dichtewert für alle und nicht nur für die selektierten Kantone 
+berechnen möchtest, musst du darauf achten, dass das Kreuz bei _Only update x 
+selected features_ nicht gesetzt ist.
+
+Nun kannst du den _Field Calculator Expression_ entsprechend der Formel für 
+die Einwohnerdichte formulieren. Dabei musst du nur den Ausdruck nach dem 
+Gleichheitszeichen eingeben.
+
+Wir möchten ausserdem die Dichte als ganze gerundete Zahl ohne Nachkommastelle 
+berechnen. Deshalb muss die Option zu _Whole number_ gewählt werden.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 9_ +
+_Wie lautet der Feldrechnerausdruck?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+to_int ( Einwohner / Flaeche)
+====
+endif::show_solutions[]
+
+Nach dem Berechnen muss der Editiermodus wieder ausgeschaltet werden. Wenn du 
+mit der Berechnung zufrieden bist, dann speichere die Änderungen ab. Falls 
+nicht, verwerfe diese.
+
+=== Kombinierte Selektion
+
+Bestimme in einer weiteren Abfrage die Namen aller Hauptorte, deren zugehörige 
+Kantone eine Bevölkerungsdichte von mehr als 200 Einwohner pro km^2^ haben und 
+die zwischen 1800 und 1900 der Schweiz beigetreten sind.
+
+Es soll also nun eine Abfrage durchgeführt werden, in welcher sowohl 
+thematische als auch die räumliche Komponente eine Rolle spielt. 
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 10_ +
+_Überlege kurz, bei welchen Komponenten es sich um die thematische und bei 
+welchen um räumliche Abfragen handelt._
+
+ifdef::show_solutions[]
+====
+.Lösung
+*Thematische Abfrage:*
+
+* Bevölkerungsdichte von mehr als 200 Einwohner pro km^2^
+* zwischen 1800 und 1900 der Schweiz beigetreten
+
+*Räumliche Abfrage:* +
+Hauptorte, die in den entsprechenden Kantonen liegen.
+====
+endif::show_solutions[]
+
+Wir werden bei dieser Abfrage in zwei Schritten vorgehen. Im ersten Schritt 
+wird die thematische Abfrage durchgeführt. Öffne dazu die Attributstabelle der 
+Kantone und selektiere mit Hilfe der _Select by expression_ alle Kantone, bei 
+denen die Bevölkerungsdichte grösser als 200 Einwohner pro km^2^ beträgt und 
+die zwischen 1800 und 1900 der Schweiz beigetreten sind.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 11_ +
+_Wie lautet
+die Where-Klausel?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+....
+WHERE Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
+....
+====
+endif::show_solutions[]
+
+
+Jetzt sind alle Kantone selektiert, die diese Bedingung erfüllen.
+
+Nun sollen noch die dazugehörigen Hauptorte herausgefunden werden. Dies 
+geschieht mit Hilfe einer räumlichen Abfrage. Öffne dazu das _Select by 
+Locataion_-Werkzeug.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 12_ +
+_Welcher Layer ist denn nun der *Select features from*-Layer
+und welcher der *By comparing to the features from*-Layer?
+Welche Topologische Operation muss gewählt werden?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+*Select features from:* Layer "Hauptorte" +
+*By comparing to the features from:* Layer "Kantonsgrenzen" +
+*Topologische Operation:* "innerhalb"
+====
+endif::show_solutions[]
+
+Überprüfe vor dem Durchführen der Abfrage, dass die Einstellungen so sind, 
+dass von den Kantonsgrenzen nur die Selektierten berücksichtig werden.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Aufgabe 13_ +
+_Um welche Hauptorte handelt es sich?_
+
+ifdef::show_solutions[]
+====
+.Lösung
+Aarau, Frauenfeld, Genève, Lausanne, Neuchâtel, Sankt Gallen
+====
+endif::show_solutions[]
+
+== Kapiteltest 4
+
+=== Frage 1
+
+Im Kapitel 4 hast du gelernt, dass allgemein zwei Arten von Analysen 
+unterschieden werden, die Abfrage und die Manipulation.
+
+_Welches ist der Unterschied zwischen diesen beiden Analysearten?_
+
+Schreibe deine Antwort in eigenen Worten. Füge bei jeder Art noch ein Beispiel 
+hinzu.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Abfrage: + Die Daten werden bei einer Abfrage nicht verändert, sondern 
+lediglich bezogen.
+
+Beispielsweise möchte man wissen, wie viele Einwohner einer Stadt mehr als 
+150‘000 CHF pro Jahr verdienen und gleichzeitig jünger als 30 Jahre alt sind.
+
+Manipulation: + Die Daten werden bei einer Manipulation verändert, ergänzt 
+oder sogar neue Daten erzeugt.
+
+Beispielsweise führt man in ein bestehendes Verkehrssystem ein neues Attribut 
+ein, ob eine Strecke stark belastet ist oder nicht. Eine weitere Möglichkeit 
+wäre das Einfügen von noch unbekannten Wanderwegen in ein GIS-System.
+====
+endif::show_solutions[]
+
+=== Frage 2
+
+Du hast gelernt, dass thematische Abfragen mit Hilfe der Datenbanksprache SQL 
+formuliert werden.
+
+_Erstelle für die folgende Fragestellung eine SQL-Abfrage:_ +
+_"Welche Kantone haben eine grössere Einwohnerdichte als 200 Einwohner pro 
+km^2^, traten der Schweiz vor dem Jahr 1600 n.Chr. bei und haben einen Namen, 
+der nicht mit dem Buchstaben Z beginnt?"_
+
+Benutze bei der Formulierung den vereinfachten Aufbau einer SQL-Abfrage. Hebe 
+die typischen Elemente des Aufbaus speziell hervor. Die Bezeichnungen der 
+Tabellen und Attribute sollen von den Daten der Übung übernommen werden.
+
+ifdef::show_solutions[]
+====
+.Lösung
+SELECT * +
+FROM Kantone +
+WHERE Einwohner / Flaeche >
+200 AND Beitrittsj < 1600
+AND Name NOT LIKE ‘Z%’
+====
+endif::show_solutions[]
+
+=== Frage 3
+
+Es gibt neben den thematischen Abfragen auch noch weitere 
+Abfragemöglichkeiten. Die verschiedenen Abfragen können auch kombiniert werden.
+
+_Erstelle für die folgende Fragestellung eine SQL-Abfrage:_ +
+_"Selektiere alle Kantone, die nach 1600 der Schweiz beigetreten sind und 
+Kontakt mit einem See haben, der grösser als 50 km^2^ ist"_
+
+Bei der Beantwortung dieser Frage müssen nur die Seen berücksichtigt werden, 
+welche im geopackage qgis_einfuehrung_daten.gpkg abgespeichert sind. Führe die 
+Abfrage durch und schreibe Schritt für Schritt auf, wie du dabei vorgehst. 
+Kleiner Tipp: Denke an die Aufgabe aus der Übung, in welcher die Namen aller 
+Hauptorte selektiert wurden, deren zugehörige Kantone gewisse thematische 
+Bedingungen erfüllen mussten.
+
+ifdef::show_solutions[]
+====
+.Lösung
+SELECT *
+FROM Kantonsgrenzen, Seen
+WHERE Kantonsgrenzen.Beitrittsj > 1600
+AND Seen.Flaeche > 50
+AND st_intersects
+====
+endif::show_solutions[]
