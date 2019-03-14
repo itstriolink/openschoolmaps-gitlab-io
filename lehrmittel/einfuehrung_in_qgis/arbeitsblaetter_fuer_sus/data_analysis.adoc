@@ -8,20 +8,21 @@ include::../../../snippets/suppress_title_page.adoc[]
 *A worksheet*
 ifdef::show_solutions[- *SOLUTIONS*]
 
-In the last chapters you've learned, how geodata is captured and can be 
-displayed in a GIS. Thus, everything is prepared for the "speciality" of GIS, 
-namely the derivation of new information from existing spatial data. This 
-derivation of new information is called *analysis*. 
+In the last chapters you've learned how geodata is captured and displayed in a 
+GIS. Thus everything is prepared for the "speciality" of GIS, namely the 
+derivation of new information from existing spatial data. This derivation of new
+information is called *analysis*. 
 
 == Learning objectives
 
-This chapter has the following objectives
+This chapter has the following learning objectives
 
-* State the difference between queries and manipulations in one's own words
+* State the difference between queries and manipulations in your own words
 
-* List, which query types exist and to explain those with the help of an example
+* List which query types there are and explain them with the help of one example
+each
 
-* Formulate a correct thematic SQL query
+* Formulate a correct SQL query for a thematic query
 
 == Theory
 
