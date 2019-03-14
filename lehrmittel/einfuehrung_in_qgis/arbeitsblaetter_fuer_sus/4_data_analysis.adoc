@@ -324,8 +324,8 @@ double-clicking on the window to the right.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 5_ +
-_Formulate the where-clause of the SQL query for the initial task and run _
-_the query. How many lakes meet these conditions?_
+_Now formulate the where clause of the SQL query for the entry task and execute 
+the query. How many lakes meet these conditions?_
 
 ifdef::show_solutions[]
 ====
