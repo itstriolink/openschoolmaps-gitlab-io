@@ -1,5 +1,5 @@
 = Introduction to QGIS 3: Data Analysis (Chapter 4)
-../../../snippets/suppress_title_page.adoc
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
@@ -9,7 +9,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 ifdef::show_solutions[- *SOLUTIONS*]
 
 In the last chapters you've learned, how geodata is captured and can be 
-displayed in a GIS. Thus, everything is prepared for the "specialty" of GIS, 
+displayed in a GIS. Thus, everything is prepared for the "speciality" of GIS, 
 namely the derivation of new information from existing spatial data. This 
 derivation of new information is called *analysis*. 
 
@@ -27,7 +27,7 @@ This chapter has the following objectives
 
 _Exercise 1_ +
 
-_As introduction for this chapter solve the folowing Exercises:_
+_As introduction for this chapter solve the following exercises:_
 
 . Search 1: Call the website http://tel.local.ch/de/ and enter the name and if 
 possible the address of a person that you know and could have an entry in the 
@@ -35,10 +35,11 @@ phone book (for example your parents). Finish by pressing the search button.
 What is the result of your search? In what form are both the inputs and 
 outputs of the website?
 
-. Search 2: Next call the website http://www.sbb.ch/ and search for the next 
-connection between the nearest train station and Chur. Again, pay attention to 
-the output and input values. The result isn't as important as the Format. Add 
-these observations to your notes.
+. Search 2: Next, go to the website http://www.sbb.ch/ and search for the next 
+connection between the nearest train station and Chur. 
+Again, pay attention to the output and input values. 
+The result isn't as important as the format. 
+Add these observations to your notes.
 
 . Compare: What do you notice when you compare the form of both results, write 
 down your observations.
@@ -47,14 +48,13 @@ ifdef::show_solutions[]
 ====
 .Solution
 *Question 1* +
-In order to start a query, you must
-give name, first name and city into the text field. The query could look like 
-this:
+In order to start a query, you must give name, first name and city into the 
+text field. The query could look like this:
 
 .Input for the search on local.ch
 image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1"]
 
-And here the corresponding result:
+And here is the corresponding result:
 
 .Output for the search on local.ch
 image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1"]
@@ -62,10 +62,8 @@ image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1"]
 The results are returned as address and as a mark on a map.
 
 *Question 2*
-To start a query, you have to
-give start,
-destination, date and time in the fields. The query could be like
-looks like:
+To start a query, you have to give start, destination, date and time in the 
+fields. The query could be like looks like:
 
 .Input for the search on sbb.ch
 image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2"]
@@ -79,46 +77,47 @@ image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
 In both searches, the input values are in text form.
 
 The results are displayed once in text form and spatially displayed, the 
-second Search only gives it in text form.
+second search only returns it in text form.
 
 In the first search you would like to often not only know at which street a 
-person lives on or what her phone number is, but also where the place of 
+person lives on, or what her phone number is, but also where the place of 
 residence is located on the map. In addition a map entry may be helpful if as 
 in our case, there are several Peter Müller in Bern. If you know what area 
-he's in. you can search for the visually.
+he's in, you can search for this visually.
 
-For the timetable information the first thing you have to do is departure and 
-arrival times. The map is not included in the result of secondary importance.
+For the timetable information the first thing you have to do, is departure and 
+arrival times. The map is not included in the result being of lower 
+importance.
 ====
 endif::show_solutions[]
 
-Keep your solutions in the back of my mind. We will come back to them later in 
+Keep your solutions in your my mind. We will come back to them later in 
 this chapter.
 
 As already mentioned in the introduction, the derivation of new information 
 from existing spatial data is one of the most valuable and most important 
 functions of a GIS.
 
-In general we differentiate between two types of analysis: *Queries* and 
+In general we differentiate between two types of analysis: *queries* and 
 *manipulations*. For the queries the data remains unchanged, manipulations 
-either change the data or even generated new data.
+either change the data or even generate new data.
 
 
 === Query
 
 A query can be carried out according to three points of view.
 
-. Queries based on factual data. Example: Select all lakes that have a water 
-depth, that's lower than 100 meters. These queries are thematic queries or 
-selections.
+. Queries based on factual data. 
+Example: Select all lakes that have a water depth, that's lower than 100 meters. 
+These queries are thematic queries or selections.
 
-. Queries based on relationships between different geometric objects. Example: 
-Select all lakes, which are completely of a canton. These queries are 
-topological queries or selections.
+. Queries based on relationships between different geometric objects. 
+Example: Select all lakes, which are completely within a canton. 
+These queries are topological queries or selections.
 
-. Queries via the geometry of the objects. Example: Which main locations lie at 
-a distance of less than 20 km around Lake Lucerne. These queries are geometric 
-queries or selections.
+. Queries via the geometry of the objects. 
+Example: Which main locations are within a distance of less than 20 km around 
+Lake Lucerne. These queries are geometric queries or selections.
 
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
@@ -137,7 +136,7 @@ endif::show_solutions[]
 
 We use *SQL (Structured Query Language)* to run thematic queries. If you 
 already worked with databases, then you will already know about it and the 
-next step is a simple revision, for all others its a short introduction into 
+next step is a simple update. For all others it's a short introduction into 
 the most important structural elements and terms of an SQL query.
 
 A simplified _SQL query_ is structured as follows:
@@ -151,16 +150,17 @@ WHERE where-expression
 Overview of the variables that you should know for simple queries:
 
 *select-expression:* Names of all attributes, which should be displayed as the 
-result of the query* means, all attributes are displayed. For thematic queries 
-in a GIS this is the only query possible. Therefore, this variable must not be 
-set in the GIS.
+result of the query. 
+* means, all attributes are displayed. 
+For thematic queries in a GIS this is the only query possible. 
+Therefore, this variable must not be set in the GIS.
 
-*our-table:* Name of the table, which contains the attributes need for the 
+*our-table:* Name of the table, which contains the attributes needed for the 
 query.
 
-*where-expression:* The requirement the data needs to have.
+*where-expression:* The conditions to filter the data.
 
-Overview over the SQL-Expressions, which use the where-expression and their 
+Overview over the SQL expressions, which use the where-expression and their 
 meaning.
 
 [%header,cols=2*]
@@ -175,32 +175,32 @@ meaning.
 |smaller
 
 |$$<=$$
-|smaller or equal
+|smaller or equal.
 
 |>
-|greater
+|greater.
 
 |>=
-|greater or equal
+|greater or equal.
 
 |<>
-|not equal, different
+|not equal, different.
 
 |LIKE
 |Comparison of characters. You can use symbols as placeholders: %: Placeholder 
 for an unknown amount of characters for example LIKE ,F%' is for all entries 
 which begin with the letter F _ : Placeholder for a single character for 
 example LIKE ,Me_er', if you're looking for a person and don't know if the 
-name is Meyer or Meier. With LIKE ,M_-er' can it also be Mayer 
+name is Meyer or Meier. With LIKE ,M_-er' can it also be Mayer. 
 
 |IS NULL
-|Cell is empty
+|Cell is empty.
 
 |IS NOT NULL
-|Cell is not empty
+|Cell is not empty.
 
 |BETWEEN
-|between to values
+|between to values.
 |===
 
 You can combine different requirements together and use logical Operators
@@ -209,31 +209,32 @@ if _Condition 1_ *and* (*AND*) _Condition 2_
 *or* _Condition 1_ *and not* (*NOT*) -Condition 2_
 should be valid.
 
-Here for illustration the hole thing again as a Venn-Diagram
+Here's a wrapup to illustrate everything as a venn diagram:
 
 [cols="1,1a"]
 |===
 
 |*AND*-Operator:
-Which element belongs both to Group A and Group B
+Which element belongs both to set A and set B?
 |image::einfuehrung_in_qgis/and_operator.jpg["AND Operator", 113, 69]
 
 |*OR*-Operator:
-Which element belongs to either Group A or Group B
+Which element belongs to either set A or set B
 |image::einfuehrung_in_qgis/or_operator.jpg["OR Operator", 113, 69]
 
 |*NOT*-Operator:
-Which element belongs to Group A but not to Group B
+Which element belongs to set A but not to set B
 |image::einfuehrung_in_qgis/not_operator.jpg["NOT Operator", 113, 69]
 |===
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Exercise  3_ +
+_Exercise 3_ +
 _Try it now for yourself and formulate the following query in SQL:_
 
-. _Select every lake with a surface area larger then 20km^2^ and lie below 400_ 
-_meters above sea-level._
-. _The search that you did as introduction in the Search 1 on local.ch._
+. _Select every lake with a surface area larger than 20km^2^ and which lies_ 
+_below 400 meters above sea-level._
+. _The search that you did as introduction in the Search 1 at homepage of _
+_http://tel.local.ch/de/ ._
 
 ifdef::show_solutions[]
 ====
@@ -255,46 +256,46 @@ endif::show_solutions[]
 
 == QGIS Exercise
 
-The "specialty" of a GIS should of course not only be thought in theory. In 
-this chapter you will perform some thematic and spatial queries.
+The "speciality" of a GIS should of course not only be thought in theory. 
+In this chapter you will perform some thematic and spatial queries.
 
 === Learning objectives
 
-At the end of this exercise. you've mastered the following points:
+At the end of this exercise, you've mastered the following points:
 
-* Select elements based on from thematic and spatial criteria
-* Calculate a new value for a field from existing values
+* Select elements based on thematic and spatial criteria.
+* Calculate a new value for a field from existing values.
 
 === Thematic selection
 
 At the beginning of this exercise we would like to perform a simple query that 
 you already know from the SQL exercise in the theory part:
 
-_You should select every lake which has a surface area above 20 km^2^ and a_
-_lie below 400 meter above sea-level._
+_You should select every lake which has a surface area above 20 km^2^ and _
+_which lies below 400 meter above sea-level._
 
-You could look through each cell in the Attributable and check which ones fit 
-the criteria and which do not. However, if you have a large table that becomes 
-rather time intensive.
+You could look through each cell in the attribute table and check which ones fit 
+the criteria and which do not. 
+However, if you have a large table, that becomes rather time intensive.
 
 It's simpler to use the prepared search interface. For simple searches like a 
 name it's easiest to use _Field Filter_ in the table.
 
-Try this method in a small example. Open the attribute table for lakes. In the 
-lower left area you see a line on which _Show All Features_ is written and a 
-menu, that you can unfold. Search in this menu, in the _Field Filter_, for the 
-attribute, after which you want to sort out. In addition, you must enter the 
-term, you want to filter by. You want now for example search for all lakes, in 
-which the name "Lago" appears. Choose the attribute "name". in the menu and 
-search for the term Lago.
+Try this method in a small example. Open the attribute table for lakes. 
+In the lower left area you see a line on which _Show All Features_ is written 
+and a menu, that you can unfold. 
+Search in this menu, in the _Field Filter_, for the attribute, for which you 
+want to sort out. 
+In addition, you must enter the term you want to filter. 
+You want now for example search for all lakes with name "Lago" appears. 
+Choose the attribute "name" in the menu and search for the term "Lago".
 
-So you can see right away, how many elements were selected, you can activate 
-the option _Show Selected Features_.
+In order to can see immediately how many elements were selected, you can 
+activate the option _Show Selected Features_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-task 4_ +
-How many solutions
-Do you get?_
+_Exercise 4_ + 
+_How many solutions Do you get?_
 
 ifdef::show_solutions[]
 ====
@@ -306,25 +307,27 @@ image::einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36]
 
 Solution:
 
-.The returned entries in QGIS
+.The entries shown in QGIS after a query.
 image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
 ====
 endif::show_solutions[]
 
-However, let us get back to the initial example. This query is a little more 
-complicated. Open by clicking on the button _Select features using an_
-_expression_ the query editor. Here the query can be formulated in the form of 
-a _SQL_ query. However, only the _Where clause_ of the _SQL_ query can be 
-inserted. From _Select * from lakes where max_depth > 100_ so only _max_depth 
-> 100_ can be written into the query field
+Let us get back to the initial example. 
+This query is a little more complicated. 
+Open by clicking on the button _Select features using an expression_ in the 
+query editor. 
+Here the query can be expressed in the form of an _SQL_ query. 
+However, only the _Where clause_ of the _SQL_ query can be inserted. 
+From the query _select * from lakes where max_depth > 100_ only 
+_max_depth > 100_ have to be written into the query field.
 
-The single components of the Where-Expression can be put together, via 
-double-click on the windows to the right.
+The single components of the where-expression can be composed by 
+double-clicking on the window to the right.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 5_ +
-_Formulate the where-clause of the SQL query for the initial task and run the 
-query. How many lakes meet these conditions?_
+_Formulate the where-clause of the SQL query for the initial task and run _
+_the query. How many lakes meet these conditions?_
 
 ifdef::show_solutions[]
 ====
@@ -332,37 +335,39 @@ ifdef::show_solutions[]
 ....
 SELECT
 FROM lakes
-WHERE Surface area > 20 AND Meters over seal level < 400
+WHERE surface_area > 20 AND meters_over_seal_level < 400
 ....
-4 Seen
+4 lakes
 ====
 endif::show_solutions[]
 
 === Spatial selection
 
 In the first part of this section a query was created based on values from 
-the attribute table. Now a query should be run which takes the position of the 
-object into consideration, also called spatial selection.
+the attribute table. Now a query has to be written which takes the position 
+of the object into consideration, also called spatial selection.
 
+You can find the tools for the spatial queries when you click on the button 
+_Toolbox_ and select _Select by location_ from _Vector selection_
 
-You can find the tools for the spartial queries when you click on the button 
-_Toolbox_ and selecting _Select by location_ from _Vector selection_
+All cantons are to be selected in which at least one of the lakes lies entirely 
+within the canton (i.e. the canton doesn't share the lake with another canton 
+or country). 
 
-All the cantons should be selected, which contain at least on of the found 
-lakes completely. (i.e. the canton doesn't share the lake with another canton 
-or country.) 
+The _Select features from_ layer gives information from which layer we select 
+the elements. 
+In this case we select from cantons and because of that we choose the layer 
+canton boarders. 
+The lakes are noted in the _By comparing to the features from_ layer. 
+The box _Selected features only_ needs o e checked so that only the lakes 
+with a depth of at least 100 meters are selected.
 
-The _Select features from_ Layer gives information from which layer we select 
-the elements. In this case we select from cantons and because of that we 
-choose the layer canton boarders. The lakes are noted in the _By comparing to 
-the features from_ layer. Check the box _Selected features only_ so that only 
-the correct lakes are selected.
-
-The lakes should be completely within the boarders of a canton. I.e. the 
-cantonal areas contain the lake areas. Therefore the topological operation 
-_contains_. By selecting torpological operations one always takes from _Select_
-_features from_ and checks how it compares to _By comparing to the features_
-_from_.
+The lakes should be completely within the boarders of a canton. 
+I.e. the cantonal areas fully contain the lake areas. Therefore the topological 
+operation _contains_. 
+By selecting topological operations one always starts from 
+_Select_features from_ and checks how it compares to 
+_By comparing to the features from_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _.Exercise 6_ +
@@ -378,7 +383,7 @@ image::einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 6 Abfrage", 470, 374]
 
 Lösung:
 
-.Tabel output from QGIS
+.Table output from QGIS
 image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189]
 
 8 cantons meet the condition: Bern, Freiburg, Luzern, Obwalden, Schwyz, Waadt, 
@@ -412,36 +417,38 @@ Result:
 .Output in the table from QGIS
 image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296]
 
-12 Lakes meet the condition.
+12 lakes meet the condition.
 ====
 endif::show_solutions[]
 
 === Calculate fields
 
-Next a new value can be generated, with the help of of existing attributes. In 
-this case the population density of the cantons using the following formula:
+Next a new value can be generated with the help of existing attributes. 
+In this case, the population density of the cantons needs to be calculated.
+We do thus using the following formula:
 
+_Population density per km^2^ = Number of inhabitants / surface area in km^2^_
 
-_Population density per km^2^ = Number of inhabitants / Surface area in km^2^_
-
-For this calculation we'll need the attribute table of the cantons. Select the 
-option _Open field calculator_. If you want to use the density value into an 
-existing column you can check _Update existing field_ in the mask and in the 
-drop down menu select your desired column. In our case, however, we would like 
-to create a new field. Therefore enter _Output field name_ enter the term 
-_density_. Select as _Output field type Integer (integer)_ and as _Output_ 
-_field length 10_.
+For this calculation we'll need the attribute table of the cantons. 
+Select the option _Open field calculator_. 
+If you want to write the density value into an existing column, you can check 
+_Update existing field_ in the mask, and you can select your desired column
+in the drop down menu. 
+In our case, however, we would like to create a new field. 
+Therefore enter _Output field name_ enter the term _density_. 
+Select as _Output field type Integer (integer)_ and as _Output field length 10_.
 
 If you want to calculate the density value for all and not only for the 
-selected cantons, You have to be careful, that _Only update x selected_ 
-_features_ is not checked.
+selected cantons, you have to be careful, that 
+_Only update x selected features_ is not checked.
 
 Now you can use the _Field Calculator Expression_ according to the formula for 
-the population density. All you have to do is put in the expression after the 
-equal sign.
+the population density. 
+All you have to do is put in the expression after the equal sign.
 
 We would also like to calculate the density as a whole rounded number without 
-decimal point. Therefore the option to _Whole number_ can be selected.
+decimal point. 
+Therefore the option to _Whole number_ can be selected.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 9_ +
@@ -455,7 +462,7 @@ to int ( Population / Surface area)
 endif::show_solutions[]
 
 After the calculation the editing mode must be switched off again. If you are 
-satisfied with the calculation then save the changes. If not reject them.
+satisfied with the calculation then save the changes. If not, reject them.
 
 === Combined selection
 
@@ -468,7 +475,7 @@ are involved.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 10_ +
-_Think about which component is thematic and which is spartial._
+_Think about which component is thematic and which is spatial._
 
 ifdef::show_solutions[]
 ====
@@ -478,19 +485,19 @@ ifdef::show_solutions[]
 * Population density of more than 200 inhabitants per km^2^
 * joined Switzerland between 1800 and 1900
 
-*spartial:* +
+*spatial:* +
 Main towns located in the corresponding cantons.
 ====
 endif::show_solutions[]
 
-for this query we'll do two steps in the first one we'll run the thematic 
+For this query we'll do two steps in the first one we'll run the thematic 
 query. Open for that the attribute table for cantons and select with help of 
 _Select by expression_ all cantons with the population density greater than 
 200 people per km^2^ and joined Switzerland between 1800 and 1900.
 
-mage:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 11_ +
-_How goes the where-expression?_
+_What's the where-expression?_
 
 ifdef::show_solutions[]
 ====
@@ -504,26 +511,26 @@ endif::show_solutions[]
 Now all cantons are selected which fulfill this condition.
 
 After that we need to find the corresponding the main towns, this is done with 
-the help of spartial selection. For that you open the tool _Select by Location_.
+the help of spatial selection. 
+For that you open the tool _Select by Location_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 12_ +
-_Which layer is now the *Select features from*-Layer and which one the *By 
-comparing to the features from*-Layer? Which Topological Surgery should be 
-chosen?_
+_Which layer is now the *Select features from* layer_
+_and which one the *By comparing to the features from* layer?_ 
+_Which topological surgery should be chosen?_
 
 ifdef::show_solutions[]
 ====
 .Solution
 *Select features from:* main towns +
-*By comparing to
-the features from:* canton borders +
+*By comparing to the features from:* canton borders +
 
 *Topologische Operation:* within
 ====
 endif::show_solutions[]
 
-Before the execution of the query check, that the attitudes are set so, that 
+Before the execution of the query, check that the options are set, so that 
 from the cantonal borders only the selected ones are taken into account.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
@@ -541,10 +548,10 @@ endif::show_solutions[]
 
 === Question 1
 
-In chapter 4 you have learned to differentiate between to variants of analysis 
+In chapter 4 you have learned to differentiate between to variants of analysis, 
 namely queries and manipulations.
 
-_What's the difference between this two variants._
+_What's the difference between these two variants._
 
 Write down your answer using your own words and add an example for each.
 
@@ -552,7 +559,7 @@ ifdef::show_solutions[]
 ====
 .Solution
 Query: +
-A query only accesses the data and does not change it in any form 
+A query only accesses the data and does not change it in any form.
 
 For example if you want to know how many people under 30 earn more than 
 150'000 CHF per year
@@ -571,13 +578,12 @@ endif::show_solutions[]
 You have learned to formulate thematic queries with SQL.
 
 _Create an SQL query for the following question:_+
-_"Which cantons have a greater population density than 200 people per km^2^, 
-joined Switzerland before the year 1600 and whose name doesn't start with a Z?_
+_"Which cantons have a greater population density than 200 people per km^2^, _
+_joined Switzerland before the year 1600, and whose name doesn't start with a Z?_
 
-
-Use the simplified version of the SQL-guery and mark the typical elements of 
-it separately. The names of the tables and Attributes can be taken from the 
-data given to you.
+Use the simplified version of the SQL query and mark the typical elements of 
+it separately. 
+The names of the tables and Attributes can be taken from the data given to you.
 
 ifdef::show_solutions[]
 ====
@@ -585,7 +591,7 @@ ifdef::show_solutions[]
 SELECT * +
 FROM canton +
 WHERE Population / Surface area >
-200 AND accession year < 1600
+200 AND accession_year < 1600
 AND Name NOT LIKE ‘Z%’
 ====
 endif::show_solutions[]
@@ -595,8 +601,8 @@ endif::show_solutions[]
 Besides the thematic queries, there are other variants which can be combined.
 
 _For the following question create an SQL-Query:_ +
-_"Select all cantons which joined Switzerland after 1600 and have contact with 
-a lake greater then 50km^2^._
+_"Select all cantons which joined Switzerland after 1600 and have contact _
+_with a lake greater then 50km^2^._
 
 ifdef::show_solutions[]
 ====

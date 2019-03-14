@@ -132,4 +132,5 @@ stick).
 === Download example data
 
 The zip file with the data for the exercises of this guide you'll find on 
-https://www.openschoolmaps.ch under teaching materials.
+https://www.openschoolmaps.org under teaching materials 
+("Unterrichtsmaterialien").

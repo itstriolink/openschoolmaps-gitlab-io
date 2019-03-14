@@ -155,6 +155,7 @@ QGIS.
 === Learning objectives
 
 After this exercise you will be able to:
+
 * open existing projects in QGIS
 * name and use the different navigation options
 
