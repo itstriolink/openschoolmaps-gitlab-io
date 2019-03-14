@@ -229,10 +229,10 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 3_ +
 _Try it now for yourself and formulate the following query in SQL:_
 
-. _Select every lake with a surface area larger than 20km^2^ and which lies_ 
-_below 400 meters above sea-level._
-. _The search that you did as introduction in the Search 1 at homepage of_
-_http://tel.local.ch/de/ ._
+. All lakes should be selected whose area is greater than 20 km^2^ and which are 
+deeper than 400 m.a.s.l..
+. _The search that you did as an introduction to theory as Search 1 on the 
+homepage http://tel.local.ch/de/._
 
 ifdef::show_solutions[]
 ====
