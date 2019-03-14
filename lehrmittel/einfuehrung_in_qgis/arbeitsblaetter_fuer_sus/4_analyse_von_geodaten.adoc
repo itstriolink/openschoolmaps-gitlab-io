@@ -623,10 +623,10 @@ mussten.
 ifdef::show_solutions[]
 ====
 .Lösung
-SELECT * +
-FROM Kantone, Seen +
-WHERE Kantone.Beitrittsj >
-1600 AND Seen.Flaeche > 50
-AND -- TODO
+SELECT *
+FROM Kantonsgrenzen, Seen
+WHERE Kantonsgrenzen.Beitrittsj > 1600
+AND Seen.Flaeche > 50
+AND st_intersects
 ====
 endif::show_solutions[]
