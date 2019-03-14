@@ -107,37 +107,36 @@ either change the data or even generate new data.
 
 There are three ways in which a query can be executed.
 
-. Queries based on factual data. 
-Example: Select all lakes that have a water depth, that's lower than 100 meters. 
-These queries are thematic queries or selections.
+. Queries based on factual data. Example: Select all lakes with a water depth 
+greater than 100 meters. These queries are called *thematic queries or 
+selections*.
 
-. Queries based on relationships between different geometric objects. 
-Example: Select all lakes, which are completely within a canton. 
-These queries are topological queries or selections.
+. Query relationships between different geometric objects. Example: Select all 
+lakes that are completely within a canton. These queries are called 
+*topological queries or selections*.
 
-. Queries via the geometry of the objects. 
-Example: Which main locations are within a distance of less than 20 km around 
-Lake Lucerne. These queries are geometric queries or selections.
-
+. Queries about the geometry of objects. Example:  Which main locations are at a 
+distance of less than 20 km around Lake Lucerne? These queries are called 
+*geometric queries or selections*.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Exercise 2_
-
-Think about what type of queries you used in the introduction.
+_Exercise 2_ +
+_Consider what kind of queries the introductory exercise was?_
 
 ifdef::show_solutions[]
 ====
 .Solution
-Both of them are thematic queries.
+Both cases are thematic queries.
 ====
 endif::show_solutions[]
 
 === Database language SQL 
 
-We use *SQL (Structured Query Language)* to run thematic queries. If you 
-already worked with databases, then you will already know about it and the 
-next step is a simple update. For all others it's a short introduction into 
-the most important structural elements and terms of an SQL query.
+To perform thematic queries, the database language *SQL (Structured Query 
+Language)* is used. If you have already worked with databases, you will 
+probably already know the language. Then the next section is Repetition. For 
+everyone else it is a short introduction to the most important structures and 
+expressions of a query with SQL.
 
 A simplified _SQL query_ is structured as follows:
 
