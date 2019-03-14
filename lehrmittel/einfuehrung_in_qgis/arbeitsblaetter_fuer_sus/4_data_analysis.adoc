@@ -231,7 +231,7 @@ _Try it now for yourself and formulate the following query in SQL:_
 
 . _Select every lake with a surface area larger than 20km^2^ and which lies_ 
 _below 400 meters above sea-level._
-. _The search that you did as introduction in the Search 1 at homepage of _
+. _The search that you did as introduction in the Search 1 at homepage of_
 _http://tel.local.ch/de/ ._
 
 ifdef::show_solutions[]
