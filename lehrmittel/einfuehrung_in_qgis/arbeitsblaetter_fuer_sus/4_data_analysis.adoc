@@ -204,8 +204,8 @@ name is Meyer or Meier. With LIKE ,M_-er' can it also be Mayer.
 
 You can combine different requirements together and use logical Operators
 if _Condition 1_ *and* (*AND*) _Condition 2_ 
-*or* _Condition 1_ or (*OR*) _Condition 2_
-*or* _Condition 1_ *and not* (*NOT*) -Condition 2_
+or _Condition 1_ *or* (*OR*) _Condition 2_
+or _Condition 1_ *and not* (*NOT*) _Condition 2_
 should be valid.
 
 Here's a wrapup to illustrate everything as a venn diagram:
