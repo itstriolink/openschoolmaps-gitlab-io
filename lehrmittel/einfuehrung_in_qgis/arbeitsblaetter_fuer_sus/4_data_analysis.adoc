@@ -25,9 +25,8 @@ each
 * Formulate a correct SQL query for a thematic query
 
 == Theory
-
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 1_ +
-
 _As introduction for this chapter solve the following exercises:_
 
 . Search 1: Call the website http://tel.local.ch/de/ and enter the name and if 
