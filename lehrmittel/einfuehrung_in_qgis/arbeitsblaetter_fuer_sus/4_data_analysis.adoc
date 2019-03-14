@@ -266,30 +266,30 @@ At the end of this exercise, you've mastered the following points:
 
 === Thematic selection
 
-At the beginning of this exercise we would like to perform a simple query that 
-you already know from the SQL exercise in the theory part:
+At the beginning of this exercise we would like to perform a simple query. You 
+already know it from the SQL exercise in the theoretical part:
 
-_You should select every lake which has a surface area above 20 km^2^ and _
-_which lies below 400 meter above sea-level._
+All lakes should be selected whose area is larger than 20 km^2^ and which are 
+deeper than 400 m.a.s.l.
 
-You could look through each cell in the attribute table and check which ones fit 
-the criteria and which do not. 
-However, if you have a large table, that becomes rather time intensive.
+To select these lakes, you could now look through each row of the attribute 
+table and determine which objects belong to them and which do not. But if you 
+have a lot of objects, this kind of search would quickly take a lot of time.
 
-It's simpler to use the prepared search interface. For simple searches like a 
-name it's easiest to use _Field Filter_ in the table.
+It's easier if you use the predefined search masks. If you are only looking 
+for a name or a number, the easiest way is to use the _Field Filter_ in the 
+attribute table.
 
-Try this method in a small example. Open the attribute table for lakes. 
-In the lower left area you see a line on which _Show All Features_ is written 
-and a menu, that you can unfold. 
-Search in this menu, in the _Field Filter_, for the attribute, for which you 
-want to sort out. 
-In addition, you must enter the term you want to filter. 
-You want now for example search for all lakes with name "Lago" appears. 
-Choose the attribute "name" in the menu and search for the term "Lago".
+Try this search with a small example. Open the attribute table of the lakes. 
+In the lower left area you will see a line that says _Show All Features_ and a 
+menu that you can open. Search in this menu, in the _Field Filter_, for the 
+attribute you want to sort by. Additionally, you have to enter the term you 
+want to filter by. For example, you want to search for all lakes in which 
+"Lago" appears in the name. Select the attribute "name" in the menu at the 
+bottom left and search for the term "Lago".
 
-In order to can see immediately how many elements were selected, you can 
-activate the option _Show Selected Features_.
+To see immediately how many elements have been selected, you can activate the 
+_Show Selected Features_ option.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 4_ + 
