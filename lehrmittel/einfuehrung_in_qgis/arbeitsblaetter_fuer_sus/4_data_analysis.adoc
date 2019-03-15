@@ -603,7 +603,7 @@ When answering this question, only the lakes stored in the geopackage
 qgis_einfuehrung_daten.gpkg must be considered. Perform the query and write down 
 step by step how you proceed.  Small hint: Think of the task from the exercise, 
 in which the names of all main locations were selected, whose associated cantons
-had to fulfil certain thematic conditions.
+had to fulfill certain thematic conditions.
 
 ifdef::show_solutions[]
 ====
