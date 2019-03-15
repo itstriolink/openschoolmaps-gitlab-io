@@ -327,9 +327,9 @@ _SQL_-Abfrage eingegeben werden. Von _Select * from Seen where max_Tiefe >
 Die einzelnen Komponenten der Where-Klausel können durch Doppelklick auf die 
 Felder im rechten Fenster zusammengesetzt werden.
 
-Es ist möglich auch die ganze _SQL_-Abfrage zu nutzen, dazu reicht aber der 
-_Feldfilter_ nicht aus. Stadtessen nutzen wir dafür den _DB Manager_ welchen 
-man unter _Datenbank_ findet.
+Es ist auch möglich die ganze _SQL_-Abfrage zu nutzen. Dazu reicht aber der 
+_Feldfilter_ leider nicht aus. Stattdessen nutzen wir dafür den _DB Manager_ 
+welchen man unter _Datenbank_ findet.
 Unter _Datenanbieter_ wählen wir nun aus was für einen Typ Datenbank wir 
 nutzen, in unserem Beispiel verwenden wir _GeoPackage _ und die Datenbank 
 +qgis_einfuehrung_daten.gpkg + und die Tabelle _Seen_.
