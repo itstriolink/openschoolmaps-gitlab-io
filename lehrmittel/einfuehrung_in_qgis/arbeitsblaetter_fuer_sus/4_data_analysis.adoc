@@ -241,15 +241,15 @@ ifdef::show_solutions[]
 .Solution 1
 ....
 SELECT
-FROM lakes
-WHERE surface area > 20 AND depth < 400
+FROM Seen
+WHERE Flaeche > 20 AND Tiefe < 400
 ....
 
 .Solution 2
 ....
 SELECT
-FROM Address
-WHERE Name = 'Müller' AND Surname = 'Peter' AND Ort = 'Bern'
+FROM Adressen
+WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
 ....
 ====
 endif::show_solutions[]
@@ -332,10 +332,10 @@ ifdef::show_solutions[]
 .Solution
 ....
 SELECT
-FROM lakes
-WHERE surface_area > 20 AND meters_over_seal_level < 400
+FROM Seen
+WHERE Flaeche > 20 AND Hoehe_muM < 400
 ....
-4 lakes
+4 Seen
 ====
 endif::show_solutions[]
 
@@ -453,7 +453,7 @@ _What do you write into the calculator?_
 ifdef::show_solutions[]
 ====
 .Solution
-to int ( Population / Surface area)
+to_int (Einwohner / Flaeche)
 ====
 endif::show_solutions[]
 
@@ -499,7 +499,7 @@ ifdef::show_solutions[]
 ====
 .Solution
 ....
-WHERE Density > 200 AND accession year > 1800 AND accession year < 1900
+WHERE Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
 ....
 ====
 endif::show_solutions[]
@@ -518,10 +518,10 @@ to the features from* layer? Which topological operation has to be chosen?_
 ifdef::show_solutions[]
 ====
 .Solution
-*Select features from:* main towns +
-*By comparing to the features from:* canton borders +
+*Select features from:* "Hauptorte" +
+*By comparing to the features from:* "Kantonsgrenzen" +
+*Topological operation:* "innerhalb"
 
-*Topological operation:* within
 ====
 endif::show_solutions[]
 
@@ -585,9 +585,9 @@ ifdef::show_solutions[]
 ====
 .Solution
 SELECT * +
-FROM canton +
-WHERE Population / Surface area >
-200 AND accession_year < 1600
+FROM Kantone +
+WHERE Einwohner / Flaeche >
+200 AND Beitrittsj < 1600
 AND Name NOT LIKE ‘Z%’
 ====
 endif::show_solutions[]
@@ -609,10 +609,10 @@ had to fulfil certain thematic conditions.
 ifdef::show_solutions[]
 ====
 .Solution
-SELECT * +
-FROM canton, lake +
-WHERE canton.accession year >
-1600 AND lake.Surface area > 50
-AND -- TODO
+SELECT *
+FROM Kantonsgrenzen, Seen
+WHERE Kantonsgrenzen.Beitrittsj > 1600
+AND Seen.Flaeche > 50
+AND st_intersects
 ====
 endif::show_solutions[]
