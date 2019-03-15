@@ -371,7 +371,7 @@ ifdef::show_solutions[]
 ====
 .Lösung
 ....
-SELECT
+SELECT *
 FROM Seen
 WHERE Flaeche > 20 AND Hoehe_muM < 400
 ....
@@ -656,11 +656,14 @@ Hauptorte selektiert wurden, deren zugehörige Kantone gewisse thematische
 Bedingungen erfüllen mussten.
 
 ifdef::show_solutions[]
+SELECT *
 ====
 .Lösung
-SELECT * +
-FROM Kantonsgrenzen, Seen
-WHERE Kantonsgrenzen.Beitrittsj > 1600 AND Seen.Flaeche > 50 +
+....
+SELECT * 
+FROM Kantonsgrenzen, Seen 
+WHERE Kantonsgrenzen.Beitrittsj > 1600 AND Seen.Flaeche > 50
 AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
+....
 ====
 endif::show_solutions[]
