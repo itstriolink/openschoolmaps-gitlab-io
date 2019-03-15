@@ -596,7 +596,7 @@ Besides the thematic queries, there are other variants which can be combined.
 
 _For the following question create an SQL-Query:_ +
 _"Select all cantons which joined Switzerland after 1600 and have contact 
-with a lake greater then 50km^2^._
+with a lake greater then 50km^2^"_
 
 ifdef::show_solutions[]
 ====
