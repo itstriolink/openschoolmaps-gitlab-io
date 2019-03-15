@@ -571,13 +571,13 @@ endif::show_solutions[]
 You have learned to formulate thematic queries with SQL.
 
 _Create an SQL query for the following question:_ +
-_"Which cantons have a population density greater than 200 inhabitants per km^2^
-, joined Switzerland before 1600 A.D. and have a name that does not begin with 
+_"Which cantons have a population density greater than 200 inhabitants per km^2^,
+joined Switzerland before 1600 A.D. and have a name that does not begin with 
 the letter Z?"_
 
 Use the simplified version of the SQL query and mark the typical elements of 
 it separately. 
-The names of the tables and Attributes can be taken from the data given to you.
+The names of the tables and attributes can be taken from the data given to you.
 
 ifdef::show_solutions[]
 ====
