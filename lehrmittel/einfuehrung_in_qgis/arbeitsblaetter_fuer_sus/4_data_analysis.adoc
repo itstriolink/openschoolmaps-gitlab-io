@@ -333,7 +333,7 @@ ifdef::show_solutions[]
 ....
 SELECT
 FROM Seen
-WHERE Flaeche > 20 AND Hoehe_muM < 400
+WHERE "Hoehe_muM" < 400 AND "Flaeche" > 20
 ....
 4 Seen
 ====
@@ -585,10 +585,8 @@ ifdef::show_solutions[]
 ====
 .Solution
 SELECT * +
-FROM Kantone +
-WHERE Einwohner / Flaeche >
-200 AND Beitrittsj < 1600
-AND Name NOT LIKE ‘Z%’
+FROM Kantonsgrenzen +
+WHERE Einwohner / Flaeche > 200 AND Beitrittsj < 1600 AND Name NOT LIKE 'Z%'
 ====
 endif::show_solutions[]
 
@@ -613,6 +611,6 @@ SELECT *
 FROM Kantonsgrenzen, Seen
 WHERE Kantonsgrenzen.Beitrittsj > 1600
 AND Seen.Flaeche > 50
-AND st_intersects
+AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
 ====
 endif::show_solutions[]
