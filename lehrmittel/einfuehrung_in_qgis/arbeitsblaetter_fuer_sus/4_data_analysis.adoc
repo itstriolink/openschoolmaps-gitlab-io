@@ -241,15 +241,15 @@ ifdef::show_solutions[]
 .Solution 1
 ....
 SELECT
-FROM Seen
-WHERE Flaeche > 20 AND Tiefe < 400
+FROM Seen (lakes)
+WHERE Flaeche (area) > 20 AND Tiefe (depth) < 400
 ....
 
 .Solution 2
 ....
 SELECT
-FROM Adressen
-WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
+FROM Adressen (addresses)
+WHERE Name (name) = 'Müller' AND Vorname (first name) = 'Peter' AND Ort (place) = 'Bern'
 ....
 ====
 endif::show_solutions[]
@@ -332,8 +332,8 @@ ifdef::show_solutions[]
 .Solution
 ....
 SELECT
-FROM Seen
-WHERE "Hoehe_muM" < 400 AND "Flaeche" > 20
+FROM Seen (lakes)
+WHERE "Hoehe_muM" (height m.a.s.l) < 400 AND "Flaeche" (area) > 20
 ....
 4 Seen
 ====
@@ -453,7 +453,7 @@ _What do you write into the calculator?_
 ifdef::show_solutions[]
 ====
 .Solution
-to_int (Einwohner / Flaeche)
+to_int (Einwohner (inhabitants) / Flaeche (area))
 ====
 endif::show_solutions[]
 
@@ -499,7 +499,7 @@ ifdef::show_solutions[]
 ====
 .Solution
 ....
-WHERE Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
+WHERE Dichte (density) > 200 AND Beitrittsj (year of accession) > 1800 AND Beitrittsj (year of accession) < 1900
 ....
 ====
 endif::show_solutions[]
@@ -585,8 +585,9 @@ ifdef::show_solutions[]
 ====
 .Solution
 SELECT * +
-FROM Kantonsgrenzen +
-WHERE Einwohner / Flaeche > 200 AND Beitrittsj < 1600 AND Name NOT LIKE 'Z%'
+FROM Kantonsgrenzen (cantonal boundaries) +
+WHERE Einwohner (inhabitants) / Flaeche (area) > 200 AND Beitrittsj 
+(year of accession) < 1600 AND Name (name) NOT LIKE 'Z%'
 ====
 endif::show_solutions[]
 
@@ -608,9 +609,9 @@ ifdef::show_solutions[]
 ====
 .Solution
 SELECT *
-FROM Kantonsgrenzen, Seen
-WHERE Kantonsgrenzen.Beitrittsj > 1600
-AND Seen.Flaeche > 50
+FROM Kantonsgrenzen (cantonal boundaries), Seen (lakes)
+WHERE Kantonsgrenzen.Beitrittsj (cantonal boundaries.year of accession of) > 1600
+AND Seen.Flaeche (lakes.area) > 50
 AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
 ====
 endif::show_solutions[]
