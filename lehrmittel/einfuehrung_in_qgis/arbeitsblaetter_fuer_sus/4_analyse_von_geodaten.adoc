@@ -283,19 +283,20 @@ sehr schnell sehr viel Zeit in Anspruch nehmen.
 
 Einfacher geht es, wenn die vordefinierten Suchmasken verwendet werden. Wenn 
 du nur nach einem Namen oder einer Zahl suchst, dann ist es am Einfachsten, 
-den _Field Filter_ in der Attributtabelle zu benützen.
+den _Felderfilter_ in der Attributtabelle unter _Alle Objekte anzeigen_ zu
+benützen.
 
 Probiere diese Suche an einem kleinen Beispiel aus. Öffne die Attributstabelle 
 der Seen. Im unteren linken Bereich siehst du eine Zeile auf der _Show All 
 Features_ steht und ein Menu, das du aufklappen kannst. Suche in diesem Menu, 
-im _Field Filter_, nach dem Attribut, nach welchem du sortieren möchtest. 
+im _Felderfilter_, nach dem Attribut, nach welchem du sortieren möchtest. 
 Zusätzlich musst du den Begriff noch eingeben, nach dem du filtern möchtest. 
 Du möchtest nun z.B. nach allen Seen suchen, in denen im Namen „Lago“ 
 vorkommt. Wähle das Attribut „name“ im Menu unten links aus und suche nach dem 
 Begriff Lago.
 
 Damit du sofort siehst, wie viele Elemente ausgewählt wurden, kannst du die 
-Option _Show Selected Features_ aktivieren.
+Option _Filter..._ aktivieren.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 4_ +
@@ -326,6 +327,17 @@ _SQL_-Abfrage eingegeben werden. Von _Select * from Seen where max_Tiefe >
 Die einzelnen Komponenten der Where-Klausel können durch Doppelklick auf die 
 Felder im rechten Fenster zusammengesetzt werden.
 
+Es ist auch möglich die ganze _SQL_-Abfrage zu nutzen. Dazu reicht aber der 
+_Feldfilter_ leider nicht aus. Stattdessen nutzen wir dafür den _DB Manager_ 
+welchen man unter _Datenbank_ findet.
+Unter _Datenanbieter_ wählen wir nun aus was für einen Typ Datenbank wir 
+nutzen, in unserem Beispiel verwenden wir _GeoPackage _ und die Datenbank 
++qgis_einfuehrung_daten.gpkg + und die Tabelle _Seen_.
+Um eine SQL-Anfrage durchzuführen, nutzt man _SQL-fenster _ und erfasst es im 
+Fenster oben rechts und führt es mit _Ausführen_ aus.
+
+image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
+
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 5_ +
 _Formuliere nun die Where-Klausel der SQL-Abfrage für die Einstiegsaufgabe und 
@@ -336,7 +348,7 @@ ifdef::show_solutions[]
 .Lösung
 ....
 SELECT
-FROM seen
+FROM Seen
 WHERE Flaeche > 20 AND Hoehe_muM < 400
 ....
 4 Seen
@@ -351,25 +363,25 @@ Abfrage durchgeführt werden, bei welcher die Position der Objekte
 berücksichtigt wird. Es handelt sich dabei um eine räumliche Abfrage.
 
 Das Werkzeug für die räumlichen Abfragen findet man, in dem man den Button 
-_Toolbox_ klickt und aus dem neuen Fenster unter _Vector selection_ das 
-Werkzeug _Select by location_ auswählt.
+_Vektor_ klickt und aus dem neuen Fenster unter _Datenmanagement Werkzeuge_ 
+das Werkzeug _Attribute Nach Position Zusammenfügen_ auswählt.
 
 Es sollen alle Kantone selektiert werden, bei denen mindestens einer der 
 erfassten Seen ganz innerhalb liegt (d.h. der Kanton teilt sich den See nicht 
 mit einem anderen Kanton oder einem anderen Land).
 
-Der _Select features from_ Layer in der Maske ist der Layer, in welchem die 
-Elemente selektiert werden sollen. Da im vorliegenden Fall die Kantone 
-selektiert werden sollen, wählen wir hier den Layer Kantonsgrenzen. Somit sind 
-die Seen der _By comapring to the features from_ Layer. Die Checkbox _Selected 
-features only_ muss ausgewählt sein, damit nur die Seen mit einer Tiefe von 
-mindestens 100 Metern ausgewählt werden.
+Der _Eingabelayer_ Layer in der Maske ist der Layer, in welchem die Elemente 
+selektiert werden sollen. Da im vorliegenden Fall die Kantone selektiert 
+werden sollen, wählen wir hier den Layer Kantonsgrenzen. Somit sind die Seen 
+der _Layer verknüpfen_ Layer. Die Checkbox _Nur gewählte Objekte_ muss 
+ausgewählt sein, damit nur die Seen mit einer Tiefe von mindestens 100 Metern 
+ausgewählt werden.
 
 Die Seen sollen vollständig innerhalb eines Kantones liegen. D.h. die 
 Kantonsflächen enthalten die Seeflächen. Deshalb lautet die topologische 
-Operation _contains_. Man geht bei der Wahl der topologischen Operation also 
-immer vom _Select features from_ aus und überprüft, wie er im Verhältnis zum 
-_By comapring to the features from_ steht.
+Operation _enthält_. Man geht bei der Wahl der topologischen Operation also 
+immer vom _Eingabelayer_ aus und überprüft, wie er im Verhältnis zum _Layer 
+verknüpfen_ steht.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 6_ +
@@ -434,23 +446,23 @@ Diese geschieht durch folgende Formel:
 _Einwohnerdichte pro km^2^ = Anzahl Einwohner / Fläche in km^2^_
 
 Für diese Berechnung muss die Attributstabelle der Kantone werden. Wähle die 
-Option _Open field calculator_. Falls du den Dichtewert in eine bereits 
-bestehende Spalte schreiben möchtest, kannst du in der Maske _Update existing 
-field_ ankreuzen und im Dropdown-Menu deine gewünschte Spalte auswählen. In 
+Option _Feldrechner öffen_. Falls du den Dichtewert in eine bereits 
+bestehende Spalte schreiben möchtest, kannst du in der Maske _Forhandenes Feld erneuern_ 
+ankreuzen und im Dropdown-Menu deine gewünschte Spalte auswählen. In 
 unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
-_Output field name_ den Begriff _Dichte_ ein. Wähle als _Output field type 
-Ganzzahl (integer)_ und als _Output field length 10_.
+_Ausgabefeld Name_ den Begriff _Dichte_ ein. Wähle als _Output field type 
+Ganzzahl (integer)_ und als _Ausgabefeldlänge 10_.
 
 Wenn du den Dichtewert für alle und nicht nur für die selektierten Kantone 
 berechnen möchtest, musst du darauf achten, dass das Kreuz bei _Only update x 
 selected features_ nicht gesetzt ist.
 
-Nun kannst du den _Field Calculator Expression_ entsprechend der Formel für 
+Nun kannst du den _Feldrechner_ entsprechend der Formel für 
 die Einwohnerdichte formulieren. Dabei musst du nur den Ausdruck nach dem 
 Gleichheitszeichen eingeben.
 
 Wir möchten ausserdem die Dichte als ganze gerundete Zahl ohne Nachkommastelle 
-berechnen. Deshalb muss die Option zu _Whole number_ gewählt werden.
+berechnen. Deshalb muss die Option zu _Ganzzahl_ gewählt werden.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 9_ +
@@ -496,9 +508,9 @@ endif::show_solutions[]
 
 Wir werden bei dieser Abfrage in zwei Schritten vorgehen. Im ersten Schritt 
 wird die thematische Abfrage durchgeführt. Öffne dazu die Attributstabelle der 
-Kantone und selektiere mit Hilfe der _Select by expression_ alle Kantone, bei 
-denen die Bevölkerungsdichte grösser als 200 Einwohner pro km^2^ beträgt und 
-die zwischen 1800 und 1900 der Schweiz beigetreten sind.
+Kantone und selektiere mit Hilfe der _Objekt über Ausdruck wählen_ alle 
+Kantone, bei denen die Bevölkerungsdichte grösser als 200 Einwohner pro km^2^ 
+beträgt und die zwischen 1800 und 1900 der Schweiz beigetreten sind.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 11_ +
@@ -518,8 +530,8 @@ endif::show_solutions[]
 Jetzt sind alle Kantone selektiert, die diese Bedingung erfüllen.
 
 Nun sollen noch die dazugehörigen Hauptorte herausgefunden werden. Dies 
-geschieht mit Hilfe einer räumlichen Abfrage. Öffne dazu das _Select by 
-Locataion_-Werkzeug.
+geschieht mit Hilfe einer räumlichen Abfrage. Öffne dazu das _Attribute 
+Nach Position Zusammenfügen_-Werkzeug.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
@@ -628,6 +640,6 @@ SELECT *
 FROM Kantonsgrenzen, Seen
 WHERE Kantonsgrenzen.Beitrittsj > 1600
 AND Seen.Flaeche > 50
-AND st_intersects
+AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
 ====
 endif::show_solutions[]
