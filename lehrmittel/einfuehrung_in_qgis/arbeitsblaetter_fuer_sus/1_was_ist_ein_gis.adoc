@@ -211,9 +211,9 @@ image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläch
 Findest du die einzelnen Bereiche auch in deiner Benutzeroberfläche?
 
 Falls der Layer oder der Browser nicht eingeblendet sind, kannst du diese über 
-das Menü _View_ -> _Panels_ und _Layers_ oder _Browser_ tun.
+das Menü _Ansicht_ -> _Bedienfelder_ und _Layers_ oder _Browser_ tun.
 
-Über das Menü _View_ -> _Toolbars_ gelangt man zu einer Auflistung der 
+Über das Menü _Ansicht_ -> _Werkzeugkästen_ gelangt man zu einer Auflistung der 
 Werkzeugkästen. Die einzelnen Werkzeugkästen können durch Setzen oder 
 Entfernen des Kreuzes vor dem Namen in der Werkzeugleiste ein- oder 
 ausgeblendet werden.
@@ -256,7 +256,7 @@ diese Funktion, indem du die Seen in der Karte ein- und ausblendest. Beobachte
 dabei die Veränderungen im Kartenfenster.
 
 TIP: Wenn du im Kartenfenster die Seen und Kantonsgrenzen nicht siehst, kannst 
-du auf einen Layer rechtsklicken und _Zoom to Layer_ wählen. Nun solltest du 
+du auf einen Layer rechtsklicken und _Auf den Layer zoomen_ wählen. Nun solltest du 
 die Karte im Kartenfenster sehen.
 
 Die Darstellungsreihenfolge im Kartenfenster entspricht der Reihenfolge im 
@@ -274,10 +274,10 @@ Verschiebe anschliessend die Layer wieder in die Anfangsposition zurück.
 === Navigation im Kartenfenster
 
 Bevor du mit dem Navigieren in der Karte beginnst, solltest du zuerst ein 
-Hintergrundbild für das Bedienfeld _Overview_ wählen. Die Kantonsgrenzen 
+Hintergrundbild für das Bedienfeld _Übersicht_ wählen. Die Kantonsgrenzen 
 würden sich gut für diesen Zweck eignen. Um den Inhalt dieses Layers als 
 Hintergrundskarte zu wählen, klicke mit der rechten Maustaste auf den Layer 
-und setze ein Kreuz bei der Option _Show in Overview_ anzeigen. Die 
+und setze ein Kreuz bei der Option _In der Übersicht anzeigen_ anzeigen. Die 
 Kantonsgrenzen erscheinen in der Kartenübersicht. Es können beliebige weitere 
 Layer hinzugefügt werden. Die Darstellungsreihenfolge wird von der Reihenfolge 
 im Layerfenster übernommen.
@@ -357,8 +357,8 @@ verwendet.
 mit dem Mauszeiger.
 
 Bemerkung: Der Zoomfaktor, welcher beim Navigieren mit dem Mausrad und den 
-Tasten PageUp und PageDown verwendet wird, kann im Menü _Settings_ -> 
-_Optionen..._ unter der Option _Map Tools_ eingestellt werden. Defaultmässig 
+Tasten PageUp und PageDown verwendet wird, kann im Menü _Einstelllungen_ -> 
+_Optionen..._ unter der Option _Karetnwerkzeuge_ eingestellt werden. Defaultmässig 
 hat er den Wert _200%_.
 ====
 endif::show_solutions[]
