@@ -635,4 +635,4 @@ AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
 ====
 endif::show_solutions[]
 
-image::einfuehrung_in_qgis/db_manager.png["Frage 3 DB Manager", 1000, 465]
+image::einfuehrung_in_qgis/db_manager.png["Frage 3 DB Manager", 500, 232]
