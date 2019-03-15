@@ -327,11 +327,16 @@ _SQL_-Abfrage eingegeben werden. Von _Select * from Seen where max_Tiefe >
 Die einzelnen Komponenten der Where-Klausel können durch Doppelklick auf die 
 Felder im rechten Fenster zusammengesetzt werden.
 
-Es ist möglich auch die ganze _SQL_-Abfrage zu nutzen, dazu reicht aber der _Feldfilter_ nicht aus.
-Stadessen nutzen wir dafür den _DB Manager_ welchen man unter _Datenbank_ findet.
-Unter _Datenanbieter_ wählen wir nun aus was für eine art Datenbank wir nutzen, in unserem beispiel verwenden wir _GeoPackage_
-Darunter wählt man die Datenbank +qgis_einfuehrung_daten.gpkg+ and am ende die Tabelle _Seen_ um sich zu verbinden.
-Um eine SQL-Anfrage durchzuführen, nutzt man _SQL-fenster_ und erfasst es.
+Es ist möglich auch die ganze _SQL_-Abfrage zu nutzen, dazu reicht aber der 
+_Feldfilter_ nicht aus. Stadtessen nutzen wir dafür den _DB Manager_ welchen 
+man unter _Datenbank_ findet.
+Unter _Datenanbieter_ wählen wir nun aus was für einen Typ Datenbank wir 
+nutzen, in unserem Beispiel verwenden wir _GeoPackage _ und die Datenbank 
++qgis_einfuehrung_daten.gpkg + und die Tabelle _Seen_.
+Um eine SQL-Anfrage durchzuführen, nutzt man _SQL-fenster _ und erfasst es im 
+Fenster oben rechts und führt es mit _Ausführen_ aus.
+
+image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 5_ +
@@ -636,8 +641,5 @@ FROM Kantonsgrenzen, Seen
 WHERE Kantonsgrenzen.Beitrittsj > 1600
 AND Seen.Flaeche > 50
 AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
-
-image::einfuehrung_in_qgis/db_manager.png["Frage 3 DB Manager", 750, 348]
-
 ====
 endif::show_solutions[]
