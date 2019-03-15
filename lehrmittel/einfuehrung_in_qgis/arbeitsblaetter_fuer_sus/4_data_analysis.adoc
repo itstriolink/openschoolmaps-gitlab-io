@@ -315,9 +315,9 @@ endif::show_solutions[]
 Let's get back to the opening example. This query is a bit more complicated. 
 Open the query editor by clicking the _Select features using an expression_ 
 button. Here the query can be formulated in the form of a _SQL_ query. 
-However, only the _Where clause_ of the _SQL_ query has to be entered. From 
-_Select * from Seen where max_depth > 100_ only the part _max_depth > 100_ has 
-to be typed into the query field.
+However, only the _where clause_ of the _SQL_ query has to be entered. From 
+"_SELECT * FROM Seen WHERE max_depth > 100_" only the part "_max_depth > 100_" 
+has to be typed into the query field.
 
 The single components of the where-expression can be composed by 
 double-clicking on the window to the right.
@@ -331,13 +331,50 @@ ifdef::show_solutions[]
 ====
 .Solution
 ....
-SELECT
-FROM Seen (lakes)
-WHERE "Hoehe_muM" (height m.a.s.l) < 400 AND "Flaeche" (area) > 20
+Hoehe_muM < 400 AND "Flaeche" > 20
 ....
 4 Seen
 ====
 endif::show_solutions[]
+
+In more demanding analyses you want to use the whole SQL language.
+The field filter is not sufficient for this.
+For your own SQL queries, you can use the _DB Manager_ in QGIS, which you find 
+in the QGIS menu under _Database_.
+Given that data is already loaded in the project, you can use 
+_Select Virtual Layer_.
+If you open it, you will see _Project Layer_ and below it you see the queryable
+layers that are loaded into the project, i.e. in our case Seen (lakes) and 
+Kantonsgrenzen (cantonal borders).
+To create your own SQL query, select _Project layer_ and click at the top of the
+SQL window icon.
+A new, two-part dialog appears with an empty text field at the top and an 
+output field at the bottom.
+In the upper field, the cursor is positioned at line 1 and you can start there 
+to write the SQL query.
+When the query is ready, you can execute it by clicking the button
+_Execute_.
+
+image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+_Exercise 6_ +
+_Formulate the same query as in the previous task with the where-clause, but 
+now as a standalone SQL query. What is the SQL query?_
+
+ifdef::show_solutions[]
+====
+.Solution
+....
+SELECT
+FROM Seen --lakes, height m.a.s.l, area
+WHERE "Hoehe_muM" < 400 AND "Flaeche" > 20
+....
+_(Result list with 4 lakes)_
+====
+endif::show_solutions[]
+
+
 
 === Spatial selection
 
@@ -448,12 +485,12 @@ decimal places. Therefore the option to _Whole number_ must be selected.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Exercise 9_ +
-_What do you write into the calculator?_
+_What do you type into the calculator?_
 
 ifdef::show_solutions[]
 ====
 .Solution
-to_int (Einwohner (inhabitants) / Flaeche (area))
+to_int (Einwohner / Flaeche)
 ====
 endif::show_solutions[]
 
@@ -476,12 +513,12 @@ _Think about which component is thematic and which is spatial._
 ifdef::show_solutions[]
 ====
 .Solution
-*thematic:*
+*thematic query:*
 
 * Population density of more than 200 inhabitants per km^2^
 * joined Switzerland between 1800 and 1900
 
-*spatial:* +
+*spatial query:* +
 Main towns located in the corresponding cantons.
 ====
 endif::show_solutions[]
@@ -499,7 +536,8 @@ ifdef::show_solutions[]
 ====
 .Solution
 ....
-WHERE Dichte (density) > 200 AND Beitrittsj (year of accession) > 1800 AND Beitrittsj (year of accession) < 1900
+Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900 +
+density > 200 AND year_of_accession > 1800 AND year_of_accession < 1900
 ....
 ====
 endif::show_solutions[]
@@ -585,9 +623,16 @@ ifdef::show_solutions[]
 ====
 .Solution
 SELECT * +
-FROM Kantonsgrenzen (cantonal boundaries) +
-WHERE Einwohner (inhabitants) / Flaeche (area) > 200 AND Beitrittsj 
-(year of accession) < 1600 AND Name (name) NOT LIKE 'Z%'
+FROM Kantonsgrenzen +
+WHERE Einwohner / Flaeche > 200 + 
+AND Beitrittsj < 1600 + 
+AND Name NOT LIKE 'Z%' +
+(SELECT * +
+FROM cantonal_boundaries +
+WHERE inhabitants / area > 200 + 
+AND year of_accession < 1600 + 
+AND name NOT LIKE 'Z%')
+
 ====
 endif::show_solutions[]
 
