@@ -241,15 +241,21 @@ ifdef::show_solutions[]
 .Solution 1
 ....
 SELECT
-FROM Seen (lakes)
-WHERE Flaeche (area) > 20 AND Tiefe (depth) < 400
+FROM Seen
+WHERE "Flaeche" > 20 AND "Tiefe" < 400
+(SELECT
+FROM lakes
+WHERE "area" > 20 AND "depth" < 4000)
 ....
 
 .Solution 2
 ....
 SELECT
-FROM Adressen (addresses)
-WHERE Name (name) = 'Müller' AND Vorname (first name) = 'Peter' AND Ort (place) = 'Bern'
+FROM Adressen
+WHERE "Name" = 'Müller' AND "Vorname" = 'Peter' AND "Ort" = 'Bern'
+(SELECT
+FROM addresses
+WHERE "name" = 'Müller' AND "first_name" = 'Peter' AND "place" = 'Bern')
 ....
 ====
 endif::show_solutions[]
@@ -331,7 +337,8 @@ ifdef::show_solutions[]
 ====
 .Solution
 ....
-Hoehe_muM < 400 AND "Flaeche" > 20
+"Hoehe_muM" < 400 AND "Flaeche" > 20
+_"height_masl" AND "area" > 20_
 ....
 4 Seen
 ====
@@ -367,9 +374,12 @@ ifdef::show_solutions[]
 .Solution
 ....
 SELECT
-FROM Seen --lakes, height m.a.s.l, area
+FROM Seen
 WHERE "Hoehe_muM" < 400 AND "Flaeche" > 20
-....
+(SELECT 
+FROM lakes
+WHERE "height_masl" < 400 AND "area" > 20
+)....
 _(Result list with 4 lakes)_
 ====
 endif::show_solutions[]
@@ -490,7 +500,10 @@ _What do you type into the calculator?_
 ifdef::show_solutions[]
 ====
 .Solution
-to_int (Einwohner / Flaeche)
+....
+to_int ("Einwohner" / "Flaeche")
+_to_int ("inhabitants" / "area")_
+....
 ====
 endif::show_solutions[]
 
@@ -513,17 +526,17 @@ _Think about which component is thematic and which is spatial._
 ifdef::show_solutions[]
 ====
 .Solution
-*thematic query:*
+*Thematic query:*
 
-* Population density of more than 200 inhabitants per km^2^
-* joined Switzerland between 1800 and 1900
+* Population density of more than 200 inhabitants per km^2^.
+* Joined Switzerland between 1800 and 1900.
 
-*spatial query:* +
+*Spatial query:* +
 Main towns located in the corresponding cantons.
 ====
 endif::show_solutions[]
 
-For this query we'll do two steps in the first one we'll run the thematic 
+For this query we'll do two steps; in the first one we'll run the thematic 
 query. Open for that the attribute table for cantons and select with help of 
 _Select by expression_ all cantons with the population density greater than 
 200 people per km^2^ and joined Switzerland between 1800 and 1900.
@@ -536,8 +549,8 @@ ifdef::show_solutions[]
 ====
 .Solution
 ....
-Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900 +
-density > 200 AND year_of_accession > 1800 AND year_of_accession < 1900
+"Dichte" > 200 AND "Beitrittsj" > 1800 AND "Beitrittsj" < 1900
+_"density" > 200 AND "year_of_accession" > 1800 AND "year_of_accession" < 1900_
 ....
 ====
 endif::show_solutions[]
@@ -622,17 +635,18 @@ The names of the tables and attributes can be taken from the data given to you.
 ifdef::show_solutions[]
 ====
 .Solution
-SELECT * +
-FROM Kantonsgrenzen +
-WHERE Einwohner / Flaeche > 200 + 
-AND Beitrittsj < 1600 + 
-AND Name NOT LIKE 'Z%' +
-(SELECT * +
-FROM cantonal_boundaries +
-WHERE inhabitants / area > 200 + 
-AND year of_accession < 1600 + 
-AND name NOT LIKE 'Z%')
-
+....
+SELECT * 
+FROM Kantonsgrenzen 
+WHERE "Einwohner" / "Flaeche" > 200 
+AND "Beitrittsj" < 1600 
+AND "Name" NOT LIKE 'Z%'
+(SELECT * 
+FROM cantonal_boundaries 
+WHERE "inhabitants" / "area" > 200 
+AND "year_of_accession" < 1600 
+AND "name" NOT LIKE 'Z%')
+....
 ====
 endif::show_solutions[]
 
@@ -644,11 +658,11 @@ _For the following question create an SQL-Query:_ +
 _"Select all cantons which joined Switzerland after 1600 and have contact 
 with a lake greater than 50km^2^"_
 
-When answering this question, only the lakes stored in the geopackage 
+When answering this question, only the lakes stored in the dataset  
 qgis_einfuehrung_daten.gpkg must be considered. Perform the query and write down 
-step by step how you proceed.  Small hint: Think of the task from the exercise, 
-in which the names of all main locations were selected, whose associated cantons
-had to fulfill certain thematic conditions.
+step by step how you proceed.  Small hint: Think about the task from the 
+exercise, in which the names of all main locations were selected, whose 
+associated cantons had to fulfill certain thematic conditions.
 
 ifdef::show_solutions[]
 ====
