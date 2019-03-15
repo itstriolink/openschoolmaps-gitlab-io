@@ -142,7 +142,7 @@ A simplified _SQL query_ is structured as follows:
 
 ....
 SELECT select-expression
-FROM our-table
+FROM table
 WHERE where-expression
 .... 
 
@@ -153,7 +153,7 @@ the result of the query. A * means, all attributes are displayed. For thematic
 queries in a GIS this is the only query possible. Therefore, this variable 
 must not be set in the GIS.
 
-*our-table:* Name of the table, which contains the attributes needed for the 
+*table:* Name of the table, which contains the attributes needed for the 
 query.
 
 *where-expression:* The conditions to filter the data.
