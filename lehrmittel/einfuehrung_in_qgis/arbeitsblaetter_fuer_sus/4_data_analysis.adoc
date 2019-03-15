@@ -185,11 +185,13 @@ meaning.
 |not equal, different.
 
 |LIKE
-|Comparison of characters. You can use symbols as placeholders: %: Placeholder 
-for an unknown amount of characters for example LIKE ,F%' is for all entries 
-which begin with the letter F _ : Placeholder for a single character for 
-example LIKE ,Me_er', if you're looking for a person and don't know if the 
-name is Meyer or Meier. With LIKE ,M_-er' can it also be Mayer. 
+|Comparison of characters. The following characters can be used as placeholders:
+%: Placeholder for any number of characters.
+For example, LIKE "F%" for all entries that begin with the letter F.
+_ : Placeholder for exactly one character.
+E.g. LIKE "Me_er", if you are looking for a person and don't know if you want to 
+use Meier or Meyer's last name.
+For LIKE "M__er" it could also be Mayer.
 
 |IS NULL
 |Cell is empty.
