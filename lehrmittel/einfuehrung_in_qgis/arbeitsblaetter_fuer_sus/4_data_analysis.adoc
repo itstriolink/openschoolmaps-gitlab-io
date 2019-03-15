@@ -52,12 +52,12 @@ In order to start a query, you must give name, first name and city into the
 text field. The query could look like this:
 
 .Input for the search on local.ch
-image::einfuehrung_in_qgis/abfragefrage1.png["Abfrage Frage1"]
+image::einfuehrung_in_qgis/abfragefrage1.png["Query question1"]
 
 And here is the corresponding result:
 
 .Output for the search on local.ch
-image::einfuehrung_in_qgis/ausgabefrage1.png["Ausgabe Frage1"]
+image::einfuehrung_in_qgis/ausgabefrage1.png["Output question1"]
 
 The results are returned as address and as a mark on a map.
 
@@ -66,12 +66,12 @@ To start a query, you have to give start, destination, date and time in the
 fields. The query could look like this:
 
 .Input for the search on sbb.ch
-image::einfuehrung_in_qgis/abfragefrage2.png["Abfrage Frage2"]
+image::einfuehrung_in_qgis/abfragefrage2.png["Query question2"]
 
 The result is returned in text form:
 
 .Output for the search on sbb.ch
-image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
+image::einfuehrung_in_qgis/ausgabefrage2.png["Output question2"]
 
 *Question 3* +
 In both searches the input values are in text form.
@@ -303,12 +303,12 @@ ifdef::show_solutions[]
 Query:
 
 .Input in QGIS
-image::einfuehrung_in_qgis/aufgabe4abfrage.png["Aufgabe 4 Abfrage", 612, 36]
+image::einfuehrung_in_qgis/aufgabe4abfrage.png["Exercise 4 query", 612, 36]
 
 Solution:
 
 .The entries shown in QGIS after a query.
-image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
+image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Exercise 4 query", 629, 71]
 ====
 endif::show_solutions[]
 
