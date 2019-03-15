@@ -653,10 +653,15 @@ had to fulfill certain thematic conditions.
 ifdef::show_solutions[]
 ====
 .Solution
-SELECT *
-FROM Kantonsgrenzen (cantonal boundaries), Seen (lakes)
-WHERE Kantonsgrenzen.Beitrittsj (cantonal boundaries.year of accession of) > 1600
-AND Seen.Flaeche (lakes.area) > 50
-AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
+SELECT * +
+FROM Kantonsgrenzen, Seen +
+WHERE Kantonsgrenzen.Beitrittsj > 1600 +
+AND Seen.Flaeche > 50 +
+AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry) +
+(SELECT * +
+FROM cantonal_boundaries, lakes +
+WHERE cantonal_boundaries.year_of_accession > 1600 +
+AND lakes.area > 50 +
+AND st_intersects(lakes.geometry, cantonal_boundaries.geometry) )
 ====
 endif::show_solutions[]
