@@ -158,7 +158,7 @@ Deshalb muss diese Variable im GIS nicht eingestellt werden.
 Namen der Tabellen, die Attribute enthalten, welche bei der Abfrage eine Rolle 
 spielen.
 
-*WHERE-Klausel:*
+*Where-Klausel:*
 Bedingungen, die erfüllt werden müssen.
 
 Überblick über die SQL-Ausdrücke, die in einer Where-Klausel verwendet werden 
@@ -327,14 +327,22 @@ _SQL_-Abfrage eingegeben werden. Von _Select * from Seen where max_Tiefe >
 Die einzelnen Komponenten der Where-Klausel können durch Doppelklick auf die 
 Felder im rechten Fenster zusammengesetzt werden.
 
-Es ist auch möglich die ganze _SQL_-Abfrage zu nutzen. Dazu reicht aber der 
-_Feldfilter_ leider nicht aus. Stattdessen nutzen wir dafür den _DB Manager_ 
-welchen man unter _Datenbank_ findet.
-Unter _Datenanbieter_ wählen wir nun aus was für einen Typ Datenbank wir 
-nutzen, in unserem Beispiel verwenden wir _GeoPackage _ und die Datenbank 
-+qgis_einfuehrung_daten.gpkg + und die Tabelle _Seen_.
-Um eine SQL-Anfrage durchzuführen, nutzt man _SQL-fenster _ und erfasst es im 
-Fenster oben rechts und führt es mit _Ausführen_ aus.
+In anspruchsvolleren Analysen möchte man möchte die ganze _SQL_-Sprache nutzen. 
+Dazu reicht der _Feldfilter_ nicht aus. 
+Für eigene _SQL_-Anfragen kann man in QGIS den _DB Manager_ nutzen, den man 
+im QGIS-Menu unter _Datenbank_ findet.
+Gegeben, dass im Projekt schon Daten geladen sind, kann man dort  
+_Virtuelle Layer_ wählen. 
+Wenn man dort aufklappt, sieht man _Projektlayer" und darunter die im Projekt 
+abfragbaren Layer, d.h. in unserem Falle Seen und Kantonsgrenzen.
+Um eine eigene SQL-Anfrage durchzuführen, wählt man _Projektlayer_ und klickt 
+oben auf das Icon _SQL-Fenster_. 
+Es erscheint nun ein neuer, zweigeteilten Dialog mit einem leeren Textfeld oben 
+und einem Ausgabefeld unten. 
+Im oberen Feld steht der Cursor steht bei Zeile 1 und man kann dort SQL 
+schreiben.
+Wenn die SQL-Abfrage bereit ist, führt man sie mit Klick auf den Button 
+_Ausführen_ aus.
 
 image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
 
@@ -364,7 +372,7 @@ berücksichtigt wird. Es handelt sich dabei um eine räumliche Abfrage.
 
 Das Werkzeug für die räumlichen Abfragen findet man, in dem man den Button 
 _Vektor_ klickt und aus dem neuen Fenster unter _Datenmanagement Werkzeuge_ 
-das Werkzeug _Attribute Nach Position Zusammenfügen_ auswählt.
+das Werkzeug _Attribute nach Position Zusammenfügen_ auswählt.
 
 Es sollen alle Kantone selektiert werden, bei denen mindestens einer der 
 erfassten Seen ganz innerhalb liegt (d.h. der Kanton teilt sich den See nicht 
