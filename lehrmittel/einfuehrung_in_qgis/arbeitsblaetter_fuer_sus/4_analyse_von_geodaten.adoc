@@ -46,7 +46,8 @@ und der Suche 2 vergleichst? Schreibe deine Feststellungen auf._
 ifdef::show_solutions[]
 ====
 .Lösung
-*Frage 1* + Um eine Abfrage zu starten, muss man Name, Vorname und Ort in 
+*Frage 1* + 
+Um eine Abfrage zu starten, muss man Name, Vorname und Ort in 
 Textform in eine Maske eingeben. Die Abfrage könnte wie folgt aussehen:
 
 .Eingabe für die Suche auf local.ch
@@ -242,8 +243,8 @@ ifdef::show_solutions[]
 .Lösung 1
 ....
 SELECT
-FROM seen
-WHERE Flaeche > 20 AND Tiefe < 400
+FROM Seen
+WHERE "Flaeche" > 20 AND "Tiefe" < 400 
 ....
 
 .Lösung 2
@@ -337,7 +338,7 @@ ifdef::show_solutions[]
 ====
 .Lösung
 ....
-Flaeche > 20 AND Hoehe_muM < 400
+"Hoehe_muM" < 400 AND "Flaeche" > 20
 ....
 4 Seen
 ====
@@ -373,7 +374,7 @@ ifdef::show_solutions[]
 ....
 SELECT *
 FROM Seen
-WHERE Flaeche > 20 AND Hoehe_muM < 400
+WHERE "Hoehe_muM" < 400 AND "Flaeche" > 20
 ....
 _(Resultatliste mit 4 Seen)_
 ====
@@ -496,7 +497,9 @@ _Wie lautet der Feldrechnerausdruck?_
 ifdef::show_solutions[]
 ====
 .Lösung
-to_int ( Einwohner / Flaeche)
+....
+to_int ("Einwohner" / "Flaeche")
+....
 ====
 endif::show_solutions[]
 
@@ -526,8 +529,9 @@ ifdef::show_solutions[]
 * Bevölkerungsdichte von mehr als 200 Einwohner pro km^2^
 * zwischen 1800 und 1900 der Schweiz beigetreten
 
-*Räumliche Abfrage:* +
-Hauptorte, die in den entsprechenden Kantonen liegen.
+*Räumliche Abfrage:* 
+
+* Hauptorte, die in den entsprechenden Kantonen liegen.
 ====
 endif::show_solutions[]
 
@@ -545,7 +549,7 @@ ifdef::show_solutions[]
 ====
 .Lösung
 ....
-Dichte > 200 AND Beitrittsj > 1800 AND Beitrittsj < 1900
+"Dichte" > 200 AND "Beitrittsj" > 1800 AND "Beitrittsj" < 1900
 ....
 ====
 endif::show_solutions[]
@@ -601,14 +605,15 @@ hinzu.
 ifdef::show_solutions[]
 ====
 .Lösung
-Abfrage: + Die Daten werden bei einer Abfrage nicht verändert, sondern 
-lediglich bezogen.
+Abfrage: + 
+Die Daten werden bei einer Abfrage nicht verändert, sondern lediglich bezogen.
 
 Beispielsweise möchte man wissen, wie viele Einwohner einer Stadt mehr als 
 150‘000 CHF pro Jahr verdienen und gleichzeitig jünger als 30 Jahre alt sind.
 
-Manipulation: + Die Daten werden bei einer Manipulation verändert, ergänzt 
-oder sogar neue Daten erzeugt.
+Manipulation: + 
+Die Daten werden bei einer Manipulation verändert, ergänzt oder sogar neue 
+Daten erzeugt.
 
 Beispielsweise führt man in ein bestehendes Verkehrssystem ein neues Attribut 
 ein, ob eine Strecke stark belastet ist oder nicht. Eine weitere Möglichkeit 
@@ -633,9 +638,11 @@ Tabellen und Attribute sollen von den Daten der Übung übernommen werden.
 ifdef::show_solutions[]
 ====
 .Lösung
-SELECT * +
-FROM Kantonsgrenzen +
-WHERE Einwohner / Flaeche > 200 AND Beitrittsj < 1600 AND Name NOT LIKE 'Z%'
+....
+SELECT * 
+FROM Kantonsgrenzen 
+WHERE "Einwohner" / "Flaeche" > 200 AND "Beitrittsj" < 1600 AND "Name" NOT LIKE 'Z%'
+....
 ====
 endif::show_solutions[]
 
