@@ -103,7 +103,7 @@ In general, we differentiate between two types of analysis: *queries* and
 either change the data or even generate new data.
 
 
-=== Query
+=== Queries
 
 There are three ways in which a query can be executed.
 
@@ -502,7 +502,7 @@ ifdef::show_solutions[]
 .Solution
 ....
 to_int ("Einwohner" / "Flaeche")
-_to_int ("inhabitants" / "area")_
+(to_int ("inhabitants" / "area")]
 ....
 ====
 endif::show_solutions[]
@@ -531,8 +531,9 @@ ifdef::show_solutions[]
 * Population density of more than 200 inhabitants per km^2^.
 * Joined Switzerland between 1800 and 1900.
 
-*Spatial query:* +
-Main towns located in the corresponding cantons.
+*Spatial query:* 
+
+* Main towns located in the corresponding cantons.
 ====
 endif::show_solutions[]
 
@@ -550,7 +551,7 @@ ifdef::show_solutions[]
 .Solution
 ....
 "Dichte" > 200 AND "Beitrittsj" > 1800 AND "Beitrittsj" < 1900
-_"density" > 200 AND "year_of_accession" > 1800 AND "year_of_accession" < 1900_
+("density" > 200 AND "year_of_accession" > 1800 AND "year_of_accession" < 1900)
 ....
 ====
 endif::show_solutions[]
@@ -654,7 +655,7 @@ endif::show_solutions[]
 
 Besides the thematic queries, there are other variants which can be combined.
 
-_For the following question create an SQL-Query:_ +
+For the following question create an SQL-Query: +
 _"Select all cantons which joined Switzerland after 1600 and have contact 
 with a lake greater than 50km^2^"_
 
@@ -666,16 +667,16 @@ associated cantons had to fulfill certain thematic conditions.
 
 ifdef::show_solutions[]
 ====
+....
 .Solution
-SELECT * +
-FROM Kantonsgrenzen, Seen +
-WHERE Kantonsgrenzen.Beitrittsj > 1600 +
-AND Seen.Flaeche > 50 +
-AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry) +
-(SELECT * +
-FROM cantonal_boundaries, lakes +
-WHERE cantonal_boundaries.year_of_accession > 1600 +
-AND lakes.area > 50 +
+SELECT * 
+FROM Kantonsgrenzen, Seen 
+WHERE Kantonsgrenzen.Beitrittsj > 1600 AND Seen.Flaeche > 50 
+AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry) 
+(SELECT * 
+FROM cantonal_boundaries, lakes 
+WHERE cantonal_boundaries.year_of_accession > 1600 AND lakes.area > 50 
 AND st_intersects(lakes.geometry, cantonal_boundaries.geometry) )
+....
 ====
 endif::show_solutions[]
