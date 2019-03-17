@@ -23,7 +23,7 @@ sie frei - auch ausserhalb des Unterrichts! - nutzen und weitergeben kann und da
 
 - Workshop zu "OER in der Schule - OpenSchoolMaps und H5P" von Nicole Berva und Stefan Keller am Sa. 6. April 2019: "Open Education Day 2019" in Bern. <https://openeducationday.ch/>
 - Vortrag von Stefan Keller zu "OpenSchoolMaps - Unterricht mit offenen Karten" am Sa. 16. März in Wil/SG an der ICT-Kadervernetzung 2019 vor Kursleitenden in Medien und Informatik aller Ostschweizer Kantone sowie Liechtenstein. <http://educanet2.ch/kadervernetzung/.ws_gen/>
-- All work sheets (PDF) from OpenSchooleMaps - including the introductions to OpenStreetMap and to QGIS 3 - are available in English (2019-03-15). 
+- All worksheets (PDF) from OpenSchoolMaps - including the introductions to OpenStreetMap and to QGIS 3 - are available in English now. (2019-03-15) 
 - New post on Geometa Lab HSR Blog published 2018-01-15, about ["Creating a Thematic Online-Map using uMap"](http://geometalab.tumblr.com/post/182036823612/creating-a-thematic-online-map-using-umap).
 - Am Sa. 6. Oktober 2018 hielt Stefan Keller anlässlich der WikiCon 2018 in St. Gallen einen Vortrag mit dem Titel "OpenSchoolMaps mit OpenStreetMap und Geodaten editieren mit QGIS". <https://wikicon.org>
 - Am 3. Juli 2018 wurde anlässlich der Opendata.ch/2018-Konferenz in St. Gallen ein "Community Showcase" vorgestellt mit dem Titel "OpenSchoolMaps - OpenStreetMap als Open Educational Resource". <https://hack.opendata.ch/project/204>
