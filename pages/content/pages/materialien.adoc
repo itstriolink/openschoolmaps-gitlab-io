@@ -7,7 +7,7 @@
 
 image::../images/tunnel.jpg["Tunnel mit Personen"]
 
-== Arbeitsblätter
+== Arbeitsblätter _(English translation of worksheets see below)_
 
 .OSM.org als Kartenviewer:
 * Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Informationen]
