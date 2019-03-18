@@ -354,12 +354,13 @@ Wenn man dort aufklappt, sieht man "Projektlayer" und darunter die im Projekt
 abfragbaren Layer, d.h. in unserem Falle Seen und Kantonsgrenzen.
 Um eine eigene SQL-Anfrage durchzuführen, wählt man _Projektlayer_ und klickt 
 oben auf das Icon _SQL-Fenster_. 
-Es erscheint nun ein neuer, zweigeteilten Dialog mit einem leeren Textfeld oben 
+Es erscheint nun ein neuer, zweigeteilter Dialog mit einem leeren Textfeld oben 
 und einem Ausgabefeld unten. 
-Im oberen Feld steht der Cursor steht bei Zeile 1 und man kann dort SQL 
+Im oberen Feld steht der Cursor stehtbei Zeile 1 und man kann dort SQL 
 schreiben.
-Wenn die SQL-Abfrage bereit ist, führt man sie mit Klick auf den Button 
-_Ausführen_ aus.
+Die eigene SQL-Abfrage kann man mit Klick auf den Button _Ausführen_ ausführen. 
+Wenn die SQL-Abfrage erfolgreich war, wird das Ergebnis im Ausgabefeld 
+angezeigt.
 
 image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
 
