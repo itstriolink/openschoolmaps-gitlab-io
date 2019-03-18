@@ -358,9 +358,11 @@ Es erscheint nun ein neuer, zweigeteilter Dialog mit einem leeren Textfeld oben
 und einem Ausgabefeld unten. 
 Im oberen Feld steht der Cursor stehtbei Zeile 1 und man kann dort SQL 
 schreiben.
-Die eigene SQL-Abfrage kann man mit Klick auf den Button _Ausführen_ ausführen. 
-Wenn die SQL-Abfrage erfolgreich war, wird das Ergebnis im Ausgabefeld 
-angezeigt.
+
+Die SQL-Abfrage kann man mit Klick auf den Button _Ausführen_ ausführen. 
+Wenn die Abfrage erfolgreich war, wird das Ergebnis im Ausgabefeld angezeigt.
+Falls man vor der Ausführung der SQL-Abfrage die Checkbox 
+_Als neuen Layer laden_ anwählt, wird das Resultat als neuer Layer geladen.
 
 image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
 
