@@ -359,8 +359,11 @@ A new, two-part dialog appears with an empty text field at the top and an
 output field at the bottom.
 In the upper field, the cursor is positioned at line 1 and you can start there 
 to write the SQL query.
-When the query is ready, you can execute it by clicking the button
-_Execute_.
+
+The SQL query can be executed by clicking the button _Execute_. 
+If the query was successful, the result is being displayed in the output field. 
+If you select the checkbox _Load as new layer_ before executing the SQL query, 
+the result will be loaded as a new layer.
 
 image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
 
