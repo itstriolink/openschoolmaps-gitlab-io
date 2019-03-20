@@ -336,6 +336,7 @@ nutzen, in unserem Beispiel verwenden wir _GeoPackage _ und die Datenbank
 Um eine SQL-Anfrage durchzuführen, nutzt man _SQL-fenster _ und erfasst es im 
 Fenster oben rechts und führt es mit _Ausführen_ aus.
 
+.DB-Verwaltung
 image::einfuehrung_in_qgis/db_manager.png["DB Manager", 750, 348]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
