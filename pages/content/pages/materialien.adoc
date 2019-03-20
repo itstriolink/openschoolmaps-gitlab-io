@@ -7,7 +7,7 @@
 
 image::../images/tunnel.jpg["Tunnel mit Personen"]
 
-== Arbeitsblätter
+== Arbeitsblätter _(English version see below)_
 
 .OSM.org als Kartenviewer:
 * Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Informationen]
@@ -35,15 +35,15 @@ https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/
 
 .Einführung in QGIS 3 und in Geoinformationssysteme (GIS):
 * Informationen für Lehrpersonen: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/infos_fuer_lp/einfuehrung_in_qgis_lp_infos.pdf?job=PDFs[Informationen]
-* Einleitung und Vorbereitung: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/einleitung_und_vorbereitung.pdf?job=PDFs[Informationen]
+* Einleitung und Vorbereitung: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/0_einleitung_und_vorbereitung.pdf?job=PDFs[Informationen]
 
 //-
 
-. Was ist ein Geoinformationssystem? https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_ist_ein_gis_solutions.pdf?job=PDFs[Lösungen]
-. Was sind Geodaten? https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/was_sind_geodaten_solutions.pdf?job=PDFs[Lösungen]
-. Erfassung und Verwaltung von Geodaten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/verwaltung_und_erfassung_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
-. Analyse von Geodaten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/analyse_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
-. Präsentation von Geodaten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/praesentation_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/praesentation_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Was ist ein Geoinformationssystem? https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis_solutions.pdf?job=PDFs[Lösungen]
+. Was sind Geodaten? https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/2_was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/2_was_sind_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Erfassung und Verwaltung von Geodaten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/3_verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Analyse von Geodaten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Präsentation von Geodaten: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
 
 .Zusätzliche Materialien:
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
