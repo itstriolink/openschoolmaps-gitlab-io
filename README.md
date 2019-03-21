@@ -6,7 +6,7 @@ Hier unsere Webseite: https://openschoolmaps.ch
 
 **OSM.org als Kartenviewer:**
 
-* Infos für Lehrpersonen und Aufgaben für Fortgeschrittene: [Infos](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs)
+* Infos für Lehrpersonen und Aufgaben für Fortgeschrittene: [Infos](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs)
 
 * Webseite OSM.org kennenlernen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.pdf?job=PDFs) | [Lösungen](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen_solutions.pdf?job=PDFs)
 
@@ -19,21 +19,21 @@ Hier unsere Webseite: https://openschoolmaps.ch
 
 **OpenStreetMap bearbeiten:**
 
-* OpenStreetMap bearbeiten: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/openstreetmap_bearbeiten.pdf?job=PDFs) | [Lösungen](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/openstreetmap_bearbeiten_solutions.pdf?job=PDFs)
+* OpenStreetMap bearbeiten: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf?job=PDFs) | [Lösungen](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf?job=PDFs)
 
-* OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/osm-daten_beziehen.pdf?job=PDFs)
+* OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/02_osm-daten_beziehen.pdf?job=PDFs)
 
 **uMap der Karteneditor:**
 
-* Mit uMap einen Lageplan erstellen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs)
+* Mit uMap einen Lageplan erstellen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/01_lageplan_erstellen.pdf?job=PDFs)
 
-* Mit uMap eine Story-Map mit Bildern erstellen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/story-map_erstellen.pdf?job=PDFs)
+* Mit uMap eine Story-Map mit Bildern erstellen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/03_story-map_erstellen.pdf?job=PDFs)
 
-* Mit uMap eine thematische Online-Karte erstellen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/online-karte_erstellen.pdf?job=PDFs)
+* Mit uMap eine thematische Online-Karte erstellen: [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/02_online-karte_erstellen.pdf?job=PDFs)
 
 **Einführung in QGIS 3:**
 
-* Infos für Lehrpersonen: [Infos](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/infos_fuer_lp/einfuehrung_in_qgis_lp_infos.pdf?job=PDFs)
+* Infos für Lehrpersonen: [Infos](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf?job=PDFs)
 * Einleitung und Vorbereitung: [Infos](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/0_einleitung_und_vorbereitung.pdf?job=PDFs)
 
 1. Was ist ein GIS? [Arbeitsblatt](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis.pdf?job=PDFs) | [Lösungen](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis_solutions.pdf?job=PDFs)
