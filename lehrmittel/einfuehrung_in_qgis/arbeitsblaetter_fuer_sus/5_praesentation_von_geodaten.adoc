@@ -370,8 +370,9 @@ Ausfluges und die Wanderroute räumlich dargestellt sind. Die GIS-Karte sollst
 du zum Schluss auf irgend welche Art und Weise auch an die anderen Schüler 
 weitergeben.
 
-. _Welches Ausgabeformat wählst du für die Karte?_ + Schreibe deine Wahl auf 
-und begründe sie in eigenen Worten. Es gibt mehrere richtige Möglichkeiten.
+. _Welches Ausgabeformat wählst du für die Karte?_ +
+Schreibe deine Wahl auf und begründe sie in eigenen Worten. Es gibt mehrere 
+richtige Möglichkeiten.
 . _Wie gehst du in QGIS bei der Gestaltung der Karte vor?_ +
 Beschreibe dein Vorgehen in eigenen Worten. Verzichte dabei auf das 
 Nachschauen im letzten Kapitel. Du darfst aber gerne die einzelnen Schritte 
