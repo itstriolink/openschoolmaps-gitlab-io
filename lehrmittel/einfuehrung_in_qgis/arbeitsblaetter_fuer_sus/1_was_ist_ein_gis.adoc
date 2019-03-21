@@ -230,7 +230,7 @@ image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 
 Probiere diese drei Möglichkeiten aus und wähle eine, die du in Zukunft 
 verwenden möchtest.
 
-Blende das Bedienfeld "Spatial Bookmarks" aus und blende dafür das Bedienfeld 
+Blende das Bedienfeld "Räumliche Lesezeichen" aus und blende dafür das Bedienfeld 
 "Overview" ein.
 
 === Bestehendes Projekt öffnen
