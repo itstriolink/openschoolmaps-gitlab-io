@@ -568,15 +568,15 @@ Nach Position Zusammenfügen_-Werkzeug.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
-_Welcher Layer ist denn nun der *Select features from*-Layer
-und welcher der *By comparing to the features from*-Layer?
+_Welcher Layer ist denn nun der *Eingabelayer*
+und welcher der *Layer verknüpgen*-Layer?
 Welche Topologische Operation muss gewählt werden?_
 
 ifdef::show_solutions[]
 ====
 .Lösung
-*Select features from:* Layer "Hauptorte" +
-*By comparing to the features from:* Layer "Kantonsgrenzen" +
+*Eingabelayer:* Layer "Hauptorte" +
+*Layer verknüpfen:* Layer "Kantonsgrenzen" +
 *Topologische Operation:* "innerhalb"
 ====
 endif::show_solutions[]
