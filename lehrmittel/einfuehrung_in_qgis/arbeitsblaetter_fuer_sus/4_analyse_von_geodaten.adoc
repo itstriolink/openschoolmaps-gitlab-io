@@ -569,7 +569,7 @@ Nach Position Zusammenfügen_-Werkzeug.
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
 _Welcher Layer ist denn nun der *Eingabelayer*
-und welcher der *Layer verknüpgen*-Layer?
+und welcher der Layer *Verknüpfen-Layer*?
 Welche Topologische Operation muss gewählt werden?_
 
 ifdef::show_solutions[]
