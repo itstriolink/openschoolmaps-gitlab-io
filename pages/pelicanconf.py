@@ -35,16 +35,5 @@ SOCIAL = LINKS
 
 DEFAULT_PAGINATION = 5
 
-# Ordering Navbar manually
-
-DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_PAGES_ON_MENU = False
-
-MENUITEMS = (
-    ('Unterrichtsmaterialien', '/OpenSchoolMaps.ch/pages/materialien.html'),
-    ('Weitere Unterrichtsideen', '/OpenSchoolMaps.ch/pages/weitere-unterrichtsideen.html'),
-    ('Kontakt', '/OpenSchoolMaps.ch/pages/kontakt.html'),
-)
-
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
