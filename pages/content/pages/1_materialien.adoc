@@ -49,7 +49,7 @@ https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/mast
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
 * Einführung in QGIS 3: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=QGIS%20excercise%20data[Daten]
 
-Diese Arbeitsblätter (PDFs) werden aus den Dateien auf https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel[dieser Seite] erzeugt und verwenden die Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc].
+Diese Arbeitsblätter (PDFs) werden aus den Dateien auf https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/tree/master/lehrmittel[dieser Seite] erzeugt und verwenden die Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc].
 
 Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmaterialien verbessern kann, schauen Sie sich die Seite "Weitere Unterrichtsideen" an.
 

@@ -20,7 +20,7 @@ So ist z.B. das Spiel "Globat Pixel" (kastgames.com) entstanden. Interessenten k
 Sie wollen zu OpenSchoolMaps beitragen? Das können Sie auf verschiedene Arten tun:
 
 - Laden Sie die PDF-Dateien herunter und annotieren Sie Verbesserungsvorschläge an den entsprechenden Stellen. Diese PDF's können Sie uns dann e-mailen.
-- Erstellen Sie auf dem Repository von https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/issues[OpenSchoolMaps hier] einen Issue (Verbesserungsvorschlag) zuhanden des Entwicklungsteams.
+- Erstellen Sie auf dem Repository von https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/issues[OpenSchoolMaps hier] einen Issue (Verbesserungsvorschlag) zuhanden des Entwicklungsteams.
 - Falls Sie Erfahrung mit Git haben, können Sie auch einfach einen 'Pull Request' mit Ihren Änderungen einreichen.
 
 Bildquelle: Yves Maurer 2018

@@ -26,8 +26,8 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('OpenStreetMap-Wiki', 'https://wiki.openstreetmap.org/wiki/DE:Switzerland/Lehrmittel#OpenSchoolMaps'),
-    ('GitLab', 'https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch'),
-    ('Issue-Tracker', 'https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/issues'),
+    ('GitLab', 'https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io'),
+    ('Issue-Tracker', 'https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/issues'),
 )
 
 # Social widget

@@ -49,7 +49,7 @@ Hier unsere Webseite: https://openschoolmaps.ch
 
 Diese Arbeitsblätter (PDFs) werden
 aus den Dateien
-auf [dieser Seite](https://gitlab.com/openschoolmaps/OpenSchoolMaps.ch/tree/master/lehrmittel), die in der Auszeichnungssprache [AsciiDoc](https://asciidoctor.org/docs/what-is-asciidoc/) geschrieben sind,
+auf [dieser Seite](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/tree/master/lehrmittel), die in der Auszeichnungssprache [AsciiDoc](https://asciidoctor.org/docs/what-is-asciidoc/) geschrieben sind,
 erzeugt.
 
 Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmaterialien verbessern kann, schauen Sie sich die Seite "Weitere Unterrichtsideen" an.
