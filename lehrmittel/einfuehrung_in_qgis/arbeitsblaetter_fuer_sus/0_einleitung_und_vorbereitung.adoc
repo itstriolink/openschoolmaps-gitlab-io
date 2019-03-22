@@ -116,7 +116,7 @@ Wähle für dein Betriebssystem den richtigen Download und lade die
 Installationsdatei herunter.
 
 Dieses Leitprogramm wurde mit QGIS-Version 3.2.2 "Bonn" getestet. Du kannst 
-das neuste QGIS-Version herunterladen. Bei Problemen wähle QGIS-Version 3.4.5 
+die neuste QGIS-Version herunterladen. Bei Problemen wähle QGIS-Version 3.4.5 
 LTR.
 
 NOTE: Eine Alternative zur Installation der Software QGIS ist der Lernstick 

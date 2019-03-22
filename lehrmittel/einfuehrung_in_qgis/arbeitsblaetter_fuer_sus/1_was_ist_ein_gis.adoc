@@ -166,7 +166,7 @@ Beim Betriebsystem handelt es sich bei dir entweder um Linux, Unix, Mac OS X
 und Windows.
 
 Als GIS-Software hast du ja im Kapitel Vorbereitung die Open-Source-Software 
-QGIS installieren.
+QGIS installiert.
 ====
 endif::show_solutions[]
 
@@ -185,7 +185,7 @@ Nach dieser Übung kannst du:
 
 === Programm QGIS starten
 
-Beim Installieren der QGIS-Software wird automatisch ein Order mit 
+Beim Installieren der QGIS-Software wird automatisch ein Ordner mit 
 Verknüpfungen (sogenannte Shortcuts) auf die Programme auf deinem Desktop 
 erstellt. Durch Doppelklick auf den Shortcut "QGIS" kann das Programm 
 gestartet werden. Dadurch öffnet sich eine grafische Benutzeroberfläche. Falls 
@@ -231,7 +231,7 @@ Probiere diese drei Möglichkeiten aus und wähle eine, die du in Zukunft
 verwenden möchtest.
 
 Blende das Bedienfeld "Räumliche Lesezeichen" aus und blende dafür das Bedienfeld 
-"Overview" ein.
+"Übersicht" ein.
 
 === Bestehendes Projekt öffnen
 
@@ -277,13 +277,13 @@ Bevor du mit dem Navigieren in der Karte beginnst, solltest du zuerst ein
 Hintergrundbild für das Bedienfeld _Übersicht_ wählen. Die Kantonsgrenzen 
 würden sich gut für diesen Zweck eignen. Um den Inhalt dieses Layers als 
 Hintergrundskarte zu wählen, klicke mit der rechten Maustaste auf den Layer 
-und setze ein Kreuz bei der Option _In der Übersicht anzeigen_ anzeigen. Die 
+und setze ein Kreuz bei der Option _In der Übersicht anzeigen_. Die 
 Kantonsgrenzen erscheinen in der Kartenübersicht. Es können beliebige weitere 
 Layer hinzugefügt werden. Die Darstellungsreihenfolge wird von der Reihenfolge 
 im Layerfenster übernommen.
 
-Die Werkzeuge für die Navigation im Kartenfenster sind im Werkzeugkasten _Map 
-Navigation Toolbar_ abgespeichert.
+Die Werkzeuge für die Navigation im Kartenfenster sind im Werkzeugkasten 
+_Kartennavigationswerkzeugleiste_ abgespeichert.
 
 .Navigationswerkzeuge von QGIS
 image::einfuehrung_in_qgis/qgis_kartennavigationswerkzeuge.PNG["Kartennavigationswerkzeuge"]
@@ -358,7 +358,7 @@ mit dem Mauszeiger.
 
 Bemerkung: Der Zoomfaktor, welcher beim Navigieren mit dem Mausrad und den 
 Tasten PageUp und PageDown verwendet wird, kann im Menü _Einstelllungen_ -> 
-_Optionen..._ unter der Option _Karetnwerkzeuge_ eingestellt werden. Defaultmässig 
+_Optionen..._ unter der Option _Kartenwerkzeuge_ eingestellt werden. Defaultmässig 
 hat er den Wert _200%_.
 ====
 endif::show_solutions[]
@@ -390,7 +390,7 @@ Schlagwörter beinhalten.
 ifdef::show_solutions[]
 ====
 .Lösung
-Ein GIS (Geoinformationssystem) erlaubt es, mit raumbezogene Daten zu 
+Ein GIS (Geoinformationssystem) erlaubt es, mit raumbezogenen Daten zu 
 arbeiten: Man kann damit solche Daten digital erfassen und speichern 
 (*Eingabe*), sie redigieren (verändern), verwalten und reorganisierten 
 (*Verwaltung*). Man kann die Daten auch analysieren (*Analyse*) und das 
