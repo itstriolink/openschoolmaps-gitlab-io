@@ -8,12 +8,12 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 [NOTE]
 ====
-Dieses Arbeitsblatt zeigt dir, wie du auf openstreetmap.org einen Blick in die Daten werfen kannst, die der Karte zugrundeliegenden.
+Dieses Arbeitsblatt zeigt dir, wie du auf openstreetmap.org einen Blick in die Daten werfen kannst, die der Karte zu Grunde liegen.
 
 Ausserdem lernst du, wie du die OpenStreetMap-Gemeinschaft auf Fehler in der Karte hinweisen kannst. So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halten.
 ====
 
-== Ein erster Blick hinter den Kulissen
+== Ein erster Blick hinter die Kulissen
 
 
 === Objekte abfragen
@@ -24,7 +24,7 @@ Dadurch ändert sich dein Mauszeiger. Klicke nun an die ungefähre Stelle auf de
 
 Klick den entsprechenden Link an, und du siehst die Eigenschaften ("Attribute") des Objekts sowie den Kommentar zur letzten Änderung, die daran gemacht wurde und weitere Informationen.
 
-=== (alle) Kartendaten anzeigen
+=== (Alle) Kartendaten anzeigen
 
 Gerade bei Objekten, die auf der Karte gar nicht angezeigt werden, kann es schwierig sein, sie auf diese Weise zu finden und zu untersuchen. In der Seitenleiste mit den Kartenebenen können die örtlichen OpenStreetMap-Daten mit der Checkbox "Kartendaten" eingeblendet werden.
 

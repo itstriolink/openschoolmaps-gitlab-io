@@ -36,7 +36,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkommens-Nachricht erschienen. Falls die Nachricht bereits weggeklickt wurde, ist hier nochmal ihr Inhalt:
+Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkommens-Nachricht erschienen. Falls die Nachricht bereits weggeklickt wurde, ist hier nochmals ihr Inhalt:
 
 > Willkommen bei OpenStreetMap!
 > OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei verwendbar unter einer offenen Lizenz.
@@ -101,8 +101,8 @@ Spielt es dabei eine Rolle, wo auf der Karte der Zeiger steht?
 
 ====
 ifdef::show_solutions[]
-Ja, die Zeigerposition dient als Zentrum der Verkleinerungs oder Vergrösserungs-Bewegung. D.h. die Karten-Position unter dem Zeiger steht fast still, und die
-Positionen darum herum bewegen sich auf den Zeiger zu oder von ihm weg.
+Ja, die Zeigerposition dient als Zentrum der Verkleinerungs- oder Vergrösserungsbewegung. D.h. die Karten-Position unter dem Zeiger steht fast still, und die
+Positionen drumherum bewegen sich auf den Zeiger zu oder von ihm weg.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -115,7 +115,7 @@ ifndef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus, wie?
+Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus wie?
 
 ====
 ifdef::show_solutions[]
@@ -151,7 +151,7 @@ Oben links findest du ein Text-Eingabefeld für Such-Anfragen. Hier können Orte
 
 IMPORTANT: Das Suchfeld achtet auf Rechtschreibung und Schreibweise. Wenn das, was du suchst, nicht gefunden wird, heisst das entweder, dass es in der Datenbank noch nicht existiert, oder, dass es anders geschrieben wird als das, was du eingegeben hast. Ändere einfach die Abfrage etwas und versuch es erneut!
 
-Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder dich einfach auf der Karte bewegen wie im Abschnitt oben gelernt. Falls OpenStreetMap deine Schule nicht über ihren Namen oder ihre Adresse findet, kannst du auch beides kombinieren: Suche zuerst nach dem Ort oder Quartier, und zoome und verschiebe den Karten-Ausschnitt dorthin, wo deine Schule sein sollte.
+Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder dich einfach auf der Karte bewegen wie im Abschnitt oben gelernt. Falls OpenStreetMap deine Schule nicht über ihren Namen oder ihre Adresse findet, kannst du auch beides kombinieren: Suche zuerst nach dem Ort oder Quartier, zoome und verschiebe den Karten-Ausschnitt dorthin, wo deine Schule sein sollte.
 
 Ist dein Schulhaus in OpenStreetMap eingetragen?
 
@@ -181,7 +181,7 @@ Wichtige Städte sind dabei unter verschiedensprachigen Namen zu finden, du kann
 
 * Warst du kürzlich in den Ferien (sei es im In- oder Ausland) oder zu Besuch bei Verwandten? Versuche den Ferienort zu finden. Erkennst du ihn auf der Karte wieder?
 
-Welche Stadt heisst auf Italienisch "Ciūrichas"?
+Welche Stadt heisst auf Italienisch "Zurigo"?
 
 ====
 ifdef::show_solutions[Zürich]
@@ -251,7 +251,7 @@ endif::show_solutions[]
 
 === Grössenverhältnisse
 
-Zoome heraus, bis du die ganze Erde siehst. Grönland und Süd-Amerika sehen etwa gleich gross aus. Kann es sein, dass sie tatsächlich etwa gleich gross sind? Falls möglich, schau auf dem Globus nach, und vergleich mit diesem.
+Zoome heraus, bis du die ganze Erde siehst. Grönland und Südamerika sehen etwa gleich gross aus. Kann es sein, dass sie tatsächlich etwa gleich gross sind? Falls möglich schau auf dem Globus nach und vergleiche mit diesem.
 
 Unten links findest du einen Karten-Maßstab. Anders als bei Papier-Karten steht hier jedoch keine Maßstabs-Zahl (z.B. 1:10'000). Wieso wohl nicht?
 
