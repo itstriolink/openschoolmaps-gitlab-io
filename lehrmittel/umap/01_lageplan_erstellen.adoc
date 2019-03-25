@@ -28,7 +28,7 @@ Die internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/
 ====
 
 == Was ist uMap?
-Mit dem Karteneditor 'uMap' kann man eine eigene Karte zeichnen. Es gibt dazu verschieden Hintergrundkarten zur Auswahl. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie Gebäude oder Strassen finden, die auf der Karte fehlen, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online-Editor von OpenStreetMap (genannt 'iD') finden Sie unter https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
+Mit dem Karteneditor 'uMap' kann man eine eigene Karte zeichnen. Es gibt dazu verschieden Hintergrundkarten zur Auswahl. Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie erstellt haben, zu sehen. Wenn Sie Gebäude oder Strassen finden, die auf der Karte fehlen, können Sie sich auf openstreetmap.org anmelden und dort jeweils die fehlenden Objekte hinzufügen. Eine Anleitung für den Online-Editor von OpenStreetMap (genannt 'iD') finden Sie unter https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/umap/01_lageplan_erstellen.pdf?job=PDFs.
 
 == Anleitung für uMap
 
