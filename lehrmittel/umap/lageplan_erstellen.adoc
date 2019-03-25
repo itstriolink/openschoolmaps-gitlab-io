@@ -24,7 +24,7 @@ The international version of uMap is available at https://umap.openstreetmap.fr/
 ====
 
 == What is uMap?
-With uMap you can draw your own map on OpenStreetMap background. All drawings and objects are only visible on the map you have created. If you find missing buildings or streets on the map, you can log on to openstreetmap.org and add the missing objects there. Instructions for the online editor of OpenStreetMap can be found at  https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/umap/lageplan_erstellen.pdf?job=PDFs.
+With uMap you can draw your own map on OpenStreetMap background. All drawings and objects are only visible on the map you have created. If you find missing buildings or streets on the map, you can log on to openstreetmap.org and add the missing objects there. Instructions for the online editor of OpenStreetMap can be found at  https://gitlab.com/OpenSchoolMaps/OpenSchoolMaps.ch/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf?job=PDFs.
 
 == Instructions for uMap
 
