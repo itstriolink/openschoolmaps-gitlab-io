@@ -1,4 +1,4 @@
-Title: Was ist OpenSchoolMaps?
+Title: Unterricht und Knowhow mit offenen Karten
 Date: 2018-07-11
 Category: OpenSchoolMaps
 Tags: meta, mission statement
@@ -12,7 +12,7 @@ OpenSchoolMaps ist ein Projekt zur Förderung offener Karten im Unterricht,
 sei es in digitaler Form, im Browser, auf mobilen Geräten oder gedruckt. 
 Dabei werden vornehmlich freie Daten von OpenStreetMap eingesetzt.
 
-Angesprochen sind Lehrpersonen auf Sekundarstufe II (Sekundarschulen und Gymnasien) sowie andere Interessierte.
+Angesprochen sind Lehrpersonen auf Sekundarstufe II (Sekundarschulen und Gymnasien) sowie weitere Interessierte.
 
 Sowohl die Karten und Karten-Daten als auch die Lehr- und Lernmaterialien werden 
 als Open Educational Resource ([OER](https://de.wikipedia.org/wiki/Open_Educational_Resources)) 
