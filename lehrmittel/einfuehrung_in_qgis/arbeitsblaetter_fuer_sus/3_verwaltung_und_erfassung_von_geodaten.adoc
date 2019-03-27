@@ -234,8 +234,8 @@ dort ein Punkt abgesetzt.
 
 === Beschriftung eines Layers
 
-Nun sollen die Hauptorte noch beschriftet werden. Öffne dazu das _Layereigenschaften_
--Fenster und wähle die Option _Beschriftungen_. Wähle bei _Beschriftungen 
+Nun sollen die Hauptorte noch beschriftet werden. Öffne dazu das
+_Layereigenschaften_-Fenster und wähle die Option _Beschriftungen_. Wähle bei _Beschriftungen 
 anzeigen_ das Feld _Einzelne Beschriftungen_ und wähle als _Beschreibungsfeld_ 
 das Feld mit dem Namen _Hauptort_. Passe anschliessend die Schriftgrösse, die 
 Platzierung, das Freistellen etc. an, bis die Beschriftung "ins Bild" passt. 
