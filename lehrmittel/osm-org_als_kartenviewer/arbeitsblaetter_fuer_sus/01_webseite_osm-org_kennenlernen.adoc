@@ -102,7 +102,7 @@ Spielt es dabei eine Rolle, wo auf der Karte der Zeiger steht?
 ====
 ifdef::show_solutions[]
 Ja, die Zeigerposition dient als Zentrum der Verkleinerungs- oder Vergrösserungsbewegung. D.h. die Karten-Position unter dem Zeiger steht fast still, und die
-Positionen drumherum bewegen sich auf den Zeiger zu oder von ihm weg.
+Positionen darum herum bewegen sich auf den Zeiger zu oder von ihm weg.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -181,7 +181,7 @@ Wichtige Städte sind dabei unter verschiedensprachigen Namen zu finden, du kann
 
 * Warst du kürzlich in den Ferien (sei es im In- oder Ausland) oder zu Besuch bei Verwandten? Versuche den Ferienort zu finden. Erkennst du ihn auf der Karte wieder?
 
-Welche Stadt heisst auf Italienisch "Zurigo"?
+Welche Stadt heisst auf Litauisch "Ciūrichas"?
 
 ====
 ifdef::show_solutions[Zürich]

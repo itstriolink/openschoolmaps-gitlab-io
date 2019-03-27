@@ -82,7 +82,7 @@ Stellen Sie sicher, dass Sie Ihre Daten in einer der folgenden Dateiformaten erf
 
 Wir empfehlen Ihnen die Daten im GeoJSON-Format zu importieren.
 Im GeoJSON-Format werden alle Attribute importiert.
-Mit anderen Formaten werden möglicherweise nicht alle Attribute mitimportiert.
+Mit anderen Formaten werden möglicherweise nicht alle Attribute mit-importiert.
 
 Wenn Sie sich entscheiden CSV zu brauchen, vergewissern Sie sich, dass Sie
 eine Kolumne _lat_ und _lon_ haben.
@@ -90,7 +90,7 @@ Alle anderen Kolumnen werden als Attribute importiert.
 ====
 
 .Beispiel wie man ein GeoJSON in uMap importiert
-image::umap/online-karte_erstellen/umap_import_data.PNG["Daten importieren Menü in uMap", 275, 306]
+image::umap/online-karte_erstellen/umap_import_data.PNG["'Daten importieren'-Menü in uMap", 275, 306]
 
 Unter _Wähle das Datenformat für den Import_ müssen Sie das Dateiformat Ihrer Datei angeben.
 
@@ -153,14 +153,14 @@ Gehen Sie nun in ihre uMap-Karte.
 Editieren Sie die aktuelle Ebene (oder erzeugen Sie eine neue Ebene) indem Sie auf das Stift-Symbol klicken unter _Ebenen verwalten_.
 
 .Ebenen editieren in uMap
-image::umap/online-karte_erstellen/umap_manage_layers.PNG["Ebenen verwalten Menü", 342, 288]
+image::umap/online-karte_erstellen/umap_manage_layers.PNG["'Ebenen verwalten'-Menü", 342, 288]
 
 Im Editier-Menü öffnen Sie das Menü _Ausgelagerte Daten_ und fügen Sie die kopierte URL in das Textfeld URL.
 
 Als _Format_ wählen Sie OSM aus und aktivieren Sie dazu noch die Schaltfläche _Dynamisch_.
 
 .Ausgelagerte Daten in uMap eintragen
-image::umap/online-karte_erstellen/umap_remote_data.PNG["Ausgelagerte Daten Menü", 274, 532]
+image::umap/online-karte_erstellen/umap_remote_data.PNG["'Ausgelagerte Daten'-Menü", 274, 532]
 
 Unter _Von Zoomstufe_ können Sie noch einen Mindest-Zoom angeben, für den Fall, dass Sie viele Daten haben die uMap in angezeigt werden müssen.
 
