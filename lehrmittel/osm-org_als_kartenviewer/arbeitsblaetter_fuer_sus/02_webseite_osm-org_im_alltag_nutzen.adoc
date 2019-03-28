@@ -6,13 +6,13 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt*
 
-NOTE: In diesem Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
+NOTE: Durch dieses Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
 
 == Kartenstile
 
 Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. Und nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschieden Karten für verschiedene Zwecke.
 
-Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
+Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 
 == Navigation (Routen-Planung)
 
@@ -20,7 +20,7 @@ Mit der OpenStreetMap-Geodatensammlung können Computer mehr machen, als "nur" K
 
 Auch Wege von A nach B zu finden, ist mit den OpenStreetMap-Daten möglich. Das geht so:
 
-Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld. Nun kannst du entweder per Text-Eingabe (z.B. Adresse) nach Start- und Zielort suchen, oder die rote und grüne Stecknadel aus dem Suchformular auf die entsprechende Stelle auf der Karte ziehen.
+Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld. Nun kannst du entweder per Text-Eingabe (z.B. Adresse) nach Start- und Zielort suchen, oder die rote und grüne Stecknadel aus dem Suchformular auf die entsprechende Stelle der Karte ziehen.
 
 Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehrsmittel/die Bewegungsart (per Auto, per Velo oder zu Fuss) und das Weg-Such-Programm (in der Fachsprache: den Routing-Algorithmus) wählen.
 

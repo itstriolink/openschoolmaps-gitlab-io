@@ -50,7 +50,7 @@ Wenn Sie Ihre Daten in Textformat erfassen möchten
 * <<Daten in OpenStreetMap erfassen>>:
 Wenn die Daten für OpenStreetMap geeignet sind und Sie sie dort einpflegen wollen
 * <<Daten als externe Datenquelle/Datei vorhanden>>:
-Wenn Ihre Daten bereits in einem von uMap unterstützten Geo-Informations-Format vorliegen.
+Wenn Ihre Daten bereits in einem von uMap unterstützten Geo-Informations-Format vorliegen
 
 === Daten manuell in uMap erfassen
 
@@ -82,7 +82,7 @@ Stellen Sie sicher, dass Sie Ihre Daten in einer der folgenden Dateiformaten erf
 
 Wir empfehlen Ihnen die Daten im GeoJSON-Format zu importieren.
 Im GeoJSON-Format werden alle Attribute importiert.
-Mit anderen Formaten werden möglicherweise nicht alle Attribute mit importiert.
+Mit anderen Formaten werden möglicherweise nicht alle Attribute mit-importiert.
 
 Wenn Sie sich entscheiden CSV zu brauchen, vergewissern Sie sich, dass Sie
 eine Kolumne _lat_ und _lon_ haben.
@@ -90,11 +90,11 @@ Alle anderen Kolumnen werden als Attribute importiert.
 ====
 
 .Beispiel wie man ein GeoJSON in uMap importiert
-image::umap/online-karte_erstellen/umap_import_data.PNG["Import Data Menu in uMap", 275, 306]
+image::umap/online-karte_erstellen/umap_import_data.PNG["'Daten importieren'-Menü in uMap", 275, 306]
 
-Unter _Choose the format of the data to import_ müssen Sie das Dateiformat Ihrer Datei angeben.
+Unter _Wähle das Datenformat für den Import_ müssen Sie das Dateiformat Ihrer Datei angeben.
 
-Mit der Schaltfläche _Import_ werden Ihre Dateien in uMap importiert.
+Mit der Schaltfläche _Importieren_ werden Ihre Dateien in uMap importiert.
 
 === Daten in OpenStreetMap erfassen
 
@@ -113,15 +113,15 @@ Das heisst *keine* persönliche Daten und *nur* objektive/überprüfbare Fakten.
 == Daten als externe Datenquelle/Datei vorhanden
 
 Wenn Sie die Geodaten als Datei vorhanden haben, können Sie die auch in uMap importieren.
-Navigieren Sie dazu wieder in uMap unter _Import Data_ und klicken Sie auf
-die _Browse..._ Schaltfläche.
+Navigieren Sie dazu wieder in uMap unter _Daten importieren_ und klicken Sie auf
+die _Durchsuchen..._ Schaltfläche.
 Wählen Sie Ihre Datei aus und bestätigen Sie mit "Öffnen".
 
 NOTE: Wiederum empfehlen wir Ihnen, wenn möglich, eine Datei im GeoJSON-Format zu importieren
 
-Unter _Choose the format of the data to import_ müssen Sie das Dateiformat Ihrer Datei angeben.
+Unter _Wähle das Datenformat für den Import_ müssen Sie das Dateiformat Ihrer Datei angeben.
 
-Mit der Schaltfläche _Import_ werden Ihre Dateien in uMap importiert.
+Mit der Schaltfläche _Importieren_ werden Ihre Dateien in uMap importiert.
 
 CAUTION: Vergewissern Sie sich, falls Ihre Daten vom Internet stammen, dass Sie gegen keine Lizenzen verstossen.
 
@@ -137,31 +137,35 @@ Wie Sie eine Datei in uMap importieren, sehen Sie im Kapitel <<Daten als externe
 
 === Daten immer auf dem aktuellsten Stand halten
 
+NOTE: Für folgenden Abschnitt müssen Sie ihren Browser kurz auf Englisch umkonfigurieren und dann auf https://overpass-turbo.osm.ch/ zugreifen.
+Dies deshalb, weil auf der deutschen Version das _copy_ unter _Export_ -> _Query_ noch nicht existiert und man deswegen keine passende URL bekommt. 
+Für mehr Infos zum Thema besuchen Sie folgende Webseite: https://dinacon.ch/sessions/2018/openstreetmap-die-zuverlaessige-karten-alternative/.
+
 Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten, ist das ganze sehr ähnlich.
 Öffnen Sie hierzu wieder https://overpass-turbo.osm.ch/ und suchen Sie mit dem Wizard nach z.B. *amenity=bar*.
-Nun drücken Sie auf _copy_ unter _convert to OverpassQL_.
+Nun gehen Sie unter _Export_ -> _Query_ auf _copy_ unter _convert to OverpassQL_.
 
 .Query aus Overpass-Turbo exportieren
-image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Query", width="50%"]
+image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Abfrage", width="50%"]
 
 Ihnen wird eine URL in die Zwischenablage gespeichert.
 Gehen Sie nun in ihre uMap-Karte.
-Editieren Sie den aktuellen Layer (oder erzeugen Sie einen neuen Layer) in dem Sie auf das Stift-Symbol klicken unter _Manage layers_.
+Editieren Sie die aktuelle Ebene (oder erzeugen Sie eine neue Ebene) indem Sie auf das Stift-Symbol klicken unter _Ebenen verwalten_.
 
-.Layer editieren in uMap
-image::umap/online-karte_erstellen/umap_manage_layers.PNG["Manage Layers Menu", 342, 288]
+.Ebenen editieren in uMap
+image::umap/online-karte_erstellen/umap_manage_layers.PNG["'Ebenen verwalten'-Menü", 342, 288]
 
-Im Editier-Menu öffnen Sie das Menu _Remote Data_ und fügen Sie die kopierte URL in das Textfeld URL.
+Im Editier-Menü öffnen Sie das Menü _Ausgelagerte Daten_ und fügen Sie die kopierte URL in das Textfeld URL.
 
-Als _Format_ wählen Sie OSM aus und aktivieren Sie dazu noch die Schaltfläche _Dynamic_.
+Als _Format_ wählen Sie OSM aus und aktivieren Sie dazu noch die Schaltfläche _Dynamisch_.
 
-.Remote Data in uMap eintragen
-image::umap/online-karte_erstellen/umap_remote_data.PNG["Remote Data Menu", 274, 532]
+.Ausgelagerte Daten in uMap eintragen
+image::umap/online-karte_erstellen/umap_remote_data.PNG["'Ausgelagerte Daten'-Menü", 274, 532]
 
-Unter _From zoom_ können Sie noch einen Mindest-Zoom angeben, für den Fall, dass Sie viele Daten haben die uMap in angezeigt werden müssen.
+Unter _Von Zoomstufe_ können Sie noch einen Mindest-Zoom angeben, für den Fall, dass Sie viele Daten haben die uMap in angezeigt werden müssen.
 
 == Abschluss
 
-Mit einem Klick auf die blaue _Save_-Schaltfläche oben rechts und der _Disable editing_-Schaltfläche ist Ihre Karte nun fertig!
+Mit einem Klick auf die blaue _Speichern_-Schaltfläche oben rechts und der _Bearbeiten deaktivieren_-Schaltfläche ist Ihre Karte nun fertig!
 
 Sie können nun Ihre Karte mit anderen teilen, in Webseiten einbinden und sie bleibt immer auf dem neusten Stand von OpenStreetMap!

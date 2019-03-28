@@ -36,7 +36,7 @@ ifdef::show_solutions[]
   * `8.224`: Die geografische Länge in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
 
 .Anregung
-Im Geografie-Unterricht ist oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas in OpenStreetMap-URLs übersetzt werden.
+Im Geografie-Unterricht ist es oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas in OpenStreetMap-URLs übersetzt werden.
 
 endif::show_solutions[]
 

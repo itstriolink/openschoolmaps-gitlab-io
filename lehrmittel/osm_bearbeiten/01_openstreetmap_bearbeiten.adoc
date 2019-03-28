@@ -5,7 +5,7 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen
+Mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen.
 
 ifndef::show_solutions[]
 *Ein Arbeitsblatt*
@@ -15,7 +15,7 @@ ifdef::show_solutions[]
 *Ein Arbeitsblatt für Lehrpersonen*
 endif::show_solutions[]
 
-NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" eingebauten "Rundgang" (ein Software-Geführter Einführungskurs) lernst du, OpenStreetMap-Daten mit diesem Editor zu bearbeiten. So kannst du die Karte selbst verbessern und ergänzen.
+NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" eingebauten "Rundgang" (ein softwaregeführter Einführungskurs) lernst du, OpenStreetMap-Daten mit diesem Editor zu bearbeiten. So kannst du die Karte selbst verbessern und ergänzen.
 
 Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
 
@@ -24,7 +24,7 @@ ifdef::show_solutions[]
 *Übersicht*
 
 .Ziel
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf openstreetmap.org Daten zu ergänzen oder abzuändern, wie ein Bänkli, einen Brunnen oder einen Abfallkübel, mit Hilfe des iD-Editors.
+Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf openstreetmap.org Daten wie ein Bänkli, einen Brunnen oder einen Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
 
 .Zielgruppe
 SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
@@ -102,7 +102,7 @@ Innerhalb von 5–30 Minuten werden deine Änderungen durchgeführt und auf die 
 
 [NOTE]
 ====
-OpenStreetMap speichert Objekt-Eigenschaften in Form von so genannten Tags.
+OpenStreetMap speichert Objekt-Eigenschaften in Form von sogenannten Tags.
 Diese siehst du auf der linken Seite im iD-Editor, nachdem du ein Objekt angewählt hast, wie du in <<eigenschaften_zugeklappt>> siehst.
 
 Wenn du das Feld "Alle Eigenschaften" aufklappst, sieht du alle Tags des Objekts, wie in <<eigenschaften_aufgeklappt>>.
