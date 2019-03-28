@@ -217,7 +217,7 @@ EPSG-Code klicken und ein neues KBS auswählen.
 ===== Projektion eines Layers
 
 Um für einen bestimmten Layer ein spezifisches KBS anzugeben, klickst du 
-rechts auf den Layer und bewegst den Mauszeiger über das Menu _KBS setzen_ und 
+rechts auf den Layer und bewegst den Mauszeiger über das Menü _KBS setzen_ und 
 wählst _Set Layer CRS..._ aus. Danach kannst du das gewünschte KBS auswählen.
 
 ===== Umprojizieren der Daten
@@ -259,7 +259,7 @@ Für die Schweiz werden folgende Koordinatensysteme verwendet: Das EPSG:2056
 Wähle das vorgegebene System mit Hilfe der Suche aus und bestätige die 
 Einstellung durch Klicken auf den Anwenden-Button.
 
-Gehe anschliessend unter _Projekt_ -> _Properties_ in den Reiter mit dem Namen 
+Gehe anschliessend unter _Projekt_ -> _Properties..._ in den Reiter mit dem Namen 
 Allgemein, setze dort den Projekttitel "Die Schweiz" und bestimme eine 
 Hintergrundfarbe.
 
@@ -282,7 +282,7 @@ welchem du die Daten für diese Übung abgespeichert hast.
 === Daten einlesen
 
 Die Karte ist nun soweit bereit, dass Daten eingelesen werden können. Dazu 
-wird das Menu Datenbank in der Menuleiste verwendet. Für die unterschiedlichen 
+wird das Menü Datenbank in der Menüleiste verwendet. Für die unterschiedlichen 
 Arten von Daten, die eingelesen werden können, hat es auch unterschiedliche 
 Buttons.
 
@@ -318,7 +318,7 @@ _Lösung_
 image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
 
 _name:_ Die Namen der Seen +
-_type:_ dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
+_type:_ Dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
 _Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See? +
 _max_Tiefe:_ Tiefe des Sees an der tiefsten Stelle in Meter [m] +
 _Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
@@ -363,9 +363,9 @@ http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang= de klickst,
 wird eine Anfrage an den Server http://wms.geo.admin.ch/ gestartet und du 
 erhältst als Antwort eine Auflistung der verfügbaren WMS-Services.
 
-Unter _Title_ findest du den Titel des WMS-Services und unter _Abstract_ einen 
-kurzen Beschrieb, was genau in den Daten abgespeichert ist. Zusätzlich sind 
-auch Informationen über die Ausdehnung und die möglichen Koordinatensysteme 
+Unter _Titel_ findest du den Titel des WMS-Services und unter _Zusammenfassung_ 
+eine kurze Beschreibung, was genau in den Daten abgespeichert ist. Zusätzlich 
+sind auch Informationen über die Ausdehnung und die möglichen Koordinatensysteme 
 erhältlich.
 
 Aus diesen Daten möchten wir die Übersichtskarte in unser Projekt einbinden. 
@@ -374,9 +374,9 @@ Wenn du im Reiter _Layers_ beim obersten Balken auf den Pfeil klickst, siehst
 du, dass bereits einige Server standardmässig eingebunden sind. Um den Server 
 mit den öffentlichen Daten der _Bundes Geodaten-Infrastruktur_ (BGDI) 
 ebenfalls einzubinden, muss eine neue WMS-Verbindung erstellt werden. Dazu 
-muss auf den _Neu_-Button geklickt werden. Gib im Fenster _Create a New 
-WMS/WMTS Connection_ den Namen der Verbindung an (z.B. WMS-BGDI) und die URL 
-zum gewünschten Server (in unserem Fall http://wms.geo.admin.ch/). 
+muss auf den _Neu_-Button geklickt werden. Gib im Fenster _Neue 
+WMS/WMTS-Verbindung anlegen_ den Namen der Verbindung an (z.B. WMS-BGDI) und die
+URL zum gewünschten Server (in unserem Fall http://wms.geo.admin.ch/). 
 Benutzername und Passwort werden in diesem Fall nicht gebraucht.
 
 Wenn du jetzt nochmals auf den Pfeil des ersten Balkens klickst, sollte die 
@@ -445,8 +445,8 @@ je eine Skizze der Mauer im Raster- und Vektorformat.
 ifdef::show_solutions[]
 ====
 .Lösung
-Das Rasterformat speichert die Raster-Punkte, über die die Mauer läuft. + Das 
-Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt, an dem 
+Das Rasterformat speichert die Raster-Punkte, über die die Mauer läuft. +
+Das Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt, an dem 
 die Mauer eine Ecke macht.
 ====
 endif::show_solutions[]
