@@ -7,7 +7,9 @@ include::../../../snippets/suppress_title_page.adoc[]
 *Ein Arbeitsblatt*
 ifdef::show_solutions[- *LÖSUNGEN*]
 
-NOTE: In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren Webkarte zu suchen und die Karte zu lesen.
+NOTE: In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine 
+Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren 
+Webkarte zu suchen und die Karte zu lesen.
 
 
 ////
@@ -19,33 +21,39 @@ https://www.schoolmaps.ch/2017/06/02/kartenlesen-leicht-gemacht-swisstopo-unterr
 
 == Kennst du OpenStreetMap?
 
-Gehe mit deinem Web-Browser auf osm.org. (Der Adresszeilen-Inhalt ändert dabei automatisch zu etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224`.)
+Gehe mit deinem Web-Browser auf osm.org. (Der Adresszeilen-Inhalt ändert dabei 
+automatisch zu etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224`.)
 
-Du kommst auf eine Website, deren Haupt-Teil eine Landkarte ist. Erkennst du den Karten-Ausschnitt? Welches Gebiet ist abgebildet?
+Du kommst auf eine Website, deren Hauptteil eine Landkarte ist. Erkennst du 
+den Karten-Ausschnitt? Welches Gebiet ist abgebildet?
 
 ====
 ifdef::show_solutions[]
 Falls man schon einmal mit diesem Computer und Browser auf openstreetmap.org war,
 sieht man den Karten-Ausschnitt, den man zuletzt auf der Website angezeigt hatte.
 
-Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf zugreift,
-sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.
+Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf 
+zugreifst, sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
 
-Falls du zum erstem Mal auf openstreetmap.org bist, ist oben links eine Willkommens-Nachricht erschienen. Falls die Nachricht bereits weggeklickt wurde, ist hier nochmals ihr Inhalt:
+Falls du zum ersten Mal auf openstreetmap.org bist, ist oben links eine 
+Willkommens-Nachricht erschienen. 
+Falls die Nachricht bereits weggeklickt wurde, ist hier nochmals ihr Inhalt:
 
 > Willkommen bei OpenStreetMap!
-> OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei verwendbar unter einer offenen Lizenz.
+> OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei 
+> verwendbar unter einer offenen Lizenz.
 >
 > Das Hosting wird von [...] unterstützt.
 >
 > https://www.osm.org/about Mehr erfahren | https://www.osm.org/user/new Mit dem Kartieren anfangen
 
-Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu sehen.
+Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu 
+sehen.
 
 <<<
 
