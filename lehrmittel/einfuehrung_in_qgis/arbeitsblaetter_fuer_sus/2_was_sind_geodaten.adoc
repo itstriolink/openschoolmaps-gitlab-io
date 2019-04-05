@@ -136,7 +136,7 @@ verwendet hast.
 Bei Vektordaten wird die Geometrie der Objekte als Punkte, Linien oder Flächen
 gespeichert, wobei eine Linie als Verbindung zweier Punkte und eine Fläche als
 geschlossener Linienzug definiert ist.
-Die weiteren Informationen zum Objekt, sogenannte Sachdaten, werden 
+Die weiteren Informationen zum Objekt, sogenannte Sachdaten (engl. properties), werden 
 zusätzlich zur Geometrie in einer Tabelle abgespeichert.
 
 ===== Vergleich Vektor- und Rasterdaten
