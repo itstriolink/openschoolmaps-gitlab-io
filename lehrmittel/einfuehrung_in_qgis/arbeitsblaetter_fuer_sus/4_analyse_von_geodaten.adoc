@@ -571,9 +571,8 @@ nach Position Zusammenfügen_-Werkzeug.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
-_Welcher Layer ist denn nun der *Eingabelayer*
-und welcher der *Layer verknüpfen*-Layer?
-Welche t opologische Operation muss gewählt werden?_
+_Welcher Layer ist denn nun der Eingabelayer und welcher der Layer 
+verknüpfen-Layer? Welche topologische Operation muss gewählt werden?_
 
 ifdef::show_solutions[]
 ====
@@ -607,8 +606,8 @@ unterschieden werden, die Abfrage und die Manipulation.
 
 _Welches ist der Unterschied zwischen diesen beiden Analysearten?_
 
-Schreibe deine Antwort in eigenen Worten. Füge bei jeder Art noch ein Beispiel 
-hinzu.
+Schreibe deine Antwort in eigenen Worten. 
+Füge bei jeder Art noch ein Beispiel hinzu.
 
 ifdef::show_solutions[]
 ====
