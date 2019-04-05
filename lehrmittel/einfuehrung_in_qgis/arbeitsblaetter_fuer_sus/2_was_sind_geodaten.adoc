@@ -11,8 +11,8 @@ ifdef::show_solutions[- *LÖSUNGEN*]
 == Geodaten und Raumbezug
 
 Im vorherigen Kapitel hast du gelernt, dass es sich bei den Daten, die in einem 
-GIS dargestellt werden, um raumbezogene Daten handelt. Diese raumbezogenen 
-Daten werden oft auch Geodaten genannt.
+GIS dargestellt werden, um raumbezogene Daten handelt. 
+Diese raumbezogenen Daten werden oft auch Geodaten genannt.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 1_ +
@@ -76,7 +76,7 @@ auffrischen möchtest, kannst du dies mit Hilfe des Leitprogramms "Karten" tun.
 Dieses Leitprogramm ist auf dem EducETH-Server unter dem Link 
 http://www.educ.ethz.ch/unterrichtsmaterialien/geographie-umweltlehre/karten-leitprogramm.html 
 erhältlich.
-
+Mehr zu Kordinatensysteme siehe später.
 ==== Abspeicherungsart von Geodaten
 
 Geodaten können entweder in Form von Raster- oder von Vektordaten 
@@ -204,21 +204,28 @@ NOTE: Das KBS (Koordinatenbezugssystem) sollte in unserem vorgegebenen Projekt
 schon richtig gesetzt sein. Wenn du trotzdem wissen willst, wie du das KBS 
 ändern kannst, kannst du das folgende optionale Kapitel lesen.
 
-==== Karten-Projektionen
+==== Koordinatensysteme
 
-In GIS werden Karten-Projektionen meistens mit einem EPSG-Code angegeben.
+Koordinatensysteme verwenden Kartenprojektionen.
+Es gibt verschiedene Synonyme und Abkürzungen für Koordinatensysteme: 
+Koordinatenreferenzsysteme (KRS, englisch coordinate reference system, CRS), 
+Koordinatenbezugssysteme (KBS, spatial reference systems, SRS).
+
+In GIS werden Kartenprojektionen mit einem EPSG-Code angegeben.
 
 QGIS hat einige nützliche Werkzeuge, um nach spezifischen Projektionen zu 
 suchen. Hierzu kann QGIS, in Echtzeit das KBS für ein Projekt projizieren.
 
-Um das KBS eines Projekts zu ändern, kannst du in der Statusleiste auf den 
-EPSG-Code klicken und ein neues KBS auswählen.
+Um das Koordinatensystem eines Projekts zu ändern, kannst du in der 
+Statusleiste auf den EPSG-Code klicken und ein neues Koordinatensysteme 
+auswählen.
 
-===== Projektion eines Layers
+===== Koordinatensystem eines Layers
 
-Um für einen bestimmten Layer ein spezifisches KBS anzugeben, klickst du 
-rechts auf den Layer und bewegst den Mauszeiger über das Menü _KBS setzen_ und 
-wählst _Set Layer CRS..._ aus. Danach kannst du das gewünschte KBS auswählen.
+Um für einen bestimmten Layer ein spezifisches Koordinatensysteme anzugeben, 
+klickst du rechts auf den Layer und bewegst den Mauszeiger über das 
+Menü _KBS setzen_ und wählst _Set Layer CRS..._ aus. 
+Danach kannst du das gewünschte Koordinatensysteme auswählen.
 
 ===== Umprojizieren der Daten
 
@@ -429,7 +436,9 @@ Hier die Fragen zum Kapitel 2:
 === Frage 1
 
 Du möchtest in deinem GIS eine Mauer darstellen, welche aus der Luft gesehen 
-so aussieht, als würden sich zwei Linien in einem Winkel von 135 Grad treffen.
+so aussieht, als würden sich zwei Linien in einem Winkel von 135 Grad treffen
+(135 Grad ist auf einem Kompass der Winkel zwischen Norden und Südwesten).
+
 
 _Wie sieht die Darstellung aus, wenn du_
 
