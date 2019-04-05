@@ -324,10 +324,10 @@ _Lösung_
 .Tabelle des Layers Seen
 image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
 
-_name:_ Die Namen der Seen +
-_type:_ Dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
+_Name:_ Die Namen der Seen +
+_Type:_ Dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
 _Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See? +
-_max_Tiefe:_ Tiefe des Sees an der tiefsten Stelle in Meter [m] +
+_Max_tiefe:_ Tiefe des Sees an der tiefsten Stelle in Meter [m] +
 _Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
 _Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
 ====
