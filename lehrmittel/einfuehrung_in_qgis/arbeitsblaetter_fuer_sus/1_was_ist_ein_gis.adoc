@@ -62,11 +62,11 @@ den vier Komponenten zu._
 
 ifdef::show_solutions[]
 ====
-. _Es müssen die Hardware (im Minimum Computer mit Tastatur und Bildschirm 
+.. _Es müssen die Hardware (im Minimum Computer mit Tastatur und Bildschirm 
 oder Laptop und zusätzlich eine Maus) und die Software (Betriebssystem und 
 GIS-Software) besorgt werden._
-. _Die Daten haben einen Raumbezug._
-. *E* (Eingabe): _modelliert, digital erfasst, gespeichert_ +
+.. _Die Daten haben einen Raumbezug._
+.. *E* (Eingabe): _modelliert, digital erfasst, gespeichert_ +
 *V* (Verwaltung): _redigiert, reorganisiert_ +
 *A* (Analyse): _analysiert_ +
 *P* (Präsentation): _alphanumerisch und graphisch präsentiert_
@@ -337,7 +337,7 @@ geschieht._
 Karte liegt_
 * _Folgende Tasten auf der Tastatur:_
 ** _Pfeiltasten_
-** _PageUp/PageDown_
+** _Page Up/Page Down_
 ** _Leertaste gedrückt halten und mit Mauszeiger über Kartenfenster fahren_
 //-
 ifdef::show_solutions[]
@@ -349,7 +349,7 @@ hineingezoomt (hinten) werden. Der Mauszeiger bildet dabei das Zoomzentrum.
 ** _Pfeiltasten_ bewegen den Ausschnitt im Kartenfenster in die entsprechende 
 Pfeilrichtung: rechte Pfeiltaste nach Osten, linke Pfeiltasten nach Westen, 
 Hoch-Pfeiltasten nach Norden und Unten-Pfeiltasten nach Süden.
-** _PageUp/PageDown_ bewirken, dass um einen vordefinierten Zoomfaktor hinein- 
+** _Page Up/Page Down_ bewirken, dass um einen vordefinierten Zoomfaktor hinein- 
 bzw. hinausgezoomt wird. Dabei wird der gleiche Zoomfaktor wie beim Mausrad 
 verwendet.
 ** Wenn die _Leertaste_ gedrückt gehalten wird, während mit dem Mauszeiger 
@@ -357,7 +357,7 @@ verwendet.
 mit dem Mauszeiger.
 
 Bemerkung: Der Zoomfaktor, welcher beim Navigieren mit dem Mausrad und den 
-Tasten PageUp und PageDown verwendet wird, kann im Menü _Einstellungen_ -> 
+Tasten Page Up und Page Down verwendet wird, kann im Menü _Einstellungen_ -> 
 _Optionen..._ unter der Option _Kartenwerkzeuge_ eingestellt werden. Defaultmässig 
 hat er den Wert _200%_.
 ====
