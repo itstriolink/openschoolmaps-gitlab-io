@@ -205,7 +205,7 @@ Die Benutzeroberfläche ist in sieben Bereiche gegliedert.
 . Kartenfenster
 . Statusleiste
 
-.Benutzeroberfläche von QGIS
+.Benutzeroberfläche von QGIS mit den sieben Bereichen
 image::einfuehrung_in_qgis/qgis_benutzeroberflaeche.PNG["QGIS Benutzeroberfläche", 401, 312]
 
 Findest du die einzelnen Bereiche auch in deiner Benutzeroberfläche?
