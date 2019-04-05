@@ -76,7 +76,7 @@ image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
 *Frage 3* +
 Bei beiden Suchen sind die Eingabewerte in Textform.
 
-Die Resultate werden einmal in Textform und räumlich ausgegeben, bei der 
+Die Resultate werden in Textform und räumlich ausgegeben, bei der 
 zweiten Suche nur in Textform.
 
 Bei der ersten Suche möchte man oftmals nicht nur wissen an welcher Strasse 
@@ -146,7 +146,7 @@ FROM Quelle
 WHERE Where-Klausel
 ....
 
-Überblick über die Variablen die du für einfache Abfragen kennen solltest:
+Überblick über die Variablen, die du für einfache Abfragen kennen solltest:
 
 *Auswahlliste:*
 Namen aller Attribute, die als Resultat angezeigt werden sollen.
@@ -318,7 +318,7 @@ image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
 ====
 endif::show_solutions[]
 
-Kommen wir aber zum Anfangsbeispiel zurück. Diese Abfrage ist etwas 
+Kommen wir nun aber zum Anfangsbeispiel zurück. Diese Abfrage ist etwas 
 komplizierter. Öffne durch Klicken auf den Button _Objekte über Ausdruck wählen_
 den Abfrageeditor. Hier kann die Abfrage in Form einer _SQL_-Abfrage formuliert 
 werden. Es muss jedoch nur die _Where-Klausel_ der _SQL_-Abfrage eingegeben 
@@ -475,7 +475,7 @@ _Einwohnerdichte pro km^2^ = Anzahl Einwohner / Fläche in km^2^_
 
 Für diese Berechnung muss die Attributstabelle der Kantone geöffnet werden. Wähle die 
 Option _Feldrechner öffnen_. Falls du den Dichtewert in eine bereits 
-bestehende Spalte schreiben möchtest, kannst du in der Maske _Forhandenes Feld erneuern_ 
+bestehende Spalte schreiben möchtest, kannst du in der Maske _Vorhandenes Feld erneuern_ 
 ankreuzen und im Dropdown-Menü deine gewünschte Spalte auswählen. In 
 unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
 _Ausgabefeld Name_ den Begriff _Dichte_ ein. Wähle als _Ausgabefeldtyp 
@@ -561,13 +561,13 @@ Jetzt sind alle Kantone selektiert, die diese Bedingung erfüllen.
 
 Nun sollen noch die dazugehörigen Hauptorte herausgefunden werden. Dies 
 geschieht mit Hilfe einer räumlichen Abfrage. Öffne dazu das _Attribute 
-Nach Position Zusammenfügen_-Werkzeug.
+nach Position Zusammenfügen_-Werkzeug.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
 _Welcher Layer ist denn nun der *Eingabelayer*
 und welcher der *Layer verknüpfen*-Layer?
-Welche Topologische Operation muss gewählt werden?_
+Welche t opologische Operation muss gewählt werden?_
 
 ifdef::show_solutions[]
 ====
@@ -659,7 +659,7 @@ _"Selektiere alle Kantone, die nach 1600 der Schweiz beigetreten sind und
 Kontakt mit einem See haben, der grösser als 50 km^2^ ist"_
 
 Bei der Beantwortung dieser Frage müssen nur die Seen berücksichtigt werden, 
-welche im geopackage qgis_einfuehrung_daten.gpkg abgespeichert sind. Führe die 
+welche im GeoPackage qgis_einfuehrung_daten.gpkg abgespeichert sind. Führe die 
 Abfrage durch und schreibe Schritt für Schritt auf, wie du dabei vorgehst. 
 Kleiner Tipp: Denke an die Aufgabe aus der Übung, in welcher die Namen aller 
 Hauptorte selektiert wurden, deren zugehörige Kantone gewisse thematische 
