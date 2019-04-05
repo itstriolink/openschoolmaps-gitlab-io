@@ -225,7 +225,7 @@ Kartenübersicht zu klicken. Dann erscheint die Auswahl der Bedienfelder und
 der Werkzeugkästen gemeinsam in einer Liste.
 
 .Liste der Werkzeuge
-image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 190, 266]
+image::einfuehrung_in_qgis/qgis_werkzeugliste.png["Werkzeuge hinzufügen", 285, 399]
 
 Probiere diese drei Möglichkeiten aus und wähle eine, die du in Zukunft 
 verwenden möchtest.
