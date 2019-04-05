@@ -35,7 +35,8 @@ sehr oft mit Papierplänen gearbeitet. Um einen Papierplan zu erstellen, kann
 in einem Drucklayout oder einer Layoutansicht im GIS eine Karte gestaltet und 
 anschliessend auf Papier ausgedruckt werden.
 * Der im Drucklayout erstellte Plan kann auch als *PDF* abgespeichert werden 
-und dann z.B. per E-Mail weiterverschickt werden. * Eine weitere Methode, die 
+und dann z.B. per E-Mail weiterverschickt werden.
+* Eine weitere Methode, die 
 immer beliebter wird, ist die Darstellung von Geodaten im Internet in einem 
 sogenannten *Web-GIS* oder *Internet-GIS*.
 * Ausserdem können die Resultate von Analysen auch in Form von *Tabellen* oder 
@@ -191,8 +192,8 @@ aus den oben aufgelisteten Elementen:
 Orientierung. Bei einigen Karten wird der Nordpfeil durch ein 
 Koordinatenraster ersetzt. Dieses Koordinatenraster ist immer nach Norden 
 ausgerichtet. +
-* _Legende:_ Um den Inhalt der Karte zu erklären +
-* _Massstab/Massstabsbalken:_ Um Distanzen in der Karte abschätzen zu können +
+* _Legende:_ Um den Inhalt der Karte zu erklären. +
+* _Massstab/Massstabsbalken:_ Um Distanzen in der Karte abschätzen zu können. +
 * _Infos über Herausgeber, Copyright, Bezug etc.:_ Damit der Kartennutzer 
 weiss, woher die Karte stammt und unter welchen Umständen er die Karte 
 weiterverwenden darf +
