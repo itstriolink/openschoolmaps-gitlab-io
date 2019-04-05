@@ -84,8 +84,8 @@ Geodaten können auch in speziellen Datenbanken, sogenannten *Geodatenbanken*
 abgespeichert werden. Diese Datenbanken funktionieren ähnlich wie normale 
 Datenbanken, bieten aber zusätzlich noch die Möglichkeit, neben 
 Sachinformationen auch die Geometrie zu verwalten. Normale Datenbanken können 
-dies nur bedingt. Beispiele für Geodatenbanken sind z.B. _Oracle Spatial_ und 
-_PostGIS_.
+dies nur bedingt. Beispiele für Geodatenbanken sind z.B. _PostGIS_ oder 
+_Oracle Spatial_.
 
 === Datenerfassung
 
