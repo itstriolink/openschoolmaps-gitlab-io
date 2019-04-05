@@ -10,9 +10,9 @@ ifdef::show_solutions[- *LÖSUNGEN*]
 
 == Geodaten und Raumbezug
 
-Im letzten Kapitel hast du gelernt, dass es sich bei den Daten, die in einem 
-GIS dargestellt werden, um raumbezogene Daten handelt. Diese raumbezogenen 
-Daten werden oft auch Geodaten genannt.
+Im vorherigen Kapitel hast du gelernt, dass es sich bei den Daten, die in einem 
+GIS dargestellt werden, um raumbezogene Daten handelt. 
+Diese raumbezogenen Daten werden oft auch Geodaten genannt.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 1_ +
@@ -25,7 +25,7 @@ auf dein Arbeitsblatt._
 ifdef::show_solutions[]
 ====
 .Lösung
-Vergleiche deine Lösung mit der Theorie im ersten Teil dieses Kapitels.
+Vergleiche deine Lösung mit der Theorie von Kapitel 1.
 ====
 endif::show_solutions[]
 
@@ -50,11 +50,11 @@ Raumbezug kann so gedeutet werden, dass ein Objekt zu einem Ort auf der Erde
 zugeordnet werden kann. Dabei werden zwei verschieden Arten von Raumbezug 
 unterschieden. Wird wie z.B. in der amtlichen Vermessung der Raumbezug durch 
 gemessene zwei- oder dreidimensionale Koordinaten angegeben, dann spricht man 
-von direktem Raumbezug. Im Bereich der amtlichen Statistik hingegen müssen die 
+von _direktem Raumbezug_. Im Bereich der amtlichen Statistik hingegen müssen die 
 Koordinaten für die Positionierung von Informationen im Raum nicht so genau 
 sein. Dort werden die Informationen oft mit generalisierten administrativen 
-Grenzen wie die Kantonsgrenzen verknüpft. In so einem Fall wird von indirektem 
-Raumbezug gesprochen.
+Grenzen wie die Kantonsgrenzen verknüpft. In so einem Fall wird von _indirektem 
+Raumbezug_ gesprochen.
 
 Stelle dir vor, du hast ein Mobiltelefon oder eine Kamera mit eingebautem GPS, 
 mit denen du die Position, an welcher du gerade stehst, bestimmten kannst.
@@ -66,7 +66,7 @@ Das Foto hat also einen Raumbezug.
 
 Objekten ohne Raumbezug kann oftmals ein direkter oder indirekter Raumbezug 
 zugeordnet werden. Dieser Vorgang wird "georeferenzieren" genannt. Bei 
-Postaddressen kann der Raumbezug durch "geocodieren" zugeordnet werden. Der 
+Postadressen kann der Raumbezug durch "geocodieren" zugeordnet werden. Der 
 Raumbezug bezieht sich natürlich immer auf eine Erdabbildung, d.h. auf ein 
 Koordinatensystem. Diese Koordinatensysteme wurden eingeführt, um die 
 geographische Lage eines Ortes auf der Erde in Zahlen angeben zu können. Die 
@@ -76,7 +76,7 @@ auffrischen möchtest, kannst du dies mit Hilfe des Leitprogramms "Karten" tun.
 Dieses Leitprogramm ist auf dem EducETH-Server unter dem Link 
 http://www.educ.ethz.ch/unterrichtsmaterialien/geographie-umweltlehre/karten-leitprogramm.html 
 erhältlich.
-
+Mehr zu Kordinatensysteme siehe später.
 ==== Abspeicherungsart von Geodaten
 
 Geodaten können entweder in Form von Raster- oder von Vektordaten 
@@ -105,7 +105,7 @@ ifdef::show_solutions[]
 . Wenn du weiter ins Bild reinzoomst, dann siehst du ab einer gewissen 
 Zoomstufe, dass das Bild aus vielen farbigen Rechtecken besteht. Je weiter du 
 reinzoomst, desto grösser werden diese Rechtecke.
-. Ein Objekt mit Hilfe von vielen farbigen Rechtecken abgespeichert.
+. Ein Objekt ist xmit Hilfe von vielen farbigen Rechtecken abgespeichert.
 ====
 endif::show_solutions[]
 
@@ -136,7 +136,7 @@ verwendet hast.
 Bei Vektordaten wird die Geometrie der Objekte als Punkte, Linien oder Flächen
 gespeichert, wobei eine Linie als Verbindung zweier Punkte und eine Fläche als
 geschlossener Linienzug definiert ist.
-Die weiteren Informationen zum Objekt, sogenannte Sachdaten, werden 
+Die weiteren Informationen zum Objekt, sogenannte Sachdaten (engl. properties), werden 
 zusätzlich zur Geometrie in einer Tabelle abgespeichert.
 
 ===== Vergleich Vektor- und Rasterdaten
@@ -170,7 +170,7 @@ Vektordaten wird die Fläche des Gebäudes als geschlossener Linienzug
 abgespeichert. Und jede Linie dieses Linienzuges wird durch zwei Punkte 
 definiert. Deshalb ist der Speicherbedarf bei den Vektordaten viel kleiner.
 
-Damit der Speicherbedarf bei den Rasterdaten kleiner wird, können Formate 
+Damit der Speicherbedarf bei den Rasterdaten noch kleiner wird, können Formate 
 verwendet werden, welche die Raster komprimieren. Dabei wird zwischen 
 verlustbehafteten (z.B. jpg) und verlustfreien Kompressionen (z.B. .png, .bmp) 
 unterschieden.
@@ -204,21 +204,28 @@ NOTE: Das KBS (Koordinatenbezugssystem) sollte in unserem vorgegebenen Projekt
 schon richtig gesetzt sein. Wenn du trotzdem wissen willst, wie du das KBS 
 ändern kannst, kannst du das folgende optionale Kapitel lesen.
 
-==== Karten-Projektionen
+==== Koordinatensysteme
 
-In GIS werden Karten-Projektionen meistens mit einem EPSG-Code angegeben.
+Koordinatensysteme verwenden Kartenprojektionen.
+Es gibt verschiedene Synonyme und Abkürzungen für Koordinatensysteme: 
+Koordinatenreferenzsysteme (KRS, englisch coordinate reference system, CRS), 
+Koordinatenbezugssysteme (KBS, spatial reference systems, SRS).
+
+In GIS werden Kartenprojektionen mit einem EPSG-Code angegeben.
 
 QGIS hat einige nützliche Werkzeuge, um nach spezifischen Projektionen zu 
 suchen. Hierzu kann QGIS, in Echtzeit das KBS für ein Projekt projizieren.
 
-Um das KBS eines Projekts zu ändern, kannst du in der Statusleiste auf den 
-EPSG-Code klicken und ein neues KBS auswählen.
+Um das Koordinatensystem eines Projekts zu ändern, kannst du in der 
+Statusleiste auf den EPSG-Code klicken und ein neues Koordinatensysteme 
+auswählen.
 
-===== Projektion eines Layers
+===== Koordinatensystem eines Layers
 
-Um für einen bestimmten Layer ein spezifisches KBS anzugeben, klickst du 
-rechts auf den Layer und bewegst den Mauszeiger über das Menü _KBS setzen_ und 
-wählst _Set Layer CRS..._ aus. Danach kannst du das gewünschte KBS auswählen.
+Um für einen bestimmten Layer ein spezifisches Koordinatensysteme anzugeben, 
+klickst du rechts auf den Layer und bewegst den Mauszeiger über das 
+Menü _KBS setzen_ und wählst _Set Layer CRS..._ aus. 
+Danach kannst du das gewünschte Koordinatensysteme auswählen.
 
 ===== Umprojizieren der Daten
 
@@ -227,7 +234,7 @@ Layernamen rechtsklicken, auf _Exportieren_ klicken und _Save Feature As..._
 auswählen. Im oberen Teil des Fensters kannst du dann das KBS abändern.
 
 Wenn du dir nicht sicher bist, welchen EPSG-Code du verwenden sollst, kannst 
-du auf http://spatialreference.org/ nachschauen.
+du auf http://spatialreference.org/ oder https://epsg.io nachschauen.
 
 == QGIS-Übung
 
@@ -260,10 +267,10 @@ Wähle das vorgegebene System mit Hilfe der Suche aus und bestätige die
 Einstellung durch Klicken auf den Anwenden-Button.
 
 Gehe anschliessend unter _Projekt_ -> _Properties..._ in den Reiter mit dem Namen 
-Allgemein, setze dort den Projekttitel "Die Schweiz" und bestimme eine 
+_Allgemein_, setze dort den Projekttitel "Die Schweiz" und bestimme eine 
 Hintergrundfarbe.
 
-Unter Pfade speichern kannst du wählen, ob die Pfade zu den Daten relativ oder 
+Unter Pfade _speichern_ kannst du wählen, ob die Pfade zu den Daten relativ oder 
 absolut abgespeichert werden sollen. Der Vorteil der relativen Pfade ist, dass 
 du den Ordner mit dem QGIS-Projekt und den Daten auch an einen anderen Ort hin 
 kopieren kannst, ohne anschliessend die ganzen Pfade zu den Daten wieder 
@@ -317,10 +324,10 @@ _Lösung_
 .Tabelle des Layers Seen
 image::einfuehrung_in_qgis/seetable.png["See Tabelle", 650, 120]
 
-_name:_ Die Namen der Seen +
-_type:_ Dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
+_Name:_ Die Namen der Seen +
+_Type:_ Dient der See als Speichersee (Eintrag Speichersee) oder nicht (Eintrag See) +
 _Hoehe_muM:_ Wie hoch in Meter über Meer liegt der See? +
-_max_Tiefe:_ Tiefe des Sees an der tiefsten Stelle in Meter [m] +
+_Max_tiefe:_ Tiefe des Sees an der tiefsten Stelle in Meter [m] +
 _Volumen:_ Volumen des Sees in Kubikkilometer [km^3^] +
 _Flaeche:_ Fläche des Sees in Quadratkilometer [km^2^]
 ====
@@ -359,7 +366,7 @@ WMS-Dienste an (http://www.geo.admin.ch unter Dienstleistungen -> Geodienste
 
 Unter dem Titel "Verfügbare WMS-Dienste" sind unter "GetCapabilities" die 
 Anfragen in Form von Links abgespeichert. Wenn du z.B. auf den Link 
-http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang= de klickst, 
+http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang=de klickst, 
 wird eine Anfrage an den Server http://wms.geo.admin.ch/ gestartet und du 
 erhältst als Antwort eine Auflistung der verfügbaren WMS-Services.
 
@@ -371,7 +378,7 @@ erhältlich.
 Aus diesen Daten möchten wir die Übersichtskarte in unser Projekt einbinden. 
 Wähle im Werkzeugkasten _Layerverwaltungswerkzeugleiste_ das Werkzeug _WMS/WMTS Layer hinzufügen_. 
 Wenn du im Reiter _Layers_ beim obersten Balken auf den Pfeil klickst, siehst 
-du, dass bereits einige Server standardmässig eingebunden sind. Um den Server 
+du, dass bereits einige Services standardmässig eingebunden sind. Um den Service 
 mit den öffentlichen Daten der _Bundes Geodaten-Infrastruktur_ (BGDI) 
 ebenfalls einzubinden, muss eine neue WMS-Verbindung erstellt werden. Dazu 
 muss auf den _Neu_-Button geklickt werden. Gib im Fenster _Neue 
@@ -429,12 +436,14 @@ Hier die Fragen zum Kapitel 2:
 === Frage 1
 
 Du möchtest in deinem GIS eine Mauer darstellen, welche aus der Luft gesehen 
-so aussieht, als würden sich zwei Linien in einem Winkel von 135 Grad treffen.
+so aussieht, als würden sich zwei Linien in einem Winkel von 135 Grad treffen
+(135 Grad ist auf einem Kompass der Winkel zwischen Norden und Südwesten).
+
 
 _Wie sieht die Darstellung aus, wenn du_
 
-. das Rasterformat
-. das Vektorformat
+. _das Rasterformat_
+. _das Vektorformat_
 
 _als Speicherformat wählst? Was wird bei den einzelnen Formaten von der Mauer 
 abgespeichert?_
@@ -446,7 +455,7 @@ ifdef::show_solutions[]
 ====
 .Lösung
 Das Rasterformat speichert die Raster-Punkte, über die die Mauer läuft. +
-Das Vektorformat speichert Anfang- und Endpunkt der Mauer und den Punkt, an dem 
+Das Vektorformat speichert Anfangs- und Endpunkt der Mauer und den Punkt, an dem 
 die Mauer eine Ecke macht.
 ====
 endif::show_solutions[]
@@ -474,12 +483,12 @@ endif::show_solutions[]
 Im Übungsteil hast du neben Vektordaten auch einen WMS-Layer in dein Projekt 
 geladen.
 
-Welches ist der Unterschied zwischen dem Vektordaten-Layer und dem WMS-Layer 
-bezüglich:
+_Welches ist der Unterschied zwischen dem Vektordaten-Layer und dem WMS-Layer 
+bezüglich:_
 
-* Format
-* Speicherort
-* Verfügbarkeit
+* _Format_
+* _Speicherort_
+* _Verfügbarkeit_
 
 Schreibe zu jedem Punkt mindestens einen Satz.
 
@@ -496,8 +505,8 @@ auf einem Server gespeichert sind und für die Darstellung von dort abgerufen
 werden.
 
 *Verfügbarkeit* +
-Der WMS-Layer läuft über einen Server und hat deshalb eine schlechtere 
-Verfügbarkeit als der Vektor-Layer. Auch sendet der Server die Karte als ein 
+Der WMS-Layer läuft über einen Service und hat deshalb eine schlechtere 
+Verfügbarkeit als der Vektor-Layer. Auch sendet der Service die Karte als ein 
 einzelnes, grosses Bild, was es nochmals verlangsamt.
 ====
 endif::show_solutions[]

@@ -20,10 +20,10 @@ diesem Kapitel.
 
 Dieses Kapitel hat folgende Lernziele:
 
-* den Aufbau einer Tabelle in eigenen Worten erklären * mindestens 4 
-Datenerfassungsarten ohne Hilfsmittel aufzählen
+* den Aufbau einer Tabelle in eigenen Worten erklären, 
+* mindestens 4 Datenerfassungsarten ohne Hilfsmittel aufzählen,
 * in eigenen Worten aufzeigen, wieso es sich lohnt, Geld und Zeit in die 
-Datenerfassung und -verwaltung zu stecken
+Datenerfassung und -verwaltung zu stecken.
 
 == Theorie
 
@@ -44,14 +44,14 @@ Eigenschaft eines Datensatzes abgelegt.
 Tabellen werden sehr oft verwendet, um Werte von Messungen abzuspeichern. In 
 einer Tabelle können z.B. die Anzahl Schüler einer Klasse abgespeichert 
 werden. Die Anzahl Schüler einer Klasse können gezählt werden. Zusätzlich 
-könnte z.B. auch noch der Klassenlehrer in der Tabelle erfasst werden. Die 
-entsprechende Tabelle würde dann wie folgt aussehen.
+könnte z.B. auch noch der Klassenlehrperson in der Tabelle erfasst werden. Die 
+entsprechende Tabelle würde dann wie folgt aussehen:
 
 [%header,cols=3*]
 |===
 |Klasse
 |Anzahl Schüler
-|KlassenlehrerIn
+|Klassenlehrperson
 
 |1c
 |22
@@ -59,7 +59,7 @@ entsprechende Tabelle würde dann wie folgt aussehen.
 
 |2b
 |24
-|Franz Peter
+|Franz Müller
 
 |...
 |...
@@ -69,9 +69,9 @@ entsprechende Tabelle würde dann wie folgt aussehen.
 Die Namen der Spalten (z.B. Klasse, Anzahl Schüler…) werden *Attribute* genannt.
 
 Bei Geodaten muss zusätzlich zu den Sachattributen auch noch die Geometrie 
-abgespeichert werden. In den bisherigen Übungen hast du bereits das Shapefile 
-als Speicherart für Geodaten kennengelernt. Beim Shapefile werden die 
-Geometrie und die Sachdaten in unterschiedlichen Dateien abgespeichert.
+abgespeichert werden. In den bisherigen Übungen hast du bereits das GeoPackage 
+als Speicherart für Geodaten kennengelernt. Es gibt auch das Shapefile, dabei 
+werden die Geometrie und die Sachdaten in unterschiedlichen Dateien abgespeichert.
 
 Öffne das Verzeichnis, in welchem die Daten für die Übung abgespeichert sind 
 und schaue dir die Daten mal etwas genauer an. Zusätzlich zur Hauptdatei mit 
@@ -84,7 +84,7 @@ Geodaten können auch in speziellen Datenbanken, sogenannten *Geodatenbanken*
 abgespeichert werden. Diese Datenbanken funktionieren ähnlich wie normale 
 Datenbanken, bieten aber zusätzlich noch die Möglichkeit, neben 
 Sachinformationen auch die Geometrie zu verwalten. Normale Datenbanken können 
-dies nicht. Beispiele für Geodatenbanken sind z.B. _Oracle Spatial_ und 
+dies nur bedingt. Beispiele für Geodatenbanken sind z.B. _Oracle Spatial_ und 
 _PostGIS_.
 
 === Datenerfassung
@@ -111,7 +111,7 @@ kurz eingehen.
 . Im Teil 1 dieses Leitprogramms wurde das Beispiel mit dem Mobiltelefon mit 
 integriertem GPS verwendet. GPS ist neben dem Messen mit Tachymetern eine 
 beliebte Methode in der Vermessung, um die Geometrie von Objekten auf dem Feld 
-zu erfassen. Oft muss das Resultat von Messungen als Textfile, auf welchem 
+zu erfassen. Oft muss das Resultat von Messungen als Textdatei, auf welchem 
 Koordinaten- und Attributwerte stehen, ins GIS-Projekt eingelesen werden.
 . Luftbilder werden oft als Hintergrundbild verwendet.
 . Oft liegen Pläne noch in analoger Form, d.h. als Papierkarte vor. Um diese 
@@ -128,7 +128,7 @@ jedoch z.B. noch das Datenformat oder das Koordinatensystem angepasst oder
 zusätzliche Attribute erfasst werden.
 . Statistische Ämter publizieren eine Vielzahl von statistischen Erhebungen. 
 Diese statistischen Daten können übernommen und mit den entsprechenden 
-geometrischen Objekten, wie z.B. den Kantonsgrenzen, verknüpft werden, um 
+geometrischen Objekten, wie z.B. den Gemeinde- oder Kantonsgrenzen, verknüpft werden, um 
 einen Raumbezug zu erhalten.
 
 Die Datenerfassung und –verwaltung nimmt meist sehr viel Zeit in Anspruch. Der 
@@ -166,9 +166,9 @@ Wenn du die Übung gelöst hast, hast du folgendes gelernt:
 * neue Objekte erfassen (Geometrie und Sachattribute)
 * die Anzeige der Daten über die Layer-Eigenschaften verändern
 
-=== Objekt aus Textfile
+=== Objekt aus Textdatei
 
-Die Lage der Kantonshauptorte ist im Textfile Hauptorte.txt abgespeichert. 
+Die Lage der Kantonshauptorte ist in der Textdatei Hauptorte.txt abgespeichert. 
 Öffne diese Datei in einem Texteditor und schaue dir den Inhalt etwas genauer 
 an.
 
@@ -188,10 +188,10 @@ image::einfuehrung_in_qgis/abspeichern.png["Abspeichern", 502, 192]
 Die Lage der Hauptorte ist durch die Angabe der X-Koordinate (XKoordinate) und 
 der Y-Koordinate (YKoordinate) angegeben. +
 
-In der ersten Zeile des Textfiles sind die Attributnamen abgespeichert. Diese 
+In der ersten Zeile der Textdatei sind die Attributnamen abgespeichert. Diese 
 Werte sind in unserem Fall durch Kommas getrennt. +
 
-Ab der 2. Zeile folgen die erfassten Objekte. Die Attribte der einzelnen 
+Ab der 2. Zeile folgen die erfassten Objekte. Die Attribute der einzelnen 
 Objekte sind ebenfalls durch Kommas getrennt. Ein neues Objekt beginnt immer 
 auf einer neuen Zeile. Bei Textwerten müssen zu Beginn und am Schluss des 
 Wertes Anführungszeichen stehen. +
@@ -202,7 +202,7 @@ Dokument als Trennungszeichen angewendet werden.
 ====
 endif::show_solutions[]
 
-Das Werkzeug _Textdatei als Layer hinzufügen_ um Koordinatenwerte aus einem Textfile 
+Das Werkzeug _Textdatei als Layer hinzufügen_, um Koordinatenwerte aus einer Textdatei 
 zu lesen, kann in der Werkzeugleiste _Layerverwaltungswerkzeugkasten_ gefunden werden. 
 Wenn du nicht mehr weisst, wie man Werkzeuleisten einblendet, schaue dir 
 nochmals Kapitel 1 an.
@@ -212,20 +212,20 @@ die Informationen im Textfile voneinander trennt (siehe Resultat der letzten
 Aufgabe).
 
 Klicke dann auf den … -Button und wähle die Textdatei _Hautporte.txt_ aus. Das 
-Werkzeug trennt das Textfile nun automatisch in verschiedene Felder auf, wobei 
+Werkzeug trennt die Textdatei nun automatisch in verschiedene Felder auf, wobei 
 das gewählte Trennzeichen den Ausschlag gibt, wo das neue Feld beginnt.
 
 Unter der Geometrie erscheint nun automatisch ein Vorschlag, welches Feld als 
 X-Feld und welches als Y-Feld benutzt werden soll. Vergleiche den Vorschlag 
 mit deinen Überlegungen. Falls du nicht einverstanden bist, ändere den 
-Eintrag. Klicke anschliessend auf den _OK_-Button um die Hauptorte im Projekt 
+Eintrag. Klicke anschliessend auf den _OK_-Button, um die Hauptorte im Projekt 
 anzuzeigen.
 
 Um später auch räumliche Analysen mit dem neuen Layer Hauptorte durchführen zu 
 können, muss dem Layer noch das gleiche Koordinatenbezugssystem wie den 
 restlichen Layern zugeordnet werden. Öffne die _Layereigenschaften_ der 
 Hauptorte und suche unter _Quelle_: das richtige _CRS_/_KBS_. Wähle das 
-Koordinatensystem CH1903 /LV03 mit der EPSG-Nr. 21781.
+Koordinatensystem CH1903 /LV03 mit der EPSG-Nr. 2056.
 
 Wenn du nun die Attributstabelle öffnest, siehst du die Informationen des 
 Textfiles in einer Tabelle dargestellt. Zusätzlich wurde aus den ausgewählten 
@@ -246,7 +246,7 @@ Wähle ausserdem zusätzlich geeignetere Punktsymbole für die Hauptorte.
 Wie bist du denn mit den Darstellungsfarben der Seen und der Kantone 
 zufrieden? Bist du nicht auch der Meinung, dass die Farbe hellgelb für die 
 Einfärbung der Kantone und die Farbe blau für die Seen besser geeignet wäre? 
-Um die Darstellungsfarbe zu ändern, musst du durch Rechtsmausklick auf den 
+Um die Darstellungsfarbe zu ändern, musst du durch Rechter-Mausklick auf den 
 Layer -> _Properties..._ oder durch Doppelklick auf den Layer das Fenster mit 
 dem Namen _Layereigenschaften_ öffnen.
 
@@ -272,19 +272,19 @@ dem Namen _Layereigenschaften_ für den Layer Seen.
 image::einfuehrung_in_qgis/qgis_layer_properties_seen.PNG["Layer-Eigenschaften Seen", 537, 359]
 
 Erstelle dazu durch Klicken auf den + -Button einen zweiten Symbollayer. Wähle 
-für den unteren Layer die Füllfarbe hellblau und den Füllstil _Solid_ und für 
+für den unteren Layer die Füllfarbe Hellblau und den Füllstil _Solid_ und für 
 den oberen Layer als Füllfarbe ein dunkleres Blau als für den ersten Layer und 
 als Füllstil die Option _Dense 4_. Die Randfarbe soll die gleiche sein wie die 
-Füllfarbe und die Randbreite soll _0.4_ betragen. Wenn du zufrieden bist mit 
-der Füllung, schliesse die beiden Fenster durch klicken auf OK. Bist du nicht 
+Füllfarbe und die Randbreite soll _0.4 mm_ betragen. Wenn du zufrieden bist mit 
+der Füllung, schliesse die beiden Fenster durch Klicken auf OK. Bist du nicht 
 auch der Meinung, dass die Darstellung im Kartenfenster nun schon viel besser 
 aussieht?
 
 === Suchleiste
 
-Eine neues Werkzeug, welches in QGIS 3 eingeführt wurde, ist die _Suchleiste_.
+Die _Suchleiste_ ist ein neues Werkzeug, welches in QGIS 3 eingeführt wurde.
 
-In QGIS kann die _Suchleiste_ mit dem Tastaturkürzel *Strg + K* geöffnet 
+In QGIS kann die _Suchleiste_ mit dem Tastaturkürzel _Strg + K_ geöffnet 
 werden.
 
 Mit der _Suchleiste_ können Aktionen, "Rechner" (Rechen-Operationen), 
@@ -295,7 +295,7 @@ der _Suchleiste_ nach einem See suchst. Verwende für die Suche den Präfix `f`.
 
 Beispiel: `f Greifensee`
 
-NOTE: Die Präfixe findest du, indem du mit *Strg + K* die Suchleiste öffnest, 
+NOTE: Die Präfixe findest du, indem du mit _Strg + K_ die Suchleiste öffnest, 
 oder unter _Einstellungen_ -> _Options..._ -> _Suche_
 
 === Objekte erfassen
@@ -308,7 +308,7 @@ zwischen _Giswil_, _Brienz_ und _Meiringen_ ist der _Lungernsee_. Um überhaupt
 Daten erfassen zu können, muss der Layer mit den Seen markiert werden und aus
 dem Werkzeugkasten _Digitalisierungswerkzeugleiste_ der Button
 _Bearbeitungsstatus umschalten_ ausgewählt werden. Das Gleiche geschieht mit
-Rechtsmausklick auf den Layer und dann die Option _Bearbeitungsstatus
+Rechter-Mausklick auf den Layer und dann die Option _Bearbeitungsstatus
 umschalten_ wählen. Probiere beide Methoden mal aus und entscheide dich für
 eine, welche du in Zukunft verwenden möchtest.
 
@@ -364,9 +364,11 @@ Besonderheit nennst.
 ifdef::show_solutions[]
 ====
 .Lösung
-. Shapefile +
+. GeoPackage +
 Die einfachste und schnellste Form der Speicherung von Vektordaten sind 
-Shapefiles, welche ihre Daten auf verschiedene Dateien verteilen.
+Geopackages. Eine anderes Format sind Shapefiles, welche ihre Daten auf
+verschiedene Dateien verteilen.
+
 . Geodatenbanken +
 Eine weitere Form der Speicherung von Vektordaten sind spezielle Datenbanken, 
 sogenannte Geodatenbanken. Sie unterscheiden sich von normalen Datenbanken 
@@ -408,19 +410,19 @@ Zeilen (horizontal) und Spalten (vertikal). Eine Zeile beinhaltet einen
 sogenannten Datensatz, auch Tupel genannt. Ein Datensatz beinhaltet 
 verschiedene Daten, welche zusammengehören und erst zusammen aussagekräftig 
 sind. Oben im Beispiel wäre Elena Meller mit der Email Elena.me@gmail und der 
-ID 1 ein Datensatz. Daneben gibt es noch Spalten, welche Attribute enthalten, 
+ID 1 ein Datensatz. Daneben gibt es noch Spalten, die Attribute enthalten, 
 welche wiederum eine Teilmenge eines Datensatzes darstellen.
 ====
 endif::show_solutions[]
 
 === Frage 3
 
-Eine Art, um Informationen zu Objekten abzuspeichern ist, diese in ein 
-Textfile zu schreiben.
+Eine Art, um Informationen zu Objekten abzuspeichern ist, diese in eine 
+TextDatei zu schreiben.
 
-. Was muss in einem Textfile minimal gespeichert werden, damit die Information 
-aus dem File im Kartenfenster angezeigt werden kann
-. Was muss beim Erfassen der Werte im Textfile beachtet werden. Wieso muss dies 
+. Was muss in einer Textdatei minimal gespeichert werden, damit die Information 
+aus der Datei im Kartenfenster angezeigt werden kann
+. Was muss beim Erfassen der Werte in der Textdatei beachtet werden. Wieso muss dies 
 beachtet werden?
 
 Beantworte die Fragen in eigenen Worten und begründe deine Antworten. Denke 
@@ -429,8 +431,8 @@ bei der Beantwortung der Fragen auch an die Übung zurück.
 ifdef::show_solutions[]
 ====
 .Lösung
-. Es müssen Koordinaten- und Attributwerte vorhanden sein +
-. Es muss darauf geachtet werden, dass die erste Zeile des Textfiles die 
+. Es müssen Koordinaten- und Attributwerte vorhanden sein. +
+. Es muss darauf geachtet werden, dass die erste Zeile der Textdatei die 
 Attributnamen getrennt durch ein Komma enthält. Danach, in den darauffolgenden 
 Zeilen, folgen die Objekte, bei welchen die Attribute auch durch Kommas 
 getrennt werden. +

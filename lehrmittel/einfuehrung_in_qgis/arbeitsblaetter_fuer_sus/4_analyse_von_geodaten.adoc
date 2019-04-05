@@ -76,7 +76,7 @@ image::einfuehrung_in_qgis/ausgabefrage2.png["Ausgabe Frage2"]
 *Frage 3* +
 Bei beiden Suchen sind die Eingabewerte in Textform.
 
-Die Resultate werden einmal in Textform und räumlich ausgegeben, bei der 
+Die Resultate werden in Textform und räumlich ausgegeben, bei der 
 zweiten Suche nur in Textform.
 
 Bei der ersten Suche möchte man oftmals nicht nur wissen an welcher Strasse 
@@ -146,7 +146,7 @@ FROM Quelle
 WHERE Where-Klausel
 ....
 
-Überblick über die Variablen die du für einfache Abfragen kennen solltest:
+Überblick über die Variablen, die du für einfache Abfragen kennen solltest:
 
 *Auswahlliste:*
 Namen aller Attribute, die als Resultat angezeigt werden sollen.
@@ -318,7 +318,7 @@ image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
 ====
 endif::show_solutions[]
 
-Kommen wir aber zum Anfangsbeispiel zurück. Diese Abfrage ist etwas 
+Kommen wir nun aber zum Anfangsbeispiel zurück. Diese Abfrage ist etwas 
 komplizierter. Öffne durch Klicken auf den Button _Objekte über Ausdruck wählen_
 den Abfrageeditor. Hier kann die Abfrage in Form einer _SQL_-Abfrage formuliert 
 werden. Es muss jedoch nur die _Where-Klausel_ der _SQL_-Abfrage eingegeben 
@@ -355,7 +355,7 @@ Um eine eigene SQL-Abfrage durchzuführen, wählt man _Projektlayer_ und klickt
 oben auf das Icon _SQL-Fenster_. 
 Es erscheint nun ein neuer, zweigeteilter Dialog mit einem leeren Textfeld oben 
 und einem Ausgabefeld unten. 
-Im oberen Feld steht der Cursor stehtbei Zeile 1 und man kann dort SQL 
+Im oberen Feld steht der Cursor bei Zeile 1 und man kann dort SQL 
 schreiben.
 
 Die SQL-Abfrage kann man mit Klick auf den Button _Ausführen_ ausführen. 
@@ -473,24 +473,30 @@ Diese geschieht durch folgende Formel:
 
 _Einwohnerdichte pro km^2^ = Anzahl Einwohner / Fläche in km^2^_
 
-Für diese Berechnung muss die Attributstabelle der Kantone geöffnet werden. Wähle die 
-Option _Feldrechner öffnen_. Falls du den Dichtewert in eine bereits 
-bestehende Spalte schreiben möchtest, kannst du in der Maske _Forhandenes Feld erneuern_ 
-ankreuzen und im Dropdown-Menü deine gewünschte Spalte auswählen. In 
-unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
-_Ausgabefeld Name_ den Begriff _Dichte_ ein. Wähle als _Ausgabefeldtyp 
-Ganzzahl (integer)_ und als _Ausgabefeldlänge 10_.
+Für diese Berechnung muss die Attributstabelle der Kantone geöffnet werden. 
+Wähle die Option _Feldrechner öffnen_. 
+Falls du den Dichtewert in eine bereits bestehende Spalte schreiben möchtest, 
+kannst du in der Maske _Vorhandenes Feld erneuern_ ankreuzen und im 
+Dropdown-Menü deine gewünschte Spalte auswählen. 
+In unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
+_Ausgabefeld Name_ den Begriff _Dichte_ ein. 
+Wähle als _Ausgabefeldtyp_ die Option _Ganzzahl (integer)_ und als 
+_Ausgabefeldlänge 10_.
 
 Wenn du den Dichtewert für alle und nicht nur für die selektierten Kantone 
-berechnen möchtest, musst du darauf achten, dass das Kreuz bei _Nur x ausgewählte
-Objekte aktualisieren_ nicht gesetzt ist.
+berechnen möchtest, musst du darauf achten, dass das Kreuz bei 
+_Nur x ausgewählte Objekte aktualisieren_ nicht gesetzt ist.
 
-Nun kannst du den _Feldrechner_ entsprechend der Formel für 
-die Einwohnerdichte formulieren. Dabei musst du nur den Ausdruck nach dem 
-Gleichheitszeichen eingeben.
+Nun kannst du den _Feldrechner_ entsprechend der Formel für die 
+Einwohnerdichte formulieren. 
+Dabei musst du nur den Ausdruck nach dem Gleichheitszeichen eingeben.
 
 Wir möchten ausserdem die Dichte als ganze gerundete Zahl ohne Nachkommastelle 
-berechnen. Deshalb muss die Option zu _Ganzzahl_ gewählt werden.
+berechnen (sog. Ganzzahl, englisch integer). 
+Deshalb muss im Feldrechner-Ausdruck die die Umwandlungs-Funktion 
+_to_int_ (d.h. "wandle in Ganzzahl um") gewählt werden.
+Funktionen erwarten immer einen Ausdruck in Klammern. 
+Setze also deinen Ausdruck in die Klammer von _to_int_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 9_ +
@@ -561,13 +567,13 @@ Jetzt sind alle Kantone selektiert, die diese Bedingung erfüllen.
 
 Nun sollen noch die dazugehörigen Hauptorte herausgefunden werden. Dies 
 geschieht mit Hilfe einer räumlichen Abfrage. Öffne dazu das _Attribute 
-Nach Position Zusammenfügen_-Werkzeug.
+nach Position Zusammenfügen_-Werkzeug.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 12_ +
 _Welcher Layer ist denn nun der *Eingabelayer*
 und welcher der *Layer verknüpfen*-Layer?
-Welche Topologische Operation muss gewählt werden?_
+Welche t opologische Operation muss gewählt werden?_
 
 ifdef::show_solutions[]
 ====
@@ -659,7 +665,7 @@ _"Selektiere alle Kantone, die nach 1600 der Schweiz beigetreten sind und
 Kontakt mit einem See haben, der grösser als 50 km^2^ ist"_
 
 Bei der Beantwortung dieser Frage müssen nur die Seen berücksichtigt werden, 
-welche im geopackage qgis_einfuehrung_daten.gpkg abgespeichert sind. Führe die 
+welche im GeoPackage qgis_einfuehrung_daten.gpkg abgespeichert sind. Führe die 
 Abfrage durch und schreibe Schritt für Schritt auf, wie du dabei vorgehst. 
 Kleiner Tipp: Denke an die Aufgabe aus der Übung, in welcher die Namen aller 
 Hauptorte selektiert wurden, deren zugehörige Kantone gewisse thematische 
