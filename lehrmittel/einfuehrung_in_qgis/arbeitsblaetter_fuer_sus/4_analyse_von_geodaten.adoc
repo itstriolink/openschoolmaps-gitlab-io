@@ -473,24 +473,30 @@ Diese geschieht durch folgende Formel:
 
 _Einwohnerdichte pro km^2^ = Anzahl Einwohner / Fläche in km^2^_
 
-Für diese Berechnung muss die Attributstabelle der Kantone geöffnet werden. Wähle die 
-Option _Feldrechner öffnen_. Falls du den Dichtewert in eine bereits 
-bestehende Spalte schreiben möchtest, kannst du in der Maske _Vorhandenes Feld erneuern_ 
-ankreuzen und im Dropdown-Menü deine gewünschte Spalte auswählen. In 
-unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
-_Ausgabefeld Name_ den Begriff _Dichte_ ein. Wähle als _Ausgabefeldtyp 
-Ganzzahl (integer)_ und als _Ausgabefeldlänge 10_.
+Für diese Berechnung muss die Attributstabelle der Kantone geöffnet werden. 
+Wähle die Option _Feldrechner öffnen_. 
+Falls du den Dichtewert in eine bereits bestehende Spalte schreiben möchtest, 
+kannst du in der Maske _Vorhandenes Feld erneuern_ ankreuzen und im 
+Dropdown-Menü deine gewünschte Spalte auswählen. 
+In unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
+_Ausgabefeld Name_ den Begriff _Dichte_ ein. 
+Wähle als _Ausgabefeldtyp_ die Option _Ganzzahl (integer)_ und als 
+_Ausgabefeldlänge 10_.
 
 Wenn du den Dichtewert für alle und nicht nur für die selektierten Kantone 
-berechnen möchtest, musst du darauf achten, dass das Kreuz bei _Nur x ausgewählte
-Objekte aktualisieren_ nicht gesetzt ist.
+berechnen möchtest, musst du darauf achten, dass das Kreuz bei 
+_Nur x ausgewählte Objekte aktualisieren_ nicht gesetzt ist.
 
-Nun kannst du den _Feldrechner_ entsprechend der Formel für 
-die Einwohnerdichte formulieren. Dabei musst du nur den Ausdruck nach dem 
-Gleichheitszeichen eingeben.
+Nun kannst du den _Feldrechner_ entsprechend der Formel für die 
+Einwohnerdichte formulieren. 
+Dabei musst du nur den Ausdruck nach dem Gleichheitszeichen eingeben.
 
 Wir möchten ausserdem die Dichte als ganze gerundete Zahl ohne Nachkommastelle 
-berechnen. Deshalb muss die Option zu _Ganzzahl_ gewählt werden.
+berechnen (sog. Ganzzahl, englisch integer). 
+Deshalb muss im Feldrechner-Ausdruck die die Umwandlungs-Funktion 
+_to_int_ (d.h. "wandle in Ganzzahl um") gewählt werden.
+Funktionen erwarten immer einen Ausdruck in Klammern. 
+Setze also deinen Ausdruck in die Klammer von _to_int_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 9_ +
