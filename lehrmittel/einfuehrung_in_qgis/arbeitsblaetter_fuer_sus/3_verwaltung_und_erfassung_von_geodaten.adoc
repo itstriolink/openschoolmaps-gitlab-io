@@ -20,10 +20,10 @@ diesem Kapitel.
 
 Dieses Kapitel hat folgende Lernziele:
 
-* den Aufbau einer Tabelle in eigenen Worten erklären und mindestens 4 
-Datenerfassungsarten ohne Hilfsmittel aufzählen
+* den Aufbau einer Tabelle in eigenen Worten erklären, 
+* mindestens 4 Datenerfassungsarten ohne Hilfsmittel aufzählen,
 * in eigenen Worten aufzeigen, wieso es sich lohnt, Geld und Zeit in die 
-Datenerfassung und -verwaltung zu stecken
+Datenerfassung und -verwaltung zu stecken.
 
 == Theorie
 
