@@ -62,11 +62,11 @@ den vier Komponenten zu._
 
 ifdef::show_solutions[]
 ====
-.. _Es müssen die Hardware (im Minimum Computer mit Tastatur und Bildschirm 
+. _Es müssen die Hardware (im Minimum Computer mit Tastatur und Bildschirm 
 oder Laptop und zusätzlich eine Maus) und die Software (Betriebssystem und 
 GIS-Software) besorgt werden._
-.. _Die Daten haben einen Raumbezug._
-.. *E* (Eingabe): _modelliert, digital erfasst, gespeichert_ +
+. _Die Daten haben einen Raumbezug._
+. *E* (Eingabe): _modelliert, digital erfasst, gespeichert_ +
 *V* (Verwaltung): _redigiert, reorganisiert_ +
 *A* (Analyse): _analysiert_ +
 *P* (Präsentation): _alphanumerisch und graphisch präsentiert_
@@ -81,7 +81,7 @@ Daten_ und Anwendungen etwas ausführlicher eingehen.
 === Hardware
 
 Die wichtigsten Hardwarekomponenten, die zu einem Geoinformationssystem 
-gehören, sind, wie bereits in der Lösung von Aufgabe 1a erwähnt, der Rechner 
+gehören, sind, wie bereits in der Lösung von Aufgabe 1.1 erwähnt, der Rechner 
 mit einem Bildschirm, einer Tastatur und einer Maus. Neben Peripheriegeräten 
 wie der Drucker gehören auch weitere Geräte, die zur Datenerfassung (siehe 
 Kapitel Erfassung und Verwaltung von Daten) verwendet werden, wie z.B. ein 
