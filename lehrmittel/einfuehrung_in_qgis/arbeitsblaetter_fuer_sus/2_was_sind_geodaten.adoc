@@ -65,22 +65,26 @@ Das Foto hat also einen Raumbezug.
 ==== Georeferenzierung
 
 Objekten ohne Raumbezug kann oftmals ein direkter oder indirekter Raumbezug 
-zugeordnet werden. Dieser Vorgang wird "georeferenzieren" genannt. Bei 
-Postadressen kann der Raumbezug durch "geocodieren" zugeordnet werden. Der 
-Raumbezug bezieht sich natürlich immer auf eine Erdabbildung, d.h. auf ein 
-Koordinatensystem. Diese Koordinatensysteme wurden eingeführt, um die 
-geographische Lage eines Ortes auf der Erde in Zahlen angeben zu können. Die 
-verschiedenen Koordinatensysteme kennst du bestimmt noch aus dem 
-Geografieunterricht. Falls du dein Wissen in diesem Bereich wieder etwas 
-auffrischen möchtest, kannst du dies mit Hilfe des Leitprogramms "Karten" tun. 
+zugeordnet werden. Dieser Vorgang wird "georeferenzieren" genannt. 
+Bei Postadressen kann der Raumbezug durch "geocodieren" zugeordnet werden. 
+Der Raumbezug bezieht sich natürlich immer auf eine Erdabbildung, d.h. auf ein 
+Koordinatensystem. 
+Diese Koordinatensysteme wurden eingeführt, um die geographische Lage eines 
+Ortes auf der Erde in Zahlen angeben zu können. 
+Die verschiedenen Koordinatensysteme kennst du bestimmt noch aus dem 
+Geografieunterricht. 
+Falls du dein Wissen in diesem Bereich wieder etwas auffrischen möchtest, 
+kannst du dies mit Hilfe des Leitprogramms "Karten" tun. 
 Dieses Leitprogramm ist auf dem EducETH-Server unter dem Link 
 http://www.educ.ethz.ch/unterrichtsmaterialien/geographie-umweltlehre/karten-leitprogramm.html 
 erhältlich.
-Mehr zu Kordinatensysteme siehe später.
+Mehr zu Koordinatensysteme siehe später.
+
 ==== Abspeicherungsart von Geodaten
 
 Geodaten können entweder in Form von Raster- oder von Vektordaten 
-abgespeichert werden. Was heisst das genau?
+abgespeichert werden. 
+Was heisst das genau?
 
 ===== Rasterdaten
 
@@ -207,17 +211,20 @@ schon richtig gesetzt sein. Wenn du trotzdem wissen willst, wie du das KBS
 ==== Koordinatensysteme
 
 Koordinatensysteme verwenden Kartenprojektionen.
-Es gibt verschiedene Synonyme und Abkürzungen für Koordinatensysteme: 
-Koordinatenreferenzsysteme (KRS, englisch coordinate reference system, CRS), 
-Koordinatenbezugssysteme (KBS, spatial reference systems, SRS).
+Es gibt verschiedene Synonyme und Abkürzungen für Koordinatensystem: 
+Koordinatenreferenzsystem (KRS, englisch coordinate reference system, CRS), 
+Koordinatenbezugssystem (KBS, spatial reference systems, SRS).
 
-In GIS werden Kartenprojektionen mit einem EPSG-Code angegeben.
+In GIS werden Koordinatensysteme bzw. Kartenprojektionen mit einem 
+EPSG-Code - eine vier- bis fünfstelligen Zahl - angegeben, beispielsweise 
+2056 für das Schweizer Koordinatensystem "CH1903+/LV95".
 
 QGIS hat einige nützliche Werkzeuge, um nach spezifischen Projektionen zu 
-suchen. Hierzu kann QGIS, in Echtzeit das KBS für ein Projekt projizieren.
+suchen. 
+Hierzu kann QGIS, in Echtzeit das KBS für ein Projekt projizieren.
 
 Um das Koordinatensystem eines Projekts zu ändern, kannst du in der 
-Statusleiste auf den EPSG-Code klicken und ein neues Koordinatensysteme 
+Statusleiste auf den EPSG-Code klicken und ein neues Koordinatensystem 
 auswählen.
 
 ===== Koordinatensystem eines Layers
@@ -225,7 +232,7 @@ auswählen.
 Um für einen bestimmten Layer ein spezifisches Koordinatensysteme anzugeben, 
 klickst du rechts auf den Layer und bewegst den Mauszeiger über das 
 Menü _KBS setzen_ und wählst _Set Layer CRS..._ aus. 
-Danach kannst du das gewünschte Koordinatensysteme auswählen.
+Danach kannst du das gewünschte Koordinatensystem auswählen.
 
 ===== Umprojizieren der Daten
 
@@ -246,25 +253,25 @@ Projekt Vektor- und Rasterdaten laden.
 
 Nach dieser Übung bist du in der Lage folgendes zu tun:
 
-* Das richtige Koordinatenbezugssystem für ein neues Projekt wählen.
+* Das richtige Koordinatensystem für ein neues Projekt wählen.
 * Vektordaten und WMS-Dienste ins Projekt laden.
 
 === Projekteinstellungen
 
 Um ein leeres Projekt zu öffnen, schliesse und öffne entweder QGIS neu oder 
-klicke auf den Button "Neues Projekt". In das leere Projekt sollen nun 
-Geodaten geladen werden.
+klicke auf den Button "Neues Projekt". 
+In das leere Projekt sollen nun Geodaten geladen werden.
 
 Bevor jedoch Daten geladen werden, sollte das Koordinatensystem des Projektes 
-definiert werden. Dazu drückst du rechts unten in QGIS auf die Schaltfläche 
-_Aktuelles KBS_. Mit dem Filter kannst du dann das gewünschte 
-Koordinatensystem suchen.
+definiert werden. 
+Dazu drückst du rechts unten in QGIS auf die Schaltfläche _Aktuelles KBS_. 
+Mit dem Filter kannst du dann das gewünschte Koordinatensystem suchen.
 
 Für die Schweiz werden folgende Koordinatensysteme verwendet: Das EPSG:2056 
-(CH1903+/LV95) und manchmal noch das EPSG:21781 (CH1903 /LV03).
+(CH1903+/LV95) und manchmal noch das ältere EPSG:21781 (CH1903 /LV03).
 
 Wähle das vorgegebene System mit Hilfe der Suche aus und bestätige die 
-Einstellung durch Klicken auf den Anwenden-Button.
+Einstellung durch Klicken auf den _Anwenden_-Button.
 
 Gehe anschliessend unter _Projekt_ -> _Properties..._ in den Reiter mit dem Namen 
 _Allgemein_, setze dort den Projekttitel "Die Schweiz" und bestimme eine 
