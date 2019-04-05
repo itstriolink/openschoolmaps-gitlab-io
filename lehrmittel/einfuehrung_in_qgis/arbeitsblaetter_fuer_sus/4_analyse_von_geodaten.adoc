@@ -355,7 +355,7 @@ Um eine eigene SQL-Abfrage durchzuführen, wählt man _Projektlayer_ und klickt
 oben auf das Icon _SQL-Fenster_. 
 Es erscheint nun ein neuer, zweigeteilter Dialog mit einem leeren Textfeld oben 
 und einem Ausgabefeld unten. 
-Im oberen Feld steht der Cursor stehtbei Zeile 1 und man kann dort SQL 
+Im oberen Feld steht der Cursor bei Zeile 1 und man kann dort SQL 
 schreiben.
 
 Die SQL-Abfrage kann man mit Klick auf den Button _Ausführen_ ausführen. 
