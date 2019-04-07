@@ -18,10 +18,10 @@ raumbezogenen Daten. Dieses Ableiten von neuen Informationen nennt man
 
 Dieses Kapitel beinhaltet folgende Lernziele:
 
-* den Unterschied zwischen Abfragen und Manipulationen in eigenen Worten erklären
+* den Unterschied zwischen Abfragen und Manipulationen in eigenen Worten erklären,
 * aufzählen, welche Abfragearten es gibt und diese mit Hilfe
-je eines Beispiels erklären
-* für eine thematische Abfrage eine korrekte SQL-Abfrage formulieren
+je eines Beispiels erklären,
+* für eine thematische Abfrage eine korrekte SQL-Abfrage formulieren.
 
 == Theorie
 
@@ -136,7 +136,7 @@ Um thematische Abfragen durchzuführen, wird die Datenbanksprache *SQL
 (Structured Query Language)* verwendet. Falls du bereits mit Datenbanken 
 gearbeitet hast, wirst du die Sprache bestimmt bereits kennen. Dann ist für 
 dich der nächste Abschnitt Repetition. Für alle anderen ist es eine kurze 
-Einführung über die wichtigsten Strukturen und Ausdrücke einer Abfrage mit SQL.
+Einführung über die wichtigsten Ausdrücke einer Abfrage mit SQL.
 
 Eine _SQL-Abfrage_ ist vereinfacht dargestellt wie folgt aufgebaut:
 
@@ -151,13 +151,13 @@ WHERE Where-Klausel
 *Auswahlliste:*
 Namen aller Attribute, die als Resultat angezeigt werden sollen.
 Ein * bedeutet, es werden alle Attribute angezeigt.
-Bei thematischen Abfragen in einem GIS ist nur die Abfrage nach allen 
-Attributen möglich.
-Deshalb muss diese Variable im GIS nicht eingestellt werden.
+Bei thematischen Abfragen innerhalb einer Attributtabelle ist nur die Abfrage 
+nach allen Attributen möglich und auch die (Attribut-) Quelle ist gegeben.
+Deshalb konzentrieren wir uns zuerst auf die Where-Klausel.
 
 *Quelle:*
-Namen der Tabellen, die Attribute enthalten, welche bei der Abfrage eine Rolle 
-spielen.
+Namen der Tabellen, die Attribute enthalten, welche bei der Abfrage 
+eine Rolle spielen. Bei einer Attributtabelle gibt es nur eine Tabelle.
 
 *Where-Klausel:*
 Bedingungen, die erfüllt werden müssen.
@@ -231,7 +231,9 @@ dargestellt:
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 3_ +
-_Probiere nun selber mal aus, folgende einfache Abfrage in SQL zu formulieren:_
+_Probiere nun selber mal aus, folgende einfache Abfrage in SQL zu formulieren.
+Beachte dabei, dass Attributnamen in doppelten Anführungszeichen und Textwerte 
+wie 'Müller' in einfachen Anführungszeichen geschrieben werden:_
 
 . _Es sollen alle Seen selektiert werden, deren Fläche grösser als 20 km^2^ 
 sind und die tiefer als 400 m.ü.M. liegen._
@@ -251,7 +253,7 @@ WHERE "Flaeche" > 20 AND "Tiefe" < 400
 ....
 SELECT
 FROM Adressen
-WHERE Name = 'Müller' AND Vorname = 'Peter' AND Ort = 'Bern'
+WHERE "Name" = 'Müller' AND "Vorname" = 'Peter' AND "Ort" = 'Bern'
 ....
 ====
 endif::show_solutions[]
@@ -493,10 +495,10 @@ Dabei musst du nur den Ausdruck nach dem Gleichheitszeichen eingeben.
 
 Wir möchten ausserdem die Dichte als ganze gerundete Zahl ohne Nachkommastelle 
 berechnen (sog. Ganzzahl, englisch integer). 
-Deshalb muss im Feldrechner-Ausdruck die die Umwandlungs-Funktion 
+Deshalb muss im Feldrechner-Ausdruck die Umwandlungs-Funktion 
 _to_int_ (d.h. "wandle in Ganzzahl um") gewählt werden.
 Funktionen erwarten immer einen Ausdruck in Klammern. 
-Setze also deinen Ausdruck in die Klammer von _to_int_.
+Setze also deinen Ausdruck in die Klammer nach _to_int_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Aufgabe 9_ +
@@ -676,8 +678,8 @@ ifdef::show_solutions[]
 ....
 SELECT * 
 FROM Kantonsgrenzen, Seen 
-WHERE Kantonsgrenzen.Beitrittsj > 1600 AND Seen.Flaeche > 50
-AND st_intersects(Seen.geometry, Kantonsgrenzen.geometry)
+WHERE "Kantonsgrenzen.Beitrittsj" > 1600 AND "Seen.Flaeche" > 50
+AND st_intersects("Seen.geometry", "Kantonsgrenzen.geometry")
 ....
 ====
 endif::show_solutions[]
