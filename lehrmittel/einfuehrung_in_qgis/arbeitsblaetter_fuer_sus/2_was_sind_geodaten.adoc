@@ -211,9 +211,9 @@ schon richtig gesetzt sein. Wenn du trotzdem wissen willst, wie du das KBS
 ==== Koordinatensysteme
 
 Koordinatensysteme verwenden Kartenprojektionen.
-Es gibt verschiedene Synonyme und Abkürzungen für Koordinatensystem: 
-Koordinatenreferenzsystem (KRS, englisch coordinate reference system, CRS), 
-Koordinatenbezugssystem (KBS, spatial reference systems, SRS).
+Es gibt verschiedene Synonyme und Abkürzungen für Koordinatensysteme: 
+Koordinatenbezugssystem (KBS, spatial reference systems, SRS) oder 
+Koordinatenreferenzsystem (KRS, englisch coordinate reference system, CRS).
 
 In GIS werden Koordinatensysteme bzw. Kartenprojektionen mit einem 
 EPSG-Code - eine vier- bis fünfstelligen Zahl - angegeben, beispielsweise 
@@ -221,7 +221,7 @@ EPSG-Code - eine vier- bis fünfstelligen Zahl - angegeben, beispielsweise
 
 QGIS hat einige nützliche Werkzeuge, um nach spezifischen Projektionen zu 
 suchen. 
-Hierzu kann QGIS, in Echtzeit das KBS für ein Projekt projizieren.
+Hierzu kann QGIS in Echtzeit das KBS für ein Projekt umprojizieren.
 
 Um das Koordinatensystem eines Projekts zu ändern, kannst du in der 
 Statusleiste auf den EPSG-Code klicken und ein neues Koordinatensystem 
@@ -236,7 +236,7 @@ Danach kannst du das gewünschte Koordinatensystem auswählen.
 
 ===== Umprojizieren der Daten
 
-Um die Daten in deiner Tabelle umprojizieren zu können, musst nur den 
+Um die Daten in deiner Tabelle permanent umprojizieren zu können, musst den 
 Layernamen rechtsklicken, auf _Exportieren_ klicken und _Save Feature As..._ 
 auswählen. Im oberen Teil des Fensters kannst du dann das KBS abändern.
 
@@ -281,7 +281,8 @@ Unter Pfade _speichern_ kannst du wählen, ob die Pfade zu den Daten relativ ode
 absolut abgespeichert werden sollen. Der Vorteil der relativen Pfade ist, dass 
 du den Ordner mit dem QGIS-Projekt und den Daten auch an einen anderen Ort hin 
 kopieren kannst, ohne anschliessend die ganzen Pfade zu den Daten wieder 
-anpassen zu müssen. Wähle deshalb für dein neues Projekt die Option "Relativ".
+anpassen zu müssen. Wähle deshalb für dein neues Projekt die Option "Relativ" 
+(falls diese Option nicht schon so eingstellt ist).
 
 Schliesse anschliessend das Fenster "Projekteinstellungen" durch Klicken auf 
 den OK-Button. Damit die neue Hintergrundfarbe erscheint, muss im 
