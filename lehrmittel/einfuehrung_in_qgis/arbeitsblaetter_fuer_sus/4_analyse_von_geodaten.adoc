@@ -244,14 +244,14 @@ ifdef::show_solutions[]
 ====
 .Lösung 1
 ....
-SELECT
+SELECT * 
 FROM Seen
-WHERE "Flaeche" > 20 AND "Tiefe" < 400 
+WHERE "Flaeche" > 20 AND "max_Tiefe" < 400 
 ....
 
 .Lösung 2
 ....
-SELECT
+SELECT * 
 FROM Adressen
 WHERE "Name" = 'Müller' AND "Vorname" = 'Peter' AND "Ort" = 'Bern'
 ....
@@ -394,13 +394,13 @@ berücksichtigt wird. Es handelt sich dabei um eine räumliche Abfrage.
 
 Das Werkzeug für die räumlichen Abfragen findet man, in dem man den Button 
 _Vektor_ klickt und aus dem neuen Fenster unter _Datenmanagement Werkzeuge_ 
-das Werkzeug _Attribute nach Position Zusammenfügen_ auswählt.
+das Werkzeug _Attribute nach Position zusammenfügen_ auswählt.
 
 Es sollen alle Kantone selektiert werden, bei denen mindestens einer der 
 erfassten Seen ganz innerhalb liegt (d.h. der Kanton teilt sich den See nicht 
 mit einem anderen Kanton oder einem anderen Land).
 
-Der _Eingabelayer_ Layer in der Maske ist der Layer, in welchem die Elemente 
+Der _Eingabe_-Layer in der Maske ist der Layer, in welchem die Elemente 
 selektiert werden sollen. Da im vorliegenden Fall die Kantone selektiert 
 werden sollen, wählen wir hier den Layer Kantonsgrenzen. Somit sind die Seen 
 der _Layer verknüpfen_ Layer. Die Checkbox _Nur gewählte Objekte_ muss 
@@ -410,11 +410,11 @@ ausgewählt werden.
 Die Seen sollen vollständig innerhalb eines Kantones liegen. D.h. die 
 Kantonsflächen enthalten die Seeflächen. Deshalb lautet die topologische 
 Operation _enthält_. Man geht bei der Wahl der topologischen Operation also 
-immer vom _Eingabelayer_ aus und überprüft, wie er im Verhältnis zum _Layer 
+immer vom _Eingabe_-Layer aus und überprüft, wie er im Verhältnis zum _Layer 
 verknüpfen_ steht.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 6_ +
+_Aufgabe 7_ +
 _Führe diese Abfrage durch. Wie viele Kantone erfüllen diese Bedingung?_
 
 ifdef::show_solutions[]
@@ -423,12 +423,12 @@ ifdef::show_solutions[]
 Abfrage:
 
 .Räumliches Abfragefenster von QGIS
-image::einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 6 Abfrage", 470, 374]
+image::einfuehrung_in_qgis/aufgabe6abfrage.png["Aufgabe 7 Abfrage", 470, 374]
 
 Lösung:
 
 .Ausgabe in der Tabelle von QGIS
-image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 6 Ausgabe", 828, 189]
+image::einfuehrung_in_qgis/aufgabe6ausgabe.png["Aufgabe 7 Ausgabe", 828, 189]
 
 8 Kantone erfüllen die Bedingung: 
 Bern, Freiburg, Luzern, Obwalden, Schwyz, Waadt, Zug und Zürich.
@@ -436,7 +436,7 @@ Bern, Freiburg, Luzern, Obwalden, Schwyz, Waadt, Zug und Zürich.
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 7_ +
+_Aufgabe 8_ +
 _Wie müsste die Abfrage lauten, wenn alle Seen selektiert werden sollen, die 
 zu mehr als einem Kanton oder Land gehören?_
 
@@ -446,12 +446,12 @@ ifdef::show_solutions[]
 Abfrage:
 
 .Räumliches Abfragefenster von QGIS
-image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 7 Abfrage", 470, 374]
+image::einfuehrung_in_qgis/aufgabe7abfrage.png["Aufgabe 8 Abfrage", 470, 374]
 ====
 endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 8_ +
+_Aufgabe 9_ +
 _Wie viele Seen erfüllen diese Bedingung? Schreibe die Lösung auf dein 
 Arbeitsblatt._
 
@@ -461,7 +461,7 @@ ifdef::show_solutions[]
 Resultat:
 
 .Ausgabe in der Tabelle von QGIS
-image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 8 Abfrage", 627, 296]
+image::einfuehrung_in_qgis/aufgabe8ausgabe.png["Aufgabe 9 Abfrage", 627, 296]
 
 12 Seen erfüllen die Bedingung.
 ====
@@ -481,7 +481,7 @@ Falls du den Dichtewert in eine bereits bestehende Spalte schreiben möchtest,
 kannst du in der Maske _Vorhandenes Feld erneuern_ ankreuzen und im 
 Dropdown-Menü deine gewünschte Spalte auswählen. 
 In unserem Fall möchten wir jedoch ein neues Feld anlegen. Gib deshalb unter 
-_Ausgabefeld Name_ den Begriff _Dichte_ ein. 
+_Ausgabefeld Name_ den Attributnamen _Dichte_ ein. 
 Wähle als _Ausgabefeldtyp_ die Option _Ganzzahl (integer)_ und als 
 _Ausgabefeldlänge 10_.
 
@@ -501,7 +501,7 @@ Funktionen erwarten immer einen Ausdruck in Klammern.
 Setze also deinen Ausdruck in die Klammer nach _to_int_.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 9_ +
+_Aufgabe 10_ +
 _Wie lautet der Feldrechnerausdruck?_
 
 ifdef::show_solutions[]
@@ -527,7 +527,7 @@ Es soll also nun eine Abfrage durchgeführt werden, in welcher sowohl
 thematische als auch die räumliche Komponente eine Rolle spielt. 
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 10_ +
+_Aufgabe 11_ +
 _Überlege kurz, bei welchen Komponenten es sich um die thematische und bei 
 welchen um räumliche Abfragen handelt._
 
@@ -552,7 +552,7 @@ Kantone, bei denen die Bevölkerungsdichte grösser als 200 Einwohner pro km^2^
 beträgt und die zwischen 1800 und 1900 der Schweiz beigetreten sind.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 11_ +
+_Aufgabe 12_ +
 _Wie lautet die Where-Klausel?_
 
 ifdef::show_solutions[]
@@ -569,27 +569,27 @@ Jetzt sind alle Kantone selektiert, die diese Bedingung erfüllen.
 
 Nun sollen noch die dazugehörigen Hauptorte herausgefunden werden. Dies 
 geschieht mit Hilfe einer räumlichen Abfrage. Öffne dazu das _Attribute 
-nach Position Zusammenfügen_-Werkzeug.
+nach Position zusammenfügen_-Werkzeug.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 12_ +
-_Welcher Layer ist denn nun der Eingabelayer und welcher der Layer 
+_Aufgabe 13_ +
+_Welcher Layer ist denn nun der Eingabe-Layer und welcher der Layer 
 verknüpfen-Layer? Welche topologische Operation muss gewählt werden?_
 
 ifdef::show_solutions[]
 ====
 .Lösung
-*Eingabelayer:* Layer "Hauptorte" +
-*Layer verknüpfen:* Layer "Kantonsgrenzen" +
+*Eingabe-Layer:* Layer "Hauptorte" +
+*Layer verknüpfen-Layer:* Layer "Kantonsgrenzen" +
 *Topologische Operation:* "innerhalb"
 ====
 endif::show_solutions[]
 
 Überprüfe vor dem Durchführen der Abfrage, dass die Einstellungen so sind, 
-dass von den Kantonsgrenzen nur die Selektierten berücksichtig werden.
+dass von den Kantonsgrenzen nur die selektierten berücksichtig werden.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-_Aufgabe 13_ +
+_Aufgabe 14_ +
 _Um welche Hauptorte handelt es sich?_
 
 ifdef::show_solutions[]
@@ -676,10 +676,13 @@ ifdef::show_solutions[]
 ====
 .Lösung
 ....
-SELECT * 
-FROM Kantonsgrenzen, Seen 
-WHERE "Kantonsgrenzen.Beitrittsj" > 1600 AND "Seen.Flaeche" > 50
-AND st_intersects("Seen.geometry", "Kantonsgrenzen.geometry")
+SELECT *
+FROM 
+  Kantonsgrenzen, 
+  (SELECT "geometry" FROM Seen WHERE "Flaeche" > 50) AS Seen
+WHERE "Beitrittsj" > 1600
+AND st_intersects(Kantonsgrenzen."geometry", Seen."geometry")
+ORDER BY "Nr"
 ....
 ====
 endif::show_solutions[]
