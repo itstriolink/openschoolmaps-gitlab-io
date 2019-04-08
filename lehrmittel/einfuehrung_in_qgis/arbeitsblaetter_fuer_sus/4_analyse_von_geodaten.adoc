@@ -677,12 +677,9 @@ ifdef::show_solutions[]
 .Lösung
 ....
 SELECT *
-FROM 
-  Kantonsgrenzen, 
-  (SELECT "geometry" FROM Seen WHERE "Flaeche" > 50) AS Seen
-WHERE "Beitrittsj" > 1600
+FROM Kantonsgrenzen, Seen
+WHERE Kantonsgrenzen."Beitrittsj" > 1600 AND Seen."Flaeche" > 50
 AND st_intersects(Kantonsgrenzen."geometry", Seen."geometry")
-ORDER BY "Nr"
 ....
 ====
 endif::show_solutions[]
