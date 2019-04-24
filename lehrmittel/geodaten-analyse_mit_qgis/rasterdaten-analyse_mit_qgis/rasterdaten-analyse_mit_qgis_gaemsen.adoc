@@ -266,7 +266,7 @@ kann dieser in Anführungszeichen dem Rasterrechnerausdruck hinzugefügt werden.
 Der Ausdruck ist aber noch nicht bereit.
 Wir möchten noch nach Werten zwischen 1500 und 2500 filtern.
 Dazu wählen wir die Operatoren „grösser-gleich“/“kleiner-gleich“
-(„>=“ und „\<=“), die wir mit „AND“ verknüpfen und einklammern.
+(`>=` und `\<=`), die wir mit `AND` verknüpfen und einklammern.
 Damit bekommen diejenigen Werte, die dazwischen liegen eine 1.
 Doch von diesen möchten wir eigentlich den Originalwert behalten.
 Dazu multiplizieren wir den eingeklammerten Ausdruck
