@@ -45,6 +45,10 @@ https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/mast
 . Analyse von Geodaten: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
 . Präsentation von Geodaten: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
 
+.Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
+
+* Raumanalyse Rasterdaten - Wo die Gämsen wohnen https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf?job=PDFs[Arbeitsblatt]
+
 .Zusätzliche Materialien:
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
 * Einführung in QGIS 3: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=QGIS%20excercise%20data[Daten]
