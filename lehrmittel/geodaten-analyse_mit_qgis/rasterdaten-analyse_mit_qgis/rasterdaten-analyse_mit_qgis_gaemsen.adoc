@@ -2,6 +2,7 @@
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/rasterdaten-analyse_gaemsen
+:experimental:
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
@@ -84,8 +85,8 @@ auf das alte schweizerische Koordinatenbezugssystem EPSG:21781 um.
 == Import
 Um die beiden Inputdateien `as85.txt` und `dhm_rimini.txt` zu laden,
 können Sie diese entweder mit "`Drag & Drop`" ins QGIS hineinziehen,
-oder Sie öffnen das Menü "`Layer`" -> "`Layer hinzufügen`".
-Dort wählen Sie den Eintrag "`Rasterlayer hinzufügen…`"
+oder Sie öffnen das Menü menu:Layer[Layer hinzufügen].
+Dort wählen Sie den Eintrag menu:Rasterlayer hinzufügen…[]
 und geben die entsprechenden Dateien an.
 Wählen Sie als Koordinatenbezugssystem EPSG:21781.
 
@@ -103,25 +104,25 @@ image::00_geladen.png[]
 == Gelände-Schummerungs-Karte
 Dieser Schritt ist noch nicht Teil der Auswertung
 sondern dient vielmehr der Visualisierung und der Orientierung auf der Karte.
-Über das Menü "`Raster`" können die Rasterlayer in QGIS
+Über das Menü menu:Raster[] können die Rasterlayer in QGIS
 bearbeitet und verändert werden.
 Hierbei werden meistens neue Layer erzeugt und im QGIS-Projekt angezeigt.
 
 image::01_menu.png[]
 
 Um eine Gelände-Schummerungs-Karte aus einem Höhenmodell erzeugen zu können,
-öffnen Sie im Menu "`Raster`" den Eintrag "`Analyse`" -> "`Schummerung`"
+öffnen Sie im Menu menu:Raster[] den Eintrag menu:Analyse[Schummerung]
 (siehe Abbildung unten).
 
 image:01_schummerungskarte.png[] image:01_schummerung_protokoll.png[]
 
 Als Eingabedatei wählen Sie den Layer "`dhm_rimini`".
-Klicken Sie bei "`Schummerung`" (Ausgabedatei) rechts auf "`…`",
+Klicken Sie bei "`Schummerung`" (Ausgabedatei) rechts auf btn:[…],
 eröffnen Sie einen neuen Übungsdaten-Ordner z.B. `gaemse`
 und geben Sie den Namen `gelaende.tif` an
 (die Endung tif steht für TIFF bzw. GeoTIFF).
 
-Nach einem Klick auf "Starte" wechselt das Dialog-Fenster automatisch
+Nach einem Klick auf btn:[Starte] wechselt das Dialog-Fenster automatisch
 auf den Reiter (Tab, Registerkarte) mit dem Ausführungs-Protokoll.
 Das Fenster "`Schummerung`" mit dem Protokoll können Sie danach schliessen.
 Danach sollten Sie etwa folgendes Ergebnis mit der Geländeschummerung erhalten:
@@ -140,7 +141,7 @@ zur ersten Auswertung mit dem Teilresultat "`Gelände-Ausrichtung`".
 Die Gelände-Ausrichtungs-Karte zeigt
 die Ausrichtung (engl. aspect) des Geländes in Bezug auf Norden.
 Sie wird mit einem Höhenmodell als Quelle
-über das Menü "`Raster`" -> "`Analyse`" -> "`Perspektive`" erstellt
+über das Menü menu:Raster[Analyse > Perspektive] erstellt
 (vgl. Abbildung oben).
 
 Als Eingabelayer wählen Sie wieder "`dhm_rimini`".
@@ -197,7 +198,7 @@ noch die Geländeschummerung sieht.
 
 image::02_perspective_transparenz.png[]
 
-Danach auf "`Ok`" klicken (das Dialogfenster schliesst).
+Danach auf btn:[Ok] klicken (das Dialogfenster schliesst).
 
 Das Resultat sollte es nun in etwa wie unten abgebildet aussehen.
 Wenn Sie andere Farben eingestellt haben, ist das nicht weiter schlimm.
@@ -208,13 +209,13 @@ image::02_perspective_final.png[]
 
 == Neigungskarte
 Mit der Funktion "`Neigung`"
-(engl. slope, Menü "`Raster`" -> "`Analyse`" -> "`Neigung`")
+(engl. slope, Menü menu:Raster[Analyse > Neigung])
 wird die Steigung eines als Raster/Grid codierten Geländes dargestellt.
 Für diese Übung wollen wir die Steigung in Prozent statt in Grad ausdrücken
 (vgl. unten).
 Als Eingabedatei wählen Sie wieder den Layer "`dhm_rimini`"
 und geben die Ausgabedatei `slope.tif` im Übungsdaten-Ordner an.
-Dann "`Starte`".
+Dann btn:[Starte].
 
 image::03_slope_inked.png[]
 
@@ -248,7 +249,7 @@ Die Höhen des Geländes sind im Layer "`dhm_rimini`" gespeichert.
 Damit werden wir nun einen neuen Layer berechnen,
 der nur noch diejenigen Rasterzellen beinhaltet,
 die zwischen 1500 und 2500 m. ü. M. liegen.
-Dafür müssen Sie nun den Rasterrechner über das Menü "`Raster`" öffnen.
+Dafür müssen Sie nun den Rasterrechner über das Menü menu:Raster[] öffnen.
 
 image::04_rasterrechner_menu.png[]
 
@@ -275,7 +276,7 @@ mit dem ursprünglichen Wert selbst
 wird offenbar als Zahl 1/0 interpretiert anstelle von wahr/falsch).
 Man kann den Ausdruck entweder direkt eintippen oder
 mit Klick auf die Operator-Buttons im Bereich "`Operatoren`" zusammenstellen.
-Mit "`OK`" den Rasterrechner starten.
+Mit btn:[OK] den Rasterrechner starten.
 
 image::05_dhm_rastercalc_bsp.png[]
 
@@ -289,10 +290,10 @@ und bei grauen ein Wert zwischen 1500 m. ü. M. und 2500 m. ü. M..
 Um die 0-Werte auch aus der Ansicht herauszufiltern,
 können wir ihnen noch eine Transparenz zuordnen.
 In den Layer-Eigenschaften > "`Transparenz`"
-und "`Benutzerdefinierte Transparenzeinstellung`" klicken dazu Sie auf "`+`"
+und "`Benutzerdefinierte Transparenzeinstellung`" klicken dazu Sie auf btn:[+]
 und setzen Sie die beiden Werte "`Von`" und "`Nach`" auf 0
 sowie "`Prozent Transparenz`" auf 100 Prozent.
-Danach klicken Sie auf "`Anwenden`".
+Danach klicken Sie auf btn:[Anwenden].
 
 image::05_dhm_rastercalc_bsp_transparenz.png[]
 
@@ -308,10 +309,10 @@ wenden Sie nun für alle weiteren drei Kriterien an, wie folgt:
 Für das zweite Kriterium gehen Sie vom Layer bzw. Kanal "`Neigung@01`" aus
 und speichern das Resultat im Übungsdaten-Ordner
 unter dem Namen `slope_over20perc.tif`
-("`Ok`" ist noch nicht aktiviert).
+(btn:[Ok] ist noch nicht aktiviert).
 Selektieren Sie mit dem Rasterrechner in diesem Falle alle Rasterzellen,
 die steiler als 20% sind.
-Dann "`Ok`".
+Dann btn:[Ok].
 
 Für das dritte Kriterium verwenden Sie den Layer "`Perspektive`" (`aspect.tif`)
 und filtern alle Rasterzellen heraus,
@@ -320,7 +321,7 @@ Damit erhalten Sie alle nach Süden gerichteten Hänge
 (zur Erinnerung Norden ist 0°).
 Speichern Sie das Resultat im Übungsdaten-Ordner
 unter dem Namen `aspect_135_225.tif`.
-Dann "`Ok`".
+Dann btn:[Ok].
 
 Für das vierte und letzte Kriterium nehmen wir den Layer "`as85`".
 In diesem sind die verschiedenen Geländearten als Code (Ganzzahl) abgespeichert.
