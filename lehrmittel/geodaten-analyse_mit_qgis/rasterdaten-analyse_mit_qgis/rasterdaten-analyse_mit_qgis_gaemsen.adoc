@@ -111,7 +111,7 @@ Hierbei werden meistens neue Layer erzeugt und im QGIS-Projekt angezeigt.
 image::01_menu.png[]
 
 Um eine Gelände-Schummerungs-Karte aus einem Höhenmodell erzeugen zu können,
-öffnen Sie im Menu menu:Raster[] den Eintrag menu:Analyse[Schummerung]
+wählen Sie Menu menu:Raster[Analyse > Schummerung]
 (siehe Abbildung unten).
 
 image:01_schummerungskarte.png[] image:01_schummerung_protokoll.png[]
