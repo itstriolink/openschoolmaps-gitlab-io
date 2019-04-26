@@ -200,7 +200,7 @@ image::02_perspective_transparenz.png[]
 
 Danach auf btn:[Ok] klicken (das Dialogfenster schliesst).
 
-Das Resultat sollte es nun in etwa wie unten abgebildet aussehen.
+Das Resultat sollte nun in etwa wie unten abgebildet aussehen.
 Wenn du andere Farben eingestellt hast, ist das nicht weiter schlimm.
 Hauptsache ist, dass nun die Himmelsrichtungen der Berghänge
 durch verschiedene Farben visualisiert sind.
