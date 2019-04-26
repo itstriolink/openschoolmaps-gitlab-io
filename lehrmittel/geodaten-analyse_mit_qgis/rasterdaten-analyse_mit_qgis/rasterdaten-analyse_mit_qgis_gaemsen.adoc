@@ -13,7 +13,7 @@ Eine multikriterielle Rasteranalyse mit QGIS 3
 image::000_titelbild.png[]
 
 == Allgemeines
-Wissen Sie, wo die Gämsen im Zürcher Oberland potentiell leben?
+Weisst du, wo die Gämsen im Zürcher Oberland potentiell leben?
 Eine multi-kriterielle Rasteranalyse mit einem GIS liefert die Antwort.
 Diese Übung stammt ursprünglich von
 Andreas Lienhard, Kanton Zürich (herzlichen Dank!),
@@ -77,27 +77,27 @@ Dies ist der Ablaufplan:
   miteinander verschnitten (spatial overlay, intersection)
   und das Ergebnis visualisiert.
 
-Starten Sie nun QGIS
+Starte nun QGIS
 - oder öffnen ein neues QGIS-Projekt -
-und stellen Sie das Koordinatenbezugssystem des Projekts unten rechts
+und stelle das Koordinatenbezugssystem des Projekts unten rechts
 auf das alte schweizerische Koordinatenbezugssystem EPSG:21781 um.
 
 == Import
 Um die beiden Inputdateien `as85.txt` und `dhm_rimini.txt` zu laden,
-können Sie diese entweder mit "`Drag & Drop`" ins QGIS hineinziehen,
-oder Sie öffnen das Menü menu:Layer[Layer hinzufügen].
-Dort wählen Sie den Eintrag menu:Rasterlayer hinzufügen…[]
-und geben die entsprechenden Dateien an.
-Wählen Sie als Koordinatenbezugssystem EPSG:21781.
+kannst du diese entweder mit "`Drag & Drop`" ins QGIS hineinziehen,
+oder du öffnest das Menü menu:Layer[Layer hinzufügen].
+Dort wählst du den Eintrag menu:Rasterlayer hinzufügen…[]
+und gibst die entsprechenden Dateien an.
+Wähle als Koordinatenbezugssystem EPSG:21781.
 
-Kontrollieren Sie,
+Kontrolliere,
 dass im Layer-Manager der Layer "`dhm_rimini`" oben und damit sichtbar ist,
 sonst einfach den Layer im Layer-Manager hochziehen.
-Falls der Layer schwarz dargestellt wird, können Sie dies anpassen, in dem Sie
-zu Layer-Eigenschaften gehen und bei "`Kontrastverbesserung`"
-von "`Zuschneiden auf MinMax`" auf "`Strecken auf MinMax`" wechseln
+Falls der Layer schwarz dargestellt wird, kannst du das anpassen, in dem du
+zu Layer-Eigenschaften gehst und bei "`Kontrastverbesserung`"
+von "`Zuschneiden auf MinMax`" auf "`Strecken auf MinMax`" wechselst
 (es gibt einige weitere Darstellungsoptionen).
-Nun sollten Sie etwa das sehen, was nachfolgend dargestellt ist.
+Nun solltest du das sehen, was nachfolgend dargestellt ist.
 
 image::00_geladen.png[]
 
@@ -111,25 +111,25 @@ Hierbei werden meistens neue Layer erzeugt und im QGIS-Projekt angezeigt.
 image::01_menu.png[]
 
 Um eine Gelände-Schummerungs-Karte aus einem Höhenmodell erzeugen zu können,
-wählen Sie Menu menu:Raster[Analyse > Schummerung]
+wählst du Menu menu:Raster[Analyse > Schummerung]
 (siehe Abbildung unten).
 
 image:01_schummerungskarte.png[] image:01_schummerung_protokoll.png[]
 
-Als Eingabedatei wählen Sie den Layer "`dhm_rimini`".
-Klicken Sie bei "`Schummerung`" (Ausgabedatei) rechts auf btn:[…],
-eröffnen Sie einen neuen Übungsdaten-Ordner z.B. `gaemse`
-und geben Sie den Namen `gelaende.tif` an
+Als Eingabedatei wählst du den Layer "`dhm_rimini`".
+Klicke bei "`Schummerung`" (Ausgabedatei) rechts auf btn:[…],
+eröffnest du einen neuen Übungsdaten-Ordner z.B. `gaemse`
+und gib den Namen `gelaende.tif` an
 (die Endung tif steht für TIFF bzw. GeoTIFF).
 
 Nach einem Klick auf btn:[Starte] wechselt das Dialog-Fenster automatisch
 auf den Reiter (Tab, Registerkarte) mit dem Ausführungs-Protokoll.
-Das Fenster "`Schummerung`" mit dem Protokoll können Sie danach schliessen.
-Danach sollten Sie etwa folgendes Ergebnis mit der Geländeschummerung erhalten:
+Das Fenster "`Schummerung`" mit dem Protokoll kannst du danach schliessen.
+Danach solltest du etwa folgendes Ergebnis mit der Geländeschummerung erhalten:
 
 image::01_schummerungskarte_bsp.png[]
 
-Speichern Sie an dieser Stelle auch das ganze QGIS-Projekt
+Speichere an dieser Stelle auch das ganze QGIS-Projekt
 in den Ordner z.B. `gaemse` mit dem Namen `gaemse.qgz`.
 
 image::02_perspective.png[]
@@ -144,27 +144,27 @@ Sie wird mit einem Höhenmodell als Quelle
 über das Menü menu:Raster[Analyse > Perspektive] erstellt
 (vgl. Abbildung oben).
 
-Als Eingabelayer wählen Sie wieder "`dhm_rimini`".
-Wählen Sie bei "`Perspektive`" (Ausgabedatei) den Übungsdaten-Ordner (`gaemse`)
+Als Eingabelayer wähle wieder "`dhm_rimini`".
+Wähle bei "`Perspektive`" (Ausgabedatei) den Übungsdaten-Ordner (`gaemse`)
 und den Dateinamen `aspect.tif`:
 vgl. Abbildung oben.
 
-Wenn alles richtig gelaufen ist, sollten Sie etwa folgendes sehen
+Wenn alles richtig gelaufen ist, solltest du etwa folgendes sehen
 (kann auch abweichen):
 
 image::02_perspective_bsp.png[]
 
 Diese Darstellung der Gelände-Ausrichtungs-Karte
 wollen wir nun aber noch etwas verbessern.
-Um den Stil eines Layers zu ändern, können Sie per Rechts- oder Doppelklick
+Um den Stil eines Layers zu ändern, kannst du per Rechts- oder Doppelklick
 auf den Layernamen und dessen Eigenschaften zugreifen.
 
-Wählen Sie in der "`Symbolisierung`"
+Wähle in der "`Symbolisierung`"
 im ersten Eintrag "`Kanaldarstellung`" die Darstellungsart "`Einkanalpseudofarbe`".
-Als Kanal bleibt Ihnen nur der "`Kanal 1 (grey)`" zur Auswahl.
-Nun können Sie "`Min`" auf 0 und "`Max`" und auf 360 stellen,
+Als Kanal bleibt dir nur der "`Kanal 1 (grey)`" zur Auswahl.
+Nun kannst du "`Min`" auf 0 und "`Max`" und auf 360 stellen,
 "`Interpolation`" auf "`Linear`",
-als "`Farbverlauf`" wählen Sie irgendeinen,
+als "`Farbverlauf`" wähle irgendeinen,
 damit die automatische Klassifizierung funktioniert
 (welchen Farbverlauf spielt keine Rolle,
 da wir die Farben manuell zuweisen werden),
@@ -179,19 +179,19 @@ Beim Ergebnis der verwendeten Operation entspricht 0° Norden (N).
 Bei Werten nahe 0° liegt also ein Nordhang vor.
 Aber auch Werte nahe 360° repräsentieren Nordhänge.
 Deswegen wurden fünf anstatt nur vier Klassen verwendet.
-Weisen Sie daher der ersten und letzten Klasse dieselbe Farbe zu, z.B. blau.
+Weise daher der ersten und letzten Klasse dieselbe Farbe zu, z.B. blau.
 Der Winkel im Ergebnis ist im Uhrzeigersinn zu verstehen, 90° ist also Osten.
-Weisen Sie den restlichen drei Klassen
+Weise den restlichen drei Klassen
 unterschiedliche, gut unterscheidbare Farben zu,
 z.B. rot, gelb, grün.
 
-Wenn Sie wollen, können Sie den Klassen eine sinnvolle "`Beschriftung`" geben,
+Wenn du willst, kannst du den Klassen eine sinnvolle "`Beschriftung`" geben,
 z.B. N, O, S, W (und nochmals N).
 
 image::02_perspective_colors.png[]
 
-Wenn Sie alle Einstellungen gemacht haben,
-gehen Sie auf den Reiter "`Transparenz`" (unterhalb Reiter "`Symbolisierung`").
+Wenn du alle Einstellungen gemacht hast,
+gehe auf den Reiter "`Transparenz`" (unterhalb Reiter "`Symbolisierung`").
 Hier setzen wir die globale Transparenz auf z.B. 50%,
 damit man unter der gefärbten Ausrichtungskarte
 noch die Geländeschummerung sieht.
@@ -201,7 +201,7 @@ image::02_perspective_transparenz.png[]
 Danach auf btn:[Ok] klicken (das Dialogfenster schliesst).
 
 Das Resultat sollte es nun in etwa wie unten abgebildet aussehen.
-Wenn Sie andere Farben eingestellt haben, ist das nicht weiter schlimm.
+Wenn du andere Farben eingestellt hast, ist das nicht weiter schlimm.
 Hauptsache ist, dass nun die Himmelsrichtungen der Berghänge
 durch verschiedene Farben visualisiert sind.
 
@@ -213,8 +213,8 @@ Mit der Funktion "`Neigung`"
 wird die Steigung eines als Raster/Grid codierten Geländes dargestellt.
 Für diese Übung wollen wir die Steigung in Prozent statt in Grad ausdrücken
 (vgl. unten).
-Als Eingabedatei wählen Sie wieder den Layer "`dhm_rimini`"
-und geben die Ausgabedatei `slope.tif` im Übungsdaten-Ordner an.
+Als Eingabedatei wählst du wieder den Layer "`dhm_rimini`"
+und gibst die Ausgabedatei `slope.tif` im Übungsdaten-Ordner an.
 Dann btn:[Starte].
 
 image::03_slope_inked.png[]
@@ -225,7 +225,7 @@ Das Resultat sieht etwa wie folgt aus
 image::03_slope_bsp.png[]
 
 == Filtern nach den Kriterien
-Sie haben nun die Daten so weit vorbereitet,
+Du hast nun die Daten so weit vorbereitet,
 dass wir die Kriterien anwenden können.
 Zur Erinnerung:
 Wir suchen diejenigen Gebiete, die folgende Kriterien erfüllen:
@@ -253,9 +253,9 @@ Dafür müssen Sie nun den Rasterrechner über das Menü menu:Raster[] öffnen.
 
 image::04_rasterrechner_menu.png[]
 
-Im Rasterrechner müssen Sie wieder rechts oben den Ausgabelayer angeben.
-Wählen Sie den Übungsdaten-Ordner
-und nennen Sie die Ausgabedatei `dhm_rimini_1500_2500.tif`.
+Im Rasterrechner musst du wieder rechts oben den Ausgabelayer angeben.
+Wähle den Übungsdaten-Ordner
+und nimm die Ausgabedatei `dhm_rimini_1500_2500.tif`.
 
 image::05_dhm_rastercalc.png[]
 
@@ -263,7 +263,7 @@ Links im Dialog sind die verfügbaren Layer
 mit ihren "`Rasterkanälen`" (hier immer "`@1`") aufgelistet.
 Für diese erste Berechnung wählen wir "`dhm_rimini@1`".
 Per Doppelklick darauf
-kann dieser in Anführungszeichen dem Rasterrechnerausdruck hinzugefügt werden.
+können diese in Anführungszeichen dem Rasterrechnerausdruck hinzugefügt werden.
 Der Ausdruck ist aber noch nicht bereit.
 Wir möchten noch nach Werten zwischen 1500 und 2500 filtern.
 Dazu wählen wir die Operatoren "`grösser-gleich`"/"`kleiner-gleich`"
@@ -290,36 +290,36 @@ und bei grauen ein Wert zwischen 1500 m. ü. M. und 2500 m. ü. M..
 Um die 0-Werte auch aus der Ansicht herauszufiltern,
 können wir ihnen noch eine Transparenz zuordnen.
 In den Layer-Eigenschaften > "`Transparenz`"
-und "`Benutzerdefinierte Transparenzeinstellung`" klicken dazu Sie auf btn:[+]
-und setzen Sie die beiden Werte "`Von`" und "`Nach`" auf 0
+und "`Benutzerdefinierte Transparenzeinstellung`" klicke dazu auf btn:[+]
+und setze die beiden Werte "`Von`" und "`Nach`" auf 0
 sowie "`Prozent Transparenz`" auf 100 Prozent.
-Danach klicken Sie auf btn:[Anwenden].
+Danach klicke auf btn:[Anwenden].
 
 image::05_dhm_rastercalc_bsp_transparenz.png[]
 
-Schalten Sie nun im Layer-Manager die Sichtbarkeit des Layers "`Neigung`" aus. +
+Schalte nun im Layer-Manager die Sichtbarkeit des Layers "`Neigung`" aus. +
 Das Ergebnis ist nun so gefiltert, dass man die anderen Layer darunter sieht:
 
 image::05_dhm_rastercalc_bsp_transparenz_bsp.png[]
 
 Die gleichen Schritte
 - zuerst Rasterrechner dann Transparenz –
-wenden Sie nun für alle weiteren drei Kriterien an, wie folgt:
+wirst du nun für alle weiteren drei Kriterien an, wie folgt:
 
-Für das zweite Kriterium gehen Sie vom Layer bzw. Kanal "`Neigung@01`" aus
+Für das zweite Kriterium gehe vom Layer bzw. Kanal "`Neigung@01`" aus
 und speichern das Resultat im Übungsdaten-Ordner
 unter dem Namen `slope_over20perc.tif`
 (btn:[Ok] ist noch nicht aktiviert).
-Selektieren Sie mit dem Rasterrechner in diesem Falle alle Rasterzellen,
+Selektiere mit dem Rasterrechner in diesem Falle alle Rasterzellen,
 die steiler als 20% sind.
 Dann btn:[Ok].
 
-Für das dritte Kriterium verwenden Sie den Layer "`Perspektive`" (`aspect.tif`)
+Für das dritte Kriterium verwendest du den Layer "`Perspektive`" (`aspect.tif`)
 und filtern alle Rasterzellen heraus,
 welche zwischen den 135 und 225 Grad liegen (d.h. 180 Grad plus/minus 45 Grad).
-Damit erhalten Sie alle nach Süden gerichteten Hänge
+Damit erhaltest alle nach Süden gerichteten Hänge
 (zur Erinnerung Norden ist 0°).
-Speichern Sie das Resultat im Übungsdaten-Ordner
+Speichere das Resultat im Übungsdaten-Ordner
 unter dem Namen `aspect_135_225.tif`.
 Dann btn:[Ok].
 
@@ -330,29 +330,29 @@ welche die folgenden Nutzungen aufweisen:
 Wies- und Ackerland, Heimweiden, Maiensässe,
 Heualpen, Bergwiesen, Alp- und Juraweiden.
 Diese entsprechen den Codes 8, 9, 10 und 11.
-Filtern Sie den Layer "`as85`" daher nach diesen Codes.
-Speichern Sie das Resultat
+Filtere den Layer "`as85`" daher nach diesen Codes.
+Speichere das Resultat
 im Übungsdaten-Ordner unter dem Dateinamen `as85_sorted.tif`.
 
-Denken Sie daran, für jeden Layer die benutzerdefinierte Transparenz
+Denke daran, für jeden Layer die benutzerdefinierte Transparenz
 auf 100 Prozent für die Werte von 0 bis 0 zu setzen (vgl. Layer-Eigenschaften).
 
-Probieren Sie dies für alle Schritte aus.
-Sollten Sie nicht weiterkommen,
+Probiere dies für alle Schritte aus.
+Solltest du nicht weiterkommen,
 so ist im nächsten Kapitel
 jeder Schritt noch mit Lösung und Screenshots beschrieben.
 
-Nun haben Sie alle nötigen Vorberechnungen gemacht.
-Nun müssen Sie noch die vier Layer verschneiden (engl. overlay/intersection).
-Dazu verwenden Sie wieder den Rasterrechner und kombinieren die vier Layer
+Nun hast du alle nötigen Vorberechnungen gemacht.
+Nun musst du noch die vier Layer verschneiden (engl. overlay/intersection).
+Dazu verwendest du wieder den Rasterrechner und kombinieren die vier Layer
 "`dhm_rimini_1500_2500`", "`slope_over20perc`", "`aspect_135_225`" und "`as85_sorted`"
 mit dem logischen UND-Operator.
-Nennen Sie das Resultat `gut_fuer_gaemsi.tif`
-und speichern Sie es wieder in den Übungsdaten-Ordner.
-Auch hier sollten Sie die benutzerdefinierte Transparenz
+Nimm das Resultat `gut_fuer_gaemsi.tif`
+und speichere es wieder in den Übungsdaten-Ordner.
+Auch hier solltest du die benutzerdefinierte Transparenz
 auf 100 Prozent für die Werte von 0 bis 0 setzen.
 
-Wenn Sie wollen, können Sie auch dieses Ergebnis
+Wenn du willst, kannst du auch dieses Ergebnis
 mit einer Einkanalpseudofarbe oder Palette einfärben:
 
 image::09_gut_fuer_gaemsi_bsp.png[]
@@ -380,8 +380,8 @@ D.h. wir wenden zuerst den Rasterrechner an
 und setzen dann die Transparenz der nicht benötigten Werte auf "`durchsichtig`".
 
 === Zweites Kriterium (Gebiete, die steiler als 20% sind):
-Öffnen Sie den Rasterrechner, wählen Sie den Rasterkanal "`Neigung@1`"
-und geben Sie den folgenden Rasterrechnerausdruck ein:
+Öffne den Rasterrechner, wähle den Rasterkanal "`Neigung@1`"
+und gib den folgenden Rasterrechnerausdruck ein:
 ----
 ("Neigung@1" > 20) * "Neigung@1"
 ----
@@ -395,7 +395,7 @@ Das Ergebnis des zweiten Kriteriums sollte ungefähr wie folgt aussehen:
 image::06_slope_20percent_bsp.png[]
 
 === Drittes Kriterium (Südhang):
-Im Rasterrechner setzen Sie als Ausgabelayer `aspect_135_225.tif`,
+Im Rasterrechner setze als Ausgabelayer `aspect_135_225.tif`,
 wählen den Rasterkanal "`Perspektive@1`"
 und geben den folgenden Rasterrechnerausdruck ein:
 ----
@@ -412,7 +412,7 @@ sollte etwa so aussehen:
 image::07_aspect_south_bsp.png[]
 
 === Viertes Kriterium (Geländearten):
-Im Rasterrechner wählen Sie den Rasterkanal "`as85@1`",
+Im Rasterrechner wähle den Rasterkanal "`as85@1`",
 den Ausgabelayer `as85_sorted.tif`
 und geben folgenden Rasterrechnerausdruck ein:
 ----
