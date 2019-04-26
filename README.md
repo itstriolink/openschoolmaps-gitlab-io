@@ -42,6 +42,10 @@ Hier unsere Webseite: https://openschoolmaps.ch
 4. Analyse von Geodaten: [Arbeitsblatt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten.pdf?job=PDFs) | [Lösungen](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten_solutions.pdf?job=PDFs)
 5. Präsentation von Geodaten: [Arbeitsblatt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten.pdf?job=PDFs) | [Lösungen](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten_solutions.pdf?job=PDFs)
 
+**Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):**
+
+* Raumanalyse Vektordaten - Autobahn [Arbeitsblatt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf?job=PDFs)
+
 **Zusätzliche Materialien:**
 
 * OpenStreetMap Tagging Cheatsheet: [PDF](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs) | [Word-Dokument](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs)
