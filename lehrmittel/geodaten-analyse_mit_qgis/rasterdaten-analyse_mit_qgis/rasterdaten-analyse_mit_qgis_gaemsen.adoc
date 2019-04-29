@@ -97,7 +97,7 @@ Falls der Layer schwarz dargestellt wird, kannst du das anpassen, in dem du
 zu Layer-Eigenschaften gehst und bei "`Kontrastverbesserung`"
 von "`Zuschneiden auf MinMax`" auf "`Strecken auf MinMax`" wechselst
 (es gibt einige weitere Darstellungsoptionen).
-Nun solltest du das sehen, was nachfolgend dargestellt ist.
+Nun solltest du etwa das sehen, was nachfolgend dargestellt ist.
 
 image::00_geladen.png[]
 
@@ -144,7 +144,7 @@ Sie wird mit einem Höhenmodell als Quelle
 über das Menü menu:Raster[Analyse > Perspektive] erstellt
 (vgl. Abbildung oben).
 
-Als Eingabelayer wähle wieder "`dhm_rimini`".
+Als Eingabelayer wählst du wieder "`dhm_rimini`".
 Wähle bei "`Perspektive`" (Ausgabedatei) den Übungsdaten-Ordner (`gaemse`)
 und den Dateinamen `aspect.tif`:
 vgl. Abbildung oben.
@@ -255,7 +255,7 @@ image::04_rasterrechner_menu.png[]
 
 Im Rasterrechner musst du wieder rechts oben den Ausgabelayer angeben.
 Wähle den Übungsdaten-Ordner
-und nimm die Ausgabedatei `dhm_rimini_1500_2500.tif`.
+und nenne die Ausgabedatei `dhm_rimini_1500_2500.tif`.
 
 image::05_dhm_rastercalc.png[]
 
@@ -263,7 +263,7 @@ Links im Dialog sind die verfügbaren Layer
 mit ihren "`Rasterkanälen`" (hier immer "`@1`") aufgelistet.
 Für diese erste Berechnung wählen wir "`dhm_rimini@1`".
 Per Doppelklick darauf
-können diese in Anführungszeichen dem Rasterrechnerausdruck hinzugefügt werden.
+kann dieser in Anführungszeichen dem Rasterrechnerausdruck hinzugefügt werden.
 Der Ausdruck ist aber noch nicht bereit.
 Wir möchten noch nach Werten zwischen 1500 und 2500 filtern.
 Dazu wählen wir die Operatoren "`grösser-gleich`"/"`kleiner-gleich`"
@@ -290,10 +290,10 @@ und bei grauen ein Wert zwischen 1500 m. ü. M. und 2500 m. ü. M..
 Um die 0-Werte auch aus der Ansicht herauszufiltern,
 können wir ihnen noch eine Transparenz zuordnen.
 In den Layer-Eigenschaften > "`Transparenz`"
-und "`Benutzerdefinierte Transparenzeinstellung`" klicke dazu auf btn:[+]
-und setze die beiden Werte "`Von`" und "`Nach`" auf 0
+und "`Benutzerdefinierte Transparenzeinstellung`" klickst du dazu auf btn:[+]
+und setzt die beiden Werte "`Von`" und "`Nach`" auf 0
 sowie "`Prozent Transparenz`" auf 100 Prozent.
-Danach klicke auf btn:[Anwenden].
+Danach klickst du auf btn:[Anwenden].
 
 image::05_dhm_rastercalc_bsp_transparenz.png[]
 
@@ -304,10 +304,10 @@ image::05_dhm_rastercalc_bsp_transparenz_bsp.png[]
 
 Die gleichen Schritte
 - zuerst Rasterrechner dann Transparenz –
-wirst du nun für alle weiteren drei Kriterien an, wie folgt:
+wendest du nun für alle weiteren drei Kriterien an, wie folgt:
 
-Für das zweite Kriterium gehe vom Layer bzw. Kanal "`Neigung@01`" aus
-und speichern das Resultat im Übungsdaten-Ordner
+Für das zweite Kriterium gehst du vom Layer bzw. Kanal "`Neigung@01`" aus
+und speicherst das Resultat im Übungsdaten-Ordner
 unter dem Namen `slope_over20perc.tif`
 (btn:[Ok] ist noch nicht aktiviert).
 Selektiere mit dem Rasterrechner in diesem Falle alle Rasterzellen,
@@ -315,9 +315,9 @@ die steiler als 20% sind.
 Dann btn:[Ok].
 
 Für das dritte Kriterium verwendest du den Layer "`Perspektive`" (`aspect.tif`)
-und filtern alle Rasterzellen heraus,
+und filterst alle Rasterzellen heraus,
 welche zwischen den 135 und 225 Grad liegen (d.h. 180 Grad plus/minus 45 Grad).
-Damit erhaltest alle nach Süden gerichteten Hänge
+Damit erhältst du alle nach Süden gerichteten Hänge
 (zur Erinnerung Norden ist 0°).
 Speichere das Resultat im Übungsdaten-Ordner
 unter dem Namen `aspect_135_225.tif`.
@@ -347,7 +347,7 @@ Nun musst du noch die vier Layer verschneiden (engl. overlay/intersection).
 Dazu verwendest du wieder den Rasterrechner und kombinieren die vier Layer
 "`dhm_rimini_1500_2500`", "`slope_over20perc`", "`aspect_135_225`" und "`as85_sorted`"
 mit dem logischen UND-Operator.
-Nimm das Resultat `gut_fuer_gaemsi.tif`
+Nenne das Resultat `gut_fuer_gaemsi.tif`
 und speichere es wieder in den Übungsdaten-Ordner.
 Auch hier solltest du die benutzerdefinierte Transparenz
 auf 100 Prozent für die Werte von 0 bis 0 setzen.
@@ -395,9 +395,9 @@ Das Ergebnis des zweiten Kriteriums sollte ungefähr wie folgt aussehen:
 image::06_slope_20percent_bsp.png[]
 
 === Drittes Kriterium (Südhang):
-Im Rasterrechner setze als Ausgabelayer `aspect_135_225.tif`,
-wählen den Rasterkanal "`Perspektive@1`"
-und geben den folgenden Rasterrechnerausdruck ein:
+Im Rasterrechner setzt du als Ausgabelayer `aspect_135_225.tif`,
+wählst den Rasterkanal "`Perspektive@1`"
+und gibst den folgenden Rasterrechnerausdruck ein:
 ----
 ("Perspektive@1" >= 135 AND "Perspektive@1" <= 225) * "Perspektive@1"
 ----
@@ -412,9 +412,9 @@ sollte etwa so aussehen:
 image::07_aspect_south_bsp.png[]
 
 === Viertes Kriterium (Geländearten):
-Im Rasterrechner wähle den Rasterkanal "`as85@1`",
+Im Rasterrechner wählst du den Rasterkanal "`as85@1`",
 den Ausgabelayer `as85_sorted.tif`
-und geben folgenden Rasterrechnerausdruck ein:
+und gibst folgenden Rasterrechnerausdruck ein:
 ----
 ("as85@1" >= 8 AND "as85@1" <= 11) * "as85@1"
 ----
