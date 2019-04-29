@@ -45,6 +45,18 @@ QGIS excercise data:
     paths:
     - lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
 
+gaemsen excercise data:
+  stage: build
+  script:
+  # Dummy script,
+  # because we only need to collect some files from the Git repo as artifacts.
+  - "true"
+  artifacts:
+    name: "Input-Daten_gaemsen"
+    expire_in: 3 mos
+    paths:
+    - lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
+
 pages:
   image: asciidoctor/docker-asciidoctor
   stage: pages
