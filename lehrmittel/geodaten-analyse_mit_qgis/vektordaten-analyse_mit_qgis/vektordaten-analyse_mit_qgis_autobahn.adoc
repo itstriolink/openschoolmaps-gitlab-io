@@ -443,7 +443,7 @@ als aussagekräftige Karten darstellen.
 Sie sollen die wertvollen Biotoptypen
 in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
 
-1. Klassifizieren Sie Layer intersect_wertvoll nach Attribut ffh_typ_text.
+1. Klassifizieren Sie Layer intersect_wertvoll nach Attribut ffh_typ_text (auf „Klassifizieren“ klicken).
 2. Löschen Sie den leeren Wert.
 3. Der Layer stellt jetzt alle Flächen innerhalb der Beeinträchtigungszonen dar,
    auf denen sich FFH-relevante Biotoptypen befinden.
@@ -452,7 +452,7 @@ in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
 5. Speichern Sie die Auswahl über „Layer > Speichern unter…“
    unter dem Layer-Namen "intersect_wertvoll_ ohne_ffh"
    in autobahn_analyse.gpkg
-6. Laden Sie den neuen Layer und klassifizieren Ihn nach bfn_biotop_text
+6. Laden Sie den neuen Layer und klassifizieren ihn nach bfn_biotop_text
 7. Löschen sie den leeren Wert
    und sie erhalten drei Klassen der wertvollen Nicht-FFH-Biotope.
 8. Laden Sie die beiliegende Rasterdatei heli.tif
