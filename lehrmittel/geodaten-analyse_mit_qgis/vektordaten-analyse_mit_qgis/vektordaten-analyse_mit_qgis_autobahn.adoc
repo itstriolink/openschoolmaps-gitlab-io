@@ -450,7 +450,7 @@ in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
 4. Filtere Layer intersect_wertvoll mit Hilfe des Abfrageeditors
    mit der Abfrage ffh_typ_nr = 0.
 5. Speichere die Auswahl über "Layer > Speichern unter…"
-   unter dem Layer-Namen "intersect_wertvoll_ ohne_ffh"
+   unter dem Layer-Namen "intersect_wertvoll_ohne_ffh"
    in autobahn_analyse.gpkg
 6. Lade den neuen Layer und klassifiziere ihn nach bfn_biotop_text
 7. Lösche den leeren Wert
