@@ -134,12 +134,12 @@ als „Abstand“ musst du 20 Meter eintragen.
 
 7. Das Resultat dieses Vorgangs wollen wir in einer Datei festhalten.
 Um es als Layer in einer neuen Datei abzulegen,
-klicke auf den Knopf "…" neben dem Feld für den Layername
-und wähle "Speichern als Geopackage…".
+klicke auf den Knopf btn:[…] neben dem Feld für den Layername
+und wähle menu:Speichern{sp}als{sp}Geopackage…[].
 Nenne die neue Datei `autobahn_analyse.gpkg`
 und den neuen Layer trasse_20.
 
-8. Führe die Verarbeitung mit dem Knopf "Starte" durch.
+8. Führe die Verarbeitung mit dem Knopf btn:[Starte] durch.
 +
 Nun siehst du den Autobahnkörper in deinem Untersuchungsgebiet.
 
@@ -279,7 +279,7 @@ Bearbeite die Attributtabelle in den Layer-Eigenschaften
 3. Schalte den Bearbeitungs-Modus an (Knopf mit dem Stift)
 4. Lösche alle Felder ausser „layer“ und "fid".
 5. Benenne das Feld „layer“ in „zone“ um.
-6. Schliesse das Layereigenschaften-Fenster mit «OK».
+6. Schliesse das Layereigenschaften-Fenster mit btn:[OK].
 7. Öffne das Kontext-Menü des Laysers "zonen"
    und wähle menu:Attributtabelle{sp}öffnen[].
 8. Ändere die Werte in Spalte "zone" wie folgt:
@@ -337,7 +337,7 @@ ffh_typ_nr = 1 OR geschuetzt_biotop = 1 OR bedeutend_gruenland_typ = 1
 +
 Die Auswahl sollte 43 Polygone enthalten.
 
-6. Bestätige mit OK.
+6. Bestätige mit btn:[OK].
 Dadurch wird der Filter auf den Layer angewandt
 und das Abfrageerstellungsfenster geschlossen.
 Du siehst jetzt alle Flächen,
@@ -368,7 +368,7 @@ verschneidest du beide Layer.
 ** „Layer überlagern“: wertvoll
 ** Ziel-Layer: *_unbenannter_ Temporärlayer*
 
-2. Ein Klick auf "Starte" führt zu folgender Fehlermeldung:
+2. Ein Klick auf btn:[Starte] führt zu folgender Fehlermeldung:
 +
 ____
 Objekt (24) hat ungültige Geometrie.
@@ -426,7 +426,7 @@ Ausdruck: round($area / 100, 1)
 
 9. Setze „area“ als „Ausgabefeldnamen“
 und wähle den „Ausgabefeldtypen“ „Dezimalzahl (real)“.
-Bestätige mit OK und überprüfe,
+Bestätige mit btn:[OK] und überprüfe,
 ob eine Spalte mit Namen „area“ angelegt wurde.
 
 10. Nun finden sich in der Spalte „area“
@@ -443,7 +443,7 @@ als aussagekräftige Karten darstellen.
 Du sollst die wertvollen Biotoptypen
 in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
 
-1. Klassifiziere Layer intersect_wertvoll nach Attribut ffh_typ_text (auf „Klassifizieren“ klicken).
+1. Klassifiziere Layer intersect_wertvoll nach Attribut ffh_typ_text (auf btn:[Klassifizieren] klicken).
 2. Lösche den leeren Wert.
 3. Der Layer stellt jetzt alle Flächen innerhalb der Beeinträchtigungszonen dar,
    auf denen sich FFH-relevante Biotoptypen befinden.
