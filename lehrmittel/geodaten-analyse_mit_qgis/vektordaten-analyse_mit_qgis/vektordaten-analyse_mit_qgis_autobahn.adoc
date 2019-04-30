@@ -438,9 +438,9 @@ den Bearbeitungsmodus für den Layer intersect_wertvoll ausschaltest.
 
 === Aufgabe 8: Vektordateien klassifizieren und Karten erstellen
 
-Anschliessend solltest du deine neu erstellten Geometrien
+Anschliessend sollst du deine neu erstellten Geometrien
 als aussagekräftige Karten darstellen.
-Du solltest die wertvollen Biotoptypen
+Du sollst die wertvollen Biotoptypen
 in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
 
 1. Klassifiziere Layer intersect_wertvoll nach Attribut ffh_typ_text.
