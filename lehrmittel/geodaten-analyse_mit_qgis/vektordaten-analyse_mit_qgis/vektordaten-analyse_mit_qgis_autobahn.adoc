@@ -15,9 +15,10 @@ Folgen-Abschätzung eines Autobahn-Baus mit QGIS 3
 * Einstieg in die Geodatenverarbeitung
 * Arbeiten mit Puffer und Schnittmengen
 
-Quellenangabe: Diese Aufgabenstellung basiert v.a. auf Aufgabe 6
+Quellenangabe: Diese Aufgabenstellung basiert v.a.
+auf http://www.gkg-kassel.de/pdf/aufgabe_6.pdf[Aufgabe 6]
 des Kurses "`Einführung in GIS und digitale Kartographie`"
-von Claas Leiner, Uni Kassel, 2010.
+von http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
 
 
 == Vorbereitung
