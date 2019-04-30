@@ -273,14 +273,14 @@ in den Beeinträchtigungszonen ermitteln kannst,
 musst du den Zonen einen Attributwert zuweisen.
 Bearbeite die Attributtabelle in den Layer-Eigenschaften
 
-1. Öffne das Kontext-Menü des Laysers "`zonen`"
+1. Öffne das Kontext-Menü des Layers "`zonen`"
    und wähle menu:Eigenschaften…[].
 2. Wähle im Layereigenschaften-Fenster den Reiter "`Quellfelder`" an.
 3. Schalte den Bearbeitungs-Modus an (Knopf mit dem Stift)
 4. Lösche alle Felder ausser "`layer`" und "`fid`".
 5. Benenne das Feld "`layer`" in "`zone`" um.
 6. Schliesse das Layereigenschaften-Fenster mit btn:[OK].
-7. Öffne das Kontext-Menü des Laysers "`zonen`"
+7. Öffne das Kontext-Menü des Layers "`zonen`"
    und wähle menu:Attributtabelle{sp}öffnen[].
 8. Ändere die Werte in Spalte "`zone`" wie folgt:
 ** trasse_20 -> Trasse
