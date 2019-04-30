@@ -36,16 +36,16 @@ Die Aufgabe orientiert sich am Bau der A44
 durch die deutsche Lichtenauer Hochfläche,
 ohne die Originaldaten zu nutzen.
 
-Als Arbeitsdaten stehen eine Polygon-Vektordatei (Geopackage umgebung.gpkg)
+Als Arbeitsdaten stehen eine Polygon-Vektordatei (Geopackage `umgebung.gpkg`)
 mit den Ergebnissen einer Biotoptypen- und Nutzungskartierung,
-eine Linien-Vektordaten (Geopackage autobahn.gpkg)
+eine Linien-Vektordaten (Geopackage `autobahn.gpkg`)
 mit der Zentrallinie einer fiktiven Autobahntrasse
-sowie die Topographische Karte 1:25‘000 (Tk25) (Datei heli.tif) als Hintergrund
+sowie die Topographische Karte 1:25‘000 (Tk25) (Datei `heli.tif`) als Hintergrund
 zur Verfügung.
 Weiterhin kannst du im Ordner
 auf verschiedene Flächensignaturen (Texturen) zurückgreifen.
 
-In der Sachdatentabelle von umgebung.gpkg sind Nutzungstücke (Schläge),
+In der Sachdatentabelle von `umgebung.gpkg` sind Nutzungstücke (Schläge),
 die einem Lebensraumtyp (sog. ffh_typ_nr) zuzuordnen sind, gekennzeichnet
 (ffh_typ_text).
 Ebenso sind
@@ -71,8 +71,8 @@ als Flächenbilanz eingetragen werden (optional).
 
 * QGIS (getestet mit QGIS 3.4)
 * Daten:
-** autobahn_inputs.gpkg
-** heli.tif
+** `autobahn_inputs.gpkg`
+** `heli.tif`
 
 <<<
 
@@ -85,7 +85,7 @@ als Flächenbilanz eingetragen werden (optional).
    und stelle sicher, dass kein bestehendes Projekt geöffnet ist.
    (Also nur entweder ein neues, noch leeres und ungespeichertes Projekt
    oder noch gar keines.)
-2. Lade autobahn_inputs.gpkg mit beiden enthaltenen Vektor-Layern.
+2. Lade `autobahn_inputs.gpkg` mit beiden enthaltenen Vektor-Layern.
 3. Falls noch kein Projekt offen war,
    ist nun automatisch ein (noch ungespeichertes) angelegt worden.
    Stelle sicher, dass
@@ -95,8 +95,8 @@ als Flächenbilanz eingetragen werden (optional).
 4. Öffne über Menü "Projekt > Eigenschaften…" die Projekteinstellungen,
    gib dem Projekt unter Reiter „Allgemein“
    den Titel „Autobahn und Lebensraumtypen“
-   und speichere es unter dem Namen „Autobahn_Lebensraumtypen.qgz“
-   oder „Autobahn_Lebensraumtypen.qgs“.
+   und speichere es unter dem Namen `Autobahn_Lebensraumtypen.qgz`
+   oder `Autobahn_Lebensraumtypen.qgs`.
 
 
 === Aufgabe 1: Darstellen der Landnutzung
@@ -110,7 +110,7 @@ als Flächenbilanz eingetragen werden (optional).
    unter Verwendung von Farben und Texturen.
    Stelle deine Klassifizierung als Karte dar.
 2. Erstelle ein Kartenlayout
-   und exportiere es als biotoptypen.pdf.
+   und exportiere es als `biotoptypen.pdf`.
    Wenn du Texturen verwendest, solltest du vor dem Export
    in der Druckzusammenstellung beim Reiter „Allgemein > Druckqualität“
    das Kontrollkästchen bei „als Raster drucken“ ankreuzen.
@@ -136,14 +136,14 @@ als „Abstand“ musst du 20 Meter eintragen.
 Um es als Layer in einer neuen Datei abzulegen,
 klicke auf den Knopf "…" neben dem Feld für den Layername
 und wähle "Speichern als Geopackage…".
-Nenne die neue Datei autobahn_analyse.gpkg
+Nenne die neue Datei `autobahn_analyse.gpkg`
 und den neuen Layer trasse_20.
 
 8. Führe die Verarbeitung mit dem Knopf "Starte" durch.
 +
 Nun siehst du den Autobahnkörper in deinem Untersuchungsgebiet.
 
-9. Auch wenn der Layer in der neuen Datei nun trasse_20.gpkg heisst,
+9. Auch wenn der Layer in der neuen Datei nun `trasse_20.gpkg` heisst,
 wurde er in QGIS evtl. mit "Gepuffert" beschriftet.
 Benenne ihn gegebenenfalls in "trasse_20" um.
 Das ist über die Layer-Eigenschaften möglich,
@@ -206,7 +206,7 @@ Dies ist mit der Menü-Option
 ** „Layer überlagern“ = trasse_20_puffer_100
 
 13. Speichere das Ergebnis
-in der nun schon bestehenden Datei autobahn_analyse.gpkg
+in der nun schon bestehenden Datei `autobahn_analyse.gpkg`
 als neuen Layer zone_100_300.
 
 14. Auch hier kann es sein,
@@ -224,7 +224,7 @@ Erstellen der inneren Beeinträchtigungszone
 15. Die Fläche des Puffers trasse_20
 ist aus dem Puffer trasse_20_puffer_100 herauszuschneiden,
 um die innere Beeinträchtigungszone abzugrenzen.
-Speichere sie als Layer zone_100 ebenfalls in analyse.gpkg
+Speichere sie als Layer zone_100 ebenfalls in `analyse.gpkg`
 und benenne den Layer in QGIS gegebenenfalls entsprechend um.
 ** „Eingabelayer“ = trasse_20_puffer_100
 ** „Layer überlagern“ = trasse_20
@@ -257,14 +257,14 @@ mit einem Schritt in einem Layer zusammenfügen.
 ** zone_100
 ** zone_100_300
 
-3. Speichere das Ergebnis in autobahn_analyse.gpkg als Layer "zonen".
+3. Speichere das Ergebnis in `autobahn_analyse.gpkg` als Layer "zonen".
 
 4. Auch hier kann es sein, das QGIS den neuen Layer
 unter einem generischen Namen (hier: "Zusammengeführt") einbindet.
 Benenne ihn gegebenenfalls in "zonen" um.
 
 
-=== Aufgabe 5: Bearbeiten der Attributtabelle der Vektordatei alle_zonen.shp
+=== Aufgabe 5: Bearbeiten der Attributtabelle der Vektordatei `alle_zonen.shp`
 
 Der neue Layer verfügt noch
 über keine sinnvollen Attributtwerte für die einzelnen Beeinträchtigungszonen.
@@ -344,7 +344,7 @@ Du siehst jetzt alle Flächen,
 die aus Sicht des Biotop- und Artenschutzes wertvoll sind.
 
 7. Speichere die/den gefilterten Layer über "Layer > Speichern als…"
-im Geopackage autobahn_analyse.gpkg als Layer "wertvoll" ab.
+im Geopackage `autobahn_analyse.gpkg` als Layer "wertvoll" ab.
 Danach kannst du den Filter auf Layer «umgebung» wieder löschen.
 
 .Dialog.
@@ -409,7 +409,7 @@ und beende den Bearbeitungs-Modus.
 
 7. Über sein Kontext-Menü kannst du
 Layer «intersect_wertvoll» nun permanent machen.
-Speichere ihn als «intersect_wertvoll» in autobahn_analyse.gpkg.
+Speichere ihn als «intersect_wertvoll» in `autobahn_analyse.gpkg`.
 Stelle sicher, dass der im Feld «FID» angegebene Name
 keiner schon bestehenden Spalte entspricht.
 
@@ -451,14 +451,14 @@ in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
    mit der Abfrage ffh_typ_nr = 0.
 5. Speichere die Auswahl über "Layer > Speichern unter…"
    unter dem Layer-Namen "intersect_wertvoll_ohne_ffh"
-   in autobahn_analyse.gpkg
+   in `autobahn_analyse.gpkg`
 6. Lade den neuen Layer und klassifiziere ihn nach bfn_biotop_text
 7. Lösche den leeren Wert
    und du erhältst drei Klassen der wertvollen Nicht-FFH-Biotope.
-8. Lade die beiliegende Rasterdatei heli.tif
+8. Lade die beiliegende Rasterdatei `heli.tif`
    und verschiebe diese anschliessend im Inhaltsverzeichnis nach ganz unten.
    Anschliessend justiere die globale Transparenz
-   in den Layereigenschaften von heli.tif soweit,
+   in den Layereigenschaften von `heli.tif` soweit,
    dass der Raster-Layer als schwach sichtbarer Hintergrund dienen kann.
 9. Nun kannst du eine Karte erstellen, welche
    die durch den Autobahnbau beeinträchtigten wertvollen Biotoptypen darstellt
