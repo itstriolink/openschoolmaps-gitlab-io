@@ -16,7 +16,7 @@ Folgen-Abschätzung eines Autobahn-Baus mit QGIS 3
 * Arbeiten mit Puffer und Schnittmengen
 
 Quellenangabe: Diese Aufgabenstellung basiert v.a. auf Aufgabe 6
-des Kurses "Einführung in GIS und digitale Kartographie"
+des Kurses "`Einführung in GIS und digitale Kartographie`"
 von Claas Leiner, Uni Kassel, 2010.
 
 
@@ -50,15 +50,15 @@ die einem Lebensraumtyp (sog. ffh_typ_nr) zuzuordnen sind, gekennzeichnet
 (ffh_typ_text).
 Ebenso sind
 besonders geschützte Biotoptypen nach Bundesgesetz (abgekürzt BNatSchG)
-(Feld „geschuetzt_biotop“)
-und sonstige Typen des artenreichen Grünlands („bedeutend_gruenland_typ“)
+(Feld "`geschuetzt_biotop`")
+und sonstige Typen des artenreichen Grünlands ("`bedeutend_gruenland_typ`")
 gekennzeichnet.
 
 Du sollst ermitteln, wie gross
 die aus Sicht des Arten- und Biotopschutz wertvolle Fläche ist,
 die durch den Autobahnbau vollständig zerstört bzw. beeinträchtigt wird.
 Um diese Frage zu beantworten,
-sind mit Hilfe des „Pufferwerkzeugs“ Beeinträchtigungszonen
+sind mit Hilfe des "`Pufferwerkzeugs`" Beeinträchtigungszonen
 in unterschiedlicher Entfernung von der Zentrallinie zu ermitteln,
 die in weiteren Schritten mit der Biotoptypenkartierung verschnitten werden,
 um beeinträchtigte und nicht beeinträchtige Flächen zu ermitteln.
@@ -93,27 +93,27 @@ als Flächenbilanz eingetragen werden (optional).
    auf das deutsche DHDN Gauss-Krüger Zone 3 (EPSG:31467) eingestellt ist.
    (Das sollte nach dem Laden der Layer automatisch der Fall sein.)
 4. Öffne über Menü "Projekt > Eigenschaften…" die Projekteinstellungen,
-   gib dem Projekt unter Reiter „Allgemein“
-   den Titel „Autobahn und Lebensraumtypen“
+   gib dem Projekt unter Reiter "`Allgemein`"
+   den Titel "`Autobahn und Lebensraumtypen`"
    und speichere es unter dem Namen `Autobahn_Lebensraumtypen.qgz`
    oder `Autobahn_Lebensraumtypen.qgs`.
 
 
 === Aufgabe 1: Darstellen der Landnutzung
 
-1. Klassifiziere Layer „umgebung “
+1. Klassifiziere Layer "`umgebung`"
    mit Hilfe des Attributs bfn_biotop_text,
    um sich einen Überblick über die Biotoptypen zu verschaffen.
    Eine gröbere Darstellung der Landnutzung erreichen Sie
-   mit einer Klassifikation nach Feld „nutzung“.
+   mit einer Klassifikation nach Feld "`nutzung`".
    Erarbeite dir eine sinnvolle Darstellung
    unter Verwendung von Farben und Texturen.
    Stelle deine Klassifizierung als Karte dar.
 2. Erstelle ein Kartenlayout
    und exportiere es als `biotoptypen.pdf`.
    Wenn du Texturen verwendest, solltest du vor dem Export
-   in der Druckzusammenstellung beim Reiter „Allgemein > Druckqualität“
-   das Kontrollkästchen bei „als Raster drucken“ ankreuzen.
+   in der Druckzusammenstellung beim Reiter "`Allgemein > Druckqualität`"
+   das Kontrollkästchen bei "`als Raster drucken`" ankreuzen.
 
 
 === Aufgabe 2: Darstellen der Autobahn-Zentrallinie und Erstellen der Pufferzonen
@@ -129,8 +129,8 @@ mit einem beidseitigen Abstand von 20 m von der Zentrallinie erstellen.
 +
 Dies erreichen Sie
 über Menü "Vektor > Geoverarbeitungswerkzeuge > Puffer".
-Der „Eingabelayer“ ist „autobahn_zentrallinie“,
-als „Abstand“ musst du 20 Meter eintragen.
+Der "`Eingabelayer`" ist "`autobahn_zentrallinie`",
+als "`Abstand`" musst du 20 Meter eintragen.
 
 7. Das Resultat dieses Vorgangs wollen wir in einer Datei festhalten.
 Um es als Layer in einer neuen Datei abzulegen,
@@ -144,8 +144,8 @@ und den neuen Layer trasse_20.
 Nun siehst du den Autobahnkörper in deinem Untersuchungsgebiet.
 
 9. Auch wenn der Layer in der neuen Datei nun `trasse_20.gpkg` heisst,
-wurde er in QGIS evtl. mit "Gepuffert" beschriftet.
-Benenne ihn gegebenenfalls in "trasse_20" um.
+wurde er in QGIS evtl. mit "`Gepuffert`" beschriftet.
+Benenne ihn gegebenenfalls in "`trasse_20`" um.
 Das ist über die Layer-Eigenschaften möglich,
 auf die du z.B. über das Kontext-Menü
 des Layer-Eintrags im Layer-Panel gelangst.
@@ -154,7 +154,7 @@ des Layer-Eintrags im Layer-Panel gelangst.
 Deshalb musst du noch weitere Pufferzonen erzeugen.
 +
 --
-Erstellen Sie, ausgehend von der eben erstellten Trasse, zwei weitere „Puffer“:
+Erstellen Sie, ausgehend von der eben erstellten Trasse, zwei weitere "`Puffer`":
 
 ** Einen mit dem Abstand 100 m als *Temporärlayer* trasse_20_puffer_100
 ** Einen mit Abstand 300 m als *Temporärlayer* trasse_20_puffer_300.
@@ -170,7 +170,7 @@ bis zu einer Entfernung von 300 m von der Autobahn.
 11. Auch hier kann es sein,
 dass die im Hintergrund für die Layer erstellten Temporär-Dateien
 zwar wie verlangt heissen,
-die Layer in QGIS aber als "Gepuffert" aufgeführt sind.
+die Layer in QGIS aber als "`Gepuffert`" aufgeführt sind.
 Benenne sie entsprechend um.
 
 .QGIS-Dialog zu Puffer.
@@ -185,7 +185,7 @@ Die grossen Pufferflächen überdecken die kleinen Zonen.
 Wir benötigen aber Polygone in Form von einander anschliessenden Zonen,
 die sich nicht überschneiden.
 Um dieses Ziel zu erreichen,
-verwenden wir versuchshalber das Werkzeug „Differenz“.
+verwenden wir versuchshalber das Werkzeug "`Differenz`".
 Nach den nun folgenden Verschneidungsprozessen
 verfügst du über den Autobahnkörper
 sowie über zwei sich ausschliessende
@@ -202,8 +202,8 @@ um die äussere Beeinträchtigungszone abzugrenzen.
 Dies ist mit der Menü-Option
 "Vektor > Geoverarbeitungswerkezeuge > Differenz" zu erreichen.
 
-** „Eingabelayer“ = trasse_20_puffer_300
-** „Layer überlagern“ = trasse_20_puffer_100
+** "`Eingabelayer`" = trasse_20_puffer_300
+** "`Layer überlagern`" = trasse_20_puffer_100
 
 13. Speichere das Ergebnis
 in der nun schon bestehenden Datei `autobahn_analyse.gpkg`
@@ -211,10 +211,10 @@ als neuen Layer zone_100_300.
 
 14. Auch hier kann es sein,
 dass QGIS den Layer zwar unter den richtigen Namen speichert,
-aber ins Projekt selbst als "Differenz" einbindet.
+aber ins Projekt selbst als "`Differenz`" einbindet.
 Benenne ihn gegebenenfalls in zone_100_300 um.
 
-.Dialog „Symmetrische Differenz“.
+.Dialog "`Symmetrische Differenz`".
 image::03_qgis-differenz-dialog.png[]
 
 Erstellen der inneren Beeinträchtigungszone
@@ -226,8 +226,8 @@ ist aus dem Puffer trasse_20_puffer_100 herauszuschneiden,
 um die innere Beeinträchtigungszone abzugrenzen.
 Speichere sie als Layer zone_100 ebenfalls in `analyse.gpkg`
 und benenne den Layer in QGIS gegebenenfalls entsprechend um.
-** „Eingabelayer“ = trasse_20_puffer_100
-** „Layer überlagern“ = trasse_20
+** "`Eingabelayer`" = trasse_20_puffer_100
+** "`Layer überlagern`" = trasse_20
 
 Folgende Layer sind jetzt wichtig:
 
@@ -257,11 +257,11 @@ mit einem Schritt in einem Layer zusammenfügen.
 ** zone_100
 ** zone_100_300
 
-3. Speichere das Ergebnis in `autobahn_analyse.gpkg` als Layer "zonen".
+3. Speichere das Ergebnis in `autobahn_analyse.gpkg` als Layer "`zonen`".
 
 4. Auch hier kann es sein, das QGIS den neuen Layer
-unter einem generischen Namen (hier: "Zusammengeführt") einbindet.
-Benenne ihn gegebenenfalls in "zonen" um.
+unter einem generischen Namen (hier: "`Zusammengeführt`") einbindet.
+Benenne ihn gegebenenfalls in "`zonen`" um.
 
 
 === Aufgabe 5: Bearbeiten der Attributtabelle der Vektordatei `alle_zonen.shp`
@@ -273,16 +273,16 @@ in den Beeinträchtigungszonen ermitteln kannst,
 musst du den Zonen einen Attributwert zuweisen.
 Bearbeite die Attributtabelle in den Layer-Eigenschaften
 
-1. Öffne das Kontext-Menü des Laysers "zonen"
+1. Öffne das Kontext-Menü des Laysers "`zonen`"
    und wähle menu:Eigenschaften…[].
-2. Wähle im Layereigenschaften-Fenster den Reiter "Quellfelder" an.
+2. Wähle im Layereigenschaften-Fenster den Reiter "`Quellfelder`" an.
 3. Schalte den Bearbeitungs-Modus an (Knopf mit dem Stift)
-4. Lösche alle Felder ausser „layer“ und "fid".
-5. Benenne das Feld „layer“ in „zone“ um.
+4. Lösche alle Felder ausser "`layer`" und "`fid`".
+5. Benenne das Feld "`layer`" in "`zone`" um.
 6. Schliesse das Layereigenschaften-Fenster mit btn:[OK].
-7. Öffne das Kontext-Menü des Laysers "zonen"
+7. Öffne das Kontext-Menü des Laysers "`zonen`"
    und wähle menu:Attributtabelle{sp}öffnen[].
-8. Ändere die Werte in Spalte "zone" wie folgt:
+8. Ändere die Werte in Spalte "`zone`" wie folgt:
 ** trasse_20 -> Trasse
 ** zone_100 -> Innen
 ** zone_100_300 -> Aussen
@@ -310,7 +310,7 @@ um sonstige Biotoptypen des artenreichen Grünlands (bedeutend_gruenland_typ).
 
 Gehe wie folgt vor:
 
-1. Wähle den Layer „umgebung“ im Layer-Panel aus.
+1. Wähle den Layer "`umgebung`" im Layer-Panel aus.
 
 2. Öffne die Attributtabelle ("Layer > Attributtabelle öffnen"),
 um dir einen Überblick zu verschaffen.
@@ -327,7 +327,7 @@ oder bei denen es sich um einen sonstigen bedeutenden Grünlandtypen handelt
 +
 Anmerkung:
 In den betreffenden Spalten der Attributtabelle
-bedeutet der Wert 1 jeweils „trifft zu“.
+bedeutet der Wert 1 jeweils "`trifft zu`".
 +
 Ihr SQL-Befehl muss folgendermassen aussehen:
 +
@@ -344,8 +344,8 @@ Du siehst jetzt alle Flächen,
 die aus Sicht des Biotop- und Artenschutzes wertvoll sind.
 
 7. Speichere die/den gefilterten Layer über "Layer > Speichern als…"
-im Geopackage `autobahn_analyse.gpkg` als Layer "wertvoll" ab.
-Danach kannst du den Filter auf Layer «umgebung» wieder löschen.
+im Geopackage `autobahn_analyse.gpkg` als Layer "`wertvoll`" ab.
+Danach kannst du den Filter auf Layer "`umgebung`" wieder löschen.
 
 .Dialog.
 image::06_qgis-abfrage-ergebnis.png[]
@@ -355,7 +355,7 @@ image::06_qgis-abfrage-ergebnis.png[]
 
 Als nächstes sind jene naturschutzfachlich wertvollen Flächen zu ermitteln,
 die in den drei Beeinträchtigungsszonen liegen.
-Du benutzt das Werkzeug „Verschneidung“ (Intersect),
+Du benutzt das Werkzeug "`Verschneidung`" (Intersect),
 um die Layer wertvoll und zonen miteinander zu verschneiden.
 Der resultierende Layer enthält ausschliesslich Flächen,
 die naturschutzfachlich wertvoll sind
@@ -364,8 +364,8 @@ und die gleichzeitig durch den Autobahnbau zerstört oder beeinträchtigt werden
 1. Mit der Menü-Option
 "Vektor > Geoverarbeitungswerkzeuge > Verschneidung…"
 verschneidest du beide Layer.
-** „Eingabelayer“: zonen
-** „Layer überlagern“: wertvoll
+** "`Eingabelayer`": zonen
+** "`Layer überlagern`": wertvoll
 ** Ziel-Layer: *_unbenannter_ Temporärlayer*
 
 2. Ein Klick auf btn:[Starte] führt zu folgender Fehlermeldung:
@@ -373,50 +373,50 @@ verschneidest du beide Layer.
 ____
 Objekt (24) hat ungültige Geometrie.
 Bitte diese Fehler korrigieren oder
-die Verarbeitungseinstellung auf "Ungültige Eingabeobjekte ignorieren".
+die Verarbeitungseinstellung auf "`Ungültige Eingabeobjekte ignorieren`".
 
 Ausführung nach 0.01 Sekunden gescheitert
 ____
 Öffne die QGIS-Optionen über Menü "Einstellungen > Optionen…"
-und ändere unter Reiter "Verarbeitung" > Abschnitt "Allgemein"
-die entsprechende Einstellung "Filterung ungültiger Objekte"
-von "Algorithmenausführung bei ungültiger Geiometrie anhalten"
-auf "Objekte mit ungültiger Geometrie ignorieren."
+und ändere unter Reiter "`Verarbeitung`" > Abschnitt "`Allgemein`"
+die entsprechende Einstellung "`Filterung ungültiger Objekte`"
+von "`Algorithmenausführung bei ungültiger Geiometrie anhalten`"
+auf "`Objekte mit ungültiger Geometrie ignorieren.`"
 
 3. Wiederhole nun die Verschneide-Operation.
 Nun sollte sie gelingen.
 Die Fehlermeldung kommt zwar trotzdem,
-aber mit «abgeschlossen» anstatt «gescheitert».
+aber mit "`abgeschlossen`" anstatt "`gescheitert`".
 
 4. Der resultierende Layer ist in QGIS vermutlich
-unter dem Namen "Verschneidung" eingebunden worden.
-Benenne ihn in "intersect_wertvoll" um.
+unter dem Namen "`Verschneidung`" eingebunden worden.
+Benenne ihn in "`intersect_wertvoll`" um.
 
 5. Öffne die Attribut-Tabelle des neuen Layers.
-Die Werte der «fid»-Spalte des 2. Input-Layers («wertvoll»)
-finden sich in der Spalte «fid_2» des neuen Layers wieder.
-Die «fid»-Spalte des 1. Input-Layers (zonen)
-wird im Resultat jedoch als «fid»
-wird in "intersect_wertvoll" jedoch als «fid» wiedergegeben,
+Die Werte der "`fid`"-Spalte des 2. Input-Layers ("`wertvoll`")
+finden sich in der Spalte "`fid_2`" des neuen Layers wieder.
+Die "`fid`"-Spalte des 1. Input-Layers (zonen)
+wird im Resultat jedoch als "`fid`"
+wird in "`intersect_wertvoll`" jedoch als "`fid`" wiedergegeben,
 was problematisch ist,
 da QGIS diesen Spaltennamen defaultmässig
 als PK z.B. von GeoPackage-Layern nimmt,
 die Werte durch die Verschneidung nun aber alles andere als UNIQUE sind.
 
-6. Benenne die «fid»-Spalte
-von «intersect_wertvoll» in «fid_zone» um
+6. Benenne die "`fid`"-Spalte
+von "`intersect_wertvoll`" in "`fid_zone`" um
 und beende den Bearbeitungs-Modus.
 
 7. Über sein Kontext-Menü kannst du
-Layer «intersect_wertvoll» nun permanent machen.
-Speichere ihn als «intersect_wertvoll» in `autobahn_analyse.gpkg`.
-Stelle sicher, dass der im Feld «FID» angegebene Name
+Layer "`intersect_wertvoll`" nun permanent machen.
+Speichere ihn als "`intersect_wertvoll`" in `autobahn_analyse.gpkg`.
+Stelle sicher, dass der im Feld "`FID`" angegebene Name
 keiner schon bestehenden Spalte entspricht.
 
-8. Nun kannst du in der Attributtabelle des Layers „intersect_wertvoll“
+8. Nun kannst du in der Attributtabelle des Layers "`intersect_wertvoll`"
 (Menü "Layer > Attributtabelle öffnen")
-oben rechts den „Feldrechner“ betätigen.
-Dieser erlaubt es dir, ein neues Feld anhand einer „Expression“ anzulegen.
+oben rechts den "`Feldrechner`" betätigen.
+Dieser erlaubt es dir, ein neues Feld anhand einer "`Expression`" anzulegen.
 Verwende folgenden Ausdruck, um mit QGIS
 die Fläche unseres Polygons zu berechnen,
 welche dann durch 100 geteilt wird,
@@ -424,12 +424,12 @@ um die Quadratmeter in Aren umzurechnen.
 Das Resultat wird letztlich auf 1 signifikante Stelle nach dem Komma gerundet.
 Ausdruck: round($area / 100, 1)
 
-9. Setze „area“ als „Ausgabefeldnamen“
-und wähle den „Ausgabefeldtypen“ „Dezimalzahl (real)“.
+9. Setze "`area`" als "`Ausgabefeldnamen`"
+und wähle den "`Ausgabefeldtypen`" "`Dezimalzahl (real)`".
 Bestätige mit btn:[OK] und überprüfe,
-ob eine Spalte mit Namen „area“ angelegt wurde.
+ob eine Spalte mit Namen "`area`" angelegt wurde.
 
-10. Nun finden sich in der Spalte „area“
+10. Nun finden sich in der Spalte "`area`"
 die exakten Flächen der jeweiligen Polygone in Aren auf.
 
 11. Speichere die neue Spalte, in dem du
@@ -450,7 +450,7 @@ in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
 4. Filtere Layer intersect_wertvoll mit Hilfe des Abfrageeditors
    mit der Abfrage ffh_typ_nr = 0.
 5. Speichere die Auswahl über "Layer > Speichern unter…"
-   unter dem Layer-Namen "intersect_wertvoll_ohne_ffh"
+   unter dem Layer-Namen "`intersect_wertvoll_ohne_ffh`"
    in `autobahn_analyse.gpkg`
 6. Lade den neuen Layer und klassifiziere ihn nach bfn_biotop_text
 7. Lösche den leeren Wert
@@ -464,7 +464,7 @@ in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
    die durch den Autobahnbau beeinträchtigten wertvollen Biotoptypen darstellt
    und dabei zusätzlich die ffh_typ_nr besonders hervorhebt.
 10. Erstelle ein Kartenlayout und exportiere es als PDF.
-    (Aktiviere vorher unter Allgemein: „als Raster drucken“)
+    (Aktiviere vorher unter Allgemein: "`als Raster drucken`")
 11. Ein Beispiel für eine mögliche Kartendarstellung
     siehst du auf der folgenden Seite.
     Du musst jedoch kein Layout mit zwei Karten erstellen.
