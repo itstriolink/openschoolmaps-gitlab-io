@@ -92,7 +92,7 @@ als Flächenbilanz eingetragen werden (optional).
    in den Projekteinstellungen das Koordinatenbezugssystem (KBS)
    auf das deutsche DHDN Gauss-Krüger Zone 3 (EPSG:31467) eingestellt ist.
    (Das sollte nach dem Laden der Layer automatisch der Fall sein.)
-4. Öffne über Menü „Projekt“ > „Eigenschaften…“ die Projekteinstellungen,
+4. Öffne über Menü "Projekt > Eigenschaften…" die Projekteinstellungen,
    gib dem Projekt unter Reiter „Allgemein“
    den Titel „Autobahn und Lebensraumtypen“
    und speichere es unter dem Namen „Autobahn_Lebensraumtypen.qgz“
@@ -128,7 +128,7 @@ Für eine flächenhafte Darstellung musst du ein Pufferpolygon
 mit einem beidseitigen Abstand von 20 m von der Zentrallinie erstellen.
 +
 Dies erreichen Sie
-über Menü „Vektor“ > „Geoverarbeitungswerkzeuge“ > „Puffer“.
+über Menü "Vektor > Geoverarbeitungswerkzeuge > Puffer".
 Der „Eingabelayer“ ist „autobahn_zentrallinie“,
 als „Abstand“ musst du 20 Meter eintragen.
 
@@ -200,7 +200,7 @@ ist aus dem Puffer trasse_20_puffer_300 herauszuschneiden,
 um die äussere Beeinträchtigungszone abzugrenzen.
 +
 Dies ist mit der Menü-Option
-„Vektor > Geoverarbeitungswerkezeuge > Differenz“ zu erreichen.
+"Vektor > Geoverarbeitungswerkezeuge > Differenz" zu erreichen.
 
 ** „Eingabelayer“ = trasse_20_puffer_300
 ** „Layer überlagern“ = trasse_20_puffer_100
@@ -250,7 +250,7 @@ lassen sich beliebig viele Geometrien
 mit einem Schritt in einem Layer zusammenfügen.
 
 1. Wähle im Menü
-Vektor > Datenmanagement-Werkzeuge den Eintrag "Vektorlayer Zusammenführen…"
+"Vektor > Datenmanagement-Werkzeuge" den Eintrag menu:Vektorlayer{sp}Zusammenführen…[]
 
 2. Als Eingabelayer wählen Sie:
 ** trasse_20
@@ -274,25 +274,25 @@ musst du den Zonen einen Attributwert zuweisen.
 Bearbeite die Attributtabelle in den Layer-Eigenschaften
 
 1. Öffne das Kontext-Menü des Laysers "zonen"
-   und wähle "Eigenschaften…".
+   und wähle menu:Eigenschaften…[].
 2. Wähle im Layereigenschaften-Fenster den Reiter "Quellfelder" an.
 3. Schalte den Bearbeitungs-Modus an (Knopf mit dem Stift)
 4. Lösche alle Felder ausser „layer“ und "fid".
 5. Benenne das Feld „layer“ in „zone“ um.
 6. Schliesse das Layereigenschaften-Fenster mit «OK».
 7. Öffne das Kontext-Menü des Laysers "zonen"
-   und wähle "Attributtabelle öffnen".
+   und wähle menu:Attributtabelle{sp}öffnen[].
 8. Ändere die Werte in Spalte "zone" wie folgt:
 ** trasse_20 -> Trasse
 ** zone_100 -> Innen
 ** zone_100_300 -> Aussen
 9. Du kannst anschliessend die überstehenden End-Rundungen der Puffer
-   mit dem Zeichenwerkzeug „Bearbeiten > Objekte zerteilen“ abschneiden
+   mit dem Zeichenwerkzeug "Bearbeiten > Objekte zerteilen" abschneiden
    (der Schnitt-Linienzug kann mit Rechtsklick abgeschlossen werden),
-   diese Restflächen über „Bearbeiten > Auswahl > ...“ auswählen
+   diese Restflächen über "Bearbeiten > Auswahl > ..." auswählen
    und die Restflächen dann
-   mit der Funktion „Bearbeiten > Ausgewähltes Löschen“ löschen.
-10. Speichere den Layer (Menü „Layer > Bearbeitungsstatus umschalten“)
+   mit der Funktion "Bearbeiten > Ausgewähltes Löschen" löschen.
+10. Speichere den Layer (Menü "Layer > Bearbeitungsstatus umschalten")
     und klassifiziere die Zonen.
     Nutze Schraffuren oder Punktdichteraster,
     um die darunter liegenden Ebenen nicht vollständig zu verdecken.
@@ -312,11 +312,11 @@ Gehe wie folgt vor:
 
 1. Wähle den Layer „umgebung“ im Layer-Panel aus.
 
-2. Öffne die Attributtabelle („Layer > Attributtabelle öffnen“),
+2. Öffne die Attributtabelle ("Layer > Attributtabelle öffnen"),
 um dir einen Überblick zu verschaffen.
 (Danach kannst du die Attributtabelle wieder schliessen.)
 
-3. Öffne über die Menü-Option „Layer > Filter…“ den Abfrageeditor.
+3. Öffne über die Menü-Option "Layer > Filter…" den Abfrageeditor.
 
 4. Stelle mit Hilfe der Schaltflächen im Abfrageeditor
 eine Abfrage zusammen, mit der du alle Flächen auswählst, die entweder
@@ -343,7 +343,7 @@ und das Abfrageerstellungsfenster geschlossen.
 Du siehst jetzt alle Flächen,
 die aus Sicht des Biotop- und Artenschutzes wertvoll sind.
 
-7. Speichere die/den gefilterten Layer über „Layer > Speichern als…“
+7. Speichere die/den gefilterten Layer über "Layer > Speichern als…"
 im Geopackage autobahn_analyse.gpkg als Layer "wertvoll" ab.
 Danach kannst du den Filter auf Layer «umgebung» wieder löschen.
 
@@ -362,7 +362,7 @@ die naturschutzfachlich wertvoll sind
 und die gleichzeitig durch den Autobahnbau zerstört oder beeinträchtigt werden.
 
 1. Mit der Menü-Option
-„Vektor > Geoverarbeitungswerkzeuge > Verschneidung…“
+"Vektor > Geoverarbeitungswerkzeuge > Verschneidung…"
 verschneidest du beide Layer.
 ** „Eingabelayer“: zonen
 ** „Layer überlagern“: wertvoll
@@ -377,7 +377,7 @@ die Verarbeitungseinstellung auf "Ungültige Eingabeobjekte ignorieren".
 
 Ausführung nach 0.01 Sekunden gescheitert
 ____
-Öffne die QGIS-Optionen über Menü "Einstellungen" > "Optionen…"
+Öffne die QGIS-Optionen über Menü "Einstellungen > Optionen…"
 und ändere unter Reiter "Verarbeitung" > Abschnitt "Allgemein"
 die entsprechende Einstellung "Filterung ungültiger Objekte"
 von "Algorithmenausführung bei ungültiger Geiometrie anhalten"
@@ -414,7 +414,7 @@ Stelle sicher, dass der im Feld «FID» angegebene Name
 keiner schon bestehenden Spalte entspricht.
 
 8. Nun kannst du in der Attributtabelle des Layers „intersect_wertvoll“
-(Menü „Layer > Attributtabelle öffnen“)
+(Menü "Layer > Attributtabelle öffnen")
 oben rechts den „Feldrechner“ betätigen.
 Dieser erlaubt es dir, ein neues Feld anhand einer „Expression“ anzulegen.
 Verwende folgenden Ausdruck, um mit QGIS
@@ -449,7 +449,7 @@ in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
    auf denen sich FFH-relevante Biotoptypen befinden.
 4. Filtere Layer intersect_wertvoll mit Hilfe des Abfrageeditors
    mit der Abfrage ffh_typ_nr = 0.
-5. Speichere die Auswahl über „Layer > Speichern unter…“
+5. Speichere die Auswahl über "Layer > Speichern unter…"
    unter dem Layer-Namen "intersect_wertvoll_ ohne_ffh"
    in autobahn_analyse.gpkg
 6. Lade den neuen Layer und klassifiziere ihn nach bfn_biotop_text
