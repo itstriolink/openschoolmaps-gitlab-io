@@ -452,7 +452,7 @@ in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
 5. Speichere die Auswahl über „Layer > Speichern unter…“
    unter dem Layer-Namen "intersect_wertvoll_ ohne_ffh"
    in autobahn_analyse.gpkg
-6. Lade den neuen Layer und klassifizieren Ihn nach bfn_biotop_text
+6. Lade den neuen Layer und klassifiziere Ihn nach bfn_biotop_text
 7. Lösche den leeren Wert
    und du erhältst drei Klassen der wertvollen Nicht-FFH-Biotope.
 8. Lade die beiliegende Rasterdatei heli.tif
