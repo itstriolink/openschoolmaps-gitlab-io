@@ -114,7 +114,7 @@ Um eine Gelände-Schummerungs-Karte aus einem Höhenmodell erzeugen zu können,
 wählst du Menu menu:Raster[Analyse > Schummerung]
 (siehe Abbildung unten).
 
-image:01_schummerungskarte.png[] image:01_schummerung_protokoll.png[]
+image:01_schummerungskarte.png[pdfwidth=48%] image:01_schummerung_protokoll.png[pdfwidth=48%]
 
 Als Eingabedatei wählst du den Layer "`dhm_rimini`".
 Klicke bei "`Schummerung`" (Ausgabedatei) rechts auf btn:[…],
