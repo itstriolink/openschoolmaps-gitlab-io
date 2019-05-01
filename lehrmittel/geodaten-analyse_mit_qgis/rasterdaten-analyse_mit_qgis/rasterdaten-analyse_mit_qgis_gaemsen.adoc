@@ -13,7 +13,7 @@ Eine multikriterielle Rasteranalyse mit QGIS 3
 image::000_titelbild.png[]
 
 == Allgemeines
-Weisst du, wo die Gämsen im Zürcher Oberland potentiell leben?
+Weisst du, wo die Gämsen potentiell leben?
 Eine multi-kriterielle Rasteranalyse mit einem GIS liefert die Antwort.
 Diese Übung stammt ursprünglich von
 Andreas Lienhard, Kanton Zürich (herzlichen Dank!),
@@ -357,7 +357,7 @@ mit einer Einkanalpseudofarbe oder Palette einfärben:
 
 image::09_gut_fuer_gaemsi_bsp.png[]
 
-Nun wissen wir wo die Gämsen mutmasslich im Zürcher Oberland "`wohnen`"!
+Nun wissen wir wo die Gämsen mutmasslich "`wohnen`"!
 Dies zumindest gemäss unseren Daten und Annahmen.
 
 Für diese Übung sind nun soweit zufrieden.
