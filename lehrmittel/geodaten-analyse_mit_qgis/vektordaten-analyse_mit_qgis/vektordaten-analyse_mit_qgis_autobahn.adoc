@@ -321,18 +321,21 @@ um dir einen Überblick zu verschaffen.
 
 4. Stelle mit Hilfe der Schaltflächen im Abfrageeditor
 eine Abfrage zusammen, mit der du alle Flächen auswählst, die entweder
-FFH-Lebensräume sind (ffh_typ_nr = 1),
-geschützte Biotope beinhalten (OR geschuetzt_biotop = 1)
+FFH-Lebensräume sind (`ffh_typ_nr = 1`),
+geschützte Biotope beinhalten (`OR geschuetzt_biotop = 1`)
 oder bei denen es sich um einen sonstigen bedeutenden Grünlandtypen handelt
-(OR bedeutend_gruenland_typ = 1).
+(`OR bedeutend_gruenland_typ = 1`).
 +
 Anmerkung:
 In den betreffenden Spalten der Attributtabelle
-bedeutet der Wert 1 jeweils "`trifft zu`".
+bedeutet der Wert `1` jeweils "`trifft zu`".
 +
 Ihr SQL-Befehl muss folgendermassen aussehen:
 +
+[source,sql]
+----
 ffh_typ_nr = 1 OR geschuetzt_biotop = 1 OR bedeutend_gruenland_typ = 1
+----
 
 5. Teste die Abfrage.
 +
