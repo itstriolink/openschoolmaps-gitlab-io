@@ -37,16 +37,18 @@ Die Aufgabe orientiert sich am Bau der A44
 durch die deutsche Lichtenauer Hochfläche,
 ohne die Originaldaten zu nutzen.
 
-Als Arbeitsdaten stehen eine Polygon-Vektordatei (Geopackage `umgebung.gpkg`)
+Als Arbeitsdaten stehen Polygon-Vektordaten
+(Layer "`umgebung`" in Geopackage `autobahn_inputs.gpkg`)
 mit den Ergebnissen einer Biotoptypen- und Nutzungskartierung,
-eine Linien-Vektordaten (Geopackage `autobahn.gpkg`)
+Linien-Vektordaten
+(Layer "`autobahn_zentrallinie`" im Geopackage `autobahn_inputs.gpkg`)
 mit der Zentrallinie einer fiktiven Autobahntrasse
 sowie die Topographische Karte 1:25‘000 (Tk25) (Datei `heli.tif`) als Hintergrund
 zur Verfügung.
 Weiterhin kannst du im Ordner
 auf verschiedene Flächensignaturen (Texturen) zurückgreifen.
 
-In der Sachdatentabelle von `umgebung.gpkg` sind Nutzungstücke (Schläge),
+In der Sachdatentabelle von "`umgebung`" sind Nutzungstücke (Schläge),
 die einem Lebensraumtyp (sog. ffh_typ_nr) zuzuordnen sind, gekennzeichnet
 (ffh_typ_text).
 Ebenso sind
