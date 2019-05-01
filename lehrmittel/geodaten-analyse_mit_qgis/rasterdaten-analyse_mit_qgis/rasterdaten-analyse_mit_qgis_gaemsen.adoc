@@ -434,7 +434,7 @@ Zu guter Letzt berechnen wir die Gämsenstandorte mit einem Verschnitt
 Hier die Lösung für den Rasterrechnerausdruck:
 [source,sql]
 ----
-"dhm_rimini_1500_2500@1" > 0 AND "slope_over20perc@1" AND "aspect_135_225@1" AND "as85_sorted@1"
+"dhm_rimini_1500_2500@1" AND "slope_over20perc@1" AND "aspect_135_225@1" AND "as85_sorted@1"
 ----
 
 image::09_gut_fuer_gaemsi.png[]
