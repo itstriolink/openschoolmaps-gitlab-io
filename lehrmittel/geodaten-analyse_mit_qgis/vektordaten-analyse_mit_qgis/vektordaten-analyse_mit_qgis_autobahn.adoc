@@ -43,7 +43,7 @@ mit den Ergebnissen einer Biotoptypen- und Nutzungskartierung,
 Linien-Vektordaten
 (Layer "`autobahn_zentrallinie`" im Geopackage `autobahn_inputs.gpkg`)
 mit der Zentrallinie einer fiktiven Autobahntrasse
-sowie die Topographische Karte 1:25‘000 (Tk25) (Datei `heli.tif`) als Hintergrund
+sowie als Hintergrund die Topographische Karte 1:25‘000 (Tk25) (Datei `heli.tif`)
 zur Verfügung.
 
 In der Sachdatentabelle von "`umgebung`" sind Nutzungstücke (Schläge),
