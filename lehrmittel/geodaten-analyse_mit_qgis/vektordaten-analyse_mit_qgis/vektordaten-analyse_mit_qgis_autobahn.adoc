@@ -45,8 +45,6 @@ Linien-Vektordaten
 mit der Zentrallinie einer fiktiven Autobahntrasse
 sowie die Topographische Karte 1:25‘000 (Tk25) (Datei `heli.tif`) als Hintergrund
 zur Verfügung.
-Weiterhin kannst du im Ordner
-auf verschiedene Flächensignaturen (Texturen) zurückgreifen.
 
 In der Sachdatentabelle von "`umgebung`" sind Nutzungstücke (Schläge),
 die einem Lebensraumtyp (sog. ffh_typ_nr) zuzuordnen sind, gekennzeichnet
