@@ -432,6 +432,7 @@ image::08_as_sorted_bsp.png[]
 Zu guter Letzt berechnen wir die Gämsenstandorte mit einem Verschnitt
 (spatial overlay, intersection) und speichern das unter `gut_fuer_gaemsi.tif`.
 Hier die Lösung für den Rasterrechnerausdruck:
+[source,sql]
 ----
 "dhm_rimini_1500_2500@1" > 0 AND "slope_over20perc@1" AND "aspect_135_225@1" AND "as85_sorted@1"
 ----
