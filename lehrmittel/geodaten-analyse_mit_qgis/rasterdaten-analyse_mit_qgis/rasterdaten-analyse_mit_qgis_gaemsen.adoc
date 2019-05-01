@@ -141,7 +141,8 @@ zur ersten Auswertung mit dem Teilresultat "`Gelände-Ausrichtung`".
 Die Gelände-Ausrichtungs-Karte zeigt
 die Ausrichtung (engl. aspect) des Geländes in Bezug auf Norden.
 Sie wird mit einem Höhenmodell als Quelle
-über das Menü menu:Raster[Analyse > Perspektive] erstellt
+über das Menü menu:Raster[Analyse > Perspektive]
+(engl. menu:Raster[Analysis > Aspect...]) erstellt
 (vgl. Abbildung oben).
 
 Als Eingabelayer wählst du wieder "`dhm_rimini`".
@@ -161,6 +162,7 @@ auf den Layernamen und dessen Eigenschaften zugreifen.
 
 Wähle in der "`Symbolisierung`"
 im ersten Eintrag "`Kanaldarstellung`" die Darstellungsart "`Einkanalpseudofarbe`".
+(Engl. "`Singleband pseudocolor`")
 Als Kanal bleibt dir nur der "`Kanal 1 (grey)`" zur Auswahl.
 Nun kannst du "`Min`" auf 0 und "`Max`" und auf 360 stellen,
 "`Interpolation`" auf "`Linear`",
