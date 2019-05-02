@@ -9,7 +9,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 Folgen-Abschätzung eines Autobahn-Baus mit QGIS 3
 
 .Kartendarstellung des Analyse-Ergebnisses. Siehe auch <<endergebnis-image>>
-image::11_endergebnis_ausschnitt.png[]
+image::11_endergebnis_ausschnitt.png[pdfwidth=100%]
 
 
 == Allgemeines
