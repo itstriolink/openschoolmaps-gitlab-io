@@ -490,7 +490,7 @@ Folgende Dateien müssen nun vorhanden sein:
   oder die Konfliktzonen aus Sicht des Biotop- und Artenschutzes darstellt.
 
 [[endergebnis-image]]
-.Beispiel-Layout.
+.Darstellung des des Analyse-Ergebnisses in einem Beispiel-Layout.
 image::10_endergebnis.png[]
 
 ■
