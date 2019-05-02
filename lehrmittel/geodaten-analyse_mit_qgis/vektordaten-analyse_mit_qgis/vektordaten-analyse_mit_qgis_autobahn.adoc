@@ -9,21 +9,22 @@ include::../../../snippets/suppress_title_page.adoc[]
 Folgen-Abschätzung eines Autobahn-Baus mit QGIS 3
 
 
-== Inhalte
+== Allgemeines
+
+.Inhalte
 
 * Wirkungen eines Autobahnabschnitts auf Lebensraumtypen
 * Einstieg in die Geodatenverarbeitung
 * Arbeiten mit Puffer und Schnittmengen
 
-Quellenangabe: Diese Aufgabenstellung basiert v.a.
+.Quellenangabe
+Diese Aufgabenstellung basiert v.a.
 auf http://www.gkg-kassel.de/pdf/aufgabe_6.pdf[Aufgabe 6]
 des Kurses "`Einführung in GIS und digitale Kartographie`"
 von http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
 
 
-== Vorbereitung
-
-=== Ziele
+== Ziele und Vorgaben
 
 Ziel dieser Übung ist es,
 die Beeinträchtigung von Lebensraumtypen Fauna-Flora-Habitat
@@ -68,7 +69,7 @@ Die Ergebnisse könnten zum Schluss in eine Tabelle
 als Flächenbilanz eingetragen werden (optional).
 
 
-=== Hilfsmittel
+.Hilfsmittel
 
 * QGIS (getestet mit QGIS 3.4)
 * Daten:
