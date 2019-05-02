@@ -8,7 +8,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 Folgen-Abschätzung eines Autobahn-Baus mit QGIS 3
 
-.Kartendarstellung des Analyse-Ergebnisses
+.Kartendarstellung des Analyse-Ergebnisses. Siehe auch <<endergebnis-image>>
 image::11_endergebnis_ausschnitt.png[]
 
 
@@ -489,6 +489,7 @@ Folgende Dateien müssen nun vorhanden sein:
   die wertvollen Biotoptypen im Beeinträchtigungsbereich
   oder die Konfliktzonen aus Sicht des Biotop- und Artenschutzes darstellt.
 
+[[endergebnis-image]]
 .Beispiel-Layout.
 image::10_endergebnis.png[]
 
