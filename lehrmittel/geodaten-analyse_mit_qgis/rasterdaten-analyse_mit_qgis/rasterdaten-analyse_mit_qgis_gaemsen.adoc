@@ -1,0 +1,444 @@
+= Practice/Übung: Raumanalyse Rasterdaten - Wo die Gämsen wohnen
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../../bilder/rasterdaten-analyse_gaemsen
+:experimental:
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+
+Eine multikriterielle Rasteranalyse mit QGIS 3
+
+.Bild CC BY-SA 4.0 Paul Hermans. (Quelle: https://commons.wikimedia.org/wiki/File:Gemse01.JPG)
+[caption=""]
+image::000_titelbild.png[]
+
+== Allgemeines
+Weisst du, wo die Gämsen potentiell leben?
+Eine multi-kriterielle Rasteranalyse mit einem GIS liefert die Antwort.
+Diese Übung stammt ursprünglich von
+Andreas Lienhard, Kanton Zürich (herzlichen Dank!),
+und wurde dann weiterentwickelt.
+
+* Zeitaufwand:
+  Diese Übung dauert mind. 30 Minuten, wenn man QGIS schon etwas kennt.
+* Voraussetzungen:
+  QGIS 3
+  (diese Übung wurde mit der QGIS Version 3.6 erstellt
+  und mit QGIS 3.4 LTS getestet).
+* Stichworte:
+  GIS, Raster, Grid, Multikriterielle Analyse, Rasteralgebra, QGIS.
+
+== Ziele und Vorgaben
+Ziel dieser Übung ist,
+mittels multikriterieller GIS-Analyse herauszufinden,
+wo Gämsen potentiell ihren Lebensraum haben.
+Dazu treffen wir folgende Annahmen (Kriterien):
+
+1. Gämsen halten sich vor allem oberhalb 1500 m. ü. M. auf.
+   Wir suchen zudem die Gämsen im Frühling;
+   d.h. es liegt noch viel Schnee ab 2500 m.
+2. Gämsen sind vor allem in steilen Hängen (Neigung >20%) zu finden.
+3. Gämsen bevorzugen warme, früh ausgeaperte Hänge, d.h. Südhänge.
+4. Gämsen nutzen Alpweiden, denn im Frühling ist noch kein Vieh auf der Alp.
+
+Für die Analyse stehen folgende zwei Raster-/Grid-Datensätze zur Verfügung
+(weitere Informationen zum ASCII-Grid-Format
+gibt es hier http://giswiki.hsr.ch/Grid ):
+
+* Höhenmodell "`DHM-Rimini`"
+  (ursprünglich von Swisstopo)
+  im ArcInfo-ASCII-Grid-Format,
+  Datei `dhm_rimini.txt`.
+  (Höhenmodell: engl. Digital Height Model, DHM)
+* Statistikdaten "`Arealstatistik 85`"
+  (ursprünglich vom BfS)
+  im ArcInfo-ASCII-Grid-Format,
+  Datei `as85.txt`.
+  Enthält Bodenbedeckungs-Arten wie z.B. Wad, Wiesen und Weiden.
+
+== Vorbereitungen
+Nachdem die Vorgaben geklärt sind,
+können wir mit der Analyse der potentiellen Gämse-Lebensräume beginnen.
+Dies ist der Ablaufplan:
+
+* Zuerst werden das Höhenmodell und die Arealstatistik ins QGIS geladen.
+* Mit dem Höhenmodell
+  wird vorab als reiner Hintergrund eine Geländeschummerungs-Karte erzeugt.
+* Mit dem Höhenmodell
+  werden dann eine Neigungskarte und eine Geländeausrichtungskarte
+  als Zwischenergebnisse berechnet und gespeichert.
+* Dann werden Teilergebnisse berechnet und gespeichert
+  gemäss den vier Kriterien:
+** Ausgehend vom Höhenmodell werden die entsprechenden Höhen-Gebiete gefiltert.
+** Ausgehend von der Neigungskarte werden die steilen Hänge gefiltert.
+** Ausgehend von der Ausrichtungskarte werden die Südhänge gefiltert.
+** Ausgehend von der Arealstatistik werden die Alpweiden gefiltert.
+* Zum Schluss werden die letzten vier Zwischenergebnisse
+  miteinander verschnitten (spatial overlay, intersection)
+  und das Ergebnis visualisiert.
+
+Starte nun QGIS
+- oder öffnen ein neues QGIS-Projekt -
+und stelle das Koordinatenbezugssystem des Projekts unten rechts
+auf das alte schweizerische Koordinatenbezugssystem EPSG:21781 um.
+
+== Import
+Um die beiden Inputdateien `as85.txt` und `dhm_rimini.txt` zu laden,
+kannst du diese entweder mit "`Drag & Drop`" ins QGIS hineinziehen,
+oder du öffnest das Menü menu:Layer[Layer hinzufügen].
+Dort wählst du den Eintrag menu:Rasterlayer hinzufügen…[]
+und gibst die entsprechenden Dateien an.
+Wähle als Koordinatenbezugssystem EPSG:21781.
+
+Kontrolliere,
+dass im Layer-Manager der Layer "`dhm_rimini`" oben und damit sichtbar ist,
+sonst einfach den Layer im Layer-Manager hochziehen.
+Falls der Layer schwarz dargestellt wird, kannst du das anpassen, in dem du
+zu Layer-Eigenschaften gehst und bei "`Kontrastverbesserung`"
+von "`Zuschneiden auf MinMax`" auf "`Strecken auf MinMax`" wechselst
+(es gibt einige weitere Darstellungsoptionen).
+Nun solltest du etwa das sehen, was nachfolgend dargestellt ist.
+
+image::00_geladen.png[]
+
+== Gelände-Schummerungs-Karte
+Dieser Schritt ist noch nicht Teil der Auswertung
+sondern dient vielmehr der Visualisierung und der Orientierung auf der Karte.
+Über das Menü menu:Raster[] können die Rasterlayer in QGIS
+bearbeitet und verändert werden.
+Hierbei werden meistens neue Layer erzeugt und im QGIS-Projekt angezeigt.
+
+image::01_menu.png[]
+
+Um eine Gelände-Schummerungs-Karte aus einem Höhenmodell erzeugen zu können,
+wählst du Menu menu:Raster[Analyse > Schummerung]
+(siehe Abbildung unten).
+
+image:01_schummerungskarte.png[pdfwidth=48%] image:01_schummerung_protokoll.png[pdfwidth=48%]
+
+Als Eingabedatei wählst du den Layer "`dhm_rimini`".
+Klicke bei "`Schummerung`" (Ausgabedatei) rechts auf btn:[…],
+eröffnest du einen neuen Übungsdaten-Ordner z.B. `gaemse`
+und gib den Namen `gelaende.tif` an
+(die Endung tif steht für TIFF bzw. GeoTIFF).
+
+Nach einem Klick auf btn:[Starte] wechselt das Dialog-Fenster automatisch
+auf den Reiter (Tab, Registerkarte) mit dem Ausführungs-Protokoll.
+Das Fenster "`Schummerung`" mit dem Protokoll kannst du danach schliessen.
+Danach solltest du etwa folgendes Ergebnis mit der Geländeschummerung erhalten:
+
+image::01_schummerungskarte_bsp.png[]
+
+Speichere an dieser Stelle auch das ganze QGIS-Projekt
+in den Ordner z.B. `gaemse` mit dem Namen `gaemse.qgz`.
+
+image::02_perspective.png[]
+
+Nun kommen wir im nächsten Kapitel
+zur ersten Auswertung mit dem Teilresultat "`Gelände-Ausrichtung`".
+
+== Gelände-Ausrichtungs-Karte
+Die Gelände-Ausrichtungs-Karte zeigt
+die Ausrichtung (engl. aspect) des Geländes in Bezug auf Norden.
+Sie wird mit einem Höhenmodell als Quelle
+über das Menü menu:Raster[Analyse > Perspektive]
+(engl. menu:Raster[Analysis > Aspect...]) erstellt
+(vgl. Abbildung oben).
+
+Als Eingabelayer wählst du wieder "`dhm_rimini`".
+Wähle bei "`Perspektive`" (Ausgabedatei) den Übungsdaten-Ordner (`gaemse`)
+und den Dateinamen `aspect.tif`:
+vgl. Abbildung oben.
+
+Wenn alles richtig gelaufen ist, solltest du etwa folgendes sehen
+(kann auch abweichen):
+
+image::02_perspective_bsp.png[]
+
+Diese Darstellung der Gelände-Ausrichtungs-Karte
+wollen wir nun aber noch etwas verbessern.
+Um den Stil eines Layers zu ändern, kannst du per Rechts- oder Doppelklick
+auf den Layernamen und dessen Eigenschaften zugreifen.
+
+Wähle in der "`Symbolisierung`"
+im ersten Eintrag "`Kanaldarstellung`" die Darstellungsart "`Einkanalpseudofarbe`".
+(Engl. "`Singleband pseudocolor`")
+Als Kanal bleibt dir nur der "`Kanal 1 (grey)`" zur Auswahl.
+Nun kannst du "`Min`" auf 0 und "`Max`" und auf 360 stellen,
+"`Interpolation`" auf "`Linear`",
+als "`Farbverlauf`" wähle irgendeinen,
+damit die automatische Klassifizierung funktioniert
+(welchen Farbverlauf spielt keine Rolle,
+da wir die Farben manuell zuweisen werden),
+den Modus auf "`Gleiches Intervall`"
+und die Klassen-Anzahl auf 5.
+
+Eine Ausrichtungskarte beinhaltet als Wert einen Winkel (in Grad °),
+der die Ausrichtung des Geländes repräsentiert.
+Wir wollen den vier Haupt-Himmelsrichtungen (N, O, S, W)
+verschiedene Farben zuweisen.
+Beim Ergebnis der verwendeten Operation entspricht 0° Norden (N).
+Bei Werten nahe 0° liegt also ein Nordhang vor.
+Aber auch Werte nahe 360° repräsentieren Nordhänge.
+Deswegen wurden fünf anstatt nur vier Klassen verwendet.
+Weise daher der ersten und letzten Klasse dieselbe Farbe zu, z.B. blau.
+Der Winkel im Ergebnis ist im Uhrzeigersinn zu verstehen, 90° ist also Osten.
+Weise den restlichen drei Klassen
+unterschiedliche, gut unterscheidbare Farben zu,
+z.B. rot, gelb, grün.
+
+Wenn du willst, kannst du den Klassen eine sinnvolle "`Beschriftung`" geben,
+z.B. N, O, S, W (und nochmals N).
+
+image::02_perspective_colors.png[]
+
+Wenn du alle Einstellungen gemacht hast,
+gehe auf den Reiter "`Transparenz`" (unterhalb Reiter "`Symbolisierung`").
+Hier setzen wir die globale Transparenz auf z.B. 50%,
+damit man unter der gefärbten Ausrichtungskarte
+noch die Geländeschummerung sieht.
+
+image::02_perspective_transparenz.png[]
+
+Danach auf btn:[Ok] klicken (das Dialogfenster schliesst).
+
+Das Resultat sollte nun in etwa wie unten abgebildet aussehen.
+Wenn du andere Farben eingestellt hast, ist das nicht weiter schlimm.
+Hauptsache ist, dass nun die Himmelsrichtungen der Berghänge
+durch verschiedene Farben visualisiert sind.
+
+image::02_perspective_final.png[]
+
+== Neigungskarte
+Mit der Funktion "`Neigung`"
+(engl. slope, Menü menu:Raster[Analyse > Neigung])
+wird die Steigung eines als Raster/Grid codierten Geländes dargestellt.
+Für diese Übung wollen wir die Steigung in Prozent statt in Grad ausdrücken
+(vgl. unten).
+Als Eingabedatei wählst du wieder den Layer "`dhm_rimini`"
+und gibst die Ausgabedatei `slope.tif` im Übungsdaten-Ordner an.
+Dann btn:[Starte].
+
+image::03_slope_inked.png[]
+
+Das Resultat sieht etwa wie folgt aus
+(bei "`Kontrastverbesserung`" auf "`Strecken auf MinMax`"):
+
+image::03_slope_bsp.png[]
+
+== Filtern nach den Kriterien
+Du hast nun die Daten so weit vorbereitet,
+dass wir die Kriterien anwenden können.
+Zur Erinnerung:
+Wir suchen diejenigen Gebiete, die folgende Kriterien erfüllen:
+
+1. Gebiete, die höher als 1500 m. ü. M und tiefer als 2500 m. ü. M. liegen.
+2. Gebiete, die steiler als 20% sind.
+3. Südhang-Gebiete,
+   d.h. Gebiete, die eine Ausrichtung von Südost bis Südwest haben.
+4. Gebiete, welche die Nutzung
+   Wies- und Ackerland, Heimweiden, Maiensässe, Heualpen, Bergwiesen, Alpweiden
+   aufweisen.
+
+Um diese Anforderungen zu erfüllen,
+errechnen wir nun vier weitere Layer aus den vorbereiteten Daten.
+Ein Verschnitt daraus wird uns aufzeigen, wo sich Gämse aufhalten könnten.
+Der Verschnitt und die Filterung erfolgt
+mit der "`Rasteralgebra`" und in QGIS mit dem Rasterrechner.
+
+Beginnen wir mit dem ersten Kriterium:
+Die Höhen des Geländes sind im Layer "`dhm_rimini`" gespeichert.
+Damit werden wir nun einen neuen Layer berechnen,
+der nur noch diejenigen Rasterzellen beinhaltet,
+die zwischen 1500 und 2500 m. ü. M. liegen.
+Dafür müssen Sie nun den Rasterrechner über das Menü menu:Raster[] öffnen.
+
+image::04_rasterrechner_menu.png[]
+
+Im Rasterrechner musst du wieder rechts oben den Ausgabelayer angeben.
+Wähle den Übungsdaten-Ordner
+und nenne die Ausgabedatei `dhm_rimini_1500_2500.tif`.
+
+image::05_dhm_rastercalc.png[]
+
+Links im Dialog sind die verfügbaren Layer
+mit ihren "`Rasterkanälen`" (hier immer "`@1`") aufgelistet.
+Für diese erste Berechnung wählen wir "`dhm_rimini@1`".
+Per Doppelklick darauf
+kann dieser in Anführungszeichen dem Rasterrechnerausdruck hinzugefügt werden.
+Der Ausdruck ist aber noch nicht bereit.
+Wir möchten noch nach Werten zwischen 1500 und 2500 filtern.
+Dazu wählen wir die Operatoren "`grösser-gleich`"/"`kleiner-gleich`"
+(`>=` und `\<=`), die wir mit `AND` verknüpfen und einklammern.
+Damit bekommen diejenigen Werte, die dazwischen liegen eine 1.
+Doch von diesen möchten wir eigentlich den Originalwert behalten.
+Dazu multiplizieren wir den eingeklammerten Ausdruck
+mit dem ursprünglichen Wert selbst
+(das ist raffiniert ☺, denn der geklammerte boolesche Ausdruck
+wird offenbar als Zahl 1/0 interpretiert anstelle von wahr/falsch).
+Man kann den Ausdruck entweder direkt eintippen oder
+mit Klick auf die Operator-Buttons im Bereich "`Operatoren`" zusammenstellen.
+Mit btn:[OK] den Rasterrechner starten.
+
+image::05_dhm_rastercalc_bsp.png[]
+
+Wir können nun überprüfen,
+ob alle gewünschten Punkte ihren Wert beibehalten haben,
+indem wir durch Klicken auf "`Objekte abfragen`" (das "`i`"-Icon)
+und mit der Maus ins Fenster klicken:
+Bei schwarzen Rasterzellenn (Pixel) wird der Wert 0 angezeigt
+und bei grauen ein Wert zwischen 1500 m. ü. M. und 2500 m. ü. M..
+
+Um die 0-Werte auch aus der Ansicht herauszufiltern,
+können wir ihnen noch eine Transparenz zuordnen.
+In den Layer-Eigenschaften > "`Transparenz`"
+und "`Benutzerdefinierte Transparenzeinstellung`" klickst du dazu auf btn:[+]
+und setzt die beiden Werte "`Von`" und "`Nach`" auf 0
+sowie "`Prozent Transparenz`" auf 100 Prozent.
+Danach klickst du auf btn:[Anwenden].
+
+image::05_dhm_rastercalc_bsp_transparenz.png[]
+
+Schalte nun im Layer-Manager die Sichtbarkeit des Layers "`Neigung`" aus. +
+Das Ergebnis ist nun so gefiltert, dass man die anderen Layer darunter sieht:
+
+image::05_dhm_rastercalc_bsp_transparenz_bsp.png[]
+
+Die gleichen Schritte
+- zuerst Rasterrechner dann Transparenz –
+wendest du nun für alle weiteren drei Kriterien an, wie folgt:
+
+Für das zweite Kriterium gehst du vom Layer bzw. Kanal "`Neigung@01`" aus
+und speicherst das Resultat im Übungsdaten-Ordner
+unter dem Namen `slope_over20perc.tif`
+(btn:[Ok] ist noch nicht aktiviert).
+Selektiere mit dem Rasterrechner in diesem Falle alle Rasterzellen,
+die steiler als 20% sind.
+Dann btn:[Ok].
+
+Für das dritte Kriterium verwendest du den Layer "`Perspektive`" (`aspect.tif`)
+und filterst alle Rasterzellen heraus,
+welche zwischen den 135 und 225 Grad liegen (d.h. 180 Grad plus/minus 45 Grad).
+Damit erhältst du alle nach Süden gerichteten Hänge
+(zur Erinnerung Norden ist 0°).
+Speichere das Resultat im Übungsdaten-Ordner
+unter dem Namen `aspect_135_225.tif`.
+Dann btn:[Ok].
+
+Für das vierte und letzte Kriterium nehmen wir den Layer "`as85`".
+In diesem sind die verschiedenen Geländearten als Code (Ganzzahl) abgespeichert.
+Uns interessieren nur alle jene Gebiete,
+welche die folgenden Nutzungen aufweisen:
+Wies- und Ackerland, Heimweiden, Maiensässe,
+Heualpen, Bergwiesen, Alp- und Juraweiden.
+Diese entsprechen den Codes 8, 9, 10 und 11.
+Filtere den Layer "`as85`" daher nach diesen Codes.
+Speichere das Resultat
+im Übungsdaten-Ordner unter dem Dateinamen `as85_sorted.tif`.
+
+Denke daran, für jeden Layer die benutzerdefinierte Transparenz
+auf 100 Prozent für die Werte von 0 bis 0 zu setzen (vgl. Layer-Eigenschaften).
+
+Probiere dies für alle Schritte aus.
+Solltest du nicht weiterkommen,
+so ist im nächsten Kapitel
+jeder Schritt noch mit Lösung und Screenshots beschrieben.
+
+Nun hast du alle nötigen Vorberechnungen gemacht.
+Nun musst du noch die vier Layer verschneiden (engl. overlay/intersection).
+Dazu verwendest du wieder den Rasterrechner und kombinieren die vier Layer
+"`dhm_rimini_1500_2500`", "`slope_over20perc`", "`aspect_135_225`" und "`as85_sorted`"
+mit dem logischen UND-Operator.
+Nenne das Resultat `gut_fuer_gaemsi.tif`
+und speichere es wieder in den Übungsdaten-Ordner.
+Auch hier solltest du die benutzerdefinierte Transparenz
+auf 100 Prozent für die Werte von 0 bis 0 setzen.
+
+Wenn du willst, kannst du auch dieses Ergebnis
+mit einer Einkanalpseudofarbe oder Palette einfärben:
+
+image::09_gut_fuer_gaemsi_bsp.png[]
+
+Nun wissen wir wo die Gämsen mutmasslich "`wohnen`"!
+Dies zumindest gemäss unseren Daten und Annahmen.
+
+Für diese Übung sind nun soweit zufrieden.
+Es gäbe aber noch einige Verbesserungsmöglichkeiten,
+einerseits für die bessere Lesbarkeit
+(z.B. mit wichtigen Orten, Strassen und Berggipfel)
+und andererseits mit verbesserten Analysen
+wo man beispielsweise die Rasterzellen in Vektoren umwandeln könnte,
+um die resultierenden Polygone dann mit weiteren Daten verknüpfen zu können.
+
+<<<
+
+== Detaillierte Anleitung
+Dieses Kapitel ist eine Ergänzung zum vorhergehenden Kapitel,
+bei dem nur das erste Kriterium detailliert erläutert wurde.
+
+Um die drei weiteren Kriterien zu berechnen,
+gehen wir gleich vor wie beim ersten Kriterium.
+D.h. wir wenden zuerst den Rasterrechner an
+und setzen dann die Transparenz der nicht benötigten Werte auf "`durchsichtig`".
+
+=== Zweites Kriterium (Gebiete, die steiler als 20% sind):
+Öffne den Rasterrechner, wähle den Rasterkanal "`Neigung@1`"
+und gib den folgenden Rasterrechnerausdruck ein:
+----
+("Neigung@1" > 20) * "Neigung@1"
+----
+
+image::06_slope_20percent.png[]
+
+Dann beim Layer die Transparenz einstellen.
+
+Das Ergebnis des zweiten Kriteriums sollte ungefähr wie folgt aussehen:
+
+image::06_slope_20percent_bsp.png[]
+
+=== Drittes Kriterium (Südhang):
+Im Rasterrechner setzt du als Ausgabelayer `aspect_135_225.tif`,
+wählst den Rasterkanal "`Perspektive@1`"
+und gibst den folgenden Rasterrechnerausdruck ein:
+----
+("Perspektive@1" >= 135 AND "Perspektive@1" <= 225) * "Perspektive@1"
+----
+
+image::07_aspect_south.png[]
+
+Dann die Layer-Transparenz setzen.
+Das Ergebnis des dritten Kriteriums
+(Einkanalpseudofarben von "`Perspektive`" kopiert)
+sollte etwa so aussehen:
+
+image::07_aspect_south_bsp.png[]
+
+=== Viertes Kriterium (Geländearten):
+Im Rasterrechner wählst du den Rasterkanal "`as85@1`",
+den Ausgabelayer `as85_sorted.tif`
+und gibst folgenden Rasterrechnerausdruck ein:
+----
+("as85@1" >= 8 AND "as85@1" <= 11) * "as85@1"
+----
+
+image::08_as_sorted.png[]
+
+Nachfolgend ist das Ergebnis des vierten Kriteriums dargestellt
+(Paletten-Farben und ebenfalls mit Transparenz):
+
+image::08_as_sorted_bsp.png[]
+
+=== Verschnitt:
+Zu guter Letzt berechnen wir die Gämsenstandorte mit einem Verschnitt
+(spatial overlay, intersection) und speichern das unter `gut_fuer_gaemsi.tif`.
+Hier die Lösung für den Rasterrechnerausdruck:
+[source,sql]
+----
+"dhm_rimini_1500_2500@1" AND "slope_over20perc@1" AND "aspect_135_225@1" AND "as85_sorted@1"
+----
+
+image::09_gut_fuer_gaemsi.png[]
+
+Das resultierende Ergebnis ist am Ende des vorhergehenden Kapitels dargestellt.
+
+■

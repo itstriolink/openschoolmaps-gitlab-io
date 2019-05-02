@@ -15,12 +15,14 @@ PDFs:
     do
       asciidoctor-pdf
         --attribute icons=font
+        --attribute source-highlighter=coderay
         $f;
     done
   - for f in $(grep -rl 'def::show_solutions\[' lehrmittel/ | grep '.adoc$');
     do
       asciidoctor-pdf
         --attribute icons=font
+        --attribute source-highlighter=coderay
         --attribute show_solutions
         $f
         -o ${f%.*}_solutions.pdf;
@@ -44,6 +46,18 @@ QGIS excercise data:
     expire_in: 3 mos
     paths:
     - lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
+
+gaemsen excercise data:
+  stage: build
+  script:
+  # Dummy script,
+  # because we only need to collect some files from the Git repo as artifacts.
+  - "true"
+  artifacts:
+    name: "Input-Daten_gaemsen"
+    expire_in: 3 mos
+    paths:
+    - lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
 
 pages:
   image: asciidoctor/docker-asciidoctor
