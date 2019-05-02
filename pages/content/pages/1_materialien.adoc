@@ -52,7 +52,7 @@ https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/mast
   https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=autobahn%20excercise%20data[Daten]
 * Raumanalyse Rasterdaten - Wo die Gämsen wohnen
   https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf?job=PDFs[Arbeitsblatt],
-  https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=gaemsen%20excercise%20data[Input-Daten]
+  https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=gaemsen%20excercise%20data[Daten]
 
 .Zusätzliche Materialien:
 * OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
