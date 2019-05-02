@@ -44,6 +44,7 @@ Hier unsere Webseite: https://openschoolmaps.ch
 
 **Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):**
 
+* Raumanalyse Vektordaten - Autobahn [Arbeitsblatt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf?job=PDFs), [Daten](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=autobahn%20excercise%20data)
 * Raumanalyse Rasterdaten - Wo die Gämsen wohnen [Arbeitsblatt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf?job=PDFs), [Input-Daten](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=gaemsen%20excercise%20data)
 
 
