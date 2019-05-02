@@ -11,6 +11,12 @@ Folgen-Abschätzung eines Autobahn-Baus mit QGIS 3
 
 == Allgemeines
 
+Die Einschätzungen von Beeinträchtigungen rechtlich geschützter Biotoptypen
+durch Verkehrsbauwerke sind eine typische Aufgabe der Landschaftsplanung.
+Die Aufgabe orientiert sich am Bau der A44
+durch die deutsche Lichtenauer Hochfläche,
+ohne die Originaldaten zu nutzen.
+
 .Inhalte
 
 * Wirkungen eines Autobahnabschnitts auf Lebensraumtypen
@@ -31,12 +37,6 @@ die Beeinträchtigung von Lebensraumtypen Fauna-Flora-Habitat
 (kurz FFH, eine Europäische Gesetzesrichtlinie, siehe
 https://de.wikipedia.org/wiki/Richtlinie_92/43/EWG_(Fauna-Flora-Habitat-Richtlinie)[Wikipedia])
 und gesetzlich geschützten Biotoptypen durch einen Autobahnbau zu bilanzieren.
-
-Die Einschätzungen von Beeinträchtigungen rechtlich geschützter Biotoptypen
-durch Verkehrsbauwerke sind eine typische Aufgabe der Landschaftsplanung.
-Die Aufgabe orientiert sich am Bau der A44
-durch die deutsche Lichtenauer Hochfläche,
-ohne die Originaldaten zu nutzen.
 
 Als Arbeitsdaten stehen Polygon-Vektordaten
 (Layer "`umgebung`" in Geopackage `autobahn_inputs.gpkg`)
