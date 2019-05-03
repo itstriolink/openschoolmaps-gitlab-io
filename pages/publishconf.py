@@ -10,8 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+_is_CI = 'CI' in os.environ
+
 SITEURL = os.getenv('CI_PAGES_URL', default='/')
-RELATIVE_URLS = False
+RELATIVE_URLS = not _is_CI
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
