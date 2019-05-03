@@ -45,6 +45,18 @@ QGIS excercise data:
     paths:
     - lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
 
+autobahn excercise data:
+  stage: build
+  script:
+  # Dummy script,
+  # because we only need to collect some files from the Git repo as artifacts.
+  - "true"
+  artifacts:
+    name: "Daten_autobahn"
+    expire_in: 3 mos
+    paths:
+    - lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn/
+
 pages:
   image: asciidoctor/docker-asciidoctor
   stage: pages
