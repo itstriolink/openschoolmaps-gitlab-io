@@ -1,4 +1,4 @@
-= Practice/Übung: Raumanalyse Rasterdaten - Wo die Gämsen wohnen
+= Practice/Exercise: Room analysis raster data - Where the chamois live
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/rasterdaten-analyse_gaemsen
@@ -30,10 +30,10 @@ and was then further developed.
   GIS, Raster, Grid, Multi-criteria analysis, Raster algebra, QGIS.
 
 == Ziele und Vorgaben
-Ziel dieser Übung ist,
-mittels multikriterieller GIS-Analyse herauszufinden,
-wo Gämsen potentiell ihren Lebensraum haben.
-Dazu treffen wir folgende Annahmen (Kriterien):
+The aim of this exercise is to use multi-criteria
+GIS analysis to find out where chamois
+potentially have their habitat.
+We make the following assumptions (criteria) for this purpose:
 
 1. Gämsen halten sich vor allem oberhalb 1500 m. ü. M. auf.
    Wir suchen zudem die Gämsen im Frühling;
