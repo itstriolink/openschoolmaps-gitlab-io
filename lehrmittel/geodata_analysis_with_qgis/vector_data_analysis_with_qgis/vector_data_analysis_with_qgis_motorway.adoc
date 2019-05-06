@@ -33,56 +33,50 @@ by http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
 
 == Goals and specifications
 
-Ziel dieser Übung ist es,
-die Beeinträchtigung von Lebensraumtypen Fauna-Flora-Habitat
-(kurz FFH, eine Europäische Gesetzesrichtlinie, siehe
-https://de.wikipedia.org/wiki/Richtlinie_92/43/EWG_(Fauna-Flora-Habitat-Richtlinie)[Wikipedia])
-und gesetzlich geschützten Biotoptypen durch einen Autobahnbau zu bilanzieren.
+The aim of this exercise is to assess the impact of motorway construction
+on habitat types Fauna-Flora-Habitat (FFH for short, a European legislative directive,
+see https://de.wikipedia.org/wiki/Richtlinie_92/43/EWG_(Fauna-Flora-Habitat-Directive)[Wikipedia])
+and legally protected biotope types.
 
-Als Arbeitsdaten stehen Polygon-Vektordaten
-(Layer "`umgebung`" in Geopackage `autobahn_inputs.gpkg`)
-mit den Ergebnissen einer Biotoptypen- und Nutzungskartierung,
-Linien-Vektordaten
-(Layer "`autobahn_zentrallinie`" im Geopackage `autobahn_inputs.gpkg`)
-mit der Zentrallinie einer fiktiven Autobahntrasse
-sowie als Hintergrund die Topographische Karte 1:25‘000 (Tk25) (Datei `heli.tif`)
-zur Verfügung.
+The working data are polygon vector data (layer "`environment`" in geopackage
+`autobahn_inputs.gpkg`) with the results of a biotope type and usage mapping,
+lines vector data (layer "`autobahn_central line`" in geopackage
+`autobahn_inputs`).gpkg`) with the central line of a fictitious motorway
+route and the topographic map 1:25'000 (Tk25) (file `heli.tif`) as background.
 
-In der Sachdatentabelle von "`umgebung`" sind Nutzungstücke (Schläge),
-die einem Lebensraumtyp (sog. ffh_typ_nr) zuzuordnen sind, gekennzeichnet
-(ffh_typ_text).
-Ebenso sind
-besonders geschützte Biotoptypen nach Bundesgesetz (abgekürzt BNatSchG)
-(Feld "`geschuetzt_biotop`")
-und sonstige Typen des artenreichen Grünlands ("`bedeutend_gruenland_typ`")
-gekennzeichnet.
+In the functional data table of "Environment", 
+pieces of usage (impacts) that are to be assigned 
+to a habitat type (ffh_typ_nr) are marked (ffh_typ_text).
+Likewise, specially protected biotope types according to
+federal law (abbreviated to BNatSchG) (field "`geschuetzt_biotop`")
+and other types of species-rich grassland ("`bedeutend_gruenland_typ`")
+are labelled.
 
-Du sollst ermitteln, wie gross
-die aus Sicht des Arten- und Biotopschutz wertvolle Fläche ist,
-die durch den Autobahnbau vollständig zerstört bzw. beeinträchtigt wird.
-Um diese Frage zu beantworten,
-sind mit Hilfe des "`Pufferwerkzeugs`" Beeinträchtigungszonen
-in unterschiedlicher Entfernung von der Zentrallinie zu ermitteln,
-die in weiteren Schritten mit der Biotoptypenkartierung verschnitten werden,
-um beeinträchtigte und nicht beeinträchtige Flächen zu ermitteln.
+You should determine the size of the valuable area from the point of view
+of species and biotope conservation that is completely
+destroyed or impaired by motorway construction.
+To answer this question, you can use the `buffer tool`
+to To identify degradation zones at different distances
+from the central line, which are further intersected 
+with biotope type mapping to identify degraded and unimpaired areas.
 
-Die Ergebnisse könnten zum Schluss in eine Tabelle
-als Flächenbilanz eingetragen werden (optional).
+Finally, the results could be entered in a table 
+as an area balance (optional).
 
 
-.Hilfsmittel
+.Aids
 
-* QGIS (getestet mit QGIS 3.4)
-* Daten:
+* QGIS (tested with QGIS 3.4)
+* Data:
 ** `autobahn_inputs.gpkg`
 ** `heli.tif`
 
 <<<
 
 
-== Aufgaben
+== Tasks
 
-=== Vorbereitung: Anlegen der Projekt-Datei und Laden der Input-Daten
+=== Preparation: Creating the project file and loading the input data
 
 1. Öffne QGIS
    und stelle sicher, dass kein bestehendes Projekt geöffnet ist.
