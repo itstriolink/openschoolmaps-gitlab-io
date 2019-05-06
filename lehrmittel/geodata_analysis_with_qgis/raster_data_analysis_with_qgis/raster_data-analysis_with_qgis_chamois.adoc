@@ -186,41 +186,40 @@ If you want, you can give the classes a meaningful
 
 image::02_perspective_colors.png[]
 
-Wenn du alle Einstellungen gemacht hast,
-gehe auf den Reiter "`Transparenz`" (unterhalb Reiter "`Symbolisierung`").
-Hier setzen wir die globale Transparenz auf z.B. 50%,
-damit man unter der gefärbten Ausrichtungskarte
-noch die Geländeschummerung sieht.
+When you have made all the settings, 
+go to the `Transparency` tab. (below tab "`Symbolisation`").
+Here we set the global transparency to e.g. 50%
+so that you can still see the shading
+under the coloured alignment map.
 
 image::02_perspective_transparenz.png[]
 
-Danach auf btn:[Ok] klicken (das Dialogfenster schliesst).
+Then click on btn:[Ok] (the dialog closes).
 
-Das Resultat sollte nun in etwa wie unten abgebildet aussehen.
-Wenn du andere Farben eingestellt hast, ist das nicht weiter schlimm.
-Hauptsache ist, dass nun die Himmelsrichtungen der Berghänge
-durch verschiedene Farben visualisiert sind.
+The result should look like the one shown below.
+If you've set other colors, it's no big deal.
+The main thing is that the points of the compass
+are now visualized by different colors.
 
 image::02_perspective_final.png[]
 
 == Neigungskarte
-Mit der Funktion "`Neigung`"
-(engl. slope, Menü menu:Raster[Analyse > Neigung])
-wird die Steigung eines als Raster/Grid codierten Geländes dargestellt.
-Für diese Übung wollen wir die Steigung in Prozent statt in Grad ausdrücken
-(vgl. unten).
-Als Eingabedatei wählst du wieder den Layer "`dhm_rimini`"
-und gibst die Ausgabedatei `slope.tif` im Übungsdaten-Ordner an.
-Dann btn:[Starte].
+With the function `slope`" (menu menu:menu:Raster[Analysis > Slope])
+you can display the slope of a terrain coded as raster/grid.
+For this exercise we want to express the gradient
+in percent instead of degrees (see below).
+As input file, select the layer "`dhm_rimini`"again
+and enter the output file `slope.tif` in the exercise data folder.
+Then btn:[Start].
 
 image::03_slope_inked.png[]
 
-Das Resultat sieht etwa wie folgt aus
-(bei "`Kontrastverbesserung`" auf "`Strecken auf MinMax`"):
+The result looks like this 
+(for "Contrast enhancement" on "Stretches on MinMax"):
 
 image::03_slope_bsp.png[]
 
-== Filtern nach den Kriterien
+== Filter by criteria
 Du hast nun die Daten so weit vorbereitet,
 dass wir die Kriterien anwenden können.
 Zur Erinnerung:
@@ -391,26 +390,26 @@ The result of the second criterion should be approximately as follows:
 image::06_slope_20percent_bsp.png[]
 
 === Third criterion (southern slope):
-Im Rasterrechner setzt du als Ausgabelayer `aspect_135_225.tif`,
-wählst den Rasterkanal "`Perspektive@1`"
-und gibst den folgenden Rasterrechnerausdruck ein:
+In the raster calculator set the output layer `aspect_135_225.tif`,
+select the raster channel "Perspektive@1" and
+enter the following raster calculator expression:
 ----
 ("Perspektive@1" >= 135 AND "Perspektive@1" <= 225) * "Perspektive@1"
 ----
 
 image::07_aspect_south.png[]
 
-Dann die Layer-Transparenz setzen.
-Das Ergebnis des dritten Kriteriums
-(Einkanalpseudofarben von "`Perspektive`" kopiert)
-sollte etwa so aussehen:
+Then set the layer transparency.
+The result of the third criterion 
+(single channel pseudocolors copied from "perspective")
+should look something like this:
 
 image::07_aspect_south_bsp.png[]
 
 === Fourth criterion (types of terrain):
-Im Rasterrechner wählst du den Rasterkanal "`as85@1`",
-den Ausgabelayer `as85_sorted.tif`
-und gibst folgenden Rasterrechnerausdruck ein:
+In the raster calculator select the raster channel
+"`as85@1`", the output layer `as85_sorted.tif`
+and enter the following raster expression:
 ----
 ("as85@1" >= 8 AND "as85@1" <= 11) * "as85@1"
 ----
@@ -422,10 +421,10 @@ Below is the result of the fourth criterion
 
 image::08_as_sorted_bsp.png[]
 
-=== Verschnitt:
-Zu guter Letzt berechnen wir die Gämsenstandorte mit einem Verschnitt
-(spatial overlay, intersection) und speichern das unter `gut_fuer_gaemsi.tif`.
-Hier die Lösung für den Rasterrechnerausdruck:
+=== Spatial overlay:
+Last but not least we calculate the chamois locations with a spatial overlay
+(intersection) and save it under `good_for_chamois.tif`.
+Here is the solution for the raster computer printout:
 [source,sql]
 ----
 "dhm_rimini_1500_2500@1" AND "slope_over20perc@1" AND "aspect_135_225@1" AND "as85_sorted@1"
@@ -433,6 +432,6 @@ Hier die Lösung für den Rasterrechnerausdruck:
 
 image::09_gut_fuer_gaemsi.png[]
 
-Das resultierende Ergebnis ist am Ende des vorhergehenden Kapitels dargestellt.
+The resulting result is shown at the end of the previous chapter.
 
 ■
