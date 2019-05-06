@@ -82,12 +82,12 @@ system to the old Swiss coordinate
 reference system EPSG:21781.
 
 == Import
-Um die beiden Inputdateien `as85.txt` und `dhm_rimini.txt` zu laden,
-kannst du diese entweder mit "`Drag & Drop`" ins QGIS hineinziehen,
-oder du öffnest das Menü menu:Layer[Layer hinzufügen].
-Dort wählst du den Eintrag menu:Rasterlayer hinzufügen…[]
-und gibst die entsprechenden Dateien an.
-Wähle als Koordinatenbezugssystem EPSG:21781.
+To load the two input files `as85.txt` and `dhm_rimini.txt`
+you can either drag and drop them into the QGIS or open the 
+menu menu:menu:Layer[Add Layer].
+There select menu:Add Rasterlayer...[]
+and specify the appropriate files.
+Select as coordinate reference system EPSG:21781.
 
 Check that the layer "`dhm_rimini`" is
 visible at the top of the layer manager, 
@@ -136,57 +136,53 @@ Now we come in the next chapter to the first
 evaluation with the partial result "terrain alignment".
 
 == Terrain orientation map
-Die Gelände-Ausrichtungs-Karte zeigt
-die Ausrichtung (engl. aspect) des Geländes in Bezug auf Norden.
-Sie wird mit einem Höhenmodell als Quelle
-über das Menü menu:Raster[Analyse > Perspektive]
-(engl. menu:Raster[Analysis > Aspect...]) erstellt
-(vgl. Abbildung oben).
+The terrain orientation map shows the aspect 
+of the terrain in relation to the north.
+It is created with an elevation model as source
+via menu:Raster[Analysis > Perspective]
+(menu:Raster[Analysis > Aspect...]) (see figure above).
 
-Als Eingabelayer wählst du wieder "`dhm_rimini`".
-Wähle bei "`Perspektive`" (Ausgabedatei) den Übungsdaten-Ordner (`gaemse`)
-und den Dateinamen `aspect.tif`:
-vgl. Abbildung oben.
+As input layer you choose "`dhm_rimini`" again.
+Vote "Perspective". (output file), the exercise
+data folder (`gaemse`) and the file name
+`aspect.tif`: see figure above.
 
-Wenn alles richtig gelaufen ist, solltest du etwa folgendes sehen
-(kann auch abweichen):
+If everything went right, you should see something like this (may vary):
 
 image::02_perspective_bsp.png[]
 
-Diese Darstellung der Gelände-Ausrichtungs-Karte
-wollen wir nun aber noch etwas verbessern.
-Um den Stil eines Layers zu ändern, kannst du per Rechts- oder Doppelklick
-auf den Layernamen und dessen Eigenschaften zugreifen.
+But now we want to improve this representation 
+of the terrain alignment map a little bit.
+To change the style of a layer, right-click or
+double-click on the layer name and its properties.
 
-Wähle in der "`Symbolisierung`"
-im ersten Eintrag "`Kanaldarstellung`" die Darstellungsart "`Einkanalpseudofarbe`".
-(Engl. "`Singleband pseudocolor`")
-Als Kanal bleibt dir nur der "`Kanal 1 (grey)`" zur Auswahl.
-Nun kannst du "`Min`" auf 0 und "`Max`" und auf 360 stellen,
-"`Interpolation`" auf "`Linear`",
-als "`Farbverlauf`" wähle irgendeinen,
-damit die automatische Klassifizierung funktioniert
-(welchen Farbverlauf spielt keine Rolle,
-da wir die Farben manuell zuweisen werden),
-den Modus auf "`Gleiches Intervall`"
-und die Klassen-Anzahl auf 5.
+In the "`Symbolisation`" in the first entry 
+"`Channel display`", select the display type 
+"`Singleband pseudocolor`".
+Only the "`Channel 1 (grey)`" can be selected as the channel.
+Now you can set "`Min`" to 0 and "`Max`" and to 360, 
+"`Interpolation`" to "`Linear`", as "gradient" choose
+any one so that the automatic classification works 
+(which gradient doesn't matter as we will assign 
+the colors manually), set the mode to "Equal Interval"
+and the number of classes to 5.
 
-Eine Ausrichtungskarte beinhaltet als Wert einen Winkel (in Grad °),
-der die Ausrichtung des Geländes repräsentiert.
-Wir wollen den vier Haupt-Himmelsrichtungen (N, O, S, W)
-verschiedene Farben zuweisen.
-Beim Ergebnis der verwendeten Operation entspricht 0° Norden (N).
-Bei Werten nahe 0° liegt also ein Nordhang vor.
-Aber auch Werte nahe 360° repräsentieren Nordhänge.
-Deswegen wurden fünf anstatt nur vier Klassen verwendet.
-Weise daher der ersten und letzten Klasse dieselbe Farbe zu, z.B. blau.
-Der Winkel im Ergebnis ist im Uhrzeigersinn zu verstehen, 90° ist also Osten.
-Weise den restlichen drei Klassen
-unterschiedliche, gut unterscheidbare Farben zu,
-z.B. rot, gelb, grün.
+An orientation map contains as value an angle (in degrees °),
+which represents the orientation of the terrain.
+We want to assign different colors to the
+four main directions (N, O, S, W).
+The result of the operation used corresponds to 0° north (N).
+Values close to 0° therefore indicate a north slope.
+But also values close to 360° represent northern slopes.
+Therefore, five instead of only four classes were used.
+Therefore assign the same color to the first and last class, e.g. blue.
+The angle in the result is to be understood clockwise, i.e. 90° is East.
+Assign different, easily distinguishable colors
+to the remaining three classes,
+e.g. red, yellow, green.
 
-Wenn du willst, kannst du den Klassen eine sinnvolle "`Beschriftung`" geben,
-z.B. N, O, S, W (und nochmals N).
+If you want, you can give the classes a meaningful
+"label", e.g. N, O, S, W (and again N).
 
 image::02_perspective_colors.png[]
 
