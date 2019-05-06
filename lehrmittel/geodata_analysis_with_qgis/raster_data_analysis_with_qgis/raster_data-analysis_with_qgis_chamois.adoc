@@ -373,31 +373,31 @@ um die resultierenden Polygone dann mit weiteren Daten verknüpfen zu können.
 
 <<<
 
-== Detaillierte Anleitung
-Dieses Kapitel ist eine Ergänzung zum vorhergehenden Kapitel,
-bei dem nur das erste Kriterium detailliert erläutert wurde.
+== Detailed instructions
+This chapter is a supplement to the previous chapter,
+where only the first criterion was explained in detail.
 
-Um die drei weiteren Kriterien zu berechnen,
-gehen wir gleich vor wie beim ersten Kriterium.
-D.h. wir wenden zuerst den Rasterrechner an
-und setzen dann die Transparenz der nicht benötigten Werte auf "`durchsichtig`".
+To calculate the other three criteria, 
+we proceed in the same way as for the first criterion.
+I.e. we first use the raster calculator and then 
+set the transparency of the unneeded values to "transparent".
 
-=== Zweites Kriterium (Gebiete, die steiler als 20% sind):
-Öffne den Rasterrechner, wähle den Rasterkanal "`Neigung@1`"
-und gib den folgenden Rasterrechnerausdruck ein:
+=== Second criterion (areas steeper than 20%):
+Open the raster calculator, select the raster channel "`Neigung@1`"
+and enter the following raster expression:
 ----
 ("Neigung@1" > 20) * "Neigung@1"
 ----
 
 image::06_slope_20percent.png[]
 
-Dann beim Layer die Transparenz einstellen.
+Then set the transparency of the layer.
 
-Das Ergebnis des zweiten Kriteriums sollte ungefähr wie folgt aussehen:
+The result of the second criterion should be approximately as follows:
 
 image::06_slope_20percent_bsp.png[]
 
-=== Drittes Kriterium (Südhang):
+=== Third criterion (southern slope):
 Im Rasterrechner setzt du als Ausgabelayer `aspect_135_225.tif`,
 wählst den Rasterkanal "`Perspektive@1`"
 und gibst den folgenden Rasterrechnerausdruck ein:
@@ -414,7 +414,7 @@ sollte etwa so aussehen:
 
 image::07_aspect_south_bsp.png[]
 
-=== Viertes Kriterium (Geländearten):
+=== Fourth criterion (types of terrain):
 Im Rasterrechner wählst du den Rasterkanal "`as85@1`",
 den Ausgabelayer `as85_sorted.tif`
 und gibst folgenden Rasterrechnerausdruck ein:
@@ -424,8 +424,8 @@ und gibst folgenden Rasterrechnerausdruck ein:
 
 image::08_as_sorted.png[]
 
-Nachfolgend ist das Ergebnis des vierten Kriteriums dargestellt
-(Paletten-Farben und ebenfalls mit Transparenz):
+Below is the result of the fourth criterion 
+(palette colors and also with transparency):
 
 image::08_as_sorted_bsp.png[]
 
