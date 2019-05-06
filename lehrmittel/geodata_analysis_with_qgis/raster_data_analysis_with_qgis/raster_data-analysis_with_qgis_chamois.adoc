@@ -204,7 +204,7 @@ are now visualized by different colors.
 image::02_perspective_final.png[]
 
 == Neigungskarte
-With the function `slope`" (menu menu:menu:Raster[Analysis > Slope])
+With the function "`slope`" (menu menu:menu:Raster[Analysis > Slope])
 you can display the slope of a terrain coded as raster/grid.
 For this exercise we want to express the gradient
 in percent instead of degrees (see below).
@@ -220,58 +220,51 @@ The result looks like this
 image::03_slope_bsp.png[]
 
 == Filter by criteria
-Du hast nun die Daten so weit vorbereitet,
-dass wir die Kriterien anwenden können.
-Zur Erinnerung:
-Wir suchen diejenigen Gebiete, die folgende Kriterien erfüllen:
+You have now prepared the data so that we can apply the criteria.
+Just a reminder:
+We are looking for those areas that meet the following criteria:
 
-1. Gebiete, die höher als 1500 m. ü. M und tiefer als 2500 m. ü. M. liegen.
-2. Gebiete, die steiler als 20% sind.
-3. Südhang-Gebiete,
-   d.h. Gebiete, die eine Ausrichtung von Südost bis Südwest haben.
-4. Gebiete, welche die Nutzung
-   Wies- und Ackerland, Heimweiden, Maiensässe, Heualpen, Bergwiesen, Alpweiden
-   aufweisen.
+1. Areas higher than 1500 m above sea level and lower than 2500 m above sea level.
+2. Areas steeper than 20%.
+3. South slope areas, i.e. areas with a south-east to south-west orientation.
+4. Areas with the use of meadow and arable land, 
+   home pastures, Maiensässe, hay alps, 
+   mountain pastures, alpine pastures.
 
-Um diese Anforderungen zu erfüllen,
-errechnen wir nun vier weitere Layer aus den vorbereiteten Daten.
-Ein Verschnitt daraus wird uns aufzeigen, wo sich Gämse aufhalten könnten.
-Der Verschnitt und die Filterung erfolgt
-mit der "`Rasteralgebra`" und in QGIS mit dem Rasterrechner.
+In order to meet these requirements, we now 
+calculate four additional layers from the prepared data.
+A blend of these will show us where chamois could be.
+Cutting and filtering is done with the "raster algebra" and in QGIS with the raster computer.
 
-Beginnen wir mit dem ersten Kriterium:
-Die Höhen des Geländes sind im Layer "`dhm_rimini`" gespeichert.
-Damit werden wir nun einen neuen Layer berechnen,
-der nur noch diejenigen Rasterzellen beinhaltet,
-die zwischen 1500 und 2500 m. ü. M. liegen.
-Dafür müssen Sie nun den Rasterrechner über das Menü menu:Raster[] öffnen.
+Let's start with the first criterion:
+The heights of the terrain are stored in the layer "`dhm_rimini`".
+Now we will calculate a new layer which contains only 
+those grid cells which are between 1500 and 2500 m above sea level.
+For this you have to open the grid calculator via menu:Grid[].
 
 image::04_rasterrechner_menu.png[]
 
-Im Rasterrechner musst du wieder rechts oben den Ausgabelayer angeben.
-Wähle den Übungsdaten-Ordner
-und nenne die Ausgabedatei `dhm_rimini_1500_2500.tif`.
+In the grid calculator you have to enter the output layer in the upper right corner.
+Select the exercise data folder and name the output file `dhm_rimini_1500_2500.tif`.
 
 image::05_dhm_rastercalc.png[]
 
-Links im Dialog sind die verfügbaren Layer
-mit ihren "`Rasterkanälen`" (hier immer "`@1`") aufgelistet.
-Für diese erste Berechnung wählen wir "`dhm_rimini@1`".
-Per Doppelklick darauf
-kann dieser in Anführungszeichen dem Rasterrechnerausdruck hinzugefügt werden.
-Der Ausdruck ist aber noch nicht bereit.
-Wir möchten noch nach Werten zwischen 1500 und 2500 filtern.
-Dazu wählen wir die Operatoren "`grösser-gleich`"/"`kleiner-gleich`"
-(`>=` und `\<=`), die wir mit `AND` verknüpfen und einklammern.
-Damit bekommen diejenigen Werte, die dazwischen liegen eine 1.
-Doch von diesen möchten wir eigentlich den Originalwert behalten.
-Dazu multiplizieren wir den eingeklammerten Ausdruck
-mit dem ursprünglichen Wert selbst
-(das ist raffiniert ☺, denn der geklammerte boolesche Ausdruck
-wird offenbar als Zahl 1/0 interpretiert anstelle von wahr/falsch).
-Man kann den Ausdruck entweder direkt eintippen oder
-mit Klick auf die Operator-Buttons im Bereich "`Operatoren`" zusammenstellen.
-Mit btn:[OK] den Rasterrechner starten.
+On the left side of the dialog are the available layers 
+with their "raster channels". (here always "`@1`").
+For this first calculation we choose "`dhm_rimini@1`".
+Double-click it to add it to the grid computer printout in quotation marks.
+But the expression is not ready yet.
+We would like to filter by values between 1500 and 2500.
+For this we select the operators "`larger-equal`"/"`smaller-equal`" 
+(`>=` and `\<=`), which we associate with `AND` and bracket.
+Thus those values which lie in between get a 1.
+But from these we would like to keep the original value.
+We multiply the bracketed expression by the original value itself 
+(this is ingenious ☺, because the bracketed Boolean expression
+is obviously interpreted as number 1/0 instead of true/false).
+You can either type the expression directly or compile
+it by clicking on the operator buttons in the "Operators" area.
+Start the grid computer with btn:[OK].
 
 image::05_dhm_rastercalc_bsp.png[]
 
@@ -292,14 +285,13 @@ Danach klickst du auf btn:[Anwenden].
 
 image::05_dhm_rastercalc_bsp_transparenz.png[]
 
-Schalte nun im Layer-Manager die Sichtbarkeit des Layers "`Neigung`" aus. +
-Das Ergebnis ist nun so gefiltert, dass man die anderen Layer darunter sieht:
+Now switch off the visibility of the layer `Inclination` in the Layer Manager. +
+The result is now filtered so that you can see the other layers below:
 
 image::05_dhm_rastercalc_bsp_transparenz_bsp.png[]
 
-Die gleichen Schritte
-- zuerst Rasterrechner dann Transparenz –
-wendest du nun für alle weiteren drei Kriterien an, wie folgt:
+The same steps - first grid calculator then transparency
+- you apply now for all further three criteria, as follows:
 
 Für das zweite Kriterium gehst du vom Layer bzw. Kanal "`Neigung@01`" aus
 und speicherst das Resultat im Übungsdaten-Ordner
@@ -347,21 +339,21 @@ und speichere es wieder in den Übungsdaten-Ordner.
 Auch hier solltest du die benutzerdefinierte Transparenz
 auf 100 Prozent für die Werte von 0 bis 0 setzen.
 
-Wenn du willst, kannst du auch dieses Ergebnis
-mit einer Einkanalpseudofarbe oder Palette einfärben:
+If you want, you can also color this result with
+a single channel pseudocolor or palette:
 
 image::09_gut_fuer_gaemsi_bsp.png[]
 
-Nun wissen wir wo die Gämsen mutmasslich "`wohnen`"!
-Dies zumindest gemäss unseren Daten und Annahmen.
+Now we know where the chamois presumably "live"!
+At least according to our data and assumptions.
 
-Für diese Übung sind nun soweit zufrieden.
-Es gäbe aber noch einige Verbesserungsmöglichkeiten,
-einerseits für die bessere Lesbarkeit
-(z.B. mit wichtigen Orten, Strassen und Berggipfel)
-und andererseits mit verbesserten Analysen
-wo man beispielsweise die Rasterzellen in Vektoren umwandeln könnte,
-um die resultierenden Polygone dann mit weiteren Daten verknüpfen zu können.
+For this exercise are now so far satisfied.
+But there are still some possibilities for improvement,
+on the one hand for better readability 
+(e.g. with important places, roads and mountain peaks)
+and on the other hand with improved analyses where
+for example the raster cells could be converted 
+into vectors to link the resulting polygons with further data.
 
 <<<
 
