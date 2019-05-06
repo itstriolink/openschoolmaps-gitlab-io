@@ -62,26 +62,25 @@ Nachdem die Vorgaben geklärt sind,
 können wir mit der Analyse der potentiellen Gämse-Lebensräume beginnen.
 Dies ist der Ablaufplan:
 
-* Zuerst werden das Höhenmodell und die Arealstatistik ins QGIS geladen.
-* Mit dem Höhenmodell
-  wird vorab als reiner Hintergrund eine Geländeschummerungs-Karte erzeugt.
-* Mit dem Höhenmodell
-  werden dann eine Neigungskarte und eine Geländeausrichtungskarte
-  als Zwischenergebnisse berechnet und gespeichert.
-* Dann werden Teilergebnisse berechnet und gespeichert
-  gemäss den vier Kriterien:
-** Ausgehend vom Höhenmodell werden die entsprechenden Höhen-Gebiete gefiltert.
-** Ausgehend von der Neigungskarte werden die steilen Hänge gefiltert.
-** Ausgehend von der Ausrichtungskarte werden die Südhänge gefiltert.
-** Ausgehend von der Arealstatistik werden die Alpweiden gefiltert.
-* Zum Schluss werden die letzten vier Zwischenergebnisse
-  miteinander verschnitten (spatial overlay, intersection)
-  und das Ergebnis visualisiert.
+* First the elevation model and the area statistics are loaded into QGIS.
+* With the elevation model, a terrain shading 
+  map is created in advance as a pure background.
+* With the elevation model, an inclination map and a terrain 
+  alignment map are calculated and saved as intermediate results.
+* Then partial results are calculated and saved
+  according to the four criteria:
+** Starting from the elevation model, the corresponding
+   elevation areas are filtered.
+** The steep slopes are filtered on the basis of the slope map.
+** Starting from the orientation map, the southern slopes are filtered.
+** Based on the area statistics, the alpine pastures are filtered.
+* Finally, the last four intermediate results are intersected
+  (spatial overlay, intersection) and the result is visualized.
 
-Starte nun QGIS
-- oder öffnen ein neues QGIS-Projekt -
-und stelle das Koordinatenbezugssystem des Projekts unten rechts
-auf das alte schweizerische Koordinatenbezugssystem EPSG:21781 um.
+Now start QGIS - or open a new QGIS project -
+and change the project's coordinate reference
+system to the old Swiss coordinate
+reference system EPSG:21781.
 
 == Import
 Um die beiden Inputdateien `as85.txt` und `dhm_rimini.txt` zu laden,
