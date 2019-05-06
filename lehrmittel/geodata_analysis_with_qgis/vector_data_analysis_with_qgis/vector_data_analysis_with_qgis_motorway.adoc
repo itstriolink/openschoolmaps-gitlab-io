@@ -430,62 +430,57 @@ um die Quadratmeter in Aren umzurechnen.
 Das Resultat wird letztlich auf 1 signifikante Stelle nach dem Komma gerundet.
 Ausdruck: round($area / 100, 1)
 
-9. Setze "`area`" als "`Ausgabefeldnamen`"
-und wähle den "`Ausgabefeldtypen`" "`Dezimalzahl (real)`".
-Bestätige mit btn:[OK] und überprüfe,
-ob eine Spalte mit Namen "`area`" angelegt wurde.
+9. Set "`area`" as "`output field names`" and select
+the "`output field types`" "`decimal number (real)`".
+Confirm with btn:[OK] and check if a column
+with the name "`area`" has been created.
 
-10. Nun finden sich in der Spalte "`area`"
-die exakten Flächen der jeweiligen Polygone in Aren auf.
+10. Now in the column "`area`" you can find the
+exact areas of the polygons in ares.
 
-11. Speichere die neue Spalte, in dem du
-den Bearbeitungsmodus für den Layer intersect_wertvoll ausschaltest.
-
-
-=== Aufgabe 8: Vektordateien klassifizieren und Karten erstellen
-
-Anschliessend sollst du deine neu erstellten Geometrien
-als aussagekräftige Karten darstellen.
-Du sollst die wertvollen Biotoptypen
-in den Beeinträchtigungszonen oder die Konfliktzonen als Karte darstellen.
-
-1. Klassifiziere Layer intersect_wertvoll nach Attribut ffh_typ_text (auf btn:[Klassifizieren] klicken).
-2. Lösche den leeren Wert.
-3. Der Layer stellt jetzt alle Flächen innerhalb der Beeinträchtigungszonen dar,
-   auf denen sich FFH-relevante Biotoptypen befinden.
-4. Filtere Layer intersect_wertvoll mit Hilfe des Abfrageeditors
-   mit der Abfrage ffh_typ_nr = 0.
-5. Speichere die Auswahl über "Layer > Speichern unter…"
-   unter dem Layer-Namen "`intersect_wertvoll_ohne_ffh`"
-   in `autobahn_analyse.gpkg`
-6. Lade den neuen Layer und klassifiziere ihn nach bfn_biotop_text
-7. Lösche den leeren Wert
-   und du erhältst drei Klassen der wertvollen Nicht-FFH-Biotope.
-8. Lade die beiliegende Rasterdatei `heli.tif`
-   und verschiebe diese anschliessend im Inhaltsverzeichnis nach ganz unten.
-   Anschliessend justiere die globale Transparenz
-   in den Layereigenschaften von `heli.tif` soweit,
-   dass der Raster-Layer als schwach sichtbarer Hintergrund dienen kann.
-9. Nun kannst du eine Karte erstellen, welche
-   die durch den Autobahnbau beeinträchtigten wertvollen Biotoptypen darstellt
-   und dabei zusätzlich die ffh_typ_nr besonders hervorhebt.
-10. Erstelle ein Kartenlayout und exportiere es als PDF.
-    (Aktiviere vorher unter Allgemein: "`als Raster drucken`")
-11. Ein Beispiel für eine mögliche Kartendarstellung
-    siehst du auf der folgenden Seite.
-    Du musst jedoch kein Layout mit zwei Karten erstellen.
-    Es reicht, wenn du dich für eine inhaltliche Aussage entscheidest
-    und diese in einem sinnvollen Kartenlayout visualisierst.
+11. Save the new column by deactivating the edit
+mode for the intersect_value layer.
 
 
-=== Abschluss
+=== Task 8: Classify vector files and create maps
 
-Folgende Dateien müssen nun vorhanden sein:
+Afterwards you should present your newly created
+geometries as meaningful maps.
+You should present the valuable biotope
+types in the impairment zones or the conflict zones as a map.
 
-* Die einfache Biotoptypenkarte.
-* Ein fertiges Kartenlayout im PDF-Format, welches entweder
-  die wertvollen Biotoptypen im Beeinträchtigungsbereich
-  oder die Konfliktzonen aus Sicht des Biotop- und Artenschutzes darstellt.
+1. Classify Layer intersect_valueful by attribute ffh_typ_text (click on btn:[Classify]).
+2. Delete the empty value.
+3. The layer now displays all areas within the affected 
+   zones where FFH-relevant biotope types are located.
+4. Filter Layer intersect_valueful with the help of 
+   the query editor with the query ffh_typ_nr = 0.
+5. Save the selection via "Layer > Save as..."
+   under the layer name "`intersect_valueful_without_ffh`"
+   in `autobahn_analyse.gpkg`.
+6. Load the new layer and classify it by bfn_biotop_text
+7. Delete the empty value and you get three classes of valuable non-FFFH biotopes.
+8. Load the enclosed raster file `heli.tif` and move it to the bottom of the table
+   of contents. Then adjust the global transparency in the layer properties of
+   `heli.tif` so that the raster layer can serve as a weakly visible background.
+9. Now you can create a map which shows the valuable biotope types affected by
+   the motorway construction and additionally highlights the ffh_typ_nr.
+10. Create a map layout and export it as PDF. 
+    (Activate before under General: "`Print as Raster`")
+11. You can see an example of a possible map display on the following page.
+    But you don't have to create a layout with two cards.
+    It is enough if you decide on a content statement and visualize
+    it in a meaningful map layout.
+
+
+=== Closure
+
+The following files must now be present:
+
+* The simple biotope type map.
+* A finished map layout in PDF format, which represents either
+  the valuable biotope types in the area of impairment or the
+  conflict zones from the point of view of biotope and species protection.
 
 [[endergebnis-image]]
 .Darstellung des des Analyse-Ergebnisses in einem Beispiel-Layout.
