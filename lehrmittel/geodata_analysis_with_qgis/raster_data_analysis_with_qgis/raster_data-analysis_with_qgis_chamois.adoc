@@ -268,20 +268,18 @@ Start the grid computer with btn:[OK].
 
 image::05_dhm_rastercalc_bsp.png[]
 
-Wir können nun überprüfen,
-ob alle gewünschten Punkte ihren Wert beibehalten haben,
-indem wir durch Klicken auf "`Objekte abfragen`" (das "`i`"-Icon)
-und mit der Maus ins Fenster klicken:
-Bei schwarzen Rasterzellenn (Pixel) wird der Wert 0 angezeigt
-und bei grauen ein Wert zwischen 1500 m. ü. M. und 2500 m. ü. M..
+We can now check whether all the desired points have retained
+their value by clicking on `query objects`
+(the "`i`"-icon) and click with the mouse into the window:
+For black raster cells (pixels) the value 0 is displayed and
+for grey cells a value between 1500 m. a.s.l. and 2500 m. a.s.l. is displayed.
 
-Um die 0-Werte auch aus der Ansicht herauszufiltern,
-können wir ihnen noch eine Transparenz zuordnen.
-In den Layer-Eigenschaften > "`Transparenz`"
-und "`Benutzerdefinierte Transparenzeinstellung`" klickst du dazu auf btn:[+]
-und setzt die beiden Werte "`Von`" und "`Nach`" auf 0
-sowie "`Prozent Transparenz`" auf 100 Prozent.
-Danach klickst du auf btn:[Anwenden].
+In order to filter out the 0 values from the view,
+we can assign them a transparency.
+In the Layer Properties > "`Transparency`" and 
+"`User defined transparency setting`" click on
+btn:[+] and set both values "`From`" and "`To`" to 0.
+Then click on btn:[Apply].
 
 image::05_dhm_rastercalc_bsp_transparenz.png[]
 
@@ -293,51 +291,47 @@ image::05_dhm_rastercalc_bsp_transparenz_bsp.png[]
 The same steps - first grid calculator then transparency
 - you apply now for all further three criteria, as follows:
 
-Für das zweite Kriterium gehst du vom Layer bzw. Kanal "`Neigung@01`" aus
-und speicherst das Resultat im Übungsdaten-Ordner
-unter dem Namen `slope_over20perc.tif`
-(btn:[Ok] ist noch nicht aktiviert).
-Selektiere mit dem Rasterrechner in diesem Falle alle Rasterzellen,
-die steiler als 20% sind.
-Dann btn:[Ok].
+For the second criterion you start from the layer or
+channel "`Inclination@01`"and save the result in
+the exercise data folder under the name 
+`slope_over20perc.tif` (btn:[Ok] is not yet activated).
+In this case, use the raster calculator to select all
+raster cells that are steeper than 20%.
+Then btn:[Ok].
 
-Für das dritte Kriterium verwendest du den Layer "`Perspektive`" (`aspect.tif`)
-und filterst alle Rasterzellen heraus,
-welche zwischen den 135 und 225 Grad liegen (d.h. 180 Grad plus/minus 45 Grad).
-Damit erhältst du alle nach Süden gerichteten Hänge
-(zur Erinnerung Norden ist 0°).
-Speichere das Resultat im Übungsdaten-Ordner
-unter dem Namen `aspect_135_225.tif`.
-Dann btn:[Ok].
+For the third criterion you use the layer "Perspective"
+(`aspect.tif`) and filters out all grid cells that lie
+between 135 and 225 degrees(i.e. 180 degrees plus/minus 45 degrees).
+This will give you all slopes facing south (north is 0° as a reminder).
+Save the result in the exercise data folder under the name `aspect_135_225.tif`.
+Then btn:[Ok].
 
-Für das vierte und letzte Kriterium nehmen wir den Layer "`as85`".
-In diesem sind die verschiedenen Geländearten als Code (Ganzzahl) abgespeichert.
-Uns interessieren nur alle jene Gebiete,
-welche die folgenden Nutzungen aufweisen:
-Wies- und Ackerland, Heimweiden, Maiensässe,
-Heualpen, Bergwiesen, Alp- und Juraweiden.
-Diese entsprechen den Codes 8, 9, 10 und 11.
-Filtere den Layer "`as85`" daher nach diesen Codes.
-Speichere das Resultat
-im Übungsdaten-Ordner unter dem Dateinamen `as85_sorted.tif`.
+For the fourth and last criterion we take the layer "`as85`".
+The different types of terrain are stored in this as a code (integer).
+We are only interested in those areas which have the following uses:
+Meadow and farmland, home pastures, Maiensässe, 
+hay alps, mountain meadows, alpine and Jura pastures.
+These correspond to codes 8, 9, 10 and 11.
+Filter the layer "`as85`" according to these codes.
+Save the result in the exercise data folder 
+under the file name `as85_sorted.tif`.
 
-Denke daran, für jeden Layer die benutzerdefinierte Transparenz
-auf 100 Prozent für die Werte von 0 bis 0 zu setzen (vgl. Layer-Eigenschaften).
+Remember to set the custom transparency for each layer to 
+100 percent for the values from 0 to 0 (see Layer Properties).
 
-Probiere dies für alle Schritte aus.
-Solltest du nicht weiterkommen,
-so ist im nächsten Kapitel
-jeder Schritt noch mit Lösung und Screenshots beschrieben.
+Try this for all steps.
+If you don't get anywhere, the next 
+chapter describes each step with a solution and screenshots.
 
-Nun hast du alle nötigen Vorberechnungen gemacht.
-Nun musst du noch die vier Layer verschneiden (engl. overlay/intersection).
-Dazu verwendest du wieder den Rasterrechner und kombinieren die vier Layer
-"`dhm_rimini_1500_2500`", "`slope_over20perc`", "`aspect_135_225`" und "`as85_sorted`"
-mit dem logischen UND-Operator.
-Nenne das Resultat `gut_fuer_gaemsi.tif`
-und speichere es wieder in den Übungsdaten-Ordner.
-Auch hier solltest du die benutzerdefinierte Transparenz
-auf 100 Prozent für die Werte von 0 bis 0 setzen.
+Now you've made all the necessary calculations.
+Now you have to overlay/intersect the four layers.
+You use the raster calculator again and combine the four layers
+"`dhm_rimini_1500_2500`", "`slope_over20perc`",
+"`aspect_135_225`" and "`as85_sorted`" with the logical AND operator.
+Name the result `good_for_gaemsi.tif` and 
+save it again in the exercise data folder.
+Again, you should set the custom transparency 
+to 100 percent for the values from 0 to 0.
 
 If you want, you can also color this result with
 a single channel pseudocolor or palette:
