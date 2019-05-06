@@ -1,4 +1,4 @@
-= Practice/Übung: Raumanalyse Vektordaten - Autobahn
+= Practice/exercise: spatial analysis vector data - motorway
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/vektordaten-analyse_autobahn
@@ -6,34 +6,32 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-Folgen-Abschätzung eines Autobahn-Baus mit QGIS 3
+Impact assessment of a motorway construction with QGIS 3
 
 .Kartendarstellung des Analyse-Ergebnisses. Siehe auch <<endergebnis-image>>
 image::11_endergebnis_ausschnitt.png[pdfwidth=100%]
 
 
-== Allgemeines
+== General information
 
-Die Einschätzungen von Beeinträchtigungen rechtlich geschützter Biotoptypen
-durch Verkehrsbauwerke sind eine typische Aufgabe der Landschaftsplanung.
-Die Aufgabe orientiert sich am Bau der A44
-durch die deutsche Lichtenauer Hochfläche,
-ohne die Originaldaten zu nutzen.
+The assessment of impairments of legally protected biotope types 
+by traffic structures is a typical task of landscape planning.
+The task is based on the construction of the A44 through 
+the German Lichtenau plateau without using the original data.
 
-.Inhalte
+.Contents
 
-* Wirkungen eines Autobahnabschnitts auf Lebensraumtypen
-* Einstieg in die Geodatenverarbeitung
-* Arbeiten mit Puffer und Schnittmengen
+* Effects of a motorway section on habitat types
+* Access to geodata processing
+* Working with buffers and intersections
 
-.Quellenangabe
-Diese Aufgabenstellung basiert v.a.
-auf http://www.gkg-kassel.de/pdf/aufgabe_6.pdf[Aufgabe 6]
-des Kurses "`Einführung in GIS und digitale Kartographie`"
-von http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
+.Reference
+This task is mainly based on http://www.gkg-kassel.de/pdf/aufgabe_6.pdf[Task 6] 
+of the course "`Introduction into GIS and digital cartography`" 
+by http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
 
 
-== Ziele und Vorgaben
+== Goals and specifications
 
 Ziel dieser Übung ist es,
 die Beeinträchtigung von Lebensraumtypen Fauna-Flora-Habitat
