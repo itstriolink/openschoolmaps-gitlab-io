@@ -51,7 +51,7 @@ can be found here http://giswiki.hsr.ch/Grid ):
   ArcInfo ASCII grid format, file
   `dhm_rimini.txt`.
   (Elevation model: Digital Height Model, DHM)
-* Statistical data "`real statistics 85`"
+* Statistical data "`area statistics 85`"
   (originally from BfS) in ArcInfo ASCII
   grid format, file `as85.txt`.
   Contains soil cover species such as wad, meadows and pastures.
@@ -101,42 +101,41 @@ Now you should see what is shown below.
 image::00_geladen.png[]
 
 == Terrain shading map
-Dieser Schritt ist noch nicht Teil der Auswertung
-sondern dient vielmehr der Visualisierung und der Orientierung auf der Karte.
-Über das Menü menu:Raster[] können die Rasterlayer in QGIS
-bearbeitet und verändert werden.
-Hierbei werden meistens neue Layer erzeugt und im QGIS-Projekt angezeigt.
+This step is not yet part of the evaluation but rather
+serves for visualization and orientation on the map.
+The menu menu:Raster[] allows you to edit
+and change the raster layers in QGIS.
+New layers are usually created and displayed in the QGIS project.
 
 image::01_menu.png[]
 
-Um eine Gelände-Schummerungs-Karte aus einem Höhenmodell erzeugen zu können,
-wählst du Menu menu:Raster[Analyse > Schummerung]
-(siehe Abbildung unten).
+To create a terrain shading map from an elevation model,
+select menu menu:Raster[Analysis > Shading] (see figure below).
 
 image:01_schummerungskarte.png[pdfwidth=48%] image:01_schummerung_protokoll.png[pdfwidth=48%]
 
-Als Eingabedatei wählst du den Layer "`dhm_rimini`".
-Klicke bei "`Schummerung`" (Ausgabedatei) rechts auf btn:[…],
-eröffnest du einen neuen Übungsdaten-Ordner z.B. `gaemse`
-und gib den Namen `gelaende.tif` an
-(die Endung tif steht für TIFF bzw. GeoTIFF).
+As input file you choose the layer "`dhm_rimini`".
+Click on "shading" (output file) right on btn:[...],
+you open a new exercise data folder e.g. `chamois`
+and enter the name `terrain.tif`
+(the extension tif stands for TIFF or GeoTIFF).
 
-Nach einem Klick auf btn:[Starte] wechselt das Dialog-Fenster automatisch
-auf den Reiter (Tab, Registerkarte) mit dem Ausführungs-Protokoll.
-Das Fenster "`Schummerung`" mit dem Protokoll kannst du danach schliessen.
-Danach solltest du etwa folgendes Ergebnis mit der Geländeschummerung erhalten:
+After a click on btn:[Start] the dialog window automatically
+changes to the tab with the execution protocol.
+You can then close the "Shading" window with the protocol.
+After that you should get about the following result with the terrain shading:
 
 image::01_schummerungskarte_bsp.png[]
 
-Speichere an dieser Stelle auch das ganze QGIS-Projekt
-in den Ordner z.B. `gaemse` mit dem Namen `gaemse.qgz`.
+At this point also save the whole QGIS project in
+the folder `chamois` with the name `chamois.qgz`.
 
 image::02_perspective.png[]
 
-Nun kommen wir im nächsten Kapitel
-zur ersten Auswertung mit dem Teilresultat "`Gelände-Ausrichtung`".
+Now we come in the next chapter to the first
+evaluation with the partial result "terrain alignment".
 
-== Gelände-Ausrichtungs-Karte
+== Terrain orientation map
 Die Gelände-Ausrichtungs-Karte zeigt
 die Ausrichtung (engl. aspect) des Geländes in Bezug auf Norden.
 Sie wird mit einem Höhenmodell als Quelle
