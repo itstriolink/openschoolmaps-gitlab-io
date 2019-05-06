@@ -29,38 +29,37 @@ and was then further developed.
 * Tags:
   GIS, Raster, Grid, Multi-criteria analysis, Raster algebra, QGIS.
 
-== Ziele und Vorgaben
-The aim of this exercise is to use multi-criteria
+== Goals and specifications
+The goal of this exercise is to use multi-criteria
 GIS analysis to find out where chamois
 potentially have their habitat.
 We make the following assumptions (criteria) for this purpose:
 
-1. Gämsen halten sich vor allem oberhalb 1500 m. ü. M. auf.
-   Wir suchen zudem die Gämsen im Frühling;
-   d.h. es liegt noch viel Schnee ab 2500 m.
-2. Gämsen sind vor allem in steilen Hängen (Neigung >20%) zu finden.
-3. Gämsen bevorzugen warme, früh ausgeaperte Hänge, d.h. Südhänge.
-4. Gämsen nutzen Alpweiden, denn im Frühling ist noch kein Vieh auf der Alp.
+1. Chamois stay above 1500 m above sea level.
+   We are also looking for chamois in spring, 
+   i.e. there is still a lot of snow starting at 2500 m.
+2. Chamois are mainly found on steep slopes (slope >20%).
+3. Chamois prefer warm, early leveled slopes, i.e. southern slopes.
+4. Chamois use alpine pastures, because in spring there are no cattle on the alp.
 
-Für die Analyse stehen folgende zwei Raster-/Grid-Datensätze zur Verfügung
-(weitere Informationen zum ASCII-Grid-Format
-gibt es hier http://giswiki.hsr.ch/Grid ):
+The following two grid/grid data sets are available for
+the analysis (further information on the ASCII grid format
+can be found here http://giswiki.hsr.ch/Grid ):
 
-* Höhenmodell "`DHM-Rimini`"
-  (ursprünglich von Swisstopo)
-  im ArcInfo-ASCII-Grid-Format,
-  Datei `dhm_rimini.txt`.
-  (Höhenmodell: engl. Digital Height Model, DHM)
-* Statistikdaten "`Arealstatistik 85`"
-  (ursprünglich vom BfS)
-  im ArcInfo-ASCII-Grid-Format,
-  Datei `as85.txt`.
-  Enthält Bodenbedeckungs-Arten wie z.B. Wad, Wiesen und Weiden.
+* Elevation model "`DHM-Rimini`" 
+  (originally from Swisstopo) in
+  ArcInfo ASCII grid format, file
+  `dhm_rimini.txt`.
+  (Elevation model: Digital Height Model, DHM)
+* Statistical data "`real statistics 85`"
+  (originally from BfS) in ArcInfo ASCII
+  grid format, file `as85.txt`.
+  Contains soil cover species such as wad, meadows and pastures.
 
-== Vorbereitungen
-Nachdem die Vorgaben geklärt sind,
-können wir mit der Analyse der potentiellen Gämse-Lebensräume beginnen.
-Dies ist der Ablaufplan:
+== Preparations
+After the specifications have been clarified, 
+we can begin with the analysis of the potential chamois habitats.
+This is the schedule:
 
 * First the elevation model and the area statistics are loaded into QGIS.
 * With the elevation model, a terrain shading 
@@ -90,18 +89,18 @@ Dort wählst du den Eintrag menu:Rasterlayer hinzufügen…[]
 und gibst die entsprechenden Dateien an.
 Wähle als Koordinatenbezugssystem EPSG:21781.
 
-Kontrolliere,
-dass im Layer-Manager der Layer "`dhm_rimini`" oben und damit sichtbar ist,
-sonst einfach den Layer im Layer-Manager hochziehen.
-Falls der Layer schwarz dargestellt wird, kannst du das anpassen, in dem du
-zu Layer-Eigenschaften gehst und bei "`Kontrastverbesserung`"
-von "`Zuschneiden auf MinMax`" auf "`Strecken auf MinMax`" wechselst
-(es gibt einige weitere Darstellungsoptionen).
-Nun solltest du etwa das sehen, was nachfolgend dargestellt ist.
+Check that the layer "`dhm_rimini`" is
+visible at the top of the layer manager, 
+otherwise simply pull up the layer in the layer manager.
+If the layer is black, you can customize it by going
+to Layer Properties and changing "Contrast Enhancement"
+from "Cut to MinMax" to "Stretch to MinMax"
+(there are some more display options).
+Now you should see what is shown below.
 
 image::00_geladen.png[]
 
-== Gelände-Schummerungs-Karte
+== Terrain shading map
 Dieser Schritt ist noch nicht Teil der Auswertung
 sondern dient vielmehr der Visualisierung und der Orientierung auf der Karte.
 Über das Menü menu:Raster[] können die Rasterlayer in QGIS
