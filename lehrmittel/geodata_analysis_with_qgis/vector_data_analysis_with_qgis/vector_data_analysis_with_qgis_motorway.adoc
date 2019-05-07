@@ -8,7 +8,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 Impact assessment of a motorway construction with QGIS 3
 
-.Kartendarstellung des Analyse-Ergebnisses. Siehe auch <<endergebnis-image>>
+.Map display of the analysis result. See also <<endergebnis-image>>
 image::11_endergebnis_ausschnitt.png[pdfwidth=100%]
 
 
