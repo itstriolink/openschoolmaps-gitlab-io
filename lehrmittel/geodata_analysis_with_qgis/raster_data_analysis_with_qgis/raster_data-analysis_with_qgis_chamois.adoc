@@ -42,7 +42,7 @@ We make the following assumptions (criteria) for this purpose:
 3. Chamois prefer warm, early leveled slopes, i.e. southern slopes.
 4. Chamois use alpine pastures, because in spring there are no cattle on the alp.
 
-The following two grid/grid data sets are available for
+The following two raster/grid data sets are available for
 the analysis (further information on the ASCII grid format
 can be found here http://giswiki.hsr.ch/Grid ):
 
