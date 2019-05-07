@@ -228,8 +228,8 @@ With the Merge tool,
 any number of geometries can be
 merged into one layer in one step.
 
-1. Select menu:Merge vector layer{sp}
-from the menu "Vector > Data management tools"...[]
+1. Select menu:Merge{sp}vector{sp}layer...[]
+from the menu "Vector > Data management tools"
 
 2. Choose as the input layer:
 ** route_20
