@@ -250,9 +250,9 @@ Select the exercise data folder and name the output file `dhm_rimini_1500_2500.t
 image::05_dhm_rastercalc.png[]
 
 On the left side of the dialog are the available layers 
-with their "raster channels". (here always "`@1`").
+with their "raster channels" (here always "`@1`").
 For this first calculation we choose "`dhm_rimini@1`".
-Double-click it to add it to the grid computer printout in quotation marks.
+Double-click it to add it to the raster calculator expression in quotation marks.
 But the expression is not ready yet.
 We would like to filter by values between 1500 and 2500.
 For this we select the operators "`larger-equal`"/"`smaller-equal`" 
@@ -264,7 +264,7 @@ We multiply the bracketed expression by the original value itself
 is obviously interpreted as number 1/0 instead of true/false).
 You can either type the expression directly or compile
 it by clicking on the operator buttons in the "Operators" area.
-Start the grid computer with btn:[OK].
+Start the raster calculator with btn:[OK].
 
 image::05_dhm_rastercalc_bsp.png[]
 
