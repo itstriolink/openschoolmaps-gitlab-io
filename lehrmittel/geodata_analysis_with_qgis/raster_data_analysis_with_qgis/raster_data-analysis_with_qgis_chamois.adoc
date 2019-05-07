@@ -159,7 +159,7 @@ double-click on the layer name and its properties.
 In the "`Symbolisation`" in the first entry 
 "`Channel display`", select the display type 
 "`Singleband pseudocolor`".
-Only the "`Channel 1 (grey)`" can be selected as the channel.
+Only "`Channel 1 (grey)`" can be selected as the channel.
 Now you can set "`Min`" to 0 and "`Max`" and to 360, 
 "`Interpolation`" to "`Linear`", as "gradient" choose
 any one so that the automatic classification works 
