@@ -97,7 +97,7 @@ as an area balance (optional).
 1. Classify layers "environment" using the attribute
    bfn_biotop_text to get an overview of the biotope types.
    A coarser representation of land use can be achieved by
-   classifying land use according to the "Use" field.
+   classifying land use according to the "use" field.
    Work out a meaningful representation using colors
    and textures. Present your classification as a map.
 2. Create a map layout and export it as `biotoptypen.pdf`.
