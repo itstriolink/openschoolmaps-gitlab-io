@@ -130,35 +130,33 @@ Name the new file `autobahn_analyse.gpkg` and the new layer trasse_20.
 +
 Now you see the highway body in your study area.
 
-9. Auch wenn der Layer in der neuen Datei nun `trasse_20.gpkg` heisst,
-wurde er in QGIS evtl. mit "`Gepuffert`" beschriftet.
-Benenne ihn gegebenenfalls in "`trasse_20`" um.
-Das ist über die Layer-Eigenschaften möglich,
-auf die du z.B. über das Kontext-Menü
-des Layer-Eintrags im Layer-Panel gelangst.
+9. Even if the layer in the new file is now called
+`trasse_20.gpkg`, it may have been labeled "buffered" in QGIS.
+Rename it to "`trasse_20`" if necessary.
+This is possible via the layer properties, which you can
+access e.g. via the context menu of the layer entry in the layer panel.
 
-10. Die Beeinträchtigungen der Autobahn reichen über die Autobahn-Trasse hinaus.
-Deshalb musst du noch weitere Pufferzonen erzeugen.
+10. The impairments of the motorway extend beyond the motorway route.
+Therefore you have to create more buffer zones.
 +
 --
-Erstellen Sie, ausgehend von der eben erstellten Trasse, zwei weitere "`Puffer`":
+Create two more "buffers" starting from the route you just created:
 
-** Einen mit dem Abstand 100 m als *Temporärlayer* trasse_20_puffer_100
-** Einen mit Abstand 300 m als *Temporärlayer* trasse_20_puffer_300.
+** One with a distance of 100 m as *temporary layer* trasse_20_puffer_100
+** A 300 m apart *temporary layer* trasse_20_puffer_300.
 --
 +
-trasse_20_puffer_100 kennzeichnet
-die unmittelbar an die Autobahn angrenzenden Bereiche,
-in denen von grossen Beeinträchtigungen
-durch Abgase, Lärm und Abwasser auszugehen ist.
-Die Fläche trasse_20_puffer_300 umfasst den weiteren Eingriffsbereich
-bis zu einer Entfernung von 300 m von der Autobahn.
+trasse_20_puffer_100 identifies the areas immediately
+adjacent to the motorway in which major impairments
+due to exhaust fumes, noise and waste
+water are to be expected.
+The area of trasse_20_puffer_300 includes the further intervention
+area up to a distance of 300 m from the motorway.
 
-11. Auch hier kann es sein,
-dass die im Hintergrund für die Layer erstellten Temporär-Dateien
-zwar wie verlangt heissen,
-die Layer in QGIS aber als "`Gepuffert`" aufgeführt sind.
-Benenne sie entsprechend um.
+11. Also here it is possible that the temporary files created in
+the background for the layers are called as required,
+but the layers are listed as "buffered" in QGIS.
+Rename them accordingly.
 
 .QGIS-Dialog zu Puffer.
 image::02_qgis-puffer-dialog.png[]
@@ -178,43 +176,40 @@ verfügst du über den Autobahnkörper
 sowie über zwei sich ausschliessende
 und aneinander anschliessende Schalen um die Autobahn.
 
-Erstellen der äusseren Beeinträchtigungszone
-(von 100 m bis 300 m Entfernung von der Autobahn):
+Creation of the external zone (from 100 m to 
+300 m distance from the motorway):
 
 [start=12]
-12. Die Fläche des Puffers trasse_20_puffer_100
-ist aus dem Puffer trasse_20_puffer_300 herauszuschneiden,
-um die äussere Beeinträchtigungszone abzugrenzen.
+12. The area of the buffer route_20_buffer_100 must
+be cut out of the buffer route_20_buffer_300 in order
+to demarcate the external impairment zone.
 +
-Dies ist mit der Menü-Option
-"Vektor > Geoverarbeitungswerkezeuge > Differenz" zu erreichen.
+This can be achieved with the menu option
+"Vector > Geoprocessing Tools > Difference".
 
-** "`Eingabelayer`" = trasse_20_puffer_300
-** "`Layer überlagern`" = trasse_20_puffer_100
+** "`Input layer`" = route_20_buffer_300
+** "`Layer overlay`" = route_20_buffer_100
 
-13. Speichere das Ergebnis
-in der nun schon bestehenden Datei `autobahn_analyse.gpkg`
-als neuen Layer zone_100_300.
+13. Save the result in the existing file
+`autobahn_analyse.gpkg` as a new layer zone_100_300.
 
-14. Auch hier kann es sein,
-dass QGIS den Layer zwar unter den richtigen Namen speichert,
-aber ins Projekt selbst als "`Differenz`" einbindet.
-Benenne ihn gegebenenfalls in zone_100_300 um.
+14. Also here it is possible that QGIS saves the layer
+under the correct name, but integrates it into
+the project itself as "difference".
+Rename it to zone_100_300 if necessary.
 
 .Dialog "`Symmetrische Differenz`".
 image::03_qgis-differenz-dialog.png[]
 
-Erstellen der inneren Beeinträchtigungszone
-(von der Trasse bis 100 m Entfernung von der Autobahn).
+Creation of the internal zone (from the route to 100 m from the motorway).
 
 [start=15]
-15. Die Fläche des Puffers trasse_20
-ist aus dem Puffer trasse_20_puffer_100 herauszuschneiden,
-um die innere Beeinträchtigungszone abzugrenzen.
-Speichere sie als Layer zone_100 ebenfalls in `analyse.gpkg`
-und benenne den Layer in QGIS gegebenenfalls entsprechend um.
-** "`Eingabelayer`" = trasse_20_puffer_100
-** "`Layer überlagern`" = trasse_20
+15. The area of the buffer trasse_20 must be cut out of the buffer
+trasse_20_puffer_100 in order to delimit the inner impairment zone.
+Save it as Layer zone_100 also in `analyse.gpkg`
+and rename the layer to QGIS if necessary.
+** "`Input layer`" = route_20_buffer_100
+** "`Layer overlay`" = route_20
 
 The following layers are now important:
 
