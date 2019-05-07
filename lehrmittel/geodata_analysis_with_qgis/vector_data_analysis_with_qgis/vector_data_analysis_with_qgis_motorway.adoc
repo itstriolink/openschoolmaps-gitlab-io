@@ -201,8 +201,8 @@ image::03_qgis-differenz-dialog.png[]
 Creation of the internal zone (from the route to 100 m from the motorway).
 
 [start=15]
-15. The area of the buffer trasse_20 must be cut out of the buffer
-trasse_20_puffer_100 in order to delimit the inner impairment zone.
+15. The area of the buffer route_20 must be cut out of the buffer
+route_20_buffer_100 in order to delimit the inner impairment zone.
 Save it as Layer zone_100 also in `analyse.gpkg`
 and rename the layer to QGIS if necessary.
 ** "`Input layer`" = route_20_buffer_100
@@ -211,7 +211,7 @@ and rename the layer to QGIS if necessary.
 The following layers are now important:
 
 * The two layers with the input data
-* The actual 40 metre wide route: trasse_20
+* The actual 40 metre wide route: route_20
 * The zone from the route to a distance of 100 m: zone_100
 * The zone at a distance of 100 m up to 300 m from the route: zone_100_300
 
