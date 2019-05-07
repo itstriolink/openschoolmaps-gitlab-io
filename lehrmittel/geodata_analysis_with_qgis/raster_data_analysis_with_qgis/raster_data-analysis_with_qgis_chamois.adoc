@@ -240,11 +240,11 @@ Let's start with the first criterion:
 The heights of the terrain are stored in the layer "`dhm_rimini`".
 Now we will calculate a new layer which contains only 
 those grid cells which are between 1500 and 2500 m above sea level.
-For this you have to open the grid calculator via menu:Raster[].
+For this you have to open the raster calculator via menu:Raster[].
 
 image::04_rasterrechner_menu.png[]
 
-In the grid calculator you have to enter the output layer in the upper right corner.
+In the raster calculator you have to enter the output layer in the upper right corner.
 Select the exercise data folder and name the output file `dhm_rimini_1500_2500.tif`.
 
 image::05_dhm_rastercalc.png[]
@@ -283,16 +283,16 @@ Then click on btn:[Apply].
 
 image::05_dhm_rastercalc_bsp_transparenz.png[]
 
-Now switch off the visibility of the layer `Inclination` in the Layer Manager. +
+Now switch off the visibility of the layer "`Inclination`" in the Layer Manager. +
 The result is now filtered so that you can see the other layers below:
 
 image::05_dhm_rastercalc_bsp_transparenz_bsp.png[]
 
-The same steps - first grid calculator then transparency
+The same steps - first raster calculator then transparency
 - you apply now for all further three criteria, as follows:
 
 For the second criterion you start from the layer or
-channel "`Inclination@01`"and save the result in
+channel "`Inclination@01`" and save the result in
 the exercise data folder under the name 
 `slope_over20perc.tif` (btn:[Ok] is not yet activated).
 In this case, use the raster calculator to select all
@@ -300,7 +300,7 @@ raster cells that are steeper than 20%.
 Then btn:[Ok].
 
 For the third criterion you use the layer "Perspective"
-(`aspect.tif`) and filters out all grid cells that lie
+(`aspect.tif`) and filters out all raster cells that lie
 between 135 and 225 degrees(i.e. 180 degrees plus/minus 45 degrees).
 This will give you all slopes facing south (north is 0° as a reminder).
 Save the result in the exercise data folder under the name `aspect_135_225.tif`.
@@ -334,7 +334,7 @@ Again, you should set the custom transparency
 to 100 percent for the values from 0 to 0.
 
 If you want, you can also color this result with
-a single channel pseudocolor or palette:
+a singleband pseudocolor or palette:
 
 image::09_gut_fuer_gaemsi_bsp.png[]
 
@@ -387,7 +387,7 @@ image::07_aspect_south.png[]
 
 Then set the layer transparency.
 The result of the third criterion 
-(single channel pseudocolors copied from "perspective")
+(singleband pseudocolors copied from "perspective")
 should look something like this:
 
 image::07_aspect_south_bsp.png[]
@@ -410,7 +410,7 @@ image::08_as_sorted_bsp.png[]
 === Spatial overlay:
 Last but not least we calculate the chamois locations with a spatial overlay
 (intersection) and save it under `good_for_chamois.tif`.
-Here is the solution for the raster computer printout:
+Here is the solution for the raster calculator expression:
 [source,sql]
 ----
 "dhm_rimini_1500_2500@1" AND "slope_over20perc@1" AND "aspect_135_225@1" AND "as85_sorted@1"
