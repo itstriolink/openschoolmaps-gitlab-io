@@ -353,61 +353,57 @@ verschneidest du beide Layer.
 ** "`Layer überlagern`": wertvoll
 ** Ziel-Layer: *_unbenannter_ Temporärlayer*
 
-2. Ein Klick auf btn:[Starte] führt zu folgender Fehlermeldung:
+2. A click on btn:[Start] leads to the following error message:
 +
 ____
-Objekt (24) hat ungültige Geometrie.
-Bitte diese Fehler korrigieren oder
-die Verarbeitungseinstellung auf "`Ungültige Eingabeobjekte ignorieren`".
+Object (24) has invalid geometry.
+Please correct these errors or change the processing
+setting to "Ignore invalid input objects".
 
-Ausführung nach 0.01 Sekunden gescheitert
+Execution failed after 0.01 seconds
 ____
-Öffne die QGIS-Optionen über Menü "Einstellungen > Optionen…"
-und ändere unter Reiter "`Verarbeitung`" > Abschnitt "`Allgemein`"
-die entsprechende Einstellung "`Filterung ungültiger Objekte`"
-von "`Algorithmenausführung bei ungültiger Geiometrie anhalten`"
-auf "`Objekte mit ungültiger Geometrie ignorieren.`"
+Open the QGIS options via menu "Settings > Options..."
+and change under tab "`Processing`" > section "`General`"
+the corresponding setting "`Suspend invalid object filtering`"
+from "`Stop algorithm execution on invalid geometry`" to
+"`Ignore invalid geometry objects.`".
 
-3. Wiederhole nun die Verschneide-Operation.
-Nun sollte sie gelingen.
-Die Fehlermeldung kommt zwar trotzdem,
-aber mit "`abgeschlossen`" anstatt "`gescheitert`".
+3. Now repeat the blending operation.
+Now it should succeed.
+The error message comes anyway, but with
+"`finished`" instead of "failed`".
 
-4. Der resultierende Layer ist in QGIS vermutlich
-unter dem Namen "`Verschneidung`" eingebunden worden.
-Benenne ihn in "`intersect_wertvoll`" um.
+4. The resulting layer has probably been
+included in QGIS under the name "`intersection`".
+Rename it `intersect_valueful`.
 
-5. Öffne die Attribut-Tabelle des neuen Layers.
-Die Werte der "`fid`"-Spalte des 2. Input-Layers ("`wertvoll`")
-finden sich in der Spalte "`fid_2`" des neuen Layers wieder.
-Die "`fid`"-Spalte des 1. Input-Layers (zonen)
-wird im Resultat jedoch als "`fid`"
-wird in "`intersect_wertvoll`" jedoch als "`fid`" wiedergegeben,
-was problematisch ist,
-da QGIS diesen Spaltennamen defaultmässig
-als PK z.B. von GeoPackage-Layern nimmt,
-die Werte durch die Verschneidung nun aber alles andere als UNIQUE sind.
+5. Open the attribute table of the new layer.
+The values of the "`fid`"-column of the 2nd input layer
+("`valueful`") can be found in the column "`fid_2`" of the new layer.
+The "`fid`"-column of the 1st input layer (zones) is shown
+in the result as "`fid`" in "`intersect_valueful`" but as
+"`fid`", which is problematic, because QGIS takes this 
+column name as PK of e.g. GeoPackage layers by default, 
+but the values are now anything but UNIQUE due to the intersection.
 
-6. Benenne die "`fid`"-Spalte
-von "`intersect_wertvoll`" in "`fid_zone`" um
-und beende den Bearbeitungs-Modus.
+6. Rename the "`fid`"-column from
+"`intersect_valueful`" to "`fid_zone`" and end the editing mode.
 
-7. Über sein Kontext-Menü kannst du
-Layer "`intersect_wertvoll`" nun permanent machen.
-Speichere ihn als "`intersect_wertvoll`" in `autobahn_analyse.gpkg`.
-Stelle sicher, dass der im Feld "`FID`" angegebene Name
-keiner schon bestehenden Spalte entspricht.
+7. Via its context menu you can now make layer "`intersect_valueful`" permanent.
+Save it as "`intersect_valueful`" in `autobahn_analyse.gpkg`.
+Make sure that the name specified in the 
+"FID" field does not correspond to an existing column.
 
-8. Nun kannst du in der Attributtabelle des Layers "`intersect_wertvoll`"
-(Menü "Layer > Attributtabelle öffnen")
-oben rechts den "`Feldrechner`" betätigen.
-Dieser erlaubt es dir, ein neues Feld anhand einer "`Expression`" anzulegen.
-Verwende folgenden Ausdruck, um mit QGIS
-die Fläche unseres Polygons zu berechnen,
-welche dann durch 100 geteilt wird,
-um die Quadratmeter in Aren umzurechnen.
-Das Resultat wird letztlich auf 1 signifikante Stelle nach dem Komma gerundet.
-Ausdruck: round($area / 100, 1)
+8. Now you can add "`intersect_valueful`" to
+the attribute table of the layer. (Menu "Layer
+> Open Attribute Table") click on the "`Field Calculator`"
+in the upper right corner.
+This allows you to create a new field based on an "expression".
+Use the following expression to use QGIS to calculate the area
+of our polygon, which is then divided by 100 to convert
+the square meters to ares.
+The result is ultimately rounded to 1 significant digit after the decimal point.
+Expression: round($area / 100, 1)
 
 9. Set "`area`" as "`output field names`" and select
 the "`output field types`" "`decimal number (real)`".
