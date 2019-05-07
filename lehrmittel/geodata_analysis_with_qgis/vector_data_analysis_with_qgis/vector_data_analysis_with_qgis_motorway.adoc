@@ -164,17 +164,14 @@ image::02_qgis-puffer-dialog.png[]
 
 === Task 3: Create Ring Zones Excluding the Buffer Zones
 
-Alle erstellten Pufferpolygone
-umfassen die gesamte Fläche zwischen Ihren Aussengrenzen.
-Die grossen Pufferflächen überdecken die kleinen Zonen.
-Wir benötigen aber Polygone in Form von einander anschliessenden Zonen,
-die sich nicht überschneiden.
-Um dieses Ziel zu erreichen,
-verwenden wir versuchshalber das Werkzeug "`Differenz`".
-Nach den nun folgenden Verschneidungsprozessen
-verfügst du über den Autobahnkörper
-sowie über zwei sich ausschliessende
-und aneinander anschliessende Schalen um die Autobahn.
+All buffer polygons created cover the entire area between your outer borders.
+The large buffer areas cover the small zones.
+However, we need polygons in the form of adjoining zones that do not overlap.
+In order to achieve this goal, we use the tool
+"`Difference`" for testing purposes.
+After the following intersection processes you have the
+body of the motorway as well as two enclosing and
+adjoining shells around the motorway.
 
 Creation of the external zone (from 100 m to 
 300 m distance from the motorway):
@@ -248,26 +245,25 @@ Rename it to `zones` if necessary.
 
 === Task 5: Edit the attribute table of the vector file `all_zones.shp`.
 
-Der neue Layer verfügt noch
-über keine sinnvollen Attributtwerte für die einzelnen Beeinträchtigungszonen.
-Damit du die Fläche unterschiedlich bewerteter Biotoptypen
-in den Beeinträchtigungszonen ermitteln kannst,
-musst du den Zonen einen Attributwert zuweisen.
-Bearbeite die Attributtabelle in den Layer-Eigenschaften
+The new layer does not yet have meaningful attribute
+values for the individual impairment zones.
+You must assign an attribute value to the zones so that
+you can determine the area of differently rated biotope
+types in the impairment zones.
+Edit the attribute table in the layer properties
 
-1. Öffne das Kontext-Menü des Layers "`zonen`"
-   und wähle menu:Eigenschaften…[].
-2. Wähle im Layereigenschaften-Fenster den Reiter "`Quellfelder`" an.
-3. Schalte den Bearbeitungs-Modus an (Knopf mit dem Stift)
-4. Lösche alle Felder ausser "`layer`" und "`fid`".
-5. Benenne das Feld "`layer`" in "`zone`" um.
-6. Schliesse das Layereigenschaften-Fenster mit btn:[OK].
-7. Öffne das Kontext-Menü des Layers "`zonen`"
-   und wähle menu:Attributtabelle{sp}öffnen[].
-8. Ändere die Werte in Spalte "`zone`" wie folgt:
-** trasse_20 -> Trasse
-** zone_100 -> Innen
-** zone_100_300 -> Aussen
+1. Open the context menu of the layer "Zones" and choose menu:Properties...[].
+2. In the layer properties window, select the "Source fields" tab.
+3. Activate the editing mode (button with the pen)
+4. Delete all fields except "`layer`" and "`fid`".
+5. Rename the field "`layer`" to "`zone`".
+6. Close the Layer Properties window with btn:[OK].
+7. Open the context menu of the layer "Zones" and
+   choose menu:Open attribute table{sp}[].
+8. Change the values in the `zone` column as follows:
+** route_20 -> Route
+** zone_100 -> Inside
+** zone_100_300 -> Outside
 9. Du kannst anschliessend die überstehenden End-Rundungen der Puffer
    mit dem Zeichenwerkzeug "Bearbeiten > Objekte zerteilen" abschneiden
    (der Schnitt-Linienzug kann mit Rechtsklick abgeschlossen werden),
