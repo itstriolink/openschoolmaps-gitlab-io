@@ -118,13 +118,13 @@ For a two-dimensional representation you have to create
 a buffer polygon with a distance of 20 m from the center line on both sides.
 +
 You can do this via the menu "Vector > Geoprocessing Tools > Buffer".
-The "Input layer" is the "Motorway central line", the "Distance" is 20 meters.
+The "Input layer" is the "Motorway central line", the "distance" is 20 meters.
 
 7. We want to record the result of this process in a file.
 To save it as a layer in a new file, click the btn:[...]
 button next to the layer name field and choose
 menu:Save{sp}as{sp}Geopackage...[].
-Name the new file `autobahn_analyse.gpkg` and the new layer trasse_20.
+Name the new file `autobahn_analyse.gpkg` and the new layer route_20.
 
 8. Execute the processing with the button btn:[Start].
 +
