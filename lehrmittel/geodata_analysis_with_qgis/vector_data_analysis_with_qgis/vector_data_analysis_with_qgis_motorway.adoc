@@ -164,7 +164,7 @@ Benenne sie entsprechend um.
 image::02_qgis-puffer-dialog.png[]
 
 
-=== Aufgabe 3: Aus den Pufferzonen sich ausschliessende Ringzonen erstellen
+=== Task 3: Create Ring Zones Excluding the Buffer Zones
 
 Alle erstellten Pufferpolygone
 umfassen die gesamte Fläche zwischen Ihren Aussengrenzen.
@@ -216,42 +216,42 @@ und benenne den Layer in QGIS gegebenenfalls entsprechend um.
 ** "`Eingabelayer`" = trasse_20_puffer_100
 ** "`Layer überlagern`" = trasse_20
 
-Folgende Layer sind jetzt wichtig:
+The following layers are now important:
 
-* Die beiden Layer mit den Input-Daten
-* Die eigentliche 40 Meter breite Trasse: trasse_20
-* Die Zone von der Trasse bis zu einer Entfernung von 100 m: zone_100
-* Die Zone im Abstand von 100 m bis zu 300 m von der Trasse: zone_100_300
+* The two layers with the input data
+* The actual 40 metre wide route: trasse_20
+* The zone from the route to a distance of 100 m: zone_100
+* The zone at a distance of 100 m up to 300 m from the route: zone_100_300
 
-Falls alles geklappt hat, kannst du die beiden Temporär-Layer
-zur besseren Ubersicht ausblenden oder löschen:
+If everything went fine, you can hide or delete
+the two temporary layers for a better overview:
 
-* trasse_20_puffer_100
-* trasse_20_puffer_300
+* route_20_buffer_100
+* route_20_buffer_300
 
 
-=== Aufgabe 4: Zusammenfügen der drei Zonen in einem Layer
+=== Task 4: Merge the three zones into one layer
 
-Mit dem Werkzeug zusammenfügen (Merge)
-lassen sich beliebig viele Geometrien
-mit einem Schritt in einem Layer zusammenfügen.
+With the Merge tool,
+any number of geometries can be
+merged into one layer in one step.
 
-1. Wähle im Menü
-"Vektor > Datenmanagement-Werkzeuge" den Eintrag menu:Vektorlayer{sp}Zusammenführen…[]
+1. Select menu:Merge vector layer{sp}
+from the menu "Vector > Data management tools"...[]
 
-2. Als Eingabelayer wählen Sie:
-** trasse_20
+2. Choose as the input layer:
+** route_20
 ** zone_100
 ** zone_100_300
 
-3. Speichere das Ergebnis in `autobahn_analyse.gpkg` als Layer "`zonen`".
+3. Save the result in `autobahn_analyse.gpkg` as layer "`zones`".
 
-4. Auch hier kann es sein, das QGIS den neuen Layer
-unter einem generischen Namen (hier: "`Zusammengeführt`") einbindet.
-Benenne ihn gegebenenfalls in "`zonen`" um.
+4. Also here it can be that QGIS integrates the new
+layer under a generic name (here: "merged").
+Rename it to `zones` if necessary.
 
 
-=== Aufgabe 5: Bearbeiten der Attributtabelle der Vektordatei `alle_zonen.shp`
+=== Task 5: Edit the attribute table of the vector file `all_zones.shp`.
 
 Der neue Layer verfügt noch
 über keine sinnvollen Attributtwerte für die einzelnen Beeinträchtigungszonen.
