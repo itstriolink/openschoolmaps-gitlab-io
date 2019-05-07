@@ -243,7 +243,7 @@ layer under a generic name (here: "merged").
 Rename it to `zones` if necessary.
 
 
-=== Task 5: Edit the attribute table of the vector file `all_zones.shp`.
+=== Task 5: Edit the attribute table of the vector file `alle_zonen.shp`.
 
 The new layer does not yet have meaningful attribute
 values for the individual impairment zones.
