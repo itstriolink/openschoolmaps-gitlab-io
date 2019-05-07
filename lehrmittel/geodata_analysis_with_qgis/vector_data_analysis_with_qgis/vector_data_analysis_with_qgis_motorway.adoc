@@ -264,19 +264,18 @@ Edit the attribute table in the layer properties
 ** route_20 -> Route
 ** zone_100 -> Inside
 ** zone_100_300 -> Outside
-9. Du kannst anschliessend die überstehenden End-Rundungen der Puffer
-   mit dem Zeichenwerkzeug "Bearbeiten > Objekte zerteilen" abschneiden
-   (der Schnitt-Linienzug kann mit Rechtsklick abgeschlossen werden),
-   diese Restflächen über "Bearbeiten > Auswahl > ..." auswählen
-   und die Restflächen dann
-   mit der Funktion "Bearbeiten > Ausgewähltes Löschen" löschen.
-10. Speichere den Layer (Menü "Layer > Bearbeitungsstatus umschalten")
-    und klassifiziere die Zonen.
-    Nutze Schraffuren oder Punktdichteraster,
-    um die darunter liegenden Ebenen nicht vollständig zu verdecken.
+9. You can then cut off the excess end curves of the buffers
+   with the drawing tool "Edit > Split objects" (the cutting line
+   can be completed with a right click), select these remaining
+   areas via "Edit > Selection > ..." and then delete the remaining
+   areas with the function "Edit > Selected delete".
+10. Save the layer (menu "Layer > Switch editing status")
+    and classify the zones.
+    Use hatching or point density grids to avoid 
+    completely covering the underlying planes.
 
 
-=== Aufgabe 6: Abfragen aller naturschutzfachlich hervorragenden Flächen
+=== Task 6: Query of all areas of outstanding nature conservation expertise
 
 Nun sollen alle naturschutzfachlich bedeutenden Flächen
 aus dem Layer Umgebung abgefragt werden.
@@ -286,47 +285,45 @@ um besonders geschützte Biotoptypen gemäss BNatSchG (geschuetzt_biotop)
 und
 um sonstige Biotoptypen des artenreichen Grünlands (bedeutend_gruenland_typ).
 
-Gehe wie folgt vor:
+Proceed as follows:
 
-1. Wähle den Layer "`umgebung`" im Layer-Panel aus.
+1. Select the layer "`Environment`" in the Layer-Panel.
 
-2. Öffne die Attributtabelle ("Layer > Attributtabelle öffnen"),
-um dir einen Überblick zu verschaffen.
-(Danach kannst du die Attributtabelle wieder schliessen.)
+2. Open the attribute table ("Layer > Open Attribute Table")
+to get an overview.
+(After that you can close the attribute table again.)
 
-3. Öffne über die Menü-Option "Layer > Filter…" den Abfrageeditor.
+3. Open the query editor via the menu option "Layer > Filter...".
 
-4. Stelle mit Hilfe der Schaltflächen im Abfrageeditor
-eine Abfrage zusammen, mit der du alle Flächen auswählst, die entweder
-FFH-Lebensräume sind (`ffh_typ_nr = 1`),
-geschützte Biotope beinhalten (`OR geschuetzt_biotop = 1`)
-oder bei denen es sich um einen sonstigen bedeutenden Grünlandtypen handelt
-(`OR bedeutend_gruenland_typ = 1`).
+4. Create a query using the Query Editor buttons to select
+all areas that are either FFH habitats (`ffh_typ_nr = 1`),
+protected biotopes (`OR protected_biotop = 1`), or other significant
+grassland types (`OR significant_greenland_typ = 1`).
 +
-Anmerkung:
-In den betreffenden Spalten der Attributtabelle
-bedeutet der Wert `1` jeweils "`trifft zu`".
+Note:
+In the relevant columns of the attribute table,
+the value `1` means "`applies` to`".
 +
-Ihr SQL-Befehl muss folgendermassen aussehen:
+Your SQL command must look like this:
 +
 [source,sql]
 ----
 ffh_typ_nr = 1 OR geschuetzt_biotop = 1 OR bedeutend_gruenland_typ = 1
 ----
 
-5. Teste die Abfrage.
+5. Test the query.
 +
-Die Auswahl sollte 43 Polygone enthalten.
+The selection should contain 43 polygons.
 
-6. Bestätige mit btn:[OK].
-Dadurch wird der Filter auf den Layer angewandt
-und das Abfrageerstellungsfenster geschlossen.
-Du siehst jetzt alle Flächen,
-die aus Sicht des Biotop- und Artenschutzes wertvoll sind.
+6. Confirm with btn:[OK].
+This applies the filter to the layer
+and closes the query creation window.
+Now you can see all areas that are valuable from
+the point of view of biotope and species conservation.
 
-7. Speichere die/den gefilterten Layer über "Layer > Speichern als…"
-im Geopackage `autobahn_analyse.gpkg` als Layer "`wertvoll`" ab.
-Danach kannst du den Filter auf Layer "`umgebung`" wieder löschen.
+7. Save the filtered layer(s) via "Layer > Save as..." in 
+the geopackage `autobahn_analyse.gpkg` as layer "valuable`".
+After that you can delete the filter on layer "`environment`" again.
 
 .Dialog.
 image::06_qgis-abfrage-ergebnis.png[]
