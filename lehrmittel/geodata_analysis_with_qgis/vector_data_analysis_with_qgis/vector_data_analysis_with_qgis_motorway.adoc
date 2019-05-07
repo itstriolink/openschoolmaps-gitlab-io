@@ -84,7 +84,7 @@ as an area balance (optional).
 3. If no project was open yet, a (not yet saved)
    one has been created automatically.
    Make sure that in the project settings the coordinate reference
-   system (KBS) is set to the German DHDN Gauss-Krüger Zone 3 (EPSG:31467).
+   system (CRS) is set to the German DHDN Gauss-Krüger Zone 3 (EPSG:31467).
    (This should be the case automatically after loading the layers.)
 4. Open the project settings via the menu "Project > Properties...",
    give the project the title "Motorway and habitat types" under the
