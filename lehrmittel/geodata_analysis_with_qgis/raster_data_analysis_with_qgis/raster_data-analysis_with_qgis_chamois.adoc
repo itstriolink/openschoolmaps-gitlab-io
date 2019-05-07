@@ -8,7 +8,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 A multi-criteria raster analysis with QGIS 3
 
-.Bild CC BY-SA 4.0 Paul Hermans. (Quelle: https://commons.wikimedia.org/wiki/File:Gemse01.JPG)
+.Image CC BY-SA 4.0 Paul Hermans. (Quelle: https://commons.wikimedia.org/wiki/File:Gemse01.JPG)
 [caption=""]
 image::000_titelbild.png[]
 
