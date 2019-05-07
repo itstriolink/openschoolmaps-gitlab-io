@@ -1,4 +1,4 @@
-= Practice/exercise: spatial analysis vector data - motorway
+= Practice/Exercise: Spatial Analysis Vector Data - Motorway
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/vektordaten-analyse_autobahn
