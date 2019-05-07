@@ -55,8 +55,8 @@ are labelled.
 You should determine the size of the valuable area from the point of view
 of species and biotope conservation that is completely
 destroyed or impaired by motorway construction.
-To answer this question, you can use the `buffer tool`
-to To identify degradation zones at different distances
+To answer this question, you can use the "`buffer tool`"
+to identify degradation zones at different distances
 from the central line, which are further intersected 
 with biotope type mapping to identify degraded and unimpaired areas.
 
