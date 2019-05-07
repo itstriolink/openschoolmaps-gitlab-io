@@ -1,4 +1,4 @@
-= Practice/Exercise: Room analysis raster data - Where the chamois live
+= Practice/Exercise: Room Analysis Raster Data - Where The Chamois Live
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/rasterdaten-analyse_gaemsen
