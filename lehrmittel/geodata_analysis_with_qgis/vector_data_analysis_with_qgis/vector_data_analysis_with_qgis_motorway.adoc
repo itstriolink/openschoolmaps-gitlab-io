@@ -78,67 +78,57 @@ as an area balance (optional).
 
 === Preparation: Creating the project file and loading the input data
 
-1. Öffne QGIS
-   und stelle sicher, dass kein bestehendes Projekt geöffnet ist.
-   (Also nur entweder ein neues, noch leeres und ungespeichertes Projekt
-   oder noch gar keines.)
-2. Lade `autobahn_inputs.gpkg` mit beiden enthaltenen Vektor-Layern.
-3. Falls noch kein Projekt offen war,
-   ist nun automatisch ein (noch ungespeichertes) angelegt worden.
-   Stelle sicher, dass
-   in den Projekteinstellungen das Koordinatenbezugssystem (KBS)
-   auf das deutsche DHDN Gauss-Krüger Zone 3 (EPSG:31467) eingestellt ist.
-   (Das sollte nach dem Laden der Layer automatisch der Fall sein.)
-4. Öffne über Menü "Projekt > Eigenschaften…" die Projekteinstellungen,
-   gib dem Projekt unter Reiter "`Allgemein`"
-   den Titel "`Autobahn und Lebensraumtypen`"
-   und speichere es unter dem Namen `Autobahn_Lebensraumtypen.qgz`
-   oder `Autobahn_Lebensraumtypen.qgs`.
+1. Open QGIS and make sure that no existing project is open.
+   (So only either a new, still empty and unsaved project or none at all.)
+2. Load `autobahn_inputs.gpkg` with both vector layers included.
+3. If no project was open yet, a (not yet saved)
+   one has been created automatically.
+   Make sure that in the project settings the coordinate reference
+   system (KBS) is set to the German DHDN Gauss-Krüger Zone 3 (EPSG:31467).
+   (This should be the case automatically after loading the layers.)
+4. Open the project settings via the menu "Project > Properties...",
+   give the project the title "Motorway and habitat types" under the
+   tab "`General`" and save it under the name `Autobahn_Lebensraumtypen.qgz`
+   or `Autobahn_Lebensraumtypen.qgs`.
 
 
-=== Aufgabe 1: Darstellen der Landnutzung
+=== Task 1: Presentation of land use
 
-1. Klassifiziere Layer "`umgebung`"
-   mit Hilfe des Attributs bfn_biotop_text,
-   um sich einen Überblick über die Biotoptypen zu verschaffen.
-   Eine gröbere Darstellung der Landnutzung erreichen Sie
-   mit einer Klassifikation nach Feld "`nutzung`".
-   Erarbeite dir eine sinnvolle Darstellung
-   unter Verwendung von Farben und Texturen.
-   Stelle deine Klassifizierung als Karte dar.
-2. Erstelle ein Kartenlayout
-   und exportiere es als `biotoptypen.pdf`.
-   Wenn du Texturen verwendest, solltest du vor dem Export
-   in der Druckzusammenstellung beim Reiter "`Allgemein > Druckqualität`"
-   das Kontrollkästchen bei "`als Raster drucken`" ankreuzen.
+1. Classify layers "environment" using the attribute
+   bfn_biotop_text to get an overview of the biotope types.
+   A coarser representation of land use can be achieved by
+   classifying land use according to the "Use" field.
+   Work out a meaningful representation using colors
+   and textures. Present your classification as a map.
+2. Create a map layout and export it as `biotoptypen.pdf`.
+   If you are using textures, you should check the "Print
+   as raster" box on the "`General > Print quality`" tab
+   in the print composition before exporting.
 
 
-=== Aufgabe 2: Darstellen der Autobahn-Zentrallinie und Erstellen der Pufferzonen
+=== Task 2: Displaying the motorway central line and creating the buffer zones
 
-Wenden wir uns nun der Autobahnzentrallinie in Layer autobahn_zentrallinie zu.
+Let's now turn to the motorway central line in Layer autobahn_zentrallinie.
 
 [start=5]
-5. Stelle die Linie gut sichtbar dar.
+5. Make the line clearly visible.
 
-6. Der Autobahnkörper misst insgesamt 40m.
-Für eine flächenhafte Darstellung musst du ein Pufferpolygon
-mit einem beidseitigen Abstand von 20 m von der Zentrallinie erstellen.
+6. The motorway body measures 40m in total.
+For a two-dimensional representation you have to create
+a buffer polygon with a distance of 20 m from the center line on both sides.
 +
-Dies erreichen Sie
-über Menü "Vektor > Geoverarbeitungswerkzeuge > Puffer".
-Der "`Eingabelayer`" ist "`autobahn_zentrallinie`",
-als "`Abstand`" musst du 20 Meter eintragen.
+You can do this via the menu "Vector > Geoprocessing Tools > Buffer".
+The "Input layer" is the "Motorway central line", the "Distance" is 20 meters.
 
-7. Das Resultat dieses Vorgangs wollen wir in einer Datei festhalten.
-Um es als Layer in einer neuen Datei abzulegen,
-klicke auf den Knopf btn:[…] neben dem Feld für den Layername
-und wähle menu:Speichern{sp}als{sp}Geopackage…[].
-Nenne die neue Datei `autobahn_analyse.gpkg`
-und den neuen Layer trasse_20.
+7. We want to record the result of this process in a file.
+To save it as a layer in a new file, click the btn:[...]
+button next to the layer name field and choose
+menu:Save{sp}as{sp}Geopackage...[].
+Name the new file `autobahn_analyse.gpkg` and the new layer trasse_20.
 
-8. Führe die Verarbeitung mit dem Knopf btn:[Starte] durch.
+8. Execute the processing with the button btn:[Start].
 +
-Nun siehst du den Autobahnkörper in deinem Untersuchungsgebiet.
+Now you see the highway body in your study area.
 
 9. Auch wenn der Layer in der neuen Datei nun `trasse_20.gpkg` heisst,
 wurde er in QGIS evtl. mit "`Gepuffert`" beschriftet.
