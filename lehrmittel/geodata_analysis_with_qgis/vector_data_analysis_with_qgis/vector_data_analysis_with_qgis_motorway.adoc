@@ -44,7 +44,7 @@ lines vector data (layer "`autobahn_central line`" in geopackage
 `autobahn_inputs`).gpkg`) with the central line of a fictitious motorway
 route and the topographic map 1:25'000 (Tk25) (file `heli.tif`) as background.
 
-In the functional data table of "Environment", 
+In the functional data table of "environment", 
 pieces of usage (impacts) that are to be assigned 
 to a habitat type (ffh_typ_nr) are marked (ffh_typ_text).
 Likewise, specially protected biotope types according to
