@@ -143,7 +143,7 @@ via menu:Raster[Analysis > Perspective]
 (menu:Raster[Analysis > Aspect...]) (see figure above).
 
 As input layer you choose "`dhm_rimini`" again.
-Vote "Perspective". (output file), the exercise
+Vote "Perspective" (output file), the exercise
 data folder (`gaemse`) and the file name
 `aspect.tif`: see figure above.
 
@@ -187,7 +187,7 @@ If you want, you can give the classes a meaningful
 image::02_perspective_colors.png[]
 
 When you have made all the settings, 
-go to the "`Transparency`" tab. (below tab "`Symbolisation`").
+go to the "`Transparency`" tab (below tab "`Symbolisation`").
 Here we set the global transparency to e.g. 50%
 so that you can still see the shading
 under the coloured alignment map.
