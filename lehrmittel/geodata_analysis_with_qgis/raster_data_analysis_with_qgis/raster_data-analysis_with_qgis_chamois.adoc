@@ -234,7 +234,7 @@ We are looking for those areas that meet the following criteria:
 In order to meet these requirements, we now 
 calculate four additional layers from the prepared data.
 A blend of these will show us where chamois could be.
-Cutting and filtering is done with the "raster algebra" and in QGIS with the raster computer.
+Cutting and filtering is done with the "raster algebra" and in QGIS with the raster calculator.
 
 Let's start with the first criterion:
 The heights of the terrain are stored in the layer "`dhm_rimini`".
