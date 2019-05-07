@@ -168,7 +168,7 @@ All buffer polygons created cover the entire area between your outer borders.
 The large buffer areas cover the small zones.
 However, we need polygons in the form of adjoining zones that do not overlap.
 In order to achieve this goal, we use the tool
-"`Difference`" for testing purposes.
+"`difference`" for testing purposes.
 After the following intersection processes you have the
 body of the motorway as well as two enclosing and
 adjoining shells around the motorway.
