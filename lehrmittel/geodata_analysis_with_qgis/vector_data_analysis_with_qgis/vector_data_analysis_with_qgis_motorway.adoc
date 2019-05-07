@@ -132,7 +132,7 @@ Now you see the highway body in your study area.
 
 9. Even if the layer in the new file is now called
 `trasse_20.gpkg`, it may have been labeled "buffered" in QGIS.
-Rename it to "`trasse_20`" if necessary.
+Rename it to "`route_20`" if necessary.
 This is possible via the layer properties, which you can
 access e.g. via the context menu of the layer entry in the layer panel.
 
@@ -142,15 +142,15 @@ Therefore you have to create more buffer zones.
 --
 Create two more "buffers" starting from the route you just created:
 
-** One with a distance of 100 m as *temporary layer* trasse_20_puffer_100
-** A 300 m apart *temporary layer* trasse_20_puffer_300.
+** One with a distance of 100 m as *temporary layer* route_20_buffer_100
+** A 300 m apart *temporary layer* route_20_buffer_300.
 --
 +
-trasse_20_puffer_100 identifies the areas immediately
+route_20_buffer_100 identifies the areas immediately
 adjacent to the motorway in which major impairments
 due to exhaust fumes, noise and waste
 water are to be expected.
-The area of trasse_20_puffer_300 includes the further intervention
+The area of route_20_buffer_300 includes the further intervention
 area up to a distance of 300 m from the motorway.
 
 11. Also here it is possible that the temporary files created in
