@@ -336,22 +336,21 @@ Danach kannst du den Filter auf Layer "`umgebung`" wieder löschen.
 image::06_qgis-abfrage-ergebnis.png[]
 
 
-=== Aufgabe 7: Schnittmenge zwischen wertvollen Flächen und Beeinträchtigungszonen
+=== Task 7: Intersection between valuable areas and impairment zones
 
-Als nächstes sind jene naturschutzfachlich wertvollen Flächen zu ermitteln,
-die in den drei Beeinträchtigungsszonen liegen.
-Du benutzt das Werkzeug "`Verschneidung`" (Intersect),
-um die Layer wertvoll und zonen miteinander zu verschneiden.
-Der resultierende Layer enthält ausschliesslich Flächen,
-die naturschutzfachlich wertvoll sind
-und die gleichzeitig durch den Autobahnbau zerstört oder beeinträchtigt werden.
+The next step is to identify those areas of nature conservation
+value that are located in the three impaired zones.
+You're using the `intersection` tool. (Intersect) to intersect
+the layers valuable and zones with each other.
+The resulting layer contains only areas which are valuable for
+nature conservation and which are destroyed or impaired at
+the same time by motorway construction.
 
-1. Mit der Menü-Option
-"Vektor > Geoverarbeitungswerkzeuge > Verschneidung…"
-verschneidest du beide Layer.
-** "`Eingabelayer`": zonen
-** "`Layer überlagern`": wertvoll
-** Ziel-Layer: *_unbenannter_ Temporärlayer*
+1. With the menu option "Vector > Geoprocessing
+Tools > Intersection..." you intersect both layers.
+** "Input Layer": zones
+** "`Layer overlay`: valuable
+** Target layer: *Untitled Temporary Layer
 
 2. A click on btn:[Start] leads to the following error message:
 +
