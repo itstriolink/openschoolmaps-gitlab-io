@@ -277,9 +277,9 @@ Edit the attribute table in the layer properties
 
 === Task 6: Query of all areas of outstanding nature conservation expertise
 
-Now all areas from the Environment layer that are important
+Now all areas from the environment layer that are important
 for nature conservation are to be queried.
-These are habitat types in Annex 1 of the Habitats Directive
+These are habitat types in annex 1 of the Habitats Directive
 (ffh_typ_nr), specially protected biotope types in accordance
 with the Federal Nature Conservation Act (BNatSchG)
 (protected_biotope) and other biotope types of species-rich
@@ -287,7 +287,7 @@ grassland (significant_green_land_type).
 
 Proceed as follows:
 
-1. Select the layer "`Environment`" in the Layer-Panel.
+1. Select the layer "`environment`" in the layer panel.
 
 2. Open the attribute table ("Layer > Open Attribute Table")
 to get an overview.
@@ -295,7 +295,7 @@ to get an overview.
 
 3. Open the query editor via the menu option "Layer > Filter...".
 
-4. Create a query using the Query Editor buttons to select
+4. Create a query using the query editor buttons to select
 all areas that are either FFH habitats (`ffh_typ_nr = 1`),
 protected biotopes (`OR protected_biotop = 1`), or other significant
 grassland types (`OR significant_greenland_typ = 1`).
@@ -322,7 +322,7 @@ Now you can see all areas that are valuable from
 the point of view of biotope and species conservation.
 
 7. Save the filtered layer(s) via "Layer > Save as..." in 
-the geopackage `autobahn_analyse.gpkg` as layer "valuable`".
+the geopackage `autobahn_analyse.gpkg` as layer "`valuable`".
 After that you can delete the filter on layer "`environment`" again.
 
 .Dialog.
@@ -333,7 +333,7 @@ image::06_qgis-abfrage-ergebnis.png[]
 
 The next step is to identify those areas of nature conservation
 value that are located in the three impaired zones.
-You're using the `intersection` tool. (Intersect) to intersect
+You're using the `intersection` tool to intersect
 the layers valuable and zones with each other.
 The resulting layer contains only areas which are valuable for
 nature conservation and which are destroyed or impaired at
@@ -343,7 +343,7 @@ the same time by motorway construction.
 Tools > Intersection..." you intersect both layers.
 ** "Input Layer": zones
 ** "`Layer overlay`: valuable
-** Target layer: *Untitled Temporary Layer
+** Target layer: *Untitled Temporary Layer*
 
 2. A click on btn:[Start] leads to the following error message:
 +
