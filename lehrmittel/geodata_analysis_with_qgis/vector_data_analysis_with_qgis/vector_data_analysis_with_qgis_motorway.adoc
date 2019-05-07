@@ -158,7 +158,7 @@ the background for the layers are called as required,
 but the layers are listed as "buffered" in QGIS.
 Rename them accordingly.
 
-.QGIS-Dialog zu Puffer.
+.QGIS Buffer Dialog.
 image::02_qgis-puffer-dialog.png[]
 
 
@@ -195,7 +195,7 @@ under the correct name, but integrates it into
 the project itself as "difference".
 Rename it to zone_100_300 if necessary.
 
-.Dialog "`Symmetrische Differenz`".
+.Dialog "`Symmetric difference`".
 image::03_qgis-differenz-dialog.png[]
 
 Creation of the internal zone (from the route to 100 m from the motorway).
@@ -450,7 +450,7 @@ The following files must now be present:
   conflict zones from the point of view of biotope and species protection.
 
 [[endergebnis-image]]
-.Darstellung des des Analyse-Ergebnisses in einem Beispiel-Layout.
+.Representation of the analysis result in an example layout.
 image::10_endergebnis.png[]
 
 ■
