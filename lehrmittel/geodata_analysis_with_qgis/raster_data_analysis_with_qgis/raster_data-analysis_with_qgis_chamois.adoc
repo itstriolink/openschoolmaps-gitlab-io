@@ -269,7 +269,7 @@ Start the raster calculator with btn:[OK].
 image::05_dhm_rastercalc_bsp.png[]
 
 We can now check whether all the desired points have retained
-their value by clicking on `query objects`
+their value by clicking on "`query objects`"
 (the "`i`"-icon) and click with the mouse into the window:
 For black raster cells (pixels) the value 0 is displayed and
 for grey cells a value between 1500 m. a.s.l. and 2500 m. a.s.l. is displayed.
