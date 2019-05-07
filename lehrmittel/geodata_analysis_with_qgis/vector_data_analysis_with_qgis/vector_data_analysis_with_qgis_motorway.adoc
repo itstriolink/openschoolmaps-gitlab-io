@@ -341,7 +341,7 @@ the same time by motorway construction.
 
 1. With the menu option "Vector > Geoprocessing
 Tools > Intersection..." you intersect both layers.
-** "Input Layer": zones
+** "`Input Layer`": zones
 ** "`Layer overlay`": valuable
 ** Target layer: *Untitled Temporary Layer*
 
@@ -390,7 +390,7 @@ Make sure that the name specified in the
 the attribute table of the layer. (Menu "Layer
 > Open Attribute Table") click on the "`Field Calculator`"
 in the upper right corner.
-This allows you to create a new field based on an "expression".
+This allows you to create a new field based on an "`expression`".
 Use the following expression to use QGIS to calculate the area
 of our polygon, which is then divided by 100 to convert
 the square meters to ares.
