@@ -342,7 +342,7 @@ the same time by motorway construction.
 1. With the menu option "Vector > Geoprocessing
 Tools > Intersection..." you intersect both layers.
 ** "Input Layer": zones
-** "`Layer overlay`: valuable
+** "`Layer overlay`": valuable
 ** Target layer: *Untitled Temporary Layer*
 
 2. A click on btn:[Start] leads to the following error message:
@@ -363,11 +363,11 @@ from "`Stop algorithm execution on invalid geometry`" to
 3. Now repeat the blending operation.
 Now it should succeed.
 The error message comes anyway, but with
-"`finished`" instead of "failed`".
+"`finished`" instead of "`failed`".
 
 4. The resulting layer has probably been
 included in QGIS under the name "`intersection`".
-Rename it `intersect_valueful`.
+Rename it "`intersect_valueful`".
 
 5. Open the attribute table of the new layer.
 The values of the "`fid`"-column of the 2nd input layer
@@ -433,7 +433,7 @@ types in the impairment zones or the conflict zones as a map.
 9. Now you can create a map which shows the valuable biotope types affected by
    the motorway construction and additionally highlights the ffh_typ_nr.
 10. Create a map layout and export it as PDF. 
-    (Activate before under General: "`Print as Raster`")
+    (Before doing this, activate "`Print as Raster`" under General)
 11. You can see an example of a possible map display on the following page.
     But you don't have to create a layout with two cards.
     It is enough if you decide on a content statement and visualize
