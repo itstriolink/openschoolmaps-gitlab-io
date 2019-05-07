@@ -187,7 +187,7 @@ If you want, you can give the classes a meaningful
 image::02_perspective_colors.png[]
 
 When you have made all the settings, 
-go to the `Transparency` tab. (below tab "`Symbolisation`").
+go to the "`Transparency`" tab. (below tab "`Symbolisation`").
 Here we set the global transparency to e.g. 50%
 so that you can still see the shading
 under the coloured alignment map.
@@ -203,7 +203,7 @@ are now visualized by different colors.
 
 image::02_perspective_final.png[]
 
-== Neigungskarte
+== Slope map
 With the function "`slope`" (menu menu:menu:Raster[Analysis > Slope])
 you can display the slope of a terrain coded as raster/grid.
 For this exercise we want to express the gradient
