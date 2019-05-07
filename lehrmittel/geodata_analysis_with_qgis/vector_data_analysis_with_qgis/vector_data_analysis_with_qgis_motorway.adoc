@@ -333,7 +333,7 @@ image::06_qgis-abfrage-ergebnis.png[]
 
 The next step is to identify those areas of nature conservation
 value that are located in the three impaired zones.
-You're using the `intersection` tool to intersect
+You're using the "`intersection`" tool to intersect
 the layers valuable and zones with each other.
 The resulting layer contains only areas which are valuable for
 nature conservation and which are destroyed or impaired at
