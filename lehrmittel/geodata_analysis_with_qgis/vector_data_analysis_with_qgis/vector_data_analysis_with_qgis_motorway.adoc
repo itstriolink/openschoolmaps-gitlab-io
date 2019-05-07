@@ -252,14 +252,14 @@ you can determine the area of differently rated biotope
 types in the impairment zones.
 Edit the attribute table in the layer properties
 
-1. Open the context menu of the layer "Zones" and choose menu:Properties...[].
-2. In the layer properties window, select the "Source fields" tab.
+1. Open the context menu of the layer "zones" and choose menu:Properties...[].
+2. In the layer properties window, select the "source fields" tab.
 3. Activate the editing mode (button with the pen)
 4. Delete all fields except "`layer`" and "`fid`".
 5. Rename the field "`layer`" to "`zone`".
 6. Close the Layer Properties window with btn:[OK].
-7. Open the context menu of the layer "Zones" and
-   choose menu:Open attribute table{sp}[].
+7. Open the context menu of the layer "zones" and
+   choose menu:Open{sp}attribute{sp}table[].
 8. Change the values in the `zone` column as follows:
 ** route_20 -> Route
 ** zone_100 -> Inside
