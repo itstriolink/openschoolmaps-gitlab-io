@@ -204,11 +204,11 @@ are now visualized by different colors.
 image::02_perspective_final.png[]
 
 == Slope map
-With the function "`slope`" (menu menu:menu:Raster[Analysis > Slope])
+With the function "`slope`" (menu menu:Raster[Analysis > Slope])
 you can display the slope of a terrain coded as raster/grid.
 For this exercise we want to express the gradient
 in percent instead of degrees (see below).
-As input file, select the layer "`dhm_rimini`"again
+As input file, select the layer "`dhm_rimini`" again
 and enter the output file `slope.tif` in the exercise data folder.
 Then btn:[Start].
 
