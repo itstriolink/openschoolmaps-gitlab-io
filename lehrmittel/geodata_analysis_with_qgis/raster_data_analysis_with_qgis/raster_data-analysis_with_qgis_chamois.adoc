@@ -198,7 +198,7 @@ Then click on btn:[Ok] (the dialog closes).
 
 The result should look like the one shown below.
 If you've set other colors, it's no big deal.
-The main thing is that the points of the compass
+The main thing is that the cardinal directions
 are now visualized by different colors.
 
 image::02_perspective_final.png[]
