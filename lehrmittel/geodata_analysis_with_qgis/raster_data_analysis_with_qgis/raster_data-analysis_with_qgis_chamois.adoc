@@ -338,7 +338,7 @@ a singleband pseudocolor or palette:
 
 image::09_gut_fuer_gaemsi_bsp.png[]
 
-Now we know where the chamois presumably "live"!
+Now we know where the chamois presumably live!
 At least according to our data and assumptions.
 
 For this exercise are now so far satisfied.
