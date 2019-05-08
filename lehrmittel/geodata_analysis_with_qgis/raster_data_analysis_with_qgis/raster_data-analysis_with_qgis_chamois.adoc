@@ -228,7 +228,7 @@ We are looking for those areas that meet the following criteria:
 2. Areas steeper than 20%.
 3. South slope areas, i.e. areas with a south-east to south-west orientation.
 4. Areas with the use of meadow and arable land, 
-   home pastures, Maiensässe, hay alps, 
+   home pastures, spring pastures (Ger. "Maiensässe"), hay alps, 
    mountain pastures, alpine pastures.
 
 In order to meet these requirements, we now 
@@ -309,7 +309,7 @@ Then btn:[Ok].
 For the fourth and last criterion we take the layer "`as85`".
 The different types of terrain are stored in this as a code (integer).
 We are only interested in those areas which have the following uses:
-Meadow and farmland, home pastures, Maiensässe, 
+Meadow and farmland, home pastures, spring pastures (Ger. "Maiensässe"), 
 hay alps, mountain meadows, alpine and Jura pastures.
 These correspond to codes 8, 9, 10 and 11.
 Filter the layer "`as85`" according to these codes.
