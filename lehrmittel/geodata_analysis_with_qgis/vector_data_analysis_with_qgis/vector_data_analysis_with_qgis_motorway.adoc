@@ -25,7 +25,7 @@ the German Lichtenau plateau without using the original data.
 * Introduction to geodata processing
 * Working with buffers and intersections
 
-.Reference
+.Source
 This task is mainly based on http://www.gkg-kassel.de/pdf/aufgabe_6.pdf[Task 6] 
 of the course "`Introduction into GIS and digital cartography`" 
 by http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
