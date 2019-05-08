@@ -22,7 +22,7 @@ the German Lichtenau plateau without using the original data.
 .Contents
 
 * Effects of a motorway section on habitat types
-* Access to geodata processing
+* Introduction to geodata processing
 * Working with buffers and intersections
 
 .Reference
