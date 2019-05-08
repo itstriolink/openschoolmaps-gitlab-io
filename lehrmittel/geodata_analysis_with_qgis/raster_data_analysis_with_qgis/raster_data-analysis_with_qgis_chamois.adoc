@@ -320,7 +320,7 @@ Remember to set the custom transparency for each layer to
 100 percent for the values from 0 to 0 (see Layer Properties).
 
 Try this for all steps.
-If you don't get anywhere, the next 
+In case you're stuck, the next 
 chapter describes each step with a solution and screenshots.
 
 Now you've made all the necessary calculations.
