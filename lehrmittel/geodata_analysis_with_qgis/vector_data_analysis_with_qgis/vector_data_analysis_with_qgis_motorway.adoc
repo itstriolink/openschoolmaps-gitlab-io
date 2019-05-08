@@ -41,7 +41,7 @@ and legally protected biotope types.
 The working data are polygon vector data (layer "`environment`" in geopackage
 `autobahn_inputs.gpkg`) with the results of a biotope type and usage mapping,
 lines vector data (layer "`autobahn_central line`" in geopackage
-`autobahn_inputs`).gpkg`) with the central line of a fictitious motorway
+`autobahn_inputs.gpkg`) with the central line of a fictitious motorway
 route and the topographic map 1:25'000 (Tk25) (file `heli.tif`) as background.
 
 In the functional data table of "environment", 
