@@ -418,6 +418,6 @@ Here is the solution for the raster calculator expression:
 
 image::09_gut_fuer_gaemsi.png[]
 
-The resulting result is shown at the end of the previous chapter.
+The result is shown at the end of the previous chapter.
 
 ■
