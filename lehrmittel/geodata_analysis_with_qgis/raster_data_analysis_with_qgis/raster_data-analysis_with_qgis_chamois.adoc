@@ -170,7 +170,7 @@ and the number of classes to 5.
 An orientation map contains as value an angle (in degrees °),
 which represents the orientation of the terrain.
 We want to assign different colors to the
-four main directions (N, O, S, W).
+four main directions (N, E, S, W).
 The result of the operation used corresponds to 0° north (N).
 Values close to 0° therefore indicate a north slope.
 But also values close to 360° represent northern slopes.
@@ -182,7 +182,7 @@ to the remaining three classes,
 e.g. red, yellow, green.
 
 If you want, you can give the classes a meaningful
-"label", e.g. N, O, S, W (and again N).
+"label", e.g. N, E, S, W (and again N).
 
 image::02_perspective_colors.png[]
 
