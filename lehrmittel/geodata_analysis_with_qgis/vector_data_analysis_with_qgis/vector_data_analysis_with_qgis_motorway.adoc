@@ -35,7 +35,7 @@ by http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
 
 The goal of this exercise is to assess the impact of motorway construction
 on habitat types Fauna-Flora-Habitat (FFH for short, a European legislative directive,
-see https://de.wikipedia.org/wiki/Richtlinie_92/43/EWG_(Fauna-Flora-Habitat-Richtlinie)[Wikipedia])
+see https://en.wikipedia.org/wiki/European_Community_Habitats_Directive[Wikipedia])
 and legally protected biotope types.
 
 The working data are polygon vector data (layer "`environment`" in geopackage
