@@ -81,6 +81,8 @@ and change the project's coordinate reference
 system to the old Swiss coordinate
 reference system EPSG:21781.
 
+<<<
+
 == Import
 To load the two input files `as85.txt` and `dhm_rimini.txt`
 you can either drag and drop them into the QGIS or open the 
