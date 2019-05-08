@@ -3,7 +3,6 @@ OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/vektordaten-analyse_autobahn
 :experimental:
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 Impact assessment of a motorway construction with QGIS 3
