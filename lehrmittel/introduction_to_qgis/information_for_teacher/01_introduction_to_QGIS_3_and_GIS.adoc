@@ -1,7 +1,6 @@
 = Teacher information on "Introduction to QGIS 3 and GIS
 OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A handout for interested people and teachers*

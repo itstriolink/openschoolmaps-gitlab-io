@@ -1,14 +1,13 @@
-= Practice/Exercise: Room Analysis Raster Data - Where The Chamois Live
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+= Practice/Exercise: Spatial Analysis Raster Data - Where The Chamois Live
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/rasterdaten-analyse_gaemsen
 :experimental:
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 A multi-criteria raster analysis with QGIS 3
 
-.Image CC BY-SA 4.0 Paul Hermans. (Quelle: https://commons.wikimedia.org/wiki/File:Gemse01.JPG)
+.Image CC BY-SA 4.0 Paul Hermans. (Source: https://commons.wikimedia.org/wiki/File:Gemse01.JPG)
 [caption=""]
 image::000_titelbild.png[]
 
@@ -170,7 +169,7 @@ and the number of classes to 5.
 An orientation map contains as value an angle (in degrees °),
 which represents the orientation of the terrain.
 We want to assign different colors to the
-four main directions (N, O, S, W).
+four main directions (N, E, S, W).
 The result of the operation used corresponds to 0° north (N).
 Values close to 0° therefore indicate a north slope.
 But also values close to 360° represent northern slopes.
@@ -182,7 +181,7 @@ to the remaining three classes,
 e.g. red, yellow, green.
 
 If you want, you can give the classes a meaningful
-"label", e.g. N, O, S, W (and again N).
+"label", e.g. N, E, S, W (and again N).
 
 image::02_perspective_colors.png[]
 
@@ -198,7 +197,7 @@ Then click on btn:[Ok] (the dialog closes).
 
 The result should look like the one shown below.
 If you've set other colors, it's no big deal.
-The main thing is that the points of the compass
+The main thing is that the cardinal directions
 are now visualized by different colors.
 
 image::02_perspective_final.png[]
@@ -228,7 +227,7 @@ We are looking for those areas that meet the following criteria:
 2. Areas steeper than 20%.
 3. South slope areas, i.e. areas with a south-east to south-west orientation.
 4. Areas with the use of meadow and arable land, 
-   home pastures, Maiensässe, hay alps, 
+   home pastures, spring pastures (Ger. "Maiensässe"), hay alps, 
    mountain pastures, alpine pastures.
 
 In order to meet these requirements, we now 
@@ -309,7 +308,7 @@ Then btn:[Ok].
 For the fourth and last criterion we take the layer "`as85`".
 The different types of terrain are stored in this as a code (integer).
 We are only interested in those areas which have the following uses:
-Meadow and farmland, home pastures, Maiensässe, 
+Meadow and farmland, home pastures, spring pastures (Ger. "Maiensässe"), 
 hay alps, mountain meadows, alpine and Jura pastures.
 These correspond to codes 8, 9, 10 and 11.
 Filter the layer "`as85`" according to these codes.
@@ -320,7 +319,7 @@ Remember to set the custom transparency for each layer to
 100 percent for the values from 0 to 0 (see Layer Properties).
 
 Try this for all steps.
-If you don't get anywhere, the next 
+In case you're stuck, the next 
 chapter describes each step with a solution and screenshots.
 
 Now you've made all the necessary calculations.
@@ -338,7 +337,7 @@ a singleband pseudocolor or palette:
 
 image::09_gut_fuer_gaemsi_bsp.png[]
 
-Now we know where the chamois presumably "live"!
+Now we know where the chamois presumably live!
 At least according to our data and assumptions.
 
 For this exercise are now so far satisfied.
@@ -418,6 +417,6 @@ Here is the solution for the raster calculator expression:
 
 image::09_gut_fuer_gaemsi.png[]
 
-The resulting result is shown at the end of the previous chapter.
+The result is shown at the end of the previous chapter.
 
 ■

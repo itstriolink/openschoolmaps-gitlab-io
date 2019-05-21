@@ -1,9 +1,8 @@
 = Practice/Exercise: Spatial Analysis Vector Data - Motorway
-OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+OpenSchoolMaps.ch -- Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/vektordaten-analyse_autobahn
 :experimental:
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 Impact assessment of a motorway construction with QGIS 3
@@ -22,10 +21,10 @@ the German Lichtenau plateau without using the original data.
 .Contents
 
 * Effects of a motorway section on habitat types
-* Access to geodata processing
+* Introduction to geodata processing
 * Working with buffers and intersections
 
-.Reference
+.Source
 This task is mainly based on http://www.gkg-kassel.de/pdf/aufgabe_6.pdf[Task 6] 
 of the course "`Introduction into GIS and digital cartography`" 
 by http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
@@ -35,7 +34,7 @@ by http://www.gkg-kassel.de[Claas Leiner], Uni Kassel, 2010.
 
 The goal of this exercise is to assess the impact of motorway construction
 on habitat types Fauna-Flora-Habitat (FFH for short, a European legislative directive,
-see https://de.wikipedia.org/wiki/Richtlinie_92/43/EWG_(Fauna-Flora-Habitat-Directive)[Wikipedia])
+see https://en.wikipedia.org/wiki/European_Community_Habitats_Directive[Wikipedia])
 and legally protected biotope types.
 
 The working data are polygon vector data (layer "`environment`" in geopackage
