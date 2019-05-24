@@ -159,7 +159,7 @@ Ein neuer Layer sollte nun hinzugefügt worden sein mit allen Punkten aus dem Au
 Schliesse die offenen Dialogen.
 
 Nun wollen wir die Punkte nach bestimmten Kriterien filtern.
-In unserem Fall filtern wir 'mal nach Bars.
+In unserem Fall filtern wir 'mal nach Bäckereien in Uster (Kanton ZH, Schweiz).
 Natürlich kannst auch nach anderen Punkten filtern.
 
 Um zu Filtern drückst du die rechte Maustaste auf dem Punkte-Layer und wählst _Attributtabelle öffnen_.
@@ -176,7 +176,7 @@ Wobei `other_tags` die Spaltangabe ist, _"amenity"=>"pub"_ der Wert nach dem wir
 
 Mit einem Klick auf _Select features_ werden die Daten selektiert, die der Abfrage entsprechen.
 
-.Nach Bars filtern in QGIS
+.Nach Bäckereien in Uster (Kanton ZH, Schweiz) filtern in QGIS
 image::osm_editieren/osm-daten_beziehen/filtern.png[]
 
 Wenn du nun zurück zur Kartenansicht gehst, sollten die Punkte, die der Abfrage entsprechen, gelb gefärbt sein.
