@@ -132,7 +132,7 @@ Das exportieren der Daten geht etwa 30 Minuten.
 
 == OpenStreetMap-Daten in QGIS importieren oder direkt extrahieren
 
-=== Mit eingebauten QGIS-Tools
+=== Mit eingebauten QGIS-Tools und der OSM.org Website
 
 Mit den eingebauten Tools von QGIS kannst du auch direkt Daten von OpenStreetMap herunterladen und importieren.
 In einem ersten Schritt sollten wir zuerst die Karte von OpenSteetMap als Hintergrund nehmen.
