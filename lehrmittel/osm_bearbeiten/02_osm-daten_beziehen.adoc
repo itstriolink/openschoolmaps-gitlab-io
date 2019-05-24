@@ -166,7 +166,7 @@ Um zu Filtern drückst du die rechte Maustaste auf dem Punkte-Layer und wählst 
 Ein Fenster, im Tabellenformat, mit den Daten vom Layer öffnet sich.
 Öffne das Tool _Objekte über Ausdruck wählen_ mit dem E Symbol oben links im Fenster.
 Schau dir nun nochmals die Tabelle an.
-Um nach Bars zu filtern suchen wir nach dem Schlüsselwort _amenity_.
+Um nach Bäckereien in Uster (Kanton ZH, Schweiz) zu filtern suchen wir nach dem Schlüsselwort _shop_.
 Dieser befindet sich bei uns in der Spalte _Other Tags_.
 Wenn du nach einer anderen Spalte filtern möchtest, gibst du folgende Abfrage in das geöffnte Tool ein: `name = 'UBS'`.
 
