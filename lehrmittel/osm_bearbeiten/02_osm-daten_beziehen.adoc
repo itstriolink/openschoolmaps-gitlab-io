@@ -207,3 +207,17 @@ Jetzt wurde ein Layer erstellt mit den OpenStreetMap-Daten zu Uster, das so auss
 
 .QGIS mit Hintergrundlayer
 image::osm_editieren/osm-daten_beziehen/qgis_with_background.PNG[]
+
+Jetzt geht es darum, die 5 Polygone in Punkte zu verwandeln und diese dann mit den restlichen Punkten zu summieren.
+Um dies zu erreichen gehen wir unter "Vektor" auf "Geometrie-Werkzeuge" und dann auf "Zentroide...".
+Als Eingabelayer wählen wir die Flächen aus.
+
+.Zentroide
+image::osm_editieren/osm-daten_beziehen/zentroide.PNG[]
+
+Wenn wir dann auf "Im Hintergrund ausführen" klicken, ändert sich der Dialog wie folgt:
+
+.Zentroide ausgeführt
+image::osm_editieren/osm-daten_beziehen/zentroide_ausgefuehrt.PNG[]
+
+Nun sehen wir auf der linken Seite einen neuen Layer namens "Zentroide".
