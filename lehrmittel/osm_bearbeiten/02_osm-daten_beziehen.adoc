@@ -138,4 +138,9 @@ Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu importie
 Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
 Zuerst besuche die Overpass-Turbo Website unter: http://overpass-turbo.eu/.
 
+Wenn du die Website das erste Mal besuchst, sieht sie in etwa aus wie folgt:
+
+.Startseite von Overpass-Turbo
+image::osm_editieren/osm-daten_beziehen/startseite.png[]
+
 
