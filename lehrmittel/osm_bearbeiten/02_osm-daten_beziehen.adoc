@@ -183,3 +183,8 @@ Danach gibst du QuickOSM ins Suchfeld ein und installierst es. Das unten abgebil
 .Installation von QuickOSM
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
+Nachdem du QuickOSM installiert hast, kannst du die Abfrage von Overpass-Turbo kopieren.
+
+CAUTION: Wir nehmen die erste Abfrage, welche Overpass-Turbo für uns erzeugt hat. Dies deshalb, da QuickOSM "out center" noch nicht unterstützt.
+
+
