@@ -221,3 +221,7 @@ Wenn wir dann auf "Im Hintergrund ausführen" klicken, ändert sich der Dialog w
 image::osm_editieren/osm-daten_beziehen/zentroide_ausgefuehrt.PNG[]
 
 Nun sehen wir auf der linken Seite einen neuen Layer namens "Zentroide".
+Den alten Layer mit den Polygonen können wir nun löschen. Dann sieht unser QGIS wie folgt aus:
+
+.QGIS mit Zentroide
+image::osm_editieren/osm-daten_beziehen/qgis_mit_zentroide.PNG[]
