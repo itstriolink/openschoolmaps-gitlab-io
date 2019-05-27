@@ -172,3 +172,6 @@ Wenn wir jetzt die oberen Zeilen kopieren und ins Overpass-Turbo als Abfrage ein
 
 .Überarbeitetes Resultat
 image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
+
+Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs bestehen.
+Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone in POIs umgewandelt haben mittels "out center".
