@@ -134,4 +134,8 @@ Das exportieren der Daten geht etwa 30 Minuten.
 
 === Mit Overpass-Turbo (empfohlen)
 
+Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu importieren ist mittels Overpass-Turbo.
+Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
+Zuerst besuche die Overpass-Turbo Website unter: http://overpass-turbo.eu/.
+
 
