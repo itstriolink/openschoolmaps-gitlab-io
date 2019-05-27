@@ -143,10 +143,15 @@ Wenn du die Website das erste Mal besuchst, sieht sie in etwa wie folgt aus:
 .Startseite von Overpass-Turbo
 image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
-Klicke auf den rot markierten Button "Wizard". Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen zu erstellen.
+Klicke auf den rot markierten Button "Wizard". Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
 Da wir als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien und Supermärkten, da beide Brot verkaufen.
 Als Ortschaft nehmen wir als Beispiel Uster. Die Abfrage sieht wie folgt aus:
 
 .Overpass-Turbo Wizard-Abfrage
 image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG[]
+
+Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes:
+
+.Resultat der Wizard-Abfrage
+image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
