@@ -187,4 +187,8 @@ Nachdem du QuickOSM installiert hast, kannst du die Abfrage von Overpass-Turbo k
 
 CAUTION: Wir nehmen die erste Abfrage, welche Overpass-Turbo für uns erzeugt hat. Dies deshalb, da QuickOSM "out center" noch nicht unterstützt.
 
+Nun wählen wir unter "Vektor" in der Menüleiste "QuickOSM" aus. Sobald das QuickOSM-Fenster erschienen ist, wählen wir auf der linken Seite
+"Abfrage" aus. Im grossen Textfeld fügen wir die zuvor aus Overpass-Turbo kopierte Abfrage ein. Danach sollte es bei dir so aussehen:
 
+.QuickOSM Abfrage
+image::osm_editieren/osm-daten_beziehen/abfrage.PNG[]
