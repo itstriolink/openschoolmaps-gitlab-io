@@ -155,3 +155,16 @@ Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes
 .Resultat der Wizard-Abfrage
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
+Das obige Resultat könnte man auch vereinfachen, indem man die "nodes", "ways" und "relations" zu "nwr" zusammenfasst.
+Um nur Punkte zu erhalten, könnte man mittels "out center" alle Flächen und Pfade in Punkte verwandeln.
+Die neue Abfrage würde dann folgendermassen aussehen.
+
+  [out:xml][timeout:25];
+  {{geocodeArea:Uster}}->.searchArea;
+  (
+    nwr["shop"="bakery"](area.searchArea);
+    nwr["shop"="supermarket"](area.searchArea);
+  );
+  out center;
+
+s
