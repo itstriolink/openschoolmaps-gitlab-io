@@ -156,7 +156,7 @@ Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
 Das obige Resultat könnte man auch vereinfachen, indem man die "nodes", "ways" und "relations" zu "nwr" zusammenfasst.
-Unten rechts sieht man rot markiert die verschiedenen Objekte. Wir haben 22 POIs und 5 Polygons. Da wir nur POIs möchten,
+Unten rechts sieht man rot markiert die verschiedenen Objekte. Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten,
 könnten wir mittels "out center" alle Flächen und Pfade in Punkte verwandeln.
 Die neue Abfrage würde dann folgendermassen aussehen.
 
