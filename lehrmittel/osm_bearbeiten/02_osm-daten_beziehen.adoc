@@ -141,6 +141,6 @@ Zuerst besuche die Overpass-Turbo Website unter: http://overpass-turbo.eu/.
 Wenn du die Website das erste Mal besuchst, sieht sie in etwa aus wie folgt:
 
 .Startseite von Overpass-Turbo
-image::osm_editieren/osm-daten_beziehen/startseite.png[]
+image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
 
