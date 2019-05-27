@@ -160,7 +160,7 @@ Unten rechts sieht man rot markiert die verschiedenen Objekte. Wir haben 22 POIs
 könnten wir mittels "out center" alle Flächen und Pfade in Punkte verwandeln.
 Die neue Abfrage würde dann folgendermassen aussehen.
 
-  [out:xml][timeout:25];
+  [out:json][timeout:25];
   {{geocodeArea:Uster}}->.searchArea;
   (
     nwr["shop"="bakery"](area.searchArea);
@@ -168,4 +168,7 @@ Die neue Abfrage würde dann folgendermassen aussehen.
   );
   out center;
 
-s
+Wenn wir jetzt die oberen Zeilen kopieren und ins Overpass-Turbo als Abfrage einfügen und ausführen, erhält man folgendes:
+
+.Überarbeitetes Resultat
+image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
