@@ -176,7 +176,7 @@ image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs bestehen.
 Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone in POIs umgewandelt haben mittels "out center".
 
-Um diese Daten, also die POIs ins QGIS übertragen bedienen wir uns einem Tool namens QuickOSM.
+Um diese Daten, also die POIs, ins QGIS übertragen bedienen wir uns einem Tool namens QuickOSM.
 Falls es auf deinem Rechner noch nicht installiert ist, gehst du unter "Erweiterungen" auf "Erweiterungen verwalten und installieren".
 Danach gibst du QuickOSM ins Suchfeld ein und installierst es. Das unten abgebildete Bild zeigt die Installation.
 
