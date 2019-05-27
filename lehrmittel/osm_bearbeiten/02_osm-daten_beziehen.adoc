@@ -235,6 +235,6 @@ Diese zwei Schritte sehen so aus:
 image::osm_editieren/osm-daten_beziehen/vektorlayer.PNG[]
 
 .Vektorlayer ausgeführt
-image::osm_editieren/osm-daten_beziehen/vektorlayer_ausfuehren.PNG[]
+image::osm_editieren/osm-daten_beziehen/vektorlayer_ausgefuehrt.PNG[]
 
 
