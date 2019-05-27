@@ -243,3 +243,7 @@ Die Resultat sollte dann so aussehen:
 
 .Resultat
 image::osm_editieren/osm-daten_beziehen/fertiges_qgis.PNG[]
+
+=== Direkt aus QGIS (mit Plugin)
+
+
