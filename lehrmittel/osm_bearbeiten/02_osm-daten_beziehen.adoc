@@ -193,3 +193,9 @@ Danach sollte es bei dir so aussehen:
 
 .QuickOSM Abfrage
 image::osm_editieren/osm-daten_beziehen/abfrage.PNG[]
+
+Jetzt haben wir die POIs und Polygone, welche entweder Bäckereien oder Supermärkte in Uster sind, in QGIS importiert.
+Das sollte dann ungefähr so aussehen:
+
+.QGIS ohne Hintergrundlayer
+image::osm_editieren/osm-daten_beziehen/qgis_no_background.PNG[]
