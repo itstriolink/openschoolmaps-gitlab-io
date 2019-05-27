@@ -225,3 +225,16 @@ Den alten Layer mit den Polygonen können wir nun löschen. Dann sieht unser QGI
 
 .QGIS mit Zentroide
 image::osm_editieren/osm-daten_beziehen/qgis_mit_zentroide.PNG[]
+
+Um die Punktelayer zusammenzuführen, müssen wir unter "Vektor" auf "Datenmanagement-Werkzeuge" und dann auf "Vektorlayer Zusammenführen".
+Dann wählen wir als Eingabelayer unsere zwei Punktelayer aus und klicken wieder auf "Im Hintergrund ausführen".
+
+Diese zwei Schritte sehen so aus:
+
+.Vektorlayer 
+image::osm_editieren/osm-daten_beziehen/vektorlayer.PNG[]
+
+.Vektorlayer ausgeführt
+image::osm_editieren/osm-daten_beziehen/vektorlayer_ausfuehren.PNG[]
+
+
