@@ -180,6 +180,6 @@ Um diese Daten, also die POIs ins QGIS übertragen bedienen wir uns einem Tool n
 Falls es auf deinem Rechner noch nicht installiert ist, gehst du unter "Erweiterungen" auf "Erweiterungen verwalten und installieren".
 Danach gibst du QuickOSM ins Suchfeld ein und installierst es. Das unten abgebildete Bild zeigt die Installation.
 
-.QuickOSM
+.Installation von QuickOSM
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
