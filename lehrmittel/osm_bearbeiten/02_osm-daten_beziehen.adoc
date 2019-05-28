@@ -253,7 +253,7 @@ Zuerst lösche den vorher erzeugten Punktelayer und übrig bleibt nur der OSM-La
 .OpenStreetMap in QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
 
-Öffne nun wieder das Plugin QuickOSM unter "Vektor" in der Menüleiste. Dann gibt folgende Abfrage ein:
+Öffne nun wieder das Plugin QuickOSM unter "Vektor" in der Menüleiste. Dann gib folgende Abfrage ein:
 
 .Bakery-Abfrage
 image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
