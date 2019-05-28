@@ -256,3 +256,8 @@ image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
 
 .Bakery-Abfrage
 image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
+
+Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite:
+
+.Supermarket-Abfrage
+image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
