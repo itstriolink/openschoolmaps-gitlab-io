@@ -246,4 +246,8 @@ image::osm_editieren/osm-daten_beziehen/fertiges_qgis.PNG[]
 
 === Direkt aus QGIS (mit Plugin)
 
+Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu importieren und zu verwalten.
+Zuerst lösche den vorher erzeugten Punktelayer und übrig bleibt nur der OSM-Layer. So sollte es aussehen:
 
+.OpenStreetMap in QGIS
+image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
