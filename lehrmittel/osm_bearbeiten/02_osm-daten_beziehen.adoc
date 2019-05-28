@@ -22,15 +22,15 @@ wenn man mit der jeweiligen Thematik schon vertraut ist.
 [NOTE]
 ====
 Bei dieser Anleitung geht es um das reine Nutzen bestehender Daten aus OpenStreetMap.
-Wer selber Daten erfassen will, kann sich mit dem Arbeitsblatt
-"Mit uMap eine thematische Online-Karte erstellen"
-und auf https://learnosm.org/de/ informieren.
+Wer selber Daten erfassen will, kann sich mit den Arbeitsblättern
+"OpenStreetMap bearbeiten" und "Mit uMap eine thematische Online-Karte erstellen" 
+sowie auf https://learnosm.org/de/ informieren.
 ====
 
 == OpenStreetMap-Daten extrahieren und downloaden
 
 Die Daten von OpenStreetMap können in unterschiedlichen Datenformaten auf dem Rechner lokal gespeichert werden.
-Daher werden wir zunächst einige dieser Dateiformaten genauer erläutern.
+Daher werden wir zunächst einige dieser Dateiformate genauer erläutern.
 
 === OpenStreetMap und Geoinformationssysteme
 
@@ -49,29 +49,49 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
-=== OpenStreetMap-Daten länderweise beziehen
+=== OpenStreetMap-Daten von Geofabrik länderweise beziehen
 
-Die Webseite https://geofabrik.de bietet OpenStreetMap-Daten für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
-Die Daten können als `.osm.pbf`, `.shp.zip` oder `.osm.bz2` heruntergeladen werden.
+Die Webseite von Geofabrik http://download.geofabrik.de/ bietet OpenStreetMap-Daten 
+für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
+Die Daten können dort als Shapefiles (`.shp.zip`) oder aber in den 
+OSM-spezifischen Formaten `.osm.pbf` und `.osm.bz2` heruntergeladen werden.
+
 Die Daten sind in einzelne Regionen unterteilt.
 Wenn man auf eine Region klickt, werden die Daten der Länder in dieser Region angezeigt.
 Je nach Land kann man auch noch kleinere Ausschnitte aus dem Land herunterladen.
 Wenn man den Mauszeiger über eine Region oder ein Land hält, sieht man in der Karte auf der rechten Seite der Webseite das jeweilige Gebiet.
 Die Daten auf GeoFabrik werden alle 24 Stunden aktualisert mit den Daten von OpenStreetMap.
 Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat,
-muss man mindestens 1 Tag warten bis sie auch auf Geofabrik verfügbar sind.
+muss man mindestens einen Tag warten bis sie auch auf Geofabrik verfügbar sind.
 Stelle sicher welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
+
+Das Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer ('Feature-Klassen') strukturiert. 
+Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM Tag shop=bakery) 
+oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des 
+"Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
+- oder aber die Daten selber - konsultieren.
+
 
 === OSM.org
 
 Auf https://openstreetmap.org können auch Daten heruntergeladen werden.
-Diese können aber immer nur in kleinen, rechteckigen Abschnitten bezogen werden und nur im `OSM XML`-Format.
+Diese können aber nur als quadratische Ausschnitte und bis max. 50'000 Nodes 
+bezogen werden und zudem nur im `OSM XML`-Format.
 
 === HOTOSM
 
 Das Humanitarian OpenStreetMap Team (HOT) bietet auch einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
 Um HOTOSM zu verwenden brauchst du lediglich einen OpenStreetMap Benutzerkonto und eine gültige E-Mail Adresse um die Daten herunterzuladen.
-Nach dem Anmelden hat man auf der linken Seite die Exporteinstellungen und auf der rechten Seite die Karte, die man exportieren möchte.
+Nach dem Anmelden sieht man folgendes
+
+# Exportbeschreibung
+# Formate
+# Data
+# Summary 
+
+Tabulator 1 und 3 sollen nachfolgend etwas genauer beschrieben werden.
+
+Bei Tabulator 1  sieht man auf der linken Seite die Exporteinstellungen und auf der rechten Seite die Karte, die man exportieren möchte.
 
 .Export von HOTOSM
 image::osm_editieren/osm-daten_beziehen/hotosm.png[]
@@ -106,13 +126,15 @@ Die einfachste Version verlangt nur eine Typangabe und eine Liste mit den Koordi
 .Format der JSON-Datei für HOTOSM
 image::osm_editieren/osm-daten_beziehen/json_format.png[]
 
-=== BBBike
+Bei Tabulator 2 wählst du das Format, z.B. GeoPackage oder OSM.pbf. 
 
-BBBike bietet die Daten von Planet.osm in vielen verschiedenen Dateiformaten an.
-Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
-Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512mb als Datei.
-Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
-Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
+Bei Tabulator 3  wählst du die GIS-Layer wie beispielsweise "supermarket" oder 
+weitere Layer wie beispielsweise alle "Buildings". Wenn du damit zufrieden bist, 
+kannst du mit "Nächstes" zum Tabulaor 4 "Summary" vorrücken und den Export erstellen.
+
+Wenn du nach Bakery suchst, wird es nicht gefunden. Es ist aber möglich, das zu konfigurieren.
+
+TODO
 
 === OSMaxx
 
@@ -128,11 +150,24 @@ Dazu kann man ein Viereck oder ein Polygon über die Karte zeichnen.
 Es kann widerum ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
 welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt werden sollen.
 
-Das exportieren der Daten geht etwa 30 Minuten.
+Das Exportieren der Daten geht etwa 45 Minuten. 
+
+Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum Beispiel
+Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema dokumentiert ist.
+
+=== BBBike
+
+BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen verschiedenen Dateiformaten an.
+Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
+Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512mb als Datei.
+Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
+Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
+Die Dokumentation des Schemas, das hinter den GIS-Formaten wie z.B. GeoPackage oder 
+Shapefile findest du hier: TODO
 
 == OpenStreetMap-Daten in QGIS importieren oder direkt extrahieren
 
-=== Mit Overpass-Turbo (empfohlen)
+=== Mit Overpass-Turbo
 
 Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu importieren ist mittels Overpass-Turbo.
 Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
@@ -155,7 +190,8 @@ Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes
 .Resultat der Wizard-Abfrage
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
-Das obige Resultat könnte man auch vereinfachen, indem man die "nodes", "ways" und "relations" zu "nwr" zusammenfasst.
+Das obige Resultat könnte man auch vereinfachen, indem man die "nodes", "ways" und 
+"relations" zu "nwr" (=noses/ways/relations) ersetzt bzw. zusammenfasst.
 Unten rechts sieht man rot markiert die verschiedenen Objekte. Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten,
 könnten wir mittels "out center" alle Flächen und Pfade in Punkte verwandeln.
 Die neue Abfrage würde dann folgendermassen aussehen.
@@ -176,6 +212,13 @@ image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs bestehen.
 Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone mittels "out center" in POIs umgewandelt haben und 
 Overpass diese 5 neuen POIs zu den bestehenden 22 POIs addiert hat.
+
+Nun speichern als GeoJSON... TODO.
+
+Laden GeoJSON in QGIS und dann das GeoJSON als als GeoPackage und gleich auch im Ziel-Koordinatensystem speichern. TODO
+
+
+TODO => Nach QuickOSM verschieben.
 
 Um diese Daten, also die POIs, ins QGIS zu übertragen, bedienen wir uns einem Tool namens QuickOSM.
 Falls es auf deinem Rechner noch nicht installiert ist, gehst du unter "Erweiterungen" auf "Erweiterungen verwalten und installieren".
