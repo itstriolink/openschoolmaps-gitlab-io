@@ -239,7 +239,7 @@ image::osm_editieren/osm-daten_beziehen/vektorlayer_ausgefuehrt.PNG[]
 
 Nun haben wir in der linken Layermaske einen neuen Layer namens "zusammengeführt" erhalten.
 Die alten Punktelayer können wir löschen und dem neuen einen passenden Namen geben, beispielsweise "Brotverkaufsstellen".
-Die Resultat sollte dann so aussehen:
+Das Resultat sollte dann so aussehen:
 
 .Resultat
 image::osm_editieren/osm-daten_beziehen/fertiges_qgis.PNG[]
