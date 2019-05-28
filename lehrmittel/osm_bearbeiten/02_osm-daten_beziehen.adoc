@@ -274,3 +274,5 @@ Danach sollte dein QGIS so aussehen, wobei ich die Namen der Punkte umbenannt ha
 
 .Polygonlayer umgewandelt
 image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
+
+
