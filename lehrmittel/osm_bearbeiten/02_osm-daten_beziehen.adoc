@@ -261,3 +261,8 @@ Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite:
 
 .Supermarket-Abfrage
 image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
+
+Nun solltest du folgende Layer haben:
+
+.Ergebnisse der QuickOSM-Abfragen
+image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
