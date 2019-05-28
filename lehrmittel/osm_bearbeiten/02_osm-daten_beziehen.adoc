@@ -275,4 +275,8 @@ Danach sollte dein QGIS so aussehen, wobei ich die Namen der Punkte umbenannt ha
 .Polygonlayer umgewandelt
 image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
 
+Da wir jetzt vier Punktelayer haben, müssen wir diese nun zusammenführen. Dazu gehe unter "Vektor" zu "Datenmanagement-Werkzeuge" und 
+dann zu "Vektorlayer zusammenführen". Im Dialogfenster wählst du die vier Layer aus:
 
+.Layer zusammenführen
+image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
