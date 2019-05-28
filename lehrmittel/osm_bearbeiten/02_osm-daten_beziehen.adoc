@@ -201,16 +201,16 @@ Das sollte dann ungefähr so aussehen:
 .QGIS ohne Hintergrundlayer
 image::osm_editieren/osm-daten_beziehen/qgis_no_background.PNG[]
 
-Um Uster als Hintergrund in QGIS zu haben, müssen wir ein weiteres Plug-In installieren.
+Um Uster als Hintergrund in QGIS zu setzen, müssen wir ein weiteres Plugin installieren.
 Wie vorher das QuickOSM installieren wir jetzt "QuickMapServies".
-Sobald es installiert wurd gehen wir unter "Web" auf "QuickMapServies" und wählen dort "OSM" und dann "OSM Standard" aus.$
+Sobald es installiert wurde gehen wir unter "Web" auf "QuickMapServies" und wählen dort "OSM" und dann "OSM Standard" aus. 
 Jetzt wurde ein Layer erstellt mit den OpenStreetMap-Daten zu Uster, das so aussieht:
 
 .QGIS mit Hintergrundlayer
 image::osm_editieren/osm-daten_beziehen/qgis_with_background.PNG[]
 
 Jetzt geht es darum, die 5 Polygone in Punkte zu verwandeln und diese dann mit den restlichen Punkten zu summieren.
-Um dies zu erreichen gehen wir unter "Vektor" auf "Geometrie-Werkzeuge" und dann auf "Zentroide...".
+Um dies zu erreichen, gehen wir unter "Vektor" auf "Geometrie-Werkzeuge" und dann auf "Zentroide...".
 Als Eingabelayer wählen wir die Flächen aus.
 
 .Zentroide
