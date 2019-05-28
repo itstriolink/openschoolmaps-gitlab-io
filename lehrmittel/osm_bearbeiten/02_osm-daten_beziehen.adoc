@@ -280,3 +280,11 @@ dann zu "Vektorlayer zusammenführen". Im Dialogfenster wählst du die vier Laye
 
 .Layer zusammenführen
 image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
+
+Nachdem du es ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
+Die alten Layer brauchst du nun nicht mehr und kannst du somit löschen.
+Dem neuen Layer gibst du einen passenden Namen, beispielsweise "Brotverkaufsstellen".
+Unten siehst du das Ergebnis:
+
+.Ergebnis
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
