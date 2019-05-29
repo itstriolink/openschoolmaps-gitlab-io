@@ -49,7 +49,7 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
-=== OpenStreetMap-Daten von Geofabrik länderweise beziehen
+=== Geofabrik
 
 Die Webseite von Geofabrik http://download.geofabrik.de/ bietet OpenStreetMap-Daten 
 für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
