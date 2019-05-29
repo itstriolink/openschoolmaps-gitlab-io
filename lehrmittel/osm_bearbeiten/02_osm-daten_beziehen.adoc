@@ -243,7 +243,14 @@ Unser QGIS sieht nun so aus:
 image::osm_editieren/osm-daten_beziehen/geoJSON_in_qgis.PNG[]
 
 Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON ändern und dann als GeoPackage speichern.
-Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf "Exportieren" und 
+Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf "Exportieren" und dann wählen wir den 
+obersten Eintrag "Save Feature As...". Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
+Das Format belassen wir als GeoPackage und klicken dann auf "Ok".
+
+Unten siehst du noch das Exportfenster:
+
+.Als .gpkg Exportieren
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
 
 === Direkt aus QGIS (mit Plugin)
 
