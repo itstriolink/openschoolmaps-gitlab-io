@@ -184,7 +184,7 @@ Shapefile steckt, findest du hier:
 
 === Mit Overpass-Turbo
 
-Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu importieren ist mittels Overpass-Turbo.
+Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu importieren, ist mittels Overpass-Turbo.
 Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
 Zuerst besuche die Overpass-Turbo Website unter: http://overpass-turbo.osm.ch/.
 
@@ -241,6 +241,9 @@ Unser QGIS sieht nun so aus:
 
 .GeoJSON in QGIS importiert
 image::osm_editieren/osm-daten_beziehen/geoJSON_in_qgis.PNG[]
+
+Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON ändern und dann als GeoPackage speichern.
+Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf "Exportieren" und 
 
 === Direkt aus QGIS (mit Plugin)
 
