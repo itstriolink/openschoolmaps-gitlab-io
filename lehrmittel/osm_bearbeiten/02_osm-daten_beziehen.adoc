@@ -276,12 +276,13 @@ Das folgende Bild zeigt die Installation des Plugin:
 .QuickOSM Installation
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
-Öffne nun wieder das Plugin QuickOSM unter "Vektor" in der Menüleiste. Dann gib folgende Abfrage ein:
+Nun öffnen wir das Plugin indem wir in der Menüleiste auf "Vektor" und dann auf "Quick OSM" klicken. 
+Danach geben wir folgende Abfrage ein, um nach Bäckereien in Uster zu suchen:
 
 .Bakery-Abfrage
 image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
 
-Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite, da wir ja auch Supermärkte anzeigen wollen:
+Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite Abfrage um nach Supermärkten zu suchen:
 
 .Supermarket-Abfrage
 image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
