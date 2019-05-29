@@ -259,9 +259,22 @@ Sehen wir uns noch eine andere Möglichkeit an OpenStreetMap-Daten in QGIS zu im
 
 Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu importieren und zu verwalten.
 Lösche am besten den vorher erzeugten Layer und fange von Null an, um Verwirrungen zu vermeiden.
+Ich benutze an dieser Stelle einen OSM Standard Layer als Hintergrund, um die Daten anschaulicher zu präsentieren.
+Da ich davon ausgehe, dass du diesen nicht hast, ist nicht weiter schlimm, den er ist nicht zwingend nötig, 
+also kannst du ruhig ohne OSM Standard Layer als Hintergrund das folgende Unterkapitel lesen.
 
-.OpenStreetMap in QGIS
+.QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
+
+Zuerst installieren wir das Plugin namens QuickOSM, womit sich direkt in QGIS Abfragen erstellen lassen.
+Dafür gehen wir in der oberen Menüleiste auf "Erweiterungen" und dann auf "Erweiterungen verwalten und installieren...".
+In das Suchfeld gibst du QuickOSM ein und da es nur ein Plugin unter diesem Namen gibt, sollte dir auch das richtige angezeigt werden.
+Jetzt klickst du auf "Erweiterung installieren" und schon kannst du mit dem Plugin arbeiten.
+
+Das folgende Bild zeigt die Installation des Plugin:
+
+.QuickOSM Installation
+image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
 Öffne nun wieder das Plugin QuickOSM unter "Vektor" in der Menüleiste. Dann gib folgende Abfrage ein:
 
