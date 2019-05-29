@@ -228,7 +228,7 @@ Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs bes
 Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone mittels "out center" in POIs umgewandelt haben und 
 Overpass diese 5 neuen POIs zu den bestehenden 22 POIs addiert hat.
 
-Nun müssen wir die Abfrage noch als GeoJSON abspeichern. Dazu gehe oben links neben "Wizard" auf "Export".
+Nun müssen wir die Abfrage noch als GeoJSON abspeichern. Dazu gehen wir oben links neben "Wizard" auf "Export".
 Das Fenster das erscheint gibt uns verschiedene Exportmöglichkeiten, wir wählen die oberste, also "Speichern als GeoJSON".
 
 .Overpass Export
