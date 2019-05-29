@@ -19,6 +19,24 @@ Alle, die am Erstellen einer eigenen Karte (online, als druckbarer Plan) und die
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit, da man einzelne Abschnitte überspringen kann,
 wenn man mit der jeweiligen Thematik schon vertraut ist.
 
+.Aufbau
+Folgende Themen werden behandelt:
+
+OpenStreetMap-Daten extrahieren und downloaden:
+
+* OpenStreetMap und Geoinformationssysteme
+* Dateiformate
+* Geofabrik
+* OSM.org
+* HOTOSM
+* OSMaxx
+* BBBike
+
+OpenStreetMap-Daten in QGIS importieren oder direkt extrahieren:
+
+* Mit Overpass-Turbo
+* Direkt aus QGIS mit dem QuickOSM-Plugin
+
 [NOTE]
 ====
 Bei dieser Anleitung geht es um das reine Nutzen bestehender Daten aus OpenStreetMap.
