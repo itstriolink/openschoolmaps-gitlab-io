@@ -245,11 +245,6 @@ Danach gibst du QuickOSM ins Suchfeld ein und installierst es. Das unten abgebil
 .Installation von QuickOSM
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
-Danach sollte es bei dir so aussehen:
-
-.QuickOSM Abfrage
-image::osm_editieren/osm-daten_beziehen/abfrage.PNG[]
-
 Jetzt haben wir die POIs und Polygone, welche entweder Bäckereien oder Supermärkte in Uster sind, in QGIS importiert.
 Das sollte dann ungefähr so aussehen:
 
