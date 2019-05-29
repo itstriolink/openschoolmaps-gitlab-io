@@ -105,7 +105,7 @@ Du kannst entweder:
 * Eine Bounding Box selber zeichnen
 * Ein Polygon zeichnen
 * Die aktuelle Ansicht herunterladen
-* Eine geojson Datei hochladen
+* Eine GeoJSON Datei hochladen
 
 Für die ersten zwei Möglichkeiten, muss nur das Suchfeld genutzt werden.
 Entweder die gewünschte Ortschaft eingeben oder eine Bounding Box (Westen, Süden, Osten, Norden) angeben.
@@ -114,13 +114,13 @@ Um eine Bounding Box oder ein Polygon zu zeichnen muss auf der rechten Seite der
 
 Um die aktuelle Ansicht herunterzuladen muss auf die Schaltfläche _This View_ gedrückt werden.
 
-Wenn du eine geojson Datei hochladen möchtest, kannst du dies mit der Schaltfläche _Import_ machen.
+Wenn du eine GeoJSON Datei hochladen möchtest, kannst du dies mit der Schaltfläche _Import_ machen.
 Eine Webseite die sich dafür eignet ist http://geojson.io.
 
 CAUTION: Achte darauf, dass du keine Multipolygone hochlädst
 
-Nachdem du deine geojson Datei erstellt hast mit z.b http://geojson.io musst du sie noch für HOTOSM anpassen.
-Kopiere dir dazu das geojson in einen Texteditor.
+Nachdem du deine GeoJSON Datei erstellt hast mit z.b http://geojson.io musst du sie noch für HOTOSM anpassen.
+Kopiere dir dazu das GeoJSON in einen Texteditor.
 Die einfachste Version verlangt nur eine Typangabe und eine Liste mit den Koordinaten:
 
 .Format der JSON-Datei für HOTOSM
