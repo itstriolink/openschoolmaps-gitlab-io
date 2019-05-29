@@ -235,6 +235,12 @@ Das Fenster das erscheint gibt uns verschiedene Exportmöglichkeiten, wir wähle
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
 
 Das heruntergeladene GeoJSON File fügen wir nun mittels drag & drop in das linke Layermenü in QGIS ein.
+Zusätzlich benennen wir es passend um, beispielsweise "Brotverkaufsstellen".
+
+Unser QGIS sieht nun so aus:
+
+.GeoJSON in QGIS importiert
+image::osm_editieren/osm-daten_beziehen/geoJSON_in_qgis.PNG[]
 
 === Direkt aus QGIS (mit Plugin)
 
