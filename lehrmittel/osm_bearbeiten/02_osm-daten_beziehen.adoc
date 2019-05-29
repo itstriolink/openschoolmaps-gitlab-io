@@ -146,7 +146,7 @@ Das Ergebnis sieht dann so aus:
 .Konfigurieren des YAML
 image::osm_editieren/osm-daten_beziehen/hotExportTool_yaml.PNG[]
 
-Sobald du das gemacht hast, kannst du zu Tabulator 4 wechseln und den Export erstellen.
+Sobald du das gemacht hast, kannst du wieder zu Tabulator 4 wechseln und den Export erstellen.
 
 === OSMaxx
 
