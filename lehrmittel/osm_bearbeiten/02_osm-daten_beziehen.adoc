@@ -236,65 +236,6 @@ image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
 
 Das heruntergeladene GeoJSON File fügen wir nun mittels drag & drop in das linke Layermenü in QGIS ein.
 
-TODO => Nach QuickOSM verschieben.
-
-Um diese Daten, also die POIs, ins QGIS zu übertragen, bedienen wir uns einem Tool namens QuickOSM.
-Falls es auf deinem Rechner noch nicht installiert ist, gehst du unter "Erweiterungen" auf "Erweiterungen verwalten und installieren".
-Danach gibst du QuickOSM ins Suchfeld ein und installierst es. Das unten abgebildete Bild zeigt die Installation.
-
-.Installation von QuickOSM
-image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
-
-Jetzt haben wir die POIs und Polygone, welche entweder Bäckereien oder Supermärkte in Uster sind, in QGIS importiert.
-Das sollte dann ungefähr so aussehen:
-
-.QGIS ohne Hintergrundlayer
-image::osm_editieren/osm-daten_beziehen/qgis_no_background.PNG[]
-
-Um Uster als Hintergrund in QGIS zu setzen, müssen wir ein weiteres Plugin installieren.
-Wie vorher das QuickOSM installieren wir jetzt "QuickMapServies".
-Sobald es installiert wurde gehen wir unter "Web" auf "QuickMapServies" und wählen dort "OSM" und dann "OSM Standard" aus. 
-Jetzt wurde ein Layer erstellt mit den OpenStreetMap-Daten zu Uster, das so aussieht:
-
-.QGIS mit Hintergrundlayer
-image::osm_editieren/osm-daten_beziehen/qgis_with_background.PNG[]
-
-Jetzt geht es darum, die 5 Polygone in Punkte zu verwandeln und diese dann mit den restlichen Punkten zu summieren.
-Um dies zu erreichen, gehen wir unter "Vektor" auf "Geometrie-Werkzeuge" und dann auf "Zentroide...".
-Als Eingabelayer wählen wir die Flächen aus.
-
-.Zentroide
-image::osm_editieren/osm-daten_beziehen/zentroide.PNG[]
-
-Wenn wir dann auf "Im Hintergrund ausführen" klicken, ändert sich der Dialog wie folgt:
-
-.Zentroide ausgeführt
-image::osm_editieren/osm-daten_beziehen/zentroide_ausgefuehrt.PNG[]
-
-Nun sehen wir auf der linken Seite einen neuen Layer namens "Zentroide".
-Den alten Layer mit den Polygonen können wir nun löschen. Dann sieht unser QGIS wie folgt aus:
-
-.QGIS mit Zentroide
-image::osm_editieren/osm-daten_beziehen/qgis_mit_zentroide.PNG[]
-
-Um die Punktelayer zusammenzuführen, müssen wir unter "Vektor" auf "Datenmanagement-Werkzeuge" und dann auf "Vektorlayer Zusammenführen".
-Dann wählen wir als Eingabelayer unsere zwei Punktelayer aus und klicken wieder auf "Im Hintergrund ausführen".
-
-Diese zwei Schritte sehen so aus:
-
-.Vektorlayer 
-image::osm_editieren/osm-daten_beziehen/vektorlayer.PNG[]
-
-.Vektorlayer ausgeführt
-image::osm_editieren/osm-daten_beziehen/vektorlayer_ausgefuehrt.PNG[]
-
-Nun haben wir in der linken Layermaske einen neuen Layer namens "zusammengeführt" erhalten.
-Die alten Punktelayer können wir löschen und dem neuen einen passenden Namen geben, beispielsweise "Brotverkaufsstellen".
-Das Endergebnis sollte dann so aussehen:
-
-.Endergebnis
-image::osm_editieren/osm-daten_beziehen/fertiges_qgis.PNG[]
-
 === Direkt aus QGIS (mit Plugin)
 
 Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu importieren und zu verwalten.
