@@ -325,8 +325,8 @@ image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
 
 Nachdem du es ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
 Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
-Dem neuen Layer gibst du einen passenden Namen, beispielsweise "Brotverkaufsstellen".
-Unten siehst du das Endergebnis dieser zweiten Methode:
+Der neue Layer trägt den Namen "Zusammengeführt". Es wäre sinnvoll, wenn du ihn noch umbenennen würdest.
+Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) nicht umbenannt wurde:
 
 .Endergebnis
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
