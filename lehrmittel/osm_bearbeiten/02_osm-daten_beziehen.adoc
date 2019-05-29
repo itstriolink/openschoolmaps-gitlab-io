@@ -234,8 +234,7 @@ Das Fenster das erscheint gibt uns verschiedene Exportmöglichkeiten, wir wähle
 .Overpass Export
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
 
-Laden GeoJSON in QGIS und dann das GeoJSON als als GeoPackage und gleich auch im Ziel-Koordinatensystem speichern. TODO
-
+Das heruntergeladene GeoJSON File fügen wir nun mittels drag & drop in das linke Layermenü in QGIS ein.
 
 TODO => Nach QuickOSM verschieben.
 
