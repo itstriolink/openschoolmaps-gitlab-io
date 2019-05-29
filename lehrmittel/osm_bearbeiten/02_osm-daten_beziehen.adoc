@@ -84,10 +84,10 @@ Das Humanitarian OpenStreetMap Team (HOT) bietet auch einen Online-Service an, u
 Um HOTOSM zu verwenden brauchst du lediglich einen OpenStreetMap Benutzerkonto und eine gültige E-Mail Adresse um die Daten herunterzuladen.
 Nach dem Anmelden sieht man folgendes
 
-# Exportbeschreibung
-# Formate
-# Data
-# Summary 
+* Exportbeschreibung
+* Formate
+* Data
+* Summary 
 
 Tabulator 1 und 3 sollen nachfolgend etwas genauer beschrieben werden.
 
