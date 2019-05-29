@@ -134,7 +134,19 @@ kannst du mit "Nächstes" zum Tabulaor 4 "Summary" vorrücken und den Export ers
 
 Wenn du nach Bakery suchst, wird es nicht gefunden. Es ist aber möglich, das zu konfigurieren.
 
-d
+Um noch zusätzlich Bakeries zu konfigurieren, bleiben wir auf Tabulator 3 und gehen noch nicht 
+zu Tabulator 4. Wir befinden uns im Register "Tag Tree" und wechseln zu "YAML".
+
+In der WHERE-Bedingung, also in den Zeilen nach "where:" sehen wir eine Zeile mit "shop=supermarket".
+Neben dieser Zeile schreiben wir einfach "shop=bakery" dazu und verknüpfen dies mit dem OR-Operator.
+
+Das müssen wir zweimal machen, einmal für planet_osm_point und einmal für planet_osm_polygon.
+Das Ergebnis sieht dann so aus:
+
+.Konfigurieren des YAML
+image::osm_editieren/osm-daten_beziehen/hotExportTool_yaml.PNG[]
+
+Sobald du das gemacht hast, kannst du zu Tabulator 4 wechseln und den Export erstellen.
 
 === OSMaxx
 
