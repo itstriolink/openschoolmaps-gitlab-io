@@ -162,7 +162,7 @@ Das müssen wir zweimal machen, einmal für planet_osm_point und einmal für pla
 Das Ergebnis sieht dann so aus:
 
 .Konfigurieren des YAML
-image::osm_editieren/osm-daten_beziehen/hotExportTool_yaml.PNG[]
+image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Sobald du das gemacht hast, kannst du wieder zu Tabulator 4 wechseln und den Export erstellen.
 
