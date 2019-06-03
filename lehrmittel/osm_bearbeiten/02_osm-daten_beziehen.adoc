@@ -144,27 +144,50 @@ Die einfachste Version verlangt nur eine Typangabe und eine Liste mit den Koordi
 .Format der JSON-Datei für HOTOSM
 image::osm_editieren/osm-daten_beziehen/json_format.png[]
 
-Bei Tabulator 2 wählst du das Format, z.B. GeoPackage oder OSM.pbf. 
+Bei Tabulator 2 wählst du das Format, z.B. GeoPackage oder OSM.pbf.
 
-Bei Tabulator 3  wählst du die GIS-Layer wie beispielsweise "supermarket" oder 
-weitere Layer wie beispielsweise alle "Buildings". Wenn du damit zufrieden bist, 
-kannst du mit "Nächstes" zum Tabulaor 4 "Summary" vorrücken und den Export erstellen.
+.HOT Export Tool Tab 2
+image::osm_editieren/osm-daten_beziehen/hotosm_tab2.png[]
 
-Wenn du nach Bakery suchst, wird es nicht gefunden. Es ist aber möglich, das zu konfigurieren.
+Bei Tabulator 3  wechselst du in den Register "YAML" und fügst dort folgendes ein:
 
-Um noch zusätzlich Bakeries zu konfigurieren, bleiben wir auf Tabulator 3 und gehen noch nicht 
-zu Tabulator 4. Wir befinden uns im Register "Tag Tree" und wechseln zu "YAML".
+    gastronomy:
+     types:
+       - points
+       - polygons
+     select:
+       - name
+       - addr:city
+       - amenity
+       - opening_hours
+     where: amenity IN ('restaurant','fast_food','cafe','bar','pub')
+    bakeries:
+     types:
+       - points
+       - polygons
+     select:
+       - name
+       - addr:city
+       - shop
+       - opening_hours
+     where: shop IN ('bakery','supermarket')
+ 
+Das ganze sieht dann so aus:
 
-In der WHERE-Bedingung, also in den Zeilen nach "where:" sehen wir eine Zeile mit "shop=supermarket".
-Neben dieser Zeile schreiben wir einfach "shop=bakery" dazu und verknüpfen dies mit dem OR-Operator.
-
-Das müssen wir zweimal machen, einmal für planet_osm_point und einmal für planet_osm_polygon.
-Das Ergebnis sieht dann so aus:
-
-.Konfigurieren des YAML
+.HOT Export Tool Tab 3
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
-Sobald du das gemacht hast, kannst du wieder zu Tabulator 4 wechseln und den Export erstellen.
+Nachdem du das gemacht hast, können wir die Abfrage als GeoPackage exportieren, 
+darum gehen wir weiter zu Tab 4. Bevor wir Exportieren können, müssen wir auf der rechten 
+Seite in der Karte nach "Uster" suchen. Dann wird darauf gezoomt:
+
+.HOT Export Tool Uster
+image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
+
+Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" klicken (siehe unten).
+
+.HOT Export Tool Tab 4
+image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
 === OSMaxx
 
