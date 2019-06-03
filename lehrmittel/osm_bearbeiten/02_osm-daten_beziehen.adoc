@@ -177,9 +177,9 @@ Das ganze sieht dann so aus:
 .HOT Export Tool Tab 3
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
-Nachdem du das gemacht hast, können wir die Abfrage schon fast als GeoPackage exportieren, 
-darum gehen wir weiter zu Tab 4. Bevor wir aber Exportieren können, müssen wir auf der rechten 
-Seite in der Karte nach "Uster" suchen. Dann wird darauf gezoomt:
+Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als GeoPackage exportieren, 
+darum gehen wir weiter zu Tab 4. Das Letzte was wir jetzt noch vor dem Exportieren machen müssen ist auf der rechten 
+Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 
 .HOT Export Tool Uster
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
@@ -188,6 +188,9 @@ Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" klicken 
 
 .HOT Export Tool Tab 4
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
+
+Super, nun haben wir unser Ziel erreicht. Wir haben eine GeoPackage-Datei .gpkg erhalten, mit der wir 
+weiterarbeiten könnten. Doch hier ist erst Mal Schluss denn wir widmen uns noch anderen Themen.
 
 === OSMaxx
 
