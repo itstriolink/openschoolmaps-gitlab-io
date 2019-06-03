@@ -144,7 +144,7 @@ Die einfachste Version verlangt nur eine Typangabe und eine Liste mit den Koordi
 .Format der JSON-Datei für HOTOSM
 image::osm_editieren/osm-daten_beziehen/json_format.png[]
 
-Bei Tabulator 2 wählst du das Format, z.B. GeoPackage oder OSM.pbf.
+Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
 
 .HOT Export Tool Tab 2
 image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
