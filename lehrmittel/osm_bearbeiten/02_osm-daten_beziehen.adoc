@@ -112,8 +112,10 @@ Tabulator 1 und 4 sollen nachfolgend etwas genauer beschrieben werden.
 Bei Tabulator 1  geht es darum, der zu exportierenden Datei einen Namen und eine Beschreibung zu geben.
 Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in Uster.
 
+
 .HOT Export Tool Tab 1
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
+
 
 Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, auswählen.
 
