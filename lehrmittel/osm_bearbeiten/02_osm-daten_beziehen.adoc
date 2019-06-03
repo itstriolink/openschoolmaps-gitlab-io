@@ -112,7 +112,7 @@ Tabulator 1 und 3 sollen nachfolgend etwas genauer beschrieben werden.
 Bei Tabulator 1  sieht man auf der linken Seite die Exporteinstellungen und auf der rechten Seite die Karte, die man exportieren möchte.
 
 .Export von HOTOSM
-image::osm_editieren/osm-daten_beziehen/hotosm.png[]
+image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
 Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, auswählen.
 
