@@ -177,8 +177,8 @@ Das ganze sieht dann so aus:
 .HOT Export Tool Tab 3
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
-Nachdem du das gemacht hast, können wir die Abfrage als GeoPackage exportieren, 
-darum gehen wir weiter zu Tab 4. Bevor wir Exportieren können, müssen wir auf der rechten 
+Nachdem du das gemacht hast, können wir die Abfrage schon fast als GeoPackage exportieren, 
+darum gehen wir weiter zu Tab 4. Bevor wir aber Exportieren können, müssen wir auf der rechten 
 Seite in der Karte nach "Uster" suchen. Dann wird darauf gezoomt:
 
 .HOT Export Tool Uster
