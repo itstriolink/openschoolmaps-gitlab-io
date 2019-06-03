@@ -147,7 +147,7 @@ image::osm_editieren/osm-daten_beziehen/json_format.png[]
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage oder OSM.pbf.
 
 .HOT Export Tool Tab 2
-image::osm_editieren/osm-daten_beziehen/hotosm_tab2.png[]
+image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 
 Bei Tabulator 3  wechselst du in den Register "YAML" und fügst dort folgendes ein:
 
