@@ -170,27 +170,6 @@ Nun solltest du folgende Layer haben:
 .Ergebnisse der QuickOSM-Abfragen
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
-Jetzt haben wir zwei Punktelayer und zwei Polygonlayer. Da wir aber nur an Punktelayer insteressiert sind, 
-müssen wir noch die Polygonlayer in Punktelayer umwandeln. Dafür gehst du unter "Vektor" zu "Geometrie-Werkzeuge" 
-und dann zu "Zentroide...". Danach sollte dein QGIS so aussehen, wobei ich die Namen der neuen Layer bereits umbenannt habe:
-
-.Polygonlayer umgewandelt
-image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
-
-Da wir jetzt vier Punktelayer haben, müssen wir diese nun zusammenführen. Dazu gehe unter "Vektor" zu "Datenmanagement-Werkzeuge" und 
-dann zu "Vektorlayer zusammenführen". Im Dialogfenster wählst du die vier Layer aus:
-
-.Layer zusammenführen
-image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
-
-Nachdem du es ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
-Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
-Der neue Layer trägt den Namen "Zusammengeführt". Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennen würdest.
-Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) nicht umbenannt wurde:
-
-.Endergebnis
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
-
 == Verschiedene Webtools zum Download von OpenStreetMap-Daten
 
 === Geofabrik Downloads
@@ -359,3 +338,25 @@ Shapefile steckt, findest du hier:
 * http://www.geopackage.org/spec/
 * https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
 
+== Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
+
+Jetzt haben wir zwei Punktelayer und zwei Polygonlayer. Da wir aber nur an Punktelayer insteressiert sind, 
+müssen wir noch die Polygonlayer in Punktelayer umwandeln. Dafür gehst du unter "Vektor" zu "Geometrie-Werkzeuge" 
+und dann zu "Zentroide...". Danach sollte dein QGIS so aussehen, wobei ich die Namen der neuen Layer bereits umbenannt habe:
+
+.Polygonlayer umgewandelt
+image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
+
+Da wir jetzt vier Punktelayer haben, müssen wir diese nun zusammenführen. Dazu gehe unter "Vektor" zu "Datenmanagement-Werkzeuge" und 
+dann zu "Vektorlayer zusammenführen". Im Dialogfenster wählst du die vier Layer aus:
+
+.Layer zusammenführen
+image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
+
+Nachdem du es ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
+Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
+Der neue Layer trägt den Namen "Zusammengeführt". Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennen würdest.
+Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) nicht umbenannt wurde:
+
+.Endergebnis
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
