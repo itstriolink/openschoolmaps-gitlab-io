@@ -58,6 +58,8 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
+
+
 == OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
 
 === Mit Overpass-Turbo
