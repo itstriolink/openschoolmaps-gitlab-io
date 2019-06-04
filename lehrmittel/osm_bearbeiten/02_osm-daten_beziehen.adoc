@@ -58,7 +58,7 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
-
+Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten in QGIS importiert. 
 
 == OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
 
