@@ -26,6 +26,7 @@ Folgende Themen werden behandelt:
 * Dateiformate
 * OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
 * Verschiedene Webtools zum Download von OpenStreetMap-Daten
+* Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 
 [NOTE]
 ====
