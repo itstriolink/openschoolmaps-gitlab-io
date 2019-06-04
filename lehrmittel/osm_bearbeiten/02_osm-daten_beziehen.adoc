@@ -24,8 +24,8 @@ Folgende Themen werden behandelt:
 
 * OpenStreetMap und Geoinformationssysteme
 * Dateiformate
-* OpenStreetMap-Daten in QGIS importieren oder direkt extrahieren
-* OpenStreetMap-Daten extrahieren und downloaden
+* OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
+* Verschiedene Webtools zum Download von OpenStreetMap-Daten
 
 [NOTE]
 ====
@@ -57,7 +57,7 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
-== OpenStreetMap-Daten in QGIS importieren oder direkt extrahieren
+== OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
 
 === Mit Overpass-Turbo
 
@@ -190,7 +190,7 @@ Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) n
 .Endergebnis
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
 
-== OpenStreetMap-Daten extrahieren und downloaden
+== Verschiedene Webtools zum Download von OpenStreetMap-Daten
 
 === Geofabrik Downloads
 
