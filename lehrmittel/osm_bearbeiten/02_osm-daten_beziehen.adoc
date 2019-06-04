@@ -311,9 +311,6 @@ Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" klicken 
 .HOT Export Tool Tab 4
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
-Super, nun haben wir unser Ziel erreicht. Wir haben eine GeoPackage-Datei .gpkg erhalten, mit der wir 
-weiterarbeiten könnten. Doch hier ist erst Mal Schluss denn wir widmen uns noch anderen Themen.
-
 === OSMaxx
 
 Mit OSMaxx können bestehende und neue Auszüge von OpenStreetMap in verschiedenen GIS-Formaten heruntergeladen werden.
