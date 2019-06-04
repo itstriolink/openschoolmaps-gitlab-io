@@ -21,6 +21,7 @@ wenn man mit der jeweiligen Thematik schon vertraut ist.
 
 .Aufbau
 Folgende Themen werden behandelt:
+
 * OpenStreetMap und Geoinformationssysteme
 * Dateiformate
 * OpenStreetMap-Daten extrahieren und downloaden
