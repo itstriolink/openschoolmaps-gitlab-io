@@ -58,7 +58,13 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
-Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten in QGIS importiert. 
+Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten in QGIS importiert. Die erste Methode funktioniert mittels 
+Overpass-Turbo, einem Webdienst zur Abfrage von OpenStreetMap-Daten. Diese Methode empfehlen wir dir anzuschauen, da sie die effizienteste 
+aller vorgestellten Methoden ist. Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, in welchem sich Abfragen erstellen lassen. 
+Falls du den Overpass-Turbo-Abschnitt lesen wirst oder gelesen hast, kannst du den Abschnitt mit QuickOSM als optional betrachten, ausser 
+es interessiert dich. Danach werden weitere Tools vorgestellt, beispielsweise das HOT Export Tool oder OSMaxx. Diese Abschnitte sind ebenfalls 
+nur für Interessierte und nicht zwingender Stoff. Als letztes Kapitel erfährst du, wie man in QGIS verschiedenartige Layer zusammenführt. Auf 
+dieses Kapitel wird am Ende der restlichen Kapitel verwiesen, also kommst du dort im Verlauf des Abarbeitens hin.
 
 == OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
 
