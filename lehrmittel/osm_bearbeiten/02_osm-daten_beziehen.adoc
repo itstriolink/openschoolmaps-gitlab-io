@@ -24,8 +24,8 @@ Folgende Themen werden behandelt:
 
 * OpenStreetMap und Geoinformationssysteme
 * Dateiformate
-* OpenStreetMap-Daten extrahieren und downloaden
 * OpenStreetMap-Daten in QGIS importieren oder direkt extrahieren
+* OpenStreetMap-Daten extrahieren und downloaden
 
 [NOTE]
 ====
