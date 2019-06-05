@@ -467,4 +467,4 @@ Nun klicken wir auf "Anwenden" und dann auf "OK". Nun sieht unser QGIS so aus:
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
 Wir sehen, dass unser Layer "Brotverkaufsstellen" nun zwei verschiedene Objektgruppen aufweist. Einerseits alle  27 Brotverkaufstellen in oranger Farbe.
-Andererseits haben wir nun eine neue Objektgruppe mit 10 Objekten, nämlich unsere Bäckereien in pinker Farbe.
+Andererseits haben wir nun eine neue (Unter-)Gruppe mit 10 Objekten, nämlich unsere Bäckereien in pinker Farbe.
