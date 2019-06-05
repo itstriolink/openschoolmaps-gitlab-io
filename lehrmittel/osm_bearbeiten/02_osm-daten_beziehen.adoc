@@ -27,6 +27,7 @@ Folgende Themen werden behandelt:
 * OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
 * Verschiedene Webtools zum Download von OpenStreetMap-Daten
 * Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
+* Mit QGIS Objekte filtern oder regelbasiert darstellen
 
 [NOTE]
 ====
@@ -365,3 +366,5 @@ Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) n
 
 .Endergebnis
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
+
+== Mit QGIS Objekte filtern oder regelbasiert darstellen
