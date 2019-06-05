@@ -18,6 +18,7 @@ Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturand
 .Zeitplanung
 
 .Aufbau
+Folgende Themen werden behandelt:
 
 * Übersicht
 * Was ist OpenStreetMap (OSM)? => Kurzer Instruktion (siehe meine "Folien zu einer Mapping Party 2017/2018"), dann Verweis auf das Arbeitsblatt "Webseite OSM.org kennenlernen".
