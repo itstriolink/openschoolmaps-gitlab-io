@@ -415,7 +415,7 @@ wir QGIS einen Ausdruck, hier Regel genannt, nach dem es zu filtern gilt. Bei de
 beim einfachen filtern. Wie schon bei der ersten Methode können wir nur die gewünschte Menge darstellen, wobei alles andere ausgeblendet wird. 
 Ausserdem haben wir die Möglichkeit die ganze Menge darzustellen und die gewünschte Teilmenge (Bäckereien) farblich abzugrenzen. 
 
-Doch fangen wir mal mit dem ausblenden aller Objekte an, die keine Bäckereien sind. Dazu machen wir einen Rechtsklick auf den Layer und klicken 
+Doch fangen wir mal mit dem Ausblenden aller Objekte an, die keine Bäckereien sind. Dazu machen wir einen Rechtsklick auf den Layer und klicken 
 den untersten Eintrag "Properties..." an. Im linken Listenmenü klicken wir dann auf "Darstellung" (dritter Eintrag). Nun sollte es bei dir so aussehen:
 
 .Darstellung von Objekten
@@ -423,7 +423,7 @@ image::osm_editieren/osm-daten_beziehen/single_symbol.PNG[]
 
 Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
 Bis her war es so, dass alle Objekte gleich behandelt (nicht unterschieden) und somit gleich dargestellt wurden, deshalb "single symbol". 
-Jetzt, da wir "rule-based" selektiert haben, können wir Regeln (Ausdrücke) definieren, um die Objekte verschieden Darzustellen.
+Jetzt, da wir "rule-based" selektiert haben, können wir Regeln (Ausdrücke) definieren, um die Objekte verschieden darzustellen.
 
 .Objekte ohne Filter
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
