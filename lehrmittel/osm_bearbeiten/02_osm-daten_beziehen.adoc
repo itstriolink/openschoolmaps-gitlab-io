@@ -129,6 +129,10 @@ Unser QGIS sieht nun so aus:
 .GeoJSON in QGIS importiert
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
+Wie du wahrscheinlich bemerkt hast, benutze ich einen OSM Standard Layer als Hintergrund, um die Daten anschaulicher zu präsentieren.
+Ich gehe davon aus, dass du diesen nicht hast, das ist aber nicht weiter schlimm, den er ist nicht zwingend nötig. 
+Du kannst also ruhig ohne OSM Standard Layer als Hintergrund weitermachen.
+
 Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON ändern und dann als GeoPackage speichern.
 Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf "Exportieren" und dann wählen wir den 
 obersten Eintrag "Save Feature As...". Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
@@ -148,9 +152,6 @@ mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder reg
 
 Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu importieren und zu verwalten.
 Lösche am besten den vorher erzeugten Layer und fange von Null an, um Verwirrungen zu vermeiden.
-Ich benutze an dieser Stelle einen OSM Standard Layer als Hintergrund, um die Daten anschaulicher zu präsentieren.
-Da ich davon ausgehe, dass du diesen nicht hast, ist nicht weiter schlimm, den er ist nicht zwingend nötig, 
-also kannst du ruhig ohne OSM Standard Layer als Hintergrund das folgende Unterkapitel lesen.
 
 .QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
