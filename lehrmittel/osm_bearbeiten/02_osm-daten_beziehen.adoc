@@ -405,7 +405,7 @@ Alle anderen Objekte werden auf unsichtbar geschaltet und wir sehen nur noch die
 .Bäckereien in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
 
-Den Layer solltest du nun entsprechend von "Brotverkaufsstellen" in "Bäkereien" umbenennen.
+Wie du oben siehst, solltest du nun den Layer entsprechend von "Brotverkaufsstellen" in "Bäckereien" umbenennen.
 
 === Mit QGIS Objekte regelbasiert darstellen
 
