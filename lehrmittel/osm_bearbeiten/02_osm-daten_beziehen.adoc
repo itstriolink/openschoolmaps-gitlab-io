@@ -439,7 +439,32 @@ Das sieht dann so aus:
 image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
 
 Nun klicken wir auf "OK". Wir sehen das im Eintrag nun nicht mehr "(kein Filter)" steht, sondern "shop"='bakery'. Jetzt klicken wir auf "Anwenden" 
-und dann auf "OK". Unser QGIS sieht dann so aus:
+und dann nochmals auf "OK". Unser QGIS sieht dann so aus:
 
 .Bäckereien in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
+
+Wir sehen, dass wir nach wie vor 27 Objekte haben. Angezeigt werden uns aber nur die 10 Objekte, die die Regel erfüllen, also nur Bäckereien. Vielleicht hast 
+du es schon bemerkt, denn im Gegensatz dazu verändert sich die Anzahl Objekte beim einfachen filtern (siehe oben). Dort werden nicht nur die 10 Bäckereien 
+dargestellt, sondern die Objektanzahl verringert sich auch auf 10. Dies ist ein besonderer Unterschied zwischen dem "normalen" Filtern und der regelbasierten 
+Darstellung. Sehen wir uns noch eine andere Möglichkeit an.
+
+Angenommen, wir möchten nach wie vor alle Objekte anzeigen und nur einen Teil abrenzen. Dann können wir einfach eine andere Farbe für alle Bäckereien nehmen.
+Lösche die Regel, die wir vorhin auf die Objekte angewendet haben, wieder. Dann starten wir ab folgender Ansicht:
+
+.Objekte ohne Filter
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+
+unten links klicken wir auf das Plus-Zeichen. Jetzt haben wir unsere Objekte kopiert und wenden auf diese Kopie die Regel an. Also auch wieder folgendes 
+eingeben und dann auf "OK" klicken:
+
+.Edit Rule Dialog
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+
+Nun klicken wir auf "Anwenden" und dann auf "OK". Nun sieht unser QGIS so aus:
+
+.Brotverkaufsstellen mit farblich abgegrenzten Bäckereien (Pink)
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
+
+Wir sehen, dass unser Layer "Brotverkaufsstellen" nun zwei verschiedene Objektgruppen aufweist. Einerseits alle  27 Brotverkaufstellen in oranger Farbe.
+Andererseits haben wir nun eine neue Objektgruppe mit 10 Objekten, nämlich unsere Bäckereien in pinker Farbe.
