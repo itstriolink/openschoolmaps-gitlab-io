@@ -379,3 +379,7 @@ beinhalten sowohl "bakeries" als auch "supermarkets", wir wollen nun aber nur no
 === Mit QGIS Objekte filtern
 
 
+
+=== Mit QGIS Objekte regelbasiert darstellen
+
+
