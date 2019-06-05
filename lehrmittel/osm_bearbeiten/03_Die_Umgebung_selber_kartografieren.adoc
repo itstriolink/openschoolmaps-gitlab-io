@@ -1,0 +1,18 @@
+= Die Umgebung selber kartografieren - Outdoor Mapping Event
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+
+Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturanden
+
+== Übersicht
+
+.Ziel
+
+
+.Zielgruppe
+
+
+.Zeitplanung
