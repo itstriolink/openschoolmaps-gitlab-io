@@ -389,7 +389,7 @@ Danach öffnet sich ein Fenster mit dem Titel "Abfrageerstellung". In diesem Fen
 
 Im Eingabefeld "Datenanbieter spezifischer Filterausdruck" geben wir folgendes ein:
 
-    "shop" = 'bakery'
+    "shop"='bakery'
 
 "shop ist das Attribut".
 "bakery" ist der Wert".
@@ -410,6 +410,36 @@ Wie du oben siehst, solltest du nun den Layer entsprechend von "Brotverkaufsstel
 === Mit QGIS Objekte regelbasiert darstellen
 
 Nun gibt es noch eine andere Methode, um nur eine gewünschte Menge an Objekten, die vom Benutzer definierte Kriterien erfüllen, 
-in QGIS darzustellen. Obwohl es auch eine Art Filter ist, nennt es QGIS nicht filertn, sondern regelbaserite Darstellung. Beim filtern 
-übergeben wir QGIS einen Ausdruck auf die Felder und ihre Werte, worauf QGIS dann automatisch die Anzeige der Objekte ändert. 
-Bei der regelbasierten Darstellung hingegen /TODO
+in QGIS darzustellen. Obwohl es auch eine Art Filter ist, nennt es QGIS nicht filtern, sondern regelbasierte Darstellung. Auch hier übergeben 
+wir QGIS einen Ausdruck, hier Regel genannt, nach dem es zu filtern gilt. Bei der regelbasierten Darstellung haben wir aber mehr Spielraum als 
+beim einfachen filtern. Wie schon bei der ersten Methode können wir nur die gewünschte Menge darstellen, wobei alles andere ausgeblendet wird. 
+Ausserdem haben wir die Möglichkeit die ganze Menge darzustellen und die gewünschte Teilmenge (Bäckereien) farblich abzugrenzen. 
+
+Doch fangen wir mal mit dem ausblenden aller Objekte an, die keine Bäckereien sind. Dazu machen wir einen Rechtsklick auf den Layer und klicken 
+den untersten Eintrag "Properties..." an. Im linken Listenmenü klicken wir dann auf "Darstellung" (dritter Eintrag). Nun sollte es bei dir so aussehen:
+
+.Darstellung von Objekten
+image::osm_editieren/osm-daten_beziehen/single_symbol.PNG[]
+
+Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
+Bis her war es so, dass alle Objekte gleich behandelt (nicht unterschieden) und somit gleich dargestellt wurden, deshalb "single symbol". 
+Jetzt, da wir "rule-based" selektiert haben, können wir Regeln (Ausdrücke) definieren, um die Objekte verschieden Darzustellen.
+
+.Objekte ohne Filter
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+
+Im oberen Bild siehst du, dass wir einen Eintrag haben. Dieser Eintrag beinhaltet alle 27 Objekte, und wir sehen, dass keine Regeln auf diesen 
+Objekten definiert sind. Deshalb klicken wir zwei Mal auf den Eintrag. In das Textfeld neben "Filter" geben wir nun wieder folgendes ein:
+
+    "shop"='bakery'
+
+Das sieht dann so aus:
+
+.Edit Rule Dialog
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+
+Nun klicken wir auf "OK". Wir sehen das im Eintrag nun nicht mehr "(kein Filter)" steht, sondern "shop"='bakery'. Jetzt klicken wir auf "Anwenden" 
+und dann auf "OK". Unser QGIS sieht dann so aus:
+
+.Bäckereien in Uster
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
