@@ -409,4 +409,7 @@ Wie du oben siehst, solltest du nun den Layer entsprechend von "Brotverkaufsstel
 
 === Mit QGIS Objekte regelbasiert darstellen
 
-
+Nun gibt es noch eine andere Methode, um nur eine gewünschte Menge an Objekten, die vom Benutzer definierte Kriterien erfüllen, 
+in QGIS darzustellen. Obwohl es auch eine Art Filter ist, nennt es QGIS nicht filertn, sondern regelbaserite Darstellung. Beim filtern 
+übergeben wir QGIS einen Ausdruck auf die Felder und ihre Werte, worauf QGIS dann automatisch die Anzeige der Objekte ändert. 
+Bei der regelbasierten Darstellung hingegen /TODO
