@@ -12,18 +12,21 @@ Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturand
 .Ziel
 
 
-.Zielgruppe
+.Erwartetes Resultat
 
+.Zielgruppe
+Lehrpersonen und Instruktoren, evtl. Interessierte und Maturanden
 
 .Zeitplanung
+Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit.
 
 .Aufbau
 Folgende Themen werden behandelt:
 
-* Übersicht
-* Was ist OpenStreetMap (OSM)? => Kurzer Instruktion (siehe meine "Folien zu einer Mapping Party 2017/2018"), dann Verweis auf das Arbeitsblatt "Webseite OSM.org kennenlernen".
+* Was ist OpenStreetMap (OSM)?
 * Was wird kartiert? was nicht?
 * Was könnte bei diesem Event alles kartiert werden?
 * Wie kartieren wir draussen?
 * Vorbereitung
-* Zurück am Laptop: Wie editiert man OSM? => Verweis auf Arbeitsblatt "OpenStreetMap bearbeiten" 
+* Zurück am Laptop: Wie editiert man OSM?
+
