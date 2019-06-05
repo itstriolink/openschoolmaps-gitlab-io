@@ -22,12 +22,16 @@ wenn man mit der jeweiligen Thematik schon vertraut ist.
 .Aufbau
 Folgende Themen werden behandelt:
 
-* OpenStreetMap und Geoinformationssysteme
-* Dateiformate
-* OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
+* Einleitung mit Erläuterungen zu OpenStreetMap und Geoinformationssysteme sowie 
+zu gängigen Dateiformaten
+* OpenStreetMap-Daten mit Overpass extrahieren 
+* OpenStreetMap-Daten mit QuickOSM-Plugin direkt in QGIS importieren
 * Verschiedene Webtools zum Download von OpenStreetMap-Daten
 * Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 * Mit QGIS Objekte filtern oder regelbasiert darstellen
+
+Wir empfehlen mindestens die Einleitung zu lesen und das Kapitel 
+OpenStreetMap-Daten mit Overpass extrahieren.
 
 [NOTE]
 ====
@@ -67,9 +71,7 @@ es interessiert dich. Danach werden weitere Tools vorgestellt, beispielsweise da
 nur für Interessierte und nicht zwingender Stoff. Als letztes Kapitel erfährst du, wie man in QGIS verschiedenartige Layer zusammenführt. Auf 
 dieses Kapitel wird am Ende der restlichen Kapitel verwiesen, also kommst du dort im Verlauf des Abarbeitens hin.
 
-== OpenStreetMap-Daten mit Overpass extrahieren oder mit Plugin importieren
-
-=== Mit Overpass-Turbo
+== OpenStreetMap-Daten mit Overpass extrahieren 
 
 Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu importieren, ist mittels Overpass-Turbo.
 Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
@@ -148,7 +150,7 @@ Die andere Möglichkeit OpenStreetMap-Daten in QGIS zu importieren ist mittels d
 erläutert wird. Wenn es dich nicht interessiert oder du es schon gelesen hast, kannst du zu den Kapiteln "Polygon-Layer 
 mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" springen.
 
-=== Direkt aus QGIS mit dem QuickOSM-Plugin
+== OpenStreetMap-Daten mit QuickOSM-Plugin direkt in QGIS importieren
 
 Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu importieren und zu verwalten.
 Lösche am besten den vorher erzeugten Layer und fange von Null an, um Verwirrungen zu vermeiden.
