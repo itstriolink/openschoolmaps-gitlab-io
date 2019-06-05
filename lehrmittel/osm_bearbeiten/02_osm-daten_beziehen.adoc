@@ -373,5 +373,9 @@ Nachdem man eine Abfrage erstellt oder auf andere Weise OpenStreetMap-Daten erha
 Daten arbeiten. Wenn also nur eine Teilmenge aller Daten relevant sind, kann man in QGIS die Objekte nach selbst definierten Kriterien 
 filtern. Eine andere Möglichkeit ist die Daten regelbasiert darzustellen, sodass nur jene Daten angezeigt werden, die die Regeln erfüllen.
 
+Im Folgenden schauen wir uns die beiden Methoden an. Das Beispiel mit den Brotverkaufsstellen bleibt gleicht. Die Brotverkaufsstellen 
+beinhalten sowohl "bakeries" als auch "supermarkets", wir wollen nun aber nur noch "bakeries" in QGIS darstellen.
+
 === Mit QGIS Objekte filtern
+
 
