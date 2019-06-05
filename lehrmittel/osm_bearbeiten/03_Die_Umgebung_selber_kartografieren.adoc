@@ -11,7 +11,8 @@ Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturand
 
 .Ziel
 Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap und Kartografie zu vermitteln, so dass Schüler 
-und Interessierte danach in der Lage sind, auf Anweisung der Lehrperson/Instruktor die Umgebung zu kartografieren.
+und Interessierte danach in der Lage sind, auf Anweisung der Lehrperson/des Instruktors die Umgebung selbstständig 
+zu kartografieren.
 
 .Zielgruppe
 Schüler und Interessierte
