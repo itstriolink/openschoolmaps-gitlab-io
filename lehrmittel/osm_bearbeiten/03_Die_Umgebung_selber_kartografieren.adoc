@@ -10,13 +10,11 @@ Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturand
 == Übersicht
 
 .Ziel
-Eine Lehrperson bzw. ein Instruktor soll ein Outdoor Mapping Event von einem Tag planen können für eine Gruppe 
-von Schülern bzw. Interessierten. Die Anleitung soll nicht nur für Schüler gelten sondern auch für andere. 
-Es gibt einen Raum mit Laptop-Anschlussmöglichkeiten (Strom und Internet). Die Schüler/Interessierten haben 
-mindestens zu zweit ein Smartphone. Ein Drucker für die Lehrperson/Instruktor 
+Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap und Kartografie zu vermitteln, so dass Schüler 
+und Interessierte danach in der Lage sind, auf Anweisung der Lehrperson/Instruktor die Umgebung zu kartografieren.
 
 .Zielgruppe
-Lehrpersonen und Instruktoren, evtl. Interessierte und Maturanden
+Schüler und Interessierte
 
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit.
