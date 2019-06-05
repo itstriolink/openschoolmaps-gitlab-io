@@ -368,3 +368,10 @@ Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) n
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
 
 == Mit QGIS Objekte filtern oder regelbasiert darstellen
+
+Nachdem man eine Abfrage erstellt oder auf andere Weise OpenStreetMap-Daten erhalten hat, möchte man aber vielleicht nicht mit allen 
+Daten arbeiten. Wenn also nur eine Teilmenge aller Daten relevant sind, kann man in QGIS die Objekte nach selbst definierten Kriterien 
+filtern. Eine andere Möglichkeit ist die Daten regelbasiert darzustellen, sodass nur jene Daten angezeigt werden, die die Regeln erfüllen.
+
+=== Mit QGIS Objekte filtern
+
