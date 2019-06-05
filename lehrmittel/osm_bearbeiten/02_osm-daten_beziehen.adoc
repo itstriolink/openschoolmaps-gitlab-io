@@ -140,7 +140,9 @@ Unten siehst du noch das Exportfenster:
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
 
 Sehr gut, du hast es geschafft OpenStreetMap-Daten in QGIS zu importieren und als neues Format abzuspeichern.
-Sehen wir uns noch eine andere Möglichkeit an OpenStreetMap-Daten in QGIS zu importieren.
+Die andere Möglichkeit OpenStreetMap-Daten in QGIS zu importieren ist mittels dem QuickOSM-Plugin, welches im Folgenden 
+erläutert wird. Wenn es dich nicht interessiert oder du es schon gelesen hast, kannst du zu den Kapiteln "Polygon-Layer 
+mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" springen.
 
 === Direkt aus QGIS mit dem QuickOSM-Plugin
 
@@ -179,6 +181,9 @@ Nun solltest du folgende Layer haben:
 .Ergebnisse der QuickOSM-Abfragen
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+
 == Verschiedene Webtools zum Download von OpenStreetMap-Daten
 
 === Geofabrik Downloads
@@ -204,12 +209,17 @@ oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des
 "Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
 - oder aber die Daten selber - konsultieren.
 
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 === OSM.org
 
 Auf https://openstreetmap.org können auch Daten heruntergeladen werden.
 Diese können aber nur als quadratische Ausschnitte und bis max. 50'000 Nodes 
 bezogen werden und zudem nur im `OSM XML`-Format.
+
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 === HOT Export Tool
 
@@ -312,6 +322,9 @@ Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" klicken 
 .HOT Export Tool Tab 4
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+
 === OSMaxx
 
 Mit OSMaxx können bestehende und neue Auszüge von OpenStreetMap in verschiedenen GIS-Formaten heruntergeladen werden.
@@ -331,6 +344,9 @@ Das Exportieren der Daten geht etwa 45 Minuten.
 Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum Beispiel
 Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema dokumentiert ist.
 
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+
 === BBBike
 
 BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen verschiedenen Dateiformaten an.
@@ -343,6 +359,9 @@ Shapefile steckt, findest du hier:
 
 * http://www.geopackage.org/spec/
 * https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
+
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 == Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 
