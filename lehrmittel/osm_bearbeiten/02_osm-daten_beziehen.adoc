@@ -378,7 +378,10 @@ beinhalten sowohl "bakeries" als auch "supermarkets", wir wollen nun aber nur no
 
 === Mit QGIS Objekte filtern
 
-
+In QGIS hat man zwei Möglichkeiten Objekte zu filtern. Entweder man geht oben in der Menüleiste auf "Layer" und dann "Filter..." (während der 
+gewünschte Layer ausgewählt ist). Oder man macht einen Rechtsklick auf den gewünschten Layer und geht dann auf "Filter...". 
+Danach öffnet sich ein Fenster mit dem Titel "Abfrageerstellung". In diesem Fenster hat man ein grosses Feld mit dem Namen 
+"Datenanbieter spezifischer Filterausdruck". Dort geben wir folgendes ein:
 
 === Mit QGIS Objekte regelbasiert darstellen
 
