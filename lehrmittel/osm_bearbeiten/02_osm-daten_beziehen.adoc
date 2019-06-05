@@ -127,7 +127,7 @@ Zusätzlich benennen wir den Layer passend um, beispielsweise "Brotverkaufsstell
 Unser QGIS sieht nun so aus:
 
 .GeoJSON in QGIS importiert
-image::osm_editieren/osm-daten_beziehen/geoJSON_in_qgis.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON ändern und dann als GeoPackage speichern.
 Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf "Exportieren" und dann wählen wir den 
@@ -365,7 +365,7 @@ Der neue Layer trägt den Namen "Zusammengeführt". Es wäre sinnvoll, wenn du i
 Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) nicht umbenannt wurde:
 
 .Endergebnis
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 == Mit QGIS Objekte filtern oder regelbasiert darstellen
 
