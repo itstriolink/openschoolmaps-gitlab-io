@@ -10,9 +10,10 @@ Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturand
 == Übersicht
 
 .Ziel
-
-
-.Erwartetes Resultat
+Eine Lehrperson bzw. ein Instruktor soll ein Outdoor Mapping Event von einem Tag planen können für eine Gruppe 
+von Schülern bzw. Interessierten. Die Anleitung soll nicht nur für Schüler gelten sondern auch für andere. 
+Es gibt einen Raum mit Laptop-Anschlussmöglichkeiten (Strom und Internet). Die Schüler/Interessierten haben 
+mindestens zu zweit ein Smartphone. Ein Drucker für die Lehrperson/Instruktor 
 
 .Zielgruppe
 Lehrpersonen und Instruktoren, evtl. Interessierte und Maturanden
@@ -29,4 +30,9 @@ Folgende Themen werden behandelt:
 * Wie kartieren wir draussen?
 * Vorbereitung
 * Zurück am Laptop: Wie editiert man OSM?
+
+== Einleitung
+
+=== Was ist OpenStreetMap (OSM)?
+
 
