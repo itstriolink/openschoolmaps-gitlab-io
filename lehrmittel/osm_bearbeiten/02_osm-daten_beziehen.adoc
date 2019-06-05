@@ -383,7 +383,8 @@ gewünschte Layer ausgewählt ist). Oder man macht einen Rechtsklick auf den gew
 Danach öffnet sich ein Fenster mit dem Titel "Abfrageerstellung". In diesem Fenster sieht man folgendes:
 
 * Felder: Eine Liste aller Attribute, welche der ausgewählte Layer beinhaltet
-* Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen (um diese sichtbar zu machen, klicke auf den Knopf "Alle").
+* Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen (um diese sichtbar zu machen, klicke auf den Knopf "Alle")
+* Operatoren: Logische Operatoren zum Verknüpfen der Felder und Werte
 * Datenanbieter spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der Attribute und Werte
 
 Im Eingabefeld "Datenanbieter spezifischer Filterausdruck" geben wir folgendes ein:
