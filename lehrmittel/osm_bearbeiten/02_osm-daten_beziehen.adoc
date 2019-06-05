@@ -390,7 +390,19 @@ Im Eingabefeld "Datenanbieter spezifischer Filterausdruck" geben wir folgendes e
 
     "shop" = 'bakery'
 
+"shop ist das Attribut".
+"bakery" ist der Wert".
 
+Das Fenster sollte dann folgendermassen ausschauen:
+
+.Objekte filtern
+image::osm_editieren/osm-daten_beziehen/filtern.PNG[]
+
+Nun klickst du auf "OK". Wir bekommen nun die Meldung, dass 10 Objekte gefunden wurden, die für das Attribut "shop" als Wert "bakery" haben.
+Alle anderen Objekte werden auf unsichtbar geschaltet und wir sehen nur noch die 10 Objekte, die unseren Filternausdruck erfüllen:
+
+.Bäckereien in Uster
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
 
 === Mit QGIS Objekte regelbasiert darstellen
 
