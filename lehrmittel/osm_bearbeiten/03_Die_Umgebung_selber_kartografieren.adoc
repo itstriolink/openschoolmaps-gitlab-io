@@ -10,54 +10,64 @@ Eine Anleitung für Schüler und Interessierte
 == Übersicht
 
 .Ziel
-Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap und Kartografie zu vermitteln, so dass Schüler 
-und Interessierte danach in der Lage sind, auf Anweisung der Lehrperson/des Instruktors die Umgebung selbstständig 
+Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap und 
+Kartografie zu vermitteln, so dass Schüler und Interessierte danach in der Lage 
+sind, auf Anweisung der Lehrperson/des Instruktors eine Gegend selbstständig 
 zu kartografieren.
 
 .Zielgruppe
 Schüler und Interessierte
 
 .Zeitplanung
-Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit, allermindestens jedoch 2 Stunden.
+Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
+unterschiedlich viel Zeit, mindestens jedoch drei Stunden. 
+Dies ist der grobe Plan:
+
+1. Allgemeine Vorbereitungen (z.B. was ist OSM?), mind. ca. 20 min.
+1. Konkrete Vorbereitung für die Kartierung draussen, mind. ca. 40 min.
+1. Draussen kartieren, mind. ca. 60 min.
+1. Instruktion zum Editieren von OSM, mind. ca. 20 min.
+1. Editieren am Laptop/PC, mind. ca. 40 min.
 
 .Aufbau
 Folgende Themen werden behandelt:
 
-* Was ist OpenStreetMap (OSM)?
+* Was ist OpenStreetMap?
 * Was wird kartiert? was nicht?
 * Was könnte bei diesem Event alles kartiert werden?
 * Vorbereitung
 * Field Papers
-* Wie editiert man OSM?
+* Wie editiert man OpenStreetMap?
 
 == Einleitung
 
 === Was ist OpenStreetMap (OSM)?
 
 OpenStreetMap (kurz OSM) ist ein internationales Projekt ähnlich wie Wikipedia, 
-bei dem Freiwillige Geodaten sammeln, die von unzählige (Web-)Applikationen 
+bei dem Freiwillige Geodaten sammeln, die von unzähligen (Web-)Applikationen 
 verwendet werden.
-Die OSM-Daten können gehören der Community und können - im Gegensatz beispielweise 
-zu Google Maps oder map.geo.admin.ch - weiterverwendet werden im Rahmen der einer 
-freien Lizenz. 
+Die OSM-Daten gehören der Community und können - im Gegensatz zu Google Maps 
+oder vielen nationalen Karten wie z.B. map.geo.admin.ch - selber weiterverwendet 
+werden im Rahmen der einer freien Lizenz. 
 
 OpenStreetMap kann auf ganz verschiedene Art und Weise genutzt werden und die 
-Benutzer können sehr unterschiedliche Ziele haben.
-Im Folgenden listen wir ein paar Einsatzmöglichkeiten von OpenStreetMap auf:
+Benutzer können unterschiedliche Ziele haben.
+Im Folgenden haben wir ein paar Einsatzmöglichkeiten von OpenStreetMap 
+zusammengestellt:
 
-* Zur Navigation mit dem Smartphone wie z.B. die Maps.Me-App
-* Als Hintergrundkarte oder Lagekarte eingebetted in Webseiten
-* Als Lage- und Wanderkarte
-* Als Interaktive Webkarten aller Art
-* Für Geoanalysen
+* Navigation mit dem Smartphone wie z.B. die Maps.Me-App
+* Hintergrundkarte oder Lagekarte eingebetted in Webseiten
+* Lage- und Wanderkarte
+* Interaktive Webkarten aller Art
+* Geoanalysen
 
 Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue doch das 
-Arbeitsblatt "Webseite OSM.org kennenlernen" an.
+Arbeitsblatt "Webseite OSM.org kennenlernen" auf https://www.openschoolmaps.ch[OpenSchoolMaps] an.
 
 === Was wird kartiert? was nicht?
 
 Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. 
-Bevor man diese Daten jedoch in OpenStreetMap integrieren kann, muss man sie zuerst sammeln. 
+Bevor man diese Geodaten jedoch in OpenStreetMap integrieren kann, muss man sie zuerst sammeln. 
 Dazu hat man verschiedene Möglichkeiten. 
 Eine Möglichkeit besteht im Recherchieren der Daten. 
 Man durchsucht verschiedene Dokumente und/oder Webseiten und sammelt so Daten, 
@@ -68,8 +78,7 @@ Die letzte Möglichkeit, beispielweise zum Erfassen von Häusern und Strassen is
 dass man loszieht und sich Notizen macht. 
 Diese Notizen kann man dann zu einem späteren Zeitpunkt in OpenStreetMap übernehmen.
 
-Das Wichtigste beim Kartieren ist, dass überprüfbar ist, was man kartiert, so 
-dass die Angaben nachgeprüft werden kann. 
+Das Wichtigste beim Kartieren ist, dass überprüfbar ist, was man kartiert. 
 Unten siehst du Beispiele von geeigneten und ungeeigneten Objekte:
 
 Beispiele für geeignete Objekte:
@@ -101,41 +110,38 @@ Beispiele hierfür wären dein Zuhause, falls es in der Nähe ist, ein Teil dein
 Schulweges, eine lokale Sehenswürdigkeit oder das Zuhause einer deiner Freunde. 
 Es gibt genug Sachen die man kartografieren kann.
 
-Doch wie kartografiert man richtig beziehungsweise auf was ist zu achten?
+Doch wie kartografiert man richtig, beziehungsweise auf was ist zu achten?
 
 Strassen:
 
 * Strassennamen
-* Verlauf (gerade, kurvig, etc.)
-* Richtung
+* Richtung (Einbahnstrasse)
 * Fussgängerstreifen
 
 Häuser und Hausnummern:
 
-* Hausform
-* Grösse der Fläche
 * Adresse
-* Evtl. hat ein Haus mehrere Nummern
+* Evtl. hat ein Haus mehrere Hausnummern
 
 Läden und Restaurants:
 
 * Name des Ladens/Restaurants
-* Öffnungszeiten
-* Telefonnummer
 * Adresse
+* Telefonnummer
 * Website
+* Öffnungszeiten
 
 == Vorbereitung
 
-Bevor ihr in Zweiergruppen aufbricht um eure Umgebung zu erkunden und Daten zu 
-sammeln, wäre es noch sinnvoll zu wissen, was ihr alles für einen reibungslosen 
-Ablauf benötigt. 
+Bevor ihr zum Beispiel in Zweiergruppen aufbrecht, um eure Umgebung zu erkunden 
+und Daten zu sammeln, ist es noch sinnvoll zu wissen, was ihr alles für einen 
+reibungslosen Ablauf benötigt. 
 Da ihr euch kaum die ganzen Eigenschaften der Strassen, Häuser, Hausnummern, 
 Läden und Restaurants merken könnt, braucht ihr geeignete Hilfsmittel. 
-Was gehen würde wären natürlich Stift und Papier, auf dem Papier sollte 
-dann aber am besten schon ein Ausschnitt der Umgebung vorhanden sein (alles 
-aufzeichnen wäre doch zu aufwendig). 
-Es ist auch möglich, ein Smartphone mit GPS zu nutzen. Das verwenden wir aber 
+Wir verwenden dazu Stift und Papier. 
+Auf dem Papier sollte dann am besten schon ein Ausschnitt der Umgebung vorhanden 
+sein, damit man sieht was wo ist und was schon eingetragen ist. 
+Es wäre auch möglich, ein Smartphone mit GPS zu nutzen. Das verwenden wir aber 
 hier noch nicht, denn das braucht mehr Vor- und Nachbereitung als Stift und Papier. 
 
 == Field Papers
@@ -160,10 +166,11 @@ brauchst du einen OSM-Account.
 Dazu gehen wir zur Webseite unter: https://www.openstreetmap.org/.
 
 Oben rechts siehst du nun einen "Registrieren"-Button. 
-Klicke drauf, nun musst du deine Email eingeben und einen Benutzernamen und ein Passwort setzen. 
+Klicke drauf, nun musst du deine Email eingeben und einen Benutzernamen und ein 
+Passwort setzen. 
 Per Email musst du dann deine Angaben bestätigen, indem du auf einen Link klickst
 und danach ist dein Konto auch schon eingerichtet. 
 
-Jetzt kannst du mit dem eigentlichen Kartografieren beginnen, also los!
+Jetzt kannst du mit dem eigentlichen Kartografieren beginnen. Also los!
 
 //TODO
