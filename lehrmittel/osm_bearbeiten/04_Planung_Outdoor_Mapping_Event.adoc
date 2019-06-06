@@ -1,0 +1,30 @@
+= Die Umgebung selber kartografieren - Outdoor Mapping Event
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:xrefstyle: short
+:imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+
+Eine Anleitung für Lehrpersonen und Instruktoren
+
+== Übersicht
+
+.Ziel
+Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap und Kartografie zu vermitteln, so dass Schüler 
+und Interessierte danach in der Lage sind, auf Anweisung der Lehrperson/des Instruktors die Umgebung selbstständig 
+zu kartografieren.
+
+.Zielgruppe
+Lehrpersonen und Instruktoren
+
+.Zeitplanung
+Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit.
+
+.Aufbau
+Folgende Themen werden behandelt:
+
+* Checkliste (siehe Map-my-World Checkliste Lehrperson https:files/Checkliste_Lehrer.pdf )
+* Vorbereitung
+* Den Event auswerten (z.B. mit http://resultmaps.neis-one.org/osm-changesets ) und Abschluss des Events 
+
+== Einleitung
