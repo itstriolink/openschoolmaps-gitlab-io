@@ -113,6 +113,9 @@ merken könnt, braucht ihr geeignete Hilfsmittel. Was gehen würde wären natür
 ein Ausschnitt der Umgebung vorhanden sein (alles aufzeichnen wäre doch zu aufwendig). Noch einfacher als mit Stift und Papier zu arbeiten ist jedoch 
 das Smartphone zu benutzen. Es reicht wenn ihr als Gruppe ein Smartphone benutzt.
 
+Das nächste Kapitel kannst du dann zu einem späteren Zeitpunkt bearbeiten sobald du die Umgebung erkundet und alle Daten gesammelt hast. 
+Viel Spass beim kartografieren!
+
 == Zurück am Laptop: Wie editiert man OSM?
 
-
+Nun da du zurück bist, können wir die Daten auf OpenStreetMap laden.
