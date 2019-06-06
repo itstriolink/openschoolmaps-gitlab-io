@@ -55,12 +55,20 @@ https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmitte
 Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. Bevor man diese Daten jedoch in OpenStreetMap integrieren kann, 
 muss man sie zuerst sammeln. Dazu hat man verschiedene Möglichkeiten. //TODO
 
-Gute Daten:
+Beispiele für gute Daten:
 
-* Statistiken und Analysen
-* Statistiken und Analysen
-* Statistiken und Analysen
+* Strassen
+* Häuser
+* Hausnummern
+* Läden und Restaurants
+* Öffnungszeiten
+* Zugangsbeschränkungen
 
-Schlechte Daten:
+Beispiele für schlechte Daten:
 
-* Statistiken und Analysen
+* Persönliche Meinung
+* Persönliche Daten
+* Flugrouten
+* Reviews zu Restaurants
+
+
