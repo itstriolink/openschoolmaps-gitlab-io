@@ -18,7 +18,7 @@ zu kartografieren.
 Schüler und Interessierte
 
 .Zeitplanung
-Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit.
+Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit, allermindestens jedoch 2 Stunden.
 
 .Aufbau
 Folgende Themen werden behandelt:
@@ -27,62 +27,78 @@ Folgende Themen werden behandelt:
 * Was wird kartiert? was nicht?
 * Was könnte bei diesem Event alles kartiert werden?
 * Vorbereitung
-* Zurück am Laptop: Wie editiert man OSM?
+* Wie editiert man OSM?
 
 == Einleitung
 
 === Was ist OpenStreetMap (OSM)?
 
-OpenStreetMap (kurz OSM) ist ein Online-Geodatensystem, welches Geodaten enthält, die vom Benutzer gesammelt und 
-verwaltet werden. Die Daten können frei und ohne Einschränkungen verwaltet werden und gehören der Community, man benötigt nur einen OSM-Account. 
-Im Gegensatz dazu gehören die Daten von Bing Maps, Google Maps, CityMaps oder map.geo.admin.ch Unternehmen oder Regierungen, können vom Benutzer 
-rechtlich gesehen also nicht einfach weiterverwendet werden. 
+OpenStreetMap (kurz OSM) ist ein internationales Projekt ähnlich wie Wikipedia, 
+bei dem Freiwillige Geodaten sammeln, die von unzählige (Web-)Applikationen 
+verwendet werden.
+Die OSM-Daten können gehören der Community und können - im Gegensatz beispielweise 
+zu Google Maps oder map.geo.admin.ch - weiterverwendet werden im Rahmen der einer 
+freien Lizenz. 
 
-OpenStreetMap kann auf ganz verschiedene Art und Weise genutzt werden und die Benutzer können sehr unterschiedliche Ziele haben.
-Um nur ein paar Beispiele zu nennen, liste ich im Folgenden ein paar Einsatzmöglichkeiten von OpenStreetMap auf:
+OpenStreetMap kann auf ganz verschiedene Art und Weise genutzt werden und die 
+Benutzer können sehr unterschiedliche Ziele haben.
+Im Folgenden listen wir ein paar Einsatzmöglichkeiten von OpenStreetMap auf:
 
-* Privater Gebrauch zur Sammlung von Informationen bezüglich eines Ortes
-* Navigationssysteme
-* Statistiken und Analysen
-* Infrastrukturplanung
+* Zur Navigation mit dem Smartphone wie z.B. die Maps.Me-App
+* Als Hintergrundkarte oder Lagekarte eingebetted in Webseiten
+* Als Lage- und Wanderkarte
+* Als Interaktive Webkarten aller Art
+* Für Geoanalysen
 
-Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue doch unter folgendem Link nach:
-https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.adoc
+Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue doch das 
+Arbeitsblatt "Webseite OSM.org kennenlernen" an.
 
 === Was wird kartiert? was nicht?
 
-Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. Bevor man diese Daten jedoch in OpenStreetMap integrieren kann, 
-muss man sie zuerst sammeln. Dazu hat man verschiedene Möglichkeiten. Eine Möglichkeit besteht im Recherchieren der Daten. Man durchsucht verschiedene 
-Dokumente und/oder Webseiten und sammelt so Daten, die in OpenStreetMap noch fehlen oder nicht mehr aktuell sind. Eine andere Möglichkeit besteht in 
-Umfragen von Menschen die Auskunft über noch fehlende Daten geben können. Die letzte Möglichkeit, beispielweise zum Erfassen von Häusern und Strassen 
-ist, dass man loszieht und sich Notizen macht. Diese Notizen kann man dann zu einem späteren Zeitpunkt in OpenStreetMap übernehmen.
+Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. 
+Bevor man diese Daten jedoch in OpenStreetMap integrieren kann, muss man sie zuerst sammeln. 
+Dazu hat man verschiedene Möglichkeiten. 
+Eine Möglichkeit besteht im Recherchieren der Daten. 
+Man durchsucht verschiedene Dokumente und/oder Webseiten und sammelt so Daten, 
+die in OpenStreetMap noch fehlen oder nicht mehr aktuell sind. 
+Eine andere Möglichkeit besteht in Umfragen von Menschen die Auskunft über noch 
+fehlende Daten geben können. 
+Die letzte Möglichkeit, beispielweise zum Erfassen von Häusern und Strassen ist, 
+dass man loszieht und sich Notizen macht. 
+Diese Notizen kann man dann zu einem späteren Zeitpunkt in OpenStreetMap übernehmen.
 
-Das wichtigste beim kartieren ist, dass die Daten persistent, transparent und überprüfbar sind, so dass gewährleistet werden kann, 
-dass sie auch stimmen. Unten siehst du zwei verschiedene Listen mit Beispielen von geeigneten und ungeeigneten OpenStreetMap-Daten:
+Das Wichtigste beim Kartieren ist, dass überprüfbar ist, was man kartiert, so 
+dass die Angaben nachgeprüft werden kann. 
+Unten siehst du Beispiele von geeigneten und ungeeigneten Objekte:
 
-Beispiele für geeignete Daten:
+Beispiele für geeignete Objekte:
 
-* Strassen
-* Häuser
-* Hausnummern
+* Strasse
+* Haus
+* Hausnummer
 * Läden und Restaurants
-* Öffnungszeiten
-* Zugangsbeschränkungen
+* Öffnungszeit
+* Zugangsbeschränkung
 
-Beispiele für ungeeignete Daten:
+Beispiele für ungeeignete Objekte:
 
 * Persönliche Meinung
 * Persönliche Daten
 * Flugrouten
-* Reviews zu Restaurants
+* Bewertungen zu Restaurants
 
 === Was könnte bei diesem Event alles kartiert werden?
 
-Wie du oben schon gelesen hast, sind Strassen, Häuser, Hausnummern, Läden und Restaurants (inkl. Öffnungszeiten) geeignete Objekte/Daten zum Kartografieren. 
-Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in zusammenschliesst und in Zweiergruppen die Umgebung kartografiert. Natürlich würde 
-es viel zu lange dauern die ganze Umgebung zu kartografieren und seien wir ehrlich, dies wäre auch nicht sehr spannend. Deshalb suche dir einfach ein paar 
-Orte in der Umgebung aus, welche dir gefallen. Beispiele hierfür wären dein Zuhause, falls es in der Nähe ist, ein Teil deines Schuleweges, eine lokale 
-Sehenswürdigkeit oder das Zuhause einer deiner Freunde. Es gibt genug Sachen die man kartografieren kann, mach dir nur ein paar Gedanken.
+Wie du oben schon gelesen hast, sind Strassen, Häuser, Hausnummern, Läden und 
+Restaurants (inkl. Öffnungszeiten) geeignete Objekte/Daten zum Kartografieren. 
+Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in 
+zusammenschliesst und in Zweiergruppen die Umgebung kartografiert. 
+Natürlich würde es viel zu lange dauern die ganze Umgebung zu kartografieren und 
+seien wir ehrlich, dies wäre auch nicht sehr spannend. Deshalb suche dir einfach 
+ein paar Orte in der Umgebung aus, welche dir gefallen. 
+Beispiele hierfür wären dein Zuhause, falls es in der Nähe ist, ein Teil deines 
+Schulweges, eine lokale Sehenswürdigkeit oder das Zuhause einer deiner Freunde. 
+Es gibt genug Sachen die man kartografieren kann.
 
 Doch wie kartografiert man richtig beziehungsweise auf was ist zu achten?
 
@@ -110,22 +126,39 @@ Läden und Restaurants:
 
 == Vorbereitung
 
-Bevor ihr in Zweiergruppen aufbricht um eure Umgebung zu erkunden und Daten zu sammeln, wäre es noch sinnvoll zu wissen, 
-was ihr alles für einen reibungslosen Ablauf benötigt. Da ihr euch kaum die ganzen Eigenschaften der Strassen, Häuser, Hausnummern, Läden und Restaurants 
-merken könnt, braucht ihr geeignete Hilfsmittel. Was gehen würde wären natürlich Stift und Papier, auf dem Papier sollte dann aber am besten schon 
-ein Ausschnitt der Umgebung vorhanden sein (alles aufzeichnen wäre doch zu aufwendig). Noch einfacher als mit Stift und Papier zu arbeiten ist jedoch 
-das Smartphone zu benutzen. Es reicht wenn ihr als Gruppe ein Smartphone benutzt.
+Bevor ihr in Zweiergruppen aufbricht um eure Umgebung zu erkunden und Daten zu 
+sammeln, wäre es noch sinnvoll zu wissen, was ihr alles für einen reibungslosen 
+Ablauf benötigt. 
+Da ihr euch kaum die ganzen Eigenschaften der Strassen, Häuser, Hausnummern, 
+Läden und Restaurants merken könnt, braucht ihr geeignete Hilfsmittel. 
+Was gehen würde wären natürlich Stift und Papier, auf dem Papier sollte 
+dann aber am besten schon ein Ausschnitt der Umgebung vorhanden sein (alles 
+aufzeichnen wäre doch zu aufwendig). 
+Es ist auch möglich, ein Smartphone mit GPS zu nutzen. Das verwenden wir aber 
+hier noch nicht, denn das braucht mehr Vor- und Nachbereitung als Stift und Papier. 
 
-Das nächste Kapitel kannst du dann zu einem späteren Zeitpunkt bearbeiten sobald du die Umgebung erkundet und alle Daten gesammelt hast. 
-Viel Spass beim kartografieren!
+== Fieldpapers
 
-== Zurück am Laptop: Wie editiert man OSM?
+Field Papers ist eine Webapplikation, mit dem man eine Karte eines Gebietes drucken, darauf zeichnen und Notizen machen kann. Die Notizen werden dann wieder eingescannt und in die Webapplikation hochgeladen. Damit kann man die Notizen im OpenStreetMap-Editor anzeigen und die Objekte dort eintragen. 
 
-Nun da du zurück bist, können wir die Daten auf OpenStreetMap laden. Bevor wir anfangen können auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
-brauchst du noch einen OSM-Account. Doch gehen wir zunächst einmal zur Webseite unter: https://www.openstreetmap.org/.
+Auf Webseite findest du weitere Erklärungen: http://fieldpapers.org/
 
-Oben rechts siehst du nun einen "Registrieren"-Button. Klicke drauf, nun musst du deine Email eingeben und einen Benutzernamen und ein Passwort setzen. 
-Per Email musst du dann deine Angaben bestätigen indem du auf einen Link klickst und danach ist dein Konto auch schon eingerichtet. 
-Jetzt können wir beginnen, also legen wir doch mit dem eigentlichen Kartografieren los!
+Das nächste Kapitel erläutert, wie man die erfassten Daten am Laptop/PC editiert, 
+sobald du Daten gesammelt hast. 
+Viel Spass beim Kartografieren!
+
+== Wie editiert man OSM?
+
+Nun da du zurück bist, können wir die Daten auf OpenStreetMap laden. 
+Bevor wir anfangen können auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
+brauchst du einen OSM-Account. 
+Dazu gehen wir zur Webseite unter: https://www.openstreetmap.org/.
+
+Oben rechts siehst du nun einen "Registrieren"-Button. 
+Klicke drauf, nun musst du deine Email eingeben und einen Benutzernamen und ein Passwort setzen. 
+Per Email musst du dann deine Angaben bestätigen, indem du auf einen Link klickst
+und danach ist dein Konto auch schon eingerichtet. 
+
+Jetzt kannst du mit dem eigentlichen Kartografieren beginnen, also los!
 
 //TODO
