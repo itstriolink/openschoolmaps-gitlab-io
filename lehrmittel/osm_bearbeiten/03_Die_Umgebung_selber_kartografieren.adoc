@@ -118,4 +118,11 @@ Viel Spass beim kartografieren!
 
 == Zurück am Laptop: Wie editiert man OSM?
 
-Nun da du zurück bist, können wir die Daten auf OpenStreetMap laden.
+Nun da du zurück bist, können wir die Daten auf OpenStreetMap laden. Bevor wir anfangen können auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
+brauchst du noch einen OSM-Account. Doch gehen wir zunächst einmal zur Webseite unter: https://www.openstreetmap.org/.
+
+Oben rechts siehst du nun einen "Registrieren"-Button. Klicke drauf, nun musst du deine Email eingeben und ein Passwort setzen. Per Email musst du dann 
+deine Angaben bestätigen indem du auf einen Link klicktst und danach ist dein Konto auch schon eingerichtet. Legen wir doch mit dem eigentlichen 
+Kartografieren los!
+
+
