@@ -27,6 +27,7 @@ Folgende Themen werden behandelt:
 * Was wird kartiert? was nicht?
 * Was könnte bei diesem Event alles kartiert werden?
 * Vorbereitung
+* Field Papers
 * Wie editiert man OSM?
 
 == Einleitung
@@ -137,14 +138,18 @@ aufzeichnen wäre doch zu aufwendig).
 Es ist auch möglich, ein Smartphone mit GPS zu nutzen. Das verwenden wir aber 
 hier noch nicht, denn das braucht mehr Vor- und Nachbereitung als Stift und Papier. 
 
-== Fieldpapers
+== Field Papers
 
-Field Papers ist eine Webapplikation, mit dem man eine Karte eines Gebietes drucken, darauf zeichnen und Notizen machen kann. Die Notizen werden dann wieder eingescannt und in die Webapplikation hochgeladen. Damit kann man die Notizen im OpenStreetMap-Editor anzeigen und die Objekte dort eintragen. 
+Field Papers ist eine Webapplikation, mit dem man eine Karte eines Gebietes 
+drucken, darauf zeichnen und Notizen machen kann. 
+Die Notizen werden dann wieder eingescannt und in die Webapplikation hochgeladen. 
+Damit kann man die Notizen im OpenStreetMap-Editor anzeigen und die Objekte 
+dort eintragen. 
 
 Auf Webseite findest du weitere Erklärungen: http://fieldpapers.org/
 
-Das nächste Kapitel erläutert, wie man die erfassten Daten am Laptop/PC editiert, 
-sobald du Daten gesammelt hast. 
+Das nächste Kapitel erläutert, wie du die erfassten Daten am Laptop/PC editieren 
+kannst, sobald du Daten gesammelt hast. 
 Viel Spass beim Kartografieren!
 
 == Wie editiert man OSM?
