@@ -92,11 +92,10 @@ Strassen:
 
 Häuser und Hausnummern:
 
-* Form
+* Hausform
 * Grösse der Fläche
 * Adresse
 * Evtl. hat ein Haus mehrere Nummern
-
 
 Läden und Restaurants:
 
@@ -106,5 +105,14 @@ Läden und Restaurants:
 * Adresse
 * Website
 
-=== Vorbereitung
+== Vorbereitung
+
+Bevor ihr in Zweiergruppen aufbricht um eure Umgebung zu erkunden und Daten zu sammeln, wäre es noch sinnvoll zu wissen, 
+was ihr alles für einen reibungslosen Ablauf benötigt. Da ihr euch kaum die ganzen Eigenschaften der Strassen, Häuser, Hausnummern, Läden und Restaurants 
+merken könnt, braucht ihr geeignete Hilfsmittel. Was gehen würde wären natürlich Stift und Papier, auf dem Papier sollte dann aber am besten schon 
+ein Ausschnitt der Umgebung vorhanden sein (alles aufzeichnen wäre doch zu aufwendig). Noch einfacher als mit Stift und Papier zu arbeiten ist jedoch 
+das Smartphone zu benutzen. Es reicht wenn ihr als Gruppe ein Smartphone benutzt.
+
+== Zurück am Laptop: Wie editiert man OSM?
+
 
