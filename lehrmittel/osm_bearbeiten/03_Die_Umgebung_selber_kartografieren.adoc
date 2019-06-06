@@ -53,9 +53,15 @@ https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmitte
 === Was wird kartiert? was nicht?
 
 Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. Bevor man diese Daten jedoch in OpenStreetMap integrieren kann, 
-muss man sie zuerst sammeln. Dazu hat man verschiedene Möglichkeiten. //TODO
+muss man sie zuerst sammeln. Dazu hat man verschiedene Möglichkeiten. Eine Möglichkeit besteht im Recherchieren der Daten. Man durchsucht verschiedene 
+Dokumente und/oder Webseiten und sammelt so Daten, die in OpenStreetMap noch fehlen oder nicht mehr aktuell sind. Eine andere Möglichkeit besteht in 
+Umfragen von Menschen die Auskunft über noch fehlende Daten geben können. Die letzte Möglichkeit, beispielweise zum Erfassen von Häusern und Strassen 
+ist, dass man loszieht und sich Notizen macht. Diese Notizen kann man dann zu einem späteren Zeitpunkt in OpenStreetMap übernehmen.
 
-Beispiele für gute Daten:
+Das wichtigste beim kartieren ist, dass die Daten persistent, transparent und überprüfbar sind, so dass gewährleistet werden kann, 
+dass sie auch stimmen. Unten siehst du zwei verschiedene Listen mit Beispielen von geeigneten und ungeeigneten OpenStreetMap-Daten:
+
+Beispiele für geeignete Daten:
 
 * Strassen
 * Häuser
@@ -64,7 +70,7 @@ Beispiele für gute Daten:
 * Öffnungszeiten
 * Zugangsbeschränkungen
 
-Beispiele für schlechte Daten:
+Beispiele für ungeeignete Daten:
 
 * Persönliche Meinung
 * Persönliche Daten
