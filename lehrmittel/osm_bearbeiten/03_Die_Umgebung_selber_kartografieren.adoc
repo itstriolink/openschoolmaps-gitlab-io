@@ -77,4 +77,6 @@ Beispiele für ungeeignete Daten:
 * Flugrouten
 * Reviews zu Restaurants
 
+=== Was könnte bei diesem Event alles kartiert werden?
+
 
