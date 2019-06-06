@@ -79,7 +79,10 @@ Beispiele für ungeeignete Daten:
 === Was könnte bei diesem Event alles kartiert werden?
 
 Wie du oben schon gelesen hast, sind Strassen, Häuser, Hausnummern, Läden und Restaurants (inkl. Öffnungszeiten) geeignete Objekte/Daten zum Kartografieren. 
-Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in zusammenschliesst und in zweier Gruppen die Umgebung kartografiert. 
+Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in zusammenschliesst und in Zweiergruppen die Umgebung kartografiert. Natürlich würde 
+es viel zu lange dauern die ganze Umgebung zu kartografieren und seien wir ehrlich, dies wäre auch nicht sehr spannend. Deshalb suche dir einfach ein paar 
+Orte in der Umgebung aus, welche dir gefallen. Beispiele hierfür wären dein Zuhause, falls es in der Nähe ist, ein Teil deines Schuleweges, eine lokale 
+Sehenswürdigkeit oder das Zuhause einer deiner Freunde. Es gibt genug Sachen die man kartografieren kann, mach dir nur ein paar Gedanken.
 
 Doch wie kartografiert man richtig beziehungsweise auf was ist zu achten?
 
