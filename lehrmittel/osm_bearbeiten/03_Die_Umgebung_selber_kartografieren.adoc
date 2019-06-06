@@ -122,7 +122,7 @@ Nun da du zurück bist, können wir die Daten auf OpenStreetMap laden. Bevor wir
 brauchst du noch einen OSM-Account. Doch gehen wir zunächst einmal zur Webseite unter: https://www.openstreetmap.org/.
 
 Oben rechts siehst du nun einen "Registrieren"-Button. Klicke drauf, nun musst du deine Email eingeben und ein Passwort setzen. Per Email musst du dann 
-deine Angaben bestätigen indem du auf einen Link klicktst und danach ist dein Konto auch schon eingerichtet. Legen wir doch mit dem eigentlichen 
-Kartografieren los!
+deine Angaben bestätigen indem du auf einen Link klickst und danach ist dein Konto auch schon eingerichtet. Jetzt können wir beginnen, also 
+legen wir doch mit dem eigentlichen Kartografieren los!
 
 
