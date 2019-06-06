@@ -26,7 +26,6 @@ Folgende Themen werden behandelt:
 * Was ist OpenStreetMap (OSM)?
 * Was wird kartiert? was nicht?
 * Was könnte bei diesem Event alles kartiert werden?
-* Wie kartieren wir draussen?
 * Vorbereitung
 * Zurück am Laptop: Wie editiert man OSM?
 
@@ -82,6 +81,30 @@ Beispiele für ungeeignete Daten:
 Wie du oben schon gelesen hast, sind Strassen, Häuser, Hausnummern, Läden und Restaurants (inkl. Öffnungszeiten) geeignete Objekte/Daten zum Kartografieren. 
 Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in zusammenschliesst und in zweier Gruppen die Umgebung kartografiert. 
 
-Wie du deine Umgebung kartografierst, erläutere ich in einzelnen Schritten:
+Doch wie kartografiert man richtig beziehungsweise auf was ist zu achten?
 
+Strassen:
+
+* Strassennamen
+* Verlauf (gerade, kurvig, etc.)
+* Richtung
+* Fussgängerstreifen
+
+Häuser und Hausnummern:
+
+* Form
+* Grösse der Fläche
+* Adresse
+* Evtl. hat ein Haus mehrere Nummern
+
+
+Läden und Restaurants:
+
+* Name des Ladens/Restaurants
+* Öffnungszeiten
+* Telefonnummer
+* Adresse
+* Website
+
+=== Vorbereitung
 
