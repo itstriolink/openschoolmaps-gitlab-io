@@ -28,3 +28,6 @@ Folgende Themen werden behandelt:
 * Den Event auswerten und Abschluss des Events 
 
 == Einleitung
+== Checkliste
+== Vorbereitung
+== Den Event auswerten und Abschluss des Events 
