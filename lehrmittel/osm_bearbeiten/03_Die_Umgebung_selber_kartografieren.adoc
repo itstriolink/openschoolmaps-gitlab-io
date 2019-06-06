@@ -37,5 +37,6 @@ Folgende Themen werden behandelt:
 OpenStreetMap (kurz OSM) ist ein Online-Geodatensystem, welches Geodaten enthält, die vom Benutzer gesammelt und 
 verwaltet werden. Die Daten können frei und ohne Einschränkungen verwaltet werden und gehören der Community, man benötigt nur einen OSM-Account. 
 Im Gegensatz dazu gehören die Daten von Bing Maps, Google Maps, CityMaps oder map.geo.admin.ch Unternehmen oder Regierungen, können vom Benutzer 
-rechtlich gesehen also nicht einfach weiterverwendet werden.
+rechtlich gesehen also nicht einfach weiterverwendet werden. OpenStreetMap 
 
+Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue doch unter folgendem Link nach:
