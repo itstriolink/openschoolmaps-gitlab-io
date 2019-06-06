@@ -40,3 +40,4 @@ Im Gegensatz dazu gehören die Daten von Bing Maps, Google Maps, CityMaps oder m
 rechtlich gesehen also nicht einfach weiterverwendet werden. OpenStreetMap 
 
 Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue doch unter folgendem Link nach:
+https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.adoc
