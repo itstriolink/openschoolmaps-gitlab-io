@@ -125,4 +125,4 @@ Oben rechts siehst du nun einen "Registrieren"-Button. Klicke drauf, nun musst d
 deine Angaben bestätigen indem du auf einen Link klickst und danach ist dein Konto auch schon eingerichtet. Jetzt können wir beginnen, also 
 legen wir doch mit dem eigentlichen Kartografieren los!
 
-
+//TODO
