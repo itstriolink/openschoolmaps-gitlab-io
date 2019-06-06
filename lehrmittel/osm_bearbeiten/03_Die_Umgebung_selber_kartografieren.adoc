@@ -52,4 +52,14 @@ https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmitte
 
 === Was wird kartiert? was nicht?
 
+Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. Bevor man diese Daten jedoch in OpenStreetMap integrieren kann, 
+muss man sie zuerst sammeln. Dazu hat man verschiedene Möglichkeiten. //TODO
 
+Gute Daten:
+
+* Statistiken und Analysen
+* Statistiken und Analysen
+
+Schlechte Daten:
+
+* Statistiken und Analysen
