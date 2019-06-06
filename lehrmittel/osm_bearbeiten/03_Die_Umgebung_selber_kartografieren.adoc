@@ -49,3 +49,7 @@ Um nur ein paar Beispiele zu nennen, liste ich im Folgenden ein paar Einsatzmög
 
 Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue doch unter folgendem Link nach:
 https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.adoc
+
+=== Was wird kartiert? was nicht?
+
+
