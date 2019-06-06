@@ -79,6 +79,9 @@ Beispiele für ungeeignete Daten:
 
 === Was könnte bei diesem Event alles kartiert werden?
 
-Wie du oben schon gelesen hast, sind Strassen, Häuser, Hausnummern, Läden und Restaurants (+ ihre Öffnungszeiten) geeignete Objekte/Daten zum Kartografieren. 
+Wie du oben schon gelesen hast, sind Strassen, Häuser, Hausnummern, Läden und Restaurants (inkl. Öffnungszeiten) geeignete Objekte/Daten zum Kartografieren. 
 Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in zusammenschliesst und in zweier Gruppen die Umgebung kartografiert. 
+
+Wie du deine Umgebung kartografierst, erläutere ich in einzelnen Schritten:
+
 
