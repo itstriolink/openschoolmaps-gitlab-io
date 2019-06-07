@@ -29,7 +29,7 @@ Folgende Themen werden behandelt:
 
 == Einleitung
 
-Ein
+
 
 == Checkliste
 
@@ -41,4 +41,8 @@ Ein
 
 == Den Event auswerten und Abschluss des Events 
 
-
+Am Schluss des Events sollen die Schülerinnen und Schüler ihre Ergebnisse auswerten und der Klasse präsentieren. 
+Das Auswerten kann entweder jeder für sich oder pro Zweiergruppe geschehen. Zum Auswerten gehören Vorher-Nachher-Vegleiche 
+der Kartenausschnitte, statistische Auswertungen und die persönliche Reflexion. Nach dem Auswerten des Events und den Präsentationen 
+der Ergebnisse wäre es auch noch sinnvoll, innerhalb der ganzen Klasse ein Fazit zu ziehen. Was war gut? Was war nicht so gut? Was kann 
+man nächstes Mal besser machen? Was hat die Klasse gelernt? Diese Feststellungen sollten unbedingt in einem Bericht festgehalten werden.
