@@ -173,4 +173,17 @@ und danach ist dein Konto auch schon eingerichtet.
 
 Jetzt kannst du mit dem eigentlichen Kartografieren beginnen. Also los!
 
-//TODO
+Nachdem du dich angemeldet hast, siehst du eine Weltkarte ähnlich wie bei Google Maps.
+Zoome doch in die Schweiz oder noch besser, in deine Stadt. Wenn du möchtest, kannst du es auch im Suchfeld eingeben. 
+Nun wollen wir aber unsere Umgebung nicht nur in OpenStreetMap betrachten, sondern wollen sie bearbeiten. 
+Dazu klicke oben links auf "Bearbeiten". Wenn du noch nie zuvor in OpenStreetMap Objekte bearbeitet hast (und dies ist 
+nach dem Registrieren der Fall), dann erscheint ein Fenster "Willkommen beim iD OpenStreetMap Editor". 
+
+.iD OpenStreetMap Editor
+image::osm_editieren/osm-daten_beziehen/iD_OpenStreetMap.png[]
+
+Mit dem OpenStreetMap iD Editor können wir neue Objekte erstellen und neue Daten auf diesen Objekten erfassen. 
+Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu halten. 
+
+Es empfiehlt sich auf "Rundgang starten" zu klicken, dann wirst du durch ein Tutorial geführt, wie man in OpenStreetMap 
+richtig editiert. Dieses Tutorial dauert in etwa 10-20min. Danach solltest du wissen, wie es geht.
