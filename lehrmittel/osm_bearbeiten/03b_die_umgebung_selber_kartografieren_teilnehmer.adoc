@@ -147,7 +147,7 @@ hier noch nicht, denn das braucht mehr Vor- und Nachbereitung als Stift und Papi
 
 == Kroki-Karte drucken mit uMap
 
-Bevor alle mit dem Kartieren beginnen, benötigst wir eine gedruckte Karte, 
+Bevor alle mit dem Kartieren beginnen, benötigst du eine gedruckte Karte, 
 auf der man Notizen machen kann.
 
 Die Lehrperson/Instruktor wird dies gedruckten dem Karteneditor uMap vorbereiten
@@ -156,7 +156,7 @@ zuteilen, damit wir dieselbe Gegend nicht zweimal kartographiert wird.
 
 Das nächste Kapitel ist eine Variante, wie man Karten drucken kann, um darauf
 Notizen zu machen. Je nachdem wie sich die Lehrperson/Instruktor entschieden hat, 
-kannst du diesesdas nächste Kapitel auslassen. 
+kannst du das nächste Kapitel auslassen. 
 
 Wenn du zurückkommst kannst du zum übernächsten Kapitel "Wie editiert man OpenStreetMap?" 
 springen. 
@@ -166,7 +166,7 @@ Viel Spass beim Kartografieren!
 
 Field Papers ist eine Webapplikation, die frei zugänglich ist. 
 Mit Field Papers kann man mit Daten aus OpenStreetMap eine Karte erstellen, 
-ausdrucken und mit eigenen Notizen versehen. 
+diese ausdrucken und mit eigenen Notizen versehen. 
 Wenn die Notizen auf der Karte erfasst sind, kann sie abfotografiert und bei 
 Field Papers wieder hochgeladen werden. 
 Nachdem die Karte hochgeladen ist, kann man mit einem Klick direkt den 
@@ -179,13 +179,15 @@ Digitalkamera oder Smartphone.
 Das ist der Ablauf mit Field Papers kurz zusammengefasst:
 
 1. Rufe http://fieldpapers.org/[Field Papers] auf und registriere dich wenn nötig. 
+1. Gib der Karte einen Namen und navigiere zum Kartenausschnitt (Perimeter), der 
+dir zugeteilt ist.
 1. Drucke die Karte aus.
 1. Gehe nach draussen und notiere, was du siehst.
 1. Komm zurück, und schaue entweder einfach die Papiernotizen an und verwende 
 sie als Hilfsmittel;
 1. oder mach ein Foto der Papiernotizen (oder scanne das Papier ein) und lade 
 das Foto hoch.
-1. Starte den iD-Editor (ev. direkt mit dem Weblink auf Field Papers, hier ein 
+1. Starte den iD-Editor (direkt mit dem Weblink auf Field Papers; hier ein 
 http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875[Link] als Beispiel).
 1. Erfasse die Daten mit dem OpenStreetMap-Editor. 
 
@@ -195,8 +197,12 @@ Viel Spass beim Kartografieren!
 
 == Wie editiert man OpenStreetMap?
 
-Nun da du zurück bist, kannst du die Daten auf OpenStreetMap laden. 
-Bevor wir anfangen können auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
+Nun da du zurück bist, kannst du die Daten auf OpenStreetMap editieren. 
+
+Die folgenden Erklärungen sind eine Kurzfassung des Arbeitsblatts 
+"OpenStreetMap bearbeiten" auf https://www.openschoolmaps.ch[OpenSchoolMaps]. 
+
+Bevor du anfangen kannst auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
 brauchst du einen OSM-Account. 
 Dazu gehst du zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
 
@@ -208,20 +214,26 @@ und danach ist dein Konto auch schon eingerichtet.
 
 Jetzt kannst du mit dem eigentlichen Kartografieren beginnen. Also los!
 
-Nachdem du dich angemeldet hast, siehst du eine Weltkarte ähnlich wie bei Google Maps.
-Zoome doch in die Schweiz oder noch besser, in deine Stadt. Wenn du möchtest, kannst du es auch im Suchfeld eingeben. 
-Nun wollen wir aber unsere Umgebung nicht nur in OpenStreetMap betrachten, sondern wollen sie bearbeiten. 
-Dazu klicke oben links auf "Bearbeiten". Wenn du noch nie zuvor in OpenStreetMap Objekte bearbeitet hast (und dies ist 
-nach dem Registrieren der Fall), dann erscheint ein Fenster "Willkommen beim iD OpenStreetMap Editor". 
+Nachdem du dich angemeldet hast, navigiere in deine Gegend. 
+Wenn du möchtest, kannst du im Suchfeld auch einen Ortsnamen eingeben. 
+Nun wollen wir aber unsere Umgebung nicht nur in OpenStreetMap betrachten, 
+sondern wollen sie bearbeiten. 
+Dazu klicke oben links auf "Bearbeiten". 
+Wenn du noch nie zuvor in OpenStreetMap Objekte bearbeitet hast (und dies ist 
+nach dem Registrieren der Fall), dann erscheint ein Fenster "Willkommen beim 
+iD OpenStreetMap Editor". 
 
 .iD OpenStreetMap Editor
 image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG[]
 
-Mit dem OpenStreetMap iD Editor können wir neue Objekte erstellen und neue Daten auf diesen Objekten erfassen. 
+Mit dem OpenStreetMap iD Editor können wir neue Objekte erstellen und neue Daten 
+auf diesen Objekten erfassen. 
 Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu halten. 
 
-Es empfiehlt sich auf "Rundgang starten" zu klicken, dann wirst du durch ein Tutorial geführt, wie man in OpenStreetMap 
-richtig editiert. Dieses Tutorial dauert in etwa 10-20min. Danach solltest du wissen, wie es geht.
+Es empfiehlt sich auf "Rundgang starten" zu klicken, dann wirst du durch ein 
+Tutorial geführt, wie man in OpenStreetMap richtig editiert. 
+Dieses Tutorial dauert in etwa 10 bis 20 Minuten. 
 
-Falls du dennoch mehr Hilfe benötigst, schaue unter folgendem Link nach:
-https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmittel/osm_bearbeiten/01_openstreetmap_bearbeiten.adoc
+Nun solltest du wissen, wie es geht.
+Falls du dennoch mehr Hilfe benötigst, schaue im Arbeitsblatt 
+"OpenStreetMap bearbeiten" von https://www.openschoolmaps.ch[OpenSchoolMaps] nach. 
