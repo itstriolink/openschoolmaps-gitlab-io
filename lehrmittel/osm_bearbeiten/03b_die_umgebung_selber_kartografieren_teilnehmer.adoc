@@ -158,7 +158,7 @@ Das nächste Kapitel ist eine Variante, wie man Karten drucken kann, um darauf
 Notizen zu machen. Je nachdem wie sich die Lehrperson/Instruktor entschieden hat, 
 kannst du diesesdas nächste Kapitel auslassen. 
 
-Wenn du zurückkommst kannst du zum übernächsten Kapitel "Wie editiert man OSM?" 
+Wenn du zurückkommst kannst du zum übernächsten Kapitel "Wie editiert man OpenStreetMap?" 
 springen. 
 Viel Spass beim Kartografieren!
 
@@ -181,9 +181,12 @@ Das ist der Ablauf mit Field Papers kurz zusammengefasst:
 1. Rufe http://fieldpapers.org/[Field Papers] auf und registriere dich wenn nötig. 
 1. Drucke die Karte aus.
 1. Gehe nach draussen und notiere, was du siehst.
-1. Komm zurück, und schaue entweder einfach die Papiernotizen an und verwende sie als Hilfsmittel;
-1. oder mach ein Foto (oder scanne das Papier) und lade es hoch.
-1. Starte den iD-Editor (ev. direkt mit dem Weblink auf Field Papers, hier z.B. ein Beispiel-Link: http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875 )
+1. Komm zurück, und schaue entweder einfach die Papiernotizen an und verwende 
+sie als Hilfsmittel;
+1. oder mach ein Foto der Papiernotizen (oder scanne das Papier ein) und lade 
+das Foto hoch.
+1. Starte den iD-Editor (ev. direkt mit dem Weblink auf Field Papers, hier ein 
+http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875[Link] als Beispiel).
 1. Erfasse die Daten mit dem OpenStreetMap-Editor. 
 
 Das nächste Kapitel erläutert, wie du die auf Papier notierten Informationen 
@@ -195,7 +198,7 @@ Viel Spass beim Kartografieren!
 Nun da du zurück bist, kannst du die Daten auf OpenStreetMap laden. 
 Bevor wir anfangen können auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
 brauchst du einen OSM-Account. 
-Dazu gehst du zur Webseite unter: https://www.openstreetmap.org/.
+Dazu gehst du zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
 
 Oben rechts siehst du nun einen "Registrieren"-Button. 
 Klicke drauf, nun musst du deine Email eingeben und einen Benutzernamen und ein 
