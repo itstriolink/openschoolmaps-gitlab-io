@@ -23,11 +23,11 @@ Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen
 unterschiedlich viel Zeit, mindestens jedoch drei Stunden. 
 Dies ist der grobe Plan:
 
-1. Allgemeine Vorbereitungen (z.B. was ist OSM?), mind. ca. 20 min.
+1. Allgemeine Vorbereitungen (z.B. was ist OpenStreetMap?), mind. ca. 20 min.
 1. Konkrete Vorbereitung für die Kartierung draussen, mind. ca. 40 min.
 1. Draussen kartieren, mind. ca. 60 min.
 1. Instruktion zum Editieren von OSM, mind. ca. 20 min.
-1. Editieren am Laptop/PC, mind. ca. 40 min.
+1. Editieren am Computer, mind. ca. 40 min.
 
 .Aufbau
 Folgende Themen werden behandelt:
@@ -145,26 +145,57 @@ sein, damit man sieht was wo ist und was schon eingetragen ist.
 Es wäre auch möglich, ein Smartphone mit GPS zu nutzen. Das verwenden wir aber 
 hier noch nicht, denn das braucht mehr Vor- und Nachbereitung als Stift und Papier. 
 
-== Field Papers
+== Kroki-Karte drucken mit uMap
 
-Field Papers ist eine Webapplikation, mit dem man eine Karte eines Gebietes 
-drucken, darauf zeichnen und Notizen machen kann. 
-Die Notizen werden dann wieder eingescannt und in die Webapplikation hochgeladen. 
-Damit kann man die Notizen im OpenStreetMap-Editor anzeigen und die Objekte 
-dort eintragen. 
+Bevor alle mit dem Kartieren beginnen, benötigst wir eine gedruckte Karte, 
+auf der man Notizen machen kann.
 
-Auf Webseite findest du weitere Erklärungen: http://fieldpapers.org/
+Die Lehrperson/Instruktor wird dies gedruckten dem Karteneditor uMap vorbereiten
+und jedem Schüler/Interessierten einen Bereich (sogenannter "Perimeter") 
+zuteilen, damit wir dieselbe Gegend nicht zweimal kartographiert wird.
 
-Das nächste Kapitel erläutert, wie du die erfassten Daten am Laptop/PC editieren 
-kannst, sobald du Daten gesammelt hast. 
+Das nächste Kapitel ist eine Variante, wie man Karten drucken kann, um darauf
+Notizen zu machen. Je nachdem wie sich die Lehrperson/Instruktor entschieden hat, 
+kannst du diesesdas nächste Kapitel auslassen. 
+
+Wenn du zurückkommst kannst du zum übernächsten Kapitel "Wie editiert man OSM?" 
+springen. 
 Viel Spass beim Kartografieren!
 
-== Wie editiert man OSM?
+== Kroki-Karte drucken mit Field Papers (optional)
 
-Nun da du zurück bist, können wir die Daten auf OpenStreetMap laden. 
+Field Papers ist eine Webapplikation, die frei zugänglich ist. 
+Mit Field Papers kann man mit Daten aus OpenStreetMap eine Karte erstellen, 
+ausdrucken und mit eigenen Notizen versehen. 
+Wenn die Notizen auf der Karte erfasst sind, kann sie abfotografiert und bei 
+Field Papers wieder hochgeladen werden. 
+Nachdem die Karte hochgeladen ist, kann man mit einem Klick direkt den 
+OpenStreetMap-Editor iD aufrufen und sieht die Notizen als Basiskarte. 
+Nun kann man im iD-Editor die OSM-Daten erfassen.
+
+Für Field Papers benötigt man einen Computer, einen Drucker und eine 
+Digitalkamera oder Smartphone.
+
+Das ist der Ablauf mit Field Papers kurz zusammengefasst:
+
+1. Rufe http://fieldpapers.org/[Field Papers] auf und registriere dich wenn nötig. 
+1. Drucke die Karte aus.
+1. Gehe nach draussen und notiere, was du siehst.
+1. Komm zurück, und schaue entweder einfach die Papiernotizen an und verwende sie als Hilfsmittel;
+1. oder mach ein Foto (oder scanne das Papier) und lade es hoch.
+1. Starte den iD-Editor (ev. direkt mit dem Weblink auf Field Papers, hier z.B. ein Beispiel-Link: http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875 )
+1. Erfasse die Daten mit dem OpenStreetMap-Editor. 
+
+Das nächste Kapitel erläutert, wie du die auf Papier notierten Informationen 
+am Computer editieren kannst. 
+Viel Spass beim Kartografieren!
+
+== Wie editiert man OpenStreetMap?
+
+Nun da du zurück bist, kannst du die Daten auf OpenStreetMap laden. 
 Bevor wir anfangen können auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
 brauchst du einen OSM-Account. 
-Dazu gehen wir zur Webseite unter: https://www.openstreetmap.org/.
+Dazu gehst du zur Webseite unter: https://www.openstreetmap.org/.
 
 Oben rechts siehst du nun einen "Registrieren"-Button. 
 Klicke drauf, nun musst du deine Email eingeben und einen Benutzernamen und ein 
