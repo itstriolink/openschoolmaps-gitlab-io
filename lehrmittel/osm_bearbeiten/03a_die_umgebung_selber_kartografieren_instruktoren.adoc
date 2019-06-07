@@ -69,7 +69,12 @@ dann fällt es Ihnen deutlich leichter abzuschätzen, wie viel Zeit Sie für die
 
 == Integrieren der Daten in OSM
 
-Nachdem Sie ihre 
+Nachdem Sie ihre Daten gesammelt haben, gehen Sie auf https://www.openstreetmap.org. Ich gehe davon aus, dass Sie bereits einen Account erstellt haben, 
+während Sie die Unterlagen abgearbeitet haben. Falls nicht, wäre jetzt der Zeitpunkt dafür. Nachdem Sie sich angemeldet haben, tragen Sie ihre Daten ein. 
+Auch hier könnte es sich später als Vorteil erweisen, wenn Sie schauen, wie viel Zeit Sie benötigen. Rechnen Sie jedoch zu ihrer gemessenen Zeit noch 
+ein wenig dazu, denn die Schülerinnen und Schüler sind wahrscheinlich nicht gleich schnell wie Sie und die Unterschiede in der Klasse werden doch 
+beträchtlich sein. Falls alles geklappt hat, sollten Sie schon ein erstes Händchen für OSM entwickelt haben und können einschätzen, wie viel Zeit Sie 
+einplanen sollten. Vielleicht haben Sie auch schon erste Vorstellungen, wie Sie das Event gestalten und durchführen möchten.
 
 == Vorbereitung
 
