@@ -33,14 +33,23 @@ Folgende Themen werden behandelt:
 
 == Checkliste
 
-
+* Einführung in die Thematik für die Lehrfachkraft/Instruktor
+*
+*
+*
 
 == Vorbereitung
 
 Die Klasse sollte zur Durchführung des Events Zweiergruppen bilden. Dies macht es sowohl für die Schülerinnen und Schüler spannender 
-als auch für die Lehrperson einfacher zu Organisieren. Pro Zweiergruppe sollte ein Smartphone vorhanden sein (wird wahrscheinlich 
-kein Problem sein in der heutigen Zeit) und es sollte ein Raum zur Verfügung stehen mit genügend PCs und/oder Laptops mit Zugang zum 
-Internet.
+als auch für die Lehrperson einfacher zu Organisieren. Pro Zweiergruppe sollte ein Android-Smartphone vorhanden sein (wird wahrscheinlich 
+kein Problem sein in der heutigen Zeit) mit der App "OSMTracker for Android". Zudem sollte ein Raum zur Verfügung stehen mit genügend PCs 
+und/oder Laptops mit Zugang zum Internet, um auf OpenStreetMap.org die gesammelten Daten zu integrieren. Anstelle eines Smartphones kann 
+auch mit Stift und Papier gearbeitet werden. Auf dem Papier sollte dann die Umgebung abgebildet sein, die es zu erkunden gilt. Nicht zwingend 
+aber dennoch sinnvoll wäre schönes Wetter, da es eine Outdoor-Aktivität ist. Deshalb sollte nicht allzu stark im Voraus geplant werden. 
+
+Zuletzt sollte unbedingt das Erkundungsgebiet vom Lehrer (oder in der Klasse) eingegrenzt werden, damit die Schülerinnen und Schülern nicht 
+allzu grosse Distanzen gehen, unnötig Zeit verloren geht und das Wesentliche aus den Augen verloren geht. Zusätzlich wäre es auch noch sinnvoll, 
+das Erkundungsgebiet in kleinere Gebiete einzuteilen und den Gruppen zuzuweisen, damit möglichst wenige Routen mehrmals kartografiert werden.
 
 == Den Event auswerten und Abschluss des Events 
 
