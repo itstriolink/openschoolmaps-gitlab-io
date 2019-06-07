@@ -29,7 +29,15 @@ Folgende Themen werden behandelt:
 
 == Einleitung
 
+Technologie ist immer weniger aus dem Alltag der Menschen zu denken, dazu gehören auch Onlin-Kartendienste. Besonders junge Leute, die sich 
+nicht sehr viel mit Informatik beschäftigen, kennen fast nur Google Maps. Dabei gibt es ganz viele Alternativen dazu, eine ganz besondere 
+ist OpenStreetMap. Der Vorteil von OpenStreetMap ist, dass die Daten den Nutzern (der Community) gehören und nicht einer Unternehmung oder 
+einer Regierungsbehörde. Dies setzt aber auch vorraus, dass die Daten durch die Nutzer ergänzt und aktuell gehalten werden. Doch Kartografieren 
+an sich ist weder langweilig noch schwierig, darum sollte es jeder können. Eine Möglichkeit das Kartografieren bekannter zu machen, ist es in den 
+Unterricht einzubinden, beispielsweise im Geografie- oder Geschichtsunterricht. Ein Outdoor Mapping Event soll einen ersten Einblick geben.
 
+Die unten abgebildete Checkliste beinhaltet eine kurze Auflistung der Themen, die wichtig sind um einen erfolgreichen Event lancieren zu können. 
+Auf die aufgelisteten Themen wird Abschnitt für Abschnitt näher eingegangen.
 
 == Checkliste
 
@@ -39,6 +47,24 @@ Folgende Themen werden behandelt:
 * Einführung zur Thematik für die Schülerinnen und Schüler
 * Vorbereitung
 * Den Event auswerten und Abschluss des Events 
+
+== Studium der Unterlagen
+
+Bevor Sie ein erfolgreiches Outdoor Mapping Event durchführen können, müssen Sie sich mit der Thematik befassen. Es wäre gut, wenn Sie einige Wochen 
+im Vorraus die OpenSchoolMaps-Unterlagen zur Hand nehmen und diese studieren. Die Unterlagen beinhalten sowohl Theorie wie auch Aufgaben zum Lösen. 
+Seien Sie auf mögliche Fragen der Schülerinnen und Schüler vorbereitet und machen Sie sich so viele Notizen wie es nur geht. Wenn Ihnen etwas nicht ganz 
+klar ist, können Sie entweder jemand zur Hilfe nehmen oder im Internet nach Antworten suchen, da die OSM-Community sehr gross ist. Dennoch denke ich sollte 
+das studieren der Unterlagen nicht sehr schwierig sein und gut im Selbststudium machbar sein.
+
+== Durchführung eines Testlaufs
+
+Zu einer guten Vorbereitung gehört nicht nur das Studieren der Unterlagen, sondern auch das Durchführen eines Testlaufs. Gehen Sie am Wochenende oder 
+nach Unterrichtsschluss auf einen Spaziergang und Wenden Sie ihr neu erworbenes Wissen der Unterlagen auf ihre Umgebung an. Erkunden Sie die Umgebung 
+aus Sicht eines Kartografierers.
+
+== Integrieren der Daten in OSM
+
+== Einführung zur Thematik für die Schülerinnen und Schüler
 
 == Vorbereitung
 
