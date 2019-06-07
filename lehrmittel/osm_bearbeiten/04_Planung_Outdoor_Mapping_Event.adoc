@@ -44,8 +44,8 @@ Auf die aufgelisteten Themen wird Abschnitt für Abschnitt näher eingegangen.
 * Studium der Unterlagen
 * Durchführung eines Testlaufs
 * Integrieren der Daten in OSM
-* Einführung zur Thematik für die Schülerinnen und Schüler
 * Vorbereitung
+* Einführung der Thematik für die Schülerinnen und Schüler
 * Den Event auswerten und Abschluss des Events 
 
 == Studium der Unterlagen
@@ -64,7 +64,7 @@ aus Sicht eines Kartografierers.
 
 == Integrieren der Daten in OSM
 
-== Einführung zur Thematik für die Schülerinnen und Schüler
+
 
 == Vorbereitung
 
@@ -81,6 +81,10 @@ das Erkundungsgebiet in kleinere Gebiete einzuteilen und den Gruppen zuzuweisen,
 
 
 CAUTION: Achten Sie darauf, dass Sie genug Lektionen einplanen. Kartografieren kann länger dauern als man denkt, deshalb planen Sie grosszügig!
+
+== Einführung der Thematik für die Schülerinnen und Schüler
+
+
 
 == Den Event auswerten und Abschluss des Events 
 
