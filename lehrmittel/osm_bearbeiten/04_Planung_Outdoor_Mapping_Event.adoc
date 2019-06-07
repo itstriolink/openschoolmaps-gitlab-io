@@ -79,6 +79,9 @@ Zuletzt sollte unbedingt das Erkundungsgebiet vom Lehrer (oder in der Klasse) ei
 allzu grosse Distanzen gehen, unnötig Zeit verloren geht und das Wesentliche aus den Augen verloren geht. Zusätzlich wäre es auch noch sinnvoll, 
 das Erkundungsgebiet in kleinere Gebiete einzuteilen und den Gruppen zuzuweisen, damit möglichst wenige Routen mehrmals kartografiert werden.
 
+
+CAUTION: Achten Sie darauf, dass Sie genug Lektionen einplanen. Kartografieren kann länger dauern als man denkt, deshalb planen Sie grosszügig!
+
 == Den Event auswerten und Abschluss des Events 
 
 Am Schluss des Events sollen die Schülerinnen und Schüler ihre Ergebnisse auswerten und der Klasse präsentieren. 
