@@ -60,11 +60,16 @@ das studieren der Unterlagen nicht sehr schwierig sein und gut im Selbststudium 
 
 Zu einer guten Vorbereitung gehört nicht nur das Studieren der Unterlagen, sondern auch das Durchführen eines Testlaufs. Gehen Sie am Wochenende oder 
 nach Unterrichtsschluss auf einen Spaziergang und Wenden Sie ihr neu erworbenes Wissen der Unterlagen auf ihre Umgebung an. Erkunden Sie die Umgebung 
-aus Sicht eines Kartografierers.
+aus Sicht eines Kartografierers. Nehmen Sie entweder ihr Smartphone mit auf den Spaziergang oder Stift und Papier. Auf dem Papier können Sie einen Karten
+ausschnitt der Umgebung abbilden, nutzen Sie dafür https://umap.openstreetmap.fr/de/ oder http://fieldpapers.org/. Falls Sie sich für das Smartphone entscheiden, 
+gehen Sie sicher das es ein Android-Smartphone ist. Dann können Sie nämlich "OSMTracker for Android" im Google Play Store herunterladen.
+
+Stoppen Sie die Zeit und schauen Sie nach wie lange Sie für ihre Umgebungserkundung benötigen und wie viel Informationen Sie in dieser Zeit sammeln können, 
+dann fällt es Ihnen deutlich leichter abzuschätzen, wie viel Zeit Sie für die Schülerinnen und Schüler planen.
 
 == Integrieren der Daten in OSM
 
-
+Nachdem Sie ihre 
 
 == Vorbereitung
 
