@@ -36,7 +36,8 @@ Folgende Themen werden behandelt:
 * Was wird kartiert? was nicht?
 * Was könnte bei diesem Event alles kartiert werden?
 * Vorbereitung
-* Field Papers
+* Kroki-Karte drucken mit uMap
+* Kroki-Karte drucken mit Field Papers (optional)
 * Wie editiert man OpenStreetMap?
 
 == Einleitung
