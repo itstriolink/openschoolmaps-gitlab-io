@@ -187,3 +187,6 @@ Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu hal
 
 Es empfiehlt sich auf "Rundgang starten" zu klicken, dann wirst du durch ein Tutorial geführt, wie man in OpenStreetMap 
 richtig editiert. Dieses Tutorial dauert in etwa 10-20min. Danach solltest du wissen, wie es geht.
+
+Falls du dennoch mehr Hilfe benötigst, schaue unter folgendem Link nach:
+https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/blob/master/lehrmittel/osm_bearbeiten/01_openstreetmap_bearbeiten.adoc
