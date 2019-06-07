@@ -33,10 +33,12 @@ Folgende Themen werden behandelt:
 
 == Checkliste
 
-* Einführung in die Thematik für die Lehrfachkraft/Instruktor
-*
-*
-*
+* Studium der Unterlagen
+* Durchführung eines Testlaufs
+* Integrieren der Daten in OSM
+* Einführung zur Thematik für die Schülerinnen und Schüler
+* Vorbereitung
+* Den Event auswerten und Abschluss des Events 
 
 == Vorbereitung
 
