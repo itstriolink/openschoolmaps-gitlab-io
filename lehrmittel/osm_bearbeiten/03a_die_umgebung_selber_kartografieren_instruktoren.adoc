@@ -76,6 +76,8 @@ ein wenig dazu, denn die Schülerinnen und Schüler sind wahrscheinlich nicht gl
 beträchtlich sein. Falls alles geklappt hat, sollten Sie schon ein erstes Händchen für OSM entwickelt haben und können einschätzen, wie viel Zeit Sie 
 einplanen sollten. Vielleicht haben Sie auch schon erste Vorstellungen, wie Sie das Event gestalten und durchführen möchten.
 
+Tipp: Zeigen Sie ihre Arbeit den Schülerinnen und Schülern als Einführung ins Thema, so können sie sich dann schon eine erste Meinung zum Thema bilden.
+
 == Vorbereitung
 
 Die Klasse sollte zur Durchführung des Events Zweiergruppen bilden. Dies macht es sowohl für die Schülerinnen und Schüler spannender 
@@ -94,7 +96,10 @@ CAUTION: Achten Sie darauf, dass Sie genug Lektionen einplanen. Kartografieren k
 
 == Einführung der Thematik für die Schülerinnen und Schüler
 
-
+Bevor Sie die Schülerinnen und Schüler in Gruppen einteilen und losschicken, um die Umgebung zu erkunden, sollten Sie sie langsam ans Thema heran
+führen. Dies deshalb, da der Wissensstand innerhalb der Klasse im Bereich der Informatik doch sehr gross sein kann und nicht alle wissen was OpenStreetMap 
+ist und was der Sinn und Zweck dahinter sein soll. Bereiten Sie am Besten eine kurze Präsentation vor und tragen Sie alles vor, was Sie in den Unterlagen gelernt 
+haben und nun wissen. Nehmen Sie sich genug Zeit um offene Fragen zu klären und gehen Sie sicher, dass die Schülerinnen und Schüler auch alles verstanden haben.
 
 == Den Event auswerten und Abschluss des Events 
 
