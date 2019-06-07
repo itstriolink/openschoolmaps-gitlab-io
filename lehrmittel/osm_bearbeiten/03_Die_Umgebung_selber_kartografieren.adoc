@@ -180,7 +180,7 @@ Dazu klicke oben links auf "Bearbeiten". Wenn du noch nie zuvor in OpenStreetMap
 nach dem Registrieren der Fall), dann erscheint ein Fenster "Willkommen beim iD OpenStreetMap Editor". 
 
 .iD OpenStreetMap Editor
-image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.png[]
+image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG[]
 
 Mit dem OpenStreetMap iD Editor können wir neue Objekte erstellen und neue Daten auf diesen Objekten erfassen. 
 Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu halten. 
