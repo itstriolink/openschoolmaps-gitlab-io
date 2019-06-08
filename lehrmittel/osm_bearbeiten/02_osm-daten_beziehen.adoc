@@ -46,8 +46,7 @@ sowie auf https://learnosm.org/de/ informieren.
 
 == Einleitung
 
-Die Daten von OpenStreetMap können in unterschiedlichen Datenformaten auf dem 
-Rechner lokal gespeichert werden.
+Die Daten von OpenStreetMap kommen in unterschiedlichen Datenformaten daher.
 Daher werden wir zunächst einige dieser Dateiformate genauer erläutern.
 
 === OpenStreetMap und Geoinformationssysteme
@@ -115,12 +114,12 @@ Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes
 .Resultat der Wizard-Abfrage
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
-Das obige Resultat könnte man auch vereinfachen, indem man die "nodes", "ways" und 
+Das obige Resultat kann man auch vereinfachen, indem man die "nodes", "ways" und 
 "relations" zu "nwr" (=noses/ways/relations) ersetzt bzw. zusammenfasst.
 Unten rechts sieht man rot markiert die verschiedenen Objekte. 
 Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten, könnten wir mittels 
-"out center" alle Flächen und Pfade in Punkte verwandeln.
-Die neue Abfrage würde dann folgendermassen aussehen.
+"out center;" alle Flächen und Pfade in Punkte verwandeln.
+Die neue Abfrage sollte somit folgendermassen aussehen.
 
   [out:json][timeout:25];
   {{geocodeArea:Uster}}->.searchArea;
@@ -263,9 +262,8 @@ oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des
 - oder aber die Daten selber - konsultieren.
 
 Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, bitte schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in 
-QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" 
-nach.
+Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 === OSM.org
 
@@ -274,9 +272,8 @@ Diese können aber nur als quadratische Ausschnitte und bis max. 50'000 Nodes
 bezogen werden und zudem nur im `OSM XML`-Format.
 
 Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, bitte schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in 
-QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" 
-nach.
+Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 === HOT Export Tool
 
@@ -388,16 +385,18 @@ klicken (siehe unten).
 .HOT Export Tool Tab 4
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
-Wenn du wissen möchtest, wie man Polygon-Layer in Punkte-Layer verwandelst oder 
-order wie man Objekte filtert, dann schaue bitte selber nach in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte 
-filtern oder regelbasiert darstellen".
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
+Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 === OSMaxx
 
-Mit OSMaxx können bestehende und neue Auszüge von OpenStreetMap in verschiedenen 
-GIS-Formaten heruntergeladen werden.
-Um OSMaxx nutzen zu können benötigt man ein OSM-Konto mit einer gültigen E-Mail Adresse.
+Mit OSMaxx können Auszüge von OpenStreetMap in verschiedenen GIS-Formaten 
+heruntergeladen werden und und zwar nicht nur Länderweise sondern in beliebigen 
+Ausschnitten.
+
+Um OSMaxx nutzen zu können benötigt man ein OSM-Konto mit einer gültigen 
+E-Mail-Adresse.
 
 Unter _Existing Excerpt / Country_ können bestehende Auszüge heruntergeladen werden.
 Es kann ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
@@ -407,23 +406,24 @@ werden sollen.
 Unter _New Excerpt_ kannst du eigene Bereiche von OpenStreetMap auswählen, die 
 du herunterladen möchtest.
 Dazu kann man ein Viereck oder ein Polygon über die Karte zeichnen.
-Es kann widerum ausgewählt werden in welchem Format die Datei heruntergeladen 
-werden soll,
-welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt 
-werden sollen.
+Es kann wiederum ausgewählt werden in welchem Format die Datei heruntergeladen 
+werden soll, welches Koordinatensystem verwendet werden soll und wie viele 
+Details angezeigt werden sollen.
 
-Das Exportieren der Daten geht etwa 45 Minuten. 
+Das Exportieren der Daten geht mindestens etwa 45 Minuten. 
 
 Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum Beispiel
 Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema dokumentiert ist.
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
+Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 === BBBike
 
 BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen 
 verschiedenen Dateiformaten an.
+
 Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
 Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512mb als Datei.
 Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
@@ -435,32 +435,43 @@ oder Shapefile steckt, findest du hier:
 * http://www.geopackage.org/spec/
 * https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
 
-Wenn du wissen möchtest wie du einen Polygon-Layer in einen Punkte-Layer 
-verwandelst oder Objekte filterst, schaue in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder 
-"Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
+Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+
 
 == Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 
-Jetzt haben wir zwei Punkte-Layer und zwei Polygon-Layer. 
-Da wir aber nur an einem Punkte-Layer insteressiert sind, müssen wir noch die 
-Polygon-Layer in Punkte-Layer umwandeln. 
-Dafür gehst du unter "Vektor" zu "Geometrie-Werkzeuge" und dann zu "Zentroide...". 
+Bei OSM kommt es immer wieder vor, dass ein Objekt - wie beispielsweise eine 
+Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) erfasst 
+wird. 
+Darum kommt es oft vor, dass man im GIS Polygon-Layer erhält mit denselben 
+Objektarten wie im Punkte-Layer.
+Eigentlich will man aber alle Objekte einheitlich und alle auf einmal ansprechen.
+
+Also gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
+Polygon-Layer in Punkt umwandeln und können diese dann im Punkte-Layer 
+integrieren. 
+
+Dafür gehst du in QGIS unter Menü "Vektor" zu "Geometrie-Werkzeuge" und dann 
+zu "Zentroide...". 
 Danach sollte das QGIS so aussehen, wobei dort die Namen der neuen Layer bereits 
 umbenannt wurden:
 
 .Polygon-Layer umgewandelt
 image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
 
-Da wir jetzt vier Punkte-Layer haben, müssen wir diese zusammenführen. 
+Da wir jetzt mehrere Punkte-Layer haben, müssen wir diese zusammenführen. 
+Solch ein Zusammenführen funktioniert nur, wenn alle Layer denselben 
+Geometrie-Datentyp haben.
 Gehe dafür im QGIS-"Vektor"-Menü zu "Datenmanagement-Werkzeuge" und 
 dann zu "Vektorlayer zusammenführen". 
 Im Dialogfenster wählst du die vier Layer aus:
 
-.Layer zusammenführen
+.Mehrere Layer zu einem einzigen Layer zusammenführen
 image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
 
-Nachdem du es ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
+Nachdem du das ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
 Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
 Der neue Layer trägt den Namen "Zusammengeführt". 
 Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennst.
@@ -480,7 +491,7 @@ Eine andere Möglichkeit ist die Daten regelbasiert darzustellen, sodass nur
 jene Daten angezeigt werden, die die Regeln erfüllen.
 
 Im Folgenden schauen wir uns die beiden Methoden an. 
-Das Beispiel mit den Brotverkaufsstellen bleibt gleicht. 
+Das Beispiel mit den Brotverkaufsstellen bleibt gleich. 
 Die Brotverkaufsstellen beinhalten sowohl "bakeries" als auch "supermarkets". 
 Wir wollen nun aber nur noch "bakeries" in QGIS darstellen.
 
