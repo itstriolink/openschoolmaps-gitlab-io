@@ -5,18 +5,21 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-Eine Anleitung für Interessierte, für Lehrpersonen und beispielsweise Maturanden
+Eine Anleitung für Interessierte, für Schülerinnen und Schüler und für Lehrpersonen
 
 == Übersicht
 
 .Ziel
-Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten beziehen und in QGIS 3 nutzen kann.
+Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten beziehen 
+und in QGIS 3 nutzen kann.
 
 .Zielgruppe
-Alle, die am Erstellen einer eigenen Karte (online, als druckbarer Plan) und die am Analysieren von Geodaten interessiert sind.
+Alle, die am Erstellen einer eigenen Karte (online, als druckbarer Plan) und die 
+am Analysieren von Geodaten interessiert sind.
 
 .Zeitplanung
-Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen unterschiedlich viel Zeit, da man einzelne Abschnitte überspringen kann,
+Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
+unterschiedlich viel Zeit, da man einzelne Abschnitte überspringen kann,
 wenn man mit der jeweiligen Thematik schon vertraut ist.
 
 .Aufbau
@@ -26,7 +29,7 @@ Folgende Themen werden behandelt:
 zu gängigen Dateiformaten
 * OpenStreetMap-Daten mit Overpass extrahieren 
 * OpenStreetMap-Daten mit QuickOSM-Plugin direkt in QGIS importieren
-* Verschiedene Webtools zum Download von OpenStreetMap-Daten
+* Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
 * Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 * Mit QGIS Objekte filtern oder regelbasiert darstellen
 
@@ -187,7 +190,13 @@ image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
 "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
-== Verschiedene Webtools zum Download von OpenStreetMap-Daten
+== Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
+
+In diesem Kapitel haben wir verschiedene Web-Tools zum Download von 
+OpenStreetMap-Daten zusammengestellt. 
+Keines dieser Tools ist gleich. 
+Einige verlangen, dass man sich registriert und alle kostenlos zugänglich und 
+werden ohne Gewähr zur Verfügung gestellt.
 
 === Geofabrik Downloads
 
@@ -212,8 +221,10 @@ oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des
 "Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
 - oder aber die Daten selber - konsultieren.
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
+Objekte filterst, bitte schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in 
+QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" 
+nach.
 
 === OSM.org
 
@@ -221,32 +232,36 @@ Auf https://openstreetmap.org können auch Daten heruntergeladen werden.
 Diese können aber nur als quadratische Ausschnitte und bis max. 50'000 Nodes 
 bezogen werden und zudem nur im `OSM XML`-Format.
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
+Objekte filterst, bitte schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in 
+QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" 
+nach.
 
 === HOT Export Tool
 
-Das Humanitarian OpenStreetMap Team (HOT) bietet auch einen Online-Service an, 
-um Daten von OpenStreetMap herunterzuladen.
-Um das HOT Export Tool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
-und eine gültige E-Mail Adresse, um benachrichtig zu werden, wenn die Daten 
+Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT Export Tool 
+einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
+Um das HOT ExportTool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
+und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
 bereit sind zum Herunterladen.
-Nach dem Anmelden sieht man folgendes
+Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
 
-* Exportbeschreibung
-* Formate
-* Data
-* Summary 
+1. Exportbeschreibung
+1. Formate
+1. Data
+1. Summary 
 
 Tabulator 1 und 4 sollen nachfolgend etwas genauer beschrieben werden.
 
-Bei Tabulator 1  geht es darum, der zu exportierenden Datei einen Namen und eine Beschreibung zu geben.
+Bei Tabulator 1  geht es darum, der zu exportierenden Datei einen Namen und eine 
+Beschreibung zu geben.
 Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in Uster.
 
 .HOT Export Tool Tab 1
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
-Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, auswählen.
+Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, 
+auswählen.
 
 Du kannst entweder:
 
@@ -255,11 +270,11 @@ Du kannst entweder:
 * Eine Bounding Box selber zeichnen
 * Ein Polygon zeichnen
 * Die aktuelle Ansicht herunterladen
-* Eine GeoJSON Datei hochladen
+* Eine GeoJSON-Datei hochladen
 
 Für die ersten zwei Möglichkeiten, muss nur das Suchfeld genutzt werden.
-Entweder die gewünschte Ortschaft eingeben oder eine Bounding Box (Westen, Süden, 
-Osten, Norden) angeben.
+Dort kannst du entweder die gewünschte Ortschaft oder eine Bounding Box (Westen, 
+Süden, Osten, Norden) angeben.
 
 Um eine Bounding Box oder ein Polygon zu zeichnen, muss auf der rechten Seite der 
 Karte die _Draw_-Schaltfläche gedrückt werden.
@@ -366,106 +381,145 @@ Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder O
 
 === BBBike
 
-BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen verschiedenen Dateiformaten an.
+BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen 
+verschiedenen Dateiformaten an.
 Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
 Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512mb als Datei.
-Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
+Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
+Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
-Die Dokumentation des Schemas, das hinter den GIS-Formaten wie z.B. GeoPackage oder 
-Shapefile steckt, findest du hier:
+Die Dokumentation des Schemas, das hinter den GIS-Formaten wie z.B. GeoPackage 
+oder Shapefile steckt, findest du hier:
 
 * http://www.geopackage.org/spec/
 * https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Wenn du wissen möchtest wie du einen Polygon-Layer in einen Punkte-Layer 
+verwandelst oder Objekte filterst, schaue in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder 
+"Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 == Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 
-Jetzt haben wir zwei Punktelayer und zwei Polygonlayer. Da wir aber nur an Punktelayer insteressiert sind, 
-müssen wir noch die Polygonlayer in Punktelayer umwandeln. Dafür gehst du unter "Vektor" zu "Geometrie-Werkzeuge" 
-und dann zu "Zentroide...". Danach sollte dein QGIS so aussehen, wobei ich die Namen der neuen Layer bereits umbenannt habe:
+Jetzt haben wir zwei Punkte-Layer und zwei Polygon-Layer. 
+Da wir aber nur an einem Punkte-Layer insteressiert sind, müssen wir noch die 
+Polygon-Layer in Punkte-Layer umwandeln. 
+Dafür gehst du unter "Vektor" zu "Geometrie-Werkzeuge" und dann zu "Zentroide...". 
+Danach sollte das QGIS so aussehen, wobei dort die Namen der neuen Layer bereits 
+umbenannt wurden:
 
-.Polygonlayer umgewandelt
+.Polygon-Layer umgewandelt
 image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
 
-Da wir jetzt vier Punktelayer haben, müssen wir diese nun zusammenführen. Dazu gehe unter "Vektor" zu "Datenmanagement-Werkzeuge" und 
-dann zu "Vektorlayer zusammenführen". Im Dialogfenster wählst du die vier Layer aus:
+Da wir jetzt vier Punkte-Layer haben, müssen wir diese zusammenführen. 
+Gehe dafür im QGIS-"Vektor"-Menü zu "Datenmanagement-Werkzeuge" und 
+dann zu "Vektorlayer zusammenführen". 
+Im Dialogfenster wählst du die vier Layer aus:
 
 .Layer zusammenführen
 image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
 
 Nachdem du es ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
 Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
-Der neue Layer trägt den Namen "Zusammengeführt". Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennen würdest.
-Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) nicht umbenannt wurde:
+Der neue Layer trägt den Namen "Zusammengeführt". 
+Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennst.
+Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) 
+nicht umbenannt wurde:
 
 .Endergebnis
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 == Mit QGIS Objekte filtern oder regelbasiert darstellen
 
-Nachdem man eine Abfrage erstellt oder auf andere Weise OpenStreetMap-Daten erhalten hat, möchte man aber vielleicht nicht mit allen 
-Daten arbeiten. Wenn also nur eine Teilmenge aller Daten relevant sind, kann man in QGIS die Objekte nach selbst definierten Kriterien 
-filtern. Eine andere Möglichkeit ist die Daten regelbasiert darzustellen, sodass nur jene Daten angezeigt werden, die die Regeln erfüllen.
+Nachdem man eine Abfrage erstellt oder auf andere Weise OpenStreetMap-Daten 
+erhalten hat, möchte man aber vielleicht nicht mit allen Daten arbeiten. 
+Wenn also nur eine Teilmenge aller Daten relevant sind, kann man in QGIS die 
+Objekte nach selbst definierten Kriterien filtern. 
+Eine andere Möglichkeit ist die Daten regelbasiert darzustellen, sodass nur 
+jene Daten angezeigt werden, die die Regeln erfüllen.
 
-Im Folgenden schauen wir uns die beiden Methoden an. Das Beispiel mit den Brotverkaufsstellen bleibt gleicht. Die Brotverkaufsstellen 
-beinhalten sowohl "bakeries" als auch "supermarkets", wir wollen nun aber nur noch "bakeries" in QGIS darstellen.
+Im Folgenden schauen wir uns die beiden Methoden an. 
+Das Beispiel mit den Brotverkaufsstellen bleibt gleicht. 
+Die Brotverkaufsstellen beinhalten sowohl "bakeries" als auch "supermarkets". 
+Wir wollen nun aber nur noch "bakeries" in QGIS darstellen.
 
 === Mit QGIS Objekte filtern
 
-In QGIS hat man zwei Möglichkeiten Objekte zu filtern. Entweder man geht oben in der Menüleiste auf "Layer" und dann "Filter..." (während der 
-gewünschte Layer ausgewählt ist). Oder man macht einen Rechtsklick auf den gewünschten Layer und geht dann auf "Filter...". 
-Danach öffnet sich ein Fenster mit dem Titel "Abfrageerstellung". In diesem Fenster sieht man folgendes:
+In QGIS hat man zwei Möglichkeiten Objekte zu filtern. 
+Entweder man geht bei QGIS im Menü auf "Layer" und dann "Filter..." (während der 
+gewünschte Layer ausgewählt ist). 
+Oder man macht einen Rechtsklick auf den gewünschten Layer und geht dann auf 
+"Filter...". 
+Danach öffnet sich ein Fenster mit dem Titel "Abfrageerstellung". 
+In diesem Fenster sieht man folgendes:
 
 * Felder: Eine Liste aller Attribute, welche der ausgewählte Layer beinhaltet
-* Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen (um diese sichtbar zu machen, klicke auf den Knopf "Alle")
+* Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen 
+(um einige Werte anzuzeigen machen, klicke auf den Knopf "Stichprobe")
 * Operatoren: Logische Operatoren zum Verknüpfen der Felder und Werte
-* Datenanbieter spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der Attribute und Werte
+* Datenanbieter spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der 
+Attribute und Werte
 
 Im Eingabefeld "Datenanbieter spezifischer Filterausdruck" geben wir folgendes ein:
 
     "shop"='bakery'
 
-"shop ist das Attribut".
-"bakery" ist der Wert".
+"shop" ist das Attribut (beachte die doppelten Anführungszeichen). 
+'bakery' ist der Wert (beachte die einfachen Anführungszeichen).
 
 Das Fenster sollte dann folgendermassen ausschauen:
 
 .Objekte filtern
 image::osm_editieren/osm-daten_beziehen/filtern.PNG[]
 
-Nun klickst du auf "OK". Wir bekommen nun die Meldung, dass 10 Objekte gefunden wurden, die für das Attribut "shop" als Wert "bakery" haben.
-Alle anderen Objekte werden auf unsichtbar geschaltet und wir sehen nur noch die 10 Objekte, die unseren Filterausdruck erfüllen:
+Nun klickst du auf "OK". 
+Du solltest nun die Meldung bekommen, dass ca. 10 Objekte gefunden wurden, 
+die beim Attribut "shop" den Wert "bakery" haben.
+Wir sehen nur noch diejenigen Objekte, die das Filterkriterium erfüllen. 
+Alle anderen Objekte sind nicht mehr Teil der Datenquelle des Layers:
 
 .Bäckereien in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
 
-Wie du oben siehst, solltest du nun den Layer entsprechend von "Brotverkaufsstellen" in "Bäckereien" umbenennen.
+Wie du oben siehst, solltest du nun den Layer entsprechend von "Brotverkaufsstellen" 
+in "Bäckereien" umbenennen.
 
 === Mit QGIS Objekte regelbasiert darstellen
 
-Nun gibt es noch eine andere Methode, um nur eine gewünschte Menge an Objekten, die vom Benutzer definierte Kriterien erfüllen, 
-in QGIS darzustellen. Obwohl es auch eine Art Filter ist, nennt es QGIS nicht filtern, sondern regelbasierte Darstellung. Auch hier übergeben 
-wir QGIS einen Ausdruck, hier Regel genannt, nach dem es zu filtern gilt. Bei der regelbasierten Darstellung haben wir aber mehr Spielraum als 
-beim einfachen filtern. Wie schon bei der ersten Methode können wir nur die gewünschte Menge darstellen, wobei alles andere ausgeblendet wird. 
-Ausserdem haben wir die Möglichkeit die ganze Menge darzustellen und die gewünschte Teilmenge (Bäckereien) farblich abzugrenzen. 
+Es gibt noch eine andere Methode, um Objekte in QGIS zu filtern. 
+Bei der regelbasierten Darstellung geht es darum, aus einer Layer-Datenquelle 
+heraus alle diejenigen Objekte darzustellen, die ein Kriterium erfüllen. 
+Dieser Ausdruck, nach dem es zu filtern gilt, ist hier Teil der Darstellung 
+(Symbologie) und nicht Teil des Layers wie vorhin. 
+Manche sprechen auch von "Daten-getriebender Darstellung".
 
-Doch fangen wir mal mit dem Ausblenden aller Objekte an, die keine Bäckereien sind. Dazu machen wir einen Rechtsklick auf den Layer und klicken 
-den untersten Eintrag "Properties..." an. Im linken Listenmenü klicken wir dann auf "Darstellung" (dritter Eintrag). Nun sollte es bei dir so aussehen:
+Dies regelbasierten Darstellung kann man auch dazu verwenden, einzelne Werte 
+nicht darzustellen. 
+In unserem Beispiel wollen wir das ausnutzen, um nur Bäckereien ('bakery') und 
+keine Supermarkets ('supermarket') darzustellen. 
+Dazu machen wir einen Rechtsklick auf den Layer und klicken den untersten 
+Eintrag "Properties..." an. 
+Im linken Listenmenü klicken wir dann auf "Darstellung" (dritter Eintrag). 
+Nun sollte es bei dir so aussehen:
 
 .Darstellung von Objekten
 image::osm_editieren/osm-daten_beziehen/single_symbol.PNG[]
 
-Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
-Bis her war es so, dass alle Objekte gleich behandelt (nicht unterschieden) und somit gleich dargestellt wurden, deshalb "single symbol". 
-Jetzt, da wir "rule-based" selektiert haben, können wir Regeln (Ausdrücke) definieren, um die Objekte verschieden darzustellen.
+Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". 
+Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
+Bisher war es so, dass alle Objekte gleich behandelt (nicht unterschieden) und 
+somit gleich dargestellt wurden, deshalb "Single symbol". 
+Jetzt, da wir "Rule-based" selektiert haben, können wir Regeln (Ausdrücke) 
+definieren, um die Objekte je nach Attributwert verschiedenen Symbolen zuzuordnen.
 
 .Objekte ohne Filter
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
 
-Im oberen Bild siehst du, dass wir einen Eintrag haben. Dieser Eintrag beinhaltet alle 27 Objekte, und wir sehen, dass keine Regeln auf diesen 
-Objekten definiert sind. Deshalb klicken wir zwei Mal auf den Eintrag. In das Textfeld neben "Filter" geben wir nun wieder folgendes ein:
+Im oberen Bild siehst du, dass wir einen Eintrag haben. 
+Dieser Eintrag beinhaltet alle 27 Objekte, und wir sehen, dass keine Regeln auf 
+diesen Objekten definiert sind. 
+Deshalb klicken wir zwei Mal auf den Eintrag. 
+In das Textfeld neben "Filter" geben wir nun wieder folgendes ein:
 
     "shop"='bakery'
 
@@ -474,25 +528,37 @@ Das sieht dann so aus:
 .Edit Rule Dialog
 image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
 
-Nun klicken wir auf "OK". Wir sehen das im Eintrag nun nicht mehr "(kein Filter)" steht, sondern "shop"='bakery'. Jetzt klicken wir auf "Anwenden" 
-und dann nochmals auf "OK". Unser QGIS sieht dann so aus:
+Nun klicken wir auf "OK". 
+Wir sehen, dass im Eintrag nun nicht mehr "(kein Filter)" steht, sondern 
+"shop"='bakery'. 
+Jetzt klicken wir auf "Anwenden" und dann nochmals auf "OK". 
+Im QGIS sollte das nun so aussehen:
 
 .Bäckereien in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
 
-Wir sehen, dass wir nach wie vor 27 Objekte haben. Angezeigt werden uns aber nur die 10 Objekte, die die Regel erfüllen, also nur Bäckereien. Vielleicht hast 
-du es schon bemerkt, denn im Gegensatz dazu verändert sich die Anzahl Objekte beim einfachen filtern (siehe oben). Dort werden nicht nur die 10 Bäckereien 
-dargestellt, sondern die Objektanzahl verringert sich auch auf 10. Dies ist ein besonderer Unterschied zwischen dem "normalen" Filtern und der regelbasierten 
-Darstellung. Sehen wir uns noch eine andere Möglichkeit an.
+Wir sehen, dass wir nach wie vor 27 Objekte haben. 
+Angezeigt werden uns aber nur die 10 Objekte, die die Regel erfüllen, also nur 
+Bäckereien. 
+Vielleicht hast du es schon bemerkt, denn im Gegensatz dazu verändert sich die 
+Anzahl Objekte beim einfachen filtern (siehe oben). 
+Dort werden nicht nur die 10 Bäckereien dargestellt, sondern die Objektanzahl 
+verringert sich auch auf 10. 
+Dies ist ein besonderer Unterschied zwischen dem "normalen" Filtern und der regelbasierten 
+Darstellung. 
+Sehen wir uns noch eine andere Möglichkeit an.
 
-Angenommen, wir möchten nach wie vor alle Objekte anzeigen und nur einen Teil abrenzen. Dann können wir einfach eine andere Farbe für alle Bäckereien nehmen.
-Lösche die Regel, die wir vorhin auf die Objekte angewendet haben, wieder. Dann starten wir ab folgender Ansicht:
+Angenommen, wir möchten nach wie vor alle Objekte anzeigen und nur einen Teil 
+abrenzen, dann können wir einfach eine andere Farbe für alle Bäckereien nehmen.
+Lösche die Regel, die wir vorhin auf die Objekte angewendet haben, wieder. 
+Dann starten wir ab folgender Ansicht:
 
 .Objekte ohne Filter
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
 
-unten links klicken wir auf das Plus-Zeichen. Jetzt haben wir unsere Objekte kopiert und wenden auf diese Kopie die Regel an. Also auch wieder folgendes 
-eingeben und dann auf "OK" klicken:
+Unten links klicken wir auf das Plus-Zeichen. 
+Jetzt haben wir unsere Objekte kopiert und wenden auf diese Kopie die Regel an. 
+Also auch wieder folgendes eingeben und dann auf "OK" klicken:
 
 .Edit Rule Dialog
 image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
@@ -502,5 +568,11 @@ Nun klicken wir auf "Anwenden" und dann auf "OK". Nun sieht unser QGIS so aus:
 .Brotverkaufsstellen mit farblich abgegrenzten Bäckereien (Pink)
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
-Wir sehen, dass unser Layer "Brotverkaufsstellen" nun zwei verschiedene Objektgruppen aufweist. Einerseits alle  27 Brotverkaufstellen in oranger Farbe.
-Andererseits haben wir nun eine neue (Unter-)Gruppe mit 10 Objekten, nämlich unsere Bäckereien in pinker Farbe.
+Wir sehen, dass unser Layer "Brotverkaufsstellen" nun zwei verschiedene 
+Objektgruppen aufweist. 
+Einerseits sehen wir alle 27 Brotverkaufstellen in oranger Farbe.
+Andererseits haben wir nun eine neue (Unter-)Gruppe mit 10 Objekten, 
+nämlich unsere Bäckereien in pinker Farbe.
+
+Damit schliessen wir dieses Kapitel ab und überlassen es dir, die Layer und das 
+ganze QGIS-Projekt zu erweitern und die Darstellung weiter zu verbessern.
