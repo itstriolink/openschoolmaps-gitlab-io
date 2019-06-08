@@ -36,8 +36,8 @@ Folgende Themen werden behandelt:
 * Was wird kartiert? was nicht?
 * Was könnte bei diesem Event alles kartiert werden?
 * Vorbereitung
-* Kroki-Karte drucken mit uMap
-* Kroki-Karte drucken mit Field Papers (optional)
+* Kroki-Karten mit uMap
+* Kroki-Karten mit Field Papers (Alternative zu uMap)
 * Wie editiert man OpenStreetMap?
 
 == Einleitung
@@ -84,16 +84,15 @@ Unten siehst du Beispiele von geeigneten und ungeeigneten Objekte:
 
 Beispiele für geeignete Objekte:
 
-* Strasse
-* Haus
-* Hausnummer
-* Läden und Restaurants
-* Öffnungszeit
-* Zugangsbeschränkung
+* Strassen (Strassenachse)
+* Gebäudeumrisse mit Gebäudenummer
+* Läden und Restaurants (Name, Tel. und Weblink)
+* Öffnungszeiten
+* Öffentliche Parkplätze für Auto sowie Veloabstellplätze
 
 Beispiele für ungeeignete Objekte:
 
-* Persönliche Meinung
+* Persönliche Meinungen
 * Persönliche Daten
 * Flugrouten
 * Bewertungen zu Restaurants
@@ -145,24 +144,26 @@ sein, damit man sieht was wo ist und was schon eingetragen ist.
 Es wäre auch möglich, ein Smartphone mit GPS zu nutzen. Das verwenden wir aber 
 hier noch nicht, denn das braucht mehr Vor- und Nachbereitung als Stift und Papier. 
 
-== Kroki-Karte drucken mit uMap
+== Kroki-Karten mit uMap
 
-Bevor alle mit dem Kartieren beginnen, benötigst du eine gedruckte Karte, 
-auf der man Notizen machen kann.
+Bevor du mit den anderen mit Kartieren beginnen, benötigst du eine gedruckte 
+Karte, auf der man Notizen machen kann (mindestens eine pro Team).
 
-Die Lehrperson/Instruktor wird dies gedruckten dem Karteneditor uMap vorbereiten
-und jedem Schüler/Interessierten einen Bereich (sogenannter "Perimeter") 
-zuteilen, damit wir dieselbe Gegend nicht zweimal kartographiert wird.
+Die Lehrperson/Instruktor wird mit dem Karteneditor uMap vorbereiten, die 
+Gegend aufteilen und jedem Schüler/Interessierten einen Bereich (sogenannter 
+"Perimeter") zuteilen. 
+Damit wird dieselbe Gegend nicht zweimal kartographiert wird.
 
-Das nächste Kapitel ist eine Variante, wie man Karten drucken kann, um darauf
-Notizen zu machen. Je nachdem wie sich die Lehrperson/Instruktor entschieden hat, 
-kannst du das nächste Kapitel auslassen. 
-
+Falls du und/oder das Team eine Karte mit Perimeter zugeteilt erhalten hast,
+kann es losgehen. 
+Viel Spass beim Kartografieren!
 Wenn du zurückkommst kannst du zum übernächsten Kapitel "Wie editiert man OpenStreetMap?" 
 springen. 
-Viel Spass beim Kartografieren!
 
-== Kroki-Karte drucken mit Field Papers (optional)
+Das nächste Kapitel kannst du eventuell auslassen, denn es ist diese eine 
+Alternative zu uMaps, mit der man Karten unterteilen und drucken kann. 
+
+== Kroki-Karten mit Field Papers (Alternative zu uMap)
 
 Field Papers ist eine Webapplikation, die frei zugänglich ist. 
 Mit Field Papers kann man mit Daten aus OpenStreetMap eine Karte erstellen, 
