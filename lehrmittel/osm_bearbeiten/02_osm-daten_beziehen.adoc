@@ -228,9 +228,9 @@ Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder O
 
 Das Humanitarian OpenStreetMap Team (HOT) bietet auch einen Online-Service an, 
 um Daten von OpenStreetMap herunterzuladen.
-Um HOTOSM zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto und eine 
-gültige E-Mail Adresse, um benachrichtig zu werden, wenn die Daten bereit sind 
-zum herunterladen.
+Um das HOT Export Tool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
+und eine gültige E-Mail Adresse, um benachrichtig zu werden, wenn die Daten 
+bereit sind zum Herunterladen.
 Nach dem Anmelden sieht man folgendes
 
 * Exportbeschreibung
@@ -258,25 +258,29 @@ Du kannst entweder:
 * Eine GeoJSON Datei hochladen
 
 Für die ersten zwei Möglichkeiten, muss nur das Suchfeld genutzt werden.
-Entweder die gewünschte Ortschaft eingeben oder eine Bounding Box (Westen, Süden, Osten, Norden) angeben.
+Entweder die gewünschte Ortschaft eingeben oder eine Bounding Box (Westen, Süden, 
+Osten, Norden) angeben.
 
-Um eine Bounding Box oder ein Polygon zu zeichnen muss auf der rechten Seite der Karte die _Draw_-Schaltfläche gedrückt werden.
+Um eine Bounding Box oder ein Polygon zu zeichnen, muss auf der rechten Seite der 
+Karte die _Draw_-Schaltfläche gedrückt werden.
+Um die aktuelle Ansicht herunterzuladen, muss auf die Schaltfläche 
+_This View_ gedrückt werden.
+Wenn du eine GeoJSON-Datei hochladen möchtest, kannst du dies mit der 
+Schaltfläche _Import_ machen.
 
-Um die aktuelle Ansicht herunterzuladen muss auf die Schaltfläche _This View_ gedrückt werden.
+CAUTION: An dieser Stelle ein kleiner Exkurs
 
-Wenn du eine GeoJSON Datei hochladen möchtest, kannst du dies mit der Schaltfläche _Import_ machen.
-
-CAUTION: An dieser Stelle ein Kleiner Exkurs
-
-Eine Webseite die sich für das Erzeugen von GeoJSON's eignet ist http://geojson.io.
+Eine Webseite, die sich für das Erzeugen von GeoJSON's eignet ist http://geojson.io.
 
 Achte darauf, dass du keine Multipolygone ins HOT Export Tool hochlädtst.
 
-Nachdem du deine GeoJSON Datei erstellt hast mit z.b http://geojson.io musst du sie noch für HOTOSM anpassen.
+Nachdem du z.B. mit geojson.io deine GeoJSON-Datei erstellt hast, musst du sie 
+noch für das HOT Export Tool anpassen.
 Kopiere dir dazu das GeoJSON in einen Texteditor.
-Die einfachste Version verlangt nur eine Typangabe und eine Liste mit den Koordinaten:
+Die einfachste Version verlangt nur eine Typangabe und eine Liste mit den 
+Koordinaten:
 
-.Format der JSON-Datei für HOTOSM
+.Format der JSON-Datei für das HOT Export Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png[]
 
 Machen wir wieder weiter mit dem HOT Export Tool.
@@ -313,34 +317,44 @@ Das ganze sieht dann so aus:
 .HOT Export Tool Tab 3
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
-Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als GeoPackage exportieren, 
-darum gehen wir weiter zu Tab 4. Das Letzte was wir jetzt noch vor dem Exportieren machen müssen ist auf der rechten 
-Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
+Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
+GeoPackage exportieren. 
+Darum gehen wir weiter zu Tab 4. 
+Das Letzte was wir jetzt noch vor dem Exportieren machen müssen ist auf der 
+rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 
 .HOT Export Tool Uster
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 
-Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" klicken (siehe unten).
+Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" 
+klicken (siehe unten).
 
 .HOT Export Tool Tab 4
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Wenn du wissen möchtest, wie man Polygon-Layer in Punkte-Layer verwandelst oder 
+order wie man Objekte filtert, dann schaue bitte selber nach in den Kapiteln 
+"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte 
+filtern oder regelbasiert darstellen".
 
 === OSMaxx
 
-Mit OSMaxx können bestehende und neue Auszüge von OpenStreetMap in verschiedenen GIS-Formaten heruntergeladen werden.
+Mit OSMaxx können bestehende und neue Auszüge von OpenStreetMap in verschiedenen 
+GIS-Formaten heruntergeladen werden.
 Um OSMaxx nutzen zu können benötigt man ein OSM-Konto mit einer gültigen E-Mail Adresse.
 
 Unter _Existing Excerpt / Country_ können bestehende Auszüge heruntergeladen werden.
 Es kann ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
-welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt werden sollen.
+welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt 
+werden sollen.
 
-Unter _New Excerpt_ kannst du eigene Bereiche von OpenStreetMap auswählen, die du herunterladen möchtest.
+Unter _New Excerpt_ kannst du eigene Bereiche von OpenStreetMap auswählen, die 
+du herunterladen möchtest.
 Dazu kann man ein Viereck oder ein Polygon über die Karte zeichnen.
-Es kann widerum ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
-welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt werden sollen.
+Es kann widerum ausgewählt werden in welchem Format die Datei heruntergeladen 
+werden soll,
+welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt 
+werden sollen.
 
 Das Exportieren der Daten geht etwa 45 Minuten. 
 
