@@ -46,14 +46,17 @@ sowie auf https://learnosm.org/de/ informieren.
 
 == Einleitung
 
-Die Daten von OpenStreetMap können in unterschiedlichen Datenformaten auf dem Rechner lokal gespeichert werden.
+Die Daten von OpenStreetMap können in unterschiedlichen Datenformaten auf dem 
+Rechner lokal gespeichert werden.
 Daher werden wir zunächst einige dieser Dateiformate genauer erläutern.
 
 === OpenStreetMap und Geoinformationssysteme
 
-Die Geometrie der Objekte in OpenStreetMap (OSM) sind intern als topologische Strukturen (Node, Ways) abgelegt.
+Die Geometrie der Objekte in OpenStreetMap (OSM) sind intern als topologische 
+Strukturen (Node, Ways) abgelegt.
 Und die Objekt-Attribute als Tags (Key-Value-Paare) nur teilweise strukturiert.
-Dieses beliebig erweiterbare Datenschema muss für Geoinformationssysteme (GIS) und deren Formate zuerst umgewandelt werden.
+Dieses beliebig erweiterbare Datenschema muss für Geoinformationssysteme (GIS) 
+und deren Formate zuerst umgewandelt werden.
 Es gibt kein einheitliches "GIS"-Datenschema für OSM.
 Kaum ein Export aus OSM ist darum gleich wie der andere.
 
@@ -62,21 +65,33 @@ Kaum ein Export aus OSM ist darum gleich wie der andere.
 Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 
 * OSM-spezifische Formate sind v.a. OSM XML, und OSM PBF.
-* GIS-kompatible Formate sind GeoJSON, Geopackage (sowie verwandt: Spatialite/SQLite oder MBTile/SQLite), Shapefiles, GeoJSON (TopoJSON).
+* GIS-kompatible Formate sind GeoJSON, Geopackage (sowie verwandt: MBTile/SQLite), 
+Shapefiles, GeoJSON (TopoJSON).
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
-Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten in QGIS importiert. Die erste Methode funktioniert mittels 
-Overpass-Turbo, einem Webdienst zur Abfrage von OpenStreetMap-Daten. Diese Methode empfehlen wir dir anzuschauen, da sie die effizienteste 
-aller vorgestellten Methoden ist. Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, in welchem sich Abfragen erstellen lassen. 
-Falls du den Overpass-Turbo-Abschnitt lesen wirst oder gelesen hast, kannst du den Abschnitt mit QuickOSM als optional betrachten, ausser 
-es interessiert dich. Danach werden weitere Tools vorgestellt, beispielsweise das HOT Export Tool oder OSMaxx. Diese Abschnitte sind ebenfalls 
-nur für Interessierte und nicht zwingender Stoff. Als letztes Kapitel erfährst du, wie man in QGIS verschiedenartige Layer zusammenführt. Auf 
-dieses Kapitel wird am Ende der restlichen Kapitel verwiesen, also kommst du dort im Verlauf des Abarbeitens hin.
+Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten 
+in QGIS importiert. 
+Die erste Methode funktioniert mittels Overpass-Turbo, einem Webdienst zur 
+Abfrage von OpenStreetMap-Daten. 
+Diese Methode empfehlen wir dir anzuschauen, da sie die effizienteste aller 
+vorgestellten Methoden ist. 
+Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, in welchem sich 
+Abfragen erstellen lassen. 
+Falls du den Overpass-Turbo-Abschnitt liest oder gelesen hast, kannst du den 
+Abschnitt mit QuickOSM als optional betrachten. 
+
+Nach den beiden Inport-Methoden werden weitere Tools vorgestellt, beispielsweise 
+das HOT Export Tool oder OSMaxx. 
+
+Als letztes Kapitel erfährst du, wie man in QGIS verschiedenartige Layer zusammenführt. 
+Auf dieses Kapitel wird am Ende der restlichen Kapitel verwiesen, also kommst du 
+dort fürher oder später vorbei.
 
 == OpenStreetMap-Daten mit Overpass extrahieren 
 
-Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu importieren, ist mittels Overpass-Turbo.
+Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu 
+importieren, ist mittels Overpass-Turbo.
 Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
 Zuerst besuche die Overpass-Turbo Website unter: http://overpass-turbo.osm.ch/.
 
@@ -85,9 +100,12 @@ Wenn du die Website das erste Mal besuchst, sieht sie in etwa wie folgt aus:
 .Startseite von Overpass-Turbo
 image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
-Klicke auf den rot markierten Button "Wizard". Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
-Da wir als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien und Supermärkten, da beide Brot verkaufen.
-Als Ortschaft nehmen wir als Beispiel Uster. Die Abfrage sieht wie folgt aus:
+Klicke auf den rot markierten Button "Wizard". 
+Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
+Da wir als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien 
+und Supermärkten, da beide Brot verkaufen.
+Als Ortschaft nehmen wir als Beispiel Uster. 
+Die Abfrage sieht wie folgt aus (_bakery or supermarket in Uster_):
 
 .Overpass-Turbo Wizard-Abfrage
 image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG[]
@@ -99,8 +117,9 @@ image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
 Das obige Resultat könnte man auch vereinfachen, indem man die "nodes", "ways" und 
 "relations" zu "nwr" (=noses/ways/relations) ersetzt bzw. zusammenfasst.
-Unten rechts sieht man rot markiert die verschiedenen Objekte. Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten,
-könnten wir mittels "out center" alle Flächen und Pfade in Punkte verwandeln.
+Unten rechts sieht man rot markiert die verschiedenen Objekte. 
+Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten, könnten wir mittels 
+"out center" alle Flächen und Pfade in Punkte verwandeln.
 Die neue Abfrage würde dann folgendermassen aussehen.
 
   [out:json][timeout:25];
@@ -111,22 +130,28 @@ Die neue Abfrage würde dann folgendermassen aussehen.
   );
   out center;
 
-Wenn wir jetzt die oberen Zeilen kopieren und ins Overpass-Turbo als Abfrage einfügen und ausführen, erhält man folgendes:
+Wenn wir jetzt die oberen Zeilen kopieren und ins Overpass-Turbo als Abfrage 
+einfügen und ausführen, erhält man folgendes:
 
 .Überarbeitetes Resultat
 image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 
-Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs bestehen.
-Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone mittels "out center" in POIs umgewandelt haben und 
-Overpass diese 5 neuen POIs zu den bestehenden 22 POIs addiert hat.
+Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs 
+bestehen.
+Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone mittels "out center" 
+in POIs umgewandelt haben und Overpass diese 5 neuen POIs zu den bestehenden 22 
+POIs addiert hat.
 
-Nun müssen wir die Abfrage noch als GeoJSON abspeichern. Dazu gehen wir oben links neben "Wizard" auf "Export".
-Das Fenster das erscheint gibt uns verschiedene Exportmöglichkeiten, wir wählen die oberste, also "Speichern als GeoJSON".
+Nun müssen wir die Abfrage noch als GeoJSON abspeichern. Dazu gehen wir oben 
+links neben "Wizard" auf "Export".
+Das Fenster, das erscheint, gibt uns verschiedene Exportmöglichkeiten: 
+Wir wählen die oberste, also "Speichern als GeoJSON".
 
 .Overpass Export
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
 
-Das heruntergeladene GeoJSON File fügen wir nun mittels drag & drop in das linke Layermenü in QGIS ein.
+Das heruntergeladene GeoJSON-File fügen wir nun mittels Drag & Drop in das linke 
+Layermenü in QGIS ein.
 Zusätzlich benennen wir den Layer passend um, beispielsweise "Brotverkaufsstellen".
 
 Unser QGIS sieht nun so aus:
@@ -134,50 +159,65 @@ Unser QGIS sieht nun so aus:
 .GeoJSON in QGIS importiert
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
-Wie du wahrscheinlich bemerkt hast, benutze ich einen OSM Standard Layer als Hintergrund, um die Daten anschaulicher zu präsentieren.
-Ich gehe davon aus, dass du diesen nicht hast, das ist aber nicht weiter schlimm, den er ist nicht zwingend nötig. 
-Du kannst also ruhig ohne OSM Standard Layer als Hintergrund weitermachen.
+Wie du wahrscheinlich bemerkt hast, wird hier ein OSM-Standard-Layer als 
+Hintergrund benutzt, um die Daten anschaulicher zu präsentieren.
+Ich gehe davon aus, dass du diesen nicht hast, das ist aber nicht weiter 
+schlimm, den er ist nicht zwingend nötig. 
+Du kannst also ruhig ohne OSM-Standard-Layer als Hintergrund weitermachen.
 
-Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON ändern und dann als GeoPackage speichern.
-Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf "Exportieren" und dann wählen wir den 
-obersten Eintrag "Save Feature As...". Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
+Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON 
+ändern und dann als GeoPackage speichern.
+Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf 
+"Exportieren" und dann wählen wir den obersten Eintrag "Save Feature As...". 
+Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
 Das Format belassen wir als GeoPackage und klicken dann auf "Ok".
 
 Unten siehst du noch das Exportfenster:
 
-.Als .gpkg Exportieren
+.Als GeoPackage exportieren
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
 
-Sehr gut, du hast es geschafft OpenStreetMap-Daten in QGIS zu importieren und als neues Format abzuspeichern.
-Die andere Möglichkeit OpenStreetMap-Daten in QGIS zu importieren ist mittels dem QuickOSM-Plugin, welches im Folgenden 
-erläutert wird. Wenn es dich nicht interessiert oder du es schon gelesen hast, kannst du zu den Kapiteln "Polygon-Layer 
-mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" springen.
+Sehr gut, du hast es geschafft OpenStreetMap-Daten in QGIS zu importieren und 
+als neues Format abzuspeichern.
+Die andere Möglichkeit OpenStreetMap-Daten in QGIS zu importieren ist mittels 
+dem QuickOSM-Plugin, das im Folgenden erläutert wird. 
+Wenn es dich nicht interessiert oder du es schon gelesen hast, kannst du zu den 
+Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder 
+"Mit QGIS Objekte filtern oder regelbasiert darstellen" springen.
 
 == OpenStreetMap-Daten mit QuickOSM-Plugin direkt in QGIS importieren
 
-Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu importieren und zu verwalten.
-Lösche am besten den vorher erzeugten Layer und fange von Null an, um Verwirrungen zu vermeiden.
+Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu 
+importieren und zu verwalten.
+Lösche am besten den vorher erzeugten Layer und fange bei Null an, 
+um Verwirrungen zu vermeiden.
 
 .QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
 
-Zuerst installieren wir das Plugin namens QuickOSM, womit sich direkt in QGIS Abfragen erstellen lassen.
-Dafür gehen wir in der oberen Menüleiste auf "Erweiterungen" und dann auf "Erweiterungen verwalten und installieren...".
-In das Suchfeld gibst du QuickOSM ein und da es nur ein Plugin unter diesem Namen gibt, sollte dir auch das richtige angezeigt werden.
-Jetzt klickst du auf "Erweiterung installieren" und schon kannst du mit dem Plugin arbeiten.
+Zuerst installieren wir das Plugin namens QuickOSM, womit sich direkt in QGIS 
+Abfragen erstellen lassen.
+Dafür gehen wir in der oberen Menüleiste auf "Erweiterungen" und dann auf 
+"Erweiterungen verwalten und installieren...".
+In das Suchfeld gibst du QuickOSM ein und da es nur ein Plugin unter diesem 
+Namen gibt, sollte dir auch das richtige angezeigt werden.
+Jetzt klickst du auf "Erweiterung installieren" und schon kannst du mit dem 
+Plugin arbeiten.
 
-Das folgende Bild zeigt die Installation des Plugin:
+Das folgende Bild zeigt die Installation des Plugina:
 
 .QuickOSM Installation
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
-Nun öffnen wir das Plugin indem wir in der Menüleiste auf "Vektor" und dann auf "Quick OSM" klicken. 
+Nun öffnen wir das Plugin indem wir in der Menüleiste auf "Vektor" und dann auf 
+"Quick OSM" klicken. 
 Danach geben wir folgende Abfrage ein, um nach Bäckereien in Uster zu suchen:
 
 .Bakery-Abfrage
 image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
 
-Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite Abfrage um nach Supermärkten zu suchen:
+Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite Abfrage, um 
+nach Supermärkten zu suchen:
 
 .Supermarket-Abfrage
 image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
@@ -187,8 +227,9 @@ Nun solltest du folgende Layer haben:
 .Ergebnisse der QuickOSM-Abfragen
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder Objekte filterst, bitte schaue in den Kapiteln 
-"Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
+Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
 == Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
 
