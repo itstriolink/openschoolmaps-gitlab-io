@@ -16,7 +16,7 @@ sind, auf Anweisung der Lehrperson/des Instruktors eine Gegend selbstständig
 zu kartografieren.
 
 .Zielgruppe
-Schüler und Interessierte
+Schüler und Interessierte.
 
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
@@ -26,7 +26,7 @@ Dies ist der grobe Plan:
 1. Allgemeine Vorbereitungen (z.B. was ist OpenStreetMap?), mind. ca. 20 min.
 1. Konkrete Vorbereitung für die Kartierung draussen, mind. ca. 40 min.
 1. Draussen kartieren, mind. ca. 60 min.
-1. Instruktion zum Editieren von OSM, mind. ca. 20 min.
+1. Instruktion zum Editieren von OpenStreetMap, mind. ca. 20 min.
 1. Editieren am Computer, mind. ca. 40 min.
 
 .Aufbau
@@ -34,7 +34,7 @@ Folgende Themen werden behandelt:
 
 * Was ist OpenStreetMap?
 * Was wird kartiert? was nicht?
-* Was könnte bei diesem Event alles kartiert werden?
+* Was kann bei Outdoor Events alles kartiert werden?
 * Vorbereitung
 * Kroki-Karten mit uMap
 * Kroki-Karten mit Field Papers (Alternative zu uMap)
@@ -45,25 +45,25 @@ Folgende Themen werden behandelt:
 === Was ist OpenStreetMap (OSM)?
 
 OpenStreetMap (kurz OSM) ist ein internationales Projekt ähnlich wie Wikipedia, 
-bei dem Freiwillige Geodaten sammeln, die von unzähligen (Web-)Applikationen 
+bei dem Freiwillige Geodaten sammeln, die dann von unzähligen Applikationen 
 verwendet werden.
 Die OSM-Daten gehören der Community und können - im Gegensatz zu Google Maps 
-oder vielen nationalen Karten wie z.B. map.geo.admin.ch - selber weiterverwendet 
-werden im Rahmen der einer freien Lizenz. 
+oder zu vielen Behördenkarten wie map.geo.admin.ch - selber weiterverwendet 
+werden im Rahmen einer freien Lizenz. 
 
 OpenStreetMap kann auf ganz verschiedene Art und Weise genutzt werden und die 
 Benutzer können unterschiedliche Ziele haben.
 Im Folgenden haben wir ein paar Einsatzmöglichkeiten von OpenStreetMap 
 zusammengestellt:
 
-* Navigation mit dem Smartphone wie z.B. die Maps.Me-App
-* Hintergrundkarte oder Lagekarte eingebetted in Webseiten
+* Navigation am Computer (z.B. osm.org) oder mit dem Smartphone (z.B. Maps.Me)
+* Hintergrundkarte oder Lagekarte eingebettet in Webseiten
 * Lage- und Wanderkarte
-* Interaktive Webkarten aller Art
-* Geoanalysen
+* Interaktive Webkarten aller Art (z.B. Burgenkarte)
+* Räumliche Analysen (z.B. die Nebelkarte)
 
-Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue doch das 
-Arbeitsblatt "Webseite OSM.org kennenlernen" auf https://www.openschoolmaps.ch[OpenSchoolMaps] an.
+Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue das Arbeitsblatt 
+"Webseite OSM.org kennenlernen" an auf https://www.openschoolmaps.ch[OpenSchoolMaps].
 
 === Was wird kartiert? was nicht?
 
@@ -85,10 +85,10 @@ Unten siehst du Beispiele von geeigneten und ungeeigneten Objekte:
 Beispiele für geeignete Objekte:
 
 * Strassen (Strassenachse)
-* Gebäudeumrisse mit Gebäudenummer
+* Häuserumrisse mit Hausnummer (Gebäudenummer)
 * Läden und Restaurants (Name, Tel. und Weblink)
 * Öffnungszeiten
-* Öffentliche Parkplätze für Auto sowie Veloabstellplätze
+* Öffentliche Parkplätze für Autos sowie Veloabstellplätze
 
 Beispiele für ungeeignete Objekte:
 
@@ -97,20 +97,20 @@ Beispiele für ungeeignete Objekte:
 * Flugrouten
 * Bewertungen zu Restaurants
 
-=== Was könnte bei diesem Event alles kartiert werden?
+=== Was kann bei Outdoor Events alles kartiert werden?
 
-Wie du oben schon gelesen hast, sind Strassen, Häuser, Hausnummern, Läden und 
-Restaurants (inkl. Öffnungszeiten) geeignete Objekte/Daten zum Kartografieren. 
+Wie du oben schon gelesen hast, sind Strassen, Häuser, Läden und Restaurants 
+geeignete Objekte/Daten zum Kartografieren. 
 Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in 
-zusammenschliesst und in Zweiergruppen die Umgebung kartografiert. 
+zusammenschliesst und als Gruppe die Umgebung kartografierst. 
 Natürlich würde es viel zu lange dauern die ganze Umgebung zu kartografieren und 
-seien wir ehrlich, dies wäre auch nicht sehr spannend. Deshalb suche dir einfach 
-ein paar Orte in der Umgebung aus, welche dir gefallen. 
-Beispiele hierfür wären dein Zuhause, falls es in der Nähe ist, ein Teil deines 
+seien wir ehrlich, dies wäre auch etwas viel auf's Mal. 
+Deshalb suche dir einfach ein paar Orte in der Umgebung aus, welche dir gefallen. 
+Beispiele hierfür sind dein Zuhause, falls es in der Nähe ist, ein Teil deines 
 Schulweges, eine lokale Sehenswürdigkeit oder das Zuhause einer deiner Freunde. 
-Es gibt genug Sachen die man kartografieren kann.
+Es gibt genug Sachen, die man kartografieren kann.
 
-Doch wie kartografiert man richtig, beziehungsweise auf was ist zu achten?
+Doch wie kartografiert man richtig, beziehungsweise: auf was ist zu achten?
 
 Strassen:
 
@@ -133,68 +133,29 @@ Läden und Restaurants:
 
 == Vorbereitung
 
-Bevor ihr zum Beispiel in Zweiergruppen aufbrecht, um eure Umgebung zu erkunden 
-und Daten zu sammeln, ist es noch sinnvoll zu wissen, was ihr alles für einen 
+Bevor ihr als Gruppe aufbrecht, um eure Umgebung zu erkunden und Daten zu 
+sammeln, ist es noch sinnvoll zu wissen, was ihr alles für einen 
 reibungslosen Ablauf benötigt. 
 Da ihr euch kaum die ganzen Eigenschaften der Strassen, Häuser, Hausnummern, 
 Läden und Restaurants merken könnt, braucht ihr geeignete Hilfsmittel. 
 Wir verwenden dazu Stift und Papier. 
 Auf dem Papier sollte dann am besten schon ein Ausschnitt der Umgebung vorhanden 
 sein, damit man sieht was wo ist und was schon eingetragen ist. 
-Es wäre auch möglich, ein Smartphone mit GPS zu nutzen. Das verwenden wir aber 
-hier noch nicht, denn das braucht mehr Vor- und Nachbereitung als Stift und Papier. 
+Es wäre auch möglich, ein Smartphone mit GPS zu nutzen. 
+Das verwenden wir aber hier noch nicht, denn das braucht viel mehr Erklärungen 
+als Stift und Papier. 
 
-== Kroki-Karten mit uMap
+Checkliste zur Vorbereitung:
+* Gedruckte Karte, auf der man Notizen machen kann (mindestens eine pro Gruppe)
+* Ev. eine Unterlage
+* Stifte 
+* Smartphone u.a. zum Fotografieren z.B. von Öffnungszeiten
+* (die Lehrperson oder der Instruktor hat eventuell weitere Punkt, die zu 
+beachten sind)
 
-Bevor du mit den anderen mit Kartieren beginnen, benötigst du eine gedruckte 
-Karte, auf der man Notizen machen kann (mindestens eine pro Team).
-
-Die Lehrperson/Instruktor wird mit dem Karteneditor uMap vorbereiten, die 
-Gegend aufteilen und jedem Schüler/Interessierten einen Bereich (sogenannter 
-"Perimeter") zuteilen. 
-Damit wird dieselbe Gegend nicht zweimal kartographiert wird.
-
-Falls du und/oder das Team eine Karte mit Perimeter zugeteilt erhalten hast,
-kann es losgehen. 
-Viel Spass beim Kartografieren!
-Wenn du zurückkommst kannst du zum übernächsten Kapitel "Wie editiert man OpenStreetMap?" 
-springen. 
-
-Das nächste Kapitel kannst du eventuell auslassen, denn es ist diese eine 
-Alternative zu uMaps, mit der man Karten unterteilen und drucken kann. 
-
-== Kroki-Karten mit Field Papers (Alternative zu uMap)
-
-Field Papers ist eine Webapplikation, die frei zugänglich ist. 
-Mit Field Papers kann man mit Daten aus OpenStreetMap eine Karte erstellen, 
-diese ausdrucken und mit eigenen Notizen versehen. 
-Wenn die Notizen auf der Karte erfasst sind, kann sie abfotografiert und bei 
-Field Papers wieder hochgeladen werden. 
-Nachdem die Karte hochgeladen ist, kann man mit einem Klick direkt den 
-OpenStreetMap-Editor iD aufrufen und sieht die Notizen als Basiskarte. 
-Nun kann man im iD-Editor die OSM-Daten erfassen.
-
-Für Field Papers benötigt man einen Computer, einen Drucker und eine 
-Digitalkamera oder Smartphone.
-
-Das ist der Ablauf mit Field Papers kurz zusammengefasst:
-
-1. Rufe http://fieldpapers.org/[Field Papers] auf und registriere dich wenn nötig. 
-1. Gib der Karte einen Namen und navigiere zum Kartenausschnitt (Perimeter), der 
-dir zugeteilt ist.
-1. Drucke die Karte aus.
-1. Gehe nach draussen und notiere, was du siehst.
-1. Komm zurück, und schaue entweder einfach die Papiernotizen an und verwende 
-sie als Hilfsmittel;
-1. oder mach ein Foto der Papiernotizen (oder scanne das Papier ein) und lade 
-das Foto hoch.
-1. Starte den iD-Editor (direkt mit dem Weblink auf Field Papers; hier ein 
-http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875[Link] als Beispiel).
-1. Erfasse die Daten mit dem OpenStreetMap-Editor. 
-
+Viel Spass beim Kartografieren! 
 Das nächste Kapitel erläutert, wie du die auf Papier notierten Informationen 
 am Computer editieren kannst. 
-Viel Spass beim Kartografieren!
 
 == Wie editiert man OpenStreetMap?
 
@@ -203,38 +164,39 @@ Nun da du zurück bist, kannst du die Daten auf OpenStreetMap editieren.
 Die folgenden Erklärungen sind eine Kurzfassung des Arbeitsblatts 
 "OpenStreetMap bearbeiten" auf https://www.openschoolmaps.ch[OpenSchoolMaps]. 
 
-Bevor du anfangen kannst auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
-brauchst du einen OSM-Account. 
+Bevor du anfangen kannst auf OpenStreetMap-Daten zu bearbeiten oder hinzuzufügen, 
+musst du dich dort registrieren. 
 Dazu gehst du zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
 
 Oben rechts siehst du nun einen "Registrieren"-Button. 
-Klicke drauf, nun musst du deine Email eingeben und einen Benutzernamen und ein 
+Klicke drauf, nun musst du eine Email eingeben und einen Benutzernamen und ein 
 Passwort setzen. 
-Per Email musst du dann deine Angaben bestätigen, indem du auf einen Link klickst
+Per Email musst du dann die Angaben bestätigen, indem du auf einen Link klickst
 und danach ist dein Konto auch schon eingerichtet. 
 
-Jetzt kannst du mit dem eigentlichen Kartografieren beginnen. Also los!
+Jetzt kannst du mit dem Editieren beginnen. Also los!
 
 Nachdem du dich angemeldet hast, navigiere in deine Gegend. 
 Wenn du möchtest, kannst du im Suchfeld auch einen Ortsnamen eingeben. 
 Nun wollen wir aber unsere Umgebung nicht nur in OpenStreetMap betrachten, 
 sondern wollen sie bearbeiten. 
 Dazu klicke oben links auf "Bearbeiten". 
-Wenn du noch nie zuvor in OpenStreetMap Objekte bearbeitet hast (und dies ist 
-nach dem Registrieren der Fall), dann erscheint ein Fenster "Willkommen beim 
-iD OpenStreetMap Editor". 
+Wenn du noch nie zuvor in OpenStreetMap Objekte bearbeitet hast - und dies ist 
+gleich nach dem Registrieren der Fall - dann erscheint ein Fenster "Willkommen 
+beim iD OpenStreetMap Editor". 
 
 .iD OpenStreetMap Editor
 image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG[]
 
 Mit dem OpenStreetMap iD Editor können wir neue Objekte erstellen und neue Daten 
 auf diesen Objekten erfassen. 
-Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu halten. 
+Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu 
+halten. 
 
 Es empfiehlt sich auf "Rundgang starten" zu klicken, dann wirst du durch ein 
 Tutorial geführt, wie man in OpenStreetMap richtig editiert. 
 Dieses Tutorial dauert in etwa 10 bis 20 Minuten. 
 
 Nun solltest du wissen, wie es geht.
-Falls du dennoch mehr Hilfe benötigst, schaue im Arbeitsblatt 
+Falls du dennoch Hilfe benötigst, schaue im Arbeitsblatt 
 "OpenStreetMap bearbeiten" von https://www.openschoolmaps.ch[OpenSchoolMaps] nach. 
