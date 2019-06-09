@@ -5,7 +5,8 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-Eine Anleitung für Interessierte, für Schülerinnen und Schüler und für Lehrpersonen
+Eine Anleitung für Interessierte, für Schülerinnen und Schüler und für 
+Instruktoren/Lehrpersonen
 
 == Übersicht
 
@@ -238,6 +239,16 @@ Keines dieser Tools ist gleich.
 Einige verlangen, dass man sich registriert und alle kostenlos zugänglich und 
 werden ohne Gewähr zur Verfügung gestellt.
 
+=== OSM.org
+
+Auf https://openstreetmap.org kann manDaten auch herunter laden.
+Diese können aber nur als quadratische Ausschnitte und bis max. 50'000 Nodes 
+bezogen werden und zudem nur im `OSM XML`-Format.
+
+Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
+Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+
 === Geofabrik Downloads
 
 Die Webseite von Geofabrik http://download.geofabrik.de/ bietet OpenStreetMap-Daten 
@@ -265,16 +276,6 @@ Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder
 Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
 oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
 
-=== OSM.org
-
-Auf https://openstreetmap.org können auch Daten heruntergeladen werden.
-Diese können aber nur als quadratische Ausschnitte und bis max. 50'000 Nodes 
-bezogen werden und zudem nur im `OSM XML`-Format.
-
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
-
 === HOT Export Tool
 
 Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT Export Tool 
@@ -295,7 +296,7 @@ Bei Tabulator 1  geht es darum, der zu exportierenden Datei einen Namen und eine
 Beschreibung zu geben.
 Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in Uster.
 
-.HOT Export Tool Tab 1
+.HOT Export Tool Tab 1 "Exportbeschreibung".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
 Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, 
@@ -305,10 +306,10 @@ Du kannst entweder:
 
 * Eine Ortschaft in der Suche eingeben
 * Mit Koordinaten eine Bounding Box angeben
+* Die aktuelle Ansicht herunterladen
 * Eine Bounding Box selber zeichnen
 * Ein Polygon zeichnen
-* Die aktuelle Ansicht herunterladen
-* Eine GeoJSON-Datei hochladen
+* Ein Polygon als GeoJSON-Datei hochladen
 
 Für die ersten zwei Möglichkeiten, muss nur das Suchfeld genutzt werden.
 Dort kannst du entweder die gewünschte Ortschaft oder eine Bounding Box (Westen, 
@@ -321,28 +322,30 @@ _This View_ gedrückt werden.
 Wenn du eine GeoJSON-Datei hochladen möchtest, kannst du dies mit der 
 Schaltfläche _Import_ machen.
 
-CAUTION: An dieser Stelle ein kleiner Exkurs
+CAUTION: An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt.
 
-Eine Webseite, die sich für das Erzeugen von GeoJSON's eignet ist http://geojson.io.
+Die Webseite http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
+editieren kann.
 
-Achte darauf, dass du keine Multipolygone ins HOT Export Tool hochlädtst.
+Das HOT Export Tool erwartet nur einfache GeoJSON-Objekte (keine 
+"FeatureCollection"), d.h. einen Typ Polygon und eine Liste mit Koordinaten.
 
-Nachdem du z.B. mit geojson.io deine GeoJSON-Datei erstellt hast, musst du sie 
-noch für das HOT Export Tool anpassen.
-Kopiere dir dazu das GeoJSON in einen Texteditor.
-Die einfachste Version verlangt nur eine Typangabe und eine Liste mit den 
-Koordinaten:
+GeoJSON-Dateien von geojson.io und anderen Quellen müssen darum von Hand nochmals 
+angepasst werden.
+Öffne darum die GeoJSON-Datei in einen Texteditor und vereinfache die Struktur
+ähnlich wie im folgenden Bild.
 
-.Format der JSON-Datei für das HOT Export Tool
+.Einzelnes GeoJSON-Objekt für das HOT Export Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png[]
 
 Machen wir wieder weiter mit dem HOT Export Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
 
-.HOT Export Tool Tab 2
+.HOT Export Tool Tab 2 "Formate".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 
-Bei Tabulator 3  wechselst du in den Register "YAML" und fügst dort folgendes ein:
+Bei Tabulator 3 "Data" wechselst du in den Register "YAML" und fügst dort 
+folgendes ein:
 
     gastronomy:
      types:
@@ -365,9 +368,9 @@ Bei Tabulator 3  wechselst du in den Register "YAML" und fügst dort folgendes e
        - opening_hours
      where: shop IN ('bakery','supermarket')
  
-Das ganze sieht dann so aus:
+Das Ganze sieht dann so aus:
 
-.HOT Export Tool Tab 3
+.HOT Export Tool Tab 3 "Data".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
@@ -382,7 +385,7 @@ image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" 
 klicken (siehe unten).
 
-.HOT Export Tool Tab 4
+.HOT Export Tool Tab 4 "Summary".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
 Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
@@ -483,36 +486,38 @@ image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 == Mit QGIS Objekte filtern oder regelbasiert darstellen
 
-Nachdem man eine Abfrage erstellt oder auf andere Weise OpenStreetMap-Daten 
-erhalten hat, möchte man aber vielleicht nicht mit allen Daten arbeiten. 
-Wenn also nur eine Teilmenge aller Daten relevant sind, kann man in QGIS die 
-Objekte nach selbst definierten Kriterien filtern. 
-Eine andere Möglichkeit ist die Daten regelbasiert darzustellen, sodass nur 
-jene Daten angezeigt werden, die die Regeln erfüllen.
+Nachdem du OpenStreetMap-Daten im gewünschten Ausschnitt erhalten hast, möchtest 
+du vielleicht nicht mit allen Daten arbeiten. 
+Es gibt zwei grundsätzlich unterschiedliche Methoden, eine Teilmenge der Daten 
+zu erhalten:
+Einerseits kann man die Datenquelle nach selbst definierten Kriterien filtern. 
+Und andererseits kann man die Daten regelbasiert darstellen, sodass nur jene 
+Daten angezeigt werden, welche die Regeln erfüllen.
 
 Im Folgenden schauen wir uns die beiden Methoden an. 
 Das Beispiel mit den Brotverkaufsstellen bleibt gleich. 
 Die Brotverkaufsstellen beinhalten sowohl "bakeries" als auch "supermarkets". 
-Wir wollen nun aber nur noch "bakeries" in QGIS darstellen.
+Wir wollen nun aber nur noch "bakeries" in QGIS verarbeiten bzw. darstellen.
 
 === Mit QGIS Objekte filtern
 
-In QGIS hat man zwei Möglichkeiten Objekte zu filtern. 
-Entweder man geht bei QGIS im Menü auf "Layer" und dann "Filter..." (während der 
+In QGIS kommt man auf zwei Möglichkeiten zum Dialog, um Objekte zu filtern: 
+Entweder man geht im Menü auf "Layer" und wählt dann "Filter..." (während der 
 gewünschte Layer ausgewählt ist). 
 Oder man macht einen Rechtsklick auf den gewünschten Layer und geht dann auf 
 "Filter...". 
-Danach öffnet sich ein Fenster mit dem Titel "Abfrageerstellung". 
+Danach öffnet sich ein Dialog mit dem Titel "Abfrageerstellung". 
 In diesem Fenster sieht man folgendes:
 
 * Felder: Eine Liste aller Attribute, welche der ausgewählte Layer beinhaltet
 * Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen 
 (um einige Werte anzuzeigen machen, klicke auf den Knopf "Stichprobe")
 * Operatoren: Logische Operatoren zum Verknüpfen der Felder und Werte
-* Datenanbieter spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der 
+* Datenanbieter-spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der 
 Attribute und Werte
 
-Im Eingabefeld "Datenanbieter spezifischer Filterausdruck" geben wir folgendes ein:
+Im Eingabefeld "Datenanbieter-spezifischer Filterausdruck" geben wir folgendes 
+ein:
 
     "shop"='bakery'
 
@@ -538,15 +543,14 @@ in "Bäckereien" umbenennen.
 
 === Mit QGIS Objekte regelbasiert darstellen
 
-Es gibt noch eine andere Methode, um Objekte in QGIS zu filtern. 
 Bei der regelbasierten Darstellung geht es darum, aus einer Layer-Datenquelle 
 heraus alle diejenigen Objekte darzustellen, die ein Kriterium erfüllen. 
+Man spricht auch von "Daten-getriebender Darstellung".
 Dieser Ausdruck, nach dem es zu filtern gilt, ist hier Teil der Darstellung 
-(Symbologie) und nicht Teil des Layers wie vorhin. 
-Manche sprechen auch von "Daten-getriebender Darstellung".
+(Symbologie) und nicht Teil des Layers wie bei der anderen Methode. 
 
-Dies regelbasierten Darstellung kann man auch dazu verwenden, einzelne Werte 
-nicht darzustellen. 
+Die regelbasierte Darstellung kann man auch dazu verwenden, einzelne Werte 
+_nicht_ darzustellen. 
 In unserem Beispiel wollen wir das ausnutzen, um nur Bäckereien ('bakery') und 
 keine Supermarkets ('supermarket') darzustellen. 
 Dazu machen wir einen Rechtsklick auf den Layer und klicken den untersten 
@@ -615,16 +619,18 @@ Also auch wieder folgendes eingeben und dann auf "OK" klicken:
 .Edit Rule Dialog
 image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
 
-Nun klicken wir auf "Anwenden" und dann auf "OK". Nun sieht unser QGIS so aus:
+Nun klicken wir auf "Anwenden" und dann auf "OK". 
+Jetzt sollte es im QGIS so aussehen:
 
 .Brotverkaufsstellen mit farblich abgegrenzten Bäckereien (Pink)
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
-Wir sehen, dass unser Layer "Brotverkaufsstellen" nun zwei verschiedene 
-Objektgruppen aufweist. 
+Der Layer "Brotverkaufsstellen" sollte nun zwei verschiedene Objektgruppen 
+aufweisen. 
 Einerseits sehen wir alle 27 Brotverkaufstellen in oranger Farbe.
 Andererseits haben wir nun eine neue (Unter-)Gruppe mit 10 Objekten, 
 nämlich unsere Bäckereien in pinker Farbe.
 
-Damit schliessen wir dieses Kapitel ab und überlassen es dir, die Layer und das 
-ganze QGIS-Projekt zu erweitern und die Darstellung weiter zu verbessern.
+Damit schliessen wir dieses Kapitel bzw. dieses Arbeitsblatt ab und überlassen 
+es dir, die Layer und das ganze QGIS-Projekt zu erweitern und die Darstellung 
+zu verbessern.
