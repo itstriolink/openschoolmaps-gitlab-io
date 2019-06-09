@@ -35,9 +35,7 @@ Folgende Themen werden behandelt:
 * Was ist OpenStreetMap?
 * Was wird kartiert? was nicht?
 * Was kann bei Outdoor Events alles kartiert werden?
-* Vorbereitung
-* Kroki-Karten mit uMap
-* Kroki-Karten mit Field Papers (Alternative zu uMap)
+* Vorbereitungen zum draussen Kartieren 
 * Wie editiert man OpenStreetMap?
 
 == Einleitung
@@ -131,7 +129,7 @@ Läden und Restaurants:
 * Website
 * Öffnungszeiten
 
-== Vorbereitung
+== Vorbereitungen zum draussen Kartieren
 
 Bevor ihr als Gruppe aufbrecht, um eure Umgebung zu erkunden und Daten zu 
 sammeln, ist es noch sinnvoll zu wissen, was ihr alles für einen 
