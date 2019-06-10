@@ -57,7 +57,7 @@ Nachfolgend eine Tabelle als Übersicht über die Zeitplanung des Events.
 Sie planen einen Outdoor Mapping Event im Rahmen A (des regulären Unterrichts), 
 B (einer Projektwoche an Schule), oder C (einer Projektwoche ausserhalb Schule):
 
-[cols="1,2,2,2", options="header"] 
+[cols="1,1,1,1", options="header"] 
 .Zeitplanung Übersicht. 
 |===
 |Phase
@@ -66,7 +66,7 @@ B (einer Projektwoche an Schule), oder C (einer Projektwoche ausserhalb Schule):
 |C (einer Projektwoche ausserhalb Schule)
 
 |Einführung
-|2-4 Lektionen
+|2 - 4 Lektionen
 |4 Lektionen
 |4 Lektionen
 
