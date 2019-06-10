@@ -38,18 +38,18 @@ Die unten abgebildete Checkliste beinhaltet eine kurze Auflistung der Themen,
 die wichtig sind um einen erfolgreichen Event lancieren zu können. 
 Auf die Themen wird Abschnitt für Abschnitt näher eingegangen.
 
-== Checkliste für Lehrpersonen und Instruktoren
+== Checkliste
 
 Nachfolgend eine Checkliste für Lehrpersonen und Instruktoren zur Vorbereitung 
 und Durchführung eines Outdoor Mapping Events:
 
-* Studium der Unterlagen
-* Durchführung eines Testlaufs
-* Integrieren der Daten in OpenStreetMap
-* Vorbereitungen (u.a. Festlegen Gruppen, Changeset-Kommentar, etc.)
-* Gebiet einteilen und Kartenausschnitte drucken (Teil der Vorbereitung)
-* Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
-* Nach Durchführung des Events, den Event auswerten und abschliessen
+1. Studium der Unterlagen
+1. Durchführung eines Testlaufs
+1. Integrieren der Daten in OpenStreetMap
+1. Vorbereitungen (u.a. Festlegen Gruppen, Changeset-Kommentar, etc.)
+1. Gebiet einteilen und Kartenausschnitte drucken (Teil der Vorbereitung)
+1. Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
+1. Nach Durchführung des Events, den Event auswerten und abschliessen
 
 == Studium der Unterlagen
 
@@ -124,9 +124,9 @@ So erhalten Sie schon einen ersten Eindruck.
 
 == Vorbereitungen
 
-_Termin festlegen_: 
-Für den Durchführungs-Termin nicht zwingend - aber natürlich wünschenswert - ist 
-schönes Wetter, da es um eine Outdoor-Aktivität geht. 
+*Termin festlegen*: Für den Durchführungs-Termin ist nicht zwingend - aber 
+natürlich wünschenswert - wenn schönes Wetter angekündigt ist, da es um eine 
+Outdoor-Aktivität geht. 
 Ev. könnte ein Ausweichtermin festgelegt werden.
 
 *Gruppeneinteilung planen*: Die Teilnehmenden sollten zur Durchführung des 
@@ -154,14 +154,14 @@ OpenStreetMap immer ein sogenannter "Changeset-Kommentar" nötig.
 Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
-Er sollte maximal 32 Zeichen lang sein. 
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event Rappi 2019-06-11".
+Er sollte nictht länger als 32 Zeichen lang sein. 
+Ein Beispiel für ein Changeset-Kommentar ist _Outdoor Event Rappi 2019-06-11_.
 
-*Event mit Zusammenfassung ankündigen*: OpenStreetMap hat - ähnlich wie eine 
-Allmend oder ein Schulplatz - Regeln. 
+*Event als Zusammenfassung ankündigen*: Auch OpenStreetMap kennt Regeln - 
+ähnlich wie eine Allmend oder ein Schulplatz. 
 Es ist beispielsweise wichtig, dass diejenigen, die editieren, kontaktiert 
 werden können. 
-Bei einem Event wie diesem spricht man vom organisierten Editieren und dazu gibt
+Bei einem Event wie diesem spricht man von organisiertem Editieren und dazu gibt
 es diese https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organised Editing Guidelines"].
 Wir haben diese Richtlinien für Sie auf's Wichtigste gekürzt.
 
@@ -170,14 +170,14 @@ https://sosm.ch/[Kontakt] zu emailen.
 
 [NOTE]
 ====
-Zusammenfassung (Summary) des Outdoor Mapping Events: 
+*Zusammenfassung (Summary) des Outdoor Mapping Events:* 
 
-* Name des Events: ... _(z.B. Outdoor Event Rappi)_
-* Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_
-* Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_
-* Instruktor (Coordinator): ... _(z.B. Username Geonick)_
-* Teilnehmende (Participants): ..., ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
-* Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
+Name des Events: ... _(z.B. Outdoor Event Rappi)_
+Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_
+Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_
+Instruktor (Coordinator): ... _(z.B. Username Geonick)_
+Teilnehmende (Participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
+Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
 ====
 
 Zur Infrastruktur und Verbrauchsmaterial:
@@ -278,15 +278,15 @@ Diese Feststellungen könnten Sie in einem Bericht festhalten.
 
 [NOTE]
 ====
-Den Hashtag bzw. Changeset-Kommentar, den Sie festgelegt haben und den die 
-Teilnehmenden (hoffentlich) beim Editieren angegeben haben, kann genutzt werden,
+Der Changeset-Kommentar, den Sie festgelegt haben und den die Teilnehmenden 
+(hoffentlich) beim Editieren angegeben haben, kann genutzt werden,
 um eine Analyse der geleisteten Arbeit zu machen. 
 Dazu kann der Changeset-Kommentar in folgender Webapplikation angegeben werden, 
 worauf man eine Statistik erhält (über die letzten 30 Tage): 
 https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405
 ====
 
-Eine Rückmeldung des Events an den Initianten von OpenSchoolMaps wäre auch 
-toll, damit auch sie sich verbessern können und in Zukunft weitere Lerninhalte 
-veröffentlichen können: siehe https://openschoolmaps.ch/[OpenSchoolMaps] > 
+Eine Rückmeldung zum Event an die Initianten von OpenSchoolMaps wäre auch 
+toll, damit auch sie sich verbessern können: siehe 
+https://openschoolmaps.ch/[OpenSchoolMaps] > 
 "Weitere Unterrichtsideen". 
