@@ -283,7 +283,8 @@ Der Changeset-Kommentar, den Sie festgelegt haben und den die Teilnehmenden
 um eine Analyse der geleisteten Arbeit zu machen. 
 Dazu kann der Changeset-Kommentar in folgender Webapplikation angegeben werden, 
 worauf man eine Statistik erhält (über die letzten 30 Tage): 
-https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405
+https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405 . 
+Bei "Search for a specific Text" können man z.B. probehalber "Schweiz" eingeben.
 ====
 
 Eine Rückmeldung zum Event an die Initianten von OpenSchoolMaps wäre auch 
