@@ -55,7 +55,7 @@ Auf die Themen wird Abschnitt für Abschnitt näher eingegangen.
 * Durchführung eines Testlaufs
 * Integrieren der Daten in OpenStreetMap (u.a. Festlegen des Changeset-Kommentars)
 * Vorbereitungen (u.a. Gruppen bilden)
-* Gebiet einteilen und Karten drucken (Teil der Vorbereitung)
+* Gebiet einteilen und Kartenausschnitte drucken (Teil der Vorbereitung)
 * Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
 * Event auswerten und Abschluss des Events
 
@@ -77,16 +77,18 @@ Das Studieren der Unterlagen sollte jedoch gut im Selbststudium machbar sein.
 
 Zu einer gewissenhaften Vorbereitung gehört nicht nur das Studieren der 
 Unterlagen, sondern auch das Durchführen eines Testlaufs. 
-Gehen Sie auf einen Spaziergang und wenden Sie ihr neu erworbenes Wissen auf 
-ihre Umgebung an. 
+Gehen Sie auf einen Spaziergang und wenden Sie Ihr neu erworbenes Wissen auf 
+Ihre Umgebung an. 
 Erkunden Sie die Umgebung aus Sicht eines Kartografierers. 
 Nehmen Sie Stift und Papier mit auf den Spaziergang. 
 Nutzen Sie dafür die Kartenwerkzeuge uMap oder Field Papers, wie unten 
 beschrieben. 
+
 Es gäbe auch die Möglichkeit das Smartphone zu nutzen, beispielsweise mit dem 
 App "OSMTracker for Android".
 Doch ist das mit mehr Organisations- und Erklärungsaufwand verbunden und dem 
 stetigen technischen Wandel unterworfen.
+
 Stoppen Sie die Zeit und schauen Sie nach wie lange Sie für ihre 
 Umgebungserkundung benötigen und wie viel Informationen Sie in dieser Zeit 
 sammeln können, dann fällt es Ihnen leichter abzuschätzen, wie viel Zeit Sie für 
@@ -116,8 +118,8 @@ Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
 Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event der HSR Rapperswil 
 vom 11.6.2019".
 
-CAUTION: Zeigen Sie ihre Arbeit den Schülerinnen und Schülern als Einführung ins 
-Thema, so erhalten sie schon einen ersten Eindruck.
+CAUTION: Zeigen Sie Ihre Arbeit den Teilnehmenden als Einführung ins Thema. 
+So erhalten Sie schon einen ersten Eindruck.
 
 == Vorbereitung
 
@@ -135,16 +137,16 @@ eine Outdoor-Aktivität geht.
 CAUTION: Achten Sie darauf, dass Sie genug Lektionen einplanen. 
 Kartografieren kann länger dauern als man denkt, deshalb planen Sie grosszügig!
 
-== Gebiet einteilen und Karten drucken
+== Gebiet einteilen und Kartenausschnitte drucken
 
 Das für den Event geplante Gebiet muss eingegrenzt werden, damit die 
 Teilnehmenden nicht zu grosse Distanzen überwinden müssen. 
 Zudem ist es sinnvoll, das Gebiet in kleinere Gebiete 
-(sog. "Perimeter") einzuteilen und den Gruppen zuzuweisen.
+(sogenannte "Perimeter") einzuteilen und den Gruppen zuzuweisen.
 Damit wird dieselbe Gegend nicht zweimal kartographiert.
 
-Für die Gebietseinteilung eignen sich zwei Webapplikationen: uMap und Field 
-Papers:
+Für die Gebietseinteilung eignen sich vor allem zwei Webapplikationen: 
+uMap und Field Papers:
 
 * uMap ist ein Karteneditor, mit dem man beliebige Gebiete einzeichnen 
 kann. Auf https://openschoolmaps.ch/[OpenSchoolMaps] gibt   
