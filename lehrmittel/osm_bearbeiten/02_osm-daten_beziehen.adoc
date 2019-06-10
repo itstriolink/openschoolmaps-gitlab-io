@@ -226,52 +226,61 @@ Nun solltest du folgende Layer haben:
 .Ergebnisse der QuickOSM-Abfragen
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Damit ist dieses Kapitel abgeschlossen, wobei typischerweise noch einige 
+Nachbearbeitungsarbeiten nötig sind. Diese Nachbearbeitungsarbeiten sind in der 
+Einleitung des nächsten Kapitels beschrieben.
+
 
 == Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
 
-In diesem Kapitel haben wir verschiedene Web-Tools zum Download von 
+In diesem Kapitel sind verschiedene Web-Tools zum Download von 
 OpenStreetMap-Daten zusammengestellt. 
-Die einen bieten ganze Länder an, die anderen Aussschnitte. 
-Auch die Exportformate sind unterschiedlich. 
-Einige verlangen, dass man sich registriert und alle sind kostenlos zugänglich 
-und werden ohne Gewähr zur Verfügung gestellt. 
-
-Schliesslich noch ein wichtiger Hinweis: Wie in der Einleitung erwähnt, gibt es kein 
-einheitliches "GIS"-Datenschema für OSM und darum ist kaum ein Export aus OSM 
-gleich wie der andere. Es ist darum wichtig die jeweilige Dokumentation zu 
-konsultieren.
-
-Dann gibt es typischerweise noch Nachbearbeitungs-Aufgaben im GIS:
-
-1. Die Geodaten (Layer) auf das Gebiet begrenzen, das dargestellt oder analysiert 
-werden soll. 
-1. OSM-Objekte die flächenhaft sind möchte man als Punkt-Symbole behandeln und 
-darstellen.
-1. OSM-Objekte gleicher Art - wie beispielsweise Bäckereien - erscheinen in zwei 
-Layern: die einen im Punkt-Layer, die anderen im Polygon-Layer.
-
-Zum ersten Problem verweisen wir an dieser Stelle auf das QGIS-Menü 
-"Geoverarbeitungswerkzeuge" und den Algorithmus "Zuschneiden". Dieser Algorithmus 
-verlangt die Angabe eines Überlagerungslayers, ein Perimeter, was typischerweise 
-eine administrative Grenze ist (also z.B. Uster) _(Tipps, wie man am einfachsten 
-eine solche administrative Grenze erhält sind noch in Bearbeitung)_. 
-
-Zu den zwei anderen Problemen gibt es folgende Kapitel unten:
+Die einen bieten ganze Länder an, die anderen benutzerdefinierte Aussschnitte. 
+Die Exportformate sind unterschiedlich und einige verlangen, dass man sich 
+registriert. Alle sind kostenlos zugänglich - jedoch ohne Gewähr für einen
+unterbruchsfreien Betrieb.
 
 [NOTE]
 ====
+Wie in der Einleitung erwähnt, gibt es kein  einheitliches "GIS"-Datenschema für 
+OSM und darum ist kaum ein Export aus OSM gleich wie der andere. 
+Es ist darum wichtig die jeweilige Dokumentation der Web-Tools zu konsultieren.
+====
+
+Dann gibt es typischerweise noch Nachbearbeitungsarbeiten im GIS:
+
+1. Die Geodaten (Layer) auf das Gebiet begrenzen, das dargestellt oder analysiert 
+werden soll. 
+1. Oft gibt es OSM-Objekte gleicher Art - wie beispielsweise 
+Bäckereien - bei denen die einen im Punkt-Layer, die anderen im Polygon-Layer 
+erscheinen. Diese möchte man aber einheitlich verwalten und wandelt die 
+flächenhaften Objekte in Punkt-Objekte und fügte diese dem Punkt-Layer hinzu. 
+1. Einige Geodaten (Layer) enthalten Objekte verschiedener Art, beispielsweise 
+Shop der Art Bäckerei und der Art Supermarkt. Diese möchte man gefiltert 
+analysieren und/oder darstellen.
+
+Zum ersten Problem verweisen wir an dieser Stelle auf das QGIS-Menü 
+"Geoverarbeitungswerkzeuge" und den Algorithmus "Zuschneiden". 
+Dieser Algorithmus verlangt die Angabe eines Überlagerungslayers, ein Perimeter, 
+was typischerweise eine administrative Grenze ist (also z.B. Uster) 
+_(Tipps, wie man am einfachsten eine solche administrative Grenze erhält sind 
+noch in Bearbeitung)_. 
+
+Zu den zwei anderen Problemen folgender Hinweis:
+
+[NOTE]
+====
+Hinweise zur Nachbearbeitung der Geodaten: 
 Wenn du wissen möchtest wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
 schaue unten im Kapitel "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-nach. Wenn du erfahren möchtest, wie man Objekte filtert, dann springe zum 
-Kapitel unten "Mit QGIS Objekte filtern oder regelbasiert darstellen".
+nach. 
+Wenn du erfahren möchtest, wie man Objekte filtert, dann springe zum Kapitel 
+unten "Mit QGIS Objekte filtern oder regelbasiert darstellen".
 ====
 
 === OSM.org
 
-Auf https://openstreetmap.org kann man Daten auch herunter laden.
+Auf https://osm.org[OSM.org] kann man Daten auch herunterladen.
 Diese können nur als quadratische Ausschnitte (Bounding Box) und bis 
 max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
 Dafür sind die Daten aktuell.
@@ -310,7 +319,7 @@ diesem Kapitel.
 
 Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT Export Tool 
 einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
-Um das HOT ExportTool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
+Um das HOT Export Tool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
 und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
 bereit sind zum Herunterladen.
 Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
@@ -322,9 +331,10 @@ Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
 
 Tabulator 1 und 4 sollen nachfolgend etwas genauer beschrieben werden.
 
-Bei Tabulator 1  geht es darum, der zu exportierenden Datei einen Namen und eine 
-Beschreibung zu geben.
-Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in Uster.
+Bei Tabulator 1 "Exportbeschreibung" geht es darum, der zu exportierenden Datei 
+einen Namen und eine Beschreibung zu geben.
+Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in 
+Uster.
 
 .HOT Export Tool Tab 1 "Exportbeschreibung".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
