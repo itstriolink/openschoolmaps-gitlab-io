@@ -66,8 +66,8 @@ Das Studieren der Unterlagen sollte jedoch gut im Selbststudium machbar sein.
 
 [NOTE]
 ====
-Bei der "Swiss OpenStreetMap Association" gibt die Möglichkeit, direkt Kontakt 
-aufzunehmen und eine Frage zu stellen an https://sosm.ch/[Kontakt].
+Bei der "Swiss OpenStreetMap Association" (SOSM) gibt die Möglichkeit, Fragen zu 
+stellen, falls Sie nicht mehr weiterkommen: https://sosm.ch/de/kontakt/[Kontakt].
 ====
 
 == Durchführung eines Testlaufs
@@ -166,7 +166,7 @@ es diese https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Or
 Wir haben diese Richtlinien für Sie auf's Wichtigste gekürzt.
 
 Gemäss den Richtlinien werden Sie gebeten, folgende Angaben auszufüllen und an 
-https://sosm.ch/[Kontakt] zu emailen. 
+folgenden zu mailen: https://sosm.ch/de/kontakt/[SOSM]. 
 
 [NOTE]
 ====
