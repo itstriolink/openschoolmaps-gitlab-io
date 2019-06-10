@@ -140,9 +140,10 @@ Läden und Restaurants merken könnt, braucht ihr geeignete Hilfsmittel.
 Wir verwenden dazu Stift und Papier. 
 Auf dem Papier sollte dann am besten schon ein Ausschnitt der Umgebung vorhanden 
 sein, damit man sieht was wo ist und was schon eingetragen ist. 
+
 Es wäre auch möglich, ein Smartphone mit GPS zu nutzen. 
-Das verwenden wir aber hier noch nicht, denn das braucht viel mehr Erklärungen 
-als Stift und Papier. 
+Das verwenden wir aber hier nicht, denn das braucht viel mehr Erklärungen und 
+Erfahrung als Stift und Papier. 
 
 Checkliste zur Vorbereitung:
 
@@ -155,6 +156,7 @@ Checkliste zur Vorbereitung:
 beachten sind)
 
 Viel Spass beim Kartografieren! 
+
 Das nächste Kapitel erläutert, wie du die auf Papier notierten Informationen 
 am Computer erfassen kannst. 
 
