@@ -51,6 +51,40 @@ und Durchführung eines Outdoor Mapping Events:
 1. Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
 1. Nach Durchführung des Events, den Event auswerten und abschliessen
 
+[cols="1,1,2", options="header"] 
+.Zeitplanung: Sie planen einen Outdoor Mapping Event...
+|===
+|Phase
+|A (im Rahmen des regulären Unterrichts)
+|B (im Rahmen einer Projektwoche an der Schule)
+|C (im Rahmen einer Projektwoche ausserhalb Schule)
+
+|Einführung
+|2-4
+|4
+|2
+
+|Datenerhebung (draussen)
+|x
+|x
+|x
+
+|Datenerfassung (am Computer)
+|x
+|x
+|x
+
+|Abschluss
+|x
+|x
+|x
+
+|Bericht
+|-
+|-
+|x
+|===
+
 == Studium der Unterlagen
 
 Bevor Sie einen erfolgreichen Outdoor Mapping Event durchführen können, müssen 
