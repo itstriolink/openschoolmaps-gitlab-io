@@ -80,12 +80,11 @@ Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, mit dem sich
 OpenStreetMap-Abfragen direkt in QGIS erstellen lassen. 
 Es wird jedem selber überlassen, welche Methode er einsetzen will. 
 
-Nach den beiden Import-Methoden werden verschiedene Web-Tools vorgestellt, zum 
+Nach den beiden Import-Methoden werden verschiedene Web-Tools vorgestellt zum 
 Download von OpenStreetMap-Daten. 
 
-Als letztes Kapitel erfährst du, wie man in QGIS verschiedenartige Layer zusammenführt. 
-Auf dieses Kapitel wird am Ende der restlichen Kapitel verwiesen, also kommst du 
-dort fürher oder später vorbei.
+In den beiden letzten Kapitel erfährst du, wie man in QGIS die importierten 
+Geodaten nachbearbeitet.
 
 == OpenStreetMap-Daten mit Overpass extrahieren 
 
@@ -262,15 +261,23 @@ analysieren und/oder darstellen.
 Zum ersten Problem verweisen wir an dieser Stelle auf das QGIS-Menü 
 "Geoverarbeitungswerkzeuge" und den Algorithmus "Zuschneiden". 
 Dieser Algorithmus verlangt die Angabe eines Überlagerungslayers, ein Perimeter, 
-was typischerweise eine administrative Grenze ist (also z.B. Uster) 
-_(Tipps, wie man am einfachsten eine solche administrative Grenze erhält sind 
-noch in Bearbeitung)_. 
+was typischerweise eine Verwaltungsgrenze ist (also z.B. Uster) 
+
+[NOTE]
+====
+Extrahieren von Verwaltungsgrenzen als GeoJSON:
+Suche zuerst die "Relation Id" in OpenStreetMap, z.B. http://www.openstreetmap.org/relation/1682225[Uster (1682225)].
+Gehe dann zu http://overpass-turbo.eu/?template=type-id&type=relation&R&id=1682225[Overpass-Turbo] 
+mit dieser "Relation ID".
+Exportiere aus Overpass-Turbo dann eine GeoJSON-Datei (z.B. uster.geojson).
+Vereinfache die Geometry eventuell mit http://www.mapshaper.org/[Mapshaper].
+====
 
 Zu den zwei anderen Problemen folgender Hinweis:
 
 [NOTE]
 ====
-Hinweise zur Nachbearbeitung der Geodaten: 
+Nachbearbeitung der Geodaten: 
 Wenn du wissen möchtest wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
 schaue unten im Kapitel "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
 nach. 
@@ -372,10 +379,10 @@ Das HOT Export Tool erwartet nur einfache GeoJSON-Objekte (keine
 
 GeoJSON-Dateien von geojson.io und anderen Quellen müssen darum von Hand nochmals 
 angepasst werden.
-Öffne darum die GeoJSON-Datei in einen Texteditor und vereinfache die Struktur
-ähnlich wie im folgenden Bild.
+Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
+zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
-.Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
+//.Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
 // image::osm_editieren/osm-daten_beziehen/json_format.png[]
     {
       "type": "Polygon",
