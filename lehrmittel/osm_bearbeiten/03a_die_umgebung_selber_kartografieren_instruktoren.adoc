@@ -54,16 +54,18 @@ und Durchführung eines Outdoor Mapping Events:
 1. Nach Durchführung des Events, den Event auswerten und abschliessen
 
 Nachfolgend eine Tabelle als Übersicht über die Zeitplanung des Events. 
-Sie planen einen Outdoor Mapping Event im Rahmen A (des regulären Unterrichts), 
-B (einer Projektwoche an Schule), oder C (einer Projektwoche ausserhalb Schule):
+Es gibt verschiedene Möglichkeiten, je nachdem ob Sie einen Outdoor Mapping 
+Event planen im Rahmen (A) des regulären Unterrichts, (B) einer Projektwoche an 
+der Schule, oder (C) einer Projektwoche ausserhalb der Schule, dann sind das 
+hier unsere geschätzten Zeitangaben:
 
 [cols="1,1,1,1", options="header"] 
 .Zeitplanung Übersicht. 
 |===
 |Phase
-|A (des regulären Unterrichts)
-|B (einer Projektwoche an Schule)
-|C (einer Projektwoche ausserhalb Schule)
+|A. Regulärer Unterricht
+|B. Projektwoche an Schule
+|C. Projektwoche ausserhalb Schule
 
 |Einführung
 |2 - 4 Lektionen
@@ -214,14 +216,15 @@ folgenden Kontakt zu mailen: https://sosm.ch/de/kontakt/[SOSM].
 *Zusammenfassung (Summary) des Outdoor Mapping Events:* 
 
 Name des Events: ... _(z.B. Outdoor Event Rappi)_ +
-Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_ +
+Durchführungsdatum (date): ... _(z.B. 2019-06-11)_ +
 Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_ +
-Instruktor (Coordinator): ... _(z.B. Username Geonick)_ +
-Teilnehmende (Participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_ +
-Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
+Instruktor (coordinator): ... _(z.B. Username Geonick)_ +
+Teilnehmende (participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_ +
+Ziele (goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
 ====
 
 Zur Infrastruktur und Verbrauchsmaterial:
+
 * Es sollte ein Raum zur Verfügung stehen mit genügend Computern mit Zugang zum 
 Internet, um auf OpenStreetMap.org die gesammelten Daten zu integrieren. 
 * Im nachfolgenden Kapitel ist erklärt, wie gedruckte Kartenausschnitte erstellt 
