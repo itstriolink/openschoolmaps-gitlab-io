@@ -375,8 +375,20 @@ angepasst werden.
 Öffne darum die GeoJSON-Datei in einen Texteditor und vereinfache die Struktur
 ähnlich wie im folgenden Bild.
 
-.Einzelnes GeoJSON-Objekt für das HOT Export Tool
-image::osm_editieren/osm-daten_beziehen/json_format.png[]
+.Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
+// image::osm_editieren/osm-daten_beziehen/json_format.png[]
+    {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [8.67750, 47.32015],
+          [8.76042, 47.32015],
+          [8.76042, 47.38387],
+          [8.67750, 47.38387],
+          [8.67750, 47.32015]
+        ]
+      ]
+    }
 
 Machen wir wieder weiter mit dem HOT Export Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
@@ -407,7 +419,13 @@ folgendes ein:
        - shop
        - opening_hours
      where: shop IN ('bakery','supermarket')
- 
+
+CAUTION: YAML ist eine vereinfachte Code-Auszeichnungssprache, angelehnt u.a. 
+an XML. 
+Die YAML-Syntax verwendet Einrückungen. 
+Dazu sollte man nur Leerzeichen verwenden (keine Tabulatoren).
+Mit der Webseite http://www.yamllint.com/[YAML Lint] kann man YAML validieren.
+
 Das Ganze sieht dann so aus:
 
 .HOT Export Tool Tab 3 "Data".
@@ -415,8 +433,8 @@ image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
 GeoPackage exportieren. 
-Darum gehen wir weiter zu Tab 4. 
-Das Letzte was wir jetzt noch vor dem Exportieren machen müssen ist auf der 
+Darum gehen wir weiter zu Tab 4 "Summary". 
+Das Letzte was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
 rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 
 .HOT Export Tool Uster
@@ -454,8 +472,9 @@ Details angezeigt werden sollen.
 
 Das Exportieren der Daten geht mindestens etwa 45 Minuten. 
 
-Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum Beispiel
-Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema dokumentiert ist.
+Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum 
+Beispiel Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema 
+dokumentiert ist.
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
@@ -466,7 +485,8 @@ BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen
 verschiedenen Dateiformaten an.
 
 Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
-Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512mb als Datei.
+Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512 Megabytes als 
+Datei.
 Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
 Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
@@ -483,13 +503,13 @@ diesem Kapitel.
 == Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 
 Bei OSM kommt es immer wieder vor, dass ein Objekt - wie beispielsweise eine 
-Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) erfasst 
-wird. 
-Darum kommt es oft vor, dass man im GIS Polygon-Layer erhält mit denselben 
+Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) 
+erfasst wird. 
+Darum kommt es vor, dass man im GIS Polygon-Layer erhält mit denselben 
 Objektarten wie im Punkte-Layer.
 Eigentlich will man aber alle Objekte einheitlich und alle auf einmal ansprechen.
 
-Also gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
+Also, gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
 Polygon-Layer in Punkt umwandeln und können diese dann im Punkte-Layer 
 integrieren. 
 
