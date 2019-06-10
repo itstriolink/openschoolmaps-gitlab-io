@@ -66,7 +66,8 @@ Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue das Arbeitsblat
 === Was wird kartiert? was nicht?
 
 Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. 
-Bevor man diese Geodaten jedoch in OpenStreetMap integrieren kann, muss man sie zuerst sammeln. 
+Bevor man diese Geodaten jedoch in OpenStreetMap integrieren kann, muss man sie 
+zuerst sammeln. 
 Dazu hat man verschiedene Möglichkeiten. 
 Eine Möglichkeit besteht im Recherchieren der Daten. 
 Man durchsucht verschiedene Dokumente und/oder Webseiten und sammelt so Daten, 
@@ -164,8 +165,9 @@ Die folgenden Erklärungen sind eine Kurzfassung des Arbeitsblatts
 
 Bevor du anfangen kannst auf OpenStreetMap-Daten zu bearbeiten oder hinzuzufügen, 
 musst du dich dort registrieren. 
-Dazu gehst du zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
 
+Falls der Instruktor die Registration nicht schon für dich erledigt hat, 
+gehe zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
 Oben rechts siehst du nun einen "Registrieren"-Button. 
 Klicke drauf, nun musst du eine Email eingeben und einen Benutzernamen und ein 
 Passwort setzen. 
@@ -186,7 +188,7 @@ beim iD OpenStreetMap Editor".
 .iD OpenStreetMap Editor
 image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG[]
 
-Mit dem OpenStreetMap iD Editor können wir neue Objekte erstellen und neue Daten 
+Mit dem OpenStreetMap iD Editor kann man neue Objekte erstellen und neue Daten 
 auf diesen Objekten erfassen. 
 Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu 
 halten. 
@@ -194,6 +196,14 @@ halten.
 Es empfiehlt sich auf "Rundgang starten" zu klicken, dann wirst du durch ein 
 Tutorial geführt, wie man in OpenStreetMap richtig editiert. 
 Dieses Tutorial dauert in etwa 10 bis 20 Minuten. 
+
+Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
+sogenannter "Changeset-Kommentar" nötig.
+Damit dieser Event ausgewertet werden kann, ist es wichtig, dass alle denselben
+Changeset-Kommentar verwenden.
+Frage den Instruktor, welchen Changeset-Kommentar du verwenden sollst.
+Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event der HSR Rapperswil 
+vom 11.6.2019"
 
 Nun solltest du wissen, wie es geht.
 Falls du dennoch Hilfe benötigst, schaue im Arbeitsblatt 
