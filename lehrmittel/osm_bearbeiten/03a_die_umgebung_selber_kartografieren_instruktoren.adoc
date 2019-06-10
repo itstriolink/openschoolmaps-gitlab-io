@@ -172,12 +172,12 @@ https://sosm.ch/[Kontakt] zu emailen.
 ====
 *Zusammenfassung (Summary) des Outdoor Mapping Events:* 
 
-Name des Events: ... _(z.B. Outdoor Event Rappi)_
-Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_
-Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_
-Instruktor (Coordinator): ... _(z.B. Username Geonick)_
-Teilnehmende (Participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
-Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
+* Name des Events: ... _(z.B. Outdoor Event Rappi)_
+* Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_
+* Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_
+* Instruktor (Coordinator): ... _(z.B. Username Geonick)_
+* Teilnehmende (Participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
+* Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
 ====
 
 Zur Infrastruktur und Verbrauchsmaterial:
