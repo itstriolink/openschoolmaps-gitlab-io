@@ -18,7 +18,6 @@ und Schüler und Interessierten (hier "Teilnehmende" genannt).
 .Zielgruppe
 Lehrpersonen und Instruktoren
 
-
 == Einleitung
 
 Technologie ist kaum aus unserem Alltag weg zu denken. 
@@ -113,10 +112,9 @@ beträchtlich sein.
 
 Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
 sogenannter "Changeset-Kommentar" nötig.
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event der HSR Rapperswil 
-vom 11.6.2019".
-Im gleich folgenden Kapitel "Vorbereitungen" kommen wir nochmals auf diesen 
-Changeset-Kommentar zurück.
+Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event Rappi 2019-06-11".
+Im folgenden Kapitel "Vorbereitungen" kommen wir nochmals auf diesen Kommentar 
+zurück.
 
 [NOTE]
 =====
@@ -131,15 +129,14 @@ Für den Durchführungs-Termin nicht zwingend - aber natürlich wünschenswert -
 schönes Wetter, da es um eine Outdoor-Aktivität geht. 
 Ev. könnte ein Ausweichtermin festgelegt werden.
 
-_Gruppeneinteilung planen_: 
-Die Teilnehmenden sollten zur Durchführung des Events Gruppen bilden, z.B. 
-Zweiergruppen. 
+*Gruppeneinteilung planen*: Die Teilnehmenden sollten zur Durchführung des 
+Events Gruppen bilden, z.B. Zweiergruppen. 
 Dies macht es für die Teilnehmenden spannender und für die Lehrperson bzw. den 
 Instruktor einfacher zu organisieren. 
 Jeder Gruppe soll ein Gebiet zugeteilt werden, wie nachfolgend noch erläutert wird.
 
-_E-Mail-Adressen einrichten_: 
-Um Services wie OpenStreetMap nutzen zu können, benötigt man E-Mail-Adressen.
+*E-Mail-Adressen einrichten*: Um Services wie OpenStreetMap nutzen zu können, 
+benötigt man eine E-Mail-Adresse.
 Und für diese Nutzung muss man gemäss Internet-Recht älter als 13 Jahre sein. 
 Bei 13- bis 16-Jährigen Teilnehmenden kann ein Elternteil oder eine von den 
 Eltern autorisierte Person (eine Lehrperson, ein Schuldadministrator oder ein 
@@ -148,40 +145,39 @@ Instruktor) Benutzerkonten verwalten (https://wiki.osmfoundation.org/wiki/Terms_
 [NOTE]
 ====
 Auf folgender Webseite finden Sie einige Tipps, wie Sie für die Gruppe 
-E-Mail-Adressen einrichten können unter Berücksichtigung von der Privatsphäre 
-und vom Datenschutz: https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[GISWiki HSR].
+E-Mail-Adressen einrichten können unter Berücksichtigung der Privatsphäre 
+und des Datenschutzes: https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[GISWiki HSR].
 ====
 
-_Changeset-Kommentar festlegen_: 
-Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
-sogenannter "Changeset-Kommentar" nötig.
+*Changeset-Kommentar festlegen*: Vor dem Speichern der editierten Daten ist bei 
+OpenStreetMap immer ein sogenannter "Changeset-Kommentar" nötig.
 Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
 Er sollte maximal 32 Zeichen lang sein. 
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event HSR Rapperswil 11.6.2019".
+Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event Rappi 2019-06-11".
 
-
-_Event mit Zusammenfassung ankündigen_
-OpenStreetMap hat - ähnlich wie ein Allmend - Regeln, beispielsweise, dass 
-diejenigen, die editieren, kontaktiert werden können. 
+*Event mit Zusammenfassung ankündigen*: OpenStreetMap hat - ähnlich wie eine 
+Allmend oder ein Schulplatz - Regeln. 
+Es ist beispielsweise wichtig, dass diejenigen, die editieren, kontaktiert 
+werden können. 
 Bei einem Event wie diesem spricht man vom organisierten Editieren und dazu gibt
-es Richtlinien, die https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organised Editing Guidelines"].
-Wir haben diese Richtlinien extra auf Wichtigste gekürzt.
+es diese https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organised Editing Guidelines"].
+Wir haben diese Richtlinien für Sie auf's Wichtigste gekürzt.
 
-Gemäss den Richtlinien werden Sie gebeten, folgende Angaben ausgefüllt und an 
+Gemäss den Richtlinien werden Sie gebeten, folgende Angaben auszufüllen und an 
 https://sosm.ch/[Kontakt] zu emailen. 
 
 [NOTE]
 ====
 Zusammenfassung (Summary) des Outdoor Mapping Events: 
 
-* Name des Events: ... _(z.B. Mapping Party Rapperswil)_
-* Durchführugsdatum (Date): ...
-* Hashtag/Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. #MappingPartyRapperswil)_
+* Name des Events: ... _(z.B. Outdoor Event Rappi)_
+* Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_
+* Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_
 * Instruktor (Coordinator): ... _(z.B. Username Geonick)_
-* Teilnehmende (Participants): ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
-* Ziele (Goals): ... _(z.B. Die Umgebung selber kartieren)_
+* Teilnehmende (Participants): ..., ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
+* Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
 ====
 
 Zur Infrastruktur und Verbrauchsmaterial:
@@ -192,8 +188,8 @@ werden können.
 * Ev. Unterlagen für die Kartennotizen beschaffen.
 * Genügend Schreib-Stifte 
 
-Beachten Sie auch die Checkliste für die Teilnehmenden im Arbeitsblatt, das zu 
-diesem gehört.
+Beachten Sie auch die Checkliste zuhanden der Teilnehmenden im zugehörigen 
+Arbeitsblatt für Schülerinnen und Schüler sowie Interessierte.
 
 == Gebiet einteilen und Kartenausschnitte drucken
 
