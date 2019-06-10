@@ -144,8 +144,9 @@ und tragen Sie Ihre Daten ein.
 
 Falls Sie noch kein Konto bei OpenStreetMap (OSM) haben, ist jetzt der Zeitpunkt 
 dafür, eines anzulegen. 
-Beachten Sie auch das Arbeitsblatt "OpenStreetMap bearbeiten" auf 
-https://openschoolmaps.ch/[OpenSchoolMaps] für weitere Erklärungen.
+Beachten Sie auf https://openschoolmaps.ch/[OpenSchoolMaps] unter 
+"Unterrichtsmaterialien" auch das Arbeitsblatt "OpenStreetMap bearbeiten" für 
+weitere Erklärungen, sowie das "OpenStreetMap Tagging Cheatsheet".
 
 Auch hier könnte es sich als Vorteil erweisen, wenn Sie schauen, 
 wie viel Zeit Sie benötigen. 
