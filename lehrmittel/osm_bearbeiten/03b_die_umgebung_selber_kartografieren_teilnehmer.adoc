@@ -210,5 +210,6 @@ verwenden sollst.
 Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event Rappi 2019-06-11"
 
 Nun solltest du wissen, wie es geht.
-Falls du dennoch Hilfe benötigst, schaue im Arbeitsblatt 
-"OpenStreetMap bearbeiten" von https://www.openschoolmaps.ch[OpenSchoolMaps] nach. 
+Falls du dennoch Hilfe benötigst, schaue auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
+unter "Unterrichtsmaterialien" im Arbeitsblatt "OpenStreetMap bearbeiten" nach.  
+Es gibt dort ausserdem noch ein "OpenStreetMap Tagging Cheatsheet" (PDF).
