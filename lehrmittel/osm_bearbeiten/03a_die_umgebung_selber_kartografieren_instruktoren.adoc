@@ -10,10 +10,10 @@ Eine Anleitung für Lehrpersonen und Instruktoren
 == Übersicht
 
 .Ziel
-Dies ist kein Arbeitsblatt sondern eine Sammling von Hinweisen und Tipps 
+Dies ist kein Arbeitsblatt sondern eine Sammlung von Hinweisen und Tipps 
 für Lehrpersonen und Instruktoren zur Organisation eines erfolgreichen 
 Outdoor Mapping Events (manchmal auch "Mapping Party" genannt) mit Schülerinnen 
-und Schüler und Interessierten (hier "Teilnehmende" genannt).
+und Schülern und Interessierten (hier "Teilnehmende" genannt).
 
 .Zielgruppe
 Lehrpersonen und Instruktoren
@@ -36,9 +36,11 @@ Ein Outdoor Mapping Event soll einen Einblick geben.
 
 Die unten abgebildete Checkliste beinhaltet eine kurze Auflistung der Themen, 
 die wichtig sind um einen erfolgreichen Event lancieren zu können. 
+Zudem wird eine Übersicht über die Zeitplanung des Events gegeben.
+
 Auf die Themen wird Abschnitt für Abschnitt näher eingegangen.
 
-== Checkliste
+== Checkliste und Zeitplanung
 
 Nachfolgend eine Checkliste für Lehrpersonen und Instruktoren zur Vorbereitung 
 und Durchführung eines Outdoor Mapping Events:
@@ -51,38 +53,43 @@ und Durchführung eines Outdoor Mapping Events:
 1. Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
 1. Nach Durchführung des Events, den Event auswerten und abschliessen
 
-[cols="1,1,2", options="header"] 
-.Zeitplanung: Sie planen einen Outdoor Mapping Event...
+Nachfolgend eine Tabelle als Übersicht über die Zeitplanung des Events. 
+Sie planen einen Outdoor Mapping Event im Rahmen A (des regulären Unterrichts), 
+B (einer Projektwoche an Schule), oder C (einer Projektwoche ausserhalb Schule):
+
+[cols="1,2,2,2", options="header"] 
+.Zeitplanung Übersicht. 
 |===
 |Phase
-|A (im Rahmen des regulären Unterrichts)
-|B (im Rahmen einer Projektwoche an der Schule)
-|C (im Rahmen einer Projektwoche ausserhalb Schule)
+|A (des regulären Unterrichts)
+|B (einer Projektwoche an Schule)
+|C (einer Projektwoche ausserhalb Schule)
 
 |Einführung
-|2-4
-|4
-|2
+|2-4 Lektionen
+|4 Lektionen
+|4 Lektionen
 
 |Datenerhebung (draussen)
-|x
-|x
-|x
+|3 Lektionen
+|2 Tage
+|2 Tage
 
 |Datenerfassung (am Computer)
-|x
-|x
-|x
+|3 Lektionen
+|1 Tag
+|1 Tag
+
+|Bericht schreiben
+|-
+|-
+|0.5 Tage
 
 |Abschluss
-|x
-|x
-|x
+|2 Lektionen
+|0.5 Tage
+|0.5 Tage
 
-|Bericht
-|-
-|-
-|x
 |===
 
 == Studium der Unterlagen
@@ -206,12 +213,12 @@ folgenden Kontakt zu mailen: https://sosm.ch/de/kontakt/[SOSM].
 ====
 *Zusammenfassung (Summary) des Outdoor Mapping Events:* 
 
-* Name des Events: ... _(z.B. Outdoor Event Rappi)_
-* Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_
-* Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_
-* Instruktor (Coordinator): ... _(z.B. Username Geonick)_
-* Teilnehmende (Participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
-* Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
+Name des Events: ... _(z.B. Outdoor Event Rappi)_ +
+Durchführugsdatum (Date): ... _(z.B. 2019-06-11)_ +
+Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_ +
+Instruktor (Coordinator): ... _(z.B. Username Geonick)_ +
+Teilnehmende (Participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_ +
+Ziele (Goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
 ====
 
 Zur Infrastruktur und Verbrauchsmaterial:
