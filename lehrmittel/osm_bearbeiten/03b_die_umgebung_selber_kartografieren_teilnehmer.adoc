@@ -16,7 +16,7 @@ sind, auf Anweisung der Lehrperson/des Instruktors eine Gegend selbstständig
 zu kartografieren.
 
 .Zielgruppe
-Schüler und Interessierte.
+Schülerinnen und Schüler sowie Interessierte.
 
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
@@ -24,10 +24,10 @@ unterschiedlich viel Zeit, mindestens jedoch drei Stunden.
 Dies ist der grobe Plan:
 
 1. Allgemeine Vorbereitungen (z.B. was ist OpenStreetMap?), mind. ca. 20 min.
-1. Konkrete Vorbereitung für die Kartierung draussen, mind. ca. 40 min.
-1. Draussen kartieren, mind. ca. 60 min.
+1. Konkrete Vorbereitung für die Kartierung draussen, mind. ca. 20 min.
+1. Draussen kartieren, mind. ca. 60 min, besser zwei bis drei Stunden.
 1. Instruktion zum Editieren von OpenStreetMap, mind. ca. 20 min.
-1. Editieren am Computer, mind. ca. 40 min.
+1. Editieren am Computer, mind. ca. eine Stunde, besser zwei Stunden.
 
 .Aufbau
 Folgende Themen werden behandelt:
