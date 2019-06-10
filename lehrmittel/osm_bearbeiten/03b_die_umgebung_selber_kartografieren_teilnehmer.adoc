@@ -12,7 +12,7 @@ Eine Anleitung für Schüler und Interessierte
 .Ziel
 Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap und 
 Kartografie zu vermitteln, so dass Schüler und Interessierte danach in der Lage 
-sind, auf Anweisung der Lehrperson/des Instruktors eine Gegend selbstständig 
+sind, auf Anweisung der Lehrperson oder des Instruktors eine Gegend selbstständig 
 zu kartografieren.
 
 .Zielgruppe
@@ -145,16 +145,18 @@ Das verwenden wir aber hier noch nicht, denn das braucht viel mehr Erklärungen
 als Stift und Papier. 
 
 Checkliste zur Vorbereitung:
+
 * Gedruckte Karte, auf der man Notizen machen kann (mindestens eine pro Gruppe)
-* Ev. eine Unterlage
+* Ev. eine harte Kartenunterlage
 * Stifte 
-* Smartphone u.a. zum Fotografieren z.B. von Öffnungszeiten
-* (die Lehrperson oder der Instruktor hat eventuell weitere Punkt, die zu 
+* Ev. Smartphone oder Fotoapparat z.B. zum Fotografieren von Öffnungszeiten
+* (Ev. eine Powerbank für das Smartphone falls das GPS verwendet wird)  
+* (Die Lehrperson oder der Instruktor hat eventuell weitere Dinge, die zu 
 beachten sind)
 
 Viel Spass beim Kartografieren! 
 Das nächste Kapitel erläutert, wie du die auf Papier notierten Informationen 
-am Computer editieren kannst. 
+am Computer erfassen kannst. 
 
 == Wie editiert man OpenStreetMap?
 
@@ -163,7 +165,7 @@ Nun da du zurück bist, kannst du die Daten auf OpenStreetMap editieren.
 Die folgenden Erklärungen sind eine Kurzfassung des Arbeitsblatts 
 "OpenStreetMap bearbeiten" auf https://www.openschoolmaps.ch[OpenSchoolMaps]. 
 
-Bevor du anfangen kannst auf OpenStreetMap-Daten zu bearbeiten oder hinzuzufügen, 
+Bevor du anfangen kannst auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
 musst du dich dort registrieren. 
 
 Falls der Instruktor die Registration nicht schon für dich erledigt hat, 
@@ -201,9 +203,9 @@ Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein
 sogenannter "Changeset-Kommentar" nötig.
 Damit dieser Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
-Frage den Instruktor, welchen Changeset-Kommentar du verwenden sollst.
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event der HSR Rapperswil 
-vom 11.6.2019"
+Frage die Lehrperson oder den Instruktor, welchen Changeset-Kommentar du 
+verwenden sollst.
+Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event Rappi 2019-06-11"
 
 Nun solltest du wissen, wie es geht.
 Falls du dennoch Hilfe benötigst, schaue im Arbeitsblatt 
