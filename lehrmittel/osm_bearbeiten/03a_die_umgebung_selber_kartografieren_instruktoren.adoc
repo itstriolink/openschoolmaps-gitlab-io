@@ -10,31 +10,21 @@ Eine Anleitung für Lehrpersonen und Instruktoren
 == Übersicht
 
 .Ziel
-Das Ziel dieses Arbeitsblattes ist es, Lehrpersonen und Instruktoren einen 
-Überblick zu verschaffen wie man erfolgreich ein Outdoor Mapping Event für 
-Interessierte bzw. Schülerinnen und Schüler durchführt.
+Dies ist kein Arbeitsblatt sondern eine Sammling von Hinweisen und Tipps 
+für Lehrpersonen und Instruktoren zur Organisation eines erfolgreichen 
+Outdoor Mapping Events (manchmal auch "Mapping Party" genannt) mit Schülerinnen 
+und Schüler und Interessierten (hier "Teilnehmende" genannt).
 
 .Zielgruppe
 Lehrpersonen und Instruktoren
 
-.Zeitplanung
-Dies ist kein Arbeitsblatt sondern eine Einleitung mit einer Sammlung von 
-Hinweisen.
-
-.Aufbau
-Folgende Themen werden behandelt:
-
-* Um was geht's (Einleitung)?
-* Checkliste
-* Vorbereitungen
-* Den Event auswerten und Abschluss des Events 
 
 == Einleitung
 
-Technologie ist immer weniger aus dem Alltag der Menschen zu denken, dazu gehören 
-auch Online-Kartendienste und GPS-Navigationssysteme. 
-Viele kennen fast nur Google Maps. 
-Dabei gibt es viele Alternativen dazu und eine ganz besondere ist OpenStreetMap. 
+Technologie ist kaum aus unserem Alltag weg zu denken. 
+Dazu gehören auch Online-Kartendienste und GPS-Navigationssysteme. 
+Viele kommt dabei nur Google Maps in den Sinn. 
+Dabei gibt es viele Alternativen - und eine ganz besondere ist OpenStreetMap. 
 Der Vorteil von OpenStreetMap ist, dass die Daten den Nutzern (der Community) 
 gehören und nicht einem Unternehmuen oder einer Behörde. 
 Dies setzt aber auch voraus, dass die Daten durch die Nutzer ergänzt und aktuell 
@@ -49,29 +39,37 @@ Die unten abgebildete Checkliste beinhaltet eine kurze Auflistung der Themen,
 die wichtig sind um einen erfolgreichen Event lancieren zu können. 
 Auf die Themen wird Abschnitt für Abschnitt näher eingegangen.
 
-== Checkliste zur Durchführung eines Outdoor Mapping Events
+== Checkliste für Lehrpersonen und Instruktoren
+
+Nachfolgend eine Checkliste für Lehrpersonen und Instruktoren zur Vorbereitung 
+und Durchführung eines Outdoor Mapping Events:
 
 * Studium der Unterlagen
 * Durchführung eines Testlaufs
-* Integrieren der Daten in OpenStreetMap (u.a. Festlegen des Changeset-Kommentars)
-* Vorbereitungen (u.a. Gruppen bilden)
+* Integrieren der Daten in OpenStreetMap
+* Vorbereitungen (u.a. Festlegen Gruppen, Changeset-Kommentar, etc.)
 * Gebiet einteilen und Kartenausschnitte drucken (Teil der Vorbereitung)
 * Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
-* Event auswerten und Abschluss des Events
+* Nach Durchführung des Events, den Event auswerten und abschliessen
 
 == Studium der Unterlagen
 
-Bevor Sie ein erfolgreiches Outdoor Mapping Event durchführen können, müssen Sie 
-sich mit der Thematik befassen. 
+Bevor Sie einen erfolgreichen Outdoor Mapping Event durchführen können, müssen 
+Sie sich mit der Thematik von OpenStreetMap (OSM) befassen. 
 Es wäre gut, wenn Sie einige Wochen im Voraus die Unterrichtsmaterialien von 
 https://openschoolmaps.ch/[OpenSchoolMaps] zur Hand nehmen und diese studieren. 
 Die Unterlagen beinhalten sowohl Theorie wie auch Aufgaben zum Lösen. 
-Seien Sie auf mögliche Fragen der Schülerinnen und Schüler vorbereitet und 
+Seien Sie auf mögliche Fragen der Teilnehmenden vorbereitet und 
 machen Sie sich Notizen. 
 Wenn etwas nicht ganz klar ist, kann man sich im Web informieren. 
 Dies ist ein guter Einstiegspunkt https://osm.ch/hilfe.html[OSM.ch].
-Bei der "Swiss OpenStreetMap Association" gibt es auch einen direkten https://sosm.ch/[Kontakt].
 Das Studieren der Unterlagen sollte jedoch gut im Selbststudium machbar sein.
+
+[NOTE]
+====
+Bei der "Swiss OpenStreetMap Association" gibt die Möglichkeit, direkt Kontakt 
+aufzunehmen und eine Frage zu stellen an https://sosm.ch/[Kontakt].
+====
 
 == Durchführung eines Testlaufs
 
@@ -92,7 +90,10 @@ stetigen technischen Wandel unterworfen.
 Stoppen Sie die Zeit und schauen Sie nach wie lange Sie für ihre 
 Umgebungserkundung benötigen und wie viel Informationen Sie in dieser Zeit 
 sammeln können, dann fällt es Ihnen leichter abzuschätzen, wie viel Zeit Sie für 
-die Schülerinnen und Schüler und Teilnehmenden planen.
+die Teilnehmenden planen.
+
+CAUTION: Achten Sie darauf, dass Sie genug Lektionen einplanen. 
+Kartografieren kann länger dauern als man denkt, deshalb planen Sie grosszügig!
 
 == Integrieren der Daten in OpenStreetMap
 
@@ -106,41 +107,99 @@ https://openschoolmaps.ch/[OpenSchoolMaps] für weitere Erklärungen.
 
 Auch hier könnte es sich als Vorteil erweisen, wenn Sie schauen, 
 wie viel Zeit Sie benötigen. 
-Rechnen Sie zu ihrer gemessenen Zeit noch ein wenig dazu, denn die 
-Schülerinnen und Schüler sind wahrscheinlich nicht gleich schnell wie Sie und 
-die Unterschiede können beträchtlich sein. 
+Rechnen Sie zu ihrer gemessenen Zeit noch ein wenig dazu, denn die Teilnehmenden 
+sind wahrscheinlich nicht gleich schnell wie Sie und die Unterschiede können 
+beträchtlich sein. 
 
 Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
 sogenannter "Changeset-Kommentar" nötig.
-Damit dieser Event ausgewertet werden kann, ist es wichtig, dass alle denselben
-Changeset-Kommentar verwenden.
-Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
 Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event der HSR Rapperswil 
 vom 11.6.2019".
+Im gleich folgenden Kapitel "Vorbereitungen" kommen wir nochmals auf diesen 
+Changeset-Kommentar zurück.
 
-CAUTION: Zeigen Sie Ihre Arbeit den Teilnehmenden als Einführung ins Thema. 
+[NOTE]
+=====
+Zeigen Sie Ihre Arbeit den Teilnehmenden als Einführung ins Thema. 
 So erhalten Sie schon einen ersten Eindruck.
+=====
 
-== Vorbereitung
+== Vorbereitungen
 
+_Termin festlegen_: 
+Für den Durchführungs-Termin nicht zwingend - aber natürlich wünschenswert - ist 
+schönes Wetter, da es um eine Outdoor-Aktivität geht. 
+Ev. könnte ein Ausweichtermin festgelegt werden.
+
+_Gruppeneinteilung planen_: 
 Die Teilnehmenden sollten zur Durchführung des Events Gruppen bilden, z.B. 
 Zweiergruppen. 
 Dies macht es für die Teilnehmenden spannender und für die Lehrperson bzw. den 
 Instruktor einfacher zu organisieren. 
-Zudem sollte ein Raum zur Verfügung stehen mit genügend Computern mit Zugang zum 
-Internet, um auf OpenStreetMap.org die gesammelten Daten zu integrieren. 
-Weiter sind Stifte und gedruckte Kartenausschnitte nötig. 
-Sie dazu nachfolgend weitere Erläuterungen.
-Nicht zwingend - aber natürlich wünschenswert - ist schönes Wetter, da es um 
-eine Outdoor-Aktivität geht. 
+Jeder Gruppe soll ein Gebiet zugeteilt werden, wie nachfolgend noch erläutert wird.
 
-CAUTION: Achten Sie darauf, dass Sie genug Lektionen einplanen. 
-Kartografieren kann länger dauern als man denkt, deshalb planen Sie grosszügig!
+_E-Mail-Adressen einrichten_: 
+Um Services wie OpenStreetMap nutzen zu können, benötigt man E-Mail-Adressen.
+Und für diese Nutzung muss man gemäss Internet-Recht älter als 13 Jahre sein. 
+Bei 13- bis 16-Jährigen Teilnehmenden kann ein Elternteil oder eine von den 
+Eltern autorisierte Person (eine Lehrperson, ein Schuldadministrator oder ein 
+Instruktor) Benutzerkonten verwalten (https://wiki.osmfoundation.org/wiki/Terms_of_Use#II._Privacy[Quelle]). 
+
+[NOTE]
+====
+Auf folgender Webseite finden Sie einige Tipps, wie Sie für die Gruppe 
+E-Mail-Adressen einrichten können unter Berücksichtigung von der Privatsphäre 
+und vom Datenschutz: https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[GISWiki HSR].
+====
+
+_Changeset-Kommentar festlegen_: 
+Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
+sogenannter "Changeset-Kommentar" nötig.
+Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
+Changeset-Kommentar verwenden.
+Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
+Er sollte maximal 32 Zeichen lang sein. 
+Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event HSR Rapperswil 11.6.2019".
+
+
+_Event mit Zusammenfassung ankündigen_
+OpenStreetMap hat - ähnlich wie ein Allmend - Regeln, beispielsweise, dass 
+diejenigen, die editieren, kontaktiert werden können. 
+Bei einem Event wie diesem spricht man vom organisierten Editieren und dazu gibt
+es Richtlinien, die https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organised Editing Guidelines"].
+Wir haben diese Richtlinien extra auf Wichtigste gekürzt.
+
+Gemäss den Richtlinien werden Sie gebeten, folgende Angaben ausgefüllt und an 
+https://sosm.ch/[Kontakt] zu emailen. 
+
+[NOTE]
+====
+Zusammenfassung (Summary) des Outdoor Mapping Events: 
+
+* Name des Events: ... _(z.B. Mapping Party Rapperswil)_
+* Durchführugsdatum (Date): ...
+* Hashtag/Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. #MappingPartyRapperswil)_
+* Instruktor (Coordinator): ... _(z.B. Username Geonick)_
+* Teilnehmende (Participants): ... _(z.B. Usernamen wie: Geonick, Username2, ...)_
+* Ziele (Goals): ... _(z.B. Die Umgebung selber kartieren)_
+====
+
+Zur Infrastruktur und Verbrauchsmaterial:
+* Es sollte ein Raum zur Verfügung stehen mit genügend Computern mit Zugang zum 
+Internet, um auf OpenStreetMap.org die gesammelten Daten zu integrieren. 
+* Im nachfolgenden Kapitel ist erklärt, wie gedruckte Kartenausschnitte erstellt 
+werden können. 
+* Ev. Unterlagen für die Kartennotizen beschaffen.
+* Genügend Schreib-Stifte 
+
+Beachten Sie auch die Checkliste für die Teilnehmenden im Arbeitsblatt, das zu 
+diesem gehört.
 
 == Gebiet einteilen und Kartenausschnitte drucken
 
 Das für den Event geplante Gebiet muss eingegrenzt werden, damit die 
 Teilnehmenden nicht zu grosse Distanzen überwinden müssen. 
+
 Zudem ist es sinnvoll, das Gebiet in kleinere Gebiete 
 (sogenannte "Perimeter") einzuteilen und den Gruppen zuzuweisen.
 Damit wird dieselbe Gegend nicht zweimal kartographiert.
@@ -204,24 +263,33 @@ Sie in den Unterlagen gelernt haben und wissen.
 Nehmen Sie sich Zeit, um offene Fragen zu klären und gehen Sie sicher, dass die 
 Teilnehmenden auch alles verstanden haben.
 
-== Event auswerten und Abschluss des Events 
+== Event auswerten und abschliessen 
 
-Am Schluss des Events sollen die Teilnehmenden Ihre Ergebnisse auswerten und vor 
-allen präsentieren. 
+Am Schluss des Events sollen die Teilnehmenden Ihre Ergebnisse auswerten 
+und vor allen präsentieren. 
 Das Auswerten kann entweder jede/r für sich alleine oder pro Gruppe geschehen. 
 Zum Auswerten gehören Vorher-Nachher-Vergleiche der Kartenausschnitte, 
 statistische Auswertungen und die persönliche Reflexion.
-
-Nach dem Auswerten des Events und den Präsentationen der Ergebnisse wäre es auch 
-sinnvoll, ein Fazit zu ziehen. 
-Was war gut? Was war nicht so gut? Was kann man nächstes Mal besser machen? 
-Was hat die Klasse gelernt? 
-Diese Feststellungen könnten in einem Bericht festgehalten werden.
-
 Die Präsentationen können natürlich, falls vom Instruktor gewünscht, benotet 
 werden. 
 Man könnte anstelle einer Präsentation auch eine Art Dokumentation der Arbeit 
 veranlassen und ev. benoten. 
+
+Nach dem Auswerten des Events und den Präsentationen der Ergebnisse wäre es auch 
+sinnvoll, wenn Sie ein Fazit ziehen: Was war gut? Was war nicht so gut? Was 
+kann man nächstes Mal besser machen? Was hat die Klasse gelernt? 
+Diese Feststellungen könnten Sie in einem Bericht festhalten.
+
+[NOTE]
+====
+Den Hashtag bzw. Changeset-Kommentar, den Sie festgelegt haben und den die 
+Teilnehmenden (hoffentlich) beim Editieren angegeben haben, kann genutzt werden,
+um eine Analyse der geleisteten Arbeit zu machen. 
+Dazu kann der Changeset-Kommentar in folgender Webapplikation angegeben werden, 
+worauf man eine Statistik erhält (über die letzten 30 Tage): 
+https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405
+====
+
 Eine Rückmeldung des Events an den Initianten von OpenSchoolMaps wäre auch 
 toll, damit auch sie sich verbessern können und in Zukunft weitere Lerninhalte 
 veröffentlichen können: siehe https://openschoolmaps.ch/[OpenSchoolMaps] > 
