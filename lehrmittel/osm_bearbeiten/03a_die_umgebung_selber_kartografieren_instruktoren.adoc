@@ -166,7 +166,7 @@ es diese https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Or
 Wir haben diese Richtlinien für Sie auf's Wichtigste gekürzt.
 
 Gemäss den Richtlinien werden Sie gebeten, folgende Angaben auszufüllen und an 
-folgenden zu mailen: https://sosm.ch/de/kontakt/[SOSM]. 
+folgenden Kontakt zu mailen: https://sosm.ch/de/kontakt/[SOSM]. 
 
 [NOTE]
 ====
