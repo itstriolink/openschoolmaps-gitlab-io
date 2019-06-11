@@ -286,9 +286,9 @@ bereit sind zum Herunterladen.
 Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
 
 1. Exportbeschreibung
-1. Formate
-1. Data
-1. Summary 
+2. Formate
+3. Data
+4. Summary 
 
 Tabulator 1 und 4 sollen nachfolgend etwas genauer beschrieben werden.
 
