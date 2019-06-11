@@ -208,7 +208,7 @@ Das folgende Bild zeigt die Installation des Plugins:
 .QuickOSM Installation
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
-Nun öffnen wir das Plugin indem wir in der Menüleiste auf "Vektor" und dann auf 
+Nun öffnen wir das Plugin, indem wir in der Menüleiste auf "Vektor" und dann auf 
 "Quick OSM" klicken. 
 Danach geben wir folgende Abfrage ein, um nach Bäckereien in Uster zu suchen:
 
