@@ -74,7 +74,7 @@ Nachfolgend sind verschiedene Methoden beschrieben, um OpenStreetMap-Daten
 in QGIS zu importiert. 
 Die erste Methode funktioniert mittels Overpass-Turbo, einem Webdienst zur 
 Abfrage von OpenStreetMap-Daten. 
-Diese Methode empfehlen wir dir zuerst anzuschauen, da sie die effizienteste 
+Wir empfehlen dir, diese Methode zuerst anzuschauen, da sie die effizienteste 
 aller vorgestellten Methoden ist. 
 Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, mit dem sich 
 OpenStreetMap-Abfragen direkt in QGIS erstellen lassen. 
