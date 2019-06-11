@@ -236,7 +236,7 @@ Einleitung des nächsten Kapitels beschrieben.
 In diesem Kapitel sind verschiedene Web-Tools zum Download von 
 OpenStreetMap-Daten zusammengestellt. 
 Die einen bieten ganze Länder an, die anderen benutzerdefinierte Aussschnitte. 
-Die Exportformate sind unterschiedlich und einige verlangen, dass man sich 
+Die Exportformate sind unterschiedlich und einige Tools verlangen, dass man sich 
 registriert. Alle sind kostenlos zugänglich - jedoch ohne Gewähr für einen
 unterbruchsfreien Betrieb.
 
