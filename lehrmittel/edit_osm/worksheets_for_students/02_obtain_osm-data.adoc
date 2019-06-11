@@ -121,3 +121,22 @@ as a query and execute them, we get the following:
 
 .Überarbeitetes Resultat
 image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
+
+Now we see in the lower right corner that the displayed objects consist only of POIs. 
+We now have 27 POIs and 0 polygons, because we have converted the 5 polygons to POIs 
+via "out center" and Overpass has added these 5 new POIs to the existing 22 POIs. 
+Now we have to save the query as GeoJSON. To do this, go to "Export" in the upper 
+left corner of "Wizard". The window that appears gives us various export options: 
+We choose the top one, i.e. "Save as GeoJSON".
+
+.Overpass Export
+image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
+
+We now add the downloaded GeoJSON file to the left layer menu in QGIS using Drag & Drop. 
+In addition, we rename the layer appropriately, for example "Bread outlets".
+
+Our QGIS now looks like this:
+
+.GeoJSON in QGIS importiert
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
+
