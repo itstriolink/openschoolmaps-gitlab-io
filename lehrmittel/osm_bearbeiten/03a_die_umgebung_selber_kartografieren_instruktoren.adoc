@@ -171,7 +171,7 @@ So erhalten Sie schon einen ersten Eindruck.
 *Termin festlegen*: Für den Durchführungs-Termin ist nicht zwingend - aber 
 natürlich wünschenswert - wenn schönes Wetter angekündigt ist, da es um eine 
 Outdoor-Aktivität geht. 
-Ev. könnte ein Ausweichtermin festgelegt werden.
+Evtl. könnte ein Ausweichtermin festgelegt werden.
 
 *Gruppeneinteilung planen*: Die Teilnehmenden sollten zur Durchführung des 
 Events Gruppen bilden, z.B. Zweiergruppen. 
@@ -230,7 +230,7 @@ Zur Infrastruktur und Verbrauchsmaterial:
 Internet, um auf OpenStreetMap.org die gesammelten Daten zu integrieren. 
 * Im nachfolgenden Kapitel ist erklärt, wie gedruckte Kartenausschnitte erstellt 
 werden können. 
-* Ev. Unterlagen für die Kartennotizen beschaffen.
+* Evtl. Unterlagen für die Kartennotizen beschaffen.
 * Genügend Schreib-Stifte 
 
 Beachten Sie auch die Checkliste zuhanden der Teilnehmenden im zugehörigen 
@@ -314,7 +314,7 @@ statistische Auswertungen und die persönliche Reflexion.
 Die Präsentationen können natürlich, falls vom Instruktor gewünscht, benotet 
 werden. 
 Man könnte anstelle einer Präsentation auch eine Art Dokumentation der Arbeit 
-veranlassen und ev. benoten. 
+veranlassen und evtl. benoten. 
 
 Nach dem Auswerten des Events und den Präsentationen der Ergebnisse wäre es auch 
 sinnvoll, wenn Sie ein Fazit ziehen: Was war gut? Was war nicht so gut? Was 
