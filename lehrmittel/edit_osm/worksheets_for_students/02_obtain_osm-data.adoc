@@ -28,8 +28,8 @@ systems as well as common file formats
 * Extract OpenStreetMap data with Overpass
 * Import OpenStreetMap data directly into QGIS with QuickOSM plugin
 * Various web tools for downloading OpenStreetMap data
-* Merging Polygon Layers with Point Layers in QGIS
-* Filtering or rule-based display of objects with QGIS
+* Merge Polygon Layers with Point Layers in QGIS
+* Filter or rule-based display of objects with QGIS
 
 We recommend at least reading the introduction and extracting the 
 chapter OpenStreetMap data with overpass.
@@ -382,5 +382,5 @@ If you want to know how to convert polygon layers into point layers or how to fi
 objects, see the chapters "Merging polygon layers with point layers in QGIS" 
 or "Filtering objects with QGIS or rule-based display".
 
-== Merging Polygon Layers with Point Layers in QGIS
+== Merge Polygon Layers with Point Layers in QGIS
 
