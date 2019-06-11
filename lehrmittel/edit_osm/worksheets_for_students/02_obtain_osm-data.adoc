@@ -343,3 +343,44 @@ or "Filtering objects with QGIS or rule-based display".
 
 === OSMaxx
 
+With OSMaxx, excerpts from OpenStreetMap can be downloaded in various GIS formats, 
+not just by country, but in any desired format.
+
+To use OSMaxx you need an OSM account with a valid email address.
+
+Existing excerpts can be downloaded under _Existing Excerpt / Country_. You can 
+choose in which format the file should be downloaded, which coordinate system 
+should be used and how many details should be displayed.
+
+Under _New Excerpt_ you can select your own areas of OpenStreetMap that you want to download. 
+You can draw a rectangle or a polygon over the map. Again you can choose in which format the 
+file should be downloaded, which coordinate system should be used and how many details should be displayed.
+
+Exporting the data takes at least about 45 minutes. 
+
+If you have chosen a GIS format and want to know if and where it has bakeries, 
+for example, go to the "About" page of OSMaxx, where the data scheme is documented.
+
+If you want to know how to convert polygon layers into point layers or how to filter 
+objects, see the chapters "Merging polygon layers with point layers in QGIS" 
+or "Filtering objects with QGIS or rule-based display".
+
+=== BBBike
+
+BBBike https://extract.bbbike.org/ offers the data of Planet.osm in many different file formats.
+
+Only a bounding box has to be created for the extraction. The bounding box can have a maximum 
+size of 24'000'000 km², or 512mb as a file. After you have entered a valid email address and 
+assigned a name to the extraction you can click on the _Extract_ button. A notification will 
+be sent to you by e-mail with the download link. The documentation of the schema behind the 
+GIS formats like GeoPackage or Shapefile can be found here:
+
+* http://www.geopackage.org/spec/
+* https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
+
+If you want to know how to convert polygon layers into point layers or how to filter 
+objects, see the chapters "Merging polygon layers with point layers in QGIS" 
+or "Filtering objects with QGIS or rule-based display".
+
+== Merging Polygon Layers with Point Layers in QGIS
+
