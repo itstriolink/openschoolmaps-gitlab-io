@@ -472,7 +472,7 @@ dann zu "Vektorlayer zusammenführen".
 Im Dialogfenster wählst du die vier Layer aus:
 
 .Mehrere Layer zu einem einzigen Layer zusammenführen
-image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
+image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG[]
 
 Nachdem du das ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
 Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
