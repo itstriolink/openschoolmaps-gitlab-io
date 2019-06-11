@@ -169,3 +169,35 @@ It is best to delete the previously created layer and start at zero to avoid con
 .QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
 
+First we install the plugin called QuickOSM, which can be used to create queries directly in QGIS. 
+To do this we go to "Extensions" in the upper menu bar and then to "Manage and install extensions...". 
+Enter QuickOSM in the search field and since there is only one plugin under this name, you should see the correct one. 
+Now click on "Install extension" and you are ready to work with the plugin.
+
+The following picture shows the installation of the plugin:
+
+.QuickOSM Installation
+image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
+
+Now we open the plugin by clicking on "Vector" in the menu bar and then on "Quick OSM". 
+Then we enter the following query to search for bakeries in Uster:
+
+.Bakery-Abfrage
+image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
+
+After the query has been executed, we make a second query to search for supermarkets:
+
+.Supermarket-Abfrage
+image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
+
+Now you should have the following layers:
+
+.Ergebnisse der QuickOSM-Abfragen
+image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
+
+If you want to know how to convert polygon layers into point layers or how to filter 
+objects, have a look at the chapters "Merging polygon layers with point layers in QGIS" 
+or "Filtering objects with QGIS or rule-based display".
+
+== Various web tools for downloading OpenStreetMap data
+
