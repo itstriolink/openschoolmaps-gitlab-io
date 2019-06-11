@@ -43,3 +43,8 @@ as well as https://learnosm.org/de/ for more information.
 ====
 
 == Introduction
+
+The data from OpenStreetMap comes in different data formats.
+Therefore we will first explain some of these file formats in more detail.
+
+=== OpenStreetMap and Geoinformation Systems
