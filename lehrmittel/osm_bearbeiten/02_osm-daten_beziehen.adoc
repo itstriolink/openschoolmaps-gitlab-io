@@ -65,7 +65,7 @@ Kaum ein Export aus OSM ist darum gleich wie der andere.
 Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 
 * OSM-spezifische Formate sind v.a. OSM XML, und OSM PBF.
-* GIS-kompatible Formate sind GeoJSON, Geopackage (sowie verwandt: MBTile/SQLite), 
+* GIS-kompatible Formate sind GeoJSON, GeoPackage (sowie verwandt: MBTile/SQLite), 
 Shapefiles, GeoJSON (TopoJSON).
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
