@@ -384,3 +384,37 @@ or "Filtering objects with QGIS or rule-based display".
 
 == Merge Polygon Layers with Point Layers in QGIS
 
+With OSM, it happens again and again that an object - such as a bakery - 
+is sometimes captured as a point and sometimes as a building outline polygon. 
+This is why it often happens that you get polygon layers in GIS with the same object types as in point layers. 
+Actually, however, one wants to address all objects uniformly and all at once.
+
+So given a polygon layer and a point layer, we have to convert the polygons 
+in the polygon layer to points and can then integrate them in the point layer. 
+
+To do this, go to "Geometry Tools" in the "Vector" menu of QGIS and then to "Centroids...". 
+After that the QGIS should look like this, where the names of the new layers have already been renamed:
+
+.Polygon-Layer umgewandelt
+image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
+
+Since we now have several point layers, we have to merge them. 
+Such a merge only works if all layers have the same geometry data type. 
+Go to "Data Management Tools" in the QGIS "Vector" menu and then to "Merge Vector Layers". 
+Select the four layers in the dialog window:
+
+.Mehrere Layer zu einem einzigen Layer zusammenführen
+image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG[]
+
+After you have done this, you will see a new layer on the left. 
+Now you don't need the old layers anymore and you can delete them. 
+The new layer has the name "Merged". 
+It would make sense if you renamed it "Bread Stores." 
+Below you can see the final result of this second method, 
+where the layer has not (yet) been renamed:
+
+.Endergebnis
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
+
+== Filter or rule-based display of objects with QGIS
+
