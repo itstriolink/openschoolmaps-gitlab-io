@@ -201,3 +201,43 @@ or "Filtering objects with QGIS or rule-based display".
 
 == Various web tools for downloading OpenStreetMap data
 
+In this chapter we have compiled various web tools for downloading OpenStreetMap data. 
+None of these tools are the same. Some require that you register and all are accessible 
+free of charge and are provided without warranty.
+
+=== OSM.org
+
+On https://openstreetmap.org you can also download data. 
+However, these can only be obtained as square sections and up to a 
+maximum of 50,000 nodes and also only in `OSM XML` format.
+
+If you want to know how to convert polygon layers into point layers or how to filter 
+objects, see the chapters "Merging polygon layers with point layers in QGIS" 
+or "Filtering objects with QGIS or rule-based display".
+
+=== Geofabrik downloads
+
+The website of Geofabrik http://download.geofabrik.de/ offers OpenStreetMap data 
+for whole countries and regions, which are of course freely usable. The data can be stored there 
+as Shapefiles (`.shp.zip`) or in the OSM-specific formats `.osm.pbf` and `.osm.bz2`.
+
+The data are divided into individual regions. 
+If you click on a region, the data of the countries in this region will be displayed. 
+Depending on the country, you can also download smaller excerpts from the country. 
+If you hold the mouse pointer over a region or a country, you will see the respective 
+area in the map on the right side of the website. The data on GeoFabrik is updated 
+every 24 hours with the data from OpenStreetMap. This means that if you have just made 
+your own changes in OpenstreetMap, you have to wait at least a day until they are available 
+at Geofabrik. Make sure what data you are downloading, as some can be several gigabytes in size.
+
+The Shapefile is a GIS vector format and thus structured according to certain layers ('feature classes'). 
+To find certain objects, such as bakeries (in OSM Tag shop=bakery) or supermarkets (Tag shop=supermarket) 
+you need to consult the documentation of the Layered GIS Format at 
+https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik] - or the data itself.
+
+If you want to know how to convert polygon layers into point layers or how to filter 
+objects, see the chapters "Merging polygon layers with point layers in QGIS" 
+or "Filtering objects with QGIS or rule-based display".
+
+=== HOT Export Tool
+
