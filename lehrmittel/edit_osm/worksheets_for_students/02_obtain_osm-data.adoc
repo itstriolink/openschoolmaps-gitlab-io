@@ -246,8 +246,8 @@ Export Tool to download data from OpenStreetMap. To use the HOT ExportTool you n
 an OpenStreetMap user account and a valid email address to be notified when the data 
 is ready for download. After logging in you will see the following points and tabs
 
-1. Exportbeschreibung
-2. Formate
+1. Describe
+2. Formats
 3. Data
 4. Summary 
 
@@ -263,3 +263,83 @@ image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 Then you can select the data you want to download in different ways.
 
 You can either:
+
+* Enter a locality in the search
+* Specify a Bounding Box with Coordinates
+* Download the current view
+* Draw a Bounding Box yourself
+* Draw a polygon
+* Upload a polygon as GeoJSON file
+
+For the first two possibilities, only the search field has to be used. 
+There you can specify either the desired town or a bounding box (west, south, east, north).
+
+To draw a bounding box or polygon, press the _Draw_ button on the right side of the map. 
+To download the current view, press the _This View_ button. 
+If you want to upload a GeoJSON file, you can do so with the _Import_ button.
+
+CAUTION: At this point a little excursion how to create a GeoJSON file.
+
+The website http://geojson.io is a well-known website that allows you to edit GeoJSON.
+
+The HOT Export Tool expects only simple GeoJSON objects (no 
+"FeatureCollection"), i.e. a polygon type and a list of coordinates.
+
+GeoJSON files from geojson.io and other sources must therefore be adapted manually. 
+Therefore open the GeoJSON file in a text editor and simplify the structure similar to the following picture.
+
+.Einzelnes GeoJSON-Objekt für das HOT Export Tool
+image::osm_editieren/osm-daten_beziehen/json_format.png[]
+
+Let's continue with the HOT Export Tool again. 
+In tab 2 you choose the format, e.g. GeoPackage.
+
+.HOT Export Tool Tab 2 "Formate".
+image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
+
+With tab 3 "Data" you change to the register "YAML" and insert the following:
+
+    gastronomy:
+     types:
+       - points
+       - polygons
+     select:
+       - name
+       - addr:city
+       - amenity
+       - opening_hours
+     where: amenity IN ('restaurant','fast_food','cafe','bar','pub')
+    bakeries:
+     types:
+       - points
+       - polygons
+     select:
+       - name
+       - addr:city
+       - shop
+       - opening_hours
+     where: shop IN ('bakery','supermarket')
+
+The whole thing will look like this:
+
+.HOT Export Tool Tab 3 "Data".
+image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
+
+After you've done that, we can almost export the query as a GeoPackage. 
+That's why we go on to Tab 4. The last thing we have to do before exporting 
+is to search for "Uster" on the right side of the map. Then it will be zoomed in:
+
+.HOT Export Tool Uster
+image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
+
+Once you have done this, you can click on the "Create Export" button (see below).
+
+.HOT Export Tool Tab 4 "Summary".
+image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
+
+If you want to know how to convert polygon layers into point layers or how to filter 
+objects, see the chapters "Merging polygon layers with point layers in QGIS" 
+or "Filtering objects with QGIS or rule-based display".
+
+=== OSMaxx
+
