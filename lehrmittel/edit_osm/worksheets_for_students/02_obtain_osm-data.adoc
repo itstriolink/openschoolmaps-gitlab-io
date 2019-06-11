@@ -9,10 +9,16 @@ A guide for the interested, for pupils and for instructors/teachers
 == Overview
 
 .Goal
+The goal of this guide is to show how to get OpenStreetMap data and use it in QGIS 3.
 
 .Audience
+Anyone who is interested in creating their own map (online, as a printable plan) 
+and in analysing geodata.
 
-.Schedule
+.Scheduling
+This worksheet requires different amounts of time depending on your previous 
+knowledge, since you can skip individual sections if you are already familiar 
+with the topic in question.
 
 .Structure
 The following topics will be covered:
