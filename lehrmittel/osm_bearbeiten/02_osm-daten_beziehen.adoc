@@ -64,11 +64,11 @@ Kaum ein Export aus OSM ist darum gleich wie der andere.
 
 Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 
-* OSM-spezifische Formate sind v.a. OSM XML, und OSM PBF.
+* OSM-spezifische Formate sind v.a. OSM XML und OSM PBF.
 * GIS-kompatible Formate sind GeoJSON, GeoPackage (sowie verwandt: MBTile/SQLite), 
-Shapefiles, GeoJSON (TopoJSON).
+Shapefiles und GeoJSON (TopoJSON).
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
-* Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
+* Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG und PDF.
 
 Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten 
 in QGIS importiert. 
