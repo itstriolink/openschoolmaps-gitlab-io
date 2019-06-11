@@ -128,7 +128,7 @@ Die neue Abfrage sollte somit folgendermassen aussehen.
   );
   out center;
 
-Wenn wir jetzt die oberen Zeilen kopieren und ins Overpass-Turbo als Abfrage 
+Wenn wir jetzt die oberen Zeilen kopieren und in Overpass-Turbo als Abfrage 
 einfügen und ausführen, erhält man folgendes:
 
 .Überarbeitetes Resultat
