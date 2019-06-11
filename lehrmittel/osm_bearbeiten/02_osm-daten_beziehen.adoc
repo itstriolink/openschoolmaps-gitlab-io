@@ -54,7 +54,7 @@ Daher werden wir zunächst einige dieser Dateiformate genauer erläutern.
 
 Die Geometrie der Objekte in OpenStreetMap (OSM) sind intern als topologische 
 Strukturen (Node, Ways) abgelegt
-und die Objekt-Attribute als Tags (Key-Value-Paare) nur teilweise strukturiert.
+und die Objekt-Attribute als Tags (Key-Value-Paare) sind nur teilweise strukturiert.
 Dieses beliebig erweiterbare Datenschema muss für Geoinformationssysteme (GIS) 
 und deren Formate zuerst umgewandelt werden.
 Es gibt kein einheitliches "GIS"-Datenschema für OSM.
