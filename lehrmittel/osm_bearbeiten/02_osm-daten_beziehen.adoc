@@ -169,7 +169,7 @@ der in QGIS aus GeoJSON importierten Daten
 Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf 
 "Exportieren" und dann wählen wir den obersten Eintrag "Save Feature As...". 
 Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
-Das Format belassen wir als GeoPackage und klicken dann auf "Ok".
+Das Format belassen wir als GeoPackage und klicken dann auf "OK".
 
 Unten siehst du noch das Exportfenster:
 
