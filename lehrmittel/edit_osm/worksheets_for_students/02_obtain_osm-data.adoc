@@ -177,7 +177,7 @@ Now click on "Install extension" and you are ready to work with the plugin.
 The following picture shows the installation of the plugin:
 
 .QuickOSM Installation
-image::osm_editieren/osm-daten_beziehen/install_QuickOSM.png[]
+image::osm_editieren/osm-daten_beziehen/install_QuickOSM.PNG[]
 
 Now we open the plugin by clicking on "Vector" in the menu bar and then on "Quick OSM". 
 Then we enter the following query to search for bakeries in Uster:
