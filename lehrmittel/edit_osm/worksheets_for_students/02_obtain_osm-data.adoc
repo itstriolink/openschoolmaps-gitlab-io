@@ -1,9 +1,17 @@
-= Obtain OpenStreetMap-Data
+= Obtain OpenStreetMap-Data and use it with QGIS 3
 OpenSchoolMaps.ch - Free learning materials for free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/suppress_title_page.adoc[]
 
-Use the iD-Editor to enter a bench, a well or a waste bin
+A guide for the interested, for pupils and for instructors/teachers
 
-*A worksheet for students*
+== Overview
+
+.Goal
+
+.Audience
+
+.Schedule
+
+.Structure
