@@ -176,9 +176,9 @@ Unten siehst du noch das Exportfenster:
 .Als GeoPackage exportieren
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
 
-Sehr gut, du hast es geschafft OpenStreetMap-Daten in QGIS zu importieren und 
+Sehr gut, du hast es geschafft, OpenStreetMap-Daten in QGIS zu importieren und 
 als neues Format abzuspeichern.
-Die andere Möglichkeit OpenStreetMap-Daten in QGIS zu importieren ist mittels 
+Die andere Möglichkeit, OpenStreetMap-Daten in QGIS zu importieren, ist mittels 
 dem QuickOSM-Plugin, das im Folgenden erläutert wird. 
 Wenn es dich nicht interessiert oder du es schon gelesen hast, kannst du zu den 
 Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder 
