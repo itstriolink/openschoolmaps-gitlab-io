@@ -189,7 +189,7 @@ Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder
 Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu 
 importieren und zu verwalten.
 Lösche am besten den vorher erzeugten Layer und fange bei Null an, 
-um Verwirrungen zu vermeiden.
+um Verwirrung zu vermeiden.
 
 .QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
