@@ -1,0 +1,9 @@
+= Obtain OpenStreetMap-Data
+OpenSchoolMaps.ch - Free learning materials for free geodata and maps
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/suppress_title_page.adoc[]
+
+Use the iD-Editor to enter a bench, a well or a waste bin
+
+*A worksheet for students*
