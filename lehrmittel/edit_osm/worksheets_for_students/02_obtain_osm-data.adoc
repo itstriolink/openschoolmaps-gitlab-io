@@ -47,4 +47,37 @@ as well as https://learnosm.org/de/ for more information.
 The data from OpenStreetMap comes in different data formats.
 Therefore we will first explain some of these file formats in more detail.
 
-=== OpenStreetMap and Geoinformation Systems
+=== OpenStreetMap and geoinformation systems
+
+The geometry of the objects in OpenStreetMap (OSM) are stored internally 
+as topological structures (nodes, ways). 
+And the object attributes as tags (key-value pairs) only partially structured. 
+This data schema, which can be extended at will, must first be converted for 
+geoinformation systems (GIS) and their formats. 
+There is no single GIS data schema for OSM. 
+Hardly any export from OSM is therefore the same as the other.
+
+=== File formats
+
+Basically, one can distinguish between OSM's own and analyzable GIS formats.
+
+* OSM-specific formats are mainly OSM XML, and OSM PBF.
+* GIS compatible formats are GeoJSON, Geopackage (and related: MBTile/SQLite), 
+Shapefiles, GeoJSON (TopoJSON).
+* Other GIS vector formats are: KML and GPX for GPS data exchange.
+* Other formats that cannot be analysed further are image/raster formats such as PNG, JPEG, SVG and PDF.
+
+The following describes various methods for importing OpenStreetMap data into QGIS. 
+The first method works with Overpass-Turbo, a web service for querying OpenStreetMap data. 
+We recommend that you look at this method as it is the most efficient of all the methods presented. 
+The second method is based on QuickOSM, a plugin for QGIS in which queries can be created. 
+If you've read or read the overpass turbo section, you can consider it optional with QuickOSM. 
+
+After the two inport methods further tools are introduced, for example the HOT Export Tool or OSMaxx. 
+
+Finally, you will learn how to merge different layers in QGIS. 
+This chapter is referred to at the end of the remaining chapters, so you'll come there for or after.
+
+== Extract OpenStreetMap data with Overpass
+
+
