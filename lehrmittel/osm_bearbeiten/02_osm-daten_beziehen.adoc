@@ -21,7 +21,7 @@ oder am Analysieren von weltwei frei verfügbaren Geodaten interessiert sind.
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
 unterschiedlich viel Zeit, da man einzelne Abschnitte überspringen kann,
-wenn sich nur für bestimmte Themen oder Lösungen interessiert.
+wenn man sich nur für bestimmte Themen oder Lösungen interessiert.
 
 .Aufbau
 Folgende Themen werden behandelt:
