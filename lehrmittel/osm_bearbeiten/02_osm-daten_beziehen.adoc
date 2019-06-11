@@ -203,7 +203,7 @@ Namen gibt, sollte dir auch das richtige angezeigt werden.
 Jetzt klickst du auf "Erweiterung installieren" und schon kannst du mit dem 
 Plugin arbeiten.
 
-Das folgende Bild zeigt die Installation des Plugina:
+Das folgende Bild zeigt die Installation des Plugins:
 
 .QuickOSM Installation
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
