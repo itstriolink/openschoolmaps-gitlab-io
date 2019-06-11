@@ -103,7 +103,7 @@ Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
 Da wir als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien 
 und Supermärkten, da beide Brot verkaufen.
 Als Ortschaft nehmen wir als Beispiel Uster. 
-Die Abfrage sieht wie folgt aus (_bakery or supermarket in Uster_):
+Die Abfrage sieht wie folgt aus (`bakery or supermarket in Uster`):
 
 .Overpass-Turbo Wizard-Abfrage
 image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG[]
