@@ -466,3 +466,79 @@ As you can see above, you should now rename the layer from "Bread shops" to "Bak
 
 === Rule-based display of objects with QGIS
 
+The rule-based representation is about displaying all objects that fulfill a 
+criterion from a layer data source. One also speaks of "data-driven representation". 
+This expression, which has to be filtered by, is part of the representation (symbology) 
+and not part of the layer as with the other method. 
+
+The rule-based display can also be used to _not_ display individual values. 
+In our example we want to take advantage of this to show only bakeries ('bakery') 
+and not supermarkets ('supermarket'). To do this we right-click on the layer and 
+click on the bottom entry "Properties...". In the left list menu we click on "Display" 
+(third entry). Now it should look like this for you:
+
+.Darstellung von Objekten
+image::osm_editieren/osm-daten_beziehen/single_symbol.PNG[]
+
+In the upper picture you see a red mark around the entry "Single symbol". 
+This is because we are now changing this entry to "Rule-based". 
+Previously, all objects were treated the same (not differentiated) 
+and thus displayed in the same way, therefore "single symbol". 
+Now that we have selected "Rule-based", we can define rules (expressions) 
+to assign objects to different symbols according to attribute values.
+
+.Objekte ohne Filter
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+
+In the picture above you can see that we have an entry. 
+This entry contains all 27 objects, and we see that no rules are defined on these objects. 
+Therefore we click twice on the entry. 
+In the text field next to "Filter" we enter the following again:
+
+     "shop"='bakery'
+
+It'll look that way:
+
+.Edit Rule Dialog
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+
+Now we click on "OK". We see that the entry no longer says "(no filter)", but "shop"='bakery'. 
+Now we click on "Apply" and then again on "OK". In QGIS this should now look like this:
+
+.Bäckereien in Uster
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
+
+We see that we still have 27 objects. However, we are only shown the 10 objects 
+that fulfill the rule, i.e. only bakeries. Maybe you have noticed it already, 
+because in contrast to that the number of objects changes with the simple filter (see above). 
+There not only the 10 bakeries are shown, but the number of objects is also reduced to 10. 
+This is a particular difference between "normal" filtering and rule-based representation. 
+Let's look at another possibility.
+
+Assuming that we still want to display all objects and only part of them, we can 
+simply use a different color for all bakeries. Delete the rule we applied to the objects earlier. 
+Then we start from the following view:
+
+.Objekte ohne Filter
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+
+At the bottom left we click on the plus sign. 
+Now we have copied our objects and apply the rule to this copy. 
+So enter the following again and click on "OK":
+
+.Edit Rule Dialog
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+
+Now we click on "Apply" and then on "OK". 
+Now it should look like this in QGIS:
+
+.Brotverkaufsstellen mit farblich abgegrenzten Bäckereien (Pink)
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
+
+The "Bread outlets" layer should now have two different object groups. 
+On the one hand, we see all 27 bread outlets in orange. 
+On the other hand, we now have a new (sub-)group with 10 objects, 
+namely our bakeries in pink.
+
+This concludes this chapter or worksheet and leaves it to you to 
+extend the layers and the whole QGIS project and improve the display.
