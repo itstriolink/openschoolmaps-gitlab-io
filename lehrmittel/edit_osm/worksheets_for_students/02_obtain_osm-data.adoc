@@ -80,4 +80,44 @@ This chapter is referred to at the end of the remaining chapters, so you'll come
 
 == Extract OpenStreetMap data with Overpass
 
+The easiest and fastest way to import OpenStreetMap data into QGIS is by overpass turbo. 
+This method is suitable for advanced as well as for beginners. First visit the Overpass-Turbo 
+website at: http://overpass-turbo.osm.ch/.
 
+When you first visit the website, it looks something like this:
+
+.Startseite von Overpass-Turbo
+image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
+
+Click on the red marked "Wizard" button. The wizard makes it easy to create overpass queries. 
+Since we are looking for bread outlets as an example, we are looking for bakeries and 
+supermarkets as both sell bread. As a locality we take Uster as an example. 
+The query looks like this (_bakery or supermarket in Uster_):
+
+.Overpass-Turbo Wizard-Abfrage
+image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG[]
+
+After clicking on "Create and execute query" you will get the following:
+
+.Resultat der Wizard-Abfrage
+image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
+
+The above result can also be simplified by replacing the "nodes", "ways" and 
+"relations" to "nwr" (=noses/ways/relations). In the lower right corner you can 
+see the different objects marked in red. We have 22 POIs and 5 polygons. 
+Since we only want POIs, we could use "out center;" to turn all areas and paths into points. 
+The new query should look like this.
+
+    [out:json][timeout:25];
+    {{geocodeArea:Uster}}->.searchArea;
+    (
+        nwr["shop"="bakery"](area.searchArea);
+        nwr["shop"="supermarket"](area.searchArea);
+    );
+    out center;
+
+If we now copy the upper lines and paste them into the overpass turbo 
+as a query and execute them, we get the following:
+
+.Überarbeitetes Resultat
+image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
