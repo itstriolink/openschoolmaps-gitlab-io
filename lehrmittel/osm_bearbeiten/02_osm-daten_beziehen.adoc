@@ -34,7 +34,7 @@ sowie zu gängigen Dateiformaten
 * Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 * Mit QGIS Objekte filtern oder regelbasiert darstellen
 
-Wir empfehlen mindestens die Einleitung zu lesen und das Kapitel 
+Wir empfehlen, mindestens die Einleitung zu lesen und das Kapitel 
 "OpenStreetMap-Daten mit Overpass extrahieren".
 
 [NOTE]
