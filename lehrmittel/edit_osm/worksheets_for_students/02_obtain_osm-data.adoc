@@ -241,3 +241,25 @@ or "Filtering objects with QGIS or rule-based display".
 
 === HOT Export Tool
 
+The Humanitarian OpenStreetMap Team (HOT) offers an online service with the HOT 
+Export Tool to download data from OpenStreetMap. To use the HOT ExportTool you need 
+an OpenStreetMap user account and a valid email address to be notified when the data 
+is ready for download. After logging in you will see the following points and tabs
+
+1. Exportbeschreibung
+2. Formate
+3. Data
+4. Summary 
+
+
+Tabulators 1 and 4 are described in more detail below.
+
+Tab 1 is about giving the file to be exported a name and a description. 
+The picture below shows an example of exporting bread outlets in Uster.
+
+.HOT Export Tool Tab 1 "Exportbeschreibung".
+image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
+
+Then you can select the data you want to download in different ways.
+
+You can either:
