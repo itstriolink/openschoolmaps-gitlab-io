@@ -15,3 +15,25 @@ A guide for the interested, for pupils and for instructors/teachers
 .Schedule
 
 .Structure
+The following topics will be covered:
+
+* Introduction with explanations of OpenStreetMap and geoinformation 
+systems as well as common file formats
+* Extract OpenStreetMap data with Overpass
+* Import OpenStreetMap data directly into QGIS with QuickOSM plugin
+* Various web tools for downloading OpenStreetMap data
+* Merging Polygon Layers with Point Layers in QGIS
+* Filtering or rule-based display of objects with QGIS
+
+We recommend at least reading the introduction and extracting the 
+chapter OpenStreetMap data with overpass.
+
+[NOTE]
+====
+This tutorial is about using existing data from OpenStreetMap. 
+If you want to record data yourself, you can use the worksheets 
+"Edit OpenStreetMap" and "Create a thematic online map with uMap" 
+as well as https://learnosm.org/de/ for more information.
+====
+
+== Introduction
