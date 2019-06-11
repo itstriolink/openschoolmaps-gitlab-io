@@ -418,3 +418,51 @@ image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 == Filter or rule-based display of objects with QGIS
 
+After you have received OpenStreetMap data in the desired section, you may not want to work with all data. 
+There are two fundamentally different methods of obtaining a subset of the data: 
+On the one hand, the data source can be filtered according to self-defined criteria. 
+On the other hand, you can display the data based on rules, so that only those 
+data are displayed that comply with the rules.
+
+In the following we look at the two methods. 
+The example of bread outlets remains the same. 
+The bread outlets contain both "bakeries" and "supermarkets". 
+But now we only want to process and display "bakeries" in QGIS. 
+
+=== Filter objects with QGIS
+
+In QGIS there are two dialog options for filtering objects: 
+Either you go to "Layer" in the menu and then select "Filter..." (while the desired layer is selected). 
+Or you can right-click on the desired layer and go to "Filter...". Then a dialog with the title 
+"Query creation" opens. In this window you can see the following:
+
+* Fields: A list of all attributes that the selected layer contains.
+* Values: The values on the selected attribute that occur in the layer 
+(to display some values, click on the "Sample" button)
+* Operators: Logical operators for linking fields and values.
+* Data provider-specific filter expression: SQL expression for filtering attributes and values
+
+In the input field "Data provider-specific filter expression" we enter the following:
+
+    "shop"='bakery'
+
+"shop" is the attribute (note the double quotes). 
+'bakery' is the value (note the single quotation marks).
+
+The window should look like this:
+
+.Objekte filtern
+image::osm_editieren/osm-daten_beziehen/filtern.PNG[]
+
+Now click on "OK". Now you should get the message that about 10 objects were 
+found which have the value "bakery" at the attribute "shop". We only see those 
+objects that meet the filter criterion. All other objects are no longer part 
+of the layer's data source:
+
+.Bäckereien in Uster
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
+
+As you can see above, you should now rename the layer from "Bread shops" to "Bakeries".
+
+=== Rule-based display of objects with QGIS
+
