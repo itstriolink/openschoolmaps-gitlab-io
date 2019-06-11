@@ -163,8 +163,9 @@ Ich gehe davon aus, dass du diesen nicht hast, das ist aber nicht weiter
 schlimm, den er ist nicht zwingend nötig. 
 Du kannst also ruhig ohne OSM-Standard-Layer als Hintergrund weitermachen.
 
-Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON 
-ändern und dann als GeoPackage speichern.
+Als letztes wollen wir das Koordinatensystem
+der in QGIS aus GeoJSON importierten Daten
+ändern und sie dann als GeoPackage speichern.
 Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf 
 "Exportieren" und dann wählen wir den obersten Eintrag "Save Feature As...". 
 Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
