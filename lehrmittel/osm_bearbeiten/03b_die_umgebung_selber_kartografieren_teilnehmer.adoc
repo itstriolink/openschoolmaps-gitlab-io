@@ -63,7 +63,7 @@ zusammengestellt:
 Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue das Arbeitsblatt 
 "Webseite OSM.org kennenlernen" an auf https://www.openschoolmaps.ch[OpenSchoolMaps].
 
-=== Was wird kartiert? was nicht?
+=== Was wird kartiert? Was nicht?
 
 Unter Kartieren versteht man die Erfassung von raumbezogenen Daten, also Geodaten. 
 Bevor man diese Geodaten jedoch in OpenStreetMap integrieren kann, muss man sie 
