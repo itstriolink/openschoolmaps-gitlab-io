@@ -576,7 +576,7 @@ In diesem Fenster sieht man folgendes:
 
 * Felder: Eine Liste aller Attribute, welche der ausgewählte Layer beinhaltet
 * Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen 
-(um einige Werte anzuzeigen machen, klicke auf den Knopf "Stichprobe")
+(um einige Werte anzuzeigen, klicke auf den Knopf "Stichprobe")
 * Operatoren: Logische Operatoren zum Verknüpfen der Felder und Werte
 * Datenanbieter-spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der 
 Attribute und Werte
