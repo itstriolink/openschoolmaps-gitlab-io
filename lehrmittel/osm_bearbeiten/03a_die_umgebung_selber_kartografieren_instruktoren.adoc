@@ -28,8 +28,15 @@ Der Vorteil von OpenStreetMap ist, dass die Daten den Nutzern (der Community)
 gehören und nicht einem Unternehmen oder einer Behörde. 
 Dies setzt aber auch voraus, dass die Daten durch die Nutzer ergänzt und aktuell 
 gehalten werden. 
+
+Es scheint uns sinnvoll, dass die Teilnehmenden ein Bewusstsein dafür 
+entwickeln, dass die Karte ihnen bzw. uns allen gehört und wir alle für deren 
+Qualität verantwortlich sind. 
+Die Teilnehmenden sollen die OSM verwenden und aktiv an der Verbesserung 
+mitarbeiten, beispielsweise im Urlaub, wenn die Gegend unzureichend erfasst ist.
+
 Und Kartografieren ist weder langweilig noch schwierig, darum sollte es jeder 
-können. 
+erlernen können. 
 Eine Möglichkeit, das Kartografieren bekannter zu machen, ist es in den 
 Unterricht einzubinden, beispielsweise im Geografie- oder Geschichtsunterricht. 
 Ein Outdoor Mapping Event soll einen Einblick geben.
