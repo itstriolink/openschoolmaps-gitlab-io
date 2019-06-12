@@ -207,7 +207,7 @@ Damit dieser Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Frage die Lehrperson oder den Instruktor, welchen Changeset-Kommentar du 
 verwenden sollst.
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event Rappi 2019-06-11"
+Ein Beispiel für ein Changeset-Kommentar ist "Hausnummern Bahnhofstrasse ergänzt"
 
 Nun solltest du wissen, wie es geht.
 Falls du dennoch Hilfe benötigst, schaue auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
