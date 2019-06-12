@@ -323,9 +323,9 @@ oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
 
-=== HOT Export Tool
+=== HOT-Export-Tool
 
-Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT Export Tool 
+Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT-Export-Tool 
 einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
 Um das HOT Export Tool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
 und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
