@@ -375,7 +375,7 @@ CAUTION: An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt
 http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
 editieren kann.
 
-Das HOT Export Tool erwartet nur einfache GeoJSON-Objekte (keine 
+Das HOT-Export-Tool erwartet nur einfache GeoJSON-Objekte (keine 
 "FeatureCollection"), d.h. einen Typ Polygon und eine Liste mit Koordinaten.
 
 GeoJSON-Dateien von geojson.io und anderen Quellen müssen darum von Hand nochmals 
