@@ -359,7 +359,7 @@ Du kannst entweder:
 * Ein Polygon zeichnen
 * Ein Polygon als GeoJSON-Datei hochladen
 
-Für die ersten zwei Möglichkeiten, muss nur das Suchfeld genutzt werden.
+Für die ersten zwei Möglichkeiten muss nur das Suchfeld genutzt werden.
 Dort kannst du entweder die gewünschte Ortschaft oder eine Bounding Box (Westen, 
 Süden, Osten, Norden) angeben.
 
