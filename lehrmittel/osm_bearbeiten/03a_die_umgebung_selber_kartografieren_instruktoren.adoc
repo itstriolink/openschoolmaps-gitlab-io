@@ -56,7 +56,7 @@ und Durchführung eines Outdoor Mapping Events:
 Nachfolgend eine Tabelle als Übersicht über die Zeitplanung des Events. 
 Es gibt verschiedene Möglichkeiten, je nachdem ob Sie einen Outdoor Mapping 
 Event planen im Rahmen (A) des regulären Unterrichts, (B) einer Projektwoche an 
-der Schule, oder (C) einer Projektwoche ausserhalb der Schule, dann sind das 
+der Schule, oder ('C) einer Projektwoche ausserhalb der Schule, dann sind das 
 hier unsere geschätzten Zeitangaben:
 
 [cols="1,1,1,1", options="header"] 
