@@ -409,7 +409,7 @@ image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG[]
 After you have done this, you will see a new layer on the left. 
 Now you don't need the old layers anymore and you can delete them. 
 The new layer has the name "Merged". 
-It would make sense if you renamed it "Bread Stores." 
+It would make sense if you renamed it "Bread shops." 
 Below you can see the final result of this second method, 
 where the layer has not (yet) been renamed:
 
