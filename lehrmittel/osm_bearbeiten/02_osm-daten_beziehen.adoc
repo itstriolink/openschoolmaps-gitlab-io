@@ -244,7 +244,7 @@ unterbruchsfreien Betrieb.
 ====
 Wie in der Einleitung erwähnt, gibt es kein  einheitliches "GIS"-Datenschema für 
 OSM und darum ist kaum ein Export aus OSM gleich wie der andere. 
-Es ist darum wichtig die jeweilige Dokumentation der Web-Tools zu konsultieren.
+Es ist darum wichtig, die jeweilige Dokumentation der Web-Tools zu konsultieren.
 ====
 
 Dann gibt es typischerweise noch Nachbearbeitungsarbeiten im GIS:
