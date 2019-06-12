@@ -310,8 +310,8 @@ Wenn man den Mauszeiger über eine Region oder ein Land hält, sieht man in der
 Karte auf der rechten Seite der Webseite das jeweilige Gebiet.
 Die Daten auf GeoFabrik werden alle 24 Stunden aktualisert mit den Daten von OpenStreetMap.
 Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat,
-muss man mindestens einen Tag warten bis sie auch auf Geofabrik verfügbar sind.
-Stelle sicher welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
+muss man mindestens einen Tag warten, bis sie auch auf Geofabrik verfügbar sind.
+Stelle sicher, welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
 
 Das Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
 ('Feature-Klassen') strukturiert. 
