@@ -288,7 +288,7 @@ unten "Mit QGIS Objekte filtern oder regelbasiert darstellen".
 === OSM.org
 
 Auf https://osm.org[OSM.org] kann man Daten auch herunterladen.
-Diese können nur als quadratische Ausschnitte (Bounding Box) und bis 
+Diese können nur als rechteckige Ausschnitte (Bounding Box) und bis 
 max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
 Dafür sind die Daten aktuell.
 
