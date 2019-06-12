@@ -179,12 +179,16 @@ Dies macht es für die Teilnehmenden spannender und für die Lehrperson bzw. den
 Instruktor einfacher zu organisieren. 
 Jeder Gruppe soll ein Gebiet zugeteilt werden, wie nachfolgend noch erläutert wird.
 
-*E-Mail-Adressen einrichten*: Um Services wie OpenStreetMap nutzen zu können, 
-benötigt man eine E-Mail-Adresse.
+*E-Mail-Adressen einrichten (falls nicht schon geschehen)*: Um Services wie 
+OpenStreetMap nutzen zu können, benötigt man eine E-Mail-Adresse.
 Und für diese Nutzung muss man gemäss Internet-Recht älter als 13 Jahre sein. 
 Bei 13- bis 16-Jährigen Teilnehmenden kann ein Elternteil oder eine von den 
 Eltern autorisierte Person (eine Lehrperson, ein Schuldadministrator oder ein 
 Instruktor) Benutzerkonten verwalten (https://wiki.osmfoundation.org/wiki/Terms_of_Use#II._Privacy[Quelle]). 
+
+Es gibt viele Wege, mit welcher E-Mailadresse sich die Teilnehmenden 
+registrieren sollen, falls sie sich nicht schon selber registriert haben, so 
+dass wir hier keine Empfehlung abgeben können.
 
 [NOTE]
 ====
