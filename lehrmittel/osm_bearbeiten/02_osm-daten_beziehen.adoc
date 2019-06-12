@@ -296,7 +296,7 @@ Dafür sind die Daten aktuell.
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
 
-=== Geofabrik Downloads
+=== Geofabrik-Downloads
 
 Die Webseite von Geofabrik http://download.geofabrik.de/ bietet OpenStreetMap-Daten 
 für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
