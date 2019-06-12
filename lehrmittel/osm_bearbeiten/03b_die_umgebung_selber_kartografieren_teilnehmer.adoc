@@ -10,7 +10,7 @@ Eine Anleitung für Schüler und Interessierte
 == Übersicht
 
 .Ziel
-Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap und 
+Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap (kurz OSM) und 
 Kartografie zu vermitteln, so dass Schüler und Interessierte danach in der Lage 
 sind, auf Anweisung der Lehrperson oder des Instruktors eine Gegend selbstständig 
 zu kartografieren.
@@ -42,7 +42,7 @@ Folgende Themen werden behandelt:
 
 === Was ist OpenStreetMap (OSM)?
 
-OpenStreetMap (kurz OSM) ist ein internationales Projekt ähnlich wie Wikipedia, 
+OpenStreetMap ist ein internationales Projekt ähnlich wie Wikipedia, 
 bei dem Freiwillige Geodaten sammeln, die dann von unzähligen Applikationen 
 verwendet werden.
 Die OSM-Daten gehören der Community und können - im Gegensatz zu Google Maps 
