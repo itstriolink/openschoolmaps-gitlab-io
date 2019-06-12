@@ -313,7 +313,7 @@ Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat
 muss man mindestens einen Tag warten, bis sie auch auf Geofabrik verfügbar sind.
 Stelle sicher, welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
 
-Das Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
+Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
 ('Feature-Klassen') strukturiert. 
 Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM-Tag shop=bakery) 
 oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des 
