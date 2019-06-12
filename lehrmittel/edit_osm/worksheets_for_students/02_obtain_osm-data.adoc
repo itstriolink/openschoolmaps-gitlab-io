@@ -454,7 +454,7 @@ The window should look like this:
 .Filter objects
 image::osm_editieren/osm-daten_beziehen/filtern.PNG[]
 
-Now click on "OK". Now you should get the message that about 10 objects were 
+Now click on "OK". Now you should get the message that about 11 objects were 
 found which have the value "bakery" at the attribute "shop". We only see those 
 objects that meet the filter criterion. All other objects are no longer part 
 of the layer's data source:
@@ -508,10 +508,10 @@ Now we click on "Apply" and then again on "OK". In QGIS this should now look lik
 .Bakeries in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
 
-We see that we still have 28 objects. However, we are only shown the 10 objects 
+We see that we still have 28 objects. However, we are only shown the 11 objects 
 that fulfill the rule, i.e. only bakeries. Maybe you have noticed it already, 
 because in contrast to that the number of objects changes with the simple filter (see above). 
-There not only the 10 bakeries are shown, but the number of objects is also reduced to 10. 
+There not only the 11 bakeries are shown, but the number of objects is also reduced to 11. 
 This is a particular difference between "normal" filtering and rule-based representation. 
 Let's look at another possibility.
 
@@ -537,7 +537,7 @@ image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
 The "Bread outlets" layer should now have two different object groups. 
 On the one hand, we see all 28 bread outlets in orange. 
-On the other hand, we now have a new (sub-)group with 10 objects, 
+On the other hand, we now have a new (sub-)group with 11 objects, 
 namely our bakeries in pink.
 
 This concludes this chapter or worksheet and leaves it to you to 
