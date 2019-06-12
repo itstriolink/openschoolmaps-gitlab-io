@@ -327,7 +327,7 @@ diesem Kapitel.
 
 Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT-Export-Tool 
 einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
-Um das HOT Export Tool zu verwenden, brauchst du ein OpenStreetMap-Benutzerkonto 
+Um das HOT-Export-Tool zu verwenden, brauchst du ein OpenStreetMap-Benutzerkonto 
 und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
 bereit sind zum Herunterladen.
 Nach dem Anmelden sieht man folgende Punkte und Tabulatoren:
@@ -344,7 +344,7 @@ einen Namen und eine Beschreibung zu geben.
 Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in 
 Uster.
 
-.HOT Export Tool Tab 1 "Exportbeschreibung".
+.HOT-Export-Tool Tab 1 "Exportbeschreibung".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
 Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, 
@@ -383,7 +383,7 @@ angepasst werden.
 Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
 zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
-//.Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
+//.Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
 // image::osm_editieren/osm-daten_beziehen/json_format.png[]
     {
       "type": "Polygon",
@@ -398,10 +398,10 @@ zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
       ]
     }
 
-Machen wir wieder weiter mit dem HOT Export Tool.
+Machen wir wieder weiter mit dem HOT-Export-Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
 
-.HOT Export Tool Tab 2 "Formate".
+.HOT-Export-Tool Tab 2 "Formate".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 
 Bei Tabulator 3 "Data" wechselst du in den Register "YAML" und fügst dort 
@@ -436,7 +436,7 @@ Mit der Webseite http://www.yamllint.com/[YAML Lint] kann man YAML validieren.
 
 Das Ganze sieht dann so aus:
 
-.HOT Export Tool Tab 3 "Data".
+.HOT-Export-Tool Tab 3 "Data".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
@@ -445,13 +445,13 @@ Darum gehen wir weiter zu Tab 4 "Summary".
 Das Letzte was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
 rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 
-.HOT Export Tool Uster
+.HOT-Export-Tool Uster
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 
 Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" 
 klicken (siehe unten).
 
-.HOT Export Tool Tab 4 "Summary".
+.HOT-Export-Tool Tab 4 "Summary".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
