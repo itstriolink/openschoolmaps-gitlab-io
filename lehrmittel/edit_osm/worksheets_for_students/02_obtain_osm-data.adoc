@@ -90,7 +90,7 @@ When you first visit the website, it looks something like this:
 image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
 Click on the red marked "Wizard" button. The wizard makes it easy to create overpass queries. 
-Since we are looking for bread outlets as an example, we are looking for bakeries and 
+Since we are looking for bread shops as an example, we are looking for bakeries and 
 supermarkets as both sell bread. As a locality we take Uster as an example. 
 The query looks like this (_bakery or supermarket in Uster_):
 
@@ -133,7 +133,7 @@ We choose the top one, i.e. "download/copy as GeoJSON".
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
 
 We now add the downloaded GeoJSON file to the left layer menu in QGIS using Drag & Drop. 
-In addition, we rename the layer appropriately, for example "Bread outlets".
+In addition, we rename the layer appropriately, for example "Bread shops".
 
 Our QGIS now looks like this:
 
@@ -159,7 +159,7 @@ Very good, you managed to import OpenStreetMap data into QGIS and save it as a n
 The other way to import OpenStreetMap data into QGIS is using the QuickOSM plugin, 
 which is explained below. If you are not interested or have already read it, you can jump 
 to the chapters "Merging Polygon Layers with Point Layers in QGIS" or 
-"Filtering Objects with QGIS or Rule-Based Displaying".
+"Filter Objects with QGIS or rule-based display".
 
 == Import OpenStreetMap data directly into QGIS with QuickOSM plugin
 
@@ -255,7 +255,7 @@ is ready for download. After logging in you will see the following points and ta
 Tabulators 1 and 4 are described in more detail below.
 
 Tab 1 is about giving the file to be exported a name and a description. 
-The picture below shows an example of exporting bread outlets in Uster.
+The picture below shows an example of exporting bread shops in Uster.
 
 .HOT Export Tool Tab 1 "Describe".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
@@ -425,8 +425,8 @@ On the other hand, you can display the data based on rules, so that only those
 data are displayed that comply with the rules.
 
 In the following we look at the two methods. 
-The example of bread outlets remains the same. 
-The bread outlets contain both "bakeries" and "supermarkets". 
+The example of bread shops remains the same. 
+The bread shops contain both "bakeries" and "supermarkets". 
 But now we only want to process and display "bakeries" in QGIS. 
 
 === Filter objects with QGIS
@@ -468,13 +468,13 @@ As you can see above, you should now rename the layer from "Bread shops" to "Bak
 
 The rule-based representation is about displaying all objects that fulfill a 
 criterion from a layer data source. One also speaks of "data-driven representation". 
-This expression, which has to be filtered by, is part of the representation (symbology) 
+This expression, which has to be filtered by, is part of the symbology 
 and not part of the layer as with the other method. 
 
-The rule-based display can also be used to _not_ display individual values. 
+The rule-based symbology can also be used to _not_ display individual values. 
 In our example we want to take advantage of this to show only bakeries ('bakery') 
 and not supermarkets ('supermarket'). To do this we right-click on the layer and 
-click on the bottom entry "Properties...". In the left list menu we click on "Display" 
+click on the bottom entry "Properties...". In the left list menu we click on "Symbology" 
 (third entry). Now it should look like this for you:
 
 .Representation of objects
@@ -535,8 +535,8 @@ Now it should look like this in QGIS:
 .Bread shops with colour-coded bakeries (pink)
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
-The "Bread outlets" layer should now have two different object groups. 
-On the one hand, we see all 28 bread outlets in orange. 
+The "Bread shops" layer should now have two different object groups. 
+On the one hand, we see all 28 bread shops in orange. 
 On the other hand, we now have a new (sub-)group with 11 objects, 
 namely our bakeries in pink.
 
