@@ -23,7 +23,7 @@ Lehrpersonen und Instruktoren
 Technologie ist kaum aus unserem Alltag weg zu denken. 
 Dazu gehören auch Online-Kartendienste und GPS-Navigationssysteme. 
 Viele kommt dabei nur Google Maps in den Sinn. 
-Dabei gibt es viele Alternativen - und eine ganz besondere ist OpenStreetMap. 
+Dabei gibt es viele Alternativen - und eine ganz besondere ist OpenStreetMap (kurz OSM). 
 Der Vorteil von OpenStreetMap ist, dass die Daten den Nutzern (der Community) 
 gehören und nicht einem Unternehmen oder einer Behörde. 
 Dies setzt aber auch voraus, dass die Daten durch die Nutzer ergänzt und aktuell 
@@ -97,7 +97,7 @@ hier unsere geschätzten Zeitangaben:
 == Studium der Unterlagen
 
 Bevor Sie einen erfolgreichen Outdoor Mapping Event durchführen können, müssen 
-Sie sich mit der Thematik von OpenStreetMap (OSM) befassen. 
+Sie sich mit der Thematik von OpenStreetMap befassen. 
 Es wäre gut, wenn Sie einige Wochen im Voraus die Unterrichtsmaterialien von 
 https://openschoolmaps.ch/[OpenSchoolMaps] zur Hand nehmen und diese studieren. 
 Die Unterlagen beinhalten sowohl Theorie wie auch Aufgaben zum Lösen. 
