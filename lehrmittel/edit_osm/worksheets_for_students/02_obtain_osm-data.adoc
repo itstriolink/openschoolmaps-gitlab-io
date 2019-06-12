@@ -491,7 +491,7 @@ to assign objects to different symbols according to attribute values.
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
 
 In the picture above you can see that we have an entry. 
-This entry contains all 27 objects, and we see that no rules are defined on these objects. 
+This entry contains all 28 objects, and we see that no rules are defined on these objects. 
 Therefore we click twice on the entry. 
 In the text field next to "Filter" we enter the following again:
 
@@ -508,7 +508,7 @@ Now we click on "Apply" and then again on "OK". In QGIS this should now look lik
 .Bakeries in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
 
-We see that we still have 27 objects. However, we are only shown the 10 objects 
+We see that we still have 28 objects. However, we are only shown the 10 objects 
 that fulfill the rule, i.e. only bakeries. Maybe you have noticed it already, 
 because in contrast to that the number of objects changes with the simple filter (see above). 
 There not only the 10 bakeries are shown, but the number of objects is also reduced to 10. 
@@ -536,7 +536,7 @@ Now it should look like this in QGIS:
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
 The "Bread outlets" layer should now have two different object groups. 
-On the one hand, we see all 27 bread outlets in orange. 
+On the one hand, we see all 28 bread outlets in orange. 
 On the other hand, we now have a new (sub-)group with 10 objects, 
 namely our bakeries in pink.
 
