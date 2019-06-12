@@ -295,7 +295,7 @@ Informationen.
 == Einführung der Thematik für die Teilnehmenden
 
 Bevor Sie die Teilnehmenden in Gruppen einteilen und losschicken, um die Umgebung 
-zu erkunden, sollten Sie sie ans Thema heran führen. 
+zu erkunden, sollten Sie sie ans Thema heranführen. 
 Dies deshalb, da der Wissensstand innerhalb der Klasse/Gruppe im Bereich der 
 Informatik doch sehr gross sein kann und nicht alle wissen, was OpenStreetMap 
 ist und was der Sinn und Zweck dahinter sein soll. 
