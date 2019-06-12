@@ -315,7 +315,7 @@ Stelle sicher, welche Daten du herunterlädst, da einige mehrere Gigabyte gross 
 
 Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
 ('Feature-Klassen') strukturiert. 
-Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM-Tag shop=bakery) 
+Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM Tag shop=bakery) 
 oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des 
 "Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
 - oder aber die Daten selber - konsultieren.
