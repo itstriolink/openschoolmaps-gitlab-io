@@ -279,7 +279,7 @@ Zu den zwei anderen Problemen folgender Hinweis:
 [NOTE]
 ====
 Nachbearbeitung der Geodaten: 
-Wenn du wissen möchtest wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
+Wenn du wissen möchtest, wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
 schaue unten im Kapitel "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
 nach. 
 Wenn du erfahren möchtest, wie man Objekte filtert, dann springe zum Kapitel 
