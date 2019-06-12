@@ -109,7 +109,7 @@ Das Studieren der Unterlagen sollte jedoch gut im Selbststudium machbar sein.
 
 [NOTE]
 ====
-Bei der "Swiss OpenStreetMap Association" (SOSM) gibt die Möglichkeit, Fragen zu 
+Bei der "Swiss OpenStreetMap Association" (SOSM) gibt es die Möglichkeit, Fragen zu 
 stellen, falls Sie nicht mehr weiterkommen: https://sosm.ch/de/kontakt/[Kontakt].
 ====
 
