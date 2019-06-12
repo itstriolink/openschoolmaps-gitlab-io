@@ -86,7 +86,7 @@ website at: http://overpass-turbo.osm.ch/.
 
 When you first visit the website, it looks something like this:
 
-.Startseite von Overpass-Turbo
+.Homepage of Overpass-Turbo
 image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
 Click on the red marked "Wizard" button. The wizard makes it easy to create overpass queries. 
@@ -94,12 +94,12 @@ Since we are looking for bread outlets as an example, we are looking for bakerie
 supermarkets as both sell bread. As a locality we take Uster as an example. 
 The query looks like this (_bakery or supermarket in Uster_):
 
-.Overpass-Turbo Wizard-Abfrage
+.Overpass Turbo Wizard Query
 image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG[]
 
 After clicking on "Create and execute query" you will get the following:
 
-.Resultat der Wizard-Abfrage
+.Result of the Wizard Query
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
 The above result can also be simplified by replacing the "nodes", "ways" and 
@@ -119,7 +119,7 @@ The new query should look like this.
 If we now copy the upper lines and paste them into the overpass turbo 
 as a query and execute them, we get the following:
 
-.Überarbeitetes Resultat
+.Revised result
 image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 
 Now we see in the lower right corner that the displayed objects consist only of POIs. 
@@ -129,7 +129,7 @@ Now we have to save the query as GeoJSON. To do this, go to "Export" in the uppe
 left corner of "Wizard". The window that appears gives us various export options: 
 We choose the top one, i.e. "Save as GeoJSON".
 
-.Overpass Export
+.Overpass export
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
 
 We now add the downloaded GeoJSON file to the left layer menu in QGIS using Drag & Drop. 
@@ -137,7 +137,7 @@ In addition, we rename the layer appropriately, for example "Bread outlets".
 
 Our QGIS now looks like this:
 
-.GeoJSON in QGIS importiert
+.GeoJSON imported into QGIS
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 As you have probably noticed, an OSM standard layer is used here as a 
@@ -152,7 +152,7 @@ CH1903+/LV95" and give the file a name. We leave the format as GeoPackage and cl
 
 Below you can see the export window:
 
-.Als GeoPackage exportieren
+.Export as GeoPackage
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
 
 Very good, you managed to import OpenStreetMap data into QGIS and save it as a new format. 
@@ -176,23 +176,23 @@ Now click on "Install extension" and you are ready to work with the plugin.
 
 The following picture shows the installation of the plugin:
 
-.QuickOSM Installation
+.QuickOSM installation
 image::osm_editieren/osm-daten_beziehen/install_QuickOSM.PNG[]
 
 Now we open the plugin by clicking on "Vector" in the menu bar and then on "Quick OSM". 
 Then we enter the following query to search for bakeries in Uster:
 
-.Bakery-Abfrage
+.Bakery query
 image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
 
 After the query has been executed, we make a second query to search for supermarkets:
 
-.Supermarket-Abfrage
+.Supermarket query
 image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
 
 Now you should have the following layers:
 
-.Ergebnisse der QuickOSM-Abfragen
+.Results of the QuickOSM queries
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
 If you want to know how to convert polygon layers into point layers or how to filter 
@@ -257,7 +257,7 @@ Tabulators 1 and 4 are described in more detail below.
 Tab 1 is about giving the file to be exported a name and a description. 
 The picture below shows an example of exporting bread outlets in Uster.
 
-.HOT Export Tool Tab 1 "Exportbeschreibung".
+.HOT Export Tool Tab 1 "Describe".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
 Then you can select the data you want to download in different ways.
@@ -288,13 +288,13 @@ The HOT Export Tool expects only simple GeoJSON objects (no
 GeoJSON files from geojson.io and other sources must therefore be adapted manually. 
 Therefore open the GeoJSON file in a text editor and simplify the structure similar to the following picture.
 
-.Einzelnes GeoJSON-Objekt für das HOT Export Tool
+.Single GeoJSON object for the HOT Export Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png[]
 
 Let's continue with the HOT Export Tool again. 
 In tab 2 you choose the format, e.g. GeoPackage.
 
-.HOT Export Tool Tab 2 "Formate".
+.HOT Export Tool Tab 2 "Formats".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 
 With tab 3 "Data" you change to the register "YAML" and insert the following:
@@ -395,7 +395,7 @@ in the polygon layer to points and can then integrate them in the point layer.
 To do this, go to "Geometry Tools" in the "Vector" menu of QGIS and then to "Centroids...". 
 After that the QGIS should look like this, where the names of the new layers have already been renamed:
 
-.Polygon-Layer umgewandelt
+.Polygon layer converted
 image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
 
 Since we now have several point layers, we have to merge them. 
@@ -403,7 +403,7 @@ Such a merge only works if all layers have the same geometry data type.
 Go to "Data Management Tools" in the QGIS "Vector" menu and then to "Merge Vector Layers". 
 Select the four layers in the dialog window:
 
-.Mehrere Layer zu einem einzigen Layer zusammenführen
+.Merge multiple layers into a single layer
 image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG[]
 
 After you have done this, you will see a new layer on the left. 
@@ -413,7 +413,7 @@ It would make sense if you renamed it "Bread Stores."
 Below you can see the final result of this second method, 
 where the layer has not (yet) been renamed:
 
-.Endergebnis
+.Final result
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 == Filter or rule-based display of objects with QGIS
@@ -451,7 +451,7 @@ In the input field "Data provider-specific filter expression" we enter the follo
 
 The window should look like this:
 
-.Objekte filtern
+.Filter objects
 image::osm_editieren/osm-daten_beziehen/filtern.PNG[]
 
 Now click on "OK". Now you should get the message that about 10 objects were 
@@ -459,7 +459,7 @@ found which have the value "bakery" at the attribute "shop". We only see those
 objects that meet the filter criterion. All other objects are no longer part 
 of the layer's data source:
 
-.Bäckereien in Uster
+.Bakeries in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
 
 As you can see above, you should now rename the layer from "Bread shops" to "Bakeries".
@@ -477,7 +477,7 @@ and not supermarkets ('supermarket'). To do this we right-click on the layer and
 click on the bottom entry "Properties...". In the left list menu we click on "Display" 
 (third entry). Now it should look like this for you:
 
-.Darstellung von Objekten
+.Representation of objects
 image::osm_editieren/osm-daten_beziehen/single_symbol.PNG[]
 
 In the upper picture you see a red mark around the entry "Single symbol". 
@@ -487,7 +487,7 @@ and thus displayed in the same way, therefore "single symbol".
 Now that we have selected "Rule-based", we can define rules (expressions) 
 to assign objects to different symbols according to attribute values.
 
-.Objekte ohne Filter
+.Objects without filter
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
 
 In the picture above you can see that we have an entry. 
@@ -505,7 +505,7 @@ image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
 Now we click on "OK". We see that the entry no longer says "(no filter)", but "shop"='bakery'. 
 Now we click on "Apply" and then again on "OK". In QGIS this should now look like this:
 
-.Bäckereien in Uster
+.Bakeries in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
 
 We see that we still have 27 objects. However, we are only shown the 10 objects 
@@ -519,7 +519,7 @@ Assuming that we still want to display all objects and only part of them, we can
 simply use a different color for all bakeries. Delete the rule we applied to the objects earlier. 
 Then we start from the following view:
 
-.Objekte ohne Filter
+.Objects without filter
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
 
 At the bottom left we click on the plus sign. 
@@ -532,7 +532,7 @@ image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
 Now we click on "Apply" and then on "OK". 
 Now it should look like this in QGIS:
 
-.Brotverkaufsstellen mit farblich abgegrenzten Bäckereien (Pink)
+.Bread shops with colour-coded bakeries (pink)
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
 The "Bread outlets" layer should now have two different object groups. 
