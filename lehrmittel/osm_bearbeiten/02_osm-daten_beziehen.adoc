@@ -372,7 +372,7 @@ Schaltfläche _Import_ machen.
 
 CAUTION: An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt.
 
-Die Webseite http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
+http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
 editieren kann.
 
 Das HOT Export Tool erwartet nur einfache GeoJSON-Objekte (keine 
