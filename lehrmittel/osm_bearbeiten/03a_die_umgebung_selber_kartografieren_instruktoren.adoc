@@ -156,7 +156,7 @@ beträchtlich sein.
 
 Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
 sogenannter "Changeset-Kommentar" nötig.
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor Event Rappi 2019-06-11".
+Ein Beispiel für ein Changeset-Kommentar ist "Hausnummern Bahnhofstrasse ergänzt".
 Im folgenden Kapitel "Vorbereitungen" kommen wir nochmals auf diesen Kommentar 
 zurück.
 
@@ -199,7 +199,7 @@ Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
 Er sollte nictht länger als 32 Zeichen lang sein. 
-Ein Beispiel für ein Changeset-Kommentar ist _Outdoor Event Rappi 2019-06-11_.
+Ein Beispiel für ein Changeset-Kommentar ist _Hausnummern Bahnhofstrasse ergänzt_.
 
 *Event als Zusammenfassung ankündigen*: Auch OpenStreetMap kennt Regeln - 
 ähnlich wie eine Allmend oder ein Schulplatz. 
@@ -218,7 +218,7 @@ folgenden Kontakt zu mailen: https://sosm.ch/de/kontakt/[SOSM].
 
 Name des Events: ... _(z.B. Outdoor Event Rappi)_ +
 Durchführungsdatum (date): ... _(z.B. 2019-06-11)_ +
-Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Outdoor Event Rappi 2019-06-11)_ +
+Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Hausnummern Bahnhofstrasse ergänzt)_ +
 Instruktor (coordinator): ... _(z.B. Username Geonick)_ +
 Teilnehmende (participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_ +
 Ziele (goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
