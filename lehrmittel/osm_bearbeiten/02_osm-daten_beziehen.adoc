@@ -327,7 +327,7 @@ diesem Kapitel.
 
 Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT-Export-Tool 
 einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
-Um das HOT Export Tool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
+Um das HOT Export Tool zu verwenden, brauchst du ein OpenStreetMap-Benutzerkonto 
 und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
 bereit sind zum Herunterladen.
 Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
