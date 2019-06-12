@@ -442,7 +442,7 @@ image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
 GeoPackage exportieren. 
 Darum gehen wir weiter zu Tab 4 "Summary". 
-Das Letzte was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
+Das Letzte, was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
 rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 
 .HOT-Export-Tool Uster
@@ -467,7 +467,7 @@ Um OSMaxx nutzen zu können benötigt man ein OSM-Konto mit einer gültigen
 E-Mail-Adresse.
 
 Unter _Existing Excerpt / Country_ können bestehende Auszüge heruntergeladen werden.
-Es kann ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
+Es kann ausgewählt werden, in welchem Format die Datei heruntergeladen werden soll,
 welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt 
 werden sollen.
 
@@ -496,7 +496,7 @@ Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
 Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512 Megabytes als 
 Datei.
 Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
-Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
+Namen zugeteilt hast, kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
 Die Dokumentation des Schemas, das hinter den GIS-Formaten wie z.B. GeoPackage 
 oder Shapefile steckt, findest du hier:
