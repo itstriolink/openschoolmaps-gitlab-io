@@ -25,7 +25,7 @@ Dazu gehören auch Online-Kartendienste und GPS-Navigationssysteme.
 Viele kommt dabei nur Google Maps in den Sinn. 
 Dabei gibt es viele Alternativen - und eine ganz besondere ist OpenStreetMap. 
 Der Vorteil von OpenStreetMap ist, dass die Daten den Nutzern (der Community) 
-gehören und nicht einem Unternehmuen oder einer Behörde. 
+gehören und nicht einem Unternehmen oder einer Behörde. 
 Dies setzt aber auch voraus, dass die Daten durch die Nutzer ergänzt und aktuell 
 gehalten werden. 
 Und Kartografieren ist weder langweilig noch schwierig, darum sollte es jeder 
