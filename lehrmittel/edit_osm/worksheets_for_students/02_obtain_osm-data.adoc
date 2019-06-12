@@ -127,7 +127,7 @@ We now have 28 POIs and 0 polygons, because we have converted the 5 polygons to 
 via "out center" and Overpass has added these 5 new POIs to the existing 23 POIs. 
 Now we have to save the query as GeoJSON. To do this, go to "Export" in the upper 
 left corner of "Wizard". The window that appears gives us various export options: 
-We choose the top one, i.e. "Save as GeoJSON".
+We choose the top one, i.e. "download/copy as GeoJSON".
 
 .Overpass export
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
