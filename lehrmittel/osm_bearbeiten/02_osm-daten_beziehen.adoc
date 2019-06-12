@@ -650,7 +650,7 @@ image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
 
 Nun klicken wir auf "OK". 
 Wir sehen, dass im Eintrag nun nicht mehr "(kein Filter)" steht, sondern 
-"shop"='bakery'. 
+`"shop"='bakery'`. 
 Jetzt klicken wir auf "Anwenden" und dann nochmals auf "OK". 
 Im QGIS sollte das nun so aussehen:
 
