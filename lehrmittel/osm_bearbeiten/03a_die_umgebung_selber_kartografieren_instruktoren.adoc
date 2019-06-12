@@ -129,7 +129,7 @@ App "OSMTracker for Android".
 Doch ist das mit mehr Organisations- und Erklärungsaufwand verbunden und dem 
 stetigen technischen Wandel unterworfen.
 
-Stoppen Sie die Zeit und schauen Sie nach wie lange Sie für ihre 
+Stoppen Sie die Zeit und schauen Sie nach, wie lange Sie für ihre 
 Umgebungserkundung benötigen und wie viel Informationen Sie in dieser Zeit 
 sammeln können, dann fällt es Ihnen leichter abzuschätzen, wie viel Zeit Sie für 
 die Teilnehmenden planen.
