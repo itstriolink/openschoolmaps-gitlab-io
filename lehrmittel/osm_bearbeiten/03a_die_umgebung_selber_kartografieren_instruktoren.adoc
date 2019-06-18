@@ -7,6 +7,8 @@ include::../../snippets/suppress_title_page.adoc[]
 
 Eine Anleitung für Lehrpersonen und Instruktoren
 
+image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
+
 == Übersicht
 
 .Ziel
