@@ -7,6 +7,7 @@ include::../../snippets/suppress_title_page.adoc[]
 
 Eine Anleitung für Schüler und Interessierte
 
+.Quelle: EducOSM.xyz 2019
 image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 == Übersicht
