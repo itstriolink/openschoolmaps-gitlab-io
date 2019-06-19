@@ -24,14 +24,14 @@ Lehrpersonen und Instruktoren.
 [NOTE]
 ====
 Lesen Sie auch das zugehörige Arbeitsblatt "Die Umgebung selber 
-kartografieren..." für Schülerinnen und Schüler sowie Interessierte durch.
+kartografieren ..." für Schülerinnen und Schüler sowie Interessierte durch.
 ====
 
 
 == Einleitung
 
 Technologie ist kaum aus unserem Alltag weg zu denken. 
-Dazu gehören auch Karten und GPS-Navigations-App. 
+Dazu gehören auch Karten und GPS-Navigations-Apps. 
 Vielen kommt dabei Google Maps, ein Schulatlas oder Landeskarten wie der 
 Kartenviewer des Bundes (map.geo.admin.ch) in den Sinn. 
 Dabei gibt es viele Alternativen - und eine ganz besondere davon ist 
@@ -54,10 +54,9 @@ Unterricht einzubinden, beispielsweise im Geografie- oder Geschichtsunterricht.
 Ein Outdoor Mapping Event soll einen Einblick geben.
 
 Die unten abgebildete Checkliste beinhaltet eine kurze Auflistung der Themen, 
-die wichtig sind um einen erfolgreichen Event lancieren zu können. 
+die wichtig sind, um einen erfolgreichen Event lancieren zu können. 
 Zudem wird eine Übersicht über die Zeitplanung des Events gegeben.
 
-Auf die Themen wird Abschnitt für Abschnitt näher eingegangen.
 
 == Checkliste und Zeitplanung
 
@@ -72,11 +71,14 @@ und Durchführung eines Outdoor Mapping Events:
 1. Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
 1. Nach Durchführung des Events, den Event auswerten und abschliessen
 
-Nachfolgend eine Tabelle als Übersicht über die Zeitplanung des Events. 
+Auf die Themen wird hier Abschnitt für Abschnitt näher eingegangen.
+
+Vorher noch zeigen wir eine Tabelle als Übersicht über die Zeitplanung des 
+Events. 
 Es gibt verschiedene Möglichkeiten, je nachdem ob Sie einen Outdoor Mapping 
 Event planen im Rahmen (A.) des regulären Unterrichts, (B.) einer Projektwoche an 
-der Schule, oder (C.) einer Projektwoche ausserhalb der Schule, dann sind das 
-hier unsere geschätzten Zeitangaben:
+der Schule, oder (C.) einer Projektwoche ausserhalb der Schule. 
+Dazu folgende geschätzte Zeitplanung:
 
 [cols="1,1,1,1", options="header"] 
 .Zeitplanung Übersicht. 
@@ -116,7 +118,7 @@ hier unsere geschätzten Zeitangaben:
 == Studium der Unterlagen
 
 Bevor Sie einen erfolgreichen Outdoor Mapping Event durchführen können, müssen 
-Sie sich mit der Thematik von OpenStreetMap befassen. 
+Sie sich mit der Thematik von OpenStreetMap etwas befassen. 
 Es wäre gut, wenn Sie einige Wochen im Voraus die Unterrichtsmaterialien von 
 https://openschoolmaps.ch/[OpenSchoolMaps] zur Hand nehmen und diese studieren. 
 Die Unterlagen beinhalten sowohl Theorie wie auch Aufgaben zum Lösen. 
@@ -128,7 +130,7 @@ Das Studieren der Unterlagen sollte jedoch gut im Selbststudium machbar sein.
 
 [NOTE]
 ====
-Bei der "Swiss OpenStreetMap Association" (SOSM) gibt es die Möglichkeit, Fragen zu 
+Die "Swiss OpenStreetMap Association" (SOSM) bietet die Möglichkeit, Fragen zu 
 stellen, falls Sie nicht mehr weiterkommen: https://sosm.ch/de/kontakt/[Kontakt].
 ====
 
@@ -258,9 +260,9 @@ folgenden Kontakt zu mailen: https://sosm.ch/de/kontakt/[SOSM].
 
 a. Name des Events: ... _(z.B. Outdoor Event Rappi)_ +
 b. Durchführungsdatum (date): ... _(z.B. 2019-06-11)_ +
-c. Changeset-Kommentar: ... _(max. ca. 50 Zeichen! z.B. Outdoor-Event Kanti X 2019)_ +
+c. Changeset-Kommentar: ... _(ca. 50 Zeichen! z.B. Outdoor-Event Kanti X 2019)_ +
 d. Instruktor (coordinator): ... _(z.B. Username Geonick)_ +
-e. Teilnehmende (participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_ +
+e. Teilnehmende (participants): ..., ... _(z.B. Usernamen Geonick, Username2, ...)_ +
 f. Ziele (goals): ... _(z.B. Die Umgebung von X kartieren)_
 ====
 
@@ -295,9 +297,9 @@ es ein eigenes Unterrichtsmaterial "Mit uMap einen Lageplan erstellen" dazu.
 Kartenausschnitte zu erstellen und die im Feld gemachten Notizen wieder 
 hochzuladen, damit man sie beim Editieren direkt sieht.
 
-Wenn Sie sich für uMap entscheiden, dann können Sie folgende Erläuterungen
-überspringen und müssen nur noch dafür sorgen, dass für alle Gruppen genügend 
-Karten ausgedruckt sind.
+Wenn Sie sich für uMap entscheiden, dann können Sie folgende Erläuterungen zu
+Field Papers überspringen und müssen allenfalls noch dafür sorgen, dass für alle 
+Gruppen genügend Karten ausgedruckt sind.
 
 *"Field Papers"* ist eine Webapplikation mit der man aus OpenStreetMap eine Karte 
 erstellen, diese ausdrucken und mit eigenen Notizen versehen kann. 
@@ -369,10 +371,9 @@ um eine Analyse der geleisteten Arbeit zu machen.
 Dazu kann der Changeset-Kommentar in folgender Webapplikation angegeben werden, 
 worauf man eine Statistik erhält (über die letzten 30 Tage): 
 https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405 . 
-Bei "Search for a specific Text" können man z.B. probehalber "Schweiz" eingeben.
+Bei "Search for a specific Text" kann man z.B. probehalber "Schweiz" eingeben.
 ====
 
 Eine Rückmeldung zum Event an die Initianten von OpenSchoolMaps wäre auch 
-toll, damit auch sie sich verbessern können: siehe 
-https://openschoolmaps.ch/[OpenSchoolMaps] > 
+toll: siehe https://openschoolmaps.ch/[OpenSchoolMaps] > 
 "Weitere Unterrichtsideen". 
