@@ -7,7 +7,7 @@ include::../../snippets/suppress_title_page.adoc[]
 
 Eine Anleitung für Schülerinnen und Schüler sowie für Interessierte
 
-.Quelle: EducOSM.xyz 2019
+.Früh übt sich, wer ein "Meister-Mapper" werden will! (Quelle: EducOSM.xyz 2019)
 image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 == Übersicht
@@ -24,7 +24,8 @@ Schülerinnen und Schüler sowie Interessierte.
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
 unterschiedlich viel Zeit, mindestens jedoch drei Stunden. 
-Dies ist der grobe Plan:
+
+Dies ist der grobe Zeitplan eines Outdoor Events:
 
 1. Allgemeine Vorbereitungen (z.B. was ist OpenStreetMap?); mind. ca. 20 min.
 1. Konkrete Vorbereitung für die Kartierung draussen; mind. ca. 20 min.
@@ -32,8 +33,10 @@ Dies ist der grobe Plan:
 1. Instruktion zum Editieren von OpenStreetMap; mind. ca. 20 min.
 1. Editieren am Computer; mind. ca. eine Stunde, besser zwei Stunden.
 
-.Aufbau
-Folgende Themen werden behandelt:
+
+== Einleitung
+
+Folgende Themen werden in diesem Arbeitsblatt behandelt:
 
 * Was ist OpenStreetMap?
 * Was wird kartiert? Was nicht?
@@ -41,27 +44,25 @@ Folgende Themen werden behandelt:
 * Vorbereitungen zum draussen Kartieren 
 * Wie editiert man OpenStreetMap?
 
-== Einleitung
-
 === Was ist OpenStreetMap (OSM)?
 
 OpenStreetMap ist ein internationales Projekt ähnlich wie Wikipedia, 
 bei dem Freiwillige Geodaten sammeln, die dann von unzähligen Applikationen 
 verwendet werden.
 Die OSM-Daten gehören der Community und können - im Gegensatz zu Google Maps 
-oder zu vielen Behördenkarten wie map.geo.admin.ch - selber weiterverwendet 
-werden im Rahmen einer freien Lizenz. 
+oder zu Landeskarten wie der Kartenviewer des Bundes (map.geo.admin.ch) 
+- selber weiterverwendet werden im Rahmen einer freien Lizenz. 
 
 OpenStreetMap kann auf ganz verschiedene Art und Weise genutzt werden und die 
 Benutzer können unterschiedliche Ziele haben.
 Im Folgenden haben wir ein paar Einsatzmöglichkeiten von OpenStreetMap 
 zusammengestellt:
 
-* Navigation am Computer (z.B. osm.org) oder mit dem Smartphone (z.B. Maps.Me)
+* Navigation am Computer (z.B. OSM.org) oder mit dem Smartphone (z.B. Maps.Me)
 * Hintergrundkarte oder Lagekarte eingebettet in Webseiten
 * Lage- und Wanderkarte
-* Interaktive Webkarten aller Art (z.B. Burgenkarte)
-* Räumliche Analysen (z.B. die Nebelkarte)
+* Interaktive Webkarten aller Art (z.B. eine Burgenkarte)
+* Räumliche Analysen (z.B. Nebelkarte.ch)
 
 [NOTE]
 ====
@@ -86,48 +87,46 @@ dass man loszieht und sich Notizen macht.
 Diese Notizen kann man dann zu einem späteren Zeitpunkt in OpenStreetMap übernehmen.
 
 Das Wichtigste beim Kartieren ist, dass überprüfbar ist, was man kartiert. 
-Unten siehst du Beispiele von geeigneten und ungeeigneten Objekten:
+Gut geeignet sind Objekte, die öffentlich zugänglich sind, wie Strassen, Häuser, 
+Läden oder Imbissecken. 
 
-Beispiele für geeignete Objekte:
-
-* Strassen (Strassenachse)
-* Häuserumrisse mit Hausnummer (Gebäudenummer)
-* Läden und Restaurants (Name, Tel. und Weblink)
-* Öffnungszeiten
-* Öffentliche Parkplätze für Autos sowie Veloabstellplätze
-
-Beispiele für ungeeignete Objekte:
+Beispiele für ungeeignete Objekte sind:
 
 * Persönliche Meinungen
 * Persönliche Daten
-* Flugrouten
-* Bewertungen zu Restaurants
+* Baustellen oder Dinge auf Räder, die nach ein paar Tagen oder Wochen wieder weg sind.
+* Bewertungen zu Restaurants oder Läden
+* Fotos (ausser als Weblink auf Fotos, die vorher auf 
+http://commons.wikimedia.org/ hochgeladen wurden)
 
 === Was kann bei Outdoor Events alles kartiert werden?
 
 Wie du oben schon gelesen hast, sind Strassen, Häuser, Läden und Restaurants 
 geeignete Objekte/Daten zum Kartografieren. 
-Bei diesem Event geht es also darum, dass du dich mit einem/einer Freund/in 
+Bei diesem Event geht es darum, dass du dich mit einem/einer Freund/in 
 zusammenschliesst und als Gruppe die Umgebung kartografierst. 
 Natürlich würde es viel zu lange dauern die ganze Umgebung zu kartografieren und 
 seien wir ehrlich, dies wäre auch etwas viel auf's Mal. 
-Deshalb suche dir einfach ein paar Orte in der Umgebung aus, welche dir gefallen. 
+
+Es gibt nun folgende Möglichkeiten, um herauszufinden, was zu kartieren ist. 
+Entweder der Instruktor oder die Instruktorin geben vor, was zu tun ist - oder 
+aber du suchst die Orte in der Umgebung selber aus, welche dir gefallen. 
 Beispiele hierfür sind dein Zuhause, falls es in der Nähe ist, ein Teil deines 
 Schulweges, eine lokale Sehenswürdigkeit oder das Zuhause einer deiner Freunde. 
-Es gibt genug Sachen, die man kartografieren kann.
-
-Doch wie kartografiert man richtig, beziehungsweise: auf was ist zu achten?
+Es gibt genug Sachen, die man kartografieren kann. 
+Hier nochmals eine Zusammenstellung:
 
 Strassen:
 
+* Strassen und Wege mit der Kennzeichnung Einbahnstrasse
 * Strassennamen
-* Richtung (Einbahnstrasse)
 * Fussgängerstreifen
+* Öffentliche Parkplätze für Autos sowie Veloabstellplätze
 
 Häuser und Hausnummern:
 
-* Adresse
-* Evtl. hat ein Haus mehrere Hausnummern
+* Häuserumrisse
+* Hausnummern
 
 Läden und Restaurants:
 
@@ -136,6 +135,12 @@ Läden und Restaurants:
 * Telefonnummer
 * Website
 * Öffnungszeiten
+
+[NOTE]
+====
+Es gibt auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
+unter "Unterrichtsmaterialien" auch ein "OpenStreetMap Tagging Cheatsheet" (PDF).
+====
 
 == Vorbereitungen zum draussen Kartieren
 
@@ -165,7 +170,8 @@ beachten sind)
 Viel Spass beim Kartografieren! 
 
 Das nächste Kapitel erläutert, wie du die auf Papier notierten Informationen 
-am Computer erfassen kannst. 
+am Computer erfassen kannst.
+
 
 == Wie editiert man OpenStreetMap?
 
@@ -176,8 +182,7 @@ Die folgenden Erklärungen sind eine Kurzfassung des Arbeitsblatts
 
 Bevor du anfangen kannst auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
 musst du dich dort registrieren. 
-
-Falls der Instruktor die Registration nicht schon für dich erledigt hat, 
+Falls der Instruktor die Registration nicht schon für dich gemacht hat, 
 gehe zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
 Oben rechts siehst du nun einen "Registrieren"-Button. 
 Klicke drauf, nun musst du eine Email eingeben und einen Benutzernamen und ein 
@@ -209,14 +214,17 @@ Tutorial geführt, wie man in OpenStreetMap richtig editiert.
 Dieses Tutorial dauert in etwa 10 bis 20 Minuten. 
 
 Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
-sogenannter "Changeset-Kommentar" nötig.
-Damit dieser Event ausgewertet werden kann, ist es wichtig, dass alle denselben
+sogenannter "Changeset-Kommentar" anzugeben.
+Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Frage die Lehrperson oder den Instruktor, welchen Changeset-Kommentar du 
 verwenden sollst.
 Ein Beispiel für ein Changeset-Kommentar ist "Outdoor-Event Kanti X 2019"
 
-Nun solltest du wissen, wie es geht.
-Falls du dennoch Hilfe benötigst, schaue auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
-unter "Unterrichtsmaterialien" im Arbeitsblatt "OpenStreetMap bearbeiten" nach.  
-Es gibt dort ausserdem noch ein "OpenStreetMap Tagging Cheatsheet" (PDF).
+Nun solltest du wissen, wie Kartieren geht.
+
+[NOTE]
+====
+Falls du Hilfe benötigst, schaue auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
+unter "Unterrichtsmaterialien" im Arbeitsblatt "OpenStreetMap bearbeiten" nach.
+====
