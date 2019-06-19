@@ -219,7 +219,7 @@ Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Frage die Lehrperson oder den Instruktor, welchen Changeset-Kommentar du 
 verwenden sollst.
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor-Event Kanti X 2019"
+Ein Beispiel für ein Changeset-Kommentar ist "Outdoor-Event Kanti X 2019".
 
 Nun solltest du wissen, wie Kartieren geht.
 
