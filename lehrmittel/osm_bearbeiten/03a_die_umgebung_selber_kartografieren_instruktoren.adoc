@@ -7,7 +7,7 @@ include::../../snippets/suppress_title_page.adoc[]
 
 Eine Anleitung für Lehrpersonen und Instruktoren
 
-.Quelle: EducOSM.xyz 2019
+.Auf geht's nach draussen! (Quelle: EducOSM.xyz 2019)
 image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 == Übersicht
@@ -16,10 +16,13 @@ image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 Dies ist kein Arbeitsblatt sondern eine Sammlung von Hinweisen und Tipps 
 für Lehrpersonen und Instruktoren zur Organisation eines erfolgreichen 
 Outdoor Mapping Events (manchmal auch "Mapping Party" genannt) mit Schülerinnen 
-und Schülern und Interessierten (hier "Teilnehmende" genannt).
+und Schülern sowie Interessierten (hier "Teilnehmende" genannt).
+
+Beachten Sie auch das zugehörige Arbeitsblatt "Die Umgebung selber 
+kartografieren..." für Schülerinnen und Schüler sowie Interessierte.
 
 .Zielgruppe
-Lehrpersonen und Instruktoren
+Lehrpersonen und Instruktoren.
 
 == Einleitung
 
@@ -65,8 +68,8 @@ und Durchführung eines Outdoor Mapping Events:
 
 Nachfolgend eine Tabelle als Übersicht über die Zeitplanung des Events. 
 Es gibt verschiedene Möglichkeiten, je nachdem ob Sie einen Outdoor Mapping 
-Event planen im Rahmen ( A ) des regulären Unterrichts, ( B ) einer Projektwoche an 
-der Schule, oder ( C ) einer Projektwoche ausserhalb der Schule, dann sind das 
+Event planen im Rahmen (A.) des regulären Unterrichts, (B.) einer Projektwoche an 
+der Schule, oder (C.) einer Projektwoche ausserhalb der Schule, dann sind das 
 hier unsere geschätzten Zeitangaben:
 
 [cols="1,1,1,1", options="header"] 
@@ -130,9 +133,12 @@ Unterlagen, sondern auch das Durchführen eines Testlaufs.
 Gehen Sie auf einen Spaziergang und wenden Sie Ihr neu erworbenes Wissen auf 
 Ihre Umgebung an. 
 Erkunden Sie die Umgebung aus Sicht eines Kartografierers. 
+
 Nehmen Sie Stift und Papier mit auf den Spaziergang. 
 Nutzen Sie dafür die Kartenwerkzeuge uMap oder Field Papers, wie unten 
 beschrieben. 
+Recherchieren Sie, welche Objekte die Teilnehmenden kartieren könnten (unten 
+gibt es weitere Hinweise dazu).
 
 Es gäbe auch die Möglichkeit das Smartphone zu nutzen, beispielsweise mit der 
 App "OSMTracker for Android".
@@ -166,7 +172,8 @@ beträchtlich sein.
 
 Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
 sogenannter "Changeset-Kommentar" nötig.
-Ein Beispiel für ein Changeset-Kommentar ist "Hausnummern Bahnhofstrasse ergänzt".
+Ein Beispiel für ein Changeset-Kommentar ist _Hausnummern Bahnhofstrasse ergänzt_
+oder _Outdoor-Event Kanti X 2019_.
 Im folgenden Kapitel "Vorbereitungen" kommen wir nochmals auf diesen Kommentar 
 zurück.
 
@@ -207,13 +214,25 @@ E-Mail-Adressen einrichten können unter Berücksichtigung der Privatsphäre
 und des Datenschutzes: https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[GISWiki HSR].
 ====
 
+*Objekte festlegen, die kartiert werden sollen*: Es gibt mehr als 1000 
+Objektarten in OSM (sogenannte 'Tags'), so dass Sie den Teilnehmenden eine 
+Auswahl von Objekten vorschlagen sollten. 
+Im zugehörigen Arbeitsblatt "Die Umgebung selber kartografieren..." für 
+Schülerinnen und Schüler sowie Interessierte gibt es ein Kapitel "Was kann bei 
+Outdoor Events alles kartiert werden". 
+Zudem gibt es auf OpenSchoolMaps ein mehrseitiges "OpenStreetMap Tagging 
+Cheatsheet".
+Falls Sie glauben, dass in der gewählten Umgebung die meisten "naheliegenden" 
+Objekte bereits erfasst sind, und Sie nicht recht wissen, was noch zu tun sei, 
+dann können Sie sich an den oben erwähnten Kontakt bei der "Swiss OpenStreetMap
+Association" wenden.
+
 *Changeset-Kommentar festlegen*: Vor dem Speichern der editierten Daten ist bei 
 OpenStreetMap immer ein sogenannter "Changeset-Kommentar" nötig.
 Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
-Er sollte nictht länger als 32 Zeichen lang sein. 
-Ein Beispiel für ein Changeset-Kommentar ist _Hausnummern Bahnhofstrasse ergänzt_.
+Ein Beispiel für ein Changeset-Kommentar ist _Outdoor-Event Kanti X 2019_.
 
 *Event als Zusammenfassung ankündigen*: Auch OpenStreetMap kennt Regeln - 
 ähnlich wie eine Allmend oder ein Schulplatz. 
@@ -230,12 +249,12 @@ folgenden Kontakt zu mailen: https://sosm.ch/de/kontakt/[SOSM].
 ====
 *Zusammenfassung (Summary) des Outdoor Mapping Events:* 
 
-Name des Events: ... _(z.B. Outdoor Event Rappi)_ +
-Durchführungsdatum (date): ... _(z.B. 2019-06-11)_ +
-Changeset-Kommentar: ... _(max. 32 Zeichen! z.B. Hausnummern Bahnhofstrasse ergänzt)_ +
-Instruktor (coordinator): ... _(z.B. Username Geonick)_ +
-Teilnehmende (participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_ +
-Ziele (goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
+a. Name des Events: ... _(z.B. Outdoor Event Rappi)_ +
+b. Durchführungsdatum (date): ... _(z.B. 2019-06-11)_ +
+c. Changeset-Kommentar: ... _(max. ca. 50 Zeichen! z.B. Outdoor-Event Kanti X 2019)_ +
+d. Instruktor (coordinator): ... _(z.B. Username Geonick)_ +
+e. Teilnehmende (participants): ..., ... _(z.B. Usernamen wie: Geonick, Username2, ...)_ +
+f. Ziele (goals): ... _(z.B. Die Umgebung von Rapperswil-Jona kartieren)_
 ====
 
 Zur Infrastruktur und Verbrauchsmaterial:
@@ -247,8 +266,8 @@ werden können.
 * Evtl. Unterlagen für die Kartennotizen beschaffen.
 * Genügend Schreib-Stifte 
 
-Beachten Sie auch die Checkliste zuhanden der Teilnehmenden im zugehörigen 
-Arbeitsblatt für Schülerinnen und Schüler sowie Interessierte.
+Beachten Sie auch die Checkliste zur Vorbereitung zuhanden der Teilnehmenden im 
+zugehörigen Arbeitsblatt für Schülerinnen und Schüler sowie Interessierte.
 
 == Gebiet einteilen und Kartenausschnitte drucken
 
