@@ -24,7 +24,7 @@ Lehrpersonen und Instruktoren.
 [NOTE]
 ====
 Lesen Sie auch das zugehörige Arbeitsblatt "Die Umgebung selber 
-kartografieren ..." für Schülerinnen und Schüler sowie Interessierte durch.
+kartografieren - Outdoor Mapping Event" für Schülerinnen und Schüler sowie für Interessierte durch.
 ====
 
 
@@ -44,7 +44,7 @@ gehalten werden.
 Es scheint uns sinnvoll, dass die Teilnehmenden ein Bewusstsein dafür 
 entwickeln, dass die Karte ihnen bzw. uns allen gehört und wir alle für deren 
 Qualität verantwortlich sind. 
-Die Teilnehmenden sollen die OSM verwenden und aktiv an der Verbesserung 
+Die Teilnehmenden sollen OSM verwenden und aktiv an der Verbesserung 
 mitarbeiten, beispielsweise im Urlaub, wenn die Gegend unzureichend erfasst ist.
 
 Und Kartografieren ist weder langweilig noch schwierig, darum sollte es jeder 
@@ -81,7 +81,6 @@ der Schule, oder (C.) einer Projektwoche ausserhalb der Schule.
 Dazu folgende geschätzte Zeitplanung:
 
 [cols="1,1,1,1", options="header"] 
-.Zeitplanung Übersicht. 
 |===
 |Phase
 |A. Regulärer Unterricht
@@ -114,6 +113,7 @@ Dazu folgende geschätzte Zeitplanung:
 |0.5 Tage
 
 |===
+.Zeitplanung Übersicht. 
 
 == Studium der Unterlagen
 
@@ -164,7 +164,7 @@ Kartografieren kann länger dauern als man denkt, deshalb planen Sie grosszügig
 == Integrieren der Daten in OpenStreetMap
 
 Nachdem Sie Ihre Daten gesammelt haben, gehen Sie auf https://www.osm.org[OSM.org]
-und tragen Sie Ihre Daten ein. 
+und tragen dort Ihre Daten ein. 
 
 Falls Sie noch kein Konto bei OpenStreetMap (OSM) haben, ist jetzt der Zeitpunkt 
 dafür, eines anzulegen. 
@@ -175,8 +175,8 @@ weitere Erklärungen, sowie das "OpenStreetMap Tagging Cheatsheet".
 Auch hier könnte es sich als Vorteil erweisen, wenn Sie schauen, 
 wie viel Zeit Sie benötigen. 
 Rechnen Sie zu ihrer gemessenen Zeit noch ein wenig dazu, denn die Teilnehmenden 
-sind wahrscheinlich nicht gleich schnell wie Sie und die Unterschiede können 
-beträchtlich sein. 
+sind wahrscheinlich nicht gleich schnell wie Sie und die Unterschiede
+innerhalb der Klasse können beträchtlich sein. 
 
 Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
 sogenannter "Changeset-Kommentar" nötig.
@@ -273,10 +273,10 @@ Internet, um auf OpenStreetMap.org die gesammelten Daten zu integrieren.
 * Im nachfolgenden Kapitel ist erklärt, wie gedruckte Kartenausschnitte erstellt 
 werden können. 
 * Evtl. Unterlagen für die Kartennotizen beschaffen.
-* Genügend Schreib-Stifte.
+* Genügend Schreibzeug.
 
 Beachten Sie auch die Checkliste zur Vorbereitung zuhanden der Teilnehmenden im 
-zugehörigen Arbeitsblatt für Schülerinnen und Schüler sowie Interessierte.
+zugehörigen Arbeitsblatt für Schülerinnen und Schüler sowie für Interessierte.
 
 == Gebiet einteilen und Kartenausschnitte drucken
 
@@ -285,7 +285,7 @@ Teilnehmenden nicht zu grosse Distanzen überwinden müssen.
 
 Zudem ist es sinnvoll, das Gebiet in kleinere Gebiete 
 (sogenannte "Perimeter") einzuteilen und den Gruppen zuzuweisen.
-Damit wird dieselbe Gegend nicht zweimal kartographiert.
+Damit wird dieselbe Gegend nicht zweimal kartografiert.
 
 Für die Gebietseinteilung eignen sich vor allem zwei Webapplikationen: 
 uMap und Field Papers:
@@ -318,17 +318,17 @@ eine Digitalkamera (z.B. Kamera im Smartphone).
 Nachfolgend ist der Ablauf mit Field Papers zusammengefasst:
 
 1. Rufen Sie http://fieldpapers.org/[Field Papers] auf 
-1. Registrieren Sie sich bei Field Papers wenn nötig. 
-1. Geben Sie der Karte einen Namen und navigieren Sie zum Gebiet, das Sie 
+2. Registrieren Sie sich bei Field Papers wenn nötig. 
+3. Geben Sie der Karte einen Namen und navigieren Sie zum Gebiet, das Sie 
 kartieren (lassen) wollen.
-1. Drucken Sie die Karten ("Atlas") aus.
-1. Gehen Sie nach draussen und notieren Sie, was Sie siehen.
-1. Zurück am Computer, schauen Sie sich entweder einfach die Papier-Notizen an 
-als Hilfsmittel;
-1. oder machen Sie ein Foto der Papier-Notizen (auch einscannen geht) und laden 
-Sie das Foto oder den Scan hoch auf Field Papers.
-1. Starten den iD-Editor und zwar direkt mit dem Weblink auf Field Papers.
-1. Erfasse die Daten mit dem OpenStreetMap-Editor. 
+4. Drucken Sie die Karten ("Atlas") aus.
+5. Gehen Sie nach draussen und notieren Sie, was Sie siehen.
+6. Zurück am Computer, schauen Sie sich entweder einfach die Papier-Notizen als 
+Hilfsmittel an;
+7. oder machen Sie ein Foto der Papier-Notizen (auch einscannen geht) und laden 
+Sie das Foto oder den Scan auf Field Papers hoch.
+8. Starten den iD-Editor und zwar direkt mit dem Weblink auf Field Papers.
+9. Erfasse die Daten mit dem OpenStreetMap-Editor. 
 
 Auf der http://fieldpapers.org/about[Webseite] von Field Papers und auf dem 
 https://wiki.openstreetmap.org/wiki/Field_Papers[OSM Wiki] gibt es weitere 
