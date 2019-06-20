@@ -146,7 +146,7 @@ Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten, ist das ganze s
 Nun gehen Sie unter _Export_ -> _Query_ auf _copy_ unter _convert to OverpassQL_.
 
 .Query aus Overpass-Turbo exportieren
-image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Abfrage", 395, 290]
+image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Abfrage", 290, 395]
 
 Ihnen wird eine URL in die Zwischenablage gespeichert.
 Gehen Sie nun in ihre uMap-Karte.
