@@ -21,6 +21,7 @@ sie frei - auch ausserhalb des Unterrichts! - nutzen und weitergeben kann und da
 
 ## News
 
+- Ende Mai 2019 ein weiteres Arbeitsblatt "OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen" hinzugefügt.
 - On May 8, 2019 further worksheets for QGIS 3 and Geoinformation Systems (GIS) added, namely "Spatial analysis with vector data - Motorway" and "Spatial analysis with raster data - Where the chamois live".
 - Am 2. Mai 2019 weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS) hinzugefügt und zwar "Raumanalyse Vektordaten - Autobahn" sowie "Raumanalyse Rasterdaten - Wo die Gämsen wohnen".
 - Workshop zu "OER in der Schule - OpenSchoolMaps und H5P" von Nicole Berva und Stefan Keller am Sa. 6. April 2019: "Open Education Day 2019" in Bern. <https://openeducationday.ch/>

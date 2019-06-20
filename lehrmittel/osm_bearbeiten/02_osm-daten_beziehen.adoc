@@ -11,23 +11,23 @@ Instruktoren/Lehrpersonen
 == Übersicht
 
 .Ziel
-Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten beziehen 
-und in QGIS 3 nutzen kann.
+Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten 
+beziehen und in QGIS 3 nutzen kann.
 
 .Zielgruppe
-Alle, die am Erstellen einer eigenen Karte (online, als druckbarer Plan) und die 
-am Analysieren von Geodaten interessiert sind.
+Alle, die am Erstellen einer eigenen Karte (online Webkarte, druckbarer Plan) 
+oder am Analysieren von weltwei frei verfügbaren Geodaten interessiert sind.
 
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
 unterschiedlich viel Zeit, da man einzelne Abschnitte überspringen kann,
-wenn man mit der jeweiligen Thematik schon vertraut ist.
+wenn sich nur für bestimmte Themen oder Lösungen interessiert.
 
 .Aufbau
 Folgende Themen werden behandelt:
 
-* Einleitung mit Erläuterungen zu OpenStreetMap und Geoinformationssysteme sowie 
-zu gängigen Dateiformaten
+* Einleitung mit Erläuterungen zu OpenStreetMap und Geoinformationssystemen 
+sowie zu gängigen Dateiformaten
 * OpenStreetMap-Daten mit Overpass extrahieren 
 * OpenStreetMap-Daten mit QuickOSM-Plugin direkt in QGIS importieren
 * Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
@@ -35,7 +35,7 @@ zu gängigen Dateiformaten
 * Mit QGIS Objekte filtern oder regelbasiert darstellen
 
 Wir empfehlen mindestens die Einleitung zu lesen und das Kapitel 
-OpenStreetMap-Daten mit Overpass extrahieren.
+"OpenStreetMap-Daten mit Overpass extrahieren".
 
 [NOTE]
 ====
@@ -74,19 +74,17 @@ Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten
 in QGIS importiert. 
 Die erste Methode funktioniert mittels Overpass-Turbo, einem Webdienst zur 
 Abfrage von OpenStreetMap-Daten. 
-Diese Methode empfehlen wir dir anzuschauen, da sie die effizienteste aller 
-vorgestellten Methoden ist. 
-Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, in welchem sich 
-Abfragen erstellen lassen. 
-Falls du den Overpass-Turbo-Abschnitt liest oder gelesen hast, kannst du den 
-Abschnitt mit QuickOSM als optional betrachten. 
+Diese Methode empfehlen wir dir zuerst anzuschauen, da sie die effizienteste 
+aller vorgestellten Methoden ist. 
+Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, mit dem sich 
+OpenStreetMap-Abfragen direkt in QGIS erstellen lassen. 
+Es wird jedem selber überlassen, welche Methode er einsetzen will. 
 
-Nach den beiden Inport-Methoden werden weitere Tools vorgestellt, beispielsweise 
-das HOT Export Tool oder OSMaxx. 
+Nach den beiden Import-Methoden werden verschiedene Web-Tools vorgestellt zum 
+Download von OpenStreetMap-Daten. 
 
-Als letztes Kapitel erfährst du, wie man in QGIS verschiedenartige Layer zusammenführt. 
-Auf dieses Kapitel wird am Ende der restlichen Kapitel verwiesen, also kommst du 
-dort fürher oder später vorbei.
+In den beiden letzten Kapitel erfährst du, wie man in QGIS die importierten 
+Geodaten nachbearbeitet.
 
 == OpenStreetMap-Daten mit Overpass extrahieren 
 
@@ -227,27 +225,75 @@ Nun solltest du folgende Layer haben:
 .Ergebnisse der QuickOSM-Abfragen
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Damit ist dieses Kapitel abgeschlossen, wobei typischerweise noch einige 
+Nachbearbeitungsarbeiten nötig sind. Diese Nachbearbeitungsarbeiten sind in der 
+Einleitung des nächsten Kapitels beschrieben.
+
 
 == Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
 
-In diesem Kapitel haben wir verschiedene Web-Tools zum Download von 
+In diesem Kapitel sind verschiedene Web-Tools zum Download von 
 OpenStreetMap-Daten zusammengestellt. 
-Keines dieser Tools ist gleich. 
-Einige verlangen, dass man sich registriert und alle kostenlos zugänglich und 
-werden ohne Gewähr zur Verfügung gestellt.
+Die einen bieten ganze Länder an, die anderen benutzerdefinierte Aussschnitte. 
+Die Exportformate sind unterschiedlich und einige verlangen, dass man sich 
+registriert. Alle sind kostenlos zugänglich - jedoch ohne Gewähr für einen
+unterbruchsfreien Betrieb.
+
+[NOTE]
+====
+Wie in der Einleitung erwähnt, gibt es kein  einheitliches "GIS"-Datenschema für 
+OSM und darum ist kaum ein Export aus OSM gleich wie der andere. 
+Es ist darum wichtig die jeweilige Dokumentation der Web-Tools zu konsultieren.
+====
+
+Dann gibt es typischerweise noch Nachbearbeitungsarbeiten im GIS:
+
+1. Die Geodaten (Layer) auf das Gebiet begrenzen, das dargestellt oder analysiert 
+werden soll. 
+1. Oft gibt es OSM-Objekte gleicher Art - wie beispielsweise 
+Bäckereien - bei denen die einen im Punkt-Layer, die anderen im Polygon-Layer 
+erscheinen. Diese möchte man aber einheitlich verwalten und wandelt die 
+flächenhaften Objekte in Punkt-Objekte und fügte diese dem Punkt-Layer hinzu. 
+1. Einige Geodaten (Layer) enthalten Objekte verschiedener Art, beispielsweise 
+Shop der Art Bäckerei und der Art Supermarkt. Diese möchte man gefiltert 
+analysieren und/oder darstellen.
+
+Zum ersten Problem verweisen wir an dieser Stelle auf das QGIS-Menü 
+"Geoverarbeitungswerkzeuge" und den Algorithmus "Zuschneiden". 
+Dieser Algorithmus verlangt die Angabe eines Überlagerungslayers, ein Perimeter, 
+was typischerweise eine Verwaltungsgrenze ist (also z.B. Uster) 
+
+[NOTE]
+====
+Extrahieren von Verwaltungsgrenzen als GeoJSON:
+Suche zuerst die "Relation Id" in OpenStreetMap, z.B. http://www.openstreetmap.org/relation/1682225[Uster (1682225)].
+Gehe dann zu http://overpass-turbo.eu/?template=type-id&type=relation&R&id=1682225[Overpass-Turbo] 
+mit dieser "Relation ID".
+Exportiere aus Overpass-Turbo dann eine GeoJSON-Datei (z.B. uster.geojson).
+Vereinfache die Geometry eventuell mit http://www.mapshaper.org/[Mapshaper].
+====
+
+Zu den zwei anderen Problemen folgender Hinweis:
+
+[NOTE]
+====
+Nachbearbeitung der Geodaten: 
+Wenn du wissen möchtest wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
+schaue unten im Kapitel "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
+nach. 
+Wenn du erfahren möchtest, wie man Objekte filtert, dann springe zum Kapitel 
+unten "Mit QGIS Objekte filtern oder regelbasiert darstellen".
+====
 
 === OSM.org
 
-Auf https://openstreetmap.org kann manDaten auch herunter laden.
-Diese können aber nur als quadratische Ausschnitte und bis max. 50'000 Nodes 
-bezogen werden und zudem nur im `OSM XML`-Format.
+Auf https://osm.org[OSM.org] kann man Daten auch herunterladen.
+Diese können nur als quadratische Ausschnitte (Bounding Box) und bis 
+max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
+Dafür sind die Daten aktuell.
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
+diesem Kapitel.
 
 === Geofabrik Downloads
 
@@ -266,21 +312,21 @@ Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat
 muss man mindestens einen Tag warten bis sie auch auf Geofabrik verfügbar sind.
 Stelle sicher welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
 
-Das Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer ('Feature-Klassen') strukturiert. 
-Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM Tag shop=bakery) 
+Das Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
+('Feature-Klassen') strukturiert. 
+Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM-Tag shop=bakery) 
 oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des 
 "Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
 - oder aber die Daten selber - konsultieren.
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
+diesem Kapitel.
 
 === HOT Export Tool
 
 Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT Export Tool 
 einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
-Um das HOT ExportTool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
+Um das HOT Export Tool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
 und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
 bereit sind zum Herunterladen.
 Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
@@ -292,9 +338,10 @@ Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
 
 Tabulator 1 und 4 sollen nachfolgend etwas genauer beschrieben werden.
 
-Bei Tabulator 1  geht es darum, der zu exportierenden Datei einen Namen und eine 
-Beschreibung zu geben.
-Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in Uster.
+Bei Tabulator 1 "Exportbeschreibung" geht es darum, der zu exportierenden Datei 
+einen Namen und eine Beschreibung zu geben.
+Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in 
+Uster.
 
 .HOT Export Tool Tab 1 "Exportbeschreibung".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
@@ -332,11 +379,23 @@ Das HOT Export Tool erwartet nur einfache GeoJSON-Objekte (keine
 
 GeoJSON-Dateien von geojson.io und anderen Quellen müssen darum von Hand nochmals 
 angepasst werden.
-Öffne darum die GeoJSON-Datei in einen Texteditor und vereinfache die Struktur
-ähnlich wie im folgenden Bild.
+Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
+zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
-.Einzelnes GeoJSON-Objekt für das HOT Export Tool
+Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
+    {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [8.67750, 47.32015],
+          [8.76042, 47.32015],
+          [8.76042, 47.38387],
+          [8.67750, 47.38387],
+          [8.67750, 47.32015]
+        ]
+      ]
+    }
 
 Machen wir wieder weiter mit dem HOT Export Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
@@ -367,7 +426,13 @@ folgendes ein:
        - shop
        - opening_hours
      where: shop IN ('bakery','supermarket')
- 
+
+CAUTION: YAML ist eine vereinfachte Code-Auszeichnungssprache, angelehnt u.a. 
+an XML. 
+Die YAML-Syntax verwendet Einrückungen. 
+Dazu sollte man nur Leerzeichen verwenden (keine Tabulatoren).
+Mit der Webseite http://www.yamllint.com/[YAML Lint] kann man YAML validieren.
+
 Das Ganze sieht dann so aus:
 
 .HOT Export Tool Tab 3 "Data".
@@ -375,8 +440,8 @@ image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
 GeoPackage exportieren. 
-Darum gehen wir weiter zu Tab 4. 
-Das Letzte was wir jetzt noch vor dem Exportieren machen müssen ist auf der 
+Darum gehen wir weiter zu Tab 4 "Summary". 
+Das Letzte was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
 rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 
 .HOT Export Tool Uster
@@ -388,9 +453,8 @@ klicken (siehe unten).
 .HOT Export Tool Tab 4 "Summary".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
+diesem Kapitel.
 
 === OSMaxx
 
@@ -415,12 +479,12 @@ Details angezeigt werden sollen.
 
 Das Exportieren der Daten geht mindestens etwa 45 Minuten. 
 
-Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum Beispiel
-Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema dokumentiert ist.
+Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum 
+Beispiel Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema 
+dokumentiert ist.
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
+diesem Kapitel.
 
 === BBBike
 
@@ -428,7 +492,8 @@ BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen
 verschiedenen Dateiformaten an.
 
 Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
-Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512mb als Datei.
+Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512 Megabytes als 
+Datei.
 Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
 Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
@@ -438,21 +503,20 @@ oder Shapefile steckt, findest du hier:
 * http://www.geopackage.org/spec/
 * https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
 
-Wenn du wissen möchtest wie zu Polygon-Layer in Punkte-Layer verwandelst oder 
-Objekte filterst, schaue in den Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-oder "Mit QGIS Objekte filtern oder regelbasiert darstellen" nach.
+Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
+diesem Kapitel.
 
 
 == Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 
 Bei OSM kommt es immer wieder vor, dass ein Objekt - wie beispielsweise eine 
-Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) erfasst 
-wird. 
-Darum kommt es oft vor, dass man im GIS Polygon-Layer erhält mit denselben 
+Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) 
+erfasst wird. 
+Darum kommt es vor, dass man im GIS Polygon-Layer erhält mit denselben 
 Objektarten wie im Punkte-Layer.
 Eigentlich will man aber alle Objekte einheitlich und alle auf einmal ansprechen.
 
-Also gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
+Also, gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
 Polygon-Layer in Punkt umwandeln und können diese dann im Punkte-Layer 
 integrieren. 
 
@@ -538,8 +602,8 @@ Alle anderen Objekte sind nicht mehr Teil der Datenquelle des Layers:
 .Bäckereien in Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
 
-Wie du oben siehst, solltest du nun den Layer entsprechend von "Brotverkaufsstellen" 
-in "Bäckereien" umbenennen.
+Wie du oben siehst, solltest du nun den Layer entsprechend von 
+"Brotverkaufsstellen" in "Bäckereien" umbenennen.
 
 === Mit QGIS Objekte regelbasiert darstellen
 
@@ -600,8 +664,8 @@ Vielleicht hast du es schon bemerkt, denn im Gegensatz dazu verändert sich die
 Anzahl Objekte beim einfachen filtern (siehe oben). 
 Dort werden nicht nur die 10 Bäckereien dargestellt, sondern die Objektanzahl 
 verringert sich auch auf 10. 
-Dies ist ein besonderer Unterschied zwischen dem "normalen" Filtern und der regelbasierten 
-Darstellung. 
+Dies ist ein besonderer Unterschied zwischen dem "normalen" Filtern und der 
+regelbasierten Darstellung. 
 Sehen wir uns noch eine andere Möglichkeit an.
 
 Angenommen, wir möchten nach wie vor alle Objekte anzeigen und nur einen Teil 
