@@ -559,7 +559,7 @@ Im linken Listenmenü klicken wir dann auf "Darstellung" (dritter Eintrag).
 Nun sollte es bei dir so aussehen:
 
 .Darstellung von Objekten
-image::osm_editieren/osm-daten_beziehen/single_symbol.PNG[]
+image::osm_editieren/osm-daten_beziehen/single_symbol.PNG["single_symbol_menu", 590, 357]
 
 Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". 
 Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
