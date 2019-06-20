@@ -148,7 +148,7 @@ Das Fenster, das erscheint, gibt uns verschiedene Exportmöglichkeiten:
 Wir wählen die oberste, also "Speichern als GeoJSON".
 
 .Overpass Export
-image::osm_editieren/osm-daten_beziehen/overpass_export.PNG["Overpass Export Dialog", 290, 395]
+image::osm_editieren/osm-daten_beziehen/overpass_export.PNG["Overpass-Export-Dialog", 290, 395]
 
 Das heruntergeladene GeoJSON-File fügen wir nun mittels Drag & Drop in das linke 
 Layermenü in QGIS ein.
