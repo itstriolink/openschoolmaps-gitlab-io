@@ -67,7 +67,7 @@ zusammengestellt:
 [NOTE]
 ====
 Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue das Arbeitsblatt 
-"Webseite OSM.org kennenlernen" an auf https://www.openschoolmaps.ch[OpenSchoolMaps].
+"Webseite OSM.org kennenlernen" auf https://www.openschoolmaps.ch[OpenSchoolMaps] an.
 ====
 
 === Was wird kartiert? Was nicht?
@@ -161,7 +161,7 @@ Erfahrung als Stift und Papier.
 
 * Gedruckte Karte, auf der man Notizen machen kann (mindestens eine pro Gruppe)
 * Evtl. eine harte Kartenunterlage
-* Stifte 
+* Schreibzeug
 * Evtl. Smartphone oder Fotoapparat z.B. zum Fotografieren von Öffnungszeiten
 * (Evtl. eine Powerbank für das Smartphone falls das GPS verwendet wird)  
 * (Die Lehrperson oder der Instruktor hat eventuell weitere Dinge, die zu 
@@ -187,8 +187,8 @@ gehe zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
 Oben rechts siehst du nun einen "Registrieren"-Button. 
 Klicke drauf, nun musst du eine Email eingeben und einen Benutzernamen und ein 
 Passwort setzen. 
-Per Email musst du dann die Angaben bestätigen, indem du auf einen Link klickst
-und danach ist dein Konto auch schon eingerichtet. 
+Per Email musst du dann die Angaben bestätigen, indem du auf einen Link klickst. 
+Danach ist dein Konto auch schon eingerichtet. 
 
 Jetzt kannst du mit dem Editieren beginnen. Also los!
 
