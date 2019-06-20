@@ -527,7 +527,7 @@ ein:
 Das Fenster sollte dann folgendermassen ausschauen:
 
 .Objekte filtern
-image::osm_editieren/osm-daten_beziehen/filtern.PNG[]
+image::osm_editieren/osm-daten_beziehen/filtern.PNG["Objekte filtern", 490, 407]
 
 Nun klickst du auf "OK". 
 Du solltest nun die Meldung bekommen, dass ca. 10 Objekte gefunden wurden, 
