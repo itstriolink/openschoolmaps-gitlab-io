@@ -610,14 +610,14 @@ Lösche die Regel, die wir vorhin auf die Objekte angewendet haben, wieder.
 Dann starten wir ab folgender Ansicht:
 
 .Objekte ohne Filter
-image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG["Objekte ohne Filter", 630, 381]
 
 Unten links klicken wir auf das Plus-Zeichen. 
 Jetzt haben wir unsere Objekte kopiert und wenden auf diese Kopie die Regel an. 
 Also auch wieder folgendes eingeben und dann auf "OK" klicken:
 
 .Edit Rule Dialog
-image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 260]
 
 Nun klicken wir auf "Anwenden" und dann auf "OK". 
 Jetzt sollte es im QGIS so aussehen:
