@@ -336,7 +336,7 @@ angepasst werden.
 ähnlich wie im folgenden Bild.
 
 .Einzelnes GeoJSON-Objekt für das HOT Export Tool
-image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 250, 324]
+image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
 
 Machen wir wieder weiter mit dem HOT Export Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
