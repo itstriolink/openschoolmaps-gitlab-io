@@ -220,7 +220,7 @@ Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite Abfrage, um
 nach Supermärkten zu suchen:
 
 .Supermarket-Abfrage
-image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
+image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG["Supermarket-Abfrage", 500, 316]
 
 Nun solltest du folgende Layer haben:
 
