@@ -202,7 +202,7 @@ gleich nach dem Registrieren der Fall - dann erscheint ein Fenster "Willkommen
 beim iD OpenStreetMap Editor". 
 
 .iD OpenStreetMap Editor
-image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG[]
+image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["iD OpenStreetMap Editor", 276, 500]
 
 Mit dem OpenStreetMap iD Editor kann man neue Objekte erstellen und neue Daten 
 auf diesen Objekten erfassen. 
