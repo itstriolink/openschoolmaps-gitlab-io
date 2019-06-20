@@ -582,7 +582,7 @@ In das Textfeld neben "Filter" geben wir nun wieder folgendes ein:
 Das sieht dann so aus:
 
 .Edit Rule Dialog
-image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 260]
 
 Nun klicken wir auf "OK". 
 Wir sehen, dass im Eintrag nun nicht mehr "(kein Filter)" steht, sondern 
