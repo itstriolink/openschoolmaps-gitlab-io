@@ -214,7 +214,7 @@ Nun öffnen wir das Plugin indem wir in der Menüleiste auf "Vektor" und dann au
 Danach geben wir folgende Abfrage ein, um nach Bäckereien in Uster zu suchen:
 
 .Bakery-Abfrage
-image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
+image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG["Bakery-Abfrage", 500, 316]
 
 Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite Abfrage, um 
 nach Supermärkten zu suchen:
