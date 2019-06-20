@@ -108,7 +108,7 @@ Als Ortschaft nehmen wir als Beispiel Uster.
 Die Abfrage sieht wie folgt aus (_bakery or supermarket in Uster_):
 
 .Overpass-Turbo Wizard-Abfrage
-image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG[]
+image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG["Wizard-Abfrage", 280, 240]
 
 Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes:
 
