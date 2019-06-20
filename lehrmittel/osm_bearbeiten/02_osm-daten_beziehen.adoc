@@ -175,7 +175,7 @@ Das Format belassen wir als GeoPackage und klicken dann auf "Ok".
 Unten siehst du noch das Exportfenster:
 
 .Als GeoPackage exportieren
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG["brotverkaufsstellen_gpkg", 480, 376]
 
 Sehr gut, du hast es geschafft OpenStreetMap-Daten in QGIS zu importieren und 
 als neues Format abzuspeichern.
