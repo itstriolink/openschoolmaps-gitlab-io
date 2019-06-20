@@ -569,7 +569,7 @@ Jetzt, da wir "Rule-based" selektiert haben, können wir Regeln (Ausdrücke)
 definieren, um die Objekte je nach Attributwert verschiedenen Symbolen zuzuordnen.
 
 .Objekte ohne Filter
-image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG["Objekte ohne Filter", 650, 393]
 
 Im oberen Bild siehst du, dass wir einen Eintrag haben. 
 Dieser Eintrag beinhaltet alle 27 Objekte, und wir sehen, dass keine Regeln auf 
