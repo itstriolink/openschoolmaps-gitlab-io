@@ -228,3 +228,5 @@ Nun solltest du wissen, wie Kartieren geht.
 Falls du Hilfe benötigst, schaue auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
 unter "Unterrichtsmaterialien" im Arbeitsblatt "OpenStreetMap bearbeiten" nach.
 ====
+
+include::../../snippets/quellenangabe.adoc[]
