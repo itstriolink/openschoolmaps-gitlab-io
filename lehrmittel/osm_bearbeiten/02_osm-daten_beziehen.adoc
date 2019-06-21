@@ -387,18 +387,6 @@ zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
 .Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png[]
-    {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [8.67750, 47.32015],
-          [8.76042, 47.32015],
-          [8.76042, 47.38387],
-          [8.67750, 47.38387],
-          [8.67750, 47.32015]
-        ]
-      ]
-    }
 ====
 
 Machen wir wieder weiter mit dem HOT-Export-Tool.
