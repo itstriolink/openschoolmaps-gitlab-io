@@ -120,13 +120,16 @@ Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten, könnten wir mittels
 `out center;` alle Flächen und Pfade in Punkte verwandeln.
 Die neue Abfrage sollte somit folgendermassen aussehen.
 
-  [out:json][timeout:25];
-  {{geocodeArea:Uster}}->.searchArea;
-  (
-    nwr["shop"="bakery"](area.searchArea);
-    nwr["shop"="supermarket"](area.searchArea);
-  );
-  out center;
+[source,overpass]
+----
+[out:json][timeout:25];
+{{geocodeArea:Uster}}->.searchArea;
+(
+  nwr["shop"="bakery"](area.searchArea);
+  nwr["shop"="supermarket"](area.searchArea);
+);
+out center;
+----
 
 Wenn wir jetzt die oberen Zeilen kopieren und ins Overpass-Turbo als Abfrage 
 einfügen und ausführen, erhält man folgendes:
@@ -384,18 +387,21 @@ zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
 Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
-    {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [8.67750, 47.32015],
-          [8.76042, 47.32015],
-          [8.76042, 47.38387],
-          [8.67750, 47.38387],
-          [8.67750, 47.32015]
-        ]
-      ]
-    }
+[source,json]
+----
+{
+  "type": "Polygon",
+  "coordinates": [
+    [
+      [8.67750, 47.32015],
+      [8.76042, 47.32015],
+      [8.76042, 47.38387],
+      [8.67750, 47.38387],
+      [8.67750, 47.32015]
+    ]
+  ]
+}
+----
 
 Machen wir wieder weiter mit dem HOT Export Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
@@ -406,26 +412,29 @@ image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 Bei Tabulator 3 "Data" wechselst du in den Register "YAML" und fügst dort 
 folgendes ein:
 
-    gastronomy:
-     types:
-       - points
-       - polygons
-     select:
-       - name
-       - addr:city
-       - amenity
-       - opening_hours
-     where: amenity IN ('restaurant','fast_food','cafe','bar','pub')
-    bakeries:
-     types:
-       - points
-       - polygons
-     select:
-       - name
-       - addr:city
-       - shop
-       - opening_hours
-     where: shop IN ('bakery','supermarket')
+[source,yaml]
+----
+gastronomy:
+ types:
+   - points
+   - polygons
+ select:
+   - name
+   - addr:city
+   - amenity
+   - opening_hours
+ where: amenity IN ('restaurant','fast_food','cafe','bar','pub')
+bakeries:
+ types:
+   - points
+   - polygons
+ select:
+   - name
+   - addr:city
+   - shop
+   - opening_hours
+ where: shop IN ('bakery','supermarket')
+----
 
 CAUTION: YAML ist eine vereinfachte Code-Auszeichnungssprache, angelehnt u.a. 
 an XML. 
@@ -583,7 +592,10 @@ Attribute und Werte
 Im Eingabefeld "Datenanbieter-spezifischer Filterausdruck" geben wir folgendes 
 ein:
 
-    "shop"='bakery'
+[source,sql]
+----
+"shop"='bakery'
+----
 
 "shop" ist das Attribut (beachte die doppelten Anführungszeichen). 
 'bakery' ist der Wert (beachte die einfachen Anführungszeichen).
