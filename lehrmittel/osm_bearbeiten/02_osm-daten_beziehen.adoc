@@ -370,7 +370,9 @@ _This View_ gedrückt werden.
 Wenn du eine GeoJSON-Datei hochladen möchtest, kannst du dies mit der 
 Schaltfläche _Import_ machen.
 
-NOTE: An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt.
+[NOTE]
+====
+An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt.
 
 http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
 editieren kann.
@@ -383,8 +385,8 @@ angepasst werden.
 Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
 zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
-//.Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
-// image::osm_editieren/osm-daten_beziehen/json_format.png[]
+.Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
+image::osm_editieren/osm-daten_beziehen/json_format.png[]
     {
       "type": "Polygon",
       "coordinates": [
@@ -397,6 +399,7 @@ zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
         ]
       ]
     }
+====
 
 Machen wir wieder weiter mit dem HOT-Export-Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
