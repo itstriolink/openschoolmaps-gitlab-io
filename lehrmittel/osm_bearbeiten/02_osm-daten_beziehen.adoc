@@ -94,7 +94,7 @@ Zudem müssen wir wissen, was für Daten dieser Ortschaft wir bearbeiten möchte
 Deshalb werden wir in allen folgenden Abschnitten Uster (Kanton ZH) als Ortschaft verwenden 
 und die Daten die uns interessieren wären Brotverkaufsstellen. Als Brotverkaufsstellen 
 definieren wir hier Bäckereien und Supermärkte, da beide sowohl selbst Brot herstellen 
-wie auch verkaufen. Nun können wir zu den Aufgaben übergehen.
+wie auch verkaufen. Nun da alles klar sein sollte, fangen wir doch am Besten an!
 
 Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu 
 importieren, ist mittels Overpass-Turbo.
