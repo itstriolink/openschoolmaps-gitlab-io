@@ -277,11 +277,21 @@ was typischerweise eine Verwaltungsgrenze ist (also z.B. Uster)
 [NOTE]
 ====
 Extrahieren von Verwaltungsgrenzen als GeoJSON:
-Suche zuerst die "Relation ID" in OpenStreetMap, z.B. http://www.openstreetmap.org/relation/1682225[Uster (1682225)].
-Gehe dann zu http://overpass-turbo.eu/?template=type-id&type=relation&R&id=1682225[Overpass-Turbo] 
-mit dieser "Relation ID".
+Suche zuerst die "Relation ID" in OpenStreetMap, http://www.openstreetmap.org/relation/1682225[Uster].
+Jetzt siehst du auf der linken Sidebar den Eintrag "wikidata    Q64032". Mit dieser Information 
+erzeugen wir nun folgendes Query:
+
+    [out:json][timeout:25];
+    (
+        // query part for: “wikidata=Q64032”
+        relation["wikidata"="Q64032"];
+    );
+    out body;
+    >;
+    out skel qt;
+
+Gehe dann zu http://overpass-turbo.osm.ch/ und gib dort das Query ein und klicke auf "Ausführen".
 Exportiere aus Overpass-Turbo dann eine GeoJSON-Datei (z.B. uster.geojson).
-Vereinfache die Geometry eventuell mit http://www.mapshaper.org/[Mapshaper].
 ====
 
 Zu den zwei anderen Problemen folgender Hinweis:
