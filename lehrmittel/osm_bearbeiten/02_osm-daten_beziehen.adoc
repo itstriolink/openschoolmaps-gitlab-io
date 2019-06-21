@@ -66,7 +66,7 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 
 * OSM-spezifische Formate sind v.a. OSM XML, und OSM PBF.
 * GIS-kompatible Formate sind GeoJSON, Geopackage (sowie verwandt: MBTile/SQLite), 
-Shapefiles, GeoJSON (TopoJSON).
+Shapefiles, GeoJSON.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
 
@@ -103,21 +103,21 @@ Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
 Da wir als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien 
 und Supermärkten, da beide Brot verkaufen.
 Als Ortschaft nehmen wir als Beispiel Uster. 
-Die Abfrage sieht wie folgt aus (_bakery or supermarket in Uster_):
+Die Abfrage sieht wie folgt aus (`bakery or supermarket in Uster`):
 
 .Overpass-Turbo Wizard-Abfrage
-image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG[]
+image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG["Wizard-Abfrage", 280, 240]
 
 Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes:
 
 .Resultat der Wizard-Abfrage
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
-Das obige Resultat kann man auch vereinfachen, indem man die "nodes", "ways" und 
-"relations" zu "nwr" (=noses/ways/relations) ersetzt bzw. zusammenfasst.
+Das obige Resultat kann man auch vereinfachen, indem man die `nodes`, `ways` und 
+`relations` zu `nwr` (=noses/ways/relations) ersetzt bzw. zusammenfasst.
 Unten rechts sieht man rot markiert die verschiedenen Objekte. 
 Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten, könnten wir mittels 
-"out center;" alle Flächen und Pfade in Punkte verwandeln.
+`out center;` alle Flächen und Pfade in Punkte verwandeln.
 Die neue Abfrage sollte somit folgendermassen aussehen.
 
 [source,overpass]
@@ -139,7 +139,7 @@ image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 
 Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs 
 bestehen.
-Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone mittels "out center" 
+Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone mittels `out center` 
 in POIs umgewandelt haben und Overpass diese 5 neuen POIs zu den bestehenden 22 
 POIs addiert hat.
 
@@ -149,7 +149,7 @@ Das Fenster, das erscheint, gibt uns verschiedene Exportmöglichkeiten:
 Wir wählen die oberste, also "Speichern als GeoJSON".
 
 .Overpass Export
-image::osm_editieren/osm-daten_beziehen/overpass_export.PNG[]
+image::osm_editieren/osm-daten_beziehen/overpass_export.PNG["Overpass-Export-Dialog", 290, 395]
 
 Das heruntergeladene GeoJSON-File fügen wir nun mittels Drag & Drop in das linke 
 Layermenü in QGIS ein.
@@ -176,7 +176,7 @@ Das Format belassen wir als GeoPackage und klicken dann auf "Ok".
 Unten siehst du noch das Exportfenster:
 
 .Als GeoPackage exportieren
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG["brotverkaufsstellen_gpkg", 480, 376]
 
 Sehr gut, du hast es geschafft OpenStreetMap-Daten in QGIS zu importieren und 
 als neues Format abzuspeichern.
@@ -215,13 +215,13 @@ Nun öffnen wir das Plugin indem wir in der Menüleiste auf "Vektor" und dann au
 Danach geben wir folgende Abfrage ein, um nach Bäckereien in Uster zu suchen:
 
 .Bakery-Abfrage
-image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG[]
+image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG["Bakery-Abfrage", 500, 316]
 
 Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite Abfrage, um 
 nach Supermärkten zu suchen:
 
 .Supermarket-Abfrage
-image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG[]
+image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG["Supermarket-Abfrage", 500, 316]
 
 Nun solltest du folgende Layer haben:
 
@@ -291,7 +291,7 @@ unten "Mit QGIS Objekte filtern oder regelbasiert darstellen".
 === OSM.org
 
 Auf https://osm.org[OSM.org] kann man Daten auch herunterladen.
-Diese können nur als quadratische Ausschnitte (Bounding Box) und bis 
+Diese können nur als rechteckige Ausschnitte (Bounding Box) und bis 
 max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
 Dafür sind die Daten aktuell.
 
@@ -317,8 +317,8 @@ Stelle sicher welche Daten du herunterlädst, da einige mehrere Gigabyte gross s
 
 Das Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
 ('Feature-Klassen') strukturiert. 
-Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM-Tag shop=bakery) 
-oder Supermärkte (Tag shop=supermarket) musst du die Dokumentation des 
+Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM-Tag `shop=bakery`) 
+oder Supermärkte (Tag `shop=supermarket`) musst du die Dokumentation des 
 "Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
 - oder aber die Daten selber - konsultieren.
 
@@ -335,9 +335,9 @@ bereit sind zum Herunterladen.
 Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
 
 1. Exportbeschreibung
-1. Formate
-1. Data
-1. Summary 
+2. Formate
+3. Data
+4. Summary 
 
 Tabulator 1 und 4 sollen nachfolgend etwas genauer beschrieben werden.
 
@@ -385,8 +385,8 @@ angepasst werden.
 Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
 zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
-//.Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
-// image::osm_editieren/osm-daten_beziehen/json_format.png[]
+Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
+image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
 [source,json]
 ----
 {
@@ -545,7 +545,7 @@ dann zu "Vektorlayer zusammenführen".
 Im Dialogfenster wählst du die vier Layer aus:
 
 .Mehrere Layer zu einem einzigen Layer zusammenführen
-image::osm_editieren/osm-daten_beziehen/layer_merge.PNG[]
+image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG["vektorlayer_zusammenfuehren", 480, 317]
 
 Nachdem du das ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
 Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
@@ -603,7 +603,7 @@ ein:
 Das Fenster sollte dann folgendermassen ausschauen:
 
 .Objekte filtern
-image::osm_editieren/osm-daten_beziehen/filtern.PNG[]
+image::osm_editieren/osm-daten_beziehen/filtern.PNG["Objekte filtern", 490, 407]
 
 Nun klickst du auf "OK". 
 Du solltest nun die Meldung bekommen, dass ca. 10 Objekte gefunden wurden, 
@@ -635,7 +635,7 @@ Im linken Listenmenü klicken wir dann auf "Darstellung" (dritter Eintrag).
 Nun sollte es bei dir so aussehen:
 
 .Darstellung von Objekten
-image::osm_editieren/osm-daten_beziehen/single_symbol.PNG[]
+image::osm_editieren/osm-daten_beziehen/single_symbol.PNG["single_symbol_menu", 590, 357]
 
 Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". 
 Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
@@ -645,7 +645,7 @@ Jetzt, da wir "Rule-based" selektiert haben, können wir Regeln (Ausdrücke)
 definieren, um die Objekte je nach Attributwert verschiedenen Symbolen zuzuordnen.
 
 .Objekte ohne Filter
-image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG["Objekte ohne Filter", 630, 381]
 
 Im oberen Bild siehst du, dass wir einen Eintrag haben. 
 Dieser Eintrag beinhaltet alle 27 Objekte, und wir sehen, dass keine Regeln auf 
@@ -658,11 +658,11 @@ In das Textfeld neben "Filter" geben wir nun wieder folgendes ein:
 Das sieht dann so aus:
 
 .Edit Rule Dialog
-image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 260]
 
 Nun klicken wir auf "OK". 
 Wir sehen, dass im Eintrag nun nicht mehr "(kein Filter)" steht, sondern 
-"shop"='bakery'. 
+`"shop"='bakery'`. 
 Jetzt klicken wir auf "Anwenden" und dann nochmals auf "OK". 
 Im QGIS sollte das nun so aussehen:
 
@@ -686,14 +686,14 @@ Lösche die Regel, die wir vorhin auf die Objekte angewendet haben, wieder.
 Dann starten wir ab folgender Ansicht:
 
 .Objekte ohne Filter
-image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG[]
+image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG["Objekte ohne Filter", 630, 381]
 
 Unten links klicken wir auf das Plus-Zeichen. 
 Jetzt haben wir unsere Objekte kopiert und wenden auf diese Kopie die Regel an. 
 Also auch wieder folgendes eingeben und dann auf "OK" klicken:
 
 .Edit Rule Dialog
-image::osm_editieren/osm-daten_beziehen/edit_rule.PNG[]
+image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 260]
 
 Nun klicken wir auf "Anwenden" und dann auf "OK". 
 Jetzt sollte es im QGIS so aussehen:
