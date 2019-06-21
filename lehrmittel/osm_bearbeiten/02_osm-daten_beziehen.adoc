@@ -86,9 +86,15 @@ Download von OpenStreetMap-Daten.
 In den beiden letzten Kapitel erfährst du, wie man in QGIS die importierten 
 Geodaten nachbearbeitet.
 
-== OpenStreetMap-Daten mit Overpass extrahieren 
+== OpenStreetMap-Daten mit Overpass extrahieren
 
-Vorab möchte ich kurz 
+Bevor wir uns auf die Aufgaben stürzen, müssen wir noch einige Unklarheiten klären. 
+Da wir mit Geodaten arbeiten, wäre es sinnvoll uns auf eine Ortschaft zu einigen. 
+Zudem müssen wir wissen, was für Daten dieser Ortschaft wir bearbeiten möchten.
+Deshalb werden wir in allen folgenden Abschnitten Uster (Kanton ZH) als Ortschaft verwenden 
+und die Daten die uns interessieren wären Brotverkaufsstellen. Als Brotverkaufsstellen 
+definieren wir hier Bäckereien und Supermärkte, da beide sowohl selbst Brot herstellen 
+wie auch verkaufen. Nun können wir zu den Aufgaben übergehen.
 
 Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu 
 importieren, ist mittels Overpass-Turbo.
