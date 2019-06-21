@@ -511,6 +511,11 @@ Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen
 Namen zugeteilt hast, kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
 
+Wenn du mehr zu BBBike erfahren möchtest, dann schaue doch unter folgendem Link 
+in der Dokumentation nach:
+
+* https://www.bbbike.org/api.html
+
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
 
