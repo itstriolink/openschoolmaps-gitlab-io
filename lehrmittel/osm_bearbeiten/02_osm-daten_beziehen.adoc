@@ -296,9 +296,20 @@ unten "Mit QGIS Objekte filtern oder regelbasiert darstellen".
 === OSM.org
 
 Auf https://osm.org[OSM.org] kann man Daten auch herunterladen.
-Diese können nur als quadratische Ausschnitte (Bounding Box) und bis 
+Diese können nur als rechteckige Ausschnitte (Bounding Box) und bis 
 max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
 Dafür sind die Daten aktuell.
+
+Um Daten in OSM herunterladen zu können, brauchst du keinen Account. 
+Klicke einfach oben links auf den Button "Export" und es erscheint auf der linken 
+Seite eine Sidebar. Nun siehst du dort die Bounding Box mit den Koordinaten. 
+Die Bounding Box umfasst die ganze OSM-Karte, die gerade sichtbar ist. Die 
+Koordinaten verändern sich wenn du die Karte verschiebst oder rein- und rauszoomst. 
+Falls du jedoch nicht die ganze sichtbare Karte exportieren möchtest, sondern nur einen 
+Ausschnitt, dann klicke unter der Bounding Box auf "Einen anderen Bereich manuell auswählen". 
+Jetzt kannst du nur den Ausschnitt exportieren, den du auch wirklich benötigst. Jetzt 
+klicke in der Sidebar nochmals auf "Export" und du erhältst eine .osm-Datei, die du 
+in QGIS importieren und bearbeiten könntest.
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
