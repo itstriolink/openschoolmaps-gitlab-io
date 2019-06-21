@@ -507,11 +507,6 @@ Datei.
 Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
 Namen zugeteilt hast, kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
-Die Dokumentation des Schemas, das hinter den GIS-Formaten wie z.B. GeoPackage 
-oder Shapefile steckt, findest du hier:
-
-* http://www.geopackage.org/spec/
-* https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
