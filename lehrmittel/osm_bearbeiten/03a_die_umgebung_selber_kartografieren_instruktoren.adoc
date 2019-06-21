@@ -327,8 +327,8 @@ kartieren (lassen) wollen.
 Hilfsmittel an;
 7. oder machen Sie ein Foto der Papier-Notizen (auch einscannen geht) und laden 
 Sie das Foto oder den Scan auf Field Papers hoch.
-8. Starten den iD-Editor und zwar direkt mit dem Weblink auf Field Papers.
-9. Erfasse die Daten mit dem OpenStreetMap-Editor. 
+8. Starten Sie den iD-Editor und zwar direkt mit dem Weblink auf Field Papers.
+9. Erfassen Sie die Daten mit dem OpenStreetMap-Editor. 
 
 Auf der http://fieldpapers.org/about[Webseite] von Field Papers und auf dem 
 https://wiki.openstreetmap.org/wiki/Field_Papers[OSM Wiki] gibt es weitere 
