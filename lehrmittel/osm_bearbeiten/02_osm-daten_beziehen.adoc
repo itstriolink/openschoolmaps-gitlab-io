@@ -70,6 +70,8 @@ Shapefiles und GeoJSON (TopoJSON).
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG und PDF.
 
+[NOTE]
+====
 Nachfolgend sind verschiedene Methoden beschrieben, um OpenStreetMap-Daten 
 in QGIS zu importiert. 
 Die erste Methode funktioniert mittels Overpass-Turbo, einem Webdienst zur 
@@ -85,6 +87,7 @@ Download von OpenStreetMap-Daten.
 
 In den beiden letzten Kapitel erfährst du, wie man in QGIS die importierten 
 Geodaten nachbearbeitet.
+====
 
 == OpenStreetMap-Daten mit Overpass extrahieren
 
