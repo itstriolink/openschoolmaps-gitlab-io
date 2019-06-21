@@ -386,7 +386,7 @@ angepasst werden.
 zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
 .Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
-image::osm_editieren/osm-daten_beziehen/json_format.png[]
+image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
 ====
 
 Machen wir wieder weiter mit dem HOT-Export-Tool.
