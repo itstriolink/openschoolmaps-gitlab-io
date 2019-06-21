@@ -21,6 +21,8 @@ sie frei - auch ausserhalb des Unterrichts! - nutzen und weitergeben kann und da
 
 ## News
 
+- Am 21. Juni 2019 wurden zwei neue Anleitungen mit dem aktuellen Thema "Die Umgebung selber kartografieren - Outdoor Mapping Event" publiziert und zwar a. eine Anleitung für Lehrpersonen und Instruktoren und b. eine Anleitung für Schülerinnen und Schüler sowie für Interessierte (Teilnehmende).
+- Am 21. Juni 2019 wurde die "Kontakt"-Webseite erweitert um "Kontakt & Rechtliches".
 - Ende Mai 2019 ein weiteres Arbeitsblatt "OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen" hinzugefügt.
 - On May 8, 2019 further worksheets for QGIS 3 and Geoinformation Systems (GIS) added, namely "Spatial analysis with vector data - Motorway" and "Spatial analysis with raster data - Where the chamois live".
 - Am 2. Mai 2019 weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS) hinzugefügt und zwar "Raumanalyse Vektordaten - Autobahn" sowie "Raumanalyse Rasterdaten - Wo die Gämsen wohnen".
