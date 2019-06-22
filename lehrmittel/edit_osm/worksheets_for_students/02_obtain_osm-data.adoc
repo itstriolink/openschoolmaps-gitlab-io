@@ -4,7 +4,7 @@ OpenSchoolMaps.ch - Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
 include::../../../snippets/suppress_title_page.adoc[]
 
-A guide for the interested, for pupils and for instructors/teachers
+A guide for the interested, for students and for instructors/teachers
 
 == Overview
 
@@ -14,6 +14,8 @@ The goal of this guide is to show how to get OpenStreetMap data and use it in QG
 .Audience
 Anyone who is interested in creating their own map (online, as a printable plan) 
 and in analysing geodata.
+If you don't know OpenStreetMap yet, you should consult the worksheets 
+"Using the OSM.org website in everyday life" and "Investigating OpenStreetMap data".
 
 .Scheduling
 This worksheet requires different amounts of time depending on your previous 
@@ -62,10 +64,9 @@ Hardly any export from OSM is therefore the same as the other.
 Basically, one can distinguish between OSM's own and analyzable GIS formats.
 
 * OSM-specific formats are mainly OSM XML, and OSM PBF.
-* GIS compatible formats are GeoJSON, Geopackage (and related: MBTile/SQLite), 
-Shapefiles, GeoJSON (TopoJSON).
+* GIS compatible formats are GeoJSON, GeoPackage, Shapefiles, GeoJSON.
 * Other GIS vector formats are: KML and GPX for GPS data exchange.
-* Other formats that cannot be analysed further are image/raster formats such as PNG, JPEG, SVG and PDF.
+* Other formats that cannot be analysed further are image/raster formats such as PNG, JPEG and PDF.
 
 The following describes various methods for importing OpenStreetMap data into QGIS. 
 The first method works with Overpass-Turbo, a web service for querying OpenStreetMap data. 
@@ -80,9 +81,9 @@ This chapter is referred to at the end of the remaining chapters, so you'll come
 
 == Extract OpenStreetMap data with Overpass
 
-The easiest and fastest way to import OpenStreetMap data into QGIS is by overpass turbo. 
-This method is suitable for advanced as well as for beginners. First visit the Overpass-Turbo 
-website at: http://overpass-turbo.osm.ch/.
+The easiest and fastest way to import OpenStreetMap data into QGIS is by Overpass-Turbo. 
+This method is suitable for advanced as well as for beginners. First visit the 
+Overpass-Turbo website at: http://overpass-turbo.osm.ch/.
 
 When you first visit the website, it looks something like this:
 
@@ -104,7 +105,8 @@ image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
 The above result can also be simplified by replacing the "nodes", "ways" and 
 "relations" to "nwr" (=noses/ways/relations). In the lower right corner you can 
-see the different objects marked in red. We have 23 POIs and 5 polygons. 
+see the different objects marked in red. 
+We have 23 POIs and 5 polygons. 
 Since we only want POIs, we could use "out center;" to turn all areas and paths into points. 
 The new query should look like this.
 
@@ -125,8 +127,9 @@ image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 Now we see in the lower right corner that the displayed objects consist only of POIs. 
 We now have 28 POIs and 0 polygons, because we have converted the 5 polygons to POIs 
 via "out center" and Overpass has added these 5 new POIs to the existing 23 POIs. 
-Now we have to save the query as GeoJSON. To do this, go to "Export" in the upper 
-left corner of "Wizard". The window that appears gives us various export options: 
+Now we have to save the query as GeoJSON. 
+To do this, go to "Export" in the upper left corner of "Wizard". 
+The window that appears gives us various export options: 
 We choose the top one, i.e. "download/copy as GeoJSON".
 
 .Overpass export
@@ -141,14 +144,15 @@ Our QGIS now looks like this:
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 As you have probably noticed, an OSM standard layer is used here as a 
-background to present the data more clearly. I assume that you don't have this one, 
-but that's not too bad, because it's not absolutely necessary. So you can continue 
-without OSM standard layer as background.
+background to present the data more clearly. 
+We assume that you don't have this one, but that's not too bad, because it's not absolutely necessary. 
+So you can continue without OSM standard layer as background.
 
 Finally, we want to change the coordinate system of the GeoJSON imported into QGIS 
-and save it as a GeoPackage. To do this, right-click on the layer, go to "Export" 
-and select the top entry "Save Feature As...". We change the KBS to "EPSG:2056 - 
-CH1903+/LV95" and give the file a name. We leave the format as GeoPackage and click on "OK".
+and save it as a GeoPackage. 
+To do this, right-click on the layer, go to "Export" and select the top entry "Save Feature As...". 
+We change the KBS to "EPSG:2056 - CH1903+/LV95" and give the file a name. 
+We leave the format as GeoPackage and click on "OK".
 
 Below you can see the export window:
 
@@ -157,7 +161,8 @@ image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG[]
 
 Very good, you managed to import OpenStreetMap data into QGIS and save it as a new format. 
 The other way to import OpenStreetMap data into QGIS is using the QuickOSM plugin, 
-which is explained below. If you are not interested or have already read it, you can jump 
+which is explained below. 
+If you are not interested or have already read it, you can jump 
 to the chapters "Merging Polygon Layers with Point Layers in QGIS" or 
 "Filter Objects with QGIS or rule-based display".
 
@@ -201,9 +206,11 @@ or "Filtering objects with QGIS or rule-based display".
 
 == Various web tools for downloading OpenStreetMap data
 
-In this chapter we have compiled various web tools for downloading OpenStreetMap data. 
-None of these tools are the same. Some require that you register and all are accessible 
-free of charge and are provided without warranty.
+In this chapter we have compiled various web tools for downloading OpenStreetMap 
+data. 
+None of these tools are the same. 
+Some require that you register and all are accessible free of charge and are 
+provided without warranty.
 
 === OSM.org
 
@@ -225,10 +232,11 @@ The data are divided into individual regions.
 If you click on a region, the data of the countries in this region will be displayed. 
 Depending on the country, you can also download smaller excerpts from the country. 
 If you hold the mouse pointer over a region or a country, you will see the respective 
-area in the map on the right side of the website. The data on GeoFabrik is updated 
-every 24 hours with the data from OpenStreetMap. This means that if you have just made 
-your own changes in OpenstreetMap, you have to wait at least a day until they are available 
-at Geofabrik. Make sure what data you are downloading, as some can be several gigabytes in size.
+area in the map on the right side of the website. 
+The data on GeoFabrik is updated every 24 hours with the data from OpenStreetMap. 
+This means that if you have just made your own changes in OpenstreetMap, you have 
+to wait at least a day until they are available at Geofabrik. 
+Make sure what data you are downloading, as some can be several gigabytes in size.
 
 The Shapefile is a GIS vector format and thus structured according to certain layers ('feature classes'). 
 To find certain objects, such as bakeries (in OSM Tag shop=bakery) or supermarkets (Tag shop=supermarket) 
@@ -242,9 +250,11 @@ or "Filtering objects with QGIS or rule-based display".
 === HOT Export Tool
 
 The Humanitarian OpenStreetMap Team (HOT) offers an online service with the HOT 
-Export Tool to download data from OpenStreetMap. To use the HOT ExportTool you need 
+Export Tool to download data from OpenStreetMap. 
+To use the HOT ExportTool you need 
 an OpenStreetMap user account and a valid email address to be notified when the data 
-is ready for download. After logging in you will see the following points and tabs
+is ready for download. 
+After logging in you will see the following points and tabs
 
 1. Describe
 2. Formats
@@ -254,7 +264,7 @@ is ready for download. After logging in you will see the following points and ta
 
 Tabulators 1 and 4 are described in more detail below.
 
-Tab 1 is about giving the file to be exported a name and a description. 
+Tab 1 "Export description" is about giving the file to be exported a name and a description. 
 The picture below shows an example of exporting bread shops in Uster.
 
 .HOT Export Tool Tab 1 "Describe".
@@ -326,8 +336,10 @@ The whole thing will look like this:
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 After you've done that, we can almost export the query as a GeoPackage. 
-That's why we go on to Tab 4. The last thing we have to do before exporting 
-is to search for "Uster" on the right side of the map. Then it will be zoomed in:
+That's why we go on to Tab 4 "Summary". 
+The last thing we have to do before exporting is to search for "Uster" on the 
+right side of the map. 
+Then it will be zoomed in:
 
 .HOT Export Tool Uster
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
@@ -369,10 +381,12 @@ or "Filtering objects with QGIS or rule-based display".
 
 BBBike https://extract.bbbike.org/ offers the data of Planet.osm in many different file formats.
 
-Only a bounding box has to be created for the extraction. The bounding box can have a maximum 
-size of 24'000'000 km², or 512mb as a file. After you have entered a valid email address and 
-assigned a name to the extraction you can click on the _Extract_ button. A notification will 
-be sent to you by e-mail with the download link. The documentation of the schema behind the 
+Only a bounding box has to be created for the extraction. 
+The bounding box can have a maximum size of 24'000'000 km², or 512mb as a file. 
+After you have entered a valid email address and 
+assigned a name to the extraction you can click on the _Extract_ button. 
+A notification will be sent to you by e-mail with the download link. 
+The documentation of the schema behind the 
 GIS formats like GeoPackage or Shapefile can be found here:
 
 * http://www.geopackage.org/spec/
@@ -381,6 +395,7 @@ GIS formats like GeoPackage or Shapefile can be found here:
 If you want to know how to convert polygon layers into point layers or how to filter 
 objects, see the chapters "Merging polygon layers with point layers in QGIS" 
 or "Filtering objects with QGIS or rule-based display".
+
 
 == Merge Polygon Layers with Point Layers in QGIS
 
@@ -416,6 +431,7 @@ where the layer has not (yet) been renamed:
 .Final result
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
+
 == Filter or rule-based display of objects with QGIS
 
 After you have received OpenStreetMap data in the desired section, you may not want to work with all data. 
@@ -444,7 +460,10 @@ Or you can right-click on the desired layer and go to "Filter...". Then a dialog
 
 In the input field "Data provider-specific filter expression" we enter the following:
 
-    "shop"='bakery'
+[source,sql]
+----
+"shop"='bakery'
+----
 
 "shop" is the attribute (note the double quotes). 
 'bakery' is the value (note the single quotation marks).
