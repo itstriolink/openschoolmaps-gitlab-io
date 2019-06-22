@@ -4,7 +4,7 @@ OpenSchoolMaps.ch - Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
 include::../../../snippets/suppress_title_page.adoc[]
 
-A guide for the interested, for students and for instructors/teachers
+*A guide for the interested, for students and for instructors/teachers*
 
 == Overview
 
