@@ -16,7 +16,9 @@ beziehen und in QGIS 3 nutzen kann.
 
 .Zielgruppe
 Alle, die am Erstellen einer eigenen Karte (online Webkarte, druckbarer Plan) 
-oder am Analysieren von weltwei frei verfügbaren Geodaten interessiert sind.
+oder am Analysieren von weltweit frei verfügbaren Geodaten interessiert sind.
+Wer OpenStreetMap noch nicht kennt, soll die Arbeitsblätter "Webseite OSM.org im Alltag nutzen" 
+und "OpenStreetMap-Daten untersuchen" durcharbeiten.
 
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
@@ -65,10 +67,9 @@ Kaum ein Export aus OSM ist darum gleich wie der andere.
 Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 
 * OSM-spezifische Formate sind v.a. OSM XML, und OSM PBF.
-* GIS-kompatible Formate sind GeoJSON, Geopackage (sowie verwandt: MBTile/SQLite), 
-Shapefiles, GeoJSON.
+* GIS-kompatible Formate sind GeoJSON, GeoPackage, Shapefiles, GeoJSON.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
-* Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG, SVG, PDF.
+* Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG und PDF.
 
 Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten 
 in QGIS importiert. 
@@ -78,7 +79,7 @@ Diese Methode empfehlen wir dir zuerst anzuschauen, da sie die effizienteste
 aller vorgestellten Methoden ist. 
 Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, mit dem sich 
 OpenStreetMap-Abfragen direkt in QGIS erstellen lassen. 
-Es wird jedem selber überlassen, welche Methode er einsetzen will. 
+Es wird jedem selber überlassen, welche Methode man einsetzen will. 
 
 Nach den beiden Import-Methoden werden verschiedene Web-Tools vorgestellt zum 
 Download von OpenStreetMap-Daten. 
@@ -162,11 +163,11 @@ image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 Wie du wahrscheinlich bemerkt hast, wird hier ein OSM-Standard-Layer als 
 Hintergrund benutzt, um die Daten anschaulicher zu präsentieren.
-Ich gehe davon aus, dass du diesen nicht hast, das ist aber nicht weiter 
+Wir gehen davon aus, dass du diesen nicht hast, das ist aber nicht weiter 
 schlimm, den er ist nicht zwingend nötig. 
 Du kannst also ruhig ohne OSM-Standard-Layer als Hintergrund weitermachen.
 
-Als letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON 
+Als Letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON 
 ändern und dann als GeoPackage speichern.
 Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf 
 "Exportieren" und dann wählen wir den obersten Eintrag "Save Feature As...". 
@@ -229,8 +230,8 @@ Nun solltest du folgende Layer haben:
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
 Damit ist dieses Kapitel abgeschlossen, wobei typischerweise noch einige 
-Nachbearbeitungsarbeiten nötig sind. Diese Nachbearbeitungsarbeiten sind in der 
-Einleitung des nächsten Kapitels beschrieben.
+Nachbearbeitungsarbeiten nötig sind. 
+Diese Nachbearbeitungsarbeiten sind in der Einleitung des nächsten Kapitels beschrieben.
 
 
 == Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
@@ -556,6 +557,7 @@ nicht umbenannt wurde:
 
 .Endergebnis
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
+
 
 == Mit QGIS Objekte filtern oder regelbasiert darstellen
 
