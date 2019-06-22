@@ -9,17 +9,23 @@ NOTE: In this worksheet you will learn how to toggle between the map layers, use
 
 == Map Layers
 
-Despite what the name suggests, OpenStreetMap is not really a map. It is a collection of detailed geographical data from which computers can generate a map. And not just one map, but based on the same data different maps for different purposes.
+Despite what the name suggests, OpenStreetMap is not really only a map. 
+It is a collection of detailed geographical data from which computers can generate a map. And not just one map, but based on the same data different maps for different purposes.
 
-Some of them can be selected from the openstreetmap.org website. What you have seeing so far is the OpenStreetMap default map layer. If you click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side, you can switch between these different map views.
+Some of them can be selected from the OSM.org website. 
+What you have seen so far is the OpenStreetMap default map layer. 
+If you click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side, you can switch between these different map views.
 
 == Navigation (route planning)
 
-With the OpenStreetMap geodata collection, computers can do more than just "draw" maps! The search function uses these data and also freely available data from sources such as WikiData (a sister project of Wikipedia).
+With the OpenStreetMap geodata collection, computers can do more than just "draw" maps! 
+The search function uses these data and also freely available data from sources such as WikiData (a sister project of Wikipedia).
 
-Finding your route from point A to point B is possible. It can be done by:
+Finding your route from point A to point B is possible. 
+It can be done by:
 
-Clicking on the image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-button next to the search field. Now you can either enter text (e.g. address) for start and destination, or drag the red and green pins from the search form
+Clicking on the image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-button next to the search field. 
+Now you can either enter text (e.g. address) for start and destination, or drag the red and green pins from the search form
 to the desired place on the map.
 
 Next, select your desired means of transport/ type of movement from the drop-down box below the start and destination field.
@@ -27,8 +33,9 @@ Next, select your desired means of transport/ type of movement from the drop-dow
 .Stopovers
 [NOTE]
 ====
-The specification of stopovers or "Via "s is unfortunately not available on openstreetmap.org. However, you can visit http://routing.osm.ch ,another OpenStreetMap-based 
-route planning option, where you can specify your stopovers (only available for routes within Switzerland).
+The specification of stopovers or "Via "s is unfortunately not available on openstreetmap.org. However, you can visit http://routing.osm.ch , another OpenStreetMap-based 
+route planning option, where you can specify your stopovers 
+(only available for routes within Switzerland; there are navigation tools available with worldwide coverage).
 
 ====
 
@@ -63,7 +70,7 @@ Does the proposed route matches with the one you normally take?
 ====
 
 
-Try changing the mode of transport, is the proposed route the same?
+Try changing the mode of transport. Is the proposed route the same?
 
 ====
 {empty} +
