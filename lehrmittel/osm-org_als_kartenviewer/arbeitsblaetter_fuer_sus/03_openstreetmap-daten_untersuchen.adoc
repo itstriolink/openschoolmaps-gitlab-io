@@ -62,6 +62,7 @@ Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden
 ====
 Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. 
 Man kann sie sich wie einen leicht wieder entfernbaren Klebezettel (auch bekannt als "Post-It") vorstellen, auf den man etwas schreibt, und den man auf die Karte klebt. 
+Notizen werden an erfahrene Mapper geschickt, welche die Notiz bearbeiten, wenn sie es für notwendig erachten.
 Du brauchst also keine Angst haben, dabei Fehler zu machen!
 
 Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. 
