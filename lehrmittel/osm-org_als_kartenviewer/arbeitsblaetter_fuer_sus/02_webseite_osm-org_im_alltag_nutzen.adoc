@@ -6,21 +6,21 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt*
 
-NOTE: Durch dieses Arbeitsblatt lernst du den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
+NOTE: Mit diesem Arbeitsblatt lernst du wie man den Kartenstil auf openstreetmap.org wechselt, die Routenplanung verwendet und auf der Karte gefundene Positionen anderen mitteilt.
 
 == Kartenstile
 
 Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap nicht nur eine Karte. 
-Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. 
-Und die Daten können nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschiedene Karten für verschiedene Zwecke erzeugen.
+Es ist eine detaillierte geographische Datensammlung, aus der Computer Karten erzeugen können. 
+Und die Daten können nicht nur Karten sondern auch -- basierend auf den gleichen Daten -- verschiedene Karten für verschiedene Zwecke erzeugen.
 
-Einige Karten bietet die OSM.org-Website zur Auswahl an. 
-Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. 
+Die OSM.org-Website bietet bereits einige Karten zur Auswahl an. 
+Was du als Erstes siehst, ist der OpenStreetMap-Standard-Kartenstil. 
 Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 
 == Navigation (Routen-Planung)
 
-Mit der OpenStreetMap-Geodatensammlung können Computer mehr machen, als "nur" Karten zu zeichnen! 
+Mit der OpenStreetMap-Geodaten-Sammlung können Computer mehr machen, als "nur" Karten zu zeichnen! 
 Die Such-Funktion, die wir bereits angesehen haben, verwendet dieselben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
 
 Auch Wege von A nach B zu finden, ist mit den OpenStreetMap-Daten möglich. Das geht so:
