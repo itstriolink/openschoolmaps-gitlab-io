@@ -710,3 +710,6 @@ nämlich unsere Bäckereien in pinker Farbe.
 Damit schliessen wir dieses Kapitel bzw. dieses Arbeitsblatt ab und überlassen 
 es dir, die Layer und das ganze QGIS-Projekt zu erweitern und die Darstellung 
 zu verbessern.
+
+
+include::../../snippets/quellenangabe.adoc[]
