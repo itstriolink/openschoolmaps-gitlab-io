@@ -6,15 +6,15 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt*
 
-NOTE: Durch dieses Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
+NOTE: Durch dieses Arbeitsblatt lernst du den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
 
 == Kartenstile
 
-Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. 
+Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap nicht nur eine Karte. 
 Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. 
-Und sie können nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschiedene Karten für verschiedene Zwecke erzeugen.
+Und die Daten können nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschiedene Karten für verschiedene Zwecke erzeugen.
 
-Einige Karten bietet die openstreetmap.org-Website zur Auswahl an. 
+Einige Karten bietet die OSM.org-Website zur Auswahl an. 
 Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. 
 Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 
