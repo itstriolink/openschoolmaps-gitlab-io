@@ -542,3 +542,6 @@ namely our bakeries in pink.
 
 This concludes this chapter or worksheet and leaves it to you to 
 extend the layers and the whole QGIS project and improve the display.
+
+
+include::../../../snippets/quellenangabe.adoc[]
