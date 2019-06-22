@@ -24,7 +24,7 @@ ifdef::show_solutions[]
 *Übersicht*
 
 .Ziel
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf openstreetmap.org Datenobjekte wie zum Beispiel ein Bänkli, einen Brunnen oder einen Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
+Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf OSM.org Datenobjekte wie zum Beispiel ein Bänkli, einen Brunnen oder einen Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
 
 .Zielgruppe
 SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
@@ -62,7 +62,7 @@ endif::show_solutions[]
 
 == Sprache umstellen (falls nötig)
 
-Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
+Wenn die Knöpfe auf OSM.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
 
 1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
 2. Wähle im Dropdown-Menü "Settings" aus
@@ -74,7 +74,7 @@ Der im Folgenden verwendete Editor wird die selbe Sprache verwenden, falls verf�
 == iD, der Web-Editor von OpenStreetMap
 
 Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. 
-Wir werden den Editor namens "iD" verwenden, der auf der openstreetmap.org-Website bereits eingebaut ist.
+Wir werden den Editor namens "iD" verwenden, der auf der OSM.org-Website bereits eingebaut ist.
 
 === Rundgang
 
