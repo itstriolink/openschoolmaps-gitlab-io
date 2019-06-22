@@ -8,20 +8,22 @@ Save_as: index.html
 
 ![]({filename}/images/schoolkids.jpg)
 
-OpenSchoolMaps ist ein Projekt zur Förderung offener Karten im Unterricht, 
-sei es in digitaler Form, im Browser, auf mobilen Geräten oder gedruckt. 
-Dabei werden vornehmlich freie Daten von OpenStreetMap eingesetzt.
+OpenSchoolMaps ist ein Projekt zur Förderung offener Karten und Kartendaten. 
+Dabei werden vornehmlich offene Daten von OpenStreetMap, Open Source-Software 
+und freie Services eingesetzt.
 
-Angesprochen sind Lehrpersonen auf Sekundarstufe II (Sekundarschulen und Gymnasien) sowie weitere Interessierte.
+Angesprochen sind Lehrpersonen auf Sekundarstufe II (Sekundarschulen und 
+Gymnasien) sowie weitere Interessierte.
 
-Sowohl die Karten und Karten-Daten als auch die Lehr- und Lernmaterialien werden 
+Sowohl die Karten und Kartendaten als auch die Lehr- und Lernmaterialien werden 
 als Open Educational Resource ([OER](https://de.wikipedia.org/wiki/Open_Educational_Resources)) 
-bereitgestellt, so dass jeder zu den Lehr- und Lernmaterialien beitragen, 
-sie frei - auch ausserhalb des Unterrichts! - nutzen und weitergeben kann und darf.
+bereitgestellt, so dass jede/r die Lehr- und Lernmaterialien frei nutzen kann - 
+auch ausserhalb des Unterrichts - und auch so dass jede/r selber dazu beitragen 
+kann!
 
 ## News
 
-- Am 21. Juni 2019 wurden zwei neue Anleitungen mit dem aktuellen Thema "Die Umgebung selber kartografieren - Outdoor Mapping Event" publiziert und zwar einerseits eine Anleitung für Lehrpersonen und Instruktoren und andererseits eine Anleitung für Schülerinnen und Schüler sowie für Interessierte (Teilnehmende).
+- Am 21. Juni 2019 wurden zwei neue Anleitungen mit dem aktuellen Thema "Die Umgebung selber kartografieren - Outdoor Mapping Event" publiziert und zwar einerseits eine Anleitung für Lehrpersonen und Instruktoren und andererseits eine Anleitung für Teilnehmende, d.h. für Schülerinnen und Schüler und für Interessierte.
 - Am 21. Juni 2019 wurde die "Kontakt"-Webseite erweitert um "Kontakt & Rechtliches".
 - Ende Mai 2019 ein weiteres Arbeitsblatt "OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen" hinzugefügt.
 - On May 8, 2019 further worksheets for QGIS 3 and Geoinformation Systems (GIS) added, namely "Spatial analysis with vector data - Motorway" and "Spatial analysis with raster data - Where the chamois live".
