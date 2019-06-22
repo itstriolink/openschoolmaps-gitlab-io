@@ -6,11 +6,11 @@ include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
 ifndef::show_solutions[]
-*Ein Arbeitsblatt*
+*Ein Arbeitsblatt für Interessierte und für Schülerinnen und Schüler*
 endif::show_solutions[]
 
 ifdef::show_solutions[]
-*Ein Arbeitsblatt für Lehrpersonen*
+*Ein Arbeitsblatt für Interessierte und für Schülerinnen und Schüler (SuS) mit Informationen für Instruktoren und Lehrpersonen*
 endif::show_solutions[]
 
 NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" eingebauten "Rundgang" (ein geführter Einführungskurs) lernst du, OpenStreetMap-Daten mit diesem Editor zu bearbeiten. 
@@ -24,7 +24,7 @@ ifdef::show_solutions[]
 *Übersicht*
 
 .Ziel
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf OSM.org Datenobjekte wie zum Beispiel ein Bänkli, einen Brunnen oder einen Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
+Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf OSM.org Datenobjekte wie zum Beispiel ein Bänkli, einen Brunnen oder ein Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
 
 .Zielgruppe
 SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
