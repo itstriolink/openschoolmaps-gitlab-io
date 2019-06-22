@@ -24,7 +24,7 @@ In this email message you will find a confirmation link that you must visit to c
 == iD, the web editor of OpenStreetMap
 
 There are several editors that can be used to edit OpenStreetMap. 
-We will use the editor called "iD", which is already installed on the openstreetmap.org website.
+We will use the editor called "iD", which is already installed on the OSM.org website.
 
 === Walkthrough
 
