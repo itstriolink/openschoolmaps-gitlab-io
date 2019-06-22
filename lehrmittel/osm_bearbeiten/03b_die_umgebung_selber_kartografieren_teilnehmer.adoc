@@ -5,7 +5,7 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-Eine Anleitung für Schülerinnen und Schüler sowie für Interessierte
+*Eine Anleitung für Schülerinnen und Schüler sowie für Interessierte*
 
 .Früh übt sich, wer ein "Meister-Mapper" werden will! (Quelle: EducOSM.xyz 2019)
 image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
