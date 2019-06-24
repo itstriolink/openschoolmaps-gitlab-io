@@ -68,7 +68,6 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-
 Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
 
 ====
@@ -86,9 +85,11 @@ Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
 
 ====
 ifdef::show_solutions[]
-
-//TODO
-
+Nein, denn nicht jedes Verkehrsmittel ist für jede Strecke geeignet/zugelassen. 
+Es gibt Autobahnen die nur für gewisse Motorfahrzeuge sind, Velorouten für Fahrräder und 
+Fahrrad ähnliche Fahrzeuge und reine Fussgängerwege, die keine Fahrzeuge zulassen. Daneben 
+gibt es noch den ÖV. Züge und Trame fahren definierte Routen entlang einer Schiene ab und Busse 
+haben auch feste Routen entlang diverser Bushaltestellen.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
