@@ -48,9 +48,9 @@ How long would you normally take to get to the school?
 
 ====
 ifdef::show_solutions[]
-Beachte: ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.
+Your indication should be described in meters or kilometers.
 
-Angabe sollte in Metern oder Kilometern sein
+Note: Public transport / timetable query is unfortunately not supported.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -61,9 +61,12 @@ Does the predicted duration match your experience?
 
 ====
 ifdef::show_solutions[]
+If it is exactly the route you are taking, then the duration should be about right. 
+If there are small deviations, then this is reflected naturally also in the duration.
 
-//TODO
-
+Temporary (short-term) conditions that affect the duration of your trip to school, 
+such as construction sites or accidents, are of course difficult for OSM to take 
+into account, so there would be variations in the duration.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -87,9 +90,11 @@ Is the same route proposed for each means of transport?
 
 ====
 ifdef::show_solutions[]
-
-//TODO
-
+No, because not every means of transport is suitable/approved for every route. 
+There are motorways which are only for certain motor vehicles, cycle routes for 
+bicycles and similar vehicles and pure pedestrian routes which do not permit 
+vehicles. There is also public transport. Trains and trams run defined routes 
+along a rail and buses also have fixed routes along various bus stops.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
