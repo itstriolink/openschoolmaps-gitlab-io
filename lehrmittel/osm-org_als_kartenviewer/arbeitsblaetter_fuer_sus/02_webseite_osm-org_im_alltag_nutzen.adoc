@@ -59,9 +59,12 @@ Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 
 ====
 ifdef::show_solutions[]
+Falls es exakt die Strecke ist, welche du nimmst, dann sollte die Dauer in etwa stimmen. 
+Wenn es kleine Abweichungen gibt, dann spiegelt sich das natürlich auch in der Dauer wieder. 
 
-//TODO
-
+Temporäre (kurzfristige) Gegebenheiten, die die Dauer deines Schulweges beeinflussen, wie beispielsweise 
+Baustellen oder Unfälle, können von OSM natürlich nur Schwer berücksichtigt werden, deshalb gäbe es auch 
+hier Abweichungen betreffend der Dauer.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
