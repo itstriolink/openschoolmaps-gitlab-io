@@ -5,6 +5,7 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt*
+ifdef::show_solutions[- *LÖSUNGEN*]
 
 NOTE: Mit diesem Arbeitsblatt lernst du wie man den Kartenstil auf openstreetmap.org wechselt, die Routenplanung verwendet und auf der Karte gefundene Positionen anderen mitteilt.
 
@@ -45,18 +46,14 @@ Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
 
 ====
 ifdef::show_solutions[]
-(ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.)
+Beachte: ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.
 
-Angabe in Metern oder Kilometern
-
-//TODO
-
+Angabe sollte in Metern oder Kilometern sein
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
-
 
 Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 
@@ -85,7 +82,6 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-
 Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
 
 ====
@@ -98,7 +94,6 @@ ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
-
 
 Wieso kann wohl je nach Verkehrsmittel eine andere Strecke vorgeschlagen werden?
 
