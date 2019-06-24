@@ -46,9 +46,9 @@ Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
 
 ====
 ifdef::show_solutions[]
-Beachte: ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.
+Deine Angabe sollte in Metern oder Kilometern beschrieben sein.
 
-Angabe sollte in Metern oder Kilometern sein
+Beachte: ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -75,8 +75,6 @@ Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
 
 ====
 ifdef::show_solutions[]
-
-//TODO
 
 endif::show_solutions[]
 ifndef::show_solutions[]
