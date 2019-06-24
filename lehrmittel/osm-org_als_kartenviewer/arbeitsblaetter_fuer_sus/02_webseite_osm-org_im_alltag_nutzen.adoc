@@ -60,7 +60,7 @@ Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 ====
 ifdef::show_solutions[]
 Falls es exakt die Strecke ist, welche du nimmst, dann sollte die Dauer in etwa stimmen. 
-Wenn es kleine Abweichungen gibt, dann spiegelt sich das natürlich auch in der Dauer wieder. 
+Wenn es kleine Abweichungen gibt, dann spiegelt sich das natürlich auch in der Dauer wieder.
 
 Temporäre (kurzfristige) Gegebenheiten, die die Dauer deines Schulweges beeinflussen, wie beispielsweise 
 Baustellen oder Unfälle, können von OSM natürlich nur Schwer berücksichtigt werden, deshalb gäbe es auch 
@@ -75,7 +75,18 @@ Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
 
 ====
 ifdef::show_solutions[]
+Wenn du an einem Ort mit hoher Bevölkerungsdichte wohnst, beispielsweise eine grosse Stadt wie Zürich, dann 
+lautet die Antwort wahrscheinlich ja. Wenn du hingegen an einem Ort mit geringer Bevölkerungsdichte wohnst, 
+dann lautet die Antwort wahrscheinlich nein. Doch warum?
 
+Dies deshalb, da an einem Ort mit hoher Bevölkerungsdichte die Anzahl an Mapper und OSM-Interessierten statistisch 
+gesehen höher liegt und eine grosse Stadt wie Zürich wichtiger ist als ein kleines Dorf im Kanton Uri. Somit werden 
+alle möglichen Routen, die es geben kann (oder zumindest die meisten), auf OSM vorhanden sein.
+
+In einer Ortschaft mit geringer Bevölkerungsdichte wird es wahrscheinlich weniger Mapper und solche geben, die sich mit 
+OSM beschäftigen. Auch ist ein kleines Dorf zu mappen weniger wichtig als eine Grossstadt. Deshalb kann es sein, dass 
+hier nicht alle Wege und Strassen die es gibt auch in OSM vorhanden sind und OSM kann somit nur eine begrenzte Anzahl 
+an Routen berechnen.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
