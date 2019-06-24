@@ -77,9 +77,19 @@ Does the proposed route match the one you normally take?
 
 ====
 ifdef::show_solutions[]
+If you live in a place with a high population density, such as a large city like Zurich, 
+the answer is probably yes. On the other hand, if you live in a place with a low population 
+density, then the answer is probably no. But why?
 
-//TODO
+This is because in a place with a high population density the number of mappers and people 
+interested in OSM is statistically higher and a large city like Zurich is more important 
+than a small village in the canton of Uri. Thus, all possible routes that may exist 
+(or at least most of them) will be available on OSM.
 
+In a village with a low population density, there will probably be fewer mappers and those 
+dealing with OSM. Also, mapping a small village is less important than mapping a big city. 
+Therefore it may be that not all roads and paths are available in OSM and OSM can only 
+calculate a limited number of routes.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
