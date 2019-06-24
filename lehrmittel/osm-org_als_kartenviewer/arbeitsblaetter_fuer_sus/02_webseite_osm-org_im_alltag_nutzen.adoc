@@ -43,41 +43,68 @@ Untersuche mit der Navigations-Funktion deinen Schulweg.
 
 Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
 
-////
+====
+ifdef::show_solutions[]
 (ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.)
 
 Angabe in Metern oder Kilometern
-////
 
-====
+//TODO
+
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 
 ====
+ifdef::show_solutions[]
+
+//TODO
+
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
 
 ====
+ifdef::show_solutions[]
+
+//TODO
+
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
 
 ====
+ifdef::show_solutions[]
+
+//TODO
+
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 Wieso kann wohl je nach Verkehrsmittel eine andere Strecke vorgeschlagen werden?
 
-////
+====
+ifdef::show_solutions[]
+
 Nicht jedes Verkehrsmittel ist überall erlaubt:
 Mit dem Auto darf man nicht durch die Fussgängerzone,
 zu Fuss nicht über die Autobahn.
@@ -88,10 +115,13 @@ Im Auto kann sich ein kleiner Umweg lohnen,
 um eine 30er-Zone zu vermeiden. Velofahrerinnen
 und Fussgänger werden von einer solchen nicht
 ausgebremst.
-////
 
-====
+//TODO
+
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 == Positionen (mit)teilen
