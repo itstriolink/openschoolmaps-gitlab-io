@@ -57,7 +57,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
+Does the predicted duration match your experience?
 
 ====
 ifdef::show_solutions[]
@@ -70,21 +70,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-
-Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
-
-====
-ifdef::show_solutions[]
-
-//TODO
-
-endif::show_solutions[]
-ifndef::show_solutions[]
-{empty} +
-endif::show_solutions[]
-====
-
-Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
+Does the proposed route match the one you normally take?
 
 ====
 ifdef::show_solutions[]
@@ -97,7 +83,20 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Wieso kann wohl je nach Verkehrsmittel eine andere Strecke vorgeschlagen werden?
+Is the same route proposed for each means of transport?
+
+====
+ifdef::show_solutions[]
+
+//TODO
+
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+endif::show_solutions[]
+====
+
+Why is it possible to propose a different route depending on the mode of transport?
 
 ====
 ifdef::show_solutions[]
