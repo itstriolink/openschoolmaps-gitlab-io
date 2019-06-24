@@ -100,16 +100,15 @@ Why is it possible to propose a different route depending on the mode of transpo
 
 ====
 ifdef::show_solutions[]
-Nicht jedes Verkehrsmittel ist überall erlaubt:
-Mit dem Auto darf man nicht durch die Fussgängerzone,
-zu Fuss nicht über die Autobahn.
+Not every means of transport is allowed everywhere: 
+You are not allowed to drive through the pedestrian 
+zone or on foot over the motorway.
 
-Auch welche Strecke die schnellste ist,
-kann von der gewählten Fortbewegungsart abhängen:
-Im Auto kann sich ein kleiner Umweg lohnen,
-um eine 30er-Zone zu vermeiden. Velofahrerinnen
-und Fussgänger werden von einer solchen nicht
-ausgebremst.
+Which route is the fastest can also depend on the 
+chosen mode of transport:
+A small detour in the car can be worthwhile in 
+order to avoid a 30 zone. Cyclists and pedestrians 
+are not slowed down by such a zone.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
