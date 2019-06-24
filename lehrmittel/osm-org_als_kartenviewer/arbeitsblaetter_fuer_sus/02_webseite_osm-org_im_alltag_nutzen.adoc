@@ -104,7 +104,6 @@ Wieso kann wohl je nach Verkehrsmittel eine andere Strecke vorgeschlagen werden?
 
 ====
 ifdef::show_solutions[]
-
 Nicht jedes Verkehrsmittel ist überall erlaubt:
 Mit dem Auto darf man nicht durch die Fussgängerzone,
 zu Fuss nicht über die Autobahn.
@@ -115,9 +114,6 @@ Im Auto kann sich ein kleiner Umweg lohnen,
 um eine 30er-Zone zu vermeiden. Velofahrerinnen
 und Fussgänger werden von einer solchen nicht
 ausgebremst.
-
-//TODO
-
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
