@@ -149,3 +149,29 @@ CAUTION: Make sure you schedule enough lessons.
 Mapping can take longer than you think, so plan generously!
 
 == Integrating the data into OpenStreetMap
+
+After you have collected your data, go to https://www.osm.org[OSM.org] 
+and enter your data there. 
+
+If you do not yet have an account with OpenStreetMap (OSM), now is the 
+time to create one. 
+See https://openschoolmaps.ch/[OpenSchoolMaps] under "Teaching Materials" 
+for the worksheet "Edit OpenStreetMap" for further explanations and the 
+"OpenStreetMap Tagging Cheatsheet".
+
+Again, it might be an advantage if you look at how much time you need. 
+Add a little extra to your measured time because participants are probably 
+not as fast as you and the differences within the class can be considerable. 
+
+OpenStreetMap always requires a so-called "changeset comment" before 
+saving the edited data. An example of a changeset comment is 
+_Hausnummern Bahnhofstrasse ergänzt_ or _Outdoor-Event Kanti X 2019_. 
+In the following chapter "Preparations" we come back to this comment.
+
+[NOTE]
+=====
+Show your work to the participants as an introduction to the topic. 
+This will give you a first impression.
+=====
+
+== Preparations
