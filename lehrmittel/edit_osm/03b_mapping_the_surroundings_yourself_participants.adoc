@@ -70,3 +70,25 @@ to Know OSM.org Web Page worksheet at https://www.openschoolmaps.ch[OpenSchoolMa
 ====
 
 === What's being mapped? What not?
+
+Mapping and cartography refers to the collection of spatial data, i.e. geodata. 
+Before you can integrate this geodata into OpenStreetMap, you have to collect it first. 
+There are several ways to do this. One possibility is to research the data. You search 
+different documents and/or websites and collect data that is still missing in OpenStreetMap 
+or no longer up-to-date. Another possibility is to ask people to give information about 
+missing data. The last possibility, for example to record houses and streets, is to go 
+out and take notes. These notes can then be transferred to OpenStreetMap at a later time.
+
+The most important thing in mapping is that what you map is verifiable. 
+Objects that are open to the public, such as streets, houses, shops or snack corners, are well suited. 
+
+Examples of unsuitable objects are:
+
+* Personal opinions
+* Personal data
+* Construction sites or things on wheels that are gone after a few days or weeks.
+* Ratings on restaurants or shops
+* Photos (except as a web link to photos previously 
+uploaded to http://commons.wikimedia.org/)
+
+=== What can be mapped at outdoor events?
