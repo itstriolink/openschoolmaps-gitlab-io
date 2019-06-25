@@ -144,4 +144,17 @@ here, because it needs much more explanation and experience than pen and paper.
 
 *Checklist for preparation:*
 
+* Printed card on which you can make notes (at least one per group)
+* Possibly a hard card underlay
+* Writing material
+* Possible smartphone or camera e.g. for photographing opening hours
+* (Possibly a power bank for the smartphone if the GPS is used)
+* (The teacher or instructor may have other things to consider)
+
+Have fun cartographing!
+
+The next chapter explains how to capture the information written on paper on your computer.
+
+== How to edit OpenStreetMap?
+
 
