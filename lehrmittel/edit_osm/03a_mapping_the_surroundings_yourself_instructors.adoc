@@ -277,3 +277,15 @@ If you choose uMap, you can skip the following explanations on
 Field Papers and make sure that there are enough maps 
 printed for all groups.
 
+"*Field Papers "* is a web application that allows you to create 
+a map from OpenStreetMap, print it out and add your own notes to it. 
+When the notes are recorded on the card, they can be photographed 
+(or scanned) and uploaded back to Field Papers. After the map is 
+uploaded, you can call the OpenStreetMap editor iD directly with 
+one click and see the notes as a base map. Here is a http://www.
+openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org
+/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875[example] 
+where you can see a link that calls the editor with parameters. 
+Now you can capture the data in the OpenStreetMap iD-Editor and 
+see the photographed notes in the background.
+
