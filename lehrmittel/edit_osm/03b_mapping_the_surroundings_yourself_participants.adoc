@@ -27,3 +27,13 @@ but at least three hours.
 
 This is the rough schedule of an outdoor event:
 
+1. General preparations (e.g. what is OpenStreetMap?); min. approx. 20 min.
+2. Concrete preparation for outdoor mapping; min. approx. 20 min.
+3. Mapping outside; min. 60 min, better two to three hours.
+4. Instruction for editing OpenStreetMap; min. approx. 20 min.
+5. Editing on the computer; at least about one hour, better two hours.
+
+== Introduction 
+
+The following topics are covered in this worksheet:
+
