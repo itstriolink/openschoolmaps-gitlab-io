@@ -317,4 +317,30 @@ the participants have understood everything.
 
 == Evaluate and complete event
 
+At the end of the event the participants should evaluate their results and present 
+them to everyone. The evaluation can either be done individually or per group. The 
+evaluation includes before-and-after comparisons of the map sections, statistical 
+evaluations and personal reflection. The presentations can of course be graded if 
+desired by the instructor. Instead of a presentation one could also arrange a kind 
+of documentation of the work and possibly grade it. 
 
+After evaluating the event and presenting the results, it would also be useful if 
+you were to draw a conclusion: What was good? What was not so good? What can you 
+do better next time? What did the class learn? You could record these findings 
+in a report.
+
+[NOTE]
+====
+The changeset comment that you have set and that the participants (hopefully) 
+have given while editing can be used to make an analysis of the work done. 
+The changeset comment can be entered in the following web application, 
+where you will get statistics (over the last 30 days): 
+https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405 . 
+With "Search for a specific Text" you can e.g. enter "Switzerland" for a test.
+====
+
+Feedback on the event to the initiators of OpenSchoolMaps would 
+also be great: see https://openschoolmaps.ch/[OpenSchoolMaps] 
+> "Further teaching ideas". 
+
+include::../../snippets/quellenangabe.adoc[]
