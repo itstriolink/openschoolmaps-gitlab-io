@@ -113,4 +113,35 @@ Streets:
 
 Houses and house numbers:
 
+* House outlines
+* House numbers
+
+Shops and restaurants:
+
+* Name of the shop/restaurant
+* Address
+* Telephone number
+* Website
+* Opening hours
+
+[NOTE]
+====
+There is also an "OpenStreetMap Tagging Cheatsheet" (PDF) on 
+https://www.openschoolmaps.ch[OpenSchoolMaps] under "Teaching Materials".
+====
+
+== Preparations for outdoor mapping
+
+Before you set off as a group to explore your surroundings and collect 
+data, it makes sense to know what you need for a smooth process. Since you can 
+hardly remember all the characteristics of the streets, houses, house numbers, 
+shops and restaurants, you need suitable aids. We use pen and paper. 
+It is best to have a section of the surroundings on the paper so that you 
+can see what is where and what is already entered. 
+
+It would also be possible to use a smartphone with GPS. But we don't use that 
+here, because it needs much more explanation and experience than pen and paper. 
+
+*Checklist for preparation:*
+
 
