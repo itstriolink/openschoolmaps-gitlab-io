@@ -175,3 +175,20 @@ This will give you a first impression.
 =====
 
 == Preparations
+
+*Specify objects to map*: There are more than a thousand(!) object 
+types in OpenStreetMap (so-called 'tags'), so you should suggest a 
+selection of objects to the participants. In the corresponding worksheet 
+"Mapping the surroundings yourself..." for pupils and interested parties 
+there is a chapter "What can be mapped at outdoor events". OpenSchoolMaps 
+also offers a multi-page "OpenStreetMap Tagging Cheatsheet".
+If you think that most of the "nearby" objects are already registered 
+in the selected environment and you don't really know what to do, you 
+can contact the Swiss OpenStreetMap Association at the above mentioned contact.
+
+*Set changeset comment*: Before saving the edited data, OpenStreetMap 
+always requires a so-called "changeset comment". For an event to be evaluated, 
+it is important that everyone uses the same changeset comment. 
+Specify which changeset comment all should use. An example of a changeset 
+comment is _Outdoor-Event Kanti X 2019_.
+
