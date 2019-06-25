@@ -5,3 +5,41 @@ OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
 include::../../snippets/suppress_title_page.adoc[]
 
 *A guide for teachers and instructors*
+
+.Early practice for those who want to become a "master mapper"! (Quelle: EducOSM.xyz 2019)
+image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
+
+== Overview
+
+.Goal
+This is not a worksheet but a collection of hints and tips for teachers and instructors 
+to organize a successful outdoor mapping event (sometimes called "Mapping Party") with 
+students and interested parties (called "participants" here).
+
+.Target audience
+Teachers and instructors.
+
+[NOTE]
+====
+Please also read the corresponding worksheet "Mapping the environment yourself 
+- Outdoor Mapping Event" for students and interested parties.
+====
+
+
+== Introduction 
+
+Technology is an integral part of our everyday lives. 
+This also includes maps and GPS navigation apps. 
+Many people think of Google Maps, a school atlas or national maps such 
+as the federal map viewer (map.geo.admin.ch). 
+There are many alternatives - and one of them is OpenStreetMap (OSM). 
+The advantage of OpenStreetMap is that the data belongs to the users 
+(the community) and not to a company or an authority. 
+However, this also presupposes that the data is supplemented and 
+kept up-to-date by the users. 
+
+It seems reasonable to us that the participants develop an awareness 
+that the card belongs to them or to all of us and that we are all 
+responsible for its quality. 
+Participants should use OSM and actively participate in the improvement, 
+for example on holiday when the area is insufficiently covered.
