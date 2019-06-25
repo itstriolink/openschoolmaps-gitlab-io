@@ -37,3 +37,36 @@ This is the rough schedule of an outdoor event:
 
 The following topics are covered in this worksheet:
 
+* What is OpenStreetMap?
+* What's being mapped? What not?
+* What can be mapped at outdoor events?
+* Preparations for outdoor mapping 
+* How to edit OpenStreetMap?
+
+=== What is OpenStreetMap (OSM)?
+
+OpenStreetMap is an international project similar to Wikipedia 
+in which volunteers collect geodata that is then used by 
+countless applications.
+The OSM data belongs to the community and - in contrast to 
+Google Maps or national maps such as the map viewer of the 
+federal government (map.geo.admin.ch) - can be reused under 
+a free license. 
+
+OpenStreetMap can be used in many different ways and users can 
+have different goals. In the following we have compiled a few possible 
+uses of OpenStreetMap:
+
+* Navigation at the computer (e.g. OSM.org) or with the Smartphone (e.g. Maps.Me)
+* Background map or location map embedded in web pages
+* Location and hiking map
+* Interactive web maps of all kinds (e.g. a castle map)
+* Spatial analyses (e.g. Nebelkarte.ch)
+
+[NOTE]
+====
+If you want to learn more about OpenStreetMap, check out the Getting 
+to Know OSM.org Web Page worksheet at https://www.openschoolmaps.ch[OpenSchoolMaps].
+====
+
+=== What's being mapped? What not?
