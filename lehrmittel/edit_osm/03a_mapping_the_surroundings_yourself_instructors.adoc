@@ -109,3 +109,43 @@ The following estimated timetable is given below:
 .Scheduling Overview. 
 
 == Study of the documents
+
+Before you can successfully run an outdoor mapping event, you need to be 
+familiar with the topic of OpenStreetMap. It would be a good idea to pick up the 
+teaching materials from https://openschoolmaps.ch/[OpenSchoolMaps] a few weeks 
+in advance and study them. The documents contain both theory and exercises to solve. 
+Be prepared for possible questions from participants and take notes. 
+If something is not completely clear, one can inform oneself in the Web. 
+This is a good entry point https://osm.ch/hilfe.html[OSM.ch]. 
+However, it should be possible to study the documents on one's own.
+
+[NOTE]
+====
+The "Swiss OpenStreetMap Association" (SOSM) offers the possibility to ask questions 
+if you are stuck: https://sosm.ch/de/kontakt/[Contact].
+====
+
+== Execution of a test run
+
+Conscientious preparation includes not only studying the documents, 
+but also carrying out a test run. Use a way home or go for a walk 
+and apply your newly acquired knowledge. Explore the surroundings 
+from the perspective of a cartographer. 
+
+Take pen and paper with you on your walk. Use the map tools uMap 
+or Field Papers as described below. Research which objects the 
+participants could map (see below for more information).
+
+There would also be the possibility to use the smartphone, for example 
+with the app "OSMTracker for Android". However, this is associated with 
+more organizational and explanatory effort and is subject to constant 
+technical change.
+
+Stop the time and see how long it will take you to explore the environment 
+and how much information you can gather during this time.Then it will be 
+easier for you to estimate how much time you are planning for the participants.
+
+CAUTION: Make sure you schedule enough lessons. 
+Mapping can take longer than you think, so plan generously!
+
+== Integrating the data into OpenStreetMap
