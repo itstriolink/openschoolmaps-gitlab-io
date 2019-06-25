@@ -1,0 +1,29 @@
+= Mapping the surroundings yourself - Outdoor Mapping Event
+OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
+:xrefstyle: short
+:imagesdir: ../../bilder/
+include::../../snippets/suppress_title_page.adoc[]
+
+*A Guide for pupils and the enthusiasts*
+
+.Early practice for those who want to become a "master mapper"! (Quelle: EducOSM.xyz 2019)
+image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
+
+== Overview
+
+.Goal
+The goal of this worksheet is to impart knowledge in the field of OpenStreetMap
+(OSM) and cartography, so that pupils and other interested parties are able to 
+map the surroundings or another area independently on the instruction of the 
+teacher or instructor.
+
+.Target group
+Pupils and other enthusiasts.
+
+.Scheduling
+Depending on your previous knowledge, the processing of 
+this worksheet requires different amounts of time, 
+but at least three hours. 
+
+This is the rough schedule of an outdoor event:
+
