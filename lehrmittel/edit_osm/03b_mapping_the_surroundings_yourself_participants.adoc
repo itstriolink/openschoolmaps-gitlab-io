@@ -4,7 +4,7 @@ OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
 :imagesdir: ../../bilder/
 include::../../snippets/suppress_title_page.adoc[]
 
-*A Guide for pupils and the enthusiasts*
+*A guide for students and enthusiasts*
 
 .Early practice for those who want to become a "master mapper"! (Quelle: EducOSM.xyz 2019)
 image::osm_editieren/die_umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
@@ -13,12 +13,12 @@ image::osm_editieren/die_umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 .Goal
 The goal of this worksheet is to impart knowledge in the field of OpenStreetMap
-(OSM) and cartography, so that pupils and other interested parties are able to 
+(OSM) and cartography, so that students and enthusiasts are able to 
 map the surroundings or another area independently on the instruction of the 
 teacher or instructor.
 
 .Audience
-Pupils and other enthusiasts.
+Students and enthusiasts.
 
 .Scheduling
 Depending on your previous knowledge, the processing of 
