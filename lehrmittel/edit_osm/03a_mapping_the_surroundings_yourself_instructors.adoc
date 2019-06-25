@@ -1,0 +1,7 @@
+= Mapping the surroundings yourself - Outdoor Mapping Event
+OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
+:xrefstyle: short
+:imagesdir: ../../bilder/
+include::../../snippets/suppress_title_page.adoc[]
+
+*A guide for teachers and instructors*
