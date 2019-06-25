@@ -14,7 +14,7 @@ image::osm_editieren/die_umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 .Goal
 This is not a worksheet but a collection of hints and tips for teachers and instructors 
 to organize a successful outdoor mapping event (sometimes called "Mapping Party") with 
-students and interested parties (called "participants" here).
+students and enthusiasts (called "participants" here).
 
 .Audience
 Teachers and instructors.
@@ -22,7 +22,7 @@ Teachers and instructors.
 [NOTE]
 ====
 Please also read the corresponding worksheet "Mapping the environment yourself 
-- Outdoor Mapping Event" for students and interested parties.
+- Outdoor Mapping Event" for students and enthusiasts.
 ====
 
 == Introduction 
@@ -179,7 +179,7 @@ This will give you a first impression.
 *Specify objects to map*: There are more than a thousand(!) object 
 types in OpenStreetMap (so-called 'tags'), so you should suggest a 
 selection of objects to the participants. In the corresponding worksheet 
-"Mapping the surroundings yourself..." for pupils and interested parties 
+"Mapping the surroundings yourself..." for students and enthusiasts 
 there is a chapter "What can be mapped at outdoor events". OpenSchoolMaps 
 also offers a multi-page "OpenStreetMap Tagging Cheatsheet".
 If you think that most of the "nearby" objects are already registered 
@@ -251,7 +251,7 @@ OpenStreetMap.org.
 * Enough writing materials.
 
 Please also note the checklist for preparation for the participants 
-in the corresponding worksheet for pupils and interested parties.
+in the corresponding worksheet for students and enthusiasts.
 
 == Divide area and print map sections
 
