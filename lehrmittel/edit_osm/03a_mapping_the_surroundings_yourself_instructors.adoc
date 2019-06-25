@@ -192,3 +192,30 @@ it is important that everyone uses the same changeset comment.
 Specify which changeset comment all should use. An example of a changeset 
 comment is _Outdoor-Event Kanti X 2019_.
 
+*Define date*: For the execution date is not compelling - 
+but naturally desirable - if beautiful weather is announced, 
+since it concerns an outdoor activity. 
+Possibly an alternative date could be set.
+
+*Plan group division*: The participants should form groups to 
+carry out the event, e.g. groups of two. This makes it more exciting 
+for the participants and easier for the teacher or instructor to organise. 
+Each group is to be assigned an area, as explained below.
+
+*Set up email addresses (if not already done)*: To use services like 
+OpenStreetMap you need an e-mail address. And for this use one must 
+be older than 13 years according to Internet right. For 13- to 16-year-old 
+participants, a parent or person authorized by the parent (a teacher, a debt 
+administrator, or an instructor) can manage user accounts 
+(https://wiki.osmfoundation.org/wiki/Terms_of_Use#II._Privacy[source]). 
+
+There are many ways with which e-mail addresses participants should register, 
+if they have not already registered themselves, so that we cannot make a recommendation here.
+
+[NOTE]
+====
+At the following https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[Webseite] 
+you will find some tips on how you can set up e-mail addresses for the group 
+while respecting privacy and data protection.
+====
+
