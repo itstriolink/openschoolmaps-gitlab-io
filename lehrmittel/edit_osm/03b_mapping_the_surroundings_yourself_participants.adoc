@@ -92,3 +92,25 @@ Examples of unsuitable objects are:
 uploaded to http://commons.wikimedia.org/)
 
 === What can be mapped at outdoor events?
+
+As you have already read above, streets, houses, shops and restaurants are 
+suitable objects/data for mapping. The purpose of this event is to unite with a 
+friend and map the surroundings as a group. Of course it would take far too long to map 
+the whole area and let's face it, this would be a bit much at once. 
+
+There are now the following ways to find out what to map. Either the instructor will 
+tell you what to do - or you can choose the places in the area that you like. 
+Examples are your home if it is nearby, a part of your way to school, a local 
+sight or the home of one of your friends. There are enough things that can be mapped. 
+Here again a compilation:
+
+Streets:
+
+* Roads and paths marked one-way street
+* Street names
+* Pedestrian crossing
+* Public parking for cars and bicycles
+
+Houses and house numbers:
+
+
