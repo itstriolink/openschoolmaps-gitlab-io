@@ -95,7 +95,7 @@ The following estimated timetable is given below:
 |1 Day
 |1 Day
 
-|Write report
+|Writing report
 |-
 |-
 |0.5 Days
@@ -115,7 +115,7 @@ familiar with the topic of OpenStreetMap. It would be a good idea to pick up the
 teaching materials from https://openschoolmaps.ch/[OpenSchoolMaps] a few weeks 
 in advance and study them. The documents contain both theory and exercises to solve. 
 Be prepared for possible questions from participants and take notes. 
-If something is not completely clear, one can inform oneself in the Web. 
+If something is not completely clear, one can inform oneself in the internet. 
 This is a good entry point https://osm.ch/hilfe.html[OSM.ch]. 
 However, it should be possible to study the documents on one's own.
 
