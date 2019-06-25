@@ -25,7 +25,6 @@ Please also read the corresponding worksheet "Mapping the environment yourself
 - Outdoor Mapping Event" for students and interested parties.
 ====
 
-
 == Introduction 
 
 Technology is an integral part of our everyday lives. 
@@ -43,3 +42,70 @@ that the card belongs to them or to all of us and that we are all
 responsible for its quality. 
 Participants should use OSM and actively participate in the improvement, 
 for example on holiday when the area is insufficiently covered.
+
+And cartography is neither boring nor difficult, so anyone should be able 
+to learn it. One way to make cartography better known is to include it in 
+lessons, such as geography or history. An outdoor mapping event 
+should give an insight.
+
+The checklist below contains a short list of the topics that are important 
+to launch a successful event. It also gives an overview of the timing of the event.
+
+== Checklist and Scheduling
+
+The following is a checklist for teachers and instructors to prepare 
+and carry out an outdoor mapping event:
+
+1. Study of the documents
+2. Execution of a test run
+3. Integrating the data into OpenStreetMap
+4. Preparations (e.g. defining groups, changeset comments, etc.)
+5. Divide area and print map sections (part of preparation)
+6. Introduction of the topic for the participants (part of the preparation)
+7. After the event has taken place, evaluate and conclude the event.
+
+The topics are discussed in more detail here, section by section.
+
+Before that we show a table as an overview of the time schedule of the event.
+
+There are different possibilities, depending on whether you are planning an 
+outdoor mapping event within the framework of (A.) regular lessons, (B.) a 
+project week at the school, or (C.) a project week outside the school. 
+The following estimated timetable is given below:
+
+[cols="1,1,1,1", options="header"] 
+|===
+|Stage
+|A. Regular lessons
+|B. Project week at school
+|C. Project week outside school
+
+|Introduction 
+|2 - 4 Lessons
+|4 Lessons
+|4 Lessons
+
+|Data collection (outside)
+|3 Lessons
+|2 Days
+|2 Days
+
+|Data acquisition (on the computer)
+|3 Lessons
+|1 Day
+|1 Day
+
+|Write report
+|-
+|-
+|0.5 Days
+
+|Conclusion
+|2 Lessons
+|0.5 Days
+|0.5 Days
+
+|===
+.Scheduling Overview. 
+
+== Study of the documents
