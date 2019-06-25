@@ -255,3 +255,25 @@ Please also note the checklist for preparation for the participants
 in the corresponding worksheet for pupils and interested parties.
 
 == Divide area and print map sections
+
+The area planned for the event must be narrowed down so that the 
+participants do not have to cover too great a distance. 
+
+It also makes sense to divide the area into smaller areas 
+(so-called "perimeters") and assign them to groups. 
+This does not map the same area twice.
+
+Two web applications are particularly suitable for area 
+division: uMap and Field Papers: 
+
+* uMap is a map editor with which you can draw any area. 
+On https://openschoolmaps.ch/[OpenSchoolMaps] there is a 
+teaching material "Create a map with uMap". 
+* Field Papers" is a specialized web application that 
+allows you to create map sections and upload the notes 
+made in the field so that you can see them directly when editing.
+
+If you choose uMap, you can skip the following explanations on 
+Field Papers and make sure that there are enough maps 
+printed for all groups.
+
