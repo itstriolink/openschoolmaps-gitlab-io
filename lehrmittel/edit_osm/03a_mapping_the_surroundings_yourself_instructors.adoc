@@ -243,3 +243,15 @@ f. Goals: ... _(e.g. Map the surroundings of X)_
 ====
 
 Infrastructure and consumables:
+
+* There should be a room available with enough computers with 
+access to the Internet to integrate the collected data on 
+OpenStreetMap.org. 
+* The following chapter explains how to create printed map sections. 
+* Procure any documents for the card notes. 
+* Enough writing materials.
+
+Please also note the checklist for preparation for the participants 
+in the corresponding worksheet for pupils and interested parties.
+
+== Divide area and print map sections
