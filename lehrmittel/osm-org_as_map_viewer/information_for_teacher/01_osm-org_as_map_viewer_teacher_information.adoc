@@ -6,7 +6,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 *A worksheet for teachers*
 ifdef::show_solutions[- *SOLUTIONS*]
 
-== Synopsis
+== Overview
 
 .Goal
 After editing the corresponding worksheet, students should be able to use openstreetmap.org to view the OpenStreetMap, find places and things on the map, use the routing function and enter "notes" in OpenStreetMap to help improve the map data.
