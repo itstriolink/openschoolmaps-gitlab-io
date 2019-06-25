@@ -27,7 +27,6 @@ Lesen Sie auch das zugehörige Arbeitsblatt "Die Umgebung selber
 kartografieren - Outdoor Mapping Event" für Schülerinnen und Schüler sowie für Interessierte durch.
 ====
 
-
 == Einleitung
 
 Technologie ist kaum aus unserem Alltag weg zu denken. 
@@ -57,19 +56,18 @@ Die unten abgebildete Checkliste beinhaltet eine kurze Auflistung der Themen,
 die wichtig sind, um einen erfolgreichen Event lancieren zu können. 
 Zudem wird eine Übersicht über die Zeitplanung des Events gegeben.
 
-
 == Checkliste und Zeitplanung
 
 Nachfolgend eine Checkliste für Lehrpersonen und Instruktoren zur Vorbereitung 
 und Durchführung eines Outdoor Mapping Events:
 
 1. Studium der Unterlagen
-1. Durchführung eines Testlaufs
-1. Integrieren der Daten in OpenStreetMap
-1. Vorbereitungen (u.a. Festlegen Gruppen, Changeset-Kommentar, etc.)
-1. Gebiet einteilen und Kartenausschnitte drucken (Teil der Vorbereitung)
-1. Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
-1. Nach Durchführung des Events, den Event auswerten und abschliessen
+2. Durchführung eines Testlaufs
+3. Integrieren der Daten in OpenStreetMap
+4. Vorbereitungen (u.a. Festlegen Gruppen, Changeset-Kommentar, etc.)
+5. Gebiet einteilen und Kartenausschnitte drucken (Teil der Vorbereitung)
+6. Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
+7. Nach Durchführung des Events, den Event auswerten und abschliessen
 
 Auf die Themen wird hier Abschnitt für Abschnitt näher eingegangen.
 
