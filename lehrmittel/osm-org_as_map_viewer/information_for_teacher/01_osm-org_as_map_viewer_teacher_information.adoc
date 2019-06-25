@@ -8,20 +8,20 @@ ifdef::show_solutions[- *SOLUTIONS*]
 
 == Synopsis
 
-.Aim
+.Goal
 After editing the corresponding worksheet, students should be able to use openstreetmap.org to view the OpenStreetMap, find places and things on the map, use the routing function and enter "notes" in OpenStreetMap to help improve the map data.
 
-.Target Group
+.Audience
 Students in Lehrplan 21 Zyklus 2 or 3 (4th to 9th school year)
 
-.Time Schedule
+.Scheduling
 * "Get to know the OSM.org website" worksheet: 20 minutes	
 * "Using the OSM.org website in everyday life" worksheet: 10 minutes
 * "Examine OpenStreetMap data" worksheet: 15 Minuten
 
 The total time taken should be about one lesson (45 minutes).
 
-== Prearrangement
+== Preparation
 
 The students should have a *physical atlas or a physical map*, and if possible also a globe.
 
