@@ -7,7 +7,7 @@ include::../../snippets/suppress_title_page.adoc[]
 *A Guide for pupils and the enthusiasts*
 
 .Early practice for those who want to become a "master mapper"! (Quelle: EducOSM.xyz 2019)
-image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
+image::osm_editieren/die_umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 == Overview
 
@@ -179,7 +179,7 @@ If you've never edited objects in OpenStreetMap before - and this is the case ri
 registering - a "Welcome to iD OpenStreetMap Editor" window will appear. 
 
 .iD OpenStreetMap Editor
-image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["iD OpenStreetMap Editor", 500, 276]
+image::osm_editieren/die_umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["iD OpenStreetMap Editor", 500, 276]
 
 With the OpenStreetMap iD Editor you can create new objects and 
 enter new data on these objects. So you are helping to extend 
