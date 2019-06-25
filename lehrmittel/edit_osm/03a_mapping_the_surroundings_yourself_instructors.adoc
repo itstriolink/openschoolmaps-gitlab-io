@@ -307,4 +307,14 @@ https://wiki.openstreetmap.org/wiki/Field_Papers[OSM Wiki] for more information.
 
 == Introduction of the topic for the participants
 
+Before you divide participants into groups and send them off to explore 
+the environment, you should introduce them to the topic. This is because the 
+level of knowledge within the class/group in the field of computer science can 
+be very high and not everyone knows what OpenStreetMap is and what its purpose is. 
+It is best to prepare a short presentation and present everything you have learned 
+and know in the documents. Take time to clarify open questions and make sure that 
+the participants have understood everything.
+
+== Evaluate and complete event
+
 
