@@ -7,12 +7,12 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 == Overview
 
-.Objective
+.Goal
 After completing the corresponding worksheets, you or the students will 
 understand some fundamentals of GIS and be able to use the basic functions of 
 QGIS 3. 
 
-.Target group
+.Audience
 * Students in curriculum 21 cycle 2 or 3 (4th to 9th school year) supported by 
 a teacher
 * Autodidacts with self-study
