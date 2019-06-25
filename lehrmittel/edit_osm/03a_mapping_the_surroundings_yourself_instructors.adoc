@@ -286,4 +286,25 @@ where you can see a link that calls the editor with parameters.
 Now you can capture the data in the OpenStreetMap iD-Editor and 
 see the photographed notes in the background.
 
+For Field Papers you need a computer, a printer with A4 paper 
+and a digital camera (e.g. camera in smartphone).
+
+Below is a summary of the procedure with field papers:
+
+1. Go to http://fieldpapers.org/[Field Papers].
+2. Register if necessary. 
+3. Give the map a name and navigate to the area you want to map.
+4. Print the maps ("Atlas").
+5. Go outside and make a note of what you see.
+6. Back at the computer, either just look at the paper notes as an aid;
+7. or take a photo of the paper notes (also scanning goes) and upload 
+the photo or scan to Field Papers.
+8. Start the iD-Editor directly with the weblink to Field Papers.
+9. Capture the data with the OpenStreetMap editor. 
+
+Visit Field Papers' http://fieldpapers.org/about[website] and the 
+https://wiki.openstreetmap.org/wiki/Field_Papers[OSM Wiki] for more information.
+
+== Introduction of the topic for the participants
+
 
