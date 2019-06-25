@@ -219,3 +219,27 @@ you will find some tips on how you can set up e-mail addresses for the group
 while respecting privacy and data protection.
 ====
 
+*Announce event as a summary*: Also OpenStreetMap knows rules - 
+similar to a common or a school place. For example, it is important 
+that those who edit can be contacted. An event like this is called 
+organized editing and there are these https://wiki.openstreetmap.org
+/wiki/DE:Organised_Editing_Guidelines["Organized Editing Guidelines"]. 
+We have shortened these guidelines for you. 
+
+In accordance with the guidelines, you will be asked to fill in the 
+following information and email it to the following contact: 
+https://sosm.ch/de/kontakt/[SOSM]. 
+
+[NOTE]
+====
+*Summary of the Outdoor Mapping Event:* 
+
+a. Name of the event: ... _(e.g. Outdoor Event Rappi)_ +
+b. Date: ... _(e.g. 2019-06-11)_ +
+c. Changeset Comment: ... _(ca. 50 characters! e.g. Outdoor-Event Kanti X 2019)_ +
+d. Instructor (coordinator): ... _(e.g. Username Geonick)_ +
+e. Participants: ..., ... _(e.g. Username Geonick, Username2, ...)_ +
+f. Goals: ... _(e.g. Map the surroundings of X)_
+====
+
+Infrastructure and consumables:
