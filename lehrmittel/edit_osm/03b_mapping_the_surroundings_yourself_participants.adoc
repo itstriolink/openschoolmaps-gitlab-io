@@ -17,7 +17,7 @@ The goal of this worksheet is to impart knowledge in the field of OpenStreetMap
 map the surroundings or another area independently on the instruction of the 
 teacher or instructor.
 
-.Target group
+.Audience
 Pupils and other enthusiasts.
 
 .Scheduling
