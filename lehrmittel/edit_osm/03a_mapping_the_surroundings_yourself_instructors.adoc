@@ -165,7 +165,7 @@ not as fast as you and the differences within the class can be considerable.
 
 OpenStreetMap always requires a so-called "changeset comment" before 
 saving the edited data. An example of a changeset comment is 
-_Hausnummern Bahnhofstrasse ergänzt_ or _Outdoor-Event Grammar School X 2019_. 
+_Hausnummern Bahnhofstrasse ergänzt_ or _Outdoor-Event School X 2019_. 
 In the following chapter "Preparations" we come back to this comment.
 
 [NOTE]
@@ -190,7 +190,7 @@ can contact the Swiss OpenStreetMap Association at the above mentioned contact.
 always requires a so-called "changeset comment". For an event to be evaluated, 
 it is important that everyone uses the same changeset comment. 
 Specify which changeset comment all should use. An example of a changeset 
-comment is _Outdoor-Event Grammar School X 2019_.
+comment is _Outdoor-Event School X 2019_.
 
 *Define date*: For the execution date is not compelling - 
 but naturally desirable - if beautiful weather is announced, 
@@ -235,7 +235,7 @@ https://sosm.ch/en/contact/[SOSM].
 
 a. Name of the event: ... _(e.g. Outdoor Event Rappi)_ +
 b. Date: ... _(e.g. 2019-06-11)_ +
-c. Changeset Comment: ... _(ca. 50 characters! e.g. Outdoor-Event Grammar School X 2019)_ +
+c. Changeset Comment: ... _(ca. 50 characters! e.g. Outdoor-Event School X 2019)_ +
 d. Instructor (coordinator): ... _(e.g. Username Geonick)_ +
 e. Participants: ..., ... _(e.g. Username Geonick, Username2, ...)_ +
 f. Goals: ... _(e.g. Map the surroundings of X)_
