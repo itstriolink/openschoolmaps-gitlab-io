@@ -287,7 +287,7 @@ Now you can capture the data in the OpenStreetMap iD-Editor and
 see the photographed notes in the background.
 
 For Field Papers you need a computer, a printer with A4 paper 
-and a digital camera (e.g. camera in smartphone).
+and a digital camera (e.g. smartphone-camera).
 
 Below is a summary of the procedure with field papers:
 
