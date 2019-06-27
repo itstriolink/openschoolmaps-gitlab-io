@@ -202,7 +202,7 @@ carry out the event, e.g. groups of two. This makes it more exciting
 for the participants and easier for the teacher or instructor to organise. 
 Each group is to be assigned an area, as explained below.
 
-*Set up E-Mail addresses (if not already done)*: To use services like 
+*Set up e-mail addresses (if not already done)*: To use services like 
 OpenStreetMap you need an e-mail address. And for this use one must 
 be older than 13 years according to Internet right. For 13- to 16-year-old 
 participants, a parent or person authorized by the parent (a teacher, a debt 
@@ -226,7 +226,7 @@ organized editing and there are these https://wiki.openstreetmap.org/wiki/Organi
 We have shortened these guidelines for you. 
 
 In accordance with the guidelines, you will be asked to fill in the 
-following information and E-Mail it to the following contact: 
+following information and e-mail it to the following contact: 
 https://sosm.ch/en/contact/[SOSM]. 
 
 [NOTE]
