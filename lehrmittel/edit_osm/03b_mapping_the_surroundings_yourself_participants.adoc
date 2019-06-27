@@ -6,7 +6,7 @@ include::../../snippets/suppress_title_page.adoc[]
 
 *A guide for students and enthusiasts*
 
-.Early practice for those who want to become a "master mapper"! (Quelle: EducOSM.xyz 2019)
+.Early practice for those who want to become a "master mapper"! (Source: EducOSM.xyz 2019)
 image::osm_editieren/die_umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 == Overview
