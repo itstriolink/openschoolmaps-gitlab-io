@@ -227,7 +227,7 @@ We have shortened these guidelines for you.
 
 In accordance with the guidelines, you will be asked to fill in the 
 following information and email it to the following contact: 
-https://sosm.ch/de/kontakt/[SOSM]. 
+https://sosm.ch/en/contact/[SOSM]. 
 
 [NOTE]
 ====
