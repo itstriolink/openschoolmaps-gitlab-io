@@ -1,4 +1,4 @@
-= Mapping the surroundings yourself - Outdoor Mapping Event
+= Mapping the Surroundings Yourself - Outdoor Mapping Event
 OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
 :xrefstyle: short
 :imagesdir: ../../bilder/
@@ -193,7 +193,7 @@ Before saving the edited data, OpenStreetMap always requires
 a so-called "changeset comment". For an event to be evaluated, 
 it is important that everyone uses the same changeset comment. 
 Ask the teacher or instructor which changeset comment you should use. 
-An example of a changeset comment is "Outdoor-Event Kanti X 2019".
+An example of a changeset comment is "Outdoor-Event Grammar School X 2019".
 
 Now you should know how to map.
 
