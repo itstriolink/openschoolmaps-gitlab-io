@@ -176,7 +176,7 @@ OpenStreetMap does not only work in Switzerland. You can also find places like N
 * Have you recently been on holiday (at home or abroad) or visiting relatives?
 Try to find the resort which you resides in. Can you locate them on the map?
 
-Which city is called "Ciūrichas" in Italian?
+Which city is called "Ciūrichas" in Lithuanian?
 
 ====
 ifdef::show_solutions[Zürich]

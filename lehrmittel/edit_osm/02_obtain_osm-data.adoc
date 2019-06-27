@@ -4,7 +4,7 @@ OpenSchoolMaps.ch - Free learning materials for free geodata and maps
 :imagesdir: ../../../bilder/
 include::../../../snippets/suppress_title_page.adoc[]
 
-*A guide for the interested, for students and for instructors/teachers*
+*A guide for enthusiasts, students and instructors/teachers*
 
 == Overview
 
@@ -104,7 +104,7 @@ After clicking on "build and run query" you will get the following:
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
 The above result can also be simplified by replacing the "nodes", "ways" and 
-"relations" to "nwr" (=noses/ways/relations). In the lower right corner you can 
+"relations" to "nwr" (=nodes/ways/relations). In the lower right corner you can 
 see the different objects marked in red. 
 We have 23 POIs and 5 polygons. 
 Since we only want POIs, we could use "out center;" to turn all areas and paths into points. 

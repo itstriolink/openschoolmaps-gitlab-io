@@ -5,17 +5,17 @@ include::../../snippets/suppress_title_page.adoc[]
 
 *Teacher's Guide*
 
-== Synopsis
+== Overview
 
-.Aim
-The aim of this guide is for teachers like you to be able to use uMap to create a site plan that can be used as a map.
+.Goal
+The goal of this guide is for teachers like you to be able to use uMap to create a site plan that can be used as a map.
 
 .Example of a site plan created with uMap. Map data (C) OpenStreetMap Contributors
 image::umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
 You can see the full example map at https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575. You may have to zoom in on the blue pins.
 
-.Time Schedule
+.Scheduling
 You will need about 10-15 minutes for the example. Any device with Internet access and the uMap website serve as a means.
 
 [NOTE]

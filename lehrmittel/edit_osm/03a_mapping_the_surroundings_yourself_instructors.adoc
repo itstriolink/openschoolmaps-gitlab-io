@@ -1,0 +1,346 @@
+= Mapping the Surroundings Yourself - Outdoor Mapping Event
+OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
+:xrefstyle: short
+:imagesdir: ../../bilder/
+include::../../snippets/suppress_title_page.adoc[]
+
+*A guide for teachers and instructors*
+
+.Early practice for those who want to become a "master mapper"! (Source: EducOSM.xyz 2019)
+image::osm_editieren/die_umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
+
+== Overview
+
+.Goal
+This is not a worksheet but a collection of hints and tips for teachers and instructors 
+to organize a successful outdoor mapping event (sometimes called "Mapping Party") with 
+students and enthusiasts (called "participants" here).
+
+.Audience
+Teachers and instructors.
+
+[NOTE]
+====
+Please also read the corresponding worksheet "Mapping the environment yourself 
+- Outdoor Mapping Event" for students and enthusiasts.
+====
+
+== Introduction 
+
+Technology is an integral part of our everyday lives. 
+This also includes maps and GPS navigation apps. 
+Many people think of Google Maps, a school atlas or national maps such 
+as the federal map viewer (map.geo.admin.ch). 
+There are many alternatives - and one of them is OpenStreetMap (OSM). 
+The advantage of OpenStreetMap is that the data belongs to the users 
+(the community) and not to a company or an authority. 
+However, this also presupposes that the data is supplemented and 
+kept up-to-date by the users. 
+
+It seems reasonable to us that the participants develop an awareness 
+that the card belongs to them or to all of us and that we are all 
+responsible for its quality. 
+Participants should use OSM and actively participate in the improvement, 
+for example on holiday when the area is insufficiently covered.
+
+And cartography is neither boring nor difficult, so anyone should be able 
+to learn it. One way to make cartography better known is to include it in 
+lessons, such as geography or history. An outdoor mapping event 
+should give an insight.
+
+The checklist below contains a short list of the topics that are important 
+to launch a successful event. It also gives an overview of the timing of the event.
+
+== Checklist and Scheduling
+
+The following is a checklist for teachers and instructors to prepare 
+and carry out an outdoor mapping event:
+
+1. Study of the documents
+2. Execution of a test run
+3. Integrating the data into OpenStreetMap
+4. Preparations (e.g. defining groups, changeset comments, etc.)
+5. Divide area and print map sections (part of preparation)
+6. Introduction of the topic for the participants (part of the preparation)
+7. After the event has taken place, evaluate and conclude the event.
+
+The topics are discussed in more detail here, section by section.
+
+Before that we show a table as an overview of the time schedule of the event.
+
+There are different possibilities, depending on whether you are planning an 
+outdoor mapping event within the framework of (A.) regular lessons, (B.) a 
+project week at the school, or (C.) a project week outside the school. 
+The following estimated timetable is given below:
+
+[cols="1,1,1,1", options="header"] 
+|===
+|Stage
+|A. Regular lessons
+|B. Project week at school
+|C. Project week outside school
+
+|Introduction 
+|2 - 4 Lessons
+|4 Lessons
+|4 Lessons
+
+|Data collection (outside)
+|3 Lessons
+|2 Days
+|2 Days
+
+|Data acquisition (on the computer)
+|3 Lessons
+|1 Day
+|1 Day
+
+|Writing report
+|-
+|-
+|0.5 Days
+
+|Conclusion
+|2 Lessons
+|0.5 Days
+|0.5 Days
+
+|===
+.Scheduling Overview. 
+
+== Study of the documents
+
+Before you can successfully run an outdoor mapping event, you need to be 
+familiar with the topic of OpenStreetMap. It would be a good idea to pick up the 
+teaching materials from https://openschoolmaps.ch/[OpenSchoolMaps] a few weeks 
+in advance and study them. The documents contain both theory and exercises to solve. 
+Be prepared for possible questions from participants and take notes. 
+If something is not completely clear, one can inform oneself in the internet. 
+This is a good entry point https://osm.ch/hilfe.html[OSM.ch]. 
+However, it should be possible to study the documents on one's own.
+
+[NOTE]
+====
+The "Swiss OpenStreetMap Association" (SOSM) offers the possibility to ask questions 
+if you are stuck: https://sosm.ch/en/contact/[Contact].
+====
+
+== Execution of a test run
+
+Conscientious preparation includes not only studying the documents, 
+but also carrying out a test run. Use a way home or go for a walk 
+and apply your newly acquired knowledge. Explore the surroundings 
+from the perspective of a cartographer. 
+
+Take pen and paper with you on your walk. Use the map tools uMap 
+or Field Papers as described below. Research which objects the 
+participants could map (see below for more information).
+
+There would also be the possibility to use the smartphone, for example 
+with the app "OSMTracker for Android". However, this is associated with 
+more organizational and explanatory effort and is subject to constant 
+technical change.
+
+Stop the time and see how long it will take you to explore the environment 
+and how much information you can gather during this time.Then it will be 
+easier for you to estimate how much time you are planning for the participants.
+
+CAUTION: Make sure you schedule enough lessons. 
+Mapping can take longer than you think, so plan generously!
+
+== Integrating the data into OpenStreetMap
+
+After you have collected your data, go to https://www.osm.org[OSM.org] 
+and enter your data there. 
+
+If you do not yet have an account with OpenStreetMap (OSM), now is the 
+time to create one. 
+See https://openschoolmaps.ch/[OpenSchoolMaps] under "Teaching Materials" 
+for the worksheet "Edit OpenStreetMap" for further explanations and the 
+"OpenStreetMap Tagging Cheatsheet".
+
+Again, it might be an advantage if you look at how much time you need. 
+Add a little extra to your measured time because participants are probably 
+not as fast as you and the differences within the class can be considerable. 
+
+OpenStreetMap always requires a so-called "changeset comment" before 
+saving the edited data. An example of a changeset comment is 
+_Hausnummern Bahnhofstrasse ergänzt_ or _Outdoor-Event Grammar School X 2019_. 
+In the following chapter "Preparations" we come back to this comment.
+
+[NOTE]
+=====
+Show your work to the participants as an introduction to the topic. 
+This will give you a first impression.
+=====
+
+== Preparations
+
+*Specify objects to map*: There are more than a thousand(!) object 
+types in OpenStreetMap (so-called 'tags'), so you should suggest a 
+selection of objects to the participants. In the corresponding worksheet 
+"Mapping the surroundings yourself..." for students and enthusiasts 
+there is a chapter "What can be mapped at outdoor events". OpenSchoolMaps 
+also offers a multi-page "OpenStreetMap Tagging Cheatsheet".
+If you think that most of the "nearby" objects are already registered 
+in the selected environment and you don't really know what to do, you 
+can contact the Swiss OpenStreetMap Association at the above mentioned contact.
+
+*Set changeset comment*: Before saving the edited data, OpenStreetMap 
+always requires a so-called "changeset comment". For an event to be evaluated, 
+it is important that everyone uses the same changeset comment. 
+Specify which changeset comment all should use. An example of a changeset 
+comment is _Outdoor-Event Grammar School X 2019_.
+
+*Define date*: For the execution date is not compelling - 
+but naturally desirable - if beautiful weather is announced, 
+since it concerns an outdoor activity. 
+Possibly an alternative date could be set.
+
+*Plan group division*: The participants should form groups to 
+carry out the event, e.g. groups of two. This makes it more exciting 
+for the participants and easier for the teacher or instructor to organise. 
+Each group is to be assigned an area, as explained below.
+
+*Set up email addresses (if not already done)*: To use services like 
+OpenStreetMap you need an e-mail address. And for this use one must 
+be older than 13 years according to Internet right. For 13- to 16-year-old 
+participants, a parent or person authorized by the parent (a teacher, a debt 
+administrator, or an instructor) can manage user accounts 
+(https://wiki.osmfoundation.org/wiki/Terms_of_Use#II._Privacy[source]). 
+
+There are many ways with which e-mail addresses participants should register, 
+if they have not already registered themselves, so that we cannot make a recommendation here.
+
+[NOTE]
+====
+At the following https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[web page] 
+you will find some tips on how you can set up e-mail addresses for the group 
+while respecting privacy and data protection.
+====
+
+*Announce event as a summary*: Also OpenStreetMap knows rules - 
+similar to a common or a school place. For example, it is important 
+that those who edit can be contacted. An event like this is called 
+organized editing and there are these https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organized Editing Guidelines"]. 
+We have shortened these guidelines for you. 
+
+In accordance with the guidelines, you will be asked to fill in the 
+following information and email it to the following contact: 
+https://sosm.ch/en/contact/[SOSM]. 
+
+[NOTE]
+====
+*Summary of the Outdoor Mapping Event:* 
+
+a. Name of the event: ... _(e.g. Outdoor Event Rappi)_ +
+b. Date: ... _(e.g. 2019-06-11)_ +
+c. Changeset Comment: ... _(ca. 50 characters! e.g. Outdoor-Event Grammar School X 2019)_ +
+d. Instructor (coordinator): ... _(e.g. Username Geonick)_ +
+e. Participants: ..., ... _(e.g. Username Geonick, Username2, ...)_ +
+f. Goals: ... _(e.g. Map the surroundings of X)_
+====
+
+Infrastructure and consumables:
+
+* There should be a room available with enough computers with 
+access to the Internet to integrate the collected data on 
+OpenStreetMap.org. 
+* The following chapter explains how to create printed map sections. 
+* Procure any documents for the card notes. 
+* Enough writing materials.
+
+Please also note the checklist for preparation for the participants 
+in the corresponding worksheet for students and enthusiasts.
+
+== Divide area and print map sections
+
+The area planned for the event must be narrowed down so that the 
+participants do not have to cover too great a distance. 
+
+It also makes sense to divide the area into smaller areas 
+(so-called "perimeters") and assign them to groups. 
+This does not map the same area twice.
+
+Two web applications are particularly suitable for area 
+division: uMap and Field Papers: 
+
+* uMap is a map editor with which you can draw any area. 
+On https://openschoolmaps.ch/[OpenSchoolMaps] there is a 
+teaching material "Create a map with uMap". 
+* Field Papers" is a specialized web application that 
+allows you to create map sections and upload the notes 
+made in the field so that you can see them directly when editing.
+
+If you choose uMap, you can skip the following explanations on 
+Field Papers and make sure that there are enough maps 
+printed for all groups.
+
+"*Field Papers "* is a web application that allows you to create 
+a map from OpenStreetMap, print it out and add your own notes to it. 
+When the notes are recorded on the card, they can be photographed 
+(or scanned) and uploaded back to Field Papers. After the map is 
+uploaded, you can call the OpenStreetMap editor iD directly with 
+one click and see the notes as a base map. Here is a http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875[example] 
+where you can see a link that calls the editor with parameters. 
+Now you can capture the data in the OpenStreetMap iD-Editor and 
+see the photographed notes in the background.
+
+For Field Papers you need a computer, a printer with A4 paper 
+and a digital camera (e.g. camera in smartphone).
+
+Below is a summary of the procedure with field papers:
+
+1. Go to http://fieldpapers.org/[Field Papers].
+2. Register if necessary. 
+3. Give the map a name and navigate to the area you want to map.
+4. Print the maps ("Atlas").
+5. Go outside and make a note of what you see.
+6. Back at the computer, either just look at the paper notes as an aid;
+7. or take a photo of the paper notes (also scanning goes) and upload 
+the photo or scan to Field Papers.
+8. Start the iD-Editor directly with the weblink to Field Papers.
+9. Capture the data with the OpenStreetMap editor. 
+
+Visit Field Papers' http://fieldpapers.org/about[website] and the 
+https://wiki.openstreetmap.org/wiki/Field_Papers[OSM Wiki] for more information.
+
+== Introduction of the topic for the participants
+
+Before you divide participants into groups and send them off to explore 
+the environment, you should introduce them to the topic. This is because the 
+level of knowledge within the class/group in the field of computer science can 
+be very high and not everyone knows what OpenStreetMap is and what its purpose is. 
+It is best to prepare a short presentation and present everything you have learned 
+and know in the documents. Take time to clarify open questions and make sure that 
+the participants have understood everything.
+
+== Evaluate and complete event
+
+At the end of the event the participants should evaluate their results and present 
+them to everyone. The evaluation can either be done individually or per group. The 
+evaluation includes before-and-after comparisons of the map sections, statistical 
+evaluations and personal reflection. The presentations can of course be graded if 
+desired by the instructor. Instead of a presentation one could also arrange a kind 
+of documentation of the work and possibly grade it. 
+
+After evaluating the event and presenting the results, it would also be useful if 
+you were to draw a conclusion: What was good? What was not so good? What can you 
+do better next time? What did the class learn? You could record these findings 
+in a report.
+
+[NOTE]
+====
+The changeset comment that you have set and that the participants (hopefully) 
+have given while editing can be used to make an analysis of the work done. 
+The changeset comment can be entered in the following web application, 
+where you will get statistics (over the last 30 days): 
+https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405 . 
+With "Search for a specific Text" you can e.g. enter "Switzerland" for a test.
+====
+
+Feedback on the event to the initiators of OpenSchoolMaps would 
+also be great: see https://openschoolmaps.ch/[OpenSchoolMaps] 
+> "Further teaching ideas". 
+
+include::../../snippets/quellenangabe.adoc[]

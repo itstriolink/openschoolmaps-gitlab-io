@@ -1,0 +1,206 @@
+= Mapping the Surroundings Yourself - Outdoor Mapping Event
+OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
+:xrefstyle: short
+:imagesdir: ../../bilder/
+include::../../snippets/suppress_title_page.adoc[]
+
+*A guide for students and enthusiasts*
+
+.Early practice for those who want to become a "master mapper"! (Source: EducOSM.xyz 2019)
+image::osm_editieren/die_umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
+
+== Overview
+
+.Goal
+The goal of this worksheet is to communicate knowledge in the field of OpenStreetMap
+(OSM) and cartography, so that students and enthusiasts are able to 
+map the surroundings or another area independently on the instruction of the 
+teacher or instructor.
+
+.Audience
+Students and enthusiasts.
+
+.Scheduling
+Depending on your previous knowledge, the processing of 
+this worksheet requires different amounts of time, 
+but at least three hours. 
+
+This is the rough schedule of an outdoor event:
+
+1. General preparations (e.g. what is OpenStreetMap?); min. approx. 20 min.
+2. Concrete preparation for outdoor mapping; min. approx. 20 min.
+3. Mapping outside; min. 60 min, better two to three hours.
+4. Instruction for editing OpenStreetMap; min. approx. 20 min.
+5. Editing on the computer; at least about one hour, better two hours.
+
+== Introduction 
+
+The following topics are covered in this worksheet:
+
+* What is OpenStreetMap?
+* What's being mapped? What not?
+* What can be mapped at outdoor events?
+* Preparations for outdoor mapping 
+* How to edit OpenStreetMap?
+
+=== What is OpenStreetMap (OSM)?
+
+OpenStreetMap is an international project similar to Wikipedia 
+in which volunteers collect geodata that is then used by 
+countless applications.
+The OSM data belongs to the community and - in contrast to 
+Google Maps or national maps such as the map viewer of the 
+federal government (map.geo.admin.ch) - can be reused under 
+a free license. 
+
+OpenStreetMap can be used in many different ways and users can 
+have different goals. In the following we have compiled a few possible 
+uses of OpenStreetMap:
+
+* Navigation at the computer (e.g. OSM.org) or with the Smartphone (e.g. Maps.Me)
+* Background map or location map embedded in web pages
+* Location and hiking map
+* Interactive web maps of all kinds (e.g. a castle map)
+* Spatial analyses (e.g. Nebelkarte.ch)
+
+[NOTE]
+====
+If you want to learn more about OpenStreetMap, check out the "Get to know the 
+OSM.org website"worksheet at https://www.openschoolmaps.ch[OpenSchoolMaps].
+====
+
+=== What's being mapped? What not?
+
+Mapping and cartography refers to the collection of spatial data, i.e. geodata. 
+Before you can integrate this geodata into OpenStreetMap, you have to collect it first. 
+There are several ways to do this. One possibility is to research the data. You search 
+different documents and/or websites and collect data that is still missing in OpenStreetMap 
+or no longer up-to-date. Another possibility is to ask people to give information about 
+missing data. The last possibility, for example to record houses and streets, is to go 
+out and take notes. These notes can then be transferred to OpenStreetMap at a later time.
+
+The most important thing in mapping is that what you map is verifiable. 
+Objects that are open to the public, such as streets, houses, shops or snack corners, are well suited. 
+
+Examples of unsuitable objects are:
+
+* Personal opinions
+* Personal data
+* Construction sites or things on wheels that are gone after a few days or weeks.
+* Ratings on restaurants or shops
+* Photos (except as a web link to photos previously 
+uploaded to http://commons.wikimedia.org/)
+
+=== What can be mapped at outdoor events?
+
+As you have already read above, streets, houses, shops and restaurants are 
+suitable objects/data for mapping. The purpose of this event is to unite with a 
+friend and map the surroundings as a group. Of course it would take far too long to map 
+the whole area and let's face it, this would be a bit much at once. 
+
+There are now the following ways to find out what to map. Either the instructor will 
+tell you what to do - or you can choose the places in the area that you like. 
+Examples are your home if it is nearby, a part of your way to school, a local 
+sight or the home of one of your friends. There are enough things that can be mapped. 
+Here again a compilation:
+
+Streets:
+
+* Roads and paths marked one-way street
+* Street names
+* Pedestrian crossing
+* Public parking for cars and bicycles
+
+Houses and house numbers:
+
+* House outlines
+* House numbers
+
+Shops and restaurants:
+
+* Name of the shop/restaurant
+* Address
+* Telephone number
+* Website
+* Opening hours
+
+[NOTE]
+====
+There is also an "OpenStreetMap Tagging Cheatsheet" (PDF) on 
+https://www.openschoolmaps.ch[OpenSchoolMaps] under "Teaching Materials".
+====
+
+== Preparations for outdoor mapping
+
+Before you set off as a group to explore your surroundings and collect 
+data, it makes sense to know what you need for a smooth process. Since you can 
+hardly remember all the characteristics of the streets, houses, house numbers, 
+shops and restaurants, you need suitable aids. We use pen and paper. 
+It is best to have a section of the surroundings on the paper so that you 
+can see what is where and what is already entered. 
+
+It would also be possible to use a smartphone with GPS. But we don't use that 
+here, because it needs much more explanation and experience than pen and paper. 
+
+*Checklist for preparation:*
+
+* Printed card on which you can make notes (at least one per group)
+* Possibly a hard card underlay
+* Writing material
+* Possible smartphone or camera e.g. for photographing opening hours
+* (Possibly a power bank for the smartphone if the GPS is used)
+* (The teacher or instructor may have other things to consider)
+
+Have fun cartographing!
+
+The next chapter explains how to capture the information written on paper on your computer.
+
+== How to edit OpenStreetMap?
+
+Now that you are back, you can edit the data on OpenStreetMap.
+
+The following explanations are a short version of the worksheet 
+"Edit OpenStreetMap" at https://www.openschoolmaps.ch[OpenSchoolMaps]. 
+
+Before you can start editing or adding data on OpenStreetMap, you need to register there. 
+If the instructor hasn't already done the registration for you, 
+go to the website of https://www.openstreetmap.org/[OpenStreetMap]. 
+In the upper right corner you will see a "Register" button. 
+Click on it, now you have to enter an email and set a username and password. 
+You must then confirm the details by email by clicking on a link. 
+After that your account is already set up. 
+
+Now you can start editing. So let's go!
+
+After you sign up, navigate to your area. If you like, you can also enter a place 
+name in the search field. But now we don't just want to look at our environment 
+in OpenStreetMap, we want to edit it. To do this, click on "Edit" in the upper left corner. 
+If you've never edited objects in OpenStreetMap before - and this is the case right after 
+registering - a "Welcome to iD OpenStreetMap Editor" window will appear. 
+
+.iD OpenStreetMap Editor
+image::osm_editieren/die_umgebung_selber_kartografieren/iD_OpenStreetMap.JPG["iD OpenStreetMap Editor", 500, 276]
+
+With the OpenStreetMap iD Editor you can create new objects and 
+enter new data on these objects. So you are helping to extend 
+and/or update the OpenStreetMap map. 
+
+It is recommended to click on "Start Tour", then you will be 
+guided through a tutorial on how to edit correctly in OpenStreetMap. 
+This tutorial takes about 10 to 20 minutes. 
+
+Before saving the edited data, OpenStreetMap always requires 
+a so-called "changeset comment". For an event to be evaluated, 
+it is important that everyone uses the same changeset comment. 
+Ask the teacher or instructor which changeset comment you should use. 
+An example of a changeset comment is "Outdoor-Event Grammar School X 2019".
+
+Now you should know how to map.
+
+[NOTE]
+====
+If you need help, see https://www.openschoolmaps.ch[OpenSchoolMaps] 
+under "Teaching Materials" in the "Edit OpenStreetMap" worksheet.
+====
+
+include::../../snippets/quellenangabe.adoc[]
