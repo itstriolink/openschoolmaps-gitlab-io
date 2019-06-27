@@ -185,7 +185,7 @@ With the OpenStreetMap iD Editor you can create new objects and
 enter new data on these objects. So you are helping to extend 
 and/or update the OpenStreetMap map. 
 
-It is recommended to click on "Start Tour", then you will be 
+It is recommended to click on "Start the Walkthrough", then you will be 
 guided through a tutorial on how to edit correctly in OpenStreetMap. 
 This tutorial takes about 10 to 20 minutes. 
 
