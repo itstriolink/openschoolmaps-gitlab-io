@@ -176,7 +176,7 @@ After you sign up, navigate to your area. If you like, you can also enter a plac
 name in the search field. But now we don't just want to look at our environment 
 in OpenStreetMap, we want to edit it. To do this, click on "Edit" in the upper left corner. 
 If you've never edited objects in OpenStreetMap before - and this is the case right after 
-registering - a "Welcome to iD OpenStreetMap Editor" window will appear. 
+registering - a "Welcome to the iD OpenStreetMap editor"-window will appear. 
 
 .iD OpenStreetMap Editor
 image::osm_editieren/die_umgebung_selber_kartografieren/iD_OpenStreetMap.JPG["iD OpenStreetMap Editor", 500, 276]
