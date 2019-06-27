@@ -222,7 +222,7 @@ while respecting privacy and data protection.
 *Announce event as a summary*: Also OpenStreetMap knows rules - 
 similar to a common or a school place. For example, it is important 
 that those who edit can be contacted. An event like this is called 
-organized editing and there are these https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organized Editing Guidelines"]. 
+organized editing and there are these https://wiki.openstreetmap.org/wiki/Organised_Editing_Guidelines["Organized Editing Guidelines"]. 
 We have shortened these guidelines for you. 
 
 In accordance with the guidelines, you will be asked to fill in the 
