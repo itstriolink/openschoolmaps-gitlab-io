@@ -66,7 +66,7 @@ uses of OpenStreetMap:
 [NOTE]
 ====
 If you want to learn more about OpenStreetMap, check out the "Get to know the 
-OSM.org website"worksheet at https://www.openschoolmaps.ch[OpenSchoolMaps].
+OSM.org website" worksheet at https://www.openschoolmaps.ch[OpenSchoolMaps].
 ====
 
 === What's being mapped? What not?
