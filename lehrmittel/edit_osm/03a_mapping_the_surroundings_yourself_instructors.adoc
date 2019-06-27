@@ -1,4 +1,4 @@
-= Mapping the surroundings yourself - Outdoor Mapping Event
+= Mapping the Surroundings Yourself - Outdoor Mapping Event
 OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
 :xrefstyle: short
 :imagesdir: ../../bilder/
