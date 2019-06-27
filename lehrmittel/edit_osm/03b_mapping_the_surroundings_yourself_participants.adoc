@@ -166,8 +166,8 @@ Before you can start editing or adding data on OpenStreetMap, you need to regist
 If the instructor hasn't already done the registration for you, 
 go to the website of https://www.openstreetmap.org/[OpenStreetMap]. 
 In the upper right corner you will see a "Register" button. 
-Click on it, now you have to enter an E-Mail and set a username and password. 
-You must then confirm the details by E-Mail by clicking on a link. 
+Click on it, now you have to enter an e-mail and set a username and password. 
+You must then confirm the details by e-mail by clicking on a link. 
 After that your account is already set up. 
 
 Now you can start editing. So let's go!
