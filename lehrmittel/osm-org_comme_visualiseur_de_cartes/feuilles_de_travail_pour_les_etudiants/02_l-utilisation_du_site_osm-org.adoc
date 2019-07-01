@@ -1,4 +1,4 @@
-= OSM.org als Karten-Viewer, Blatt 2: Webseite OSM.org im Alltag benutzen
+= L'utilisation du site OSM.org dans la vie quotidienne
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]

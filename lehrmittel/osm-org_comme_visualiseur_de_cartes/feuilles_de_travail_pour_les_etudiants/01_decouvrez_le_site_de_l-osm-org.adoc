@@ -1,4 +1,4 @@
-= OSM.org als Karten-Viewer, Blatt 1: Webseite OSM.org kennenlernen
+= Découvrez le site de l'OSM.org
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]

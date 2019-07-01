@@ -1,4 +1,4 @@
-= Lehrpersonen-Informationen zum Arbeitsblatt "OSM.org als Karten-Viewer"
+= OSM.org comme visualiseur de cartes pour les enseignants
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]

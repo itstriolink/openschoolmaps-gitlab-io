@@ -1,4 +1,4 @@
-= OSM.org als Karten-Viewer, Zusatzaufgaben
+= Tâches supplémentaires
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]

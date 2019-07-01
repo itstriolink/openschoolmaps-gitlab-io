@@ -1,4 +1,4 @@
-= OpenStreetMap bearbeiten
+= Editer l'OSM
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../bilder/
