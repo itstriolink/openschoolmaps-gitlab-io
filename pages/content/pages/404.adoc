@@ -1,5 +1,0 @@
-:title: Seite nicht gefunden
-:status: hidden
-:save_as: 404.html
-
-Die gewünschte Seite konnte nicht gefunden werden.
