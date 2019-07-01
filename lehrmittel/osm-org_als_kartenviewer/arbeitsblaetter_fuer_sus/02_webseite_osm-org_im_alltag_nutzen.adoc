@@ -68,7 +68,7 @@ Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
 ====
 
 
-Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
+Wird für jedes Verkehrsmittel dieselbe Strecke vorgeschlagen?
 
 ====
 {empty} +
