@@ -23,6 +23,7 @@ kann!
 
 ## News
 
+- On June 27, 2019, OpenSchoolMaps was supplemented with special teaching material entitled "Mapping the surroundings yourself". An information for instructors and a worksheet for participants explain how to organize an "outdoor mapping event" (including mapping parties and project days for school classes).
 - Am 21. Juni 2019 wurden zwei neue Anleitungen mit dem aktuellen Thema "Die Umgebung selber kartografieren - Outdoor Mapping Event" publiziert und zwar einerseits eine Anleitung für Lehrpersonen und Instruktoren und andererseits eine Anleitung für Teilnehmende, d.h. für Schülerinnen und Schüler und für Interessierte.
 - Am 21. Juni 2019 wurde die "Kontakt"-Webseite erweitert um "Kontakt & Rechtliches".
 - Ende Mai 2019 ein weiteres Arbeitsblatt "OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen" hinzugefügt.
