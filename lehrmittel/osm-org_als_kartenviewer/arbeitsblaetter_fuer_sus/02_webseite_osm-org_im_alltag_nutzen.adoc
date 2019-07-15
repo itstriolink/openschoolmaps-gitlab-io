@@ -95,7 +95,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
+Wird für jedes Verkehrsmittel dieselbe Strecke vorgeschlagen?
 
 ====
 ifdef::show_solutions[]

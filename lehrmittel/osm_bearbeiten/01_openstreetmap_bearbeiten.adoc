@@ -21,7 +21,7 @@ Um Datenobjekte zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerko
 
 ifdef::show_solutions[]
 ====
-*Übersicht*
+*Übersicht (Information für Instruktoren und Lehrpersonen)*
 
 .Ziel
 Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf OSM.org Datenobjekte wie zum Beispiel ein Bänkli, einen Brunnen oder ein Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
@@ -84,7 +84,7 @@ Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Run
 Andernfalls drückst du auf den image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
 
 ifdef::show_solutions[]
-IMPORTANT: Spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
+IMPORTANT: Spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMaps Ihren Schülern vorstellen.
 
 .Mögliche Fragen, die von Ihren Schülerinnen und Schülern aufkommen könnten:
 [NOTE]
