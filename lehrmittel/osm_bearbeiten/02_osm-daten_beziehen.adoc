@@ -71,6 +71,8 @@ Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG und PDF.
 
+[NOTE]
+====
 Nachfolgend sind verschiedene Methoden beschrieben, um OpenStreetMap-Daten 
 in QGIS zu importiert. 
 Die erste Methode funktioniert mittels Overpass-Turbo, einem Webdienst zur 
@@ -86,8 +88,17 @@ Download von OpenStreetMap-Daten.
 
 In den beiden letzten Kapitel erfährst du, wie man in QGIS die importierten 
 Geodaten nachbearbeitet.
+====
 
-== OpenStreetMap-Daten mit Overpass extrahieren 
+== OpenStreetMap-Daten mit Overpass extrahieren
+
+Bevor wir uns auf die Aufgaben stürzen, müssen wir noch einige Unklarheiten klären. 
+Da wir mit Geodaten arbeiten, wäre es sinnvoll, uns auf eine Ortschaft zu einigen. 
+Zudem müssen wir wissen, was für Daten dieser Ortschaft wir bearbeiten möchten.
+Deshalb werden wir in allen folgenden Abschnitten Uster (Kanton ZH) als Ortschaft verwenden 
+und die Daten, die uns interessieren, wären Brotverkaufsstellen. Als Brotverkaufsstellen 
+definieren wir hier Bäckereien und Supermärkte, da beide sowohl selbst Brot herstellen 
+wie auch verkaufen. Nun da alles klar sein sollte, fangen wir doch am Besten an!
 
 Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu 
 importieren, ist mittels Overpass-Turbo.
@@ -101,9 +112,8 @@ image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
 Klicke auf den rot markierten Button "Wizard". 
 Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
-Da wir als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien 
-und Supermärkten, da beide Brot verkaufen.
-Als Ortschaft nehmen wir als Beispiel Uster. 
+Da wir ja als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien 
+und Supermärkten. Als Ortschaft nehmen wir wie gesagt Uster. 
 Die Abfrage sieht wie folgt aus (`bakery or supermarket in Uster`):
 
 .Overpass-Turbo Wizard-Abfrage
@@ -271,11 +281,21 @@ was typischerweise eine Verwaltungsgrenze ist (also z.B. Uster)
 [NOTE]
 ====
 Extrahieren von Verwaltungsgrenzen als GeoJSON:
-Suche zuerst die "Relation ID" in OpenStreetMap, z.B. http://www.openstreetmap.org/relation/1682225[Uster (1682225)].
-Gehe dann zu http://overpass-turbo.eu/?template=type-id&type=relation&R&id=1682225[Overpass-Turbo] 
-mit dieser "Relation ID".
+Suche zuerst die "Relation ID" in OpenStreetMap, http://www.openstreetmap.org/relation/1682225[Uster].
+Jetzt siehst du auf der linken Sidebar den Eintrag "wikidata    Q64032". Mit dieser Information 
+erzeugen wir nun folgendes Query:
+
+    [out:json][timeout:25];
+    (
+        // query part for: “wikidata=Q64032”
+        relation["wikidata"="Q64032"];
+    );
+    out body;
+    >;
+    out skel qt;
+
+Gehe dann zu http://overpass-turbo.osm.ch/ und gib dort das Query ein und klicke auf "Ausführen".
 Exportiere aus Overpass-Turbo dann eine GeoJSON-Datei (z.B. uster.geojson).
-Vereinfache die Geometry eventuell mit http://www.mapshaper.org/[Mapshaper].
 ====
 
 Zu den zwei anderen Problemen folgender Hinweis:
@@ -296,6 +316,17 @@ Auf https://osm.org[OSM.org] kann man Daten auch herunterladen.
 Diese können nur als rechteckige Ausschnitte (Bounding Box) und bis 
 max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
 Dafür sind die Daten aktuell.
+
+Um Daten in OSM herunterladen zu können, brauchst du keinen Account. 
+Klicke einfach oben links auf den Button "Export" und es erscheint auf der linken 
+Seite eine Sidebar. Nun siehst du dort die Bounding Box mit den Koordinaten. 
+Die Bounding Box umfasst die ganze OSM-Karte, die gerade sichtbar ist. Die 
+Koordinaten verändern sich, wenn du die Karte verschiebst oder rein- und rauszoomst. 
+Falls du jedoch nicht die ganze sichtbare Karte exportieren möchtest, sondern nur einen 
+Ausschnitt, dann klicke unter der Bounding Box auf "Einen anderen Bereich manuell auswählen". 
+Jetzt kannst du nur den Ausschnitt exportieren, den du auch wirklich benötigst. Jetzt 
+klicke in der Sidebar nochmals auf "Export" und du erhältst eine .osm-Datei, die du 
+in QGIS importieren und bearbeiten könntest.
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
@@ -374,7 +405,9 @@ _This View_ gedrückt werden.
 Wenn du eine GeoJSON-Datei hochladen möchtest, kannst du dies mit der 
 Schaltfläche _Import_ machen.
 
-CAUTION: An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt.
+[NOTE]
+====
+An dieser Stelle ein kleiner Exkurs, wie man eine GeoJSON-Datei erstellt.
 
 http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
 editieren kann.
@@ -387,23 +420,9 @@ angepasst werden.
 Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
 zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
-Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
+.Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
-[source,json]
-----
-{
-  "type": "Polygon",
-  "coordinates": [
-    [
-      [8.67750, 47.32015],
-      [8.76042, 47.32015],
-      [8.76042, 47.38387],
-      [8.67750, 47.38387],
-      [8.67750, 47.32015]
-    ]
-  ]
-}
-----
+====
 
 Machen wir wieder weiter mit dem HOT-Export-Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
@@ -508,11 +527,11 @@ Datei.
 Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
 Namen zugeteilt hast, kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
-Die Dokumentation des Schemas, das hinter den GIS-Formaten wie z.B. GeoPackage 
-oder Shapefile steckt, findest du hier:
 
-* http://www.geopackage.org/spec/
-* https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
+Wenn du mehr zu BBBike erfahren möchtest, dann schaue doch unter folgendem Link 
+in der Dokumentation nach:
+
+* https://www.bbbike.org/api.html
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
