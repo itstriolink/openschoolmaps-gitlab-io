@@ -5,26 +5,26 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-Mit Hilfe des iD-Editors ein Bänkli, einen Brunnen oder einen Abfallkübel eintragen.
-
 ifndef::show_solutions[]
-*Ein Arbeitsblatt*
+*Ein Arbeitsblatt für Interessierte und für Schülerinnen und Schüler*
 endif::show_solutions[]
 
 ifdef::show_solutions[]
-*Ein Arbeitsblatt für Lehrpersonen*
+*Ein Arbeitsblatt für Interessierte und für Schülerinnen und Schüler (SuS) mit Informationen für Instruktoren und Lehrpersonen*
 endif::show_solutions[]
 
-NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" eingebauten "Rundgang" (ein softwaregeführter Einführungskurs) lernst du, OpenStreetMap-Daten mit diesem Editor zu bearbeiten. So kannst du die Karte selbst verbessern und ergänzen.
+NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" eingebauten "Rundgang" (ein geführter Einführungskurs) lernst du, OpenStreetMap-Daten mit diesem Editor zu bearbeiten. 
+So kannst du die Karte selbst verbessern und ergänzen.
 
-Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. Um Daten zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
+Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. 
+Um Datenobjekte zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
 
 ifdef::show_solutions[]
 ====
-*Übersicht*
+*Übersicht (Information für Instruktoren und Lehrpersonen)*
 
 .Ziel
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf openstreetmap.org Daten wie ein Bänkli, einen Brunnen oder einen Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
+Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf OSM.org Datenobjekte wie zum Beispiel ein Bänkli, einen Brunnen oder ein Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
 
 .Zielgruppe
 SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
@@ -38,27 +38,31 @@ Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
 
 *Vorbereitung*
 
-Für diese Aufgabe benötigen die SuS ein OSM-Konto.
+Für diese Aufgabe benötigen die SuS ein OSM-Konto. 
 ====
 endif::show_solutions[]
 
 == Benutzerkonto erstellen und anmelden
 
-Um ein Benutzerkonto zu erstellen drückst du auf die Schaltfläche "Registrieren" oben rechts. Dazu musst du deine Email-Adresse angeben und dir einen Benutzername und ein Passwort aussuchen. Falls du bereits ein OpenStreetMap-Benutzerkonto hast, kannst du stattdessen natürlich direkt auf "Anmelden" klicken.
+Um ein Benutzerkonto zu erstellen drückst du auf die Schaltfläche "Registrieren" oben rechts. 
+Dazu musst du deine Email-Adresse angeben und dir einen Benutzername und ein Passwort aussuchen. 
+Falls du bereits ein OpenStreetMap-Benutzerkonto hast, kannst du stattdessen natürlich direkt auf "Anmelden" klicken.
 
 ifdef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir OpenStreetMap ein Email und die Adresse, die du angegeben hast, um zu prüfen, ob du wirklich über diese Email-Adresse erreichbar bist. In dieser Email-Nachricht wirst du einen Bestätigungs-Link finden, den du besuchen musst, um die Registrierung abzuschliessen.
+Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir OpenStreetMap ein Email und die Adresse, die du angegeben hast, um zu prüfen, ob du wirklich über diese Email-Adresse erreichbar bist. 
+In dieser Email-Nachricht wirst du einen Bestätigungs-Link finden, den du besuchen musst, um die Registrierung abzuschliessen.
 
 ifdef::show_solutions[]
-NOTE: Alternativ kann man sich auch mit einem Google-, Facebook- oder Microsoft-Konto einloggen.
+NOTE: Alternativ kann man sich auch mit anderen Konten einloggen.
+Im Arbeitsblatt "Die Umgebung selber kartografieren - Outdoor Mapping Event" gibt es Tipps, wie man Konten für Schülerinnen und Schüler (Teilnehmer) anlegen kann. 
 endif::show_solutions[]
 
 == Sprache umstellen (falls nötig)
 
-Wenn die Knöpfe auf openstreetmap.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
+Wenn die Knöpfe auf OSM.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
 
 1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
 2. Wähle im Dropdown-Menü "Settings" aus
@@ -69,16 +73,20 @@ Der im Folgenden verwendete Editor wird die selbe Sprache verwenden, falls verf�
 
 == iD, der Web-Editor von OpenStreetMap
 
-Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. Wir werden den Editor namens "iD" verwenden, der auf der openstreetmap.org-Website bereits eingebaut ist.
+Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. 
+Wir werden den Editor namens "iD" verwenden, der auf der OSM.org-Website bereits eingebaut ist.
 
 === Rundgang
 
-Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. Dazu drückst du auf den "Bearbeiten"-Knopf oben links. Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". Andernfalls drückst du auf den image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
+Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. 
+Dazu drückst du auf den "Bearbeiten"-Knopf oben links. 
+Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". 
+Andernfalls drückst du auf den image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
 
 ifdef::show_solutions[]
-IMPORTANT: Bitte spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
+IMPORTANT: Spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMaps Ihren Schülern vorstellen.
 
-.Mögliche Fragen, die von Ihren Schülern aufkommen könnten:
+.Mögliche Fragen, die von Ihren Schülerinnen und Schülern aufkommen könnten:
 [NOTE]
 ====
 * *Wie vervollständigt man eine Fläche?*
@@ -95,10 +103,12 @@ endif::show_solutions[]
 
 Alle Änderungen, die du während des "Rundgangs" gemacht hast, waren nur zur Übung und wurden nicht wirklich in OpenStreetMap eingetragen.
 
-Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? Vielleicht fällt dir an deinem Wohnort oder in der Gegend deines Schulhauses etwas auf, das verbessert oder ergänzt werden kann. Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
+Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? 
+Vielleicht fällt dir an deinem Wohnort oder in der Gegend deines Schulhauses etwas auf, das verbessert oder ergänzt werden kann. 
+Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
 
 Da du im Rundgang gelernt hast, wie du Dinge in OpenStreetMap eintragen und ändern kannst, kannst du nun fehlendes eintragen und falsches korrigieren!
-Innerhalb von 5–30 Minuten werden deine Änderungen durchgeführt und auf die Karte angewendet!
+Innerhalb von 5 bis 30 Minuten werden deine Änderungen durchgeführt und auf der Karte sichtbar!
 
 [NOTE]
 ====
@@ -118,6 +128,9 @@ image::osm_editieren/osm_bearbeiten/eigenschaften_zugeklappt.PNG["Eigenschaften 
 .Mit einem Klick kann der Abschnitt "Alle Eigenschaften" aufgeklappt werden.
 image::osm_editieren/osm_bearbeiten/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
-Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
+Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. 
+Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. 
+Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. 
+Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
 
 include::../../snippets/quellenangabe.adoc[]
