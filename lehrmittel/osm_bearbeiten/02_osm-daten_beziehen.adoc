@@ -93,10 +93,10 @@ Geodaten nachbearbeitet.
 == OpenStreetMap-Daten mit Overpass extrahieren
 
 Bevor wir uns auf die Aufgaben stürzen, müssen wir noch einige Unklarheiten klären. 
-Da wir mit Geodaten arbeiten, wäre es sinnvoll uns auf eine Ortschaft zu einigen. 
+Da wir mit Geodaten arbeiten, wäre es sinnvoll, uns auf eine Ortschaft zu einigen. 
 Zudem müssen wir wissen, was für Daten dieser Ortschaft wir bearbeiten möchten.
 Deshalb werden wir in allen folgenden Abschnitten Uster (Kanton ZH) als Ortschaft verwenden 
-und die Daten die uns interessieren wären Brotverkaufsstellen. Als Brotverkaufsstellen 
+und die Daten, die uns interessieren, wären Brotverkaufsstellen. Als Brotverkaufsstellen 
 definieren wir hier Bäckereien und Supermärkte, da beide sowohl selbst Brot herstellen 
 wie auch verkaufen. Nun da alles klar sein sollte, fangen wir doch am Besten an!
 
@@ -321,7 +321,7 @@ Um Daten in OSM herunterladen zu können, brauchst du keinen Account.
 Klicke einfach oben links auf den Button "Export" und es erscheint auf der linken 
 Seite eine Sidebar. Nun siehst du dort die Bounding Box mit den Koordinaten. 
 Die Bounding Box umfasst die ganze OSM-Karte, die gerade sichtbar ist. Die 
-Koordinaten verändern sich wenn du die Karte verschiebst oder rein- und rauszoomst. 
+Koordinaten verändern sich, wenn du die Karte verschiebst oder rein- und rauszoomst. 
 Falls du jedoch nicht die ganze sichtbare Karte exportieren möchtest, sondern nur einen 
 Ausschnitt, dann klicke unter der Bounding Box auf "Einen anderen Bereich manuell auswählen". 
 Jetzt kannst du nur den Ausschnitt exportieren, den du auch wirklich benötigst. Jetzt 
@@ -407,7 +407,7 @@ Schaltfläche _Import_ machen.
 
 [NOTE]
 ====
-An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt.
+An dieser Stelle ein kleiner Exkurs, wie man eine GeoJSON-Datei erstellt.
 
 http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
 editieren kann.
