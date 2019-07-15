@@ -143,12 +143,17 @@ Für mehr Infos zum Thema besuchen Sie folgende Webseite: https://dinacon.ch/ses
 
 Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten, ist das ganze sehr ähnlich.
 Öffnen Sie hierzu wieder https://overpass-turbo.osm.ch/ und suchen Sie mit dem Wizard nach z.B. *amenity=bar*.
-Nun gehen Sie unter _Export_ -> _Query_ auf _copy_ unter _convert to OverpassQL_.
+Nun gehen Sie unter _Export_ -> _Abfrage_ auf _Kopiere_ neben _als umap ausgelagerte Daten Url_.
 
 .Query aus Overpass-Turbo exportieren
 image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Abfrage", 290, 395]
 
 Ihnen wird eine URL in die Zwischenablage gespeichert.
+Das Dialogfenster, welches sich nun öffnet, beinhaltet 
+wahrscheinlich "/missing translation/" als Meldung.
+Dies ist nicht weiter schlimm,
+denn die URL wurde in die Zwischenablage kopiert.
+Klicken Sie einfach auf "OK, verstanden".
 Gehen Sie nun in ihre uMap-Karte.
 Editieren Sie die aktuelle Ebene (oder erzeugen Sie eine neue Ebene) indem Sie auf das Stift-Symbol klicken unter _Ebenen verwalten_.
 
