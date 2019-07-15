@@ -23,7 +23,7 @@ und "OpenStreetMap-Daten untersuchen" durcharbeiten.
 .Zeitplanung
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
 unterschiedlich viel Zeit, da man einzelne Abschnitte überspringen kann,
-wenn sich nur für bestimmte Themen oder Lösungen interessiert.
+wenn man sich nur für bestimmte Themen oder Lösungen interessiert.
 
 .Aufbau
 Folgende Themen werden behandelt:
@@ -36,7 +36,7 @@ sowie zu gängigen Dateiformaten
 * Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 * Mit QGIS Objekte filtern oder regelbasiert darstellen
 
-Wir empfehlen mindestens die Einleitung zu lesen und das Kapitel 
+Wir empfehlen, mindestens die Einleitung zu lesen und das Kapitel 
 "OpenStreetMap-Daten mit Overpass extrahieren".
 
 [NOTE]
@@ -55,8 +55,8 @@ Daher werden wir zunächst einige dieser Dateiformate genauer erläutern.
 === OpenStreetMap und Geoinformationssysteme
 
 Die Geometrie der Objekte in OpenStreetMap (OSM) sind intern als topologische 
-Strukturen (Node, Ways) abgelegt.
-Und die Objekt-Attribute als Tags (Key-Value-Paare) nur teilweise strukturiert.
+Strukturen (Node, Ways) abgelegt
+und die Objekt-Attribute als Tags (Key-Value-Paare) sind nur teilweise strukturiert.
 Dieses beliebig erweiterbare Datenschema muss für Geoinformationssysteme (GIS) 
 und deren Formate zuerst umgewandelt werden.
 Es gibt kein einheitliches "GIS"-Datenschema für OSM.
@@ -66,16 +66,16 @@ Kaum ein Export aus OSM ist darum gleich wie der andere.
 
 Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 
-* OSM-spezifische Formate sind v.a. OSM XML, und OSM PBF.
-* GIS-kompatible Formate sind GeoJSON, GeoPackage, Shapefiles, GeoJSON.
+* OSM-spezifische Formate sind v.a. OSM XML und OSM PBF.
+* GIS-kompatible Formate sind GeoJSON, GeoPackage, Shapefiles und GeoJSON.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG und PDF.
 
-Nachfolgend sind verschiedene Methoden beschrieben, wie man OpenStreetMap-Daten 
-in QGIS importiert. 
+Nachfolgend sind verschiedene Methoden beschrieben, um OpenStreetMap-Daten 
+in QGIS zu importiert. 
 Die erste Methode funktioniert mittels Overpass-Turbo, einem Webdienst zur 
 Abfrage von OpenStreetMap-Daten. 
-Diese Methode empfehlen wir dir zuerst anzuschauen, da sie die effizienteste 
+Wir empfehlen dir, diese Methode zuerst anzuschauen, da sie die effizienteste 
 aller vorgestellten Methoden ist. 
 Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, mit dem sich 
 OpenStreetMap-Abfragen direkt in QGIS erstellen lassen. 
@@ -92,7 +92,7 @@ Geodaten nachbearbeitet.
 Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu 
 importieren, ist mittels Overpass-Turbo.
 Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
-Zuerst besuche die Overpass-Turbo Website unter: http://overpass-turbo.osm.ch/.
+Besuche zuerst die Overpass-Turbo Website unter: http://overpass-turbo.osm.ch/.
 
 Wenn du die Website das erste Mal besuchst, sieht sie in etwa wie folgt aus:
 
@@ -115,7 +115,7 @@ Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
 Das obige Resultat kann man auch vereinfachen, indem man die `nodes`, `ways` und 
-`relations` zu `nwr` (=noses/ways/relations) ersetzt bzw. zusammenfasst.
+`relations` zu `nwr` (=nodes/ways/relations) ersetzt bzw. zusammenfasst.
 Unten rechts sieht man rot markiert die verschiedenen Objekte. 
 Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten, könnten wir mittels 
 `out center;` alle Flächen und Pfade in Punkte verwandeln.
@@ -132,7 +132,7 @@ Die neue Abfrage sollte somit folgendermassen aussehen.
 out center;
 ----
 
-Wenn wir jetzt die oberen Zeilen kopieren und ins Overpass-Turbo als Abfrage 
+Wenn wir jetzt die oberen Zeilen kopieren und in Overpass-Turbo als Abfrage 
 einfügen und ausführen, erhält man folgendes:
 
 .Überarbeitetes Resultat
@@ -152,8 +152,8 @@ Wir wählen die oberste, also "Speichern als GeoJSON".
 .Overpass Export
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG["Overpass-Export-Dialog", 290, 395]
 
-Das heruntergeladene GeoJSON-File fügen wir nun mittels Drag & Drop in das linke 
-Layermenü in QGIS ein.
+Die heruntergeladene GeoJSON-Datei fügen wir nun mittels Drag & Drop in das
+Layer-Panel links in QGIS ein.
 Zusätzlich benennen wir den Layer passend um, beispielsweise "Brotverkaufsstellen".
 
 Unser QGIS sieht nun so aus:
@@ -167,21 +167,22 @@ Wir gehen davon aus, dass du diesen nicht hast, das ist aber nicht weiter
 schlimm, den er ist nicht zwingend nötig. 
 Du kannst also ruhig ohne OSM-Standard-Layer als Hintergrund weitermachen.
 
-Als Letztes wollen wir das Koordinatensystem des in QGIS importierten GeoJSON 
-ändern und dann als GeoPackage speichern.
+Als Letztes wollen wir das Koordinatensystem
+der in QGIS aus GeoJSON importierten Daten
+ändern und sie dann als GeoPackage speichern.
 Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf 
 "Exportieren" und dann wählen wir den obersten Eintrag "Save Feature As...". 
 Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
-Das Format belassen wir als GeoPackage und klicken dann auf "Ok".
+Das Format belassen wir als GeoPackage und klicken dann auf "OK".
 
 Unten siehst du noch das Exportfenster:
 
 .Als GeoPackage exportieren
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG["brotverkaufsstellen_gpkg", 480, 376]
 
-Sehr gut, du hast es geschafft OpenStreetMap-Daten in QGIS zu importieren und 
+Sehr gut, du hast es geschafft, OpenStreetMap-Daten in QGIS zu importieren und 
 als neues Format abzuspeichern.
-Die andere Möglichkeit OpenStreetMap-Daten in QGIS zu importieren ist mittels 
+Die andere Möglichkeit, OpenStreetMap-Daten in QGIS zu importieren, ist mittels 
 dem QuickOSM-Plugin, das im Folgenden erläutert wird. 
 Wenn es dich nicht interessiert oder du es schon gelesen hast, kannst du zu den 
 Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder 
@@ -192,7 +193,7 @@ Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder
 Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu 
 importieren und zu verwalten.
 Lösche am besten den vorher erzeugten Layer und fange bei Null an, 
-um Verwirrungen zu vermeiden.
+um Verwirrung zu vermeiden.
 
 .QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
@@ -206,12 +207,12 @@ Namen gibt, sollte dir auch das richtige angezeigt werden.
 Jetzt klickst du auf "Erweiterung installieren" und schon kannst du mit dem 
 Plugin arbeiten.
 
-Das folgende Bild zeigt die Installation des Plugina:
+Das folgende Bild zeigt die Installation des Plugins:
 
 .QuickOSM Installation
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
-Nun öffnen wir das Plugin indem wir in der Menüleiste auf "Vektor" und dann auf 
+Nun öffnen wir das Plugin, indem wir in der Menüleiste auf "Vektor" und dann auf 
 "Quick OSM" klicken. 
 Danach geben wir folgende Abfrage ein, um nach Bäckereien in Uster zu suchen:
 
@@ -239,7 +240,7 @@ Diese Nachbearbeitungsarbeiten sind in der Einleitung des nächsten Kapitels bes
 In diesem Kapitel sind verschiedene Web-Tools zum Download von 
 OpenStreetMap-Daten zusammengestellt. 
 Die einen bieten ganze Länder an, die anderen benutzerdefinierte Aussschnitte. 
-Die Exportformate sind unterschiedlich und einige verlangen, dass man sich 
+Die Exportformate sind unterschiedlich und einige Tools verlangen, dass man sich 
 registriert. Alle sind kostenlos zugänglich - jedoch ohne Gewähr für einen
 unterbruchsfreien Betrieb.
 
@@ -247,7 +248,7 @@ unterbruchsfreien Betrieb.
 ====
 Wie in der Einleitung erwähnt, gibt es kein  einheitliches "GIS"-Datenschema für 
 OSM und darum ist kaum ein Export aus OSM gleich wie der andere. 
-Es ist darum wichtig die jeweilige Dokumentation der Web-Tools zu konsultieren.
+Es ist darum wichtig, die jeweilige Dokumentation der Web-Tools zu konsultieren.
 ====
 
 Dann gibt es typischerweise noch Nachbearbeitungsarbeiten im GIS:
@@ -270,7 +271,7 @@ was typischerweise eine Verwaltungsgrenze ist (also z.B. Uster)
 [NOTE]
 ====
 Extrahieren von Verwaltungsgrenzen als GeoJSON:
-Suche zuerst die "Relation Id" in OpenStreetMap, z.B. http://www.openstreetmap.org/relation/1682225[Uster (1682225)].
+Suche zuerst die "Relation ID" in OpenStreetMap, z.B. http://www.openstreetmap.org/relation/1682225[Uster (1682225)].
 Gehe dann zu http://overpass-turbo.eu/?template=type-id&type=relation&R&id=1682225[Overpass-Turbo] 
 mit dieser "Relation ID".
 Exportiere aus Overpass-Turbo dann eine GeoJSON-Datei (z.B. uster.geojson).
@@ -282,7 +283,7 @@ Zu den zwei anderen Problemen folgender Hinweis:
 [NOTE]
 ====
 Nachbearbeitung der Geodaten: 
-Wenn du wissen möchtest wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
+Wenn du wissen möchtest, wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
 schaue unten im Kapitel "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
 nach. 
 Wenn du erfahren möchtest, wie man Objekte filtert, dann springe zum Kapitel 
@@ -299,7 +300,7 @@ Dafür sind die Daten aktuell.
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
 
-=== Geofabrik Downloads
+=== Geofabrik-Downloads
 
 Die Webseite von Geofabrik http://download.geofabrik.de/ bietet OpenStreetMap-Daten 
 für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
@@ -313,27 +314,27 @@ Wenn man den Mauszeiger über eine Region oder ein Land hält, sieht man in der
 Karte auf der rechten Seite der Webseite das jeweilige Gebiet.
 Die Daten auf GeoFabrik werden alle 24 Stunden aktualisert mit den Daten von OpenStreetMap.
 Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat,
-muss man mindestens einen Tag warten bis sie auch auf Geofabrik verfügbar sind.
-Stelle sicher welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
+muss man mindestens einen Tag warten, bis sie auch auf Geofabrik verfügbar sind.
+Stelle sicher, welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
 
-Das Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
+Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
 ('Feature-Klassen') strukturiert. 
 Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM-Tag `shop=bakery`) 
 oder Supermärkte (Tag `shop=supermarket`) musst du die Dokumentation des 
 "Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
-- oder aber die Daten selber - konsultieren.
+- oder aber die Daten selbst - konsultieren.
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
 diesem Kapitel.
 
-=== HOT Export Tool
+=== HOT-Export-Tool
 
-Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT Export Tool 
+Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT-Export-Tool 
 einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
-Um das HOT Export Tool zu verwenden brauchst du ein OpenStreetMap-Benutzerkonto 
+Um das HOT-Export-Tool zu verwenden, brauchst du ein OpenStreetMap-Benutzerkonto 
 und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
 bereit sind zum Herunterladen.
-Nach dem Anmelden sieht man folgende Punkte und Tabulatoren
+Nach dem Anmelden sieht man folgende Punkte und Tabulatoren:
 
 1. Exportbeschreibung
 2. Formate
@@ -347,7 +348,7 @@ einen Namen und eine Beschreibung zu geben.
 Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in 
 Uster.
 
-.HOT Export Tool Tab 1 "Exportbeschreibung".
+.HOT-Export-Tool Tab 1 "Exportbeschreibung".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
 Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, 
@@ -362,7 +363,7 @@ Du kannst entweder:
 * Ein Polygon zeichnen
 * Ein Polygon als GeoJSON-Datei hochladen
 
-Für die ersten zwei Möglichkeiten, muss nur das Suchfeld genutzt werden.
+Für die ersten zwei Möglichkeiten muss nur das Suchfeld genutzt werden.
 Dort kannst du entweder die gewünschte Ortschaft oder eine Bounding Box (Westen, 
 Süden, Osten, Norden) angeben.
 
@@ -375,10 +376,10 @@ Schaltfläche _Import_ machen.
 
 CAUTION: An dieser Stelle ein kleiner Exkurs wie man eine GeoJSON-Datei erstellt.
 
-Die Webseite http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
+http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
 editieren kann.
 
-Das HOT Export Tool erwartet nur einfache GeoJSON-Objekte (keine 
+Das HOT-Export-Tool erwartet nur einfache GeoJSON-Objekte (keine 
 "FeatureCollection"), d.h. einen Typ Polygon und eine Liste mit Koordinaten.
 
 GeoJSON-Dateien von geojson.io und anderen Quellen müssen darum von Hand nochmals 
@@ -386,7 +387,7 @@ angepasst werden.
 Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
 zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
 
-Einzelnes GeoJSON-Polygon-Objekt für das HOT Export Tool
+Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
 image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
 [source,json]
 ----
@@ -404,10 +405,10 @@ image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
 }
 ----
 
-Machen wir wieder weiter mit dem HOT Export Tool.
+Machen wir wieder weiter mit dem HOT-Export-Tool.
 Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
 
-.HOT Export Tool Tab 2 "Formate".
+.HOT-Export-Tool Tab 2 "Formate".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 
 Bei Tabulator 3 "Data" wechselst du in den Register "YAML" und fügst dort 
@@ -445,22 +446,22 @@ Mit der Webseite http://www.yamllint.com/[YAML Lint] kann man YAML validieren.
 
 Das Ganze sieht dann so aus:
 
-.HOT Export Tool Tab 3 "Data".
+.HOT-Export-Tool Tab 3 "Data".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
 GeoPackage exportieren. 
 Darum gehen wir weiter zu Tab 4 "Summary". 
-Das Letzte was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
+Das Letzte, was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
 rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 
-.HOT Export Tool Uster
+.HOT-Export-Tool Uster
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 
 Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" 
 klicken (siehe unten).
 
-.HOT Export Tool Tab 4 "Summary".
+.HOT-Export-Tool Tab 4 "Summary".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
 Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
@@ -476,7 +477,7 @@ Um OSMaxx nutzen zu können benötigt man ein OSM-Konto mit einer gültigen
 E-Mail-Adresse.
 
 Unter _Existing Excerpt / Country_ können bestehende Auszüge heruntergeladen werden.
-Es kann ausgewählt werden in welchem Format die Datei heruntergeladen werden soll,
+Es kann ausgewählt werden, in welchem Format die Datei heruntergeladen werden soll,
 welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt 
 werden sollen.
 
@@ -505,7 +506,7 @@ Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
 Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512 Megabytes als 
 Datei.
 Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
-Namen zugeteilt hast kannst du auf die _Extract_-Schaltfläche klicken.
+Namen zugeteilt hast, kannst du auf die _Extract_-Schaltfläche klicken.
 Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
 Die Dokumentation des Schemas, das hinter den GIS-Formaten wie z.B. GeoPackage 
 oder Shapefile steckt, findest du hier:
@@ -586,7 +587,7 @@ In diesem Fenster sieht man folgendes:
 
 * Felder: Eine Liste aller Attribute, welche der ausgewählte Layer beinhaltet
 * Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen 
-(um einige Werte anzuzeigen machen, klicke auf den Knopf "Stichprobe")
+(um einige Werte anzuzeigen, klicke auf den Knopf "Stichprobe")
 * Operatoren: Logische Operatoren zum Verknüpfen der Felder und Werte
 * Datenanbieter-spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der 
 Attribute und Werte
