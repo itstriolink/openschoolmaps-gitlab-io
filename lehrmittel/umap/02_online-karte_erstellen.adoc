@@ -148,9 +148,13 @@ Nun gehen Sie unter _Export_ -> _Abfrage_ auf _Kopiere_ neben _als umap ausgelag
 .Query aus Overpass-Turbo exportieren
 image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Abfrage", 290, 395]
 
-Ihnen wird eine URL in die Zwischenablage gespeichert. Das Dialogfenster welches sich nun öffnet beinhaltet 
-wahrscheinlich "/missing translation/" als Meldung. Dies ist nicht weiter schlimm, denn die URL wurde in die 
-Zwischenablage kopiert. Klicken Sie einfach auf "OK, verstanden".Gehen Sie nun in ihre uMap-Karte.
+Ihnen wird eine URL in die Zwischenablage gespeichert.
+Das Dialogfenster, welches sich nun öffnet, beinhaltet 
+wahrscheinlich "/missing translation/" als Meldung.
+Dies ist nicht weiter schlimm,
+denn die URL wurde in die Zwischenablage kopiert.
+Klicken Sie einfach auf "OK, verstanden".
+Gehen Sie nun in ihre uMap-Karte.
 Editieren Sie die aktuelle Ebene (oder erzeugen Sie eine neue Ebene) indem Sie auf das Stift-Symbol klicken unter _Ebenen verwalten_.
 
 .Ebenen editieren in uMap
