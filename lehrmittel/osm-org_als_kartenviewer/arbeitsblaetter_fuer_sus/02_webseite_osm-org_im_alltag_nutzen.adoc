@@ -85,7 +85,7 @@ alle möglichen Routen, die es geben kann (oder zumindest die meisten), auf OSM 
 
 In einer Ortschaft mit geringer Bevölkerungsdichte wird es wahrscheinlich weniger Mapper und solche geben, die sich mit 
 OSM beschäftigen. Auch ist ein kleines Dorf zu mappen weniger wichtig als eine Grossstadt. Deshalb kann es sein, dass 
-hier nicht alle Wege und Strassen die es gibt auch in OSM vorhanden sind und OSM kann somit nur eine begrenzte Anzahl 
+hier nicht alle Wege und Strassen, die es gibt, auch in OSM vorhanden sind, und OSM kann somit nur eine begrenzte Anzahl 
 an Routen berechnen.
 endif::show_solutions[]
 ifndef::show_solutions[]
@@ -98,7 +98,7 @@ Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
 ====
 ifdef::show_solutions[]
 Nein, denn nicht jedes Verkehrsmittel ist für jede Strecke geeignet/zugelassen. 
-Es gibt Autobahnen die nur für gewisse Motorfahrzeuge sind, Velorouten für Fahrräder und 
+Es gibt Autobahnen, die nur für gewisse Motorfahrzeuge sind, Velorouten für Fahrräder und 
 Fahrrad-ähnliche Fahrzeuge und reine Fussgängerwege, die keine Fahrzeuge zulassen. Daneben 
 gibt es noch den ÖV. Züge und Trame fahren definierte Routen entlang einer Schiene ab und Busse 
 haben auch feste Routen entlang diverser Bushaltestellen.
