@@ -4,20 +4,20 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt*
+*Une Arbeitsblatt*
 ifdef::show_solutions[- *LÖSUNGEN*]
 
-== Zusatzaufgaben
+== Missions additionnelles
 
-=== Web-Kompetenz
+=== Expertise web
 
-Wie hat sich der Inhalt der Browser-Adressleiste verändert, als du auf `osm.org` gegangen bist?
+Comment le contenu de la barre d'adresse du navigateur a-t-il changé lorsque tu es allé sur `osm.org`?
 
 ifdef::show_solutions[]
-`osm.org` wurde automatisch durch etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224` ersetzt.
+`osm.org' a été automatiquement remplacé par quelque chose comme `https://www.openstreetmap.org/#map=8/46.825/8.224'.
 endif::show_solutions[]
 
-Kannst du die einzelnen Teile der Adresse erklären?
+Peux-tu expliquer les différentes parties de l'adresse ?
 
 ifdef::show_solutions[]
 
@@ -35,13 +35,13 @@ ifdef::show_solutions[]
 
   * `8.224`: Die geografische Länge in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
 
-.Anregung
-Im Geografie-Unterricht ist es oft üblich, Winkel-Koordinaten in Grad, Minuten und Sekunden anzugeben. Nutzen Sie diese Gelegenheit, um die Umrechnung zwischen Dezimal-Bruch und dem Grad-Minuten-Sekunden-System üben zu lassen. So können z.B. Koordinaten-Angaben aus dem Register eines Atlas' in OpenStreetMap-URLs übersetzt werden.
+.Dynamisation
+Dans les leçons de géographie, il est souvent courant de spécifier les coordonnées angulaires en degrés, minutes et secondes. Profite de cette occasion pour pratiquer la conversion entre la fraction décimale et le système degré-minute-seconde. Par exemple, les informations de coordonnées du registre d'un atlas peuvent être traduites en URL OpenStreetMap.
 
 endif::show_solutions[]
 
-=== Aufgabe für fortgeschrittene SuS / höhere Klassen
+=== Tâche pour les SuS avancés / classes supérieures
 
-Zoome so weit heraus, dass du ganze Kontinente oder gar die ganze Erde siehst. Dann verschiebe die Karte nord- oder südwärts ohne zu zoomen. Wieso verändert sich dabei der Massstab?
+Fais un zoom arrière jusqu'à ce que tu puisses voir des continents entiers ou même la terre entière. Puis déplace la carte vers le nord ou le sud sans zoomer. Pourquoi cela change-t-il l'échelle?
 
 include::../../../snippets/quellenangabe.adoc[]
