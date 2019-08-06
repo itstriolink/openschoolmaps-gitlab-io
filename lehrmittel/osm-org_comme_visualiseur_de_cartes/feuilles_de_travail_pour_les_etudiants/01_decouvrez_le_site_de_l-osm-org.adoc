@@ -70,8 +70,8 @@ wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)
 kleiner dargestellt werden. Beschriftungen und Kartensymbole
 bleiben jedoch ungefähr gleich gross.
 
-(Je weiter man heraus-zoomt umso mehr Details und
-Beschriftungen werden weggelassen.)
+(Plus tu effectues un zoom arrière, 
+plus les détails et les légendes sont omis.)
 
 (Falls man bereits ganz rausgezoomt ist
 (Zoomlevel `0`, bei dem die Erde je nach Fensterbreite
@@ -82,7 +82,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Was denkst du, was der image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-Knopf macht? Probiere es aus!
+Que penses-tu que le image:osm-org_as_mapviewer/plus_button.PNG["Bouton Plus", 20, 20]-bouton fait? Essayez-le!
 
 ====
 ifdef::show_solutions[Zoomt "herein"]
@@ -91,7 +91,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Falls du eine Maus mit Scroll-Rad hast, halte den Mauszeiger über den Bereich der Website mit der Landkarte und drehe das Rad (langsam) nach vorn oder hinten. Was beobachtest du?
+Si tu as une souris avec une molette de défilement, tiens le pointeur de la souris sur la zone du site Web avec la carte et tourne la molette (lentement) en avant ou en arrière. Qu'est-ce que tu regardes?
 
 ====
 ifdef::show_solutions[Auch so kann gezoomt werden]
@@ -104,7 +104,7 @@ ifdef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-Spielt es dabei eine Rolle, wo auf der Karte der Zeiger steht?
+L'endroit où se trouve le pointeur sur la carte a-t-il de l'importance ?
 
 ====
 ifdef::show_solutions[]
