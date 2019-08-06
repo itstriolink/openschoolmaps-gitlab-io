@@ -16,8 +16,10 @@ créer des cartes. Les données peuvent non seulement créer des cartes mais aus
 données - des cartes pour différents usages.
 
 Le site Web de l'OSM.org offre déjà un choix de cartes. Ce que tu vois en premier est le style de carte 
-standard OpenStreetMap. Si tu cliques sur l'icône « Couches » avec les surfaces empilées au-dessus du 
-bouton à droite, tu peux changer entre ces différentes représentations cartographiques.
+standard OpenStreetMap. Si tu cliques sur l'icône « Couches » avec les surfaces empilées 
+image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] au-dessus du 
+image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-bouton à droite, tu 
+peux changer entre ces différentes représentations cartographiques.
 
 == Navigation (planification d'itinéraire)
 
