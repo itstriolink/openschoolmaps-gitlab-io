@@ -112,25 +112,34 @@ manquants et corriger les erreurs ! Dans un délai de 5 à 30 minutes, tes chang
 
 [NOTE]
 ====
-OpenStreetMap speichert Objekt-Eigenschaften in Form von sogenannten Tags.
-Diese siehst du auf der linken Seite im iD-Editor, nachdem du ein Objekt angewählt hast, wie du in <<eigenschaften_zugeklappt>> siehst.
+OpenStreetMap enregistre les propriétés des objets sous forme de tags. 
+Tu peux voir ces tags sur le côté gauche de l'éditeur iD après avoir sélectionné un objet, comme tu peux le voir sur l’illustration 1.
 
-Wenn du das Feld "Alle Eigenschaften" aufklappst, sieht du alle Tags des Objekts, wie in <<eigenschaften_aufgeklappt>>.
+Si tu ouvres le champ «Tous les attributs», tu verras tous les tags de l'objet, comme le montre l’illustration 2.
 
-Wenn du nicht weisst, welchen Tag du verwenden sollst, kannst du im Cheatsheet nachschauen.
+Si tu ne sais pas quels tags utiliser, tu peux regarder dans le Cheatsheet.
 ====
 
 [[eigenschaften_zugeklappt]]
-.Die Tags finden sich im Abschnitt "Alle Eigenschaften", der eventuell zugeklappt ist.
+.Les tags se trouvent dans la section «Tous les attributs», qu’il faut peut-être dérouler.
 image::osm_editieren/osm_bearbeiten/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 265, 354]
 
 [[eigenschaften_aufgeklappt]]
-.Mit einem Klick kann der Abschnitt "Alle Eigenschaften" aufgeklappt werden.
+.D'un seul clic, la section «Tous les attributs», peut être affichée.
 image::osm_editieren/osm_bearbeiten/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
 Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. 
 Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. 
 Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Auslassungen hinweisen, die du durch Änderungen beheben kannst. 
 Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
+
+Si tu n'as rien trouvé qui doit être modifié ou ajouté, clique sur le logo "OpenStreetMap" 
+dans le coin en-haut à gauche pour quitter l'éditeur iD et retourner sur la carte. 
+
+Clique ensuite sur le bouton «Couches» (celui avec les surfaces empilées 
+image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] comme icône) 
+et coche la case «Notes/Messages d'erreur». Regarde si tu peux voir les notes des autres 
+utilisateurs de la carte indiquant des erreurs ou des omissions que tu peux corriger en 
+apportant des modifications. Lorsque tu as trouvé quelque chose, clique à nouveau sur «Modifier».
 
 include::../../snippets/quellenangabe.adoc[]
