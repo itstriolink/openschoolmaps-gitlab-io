@@ -223,7 +223,7 @@ endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+sur la carte d'openstreetmap.org.
 
 Au nord se trouve
 ifdef::show_solutions[]
@@ -232,7 +232,7 @@ endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+sur la carte d'openstreetmap.org.
 
 Le sud se trouve
 ifdef::show_solutions[]
@@ -241,16 +241,16 @@ endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+sur la carte d'openstreetmap.org.
 
-L'Ouest se trouve
+L'ouest se trouve
 ifdef::show_solutions[]
 [.underline]#links#
 endif::show_solutions[]
 ifndef::show_solutions[]
 [.underline]#{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}#
 endif::show_solutions[]
-auf der openstreetmap.org-Karte.
+sur la carte d'openstreetmap.org.
 
 ifdef::show_solutions[]
 <<<
@@ -258,14 +258,14 @@ endif::show_solutions[]
 
 === Proportions
 
-Zoome heraus, bis du die ganze Erde siehst. Grönland und Südamerika sehen etwa gleich gross aus. Kann es sein, dass sie tatsächlich etwa gleich gross sind? Falls möglich schau auf dem Globus nach und vergleiche mit diesem.
+Fais un zoom arrière jusqu'à ce que tu voies la Terre entière. Le Groenland et l'Amérique du Sud ont à peu près la même taille. Se pourrait-il qu'ils soient à peu près de la même taille? Si possible, regarde le globe et compare avec lui.
 
-Unten links findest du einen Karten-Maßstab. Anders als bei Papier-Karten steht hier jedoch keine Maßstabs-Zahl (z.B. 1:10'000). Wieso wohl nicht?
+Ci-dessous à gauche, tu trouveras une échelle cartographique. Contrairement aux cartes papier, il n'y a pas de numéro d'échelle (par ex. 1:10'000). Pourquoi pas?
 
 ====
 ifdef::show_solutions[]
-Die Website kann nicht wissen, wie gross und wie hochaufgelöst dein Bildschirm ist.
-Daher kann auch das Verhältnis zwischen tatsächlichen Grössen/Längen/Abständen und den Grössen/Längen/Abständen auf der Kartendarstellung nicht von der Website berechnet werden.
+Le site Web ne peut pas savoir la taille et la haute résolution de votre écran.
+Par conséquent, la relation entre les tailles/longueurs/distances réelles et les tailles/longueurs/distances sur l'affichage de la carte ne peut être calculée par le site Web.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -274,7 +274,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-=== Legende
+=== Légende
 
 Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
 
