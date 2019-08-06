@@ -4,12 +4,11 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt*
+*Une feuille de travail*
 ifdef::show_solutions[- *LÖSUNGEN*]
 
-NOTE: In diesem Arbeitsblatt lernst du das OpenStreetMap-Projekt und seine 
-Hauptwebsite openstreetmap.org kennen. Du lernst, Orte auf der dort verfügbaren 
-Webkarte zu suchen und die Karte zu lesen.
+NOTE: Dans cette feuille de travail, tu apprendras à connaître le projet OpenStreetMap et son site principal openstreetmap.org. 
+Tu apprendras comment rechercher des endroits sur la carte Web qui s'y trouve et comment lire la carte.
 
 
 ////
@@ -19,13 +18,14 @@ https://www.schoolmaps.ch/wp-content/uploads/2015/11/Arbeit_Swisstopo.pdf
 https://www.schoolmaps.ch/2017/06/02/kartenlesen-leicht-gemacht-swisstopo-unterrichtseinheiten-zum-kartenlesen-zyklus-2-von-kiknet/ > https://www.kiknet-swisstopo.org/deutsch/karten-lesen/zyklus-2/ u.A. https://www.kiknet-swisstopo.org/app/download/10636227895/07+geo.admin.ch.pdf?t=1522852539
 ////
 
-== Connaissez-vous OpenStreetMap?
+== Connais-tu OpenStreetMap?
 
-Gehe mit deinem Web-Browser auf osm.org. (Der Adresszeilen-Inhalt ändert dabei 
-automatisch zu etwas wie `https://www.openstreetmap.org/#map=8/46.825/8.224`.)
+Va sur osm.org avec ton navigateur web. (Le contenu de la ligne 
+d'adresse changera automatiquement pour quelque chose comme 
+`https://www.openstreetmap.org/#map=8/46.825/8.224`).
 
-Du kommst auf eine Website, deren Hauptteil eine Landkarte ist. Erkennst du 
-den Karten-Ausschnitt? Welches Gebiet ist abgebildet?
+Tu accèdes à un site dont la partie principale est une carte. 
+Reconnais-tu la section de carte ? Quelle est la zone indiquée?
 
 ====
 ifdef::show_solutions[]
