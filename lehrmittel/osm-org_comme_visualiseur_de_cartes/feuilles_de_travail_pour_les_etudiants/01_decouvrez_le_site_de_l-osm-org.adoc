@@ -29,20 +29,20 @@ Reconnais-tu la section de carte ? Quelle est la zone indiquée?
 
 ====
 ifdef::show_solutions[]
-Falls man schon einmal mit diesem Computer und Browser auf openstreetmap.org war,
-sieht man den Karten-Ausschnitt, den man zuletzt auf der Website angezeigt hatte.
+Si tu as déjà visité openstreetmap.org avec cet ordinateur et ce navigateur, 
+tu verras la section de carte que tu as affichée en dernier sur le site Web.
 
-Falls man zum ersten Mal auf openstreetmap.org ist und aus der Schweiz darauf 
-zugreifst, sieht man einen Ausschnitt, der gerade die ganze Schweiz zeigt.
+Si tu es sur openstreetmap.org pour la première fois et que tu y accèdes 
+depuis la Suisse, tu verras un extrait montrant toute la Suisse.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
 ====
 
-Falls du zum ersten Mal auf openstreetmap.org bist, ist oben links eine 
-Willkommens-Nachricht erschienen. 
-Falls die Nachricht bereits weggeklickt wurde, ist hier nochmals ihr Inhalt:
+Si tu es sur openstreetmap.org pour la première fois, un message de bienvenue 
+apparaît dans le coin supérieur gauche. 
+Si le message a déjà été cliqué, voici à nouveau son contenu :
 
 > Willkommen bei OpenStreetMap!
 > OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei 
