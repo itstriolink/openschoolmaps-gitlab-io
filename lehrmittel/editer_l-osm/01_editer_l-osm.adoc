@@ -79,37 +79,36 @@ Nous utiliserons l'éditeur "iD", qui est déjà intégré au site OSM.org.
 
 === Visite guidée
 
-Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. 
-Dazu drückst du auf den "Bearbeiten"-Knopf oben links. 
-Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". 
-Andernfalls drückst du auf den image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
+Pour apprendre à connaître cet éditeur, tu dois d'abord te familiariser avec sa «visite guidée» intégrée. 
+Pour faire ça, clique sur le bouton «Modifier» en haut à gauche. Si tu vois un message de bienvenue, appuie 
+sur le bouton «Commencer le guide». Sinon, appuie sur le image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-bouton (à droite) et commence la visite à partir de là.
 
 ifdef::show_solutions[]
-IMPORTANT: Spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMap Ihren Schülern vorstellen.
+IMPORTANT: Jouez tout au long de la visite avant de présenter OpenSchoolMaps à vos élèves.
 
-.Mögliche Fragen, die von Ihren Schülerinnen und Schülern aufkommen könnten:
+.Les questions que pourraient se poser vos élèves:
 [NOTE]
 ====
-* *Wie vervollständigt man eine Fläche?*
-Eine Fläche wird erstellt, sobald mal den Umriss beendet hat, indem man wieder den ersten Punkt anklickt oder Enter drückt.
+* *Comment remplir une zone?*
+Une fois le contour terminé, une zone est créée en cliquant à nouveau sur le premier point ou en appuyant sur Entrée.
 
-* *Der Kreis um den Tank ist zu gross!*
-Die viereckige Fläche, die für den Kreis verwendet wird, muss im Tank drin sein und mit den Ecken den Rand berühren.
+* *Le cercle autour du réservoir est trop grand!*
+La zone carrée utilisée pour le cercle doit se trouver à l'intérieur du réservoir et les coins doivent toucher le bord.
 ====
 
-Ansonsten sollte das Tutorial selbsterklärend sein.
+Sinon, le tutoriel devrait être explicite.
 endif::show_solutions[]
 
-=== Und los geht's!
+=== C'est parti!
 
-Alle Änderungen, die du während des "Rundgangs" gemacht hast, waren nur zur Übung und wurden nicht wirklich in OpenStreetMap eingetragen.
+Tous les changements que tu as faits pendant la visite guidée étaient seulement un exercice et n'ont pas vraiment été intégrés dans OpenStreetMap.
 
-Fehlt auf der OpenStreetMap-Karte etwas, oder ist etwas gar falsch? 
-Vielleicht fällt dir an deinem Wohnort oder in der Gegend deines Schulhauses etwas auf, das verbessert oder ergänzt werden kann. 
-Gibt es z.B. ein Bänkli, einen Brunnen oder einen Abfalleimer, der noch fehlt?
+Est-ce qu’il manque quelque chose sur la carte OpenStreetMap, ou quelque chose n’est pas juste? 
+Tu remarques peut-être quelque chose sur ton lieu de résidence ou dans la zone de ton bâtiment 
+scolaire qui peut être amélioré ou complété. Par exemple, y a-t-il un banc, un puits ou une poubelle qui manque encore?
 
-Da du im Rundgang gelernt hast, wie du Dinge in OpenStreetMap eintragen und ändern kannst, kannst du nun fehlendes eintragen und falsches korrigieren!
-Innerhalb von 5 bis 30 Minuten werden deine Änderungen durchgeführt und auf der Karte sichtbar!
+Puisque tu viens d’apprendre comment saisir et changer des objets dans OpenStreetMap, tu peux maintenant saisir les objets 
+manquants et corriger les erreurs ! Dans un délai de 5 à 30 minutes, tes changements seront effectués et visible sur la carte!
 
 [NOTE]
 ====
