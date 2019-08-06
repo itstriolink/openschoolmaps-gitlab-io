@@ -276,23 +276,23 @@ endif::show_solutions[]
 
 === Légende
 
-Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
+Pour voir la signification des différents types et couleurs de lignes sur la carte, clique sur le bouton image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20, 20] à droite. Différents types de surface et certains symboles cartographiques (pas tous) y sont également répertoriés.
 
-Je weiter du herein-zoomst, umso mehr Details werden auf der Karte dargestellt und umso länger wird auch diese Kartenlegende.
+Plus tu effectues un zoom avant, plus la carte affiche de détails et plus la légende de la carte est longue.
 
-Welche Bedeutung haben die verschieden dicken violetten Linien?
+Que signifient les lignes violettes de différentes épaisseurs ?
 
 ====
 ifdef::show_solutions[]
-Das sind politische Grenzen.
+Ce sont des frontières politiques.
 
-Je höher die "Einheit", umso dicker die Linie:
-Landesgrenzen sind dicker dargestellt als Kantonsgrenzen
-und diese wiederum dicker als Bezirks- und Gemeindegrenzen.
+Plus l'"unité" est haute, plus la ligne est épaisse:
+Les frontières nationales sont plus épaisses que les frontières cantonales 
+et celles-ci sont à leur tour plus épaisses que les frontières des districts et des communes.
 
-(Letztere Information ist nicht in der Legende ersichtlich,
-lässt sich aber aus der Karte einer Gegend ablesen,
-deren politische Gebiete man bereits kennt.)
+(Cette dernière information n'est pas visible dans la légende, 
+mais peut être lue sur la carte d'une région dont on connaît 
+déjà les zones politiques.)
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
