@@ -1,45 +1,52 @@
-= L'utilisation du site OSM.org dans la vie quotidienne
+= OSM.org comme visualiseur de carte, fiche 2: Utilisation du site OSM.org au quotidien
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt*
+*Une feuille de travail*
 
-NOTE: Mit diesem Arbeitsblatt lernst du wie man den Kartenstil auf openstreetmap.org wechselt, die Routenplanung verwendet und auf der Karte gefundene Positionen anderen mitteilt.
+NOTE: Avec cette feuille de travail, tu vas apprendre comment changer le style de la carte sur openstreetmap.org, comment utiliser la planification d'itinéraire et comment partager les positions trouvées sur la carte avec les autres.
 
-== Kartenstile
+== Style de carte
 
-Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap nicht nur eine Karte. 
-Es ist eine detaillierte geographische Datensammlung, aus der Computer Karten erzeugen können. 
-Und die Daten können nicht nur Karten sondern auch -- basierend auf den gleichen Daten -- verschiedene Karten für verschiedene Zwecke erzeugen.
+Malgré le nom et la vue proéminente sur openstreetmap.org, OpenStreetMap n'est pas seulement une carte. 
+Il s'agit d'une collecte de données géographiques détaillées à partir desquelles les ordinateurs peuvent 
+créer des cartes. Les données peuvent non seulement créer des cartes mais aussi - sur la base des mêmes 
+données - des cartes pour différents usages.
 
-Die OSM.org-Website bietet bereits einige Karten zur Auswahl an. 
-Was du als Erstes siehst, ist der OpenStreetMap-Standard-Kartenstil. 
-Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
+Le site Web de l'OSM.org offre déjà un choix de cartes. Ce que tu vois en premier est le style de carte 
+standard OpenStreetMap. Si tu cliques sur l'icône « Couches » avec les surfaces empilées au-dessus du 
+bouton à droite, tu peux changer entre ces différentes représentations cartographiques.
 
-== Navigation (Routen-Planung)
+== Navigation (planification d'itinéraire)
 
-Mit der OpenStreetMap-Geodaten-Sammlung können Computer mehr machen, als "nur" Karten zu zeichnen! 
-Die Such-Funktion, die wir bereits angesehen haben, verwendet dieselben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
+Avec la collection de géodonnées OpenStreetMap, les ordinateurs peuvent faire plus que « simplement » 
+dessiner des cartes ! La fonction de recherche, que nous avons déjà examinée, utilise les mêmes données 
+et ajoute des données supplémentaires libres, par exemple provenant de WikiData (un projet frère de Wikipedia), 
+pour compléter la recherche.
 
-Auch Wege von A nach B zu finden, ist mit den OpenStreetMap-Daten möglich. Das geht so:
+Trouver des chemins d’A à B est également possible avec les données OpenStreetMap. Ça marche comme cela:
 
-Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld. 
-Nun kannst du entweder per Text-Eingabe (z.B. Adresse) nach Start- und Zielort suchen, oder die rote und grüne Stecknadel aus dem Suchformular auf die entsprechende Stelle der Karte ziehen.
+Clique sur le bouton à côté du champ de recherche. Tu peux maintenant effectuer une recherche par texte 
+(par ex. adresse) pour le départ et la destination, ou faire glisser l’épingle rouge et verte du formulaire 
+de recherche à l'endroit correspondant sur la carte.
 
-Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehrsmittel/die Bewegungsart (per Auto, per Velo oder zu Fuss) und das Weg-Such-Programm (in der Fachsprache: den Routing-Algorithmus) wählen.
+A l'aide du menu déroulant situé sous les informations de départ et de destination, tu peux sélectionner 
+le moyen de transport / type de déplacement (voiture, vélo ou à pied) et le programme de recherche 
+d'itinéraire (en jargon technique : l'algorithme de routage).
 
-.Zwischenstationen
+.Stations intermédiaires
 [NOTE]
 ====
-Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich. 
-Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-Planungs-Möglichkeit, die jedoch nur für Strecken innerhalb der Schweiz funktioniert.
+Malheureusement, il n'est pas possible de spécifier des arrêts intermédiaires ou des "via" sur openstreetmap.org. 
+Sur http://routing.osm.ch, il existe une autre option de planification d'itinéraire basée sur OpenStreetMap, 
+mais ça fonctionne que pour les itinéraires en Suisse.
 ====
 
-=== Aufgaben
+=== Exercices
 
-Untersuche mit der Navigations-Funktion deinen Schulweg.
+Utilise la fonction de navigation pour ton chemin d’école.
 
 Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
 
