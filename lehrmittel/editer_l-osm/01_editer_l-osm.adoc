@@ -52,31 +52,32 @@ ifdef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-Nachdem du dich durch die Registrierung ganz durchgeklickt hast, schickt dir OpenStreetMap ein Email und die Adresse, die du angegeben hast, um zu prüfen, ob du wirklich über diese Email-Adresse erreichbar bist. 
-In dieser Email-Nachricht wirst du einen Bestätigungs-Link finden, den du besuchen musst, um die Registrierung abzuschliessen.
+Après avoir cliqué à travers le processus d'enregistrement, OpenStreetMap t'enverra un email à l'adresse 
+que tu as entré pour vérifier si on peut vraiment te joindre via cette adresse email. Dans cet email, 
+tu trouveras un lien de confirmation que tu dois consulter pour finaliser l'inscription.
 
 ifdef::show_solutions[]
-NOTE: Alternativ kann man sich auch mit anderen Konten einloggen.
-Im Arbeitsblatt "Die Umgebung selber kartografieren - Outdoor Mapping Event" gibt es Tipps, wie man Konten für Schülerinnen und Schüler (Teilnehmer) anlegen kann. 
+NOTE: Tu peux également te connecter avec d'autres comptes.
+La feuille de travail «Cartographier l'environnement toi-même - Outdoor Mapping Event» contient des conseils sur la façon de créer des comptes pour les élèves (participants).
 endif::show_solutions[]
 
-== Sprache umstellen (falls nötig)
+== Modifier la langue (si nécessaire)
 
-Wenn die Knöpfe auf OSM.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
+Si les boutons sur OSM.org ne sont pas affichés en français après la connexion, tu peux les modifier comme suit:
 
-1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
-2. Wähle im Dropdown-Menü "Settings" aus
-3. Unter der Einstellung "Preferred Languages" ersetzt du den Text mit `de-CH de`
-4. Klicke den "Save Changes"-Knopf ganz unten, um diese Änderung zu speichern
+1. Clique sur le bouton avec ton nom d'utilisateur en haut à droite de la page
+2. Sélectionne « Mes options » dans le menu déroulant
+3. Sous le réglage «Langues préférées» remplacer le texte par `fr-CH fr`
+4. Clique sur le bouton « Enregistrer les modifications » en bas pour enregistrer cette modification
 
-Der im Folgenden verwendete Editor wird die selbe Sprache verwenden, falls verfügbar.
+L'éditeur utilisé ci-dessous utilisera la même langue si elle est disponible.
 
-== iD, der Web-Editor von OpenStreetMap
+== iD, l'éditeur web d'OpenStreetMap
 
-Es gibt verschiedene Editoren, mit denen OpenStreetMap bearbeitet werden kann. 
-Wir werden den Editor namens "iD" verwenden, der auf der OSM.org-Website bereits eingebaut ist.
+Il-y-a plusieurs éditeurs qui peuvent être utilisés pour modifier OpenStreetMap. 
+Nous utiliserons l'éditeur "iD", qui est déjà intégré au site OSM.org.
 
-=== Rundgang
+=== Visite guidée
 
 Um diesen Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. 
 Dazu drückst du auf den "Bearbeiten"-Knopf oben links. 
