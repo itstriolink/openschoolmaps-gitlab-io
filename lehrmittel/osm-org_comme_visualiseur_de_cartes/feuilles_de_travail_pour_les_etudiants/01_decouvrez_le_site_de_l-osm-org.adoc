@@ -179,9 +179,9 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Falls nicht, suche es wieder durch verschieben und zoomen der Karte.
+Si ce n'est pas le cas, fais une nouvelle recherche en déplaçant et en zoomant la carte.
 
-Versuche, andere dir bekannte Orte so zu finden.
+Essaye de trouver d'autres endroits que tu connais de cette façon.
 
 OpenStreetMap funkioniert nicht nur in der Schweiz, sondern auch weit über die Landesgrenzen hinweg. 
 Du kannst auch Orte wie München, New York, Tokio und Kalkutta finden. 
