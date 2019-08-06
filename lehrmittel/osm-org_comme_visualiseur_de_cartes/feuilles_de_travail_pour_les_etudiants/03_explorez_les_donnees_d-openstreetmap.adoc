@@ -56,20 +56,21 @@ Ou as-tu remarqué quelque chose sur la carte qui est faux ou qui n’est plus a
 Pour signaler à la communauté OpenStreetMap ces choses-là, tu peux créer une note. 
 Pour faire cela, clique sur le  image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-bouton à droite.
 
-Auf der Karte erscheint eine Positions-Nadel image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. 
-Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. 
-Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zurzeit falsch ist.
+Une épingle de position apparaît sur la carte image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. 
+Déplaces-le de manière à ce que la pointe de l'épingle en bas pointe le plus exactement possible vers la position de ton objet. 
+Dans le champ de texte, décris aussi précisément que possible ce qui devrait être modifié ou ajouté ou ce qui est actuellement faux.
 
 [NOTE]
 ====
-Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. 
-Man kann sie sich wie einen leicht wieder entfernbaren Klebezettel (auch bekannt als "Post-It") vorstellen, auf den man etwas schreibt, und den man auf die Karte klebt. 
-Notizen werden an erfahrene Mapper geschickt, welche die Notiz bearbeiten, wenn sie es für notwendig erachten.
-Du brauchst also keine Angst haben, dabei Fehler zu machen!
+Une note OpenStreetMap ne modifie ni les données ni les cartes. C’est comme une note autocollante facilement détachable 
+(aussi connue sous le nom de «Post-It») sur laquelle tu peux écrire quelque chose et que tu colles sur la carte. 
+Les notes sont envoyées à des cartographes expérimentés qui les modifieront s'ils le jugent nécessaire. 
+Tu n'as donc pas à avoir peur de faire des erreurs!
 
-Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. 
-Wer also selbst etwas bewirken will, dem raten wir, die Änderungen gleich selbst durchzuführen (unter anderem, weil das Spass macht).
-Eine Einstiegshilfe dazu gibt es auf OpenSchoolMaps mit dem Arbeitsblatt "OpenStreetMap bearbeiten". 
+Cependant, cela signifie également que OpenStreetMap n'a pas encore été amélioré avec une note. 
+Donc, si tu veux faire une différence toi-même, nous te recommandons d'effectuer les changements toi-même 
+(entre autre, parce que c'est amusant). Pour cela, il existe une aide OpenSchoolMaps avec la feuille de 
+travail «Éditer OpenStreetMap».
 ====
 
 include::../../../snippets/quellenangabe.adoc[]
