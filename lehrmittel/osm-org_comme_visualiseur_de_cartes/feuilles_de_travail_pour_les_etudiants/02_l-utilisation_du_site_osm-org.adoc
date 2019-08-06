@@ -103,6 +103,6 @@ ausgebremst.
 
 == Partager les positions
 
-Si tu veux envoyer un lien avec une section de carte ou un endroit marqué à quelqu'un, tu peux le faire en cliquant sur le bouton à droite.
+Si tu veux envoyer un lien avec une section de carte ou un endroit marqué à quelqu'un, tu peux le faire en cliquant sur le image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 20, 20]-bouton à droite.
 
 include::../../../snippets/quellenangabe.adoc[]
