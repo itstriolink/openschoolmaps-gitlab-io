@@ -1,4 +1,4 @@
-= Editer l'OSM
+= Éditer OpenStreetMap
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../bilder/
@@ -10,43 +10,43 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 
 ifdef::show_solutions[]
-*Ein Arbeitsblatt für Interessierte und für Schülerinnen und Schüler (SuS) mit Informationen für Instruktoren und Lehrpersonen*
+*Une feuille de travail pour les intéressés et pour les élèves avec des informations pour les instructeurs et les enseignants.*
 endif::show_solutions[]
 
-NOTE: Mit diesem Arbeitsblatt und dem in den Online-OpenStreetMap-Editor "iD" eingebauten "Rundgang" (ein geführter Einführungskurs) lernst du, OpenStreetMap-Daten mit diesem Editor zu bearbeiten. 
-So kannst du die Karte selbst verbessern und ergänzen.
+NOTE: Avec cette feuille de travail et la "visite guidée" (un cours d'introduction guidé) intégré dans l'éditeur en ligne OpenStreetMap 
+"iD", tu apprends comment éditer des données OpenStreetMap avec cet éditeur. Tu peux donc améliorer et compléter la carte toi-même. 
 
-Auf OpenStreetMap kannst du nicht nur die Weltkarte anschauen, sondern diese auch editieren. 
-Um Datenobjekte zu ergänzen oder abzuändern, brauchst du zuerst ein Benutzerkonto.
+Sur OpenStreetMap, tu peux non seulement visualiser la carte du monde, mais aussi la modifier. 
+Pour ajouter ou modifier des objets de données, tu as d'abord besoin d'un compte d’utilisateur.
 
 ifdef::show_solutions[]
 ====
-*Übersicht*
+*Aperçu*
 
-.Ziel
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, auf OSM.org Datenobjekte wie zum Beispiel ein Bänkli, einen Brunnen oder ein Abfallkübel mit Hilfe des iD-Editors zu ergänzen oder abzuändern.
+.Objectif
+Après avoir édité la feuille de travail correspondante, les élèves peuvent ajouter ou modifier des objets de données tels qu'un banc, un puit ou une poubelle sur OSM.org à l'aide de l'éditeur iD.
 
-.Zielgruppe
-SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
+.Public cible
+Les élèves du Lehrplan-21 cycle 2 ou 3 (4ème à 9ème année scolaire)
 
-.Zeitplanung
-* Registrierung: 5 Minuten
-* Rundgang für den Editor: 20–30 Minuten
-* Selber auf OpenStreetMap Daten eintragen: 20–30 Minuten
+.Planification
+* Inscription: 5 minutes
+* Visite guidée de l’éditeur: 20–30 minutes
+* Entrer soi-même des données sur OpenStreetMap: 20–30 minutes.
 
-Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
+La feuille de travail devrait durer environ une leçon (45 minutes).
 
-*Vorbereitung*
+*Préparation*
 
-Für diese Aufgabe benötigen die SuS ein OSM-Konto. 
+Pour cette tâche, les élèves ont besoin d'un compte OSM.
 ====
 endif::show_solutions[]
 
-== Benutzerkonto erstellen und anmelden
+== Créez un compte et se connecter
 
-Um ein Benutzerkonto zu erstellen drückst du auf die Schaltfläche "Registrieren" oben rechts. 
-Dazu musst du deine Email-Adresse angeben und dir einen Benutzername und ein Passwort aussuchen. 
-Falls du bereits ein OpenStreetMap-Benutzerkonto hast, kannst du stattdessen natürlich direkt auf "Anmelden" klicken.
+Pour créer un compte utilisateur, cliquez sur le bouton « S'inscrire » dans le coin en haut à droite. 
+Tu devras entrer ton adresse email et choisir un nom d'utilisateur et un mot de passe. Si tu as déjà 
+un compte utilisateur OpenStreetMap, tu peux simplement cliquer sur « Login ».
 
 ifdef::show_solutions[]
 <<<
