@@ -30,9 +30,9 @@ pour compléter la recherche.
 
 Trouver des chemins d’A à B est également possible avec les données OpenStreetMap. Ça marche comme cela:
 
-Clique sur le bouton à côté du champ de recherche. Tu peux maintenant effectuer une recherche par texte 
-(par ex. adresse) pour le départ et la destination, ou faire glisser l’épingle rouge et verte du formulaire 
-de recherche à l'endroit correspondant sur la carte.
+Clique sur le image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-bouton à côté du 
+champ de recherche. Tu peux maintenant effectuer une recherche par texte (par ex. adresse) pour le départ et la 
+destination, ou faire glisser l’épingle rouge et verte du formulaire de recherche à l'endroit correspondant sur la carte.
 
 A l'aide du menu déroulant situé sous les informations de départ et de destination, tu peux sélectionner 
 le moyen de transport / type de déplacement (voiture, vélo ou à pied) et le programme de recherche 
