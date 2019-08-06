@@ -6,7 +6,7 @@ include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
 ifndef::show_solutions[]
-*Ein Arbeitsblatt für Interessierte und für Schülerinnen und Schüler*
+*Une feuille de travail pour les intéressés et pour les élèves*
 endif::show_solutions[]
 
 ifdef::show_solutions[]
