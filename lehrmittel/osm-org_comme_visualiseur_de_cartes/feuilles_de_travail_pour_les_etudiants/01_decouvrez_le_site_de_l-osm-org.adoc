@@ -44,28 +44,27 @@ Si tu es sur openstreetmap.org pour la première fois, un message de bienvenue
 apparaît dans le coin supérieur gauche. 
 Si le message a déjà été cliqué, voici à nouveau son contenu :
 
-> Willkommen bei OpenStreetMap!
-> OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei 
-> verwendbar unter einer offenen Lizenz.
+> Bienvenue sur OpenStreetMap !
+> OpenStreetMap est une carte du monde, créée par des gens comme toi et 
+> librement utilisable sous licence ouverte.
 >
-> Das Hosting wird von [...] unterstützt.
+> L'hébergement est supporté par [...].
 >
-> https://www.osm.org/about Mehr erfahren | https://www.osm.org/user/new Mit dem Kartieren anfangen
+> https://www.osm.org/about En savoir plus | https://www.osm.org/user/new Commencer à cartographier
 
-Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu 
-sehen.
+Lisez le message et fermez-le pour voir plus de la carte.
 
 <<<
 
-=== Karten-Ausschnitt ändern
+=== Modifier la section de carte
 
-.Die Webseite OpenStreetMap.org
+.Le site OpenStreetMap.org
 image::osm-org_als_kartenviewer/osm_homepage.PNG[]
-Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-Knopf. Was passiert?
+Sur le côté droit se trouvent des boutons gris foncé avec des symboles blancs. Cliquez sur le image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-bouton. Que se passe-t-il ?
 
 ====
 ifdef::show_solutions[]
-Zoomt "heraus":
+Faites un zoom "arrière":
 Es wird ein grösserer Ausschnitt der Welt angezeigt,
 wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)
 kleiner dargestellt werden. Beschriftungen und Kartensymbole
