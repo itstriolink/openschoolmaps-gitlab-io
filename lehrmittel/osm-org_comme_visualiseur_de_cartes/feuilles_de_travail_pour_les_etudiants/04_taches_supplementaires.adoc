@@ -27,13 +27,13 @@ ifdef::show_solutions[]
 
 * `www.`: Eine Sub-Domain, die anzeigt, dass es sich um eine Website im World Wide Web (WWW) handelt. Etwas redundant, da das durch das HTTP-Protokoll und die global erreichbare Domain bereits impliziert ist.
 
-* `#map=8/46.825/8.224`: Der Karten-Ausschnitt. Dabei ist:
+* `#map=8/46.825/8.224`: La section de carte. Et il y en a une:
 
-  * `8`: Das "Zoom-Level". Je grösser diese Zahl, um so "näher ran" gezoomt ist die Ansicht.
+  * `8`: Le niveau de zoom. Plus ce nombre est élevé, plus la vue est agrandie.
 
-  * `46.825`: Die geografische Breite in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
+  * `46.825`: Latitude en coordonnées WGS-84 comme nombre décimal (degrés avec décimales)
 
-  * `8.224`: Die geografische Länge in WGS-84-Koordinaten als Dezimal-Zahl (Grad mit Nachkommastellen)
+  * `8.224`: Longitude en coordonnées WGS-84 comme nombre décimal (degrés avec décimales)
 
 .Dynamisation
 Dans les leçons de géographie, il est souvent courant de spécifier les coordonnées angulaires en degrés, minutes et secondes. Profite de cette occasion pour pratiquer la conversion entre la fraction décimale et le système degré-minute-seconde. Par exemple, les informations de coordonnées du registre d'un atlas peuvent être traduites en URL OpenStreetMap.
