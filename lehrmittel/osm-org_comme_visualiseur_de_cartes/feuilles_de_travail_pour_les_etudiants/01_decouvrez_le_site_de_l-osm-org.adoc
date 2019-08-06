@@ -183,28 +183,27 @@ Si ce n'est pas le cas, fais une nouvelle recherche en déplaçant et en zoomant
 
 Essaye de trouver d'autres endroits que tu connais de cette façon.
 
-OpenStreetMap funkioniert nicht nur in der Schweiz, sondern auch weit über die Landesgrenzen hinweg. 
-Du kannst auch Orte wie München, New York, Tokio und Kalkutta finden. 
-Wichtige Städte sind dabei unter verschiedensprachigen Namen zu finden, du kannst also anstatt "Tokio" auch die englische Schreibweise "Tokyo" oder die örtliche (japanische) "東京" verwenden.
+OpenStreetMap fonctionne non seulement en Suisse, mais aussi bien au-delà des frontières nationales. 
+Tu peux aussi trouver des endroits comme Munich, New York, Tokyo et Calcutta. 
+Les villes importantes peuvent être trouvées sous différents noms, tu peux donc aussi utiliser l'orthographe anglaise "Tokyo" ou le local (japonais) "東京" au lieu de "Tokyo".
 
-* Warst du kürzlich in den Ferien (sei es im In- oder Ausland) oder zu Besuch bei Verwandten? Versuche den Ferienort zu finden. Erkennst du ihn auf der Karte wieder?
+* As-tu récemment été en vacances (dans ton pays ou à l'étranger) ou rendu visite à des parents ? Essaye de trouver la station. Tu le reconnaisses sur la carte?
 
-Welche Stadt heisst auf Litauisch "Ciūrichas"?
+Quelle ville s'appelle "Ciūrichas" en lituanien ?
 
 ====
 ifdef::show_solutions[Zürich]
 ifndef::show_solutions[{empty} +]
 ====
 
-Eine spanische Touristin fragt nach dem Weg nach "Ginebra". Wo in der Schweiz will sie hin?
+Un touriste espagnol demande le chemin vers "Ginebra".  Où va-t-elle en Suisse ?
 
 ====
 ifdef::show_solutions[]
-nach Genf / Genève
+vers Genève
 
-Da es auch in Kolumbien einen Ort namens "Ginebra" gibt,
-muss bei der Suche evtl. das Land mit angegeben werden, 
-also "Ginebra Schweiz".
+Puisqu'il y a aussi un endroit appelé "Ginebra" en Colombie, 
+la recherche peut devoir inclure le pays, c'est-à-dire "Ginebra Suisse".
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -213,11 +212,11 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-=== Orientierung
+=== Orientation
 
-Eine Windrose sucht man auf openstreetmap.org vergeblich. Wie ist die Karte auf der Website ausgerichtet? Falls nötig, suche einen Ort, von dem du auch eine Papier-Karte hast oder bei dem du die Himmelsrichtungen kennst, und vergleiche OpenStreetMap mit der Papier-Karte oder deinem Wissen.
+Une rose des vents ne se trouve pas sur openstreetmap.org. Comment la carte est-elle alignée sur le site Web ? Si nécessaire, cherche un endroit où tu as aussi une carte papier ou où tu connaisses les points cardinaux, et compare OpenStreetMap avec la carte papier ou que tu connaisses.
 
-Osten liegt
+A l'est se trouve
 ifdef::show_solutions[]
 [.underline]#rechts#
 endif::show_solutions[]
@@ -226,7 +225,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 auf der openstreetmap.org-Karte.
 
-Norden liegt
+Au nord se trouve
 ifdef::show_solutions[]
 [.underline]#oben#
 endif::show_solutions[]
@@ -235,7 +234,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 auf der openstreetmap.org-Karte.
 
-Süden liegt
+Le sud se trouve
 ifdef::show_solutions[]
 [.underline]#unten#
 endif::show_solutions[]
@@ -244,7 +243,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 auf der openstreetmap.org-Karte.
 
-Westen liegt
+L'Ouest se trouve
 ifdef::show_solutions[]
 [.underline]#links#
 endif::show_solutions[]
@@ -257,7 +256,7 @@ ifdef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-=== Grössenverhältnisse
+=== Proportions
 
 Zoome heraus, bis du die ganze Erde siehst. Grönland und Südamerika sehen etwa gleich gross aus. Kann es sein, dass sie tatsächlich etwa gleich gross sind? Falls möglich schau auf dem Globus nach und vergleiche mit diesem.
 
