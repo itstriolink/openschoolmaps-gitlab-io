@@ -4,7 +4,7 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Une Arbeitsblatt*
+*Une feuille de travail*
 ifdef::show_solutions[- *LÖSUNGEN*]
 
 == Missions additionnelles
