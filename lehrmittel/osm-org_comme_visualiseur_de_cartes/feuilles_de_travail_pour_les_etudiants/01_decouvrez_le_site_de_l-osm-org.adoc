@@ -52,7 +52,7 @@ Si le message a déjà été cliqué, voici à nouveau son contenu :
 >
 > https://www.osm.org/about En savoir plus | https://www.osm.org/user/new Commencer à cartographier
 
-Lisez le message et fermez-le pour voir plus de la carte.
+Lis le message et ferme-le pour voir plus de la carte.
 
 <<<
 
