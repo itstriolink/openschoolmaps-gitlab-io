@@ -141,7 +141,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Was passiert, wenn du eine Stelle auf der Karte doppel-klickst?
+Que se passe-t-il si tu double-cliques sur un endroit de la carte ?
 
 ====
 ifdef::show_solutions[Zoomt (1 Stufe) herein, mit Klick-Position als Zoom-Zentrum.]
@@ -150,18 +150,18 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-=== Such-Feld
+=== Champ de recherche
 
-Oben links findest du ein Text-Eingabefeld für Such-Anfragen. Hier können Orte, Adressen, Sehenswürdigkeiten und Namen von Läden, Hotels, Restaurants und vielem mehr eingegeben werden.
+En haut à gauche, tu trouveras un champ de saisie de texte pour les requêtes de recherche. Ici, tu peux entrer les lieux, adresses, curiosités et noms de magasins, hôtels, restaurants et bien plus encore.
 
-* Suche deinen Kanton
-* Suche deine Gemeinde oder deinen Ortsteil
+* Recherche ton canton
+* Recherche ton communauté ou district
 
-IMPORTANT: Das Suchfeld achtet auf Rechtschreibung und Schreibweise. Wenn das, was du suchst, nicht gefunden wird, heisst das entweder, dass es in der Datenbank noch nicht existiert, oder, dass es anders geschrieben wird als das, was du eingegeben hast. Ändere einfach die Abfrage etwas und versuch es erneut!
+IMPORTANT:  Le champ de recherche fait attention à l'orthographe et à l'orthographe. Si ce que tu recherches n'est pas trouvé, cela signifie soit qu'il n'existe pas encore dans la base de données, soit qu'il est écrit différemment de ce que tu as saisi. Il suffit de changer la requête et d'essayer à nouveau!
 
-Versuche, deine Schule zu finden. Dazu kannst du das Suchfeld verwenden, oder dich einfach auf der Karte bewegen wie im Abschnitt oben gelernt. Falls OpenStreetMap deine Schule nicht über ihren Namen oder ihre Adresse findet, kannst du auch beides kombinieren: Suche zuerst nach dem Ort oder Quartier, zoome und verschiebe den Karten-Ausschnitt dorthin, wo deine Schule sein sollte.
+Essaye de trouver ton école. Tu peux utiliser la boîte de recherche pour ce faire, ou simplement te déplacer sur la carte comme appris dans la section ci-dessus. Si OpenStreetMap ne trouve pas ton école par son nom ou son adresse, tu peux combiner les deux : Tout d'abord, recherche l'emplacement ou le quartier, fais un zoom avant et déplace la section de carte à l'endroit où ton école devrait se trouver.
 
-Ist dein Schulhaus in OpenStreetMap eingetragen?
+Ton bâtiment scolaire est-il répertorié dans OpenStreetMap?
 
 ====
 ifdef::show_solutions[Zum Beispiel: Schule Paradies, Rapperswil]
@@ -170,7 +170,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Suche das Haus, in dem du wohnst. Lässt es sich über deine Adresse finden?
+Cherche la maison où tu habites. Peut-on le trouver via ton adresse?
 
 ====
 ifdef::show_solutions[Zum Beispiel: Paradiesweg 20 Jona]
