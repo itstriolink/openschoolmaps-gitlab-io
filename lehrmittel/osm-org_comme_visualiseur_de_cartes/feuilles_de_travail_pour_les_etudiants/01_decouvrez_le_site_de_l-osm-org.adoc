@@ -60,22 +60,21 @@ Lisez le message et fermez-le pour voir plus de la carte.
 
 .Le site OpenStreetMap.org
 image::osm-org_als_kartenviewer/osm_homepage.PNG[]
-Sur le côté droit se trouvent des boutons gris foncé avec des symboles blancs. Cliquez sur le image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-bouton. Que se passe-t-il ?
+Sur le côté droit se trouvent des boutons gris foncé avec des symboles blancs. Cliques sur le image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-bouton. Que se passe-t-il ?
 
 ====
 ifdef::show_solutions[]
 Faites un zoom "arrière":
-Es wird ein grösserer Ausschnitt der Welt angezeigt,
-wodurch die einzelnen Objekte (Häuser, Seen, Kantone, ...)
-kleiner dargestellt werden. Beschriftungen und Kartensymbole
-bleiben jedoch ungefähr gleich gross.
+Une plus grande partie du monde est affichée, ce qui 
+rend les objets individuels (maisons, lacs, cantons,...) plus petits.  
+Les étiquettes et les symboles cartographiques, cependant, demeurent à peu près de la même taille.
 
 (Plus tu effectues un zoom arrière, 
 plus les détails et les légendes sont omis.)
 
-(Falls man bereits ganz rausgezoomt ist
-(Zoomlevel `0`, bei dem die Erde je nach Fensterbreite
-bereits mehrmals dargestellt wird), dann passiert nichts.)
+(Si tu es déjà dézoomé (niveau de zoom `0`, où la terre est 
+affichée plusieurs fois en fonction de la largeur de la fenêtre), 
+alors rien ne se passe.)
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -108,8 +107,10 @@ L'endroit où se trouve le pointeur sur la carte a-t-il de l'importance ?
 
 ====
 ifdef::show_solutions[]
-Ja, die Zeigerposition dient als Zentrum der Verkleinerungs- oder Vergrösserungsbewegung. D.h. die Karten-Position unter dem Zeiger steht fast still, und die
-Positionen darum herum bewegen sich auf den Zeiger zu oder von ihm weg.
+Oui, la position de l'aiguille sert de centre du mouvement de réduction 
+ou d'agrandissement. C'est-à-dire que la position de la carte sous le 
+pointeur est presque stationnaire et que les positions qui l'entourent 
+se rapprochent ou s'éloignent du pointeur.
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
@@ -122,16 +123,16 @@ ifndef::show_solutions[]
 <<<
 endif::show_solutions[]
 
-Natürlich lässt sich der Karten-Ausschnitt auch verschieben, ohne ihn zu vergrössern oder zu verkleinern. Findest du heraus wie?
+Bien entendu, la section de carte peut également être déplacée sans l'agrandir ou la réduire. Tu découvres comment?
 
 ====
 ifdef::show_solutions[]
-Mauszeiger über der Karte platzieren.
+Place le pointeur de la souris sur la carte.
 
-Primäre (meist linke) Maustaste gedrückt halten
-und Zeiger in gewünschte Richtung ziehen.
+Maintiens le bouton principal (généralement gauche) de la 
+souris enfoncé et fais glisser le pointeur dans la direction souhaitée.
 
-(Karte bewegt sich mit dem Zeiger mit.)
+(La carte se déplace avec le pointeur.)
 endif::show_solutions[]
 ifndef::show_solutions[]
 {empty} +
