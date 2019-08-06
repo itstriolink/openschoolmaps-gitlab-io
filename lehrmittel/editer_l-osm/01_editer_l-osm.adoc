@@ -42,9 +42,9 @@ Pour cette tâche, les élèves ont besoin d'un compte OSM.
 ====
 endif::show_solutions[]
 
-== Créez un compte et se connecter
+== Crée un compte et se connecter
 
-Pour créer un compte utilisateur, cliquez sur le bouton « S'inscrire » dans le coin en haut à droite. 
+Pour créer un compte utilisateur, clique sur le bouton « S'inscrire » dans le coin en haut à droite. 
 Tu devras entrer ton adresse email et choisir un nom d'utilisateur et un mot de passe. Si tu as déjà 
 un compte utilisateur OpenStreetMap, tu peux simplement cliquer sur « Login ».
 
@@ -84,7 +84,7 @@ Pour faire ça, clique sur le bouton «Modifier» en haut à gauche. Si tu vois 
 sur le bouton «Commencer le guide». Sinon, appuie sur le image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-bouton (à droite) et commence la visite à partir de là.
 
 ifdef::show_solutions[]
-IMPORTANT: Jouez tout au long de la visite avant de présenter OpenSchoolMaps à vos élèves.
+IMPORTANT: Joue tout au long de la visite avant de présenter OpenSchoolMaps à vos élèves.
 
 .Les questions que pourraient se poser vos élèves:
 [NOTE]
