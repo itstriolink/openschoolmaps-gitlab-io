@@ -1,23 +1,23 @@
-= Explorez les données d'OpenStreetMap
+= OSM.org comme visualiseur de carte, fiche 3: analyser des données OpenStreetMap
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt*
+*Une feuille de travail*
 
 [NOTE]
 ====
-Dieses Arbeitsblatt zeigt dir, wie du auf OSM.org einen Blick in die Daten werfen kannst, die der Karte zu Grunde liegen.
+Cette feuille de travail te montre comment jeter un coup d’œil sur les données sur OSM.org sur laquelle la carte est basée.
 
-Ausserdem lernst du, wie du die OpenStreetMap-Gemeinschaft auf Fehler in der Karte hinweisen kannst. 
-So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halten.
+Tu apprendras également comment signaler les erreurs cartographiques à la communauté OpenStreetMap. 
+Vous pouvez donc en permanence aider à améliorer et à tenir à jour OpenStreetMap.
 ====
 
-== Ein erster Blick hinter die Kulissen
+== Un premier coup d’œil derrière les coulisses
 
 
-=== Objekte abfragen
+=== Requête sur les objets
 
 Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. 
 Klicke dazu den image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-Knopf auf der rechten Seite auf openstreetmap.org.
@@ -30,7 +30,7 @@ Nicht alle in der OpenStreetMap-Datensammlung enthaltenen Daten werden in jedem 
 
 Klick den entsprechenden Link an, und du siehst die Eigenschaften ("Attribute") des Objekts sowie den Kommentar zur letzten Änderung, die daran gemacht wurde und weitere Informationen.
 
-=== (Alle) Kartendaten anzeigen
+=== Afficher (toutes) les données cartographiques
 
 Gerade bei Objekten, die auf der Karte gar nicht angezeigt werden, kann es schwierig sein, sie auf diese Weise zu finden und zu untersuchen. 
 In der Seitenleiste mit den Kartenebenen können die örtlichen OpenStreetMap-Daten mit der Checkbox "Kartendaten" eingeblendet werden.
