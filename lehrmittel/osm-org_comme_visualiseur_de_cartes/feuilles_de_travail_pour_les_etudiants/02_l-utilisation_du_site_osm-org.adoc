@@ -52,55 +52,87 @@ Utilise la fonction de navigation pour ton chemin d’école.
 
 Combien de temps nécessite-tu pour ton trajet d’école avec les moyens de transport que tu prends habituellement?
 
-////
-(ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.)
-
-Angabe in Metern oder Kilometern
-////
-
 ====
+ifdef::show_solutions[]
+Ta indication doit être décrite en mètres ou en kilomètres.
+
+Remarque : Les demandes de renseignements sur les transports publics et les horaires ne sont malheureusement pas prises en charge.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 La durée estimée correspond-elle à ton expérience?
 
 ====
+ifdef::show_solutions[]
+Si c'est exactement l'itinéraire que tu prends, alors la durée devrait être à peu près correcte. 
+S'il y a de petits écarts, cela se reflète naturellement aussi dans la durée.
+
+Les conditions temporaires (à court terme) qui affectent la durée de ton trajet scolaire, 
+comme les chantiers de construction ou les accidents, sont évidemment difficiles à prendre 
+en compte par l'OSM et il y aurait donc des variations dans la durée.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 L'itinéraire proposé correspond-il à celui que tu empruntes normalement?
 
 ====
+ifdef::show_solutions[]
+Si tu vis dans un endroit bien capturé dans OpenStreetMap, 
+la réponse est probablement "Oui".
+Dans les endroits moins complètement capturés, 
+les itinéraires que tu prends normalement peuvent ne pas 
+être capturés du tout ou ne pas être correctement connectés, 
+de sorte que le calcul d'itinéraire suggérera un itinéraire différent.
+
+Les zones plus densément peuplées (par exemple les villes comme Zurich) 
+ont tendance à être mieux couvertes que les zones rurales ou peu peu peuplées, 
+car plus de gens s'intéressent à OpenStreetMap et y contribuent comme cartographes.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 Le même itinéraire est-il proposé pour chaque mode de transport?
 
 ====
+ifdef::show_solutions[]
+Non, car tous les moyens de transport ne sont pas adaptés/approuvés pour chaque itinéraire. 
+Il existe des autoroutes qui ne sont réservées qu'à certains véhicules à moteur, 
+des itinéraires cyclables pour bicyclettes et véhicules similaires et des itinéraires 
+réservés aux piétons qui n'autorisent pas les véhicules. Il y a aussi les transports en 
+commun. Les trains et les tramways parcourent des itinéraires définis le long d'un chemin 
+de fer et les bus ont également des itinéraires fixes le long de divers arrêts de bus.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 
 Pourquoi est-il possible de proposer un itinéraire différent selon le mode de transport?
 
-////
-Nicht jedes Verkehrsmittel ist überall erlaubt:
-Mit dem Auto darf man nicht durch die Fussgängerzone,
-zu Fuss nicht über die Autobahn.
-
-Auch welche Strecke die schnellste ist,
-kann von der gewählten Fortbewegungsart abhängen:
-Im Auto kann sich ein kleiner Umweg lohnen,
-um eine 30er-Zone zu vermeiden. Velofahrerinnen
-und Fussgänger werden von einer solchen nicht
-ausgebremst.
-////
-
 ====
+ifdef::show_solutions[]
+Tous les moyens de transport ne sont pas autorisés partout: 
+Il est interdit de traverser la zone piétonne ou d'enjamber l'autoroute à pied.
+
+L'itinéraire le plus rapide peut également dépendre du mode de transport choisi: 
+Un petit détour dans la voiture peut être utile pour éviter une zone 30. 
+Les cyclistes et les piétons ne sont pas ralentis par une telle zone.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 == Partager les Positions
