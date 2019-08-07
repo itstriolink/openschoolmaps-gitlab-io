@@ -84,7 +84,7 @@ endif::show_solutions[]
 Que penses-tu que le image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-bouton fait? Essaye-le!
 
 ====
-ifdef::show_solutions[Zoomt "herein"]
+ifdef::show_solutions[Zoom "avant"]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -93,7 +93,7 @@ endif::show_solutions[]
 Si tu as une souris avec une molette de défilement, tiens le pointeur de la souris sur la zone du site Web avec la carte et tourne la molette (lentement) en avant ou en arrière. Qu'est-ce que tu regardes?
 
 ====
-ifdef::show_solutions[Auch so kann gezoomt werden]
+ifdef::show_solutions[Tu peux aussi zoomer de cette façon]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -144,7 +144,7 @@ endif::show_solutions[]
 Que se passe-t-il si tu double-cliques sur un endroit de la carte ?
 
 ====
-ifdef::show_solutions[Zoomt (1 Stufe) herein, mit Klick-Position als Zoom-Zentrum.]
+ifdef::show_solutions[Zoom (1 étage) avant, avec position de clic comme centre de zoom.]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -164,7 +164,7 @@ Essaye de trouver ton école. Tu peux utiliser la boîte de recherche pour ce fa
 Ton bâtiment scolaire est-il répertorié dans OpenStreetMap?
 
 ====
-ifdef::show_solutions[Zum Beispiel: Schule Paradies, Rapperswil]
+ifdef::show_solutions[Par exemple : École Paradies, Rapperswil]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -173,7 +173,7 @@ endif::show_solutions[]
 Cherche la maison où tu habites. Peut-on le trouver via ton adresse?
 
 ====
-ifdef::show_solutions[Zum Beispiel: Paradiesweg 20 Jona]
+ifdef::show_solutions[Par exemple : Chemin du paradis 20 Jona]
 ifndef::show_solutions[]
 {empty} +
 endif::show_solutions[]
@@ -192,7 +192,7 @@ Les villes importantes peuvent être trouvées sous différents noms, tu peux do
 Quelle ville s'appelle "Ciūrichas" en lituanien ?
 
 ====
-ifdef::show_solutions[Zürich]
+ifdef::show_solutions[Zurich]
 ifndef::show_solutions[{empty} +]
 ====
 
