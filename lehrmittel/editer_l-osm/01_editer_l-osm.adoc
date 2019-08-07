@@ -42,7 +42,7 @@ Pour cette tâche, les élèves ont besoin d'un compte OSM.
 ====
 endif::show_solutions[]
 
-== Crée un compte et se connecter
+== Crée un Compte et se Connecter
 
 Pour créer un compte utilisateur, clique sur le bouton « S'inscrire » dans le coin en haut à droite. 
 Tu devras entrer ton adresse email et choisir un nom d'utilisateur et un mot de passe. Si tu as déjà 
@@ -61,7 +61,7 @@ NOTE: Tu peux également te connecter avec d'autres comptes.
 La feuille de travail «Cartographier l'environnement toi-même - Outdoor Mapping Event» contient des conseils sur la façon de créer des comptes pour les élèves (participants).
 endif::show_solutions[]
 
-== Modifier la langue (si nécessaire)
+== Modifier la Langue (Si Nécessaire)
 
 Si les boutons sur OSM.org ne sont pas affichés en français après la connexion, tu peux les modifier comme suit:
 
@@ -72,7 +72,7 @@ Si les boutons sur OSM.org ne sont pas affichés en français après la connexio
 
 L'éditeur utilisé ci-dessous utilisera la même langue si elle est disponible.
 
-== iD, l'éditeur web d'OpenStreetMap
+== iD, l'Éditeur Web d'OpenStreetMap
 
 Il-y-a plusieurs éditeurs qui peuvent être utilisés pour modifier OpenStreetMap. 
 Nous utiliserons l'éditeur "iD", qui est déjà intégré au site OSM.org.
