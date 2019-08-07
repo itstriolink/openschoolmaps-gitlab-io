@@ -81,7 +81,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Que penses-tu que le image:osm-org_as_mapviewer/plus_button.PNG["Bouton Plus", 20, 20]-bouton fait? Essaye-le!
+Que penses-tu que le image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-bouton fait? Essaye-le!
 
 ====
 ifdef::show_solutions[Zoomt "herein"]
