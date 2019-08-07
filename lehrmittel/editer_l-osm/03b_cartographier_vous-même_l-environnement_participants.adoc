@@ -189,7 +189,7 @@ Passwort setzen.
 Per Email musst du dann die Angaben bestätigen, indem du auf einen Link klickst. 
 Danach ist dein Konto auch schon eingerichtet. 
 
-Jetzt kannst du mit dem Editieren beginnen. Also los!
+Tu peux maintenant commencer à éditer. Alors, vas-y!
 
 Nachdem du dich angemeldet hast, navigiere in deine Gegend. 
 Wenn du möchtest, kannst du im Suchfeld auch einen Ortsnamen eingeben. 
@@ -200,32 +200,31 @@ Wenn du noch nie zuvor in OpenStreetMap Objekte bearbeitet hast - und dies ist
 gleich nach dem Registrieren der Fall - dann erscheint ein Fenster "Willkommen 
 beim iD OpenStreetMap Editor". 
 
-.iD OpenStreetMap Editor
+.Éditeur iD OpenStreetMap
 image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["iD OpenStreetMap Editor", 500, 276]
 
-Mit dem OpenStreetMap iD Editor kann man neue Objekte erstellen und neue Daten 
-auf diesen Objekten erfassen. 
-Du hilfst also mit, die OpenStreetMap-Karte zu erweitern und/oder aktuell zu 
-halten. 
+Avec OpenStreetMap iD Editor, tu peux créer de nouveaux objets 
+et entrer de nouvelles données sur ces objets. 
+Tu aides donc à étendre et/ou à mettre à jour la carte OpenStreetMap. 
 
-Es empfiehlt sich auf "Rundgang starten" zu klicken, dann wirst du durch ein 
-Tutorial geführt, wie man in OpenStreetMap richtig editiert. 
-Dieses Tutorial dauert in etwa 10 bis 20 Minuten. 
+Il est recommandé de cliquer sur "Start Tour", puis tu seras guidé 
+à travers un tutoriel sur la façon d'éditer correctement dans OpenStreetMap. 
+Ce tutoriel dure environ 10 à 20 minutes. 
 
-Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
-sogenannter "Changeset-Kommentar" anzugeben.
-Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
-Changeset-Kommentar verwenden.
-Frage die Lehrperson oder den Instruktor, welchen Changeset-Kommentar du 
-verwenden sollst.
-Ein Beispiel für ein Changeset-Kommentar ist "Outdoor-Event Kanti X 2019".
+Avant d'enregistrer les données éditées, OpenStreetMap a 
+toujours besoin d'un commentaire dit "changeset". 
+Pour qu'un événement soit évalué, il est important 
+que tout le monde utilise le même commentaire changeset. 
+Demande à l'enseignant ou à l'instructeur quels 
+changements et quels commentaires tu devrais utiliser. 
+Un exemple de commentaire de changement est "Outdoor-Event Kanti X 2019".
 
-Nun solltest du wissen, wie Kartieren geht.
+Maintenant, vous devriez savoir comment cartographier.
 
 [NOTE]
 ====
-Falls du Hilfe benötigst, schaue auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
-unter "Unterrichtsmaterialien" im Arbeitsblatt "OpenStreetMap bearbeiten" nach.
+Si tu as besoin d'aide, consulte https://www.openschoolmaps.ch[OpenSchoolMaps] 
+sous "Matériels didactiques" dans la feuille de travail "Modifier OpenStreetmap".
 ====
 
 include::../../snippets/quellenangabe.adoc[]
