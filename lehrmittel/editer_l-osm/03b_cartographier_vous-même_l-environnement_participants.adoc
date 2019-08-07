@@ -12,10 +12,10 @@ image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 == Aperçu
 
 .Objectif
-Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap (kurz OSM) und 
-Kartografie zu vermitteln, so dass Schülerinnen und Schüler sowie Interessierte 
-danach in der Lage sind, auf Anweisung der Lehrperson oder des Instruktors die 
-Umgebung oder eine andere Gegend selbstständig zu kartografieren.
+L'objectif de cette feuille de travail est de transmettre des connaissances 
+dans le domaine de l'OpenStreetMap (OSM) et de la cartographie, afin que les 
+élèves et les autres parties intéressées puissent cartographier les environs 
+ou une autre zone indépendamment sur instruction de l'enseignant ou du formateur.
 
 .Public cible
 Élèves et autres parties intéressées.
@@ -24,50 +24,52 @@ Umgebung oder eine andere Gegend selbstständig zu kartografieren.
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
 unterschiedlich viel Zeit, mindestens jedoch drei Stunden. 
 
-Dies ist der grobe Zeitplan eines Outdoor Events:
-1. Allgemeine Vorbereitungen (z.B. was ist OpenStreetMap?); mind. ca. 20 min.
-1. Konkrete Vorbereitung für die Kartierung draussen; mind. ca. 20 min.
-1. Draussen kartieren; mind. ca. 60 min, besser zwei bis drei Stunden.
-1. Instruktion zum Editieren von OpenStreetMap; mind. ca. 20 min.
-1. Editieren am Computer; mind. ca. eine Stunde, besser zwei Stunden.
+C'est l'horaire approximatif d'un événement extérieur:
+
+1. Préparatifs généraux (par ex. qu'est-ce que OpenStreetMap ?); min. environ 20 min.
+2. Préparation du béton pour la cartographie extérieure ; min. env. 20 min.
+3. Cartographie à l'extérieur ; min. 60 min., mieux deux à trois heures.
+4. Instruction pour éditer OpenStreetMap ; min. env. 20 min.
+5. Montage sur l'ordinateur ; au moins une heure environ, mieux deux heures.
 
 == Einleitung
 
-Folgende Themen werden in diesem Arbeitsblatt behandelt:
+Les sujets suivants sont abordés dans cette feuille de travail:
 
-* Was ist OpenStreetMap?
-* Was wird kartiert? Was nicht?
-* Was kann bei Outdoor Events alles kartiert werden?
-* Vorbereitungen zum draussen Kartieren 
-* Wie editiert man OpenStreetMap?
+* Qu'est-ce qu'OpenStreetMap?
+* Qu'est-ce qui est cartographié? Qu'est-ce qui ne l'est pas?
+* Que peut-on cartographier lors d'événements en plein air?
+* Préparatifs pour la cartographie extérieure
+* Comment éditer OpenStreetMap?
 
-=== Was ist OpenStreetMap (OSM)?
+=== Qu'est-ce qu'OpenStreetMap (OSM)?
 
-OpenStreetMap ist ein internationales Projekt ähnlich wie Wikipedia, 
-bei dem Freiwillige Geodaten sammeln, die dann von unzähligen Applikationen 
-verwendet werden.
-Die OSM-Daten gehören der Community und können - im Gegensatz zu Google Maps 
-oder zu Landeskarten wie der Kartenviewer des Bundes (map.geo.admin.ch) 
-- selber weiterverwendet werden im Rahmen einer freien Lizenz. 
+OpenStreetMap est un projet international similaire à Wikipedia dans lequel 
+des volontaires collectent des géodonnées qui sont ensuite utilisées 
+par de nombreuses applications.
+Les données de l'OSM appartiennent à la communauté et - contrairement à Google 
+Maps ou aux cartes nationales telles que le visualiseur de cartes du 
+gouvernement fédéral (map.geo.admin.ch) - peuvent être réutilisées 
+sous une licence gratuite. 
 
-OpenStreetMap kann auf ganz verschiedene Art und Weise genutzt werden und die 
-Benutzer können unterschiedliche Ziele haben.
-Im Folgenden haben wir ein paar Einsatzmöglichkeiten von OpenStreetMap 
-zusammengestellt:
+OpenStreetMap peut être utilisé de différentes manières et les 
+utilisateurs peuvent avoir des objectifs différents.
+Dans ce qui suit, nous avons compilé quelques utilisations 
+possibles d'OpenStreetMap:
 
-* Navigation am Computer (z.B. OSM.org) oder mit dem Smartphone (z.B. Maps.Me)
-* Hintergrundkarte oder Lagekarte eingebettet in Webseiten
-* Lage- und Wanderkarte
-* Interaktive Webkarten aller Art (z.B. eine Burgenkarte)
-* Räumliche Analysen (z.B. Nebelkarte.ch)
+* Navigation à l'ordinateur (ex. OSM.org) ou avec le Smartphone (ex. Maps.Me)
+* Carte d'arrière-plan ou carte de localisation intégrée dans les pages Web
+* Localisation et carte de randonnées
+* Cartes Web interactives de toutes sortes (par ex. une carte du château)
+* Analyses spatiales (par ex. Nebelkarte.ch)
 
 [NOTE]
 ====
-Wenn du mehr über OpenStreetMap erfahren möchtest, dann schaue das Arbeitsblatt 
-"Webseite OSM.org kennenlernen" auf https://www.openschoolmaps.ch[OpenSchoolMaps] an.
+Si tu veux en savoir plus sur OpenStreetMap, consulte la feuille de travail de la page 
+Web "Apprendre à connaître OSM.org" à https://www.openschoolmaps.ch[OpenSchoolMaps].
 ====
 
-=== Was wird kartiert? Was nicht?
+=== Qu'est-ce qui est cartographié? Qu'est-ce qui ne l'est pas?
 
 Unter Kartieren und Kartografieren versteht man die Erfassung von raumbezogenen 
 Daten, also Geodaten. 
