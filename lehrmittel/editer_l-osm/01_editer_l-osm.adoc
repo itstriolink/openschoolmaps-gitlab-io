@@ -120,13 +120,13 @@ Si tu ouvres le champ «Tous les attributs», tu verras tous les tags de l'objet
 Si tu ne sais pas quels tags utiliser, tu peux regarder dans le Cheatsheet.
 ====
 
-[[eigenschaften_zugeklappt]]
+[[banc]]
 .Les tags se trouvent dans la section «Tous les attributs», qu’il faut peut-être dérouler.
-image::osm_editieren/osm_bearbeiten/eigenschaften_zugeklappt.PNG["Eigenschaften zugeklappt", 265, 354]
+image::osm_editieren/osm_bearbeiten/banc.PNG["banc", 265, 354]
 
-[[eigenschaften_aufgeklappt]]
+[[attribut]]
 .D'un seul clic, la section «Tous les attributs», peut être affichée.
-image::osm_editieren/osm_bearbeiten/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
+image::osm_editieren/osm_bearbeiten/attribut.PNG["attribut"]
 
 Si tu n'as rien trouvé qui doit être modifié ou ajouté, clique sur le logo "OpenStreetMap" 
 dans le coin en-haut à gauche pour quitter l'éditeur iD et retourner sur la carte. 
