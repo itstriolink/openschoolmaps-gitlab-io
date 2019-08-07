@@ -4,29 +4,30 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*Ein Arbeitsblatt für Lehrpersonen*
+*Une feuille de travail pour les enseignants*
 
-== Übersicht
+== Aperçu
 
 .Ziel
-Nach Bearbeiten des zugehörigen Arbeitsblattes sind die SuS in der Lage, openstreetmap.org zum Betrachten der OpenStreetMap-Karte zu verwenden, Orte und Dinge auf der Karte zu suchen, die Routing-Funktion zu benutzen und "Notizen" in OpenStreetMap einzutragen um bei der Verbesserung der Kartendaten zu helfen.
+Après avoir édité la feuille de travail correspondante, les SuS peuvent utiliser openstreetmap.org pour visualiser la carte OpenStreetMap, rechercher des lieux et des choses sur la carte, utiliser la fonction de routage et ajouter des "notes" à OpenStreetMap pour améliorer les données cartographiques.
 
 .Zielgruppe
-SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr)
+SuS dans le curriculum 21 cycle 2 ou 3 (4ème à 9ème année scolaire)
 
-.Zeitplanung
-* Arbeitsblatt "Webseite OSM.org kennenlernen": 20 Minuten
-* Arbeitsblatt "Webseite OSM.org im Alltag nutzen": 10 Minuten
-* Arbeitsblatt "OpenStreetMap-Daten untersuchen": 15 Minuten
+.Planification
+* Feuille de travail "Apprendre à connaître OSM.org" : 20 minutes
+* Feuille de travail "Utiliser OSM.org au quotidien" : 10 minutes
+* Feuille de travail OpenStreetMap Examine Data : 15 minutes
 
-Das Arbeitsblatt sollte etwa eine Lektion (45 Minuten) dauern.
+La feuille de travail devrait prendre environ une leçon (45 minutes).
 
-== Vorbereitung
-Die SuS sollten einen *physischen Atlas oder eine Papierkarte* zur Verfügung haben, und nach Möglichkeit auch einen Globus.
+== Préparation
 
-Alternativ zu einem Globus kann das Computerprogramm "Marble" verwendet werden.
+Le SuS doit disposer d'un *atlas physique ou d'une carte papier*, et si possible aussi d'un globe terrestre.
 
-Die SuS benötigen für das Bearbeiten des Arbeitsblatts einen *Webbrowser* mit *Internet-Zugang* (mindestens zu https://openstreetmap.org).
+Comme alternative à un globe terrestre, le programme informatique "Marble" peut être utilisé.
+
+Pour éditer la feuille de travail, les SuS nécessitent un *navigateur Web* avec *accès Internet* (au moins à https://openstreetmap.org).
 
 include::../../../snippets/kontaktinformationen.adoc[]
 
