@@ -32,7 +32,7 @@ C'est l'horaire approximatif d'un événement extérieur:
 4. Instruction pour éditer OpenStreetMap ; min. env. 20 min.
 5. Montage sur l'ordinateur ; au moins une heure environ, mieux deux heures.
 
-== Einleitung
+== Initiation
 
 Les sujets suivants sont abordés dans cette feuille de travail:
 
