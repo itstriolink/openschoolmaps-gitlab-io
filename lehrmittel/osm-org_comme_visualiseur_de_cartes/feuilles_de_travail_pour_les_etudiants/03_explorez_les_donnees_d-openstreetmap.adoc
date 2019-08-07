@@ -11,7 +11,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 Cette feuille de travail te montre comment jeter un coup d’œil sur les données sur OSM.org sur laquelle la carte est basée.
 
 Tu apprendras également comment signaler les erreurs cartographiques à la communauté OpenStreetMap. 
-Vous pouvez donc en permanence aider à améliorer et à tenir à jour OpenStreetMap.
+Tu peux donc en permanence aider à améliorer et à tenir à jour OpenStreetMap.
 ====
 
 == Un Premier Coup d’Oeil derrière les Coulisses
