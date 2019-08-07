@@ -21,8 +21,8 @@ ou une autre zone indépendamment sur instruction de l'enseignant ou du formateu
 Élèves et autres parties intéressées.
 
 .Planification
-Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
-unterschiedlich viel Zeit, mindestens jedoch drei Stunden. 
+En fonction de tes connaissances antérieures, le traitement de cette 
+feuille de travail exige un temps différent, mais au moins trois heures. 
 
 C'est l'horaire approximatif d'un événement extérieur:
 
@@ -71,19 +71,19 @@ Web "Apprendre à connaître OSM.org" à https://www.openschoolmaps.ch[OpenSchoo
 
 === Qu'est-ce qui est cartographié? Qu'est-ce qui ne l'est pas?
 
-Unter Kartieren und Kartografieren versteht man die Erfassung von raumbezogenen 
-Daten, also Geodaten. 
-Bevor man diese Geodaten jedoch in OpenStreetMap integrieren kann, muss man sie 
-zuerst sammeln. 
-Dazu hat man verschiedene Möglichkeiten. 
-Eine Möglichkeit besteht im Recherchieren der Daten. 
-Man durchsucht verschiedene Dokumente und/oder Webseiten und sammelt so Daten, 
-die in OpenStreetMap noch fehlen oder nicht mehr aktuell sind. 
-Eine andere Möglichkeit besteht in Umfragen von Menschen die Auskunft über noch 
-fehlende Daten geben können. 
-Die letzte Möglichkeit, beispielweise zum Erfassen von Häusern und Strassen ist, 
-dass man loszieht und sich Notizen macht. 
-Diese Notizen kann man dann zu einem späteren Zeitpunkt in OpenStreetMap übernehmen.
+La cartographie et la cartographie font référence à la collecte de données 
+spatiales, c'est-à-dire de géodonnées. 
+Avant de pouvoir intégrer ces géodonnées dans OpenStreetMap, 
+tu doit d'abord les collecter. 
+Il y a plusieurs façons de le faire. 
+Une possibilité est de faire des recherches sur les données. 
+Tu cherches différents documents et/ou sites Web et tu collectes des données 
+qui manquent encore dans OpenStreetMap ou qui ne sont plus à jour. 
+Une autre possibilité est de demander aux gens de donner des 
+informations sur les données manquantes. 
+La dernière possibilité, par exemple pour enregistrer les maisons et 
+les rues, est d'aller prendre des notes. 
+Ces notes peuvent ensuite être transférées sur OpenStreetMap ultérieurement.
 
 La chose la plus importante dans le mappage est que ce que vous mappez est vérifiable. 
 Les objets ouverts au public, comme les rues, les maisons, les magasins ou les coins 
