@@ -27,10 +27,10 @@ feuille de travail exige un temps différent, mais au moins trois heures.
 C'est l'horaire approximatif d'un événement extérieur:
 
 1. Préparatifs généraux (par ex. qu'est-ce que OpenStreetMap?); min. environ 20 min.
-2. Préparation du béton pour la cartographie extérieure ; min. env. 20 min.
-3. Cartographie à l'extérieur ; min. 60 min., mieux deux à trois heures.
-4. Instruction pour éditer OpenStreetMap ; min. env. 20 min.
-5. Montage sur l'ordinateur ; au moins une heure environ, mieux deux heures.
+2. Préparation du béton pour la cartographie extérieure; min. env. 20 min.
+3. Cartographie à l'extérieur; min. 60 min., mieux deux à trois heures.
+4. Instruction pour éditer OpenStreetMap; min. env. 20 min.
+5. Montage sur l'ordinateur; au moins une heure environ, mieux deux heures.
 
 == Initiation
 
