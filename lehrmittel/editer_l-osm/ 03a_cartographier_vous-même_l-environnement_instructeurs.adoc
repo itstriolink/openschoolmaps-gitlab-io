@@ -6,7 +6,7 @@ include::../../snippets/suppress_title_page.adoc[]
 
 *Un guide pour les enseignants et les instructeurs*
 
-.Früh übt sich, wer ein "Meister-Mapper" werden will! (Quelle: EducOSM.xyz 2019)
+.Pratique précoce pour ceux qui veulent devenir un "maître cartographe"! (Quelle: EducOSM.xyz 2019)
 image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 == Aperçu
@@ -27,7 +27,7 @@ Veuillez également lire la feuille de travail correspondante
 extérieure" pour les étudiants et les personnes intéressées.
 ====
 
-== Einleitung
+== Initiation
 
 Technologie ist kaum aus unserem Alltag weg zu denken. 
 Dazu gehören auch Karten und GPS-Navigations-Apps. 
