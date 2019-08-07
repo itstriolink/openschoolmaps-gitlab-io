@@ -70,12 +70,11 @@ instructeurs pour préparer et réaliser un événement de cartographie en plein
 
 Les sujets sont abordés plus en détail ici, section par section.
 
-Vorher noch zeigen wir eine Tabelle als Übersicht über die Zeitplanung des 
-Events. 
-Es gibt verschiedene Möglichkeiten, je nachdem ob Sie einen Outdoor Mapping 
-Event planen im Rahmen (A.) des regulären Unterrichts, (B.) einer Projektwoche an 
-der Schule, oder (C.) einer Projektwoche ausserhalb der Schule. 
-Dazu folgende geschätzte Zeitplanung:
+Avant cela, nous présentons un tableau qui donne une vue d'ensemble de l'horaire de l'événement. 
+Il y a différentes possibilités, selon que vous planifiez un événement de cartographie 
+en plein air dans le cadre (A.) de cours réguliers, (B.) d'une semaine de projet à 
+l'école ou (C.) d'un projet en dehors de l'école. 
+En outre, la planification suivante:
 
 [cols="1,1,1,1", options="header"] 
 |===
@@ -132,22 +131,21 @@ questions si vous êtes bloqué : https://sosm.ch/de/kontakt/[Contact].
 
 == Exécution d'un test de fonctionnement
 
-Zu einer gewissenhaften Vorbereitung gehört nicht nur das Studieren der 
-Unterlagen, sondern auch das Durchführen eines Testlaufs. 
-Nutzen Sie einen Heimweg oder gehen Sie auf einen Spaziergang und wenden Sie Ihr 
-neu erworbenes Wissen an. 
-Erkunden Sie die Umgebung aus Sicht eines Kartografierers. 
+Une préparation consciencieuse comprend non seulement l'étude des documents, 
+mais aussi la réalisation d'un test de fonctionnement. 
+Rentrez chez vous ou allez vous promener et appliquez vos 
+connaissances nouvellement acquises. 
+Explorez l'environnement du point de vue d'un cartographe. 
 
-Nehmen Sie Stift und Papier mit auf den Spaziergang. 
-Nutzen Sie dafür die Kartenwerkzeuge uMap oder Field Papers, wie unten 
-beschrieben. 
-Recherchieren Sie, welche Objekte die Teilnehmenden kartieren könnten (unten 
-gibt es weitere Hinweise dazu).
+Apportez un stylo et du papier avec vous lors de votre promenade. 
+Utilisez les outils cartographiques uMap ou Field Papers comme décrit ci-dessous. 
+Recherchez les objets que les participants pourraient cartographier 
+(voir ci-dessous pour plus d'informations).
 
-Es gäbe auch die Möglichkeit das Smartphone zu nutzen, beispielsweise mit der 
-App "OSMTracker for Android".
-Doch ist das mit mehr Organisations- und Erklärungsaufwand verbunden und dem 
-stetigen technischen Wandel unterworfen.
+Il y aurait aussi la possibilité d'utiliser le smartphone, par exemple 
+avec l'application "OSMTracker pour Android".
+Cependant, cela s'accompagne d'un effort organisationnel et explicatif 
+accru et est sujet à des changements techniques constants.
 
 Arrêtez le temps et voyez combien de temps il vous faut pour explorer 
 l'environnement et combien d'informations vous pouvez recueillir pendant 
@@ -159,69 +157,62 @@ La cartographie peut prendre plus de temps que vous ne le pensez, alors planifie
 
 == Intégration des données dans OpenStreetMap
 
-Nachdem Sie Ihre Daten gesammelt haben, gehen Sie auf https://www.osm.org[OSM.org]
-und tragen dort Ihre Daten ein. 
+Après avoir recueilli vos données, allez à https://www.osm.org[OSM.org] 
+et entrez vos données à cet endroit. 
 
-Falls Sie noch kein Konto bei OpenStreetMap (OSM) haben, ist jetzt der Zeitpunkt 
-dafür, eines anzulegen. 
-Beachten Sie auf https://openschoolmaps.ch/[OpenSchoolMaps] unter 
-"Unterrichtsmaterialien" auch das Arbeitsblatt "OpenStreetMap bearbeiten" für 
-weitere Erklärungen, sowie das "OpenStreetMap Tagging Cheatsheet".
+Si vous n'avez pas encore de compte chez OpenStreetMap (OSM), c'est le moment d'en créer un. 
+Voir https://openschoolmaps.ch/[OpenSchoolMaps] sous "Teaching Materials" pour la 
+feuille de travail "Edit OpenStreetMap" pour plus d'explications et 
+la "OpenStreetMap Tagging Cheatsheet".
 
-Auch hier könnte es sich als Vorteil erweisen, wenn Sie schauen, 
-wie viel Zeit Sie benötigen. 
-Rechnen Sie zu ihrer gemessenen Zeit noch ein wenig dazu, denn die Teilnehmenden 
-sind wahrscheinlich nicht gleich schnell wie Sie und die Unterschiede
-innerhalb der Klasse können beträchtlich sein. 
+Encore une fois, ce pourrait être un avantage si vous regardez de combien de temps vous avez besoin. 
+Ajoutez un petit extra à votre temps mesuré parce que les participants ne sont probablement 
+pas aussi rapides que vous et les différences au sein de la classe peuvent être considérables. 
 
-Vor dem Speichern der editierten Daten ist bei OpenStreetMap immer ein 
-sogenannter "Changeset-Kommentar" nötig.
-Ein Beispiel für ein Changeset-Kommentar ist _Hausnummern Bahnhofstrasse ergänzt_
-oder _Outdoor-Event Kanti X 2019_.
-Im folgenden Kapitel "Vorbereitungen" kommen wir nochmals auf diesen Kommentar 
-zurück.
+OpenStreetMap nécessite toujours un commentaire dit "changeset comment" avant 
+d'enregistrer les données éditées.
+Un exemple de commentaire de changement est _Numéros de maison Rue de la gare ajoutés_ ou _Outdoor-Event Kanti X 2019_.
+Dans le chapitre suivant "Préparatifs", nous reviendrons sur ce commentaire.
 
 [NOTE]
 =====
-Zeigen Sie Ihre Arbeit den Teilnehmenden als Einführung ins Thema. 
-So erhalten Sie schon einen ersten Eindruck.
+Montrez votre travail aux participants en guise d'introduction au sujet. 
+Ceci vous donnera une première impression.
 =====
 
-== Vorbereitungen
+== Préparatifs
 
-*Objekte festlegen, die kartiert werden sollen*: Es gibt mehr als tausend(!) 
-Objektarten in OpenStreetMap (sogenannte 'Tags'), so dass Sie den Teilnehmenden 
-eine Auswahl von Objekten vorschlagen sollten. 
-Im zugehörigen Arbeitsblatt "Die Umgebung selber kartografieren..." für 
-Schülerinnen und Schüler sowie Interessierte gibt es ein Kapitel "Was kann bei 
-Outdoor Events alles kartiert werden". 
-Zudem gibt es auf OpenSchoolMaps ein mehrseitiges "OpenStreetMap Tagging 
-Cheatsheet".
-Falls Sie glauben, dass in der gewählten Umgebung die meisten "naheliegenden" 
-Objekte bereits erfasst sind, und Sie nicht recht wissen, was noch zu tun sei, 
-dann können Sie sich an den oben erwähnten Kontakt bei der "Swiss OpenStreetMap
-Association" wenden.
+*Définir les objets à mapper*: Il y a plus d'un millier de types 
+d'objets dans OpenStreetMap (appelés'tags'), vous devriez donc proposer 
+une sélection d'objets aux participants. 
+Dans la fiche de travail correspondante "Cartographier soi-même l'environnement..." 
+pour les élèves et les personnes intéressées, il y a un chapitre "Ce qui peut 
+être cartographié lors de manifestations extérieures". 
+OpenSchoolMaps propose également un "OpenStreetMap Tagging Cheatsheet" multi-pages.
+Si vous pensez que la plupart des objets "proches" sont déjà enregistrés dans 
+l'environnement sélectionné et que vous ne savez pas vraiment quoi faire, vous 
+pouvez contacter l'Association Swiss OpenStreetMap au contact mentionné ci-dessus.
 
-*Changeset-Kommentar festlegen*: Vor dem Speichern der editierten Daten ist bei 
+*Définir un Changeset-Commentaire*: Vor dem Speichern der editierten Daten ist bei 
 OpenStreetMap immer ein sogenannter "Changeset-Kommentar" nötig.
 Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
 Changeset-Kommentar verwenden.
 Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
 Ein Beispiel für ein Changeset-Kommentar ist _Outdoor-Event Kanti X 2019_.
 
-*Termin festlegen*: Für den Durchführungs-Termin ist nicht zwingend - aber 
+*Définir la date*: Für den Durchführungs-Termin ist nicht zwingend - aber 
 natürlich wünschenswert - wenn schönes Wetter angekündigt ist, da es um eine 
 Outdoor-Aktivität geht. 
 Evtl. könnte ein Ausweichtermin festgelegt werden.
 
-*Gruppeneinteilung planen*: Die Teilnehmenden sollten zur Durchführung des 
+*Division du groupe de planification*: Die Teilnehmenden sollten zur Durchführung des 
 Events Gruppen bilden, z.B. Zweiergruppen. 
 Dies macht es für die Teilnehmenden spannender und für die Lehrperson bzw. den 
 Instruktor einfacher zu organisieren. 
 Jeder Gruppe soll ein Gebiet zugeteilt werden, wie nachfolgend noch erläutert 
 wird.
 
-*E-Mail-Adressen einrichten (falls nicht schon geschehen)*: Um Services wie 
+*Configurer les adresses e-mail (si ce n'est déjà fait)*: Um Services wie 
 OpenStreetMap nutzen zu können, benötigt man eine E-Mail-Adresse.
 Und für diese Nutzung muss man gemäss Internet-Recht älter als 13 Jahre sein. 
 Bei 13- bis 16-Jährigen Teilnehmenden kann ein Elternteil oder eine von den 
