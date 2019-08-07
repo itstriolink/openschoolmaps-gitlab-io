@@ -79,59 +79,58 @@ Dazu folgende geschätzte Zeitplanung:
 
 [cols="1,1,1,1", options="header"] 
 |===
-|Phase
-|A. Regulärer Unterricht
-|B. Projektwoche an Schule
-|C. Projektwoche ausserhalb Schule
+|Étape
+|A. Leçons régulières
+|B. Semaine de projet à l'école
+|C. Semaine de projet en dehors de l'école
 
-|Einführung
-|2 - 4 Lektionen
-|4 Lektionen
-|4 Lektionen
+|Initiation
+|2 - 4 leçons
+|4 leçons
+|4 leçons
 
-|Datenerhebung (draussen)
-|3 Lektionen
-|2 Tage
-|2 Tage
+|Collecte de données (extérieur)
+|3 leçons
+|2 jours
+|2 jours
 
-|Datenerfassung (am Computer)
-|3 Lektionen
-|1 Tag
-|1 Tag
+|Acquisition des données (sur l'ordinateur)
+|3 leçons
+|1 journée
+|1 journée
 
-|Bericht schreiben
+|Rédiger un rapport
 |-
 |-
-|0.5 Tage
+|0.5 jours
 
-|Abschluss
-|2 Lektionen
-|0.5 Tage
-|0.5 Tage
+|Conclusion
+|2 leçons
+|0.5 jours
+|0.5 jours
 
 |===
-.Zeitplanung Übersicht. 
+.Planification. 
 
-== Studium der Unterlagen
+== Etude des documents
 
-Bevor Sie einen erfolgreichen Outdoor Mapping Event durchführen können, müssen 
-Sie sich mit der Thematik von OpenStreetMap etwas befassen. 
-Es wäre gut, wenn Sie einige Wochen im Voraus die Unterrichtsmaterialien von 
-https://openschoolmaps.ch/[OpenSchoolMaps] zur Hand nehmen und diese studieren. 
-Die Unterlagen beinhalten sowohl Theorie wie auch Aufgaben zum Lösen. 
-Seien Sie auf mögliche Fragen der Teilnehmenden vorbereitet und 
-machen Sie sich Notizen. 
-Wenn etwas nicht ganz klar ist, kann man sich im Web informieren. 
-Dies ist ein guter Einstiegspunkt https://osm.ch/hilfe.html[OSM.ch].
-Das Studieren der Unterlagen sollte jedoch gut im Selbststudium machbar sein.
+Avant de pouvoir organiser avec succès un événement de cartographie en plein air, 
+vous devez vous familiariser avec le thème d'OpenStreetMap. 
+Ce serait une bonne idée d'aller chercher le matériel pédagogique sur 
+https://openschoolmaps.ch/[OpenSchoolMaps] quelques semaines à l'avance et de l'étudier. 
+Les documents contiennent à la fois la théorie et les tâches à résoudre. 
+Soyez prêt à répondre aux questions éventuelles des participants et prenez des notes. 
+Si quelque chose n'est pas tout à fait clair, on peut s'informer sur le Web. 
+C'est un bon point d'entrée https://osm.ch/hilfe.html[OSM.ch]. 
+Cependant, il devrait être possible d'étudier les documents par soi-même.
 
 [NOTE]
 ====
-Die "Swiss OpenStreetMap Association" (SOSM) bietet die Möglichkeit, Fragen zu 
-stellen, falls Sie nicht mehr weiterkommen: https://sosm.ch/de/kontakt/[Kontakt].
+L'"Association Suisse OpenStreetMap" (SOSM) offre la possibilité de poser des 
+questions si vous êtes bloqué : https://sosm.ch/de/kontakt/[Contact].
 ====
 
-== Durchführung eines Testlaufs
+== Exécution d'un test de fonctionnement
 
 Zu einer gewissenhaften Vorbereitung gehört nicht nur das Studieren der 
 Unterlagen, sondern auch das Durchführen eines Testlaufs. 
@@ -150,15 +149,15 @@ App "OSMTracker for Android".
 Doch ist das mit mehr Organisations- und Erklärungsaufwand verbunden und dem 
 stetigen technischen Wandel unterworfen.
 
-Stoppen Sie die Zeit und schauen Sie nach, wie lange Sie für ihre 
-Umgebungserkundung benötigen und wie viel Informationen Sie in dieser Zeit 
-sammeln können, dann fällt es Ihnen leichter abzuschätzen, wie viel Zeit Sie für 
-die Teilnehmenden planen.
+Arrêtez le temps et voyez combien de temps il vous faut pour explorer 
+l'environnement et combien d'informations vous pouvez recueillir pendant 
+ce temps, alors il vous sera plus facile d'estimer combien de temps vous 
+avez prévu pour les participants.
 
-CAUTION: Achten Sie darauf, dass Sie genug Lektionen einplanen. 
-Kartografieren kann länger dauern als man denkt, deshalb planen Sie grosszügig!
+CAUTION: Assurez-vous de prévoir suffisamment de leçons. 
+La cartographie peut prendre plus de temps que vous ne le pensez, alors planifiez généreusement!
 
-== Integrieren der Daten in OpenStreetMap
+== Intégration des données dans OpenStreetMap
 
 Nachdem Sie Ihre Daten gesammelt haben, gehen Sie auf https://www.osm.org[OSM.org]
 und tragen dort Ihre Daten ein. 
