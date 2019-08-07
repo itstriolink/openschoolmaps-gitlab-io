@@ -1,27 +1,26 @@
-= Die Umgebung selber kartografieren - Outdoor Mapping Event
+= Cartographier l'environnement vous-même - Événement de cartographie extérieure
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../bilder/
-include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-*Eine Anleitung für Schülerinnen und Schüler sowie für Interessierte*
+*Un guide pour les élèves et les personnes intéressées*
 
-.Früh übt sich, wer ein "Meister-Mapper" werden will! (Quelle: EducOSM.xyz 2019)
+.Pratique précoce pour ceux qui veulent devenir "maître cartographe"! (Quelle: EducOSM.xyz 2019)
 image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
 == Aperçu
 
-.Ziel
+.Objectif
 Das Ziel dieses Arbeitsblattes ist es, Wissen im Bereich OpenStreetMap (kurz OSM) und 
 Kartografie zu vermitteln, so dass Schülerinnen und Schüler sowie Interessierte 
 danach in der Lage sind, auf Anweisung der Lehrperson oder des Instruktors die 
 Umgebung oder eine andere Gegend selbstständig zu kartografieren.
 
-.Zielgruppe
-Schülerinnen und Schüler sowie Interessierte.
+.Public cible
+Élèves et autres parties intéressées.
 
-.Zeitplanung
+.Planification
 Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
 unterschiedlich viel Zeit, mindestens jedoch drei Stunden. 
 
