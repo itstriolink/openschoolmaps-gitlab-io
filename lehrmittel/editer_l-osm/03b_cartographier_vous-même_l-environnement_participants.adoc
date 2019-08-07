@@ -26,7 +26,7 @@ feuille de travail exige un temps différent, mais au moins trois heures.
 
 C'est l'horaire approximatif d'un événement extérieur:
 
-1. Préparatifs généraux (par ex. qu'est-ce que OpenStreetMap ?); min. environ 20 min.
+1. Préparatifs généraux (par ex. qu'est-ce que OpenStreetMap?); min. environ 20 min.
 2. Préparation du béton pour la cartographie extérieure ; min. env. 20 min.
 3. Cartographie à l'extérieur ; min. 60 min., mieux deux à trois heures.
 4. Instruction pour éditer OpenStreetMap ; min. env. 20 min.
@@ -99,7 +99,7 @@ quelques jours ou quelques semaines.
 * Photos (à l'exception d'un lien Web vers des photos 
 précédemment téléchargées sur http://commons.wikimedia.org/)
 
-=== Que peut-on cartographier lors d'événements en plein air ?
+=== Que peut-on cartographier lors d'événements en plein air?
 
 Comme tu l'as déjà lu plus haut, les rues, les maisons, les magasins 
 et les restaurants sont des objets/données qui se prêtent à la cartographie. 
