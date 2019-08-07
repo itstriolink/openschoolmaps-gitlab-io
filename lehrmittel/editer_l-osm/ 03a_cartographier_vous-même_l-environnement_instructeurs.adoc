@@ -284,85 +284,83 @@ es ein eigenes Unterrichtsmaterial "Mit uMap einen Lageplan erstellen" dazu.
 Kartenausschnitte zu erstellen und die im Feld gemachten Notizen wieder 
 hochzuladen, damit man sie beim Editieren direkt sieht.
 
-Wenn Sie sich für uMap entscheiden, dann können Sie folgende Erläuterungen zu
-Field Papers überspringen und müssen allenfalls noch dafür sorgen, dass für alle 
-Gruppen genügend Karten ausgedruckt sind.
+Si vous choisissez uMap, vous pouvez sauter les explications suivantes sur 
+Field Papers et vous assurer qu'il y a suffisamment de cartes imprimées 
+pour tous les groupes.
 
-*"Field Papers"* ist eine Webapplikation mit der man aus OpenStreetMap eine Karte 
-erstellen, diese ausdrucken und mit eigenen Notizen versehen kann. 
-Wenn die Notizen auf der Karte erfasst sind, können sie abfotografiert (oder 
-eingescannt) und bei Field Papers wieder hochgeladen werden. 
-Nachdem die Karte hochgeladen ist, kann man mit einem Klick direkt den 
-OpenStreetMap-Editor iD aufrufen und sieht die Notizen als Basiskarte. 
-Hier ein http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}.png&map=18/47.22425/8.81875[Beispiel] 
-bei dem man Link sieht, dass der der Editor mit Parametern aufgerufen wird. 
-Nun kann man im OpenStreetMap iD-Editor die Daten erfassen und sieht dabei die 
-abfotografierten Notizen im Hintergrund.
+*"Field Papers"* est une application web qui vous permet de créer une carte à 
+partir d'OpenStreetMap, de l'imprimer et d'y ajouter vos propres notes. 
+Lorsque les notes sont enregistrées sur la carte, elles peuvent être photographiées 
+(ou scannées) et téléchargées de nouveau dans les documents de terrain. 
+Une fois la carte téléchargée, vous pouvez appeler l'éditeur OpenStreetMap iD 
+directement d'un simple clic et voir les notes comme une carte de base. 
+Voici un http://www.openstreetmap.org/edit#background=custom:http://tiles.fieldpapers.org/snapshots/5mq7v8ph/{z}/{x}/{y}/{y}.png&map=18/47.22425/8.81875[exemple] 
+où vous pouvez voir un lien qui appelle l'éditeur avec paramètres. 
+Vous pouvez maintenant capturer les données dans OpenStreetMap 
+iD-Editor et voir les notes photographiées en arrière-plan.
 
-Für Field Papers benötigt man einen Computer, einen Drucker mit A4-Papier und 
-eine Digitalkamera (z.B. Kamera im Smartphone).
+Pour les papiers de terrain, vous avez besoin d'un ordinateur, d'une imprimante avec 
+du papier A4 et d'un appareil photo numérique (par exemple, un appareil photo dans un smartphone).
 
-Nachfolgend ist der Ablauf mit Field Papers zusammengefasst:
+Vous trouverez ci-dessous un résumé de la procédure avec les documents de terrain:
 
-1. Rufen Sie http://fieldpapers.org/[Field Papers] auf 
-2. Registrieren Sie sich bei Field Papers wenn nötig. 
-3. Geben Sie der Karte einen Namen und navigieren Sie zum Gebiet, das Sie 
-kartieren (lassen) wollen.
-4. Drucken Sie die Karten ("Atlas") aus.
-5. Gehen Sie nach draussen und notieren Sie, was Sie siehen.
-6. Zurück am Computer, schauen Sie sich entweder einfach die Papier-Notizen als 
-Hilfsmittel an;
-7. oder machen Sie ein Foto der Papier-Notizen (auch einscannen geht) und laden 
-Sie das Foto oder den Scan auf Field Papers hoch.
-8. Starten Sie den iD-Editor und zwar direkt mit dem Weblink auf Field Papers.
-9. Erfassen Sie die Daten mit dem OpenStreetMap-Editor. 
+1. Appelez http://fieldpapers.org/[Documents de terrain] à l'adresse suivante 
+2. Inscrivez-vous auprès de Field Papers si nécessaire. 
+3. Donnez un nom à la carte et naviguez jusqu'à la zone que vous voulez cartographier.
+4. Imprimer les cartes ("Atlas").
+5. Allez dehors et notez ce que vous voyez.
+6. De retour à l'ordinateur, il suffit soit de regarder les notes en papier comme une aide;
+7. ou prendre une photo des notes papier (la numérisation s'effectue également) et 
+télécharger la photo ou la numérisation dans Field Papers.
+8. Lancez iD-Editor directement avec le lien Web vers les documents de terrain.
+9. Capturez les données avec l'éditeur OpenStreetMap. 
 
-Auf der http://fieldpapers.org/about[Webseite] von Field Papers und auf dem 
-https://wiki.openstreetmap.org/wiki/Field_Papers[OSM Wiki] gibt es weitere 
-Informationen.
+Visitez le site Web de Field Papers à l'adresse http://fieldpapers.org/about[site Web] 
+et le site Web https://wiki.openstreetmap.org/wiki/Field_Papers[wiki de l'OSM] 
+pour obtenir de plus amples renseignements.
 
-== Einführung der Thematik für die Teilnehmenden
+== Introduction du sujet pour les participants
 
-Bevor Sie die Teilnehmenden in Gruppen einteilen und losschicken, um die Umgebung 
-zu erkunden, sollten Sie sie ans Thema heranführen. 
-Dies deshalb, da der Wissensstand innerhalb der Klasse/Gruppe im Bereich der 
-Informatik doch sehr gross sein kann und nicht alle wissen, was OpenStreetMap 
-ist und was der Sinn und Zweck dahinter sein soll. 
-Bereiten Sie am Besten eine kurze Präsentation vor und tragen Sie alles vor, was 
-Sie in den Unterlagen gelernt haben und wissen. 
-Nehmen Sie sich Zeit, um offene Fragen zu klären und gehen Sie sicher, dass die 
-Teilnehmenden auch alles verstanden haben.
+Avant de diviser les participants en groupes et de les envoyer explorer 
+l'environnement, vous devriez leur présenter le sujet.
+C'est parce que le niveau de connaissance au sein de la classe/du groupe dans 
+le domaine de l'informatique peut être très élevé et tout le monde ne sait pas 
+ce qu'est OpenStreetMap et quel est son but. 
+Il est préférable de préparer une courte présentation et de présenter tout 
+ce que vous avez appris et appris dans les documents. 
+Prenez le temps de clarifier les questions ouvertes et assurez-vous que 
+les participants ont tout compris.
 
-== Event auswerten und abschliessen 
+== Évaluation et clôture d'un événement
 
-Am Schluss des Events sollen die Teilnehmenden Ihre Ergebnisse auswerten 
-und vor allen präsentieren. 
-Das Auswerten kann entweder jede/r für sich alleine oder pro Gruppe geschehen. 
-Zum Auswerten gehören Vorher-Nachher-Vergleiche der Kartenausschnitte, 
-statistische Auswertungen und die persönliche Reflexion.
-Die Präsentationen können natürlich, falls vom Instruktor gewünscht, benotet 
-werden. 
-Man könnte anstelle einer Präsentation auch eine Art Dokumentation der Arbeit 
-veranlassen und evtl. benoten. 
+A la fin de l'événement, les participants doivent évaluer leurs 
+résultats et les présenter à tous. 
+L'évaluation peut se faire individuellement ou par groupe. 
+L'évaluation comprend des comparaisons avant-après des sections de carte, 
+des évaluations statistiques et une réflexion personnelle. 
+Les présentations peuvent bien sûr être notées si l'instructeur le souhaite. 
+Au lieu d'une présentation, on pourrait aussi créer une sorte de 
+documentation de l'œuvre. 
 
-Nach dem Auswerten des Events und den Präsentationen der Ergebnisse wäre es auch 
-sinnvoll, wenn Sie ein Fazit ziehen: Was war gut? Was war nicht so gut? Was 
-kann man nächstes Mal besser machen? Was hat die Klasse gelernt? 
-Diese Feststellungen könnten Sie in einem Bericht festhalten.
+Après avoir évalué l'événement et présenté les résultats, il serait également 
+utile de tirer une conclusion : Qu'est-ce qui était bon ? Qu'est-ce qui n'était 
+pas si bon ? Que pouvez-vous faire de mieux la prochaine fois ? Qu'est-ce que 
+la classe a appris ? Vous pourriez consigner ces résultats dans un rapport.
 
 [NOTE]
 ====
-Der Changeset-Kommentar, den Sie festgelegt haben und den die Teilnehmenden 
-(hoffentlich) beim Editieren angegeben haben, kann genutzt werden,
-um eine Analyse der geleisteten Arbeit zu machen. 
-Dazu kann der Changeset-Kommentar in folgender Webapplikation angegeben werden, 
-worauf man eine Statistik erhält (über die letzten 30 Tage): 
+Le commentaire de l'ensemble des changements que vous avez défini et que 
+les participants ont spécifié lors de l'édition (si possible) peut être 
+utilisé pour analyser le travail effectué. 
+Le commentaire du jeu de modifications peut être entré dans l'application Web 
+suivante, où vous obtiendrez des statistiques (sur les 30 derniers jours): 
 https://resultmaps.neis-one.org/osm-changesets?#8/46.856/8.405 . 
-Bei "Search for a specific Text" kann man z.B. probehalber "Schweiz" eingeben.
+Avec "Rechercher un texte spécifique", vous pouvez par exemple entrer 
+"Suisse" pour un test.
 ====
 
-Eine Rückmeldung zum Event an die Initianten von OpenSchoolMaps wäre auch 
-toll: siehe https://openschoolmaps.ch/[OpenSchoolMaps] > 
-"Weitere Unterrichtsideen". 
+Un retour d'information sur l'événement aux initiateurs d'OpenSchoolMaps 
+serait également bienvenu: voir https://openschoolmaps.ch/[OpenSchoolMaps] > 
+"Further teaching ideas". 
 
 include::../../snippets/quellenangabe.adoc[]
