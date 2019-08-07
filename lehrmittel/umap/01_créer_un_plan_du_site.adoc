@@ -35,30 +35,28 @@ Nous vous recommandons d'utiliser la version suisse si la carte est située en S
 
 == Qu'est-ce que uMap ?
 
-Mit dem Karteneditor uMap kann man eine eigene Karte zeichnen und 
-zusammenstellen.
-Zudem gibt es verschiedene Hintergrundkarten zur Auswahl. 
-Alle Zeichnungen und Objekte sind nur auf der Karte, die Sie oder ein Schüler 
-erstellt haben, zu sehen. 
-Diese werden separat gespeichert, nicht der zentralen OpenStreetMap-Datenbank.
+Avec l'éditeur de carte uMap vous pouvez dessiner et composer votre propre carte.
+Vous pouvez également choisir parmi différentes cartes d'arrière-plan. 
+Tous les dessins et objets ne sont visibles que sur la carte que vous ou un élève avez créée. 
+Ceux-ci sont stockés séparément, pas dans la base de données centrale OpenStreetMap.
 
-Wenn Sie Objekte finden, die auf der Hintergrundkarte fehlen, können Sie diese 
-auf https://www.openstreetmap.org hinzufügen. 
-Eine Anleitung dazu finden Sie im Arbeitsblatt "OpenStreetMap bearbeiten".
-Beachten Sie dabei, dass es je nach Hintergrundkarte Stunden oder Tage 
-dauern kann, bis die Änderungen auf der Karte sichtbar werden.
+Si vous trouvez des objets manquants sur la carte en arrière-plan, vous 
+pouvez les ajouter à https://www.openstreetmap.org 
+Vous trouverez des instructions à ce sujet dans la feuille de travail "Modifier OpenStreetMap". 
+Notez que, selon le fond de carte, il peut s'écouler des heures ou des jours avant 
+que les changements ne deviennent visibles sur la carte.
 
-== Anleitung für uMap
+== Instructions pour uMap
 
-Als Beispiel wird ein Sportanlass einer Schule verwendet.
+Un événement sportif scolaire est utilisé à titre d'exemple.
 
-1. Besuchen Sie https://umap.osm.ch (oder wahlweise die internationale Version).
-2. Wählen Sie "Erstelle eine Karte".
-3. Navigieren Sie zu dem Ort, wo sie eine Karte erstellen möchten, zum Beispiel Ihre Schule.
-4. Wenn Sie einen Punkt erstellen wollen - hier zum Beispiel den Empfang - 
-klicken Sie oben rechts in der Karte auf das Stecknadel-Icon 
-image:umap/stecknadel_icon.PNG["Stecknadel-Icon", 25, 25]. 
-Diesen können Sie dann auf der Karte platzieren.
+1. Visitez https://umap.osm.ch (ou la version internationale en option).
+2. Sélectionnez "Créer une carte".
+3. Naviguez jusqu'à l'endroit où vous souhaitez créer une carte, par exemple votre école.
+4. Si vous voulez créer un point - ici par exemple la réception - cliquez sur 
+l'icône pin image:umap/stecknadel_icon.PNG["Pin Icon", 25, 25, 25] 
+dans le coin supérieur droit de la carte. 
+Vous pouvez ensuite le placer sur la carte.
 
 +
 .In uMap eine Stecknadel setzen. (Kartendaten (C) OpenStreetMap Contributors)
@@ -77,13 +75,13 @@ Wir haben hier den Sportplatz eingezeichnet.
 .In uMap eine Fläche einzeichnen. (Kartendaten (C) OpenStreetMap Contributors)
 image::umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
-Wenn Sie mit Ihrem Lageplan zufrieden sind, können Sie auf die Schaltfläche 
-_Speichern_ oben rechts klicken. 
-Danach können Sie noch den Editiermodus verlassen, indem Sie auf den Schriftzug 
-_Bearbeiten deaktivieren_, auch oben rechts, klicken.
-Sie haben nun erfolgreich Ihren ersten Lageplan mit uMap erstellt!
+Si vous êtes satisfait de votre plan de situation, 
+vous pouvez cliquer sur le bouton _Enregistrer_ dans le coin supérieur droit. 
+Vous pouvez ensuite quitter le mode édition en cliquant sur le 
+bouton _Désactiver l'édition_ du texte, également dans le coin supérieur droit.
+Vous avez maintenant créé avec succès votre première carte avec uMap!
 
-Das uMap- und das OpenSchoolMaps-Projekt basieren auf OpenStreetMap (https://osm.org).
+Les projets uMap et OpenSchoolMaps sont basés sur OpenStreetMap (https://osm.org).
 
 include::../../snippets/kontaktinformationen.adoc[]
 
