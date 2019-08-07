@@ -85,72 +85,74 @@ Die letzte Möglichkeit, beispielweise zum Erfassen von Häusern und Strassen is
 dass man loszieht und sich Notizen macht. 
 Diese Notizen kann man dann zu einem späteren Zeitpunkt in OpenStreetMap übernehmen.
 
-Das Wichtigste beim Kartieren ist, dass überprüfbar ist, was man kartiert. 
-Gut geeignet sind Objekte, die öffentlich zugänglich sind, wie Strassen, Häuser, 
-Läden oder Imbissecken. 
+La chose la plus importante dans le mappage est que ce que vous mappez est vérifiable. 
+Les objets ouverts au public, comme les rues, les maisons, les magasins ou les coins 
+snack, sont bien adaptés. 
 
-Beispiele für ungeeignete Objekte sind:
+Exemples d'objets inadaptés:
 
-* Persönliche Meinungen
-* Persönliche Daten
-* Baustellen oder Dinge auf Räder, die nach ein paar Tagen oder Wochen wieder weg sind.
-* Bewertungen zu Restaurants oder Läden
-* Fotos (ausser als Weblink auf Fotos, die vorher auf 
-http://commons.wikimedia.org/ hochgeladen wurden)
+* Opinions personnelles
+* Données personnelles
+* Chantiers de construction ou choses sur roues qui disparaissent après 
+quelques jours ou quelques semaines.
+* Notations sur les restaurants ou les magasins
+* Photos (à l'exception d'un lien Web vers des photos 
+précédemment téléchargées sur http://commons.wikimedia.org/)
 
-=== Was kann bei Outdoor Events alles kartiert werden?
+=== Que peut-on cartographier lors d'événements en plein air ?
 
-Wie du oben schon gelesen hast, sind Strassen, Häuser, Läden und Restaurants 
-geeignete Objekte/Daten zum Kartografieren. 
-Bei diesem Event geht es darum, dass du dich mit einem/einer Freund/in 
-zusammenschliesst und als Gruppe die Umgebung kartografierst. 
-Natürlich würde es viel zu lange dauern die ganze Umgebung zu kartografieren und 
-seien wir ehrlich, dies wäre auch etwas viel auf's Mal. 
+Comme tu l'as déjà lu plus haut, les rues, les maisons, les magasins 
+et les restaurants sont des objets/données qui se prêtent à la cartographie. 
+Le but de cet événement est de s'unir avec un ami et de cartographier 
+les environs en tant que groupe. 
+Bien sûr, il faudrait beaucoup trop de temps pour cartographier l'ensemble 
+de la région et, avouons-le, ce serait un peu trop à la fois. 
 
-Es gibt nun folgende Möglichkeiten, um herauszufinden, was zu kartieren ist. 
-Entweder der Instruktor oder die Instruktorin geben vor, was zu tun ist - oder 
-aber du suchst die Orte in der Umgebung selber aus, welche dir gefallen. 
-Beispiele hierfür sind dein Zuhause, falls es in der Nähe ist, ein Teil deines 
-Schulweges, eine lokale Sehenswürdigkeit oder das Zuhause einer deiner Freunde. 
-Es gibt genug Sachen, die man kartografieren kann. 
-Hier nochmals eine Zusammenstellung:
+Il y a maintenant les façons suivantes de savoir ce qu'il faut cartographier. 
+Soit l'instructeur te dira quoi faire, soit tu pourras choisir les endroits 
+dans la région que tu aimes. 
+Il peut s'agir, par exemple, de ta maison si elle se trouve à proximité, d'une 
+partie de ton trajet vers l'école, d'un spectacle local ou de la maison d'un de tes amis. 
+Il y a suffisamment de choses qui peuvent être cartographiées. 
+Ici encore une compilation:
 
-Strassen:
+Rues:
 
-* Strassen und Wege mit der Kennzeichnung Einbahnstrasse
-* Strassennamen
-* Fussgängerstreifen
-* Öffentliche Parkplätze für Autos sowie Veloabstellplätze
+* Routes et sentiers balisés à sens unique
+* Noms de rues
+* Passage pour piétons
+* Parking public pour voitures et vélos
 
-Häuser und Hausnummern:
+Maisons et numéros de maison:
 
-* Häuserumrisse
-* Hausnummern
+* Contours de la maison
+* Numéros de maison
 
-Läden und Restaurants:
+Commerces et restaurants:
 
-* Name des Ladens/Restaurants
+* Nom du magasin/restaurant
 * Adresse
-* Telefonnummer
-* Website
-* Öffnungszeiten
+* Numéro de téléphone
+* Site Web
+* Horaires d'ouverture
 
 [NOTE]
 ====
-Es gibt auf https://www.openschoolmaps.ch[OpenSchoolMaps] 
-unter "Unterrichtsmaterialien" auch ein "OpenStreetMap Tagging Cheatsheet" (PDF).
+Il existe également un "OpenStreetMap Tagging Cheatsheet" (PDF) 
+sur https://www.openschoolmaps.ch[OpenSchoolMaps] sous "Matériels didactiques".
 ====
 
-== Vorbereitungen zum draussen Kartieren
+== Préparatifs pour la cartographie extérieure
 
-Bevor ihr als Gruppe aufbrecht, um eure Umgebung zu erkunden und Daten zu 
-sammeln, ist es noch sinnvoll zu wissen, was ihr alles für einen 
-reibungslosen Ablauf benötigt. 
-Da ihr euch kaum die ganzen Eigenschaften der Strassen, Häuser, Hausnummern, 
-Läden und Restaurants merken könnt, braucht ihr geeignete Hilfsmittel. 
-Wir verwenden dazu Stift und Papier. 
-Auf dem Papier sollte dann am besten schon ein Ausschnitt der Umgebung vorhanden 
-sein, damit man sieht was wo ist und was schon eingetragen ist. 
+Avant de partir en groupe pour explorer ton environnement et 
+recueillir des données, il est important de savoir ce dont 
+tu as besoin pour un processus sans heurts. 
+Comme tu te souviens à peine de toutes les caractéristiques des rues, 
+des maisons, des numéros de maison, des magasins et des restaurants, 
+tu as besoin d'aides appropriées. 
+Nous utilisons un stylo et du papier. 
+Il est préférable d'avoir une section de l'environnement sur le papier 
+afin que tu puisses voir ce qui est où et ce qui est déjà entré. 
 
 Il serait également possible d'utiliser un smartphone avec GPS. 
 Mais nous ne l'utilisons pas ici, parce qu'il faut beaucoup plus 
