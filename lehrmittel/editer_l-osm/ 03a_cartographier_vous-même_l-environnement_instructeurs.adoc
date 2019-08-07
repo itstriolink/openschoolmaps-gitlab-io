@@ -225,64 +225,65 @@ dass wir hier keine Empfehlung abgeben können.
 
 [NOTE]
 ====
-Auf folgender https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[Webseite] 
-finden Sie einige Tipps, wie Sie für die Gruppe E-Mail-Adressen einrichten 
-können unter Berücksichtigung der Privatsphäre und des Datenschutzes.
+Vous trouverez sur le site Web suivant https://giswiki.hsr.ch/Micro_Mapping_Party_Rapperswil#E-Mail-Adressen_f.C3.BCr_Gruppe_oder_Klasse_einrichten[site Web] 
+quelques conseils sur la manière de configurer les adresses e-mail du groupe, 
+en tenant compte de la protection de la vie privée et des données.
 ====
 
-*Event als Zusammenfassung ankündigen*: Auch OpenStreetMap kennt Regeln - 
-ähnlich wie eine Allmend oder ein Schulplatz. 
-Es ist beispielsweise wichtig, dass diejenigen, die editieren, kontaktiert 
-werden können. 
-Bei einem Event wie diesem spricht man von organisiertem Editieren und dazu gibt
-es diese https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organised Editing Guidelines"].
-Wir haben diese Richtlinien für Sie auf's Wichtigste gekürzt.
+*Annoncer l'événement comme résumé*: OpenStreetMap connaît également des 
+règles - similaires à celles d'un lieu commun ou d'une école. 
+Par exemple, il est important que les personnes chargées de la révision 
+puissent être contactées. 
+Un événement comme celui-ci s'appelle l'édition organisée et il y a ces 
+https://wiki.openstreetmap.org/wiki/DE:Organised_Editing_Guidelines["Organized Editing Guidelines"].
+Nous avons raccourci ces lignes directrices pour vous pour en faire les plus importantes.
 
-Gemäss den Richtlinien werden Sie gebeten, folgende Angaben auszufüllen und an 
-folgenden Kontakt zu mailen: https://sosm.ch/de/kontakt/[SOSM]. 
+Conformément à ces lignes directrices, il vous sera demandé de remplir les 
+informations suivantes et de les envoyer par courriel à l'adresse suivante: 
+https://sosm.ch/de/kontakt/[SOSM]. 
 
 [NOTE]
 ====
-*Zusammenfassung (Summary) des Outdoor Mapping Events:* 
+*Résumé de l'activité de cartographie extérieure:* 
 
-a. Name des Events: ... _(z.B. Outdoor Event Rappi)_ +
-b. Durchführungsdatum (date): ... _(z.B. 2019-06-11)_ +
-c. Changeset-Kommentar: ... _(ca. 50 Zeichen! z.B. Outdoor-Event Kanti X 2019)_ +
-d. Instruktor (coordinator): ... _(z.B. Username Geonick)_ +
-e. Teilnehmende (participants): ..., ... _(z.B. Usernamen Geonick, Username2, ...)_ +
-f. Ziele (goals): ... _(z.B. Die Umgebung von X kartieren)_
+a. Nom de l'événement: ... _(p. ex. Rappi d'événements en plein air)_ +
+b. Date de réalisation: ... _(p. ex. 2019-06-11)_ +
+c. Changeset-Commentaire: ... _(env. 50 caractères ! p.ex. événement extérieur Kanti X 2019)_ +
+d. Instructeur (coordinator): ... _(p.ex. Nom d'utilisateur Geonick)_ +
+e. Participants: ..., ... _(par ex. nom d'utilisateur Geonick, nom d'utilisateur2, ....)_ +
+f. Objectifs (goals): ... _(p. ex. cartographier l'environnement de X)_
 ====
 
-Zur Infrastruktur und Verbrauchsmaterial:
+Infrastructure et consommables :
 
-* Es sollte ein Raum zur Verfügung stehen mit genügend Computern mit Zugang zum 
-Internet, um auf OpenStreetMap.org die gesammelten Daten zu integrieren. 
-* Im nachfolgenden Kapitel ist erklärt, wie gedruckte Kartenausschnitte erstellt 
-werden können. 
-* Evtl. Unterlagen für die Kartennotizen beschaffen.
-* Genügend Schreibzeug.
+* Il devrait y avoir une salle disponible avec suffisamment d'ordinateurs 
+avec accès à Internet pour intégrer les données collectées sur OpenStreetMap.org. 
+* Le chapitre suivant explique comment créer des sections de carte imprimées. 
+* Obtenir tous les documents nécessaires à l'établissement des notes de la carte.
+* Suffisamment de matériel d'écriture.
 
-Beachten Sie auch die Checkliste zur Vorbereitung zuhanden der Teilnehmenden im 
-zugehörigen Arbeitsblatt für Schülerinnen und Schüler sowie für Interessierte.
+Veuillez également tenir compte de la liste de contrôle pour la préparation des 
+participants dans la fiche de travail correspondante pour les élèves et les 
+parties intéressées.
 
-== Gebiet einteilen und Kartenausschnitte drucken
+== Diviser des zones et imprimer des sections de carte
 
-Das für den Event geplante Gebiet muss eingegrenzt werden, damit die 
-Teilnehmenden nicht zu grosse Distanzen überwinden müssen. 
+L'espace prévu pour l'événement doit être réduit afin que les participants 
+n'aient pas à parcourir une trop grande distance. 
 
-Zudem ist es sinnvoll, das Gebiet in kleinere Gebiete 
-(sogenannte "Perimeter") einzuteilen und den Gruppen zuzuweisen.
-Damit wird dieselbe Gegend nicht zweimal kartografiert.
+Il est également judicieux de diviser la zone en zones plus petites 
+(appelées "périmètres") et de les affecter à des groupes.
+Cela ne permet pas de cartographier deux fois la même zone.
 
-Für die Gebietseinteilung eignen sich vor allem zwei Webapplikationen: 
-uMap und Field Papers:
+Deux applications web sont particulièrement adaptées à la division 
+des zones: uMap et Field Papers:
 
-* uMap ist ein Karteneditor, mit dem man beliebige Gebiete einzeichnen 
-kann. Auf https://openschoolmaps.ch/[OpenSchoolMaps] gibt   
-es ein eigenes Unterrichtsmaterial "Mit uMap einen Lageplan erstellen" dazu. 
-* "Field Papers" ist eine spezialisierte Webapplikation, die es ermöglicht, 
-Kartenausschnitte zu erstellen und die im Feld gemachten Notizen wieder 
-hochzuladen, damit man sie beim Editieren direkt sieht.
+* uMap est un éditeur de carte qui peut être utilisé pour dessiner dans 
+n'importe quelle zone. Sur https://openschoolmaps.ch/[OpenSchoolMaps] il 
+y a un matériel pédagogique "Créer une carte avec uMap". 
+* "Field Papers" est une application Web spécialisée qui vous permet de créer 
+des sections de carte et de télécharger les notes prises sur le terrain afin 
+que vous puissiez les voir directement pendant l'édition.
 
 Si vous choisissez uMap, vous pouvez sauter les explications suivantes sur 
 Field Papers et vous assurer qu'il y a suffisamment de cartes imprimées 
