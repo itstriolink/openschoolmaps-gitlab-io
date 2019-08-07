@@ -56,7 +56,7 @@ Lis le message et ferme-le pour voir plus de la carte.
 
 <<<
 
-=== Modifier la section de carte
+=== Modifier la Section de Carte
 
 .Le site OpenStreetMap.org
 image::osm-org_als_kartenviewer/osm_homepage.PNG[]
@@ -150,7 +150,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-=== Champ de recherche
+=== Champ de Recherche
 
 En haut à gauche, tu trouveras un champ de saisie de texte pour les requêtes de recherche. Ici, tu peux entrer les lieux, adresses, curiosités et noms de magasins, hôtels, restaurants et bien plus encore.
 
