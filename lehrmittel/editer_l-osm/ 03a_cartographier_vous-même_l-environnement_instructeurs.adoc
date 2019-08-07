@@ -12,10 +12,10 @@ image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 == Aperçu
 
 .Ojectif
-Dies ist kein Arbeitsblatt sondern eine Sammlung von Hinweisen und Tipps 
-für Lehrpersonen und Instruktoren zur Organisation eines erfolgreichen 
-Outdoor Mapping Events (manchmal auch "Mapping Party" genannt) mit Schülerinnen 
-und Schülern sowie Interessierten (hier "Teilnehmende" genannt).
+Il ne s'agit pas d'une feuille de travail, mais d'un recueil de conseils et 
+d'astuces à l'intention des enseignants et des instructeurs pour organiser avec 
+succès un événement de cartographie extérieure (parfois appelé "Mapping Party") 
+avec les élèves et les parties intéressées (appelés "participants" ici).
 
 .Public cible
 Enseignants et instructeurs.
@@ -29,47 +29,46 @@ extérieure" pour les étudiants et les personnes intéressées.
 
 == Initiation
 
-Technologie ist kaum aus unserem Alltag weg zu denken. 
-Dazu gehören auch Karten und GPS-Navigations-Apps. 
-Vielen kommt dabei Google Maps, ein Schulatlas oder Landeskarten wie der 
-Kartenviewer des Bundes (map.geo.admin.ch) in den Sinn. 
-Dabei gibt es viele Alternativen - und eine ganz besondere davon ist 
-OpenStreetMap (kurz OSM). 
-Der Vorteil von OpenStreetMap ist, dass die Daten den Nutzern (der Community) 
-gehören und nicht einem Unternehmen oder einer Behörde. 
-Dies setzt aber auch voraus, dass die Daten durch die Nutzer ergänzt und aktuell 
-gehalten werden. 
+La technologie fait partie intégrante de notre vie quotidienne. 
+Cela inclut également les cartes et les applications de navigation GPS. 
+Beaucoup de gens pensent à Google Maps, à un atlas scolaire ou à des cartes 
+nationales comme le visualiseur de cartes fédérales (map.geo.admin.ch). 
+Il existe de nombreuses alternatives - et l'une d'entre elles est OpenStreetMap (OSM). 
+L'avantage d'OpenStreetMap est que les données appartiennent aux utilisateurs 
+(la communauté) et non à une entreprise ou une autorité. 
+Mais cela suppose aussi que les données soient complétées et mises 
+à jour par les utilisateurs. 
 
-Es scheint uns sinnvoll, dass die Teilnehmenden ein Bewusstsein dafür 
-entwickeln, dass die Karte ihnen bzw. uns allen gehört und wir alle für deren 
-Qualität verantwortlich sind. 
-Die Teilnehmenden sollen OSM verwenden und aktiv an der Verbesserung 
-mitarbeiten, beispielsweise im Urlaub, wenn die Gegend unzureichend erfasst ist.
+Il nous semble raisonnable que les participants prennent conscience que 
+la carte leur appartient ou nous appartient à tous et que nous sommes 
+tous responsables de sa qualité. 
+Les participants doivent utiliser l'OSM et participer activement à l'amélioration, 
+par exemple en vacances lorsque la zone n'est pas suffisamment couverte.
 
-Und Kartografieren ist weder langweilig noch schwierig, darum sollte es jeder 
-erlernen können. 
-Eine Möglichkeit, das Kartografieren bekannter zu machen, ist es in den 
-Unterricht einzubinden, beispielsweise im Geografie- oder Geschichtsunterricht. 
-Ein Outdoor Mapping Event soll einen Einblick geben.
+Et la cartographie n'est ni ennuyeuse ni difficile, alors n'importe 
+qui devrait pouvoir l'apprendre. 
+Une façon de mieux faire connaître la cartographie est de l'inclure dans 
+l'enseignement, par exemple dans les cours de géographie ou d'histoire. 
+Un événement de cartographie en plein air devrait donner un aperçu.
 
-Die unten abgebildete Checkliste beinhaltet eine kurze Auflistung der Themen, 
-die wichtig sind, um einen erfolgreichen Event lancieren zu können. 
-Zudem wird eine Übersicht über die Zeitplanung des Events gegeben.
+La liste de contrôle ci-dessous contient une courte liste des sujets qui 
+sont importants pour le lancement d'un événement réussi. 
+De plus, une vue d'ensemble de l'horaire de l'événement est donnée.
 
-== Checkliste und Zeitplanung
+== Liste de contrôle et planification
 
-Nachfolgend eine Checkliste für Lehrpersonen und Instruktoren zur Vorbereitung 
-und Durchführung eines Outdoor Mapping Events:
+Ce qui suit est une liste de contrôle pour les enseignants et les 
+instructeurs pour préparer et réaliser un événement de cartographie en plein air:
 
-1. Studium der Unterlagen
-2. Durchführung eines Testlaufs
-3. Integrieren der Daten in OpenStreetMap
-4. Vorbereitungen (u.a. Festlegen Gruppen, Changeset-Kommentar, etc.)
-5. Gebiet einteilen und Kartenausschnitte drucken (Teil der Vorbereitung)
-6. Einführung der Thematik für die Teilnehmenden (Teil der Vorbereitung)
-7. Nach Durchführung des Events, den Event auswerten und abschliessen
+1. Etude des documents
+2. Exécution d'un test de fonctionnement
+3. Intégration des données dans OpenStreetMap
+4. Préparatifs (p. ex. définition des groupes, commentaires sur les changements, etc.)
+5. Diviser la zone et imprimer les sections de carte (partie de la préparation)
+6. Introduction du sujet pour les participants (partie de la préparation)
+7. Après que l'événement a eu lieu, évaluer et conclure l'événement.
 
-Auf die Themen wird hier Abschnitt für Abschnitt näher eingegangen.
+Les sujets sont abordés plus en détail ici, section par section.
 
 Vorher noch zeigen wir eine Tabelle als Übersicht über die Zeitplanung des 
 Events. 
