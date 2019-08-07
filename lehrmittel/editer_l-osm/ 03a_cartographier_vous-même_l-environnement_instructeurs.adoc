@@ -193,35 +193,34 @@ Si vous pensez que la plupart des objets "proches" sont déjà enregistrés dans
 l'environnement sélectionné et que vous ne savez pas vraiment quoi faire, vous 
 pouvez contacter l'Association Swiss OpenStreetMap au contact mentionné ci-dessus.
 
-*Définir un Changeset-Commentaire*: Vor dem Speichern der editierten Daten ist bei 
-OpenStreetMap immer ein sogenannter "Changeset-Kommentar" nötig.
-Damit ein Event ausgewertet werden kann, ist es wichtig, dass alle denselben
-Changeset-Kommentar verwenden.
-Legen Sie fest, welchen Changeset-Kommentar alle verwenden sollen.
-Ein Beispiel für ein Changeset-Kommentar ist _Outdoor-Event Kanti X 2019_.
+*Définir un Changeset-Commentaire*: OpenStreetMap nécessite toujours un commentaire 
+dit "changeset comment" avant d'enregistrer les données éditées.
+Pour qu'un événement soit évalué, il est important que tout le monde 
+utilise le même commentaire changeset.
+Spécifiez quel commentaire changeset doit être utilisé par tous les utilisateurs.
+Un exemple de commentaire de changeset est _Outdoor-Event Kanti X 2019_.
 
-*Définir la date*: Für den Durchführungs-Termin ist nicht zwingend - aber 
-natürlich wünschenswert - wenn schönes Wetter angekündigt ist, da es um eine 
-Outdoor-Aktivität geht. 
-Evtl. könnte ein Ausweichtermin festgelegt werden.
+*Définir la date*: Pour la date d'exécution n'est pas obligatoire - mais 
+bien sûr souhaitable - si le beau temps est annoncé, car il s'agit 
+d'une activité en plein air. 
+Une autre date pourrait peut-être être fixée.
 
-*Division du groupe de planification*: Die Teilnehmenden sollten zur Durchführung des 
-Events Gruppen bilden, z.B. Zweiergruppen. 
-Dies macht es für die Teilnehmenden spannender und für die Lehrperson bzw. den 
-Instruktor einfacher zu organisieren. 
-Jeder Gruppe soll ein Gebiet zugeteilt werden, wie nachfolgend noch erläutert 
-wird.
+*Division du groupe de planification*: Les participants doivent former des groupes 
+pour réaliser l'événement, par exemple des groupes de deux personnes. 
+Cela rend les choses plus excitantes pour les participants et plus faciles 
+à organiser pour l'enseignant ou l'instructeur. 
+Chaque groupe doit se voir attribuer une zone, comme expliqué ci-dessous.
 
-*Configurer les adresses e-mail (si ce n'est déjà fait)*: Um Services wie 
-OpenStreetMap nutzen zu können, benötigt man eine E-Mail-Adresse.
-Und für diese Nutzung muss man gemäss Internet-Recht älter als 13 Jahre sein. 
-Bei 13- bis 16-Jährigen Teilnehmenden kann ein Elternteil oder eine von den 
-Eltern autorisierte Person (eine Lehrperson, ein Schuldadministrator oder ein 
-Instruktor) Benutzerkonten verwalten (https://wiki.osmfoundation.org/wiki/Terms_of_Use#II._Privacy[Quelle]). 
+*Configurer les adresses e-mail (si ce n'est déjà fait)*: Pour utiliser des 
+services comme OpenStreetMap, vous avez besoin d'une adresse e-mail.
+Et pour cette utilisation il faut être âgé de plus de 13 ans selon le droit Internet. 
+Pour les participants de 13 à 16 ans, un parent ou une personne autorisée par le parent 
+(un enseignant, un administrateur de dettes ou un instructeur) peut gérer les comptes 
+utilisateurs (https://wiki.osmfoundation.org/wiki/Terms_of_Use#II._Privacy[source]). 
 
-Es gibt viele Wege, mit welcher E-Mailadresse sich die Teilnehmenden 
-registrieren sollen, falls sie sich nicht schon selber registriert haben, so 
-dass wir hier keine Empfehlung abgeben können.
+Il existe de nombreuses façons d'enregistrer les adresses e-mail des participants, 
+s'ils ne se sont pas déjà enregistrés eux-mêmes, de sorte que nous ne pouvons pas 
+faire de recommandation ici.
 
 [NOTE]
 ====
