@@ -7,9 +7,9 @@ include::../../../snippets/suppress_title_page.adoc[]
 *Une feuille de travail*
 ifdef::show_solutions[- *LÖSUNGEN*]
 
-== Missions additionnelles
+== Missions Additionnelles
 
-=== Expertise web
+=== Expertise Web
 
 Comment le contenu de la barre d'adresse du navigateur a-t-il changé lorsque tu es allé sur `osm.org`?
 
@@ -40,7 +40,7 @@ Dans les leçons de géographie, il est souvent courant de spécifier les coordo
 
 endif::show_solutions[]
 
-=== Tâche pour les SuS avancés / classes supérieures
+=== Tâche pour les SuS Avancés / Classes Supérieures
 
 Fais un zoom arrière jusqu'à ce que tu puisses voir des continents entiers ou même la terre entière. Puis déplace la carte vers le nord ou le sud sans zoomer. Pourquoi cela change-t-il l'échelle?
 
