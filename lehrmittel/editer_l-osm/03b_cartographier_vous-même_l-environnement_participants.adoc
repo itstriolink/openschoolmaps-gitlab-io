@@ -152,53 +152,52 @@ Wir verwenden dazu Stift und Papier.
 Auf dem Papier sollte dann am besten schon ein Ausschnitt der Umgebung vorhanden 
 sein, damit man sieht was wo ist und was schon eingetragen ist. 
 
-Es wäre auch möglich, ein Smartphone mit GPS zu nutzen. 
-Das verwenden wir aber hier nicht, denn das braucht viel mehr Erklärungen und 
-Erfahrung als Stift und Papier. 
+Il serait également possible d'utiliser un smartphone avec GPS. 
+Mais nous ne l'utilisons pas ici, parce qu'il faut beaucoup plus 
+d'explications et d'expérience que le stylo et le papier. 
 
-*Checkliste zur Vorbereitung:*
+*Liste de contrôle pour la préparation:*
 
-* Gedruckte Karte, auf der man Notizen machen kann (mindestens eine pro Gruppe)
-* Evtl. eine harte Kartenunterlage
-* Schreibzeug
-* Evtl. Smartphone oder Fotoapparat z.B. zum Fotografieren von Öffnungszeiten
-* (Evtl. eine Powerbank für das Smartphone falls das GPS verwendet wird)  
-* (Die Lehrperson oder der Instruktor hat eventuell weitere Dinge, die zu 
-beachten sind)
+* Carte imprimée sur laquelle vous pouvez prendre des notes (au moins une par groupe)
+* Possiblement une sous-couche de carte dure
+* Ustensiles d'écriture
+* Smartphone ou appareil photo possible, par exemple pour photographier les heures d'ouverture.
+* (Eventuellement une banque d'alimentation pour le smartphone si le GPS est utilisé) 
+* (L'enseignant ou l'instructeur peut avoir d'autres choses à considérer)
 
-Viel Spass beim Kartografieren! 
+Amuse-toi bien à cartographier!
 
-Das nächste Kapitel erläutert, wie du die auf Papier notierten Informationen 
-am Computer erfassen kannst.
+Le chapitre suivant explique comment capturer les informations 
+écrites sur papier sur ton ordinateur.
 
 
-== Wie editiert man OpenStreetMap?
+== Comment éditer OpenStreetMap?
 
-Nun da du zurück bist, kannst du die Daten auf OpenStreetMap editieren. 
+Maintenant que tu es de retour, tu peux éditer les données sur OpenStreetMap. 
 
-Die folgenden Erklärungen sind eine Kurzfassung des Arbeitsblatts 
-"OpenStreetMap bearbeiten" auf https://www.openschoolmaps.ch[OpenSchoolMaps]. 
+Les explications suivantes sont une version courte de la feuille de travail 
+"Edit OpenStreetMap" sur https://www.openschoolmaps.ch[OpenSchoolMaps]. 
 
-Bevor du anfangen kannst auf OpenStreetMap Daten zu bearbeiten oder hinzuzufügen, 
-musst du dich dort registrieren. 
-Falls der Instruktor die Registration nicht schon für dich gemacht hat, 
-gehe zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
-Oben rechts siehst du nun einen "Registrieren"-Button. 
-Klicke drauf, nun musst du eine Email eingeben und einen Benutzernamen und ein 
-Passwort setzen. 
-Per Email musst du dann die Angaben bestätigen, indem du auf einen Link klickst. 
-Danach ist dein Konto auch schon eingerichtet. 
+Avant de pouvoir commencer à éditer ou ajouter des données sur 
+OpenStreetMap, tu dois t'y enregistrer. 
+Si le formateur n'a pas déjà effectué l'inscription pour toi, 
+va sur le site web de https://www.openstreetmap.org/[OpenStreetMap].
+Dans le coin supérieur droit, tu verras un bouton "Enregistrer". 
+Clique dessus, tu dois maintenant entrer un email et définir 
+un nom d'utilisateur et un mot de passe. 
+Tu dois ensuite confirmer les détails par courriel en cliquant sur un lien. 
+Après cela, ta compte est déjà configuré. 
 
 Tu peux maintenant commencer à éditer. Alors, vas-y!
 
-Nachdem du dich angemeldet hast, navigiere in deine Gegend. 
-Wenn du möchtest, kannst du im Suchfeld auch einen Ortsnamen eingeben. 
-Nun wollen wir aber unsere Umgebung nicht nur in OpenStreetMap betrachten, 
-sondern wollen sie bearbeiten. 
-Dazu klicke oben links auf "Bearbeiten". 
-Wenn du noch nie zuvor in OpenStreetMap Objekte bearbeitet hast - und dies ist 
-gleich nach dem Registrieren der Fall - dann erscheint ein Fenster "Willkommen 
-beim iD OpenStreetMap Editor". 
+Après t'es inscrit, navigue vers ta région. 
+Si tu le souhaites, tu peux aussi entrer un nom de lieu dans le champ de recherche. 
+Mais maintenant nous ne voulons pas seulement regarder notre environnement 
+dans OpenStreetMap, nous voulons l'éditer. 
+Pour ce faire, clique sur "Modifier" dans le coin supérieur gauche. 
+Si tu n'as jamais édité d'objets dans OpenStreetMap auparavant - et 
+c'est le cas juste après l'enregistrement - une fenêtre 
+"Welcome to iD OpenStreetMap Editor" apparaîtra. 
 
 .Éditeur iD OpenStreetMap
 image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["iD OpenStreetMap Editor", 500, 276]
