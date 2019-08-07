@@ -85,7 +85,7 @@ La dernière possibilité, par exemple pour enregistrer les maisons et
 les rues, est d'aller prendre des notes. 
 Ces notes peuvent ensuite être transférées sur OpenStreetMap ultérieurement.
 
-La chose la plus importante dans le mappage est que ce que vous mappez est vérifiable. 
+La chose la plus importante dans le mappage est que ce que tu mappes est vérifiable. 
 Les objets ouverts au public, comme les rues, les maisons, les magasins ou les coins 
 snack, sont bien adaptés. 
 
@@ -160,7 +160,7 @@ d'explications et d'expérience que le stylo et le papier.
 
 *Liste de contrôle pour la préparation:*
 
-* Carte imprimée sur laquelle vous pouvez prendre des notes (au moins une par groupe)
+* Carte imprimée sur laquelle tu peux prendre des notes (au moins une par groupe)
 * Possiblement une sous-couche de carte dure
 * Ustensiles d'écriture
 * Smartphone ou appareil photo possible, par exemple pour photographier les heures d'ouverture.
@@ -220,7 +220,7 @@ Demande à l'enseignant ou à l'instructeur quels
 changements et quels commentaires tu devrais utiliser. 
 Un exemple de commentaire de changement est "Outdoor-Event Kanti X 2019".
 
-Maintenant, vous devriez savoir comment cartographier.
+Maintenant, tu devrais savoir comment cartographier.
 
 [NOTE]
 ====
