@@ -1,40 +1,39 @@
-= Mit uMap einen Lageplan erstellen (mithilfe von OpenStreetMap)
+= Créer une carte avec uMap (en utilisant OpenStreetMap)
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-*Eine Anleitung für Interessierte und Lehrpersonen*
+*Guide à l'intention des parties intéressées et des enseignants*
 
-== Übersicht
+== Aperçu
 
-.Ziel
-Das Ziel dieser Anleitung ist es, dass Sie fähig sind, mit uMap eine Karte zu 
-erstellen, die sich zum Beispiel als Lageplan verwenden lässt.
+.Objectif 
+Le but de ce guide est de vous permettre d'utiliser uMap pour créer 
+une carte qui peut être utilisée comme une carte, par exemple.
 
-.Beispiel eines mit uMap erstellten Lageplans. Kartendaten (C) OpenStreetMap Contributors
+.Exemple d'une carte créée avec uMap. Données cartographiques (C) Contributeurs OpenStreetMap
 image::umap/lageplan_erstellen/lageplan_endprodukt.png[]
 
-Die ganze Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575 . 
-Eventuell müssen Sie noch auf eine der blauen Stecknadeln reinzoomen.
+Vous pouvez voir la carte complète de l'échantillon à l'adresse https://umap.osm.ch/de/map/sportevent-grundschule-wetzwil_1355#20/47.29694/8.62575 . 
+Vous devrez peut-être zoomer sur l'une des épingles bleues.
 
-.Zeitplanung
-Sie werden für das Beispiel etwa 10-15 Minuten brauchen. 
+.Planification
+Vous aurez besoin d'environ 10 à 15 minutes pour cet exemple. 
 
-.Vorbereitung
-Als Mittel dienen ein Computer mit Internetzugang und die uMap-Website. 
-uMap kann ohne Login genutzt werden. 
-Falls man jedoch Karten editieren oder speichern will, wird ein 
-OpenStreetMap-Konto vorausgesetzt (vgl. das Arbeitsblatt "OpenStreetMap bearbeiten").
+.Préparation
+Un ordinateur avec accès Internet et le site web uMap servent de moyen. 
+uMap peut être utilisé sans login. 
+Cependant, si vous souhaitez éditer ou enregistrer des cartes, un compte 
+OpenStreetMap est nécessaire (voir la feuille de travail "Edit OpenStreetMap").
 
 [NOTE]
 ====
-Die internationale Version von uMap gibt es unter https://umap.openstreetmap.fr/de/ . 
-Wir empfehlen, dass Sie die Schweizer Version verwenden, wenn sich die Karte 
-in der Schweiz befindet.
+La version internationale de uMap est disponible à l'adresse https://umap.openstreetmap.fr/ . 
+Nous vous recommandons d'utiliser la version suisse si la carte est située en Suisse.
 ====
 
-== Was ist uMap?
+== Qu'est-ce que uMap ?
 
 Mit dem Karteneditor uMap kann man eine eigene Karte zeichnen und 
 zusammenstellen.
