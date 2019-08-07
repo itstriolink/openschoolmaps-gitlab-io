@@ -1,30 +1,30 @@
-= Die Umgebung selber kartografieren - Outdoor Mapping Event
+= Cartographier l'environnement vous-même - Événement de cartographie extérieure
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../bilder/
-include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-*Eine Anleitung für Lehrpersonen und Instruktoren*
+*Un guide pour les enseignants et les instructeurs*
 
 .Früh übt sich, wer ein "Meister-Mapper" werden will! (Quelle: EducOSM.xyz 2019)
 image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 
-== Übersicht
+== Aperçu
 
-.Ziel
+.Ojectif
 Dies ist kein Arbeitsblatt sondern eine Sammlung von Hinweisen und Tipps 
 für Lehrpersonen und Instruktoren zur Organisation eines erfolgreichen 
 Outdoor Mapping Events (manchmal auch "Mapping Party" genannt) mit Schülerinnen 
 und Schülern sowie Interessierten (hier "Teilnehmende" genannt).
 
-.Zielgruppe
-Lehrpersonen und Instruktoren.
+.Public cible
+Enseignants et instructeurs.
 
 [NOTE]
 ====
-Lesen Sie auch das zugehörige Arbeitsblatt "Die Umgebung selber 
-kartografieren - Outdoor Mapping Event" für Schülerinnen und Schüler sowie für Interessierte durch.
+Veuillez également lire la feuille de travail correspondante 
+"Cartographier l'environnement vous-même - Événement de cartographie 
+extérieure" pour les étudiants et les personnes intéressées.
 ====
 
 == Einleitung
