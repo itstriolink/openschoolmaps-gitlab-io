@@ -59,20 +59,20 @@ dans le coin supérieur droit de la carte.
 Vous pouvez ensuite le placer sur la carte.
 
 +
-.In uMap eine Stecknadel setzen. (Kartendaten (C) OpenStreetMap Contributors)
+.Placez une épingle dans uMap. (Données cartographiques (C) Contributeurs OpenStreetMap)
 image::umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
-5. Eine weitere Möglichkeit ist, einen Weg image:umap/weg_icon.PNG["Weg-Icon", 25, 25] 
-einzuzeichnen, zum Beispiel um anzuzeigen, wie Besucher von der Bushaltestelle 
-zum Anlass gelangen, so wie wir das hier getan haben.
+5. Une autre possibilité est de dessiner une image de chemin:umap/weg_icon.PNG["Weg-Icon", 25, 25, 25], 
+par exemple pour montrer comment les visiteurs se rendent de 
+l'arrêt de bus à l'événement, comme nous le faisons ici.
 
 +
-.In uMap eine Line (z.B einen Weg) einzeichnen. (Kartendaten (C) OpenStreetMap Contributors)
+.Tracez une ligne (par exemple un chemin) dans uMap. (Données cartographiques (C) Contributeurs OpenStreetMap)
 image::umap/lageplan_erstellen/weg_platzieren.PNG[]
-6. Für Flächen, klicken Sie auf das Flächensymbol image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25]. 
-Wir haben hier den Sportplatz eingezeichnet.
+6. Pour les surfaces, cliquez sur l'icône de surface image:umap/flae_icon.PNG["Surface Icon", 25, 25]. 
+Nous avons dessiné le terrain de sport ici.
 
 +
-.In uMap eine Fläche einzeichnen. (Kartendaten (C) OpenStreetMap Contributors)
+.Dessinez une zone dans uMap. (Données cartographiques (C) Contributeurs OpenStreetMap)
 image::umap/lageplan_erstellen/flaeche_platzieren.PNG[]
 
 Si vous êtes satisfait de votre plan de situation, 
