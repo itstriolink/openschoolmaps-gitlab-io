@@ -122,7 +122,7 @@ Si tu ne sais pas quels tags utiliser, tu peux regarder dans le Cheatsheet.
 
 [[banc]]
 .Les tags se trouvent dans la section «Tous les attributs», qu’il faut peut-être dérouler.
-image::osm_editieren/osm_bearbeiten/banc.PNG["banc", 265, 354]
+image::osm_editieren/osm_bearbeiten/banc.PNG["banc"]
 
 [[attribut]]
 .D'un seul clic, la section «Tous les attributs», peut être affichée.
