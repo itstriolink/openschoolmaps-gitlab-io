@@ -202,9 +202,9 @@ c'est le cas juste après l'enregistrement - une fenêtre
 "Bienvenue sur iD, l'éditeur en ligne d'OpenStreetMap" apparaîtra. 
 
 .Éditeur iD OpenStreetMap
-image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["iD OpenStreetMap Editor", 500, 276]
+image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["Éditeur iD OpenStreetMap", 500, 276]
 
-Avec OpenStreetMap iD Editor, tu peux créer de nouveaux objets 
+Avec iD, l'éditeur d'OpenStreetMap, tu peux créer de nouveaux objets 
 et entrer de nouvelles données sur ces objets. 
 Tu aides donc à étendre et/ou à mettre à jour la carte OpenStreetMap. 
 
