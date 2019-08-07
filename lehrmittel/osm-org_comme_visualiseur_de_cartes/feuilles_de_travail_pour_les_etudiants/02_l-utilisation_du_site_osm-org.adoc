@@ -8,7 +8,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 NOTE: Avec cette feuille de travail, tu vas apprendre comment changer le style de la carte sur openstreetmap.org, comment utiliser la planification d'itinéraire et comment partager les positions trouvées sur la carte avec les autres.
 
-== Style de carte
+== Style de Carte
 
 Malgré le nom et la vue proéminente sur openstreetmap.org, OpenStreetMap n'est pas seulement une carte. 
 Il s'agit d'une collecte de données géographiques détaillées à partir desquelles les ordinateurs peuvent 
@@ -21,7 +21,7 @@ image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] a
 image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-bouton à droite, tu 
 peux changer entre ces différentes représentations cartographiques.
 
-== Navigation (planification d'itinéraire)
+== Navigation (Planification d'Itinéraire)
 
 Avec la collection de géodonnées OpenStreetMap, les ordinateurs peuvent faire plus que « simplement » 
 dessiner des cartes ! La fonction de recherche, que nous avons déjà examinée, utilise les mêmes données 
@@ -103,7 +103,7 @@ ausgebremst.
 {empty} +
 ====
 
-== Partager les positions
+== Partager les Positions
 
 Si tu veux envoyer un lien avec une section de carte ou un endroit marqué à quelqu'un, tu peux le faire en cliquant sur le image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 20, 20]-bouton à droite.
 
