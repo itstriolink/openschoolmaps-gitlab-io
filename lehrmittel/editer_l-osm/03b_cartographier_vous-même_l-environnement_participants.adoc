@@ -199,7 +199,7 @@ dans OpenStreetMap, nous voulons l'éditer.
 Pour ce faire, clique sur "Modifier" dans le coin supérieur gauche. 
 Si tu n'as jamais édité d'objets dans OpenStreetMap auparavant - et 
 c'est le cas juste après l'enregistrement - une fenêtre 
-"Welcome to iD OpenStreetMap Editor" apparaîtra. 
+"Bienvenue sur iD,l'éditeur en ligne d'OpenStreetMap Editor" apparaîtra. 
 
 .Éditeur iD OpenStreetMap
 image::osm_editieren/Die_Umgebung_selber_kartografieren/iD_OpenStreetMap.PNG["iD OpenStreetMap Editor", 500, 276]
