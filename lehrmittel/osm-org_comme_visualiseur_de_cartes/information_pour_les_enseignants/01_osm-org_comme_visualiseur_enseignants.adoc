@@ -8,10 +8,10 @@ include::../../../snippets/suppress_title_page.adoc[]
 
 == Aperçu
 
-.Ziel
+.Objectif
 Après avoir édité la feuille de travail correspondante, les SuS peuvent utiliser openstreetmap.org pour visualiser la carte OpenStreetMap, rechercher des lieux et des choses sur la carte, utiliser la fonction de routage et ajouter des "notes" à OpenStreetMap pour améliorer les données cartographiques.
 
-.Zielgruppe
+.Public cible
 SuS dans le curriculum 21 cycle 2 ou 3 (4ème à 9ème année scolaire)
 
 .Planification
