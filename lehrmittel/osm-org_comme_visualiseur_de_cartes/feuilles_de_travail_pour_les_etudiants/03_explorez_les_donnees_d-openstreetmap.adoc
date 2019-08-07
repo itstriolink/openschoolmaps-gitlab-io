@@ -1,4 +1,4 @@
-= OSM.org comme visualiseur de carte, fiche 3: analyser des données OpenStreetMap
+= OSM.org comme visualiseur de carte, fiche 3: Analyser des données OpenStreetMap
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
@@ -14,10 +14,10 @@ Tu apprendras également comment signaler les erreurs cartographiques à la comm
 Vous pouvez donc en permanence aider à améliorer et à tenir à jour OpenStreetMap.
 ====
 
-== Un premier coup d’œil derrière les coulisses
+== Un Premier Coup d’Oeil derrière les Coulisses
 
 
-=== Requête sur les objets
+=== Requête sur les Objets
 
 Si tu veux savoir quelles données se trouvent derrière un objet sur la carte, tu peux utiliser la requête d’objet. 
 Clique le image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-bouton sur le côté droit d’openstreetmap.org.
@@ -29,7 +29,7 @@ les styles de cartes, certaines même pas du tout).
 
 Clique sur le lien et tu verras les propriétés (« attributs ») de l'objet, le commentaire sur la dernière modification apportée, et encore plus d'informations.
 
-=== Afficher (toutes) les données cartographiques
+=== Afficher (toutes) les Données Cartographiques
 
 Surtout avec des objets qui ne sont pas affichés sur la carte, il peut être difficile de les trouver et de les examiner 
 de cette façon. Dans la barre latérale avec les couches cartographiques, les données OpenStreetMap locales peuvent être 
@@ -41,7 +41,7 @@ Les objets de données sont disposés sur la carte sous forme de cercles bleus (
 (pour les objets lignes et les limites des objets de surface). Tu peux cliquer dessus (même sans le mode de 
 requête d'objet décrit ci-dessus) pour revenir à la vue détaillée de l'objet correspondant.
 
-== Aider à améliorer OpenStreetMap
+== Aider à Améliorer OpenStreetMap
 
 Comme annoncé par le message de bienvenue, les données OpenStreetMap sont collectées par des personnes comme toi. 
 Même sans formation, tu peux aider à améliorer OpenStreetMap en signalant à la communauté OpenStreetMap des erreurs et omissions.
@@ -51,7 +51,7 @@ Tout le bâtiment de l'école manque ?
 Ou y a-t-il un banc, un puits ou une poubelle à proximité de l'école qui n'est pas encore enregistrée? 
 Ou as-tu remarqué quelque chose sur la carte qui est faux ou qui n’est plus actuel ?
 
-=== Créer des notes
+=== Créer des Notes
 
 Pour signaler à la communauté OpenStreetMap ces choses-là, tu peux créer une note. 
 Pour faire cela, clique sur le  image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-bouton à droite.
