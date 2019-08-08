@@ -67,7 +67,7 @@ l'arrêt de bus à l'événement, comme nous le faisons ici.
 +
 .Tracez une ligne (par exemple un chemin) dans uMap. (Données cartographiques (C) Contributeurs OpenStreetMap)
 image::umap/lageplan_erstellen/weg_platzieren.PNG[]
-6. Pour les surfaces, cliquez sur l'icône de surface image:umap/flae_icon.PNG["Surface Icon", 25, 25]. 
+6. Pour les surfaces, cliquez sur l'icône de surface image:umap/flaeche_icon.PNG["Surface Icon", 25, 25]. 
 Nous avons dessiné le terrain de sport ici.
 
 +
