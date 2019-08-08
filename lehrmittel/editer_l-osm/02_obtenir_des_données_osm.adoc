@@ -1,31 +1,30 @@
-= OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen
+= Obtenir des données OpenStreetMap et les utiliser avec QGIS 3
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../bilder/
 include::../../snippets/suppress_title_page.adoc[]
 
-*Eine Anleitung für Interessierte, für Schülerinnen und Schüler und für 
-Instruktoren/Lehrpersonen*
+*Un guide pour les intéressés, pour les élèves et pour les instructeurs/enseignants*
 
-== Übersicht
+== Aperçu
 
-.Ziel
-Das Ziel dieser Anleitung ist es aufzuzeigen, wie man OpenStreetMap-Daten 
-beziehen und in QGIS 3 nutzen kann.
+.Objectif
+Le but de ce guide est de montrer comment obtenir des données 
+OpenStreetMap et les utiliser dans QGIS 3.
 
-.Zielgruppe
-Alle, die am Erstellen einer eigenen Karte (online Webkarte, druckbarer Plan) 
-oder am Analysieren von weltweit frei verfügbaren Geodaten interessiert sind.
-Wer OpenStreetMap noch nicht kennt, soll die Arbeitsblätter "Webseite OSM.org im Alltag nutzen" 
-und "OpenStreetMap-Daten untersuchen" durcharbeiten.
+.Public cible
+Toute personne intéressée par la création de sa propre carte (carte web en ligne, 
+carte imprimable) ou par l'analyse de géodonnées disponibles gratuitement dans le monde entier.
+Si vous ne connaissez pas encore OpenStreetMap, vous devriez lire les feuilles de travail 
+"Utilisation du site OSM.org au quotidien" et "Recherche des données OpenStreetMap".
 
-.Zeitplanung
-Die Bearbeitung dieses Arbeitsblatts verlangt je nach Vorkenntnissen 
-unterschiedlich viel Zeit, da man einzelne Abschnitte überspringen kann,
-wenn man sich nur für bestimmte Themen oder Lösungen interessiert.
+.Planification
+Cette feuille de travail exige un temps différent en fonction de 
+vos connaissances antérieures, car vous pouvez sauter des sections 
+individuelles si vous n'êtes intéressé que par certains sujets ou solutions.
 
-.Aufbau
-Folgende Themen werden behandelt:
+.Structure
+Les sujets suivants seront abordés:
 
 * Einleitung mit Erläuterungen zu OpenStreetMap und Geoinformationssystemen 
 sowie zu gängigen Dateiformaten
@@ -35,12 +34,12 @@ sowie zu gängigen Dateiformaten
 * Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
 * Mit QGIS Objekte filtern oder regelbasiert darstellen
 
-Wir empfehlen, mindestens die Einleitung zu lesen und das Kapitel 
-"OpenStreetMap-Daten mit Overpass extrahieren".
+Nous vous recommandons de lire au moins l'introduction et le chapitre 
+"Extraction des données OpenStreetMap avec Overpass".
 
 [NOTE]
 ====
-Bei dieser Anleitung geht es um das reine Nutzen bestehender Daten aus OpenStreetMap.
+Ce tutoriel traite de l'utilisation des données existantes dans OpenStreetMap.
 Wer selber Daten erfassen will, kann sich mit den Arbeitsblättern
 "OpenStreetMap bearbeiten" und "Mit uMap eine thematische Online-Karte erstellen" 
 sowie auf https://learnosm.org/de/ informieren.
