@@ -620,97 +620,94 @@ renommer le calque "Boulangeries" en "Boulangeries".
 
 === Affichage des objets basé sur des règles avec QGIS
 
-Bei der regelbasierten Darstellung geht es darum, aus einer Layer-Datenquelle 
-heraus alle diejenigen Objekte darzustellen, die ein Kriterium erfüllen. 
-Man spricht auch von "Daten-getriebender Darstellung".
-Dieser Ausdruck, nach dem es zu filtern gilt, ist hier Teil der Darstellung 
-(Symbologie) und nicht Teil des Layers wie bei der anderen Methode. 
+La représentation basée sur des règles consiste à afficher tous les objets 
+qui remplissent un critère à partir d'une source de données de rang. 
+On parle aussi de "représentation guidée par les données".
+Cette expression, qui doit être filtrée par, fait partie de la représentation 
+(symbologie) et non de la couche comme avec l'autre méthode. 
 
-Die regelbasierte Darstellung kann man auch dazu verwenden, einzelne Werte 
-_nicht_ darzustellen. 
-In unserem Beispiel wollen wir das ausnutzen, um nur Bäckereien ('bakery') und 
-keine Supermarkets ('supermarket') darzustellen. 
-Dazu machen wir einen Rechtsklick auf den Layer und klicken den untersten 
-Eintrag "Properties..." an. 
-Im linken Listenmenü klicken wir dann auf "Darstellung" (dritter Eintrag). 
-Nun sollte es bei dir so aussehen:
+L'affichage basé sur des règles peut également être utilisé pour 
+_ne pas_ afficher les valeurs individuelles. 
+Dans notre exemple, nous voulons en profiter pour montrer uniquement les 
+boulangeries ('boulangerie') et non les supermarchés ('supermarché'). 
+Pour ce faire, cliquez avec le bouton droit de la souris sur le calque 
+et cliquez sur l'entrée inférieure "Propriétés...". 
+Dans le menu de gauche, cliquez sur "Affichage" (troisième entrée). 
+Maintenant, ça devrait ressembler à ça pour vous:
 
-.Darstellung von Objekten
+.Représentation d'objets
 image::osm_editieren/osm-daten_beziehen/single_symbol.PNG["single_symbol_menu", 590, 357]
 
-Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". 
-Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
-Bisher war es so, dass alle Objekte gleich behandelt (nicht unterschieden) und 
-somit gleich dargestellt wurden, deshalb "Single symbol". 
-Jetzt, da wir "Rule-based" selektiert haben, können wir Regeln (Ausdrücke) 
-definieren, um die Objekte je nach Attributwert verschiedenen Symbolen zuzuordnen.
+Dans l'image du haut, vous voyez une marque rouge autour de l'entrée "Symbole unique". 
+C'est parce que nous sommes en train de changer cette entrée en "basée sur les règles". 
+Auparavant, tous les objets étaient traités de la même manière (non différenciés) 
+et donc affichés de la même manière, donc "symbole unique". 
+Maintenant que nous avons sélectionné "Rule-based", nous pouvons définir des règles 
+(expressions) pour affecter des objets à différents symboles en fonction de valeurs d'attributs.
 
-.Objekte ohne Filter
+.Objets sans filtre
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG["Objekte ohne Filter", 630, 381]
 
-Im oberen Bild siehst du, dass wir einen Eintrag haben. 
-Dieser Eintrag beinhaltet alle 27 Objekte, und wir sehen, dass keine Regeln auf 
-diesen Objekten definiert sind. 
-Deshalb klicken wir zwei Mal auf den Eintrag. 
-In das Textfeld neben "Filter" geben wir nun wieder folgendes ein:
+Dans l'image ci-dessus, vous pouvez voir que nous avons une entrée. 
+Cette entrée contient les 27 objets, et nous voyons qu'aucune règle 
+n'est définie sur ces objets. 
+C'est pourquoi nous cliquons deux fois sur l'entrée. 
+Dans le champ de texte à côté de "Filtre", nous entrons à nouveau ce qui suit:
 
     "shop"='bakery'
 
-Das sieht dann so aus:
+C'est ce qu'on va croire:
 
-.Edit Rule Dialog
+.Boîte de dialogue Modifier une règle
 image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 260]
 
-Nun klicken wir auf "OK". 
-Wir sehen, dass im Eintrag nun nicht mehr "(kein Filter)" steht, sondern 
-`"shop"='bakery'`. 
-Jetzt klicken wir auf "Anwenden" und dann nochmals auf "OK". 
-Im QGIS sollte das nun so aussehen:
+Cliquez maintenant sur "OK". 
+Nous voyons que l'entrée ne dit plus "(pas de filtre)", mais `"shop"='bakery'``. 
+Cliquez maintenant sur "Appliquer", puis à nouveau sur "OK".  
+Dans le SIGQ, cela devrait maintenant ressembler à ceci :
 
-.Bäckereien in Uster
+.Boulangeries à Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
 
-Wir sehen, dass wir nach wie vor 27 Objekte haben. 
-Angezeigt werden uns aber nur die 10 Objekte, die die Regel erfüllen, also nur 
-Bäckereien. 
-Vielleicht hast du es schon bemerkt, denn im Gegensatz dazu verändert sich die 
-Anzahl Objekte beim einfachen filtern (siehe oben). 
-Dort werden nicht nur die 10 Bäckereien dargestellt, sondern die Objektanzahl 
-verringert sich auch auf 10. 
-Dies ist ein besonderer Unterschied zwischen dem "normalen" Filtern und der 
-regelbasierten Darstellung. 
-Sehen wir uns noch eine andere Möglichkeit an.
+Nous voyons que nous avons encore 27 objets. 
+Cependant, seuls les 10 objets qui remplissent la règle, 
+c'est-à-dire uniquement les boulangeries, nous sont présentés. 
+Vous l'avez peut-être déjà remarqué, parce que contrairement à 
+cela le nombre d'objets change avec le filtre simple (voir ci-dessus). 
+Non seulement les 10 boulangeries y sont affichées, mais le nombre 
+d'objets est également réduit à 10. 
+C'est une différence particulière entre le filtrage 
+"normal" et la représentation basée sur des règles. 
+Examinons une autre possibilité.
 
-Angenommen, wir möchten nach wie vor alle Objekte anzeigen und nur einen Teil 
-abrenzen, dann können wir einfach eine andere Farbe für alle Bäckereien nehmen.
-Lösche die Regel, die wir vorhin auf die Objekte angewendet haben, wieder. 
-Dann starten wir ab folgender Ansicht:
+En supposant que nous voulons toujours afficher tous les objets et seulement une 
+partie d'entre eux, nous pouvons simplement utiliser une couleur différente 
+pour toutes les boulangeries.
+Supprimer la règle que nous avons appliquée aux objets précédemment. 
+Ensuite, nous partons de la vue suivante:
 
-.Objekte ohne Filter
+.Objets sans filtre
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG["Objekte ohne Filter", 630, 381]
 
-Unten links klicken wir auf das Plus-Zeichen. 
-Jetzt haben wir unsere Objekte kopiert und wenden auf diese Kopie die Regel an. 
-Also auch wieder folgendes eingeben und dann auf "OK" klicken:
+En bas à gauche, cliquez sur le signe plus. 
+Maintenant que nous avons copié nos objets, appliquons la règle à cette copie. 
+Saisissez à nouveau ce qui suit et cliquez sur "OK":
 
-.Edit Rule Dialog
+.Boîte de dialogue Modifier une règle
 image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 260]
 
-Nun klicken wir auf "Anwenden" und dann auf "OK". 
-Jetzt sollte es im QGIS so aussehen:
+Cliquez maintenant sur "Appliquer" puis sur "OK". 
+Il devrait maintenant ressembler à ceci dans QGIS:
 
-.Brotverkaufsstellen mit farblich abgegrenzten Bäckereien (Pink)
+.Boulangeries avec code couleur (rose)
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
-Der Layer "Brotverkaufsstellen" sollte nun zwei verschiedene Objektgruppen 
-aufweisen. 
-Einerseits sehen wir alle 27 Brotverkaufstellen in oranger Farbe.
-Andererseits haben wir nun eine neue (Unter-)Gruppe mit 10 Objekten, 
-nämlich unsere Bäckereien in pinker Farbe.
+La couche "Sorties de pain" doit maintenant avoir deux groupes d'objets différents. 
+D'une part, nous voyons les 27 points de vente de pain en orange. 
+D'autre part, nous avons maintenant un nouveau (sous-)groupe avec 10 objets, 
+à savoir nos boulangeries en rose.
 
-Damit schliessen wir dieses Kapitel bzw. dieses Arbeitsblatt ab und überlassen 
-es dir, die Layer und das ganze QGIS-Projekt zu erweitern und die Darstellung 
-zu verbessern.
-
+Ceci conclut ce chapitre ou cette feuille de travail et vous laisse le soin 
+d'étendre les calques et l'ensemble du projet QGIS et d'améliorer l'affichage.
 
 include::../../snippets/quellenangabe.adoc[]
