@@ -155,7 +155,7 @@ par `out center` et Overpass a ajouté ces 5 nouveaux POI aux 23 POI existants.
 Nous devons maintenant enregistrer la requête sous GeoJSON. Pour ce faire, 
 cliquez sur "Exporter" dans le coin supérieur gauche de "Assistant".
 La fenêtre qui apparaît nous donne différentes options d'exportation: 
-Nous choisissons celui du haut, c'est-à-dire "Enregistrer sous GeoJSON".
+Nous choisissons celui du haut, c'est-à-dire "Télécharger/copier en tant que GeoJSON".
 
 .Exportation d'Overpass
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG["Overpass-Export-Dialog", 290, 395]
