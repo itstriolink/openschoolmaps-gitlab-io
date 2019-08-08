@@ -362,8 +362,8 @@ Après vous être connecté, vous verrez les points et onglets suivants:
 
 1. Description des exportations
 2. Formats
-3. Données
-4. Récapitulatif 
+3. Data
+4. Summary 
 
 Les tabulateurs 1 et 4 sont décrits plus en détail ci-dessous.
 
