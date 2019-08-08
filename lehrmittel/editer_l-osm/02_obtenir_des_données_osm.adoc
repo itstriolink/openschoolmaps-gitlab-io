@@ -92,44 +92,44 @@ les géodonnées importées dans QGIS.
 
 == Extraction des données OpenStreetMap avec Overpass
 
-Bevor wir uns auf die Aufgaben stürzen, müssen wir noch einige Unklarheiten klären. 
-Da wir mit Geodaten arbeiten, wäre es sinnvoll, uns auf eine Ortschaft zu einigen. 
-Zudem müssen wir wissen, was für Daten dieser Ortschaft wir bearbeiten möchten.
-Deshalb werden wir in allen folgenden Abschnitten Uster (Kanton ZH) als Ortschaft verwenden 
-und die Daten, die uns interessieren, wären Brotverkaufsstellen. Als Brotverkaufsstellen 
-definieren wir hier Bäckereien und Supermärkte, da beide sowohl selbst Brot herstellen 
-wie auch verkaufen. Nun da alles klar sein sollte, fangen wir doch am Besten an!
+Avant d'en venir aux tâches, nous devons clarifier certaines ambiguïtés. 
+Puisque nous travaillons avec des géodonnées, il serait logique de s'entendre sur un emplacement. 
+Nous avons aussi besoin de savoir quel type de données nous voulons traiter pour cette ville. 
+C'est pourquoi, dans toutes les sections suivantes, nous utiliserons Uster (canton ZH) 
+comme localité et les données qui nous intéressent seront les boulangeries. Nous définissons 
+les boulangeries et les supermarchés comme des points de vente de pain, puisque les deux 
+produisent et vendent du pain eux-mêmes. Maintenant que tout devrait être clair, commençons!
 
-Die einfachste und schnellste Methode um OpenStreetMap-Daten in QGIS zu 
-importieren, ist mittels Overpass-Turbo.
-Diese Methode eignet sich sowohl für Fortgeschrittene als auch für Anfänger.
-Besuche zuerst die Overpass-Turbo Website unter: http://overpass-turbo.osm.ch/.
+Le moyen le plus simple et le plus rapide d'importer des données OpenStreetMap 
+dans QGIS est d'utiliser un overpass turbo.
+Cette méthode convient aussi bien aux débutants qu'aux avancés.
+Visitez d'abord le site Web Overpass-Turbo à l'adresse suivante : http://overpass-turbo.osm.ch/.
 
-Wenn du die Website das erste Mal besuchst, sieht sie in etwa wie folgt aus:
+Lorsque vous visitez le site Web pour la première fois, il ressemble à ceci:
 
-.Startseite von Overpass-Turbo
+.Page d'accueil de Overpass-Turbo
 image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
-Klicke auf den rot markierten Button "Wizard". 
-Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
-Da wir ja als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien 
-und Supermärkten. Als Ortschaft nehmen wir wie gesagt Uster. 
-Die Abfrage sieht wie folgt aus (`bakery or supermarket in Uster`):
+Cliquez sur le bouton rouge "Assistant". 
+L'assistant permet de créer facilement des requêtes de dépassement. 
+Comme nous recherchons des points de vente de pain par exemple, nous recherchons 
+des boulangeries et des supermarchés. En tant que village, nous prenons Uster. 
+La requête ressemble à ceci (`boulangerie ou supermarché à Uster`):
 
-.Overpass-Turbo Wizard-Abfrage
+.Requête de l'assistant Turbo du viaduc
 image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG["Wizard-Abfrage", 280, 240]
 
-Nachdem man auf "Abfrage erstellen und ausführen" klickt, erhält man folgendes:
+Après avoir cliqué sur "Créer et exécuter la requête", vous obtiendrez ce qui suit:
 
-.Resultat der Wizard-Abfrage
+.Résultat de la requête de l'assistant
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 
-Das obige Resultat kann man auch vereinfachen, indem man die `nodes`, `ways` und 
-`relations` zu `nwr` (=nodes/ways/relations) ersetzt bzw. zusammenfasst.
-Unten rechts sieht man rot markiert die verschiedenen Objekte. 
-Wir haben 22 POIs und 5 Polygone. Da wir nur POIs möchten, könnten wir mittels 
-`out center;` alle Flächen und Pfade in Punkte verwandeln.
-Die neue Abfrage sollte somit folgendermassen aussehen.
+Le résultat ci-dessus peut également être simplifié en remplaçant les `nodes`, 
+les `ways` et les `relations` par `nwr` (=nodes/ways/relations).
+Dans le coin inférieur droit, vous pouvez voir les différents objets marqués en rouge. 
+Nous avons 22 POI et 5 polygones. Puisque nous ne voulons que des POI, nous pourrions 
+utiliser `out center;` pour transformer toutes les zones et chemins en points.
+La nouvelle requête devrait ressembler à ceci.
 
 [source,overpass]
 ----
@@ -142,33 +142,31 @@ Die neue Abfrage sollte somit folgendermassen aussehen.
 out center;
 ----
 
-Wenn wir jetzt die oberen Zeilen kopieren und in Overpass-Turbo als Abfrage 
-einfügen und ausführen, erhält man folgendes:
+Si nous copions maintenant les lignes du haut et les collons et les exécutons 
+dans Overpass-Turbo comme une requête, nous obtenons ce qui suit :
 
-.Überarbeitetes Resultat
+.Résultat révisé
 image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 
-Jetzt sehen wir unten rechts, dass die angezeigten Objekte nur noch aus POIs 
-bestehen.
-Wir haben jetzt 27 POIs und 0 Polygone, da wir die 5 Polygone mittels `out center` 
-in POIs umgewandelt haben und Overpass diese 5 neuen POIs zu den bestehenden 22 
-POIs addiert hat.
+Nous voyons maintenant dans le coin inférieur droit que les objets affichés ne sont que des POI.
+Nous avons maintenant 27 POI et 0 polygone, parce que nous avons converti les 5 polygones en POI 
+par `out center` et Overpass a ajouté ces 5 nouveaux POI aux 22 POI existants.
 
-Nun müssen wir die Abfrage noch als GeoJSON abspeichern. Dazu gehen wir oben 
-links neben "Wizard" auf "Export".
-Das Fenster, das erscheint, gibt uns verschiedene Exportmöglichkeiten: 
-Wir wählen die oberste, also "Speichern als GeoJSON".
+Nous devons maintenant enregistrer la requête sous GeoJSON. Pour ce faire, 
+cliquez sur "Exporter" dans le coin supérieur gauche de "Assistant".
+La fenêtre qui apparaît nous donne différentes options d'exportation: 
+Nous choisissons celui du haut, c'est-à-dire "Enregistrer sous GeoJSON".
 
-.Overpass Export
+.Exportation d'Overpass
 image::osm_editieren/osm-daten_beziehen/overpass_export.PNG["Overpass-Export-Dialog", 290, 395]
 
-Die heruntergeladene GeoJSON-Datei fügen wir nun mittels Drag & Drop in das
-Layer-Panel links in QGIS ein.
-Zusätzlich benennen wir den Layer passend um, beispielsweise "Brotverkaufsstellen".
+Nous insérons maintenant le fichier GeoJSON téléchargé dans le panneau de 
+calques sur le côté gauche de QGIS en utilisant le glisser-déposer.
+De plus, nous renommons la couche de manière appropriée, par exemple "Sorties de pain".
 
-Unser QGIS sieht nun so aus:
+Notre QGIS ressemble maintenant à ceci :
 
-.GeoJSON in QGIS importiert
+.GeoJSON importé dans QGIS
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 Wie du wahrscheinlich bemerkt hast, wird hier ein OSM-Standard-Layer als 
