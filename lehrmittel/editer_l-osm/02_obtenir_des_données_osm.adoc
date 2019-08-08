@@ -464,7 +464,7 @@ sur le côté droit de la carte. Ensuite, il sera agrandi:
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 
 Une fois que vous avez fait cela, vous pouvez cliquer sur le bouton 
-"Créer une exportation" (voir ci-dessous).
+"Créer l'export" (voir ci-dessous).
 
 .Outil d'exportation HOT onglet 4 "Résumé".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
