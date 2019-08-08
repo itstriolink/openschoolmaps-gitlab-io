@@ -410,6 +410,7 @@ un seul objet polygone GeoJSON similaire à ce qui suit:
 
 .Objet polygone GeoJSON unique pour l'outil d'exportation HOT
 image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
+====
 
 Continuons avec l'outil d'exportation HOT.
 Dans l'onglet 2, vous choisissez le format, par exemple GéoPackage.
