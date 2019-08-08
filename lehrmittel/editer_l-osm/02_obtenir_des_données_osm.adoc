@@ -127,7 +127,7 @@ image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
 Le résultat ci-dessus peut également être simplifié en remplaçant les `nodes`, 
 les `ways` et les `relations` par `nwr` (=nodes/ways/relations).
 Dans le coin inférieur droit, vous pouvez voir les différents objets marqués en rouge. 
-Nous avons 22 POI et 5 polygones. Puisque nous ne voulons que des POI, nous pourrions 
+Nous avons 23 POI et 5 polygones. Puisque nous ne voulons que des POI, nous pourrions 
 utiliser `out center;` pour transformer toutes les zones et chemins en points.
 La nouvelle requête devrait ressembler à ceci.
 
@@ -149,8 +149,8 @@ dans Overpass-Turbo comme une requête, nous obtenons ce qui suit :
 image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
 
 Nous voyons maintenant dans le coin inférieur droit que les objets affichés ne sont que des POI.
-Nous avons maintenant 27 POI et 0 polygone, parce que nous avons converti les 5 polygones en POI 
-par `out center` et Overpass a ajouté ces 5 nouveaux POI aux 22 POI existants.
+Nous avons maintenant 28 POI et 0 polygone, parce que nous avons converti les 5 polygones en POI 
+par `out center` et Overpass a ajouté ces 5 nouveaux POI aux 23 POI existants.
 
 Nous devons maintenant enregistrer la requête sous GeoJSON. Pour ce faire, 
 cliquez sur "Exporter" dans le coin supérieur gauche de "Assistant".
@@ -650,7 +650,7 @@ Maintenant que nous avons sélectionné "Rule-based", nous pouvons définir des 
 image::osm_editieren/osm-daten_beziehen/kein_Filter.PNG["Objekte ohne Filter", 630, 381]
 
 Dans l'image ci-dessus, vous pouvez voir que nous avons une entrée. 
-Cette entrée contient les 27 objets, et nous voyons qu'aucune règle 
+Cette entrée contient les 28 objets, et nous voyons qu'aucune règle 
 n'est définie sur ces objets. 
 C'est pourquoi nous cliquons deux fois sur l'entrée. 
 Dans le champ de texte à côté de "Filtre", nous entrons à nouveau ce qui suit:
@@ -670,7 +670,7 @@ Dans le SIGQ, cela devrait maintenant ressembler à ceci :
 .Boulangeries à Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
 
-Nous voyons que nous avons encore 27 objets. 
+Nous voyons que nous avons encore 28 objets. 
 Cependant, seuls les 10 objets qui remplissent la règle, 
 c'est-à-dire uniquement les boulangeries, nous sont présentés. 
 Vous l'avez peut-être déjà remarqué, parce que contrairement à 
@@ -704,7 +704,7 @@ Il devrait maintenant ressembler à ceci dans QGIS:
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
 
 La couche "Sorties de pain" doit maintenant avoir deux groupes d'objets différents. 
-D'une part, nous voyons les 27 points de vente de pain en orange. 
+D'une part, nous voyons les 28 points de vente de pain en orange. 
 D'autre part, nous avons maintenant un nouveau (sous-)groupe avec 10 objets, 
 à savoir nos boulangeries en rose.
 
