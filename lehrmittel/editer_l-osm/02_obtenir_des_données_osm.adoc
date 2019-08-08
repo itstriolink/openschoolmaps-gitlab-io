@@ -360,14 +360,14 @@ OpenStreetMap et d'une adresse e-mail valide pour être averti lorsque les donn�
 sont prêtes pour le téléchargement.
 Après vous être connecté, vous verrez les points et onglets suivants:
 
-1. Description des exportations
+1. Description de l'Export
 2. Formats
 3. Data
 4. Summary 
 
 Les tabulateurs 1 et 4 sont décrits plus en détail ci-dessous.
 
-Tabulateur 1 "Exporter description" est utilisé pour décrire le fichier à exporter. 
+Tabulateur 1 "Description de l'Export" est utilisé pour décrire le fichier à exporter. 
 L'image ci-dessous montre un exemple d'exportation de débouchés pour le pain à Uster.
 
 .Outil d'exportation HOT onglet 1 "Description de l'exportation".
@@ -418,7 +418,7 @@ Dans l'onglet 2, vous choisissez le format, par exemple GéoPackage.
 .Outil d'exportation HOT onglet 2 "Formats".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 
-Avec l'onglet 3 "Données", vous passez au registre "YAML" et insérez ce qui suit:
+Avec l'onglet 3 "Data", vous passez au registre "YAML" et insérez ce qui suit:
 
 [source,yaml]
 ----
@@ -456,7 +456,7 @@ image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Une fois que vous avez fait cela, nous pouvons presque exporter 
 la requête sous forme de GéoPackage. 
-Nous passons donc à l'onglet 4 "Résumé". 
+Nous passons donc à l'onglet 4 "Summary". 
 La dernière chose à faire avant d'exporter est de chercher "Uster" 
 sur le côté droit de la carte. Ensuite, il sera agrandi:
 
