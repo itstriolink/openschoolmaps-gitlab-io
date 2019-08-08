@@ -169,119 +169,114 @@ Notre QGIS ressemble maintenant à ceci :
 .GeoJSON importé dans QGIS
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
-Wie du wahrscheinlich bemerkt hast, wird hier ein OSM-Standard-Layer als 
-Hintergrund benutzt, um die Daten anschaulicher zu präsentieren.
-Wir gehen davon aus, dass du diesen nicht hast, das ist aber nicht weiter 
-schlimm, den er ist nicht zwingend nötig. 
-Du kannst also ruhig ohne OSM-Standard-Layer als Hintergrund weitermachen.
+Comme vous l'avez probablement remarqué, une couche standard OSM est utilisée 
+ici comme arrière-plan pour présenter plus clairement les données.
+Nous supposons que vous n'avez pas celui-ci, mais ce n'est pas si mal, 
+car ce n'est pas absolument nécessaire. 
+Ainsi, vous pouvez continuer sans la couche standard OSM comme arrière-plan.
 
-Als Letztes wollen wir das Koordinatensystem
-der in QGIS aus GeoJSON importierten Daten
-ändern und sie dann als GeoPackage speichern.
-Um das zu erreichen, machen wir einen Rechtsklick auf den Layer, gehen auf 
-"Exportieren" und dann wählen wir den obersten Eintrag "Save Feature As...". 
-Wir ändern das KBS zu "EPSG:2056 - CH1903+/LV95" und geben der Datei einen Namen.
-Das Format belassen wir als GeoPackage und klicken dann auf "OK".
+Enfin, nous voulons changer le système de coordonnées des données importées 
+de GeoJSON dans QGIS et les enregistrer sous forme de GeoPackage.
+Pour ce faire, cliquez avec le bouton droit de la souris sur le calque, allez 
+dans "Exporter" et sélectionnez l'entrée supérieure "Enregistrer la fonction sous...". 
+Nous changeons le KBS en "EPSG:2056 - CH1903+/LV95" et donnons un nom au fichier.
+Nous laissons le format comme GéoPackage et cliquons sur "OK".
 
-Unten siehst du noch das Exportfenster:
+Ci-dessous vous pouvez voir la fenêtre d'exportation:
 
-.Als GeoPackage exportieren
+.Exporter sous forme de GeoPackage
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_gpkg.PNG["brotverkaufsstellen_gpkg", 480, 376]
 
-Sehr gut, du hast es geschafft, OpenStreetMap-Daten in QGIS zu importieren und 
-als neues Format abzuspeichern.
-Die andere Möglichkeit, OpenStreetMap-Daten in QGIS zu importieren, ist mittels 
-dem QuickOSM-Plugin, das im Folgenden erläutert wird. 
-Wenn es dich nicht interessiert oder du es schon gelesen hast, kannst du zu den 
-Kapiteln "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" oder 
-"Mit QGIS Objekte filtern oder regelbasiert darstellen" springen.
+Très bien, vous avez réussi à importer des données OpenStreetMap dans QGIS et 
+à les enregistrer sous un nouveau format.
+L'autre façon d'importer des données OpenStreetMap dans QGIS est d'utiliser 
+le plugin QuickOSM, qui est expliqué ci-dessous. 
+Si vous n'êtes pas intéressé ou si vous l'avez déjà lu, vous pouvez passer aux 
+chapitres "Fusionner les calques de polygone avec les calques de points dans QGIS" 
+ou "Filtrer les objets avec QGIS ou Affichage basé sur des règles".
 
-== OpenStreetMap-Daten mit QuickOSM-Plugin direkt in QGIS importieren
+== Importez des données OpenStreetMap directement dans QGIS avec le plugin QuickOSM
 
-Nun schauen wir uns eine andere Methode an, um in QGIS OpenStreetMap-Daten zu 
-importieren und zu verwalten.
-Lösche am besten den vorher erzeugten Layer und fange bei Null an, 
-um Verwirrung zu vermeiden.
+Voyons maintenant une autre façon d'importer et de gérer les 
+données OpenStreetMap dans QGIS.
+Il est préférable de supprimer le calque précédemment créé et de 
+recommencer à zéro pour éviter toute confusion.
 
 .QGIS
 image::osm_editieren/osm-daten_beziehen/osm_in_qgis.PNG[]
 
-Zuerst installieren wir das Plugin namens QuickOSM, womit sich direkt in QGIS 
-Abfragen erstellen lassen.
-Dafür gehen wir in der oberen Menüleiste auf "Erweiterungen" und dann auf 
-"Erweiterungen verwalten und installieren...".
-In das Suchfeld gibst du QuickOSM ein und da es nur ein Plugin unter diesem 
-Namen gibt, sollte dir auch das richtige angezeigt werden.
-Jetzt klickst du auf "Erweiterung installieren" und schon kannst du mit dem 
-Plugin arbeiten.
+Tout d'abord, nous installons le plugin QuickOSM, qui peut être 
+utilisé pour créer des requêtes directement dans QGIS.
+Pour ce faire, nous allons dans "Extensions" dans la barre de 
+menu supérieure et ensuite dans "Gérer et installer les extensions...".
+Entrez QuickOSM dans le champ de recherche et comme il n'y a qu'un seul 
+plugin sous ce nom, vous devriez voir le bon.
+Cliquez maintenant sur "Installer l'extension" et vous êtes prêt à 
+travailler avec le plugin.
 
-Das folgende Bild zeigt die Installation des Plugins:
+L'image suivante montre l'installation du plugin:
 
-.QuickOSM Installation
+.Installation QuickOSM
 image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
 
-Nun öffnen wir das Plugin, indem wir in der Menüleiste auf "Vektor" und dann auf 
-"Quick OSM" klicken. 
-Danach geben wir folgende Abfrage ein, um nach Bäckereien in Uster zu suchen:
+Ouvrons maintenant le plugin en cliquant sur "Vector" dans la barre de menu puis sur "Quick OSM". 
+Ensuite, nous entrons la requête suivante pour rechercher des boulangeries à Uster:
 
-.Bakery-Abfrage
+.Demande de renseignements sur la boulangerie
 image::osm_editieren/osm-daten_beziehen/quickOSM_bakery.PNG["Bakery-Abfrage", 500, 316]
 
-Nachdem die Abfrage ausgeführt wurde, machen wir noch eine zweite Abfrage, um 
-nach Supermärkten zu suchen:
+Après l'exécution de la requête, nous effectuons une deuxième requête pour 
+rechercher les supermarchés :
 
-.Supermarket-Abfrage
+.Demande au supermarché
 image::osm_editieren/osm-daten_beziehen/quickOSM_supermarket.PNG["Supermarket-Abfrage", 500, 316]
 
-Nun solltest du folgende Layer haben:
+Vous devriez maintenant avoir les calques suivants:
 
-.Ergebnisse der QuickOSM-Abfragen
+.Résultats des requêtes QuickOSM
 image::osm_editieren/osm-daten_beziehen/abfrage_ergebnisse.PNG[]
 
-Damit ist dieses Kapitel abgeschlossen, wobei typischerweise noch einige 
-Nachbearbeitungsarbeiten nötig sind. 
-Diese Nachbearbeitungsarbeiten sind in der Einleitung des nächsten Kapitels beschrieben.
+Ce chapitre est maintenant clos, bien qu'il soit généralement nécessaire de le retravailler. 
+Ces opérations de finition sont décrites dans l'introduction du chapitre suivant.
 
 
-== Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
+== Divers outils Web pour télécharger les données OpenStreetMap
 
-In diesem Kapitel sind verschiedene Web-Tools zum Download von 
-OpenStreetMap-Daten zusammengestellt. 
-Die einen bieten ganze Länder an, die anderen benutzerdefinierte Aussschnitte. 
-Die Exportformate sind unterschiedlich und einige Tools verlangen, dass man sich 
-registriert. Alle sind kostenlos zugänglich - jedoch ohne Gewähr für einen
-unterbruchsfreien Betrieb.
+Dans ce chapitre, vous trouverez divers outils Web pour télécharger des données OpenStreetMap. 
+Certains proposent des pays entiers, d'autres des sections définies par l'utilisateur. 
+Les formats d'exportation sont différents et certains outils nécessitent un enregistrement. 
+Tous sont accessibles gratuitement, mais sans aucune garantie de fonctionnement ininterrompu.
 
 [NOTE]
 ====
-Wie in der Einleitung erwähnt, gibt es kein  einheitliches "GIS"-Datenschema für 
-OSM und darum ist kaum ein Export aus OSM gleich wie der andere. 
-Es ist darum wichtig, die jeweilige Dokumentation der Web-Tools zu konsultieren.
+Comme mentionné dans l'introduction, il n'existe pas de schéma de données "SIG" 
+unique pour l'OSM et, par conséquent, pratiquement aucune exportation de 
+l'OSM n'est la même que l'autre. 
+Il est donc important de consulter la documentation respective des outils web.
 ====
 
-Dann gibt es typischerweise noch Nachbearbeitungsarbeiten im GIS:
+Ensuite, il y a généralement du travail de post-traitement dans les SIG:
 
-1. Die Geodaten (Layer) auf das Gebiet begrenzen, das dargestellt oder analysiert 
-werden soll. 
-1. Oft gibt es OSM-Objekte gleicher Art - wie beispielsweise 
-Bäckereien - bei denen die einen im Punkt-Layer, die anderen im Polygon-Layer 
-erscheinen. Diese möchte man aber einheitlich verwalten und wandelt die 
-flächenhaften Objekte in Punkt-Objekte und fügte diese dem Punkt-Layer hinzu. 
-1. Einige Geodaten (Layer) enthalten Objekte verschiedener Art, beispielsweise 
-Shop der Art Bäckerei und der Art Supermarkt. Diese möchte man gefiltert 
-analysieren und/oder darstellen.
+1. Limitez les géodonnées (couche) à la zone à afficher ou à analyser. 
+2. Il y a souvent des objets OSM du même type - comme les boulangeries - où 
+l'un apparaît dans la couche point et l'autre dans la couche polygone. Toutefois, 
+vous voulez les gérer uniformément et convertir les objets planaires en objets 
+ponctuels et les ajouter à la couche ponctuelle. 
+3. Certaines géodonnées (couches) contiennent des objets de différents types, 
+par exemple magasin de type boulangerie et type supermarché. 
+On aimerait les analyser et/ou les représenter filtrées.
 
-Zum ersten Problem verweisen wir an dieser Stelle auf das QGIS-Menü 
-"Geoverarbeitungswerkzeuge" und den Algorithmus "Zuschneiden". 
-Dieser Algorithmus verlangt die Angabe eines Überlagerungslayers, ein Perimeter, 
-was typischerweise eine Verwaltungsgrenze ist (also z.B. Uster) 
+Pour le premier problème, nous nous référons au menu QGIS "Outils 
+de géotraitement" et à l'algorithme "Crop". 
+Cet algorithme nécessite la spécification d'une couche de superposition, 
+un périmètre, qui est généralement une limite administrative (p. ex. Uster). 
 
 [NOTE]
 ====
-Extrahieren von Verwaltungsgrenzen als GeoJSON:
-Suche zuerst die "Relation ID" in OpenStreetMap, http://www.openstreetmap.org/relation/1682225[Uster].
-Jetzt siehst du auf der linken Sidebar den Eintrag "wikidata    Q64032". Mit dieser Information 
-erzeugen wir nun folgendes Query:
+Extraction des limites administratives comme GeoJSON: 
+Recherchez d'abord le "Relation ID" dans OpenStreetMap, http://www.openstreetmap.org/relation/1682225[Uster].
+Vous voyez maintenant l'entrée "wikidata Q64032" sur la barre latérale gauche. 
+Avec ces informations, nous créons la requête suivante :
 
     [out:json][timeout:25];
     (
@@ -292,20 +287,20 @@ erzeugen wir nun folgendes Query:
     >;
     out skel qt;
 
-Gehe dann zu http://overpass-turbo.osm.ch/ und gib dort das Query ein und klicke auf "Ausführen".
-Exportiere aus Overpass-Turbo dann eine GeoJSON-Datei (z.B. uster.geojson).
+Rendez-vous ensuite sur http://overpass-turbo.osm.ch/, entrez la requête et cliquez sur "Exécuter".
+Exportez ensuite un fichier GeoJSON (par exemple uster.geojson) depuis Overpass-Turbo.
 ====
 
-Zu den zwei anderen Problemen folgender Hinweis:
+Aux deux autres problèmes la note suivante:
 
 [NOTE]
 ====
-Nachbearbeitung der Geodaten: 
-Wenn du wissen möchtest, wie man Polygon-Layer in Punkte-Layer verwandelt, dann 
-schaue unten im Kapitel "Polygon-Layer mit Punkt-Layer in QGIS zusammenführen" 
-nach. 
-Wenn du erfahren möchtest, wie man Objekte filtert, dann springe zum Kapitel 
-unten "Mit QGIS Objekte filtern oder regelbasiert darstellen".
+Post-traitement des géodonnées: 
+Si vous voulez savoir comment convertir des couches de polygones en 
+couches de points, consultez le chapitre "Fusionner des couches de 
+polygones avec des couches de points dans QGIS" ci-dessous. 
+Si vous souhaitez apprendre à filtrer des objets, passez au chapitre 
+"Filtrage d'objets avec QGIS ou affichage basé sur des règles".
 ====
 
 === OSM.org
