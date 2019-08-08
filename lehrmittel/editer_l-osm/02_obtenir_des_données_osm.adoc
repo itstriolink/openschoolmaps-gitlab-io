@@ -119,7 +119,7 @@ La requête ressemble à ceci (`boulangerie ou supermarché à Uster`):
 .Requête de l'assistant Turbo du viaduc
 image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG["Wizard-Abfrage", 280, 240]
 
-Après avoir cliqué sur "Créer et exécuter la requête", vous obtiendrez ce qui suit:
+Après avoir cliqué sur "Construire et exécuter une requête", vous obtiendrez ce qui suit:
 
 .Résultat de la requête de l'assistant
 image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
