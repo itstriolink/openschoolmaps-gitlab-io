@@ -389,39 +389,35 @@ Pour les deux premières possibilités, seul le champ de recherche doit être ut
 Vous pouvez y spécifier soit la ville désirée, soit une case de 
 délimitation (ouest, sud, est, nord).
 
-Um eine Bounding Box oder ein Polygon zu zeichnen, muss auf der rechten Seite der 
-Karte die _Draw_-Schaltfläche gedrückt werden.
-Um die aktuelle Ansicht herunterzuladen, muss auf die Schaltfläche 
-_This View_ gedrückt werden.
-Wenn du eine GeoJSON-Datei hochladen möchtest, kannst du dies mit der 
-Schaltfläche _Import_ machen.
+Pour dessiner une case ou un polygone de délimitation, appuyez sur 
+le bouton _Dessiner_ sur le côté droit de la carte.
+Pour télécharger la vue actuelle, appuyez sur le bouton _Cette vue_.
+Si vous voulez télécharger un fichier GeoJSON, vous pouvez le 
+faire avec le bouton _Importer_.
 
 [NOTE]
 ====
-An dieser Stelle ein kleiner Exkurs, wie man eine GeoJSON-Datei erstellt.
+A ce stade, un petit tour d'horizon sur la création d'un fichier GeoJSON.
 
-http://geojson.io ist eine bekannte Webseite, mit der man GeoJSON 
-editieren kann.
+http://geojson.io est un site bien connu qui vous permet d'éditer GeoJSON.
 
-Das HOT-Export-Tool erwartet nur einfache GeoJSON-Objekte (keine 
-"FeatureCollection"), d.h. einen Typ Polygon und eine Liste mit Koordinaten.
+L'outil d'exportation HOT n'attend que des objets GeoJSON simples (pas de 
+FeatureCollection), c'est-à-dire un type de polygone et une liste de coordonnées.
 
-GeoJSON-Dateien von geojson.io und anderen Quellen müssen darum von Hand nochmals 
-angepasst werden.
-Öffne darum die GeoJSON-Datei in einem Texteditor und vereinfache die Struktur
-zu einem einzelnen GeoJSON-Polygon-Objekt ähnlich wie folgt:
+Les fichiers GeoJSON de geojson.io et d'autres sources doivent donc être adaptés manuellement.
+Ouvrez donc le fichier GeoJSON dans un éditeur de texte et simplifiez la structure en 
+un seul objet polygone GeoJSON similaire à ce qui suit:
 
-.Einzelnes GeoJSON-Polygon-Objekt für das HOT-Export-Tool
+.Objet polygone GeoJSON unique pour l'outil d'exportation HOT
 image::osm_editieren/osm-daten_beziehen/json_format.png["json_format", 270, 350]
 
-Machen wir wieder weiter mit dem HOT-Export-Tool.
-Bei Tabulator 2 wählst du das Format, z.B. GeoPackage.
+Continuons avec l'outil d'exportation HOT.
+Dans l'onglet 2, vous choisissez le format, par exemple GéoPackage.
 
-.HOT-Export-Tool Tab 2 "Formate".
+.Outil d'exportation HOT onglet 2 "Formats".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab2.PNG[]
 
-Bei Tabulator 3 "Data" wechselst du in den Register "YAML" und fügst dort 
-folgendes ein:
+Avec l'onglet 3 "Données", vous passez au registre "YAML" et insérez ce qui suit:
 
 [source,yaml]
 ----
@@ -447,87 +443,82 @@ bakeries:
  where: shop IN ('bakery','supermarket')
 ----
 
-CAUTION: YAML ist eine vereinfachte Code-Auszeichnungssprache, angelehnt u.a. 
-an XML. 
-Die YAML-Syntax verwendet Einrückungen. 
-Dazu sollte man nur Leerzeichen verwenden (keine Tabulatoren).
-Mit der Webseite http://www.yamllint.com/[YAML Lint] kann man YAML validieren.
+CAUTION: YAML est un langage de balisage simplifié basé sur XML. 
+La syntaxe YAML utilise des indentations. 
+N'utilisez que des espaces (pas d'onglets). 
+Avec le site http://www.yamllint.com/[YAML Lint] vous pouvez valider YAML.
 
-Das Ganze sieht dann so aus:
+Tout ça ressemblera à ça:
 
-.HOT-Export-Tool Tab 3 "Data".
+.Outil d'exportation HOT onglet 3 "Données".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
-Nachdem du das gemacht hast, können wir die Abfrage auch schon fast als 
-GeoPackage exportieren. 
-Darum gehen wir weiter zu Tab 4 "Summary". 
-Das Letzte, was wir jetzt noch vor dem Exportieren machen müssen, ist auf der 
-rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
+Une fois que vous avez fait cela, nous pouvons presque exporter 
+la requête sous forme de GéoPackage. 
+Nous passons donc à l'onglet 4 "Résumé". 
+La dernière chose à faire avant d'exporter est de chercher "Uster" 
+sur le côté droit de la carte. Ensuite, il sera agrandi:
 
-.HOT-Export-Tool Uster
+.Outil d'exportation HOT Uster
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 
-Sobald du das gemacht hast, kannst du auf den Button "Export erstellen" 
-klicken (siehe unten).
+Une fois que vous avez fait cela, vous pouvez cliquer sur le bouton 
+"Créer une exportation" (voir ci-dessous).
 
-.HOT-Export-Tool Tab 4 "Summary".
+.Outil d'exportation HOT onglet 4 "Résumé".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
-Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
-diesem Kapitel.
+Enfin, notez les notes sur le post-traitement des géodonnées 
+ci-dessus dans ce chapitre.
 
 === OSMaxx
 
-Mit OSMaxx können Auszüge von OpenStreetMap in verschiedenen GIS-Formaten 
-heruntergeladen werden und und zwar nicht nur Länderweise sondern in beliebigen 
-Ausschnitten.
+Avec OSMaxx, des extraits d'OpenStreetMap peuvent être téléchargés 
+dans différents formats SIG, pas seulement par pays, mais dans le format souhaité.
 
-Um OSMaxx nutzen zu können benötigt man ein OSM-Konto mit einer gültigen 
-E-Mail-Adresse.
+Pour utiliser OSMaxx, vous avez besoin d'un compte OSM avec une adresse e-mail valide.
 
-Unter _Existing Excerpt / Country_ können bestehende Auszüge heruntergeladen werden.
-Es kann ausgewählt werden, in welchem Format die Datei heruntergeladen werden soll,
-welches Koordinatensystem verwendet werden soll und wie viele Details angezeigt 
-werden sollen.
+Les extraits existants peuvent être téléchargés sous _Existing Excerpt / Country_. 
+Vous pouvez choisir dans quel format le fichier doit être téléchargé, quel système 
+de coordonnées doit être utilisé et combien de détails doivent être affichés.
 
-Unter _New Excerpt_ kannst du eigene Bereiche von OpenStreetMap auswählen, die 
-du herunterladen möchtest.
-Dazu kann man ein Viereck oder ein Polygon über die Karte zeichnen.
-Es kann wiederum ausgewählt werden in welchem Format die Datei heruntergeladen 
-werden soll, welches Koordinatensystem verwendet werden soll und wie viele 
-Details angezeigt werden sollen.
+Sous _Nouvel extrait_, vous pouvez sélectionner vos propres zones 
+d'OpenStreetMap que vous souhaitez télécharger.
+Vous pouvez dessiner un rectangle ou un polygone sur la carte. 
+Là encore, vous pouvez choisir dans quel format le fichier doit 
+être téléchargé, quel système de coordonnées doit être utilisé et 
+combien de détails doivent être affichés.
 
-Das Exportieren der Daten geht mindestens etwa 45 Minuten. 
+L'exportation des données prend au moins 45 minutes environ. 
 
-Falls du ein GIS-Format gewählt hast und wissen möchtest, ob und wo es zum 
-Beispiel Bäckereien hat, gehe zur "About"-Seite von OSMaxx, wo das Datenschema 
-dokumentiert ist.
+Si vous avez choisi un format SIG et que vous voulez savoir si et où il y a 
+des boulangeries, par exemple, allez sur la page "A propos" d'OSMaxx, 
+où le schéma de données est documenté.
 
-Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
-diesem Kapitel.
+Enfin, notez les notes sur le post-traitement des géodonnées 
+ci-dessus dans ce chapitre.
 
 === BBBike
 
-BBBike https://extract.bbbike.org/ bietet die Daten von Planet.osm in vielen 
-verschiedenen Dateiformaten an.
+BBBike https://extract.bbbike.org/ offre les données de Planet.osm 
+dans de nombreux formats de fichiers différents.
 
-Für die Extraktion muss lediglich eine Bounding Box erstellt werden.
-Die Bounding Box kann maximal 24'000'000 km² gross sein, oder 512 Megabytes als 
-Datei.
-Nachdem du eine gültige E-Mail Adresse angegeben hast und der Extraktion einen 
-Namen zugeteilt hast, kannst du auf die _Extract_-Schaltfläche klicken.
-Dir wird eine Benachrichtigung per E-Mail geschickt mit dem Download-Link.
+Seule une boîte de délimitation doit être créée pour l'extraction. 
+La boîte de délimitation peut avoir une taille maximale de 
+24'000'000 km², soit 512 mégaoctets comme fichier. 
+Après avoir saisi une adresse e-mail valide et attribué un nom à 
+l'extraction, vous pouvez cliquer sur le bouton _Extract_. Vous recevrez 
+une notification par courriel avec le lien de téléchargement.
 
-Wenn du mehr zu BBBike erfahren möchtest, dann schaue doch unter folgendem Link 
-in der Dokumentation nach:
+Si vous voulez en savoir plus sur BBBike, veuillez consulter 
+le lien suivant dans la documentation:
 
 * https://www.bbbike.org/api.html
 
-Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
-diesem Kapitel.
+Enfin, notez les notes sur le post-traitement des géodonnées 
+ci-dessus dans ce chapitre.
 
-
-== Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
+== Fusion des calques de polygone avec les calques de points dans QGIS
 
 Bei OSM kommt es immer wieder vor, dass ein Objekt - wie beispielsweise eine 
 Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) 
