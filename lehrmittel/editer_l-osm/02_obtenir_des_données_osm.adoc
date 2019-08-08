@@ -305,91 +305,89 @@ Si vous souhaitez apprendre à filtrer des objets, passez au chapitre
 
 === OSM.org
 
-Auf https://osm.org[OSM.org] kann man Daten auch herunterladen.
-Diese können nur als rechteckige Ausschnitte (Bounding Box) und bis 
-max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
-Dafür sind die Daten aktuell.
+Sur https://osm.org[OSM.org], vous pouvez également télécharger des données.
+Ceux-ci ne peuvent être obtenus que sous forme de sections rectangulaires (bounding box) 
+et jusqu'à un maximum de 50.000 nœuds, et également uniquement au format `OSM XML`.
+Mais les données sont à jour.
 
-Um Daten in OSM herunterladen zu können, brauchst du keinen Account. 
-Klicke einfach oben links auf den Button "Export" und es erscheint auf der linken 
-Seite eine Sidebar. Nun siehst du dort die Bounding Box mit den Koordinaten. 
-Die Bounding Box umfasst die ganze OSM-Karte, die gerade sichtbar ist. Die 
-Koordinaten verändern sich, wenn du die Karte verschiebst oder rein- und rauszoomst. 
-Falls du jedoch nicht die ganze sichtbare Karte exportieren möchtest, sondern nur einen 
-Ausschnitt, dann klicke unter der Bounding Box auf "Einen anderen Bereich manuell auswählen". 
-Jetzt kannst du nur den Ausschnitt exportieren, den du auch wirklich benötigst. Jetzt 
-klicke in der Sidebar nochmals auf "Export" und du erhältst eine .osm-Datei, die du 
-in QGIS importieren und bearbeiten könntest.
+Pour télécharger des données dans OSM, vous n'avez pas besoin d'un compte. 
+Cliquez simplement sur le bouton "Exporter" dans le coin supérieur gauche et une barre 
+latérale apparaîtra sur la gauche. Vous pouvez maintenant voir la boîte de délimitation avec les coordonnées. 
+La Bounding Box contient toute la carte OSM actuellement visible. Les coordonnées 
+changent lorsque vous déplacez la carte ou faites un zoom avant ou arrière. 
+Cependant, si vous ne souhaitez pas exporter toute la carte visible, mais seulement 
+une section, cliquez sur "Sélectionner une autre zone manuellement" sous la zone de délimitation. 
+Maintenant, vous ne pouvez exporter que la section dont vous avez vraiment besoin. Cliquez de nouveau 
+sur "Exporter" dans la barre latérale et vous obtiendrez un fichier.osm que vous pourrez 
+importer et modifier dans QGIS.
 
-Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
-diesem Kapitel.
+Enfin, notez les notes sur le post-traitement des géodonnées 
+ci-dessus dans ce chapitre.
 
-=== Geofabrik-Downloads
+=== Téléchargements de Geofabrik
 
-Die Webseite von Geofabrik http://download.geofabrik.de/ bietet OpenStreetMap-Daten 
-für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
-Die Daten können dort als Shapefiles (`.shp.zip`) oder aber in den 
-OSM-spezifischen Formaten `.osm.pbf` und `.osm.bz2` heruntergeladen werden.
+Le site Web de Geofabrik http://download.geofabrik.de/ offre des données OpenStreetMap 
+pour des pays et des régions entiers, qui sont bien sûr librement utilisables.
+Les données peuvent y être téléchargées sous forme de fichiers Shapefiles 
+(`.shp.zip`) ou dans les formats spécifiques OSM `.osm.pbf` et `.osm.bz2`.
 
-Die Daten sind in einzelne Regionen unterteilt.
-Wenn man auf eine Region klickt, werden die Daten der Länder in dieser Region angezeigt.
-Je nach Land kann man auch noch kleinere Ausschnitte aus dem Land herunterladen.
-Wenn man den Mauszeiger über eine Region oder ein Land hält, sieht man in der 
-Karte auf der rechten Seite der Webseite das jeweilige Gebiet.
-Die Daten auf GeoFabrik werden alle 24 Stunden aktualisert mit den Daten von OpenStreetMap.
-Das heisst, dass wenn man eigene Änderungen gerade in OpenstreetMap gemacht hat,
-muss man mindestens einen Tag warten, bis sie auch auf Geofabrik verfügbar sind.
-Stelle sicher, welche Daten du herunterlädst, da einige mehrere Gigabyte gross sein können.
+Les données sont divisées en régions individuelles. 
+Si vous cliquez sur une région, les données des pays de cette région s'affichent. 
+Selon le pays, vous pouvez également télécharger des extraits plus petits du pays. 
+Si vous maintenez le pointeur de la souris sur une région ou un pays, vous 
+verrez la zone correspondante sur la carte sur le côté droit du site. 
+Les données de GeoFabrik sont mises à jour toutes les 24 heures avec les données d'OpenStreetMap. 
+Cela signifie que si vous venez d'effectuer vos propres modifications dans OpenstreetMap, 
+vous devez attendre au moins un jour qu'elles soient disponibles chez Geofabrik.
+Assurez-vous des données que vous téléchargez, car certaines peuvent avoir une taille de plusieurs gigaoctets.
 
-Shapefile ist ein GIS-Vektor-Format und damit nach bestimmten Layer 
-('Feature-Klassen') strukturiert. 
-Um bestimmte Objekte zu finden, wie beispielsweise Bäckereien (in OSM-Tag `shop=bakery`) 
-oder Supermärkte (Tag `shop=supermarket`) musst du die Dokumentation des 
-"Layered GIS Format" auf https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik]
-- oder aber die Daten selbst - konsultieren.
+Shapefile est un format vectoriel SIG et donc structuré selon certaines 
+couches ('classes de fonctionnalités'). 
+Pour trouver certains objets, tels que les boulangeries 
+(dans la balise OSM `shop=bakery`) ou les supermarchés (balise `shop=supermarket`) 
+vous devez consulter la documentation du "Layered GIS Format" sur 
+https://www.geofabrik.de/de/data/shapefiles.html[Geofabrik] - ou les données elles-mêmes.
 
-Beachte schliesslich die Hinweise zur Nachbearbeitung der Geodaten oben in 
-diesem Kapitel.
+Enfin, notez les notes sur le post-traitement des géodonnées 
+ci-dessus dans ce chapitre.
 
-=== HOT-Export-Tool
+=== Outil d'exportation HOT
 
-Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT-Export-Tool 
-einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
-Um das HOT-Export-Tool zu verwenden, brauchst du ein OpenStreetMap-Benutzerkonto 
-und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
-bereit sind zum Herunterladen.
-Nach dem Anmelden sieht man folgende Punkte und Tabulatoren:
+L'équipe humanitaire OpenStreetMap Team (HOT) offre un service en ligne avec 
+l'outil d'exportation HOT pour télécharger des données depuis OpenStreetMap.
+Pour utiliser l'outil d'exportation HOT, vous avez besoin d'un compte utilisateur 
+OpenStreetMap et d'une adresse e-mail valide pour être averti lorsque les données 
+sont prêtes pour le téléchargement.
+Après vous être connecté, vous verrez les points et onglets suivants:
 
-1. Exportbeschreibung
-2. Formate
-3. Data
-4. Summary 
+1. Description des exportations
+2. Formats
+3. Données
+4. Récapitulatif 
 
-Tabulator 1 und 4 sollen nachfolgend etwas genauer beschrieben werden.
+Les tabulateurs 1 et 4 sont décrits plus en détail ci-dessous.
 
-Bei Tabulator 1 "Exportbeschreibung" geht es darum, der zu exportierenden Datei 
-einen Namen und eine Beschreibung zu geben.
-Das untere Bild zeigt als Beispiel das Exportieren von Brotverkaufsstellen in 
-Uster.
+Tabulateur 1 "Exporter description" est utilisé pour décrire le fichier à exporter. 
+L'image ci-dessous montre un exemple d'exportation de débouchés pour le pain à Uster.
 
-.HOT-Export-Tool Tab 1 "Exportbeschreibung".
+.Outil d'exportation HOT onglet 1 "Description de l'exportation".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
-Danach kannst du auf verschiedene Arten die Daten, die du herunterladen möchtest, 
-auswählen.
+Vous pouvez ensuite sélectionner les données que vous souhaitez télécharger 
+de différentes manières.
 
-Du kannst entweder:
+Vous le pouvez aussi:
 
-* Eine Ortschaft in der Suche eingeben
-* Mit Koordinaten eine Bounding Box angeben
-* Die aktuelle Ansicht herunterladen
-* Eine Bounding Box selber zeichnen
-* Ein Polygon zeichnen
-* Ein Polygon als GeoJSON-Datei hochladen
+* Entrez une localité dans la recherche
+* Spécification d'une boîte de délimitation avec coordonnées
+* Télécharger la vue actuelle
+* Dessinez vous-même une Bounding Box
+* Dessiner un polygone
+* Télécharger un polygone en tant que fichier GeoJSON
 
-Für die ersten zwei Möglichkeiten muss nur das Suchfeld genutzt werden.
-Dort kannst du entweder die gewünschte Ortschaft oder eine Bounding Box (Westen, 
-Süden, Osten, Norden) angeben.
+Pour les deux premières possibilités, seul le champ de recherche doit être utilisé. 
+Vous pouvez y spécifier soit la ville désirée, soit une case de 
+délimitation (ouest, sud, est, nord).
 
 Um eine Bounding Box oder ein Polygon zu zeichnen, muss auf der rechten Seite der 
 Karte die _Draw_-Schaltfläche gedrückt werden.
