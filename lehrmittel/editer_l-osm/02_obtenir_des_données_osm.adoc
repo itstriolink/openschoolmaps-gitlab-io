@@ -26,13 +26,13 @@ individuelles si vous n'êtes intéressé que par certains sujets ou solutions.
 .Structure
 Les sujets suivants seront abordés:
 
-* Einleitung mit Erläuterungen zu OpenStreetMap und Geoinformationssystemen 
-sowie zu gängigen Dateiformaten
-* OpenStreetMap-Daten mit Overpass extrahieren 
-* OpenStreetMap-Daten mit QuickOSM-Plugin direkt in QGIS importieren
-* Verschiedene Web-Tools zum Download von OpenStreetMap-Daten
-* Polygon-Layer mit Punkt-Layer in QGIS zusammenführen
-* Mit QGIS Objekte filtern oder regelbasiert darstellen
+* Introduction avec des explications sur OpenStreetMap et les systèmes 
+d'information géographique ainsi que sur les formats de fichiers courants.
+* Extraction des données OpenStreetMap avec Overpass 
+* Importez des données OpenStreetMap directement dans QGIS avec le plugin QuickOSM
+* Divers outils Web pour télécharger les données OpenStreetMap
+* Fusion des calques de polygone avec les calques de points dans QGIS
+* Filtrage ou affichage d'objets basé sur des règles avec QGIS
 
 Nous vous recommandons de lire au moins l'introduction et le chapitre 
 "Extraction des données OpenStreetMap avec Overpass".
@@ -40,55 +40,57 @@ Nous vous recommandons de lire au moins l'introduction et le chapitre
 [NOTE]
 ====
 Ce tutoriel traite de l'utilisation des données existantes dans OpenStreetMap.
-Wer selber Daten erfassen will, kann sich mit den Arbeitsblättern
-"OpenStreetMap bearbeiten" und "Mit uMap eine thematische Online-Karte erstellen" 
-sowie auf https://learnosm.org/de/ informieren.
+Si vous souhaitez enregistrer des données vous-même, vous pouvez utiliser les 
+feuilles de travail "Edit OpenStreetMap" et "Create a thematic online map with 
+uMap" ainsi que https://learnosm.org/de/ pour plus d'informations.
 ====
 
-== Einleitung
+== Initiation
 
-Die Daten von OpenStreetMap kommen in unterschiedlichen Datenformaten daher.
-Daher werden wir zunächst einige dieser Dateiformate genauer erläutern.
+Les données d'OpenStreetMap sont disponibles dans différents formats de données.
+C'est pourquoi nous allons d'abord expliquer plus en détail certains de ces formats de fichiers.
 
-=== OpenStreetMap und Geoinformationssysteme
+=== OpenStreetMap et les systèmes d'information géographique
 
-Die Geometrie der Objekte in OpenStreetMap (OSM) sind intern als topologische 
-Strukturen (Node, Ways) abgelegt
-und die Objekt-Attribute als Tags (Key-Value-Paare) sind nur teilweise strukturiert.
-Dieses beliebig erweiterbare Datenschema muss für Geoinformationssysteme (GIS) 
-und deren Formate zuerst umgewandelt werden.
-Es gibt kein einheitliches "GIS"-Datenschema für OSM.
-Kaum ein Export aus OSM ist darum gleich wie der andere.
+La géométrie des objets dans OpenStreetMap (OSM) est stockée en interne sous forme 
+de structures topologiques (nœuds, voies) et les attributs des objets sous forme 
+de tags (paires clé-valeur) ne sont que partiellement structurés.
+Ce schéma de données, qui peut être étendu à volonté, doit d'abord être converti 
+pour les systèmes d'information géographique (SIG) et leurs formats.
+Il n'existe pas de schéma de données SIG unique pour l'OSM.
+Pratiquement aucune exportation de l'OSM n'est donc identique à l'autre.
 
-=== Dateiformate
+=== Formats de fichiers
 
-Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
+Fondamentalement, on peut faire la distinction entre les formats SIG propres à 
+l'OSM et les formats SIG analysables.
 
-* OSM-spezifische Formate sind v.a. OSM XML und OSM PBF.
-* GIS-kompatible Formate sind GeoJSON, GeoPackage, Shapefiles und GeoJSON.
-* Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
-* Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG und PDF.
+* Les formats spécifiques à l'OSM sont principalement OSM XML et OSM PBF.
+* Les formats compatibles SIG sont GeoJSON, GeoPackage, Shapefiles et GeoJSON.
+* Les autres formats vectoriels SIG sont : KML et GPX pour l'échange de données GPS.
+* D'autres formats qui ne peuvent pas être analysés plus avant sont les formats 
+d'images/raster tels que PNG, JPEG et PDF.
 
 [NOTE]
 ====
-Nachfolgend sind verschiedene Methoden beschrieben, um OpenStreetMap-Daten 
-in QGIS zu importiert. 
-Die erste Methode funktioniert mittels Overpass-Turbo, einem Webdienst zur 
-Abfrage von OpenStreetMap-Daten. 
-Wir empfehlen dir, diese Methode zuerst anzuschauen, da sie die effizienteste 
-aller vorgestellten Methoden ist. 
-Die zweite Methode basiert auf QuickOSM, einem Plugin für QGIS, mit dem sich 
-OpenStreetMap-Abfragen direkt in QGIS erstellen lassen. 
-Es wird jedem selber überlassen, welche Methode man einsetzen will. 
+Ce qui suit décrit les différentes méthodes d'importation des 
+données OpenStreetMap dans QGIS. 
+La première méthode fonctionne avec Overpass-Turbo, un service web pour 
+interroger les données OpenStreetMap. 
+Nous vous recommandons d'examiner d'abord cette méthode, car c'est la plus 
+efficace de toutes les méthodes présentées. 
+La seconde méthode est basée sur QuickOSM, un plugin pour QGIS qui vous 
+permet de créer des requêtes OpenStreetMap directement dans QGIS. 
+C'est à vous de décider quelle méthode vous voulez utiliser. 
 
-Nach den beiden Import-Methoden werden verschiedene Web-Tools vorgestellt zum 
-Download von OpenStreetMap-Daten. 
+Après les deux méthodes d'importation, différents outils Web sont présentés 
+pour télécharger les données OpenStreetMap. 
 
-In den beiden letzten Kapitel erfährst du, wie man in QGIS die importierten 
-Geodaten nachbearbeitet.
+Dans les deux derniers chapitres, vous apprendrez comment éditer 
+les géodonnées importées dans QGIS.
 ====
 
-== OpenStreetMap-Daten mit Overpass extrahieren
+== Extraction des données OpenStreetMap avec Overpass
 
 Bevor wir uns auf die Aufgaben stürzen, müssen wir noch einige Unklarheiten klären. 
 Da wir mit Geodaten arbeiten, wäre es sinnvoll, uns auf eine Ortschaft zu einigen. 
