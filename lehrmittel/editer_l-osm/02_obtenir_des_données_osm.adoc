@@ -520,107 +520,105 @@ ci-dessus dans ce chapitre.
 
 == Fusion des calques de polygone avec les calques de points dans QGIS
 
-Bei OSM kommt es immer wieder vor, dass ein Objekt - wie beispielsweise eine 
-Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) 
-erfasst wird. 
-Darum kommt es vor, dass man im GIS Polygon-Layer erhält mit denselben 
-Objektarten wie im Punkte-Layer.
-Eigentlich will man aber alle Objekte einheitlich und alle auf einmal ansprechen.
+Avec l'OSM, il arrive à maintes reprises qu'un objet - comme une 
+boulangerie - soit capturé comme un point et parfois comme un 
+polygone de contour de bâtiment. 
+C'est pourquoi il arrive que vous obteniez des couches de polygones 
+dans le SIG avec les mêmes types d'objets que dans la couche de points. 
+En fait, cependant, on veut s'adresser à tous les objets uniformément et tout à la fois.
 
-Also, gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
-Polygon-Layer in Punkt umwandeln und können diese dann im Punkte-Layer 
-integrieren. 
+Ainsi, étant donné une couche polygonale et une couche de points, nous devons 
+convertir les polygones de la couche polygonale en points et pouvons 
+ensuite les intégrer dans la couche de points. 
 
-Dafür gehst du in QGIS unter Menü "Vektor" zu "Geometrie-Werkzeuge" und dann 
-zu "Zentroide...". 
-Danach sollte das QGIS so aussehen, wobei dort die Namen der neuen Layer bereits 
-umbenannt wurden:
+Pour ce faire, allez dans "Geometry Tools" dans le menu "Vector" 
+du QGIS et ensuite dans "Centroids...". 
+Après cela, le QGIS devrait ressembler à ceci, où les noms des 
+nouvelles couches ont déjà été renommés:
 
-.Polygon-Layer umgewandelt
+.Couche polygonale convertie
 image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
 
-Da wir jetzt mehrere Punkte-Layer haben, müssen wir diese zusammenführen. 
-Solch ein Zusammenführen funktioniert nur, wenn alle Layer denselben 
-Geometrie-Datentyp haben.
-Gehe dafür im QGIS-"Vektor"-Menü zu "Datenmanagement-Werkzeuge" und 
-dann zu "Vektorlayer zusammenführen". 
-Im Dialogfenster wählst du die vier Layer aus:
+Comme nous avons maintenant plusieurs couches de points, nous devons les fusionner. 
+Une telle fusion ne fonctionne que si toutes les couches ont le même 
+type de données géométriques. 
+Allez dans "Data Management Tools" dans le menu "Vector" du QGIS puis dans "Merge Vector Layers". 
+Sélectionnez les quatre couches dans la boîte de dialogue:
 
-.Mehrere Layer zu einem einzigen Layer zusammenführen
+.Fusionner plusieurs calques en un seul calque
 image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG["vektorlayer_zusammenfuehren", 480, 317]
 
-Nachdem du das ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
-Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
-Der neue Layer trägt den Namen "Zusammengeführt". 
-Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennst.
-Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) 
-nicht umbenannt wurde:
+Après avoir fait ceci, vous verrez un nouveau calque sur la gauche. 
+Maintenant vous n'avez plus besoin des anciens calques et vous pouvez les supprimer. 
+Le nouveau calque porte le nom "Fusionné". 
+Ça aurait du sens si vous l'aviez rebaptisé "Bread Stores". 
+Ci-dessous vous pouvez voir le résultat final de cette seconde méthode, 
+où la couche n'a pas (encore) été renommée: 
 
-.Endergebnis
+.Résultat final
 image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
 
 
-== Mit QGIS Objekte filtern oder regelbasiert darstellen
+== Filtrage ou affichage d'objets basé sur des règles avec QGIS
 
-Nachdem du OpenStreetMap-Daten im gewünschten Ausschnitt erhalten hast, möchtest 
-du vielleicht nicht mit allen Daten arbeiten. 
-Es gibt zwei grundsätzlich unterschiedliche Methoden, eine Teilmenge der Daten 
-zu erhalten:
-Einerseits kann man die Datenquelle nach selbst definierten Kriterien filtern. 
-Und andererseits kann man die Daten regelbasiert darstellen, sodass nur jene 
-Daten angezeigt werden, welche die Regeln erfüllen.
+Après avoir reçu les données OpenStreetMap dans la section souhaitée, 
+il se peut que vous ne vouliez pas travailler avec toutes les données. 
+Il existe deux méthodes fondamentalement différentes pour obtenir 
+un sous-ensemble de données: 
+D'une part, la source de données peut être filtrée selon des critères personnalisés. 
+D'autre part, vous pouvez afficher les données en fonction des règles, de 
+sorte que seules les données conformes aux règles soient affichées.
 
-Im Folgenden schauen wir uns die beiden Methoden an. 
-Das Beispiel mit den Brotverkaufsstellen bleibt gleich. 
-Die Brotverkaufsstellen beinhalten sowohl "bakeries" als auch "supermarkets". 
-Wir wollen nun aber nur noch "bakeries" in QGIS verarbeiten bzw. darstellen.
+Dans ce qui suit, nous examinons les deux méthodes. 
+L'exemple des points de vente de pain reste le même. 
+Les points de vente de pain contiennent à la fois des "boulangeries" et des "supermarchés". 
+Mais maintenant, nous voulons seulement traiter et afficher les "boulangeries" dans QGIS.
 
-=== Mit QGIS Objekte filtern
+=== Filtrer les objets avec QGIS
 
-In QGIS kommt man auf zwei Möglichkeiten zum Dialog, um Objekte zu filtern: 
-Entweder man geht im Menü auf "Layer" und wählt dann "Filter..." (während der 
-gewünschte Layer ausgewählt ist). 
-Oder man macht einen Rechtsklick auf den gewünschten Layer und geht dann auf 
-"Filter...". 
-Danach öffnet sich ein Dialog mit dem Titel "Abfrageerstellung". 
-In diesem Fenster sieht man folgendes:
+Dans QGIS, il existe deux options de dialogue pour filtrer les objets: 
+Soit vous allez dans "Layer" dans le menu et sélectionnez ensuite 
+"Filter...". (alors que le calque désiré est sélectionné). 
+Vous pouvez aussi cliquer avec le bouton droit de la souris sur le calque désiré et aller dans "Filtrer...". 
+Une boîte de dialogue avec le titre "Création d'une requête" s'ouvre alors. 
+Dans cette fenêtre, vous pouvez voir ce qui suit: 
 
-* Felder: Eine Liste aller Attribute, welche der ausgewählte Layer beinhaltet
-* Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen 
-(um einige Werte anzuzeigen, klicke auf den Knopf "Stichprobe")
-* Operatoren: Logische Operatoren zum Verknüpfen der Felder und Werte
-* Datenanbieter-spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der 
-Attribute und Werte
+* Champs: Une liste de tous les attributs que contient le calque sélectionné.
+* Valeurs: Les valeurs de l'attribut sélectionné qui apparaissent dans le 
+calque (pour afficher certaines valeurs, cliquez sur le bouton "Sample")
+* Opérateurs: Opérateurs logiques pour relier des champs et des valeurs.
+* Expression de filtre spécifique au fournisseur de données: 
+expression SQL pour filtrer les attributs et les valeurs
 
-Im Eingabefeld "Datenanbieter-spezifischer Filterausdruck" geben wir folgendes 
-ein:
+Dans le champ de saisie "Expression de filtre spécifique au 
+fournisseur de données", nous introduisons ce qui suit:
 
 [source,sql]
 ----
 "shop"='bakery'
 ----
 
-"shop" ist das Attribut (beachte die doppelten Anführungszeichen). 
-'bakery' ist der Wert (beachte die einfachen Anführungszeichen).
+"shop" est l'attribut (notez les guillemets doubles). 
+boulangerie' est la valeur (notez les guillemets simples). 
 
-Das Fenster sollte dann folgendermassen ausschauen:
+La fenêtre devrait ressembler à ceci:
 
-.Objekte filtern
+.Filtrer les objets
 image::osm_editieren/osm-daten_beziehen/filtern.PNG["Objekte filtern", 490, 407]
 
-Nun klickst du auf "OK". 
-Du solltest nun die Meldung bekommen, dass ca. 10 Objekte gefunden wurden, 
-die beim Attribut "shop" den Wert "bakery" haben.
-Wir sehen nur noch diejenigen Objekte, die das Filterkriterium erfüllen. 
-Alle anderen Objekte sind nicht mehr Teil der Datenquelle des Layers:
+Cliquez maintenant sur "OK". 
+Vous devriez maintenant recevoir le message qu'environ 10 objets 
+ont été trouvés qui ont la valeur " boulangerie " dans l'attribut " boutique ".
+Nous ne voyons que les objets qui répondent au critère de filtrage. 
+Tous les autres objets ne font plus partie de la source de données de la couche:
 
-.Bäckereien in Uster
+.Boulangeries à Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
 
-Wie du oben siehst, solltest du nun den Layer entsprechend von 
-"Brotverkaufsstellen" in "Bäckereien" umbenennen.
+Comme vous pouvez le voir ci-dessus, vous devez maintenant 
+renommer le calque "Boulangeries" en "Boulangeries".
 
-=== Mit QGIS Objekte regelbasiert darstellen
+=== Affichage des objets basé sur des règles avec QGIS
 
 Bei der regelbasierten Darstellung geht es darum, aus einer Layer-Datenquelle 
 heraus alle diejenigen Objekte darzustellen, die ein Kriterium erfüllen. 
