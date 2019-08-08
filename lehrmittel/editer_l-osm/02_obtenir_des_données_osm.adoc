@@ -53,7 +53,7 @@ C'est pourquoi nous allons d'abord expliquer plus en détail certains de ces for
 === OpenStreetMap et les systèmes d'information géographique
 
 La géométrie des objets dans OpenStreetMap (OSM) est stockée en interne sous forme 
-de structures topologiques (nœuds, voies) et les attributs des objets sous forme 
+de structures topologiques (nodes, ways) et les attributs des objets sous forme 
 de tags (paires clé-valeur) ne sont que partiellement structurés.
 Ce schéma de données, qui peut être étendu à volonté, doit d'abord être converti 
 pour les systèmes d'information géographique (SIG) et leurs formats.
