@@ -60,7 +60,7 @@ Vous pouvez ensuite le placer sur la carte.
 +
 .Placez une épingle dans uMap. (Données cartographiques (C) Contributeurs OpenStreetMap)
 image::umap/lageplan_erstellen/stecknadel_platzieren.PNG[]
-5. Une autre possibilité est de dessiner une image de chemin:umap/weg_icon.PNG["Weg-Icon", 25, 25, 25], 
+5. Une autre possibilité est de dessiner un chemin image:umap/weg_icon.PNG["Weg-Icon", 25, 25, 25], 
 par exemple pour montrer comment les visiteurs se rendent de 
 l'arrêt de bus à l'événement, comme nous le faisons ici.
 
