@@ -665,7 +665,7 @@ image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 2
 Cliquez maintenant sur "OK". 
 Nous voyons que l'entrée ne dit plus "(pas de filtre)", mais `"shop"='bakery'`. 
 Cliquez maintenant sur "Appliquer", puis à nouveau sur "OK".  
-Dans le SIGQ, cela devrait maintenant ressembler à ceci :
+Dans QGIS, cela devrait maintenant ressembler à ceci :
 
 .Boulangeries à Uster
 image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
