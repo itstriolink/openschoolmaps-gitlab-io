@@ -370,7 +370,7 @@ Les tabulateurs 1 et 4 sont décrits plus en détail ci-dessous.
 Tabulateur 1 "Description de l'Export" est utilisé pour décrire le fichier à exporter. 
 L'image ci-dessous montre un exemple d'exportation de débouchés pour le pain à Uster.
 
-.Outil d'exportation HOT onglet 1 "Description de l'exportation".
+.Outil d'exportation HOT onglet 1 "Description de l'Export".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab1.PNG[]
 
 Vous pouvez ensuite sélectionner les données que vous souhaitez télécharger 
@@ -451,7 +451,7 @@ Avec le site http://www.yamllint.com/[YAML Lint] vous pouvez valider YAML.
 
 Tout ça ressemblera à ça:
 
-.Outil d'exportation HOT onglet 3 "Données".
+.Outil d'exportation HOT onglet 3 "Data".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab3.PNG[]
 
 Une fois que vous avez fait cela, nous pouvons presque exporter 
@@ -466,7 +466,7 @@ image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 Une fois que vous avez fait cela, vous pouvez cliquer sur le bouton 
 "Créer l'export" (voir ci-dessous).
 
-.Outil d'exportation HOT onglet 4 "Résumé".
+.Outil d'exportation HOT onglet 4 "Summary".
 image::osm_editieren/osm-daten_beziehen/hotosm_tab4.PNG[]
 
 Enfin, notez les notes sur le post-traitement des géodonnées 
@@ -663,7 +663,7 @@ C'est ce qu'on va croire:
 image::osm_editieren/osm-daten_beziehen/edit_rule.PNG["Edit-Rule-Dialog", 319, 260]
 
 Cliquez maintenant sur "OK". 
-Nous voyons que l'entrée ne dit plus "(pas de filtre)", mais `"shop"='bakery'``. 
+Nous voyons que l'entrée ne dit plus "(pas de filtre)", mais `"shop"='bakery'`. 
 Cliquez maintenant sur "Appliquer", puis à nouveau sur "OK".  
 Dans le SIGQ, cela devrait maintenant ressembler à ceci :
 
