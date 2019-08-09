@@ -108,7 +108,7 @@ Visitez d'abord le site Web Overpass-Turbo à l'adresse suivante : http://overpa
 Lorsque vous visitez le site Web pour la première fois, il ressemble à ceci:
 
 .Page d'accueil de Overpass-Turbo
-image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
+image::osm_editieren/osm-daten_beziehen/startseite.PNG["Startseite", 800, 400]
 
 Cliquez sur le bouton rouge "Assistant". 
 L'assistant permet de créer facilement des requêtes de dépassement. 
