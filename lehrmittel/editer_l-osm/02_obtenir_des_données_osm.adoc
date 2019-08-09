@@ -557,7 +557,7 @@ Ci-dessous vous pouvez voir le résultat final de cette seconde méthode,
 où la couche n'a pas (encore) été renommée: 
 
 .Résultat final
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG["Brotverkaufsstellen QGIS, 800, 400]
 
 
 == Filtrage ou affichage d'objets basé sur des règles avec QGIS
@@ -614,7 +614,7 @@ Nous ne voyons que les objets qui répondent au critère de filtrage.
 Tous les autres objets ne font plus partie de la source de données de la couche:
 
 .Boulangeries à Uster
-image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG["Uster Bäckereien", 800, 400]
 
 Comme vous pouvez le voir ci-dessus, vous devez maintenant 
 renommer le calque "Boulangeries" en "Boulangeries".
@@ -701,7 +701,7 @@ Cliquez maintenant sur "Appliquer" puis sur "OK".
 Il devrait maintenant ressembler à ceci dans QGIS:
 
 .Boulangeries avec code couleur (rose)
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG["Brotverkaufsstellen Regelbasiert", 800, 400]
 
 La couche "Sorties de pain" doit maintenant avoir deux groupes d'objets différents. 
 D'une part, nous voyons les 28 points de vente de pain en orange. 
