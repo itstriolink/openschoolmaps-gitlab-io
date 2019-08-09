@@ -108,7 +108,7 @@ Visitez d'abord le site Web Overpass-Turbo à l'adresse suivante : http://overpa
 Lorsque vous visitez le site Web pour la première fois, il ressemble à ceci:
 
 .Page d'accueil de Overpass-Turbo
-image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
+image::osm_editieren/osm-daten_beziehen/startseite.PNG["Startseite", 800, 400]
 
 Cliquez sur le bouton rouge "Assistant". 
 L'assistant permet de créer facilement des requêtes de dépassement. 
@@ -122,7 +122,7 @@ image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG["Wizard-Abfrage", 280,
 Après avoir cliqué sur "Construire et exécuter une requête", vous obtiendrez ce qui suit:
 
 .Résultat de la requête de l'assistant
-image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
+image::osm_editieren/osm-daten_beziehen/resultat.PNG["Resultat, 800, 400]
 
 Le résultat ci-dessus peut également être simplifié en remplaçant les `nodes`, 
 les `ways` et les `relations` par `nwr` (=nodes/ways/relations).
@@ -146,7 +146,7 @@ Si nous copions maintenant les lignes du haut et les collons et les exécutons
 dans Overpass-Turbo comme une requête, nous obtenons ce qui suit :
 
 .Résultat révisé
-image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
+image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG["Resultat Neu", 800, 400]
 
 Nous voyons maintenant dans le coin inférieur droit que les objets affichés ne sont que des POI.
 Nous avons maintenant 28 POI et 0 polygone, parce que nous avons converti les 5 polygones en POI 
@@ -167,7 +167,7 @@ De plus, nous renommons la couche de manière appropriée, par exemple "Sorties 
 Notre QGIS ressemble maintenant à ceci :
 
 .GeoJSON importé dans QGIS
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG["Brotverkaufsstellen", 800, 400]
 
 Comme vous l'avez probablement remarqué, une couche standard OSM est utilisée 
 ici comme arrière-plan pour présenter plus clairement les données.
@@ -217,7 +217,7 @@ travailler avec le plugin.
 L'image suivante montre l'installation du plugin:
 
 .Installation QuickOSM
-image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
+image::osm_editieren/osm-daten_beziehen/quick_osm.PNG[]
 
 Ouvrons maintenant le plugin en cliquant sur "Vector" dans la barre de menu puis sur "Quick OSM". 
 Ensuite, nous entrons la requête suivante pour rechercher des boulangeries à Uster:
@@ -557,7 +557,7 @@ Ci-dessous vous pouvez voir le résultat final de cette seconde méthode,
 où la couche n'a pas (encore) été renommée: 
 
 .Résultat final
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG["Brotverkaufsstellen QGIS, 800, 400]
 
 
 == Filtrage ou affichage d'objets basé sur des règles avec QGIS
@@ -614,7 +614,7 @@ Nous ne voyons que les objets qui répondent au critère de filtrage.
 Tous les autres objets ne font plus partie de la source de données de la couche:
 
 .Boulangeries à Uster
-image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG[]
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien.PNG["Uster Bäckereien", 800, 400]
 
 Comme vous pouvez le voir ci-dessus, vous devez maintenant 
 renommer le calque "Boulangeries" en "Boulangeries".
@@ -668,7 +668,7 @@ Cliquez maintenant sur "Appliquer", puis à nouveau sur "OK".
 Dans QGIS, cela devrait maintenant ressembler à ceci :
 
 .Boulangeries à Uster
-image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG["User Bäckereien nach Regeln", 800, 400]
 
 Nous voyons que nous avons encore 28 objets. 
 Cependant, seuls les 10 objets qui remplissent la règle, 
@@ -701,7 +701,7 @@ Cliquez maintenant sur "Appliquer" puis sur "OK".
 Il devrait maintenant ressembler à ceci dans QGIS:
 
 .Boulangeries avec code couleur (rose)
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_regelbasiert.PNG["Brotverkaufsstellen Regelbasiert", 800, 400]
 
 La couche "Sorties de pain" doit maintenant avoir deux groupes d'objets différents. 
 D'une part, nous voyons les 28 points de vente de pain en orange. 
