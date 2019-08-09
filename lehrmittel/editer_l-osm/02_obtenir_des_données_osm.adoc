@@ -122,7 +122,7 @@ image::osm_editieren/osm-daten_beziehen/wizardAbfrage.PNG["Wizard-Abfrage", 280,
 Après avoir cliqué sur "Construire et exécuter une requête", vous obtiendrez ce qui suit:
 
 .Résultat de la requête de l'assistant
-image::osm_editieren/osm-daten_beziehen/resultat.PNG[]
+image::osm_editieren/osm-daten_beziehen/resultat.PNG["Resultat, 800, 400]
 
 Le résultat ci-dessus peut également être simplifié en remplaçant les `nodes`, 
 les `ways` et les `relations` par `nwr` (=nodes/ways/relations).
@@ -146,7 +146,7 @@ Si nous copions maintenant les lignes du haut et les collons et les exécutons
 dans Overpass-Turbo comme une requête, nous obtenons ce qui suit :
 
 .Résultat révisé
-image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG[]
+image::osm_editieren/osm-daten_beziehen/resultatNeu.PNG["Resultat Neu", 800, 400]
 
 Nous voyons maintenant dans le coin inférieur droit que les objets affichés ne sont que des POI.
 Nous avons maintenant 28 POI et 0 polygone, parce que nous avons converti les 5 polygones en POI 
@@ -167,7 +167,7 @@ De plus, nous renommons la couche de manière appropriée, par exemple "Sorties 
 Notre QGIS ressemble maintenant à ceci :
 
 .GeoJSON importé dans QGIS
-image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG[]
+image::osm_editieren/osm-daten_beziehen/brotverkaufsstellen_QGIS.PNG["Brotverkaufsstellen", 800, 400]
 
 Comme vous l'avez probablement remarqué, une couche standard OSM est utilisée 
 ici comme arrière-plan pour présenter plus clairement les données.
