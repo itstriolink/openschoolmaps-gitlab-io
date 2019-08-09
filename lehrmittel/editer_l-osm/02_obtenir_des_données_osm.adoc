@@ -668,7 +668,7 @@ Cliquez maintenant sur "Appliquer", puis à nouveau sur "OK".
 Dans QGIS, cela devrait maintenant ressembler à ceci :
 
 .Boulangeries à Uster
-image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG[]
+image::osm_editieren/osm-daten_beziehen/uster_bäckereien_nach_regeln.PNG["User Bäckereien nach Regeln", 800, 400]
 
 Nous voyons que nous avons encore 28 objets. 
 Cependant, seuls les 10 objets qui remplissent la règle, 
