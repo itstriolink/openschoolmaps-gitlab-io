@@ -217,7 +217,7 @@ travailler avec le plugin.
 L'image suivante montre l'installation du plugin:
 
 .Installation QuickOSM
-image::osm_editieren/osm-daten_beziehen/quick_osm.png[]
+image::osm_editieren/osm-daten_beziehen/quick_osm.PNG[]
 
 Ouvrons maintenant le plugin en cliquant sur "Vector" dans la barre de menu puis sur "Quick OSM". 
 Ensuite, nous entrons la requête suivante pour rechercher des boulangeries à Uster:
