@@ -13,6 +13,7 @@ def main():
     adoc_file_paths = list(materials.glob('**/*.adoc'))
     for p in adoc_file_paths:
         sanity_check(p)
+    for p in adoc_file_paths:
         make_pdfs(p)
 
 
