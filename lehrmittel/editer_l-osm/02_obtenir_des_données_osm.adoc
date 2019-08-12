@@ -219,7 +219,7 @@ L'image suivante montre l'installation du plugin:
 .Installation QuickOSM
 image::osm_editieren/osm-daten_beziehen/quick_osm.PNG[]
 
-Ouvrons maintenant le plugin en cliquant sur "Vector" dans la barre de menu puis sur "Quick OSM". 
+Ouvrons maintenant le plugin en cliquant sur "Vecteur" dans la barre de menu puis sur "Quick OSM". 
 Ensuite, nous entrons la requête suivante pour rechercher des boulangeries à Uster:
 
 .Demande de renseignements sur la boulangerie
@@ -543,7 +543,7 @@ image::osm_editieren/osm-daten_beziehen/vier_punktelayer.PNG[]
 Comme nous avons maintenant plusieurs couches de points, nous devons les fusionner. 
 Une telle fusion ne fonctionne que si toutes les couches ont le même 
 type de données géométriques. 
-Allez dans "Data Management Tools" dans le menu "Vector" du QGIS puis dans "Merge Vector Layers". 
+Allez dans "Data Management Tools" dans le menu "Vecteur" du QGIS puis dans "Merge Vector Layers". 
 Sélectionnez les quatre couches dans la boîte de dialogue:
 
 .Fusionner plusieurs calques en un seul calque
