@@ -267,7 +267,7 @@ par exemple magasin de type boulangerie et type supermarché.
 On aimerait les analyser et/ou les représenter filtrées.
 
 Pour le premier problème, nous nous référons au menu QGIS "Outils 
-de géotraitement" et à l'algorithme "Crop". 
+de géotraitement" et à l'algorithme "Couper". 
 Cet algorithme nécessite la spécification d'une couche de superposition, 
 un périmètre, qui est généralement une limite administrative (p. ex. Uster). 
 
@@ -532,8 +532,8 @@ Ainsi, étant donné une couche polygonale et une couche de points, nous devons
 convertir les polygones de la couche polygonale en points et pouvons 
 ensuite les intégrer dans la couche de points. 
 
-Pour ce faire, allez dans "Geometry Tools" dans le menu "Vector" 
-du QGIS et ensuite dans "Centroids...". 
+Pour ce faire, allez dans "Outils de gestion de données" dans le menu "Vecteur" 
+du QGIS et ensuite dans "Fusionner des Couches Vecteur". 
 Après cela, le QGIS devrait ressembler à ceci, où les noms des 
 nouvelles couches ont déjà été renommés:
 
