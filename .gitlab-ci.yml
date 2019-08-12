@@ -11,22 +11,8 @@ PDFs:
   - docker
   script:
   - set -e
-  - for f in $(find ./lehrmittel/ -name '*.adoc');
-    do
-      asciidoctor-pdf
-        --attribute icons=font
-        --attribute source-highlighter=coderay
-        $f;
-    done
-  - for f in $(grep -rl 'def::show_solutions\[' lehrmittel/ | grep '.adoc$');
-    do
-      asciidoctor-pdf
-        --attribute icons=font
-        --attribute source-highlighter=coderay
-        --attribute show_solutions
-        $f
-        -o ${f%.*}_solutions.pdf;
-    done
+  - apk add python3
+  - ./build.py
   artifacts:
     expire_in: 3 mos
     paths:
