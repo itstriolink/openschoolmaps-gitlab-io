@@ -12,7 +12,17 @@ SOLUTION_SIGNATURE = 'def::show_solutions['
 def main():
     adoc_file_paths = list(materials.glob('**/*.adoc'))
     for p in adoc_file_paths:
+        sanity_check(p)
         make_pdfs(p)
+
+
+def sanity_check(path):
+    for p in path.parts:
+        if p != p.strip():
+            raise Exception(
+                f'Part "{p}" of path "{path}"'
+                ' has leading or trailing whitespace.'
+            )
 
 
 def make_pdfs(adoc_file_path):
