@@ -63,4 +63,8 @@ Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmate
 
 Get https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/english/download?job=PDFs[these materials in English] (Zip archive)
 
+=== Version française
+
+Obtenez https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/french/download?job=PDFs[ces documents en français] (archive Zip)
+
 Bildquelle: Yves Maurer 2018
