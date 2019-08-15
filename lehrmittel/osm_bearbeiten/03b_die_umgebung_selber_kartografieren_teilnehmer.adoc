@@ -28,11 +28,10 @@ unterschiedlich viel Zeit, mindestens jedoch drei Stunden.
 Dies ist der grobe Zeitplan eines Outdoor Events:
 
 1. Allgemeine Vorbereitungen (z.B. was ist OpenStreetMap?); mind. ca. 20 min.
-1. Konkrete Vorbereitung für die Kartierung draussen; mind. ca. 20 min.
-1. Draussen kartieren; mind. ca. 60 min, besser zwei bis drei Stunden.
-1. Instruktion zum Editieren von OpenStreetMap; mind. ca. 20 min.
-1. Editieren am Computer; mind. ca. eine Stunde, besser zwei Stunden.
-
+2. Konkrete Vorbereitung für die Kartierung draussen; mind. ca. 20 min.
+3. Draussen kartieren; mind. ca. 60 min, besser zwei bis drei Stunden.
+4. Instruktion zum Editieren von OpenStreetMap; mind. ca. 20 min.
+5. Editieren am Computer; mind. ca. eine Stunde, besser zwei Stunden.
 
 == Einleitung
 
