@@ -23,6 +23,8 @@ kann!
 
 ## News
 
+- Am 18. August 2019 wurde eine [Wiki-Seite 'Einführung in JOSM' angelegt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/wikis/Einf%C3%BChrung-in-JOSM) mit kommentierten Links über diesen Editor.
+- Le 16 août 2019, les feuilles de travail pour "OSM.org comme visualiseur de carte" et "Editer et utiliser OpenStreetMap" ont été mises à disposition en français (voir archive Zip ci-dessous sur le matériel didactique).
 - On June 27, 2019, OpenSchoolMaps was supplemented with special teaching material entitled "Mapping the surroundings yourself". An information for instructors and a worksheet for participants explain how to organize an "outdoor mapping event" (including mapping parties and project days for school classes).
 - Am 21. Juni 2019 wurden zwei neue Anleitungen mit dem aktuellen Thema "Die Umgebung selber kartografieren - Outdoor Mapping Event" publiziert und zwar einerseits eine Anleitung für Lehrpersonen und Instruktoren und andererseits eine Anleitung für Teilnehmende, d.h. für Schülerinnen und Schüler und für Interessierte.
 - Am 21. Juni 2019 wurde die "Kontakt"-Webseite erweitert um "Kontakt & Rechtliches".
