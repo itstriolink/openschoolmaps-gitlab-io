@@ -33,7 +33,7 @@ Click on the features on the left panel, and you will be able to obtain addition
 === (All) Show Map Data
 
 Especially with features that are not displayed on the map, it can be difficult to find and examine them in this way. 
-Click on the small stack icon image:osm_editieren/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side. 
+Click on the small stack icon image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Layer icon", 20, 20] above the image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-button on the right side. 
 A sidebar with the map layers will pop out. 
 At the bottom of the sidebar, select the "Map data" checkbox.
 
