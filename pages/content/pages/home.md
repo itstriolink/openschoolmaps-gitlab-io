@@ -23,6 +23,7 @@ kann!
 
 ## News
 
+- OpenSchoolMaps wurde bei den diesjährigen [DINAcon Awards 2019 nominiert](https://awards.dinacon.ch/shortlist-steht-fest/) als eine von drei Projekten in der Kategorie "Best Open Education Project"
 - Am 18. August 2019 wurde eine [Wiki-Seite 'Einführung in JOSM' angelegt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/wikis/Einf%C3%BChrung-in-JOSM) mit kommentierten Links über diesen Editor.
 - Le 16 août 2019, les feuilles de travail pour "OSM.org comme visualiseur de carte" et "Editer et utiliser OpenStreetMap" ont été mises à disposition en français (voir archive Zip ci-dessous sur le matériel didactique).
 - On June 27, 2019, OpenSchoolMaps was supplemented with special teaching material entitled "Mapping the surroundings yourself". An information for instructors and a worksheet for participants explain how to organize an "outdoor mapping event" (including mapping parties and project days for school classes).
