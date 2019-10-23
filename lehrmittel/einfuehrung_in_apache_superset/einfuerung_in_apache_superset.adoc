@@ -1,0 +1,722 @@
+= Einführung in Apache Superset
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:imagesdir: ../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+
+*Ein Arbeitsblatt für Interessierte und Lehrpersonen*
+
+== Übersicht 
+
+=== Lernziele
+
+Diese Einführung hat folgende Lernziele:
+
+* Du kennst die wichtigsten Konzepte und Grundfunktionen
+* Du kannst Datenquellen selektieren und filtern
+* Du kannst Daten mit Charts visualisieren
+* Du kannst Charts zu einem Dashboard anordnen
+* Du kannst Dashboards mit anderen (übers Web) teilen
+* Du kennst weitere Anpassungsmöglichkeiten für die Charts im Dashboard
+
+Das Bearbeiten dieses Arbeitsblatts dauert ca. 2h, je nach deinem Vorwissen.
+
+Für diese Einführung werden keine Programmierkenntnisse verlangt (bis auf den letzten Abschnitt); 
+Grundkenntnisse der Tabellenkalkulation genügen für's Erste. 
+
+Für die Übungen in diesem Arbeitsblatt benötigst du einen Zugang zu einem Apache Superset-Service (vgl. unten), 
+sowie einen gängigen Webbrowser und eine Internetverbindung. 
+
+Diese Anleitung bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde.
+
+=== Einleitung
+
+Für den Erfolg einer Entscheidungsfindung ist eine gute Visualisierung wichtig. 
+Darum müssen die Erkenntnisse eines Anliegens, Projektes oder Umfrage visualisiert werden. 
+Wenn Erkenntnisse anschaulich und nachvollziehbar dargestellt werden, erhöht das deren Verständlichkeit und Akzeptanz.
+
+Visualisierung kann man zudem nicht nur zur Veranschaulichung einsetzen, sondern auch zu Datenanalyse. 
+Häufig erkennt man Zusammenhänge in den Daten erst durch eine geschickte Darstellung. 
+Wir Menschen sind schlecht darin, Zahlen zu vergleichen; grafische Muster dagegen erkennen wir gut. 
+Visualisierung stellt somit nicht nur die Daten graphisch dar, sondern kann auch als eigene Technik der Datenanalyse eingesetzt werden. 
+Das Internet ermöglicht zudem die Publikation der Visualisierung und damit die einfache Kommunikation mit Kunden und (Arbeits-)Kollegen.
+
+Apache Superset ist so ein Daten-Visualisierungs- und Data-Sharing-Werkzeug. 
+Manche nennen diese Anwendung auch "Business Intelligence Tool". 
+Superset ist auch ein Werkzeug zum Teilen (Sharing) von Datenquellen, d.h. von Tabellen-Daten bis zu Geodaten. 
+Es kann mit verschiedensten Datenbanken verbunden werden. 
+
+NOTE: Zu Apache Superset gibt es eine offizielle, englische Dokumentation. 
+Diese scheint leider sehr dünn und nicht nachgeführt zu sein, denn es verwendet z.B. veraltete Begriffe (Slices statt Charts)
+und das darin enthaltene Tutorial setzt Wetterdaten voraus, die nicht vorinstalliert sind.
+Das Nützlichste der Dokumentation ist das (kleine) FAQ Frequently Asked Questions (Häufig gestellte Fragen): https://superset.incubator.apache.org/faq.html . 
+
+
+=== Benutzerkonto erstellen/anmelden
+
+Apache Superset ist eine Webapplikation und für den Zugang wird ein Konto benötigt.
+Wenn du bereits Zugang zu Apache Superset hast, dann melde dich dort an.
+
+Apache Superset kennt verschiedene Benutzer-Rollen, die bestimmte Rechte haben, um Daten zu verändern oder Funktionen aufzurufen. 
+In diesem Arbeitsblatt wird angenommen, dass du Benutzerrechte erhalten hast, die der "Gamma"-Rolle entsprechen, d.h. du kannst Charts und Dashboards erstellen.
+
+Das Geometa Lab HSR betreibt unter anderem "Apache Superset Cloud" als "Software-as-a-Service". 
+Apache Superset Cloud verwendet das Datenbanksystem PostgreSQL mit der PostGIS-Erweiterung
+und ist kostenpflichtig (Teilnehmende von Weiterbildungskursen des Geometa Lab HSR erhalten einen eigenen Zugang).
+
+
+== Konzepte und Begriffe
+
+Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Kapitel) siehst du das Menü oben und unter anderem die Menüpunkte _Sources_, _Charts_ und _Dashboards_.
+
+Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
+
+* Sources (Datenquellen): Eine "Source" kann entweder durch die Definition verfügbarer Tabellen und zugehöriger Felder oder durch die Erstellung von SQL-Abfragen und die Definition von Datenquellen aus diesen erstellt werden.
+* Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
+* Charts (Diagramme), vorher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten sind.
+* Dashboards: Ein "Dashboard" ist eine interaktive Webseite auf der man interaktive Charts präsentieren kann.
+* Metrics: Bei "Metrics" (manchmal auch "Measurements" genannt) handelt es sich um Kennzahlen. Sie werden u.a. für Charts benötigt.
+* "Record": Datenquellen und Charts sind alles Programmier-Elemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
+* SQL-Query: Eine Anweisung, eine Datenbankanfrage in der Datenbanksprache SQL. SQL-Queries kann man speichern und als Datenquelle zur Verfügung stellen.
+
+NOTE: Im Menü "Sources" von Apache Superset und in der Orginal-Dokumentation von Apache Superset wird Druid als Datenbanksystem erwähnt. 
+Alle auf Druid bezogenen Informationen im Menü (und in der Dokumentation) kannst du ignorieren.
+
+
+== Daten und Fragestellungen
+
+Die mit Apache Superset und BI-Tools allgemein zu visualisierenden Daten müssen in strukturierter und sauberer Form vorliegen. 
+Wenn nötig müssen die Daten mit Datenbanksystemen (SQL), Tabellenkalkulationsprogrammen (z.B. MS Excel, LibreOffice) oder GIS (z.B. QGIS) aufbereitet werden 
+(siehe u.a. https://openschoolmaps.ch/[OpenSchoolMaps] > "Einführung in QGIS 3 und in Geoinformationssysteme (GIS)"). 
+Hilfreich, um Daten zu bereinigen ("Data Wrangling") kann hierbei auch z.B. http://openrefine.org/[OpenRefine] sein.
+
+Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (Quelle: https://data.worldbank.org/, Lizenz CC BY-4.0, Stand ca. 2017).
+Die Daten beschreiben die Population, urban/rural (Lebensraum) und die Lebenserwartung pro Land bzw. pro Region über die Jahre 1960 bis 2014.
+
+In diesem Arbeitsblatt wird nur eine Tabelle verwendet, die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Population").
+
+Die Tabelle `wb_health_population` hat ca. 328 Kolonnen (Attribute), d.h. sehr viele.
+Wir verwenden davon nur folgende Kolonnen:
+
+* Name des Landes: `country_name`
+* Weltregion, in der das Land liegt: `region`
+* Jahr der Datenerhebung (1960 - 2014): `year`
+* Anzahl Menschen insgesamt: `SP_POP_TOTL`
+* Anzahl Personen, die in der Stadt wohnen: `SP_URB_TOTL`
+* Anteil an Personen, die auf dem Land wohnen (rural) in Prozent: `SP_RUR_TOTL_ZS`
+* Lebenserwartung: `SP_DYN_LE00_IN`
+
+Abbildung 1 zeigt die Daten, die wir nutzen werden. 
+Nimm dir doch kurz Zeit und schaue dir diese Daten genau an. 
+Zu verstehen, welche Daten in welcher Spalte sind, ist eine Notwendigkeit, um sinnvolle und korrekte Diagramme erstellen zu können.
+
+Diese Daten wollen wir nun analysieren und uns fragen, ob sich Charakteristika oder Zusammenhänge erkennen lassen, wie beispielsweise: 
+"Leben in einem Land mehr Personen auf dem Land (rural) oder in der Stadt (urban)?", 
+oder "Gibt es einen Zusammenhang zwischen Lebenserwartung und ruralen bzw. urbanen Regionen?".
+
+.Daten von der Schweiz von 1960 - 1981
+image::einfuehrung_in_apache_superset/daten_schweiz.PNG[, 860, 549]
+
+
+== Sieben Charts (Diagramme)
+
+Am Ende dieser Anleitung wirst du sieben Charts erstellt haben (und einen Filter).
+
+Schaue zuerst im Anhang nach, was Apache Superset alles für Diagramme (Charts) anbietet, wobei wir dort nur eine Auswahl getroffen haben von den über 40 Charts, die Superset zurzeit anbietet.
+
+Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in der Abbildung 1 in der Reihenfolge nummeriert, in der du sie gleich erstellen wirst.
+
+* Da gibt es einen Filter (Nr. 8). Damit kann man die Datensätze auf eine Region oder Land beschränken. 
+* Direkt darunter ist Chart Nr. 3 zu sehen, benannt mit *"World's Population"*. Dieser zeigt wie gross die Population ist und deren Wachstum mittels einer Linie. 
+* Rechts dieser beiden Charts befindet sich eine _Weltkarte_ *("% Rural")*. Dieser Chart Nr. 7 zeigt durch das Färben der Länder wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%). Zudem wird als Zahl durch eine Blase angezeigt, wie viele Menschen das sind. 
+* Im sich darunter befindenden Chart Nr. 2 *"Rural Breakdown"* werden dieselben Daten dargestellt. Der innere Kreis zeigt hierbei die Region an und der äussere das Land (beim Hovern mit der Maus über die Abschnitte werden diese Informationen angezeigt).
+* Am rechten Rand befindet sich eine _Tabelle_ (Chart Nr. 1) und diese zeigt jedes Land und die Grösse dessen Bevölkerung (Metric) an. 
+* Der Linien-Chart *"Growth Rate"* (Chart Nr. 4) veranschaulicht auch das Wachstum der Bevölkerung, jedoch über eine längere Zeitspanne als bei *"World's Population"*. Und es zeigt es zudem pro Land.
+* *"World's Pop Growth"* (Chart Nr. 5) visualisiert dieselben Daten wie Growth Rate, wird jedoch in Regionen aufgeteilt. 
+* Zuletzt gibt es noch ein etwas komplexeren Chart Nr. 6 *"Life Expectancy vs. rural %"*, der darstellt wie hoch die Lebenserwartung in einem Land ist, in welcher Region es sich befindet und wie viel Prozent von der Bevölkerung ländlich lebt.
+
+.Dashboard, das Daten der Weltbank zur Population visualisiert und zwar mit sieben interaktiven Charts (Nr. 1 - 7) plus einem Filter (Nr. 8).
+image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
+
+
+=== Mein erster Chart
+
+Als erstes musst du eine Datenquelle (Source) wählen. 
+Unter image:einfuehrung_in_apache_superset/sources.PNG[] können die verschiedenen Tabellen eingesehen werden. 
+Hierbei kann man auf die Lupe image:einfuehrung_in_apache_superset/lupe.PNG[] klicken, um genauere Informationen über die Tabelle zu erhalten, 
+wie z.B. welche Spalten die Tabelle besitzt und welche Datentypen dort gespeichert werden können. 
+Zudem kann man unter _Columns_ einstellen, ob man nach dieser Spalte gruppieren darf ob, sie zeitlich ist oder ob sie filterbar ist.
+
+Um eine Tabelle abzufragen, muss man auf den Namen der Tabelle klicken. 
+In diesem Beispiel ist das `wb_health_population`. 
+Es ist nur möglich, eine einzelne Tabelle als Quelle auszuwählen. 
+Benötigt man mehrere Tabellen als Datenquelle, muss eine sogenannte "View", d.h. eine SQL-Query, geschrieben werden. 
+
+Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster, bzw. ein neuer Browser Tab, in dem man nun einen Chart erstellen kann.
+Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
+
+Direkt darunter, bei _Visualization Type_ (Chart-Typ) steht _Table_, also ein einfaches Balken-Diagramm.  
+
+Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 anfangen und im Jahr 2014 aufhören. 
+Wir verwenden deshalb einen _Custom_-Filter von `2014-01-01T00:00:00` – `2014-12-31T00:00:00`.
+
+NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn es keine Daten gibt, die Zeitabhängig sind, kann man `No filter` wählen.
+
+Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst. 
+Die Spalte _Metrics_ muss immer ausgefüllt sein. 
+Sie wird auch bei allen Darstellungen verwendet, um zu bestimmen wie viel Gewicht diese Zeile hat (bei einem Kreis-Chart wäre das die Grösse des Abschnittes). 
+Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
+Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten. 
+
+Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen. 
+_Group by_ wird genutzt um von einem Total auf einen Betrag pro ausgewähltem Attribut zu kommen z.B. die Population pro Land.
+Wähle darum hier das Attribut `country_name` aus (das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist). 
+
+Speichere nun diesen Chart als dein erstes Ergebnis in Apache Superset, z.B. mit dem Namen "Chart 1". 
+Du wirst diesen Chart später wieder brauchen.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Die Abfrage müsste wie folgt aussehen:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe1.PNG[]
+====
+endif::show_solutions[]
+
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+*Aufgabe 2* +
+_Nun da du die Population von jedem Land siehst, können wir die Daten auf alle Länder die mehr als 100M Einwohner haben beschränken. Probiere dies mit Hilfe des Filters unter Query (hierfür wird die Option Custom SQL nicht benötigt)._
+
+ifdef::show_solutions[]
+====
+.Lösung
+Die Abfrage müsste wie folgt aussehen:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe2.PNG[]
+Was zu dieser Ausgabe führen sollte:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe2(2).PNG[]
+====
+endif::show_solutions[]
+
+=== Chart Nr.2 Städtische Aufteilung
+
+Um das Ganze jetzt noch schöner zu machen, kannst du dir unter _Datasource & Chart Type -> Visualization Type_ einen passenden Chart zu den Daten auswählen.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+*Aufgabe 3* +
+_Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar (Hierarchy ist ähnlich zu behandeln wie Group by bei der Tabellen-Ansicht)._
+
+Füge jetzt bei _Hierarchy_ `region` an erster Stelle hinzu.
+Die Reihenfolge ist wichtig für die Darstellung, damit man sieht, in welcher Region 
+das jeweilige Land liegt und wie viel es von dessen Population ausmacht. 
+An dieser Stelle empfiehlt es sich, den zuvor erstellten Filter wieder zu entfernen oder anzupassen, damit man mehr Beispiele hat, bei denen man die Folgen des nächsten Schrittes sehen kann. 
+
+IMPORTANT: Jeder Chart hat seine eigenen Optionen.
+
+
+
+Als nächstes werden wir die Farbe anpassen, da die Abbildung momentan nicht gerade hübsch ist. 
+Die Farbe dieses Charts kann man auf zwei Arten anpassen.
+
+1. klicke auf den Tab _Customize_ und wähle ein neues Farbschema aus.
+1. benutze die Farbe, um mehr Informationen anzuzeigen.
+
+Dies geht indem du unter _Secondary Metric_ -> `SP_URB_TOTL` (Urban Total) auswählst und summierst. 
+Das führt dazu, dass nun sofort ersichtlich ist wie der Grossteil der Bevölkerung in dem Land lebt (in der Stadt oder auf dem Land).
+
+Speichere nun deinen Chart unter einem passenden Namen. Du wirst ihn später wieder brauchen.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Die Abfrage müsste wie folgt aussehen:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe3.PNG[]
+====
+endif::show_solutions[]
+
+=== Chart Nr.3 Wachstum der Population
+
+Als nächstes wäre es spannend zu sehen, wie die Population gewachsen ist. 
+
+Das Wachstum kann man sich in Superset mit dem _Big Number with Trendline_ Chart als Trendlinie anzeigen lassen
+wobei diese auch noch den letzten Wert gross über der Trendlinie darstellt.
+Der Chart wäre so schon brauchbar, aber du kannst noch unter _Options -> Comparison Period Lag_ und _Comparison suffix_ einstellen.
+
+_Comparison Period Lag_ legt fest welche Jahre miteinander verglichen werden um den prozentalen Wachstum anzuzeigen
+(Wenn du eine fünf bei _Comparison Period Lag_ eintippst vergleicht es die letzte Jahreszahl die er hat (in diesem Fall 2014)
+mit der fünf Jahre vor dieser (2009)). 
+
+Bei _Comparison suffix_ kannst du einen Text eingeben der die Prozentzahl beschreibt.
+Der beschreibende Text wird direkt hinter der Prozentzahl angezeigt. 
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+*Aufgabe 4* +
+_Stelle das Bevölkerungswachstum von 2000 bis 2014 mittels der Big Number with Trendline dar._
+
+Speichere nun deinen Chart unter einem passenden Namen. Du wirst ihn später wieder brauchen.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Die Abfrage müsste wie folgt aussehen:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe4.PNG[]
+====
+endif::show_solutions[]
+
+
+=== Chart Nr.4 Bevölkerungswachstum pro Land
+
+Da Chart Nr.3 uns aber nur das durchschnittlichen Wachstum anzeigt wäre es noch interessant den Bevölkerungswachstum pro Land zu sehen, um einen besseren einblick in die Verteilung zu erhalten.
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+*Aufgabe 5* +
+_Jetzt da du schon das Wachstum der Population dargestellt hast, sollte es dir nicht schwer fallen die Wachstumsrate pro Land mittels eines Line Charts darzustellen. Setze hierbei noch ein Series limit, um die Anzahl Länder, die angezeigt werden zu beschränken und erhöhe die Zeitspanne auf `1960-2014`. Die Zeitspanne kannst du eintippen oder den Filter auf `No filter` setzen._
+
+Speichere auch diesen Chart wieder ab.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Die Abfrage könnte wie folgt aussehen:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe5.PNG[]
+====
+endif::show_solutions[]
+
+=== Chart Nr.5 Bevölkerungswachstum pro Region
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+*Aufgabe 6* +
+_Eine weitere Art diese Daten darzustellen wäre mit einem Area Chart. Probiere es aus!_
+
+Chart Nr.4 hat die Daten schon sehr stark aufgeteilt, lass uns den Chart so anpassen, dass die Aufteilung weniger stark ist, um einen besseren Überblick zu gewinnen.
+
+Bevor du auch diesen Chart wieder abspeicherst, zeige dir das Wachstum der einzelnen Regionen an.
+Im Anhang findest du ein Bild(Abbildung Nr.10) von dem Chart. Bemerke, dass die Farben anders sein können.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Die Abfrage müsste wie folgt aussehen:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe6.PNG[]
+====
+endif::show_solutions[]
+
+
+=== Chart Nr.6 Lebenserwartung im Vergleich zu den Prozent der ländlich lebenden Bevölkerung pro Land
+
+Als Nächstes wollen wir etwas Schwierigeres probieren und zwar wollen wir einen 6. Chart wie folgt erstellen:
+
+.life_expectancy_vs_rural (Chart 6)
+image::einfuehrung_in_apache_superset/life_expectancy_vs_rural.PNG[]
+
+In diesem Chart ist ersichtlich, wie viele Einwohner ländlich wohnen (X-Achse), wie hoch die Lebenserwartung ist (Y-Achse), in welcher Region sich ein Land befindet (Farbe der Blasen) und wie hoch die Einwohnerzahl ist (Grösse der Blase).
+
+dieser Chart veranschaulicht sehr gut, ob und wenn ja, wie die Lebenserwartung mit dem pozentsatz der ländlich Lebenden zusammenhängt.
+
+Um diesen Chart zu erhalten, musst du zuerst den _Bubble Chart_ auswählen und die Zeitspanne von `2011-01-01` bis `2011-12-31` setzen. 
+Danach musst du unter _Series_ `region` auswählen, um die Blasen dementsprechend zu färben. 
+Bei Entity musst du nun `country_name` wählen, damit die einzelnen Länder angezeigt werden. 
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+*Aufgabe 7* +
+_Wähle die korrekten Spalten für X Axis, Y Axis, Bubble size._
+
+Speichere auch dieser Chart unter einen passenden Namen.
+
+ifdef::show_solutions[]
+====
+.Lösung
+Die Abfrage könnte wie folgt aussehen:
+
+image::einfuehrung_in_apache_superset/loesung_aufgabe7.PNG[]
+====
+endif::show_solutions[]
+
+
+=== Chart Nr.7 Weltkarte
+
+Zum Abschluss machen wir noch dieses Chart Nr. 7:
+
+.rural_percentage (Chart 7)
+image::einfuehrung_in_apache_superset/rural_percentage.PNG[]
+
+
+
+Dieser Chart zeigt durch das Färben der Länder wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%).
+Zudem wird als Zahl durch eine Blase angezeigt, wie viele Menschen das sind.
+Um die Prozentzahl der ländlich Lebenden oder die Grösse der Bevölkerung zu sehen, muss du mit der Maus über das Land beziehungsweise der Blase hovern.
+
+Es ist eine _World Map_. Hier die Optionen dazu:
+
+* Die Zeitspanne musst du hierfür erneut abändern zu `2014-01-01` bis `2014-12-31`. 
+* Unter _Country Control_ wirst du den `Country_code` auswählen müssen und unter _Country Field Type_ den `code ISO 3166-1 alpha-3 (cca3)`. _Country Control_ wird verwendet, um festzulegen in welchem Land sich etwas befindet mittels einer Abkürzung und _Country Field Type_ interpretiert diese Abkürzung. 
+* Unter _Metric for color_ kannst du `SP_RUR_TOTL_ZS` wählen um die Farbe abhängig vom Prozentsatz von Leuten, die auf dem Land leben, zu machen.
+* Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen um eine Blase für jedes Land zu erstellen, die anzeigt wie viele Leute auf dem Land leben.
+
+Speichere auch diesen Chart unter einem passenden Namen.
+
+
+== Filter Box für das Dashboard
+
+Jetzt, da wir einige Charts haben, wäre ein Filter praktisch, den man nachher im Dashboard auf alle Charts anwenden kann. 
+Dafür muss man nur die _Filter Box_ als _Visualization Type_ auswählen und unter _Filters_ passende Spalten auswählen z.B. `region` und `country_name`. 
+Zudem kann man bei dem Filter die Option _Date Filter_ abwählen.
+
+Diesen Filter muss man natürlich auch abspeichern, um ihn später benutzen zu können.
+
+
+== Charts zu einem Dashboard anordnen
+
+Unter image:einfuehrung_in_apache_superset/dashboard.PNG[] kannst du nun dein eigenes Dashboard erstellen, bei dem dann all deine Charts ausgestellt werden können. 
+
+Beim Erstellen eines Dashboards kann man einiges einstellen, jedoch reicht es oft, nur das Feld _Title_ auszufüllen.
+
+Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen (die erste Komponente musst du nach oben zum Rand ziehen). 
+Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleicht anzeigt wie/wo die Komponente platziert wird. 
+Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst. 
+
+* _Tabs_ sind wie beim Browser selber zu verstehen und können alles Mögliche beinhalten.
+* _Rows_ sowie _Columns_ können gebraucht werden, um einzelne andere Komponenten zu verbinden. Wenn Komponenten verbunden sind, kann man den Platz zwischen ihnen auch weiss färben. Durch das Hovern über den verbundenen Komponenten erscheint ein Knopf der einem diese Option anzeigt.
+* Um die verbundenen Komponenten wieder in Gruppen zu unterteilen kann man _Divider_ verwenden. Diese stellen einen Strich dar.
+* _Header_ können verwendet werden um den einzelnen Komponenten eine Überschrift zu geben und _Markdown_ kann benutzt werden damit man noch einen beschreibenden Text zu einem Chart verfassen kann.
+* Unter _Your charts & filters_ findet man alle Charts, die man bisher erstellt hat.
+
+Nach dem Hinzufügen einer Komponente kann dessen Grösse angepasst werden. 
+Durch Anklicken der unteren rechten Ecke kann die gewünschte Grösse eingestellt werden. 
+
+image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
+*Aufgabe 8* +
+_Erstelle ein Dashboard, bei dem alle zuvor erstellten Charts und Filter verwendet werden. Probiere am besten auch gerade die verschiedenen Komponenten aus!_
+
+.Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts.
+image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
+
+== Dashboards mit anderen (übers Web) teilen
+Sobald du zufrieden bist mit deinem Dashboard kannst du es publizieren. 
+Das geht indem du hinter dem _Edit dashboard_-Knopf auf das Dropdown-Menü und dort auf _Share dashboard_ klickst. 
+Den Link kannst du nun einer anderen Person schicken, jedoch muss diese Person (d.h. deren Rolle) auch Zugriff auf die Daten haben, andernfalls wird nur ein Fehler (Error...) angezeigt.
+
+
+== Abschluss
+
+Geschafft! Du solltest nun ein Dashboard haben zu den Weltbank-Daten, dass du anderen zeigen kannst.
+
+NOTE: Zu Apache Superset und QGIS gibt es auch Kurse, u.a. am https://giswiki.hsr.ch/Agenda[Geometa Lab HSR].
+
+Gerne nehmen wir Rückmeldungen entgegen, siehe https://openschoolmaps.ch[OpenSchoolMaps] > 'Weitere Unterrichtsideen'.
+
+== Für Fortgeschrittene
+
+## Bevor Daten visualisiert werden...
+
+Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: Der Visualisierungs-Prozess beginnt mit der Wahl der Datenquelle (Tabelle), dann wird ein passender Chart ausgewählt, und schliesslich wird der Chart einem Dashboard zugeordnet.
+
+Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu vereinfachen. Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen. Das ist die Domäne der beschreibenden Statistik und des Data Engineerings. Wer die Merkmale eines Attributs kennt, findet die in Frage kommenden Charts schneller.
+
+*Qualitativ und quantitativ*: Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
+
+*Attributs-Merkmals-Levels*: Die quantitativen Merkmale lassen sich ihrerseits differenzieren in vier "Attributs-Merkmals-Levels" (Quelle: Stanley Stevens, 1946, "One the theory of Scales of Measurement"):
+
+* Nominal: Ein Name, Klassenname ("etwas Benanntes"). Meist Datentyp Text.
+
+* Ordinal: Eine Ordnungszahl, eine Rangierung, ("etwas zum Vergleichen"). Meist Datentyp Ganzzahl.
+
+* Intervall: Ein massstabsloser Zahlenwert, Verhältniszahl ("etwas Relatives"). Meist Datentyp Fliess- oder Festkommazahl.
+
+* Ratio: Ein Zahlenwert mit absolutem Nullpunkt; meist Datentyp Fliess- oder Festkommazahl.
+
+
+
+**Datentypen und Datentyp-Rollen**
+
+Ein Datentyp bestimmt den erlaubten Wertebereich. Ein Beispiel für einen Datentyp ist die Ganzzahl. Superset kennt folgende *Basis-Datentypen*:
+
+* Zeichenkette (en: Text). Im GUI mit dem Icon "ABC" dargestellt. Das können z.B. die PostgreSQL-Typen TEXT oder VARCHAR() sein.
+
+* DatumZeit (en: Datetime) Im GUI mit dem Icon "Uhr" dargestellt. Ein "temporaler" d.h. ein zeitlicher Typ mit Datums- und Zeitwert.
+
+* Zahl (en: Number). Im GUI mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
+
+* (Fliesskomma (en: float/real) und Festkommazahlen (numeric) erhalten in Superset keine Icons).
+
+* Metrik (en: Metrics). Im GUI als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
+
+Zeitliche Daten sind wichtig in jeder Datenanalyse. Sie werden u.a. zum Filtern der Daten verwendet. Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird in Superset als temporaler Typ gekennzeichnet, zusätzlich zum Attributnamen und Attributtyp.
+
+Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer *Datentyp-Rolle* (en: Data type role) wie beispielsweise "Lines" (Linien).
+
+Mit der Angabe der Datentyp-Rolle zu einem Text-Attribut ist es immer noch nicht getan: Es muss noch das *Datentyp-Encoding* (encoding = Kodierung) bestimmt werden. Superset kennt verschiedene Datentyp-Rollen und Datentyp-Encodings. Weitere werden sicherlich dazu kommen.
+
+
+
+**Räumliche Daten**
+
+Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind solche.
+
+Die wichtigsten Geometrie- bzw. *Geo-Datentypen* (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu erkennen.
+
+NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygon verwaltet sind, werden von Superset (noch) als Text oder Binärdaten interpretiert.
+
+Geo-Datentyp-Rollen und Datentyp-Encodings in Apache Superset:
+
+* Geo-Datentyp-Rolle "Longitude & Latitude columns": Zwei eng miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point".
+
+* (Eine Geo-Datentyp-Rolle "Point" gibt es noch nicht, ist aber vorreserviert).
+
+* Geo-Datentyp-Rolle "Lines": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), die als "JSON" oder als "Polylines" codiert sein können.
+
+* Geo-Datentyp-Rolle "Polygons": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), die als "JSON", als "Polylines" oder als "Geohash" codiert sein können.
+
+NOTE: Für Positionsangaben auf der Erde - beispielsweise mit dem GPS - werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). Lat/Lon werden oft als Fliesskommazahlen behandelt. Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, dass man auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+
+
+
+**Kartentypen und Superset (Map) Charts**
+
+In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. Hier werden die Geodaten den Kartensymbolen zuordnet und man spricht von Symbolisierung (en: symbolization, styling).
+
+Die Kartentypen aus der Kartografie helfen, die Superset Charts zu gruppieren. Es werden hier nur die bekanntesten Kartentypen vorgestellt. Auch Superset deckt nicht alle Kartentypen ab, kennt aber zurzeit schon zwölf verschiedene Karten-Chart-Typen (vgl. auch der Anhang):
+
+*Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. Zu diesem Kartentyp gehören folgende Superset Charts:
+
+* Mapbox: Standortkarte mit Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+* Deck.Gl Scatterplot: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim Herauszoomen. Siehe Abbildung 13/14 im Anhang.
+
+*Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
+
+* Deck.Gl Path: Netzkarte. Erwartet die Datentyp-Rolle "Lines".
+
+* Deck.Gl Arc: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+*Choroplethenkarten* (en. Choropleth Map) (deutsche Synonyme: Dichtemosaikkarten; Flächenkartogramme) werden symbolisiert mit Flächensignaturen bezogen auf Flächen. Die Werte sind hier meist nicht absolut, sondern relativ. Zu diesem Kartentyp gehören folgende Superset Charts:
+
+* Country Map: Choroplethenkarte mit Ländergrenzen. Erwartet ISO-codes von Departements/Kantone/etc (admin_level=4) als Zeichenkette.
+
+* Deck.Gl Polygon: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
+
+NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land". Richtig wäre eine relative Angabe wie "Traktoren pro km2", d.h. die absolute Summe durch die Landesfläche geteilt werden.
+
+*Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen. Man beachte den Unterschied von Symbol/Marker zu Diagramm. Zu diesem Kartentyp gehören folgende Superset Charts:
+
+* World Map: Ortsdiagrammkarte 2D. Erwartet ISO-codes von den Ländern als Zeichenkette.
+
+* Deck.Gl 3D Hexagon: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+* Deck.Gl Grid: Variante von Deck.Gl 3D Hexagon jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+* Deck.Gl Screen Grid: Ähnlich wie Deck.GL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+* Deck.Gl GeoJSON: (Bemerkung: Funktioniert momentan nicht!).
+
+Ein weiterer Superset-Karten-Chart ist *Deck.Gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.Gl-Charts zusammen mit einer Basiskarte.
+
+NOTE: Dies ist nur eine Auswahl der wichtigsten Kartentypen. Sie ist unvollständig. Eine mögliche Quelle zum Nachlesen ist https://www.gitta.info/[GITTA.info].
+
+
+
+**Zuordnung von Geodaten zu Kartentypen**
+
+Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizontalen Achse und Attributs-Merkmals-Levels auf der vertikalen Achse zu Kartentypen:
+
+|===
+
+| |**Point** |**Line** |**Area**
+
+|**Nominal**
+|Dot map
+|Network map
+|Colored area map
+
+|**Ordinal**
+|Symbol map
+|Ordered network map
+|Ordered colored map
+
+|**Interval**
+.2+|Graduated symbol map
+.2+|Flow map
+.2+|Choropleth map
+
+|**Ratio**
+
+|===
+
+Figur: Tabelle, die Geometrie-Datentypen und Attributs-Merkmals-Levels zu Kartentypen zuordnet. (Quelle: David Unwin, 1981, “Introductory Spatial Analysis”, London Methuen).
+
+## Chart-Parameter anpassen
+
+### Dashboard-Optionen
+
+Ein Dashboard kann die Darstellungs-Konfiguration (z.B. Chart-Farben) der Charts überschreiben. 
+Das ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_. 
+Hier wirst du ein Textfeld namens "JSON Metadata" finden. Dies könnte z.B. so aussehen (es kann auch sein, dass es leer ist):
+
+----
+{
+  "filter_immune_slices": [],
+  "timed_refresh_immune_slices": [],
+  "filter_immune_slice_fields": {},
+  "expanded_slices": {},
+  "refresh_frequency": 0,
+  "default_filters": "{}"
+}
+----
+
+Die Parameter gelten allgemein für alle Dashboards:
+
+
+* filter_immune_slices: Array von _slice_ids_ (int) von Charts, die nicht gefiltert werden sollen.
+----
+"filter_immune_slices": [324, 65, 92],
+----
+* timed_refresh_immune_slices: Array von _slice_ids_, die nicht ge-refreshed werden sollen.
+----
+"timed_refresh_immune_slices": [324]
+----
+* filter_immune_slice_fields: Hier kannst du einstellen, ob bei gewissen Charts spezifische Felder nicht filterbar sein sollen.
+----
+{
+    "filter_immune_slice_fields": {
+        "177": ["country_name", "__time_range"],
+        "32": ["__time_range"]
+    }
+}
+----
+* refresh_frequency: Anzahl Sekunden bis der Browser die Daten vom Server automatisch neu lädt (Ganzzahl in Sekunden).
+----
+"refresh_frequency": 5
+----
+* default_filters: Setzt Default-Werte in den Filter. Die _slice_id_ des Filters muss gegeben sein.
+----
+"default_filters": "{\"95\": {\"country_name\": [\"Kenya\"]}}"
+----
+
+NOTE: Die _slice_id_ ist in den Chart Metadaten unter _Parameter_ zu finden. Falls dein Chart keine ID hat musst du ihn noch einmal abspeichern.
+
+### Chartfarben im Dashboard definieren
+
+IMPORTANT: Damit die gewünschten Farben im Dashboard angewendet werden, muss bei den einzelnen Charts unter _Customize_ das Farbschema `Airbnb Colors`
+gesetzt sein.
+
+Um die Farbe von einem Chart abzuändern musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
+
+----
+{
+  "label_colors": {
+    "girl": "#0200ff",
+    "boy": "#00ff00"
+  },
+  "filter_immune_slices": [],
+  "timed_refresh_immune_slices": [],
+  "filter_immune_slice_fields": {},
+  "expanded_slices": {},
+  "refresh_frequency": 0,
+  "default_filters": "{}"
+}
+----
+
+Der JSON Editor Online https://jsoneditoronline.org/ kann bei der Bearbeitung helfen.
+
+Die "Keys" wie z.B. "girl" kannst du in der Legende des jeweiligen Charts finden.
+
+
+## ToolTips mit JavaScript anpassen
+
+Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als ToolTip-Text an. Dieser ist beim Chart unter _Advanced_ im _Javascript tooltip generator_
+anpassbar. 
+
+IMPORTANT: Für diese Anpassung muss JavaScript explizit erlaubt sein.
+
+Im Textfeld muss man eine funktion schreiben, die einen String zurück gibt, der dann als Tooltip angezeigt wird. Hier ein einfaches Beispiel, welches den Tooltip zu "test" setzt:
+
+----
+function myFunction(punkt) {
+    return 'test'
+}
+----
+
+Um eine sinnvolleren Tooltip zu erhalten muss man zuerst die Daten auswählen, die man nutzen will. Das geht durch das Hinzufügen von den Spalten unter _Extra data for JS_.
+
+Wenn du jetzt für jeden Punkt dir einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit den Namen "Name", musst du die Funktion so schreiben: 
+
+----
+function myFunction(punkt) {
+    return punkt.object.extraProps.Name
+}
+----
+
+
+
+== ANHANG: Chartauswahl
+
+Hier siehst du sieben Charts und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
+
+
+
+.Visualization Type: Table
+image::einfuehrung_in_apache_superset/most_populated_countries_pdf.png[pdfwidth=75%]
+
+.Visualization Type: Sunburst Chart (in Excel: Ringdiagramm/Sunburst-Diagramm)
+image::einfuehrung_in_apache_superset/rural_breakdown_pdf.png[pdfwidth=75%]
+
+.Visualization Type: Line Chart (in Excel: Liniendiagramm)
+image::einfuehrung_in_apache_superset/growth_rate_pdf.png[pdfwidth=75%]
+
+.Visualization Type: Big Number with Trendline (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset/worlds_pop_pdf.png[pdfwidth=75%]
+
+.Visualization Type: Area Chart (in Excel: Flächendiagramm)
+image::einfuehrung_in_apache_superset/worlds_pop_growth_pdf.png[pdfwidth=75%]
+
+.Visualization Type: World Map (in Excel: Karten Diagramm)
+image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
+
+.Visualization Type: Bubble Chart (in Excel: Blasendiagramm)
+image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=75%]
+
+
+== ANHANG: Weitere Charts
+
+Hier siehst du elf weitere Charts, welche in diesem Tutorial nicht vorkommen und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
+
+.Visualization Type: Mapbox (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/mapbox.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl Scatterplot (in Excel: scatter plot)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_scatterplot.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl Path (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_path.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl Arc (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_arc.png[pdfwidth=75%]
+
+.Visualization Type: Country Map (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/country_map.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl Polygon (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_polygon.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl 3D Hexagon (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_3dhexagon.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl Grid (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_grid.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl Screen Grid (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_screengrid.png[pdfwidth=75%]
+
+.Visualization Type: Deck.Gl Multiple Layers (in Excel: nicht vorhanden)
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_multiple_layers.png[pdfwidth=75%]
+
+include::../../snippets/quellenangabe.adoc[]
