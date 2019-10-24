@@ -38,15 +38,15 @@ Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu 
 
 Ein Datentyp bestimmt den erlaubten Wertebereich. Ein Beispiel für einen Datentyp ist die Ganzzahl. Superset kennt folgende *Basis-Datentypen*:
 
-* Zeichenkette (en: Text). Im GUI mit dem Icon "ABC" dargestellt. Das können z.B. die PostgreSQL-Typen TEXT oder VARCHAR() sein.
+* Zeichenkette (en: Text). In Superset mit dem Icon "ABC" dargestellt. Das können z.B. die PostgreSQL-Typen TEXT oder VARCHAR() sein.
 
-* DatumZeit (en: Datetime) Im GUI mit dem Icon "Uhr" dargestellt. Ein "temporaler" d.h. ein zeitlicher Typ mit Datums- und Zeitwert.
+* DatumZeit (en: Datetime) In Superset mit dem Icon "Uhr" dargestellt. Ein "temporaler" d.h. ein zeitlicher Typ mit Datums- und Zeitwert.
 
-* Zahl (en: Number). Im GUI mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
+* Zahl (en: Number). In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
 
-* (Fliesskomma (en: float/real) und Festkommazahlen (numeric) erhalten in Superset keine Icons).
+* Fliesskomma (en: float/real) und Festkommazahlen (numeric) erhalten in Superset keine Icons.
 
-* Metrik (en: Metrics). Im GUI als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
+* Metrik (en: Metrics). In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
 
 Zeitliche Daten sind wichtig in jeder Datenanalyse. Sie werden u.a. zum Filtern der Daten verwendet. Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird in Superset als temporaler Typ gekennzeichnet, zusätzlich zum Attributnamen und Attributtyp.
 
@@ -56,17 +56,17 @@ Mit der Angabe der Datentyp-Rolle zu einem Text-Attribut ist es immer noch nicht
 
 
 
-**Räumliche Daten**
+**Räumliche Daten (Geodaten)**
 
-Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind solche.
+Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
 
-Die wichtigsten Geometrie- bzw. *Geo-Datentypen* (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu erkennen.
+Die wichtigsten Geometrie- bzw. *Geodatentypen* (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
 
 NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygon verwaltet sind, werden von Superset (noch) als Text oder Binärdaten interpretiert.
 
 Geo-Datentyp-Rollen und Datentyp-Encodings in Apache Superset:
 
-* Geo-Datentyp-Rolle "Longitude & Latitude columns": Zwei eng miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point".
+* Geo-Datentyp-Rolle "Longitude & Latitude columns": Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point".
 
 * (Eine Geo-Datentyp-Rolle "Point" gibt es noch nicht, ist aber vorreserviert).
 
@@ -82,27 +82,27 @@ NOTE: Für Positionsangaben auf der Erde - beispielsweise mit dem GPS - werden L
 
 In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. Hier werden die Geodaten den Kartensymbolen zuordnet und man spricht von Symbolisierung (en: symbolization, styling).
 
-Die Kartentypen aus der Kartografie helfen, die Superset Charts zu gruppieren. Es werden hier nur die bekanntesten Kartentypen vorgestellt. Auch Superset deckt nicht alle Kartentypen ab, kennt aber zurzeit schon zwölf verschiedene Karten-Chart-Typen (vgl. auch der Anhang):
+Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppieren. Es werden hier nur die bekanntesten Kartentypen vorgestellt. Auch Superset deckt nicht alle Kartentypen ab, kennt aber zurzeit schon zwölf verschiedene Map-Chart-Typen (vgl. auch der Anhang):
 
 *Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. Zu diesem Kartentyp gehören folgende Superset Charts:
 
 * Mapbox: Standortkarte mit Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.Gl Scatterplot: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+* Deck.gl Scatterplot: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
 NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim Herauszoomen. Siehe Abbildung 13/14 im Anhang.
 
 *Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
 
-* Deck.Gl Path: Netzkarte. Erwartet die Datentyp-Rolle "Lines".
+* Deck.gl Path: Netzkarte. Erwartet die Datentyp-Rolle "Lines".
 
-* Deck.Gl Arc: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+* Deck.gl Arc: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
 *Choroplethenkarten* (en. Choropleth Map) (deutsche Synonyme: Dichtemosaikkarten; Flächenkartogramme) werden symbolisiert mit Flächensignaturen bezogen auf Flächen. Die Werte sind hier meist nicht absolut, sondern relativ. Zu diesem Kartentyp gehören folgende Superset Charts:
 
 * Country Map: Choroplethenkarte mit Ländergrenzen. Erwartet ISO-codes von Departements/Kantone/etc (admin_level=4) als Zeichenkette.
 
-* Deck.Gl Polygon: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
+* Deck.gl Polygon: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
 
 NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land". Richtig wäre eine relative Angabe wie "Traktoren pro km2", d.h. die absolute Summe durch die Landesfläche geteilt werden.
 
@@ -110,15 +110,15 @@ NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Wer
 
 * World Map: Ortsdiagrammkarte 2D. Erwartet ISO-codes von den Ländern als Zeichenkette.
 
-* Deck.Gl 3D Hexagon: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+* Deck.gl 3D Hexagon: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.Gl Grid: Variante von Deck.Gl 3D Hexagon jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+* Deck.gl Grid: Variante von Deck.Gl 3D Hexagon jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.Gl Screen Grid: Ähnlich wie Deck.GL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+* Deck.gl Screen Grid: Ähnlich wie Deck.GL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.Gl GeoJSON: (Bemerkung: Funktioniert momentan nicht!).
+* Deck.gl GeoJSON: (Bemerkung: Funktioniert momentan nicht!).
 
-Ein weiterer Superset-Karten-Chart ist *Deck.Gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.Gl-Charts zusammen mit einer Basiskarte.
+Ein weiterer Map-Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts zusammen mit einer Basiskarte.
 
 NOTE: Dies ist nur eine Auswahl der wichtigsten Kartentypen. Sie ist unvollständig. Eine mögliche Quelle zum Nachlesen ist https://www.gitta.info/[GITTA.info].
 
@@ -203,7 +203,7 @@ Die Parameter gelten allgemein für alle Dashboards:
 
 NOTE: Die _slice_id_ ist in den Chart Metadaten unter _Parameter_ zu finden. Falls dein Chart keine ID hat musst du ihn noch einmal abspeichern.
 
-### Chartfarben im Dashboard definieren
+### Chart-Farben im Dashboard definieren
 
 IMPORTANT: Damit die gewünschten Farben im Dashboard angewendet werden, muss bei den einzelnen Charts unter _Customize_ das Farbschema `Airbnb Colors`
 gesetzt sein.
@@ -230,7 +230,7 @@ Der JSON Editor Online https://jsoneditoronline.org/ kann bei der Bearbeitung he
 Die "Keys" wie z.B. "girl" kannst du in der Legende des jeweiligen Charts finden.
 
 
-## ToolTips mit JavaScript anpassen
+### Tooltips mit JavaScript anpassen
 
 Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als ToolTip-Text an. Dieser ist beim Chart unter _Advanced_ im _Javascript tooltip generator_
 anpassbar. 
@@ -286,9 +286,9 @@ Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt. De
 
 Formeln werden als zusätzliche Linie in das Diagramm eingefügt. Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird. Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
 
-== ANHANG: Weitere Charts
+== ANHANG: Die Map Charts
 
-Hier siehst du elf weitere Charts, welche in diesem Tutorial nicht vorkommen und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
+Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
 
 .Visualization Type: Mapbox (in Excel: nicht vorhanden)
 image::einfuehrung_in_apache_superset_fortsetzung/mapbox.png[pdfwidth=75%]
