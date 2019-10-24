@@ -82,6 +82,13 @@ NOTE: Für Positionsangaben auf der Erde - beispielsweise mit dem GPS - werden L
 
 In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. Hier werden die Geodaten den Kartensymbolen zuordnet und man spricht von Symbolisierung (en: symbolization, styling).
 
+Es gibt folgende Kartentypen:
+
+* Standortkarten
+* Netzkarten
+* Choroplethenkarten
+* Ortsdiagrammkarten
+
 Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppieren. Es werden hier nur die bekanntesten Kartentypen vorgestellt. Auch Superset deckt nicht alle Kartentypen ab, kennt aber zurzeit schon zwölf verschiedene Map-Chart-Typen (vgl. auch der Anhang):
 
 *Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. Zu diesem Kartentyp gehören folgende Superset Charts:
@@ -116,7 +123,7 @@ NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Wer
 
 * Deck.gl Screen Grid: Ähnlich wie Deck.GL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.gl GeoJSON: (Bemerkung: Funktioniert momentan nicht!).
+* Deck.gl GeoJSON: (Bemerkung: Funktioniert in Superset momentan nicht!).
 
 Ein weiterer Map-Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts zusammen mit einer Basiskarte.
 
@@ -235,7 +242,8 @@ Die "Keys" wie z.B. "girl" kannst du in der Legende des jeweiligen Charts finden
 Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als ToolTip-Text an. Dieser ist beim Chart unter _Advanced_ im _Javascript tooltip generator_
 anpassbar. 
 
-IMPORTANT: Für diese Anpassung muss JavaScript explizit erlaubt sein.
+IMPORTANT: Für diese Anpassung muss das Schreiben von JavaScript aktiviert sein (ENABLE-JAVASCRIPT-CONTROL).
+Kontaktieren Sie den Sys-Admin falls nötig.
 
 Im Textfeld muss man eine funktion schreiben, die einen String zurück gibt, der dann als Tooltip angezeigt wird. Hier ein einfaches Beispiel, welches den Tooltip zu "test" setzt:
 
