@@ -325,6 +325,11 @@ gehören.
 Ereignis- und Intervall-Annotationen können auch mit einer _Table_ erstellt werden. In der Datenbank-Tabelle soll es für die Annotationen
 eine Kolonne für die Beschreibung (Text), eine für das Start-Datum (Date) und evt. für das End-Datum (Date) vorhanden sein.
 
+IMPORTANT: Die Datenbank-Tabelle kann nicht direkt in den _Annotations and Layers_ referenziert werden. Eine _Table_ mit jener Tabelle, 
+die all die benötigten Kolonnen visualisiert muss zuerst erstellt werden. Diese _Table_ dient dan als _Annotation Source_ des anderen Diagramms.
+
+Zeit-Annotationen erstellt man als ein _Line Chart_. Deren "Verlauf" ist in anderen Diagrammen mit einer Zeit-Achse visualisierbar.
+
 ### Ereignis-Annotationen
 
 Ereignisse (en: Events) sind eine Liste von Zeitpunkten (Datum) mit Beschreibungen. Sie werden als vertikale Linien dargestellt. Ihre Beschreibung wird in den Tooltips angezeigt, wenn man mit der Maus über sie fährt. Sie werden von einer "Table"-Chart geholt, die die Daten enthält. Man kann Spalten Zeit und Beschreibung auswählen.
