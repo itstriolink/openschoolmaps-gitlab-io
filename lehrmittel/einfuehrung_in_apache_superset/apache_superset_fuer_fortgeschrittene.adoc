@@ -1,5 +1,7 @@
 ﻿# Apache Superset für Fortgeschrittene
 :imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
 
 Ein Arbeitsblatt für Interessierte und Lehrpersonen _(WIP = Work-in-progress)_.
 
@@ -97,7 +99,7 @@ Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppiere
 
 * Deck.gl Scatterplot: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim Herauszoomen. Siehe Abbildung 13/14 im Anhang.
+NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim Herauszoomen. Siehe Abbildung 1 und 2 im Anhang.
 
 *Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
 
