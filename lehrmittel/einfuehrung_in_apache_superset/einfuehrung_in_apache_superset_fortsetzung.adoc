@@ -1,0 +1,13 @@
+﻿# Einführung in Apache Superset - Fortsetzung
+:imagesdir: ../../bilder/
+
+Ein Arbeitsblatt für Interessierte und Lehrpersonen _(WIP = Work-in-progress)_.
+
+## Übersicht
+
+Dieses Arbeitsblatt ist eine Fortsetzung der "Einführung in Apache Superset": 
+
+Dieses Arbeitsblatt hat folgende Lernziele:
+
+* Expanded Slices
+* Annotations
