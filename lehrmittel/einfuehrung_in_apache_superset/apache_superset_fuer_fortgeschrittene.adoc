@@ -48,7 +48,7 @@ Ein Datentyp bestimmt den erlaubten Wertebereich. Ein Beispiel für einen Datent
 
 * Metrik (en: Metrics). In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
 
-Zeitliche Daten sind wichtig in jeder Datenanalyse. Sie werden u.a. zum Filtern der Daten verwendet. Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird in Superset als temporaler Typ gekennzeichnet, zusätzlich zum Attributnamen und Attributtyp.
+Zeitliche Daten sind wichtig in jeder Datenanalyse. Sie werden u.a. zum Filtern der Daten verwendet. Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht)
 
 Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer *Datentyp-Rolle* (en: Data type role) wie beispielsweise "Lines" (Linien).
 
