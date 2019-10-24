@@ -317,7 +317,13 @@ Es gibt vier Annotations-Typen:
 
 ### Erstellen von Annotationen
 
-Ereignis- und Intervall-Annotationen 
+Ereignis- und Intervall-Annotationen sind bei _Annotations_ unter _Manage_ in der Superset-Menüleiste erstellbar. Die _Long Description_
+einer _Annotation_ wird im Chart als Beschreibungstext vom Ereignis oder Intervall dargestellt. Das Start- und End-Datum dient dem
+Intervall als Zeitspanne, dem Ereignis nur das Start-Datum als fixer Zeitpunkt. Diese Art von _Annotation_ muss zu einem _Annotation Layer_
+gehören.
+
+Ereignis- und Intervall-Annotationen können auch mit einer _Table_ erstellt werden. In der Datenbank-Tabelle soll es für die Annotationen
+eine Kolonne für die Beschreibung (Text), eine für das Start-Datum (Date) und evt. für das End-Datum (Date) vorhanden sein.
 
 ### Ereignis-Annotationen
 
