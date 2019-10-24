@@ -99,6 +99,15 @@ Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppiere
 
 * Deck.gl Scatterplot: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
+|===
+
+|Mapbox |Deck.gl Scatterplot
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_mapbox.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_scatterplot.png[100,100]
+
+|===
+
 NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim Herauszoomen. Siehe Abbildung 1 und 2 im Anhang.
 
 *Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
@@ -107,11 +116,29 @@ NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim He
 
 * Deck.gl Arc: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
+|===
+
+|Deck.gl Path |Deck.gl Arc
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_path.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_arc.png[100,100]
+
+|===
+
 *Choroplethenkarten* (en. Choropleth Map) (deutsche Synonyme: Dichtemosaikkarten; Flächenkartogramme) werden symbolisiert mit Flächensignaturen bezogen auf Flächen. Die Werte sind hier meist nicht absolut, sondern relativ. Zu diesem Kartentyp gehören folgende Superset Charts:
 
 * Country Map: Choroplethenkarte mit Ländergrenzen. Erwartet ISO-codes von Departements/Kantone/etc (admin_level=4) als Zeichenkette.
 
 * Deck.gl Polygon: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
+
+|===
+
+|Country Map |Deck.gl Polygon
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_countrymap.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_polygon.png[100,100]
+
+|===
 
 NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land". Richtig wäre eine relative Angabe wie "Traktoren pro km2", d.h. die absolute Summe durch die Landesfläche geteilt werden.
 
@@ -128,6 +155,18 @@ NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Wer
 * Deck.gl GeoJSON: (Bemerkung: Funktioniert in Superset momentan nicht!).
 
 Ein weiterer Map-Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts zusammen mit einer Basiskarte.
+
+|===
+
+|World Map |Deck.gl 3D Hexagon |Deck.gl Grid |Deck.gl Screen Grid |Deck.gl Multiple Layers
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_worldmap.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_hexagon.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_grid.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_screengrid.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_layers.png[100,100]
+
+|===
 
 NOTE: Dies ist nur eine Auswahl der wichtigsten Kartentypen. Sie ist unvollständig. Eine mögliche Quelle zum Nachlesen ist https://www.gitta.info/[GITTA.info].
 
