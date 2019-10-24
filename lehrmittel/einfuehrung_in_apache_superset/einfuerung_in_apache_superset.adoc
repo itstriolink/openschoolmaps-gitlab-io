@@ -603,6 +603,8 @@ Die Parameter gelten allgemein für alle Dashboards:
 
 NOTE: Die _slice_id_ ist in den Chart Metadaten unter _Parameter_ zu finden. Falls dein Chart keine ID hat musst du ihn noch einmal abspeichern.
 
+TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direkt Jahreszahlen zu schreiben. Das Datum ist dann automatisch der erste Januar.
+
 ### Chartfarben im Dashboard definieren
 
 IMPORTANT: Damit die gewünschten Farben im Dashboard angewendet werden, muss bei den einzelnen Charts unter _Customize_ das Farbschema `Airbnb Colors`
