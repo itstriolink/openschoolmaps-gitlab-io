@@ -298,32 +298,35 @@ Formeln werden als zusätzliche Linie in das Diagramm eingefügt. Sie können ei
 
 Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
 
-.Visualization Type: Mapbox (in Excel: nicht vorhanden)
+.Visualization Type Mapbox, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/mapbox.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl Scatterplot (in Excel: scatter plot)
+.Visualization Type Deck.gl Scatterplot (entspricht scatter plot in Excel), links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_scatterplot.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl Path (in Excel: nicht vorhanden)
+.Visualization Type Deck.gl Path, links am Beispiel Routen in Kalifornien, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_path.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl Arc (in Excel: nicht vorhanden)
+.Visualization Type Deck.gl Arc, links am Beispiel Inland-Flüge in den USA, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_arc.png[pdfwidth=75%]
 
-.Visualization Type: Country Map (in Excel: nicht vorhanden)
+.Visualization Type Country Map, links am Beispiel die Geburtenrate 2014 in den französischen Departements, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/country_map.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl Polygon (in Excel: nicht vorhanden)
+.Visualization Type Deck.gl Polygon, links am Beispiel Bezirke in San Francisco und deren Bevölkerungsdichte, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_polygon.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl 3D Hexagon (in Excel: nicht vorhanden)
+.Visualization Type World Map, links am Beispiel der Anteil Bewohner die auf dem Land wohnen, rechts die dazugehörige Eingabemaske
+image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl 3D Hexagon, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_3dhexagon.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl Grid (in Excel: nicht vorhanden)
+.Visualization Type Deck.gl Grid, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_grid.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl Screen Grid (in Excel: nicht vorhanden)
+.Visualization Type Deck.gl Screen Grid, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_screengrid.png[pdfwidth=75%]
 
-.Visualization Type: Deck.Gl Multiple Layers (in Excel: nicht vorhanden)
+.Visualization Type Deck.gl Multiple Layers, links am Beispiel die obigen Charts deck.gl Scatterplot und deck.gl Path zusammengeführt, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_multiple_layers.png[pdfwidth=75%]
