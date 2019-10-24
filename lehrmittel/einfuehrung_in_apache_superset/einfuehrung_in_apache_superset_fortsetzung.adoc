@@ -11,3 +11,32 @@ Dieses Arbeitsblatt hat folgende Lernziele:
 
 * Expanded Slices
 * Annotations
+
+## Expanded Slices
+
+## Annotations
+
+Annotations sind die Text- und Grafik-Notizen, die über bestimmte Charts gelegt werden können. Je nach Annotations-Typ ist es entweder eine Linie oder ein gefärbtes Rechteck im Hintergrund. Sie können dazu benutzt werden allgemeine Informationen (z.B. weltweites Bevölkerungswachstum) darzustellen ohne diese als Daten in einer Tabelle ablegen zu müssen.
+Annotation Layers dienen dazu, Annotations zu bündeln. Ein Layer kann mehrere Annotations beinhalten und man bindet in Diagrammen jeweils den Annotation Layer ein, der dann alle Annotations darstellt.
+Es gibt vier Annotations-Typen:
+
+* Ereignis (en: Event): Basierend auf Tabellendaten, wird als Linie dargestellt.
+* Intervall (en: Interval): Wie Event, allerdings mit Start- und Enddatum, wird als "Range" gerendert.
+* Zeit (Time Series): Linie basierend auf beliebiger Time Series.
+* Formel (en: Formula): Linie basierend auf einer Formel (z.B. 2x oder 0.005x).
+
+### Ereignis-Annotationen
+
+Ereignisse (en: Events) sind eine Liste von Zeitpunkten (Datum) mit Beschreibungen. Sie werden als vertikale Linien dargestellt. Ihre Beschreibung wird in den Tooltips angezeigt, wenn man mit der Maus über sie fährt. Sie werden von einer "Table"-Chart geholt, die die Daten enthält. Man kann Spalten Zeit und Beschreibung auswählen.
+
+### Intervall-Annotationen
+
+Genau wie Events, aber mit einem Start- und Enddatum, werden sie als Bereich dargestellt.
+
+### Zeitreihen-Annotationen
+
+Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt. Der Name und die Anzeigeeigenschaften können konfiguriert werden. Die Daten werden von einer beliebigen Zeitreihen-Chart geholt.
+
+### Formel-Annotationen
+
+Formeln werden als zusätzliche Linie in das Diagramm eingefügt. Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird. Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
