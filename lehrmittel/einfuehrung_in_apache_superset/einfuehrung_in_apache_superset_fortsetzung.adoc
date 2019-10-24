@@ -1,4 +1,4 @@
-﻿# Einführung in Apache Superset - Fortsetzung
+﻿# Apache Superset für Fortgeschrittene
 :imagesdir: ../../bilder/
 
 Ein Arbeitsblatt für Interessierte und Lehrpersonen _(WIP = Work-in-progress)_.
@@ -9,9 +9,10 @@ Dieses Arbeitsblatt ist eine Fortsetzung der "Einführung in Apache Superset":
 
 Dieses Arbeitsblatt hat folgende Lernziele:
 
+* Karten-Typen
+* Chart Parameter anpassen
+* ToolTips mit JavaScript anpassen
 * Annotations
-
-== Für Fortgeschrittene
 
 ## Bevor Daten visualisiert werden...
 
