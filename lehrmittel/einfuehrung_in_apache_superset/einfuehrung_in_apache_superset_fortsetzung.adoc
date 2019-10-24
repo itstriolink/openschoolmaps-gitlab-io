@@ -9,10 +9,7 @@ Dieses Arbeitsblatt ist eine Fortsetzung der "Einführung in Apache Superset":
 
 Dieses Arbeitsblatt hat folgende Lernziele:
 
-* Expanded Slices
 * Annotations
-
-## Expanded Slices
 
 ## Annotations
 
@@ -24,6 +21,10 @@ Es gibt vier Annotations-Typen:
 * Intervall (en: Interval): Wie Event, allerdings mit Start- und Enddatum, wird als "Range" gerendert.
 * Zeit (Time Series): Linie basierend auf beliebiger Time Series.
 * Formel (en: Formula): Linie basierend auf einer Formel (z.B. 2x oder 0.005x).
+
+### Erstellen von Annotationen
+
+Ereignis- und Intervall-Annotationen 
 
 ### Ereignis-Annotationen
 
