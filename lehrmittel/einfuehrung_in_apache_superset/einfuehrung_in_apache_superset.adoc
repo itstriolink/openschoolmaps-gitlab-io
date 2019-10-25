@@ -1,7 +1,7 @@
 = Einführung in Apache Superset
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
-include::../../../snippets/lang/de.adoc[]
+include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt für Interessierte und Lehrpersonen*
@@ -17,7 +17,6 @@ Diese Einführung hat folgende Lernziele:
 * Du kannst Daten mit Charts visualisieren
 * Du kannst Charts zu einem Dashboard anordnen
 * Du kannst Dashboards mit anderen (übers Web) teilen
-* Du kennst weitere Anpassungsmöglichkeiten für die Charts im Dashboard
 
 Das Bearbeiten dieses Arbeitsblatts dauert ca. 2h, je nach deinem Vorwissen.
 
@@ -76,7 +75,7 @@ Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 * Charts (Diagramme), vorher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten sind.
 * Dashboards: Ein "Dashboard" ist eine interaktive Webseite auf der man interaktive Charts präsentieren kann.
 * Metrics: Bei "Metrics" (manchmal auch "Measurements" genannt) handelt es sich um Kennzahlen. Sie werden u.a. für Charts benötigt.
-* "Record": Datenquellen und Charts sind alles Programmier-Elemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
+* "Records": Datenquellen und Charts sind alles Programmier-Elemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
 * SQL-Query: Eine Anweisung, eine Datenbankanfrage in der Datenbanksprache SQL. SQL-Queries kann man speichern und als Datenquelle zur Verfügung stellen.
 
 NOTE: Im Menü "Sources" von Apache Superset und in der Orginal-Dokumentation von Apache Superset wird Druid als Datenbanksystem erwähnt. 
@@ -85,7 +84,7 @@ Alle auf Druid bezogenen Informationen im Menü (und in der Dokumentation) kanns
 
 == Daten und Fragestellungen
 
-Die mit Apache Superset und BI-Tools allgemein zu visualisierenden Daten müssen in strukturierter und sauberer Form vorliegen. 
+Die mit Apache Superset und Business Intelligence Tools allgemein zu visualisierenden Daten müssen in strukturierter und sauberer Form vorliegen. 
 Wenn nötig müssen die Daten mit Datenbanksystemen (SQL), Tabellenkalkulationsprogrammen (z.B. MS Excel, LibreOffice) oder GIS (z.B. QGIS) aufbereitet werden 
 (siehe u.a. https://openschoolmaps.ch/[OpenSchoolMaps] > "Einführung in QGIS 3 und in Geoinformationssysteme (GIS)"). 
 Hilfreich, um Daten zu bereinigen ("Data Wrangling") kann hierbei auch z.B. http://openrefine.org/[OpenRefine] sein.
@@ -114,7 +113,7 @@ Diese Daten wollen wir nun analysieren und uns fragen, ob sich Charakteristika o
 "Leben in einem Land mehr Personen auf dem Land (rural) oder in der Stadt (urban)?", 
 oder "Gibt es einen Zusammenhang zwischen Lebenserwartung und ruralen bzw. urbanen Regionen?".
 
-.Daten von der Schweiz von 1960 - 1981
+.Daten von der Schweiz von 1960 - 1978 aus der Tabelle wb_health_population.
 image::einfuehrung_in_apache_superset/daten_schweiz.PNG[, 860, 549]
 
 
@@ -180,7 +179,7 @@ ifdef::show_solutions[]
 .Lösung
 Die Abfrage müsste wie folgt aussehen:
 
-image::einfuehrung_in_apache_superset/loesung_aufgabe1.PNG[]
+image::einfuehrung_in_apache_superset/loesung_aufgabe1.PNG[pdfwidth=85%]
 ====
 endif::show_solutions[]
 
@@ -201,7 +200,7 @@ image::einfuehrung_in_apache_superset/loesung_aufgabe2(2).PNG[]
 ====
 endif::show_solutions[]
 
-=== Chart Nr.2 Städtische Aufteilung
+=== Chart Nr. 2 Städtische Aufteilung
 
 Um das Ganze jetzt noch schöner zu machen, kannst du dir unter _Datasource & Chart Type -> Visualization Type_ einen passenden Chart zu den Daten auswählen.
 
@@ -238,7 +237,7 @@ image::einfuehrung_in_apache_superset/loesung_aufgabe3.PNG[]
 ====
 endif::show_solutions[]
 
-=== Chart Nr.3 Wachstum der Population
+=== Chart Nr. 3 Wachstum der Population
 
 Als nächstes wäre es spannend zu sehen, wie die Population gewachsen ist. 
 
@@ -269,9 +268,9 @@ image::einfuehrung_in_apache_superset/loesung_aufgabe4.PNG[]
 endif::show_solutions[]
 
 
-=== Chart Nr.4 Bevölkerungswachstum pro Land
+=== Chart Nr. 4 Bevölkerungswachstum pro Land
 
-Da Chart Nr.3 uns aber nur das durchschnittlichen Wachstum anzeigt wäre es noch interessant den Bevölkerungswachstum pro Land zu sehen, um einen besseren einblick in die Verteilung zu erhalten.
+Da Chart Nr. 3 uns aber nur das durchschnittlichen Wachstum anzeigt wäre es noch interessant den Bevölkerungswachstum pro Land zu sehen, um einen besseren einblick in die Verteilung zu erhalten.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 5* +
@@ -288,16 +287,16 @@ image::einfuehrung_in_apache_superset/loesung_aufgabe5.PNG[]
 ====
 endif::show_solutions[]
 
-=== Chart Nr.5 Bevölkerungswachstum pro Region
+=== Chart Nr. 5 Bevölkerungswachstum pro Region
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 6* +
 _Eine weitere Art diese Daten darzustellen wäre mit einem Area Chart. Probiere es aus!_
 
-Chart Nr.4 hat die Daten schon sehr stark aufgeteilt, lass uns den Chart so anpassen, dass die Aufteilung weniger stark ist, um einen besseren Überblick zu gewinnen.
+Chart Nr. 4 hat die Daten schon sehr stark aufgeteilt, lass uns den Chart so anpassen, dass die Aufteilung weniger stark ist, um einen besseren Überblick zu gewinnen.
 
 Bevor du auch diesen Chart wieder abspeicherst, zeige dir das Wachstum der einzelnen Regionen an.
-Im Anhang findest du ein Bild(Abbildung Nr.10) von dem Chart. Bemerke, dass die Farben anders sein können.
+Im Anhang findest du ein Bild (Abbildung Nr. 10) von dem Chart. Bemerke, dass die Farben anders sein können.
 
 ifdef::show_solutions[]
 ====
@@ -309,16 +308,16 @@ image::einfuehrung_in_apache_superset/loesung_aufgabe6.PNG[]
 endif::show_solutions[]
 
 
-=== Chart Nr.6 Lebenserwartung im Vergleich zu den Prozent der ländlich lebenden Bevölkerung pro Land
+=== Chart Nr. 6 Lebenserwartung vs. dem Anteil der ländlich lebenden Bevölkerung pro Land
 
 Als Nächstes wollen wir etwas Schwierigeres probieren und zwar wollen wir einen 6. Chart wie folgt erstellen:
 
-.life_expectancy_vs_rural (Chart 6)
+.Chart Nr. 6 stellt die Lebenserwartung der Prozentzahl ländlich Lebenden gegenüber.
 image::einfuehrung_in_apache_superset/life_expectancy_vs_rural.PNG[]
 
 In diesem Chart ist ersichtlich, wie viele Einwohner ländlich wohnen (X-Achse), wie hoch die Lebenserwartung ist (Y-Achse), in welcher Region sich ein Land befindet (Farbe der Blasen) und wie hoch die Einwohnerzahl ist (Grösse der Blase).
 
-dieser Chart veranschaulicht sehr gut, ob und wenn ja, wie die Lebenserwartung mit dem pozentsatz der ländlich Lebenden zusammenhängt.
+Dieser Chart veranschaulicht sehr gut, ob und wenn ja, wie die Lebenserwartung mit dem pozentsatz der ländlich Lebenden zusammenhängt.
 
 Um diesen Chart zu erhalten, musst du zuerst den _Bubble Chart_ auswählen und die Zeitspanne von `2011-01-01` bis `2011-12-31` setzen. 
 Danach musst du unter _Series_ `region` auswählen, um die Blasen dementsprechend zu färben. 
@@ -326,9 +325,9 @@ Bei Entity musst du nun `country_name` wählen, damit die einzelnen Länder ange
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 7* +
-_Wähle die korrekten Spalten für X Axis, Y Axis, Bubble size._
+_Wähle die korrekten Spalten für X Axis, Y Axis und Bubble size._
 
-Speichere auch dieser Chart unter einen passenden Namen.
+Speichere auch diesen Chart unter einem passenden Namen.
 
 ifdef::show_solutions[]
 ====
@@ -340,16 +339,16 @@ image::einfuehrung_in_apache_superset/loesung_aufgabe7.PNG[]
 endif::show_solutions[]
 
 
-=== Chart Nr.7 Weltkarte
+=== Chart Nr. 7 Weltkarte
 
-Zum Abschluss machen wir noch dieses Chart Nr. 7:
+Zum Abschluss machen wir noch diesen Chart Nr. 7, ein Map Chart:
 
 .rural_percentage (Chart 7)
 image::einfuehrung_in_apache_superset/rural_percentage.PNG[]
 
 
 
-Dieser Chart zeigt durch das Färben der Länder wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%).
+Dieser Map Chart zeigt durch das Färben der Länder wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%).
 Zudem wird als Zahl durch eine Blase angezeigt, wie viele Menschen das sind.
 Um die Prozentzahl der ländlich Lebenden oder die Grösse der Bevölkerung zu sehen, muss du mit der Maus über das Land beziehungsweise der Blase hovern.
 
@@ -362,6 +361,7 @@ Es ist eine _World Map_. Hier die Optionen dazu:
 
 Speichere auch diesen Chart unter einem passenden Namen.
 
+NOTE: Um z.B. das Jahr 2014 auszuwählen kann man auch `2013` bis `2014` eintippen.
 
 == Filter Box für das Dashboard
 
@@ -395,7 +395,7 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 8* +
 _Erstelle ein Dashboard, bei dem alle zuvor erstellten Charts und Filter verwendet werden. Probiere am besten auch gerade die verschiedenen Komponenten aus!_
 
-.Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts.
+.Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts mit 7 Charts und einen Filter
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
 == Dashboards mit anderen (übers Web) teilen
@@ -410,7 +410,7 @@ Geschafft! Du solltest nun ein Dashboard haben zu den Weltbank-Daten, dass du an
 
 NOTE: Zu Apache Superset und QGIS gibt es auch Kurse, u.a. am https://giswiki.hsr.ch/Agenda[Geometa Lab HSR].
 
-Gerne nehmen wir Rückmeldungen entgegen, siehe https://openschoolmaps.ch[OpenSchoolMaps] > 'Weitere Unterrichtsideen'.
+Gerne nehmen wir Rückmeldungen entgegen, siehe https://openschoolmaps.ch[OpenSchoolMaps] > _Weitere Unterrichtsideen_.
 
 
 TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direkt Jahreszahlen zu schreiben. Das Datum ist dann automatisch der erste Januar.
@@ -418,31 +418,31 @@ TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direk
 
 
 
-== ANHANG: Chartauswahl
+== ANHANG: Die sieben Charts und Optionen
 
 Hier siehst du sieben Charts und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
 
 
 
-.Visualization Type: Table
+.Visualization Type Table, links am Beispiel der Bevölkerungszahlen verschiedener Länder, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset/most_populated_countries_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Sunburst Chart (in Excel: Ringdiagramm/Sunburst-Diagramm)
+.Visualization Type Sunburst Chart (Entspricht Ringdiagramm/Sunburst-Diagramm in Excel), links am Beispiel der ländlich oder stätlich Wohnenden aufgeteilt in region und Land, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset/rural_breakdown_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Line Chart (in Excel: Liniendiagramm)
+.Visualization Type: Line Chart (Entspricht Liniendiagramm in Excel), links am Beispiel des Bevölkerungswachstums verschiedener Länder, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset/growth_rate_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Big Number with Trendline (in Excel: nicht vorhanden)
+.Visualization Type: Big Number with Trendline (ist in Excel nicht vorhanden), links am Beispiel des Bevölkerungswachstums, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset/worlds_pop_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Area Chart (in Excel: Flächendiagramm)
+.Visualization Type: Area Chart (Entspricht Flächendiagramm in Excel) links am Beispiel des Bevölkerungswachstums verschiedener Regionen, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset/worlds_pop_growth_pdf.png[pdfwidth=75%]
 
-.Visualization Type: World Map (in Excel: Karten Diagramm)
+.Visualization Type: World Map (Entspricht Karten Diagramm in Excel) links am Beispiel der Bevölkerungsgrösse und den davon ländlichlebenden Anteil, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Bubble Chart (in Excel: Blasendiagramm)
+.Visualization Type: Bubble Chart (Entspricht Blasendiagramm in Excel) links am Beispiel der Lebenserwartung vs. den Anteil der ländlich lebenden Bevölkerung pro Land, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=75%]
 
 
