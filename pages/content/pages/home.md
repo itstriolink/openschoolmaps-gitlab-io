@@ -23,7 +23,7 @@ kann!
 
 ## News
 
-- Neues, erstes Arbeitsblatt zum Thema "Apache Superset das Datenvisualisierungs- und -Publikations-Werkzeug" publiziert (22. Oktober 2019).
+- Zwei neue Arbeitsblätter zum Thema "Apache Superset das Datenvisualisierungs- und -Publikations-Werkzeug" publiziert (25. Oktober 2019).
 - OpenSchoolMaps gewinnt den DINAcon Award 2019 in der Kategorie "Best Open Education Project"! Mit den DINAcon Awards werden Open-Projekte von Communities, Unternehmen, Verwaltungen, Organisationen und Einzelpersonen ausgezeichnet. [Weblink](https://awards.dinacon.ch/awards/openschoolmaps/) (18. Oktober 2019)
 - OpenSchoolMaps wurde bei den diesjährigen [DINAcon Awards 2019 nominiert](https://awards.dinacon.ch/shortlist-steht-fest/) als eine von drei Projekten in der Kategorie "Best Open Education Project". (4. Oktober 2019)
 - Am 18. August 2019 wurde eine [Wiki-Seite 'Einführung in JOSM' angelegt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/wikis/Einf%C3%BChrung-in-JOSM) mit kommentierten Links über diesen Editor.
