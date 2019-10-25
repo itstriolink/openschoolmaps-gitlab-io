@@ -1,4 +1,5 @@
-﻿# Apache Superset für Fortgeschrittene
+= Apache Superset für Fortgeschrittene
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
