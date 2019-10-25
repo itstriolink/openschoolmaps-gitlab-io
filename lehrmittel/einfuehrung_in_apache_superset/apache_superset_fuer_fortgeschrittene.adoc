@@ -99,6 +99,8 @@ Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppiere
 
 * Deck.gl Scatterplot: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
+<<<
+
 |===
 
 |Mapbox |Deck.gl Scatterplot
@@ -345,6 +347,8 @@ Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt. De
 ### Formel-Annotationen
 
 Formeln werden als zusätzliche Linie in das Diagramm eingefügt. Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird. Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
+
+<<<
 
 == ANHANG: Die Map Charts
 
