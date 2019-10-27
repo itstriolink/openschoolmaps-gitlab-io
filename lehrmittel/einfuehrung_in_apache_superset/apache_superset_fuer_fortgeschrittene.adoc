@@ -4,18 +4,19 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-Ein Arbeitsblatt für Interessierte und Lehrpersonen _(WIP = Work-in-progress)_.
+Eine Information für Interessierte.
 
 ## Übersicht
 
-Dieses Arbeitsblatt ist eine Fortsetzung der "Einführung in Apache Superset": 
+Dieses Arbeitsblatt enthält folgende Themen:
 
-Dieses Arbeitsblatt hat folgende Lernziele:
-
-* Karten-Typen
-* Chart Parameter anpassen
-* ToolTips mit JavaScript anpassen
+* Daten-Typen und Karten-Typen (Bevor Daten visualisiert werden...)
+* Chart-Parameter anpassen
+* Tooltips mit JavaScript anpassen
 * Annotations
+
+Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
+
 
 ## Bevor Daten visualisiert werden...
 
@@ -69,13 +70,13 @@ NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygo
 
 Geo-Datentyp-Rollen und Datentyp-Encodings in Apache Superset:
 
-* Geo-Datentyp-Rolle "Longitude & Latitude columns": Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point".
+* Geo-Datentyp-Rolle "Longitude & Latitude columns": Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". Die entsprechenden Datentype-Encodings sind Delimited oder Geohash.
 
-* (Eine Geo-Datentyp-Rolle "Point" gibt es noch nicht, ist aber vorreserviert).
+* Geo-Datentyp-Rolle "Point": gibt es noch nicht als eigene Rolle (nur als Longitude & Latitude columns), ist aber vorreserviert.
 
-* Geo-Datentyp-Rolle "Lines": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), die als "JSON" oder als "Polylines" codiert sein können.
+* Geo-Datentyp-Rolle "Lines": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "Polylines" haben.
 
-* Geo-Datentyp-Rolle "Polygons": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), die als "JSON", als "Polylines" oder als "Geohash" codiert sein können.
+* Geo-Datentyp-Rolle "Polygons": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 codes" haben.
 
 NOTE: Für Positionsangaben auf der Erde - beispielsweise mit dem GPS - werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). Lat/Lon werden oft als Fliesskommazahlen behandelt. Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, dass man auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
 
@@ -130,7 +131,7 @@ a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_arc.png[100,100]
 
 *Choroplethenkarten* (en. Choropleth Map) (deutsche Synonyme: Dichtemosaikkarten; Flächenkartogramme) werden symbolisiert mit Flächensignaturen bezogen auf Flächen. Die Werte sind hier meist nicht absolut, sondern relativ. Zu diesem Kartentyp gehören folgende Superset Charts:
 
-* Country Map: Choroplethenkarte mit Ländergrenzen. Erwartet ISO-codes von Departements/Kantone/etc (admin_level=4) als Zeichenkette.
+* Country Map: Choroplethenkarte mit Ländergrenzen. Erwartet ISO 3166-2-Codes von Departements/Kantone/etc. als Zeichenkette.
 
 * Deck.gl Polygon: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
 
@@ -147,7 +148,7 @@ NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Wer
 
 *Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen. Man beachte den Unterschied von Symbol/Marker zu Diagramm. Zu diesem Kartentyp gehören folgende Superset Charts:
 
-* World Map: Ortsdiagrammkarte 2D. Erwartet ISO-codes von den Ländern als Zeichenkette.
+* World Map: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von den Ländern als Zeichenkette.
 
 * Deck.gl 3D Hexagon: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
@@ -252,7 +253,7 @@ Die Parameter gelten allgemein für alle Dashboards:
 "default_filters": "{\"95\": {\"country_name\": [\"Kenya\"]}}"
 ----
 
-NOTE: Die _slice_id_ ist in den Chart Metadaten unter _Parameter_ zu finden. Falls dein Chart keine ID hat musst du ihn noch einmal abspeichern.
+NOTE: Die _slice_id_ ist in den Chart-Metadaten unter _Parameter_ zu finden. Falls dein Chart keine ID hat musst du ihn noch einmal abspeichern.
 
 ### Chart-Farben im Dashboard definieren
 
@@ -283,7 +284,7 @@ Die "Keys" wie z.B. "girl" kannst du in der Legende des jeweiligen Charts finden
 
 ### Tooltips mit JavaScript anpassen
 
-Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als ToolTip-Text an. Dieser ist beim Chart unter _Advanced_ im _Javascript tooltip generator_
+Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als Tooltip-Text an. Dieser ist beim Chart unter _Advanced_ im _Javascript tooltip generator_
 anpassbar. 
 
 IMPORTANT: Für diese Anpassung muss das Schreiben von JavaScript aktiviert sein (ENABLE-JAVASCRIPT-CONTROL).
@@ -343,17 +344,23 @@ Genau wie Events, aber mit einem Start- und Enddatum, werden sie als Bereich dar
 
 ### Zeitreihen-Annotationen
 
-Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt. Der Name und die Anzeigeeigenschaften können konfiguriert werden. Die Daten werden von einer beliebigen Zeitreihen-Chart geholt.
+Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt. 
+Der Name und die Anzeigeeigenschaften können konfiguriert werden. Die Daten werden von einer beliebigen Zeitreihen-Chart geholt.
 
 ### Formel-Annotationen
 
-Formeln werden als zusätzliche Linie in das Diagramm eingefügt. Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird. Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
+Formeln werden als zusätzliche Linie in das Diagramm eingefügt. 
+Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird. 
+Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
 
 <<<
 
 == ANHANG: Die Map Charts
 
-Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
+Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. 
+Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
+
+NOTE: Bei vielen Charts gibt es eine 'time_rage'. Sie ist auc 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
 
 .Visualization Type Mapbox, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/mapbox.png[pdfwidth=75%]
