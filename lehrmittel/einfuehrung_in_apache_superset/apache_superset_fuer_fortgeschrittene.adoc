@@ -4,9 +4,11 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-Eine Information für Interessierte.
+Ein Arbeitsblatt für Interessierte.
 
 ## Übersicht
+
+Dieses Arbeitsblatt ist eine Fortsetzung der "Einführung in Apache Superset": 
 
 Dieses Arbeitsblatt enthält folgende Themen:
 
@@ -17,40 +19,43 @@ Dieses Arbeitsblatt enthält folgende Themen:
 
 Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
 
-
 ## Bevor Daten visualisiert werden...
 
 Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: Der Visualisierungs-Prozess beginnt mit der Wahl der Datenquelle (Tabelle), dann wird ein passender Chart ausgewählt, und schliesslich wird der Chart einem Dashboard zugeordnet.
 
 Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu vereinfachen. Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen. Das ist die Domäne der beschreibenden Statistik und des Data Engineerings. Wer die Merkmale eines Attributs kennt, findet die in Frage kommenden Charts schneller.
 
-*Qualitativ und quantitativ*: Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
+.Qualitativ und quantitativ
+Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
 
-*Attributs-Merkmals-Levels*: Die quantitativen Merkmale lassen sich ihrerseits differenzieren in vier "Attributs-Merkmals-Levels" (Quelle: Stanley Stevens, 1946, "One the theory of Scales of Measurement"):
+.Attributs-Merkmals-Levels
+Die quantitativen Merkmale lassen sich ihrerseits differenzieren in vier "Attributs-Merkmals-Levels" (Quelle: Stanley Stevens, 1946, "One the theory of Scales of Measurement"):
 
-* Nominal: Ein Name, Klassenname ("etwas Benanntes"). Meist Datentyp Text.
+[horizontal]
+Nominal:: Ein Name, Klassenname ("etwas Benanntes"). Meist Datentyp Text.
 
-* Ordinal: Eine Ordnungszahl, eine Rangierung, ("etwas zum Vergleichen"). Meist Datentyp Ganzzahl.
+Ordinal:: Eine Ordnungszahl, eine Rangierung, ("etwas zum Vergleichen"). Meist Datentyp Ganzzahl.
 
-* Intervall: Ein massstabsloser Zahlenwert, Verhältniszahl ("etwas Relatives"). Meist Datentyp Fliess- oder Festkommazahl.
+Intervall:: Ein massstabsloser Zahlenwert, Verhältniszahl ("etwas Relatives"). Meist Datentyp Fliess- oder Festkommazahl.
 
-* Ratio: Ein Zahlenwert mit absolutem Nullpunkt; meist Datentyp Fliess- oder Festkommazahl.
+Ratio:: Ein Zahlenwert mit absolutem Nullpunkt; meist Datentyp Fliess- oder Festkommazahl.
 
 
 
-**Datentypen und Datentyp-Rollen**
+### Datentypen und Datentyp-Rollen
 
 Ein Datentyp bestimmt den erlaubten Wertebereich. Ein Beispiel für einen Datentyp ist die Ganzzahl. Superset kennt folgende *Basis-Datentypen*:
 
-* Zeichenkette (en: Text). In Superset mit dem Icon "ABC" dargestellt. Das können z.B. die PostgreSQL-Typen TEXT oder VARCHAR() sein.
+[horizontal]
+Zeichenkette (en: Text):: In Superset mit dem Icon "ABC" dargestellt. Das können z.B. die PostgreSQL-Typen `TEXT` oder `VARCHAR()` sein.
 
-* DatumZeit (en: Datetime) In Superset mit dem Icon "Uhr" dargestellt. Ein "temporaler" d.h. ein zeitlicher Typ mit Datums- und Zeitwert.
+DatumZeit (en: Datetime):: In Superset mit dem Icon "Uhr" dargestellt. Ein "temporaler" d.h. ein zeitlicher Typ mit Datums- und Zeitwert.
 
-* Zahl (en: Number). In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
+Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
 
-* Fliesskomma (en: float/real) und Festkommazahlen (numeric) erhalten in Superset keine Icons.
+Fliesskomma (en: float/real):: und Festkommazahlen (numeric) erhalten in Superset keine Icons.
 
-* Metrik (en: Metrics). In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
+Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
 
 Zeitliche Daten sind wichtig in jeder Datenanalyse. Sie werden u.a. zum Filtern der Daten verwendet. Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht)
 
@@ -60,7 +65,7 @@ Mit der Angabe der Datentyp-Rolle zu einem Text-Attribut ist es immer noch nicht
 
 
 
-**Räumliche Daten (Geodaten)**
+### Räumliche Daten (Geodaten)
 
 Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
 
@@ -70,19 +75,20 @@ NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygo
 
 Geo-Datentyp-Rollen und Datentyp-Encodings in Apache Superset:
 
-* Geo-Datentyp-Rolle "Longitude & Latitude columns": Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". Die entsprechenden Datentype-Encodings sind Delimited oder Geohash.
+[horizontal]
+Geo-Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". Die entsprechenden Datentype-Encodings sind Delimited oder Geohash.
 
-* Geo-Datentyp-Rolle "Point": gibt es noch nicht als eigene Rolle (nur als Longitude & Latitude columns), ist aber vorreserviert.
+Geo-Datentyp-Rolle "Point":: Gibt es noch nicht als eigene Rolle (nur als Longitude & Latitude columns), ist aber vorreserviert.
 
-* Geo-Datentyp-Rolle "Lines": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "Polylines" haben.
+Geo-Datentyp-Rolle "Lines":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "Polylines" haben.
 
-* Geo-Datentyp-Rolle "Polygons": Das sind Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 codes" haben.
+Geo-Datentyp-Rolle "Polygons":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 codes" haben.
 
-NOTE: Für Positionsangaben auf der Erde - beispielsweise mit dem GPS - werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). Lat/Lon werden oft als Fliesskommazahlen behandelt. Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, dass man auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+NOTE: Für Positionsangaben auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). Lat/Lon werden oft als Fliesskommazahlen behandelt. Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, dass man auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
 
 
 
-**Kartentypen und Superset (Map) Charts**
+### Kartentypen und Superset (Map) Charts
 
 In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. Hier werden die Geodaten den Kartensymbolen zuordnet und man spricht von Symbolisierung (en: symbolization, styling).
 
@@ -97,11 +103,10 @@ Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppiere
 
 *Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. Zu diesem Kartentyp gehören folgende Superset Charts:
 
-* Mapbox: Standortkarte mit Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+[horizontal]
+Mapbox:: Standortkarte mit Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.gl Scatterplot: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
-
-<<<
+Deck.gl Scatterplot:: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
 |===
 
@@ -116,9 +121,12 @@ NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim He
 
 *Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
 
-* Deck.gl Path: Netzkarte. Erwartet die Datentyp-Rolle "Lines".
+[horizontal]
+Deck.gl Path:: Netzkarte. Erwartet die Datentyp-Rolle "Lines".
 
-* Deck.gl Arc: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+Deck.gl Arc:: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+<<<
 
 |===
 
@@ -131,9 +139,10 @@ a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_arc.png[100,100]
 
 *Choroplethenkarten* (en. Choropleth Map) (deutsche Synonyme: Dichtemosaikkarten; Flächenkartogramme) werden symbolisiert mit Flächensignaturen bezogen auf Flächen. Die Werte sind hier meist nicht absolut, sondern relativ. Zu diesem Kartentyp gehören folgende Superset Charts:
 
-* Country Map: Choroplethenkarte mit Ländergrenzen. Erwartet ISO 3166-2-Codes von Departements/Kantone/etc. als Zeichenkette.
+[horizontal]
+Country Map:: Choroplethenkarte mit Ländergrenzen. Erwartet ISO 3166-2-Codes von Departements/Kantone/etc. als Zeichenkette.
 
-* Deck.gl Polygon: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
+Deck.gl Polygon:: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
 
 |===
 
@@ -148,15 +157,16 @@ NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Wer
 
 *Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen. Man beachte den Unterschied von Symbol/Marker zu Diagramm. Zu diesem Kartentyp gehören folgende Superset Charts:
 
-* World Map: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von den Ländern als Zeichenkette.
+[horizontal]
+World Map:: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von den Ländern als Zeichenkette.
 
-* Deck.gl 3D Hexagon: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+Deck.gl 3D Hexagon:: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.gl Grid: Variante von Deck.Gl 3D Hexagon jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+Deck.gl Grid:: Variante von Deck.Gl 3D Hexagon jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.gl Screen Grid: Ähnlich wie Deck.GL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+Deck.gl Screen Grid:: Ähnlich wie Deck.GL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-* Deck.gl GeoJSON: (Bemerkung: Funktioniert in Superset momentan nicht!).
+Deck.gl GeoJSON:: (Bemerkung: Funktioniert in Superset momentan nicht!).
 
 Ein weiterer Map-Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts zusammen mit einer Basiskarte.
 
@@ -176,34 +186,34 @@ NOTE: Dies ist nur eine Auswahl der wichtigsten Kartentypen. Sie ist unvollstän
 
 
 
-**Zuordnung von Geodaten zu Kartentypen**
+### Zuordnung von Geodaten zu Kartentypen
 
 Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizontalen Achse und Attributs-Merkmals-Levels auf der vertikalen Achse zu Kartentypen:
 
+.Kartentypen eingeteilt nach Geometrie-Datentypen und Attributs-Merkmals-Levels (Quelle: David Unwin, 1981, “Introductory Spatial Analysis”, London Methuen)
+[%header, cols="h,3*"]
 |===
 
-| |**Point** |**Line** |**Area**
+| |Point |Line |Area
 
-|**Nominal**
+|Nominal
 |Dot map
 |Network map
 |Colored area map
 
-|**Ordinal**
+|Ordinal
 |Symbol map
 |Ordered network map
 |Ordered colored map
 
-|**Interval**
+|Interval
 .2+|Graduated symbol map
 .2+|Flow map
 .2+|Choropleth map
 
-|**Ratio**
+|Ratio
 
 |===
-
-Figur: Tabelle, die Geometrie-Datentypen und Attributs-Merkmals-Levels zu Kartentypen zuordnet. (Quelle: David Unwin, 1981, “Introductory Spatial Analysis”, London Methuen).
 
 ## Chart-Parameter anpassen
 
@@ -314,10 +324,11 @@ Annotations sind die Text- und Grafik-Notizen, die über bestimmte Charts gelegt
 Annotation Layers dienen dazu, Annotations zu bündeln. Ein Layer kann mehrere Annotations beinhalten und man bindet in Diagrammen jeweils den Annotation Layer ein, der dann alle Annotations darstellt.
 Es gibt vier Annotations-Typen:
 
-* Ereignis (en: Event): Basierend auf Tabellendaten, wird als Linie dargestellt.
-* Intervall (en: Interval): Wie Event, allerdings mit Start- und Enddatum, wird als "Range" gerendert.
-* Zeit (Time Series): Linie basierend auf beliebiger Time Series.
-* Formel (en: Formula): Linie basierend auf einer Formel (z.B. 2x oder 0.005x).
+[horizontal]
+Ereignis (en: Event):: Basierend auf Tabellendaten, wird als Linie dargestellt.
+Intervall (en: Interval):: Wie Event, allerdings mit Start- und Enddatum, wird als "Range" gerendert.
+Zeit (Time Series):: Linie basierend auf beliebiger Time Series.
+Formel (en: Formula):: Linie basierend auf einer Formel (z.B. 2x oder 0.005x).
 
 ### Erstellen von Annotationen
 
@@ -344,13 +355,14 @@ Genau wie Events, aber mit einem Start- und Enddatum, werden sie als Bereich dar
 
 ### Zeitreihen-Annotationen
 
-Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt. 
-Der Name und die Anzeigeeigenschaften können konfiguriert werden. Die Daten werden von einer beliebigen Zeitreihen-Chart geholt.
+Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt.
+Der Name und die Anzeigeeigenschaften können konfiguriert werden. Die Daten werden von einer
+beliebigen Zeitreihen-Chart geholt.
 
 ### Formel-Annotationen
 
-Formeln werden als zusätzliche Linie in das Diagramm eingefügt. 
-Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird. 
+Formeln werden als zusätzliche Linie in das Diagramm eingefügt.
+Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird.
 Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
 
 <<<
@@ -360,37 +372,37 @@ Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel a
 Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. 
 Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
 
-NOTE: Bei vielen Charts gibt es eine 'time_rage'. Sie ist auc 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
+NOTE: Bei vielen Charts gibt es eine 'time_range'. Sie ist auf 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
 
-.Visualization Type Mapbox, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
+.Visualization Type Mapbox, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/mapbox.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Scatterplot (entspricht scatter plot in Excel), links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Scatterplot (entspricht scatter plot in Excel), rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_scatterplot.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Path, links am Beispiel Routen in Kalifornien, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Path, rechts am Beispiel Routen in Kalifornien, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_path.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Arc, links am Beispiel Inland-Flüge in den USA, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Arc, rechts am Beispiel Inland-Flüge in den USA, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_arc.png[pdfwidth=75%]
 
-.Visualization Type Country Map, links am Beispiel die Geburtenrate 2014 in den französischen Departements, rechts die dazugehörige Eingabemaske
+.Visualization Type Country Map, rechts am Beispiel die Geburtenrate 2014 in den französischen Departements, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/country_map.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Polygon, links am Beispiel Bezirke in San Francisco und deren Bevölkerungsdichte, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Polygon, rechts am Beispiel Bezirke in San Francisco und deren Bevölkerungsdichte, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_polygon.png[pdfwidth=75%]
 
-.Visualization Type World Map, links am Beispiel der Anteil Bewohner die auf dem Land wohnen, rechts die dazugehörige Eingabemaske
-image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
+.Visualization Type World Map, rechts die Bevölkerungdichte der Länder, links die dazugehörige Eingabemaske
+image::einfuehrung_in_apache_superset_fortsetzung/world_map.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl 3D Hexagon, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl 3D Hexagon, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_3dhexagon.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Grid, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_grid.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Screen Grid, links am Beispiel Punkte in San Francisco, Kalifornien, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Screen Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_screengrid.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Multiple Layers, links am Beispiel die obigen Charts deck.gl Scatterplot und deck.gl Path zusammengeführt, rechts die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Multiple Layers, rechts am Beispiel die obigen Charts deck.gl Scatterplot und deck.gl Path zusammengeführt, links die dazugehörige Eingabemaske
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_multiple_layers.png[pdfwidth=75%]
