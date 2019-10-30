@@ -1,2 +1,4 @@
 :lang: de
 :figure-caption: Abbildung
+:appendix-caption!: ANHANG
+:table-caption: Tabelle

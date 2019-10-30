@@ -1,4 +1,4 @@
-= Unterrichtsmaterialien
+﻿= Unterrichtsmaterialien
 
 :date: 2018-07-11
 :category: OpenSchoolMaps
@@ -31,7 +31,7 @@ https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/mast
 . Mit uMap eine Story-Map mit Bildern erstellen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/umap/03_story-map_erstellen.pdf?job=PDFs[Arbeitsblatt]
 . Mit uMap eine thematische Online-Karte erstellen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/umap/02_online-karte_erstellen.pdf?job=PDFs[Arbeitsblatt]
 
-.Apache Superset das Datenvisualisierungs- und -Publikations-Werkzeug:
+.Apache Superset das Datenvisualisierungs- und Publikations-Werkzeug:
 * Einführung in Apache Superset: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_solutions.pdf?job=PDFs[Lösungen]
 * Apache Superset für Fortgeschrittene: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.pdf?job=PDFs[Informationen]
 
