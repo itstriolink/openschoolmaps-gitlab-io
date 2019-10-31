@@ -53,15 +53,15 @@ DatumZeit (en: Datetime):: In Superset mit dem Icon "Uhr" dargestellt. Ein "temp
 
 Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
 
-Fliesskomma (en: float/real):: und Festkommazahlen (numeric) erhalten in Superset keine Icons.
+Fliesskomma (en: float/real) & Festkommazahlen (numeric):: Keine Icons in Superset.
 
 Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
 
 Zeitliche Daten sind wichtig in jeder Datenanalyse. Sie werden u.a. zum Filtern der Daten verwendet. Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht)
 
-Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer *Datentyp-Rolle* (en: Data type role) wie beispielsweise "Lines" (Linien).
+Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer "Datentyp-Rolle" (en: Data type role) wie beispielsweise "Lines" (Linien).
 
-Mit der Angabe der Datentyp-Rolle zu einem Text-Attribut ist es immer noch nicht getan: Es muss noch das *Datentyp-Encoding* (encoding = Kodierung) bestimmt werden. Superset kennt verschiedene Datentyp-Rollen und Datentyp-Encodings. Weitere werden sicherlich dazu kommen.
+Mit der Angabe der "Datentyp-Rolle" zu einem Text-Attribut ist es immer noch nicht getan: Es muss noch das "Datentyp-Encoding" (encoding = Kodierung) bestimmt werden. Superset kennt verschiedene Datentyp-Rollen und Datentyp-Encodings. Weitere werden sicherlich dazu kommen.
 
 
 
@@ -69,7 +69,7 @@ Mit der Angabe der Datentyp-Rolle zu einem Text-Attribut ist es immer noch nicht
 
 Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
 
-Die wichtigsten Geometrie- bzw. *Geodatentypen* (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
+Die wichtigsten Geometrie- bzw. "Geodatentypen" (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
 
 NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygon verwaltet sind, werden von Superset (noch) als Text oder Binärdaten interpretiert.
 
@@ -90,7 +90,7 @@ NOTE: Für Positionsangaben auf der Erde -- beispielsweise mit dem GPS -- werden
 
 ### Kartentypen und Superset (Map) Charts
 
-In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. Hier werden die Geodaten den Kartensymbolen zuordnet und man spricht von Symbolisierung (en: symbolization, styling).
+In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. Hier werden die Geodaten den Kartensymbolen zugeordnet (Dies nennt man Symbolisierung (en: symbolization, styling)).
 
 Es gibt folgende Kartentypen:
 
@@ -99,7 +99,7 @@ Es gibt folgende Kartentypen:
 * Choroplethenkarten
 * Ortsdiagrammkarten
 
-Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppieren. Es werden hier nur die bekanntesten Kartentypen vorgestellt. Auch Superset deckt nicht alle Kartentypen ab, kennt aber zurzeit schon zwölf verschiedene Map-Chart-Typen (vgl. auch der Anhang):
+Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppieren. Es werden hier nur die bekanntesten Kartentypen vorgestellt. Auch Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map-Chart-Typen zur Verfügung (vgl. auch der Anhang):
 
 *Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. Zu diesem Kartentyp gehören folgende Superset Charts:
 
@@ -162,13 +162,13 @@ World Map:: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von den Ländern als
 
 Deck.gl 3D Hexagon:: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-Deck.gl Grid:: Variante von Deck.Gl 3D Hexagon jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+Deck.gl Grid:: Variante von Deck.gl 3D Hexagon, jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
-Deck.gl Screen Grid:: Ähnlich wie Deck.GL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+Deck.gl Screen Grid:: Ähnlich wie Deck.gL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
 Deck.gl GeoJSON:: (Bemerkung: Funktioniert in Superset momentan nicht!).
 
-Ein weiterer Map-Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts zusammen mit einer Basiskarte.
+Ein weiterer Map-Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts, zusammen mit einer Basiskarte.
 
 |===
 
@@ -220,7 +220,7 @@ Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizonta
 ### Dashboard-Optionen
 
 Ein Dashboard kann die Darstellungs-Konfiguration (z.B. Chart-Farben) der Charts überschreiben. 
-Das ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_. 
+Dies ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_. 
 Hier wirst du ein Textfeld namens "JSON Metadata" finden. Dies könnte z.B. so aussehen (es kann auch sein, dass es leer ist):
 
 ----
@@ -298,9 +298,9 @@ Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als To
 anpassbar. 
 
 IMPORTANT: Für diese Anpassung muss das Schreiben von JavaScript aktiviert sein (ENABLE-JAVASCRIPT-CONTROL).
-Kontaktieren Sie den Sys-Admin falls nötig.
+Kontaktiere den Sys-Admin falls nötig.
 
-Im Textfeld muss man eine funktion schreiben, die einen String zurück gibt, der dann als Tooltip angezeigt wird. Hier ein einfaches Beispiel, welches den Tooltip zu "test" setzt:
+Im Textfeld muss man eine Funktion schreiben, die einen String zurück gibt, der dann als Tooltip angezeigt wird. Hier ein einfaches Beispiel, welches den Tooltip zu "test" setzt:
 
 ----
 function myFunction(punkt) {
@@ -310,7 +310,7 @@ function myFunction(punkt) {
 
 Um eine sinnvolleren Tooltip zu erhalten muss man zuerst die Daten auswählen, die man nutzen will. Das geht durch das Hinzufügen von den Spalten unter _Extra data for JS_.
 
-Wenn du jetzt für jeden Punkt dir einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit den Namen "Name", musst du die Funktion so schreiben: 
+Wenn du dir jetzt für jeden Punkt einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit dem Namen "Name", musst du die Funktion so schreiben: 
 
 ----
 function myFunction(punkt) {
@@ -335,19 +335,19 @@ Formel (en: Formula):: Linie basierend auf einer Formel (z.B. 2x oder 0.005x).
 Ereignis- und Intervall-Annotationen sind bei _Annotations_ unter _Manage_ in der Superset-Menüleiste erstellbar. Die _Long Description_
 einer _Annotation_ wird im Chart als Beschreibungstext vom Ereignis oder Intervall dargestellt. Das Start- und End-Datum dient dem
 Intervall als Zeitspanne, dem Ereignis nur das Start-Datum als fixer Zeitpunkt. Diese Art von _Annotation_ muss zu einem _Annotation Layer_
-gehören.
+hinzugefügt werden.
 
 Ereignis- und Intervall-Annotationen können auch mit einer _Table_ erstellt werden. In der Datenbank-Tabelle soll es für die Annotationen
 eine Kolonne für die Beschreibung (Text), eine für das Start-Datum (Date) und evt. für das End-Datum (Date) vorhanden sein.
 
 IMPORTANT: Die Datenbank-Tabelle kann nicht direkt in den _Annotations and Layers_ referenziert werden. Eine _Table_ mit jener Tabelle, 
-die all die benötigten Kolonnen visualisiert muss zuerst erstellt werden. Diese _Table_ dient dan als _Annotation Source_ des anderen Diagramms.
+die all die benötigten Kolonnen visualisiert, muss zuerst erstellt werden. Diese _Table_ dient dann als _Annotation Source_ des anderen Diagramms.
 
-Zeit-Annotationen erstellt man als ein _Line Chart_. Deren "Verlauf" ist in anderen Diagrammen mit einer Zeit-Achse visualisierbar.
+Die Daten für Zeit-Annotationen werden von einem beliebigen _Line Chart_ geholt. Dessen "Verlauf" ist in anderen Diagrammen mit einer Zeit-Achse visualisierbar.
 
 ### Ereignis-Annotationen
 
-Ereignisse (en: Events) sind eine Liste von Zeitpunkten (Datum) mit Beschreibungen. Sie werden als vertikale Linien dargestellt. Ihre Beschreibung wird in den Tooltips angezeigt, wenn man mit der Maus über sie fährt. Sie werden von einer "Table"-Chart geholt, die die Daten enthält. Man kann Spalten Zeit und Beschreibung auswählen.
+Ereignisse (en: Events) sind eine Liste von Zeitpunkten (Datum) mit Beschreibungen. Sie werden als vertikale Linien dargestellt. Ihre Beschreibung wird in den Tooltips angezeigt, wenn man mit der Maus über sie fährt.
 
 ### Intervall-Annotationen
 
@@ -356,8 +356,7 @@ Genau wie Events, aber mit einem Start- und Enddatum, werden sie als Bereich dar
 ### Zeitreihen-Annotationen
 
 Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt.
-Der Name und die Anzeigeeigenschaften können konfiguriert werden. Die Daten werden von einer
-beliebigen Zeitreihen-Chart geholt.
+Der Name und die Anzeigeeigenschaften können konfiguriert werden.
 
 ### Formel-Annotationen
 
@@ -374,35 +373,35 @@ Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden u
 
 NOTE: Bei vielen Charts gibt es eine 'time_range'. Sie ist auf 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
 
-.Visualization Type Mapbox, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
+.Visualization Type Mapbox, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/mapbox.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Scatterplot (entspricht scatter plot in Excel), rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Scatterplot (entspricht scatter plot in Excel), rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_scatterplot.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Path, rechts am Beispiel Routen in Kalifornien, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Path, rechts am Beispiel Routen in Kalifornien, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_path.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Arc, rechts am Beispiel Inland-Flüge in den USA, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Arc, rechts am Beispiel Inland-Flüge in den USA, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_arc.png[pdfwidth=75%]
 
-.Visualization Type Country Map, rechts am Beispiel die Geburtenrate 2014 in den französischen Departements, links die dazugehörige Eingabemaske
+.Visualization Type Country Map, rechts am Beispiel die Geburtenrate 2014 in den französischen Departements, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/country_map.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Polygon, rechts am Beispiel Bezirke in San Francisco und deren Bevölkerungsdichte, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Polygon, rechts am Beispiel Bezirke in San Francisco und deren Bevölkerungsdichte, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_polygon.png[pdfwidth=75%]
 
-.Visualization Type World Map, rechts die Bevölkerungdichte der Länder, links die dazugehörige Eingabemaske
+.Visualization Type World Map, rechts die Bevölkerungdichte der Länder, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/world_map.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl 3D Hexagon, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl 3D Hexagon, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_3dhexagon.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_grid.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Screen Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Screen Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_screengrid.png[pdfwidth=75%]
 
-.Visualization Type Deck.gl Multiple Layers, rechts am Beispiel die obigen Charts deck.gl Scatterplot und deck.gl Path zusammengeführt, links die dazugehörige Eingabemaske
+.Visualization Type Deck.gl Multiple Layers, rechts am Beispiel die obigen Charts deck.gl Scatterplot und deck.gl Path zusammengeführt, links der dazugehörige Dialog
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_multiple_layers.png[pdfwidth=75%]
