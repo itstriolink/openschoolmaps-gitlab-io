@@ -8,22 +8,28 @@ Ein Arbeitsblatt für Interessierte.
 
 ## Übersicht
 
-Dieses Arbeitsblatt ist eine Fortsetzung der "Einführung in Apache Superset": 
-
 Dieses Arbeitsblatt enthält folgende Themen:
 
-* Daten-Typen und Karten-Typen (Bevor Daten visualisiert werden...)
+* Daten-Typen und Karten-Typen ("Bevor Daten visualisiert werden...")
 * Chart-Parameter anpassen
 * Tooltips mit JavaScript anpassen
-* Annotations
+* Charts mit Annotations ergänzen
+* Eine Tabelle mit einer anderen verknüpfen
+
+Im Anhang sind alle Map Charts nochmals zusammengestellt mit alllen notwendigen Parametern.
 
 Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
 
 ## Bevor Daten visualisiert werden...
 
-Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: Der Visualisierungs-Prozess beginnt mit der Wahl der Datenquelle (Tabelle), dann wird ein passender Chart ausgewählt, und schliesslich wird der Chart einem Dashboard zugeordnet.
+Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: 
+Der Visualisierungs-Prozess beginnt mit der Wahl der Datenquelle (Tabelle), dann wird ein passender Chart ausgewählt, und schliesslich wird der Chart einem Dashboard zugeordnet.
 
-Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu vereinfachen. Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen. Das ist die Domäne der beschreibenden Statistik und des Data Engineerings. Wer die Merkmale eines Attributs kennt, findet die in Frage kommenden Charts schneller.
+Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu vereinfachen. 
+Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen. 
+Das ist die Domäne der beschreibenden Statistik und des Data Engineerings. 
+Wer die Merkmale eines Attributs kennt, findet die in Frage kommenden Charts schneller.
+Wer will, kann dazu direkt zur entsprechenden Tabelle um Unterkapitel "Zuordnung von Geodaten zu Kartentypen" springen.
 
 .Qualitativ und quantitativ
 Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
@@ -84,13 +90,17 @@ Geo-Datentyp-Rolle "Lines":: Attribute vom Basis-Datentyp Text (ABC in Superset)
 
 Geo-Datentyp-Rolle "Polygons":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 codes" haben.
 
-NOTE: Für Positionsangaben auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). Lat/Lon werden oft als Fliesskommazahlen behandelt. Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, dass man auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+NOTE: Für Positionsangaben auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). 
+Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). 
+Lat/Lon werden oft als Fliesskommazahlen behandelt. 
+Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, dass man auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
 
 
 
-### Kartentypen und Superset (Map) Charts
+### Kartentypen und Superset Map Charts
 
-In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. Hier werden die Geodaten den Kartensymbolen zugeordnet (Dies nennt man Symbolisierung (en: symbolization, styling)).
+In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. 
+Hier werden die Geodaten den Kartensymbolen zugeordnet (Dies nennt man Symbolisierung (en: symbolization, styling)).
 
 Es gibt folgende Kartentypen:
 
@@ -99,9 +109,12 @@ Es gibt folgende Kartentypen:
 * Choroplethenkarten
 * Ortsdiagrammkarten
 
-Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppieren. Es werden hier nur die bekanntesten Kartentypen vorgestellt. Auch Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map-Chart-Typen zur Verfügung (vgl. auch der Anhang):
+Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppieren. 
+Es werden hier nur die bekanntesten Kartentypen vorgestellt. 
+Auch Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map-Chart-Typen zur Verfügung (vgl. auch der Anhang):
 
-*Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. Zu diesem Kartentyp gehören folgende Superset Charts:
+*Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. 
+Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
 Mapbox:: Standortkarte mit Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
@@ -215,6 +228,8 @@ Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizonta
 
 |===
 
+Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map) wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
+
 ## Chart-Parameter anpassen
 
 ### Dashboard-Optionen
@@ -318,10 +333,15 @@ function myFunction(punkt) {
 }
 ----
 
-## Annotations
+## Charts mit Annotations ergänzen
 
-Annotations sind die Text- und Grafik-Notizen, die über bestimmte Charts gelegt werden können. Je nach Annotations-Typ ist es entweder eine Linie oder ein gefärbtes Rechteck im Hintergrund. Sie können dazu benutzt werden allgemeine Informationen (z.B. weltweites Bevölkerungswachstum) darzustellen ohne diese als Daten in einer Tabelle ablegen zu müssen.
-Annotation Layers dienen dazu, Annotations zu bündeln. Ein Layer kann mehrere Annotations beinhalten und man bindet in Diagrammen jeweils den Annotation Layer ein, der dann alle Annotations darstellt.
+_Annotations_ sind Text- und Grafik-Notizen, die als Anmerkung über Charts gelegt werden können. 
+Je nach Annotations-Typ ist es entweder eine Linie oder ein gefärbtes Rechteck im Hintergrund. 
+Sie können dazu benutzt werden allgemeine Informationen (z.B. weltweites Bevölkerungswachstum) darzustellen ohne diese als Daten in einer Tabelle ablegen zu müssen.
+
+_Annotation Layers_ dienen dazu, Annotations zu bündeln. 
+Ein Layer kann mehrere Annotations beinhalten und man bindet in Diagrammen jeweils den Annotation Layer ein, der dann alle Annotations darstellt.
+
 Es gibt vier Annotations-Typen:
 
 [horizontal]
@@ -364,12 +384,50 @@ Formeln werden als zusätzliche Linie in das Diagramm eingefügt.
 Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird.
 Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
 
+# Eine Tabelle mit einer anderen verknüpfen
+
+Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabellen mit einer anderen. Durch diese Verknüpfung werden der ersten Tabelle weitere Datenspalten der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
+
+Diese Verknüpfung geschieht über ein bestimmtes Feld (Attribut, Spalte) der einen Tabelle, das mit einem Feld einer weiteren Tabelle verbunden wird. 
+
+NOTE: Beim Verknüpfen von zwei Tabellen müssen die Felder, die verknüpft werden, denselben (oder aber einen kompatiblen) Datentyp haben. 
+
+Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden, gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System: 
+
+* innerhalb demselben Schema: "SELECT * FROM mytable m JOIN lookuptable t ON m.id=t.id;"
+* innerhalb derselben Database: "SELECT * FROM myschema.mytable m JOIN otherschema.lookuptable t ON m.id=t.id;"
+* mit anderer Database auf demselben Server/Host (d.h. innerhalb der Datenbank von Apache Superset Cloud): tbc.
+* mit anderer Database auf anderem Server/Host (d.h. mit einer Datenbank im Internet ausserhalb der Apache Superset Cloud): tbc. 
+
+Bei Superset kann man für einen Chart nur eine einzige Datenquelle (Tabelle) auswählen. 
+An dieser Stelle muss hinzgefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
+Dazu kann im Dialog Superset "SQL Lab" (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in Superset bei den Tabellen als weitere Datenquelle (Tabelle) "registriert" wird. 
+Zu diesem Zweck rufe man nach Erstellung der View Menü _Sources > Tables_ auf, klicke auf das "+"-Zeichen rechts oben und registriere den Namen der soeben erstellten View in Superset.
+
+Nachfolgend nochmals der konkrete Arbeitsablauf in Apache Superset gegeben zwei Tabellen "Angestellter" und "Abteilung" seien vorhanden und bei jedem Angstellten hätte es eine "Abteilungs-Id", eine Zahl, die eine Verknüpfung darstellt zu einer bestimmten Abteilung, der der Angestellte angehört:
+
+* Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
+* Eingeben des folgenden SQL-Skripts (dieses SQL-Skript sinngemäss anpassen, wobei die erste und letzte Zeile (`begin; ... commit;`) beibehalten werden; Tabellennamen sind hier in Anführungszeichen):
+```
+  begin;
+  create view "angestellter_view" as 
+    select * from "angestellter" as ang join "abteilung" as abt on ang.abtid=abt.id 
+  ;
+  commit;
+```
+* Im _SQL Editor_ den Button _Run Query_ ausführen.
+* Wechseln zur Tabellenliste mit dem Menü _Source _ > _Tables_.
+* Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition".
+* Im Dialog "Import a table definition" den "Table Name" (= Name der soeben erstellen View) ergänzen.
+* Fertig! Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source _ > _Tables_), typischerweise zur Erstellung eines Charts.
+
+
 <<<
 
-== ANHANG: Die Map Charts
+== ANHANG: Die Charts
 
 Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. 
-Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden um ein solches Diagramm zu erstellen.
+Mittels einer roten Box ist jeweils markiert, welche Parameter benötigt werden, um die entsprechende Karte zu erstellen.
 
 NOTE: Bei vielen Charts gibt es eine 'time_range'. Sie ist auf 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
 
