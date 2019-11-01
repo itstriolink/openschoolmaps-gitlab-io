@@ -441,19 +441,21 @@ Dazu kann im Dialog Superset "SQL Lab" (Menü _SQL Lab_) eine sogenannte Sicht (
 Nachfolgend ein beispielhafter Arbeitsablauf in Apache Superset gegeben die Tabelle "Angestellter", welche mit der "Abteilung" verknüpft werden soll und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
-* Eingeben des folgenden SQL-Skripts (dieses SQL-Skript sinngemäss anpassen, wobei die erste und letzte Zeile (`BEGIN;  COMMIT;`) beibehalten werden; Tabellennamen sind hier in Anführungszeichen; die SQL-Schlüsselworte sind hier in Grossbuchstaben zur besseren Lesbarkeit):
+* Eingeben des folgenden SQL-Skripts (dieses SQL-Skript sinngemäss anpassen, wobei die erste und letzte Zeile (`BEGIN; . . . COMMIT;`) beibehalten werden müssen; Tabellennamen sind hier in Anführungszeichen; die SQL-Schlüsselworte sind hier in Grossbuchstaben zur besseren Lesbarkeit):
 ----
 BEGIN;
 CREATE VIEW "angestellter_view" AS 
-SELECT * FROM "angestellter" AS ang JOIN "abteilung" AS abt ON ang.abtid = abt.id 
+  SELECT * 
+  FROM "angestellter" AS ang 
+  JOIN "abteilung" AS abt ON ang.abtid = abt.id 
 ;
 COMMIT;
 ----
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source _ > _Tables_.
-* Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition".
-* Im Dialog "Import a table definition" den "Table Name" (= Name der soeben erstellen View) ergänzen.
-* Fertig! Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source _ > _Tables_), typischerweise zur Erstellung eines Charts.
+* Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
+* Im Dialog "Import a table definition" als "Table Name" der Namen der soeben erstellen View ergänzen.
+* Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source _ > _Tables_), typischerweise zur Erstellung eines Charts.
 
 NOTE: Verknüpfungen wie oben erläutert (mittels einer normalen View) können die Antwortzeiten erheblich verlangsamen. 
 Mit weiteren SQL-Skripts kann die Anfrage beschleunigt werden, wofür es jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
@@ -463,9 +465,9 @@ Falls du - wie oben angedeutet - auf weitere Arten eine Tabelle mit einer andere
 
 
 <<<
-== ANHANG: Die Charts
+== ANHANG: Map Charts
 
-Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. 
+Hier siehst du die elf Map Charts von Apache Superset und deren Auswahlmöglichkeiten. 
 Mittels einer roten Box ist jeweils markiert, welche Parameter benötigt werden, um die entsprechende Karte zu erstellen.
 
 NOTE: Bei vielen Charts gibt es eine 'time_range'. Sie ist auf 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
