@@ -452,7 +452,7 @@ CREATE VIEW "angestellter_view" AS
 COMMIT;
 ----
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
-* Wechseln zur Tabellenliste mit dem Menü _Source _ > _Tables_.
+* Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
 * Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
 * Im Dialog "Import a table definition" als "Table Name" der Namen der soeben erstellen View ergänzen.
 * Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
@@ -463,6 +463,28 @@ Falls du - wie oben angedeutet - eine Tabelle auf weitere Arten mit anderen Tabe
 
 NOTE: Verknüpfungen mittels einer normalen View - wie oben erläutert - kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
+
+
+
+### Mit Superset die Möglichkeiten der Datenbanksprache SQL nutzen 
+
+Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
+Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
+
+Hier ein Beispiel mit einer SQL-WINDOW-Funktion, welche die Anzahl der Mitarbeiter einer Abteilung zählt:
+
+----
+BEGIN;
+CREATE MATERIALIZED VIEW "angestellter_view" AS 
+  SELECT 
+    name, 
+    persnr, 
+    abtnr, 
+    COUNT(*) OVER (PARTITION BY abtnr) AS anzahl_abt_mitarbeiter 
+  FROM angestellter
+;
+COMMIT;
+----
 
 
 
