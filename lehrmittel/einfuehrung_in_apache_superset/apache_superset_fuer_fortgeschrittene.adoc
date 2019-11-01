@@ -414,34 +414,40 @@ Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel a
 <<<
 ## Eine Tabelle mit einer anderen verknüpfen
 
-Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabellen mit einer anderen. Durch diese Verknüpfung werden der ersten Tabelle weitere Datenspalten der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
+Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabellen mit einer anderen. 
+Durch diese Verknüpfung werden der ersten Tabelle weitere Datenspalten der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
 
-Diese Verknüpfung geschieht über ein bestimmtes Feld (Attribut, Spalte) der einen Tabelle, das mit einem Feld einer weiteren Tabelle verbunden wird. 
+Diese Verknüpfung geschieht mit der Datenbanksprache SQL und über ein bestimmtes Feld (Attribut, Spalte) der einen Tabelle, das mit einem Feld einer weiteren Tabelle verbunden wird. 
+Im Hintergrund muss das Datenbanksystem typischweise ein sogenannter JOIN ausführen.
 
-NOTE: Beim Verknüpfen von zwei Tabellen müssen die Felder, die verknüpft werden, denselben (oder aber einen kompatiblen) Datentyp haben. 
+NOTE: Beim Verknüpfen von zwei Tabellen müssen die Felder, die verknüpft werden, denselben - oder aber einen kompatiblen - Datentyp haben. 
 
 Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden, gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System: 
 
-* innerhalb demselben Schema: "SELECT * FROM mytable m JOIN lookuptable t ON m.id=t.id;"
-* innerhalb derselben Database: "SELECT * FROM myschema.mytable m JOIN otherschema.lookuptable t ON m.id=t.id;"
-* mit anderer Database auf demselben Server/Host (d.h. innerhalb der Datenbank von Apache Superset Cloud): tbc.
-* mit anderer Database auf anderem Server/Host (d.h. mit einer Datenbank im Internet ausserhalb der Apache Superset Cloud): tbc. 
+* innerhalb demselben Schema: `SELECT * FROM mytable m JOIN othertable t ON m.id = t.id;`.
+* innerhalb derselben Database: `SELECT * FROM myschema.mytable m JOIN otherschema.othertable t ON m.id = t.id;`.
+* mit anderer (PostgreSQL-)Database auf demselben Server/Host (d.h. innerhalb der Datenbank von Apache Superset Cloud): tbc.
+* mit anderer (PostgreSQL-)Database auf anderem Server/Host (d.h. mit einer Datenbank im Internet ausserhalb der Apache Superset Cloud): tbc. 
+* mit anderer Datasource (z.B. SQLite): nur möglich mit einer Software-Anpassung.
 
-Bei Superset kann man für einen Chart nur eine einzige Datenquelle (Tabelle) auswählen. 
+
+
+### Mit Superset eine Tabelle mit einer anderen verknüpfen 
+
+In der "Einführung in Apache Superset" wurde festgehalten, dass man für einen Chart nur eine einzige Datenquelle (Tabelle) auswählen kann. 
 An dieser Stelle muss hinzgefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
 Dazu kann im Dialog Superset "SQL Lab" (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in Superset bei den Tabellen als weitere Datenquelle (Tabelle) "registriert" wird. 
-Zu diesem Zweck rufe man nach Erstellung der View Menü _Sources > Tables_ auf, klicke auf das "+"-Zeichen rechts oben und registriere den Namen der soeben erstellten View in Superset.
 
-Nachfolgend nochmals der konkrete Arbeitsablauf in Apache Superset gegeben zwei Tabellen "Angestellter" und "Abteilung" seien vorhanden und bei jedem Angstellten hätte es eine "Abteilungs-Id", eine Zahl, die eine Verknüpfung darstellt zu einer bestimmten Abteilung, der der Angestellte angehört:
+Nachfolgend ein beispielhafter Arbeitsablauf in Apache Superset gegeben die Tabelle "Angestellter", welche mit der "Abteilung" verknüpft werden soll und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
-* Eingeben des folgenden SQL-Skripts (dieses SQL-Skript sinngemäss anpassen, wobei die erste und letzte Zeile (`begin; ... commit;`) beibehalten werden; Tabellennamen sind hier in Anführungszeichen):
+* Eingeben des folgenden SQL-Skripts (dieses SQL-Skript sinngemäss anpassen, wobei die erste und letzte Zeile (`BEGIN;  COMMIT;`) beibehalten werden; Tabellennamen sind hier in Anführungszeichen; die SQL-Schlüsselworte sind hier in Grossbuchstaben zur besseren Lesbarkeit):
 ----
-  begin;
-  create view "angestellter_view" as 
-    select * from "angestellter" as ang join "abteilung" as abt on ang.abtid=abt.id 
-  ;
-  commit;
+BEGIN;
+CREATE VIEW "angestellter_view" AS 
+SELECT * FROM "angestellter" AS ang JOIN "abteilung" AS abt ON ang.abtid = abt.id 
+;
+COMMIT;
 ----
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source _ > _Tables_.
@@ -450,7 +456,9 @@ Nachfolgend nochmals der konkrete Arbeitsablauf in Apache Superset gegeben zwei 
 * Fertig! Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source _ > _Tables_), typischerweise zur Erstellung eines Charts.
 
 NOTE: Verknüpfungen wie oben erläutert (mittels einer normalen View) können die Antwortzeiten erheblich verlangsamen. 
-Mit weiteren SQL-Skripts kann die Anfrage beschleunigt werden, wofür es jedoch weitere SQL- und PostgreSQL-Kenntisse nötig sind.
+Mit weiteren SQL-Skripts kann die Anfrage beschleunigt werden, wofür es jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
+
+Falls du - wie oben angedeutet - auf weitere Arten eine Tabelle mit einer anderen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
 
 
 
