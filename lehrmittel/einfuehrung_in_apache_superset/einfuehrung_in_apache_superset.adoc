@@ -12,13 +12,13 @@ include::../../snippets/suppress_title_page.adoc[]
 
 Diese Einführung hat folgende Lernziele:
 
-* Du kennst die wichtigsten Konzepte und Grundfunktionen
-* Du kannst Datenquellen selektieren und filtern
-* Du kannst Daten mit Charts visualisieren
+* Du kennst die wichtigsten Konzepte und Grundfunktionen von Apache Superset
+* Du kannst Datenquellen selektieren
+* Du kannst Daten mittels Charts visualisieren
 * Du kannst Charts zu einem Dashboard anordnen
 * Du kannst Dashboards mit anderen (übers Web) teilen
 
-Das Bearbeiten dieses Arbeitsblatts dauert ca. 2 Stunden, je nach deinem Vorwissen.
+Das Bearbeiten dieses Arbeitsblatts dauert ca. zwei Stunden, je nach deinem Vorwissen.
 
 Für diese Einführung werden keine Programmierkenntnisse vorausgesetzt; 
 Grundkenntnisse der Tabellenkalkulation genügen für's Erste. 
@@ -40,13 +40,13 @@ Wir Menschen sind schlecht darin, Zahlen zu vergleichen; grafische Muster dagege
 Visualisierung stellt somit nicht nur die Daten graphisch dar, sondern kann auch als eigene Technik der Datenanalyse eingesetzt werden. 
 Das Internet ermöglicht zudem die Publikation der Visualisierung und damit die einfache Kommunikation mit Kunden und Arbeitskollegen.
 
-Apache Superset ist so ein Daten-Visualisierungs- und Data-Sharing-Werkzeug. 
+Apache Superset ist so ein Daten-Visualisierungs- und Publikations-Werkzeug. 
 Manche nennen diese Anwendung auch "Business Intelligence Tool". 
 Superset ist auch ein Werkzeug zum Teilen (Sharing) von Datenquellen, d.h. von Tabellen-Daten bis zu Geodaten. 
 Es kann mit verschiedensten Datenbanken verbunden werden. 
 
 NOTE: Zu Apache Superset gibt es eine offizielle, englischsprachige Dokumentation. 
-Diese scheint leider sehr dünn und nicht nachgeführt zu sein: Veraltete Begriffe ("Slices" statt "Charts") werden verwendet
+Diese scheint leider sehr dünn und nicht nachgeführt zu sein: Es verwendet veraltete Begriffe ("Slices" statt "Charts")
 und das in der Dokumentation enthaltene Tutorial setzt Wetterdaten voraus, die nicht vorinstalliert sind.
 Das Nützlichste der Dokumentation ist das (kleine) FAQ Frequently Asked Questions (Häufig gestellte Fragen): https://superset.incubator.apache.org/faq.html . 
 
@@ -70,13 +70,13 @@ Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Ka
 
 Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 
-* Sources (Datenquellen): Eine "Source" kann entweder durch die Definition verfügbarer Tabellen und zugehöriger Felder oder durch die Erstellung von SQL-Abfragen und die Definition von Datenquellen aus diesen erstellt werden.
+* Datasource (Datenquelle): Eine "Source" kann entweder durch die Definition verfügbarer Tabellen und zugehöriger Felder oder durch die Erstellung von SQL-Abfragen und die Definition von Datenquellen aus diesen erstellt werden.
 * Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
-* Charts (Diagramme), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten sind.
-* Dashboards: Ein "Dashboard" ist eine interaktive Webseite auf der man interaktive Charts präsentieren kann.
-* Metrics: Bei "Metrics" (manchmal auch "Measurements" genannt) handelt es sich um Kennzahlen. Sie werden u.a. für Charts benötigt.
-* "Records": Datenquellen und Charts sind alles Programmier-Elemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
-* SQL-Query: Eine Anweisung, eine Datenbankanfrage in der Datenbanksprache SQL. SQL-Queries kann man speichern und als Datenquelle zur Verfügung stellen.
+* Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
+* Dashboards: Eine interaktive Webseite auf der interaktive Charts präsentiert werden.
+* Metrics: "Metrics" (manchmal auch "Measurements" genannt) sind numerische Kennzahlen. Sie werden v.a. in den Charts erwähnt und verlangt.
+* Records: Datenquellen und Charts sind alles Programmierelemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
+* SQL-Query: Anweisung, Datenbankanfrage in der Datenbanksprache SQL. SQL-Queries kann man speichern und als Datenquelle anderen zur Verfügung stellen.
 
 NOTE: Im Menü "Sources" von Apache Superset und in der Orginal-Dokumentation von Apache Superset wird Druid als Datenbanksystem erwähnt. 
 Alle auf Druid bezogenen Informationen im Menü (und in der Dokumentation) kannst du ignorieren.
@@ -89,13 +89,13 @@ Wenn nötig, müssen die Daten mit Datenbanksystemen (SQL), Tabellenkalkulations
 (siehe u.a. https://openschoolmaps.ch/[OpenSchoolMaps] > "Einführung in QGIS 3 und in Geoinformationssysteme (GIS)"). 
 Hilfreich, um Daten zu bereinigen ("Data Wrangling"), kann hierbei auch z.B. http://openrefine.org/[OpenRefine] sein.
 
-Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (Quelle: https://data.worldbank.org/, Lizenz CC BY-4.0, Stand ca. 2017).
+Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, Stand ca. 2017).
 Die Daten beschreiben die Population, urban/rural (Lebensraum) und die Lebenserwartung pro Land bzw. pro Region über die Jahre 1960 bis 2014.
 
 In diesem Arbeitsblatt wird nur eine Tabelle verwendet, die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Population").
 
 Die Tabelle `wb_health_population` hat ca. 328 Kolonnen (Attribute), d.h. sehr viele.
-Wir verwenden davon nur folgende Kolonnen:
+Wir verwenden davon folgende Kolonnen:
 
 * Name des Landes: `country_name`
 * Weltregion, in der das Land liegt: `region`
@@ -148,8 +148,8 @@ Zudem kann man unter _Columns_ einstellen, ob man nach dieser Spalte gruppieren 
 
 Um eine Tabelle abzufragen, muss man auf den Namen der Tabelle klicken. 
 In diesem Beispiel ist das `wb_health_population`. 
-Es ist nur möglich, eine einzelne Tabelle als Quelle auszuwählen. 
-Benötigt man mehrere Tabellen als Datenquelle, muss eine sogenannte "View", d.h. eine SQL-Query, geschrieben werden. 
+Man kann nur eine Tabelle als Quelle auszuwählen. 
+Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse (in weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt wie das geht). 
 
 Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster, bzw. ein neuer Browser Tab, in dem man nun einen Chart erstellen kann.
 Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
@@ -186,7 +186,8 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 2* +
-_Nun da du die Population von jedem Land siehst, können wir die Daten auf alle Länder, die mehr als 100M Einwohner haben, beschränken. Probiere dies mit Hilfe des Filters unter Query (hierfür wird die Option Custom SQL nicht benötigt)._
+_Nun da du die Population von jedem Land siehst, können wir die Daten auf alle Länder, die mehr als 100 Millionen Einwohner haben, beschränken. 
+Probiere dies mit Hilfe des Filters unter Query (hierfür wird die Option _Custom SQL_ nicht benötigt)._
 
 ifdef::show_solutions[]
 ====
@@ -340,7 +341,7 @@ endif::show_solutions[]
 
 === Chart Nr. 7 Weltkarte
 
-Zum Abschluss machen wir noch diesen Chart Nr. 7, ein Map Chart:
+Zum Abschluss erstellen wir noch diesen Chart Nr. 7, ein Map Chart:
 
 .rural_percentage (Chart 7)
 image::einfuehrung_in_apache_superset/rural_percentage.PNG[]
@@ -407,44 +408,45 @@ Den Link kannst du nun einer anderen Person schicken, jedoch muss diese Person (
 
 Geschafft! Du solltest nun ein Dashboard zu den Weltbank-Daten haben, das du anderen zeigen kannst.
 
-NOTE: Zu Apache Superset und QGIS gibt es auch Kurse, u.a. am https://giswiki.hsr.ch/Agenda[Geometa Lab HSR].
+TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direkt Jahreszahlen zu schreiben. Das Datum ist dann automatisch der erste Januar.
+
+Wer mehr über Apache Superset erfahren will, dem sei das Informationsblatt "Apache Superset für Fortgeschrittene" auf OpenSchoolMaps empfohlen.
+
+NOTE: Zu Apache Superset gibt es auch Kurse, u.a. am https://giswiki.hsr.ch/Agenda[Geometa Lab HSR].
 
 Gerne nehmen wir Rückmeldungen entgegen, siehe https://openschoolmaps.ch[OpenSchoolMaps] > _Weitere Unterrichtsideen_.
 
 
-TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direkt Jahreszahlen zu schreiben. Das Datum ist dann automatisch der erste Januar.
 
-
+<div></div>
 
 
 == ANHANG: Die sieben Charts und Optionen
 
-Hier siehst du sieben Charts und deren Auswahlmöglichkeiten. Mittels einer roten Box ist jeweils markiert, welche Optionen benötigt werden, um ein solches Diagramm zu erstellen.
+Hier siehst du sieben Charts und deren Auswahlmöglichkeiten. Mittels einer roten Umrandung ist jeweils markiert, welche Optionen benötigt werden, um ein solches Diagramm zu erstellen.
 
 
 
-.Visualization Type Table, links am Beispiel der Bevölkerungszahlen verschiedener Länder, rechts der dazugehörige Dialog
+.Visualization Type Table, links am Beispiel der Bevölkerungszahlen verschiedener Länder, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/most_populated_countries_pdf.png[pdfwidth=75%]
 
-.Visualization Type Sunburst Chart (Entspricht Ringdiagramm/Sunburst-Diagramm in Excel), links am Beispiel der ländlich oder stätlich Wohnenden aufgeteilt in region und Land, rechts der dazugehörige Dialog
+.Visualization Type Sunburst Chart (Entspricht Ringdiagramm/Sunburst-Diagramm in Excel), links am Beispiel der ländlich oder urban Wohnenden aufgeteilt in Region und Land, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/rural_breakdown_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Line Chart (Entspricht Liniendiagramm in Excel), links am Beispiel des Bevölkerungswachstums verschiedener Länder, rechts der dazugehörige Dialog
+.Visualization Type: Line Chart (Entspricht Liniendiagramm in Excel), links am Beispiel des Bevölkerungswachstums verschiedener Länder, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/growth_rate_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Big Number with Trendline (ist in Excel nicht vorhanden), links am Beispiel des Bevölkerungswachstums, rechts der dazugehörige Dialog
+.Visualization Type: Big Number with Trendline (ist in Excel nicht vorhanden), links am Beispiel des Bevölkerungswachstums, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/worlds_pop_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Area Chart (Entspricht Flächendiagramm in Excel) links am Beispiel des Bevölkerungswachstums verschiedener Regionen, rechts der dazugehörige Dialog
+.Visualization Type: Area Chart (Entspricht Flächendiagramm in Excel) links am Beispiel des Bevölkerungswachstums verschiedener Regionen, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/worlds_pop_growth_pdf.png[pdfwidth=75%]
 
-.Visualization Type: World Map (Entspricht Karten Diagramm in Excel) links am Beispiel der Bevölkerungsgrösse und den davon ländlichlebenden Anteil, rechts der dazugehörige Dialog
+.Visualization Type: World Map (Entspricht Karten Diagramm in Excel) links am Beispiel der Bevölkerungsgrösse und den davon ländlichlebenden Anteil, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
 
-.Visualization Type: Bubble Chart (Entspricht Blasendiagramm in Excel) links am Beispiel der Lebenserwartung vs. den Anteil der ländlich lebenden Bevölkerung pro Land, rechts der dazugehörige Dialog
+.Visualization Type: Bubble Chart (Entspricht Blasendiagramm in Excel) links am Beispiel der Lebenserwartung vs. den Anteil der ländlich lebenden Bevölkerung pro Land, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=75%]
-
-
 
 
 include::../../snippets/quellenangabe.adoc[]
