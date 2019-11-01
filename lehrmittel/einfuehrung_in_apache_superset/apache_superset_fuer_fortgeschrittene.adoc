@@ -313,9 +313,9 @@ Um die Farbe von einem Chart abzuändern musst du `"label_colors": {"key": "colo
 }
 ----
 
-Der JSON Editor Online https://jsoneditoronline.org/ kann bei der Bearbeitung helfen.
-
 Die "Keys" wie z.B. "girl" kannst du in der Legende des jeweiligen Charts finden.
+
+IMPORTANT: Alle Optionen müssen gültiges JSON sein. Der https://jsoneditoronline.org/["JSON Editor Online"] kann bei der Bearbeitung helfen.
 
 
 
@@ -414,34 +414,34 @@ Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel a
 <<<
 ## Eine Tabelle mit einer anderen verknüpfen
 
-Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabellen mit einer anderen. 
-Durch diese Verknüpfung werden der ersten Tabelle weitere Datenspalten der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
+Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabelle mit einer anderen Tabelle. 
+Durch diese Verknüpfung werden der ersten Tabelle weitere Attribute (Felder, Spalten)  der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
 
-Diese Verknüpfung geschieht mit der Datenbanksprache SQL und über ein bestimmtes Feld (Attribut, Spalte) der einen Tabelle, das mit einem Feld einer weiteren Tabelle verbunden wird. 
+Diese Verknüpfung geschieht mit der Datenbanksprache SQL über ein bestimmtes Attribut der einen Tabelle, das mit einem Attribut einer weiteren Tabelle verbunden wird. 
 Im Hintergrund muss das Datenbanksystem typischweise ein sogenannter JOIN ausführen.
 
-NOTE: Beim Verknüpfen von zwei Tabellen müssen die Felder, die verknüpft werden, denselben - oder aber einen kompatiblen - Datentyp haben. 
-
-Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden, gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System: 
+Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden (hier gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
 
 * innerhalb demselben Schema: `SELECT * FROM mytable m JOIN othertable t ON m.id = t.id;`.
 * innerhalb derselben Database: `SELECT * FROM myschema.mytable m JOIN otherschema.othertable t ON m.id = t.id;`.
-* mit anderer (PostgreSQL-)Database auf demselben Server/Host (d.h. innerhalb der Datenbank von Apache Superset Cloud): tbc.
-* mit anderer (PostgreSQL-)Database auf anderem Server/Host (d.h. mit einer Datenbank im Internet ausserhalb der Apache Superset Cloud): tbc. 
-* mit anderer Datasource (z.B. SQLite): nur möglich mit einer Software-Anpassung.
+* mit anderer (PostgreSQL-)Database auf demselben Server/Host: _tbc._
+* mit anderer (PostgreSQL-)Database auf anderem Server/Host: _tbc._ 
+* mit anderer Datasource (z.B. SQLite): Nur möglich mit einer Software-Anpassung.
+
+NOTE: Beim Verknüpfen von zwei Tabellen müssen die Attribute, die verknüpft werden, denselben - oder aber einen kompatiblen - Datentyp haben. 
 
 
 
 ### Mit Superset eine Tabelle mit einer anderen verknüpfen 
 
-In der "Einführung in Apache Superset" wurde festgehalten, dass man für einen Chart nur eine einzige Datenquelle (Tabelle) auswählen kann. 
-An dieser Stelle muss hinzgefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
-Dazu kann im Dialog Superset "SQL Lab" (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in Superset bei den Tabellen als weitere Datenquelle (Tabelle) "registriert" wird. 
+In der "Einführung in Apache Superset" steht, dass man für einen Chart nur eine einzige Datenquelle (Tabelle) auswählen kann. 
+An dieser Stelle muss hinzugefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
+Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
 
-Nachfolgend ein beispielhafter Arbeitsablauf in Apache Superset gegeben die Tabelle "Angestellter", welche mit der "Abteilung" verknüpft werden soll und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
+Nachfolgend ein beispielhafter Arbeitsablauf gegeben die Tabelle "Angestellter", die mit der "Abteilung" verknüpft werden soll und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
-* Eingeben des folgenden SQL-Skripts (dieses SQL-Skript sinngemäss anpassen, wobei die erste und letzte Zeile (`BEGIN; . . . COMMIT;`) beibehalten werden müssen; Tabellennamen sind hier in Anführungszeichen; die SQL-Schlüsselworte sind hier in Grossbuchstaben zur besseren Lesbarkeit):
+* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
 ----
 BEGIN;
 CREATE VIEW "angestellter_view" AS 
@@ -455,17 +455,19 @@ COMMIT;
 * Wechseln zur Tabellenliste mit dem Menü _Source _ > _Tables_.
 * Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
 * Im Dialog "Import a table definition" als "Table Name" der Namen der soeben erstellen View ergänzen.
-* Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source _ > _Tables_), typischerweise zur Erstellung eines Charts.
+* Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
 
-NOTE: Verknüpfungen wie oben erläutert (mittels einer normalen View) können die Antwortzeiten erheblich verlangsamen. 
-Mit weiteren SQL-Skripts kann die Anfrage beschleunigt werden, wofür es jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
+NOTE: Falls bei bei _Run Query_ - also der Ausführung des SQL-Skripts - ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources`und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
 
-Falls du - wie oben angedeutet - auf weitere Arten eine Tabelle mit einer anderen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
+Falls du - wie oben angedeutet - eine Tabelle auf weitere Arten mit anderen Tabellen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
+
+NOTE: Verknüpfungen mittels einer normalen View - wie oben erläutert - kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
+Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
 
 
 
 <<<
-== ANHANG: Map Charts
+== ANHANG: Die elf Map Charts von Apache Superset
 
 Hier siehst du die elf Map Charts von Apache Superset und deren Auswahlmöglichkeiten. 
 Mittels einer roten Box ist jeweils markiert, welche Parameter benötigt werden, um die entsprechende Karte zu erstellen.
