@@ -6,6 +6,8 @@ include::../../snippets/suppress_title_page.adoc[]
 
 Ein Arbeitsblatt für Interessierte.
 
+
+
 ## Übersicht
 
 Dieses Arbeitsblatt enthält folgende Themen:
@@ -16,9 +18,11 @@ Dieses Arbeitsblatt enthält folgende Themen:
 * Charts mit Annotations ergänzen
 * Eine Tabelle mit einer anderen verknüpfen
 
-Im Anhang sind alle Map Charts nochmals zusammengestellt mit alllen notwendigen Parametern.
+Im Anhang sind alle Map Charts nochmals zusammengestellt mit allen notwendigen Parametern.
 
 Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
+
+
 
 ## Bevor Daten visualisiert werden...
 
@@ -230,7 +234,12 @@ Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizonta
 
 Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map) wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
 
+
+
+<<<
 ## Chart-Parameter anpassen
+
+
 
 ### Dashboard-Optionen
 
@@ -280,6 +289,8 @@ Die Parameter gelten allgemein für alle Dashboards:
 
 NOTE: Die _slice_id_ ist in den Chart-Metadaten unter _Parameter_ zu finden. Falls dein Chart keine ID hat musst du ihn noch einmal abspeichern.
 
+
+
 ### Chart-Farben im Dashboard definieren
 
 IMPORTANT: Damit die gewünschten Farben im Dashboard angewendet werden, muss bei den einzelnen Charts unter _Customize_ das Farbschema `Airbnb Colors`
@@ -305,6 +316,7 @@ Um die Farbe von einem Chart abzuändern musst du `"label_colors": {"key": "colo
 Der JSON Editor Online https://jsoneditoronline.org/ kann bei der Bearbeitung helfen.
 
 Die "Keys" wie z.B. "girl" kannst du in der Legende des jeweiligen Charts finden.
+
 
 
 ### Tooltips mit JavaScript anpassen
@@ -333,6 +345,9 @@ function myFunction(punkt) {
 }
 ----
 
+
+
+<<<
 ## Charts mit Annotations ergänzen
 
 _Annotations_ sind Text- und Grafik-Notizen, die als Anmerkung über Charts gelegt werden können. 
@@ -350,6 +365,8 @@ Intervall (en: Interval):: Wie Event, allerdings mit Start- und Enddatum, wird a
 Zeit (Time Series):: Linie basierend auf beliebiger Time Series.
 Formel (en: Formula):: Linie basierend auf einer Formel (z.B. 2x oder 0.005x).
 
+
+
 ### Erstellen von Annotationen
 
 Ereignis- und Intervall-Annotationen sind bei _Annotations_ unter _Manage_ in der Superset-Menüleiste erstellbar. Die _Long Description_
@@ -365,18 +382,26 @@ die all die benötigten Kolonnen visualisiert, muss zuerst erstellt werden. Dies
 
 Die Daten für Zeit-Annotationen werden von einem beliebigen _Line Chart_ geholt. Dessen "Verlauf" ist in anderen Diagrammen mit einer Zeit-Achse visualisierbar.
 
+
+
 ### Ereignis-Annotationen
 
 Ereignisse (en: Events) sind eine Liste von Zeitpunkten (Datum) mit Beschreibungen. Sie werden als vertikale Linien dargestellt. Ihre Beschreibung wird in den Tooltips angezeigt, wenn man mit der Maus über sie fährt.
+
+
 
 ### Intervall-Annotationen
 
 Genau wie Events, aber mit einem Start- und Enddatum, werden sie als Bereich dargestellt.
 
+
+
 ### Zeitreihen-Annotationen
 
 Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt.
 Der Name und die Anzeigeeigenschaften können konfiguriert werden.
+
+
 
 ### Formel-Annotationen
 
@@ -384,7 +409,10 @@ Formeln werden als zusätzliche Linie in das Diagramm eingefügt.
 Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird.
 Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
 
-# Eine Tabelle mit einer anderen verknüpfen
+
+
+<<<
+## Eine Tabelle mit einer anderen verknüpfen
 
 Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabellen mit einer anderen. Durch diese Verknüpfung werden der ersten Tabelle weitere Datenspalten der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
 
@@ -408,22 +436,25 @@ Nachfolgend nochmals der konkrete Arbeitsablauf in Apache Superset gegeben zwei 
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
 * Eingeben des folgenden SQL-Skripts (dieses SQL-Skript sinngemäss anpassen, wobei die erste und letzte Zeile (`begin; ... commit;`) beibehalten werden; Tabellennamen sind hier in Anführungszeichen):
-```
+----
   begin;
   create view "angestellter_view" as 
     select * from "angestellter" as ang join "abteilung" as abt on ang.abtid=abt.id 
   ;
   commit;
-```
+----
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source _ > _Tables_.
 * Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition".
 * Im Dialog "Import a table definition" den "Table Name" (= Name der soeben erstellen View) ergänzen.
 * Fertig! Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source _ > _Tables_), typischerweise zur Erstellung eines Charts.
 
+NOTE: Verknüpfungen wie oben erläutert (mittels einer normalen View) können die Antwortzeiten erheblich verlangsamen. 
+Mit weiteren SQL-Skripts kann die Anfrage beschleunigt werden, wofür es jedoch weitere SQL- und PostgreSQL-Kenntisse nötig sind.
+
+
 
 <<<
-
 == ANHANG: Die Charts
 
 Hier siehst du elf Map-Charts und deren Auswahlmöglichkeiten. 
