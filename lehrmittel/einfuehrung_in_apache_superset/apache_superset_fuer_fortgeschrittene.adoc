@@ -27,9 +27,9 @@ Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
 
 ## Dokumentation und Feedback
 
-Eine gute Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
-Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthät u.a. ein kleines FAQ, ist sonst aber leider sehr  dünn  und  nicht  nachgeführt (Charts heissen dort beispielsweise noch Slices). 
-Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen.
+Eine Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
+Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthät u.a. ein kleines FAQ, ist sonst aber leider noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
+Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset').
 
 Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 auf dem Dokumentenserver der HSR verfügbar sein.
 
@@ -46,10 +46,13 @@ Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu 
 Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen. 
 Das ist die Domäne der beschreibenden Statistik und des Data Engineerings. 
 Wer die Merkmale eines Attributs kennt, findet die in Frage kommenden Charts schneller.
-Wer will, kann dazu direkt zur entsprechenden Tabelle um Unterkapitel "Zuordnung von Geodaten zu Kartentypen" springen.
+Wer will, kann dazu direkt zur entsprechenden Tabelle im Kapitel "Zuordnung von Geodaten zu Kartentypen" springen.
 
 .Qualitativ und quantitativ
-Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
+Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. 
+Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. 
+Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. 
+Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
 
 .Attributs-Merkmals-Levels
 Die quantitativen Merkmale lassen sich ihrerseits differenzieren in vier "Attributs-Merkmals-Levels" (Quelle: Stanley Stevens, 1946, "One the theory of Scales of Measurement"):
@@ -80,19 +83,26 @@ Fliesskomma (en: float/real) & Festkommazahlen (numeric):: Keine Icons in Supers
 
 Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
 
-Zeitliche Daten sind wichtig in jeder Datenanalyse. Sie werden u.a. zum Filtern der Daten verwendet. Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht)
+Zeitliche Daten sind wichtig in jeder Datenanalyse. 
+Sie werden u.a. zum Filtern der Daten verwendet. 
+Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht)
 
-Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer "Datentyp-Rolle" (en: Data type role) wie beispielsweise "Lines" (Linien).
+Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. 
+Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer "Datentyp-Rolle" (en: Data type role) wie beispielsweise "Lines" (Linien).
 
-Mit der Angabe der "Datentyp-Rolle" zu einem Text-Attribut ist es immer noch nicht getan: Es muss noch das "Datentyp-Encoding" (encoding = Kodierung) bestimmt werden. Superset kennt verschiedene Datentyp-Rollen und Datentyp-Encodings. Weitere werden sicherlich dazu kommen.
+Mit der Angabe der "Datentyp-Rolle" zu einem Text-Attribut ist es immer noch nicht getan: 
+Es muss noch das "Datentyp-Encoding" (encoding = Kodierung) bestimmt werden. Superset kennt verschiedene Datentyp-Rollen und Datentyp-Encodings. 
+Weitere werden sicherlich dazu kommen.
 
 
 
 ### Räumliche Daten (Geodaten)
 
-Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
+Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. 
+Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
 
-Die wichtigsten Geometrie- bzw. "Geodatentypen" (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
+Die wichtigsten Geometrie- bzw. "Geodatentypen" (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). 
+In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
 
 NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygon verwaltet sind, werden von Superset (noch) als Text oder Binärdaten interpretiert.
 
