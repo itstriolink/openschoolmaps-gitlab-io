@@ -4,19 +4,20 @@ OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
-Ein Arbeitsblatt für Interessierte.
+Ein Informationsblatt für Interessierte.
 
 
 
 ## Übersicht
 
-Dieses Arbeitsblatt enthält folgende Themen:
+Dieses Informationsblatt enthält folgende Themen:
 
-* Daten-Typen und Karten-Typen ("Bevor Daten visualisiert werden...")
+* Dokumentation und Feedback
+* Der Visualisierungsprozess (Daten-Typen, Datentyp-Rollen und Karten-Typen)
 * Chart-Parameter anpassen
 * Tooltips mit JavaScript anpassen
 * Charts mit Annotations ergänzen
-* Eine Tabelle mit einer anderen verknüpfen
+* Eine Tabelle mit einer anderen verknüpfen (Möglichkeiten der Datenbanksprache SQL)
 
 Im Anhang sind alle Map Charts nochmals zusammengestellt mit allen notwendigen Parametern.
 
@@ -24,7 +25,19 @@ Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
 
 
 
-## Bevor Daten visualisiert werden...
+## Dokumentation und Feedback
+
+Eine gute Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
+Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthät u.a. ein kleines FAQ, ist sonst aber leider sehr  dünn  und  nicht  nachgeführt (Charts heissen dort beispielsweise noch Slices). 
+Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen.
+
+Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 auf dem Dokumentenserver der HSR verfügbar sein.
+
+Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Eine erste Anfrage kostet nichts.
+
+
+## Der Visualisierungsprozess
 
 Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: 
 Der Visualisierungs-Prozess beginnt mit der Wahl der Datenquelle (Tabelle), dann wird ein passender Chart ausgewählt, und schliesslich wird der Chart einem Dashboard zugeordnet.
@@ -345,6 +358,9 @@ function myFunction(punkt) {
 }
 ----
 
+NOTE: Die Funktion muss gültige JavaScript-Code sein. 
+Und JavaScript ist eine Computersprache, die entsprechende Kenntniss und Tools verlangt.
+
 
 
 <<<
@@ -455,7 +471,8 @@ COMMIT;
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
 * Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
 * Im Dialog "Import a table definition" als "Table Name" der Namen der soeben erstellen View ergänzen.
-* Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
+
+Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
 
 NOTE: Falls bei bei _Run Query_ - also der Ausführung des SQL-Skripts - ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources`und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
 
@@ -485,6 +502,11 @@ CREATE MATERIALIZED VIEW "angestellter_view" AS
 ;
 COMMIT;
 ----
+
+NOTE: Wer gerne SQL lernen will, für den gibt es eine Fülle von Quellen. 
+Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
+Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Eine erste Anfrage kostet nichts.
 
 
 
