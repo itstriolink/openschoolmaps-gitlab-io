@@ -10,7 +10,8 @@ Ein Informationsblatt für Interessierte.
 
 ## Übersicht
 
-Dieses Informationsblatt enthält folgende Themen:
+Dieses Informationsblatt bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde. 
+Es enthält folgende Themen:
 
 * Dokumentation und Feedback
 * Der Visualisierungsprozess (Daten-Typen, Datentyp-Rollen und Karten-Typen)
@@ -79,7 +80,7 @@ DatumZeit (en: Datetime):: In Superset mit dem Icon "Uhr" dargestellt. Ein "temp
 
 Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
 
-Fliesskomma (en: float/real) & Festkommazahlen (numeric):: Keine Icons in Superset.
+Fliesskomma (en: float/real) & Festkommazahlen (en: numeric):: Keine Icons in Superset.
 
 Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
 
@@ -109,7 +110,7 @@ NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygo
 Geo-Datentyp-Rollen und Datentyp-Encodings in Apache Superset:
 
 [horizontal]
-Geo-Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl FLOAT8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". Die entsprechenden Datentype-Encodings sind Delimited oder Geohash.
+Geo-Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl float8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". Die entsprechenden Datentype-Encodings sind Delimited oder Geohash.
 
 Geo-Datentyp-Rolle "Point":: Gibt es noch nicht als eigene Rolle (nur als Longitude & Latitude columns), ist aber vorreserviert.
 
@@ -120,14 +121,14 @@ Geo-Datentyp-Rolle "Polygons":: Attribute vom Basis-Datentyp Text (ABC in Supers
 NOTE: Für Positionsangaben auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). 
 Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). 
 Lat/Lon werden oft als Fliesskommazahlen behandelt. 
-Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, dass man auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, was man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
 
 
 
 ### Kartentypen und Superset Map Charts
 
 In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. 
-Hier werden die Geodaten den Kartensymbolen zugeordnet (Dies nennt man Symbolisierung (en: symbolization, styling)).
+Hier werden die Geodaten den Kartensymbolen zugeordnet; dies nennt man da Symbolisierung (en: symbolization, styling).
 
 Es gibt folgende Kartentypen:
 
@@ -136,9 +137,9 @@ Es gibt folgende Kartentypen:
 * Choroplethenkarten
 * Ortsdiagrammkarten
 
-Die Kartentypen aus der Kartografie helfen, die Superset Map-Charts zu gruppieren. 
+Die Kartentypen aus der Kartografie helfen, die Superset Map Charts zu gruppieren. 
 Es werden hier nur die bekanntesten Kartentypen vorgestellt. 
-Auch Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map-Chart-Typen zur Verfügung (vgl. auch der Anhang):
+Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map-Chart-Typen zur Verfügung (vgl. auch der Anhang):
 
 *Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. 
 Zu diesem Kartentyp gehören folgende Superset Charts:
@@ -193,9 +194,12 @@ a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_polygon.png[100,1
 
 |===
 
-NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land". Richtig wäre eine relative Angabe wie "Traktoren pro km2", d.h. die absolute Summe durch die Landesfläche geteilt werden.
+NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land". 
+Richtig wäre eine relative Angabe wie "Traktoren pro km2", d.h. die absolute Summe durch die Landesfläche geteilt werden.
 
-*Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen. Man beachte den Unterschied von Symbol/Marker zu Diagramm. Zu diesem Kartentyp gehören folgende Superset Charts:
+*Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen. 
+Man beachte den Unterschied von Symbol/Marker zu Diagramm. 
+Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
 World Map:: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von den Ländern als Zeichenkette.
@@ -208,7 +212,7 @@ Deck.gl Screen Grid:: Ähnlich wie Deck.gL Grid und Hexagon. Erwartet die Datent
 
 Deck.gl GeoJSON:: (Bemerkung: Funktioniert in Superset momentan nicht!).
 
-Ein weiterer Map-Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts, zusammen mit einer Basiskarte.
+Ein weiterer Map Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts, zusammen mit einer Basiskarte.
 
 |===
 
@@ -368,8 +372,8 @@ function myFunction(punkt) {
 }
 ----
 
-NOTE: Die Funktion muss gültige JavaScript-Code sein. 
-Und JavaScript ist eine Computersprache, die entsprechende Kenntniss und Tools verlangt.
+NOTE: Die Funktion muss ein gültiger JavaScript-Code sein. 
+JavaScript ist eine Computersprache, die entsprechende Kenntnisse und Tools verlangt.
 
 
 
@@ -378,7 +382,7 @@ Und JavaScript ist eine Computersprache, die entsprechende Kenntniss und Tools v
 
 _Annotations_ sind Text- und Grafik-Notizen, die als Anmerkung über Charts gelegt werden können. 
 Je nach Annotations-Typ ist es entweder eine Linie oder ein gefärbtes Rechteck im Hintergrund. 
-Sie können dazu benutzt werden allgemeine Informationen (z.B. weltweites Bevölkerungswachstum) darzustellen ohne diese als Daten in einer Tabelle ablegen zu müssen.
+Sie können dazu benutzt werden, allgemeine Informationen (z.B. weltweites Bevölkerungswachstum) darzustellen ohne diese als Daten in einer Tabelle ablegen zu müssen.
 
 _Annotation Layers_ dienen dazu, Annotations zu bündeln. 
 Ein Layer kann mehrere Annotations beinhalten und man bindet in Diagrammen jeweils den Annotation Layer ein, der dann alle Annotations darstellt.
@@ -401,10 +405,10 @@ Intervall als Zeitspanne, dem Ereignis nur das Start-Datum als fixer Zeitpunkt. 
 hinzugefügt werden.
 
 Ereignis- und Intervall-Annotationen können auch mit einer _Table_ erstellt werden. In der Datenbank-Tabelle soll es für die Annotationen
-eine Kolonne für die Beschreibung (Text), eine für das Start-Datum (Date) und evt. für das End-Datum (Date) vorhanden sein.
+eine Kolonne für die Beschreibung (Text), eine für das Start-Datum (Date) und evtl. für das End-Datum (Date) vorhanden sein.
 
 IMPORTANT: Die Datenbank-Tabelle kann nicht direkt in den _Annotations and Layers_ referenziert werden. Eine _Table_ mit jener Tabelle, 
-die all die benötigten Kolonnen visualisiert, muss zuerst erstellt werden. Diese _Table_ dient dann als _Annotation Source_ des anderen Diagramms.
+die alle benötigten Kolonnen visualisiert, muss zuerst erstellt werden. Diese _Table_ dient dann als _Annotation Source_ des anderen Diagramms.
 
 Die Daten für Zeit-Annotationen werden von einem beliebigen _Line Chart_ geholt. Dessen "Verlauf" ist in anderen Diagrammen mit einer Zeit-Achse visualisierbar.
 
@@ -444,7 +448,7 @@ Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tab
 Durch diese Verknüpfung werden der ersten Tabelle weitere Attribute (Felder, Spalten)  der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
 
 Diese Verknüpfung geschieht mit der Datenbanksprache SQL über ein bestimmtes Attribut der einen Tabelle, das mit einem Attribut einer weiteren Tabelle verbunden wird. 
-Im Hintergrund muss das Datenbanksystem typischweise ein sogenannter JOIN ausführen.
+Im Hintergrund muss das Datenbanksystem typischerweise ein sogenannter JOIN ausführen.
 
 Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden (hier gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
 
