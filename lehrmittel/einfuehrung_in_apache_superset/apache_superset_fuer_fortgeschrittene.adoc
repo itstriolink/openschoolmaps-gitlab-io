@@ -29,12 +29,12 @@ Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
 ## Dokumentation und Feedback
 
 Eine Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
-Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthät u.a. ein kleines FAQ, ist sonst aber leider noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
+Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthält u.a. ein kleines FAQ, ist sonst aber leider noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
 Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset').
 
 Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 auf dem Dokumentenserver der HSR verfügbar sein.
 
-Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
 Eine erste Anfrage kostet nichts.
 
 
@@ -259,7 +259,7 @@ Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizonta
 
 |===
 
-Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map) wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
+Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map), wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
 
 
 
@@ -468,7 +468,7 @@ In der "Einführung in Apache Superset" steht, dass man für einen Chart nur ein
 An dieser Stelle muss hinzugefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
 Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
 
-Nachfolgend ein beispielhafter Arbeitsablauf gegeben die Tabelle "Angestellter", die mit der "Abteilung" verknüpft werden soll und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
+Nachfolgend ein beispielhafter Arbeitsablauf, gegeben die Tabelle "Angestellter", die mit der "Abteilung" verknüpft werden soll, und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
 * Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
@@ -484,15 +484,15 @@ COMMIT;
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
 * Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
-* Im Dialog "Import a table definition" als "Table Name" der Namen der soeben erstellen View ergänzen.
+* Im Dialog "Import a table definition" als "Table Name" den Namen der soeben erstellen View ergänzen.
 
 Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
 
-NOTE: Falls bei bei _Run Query_ - also der Ausführung des SQL-Skripts - ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources`und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
+NOTE: Falls bei bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources` und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
 
-Falls du - wie oben angedeutet - eine Tabelle auf weitere Arten mit anderen Tabellen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
+Falls du -- wie oben angedeutet -- eine Tabelle auf weitere Arten mit anderen Tabellen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
 
-NOTE: Verknüpfungen mittels einer normalen View - wie oben erläutert - kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
+NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
 
 
@@ -519,7 +519,7 @@ COMMIT;
 
 NOTE: Wer gerne SQL lernen will, für den gibt es eine Fülle von Quellen. 
 Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
-Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
 Eine erste Anfrage kostet nichts.
 
 
