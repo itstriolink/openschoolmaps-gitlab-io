@@ -323,7 +323,7 @@ NOTE: Die _slice_id_ ist in den Chart-Metadaten unter _Parameter_ zu finden. Fal
 IMPORTANT: Damit die gewünschten Farben im Dashboard angewendet werden, muss bei den einzelnen Charts unter _Customize_ das Farbschema `Airbnb Colors`
 gesetzt sein.
 
-Um die Farbe von einem Chart abzuändern musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
+Um die Farbe von einem Chart abzuändern, musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
 
 ----
 {
