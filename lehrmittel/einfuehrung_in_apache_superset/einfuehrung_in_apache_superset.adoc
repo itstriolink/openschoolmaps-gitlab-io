@@ -157,9 +157,13 @@ Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
 Direkt darunter, bei _Visualization Type_ (Chart-Typ) steht _Table_, also ein einfaches Balken-Diagramm.  
 
 Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 anfangen und im Jahr 2014 aufhören. 
-Wir verwenden deshalb einen _Custom_-Filter von `2014-01-01T00:00:00` – `2014-12-31T00:00:00`.
+Wir verwenden deshalb einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
 
 NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn es keine Daten gibt, die Zeitabhängig sind, kann man `No filter` wählen.
+
+
+NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintippen.
+
 
 Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst. 
 Die Spalte _Metrics_ muss immer ausgefüllt sein. 
@@ -360,8 +364,6 @@ Es ist eine _World Map_. Hier die Optionen dazu:
 * Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt wie viele Leute auf dem Land leben.
 
 Speichere auch diesen Chart unter einem passenden Namen.
-
-NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintippen.
 
 == Filter Box für das Dashboard
 
