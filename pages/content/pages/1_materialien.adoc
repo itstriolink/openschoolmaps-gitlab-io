@@ -17,19 +17,20 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 * Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene:
   {lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Informationen]
 
-//-
+:osm-viewer-worksheets: {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus
+
 . Webseite OSM.org kennenlernen:
-  {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.pdf?job=PDFs[Arbeitsblatt] |
-  {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen_solutions.pdf?job=PDFs[Lösungen]
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.pdf?job=PDFs[Arbeitsblatt] |
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf?job=PDFs[Lösungen]
 . Webseite OSM.org im Alltag nutzen:
-  {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/02_webseite_osm-org_im_alltag_nutzen.pdf?job=PDFs[Arbeitsblatt]
+  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf?job=PDFs[Arbeitsblatt]
 . OpenStreetMap-Daten untersuchen:
-  {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_openstreetmap-daten_untersuchen.pdf?job=PDFs[Arbeitsblatt]
+  {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf?job=PDFs[Arbeitsblatt]
 
 //-
 * Zusatzaufgaben:
-  {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/04_zusatzaufgaben.pdf?job=PDFs[Informationen] |
-  {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/04_zusatzaufgaben_solutions.pdf?job=PDFs[Lösungen]
+  {osm-viewer-worksheets}/04_zusatzaufgaben.pdf?job=PDFs[Informationen] |
+  {osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf?job=PDFs[Lösungen]
 
 .OpenStreetMap bearbeiten und nutzen:
 . OpenStreetMap bearbeiten:
@@ -56,28 +57,30 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 * Apache Superset für Fortgeschrittene:
   {lehrmittel-url}/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.pdf?job=PDFs[Informationen]
 
+:qgis-worksheets: {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus
+
 .Einführung in QGIS 3 und in Geoinformationssysteme (GIS):
 * Informationen für Lehrpersonen:
   {lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf?job=PDFs[Informationen]
 * Einleitung und Vorbereitung:
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/0_einleitung_und_vorbereitung.pdf?job=PDFs[Informationen]
+  {qgis-worksheets}/0_einleitung_und_vorbereitung.pdf?job=PDFs[Informationen]
 
 //-
 . Was ist ein Geoinformationssystem?
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] |
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis_solutions.pdf?job=PDFs[Lösungen]
+  {qgis-worksheets}/1_was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.pdf?job=PDFs[Lösungen]
 . Was sind Geodaten?
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/2_was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] |
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/2_was_sind_geodaten_solutions.pdf?job=PDFs[Lösungen]
+  {qgis-worksheets}/2_was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/2_was_sind_geodaten_solutions.pdf?job=PDFs[Lösungen]
 . Erfassung und Verwaltung von Geodaten:
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/3_verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
 . Analyse von Geodaten:
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+  {qgis-worksheets}/4_analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/4_analyse_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
 . Präsentation von Geodaten:
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
-  {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+  {qgis-worksheets}/5_praesentation_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/5_praesentation_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
 
 .Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
 
