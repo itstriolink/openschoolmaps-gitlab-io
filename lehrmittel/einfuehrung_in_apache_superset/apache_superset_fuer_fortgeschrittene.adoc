@@ -468,10 +468,10 @@ In der "Einführung in Apache Superset" steht, dass man für einen Chart nur ein
 An dieser Stelle muss hinzugefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
 Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
 
-Nachfolgend ein beispielhafter Arbeitsablauf, gegeben die Tabelle "Angestellter", die mit der "Abteilung" verknüpft werden soll, und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
+Nachfolgend ein Beispiel, gegeben die Tabelle `country_population`, die mit `country_area` verknüpft werden soll, und zwar über den `country_code`, der bei beiden die Nation identifiziert:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
-* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
+* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
 ----
 BEGIN;
 CREATE VIEW "angestellter_view" AS 
@@ -481,6 +481,9 @@ CREATE VIEW "angestellter_view" AS
 ;
 COMMIT;
 ----
+
+IMPORTANT: Die SQL-Befehle `BEGIN;` und `COMMIT;` müssen beibehalten werden, um die Datenbank abändern zu können.
+
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
 * Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
