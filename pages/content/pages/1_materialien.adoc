@@ -89,11 +89,11 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 .Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
 
-.. Raumanalyse Vektordaten - Autobahn
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt],
+.. Raumanalyse Vektordaten - Autobahn: 
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt] |
   {artifacts-url}/master/download?job=autobahn%20excercise%20data[{zip-icon}{nnbsp}Daten]
-.. Raumanalyse Rasterdaten - Wo die Gämsen wohnen
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt],
+.. Raumanalyse Rasterdaten - Wo die Gämsen wohnen: 
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt] |
   {artifacts-url}/master/download?job=gaemsen%20excercise%20data[{zip-icon}{nnbsp}Daten]
 
 .Zusätzliche Materialien:
