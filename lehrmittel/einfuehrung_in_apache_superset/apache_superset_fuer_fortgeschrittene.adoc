@@ -471,18 +471,28 @@ Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en:
 Nachfolgend ein Beispiel, gegeben die Tabelle `country_population`, die mit `country_area` verknüpft werden soll, und zwar über den `country_code`, der bei beiden die Nation identifiziert:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
-* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
+* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
+
 ----
 BEGIN;
-CREATE VIEW "angestellter_view" AS 
-  SELECT * 
-  FROM "angestellter" AS ang 
-  JOIN "abteilung" AS abt ON ang.abtid = abt.id 
-;
+CREATE VIEW "country_population_density" AS
+    SELECT ca.*, cp.population,
+    CASE
+        WHEN
+        ca.area = 0
+        THEN
+        cp.population
+        ELSE
+        DIV(population,area)
+    END AS density
+    FROM "country_area" ca
+    JOIN "country_population" cp
+    ON ca.country_code = cp.country_code;
 COMMIT;
 ----
 
-IMPORTANT: Die SQL-Befehle `BEGIN;` und `COMMIT;` müssen beibehalten werden, um die Datenbank abändern zu können.
+Die beiden Tabellen beinhalten die Bevölkerungszahl und die Fläche pro Land. Das Skript oben verbindet beide und erstellt eine neue Spalte `density`. Diese berechnet die
+Bevölkerungsdichte, indem sie Bevölkerungszahl mit Fläche teilt, falls der Wert der Fläche nicht die Zahl 0 ist.
 
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
