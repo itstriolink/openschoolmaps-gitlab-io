@@ -515,22 +515,23 @@ Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch w
 Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
 Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
 
-Hier ein Beispiel-Skript mit einer SQL-WINDOW-Funktion, welches den Gebrauch und die Produktion von Elektrizität einer nation vergleicht und den durchschnittlichen Wert berechnet:
+Hier ein Beispiel-Skript mit einer SQL-WINDOW-Funktion, welches den Gebrauch und die Produktion von Elektrizität einer Nation vergleicht und Durchschnittswerte berechnet:
 
 ----
 BEGIN;
-CREATE VIEW electricity_usage AS
-    WITH usage AS (
+CREATE VIEW "electricity_usage" AS
+    WITH "temporary" AS (
         SELECT country_name, electricity_production, electricity_consumption,
         CASE
             WHEN electricity_production = 0
             THEN 0
             ELSE (electricity_consumption / electricity_production * 100)
         END AS percentage
-        FROM factbook_data
+        FROM "factbook_data"
     )
-    SELECT *, AVG(percentage) OVER ()
-    FROM usage
+    SELECT *, AVG(electricity_production) OVER () AS avg_production,
+    AVG(electricity_consumption) OVER () AS avg_consumption
+    FROM "temporary"
     WHERE percentage IS NOT NULL
     ;
 COMMIT;
