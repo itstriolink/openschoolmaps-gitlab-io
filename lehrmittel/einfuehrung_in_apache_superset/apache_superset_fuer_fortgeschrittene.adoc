@@ -473,17 +473,16 @@ Nachfolgend ein Beispiel, gegeben die Tabelle `country_codes`, die mit `factbook
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
 * Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
 
+IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` können nur bei Datenbanken verwendet werden, bei denen _Allow DML_ "True" ist.
+
 ----
 BEGIN;
 CREATE VIEW "country_population_density" AS
     SELECT cc.*, fb.population, fb.area,
     CASE
-        WHEN
-        fb.area = 0
-        THEN
-        fb.population
-        ELSE
-        DIV(fb.population::INTEGER,fb.area::INTEGER)
+        WHEN fb.area = 0
+        THEN 0
+        ELSE (fb.population / fb.area * 100)
     END AS density
     FROM "country_codes" cc
     JOIN "factbook_data" fb
@@ -516,18 +515,24 @@ Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch w
 Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
 Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
 
-Hier ein Beispiel mit einer SQL-WINDOW-Funktion, welche die Anzahl der Mitarbeiter einer Abteilung zählt:
+Hier ein Beispiel-Skript mit einer SQL-WINDOW-Funktion, welches den Gebrauch und die Produktion von Elektrizität einer nation vergleicht und den durchschnittlichen Wert berechnet:
 
 ----
 BEGIN;
-CREATE MATERIALIZED VIEW "angestellter_view" AS 
-  SELECT 
-    name, 
-    persnr, 
-    abtnr, 
-    COUNT(*) OVER (PARTITION BY abtnr) AS anzahl_abt_mitarbeiter 
-  FROM angestellter
-;
+CREATE VIEW electricity_usage AS
+    WITH usage AS (
+        SELECT country_name, electricity_production, electricity_consumption,
+        CASE
+            WHEN electricity_production = 0
+            THEN 0
+            ELSE (electricity_consumption / electricity_production * 100)
+        END AS percentage
+        FROM factbook_data
+    )
+    SELECT *, AVG(percentage) OVER ()
+    FROM usage
+    WHERE percentage IS NOT NULL
+    ;
 COMMIT;
 ----
 
