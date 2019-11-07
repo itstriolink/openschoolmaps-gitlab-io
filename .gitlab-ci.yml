@@ -56,6 +56,18 @@ gaemsen excercise data:
     expire_in: 3 mos
     paths:
     - lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
+    
+superset csv data:
+  stage: build
+  script:
+  # Dummy script,
+  # because we only need to collect some files from the Git repo as artifacts.
+  - "true"
+  artifacts:
+    name: "Superset-Datentabellen"
+    expire_in: 3 mos
+    paths:
+    - lehrmittel/einfuehrung_in_apache_superset/files/
 
 pages:
   image: asciidoctor/docker-asciidoctor
