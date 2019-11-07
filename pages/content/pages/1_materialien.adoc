@@ -98,7 +98,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 * Einführung in QGIS 3:
   {artifacts-url}/master/download?job=QGIS%20excercise%20data[Daten]
 * Superset Datentabellen:
-  {artifacts-url}/master/download?job=Superset%20csv%20data[Daten]
+  {artifacts-url}/master/download?job=superset%20csv%20data[Daten]
 
 Diese Arbeitsblätter (PDFs) werden aus den Dateien auf {repo-url}/tree/master/lehrmittel[dieser Seite] erzeugt und verwenden die Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc].
 
