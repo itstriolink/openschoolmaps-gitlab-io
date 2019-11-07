@@ -5,71 +5,111 @@
 :tags: Arbeitsblatt-Entwurf, Anleitungs-Entwurf, PDF
 :slug: materialien
 
+:repo-url: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io
+:artifacts-url: {repo-url}/-/jobs/artifacts
+:lehrmittel-url: {artifacts-url}/master/raw/lehrmittel
+
 image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 == Arbeitsblätter _(English version see below, version française voir ci-dessous)_
 
 .OSM.org als Kartenviewer:
-* Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Informationen]
+* Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene:
+  {lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf?job=PDFs[Informationen]
 
-//-
-. Webseite OSM.org kennenlernen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/01_webseite_osm-org_kennenlernen_solutions.pdf?job=PDFs[Lösungen]
-. Webseite OSM.org im Alltag nutzen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/02_webseite_osm-org_im_alltag_nutzen.pdf?job=PDFs[Arbeitsblatt]
-. OpenStreetMap-Daten untersuchen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/03_openstreetmap-daten_untersuchen.pdf?job=PDFs[Arbeitsblatt]
+:osm-viewer-worksheets: {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus
+
+. Webseite OSM.org kennenlernen:
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.pdf?job=PDFs[Arbeitsblatt] |
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf?job=PDFs[Lösungen]
+. Webseite OSM.org im Alltag nutzen:
+  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf?job=PDFs[Arbeitsblatt]
+. OpenStreetMap-Daten untersuchen:
+  {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf?job=PDFs[Arbeitsblatt]
 
 //-
 * Zusatzaufgaben:
-https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/04_zusatzaufgaben.pdf?job=PDFs[Informationen] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus/04_zusatzaufgaben_solutions.pdf?job=PDFs[Lösungen]
+  {osm-viewer-worksheets}/04_zusatzaufgaben.pdf?job=PDFs[Informationen] |
+  {osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf?job=PDFs[Lösungen]
 
 .OpenStreetMap bearbeiten und nutzen:
-. OpenStreetMap bearbeiten: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf?job=PDFs[mit Informationen für Instruktoren]
-. OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/02_osm-daten_beziehen.pdf?job=PDFs[Arbeitsblatt (für Fortgeschrittene)]
-. Die Umgebung selber kartografieren - Outdoor Mapping Event: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.pdf?job=PDFs[Arbeitsblatt für Teilnehmende] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.pdf?job=PDFs[für Instruktoren]
+. OpenStreetMap bearbeiten:
+  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf?job=PDFs[Arbeitsblatt] |
+  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf?job=PDFs[mit Informationen für Instruktoren]
+. OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen:
+  {lehrmittel-url}/osm_bearbeiten/02_osm-daten_beziehen.pdf?job=PDFs[Arbeitsblatt (für Fortgeschrittene)]
+. Die Umgebung selber kartografieren - Outdoor Mapping Event:
+  {lehrmittel-url}/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.pdf?job=PDFs[Arbeitsblatt für Teilnehmende] |
+  {lehrmittel-url}/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.pdf?job=PDFs[für Instruktoren]
 
 .uMap der Karteneditor:
-. Mit uMap einen Lageplan erstellen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/umap/01_lageplan_erstellen.pdf?job=PDFs[Arbeitsblatt]
-. Mit uMap eine Story-Map mit Bildern erstellen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/umap/03_story-map_erstellen.pdf?job=PDFs[Arbeitsblatt]
-. Mit uMap eine thematische Online-Karte erstellen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/umap/02_online-karte_erstellen.pdf?job=PDFs[Arbeitsblatt]
+. Mit uMap einen Lageplan erstellen:
+  {lehrmittel-url}/umap/01_lageplan_erstellen.pdf?job=PDFs[Arbeitsblatt]
+. Mit uMap eine Story-Map mit Bildern erstellen:
+  {lehrmittel-url}/umap/03_story-map_erstellen.pdf?job=PDFs[Arbeitsblatt]
+. Mit uMap eine thematische Online-Karte erstellen:
+  {lehrmittel-url}/umap/02_online-karte_erstellen.pdf?job=PDFs[Arbeitsblatt]
 
 .Apache Superset das Datenvisualisierungs- und Publikations-Werkzeug:
-* Einführung in Apache Superset: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_solutions.pdf?job=PDFs[Lösungen]
-* Apache Superset für Fortgeschrittene: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.pdf?job=PDFs[Informationen]
+* Einführung in Apache Superset:
+  {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset.pdf?job=PDFs[Arbeitsblatt] |
+  {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_solutions.pdf?job=PDFs[Lösungen]
+* Apache Superset für Fortgeschrittene:
+  {lehrmittel-url}/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.pdf?job=PDFs[Informationen]
+
+:qgis-worksheets: {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus
 
 .Einführung in QGIS 3 und in Geoinformationssysteme (GIS):
-* Informationen für Lehrpersonen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf?job=PDFs[Informationen]
-* Einleitung und Vorbereitung: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/0_einleitung_und_vorbereitung.pdf?job=PDFs[Informationen]
+* Informationen für Lehrpersonen:
+  {lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf?job=PDFs[Informationen]
+* Einleitung und Vorbereitung:
+  {qgis-worksheets}/0_einleitung_und_vorbereitung.pdf?job=PDFs[Informationen]
 
 //-
-. Was ist ein Geoinformationssystem? https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/1_was_ist_ein_gis_solutions.pdf?job=PDFs[Lösungen]
-. Was sind Geodaten? https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/2_was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/2_was_sind_geodaten_solutions.pdf?job=PDFs[Lösungen]
-. Erfassung und Verwaltung von Geodaten: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/3_verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
-. Analyse von Geodaten: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/4_analyse_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
-. Präsentation von Geodaten: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten.pdf?job=PDFs[Arbeitsblatt] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus/5_praesentation_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Was ist ein Geoinformationssystem?
+  {qgis-worksheets}/1_was_ist_ein_gis.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.pdf?job=PDFs[Lösungen]
+. Was sind Geodaten?
+  {qgis-worksheets}/2_was_sind_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/2_was_sind_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Erfassung und Verwaltung von Geodaten:
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Analyse von Geodaten:
+  {qgis-worksheets}/4_analyse_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/4_analyse_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
+. Präsentation von Geodaten:
+  {qgis-worksheets}/5_praesentation_von_geodaten.pdf?job=PDFs[Arbeitsblatt] |
+  {qgis-worksheets}/5_praesentation_von_geodaten_solutions.pdf?job=PDFs[Lösungen]
 
 .Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
 
 .. Raumanalyse Vektordaten - Autobahn
-  https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf?job=PDFs[Arbeitsblatt],
-  https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=autobahn%20excercise%20data[Daten]
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf?job=PDFs[Arbeitsblatt],
+  {artifacts-url}/master/download?job=autobahn%20excercise%20data[Daten]
 .. Raumanalyse Rasterdaten - Wo die Gämsen wohnen
-  https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf?job=PDFs[Arbeitsblatt],
-  https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=gaemsen%20excercise%20data[Daten]
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf?job=PDFs[Arbeitsblatt],
+  {artifacts-url}/master/download?job=gaemsen%20excercise%20data[Daten]
 
 .Zusätzliche Materialien:
-* OpenStreetMap Tagging Cheatsheet: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] | https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/raw/lehrmittel/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
-* Einführung in QGIS 3: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=QGIS%20excercise%20data[Daten]
-* Superset Datentabellen: https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/master/download?job=Superset%20csv%20data[Daten]
+* OpenStreetMap Tagging Cheatsheet:
+  {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.pdf?job=PDFs[PDF] |
+  {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.docx?job=PDFs[Word-Dokument]
+* Einführung in QGIS 3:
+  {artifacts-url}/master/download?job=QGIS%20excercise%20data[Daten]
+* Superset Datentabellen:
+  {artifacts-url}/master/download?job=Superset%20csv%20data[Daten]
 
-Diese Arbeitsblätter (PDFs) werden aus den Dateien auf https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/tree/master/lehrmittel[dieser Seite] erzeugt und verwenden die Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc].
+Diese Arbeitsblätter (PDFs) werden aus den Dateien auf {repo-url}/tree/master/lehrmittel[dieser Seite] erzeugt und verwenden die Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc].
 
 Wenn Ihnen Fehler auffallen oder etwas einfällt, was man an den Unterrichtsmaterialien verbessern kann, schauen Sie sich die Seite "Weitere Unterrichtsideen" an.
 
 === English version
 
-Get https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/english/download?job=PDFs[these materials in English] (Zip archive)
+Get {artifacts-url}/english/download?job=PDFs[these materials in English] (Zip archive)
 
 === Version française
 
-Obtenez https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/-/jobs/artifacts/french/download?job=PDFs[ces documents en français] (archive Zip)
+Obtenez {artifacts-url}/french/download?job=PDFs[ces documents en français] (archive Zip)
 
 Bildquelle: Yves Maurer 2018
