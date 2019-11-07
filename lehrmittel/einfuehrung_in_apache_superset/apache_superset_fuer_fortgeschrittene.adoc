@@ -468,7 +468,7 @@ In der "Einführung in Apache Superset" steht, dass man für einen Chart nur ein
 An dieser Stelle muss hinzugefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
 Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
 
-Nachfolgend ein Beispiel, gegeben die Tabelle `country_population`, die mit `country_area` verknüpft werden soll, und zwar über den `country_code`, der bei beiden die Nation identifiziert:
+Nachfolgend ein Beispiel, gegeben die Tabelle `country_codes`, die mit `factbook_data` verknüpft werden soll, und zwar über den `country_name`, der bei beiden die Nation identifiziert:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
 * Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
@@ -476,23 +476,24 @@ Nachfolgend ein Beispiel, gegeben die Tabelle `country_population`, die mit `cou
 ----
 BEGIN;
 CREATE VIEW "country_population_density" AS
-    SELECT ca.*, cp.population,
+    SELECT cc.*, fb.population, fb.area,
     CASE
         WHEN
-        ca.area = 0
+        fb.area = 0
         THEN
-        cp.population
+        fb.population
         ELSE
-        DIV(population,area)
+        DIV(fb.population::INTEGER,fb.area::INTEGER)
     END AS density
-    FROM "country_area" ca
-    JOIN "country_population" cp
-    ON ca.country_code = cp.country_code;
+    FROM "country_codes" cc
+    JOIN "factbook_data" fb
+    ON cc.country_name = fb.country_name
+;
 COMMIT;
 ----
 
-Die beiden Tabellen beinhalten die Bevölkerungszahl und die Fläche pro Land. Das Skript oben verbindet beide und erstellt eine neue Spalte `density`. Diese berechnet die
-Bevölkerungsdichte, indem sie Bevölkerungszahl mit Fläche teilt, falls der Wert der Fläche nicht die Zahl 0 ist.
+NOTE: `Country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte). Diese
+Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können. In diesem Beispiel: Bevölkerungszahl, Fläche, Bevölkerungsdichte.
 
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
