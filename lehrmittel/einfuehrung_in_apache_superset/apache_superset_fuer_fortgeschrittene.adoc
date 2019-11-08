@@ -29,12 +29,12 @@ Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
 ## Dokumentation und Feedback
 
 Eine Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
-Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthät u.a. ein kleines FAQ, ist sonst aber leider noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
+Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthält u.a. ein kleines FAQ, ist sonst aber leider noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
 Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset').
 
 Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 auf dem Dokumentenserver der HSR verfügbar sein.
 
-Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
 Eine erste Anfrage kostet nichts.
 
 
@@ -259,7 +259,7 @@ Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizonta
 
 |===
 
-Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map) wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
+Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map), wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
 
 
 
@@ -323,7 +323,7 @@ NOTE: Die _slice_id_ ist in den Chart-Metadaten unter _Parameter_ zu finden. Fal
 IMPORTANT: Damit die gewünschten Farben im Dashboard angewendet werden, muss bei den einzelnen Charts unter _Customize_ das Farbschema `Airbnb Colors`
 gesetzt sein.
 
-Um die Farbe von einem Chart abzuändern musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
+Um die Farbe von einem Chart abzuändern, musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
 
 ----
 {
@@ -468,31 +468,44 @@ In der "Einführung in Apache Superset" steht, dass man für einen Chart nur ein
 An dieser Stelle muss hinzugefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
 Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
 
-Nachfolgend ein beispielhafter Arbeitsablauf gegeben die Tabelle "Angestellter", die mit der "Abteilung" verknüpft werden soll und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
+Nachfolgend ein Beispiel: Gegeben die Tabelle `country_codes`, die mit `factbook_data` verknüpft werden soll, und zwar über den `country_name`, der bei beiden die Nation identifiziert:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
 * Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
+
+IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` können nur bei Datenbanken verwendet werden, bei denen _Allow DML_ "True" ist.
+
 ----
 BEGIN;
-CREATE VIEW "angestellter_view" AS 
-  SELECT * 
-  FROM "angestellter" AS ang 
-  JOIN "abteilung" AS abt ON ang.abtid = abt.id 
+CREATE VIEW "country_population_density" AS
+    SELECT cc.*, fb.population, fb.area,
+    CASE
+        WHEN fb.area = 0
+        THEN 0
+        ELSE (fb.population / fb.area * 100)
+    END AS density
+    FROM "country_codes" cc
+    JOIN "factbook_data" fb
+    ON cc.country_name = fb.country_name
 ;
 COMMIT;
 ----
+
+NOTE: `country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte). Diese
+Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können. In diesem Beispiel: Bevölkerungszahl, Fläche, Bevölkerungsdichte.
+
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
 * Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
-* Im Dialog "Import a table definition" als "Table Name" der Namen der soeben erstellen View ergänzen.
+* Im Dialog "Import a table definition" als "Table Name" den Namen der soeben erstellen View ergänzen.
 
 Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
 
-NOTE: Falls bei bei _Run Query_ - also der Ausführung des SQL-Skripts - ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources`und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
+NOTE: Falls bei bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources` und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
 
-Falls du - wie oben angedeutet - eine Tabelle auf weitere Arten mit anderen Tabellen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
+Falls du -- wie oben angedeutet -- eine Tabelle auf weitere Arten mit anderen Tabellen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
 
-NOTE: Verknüpfungen mittels einer normalen View - wie oben erläutert - kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
+NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
 
 
@@ -502,24 +515,31 @@ Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch w
 Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
 Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
 
-Hier ein Beispiel mit einer SQL-WINDOW-Funktion, welche die Anzahl der Mitarbeiter einer Abteilung zählt:
+Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität einer Nation vergleicht und Durchschnittswerte berechnet:
 
 ----
 BEGIN;
-CREATE MATERIALIZED VIEW "angestellter_view" AS 
-  SELECT 
-    name, 
-    persnr, 
-    abtnr, 
-    COUNT(*) OVER (PARTITION BY abtnr) AS anzahl_abt_mitarbeiter 
-  FROM angestellter
-;
+CREATE VIEW "electricity_usage" AS
+    WITH "temporary" AS (
+        SELECT country_name, electricity_production, electricity_consumption,
+        CASE
+            WHEN electricity_production = 0
+            THEN 0
+            ELSE (electricity_consumption / electricity_production * 100)
+        END AS percentage
+        FROM "factbook_data"
+    )
+    SELECT *, AVG(electricity_production) OVER () AS avg_production,
+    AVG(electricity_consumption) OVER () AS avg_consumption
+    FROM "temporary"
+    WHERE percentage IS NOT NULL
+    ;
 COMMIT;
 ----
 
 NOTE: Wer gerne SQL lernen will, für den gibt es eine Fülle von Quellen. 
 Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
-Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
 Eine erste Anfrage kostet nichts.
 
 

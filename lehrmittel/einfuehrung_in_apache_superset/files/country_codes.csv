@@ -1,0 +1,215 @@
+country_code;country_name;country_german
+AFG;Afghanistan;Afghanistan
+ALB;Albania;Albanien
+DZA;Algeria;Algerien
+ASM;American Samoa;Amerikanisch Samoa
+ADO;Andorra;Andorra
+AGO;Angola;Angola
+ATG;Antigua and Barbuda;Antigua und Barbuda
+ARG;Argentina;Argentinien
+ARM;Armenia;Armenien
+ABW;Aruba;Aruba
+AUS;Australia;Australien
+AUT;Austria;Österreich
+AZE;Azerbaijan;Aserbaidschan
+BHS;Bahamas, The;Bahamas
+BHR;Bahrain;Bahrain
+BGD;Bangladesh;Bangladesch
+BRB;Barbados;Barbados
+BLR;Belarus;Belarus
+BEL;Belgium;Belgien
+BLZ;Belize;Belize
+BEN;Benin;Benin
+BMU;Bermuda;Bermuda
+BTN;Bhutan;Bhutan
+BOL;Bolivia;Bolivien
+BIH;Bosnia and Herzegovina;Bosnien und Herzegowina
+BWA;Botswana;Botswana
+BRA;Brazil;Brasilien
+BRN;Brunei;Brunei
+BGR;Bulgaria;Bulgarien
+BFA;Burkina Faso;Burkina Faso
+BDI;Burundi;Burundi
+CPV;Cabo Verde;Kap Verde
+KHM;Cambodia;Kambodscha
+CMR;Cameroon;Kamerun
+CAN;Canada;Kanada
+CYM;Cayman Islands;Kaimaninseln
+CAF;Central African Republic;Zentralafrikanische Republik
+TCD;Chad;Tschad
+CHI;Channel Islands;Kanalinseln
+CHL;Chile;Chile
+CHN;China;China
+COL;Colombia;Kolumbien
+COM;Comoros;Komoren
+ZAR;Congo, Democratic Republic of the;Demokratische Republik Kongo
+COG;Congo, Republic of the;Republik Kongo
+CRI;Costa Rica;Costa Rica
+CIV;Cote d'Ivoire;Elfenbeinküste
+HRV;Croatia;Kroatien
+CUB;Cuba;Kuba
+CUW;Curacao;Curaçao
+CYP;Cyprus;Zypern
+CZE;Czech Republic;Tschechien
+DNK;Denmark;Dänemark
+DJI;Djibouti;Dschibuti
+DMA;Dominica;Dominica
+DOM;Dominican Republic;Dominikanische Republik
+ECU;Ecuador;Ecuador
+EGY;Egypt;Ägypten
+SLV;El Salvador;El Salvador
+GNQ;Equatorial Guinea;Äquatorialguinea
+ERI;Eritrea;Eritrea
+EST;Estonia;Estland
+ETH;Ethiopia;Äthiopien
+FRO;Faroe Islands;Färöer-Inseln
+FJI;Fiji;Fidschi
+FIN;Finland;Finnland
+FRA;France;Frankreich
+PYF;French Polynesia;Französisch-Polynesien
+GAB;Gabon;Gabun
+GMB;Gambia, The;Gambia
+GEO;Georgia;Georgien
+DEU;Germany;Deutschland
+GHA;Ghana;Ghana
+GRC;Greece;Griechenland
+GRL;Greenland;Grönland
+GRD;Grenada;Grenada
+GUM;Guam;Guam
+GTM;Guatemala;Guatemala
+GIN;Guinea;Guinea
+GNB;Guinea-Bissau;Guinea-Bissau
+GUY;Guyana;Guyana
+HTI;Haiti;Haiti
+HND;Honduras;Honduras
+HKG;Hong Kong;Hongkong
+HUN;Hungary;Ungarn
+ISL;Iceland;Island
+IND;India;Indien
+IDN;Indonesia;Indonesien
+IRN;Iran;Iran
+IRQ;Iraq;Irak
+IRL;Ireland;Irland
+IMY;Isle of Man;Insel Man
+ISR;Israel;Israel
+ITA;Italy;Italien
+JAM;Jamaica;Jamaika
+JPN;Japan;Japan
+JOR;Jordan;Jordanien
+KAZ;Kazakhstan;Kasachstan
+KEN;Kenya;Kenia
+KIR;Kiribati;Kiribati
+PRK;Korea, North;Nordkorea
+KOR;Korea, South;Südkorea
+KSV;Kosovo;Kosovo
+KWT;Kuwait;Kuwait
+KGZ;Kyrgyzstan;Kirgisistan
+LAO;Laos;Laos
+LVA;Latvia;Lettland
+LBN;Lebanon;Libanon
+LSO;Lesotho;Lesotho
+LBR;Liberia;Liberia
+LBY;Libya;Libyen
+LIE;Liechtenstein;Liechtenstein
+LTU;Lithuania;Litauen
+LUX;Luxembourg;Luxemburg
+MAC;Macau;Macau
+MKD;Macedonia;Nordmazedonien
+MDG;Madagascar;Madagaskar
+MWI;Malawi;Malawi
+MYS;Malaysia;Malaysia
+MDV;Maldives;Malediven
+MLI;Mali;Mali
+MLT;Malta;Malta
+MHL;Marshall Islands;Marshallinseln
+MRT;Mauritania;Mauretanien
+MUS;Mauritius;Mauritius
+MEX;Mexico;Mexiko
+FSM;Micronesia, Federated States of;Mikronesien
+MDA;Moldova;Moldawien
+MCO;Monaco;Monaco
+MNG;Mongolia;Mongolei
+MNE;Montenegro;Montenegro
+MAR;Morocco;Marokko
+MOZ;Mozambique;Mosambik
+MMR;Burma;Myanmar
+NAM;Namibia;Namibia
+NPL;Nepal;Nepal
+NLD;Netherlands;Niederlande
+NCL;New Caledonia;Neukaledonien
+NZL;New Zealand;Neuseeland
+NIC;Nicaragua;Nicaragua
+NER;Niger;Niger
+NGA;Nigeria;Nigeria
+MNP;Northern Mariana Islands;Nördliche Marianen
+NOR;Norway;Norwegen
+OMN;Oman;Oman
+PAK;Pakistan;Pakistan
+PLW;Palau;Palau
+PAN;Panama;Panama
+PNG;Papua New Guinea;Papua-Neuguinea
+PRY;Paraguay;Paraguay
+PER;Peru;Peru
+PHL;Philippines;Philippinen
+POL;Poland;Polen
+PRT;Portugal;Portugal
+PRI;Puerto Rico;Puerto Rico
+QAT;Qatar;Katar
+ROM;Romania;Rumänien
+RUS;Russia;Russland
+RWA;Rwanda;Ruanda
+WSM;Samoa;Samoa
+SMR;San Marino;San Marino
+STP;Sao Tome and Principe;São Tomé und Príncipe
+SAU;Saudi Arabia;Saudi-Arabien
+SEN;Senegal;Senegal
+SRB;Serbia;Serbien
+SYC;Seychelles;Seychellen
+SLE;Sierra Leone;Sierra Leone
+SGP;Singapore;Singapur
+SXM;Sint Maarten;Sint Maarten
+SVK;Slovakia;Slowakei
+SVN;Slovenia;Slowenien
+SLB;Solomon Islands;Salomonen
+SOM;Somalia;Somalia
+ZAF;South Africa;Südafrika
+SSD;South Sudan;Südsudan
+ESP;Spain;Spanien
+LKA;Sri Lanka;Sri Lanka
+KNA;Saint Kitts and Nevis;St. Kitts und Nevis
+LCA;Saint Lucia;St. Lucia
+MAF;Saint Martin;Saint Martin
+VCT;Saint Vincent and the Grenadines;St. Vincent und die Grenadinen
+SDN;Sudan;Sudan
+SUR;Suriname;Suriname
+SWZ;Swaziland;Eswatini
+SWE;Sweden;Schweden
+CHE;Switzerland;Schweiz
+SYR;Syria;Syrien
+TJK;Tajikistan;Tadschikistan
+TZA;Tanzania;Tansania
+THA;Thailand;Thailand
+TMP;Timor-Leste;Osttimor
+TGO;Togo;Togo
+TON;Tonga;Tonga
+TTO;Trinidad and Tobago;Trinidad und Tobago
+TUN;Tunisia;Tunesien
+TUR;Turkey;Türkei
+TKM;Turkmenistan;Turkmenistan
+TCA;Turks and Caicos Islands;Turks und Caicosinseln
+TUV;Tuvalu;Tuvalu
+UGA;Uganda;Uganda
+UKR;Ukraine;Ukraine
+ARE;United Arab Emirates;Vereinigte Arabische Emirate
+GBR;United Kingdom;Vereinigtes Königreich
+USA;United States;Vereinigte Staaten von Amerika
+URY;Uruguay;Uruguay
+UZB;Uzbekistan;Usbekistan
+VUT;Vanuatu;Vanuatu
+VEN;Venezuela;Venezuela
+VNM;Vietnam;Vietnam
+VIR;Virgin Islands;Jungferninseln (US)
+WBG;West Bank;Westjordanland
+YEM;Yemen;Jemen
+ZMB;Zambia;Sambia
+ZWE;Zimbabwe;Simbabwe
