@@ -491,7 +491,7 @@ CREATE VIEW "country_population_density" AS
 COMMIT;
 ----
 
-NOTE: `Country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte). Diese
+NOTE: `country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte). Diese
 Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können. In diesem Beispiel: Bevölkerungszahl, Fläche, Bevölkerungsdichte.
 
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
@@ -515,7 +515,7 @@ Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch w
 Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
 Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
 
-Hier ein Beispiel-Skript mit einer SQL-WINDOW-Funktion, welches den Gebrauch und die Produktion von Elektrizität einer Nation vergleicht und Durchschnittswerte berechnet:
+Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität einer Nation vergleicht und Durchschnittswerte berechnet:
 
 ----
 BEGIN;
