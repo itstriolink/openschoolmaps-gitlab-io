@@ -7,6 +7,7 @@ SITENAME = u'OpenSchoolMaps.ch'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'file-icons']
 OUTPUT_PATH = 'public'
 
 PLUGIN_PATHS = ['pelican-plugins']
