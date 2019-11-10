@@ -74,11 +74,12 @@ Eine Tabelle mit ihren Attributen und Datentypen überprüfen:
 * Menü _Sources > Tables_ auswählen.
 * Die gewünschte Tabelle suchen (z.B. die Tabelle `factbook_data`) und auf "Eintrag bearbeiten" klicken (den mittleren der drei kleinen Buttons). Es erscheint das Formular "Edit Table" mit Tab "Detail".
 * Im Formular "Edit Table" auf Tab "Columns" wechseln. Es erscheint eine Liste der Columns (Attribute) mit ihren Datentypen. 
-* Dort wo nötig beim entsprechenden Feld (Column Name) auf "Eintrag bearbeiten" klicken.
-* Im Feld "Type" den gewünschten Datentyp eingeben (Wichtig: Hier sind bestimmte Datentypen gefragt: siehe Notiz unten. Falls man unsicher ist, sollte man nachfragen).
+* Dort wo nötig beim entsprechenden Feld (Column Name) auf "Eintrag bearbeiten" klicken, beispielsweise bei der Population.
+* Im Feld "Type" den gewünschten Datentyp eingeben, hier: Ganzzahl `INTEGER` statt Fliesskomma `DOUBLE PRECISION`. Datentypen sind in einem eigenen Kapitel weiter unten beschrieben.
 * Auf "Speichern" klicken. 
 
-NOTE: Dies sind die möglichen Datentypen: Zeichenkette `TEXT`, Fliesskomma `DOUBLE PRECISION`
+NOTE: Die Zuordnung und Konversion von Datentypen benötigt einiges Knowhow. 
+Falls man unsicher ist, sollte man nachfragen.
 
 Damit ist das Hochladen der Dateien abgeschlossen und man möchte typischerweise die Daten publizieren. 
 Dies geschieht mit einem Chart und einem Dashboard.
@@ -367,9 +368,9 @@ Datentyp-Rolle "Point":: Gibt es vor allem als Rolle "Longitude & Latitude colum
 
 Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl float8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". 
 
-Datentyp-Rolle "Line":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentyp-Encodings "JSON" oder "Polyline"(-Well Known Text) haben.
+Datentyp-Rolle "LineString":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentyp-Encodings "JSON" oder "Polyline" (WKT) haben.
 
-Datentyp-Rolle "Polygon":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche das Datentyp-Encoding "JSON" hat. Dazu kommt das Datentyp-Encoding "ISO 3166-2 Codes".
+Datentyp-Rolle "Polygon":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche das Datentyp-Encoding "JSON" hat. Dazu kommen das Datentyp-Encoding "Polyline" (WKT) sowie "ISO 3166-2 Codes".
 
 NOTE: Längengrade und Breitengrade basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-System, dem "World Geodetic System 1984" (WGS 84). 
 Lat/Lon werden oft als Fliesskommazahlen behandelt. 
@@ -397,21 +398,23 @@ Alle Georeferenzierungs-Systeme - Koordinate, ISO 3166-2 Code und Geohash - habe
 In Superset kommen folgende Datentyp-Encodings vor: 
 
 * Bei der Datentyp-Rolle "Point" ist es "Delimited" oder "Geohash".
-* Bei der Datentyp-Rolle "Line" (LineString) sind es "Polyline" oder "JSON".
-* Bei der Datentyp-Rolle "Polygon" ist es "ISO 3166-2 Codes".
+* Bei der Datentyp-Rolle "LineString" (Line) sind es "Polyline" oder "JSON".
+* Bei der Datentyp-Rolle "Polygon" sind es (geschlossene) "Polyline" oder "ISO 3166-2 Codes".
 
 Nachfolgend sind einige Informationen zu den Datentyp-Encodings zusammengestellt:
 
-*Delimited*: Zum Beispiel "47.22311,8.81636" sind die Koordinaten des Gebäudes 4 der HSR Rapperswil. Siehe https://www.openstreetmap.org/search?query=47.22311,8.81636[OpenStreetMap] (man beachte die Link-Adresse).
 
-*Geohash* ist ein Georeferenzierungs-Systeme, das einen geografischen Standort in eine kurze Folge von Buchstaben und Ziffern kodiert. Es ist eine hierarchische räumliche Datenstruktur bei der die Erde in Kacheln aufgeteilt wird, die weiter unterteilt werden können. Den Kacheln werden Buchstaben und Ziffern zugeordnet. D.h. je länger ein Geohash-Code ist, desto genauer die Ortsangabe. Geohash-Codes sind auf http://en.wikipedia.org/wiki/Geohash[Wikipedia] frei dokumentiert und haben im Vergleich zu Koordinaten unter anderem die Eigenschaft, dass sie kurze Zeichenketten sind. Geohashes werden unter anderem auch von OpenStreetMap und Geocaching verwendet. Nimmt man z.B. die Koordinaten des Gebäudes 4 der HSR Rapperswil (= 47.22311, 8.81636) als Beispiel, ergibt sich der Geohash "u0qk8seys1d". Man kann dies mit der http://geohash.org/u0qk8seys1d[Webapp Geohash.org] nachprüfen.
+[horizontal]
+Delimited:: Zum Beispiel "47.22311,8.81636" sind die Koordinaten des Gebäudes 4 der HSR Rapperswil. Siehe https://www.openstreetmap.org/search?query=47.22311,8.81636[OpenStreetMap] (man beachte die Link-Adresse).
 
-*Polyline"*: Damit ist eigentlich ein Encoding gemäss "Well Known Text" (Abk. WKT) gemeint. Beispiel "xxx". Siehe z.B. https://de.wikipedia.org/wiki/Simple_Feature_Access#Well-known_Text[Wikipedia]. 
+Geohash:: Geohashing ist ein Georeferenzierungs-System, das einen geografischen Standort in eine kurze Folge von Buchstaben und Ziffern kodiert. Es ist eine hierarchische räumliche Datenstruktur bei der die Erde in Kacheln aufgeteilt wird, die weiter unterteilt werden können. Den Kacheln werden Buchstaben und Ziffern zugeordnet. D.h. je länger ein Geohash-Code ist, desto genauer die Ortsangabe. Geohash-Codes sind auf http://en.wikipedia.org/wiki/Geohash[Wikipedia] frei dokumentiert und haben im Vergleich zu Koordinaten unter anderem die Eigenschaft, dass sie kurze Zeichenketten sind. Geohashes werden unter anderem auch von OpenStreetMap und Geocaching verwendet. Nimmt man z.B. die Koordinaten des Gebäudes 4 der HSR Rapperswil (= 47.22311, 8.81636) als Beispiel, ergibt sich der Geohash "u0qk8seys1d". Man kann dies mit der http://geohash.org/u0qk8seys1d[Webapp Geohash.org] nachprüfen.
 
-*JSON (JavaScript Object Notation)* ist ein kompaktes Datenformat in einer menschenlesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen. 
+Polyline (WKT):: Damit ist eigentlich ein Encoding gemäss "Well Known Text" (Abk. WKT) gemeint. Beispiel "LineString (47.22311 8.81636, 47.22469, 8.8173)" für die Luftlinie zwischen HSR und Bahnhof Rapperswil. Siehe z.B. https://de.wikipedia.org/wiki/Simple_Feature_Access#Well-known_Text[WKT auf Wikipedia]. 
+
+JSON:: JSON als Abkürzung von "JavaScript Object Notation" ist ein kompaktes Datenformat in einer menschenlesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen. 
 Hier im Zusammenhang mit Map Charts wird mit JSON eigentlich GeoJSON gemeint. GeoJSON ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren. GeoJSON kann mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden. Und mit dem Web-Tool http://geojsonlint.com/[geojsonlint.com] können GeoJSON-Daten geprüft werden.
 
-*ISO 3166-2-Codes*: Map Charts wie _Country Map_ und _World Map_ können u.a. auch ISO 3166-2-Codes von Ländern und Untergliederungen (Kantone, Departemente, Provinzen) davon verarbeiten. ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
+ISO 3166-2-Code:: Map Charts wie _Country Map_ und _World Map_ können u.a. auch ISO 3166-2-Codes von Ländern und Untergliederungen (Kantone, Departemente, Provinzen) davon verarbeiten. ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
 Siehe auch https://superset.incubator.apache.org/visualization.html[Apache Superset-Dokumentation] und https://de.wikipedia.org/wiki/ISO_3166-2:CH[Wikipedia].
 
 
@@ -419,11 +422,14 @@ Siehe auch https://superset.incubator.apache.org/visualization.html[Apache Super
 ### Geokodierung
 
 Auch normale geografische Namen wie "Rapperswil" oder "Oberseestrasse 10, Rapperswil-Jona" bilden eine Art textuelles Georeferenzierungs-System, wenn auch ein mehrdeutiges. 
-Weil die Interpretation geografischer Namen jedoch ein aufwändiger Prozess ist, wendet man hier *Geokodierung* an.
+Die Interpretation geografischer Namen ist ein aufwändiger Prozess und nennt sich *Geokodierung*. 
 Geokodierung ist ein Algorithmus oder Prozess, der eine Beschreibung einer Position (Lage, Ort) – z.B. einer Lat/Lon-Koordinate, eines Geohashs, einer Postadresse oder eines Ortsnamens – in eine Position auf der Erdoberfläche umgewandelt wird. 
 
-NOTE: In Apache Superset ist zurzeit - nebst den ISO 3166-2 Codes und den Geohashes - noch keine *Geokodierung* von Gebäude- und Postadressen eingebaut. 
-Wobei es durch Verknüpfung mit einer anderen Tabelle immer möglich ist, geografische Namen(-Kürzel) mit Codes zu verknüpfen: Siehe dazu das Beispiel im Kapitel "Mit Superset eine Tabelle mit einer anderen verknüpfen".
+Hier als Beispiel einer Geokodierung von "Oberseestrasse 10, Rapperswil-Jona" ein Geokodierungs-Aufruf https://map.search.ch/Rapperswil,Oberseestr.10 .
+
+NOTE: In Apache Superset ist zurzeit - nebst den ISO 3166-2 Codes und den Geohashes - keine *Geokodierung* von Gebäude- und Postadressen eingebaut. 
+Wobei es durch Verknüpfung mit einer anderen Tabelle immer möglich ist, geografische Namen(-Kürzel) mit Codes zu verknüpfen: 
+Siehe dazu das Beispiel im Kapitel "Mit Superset eine Tabelle mit einer anderen verknüpfen".
 
 
 
@@ -465,7 +471,7 @@ NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim He
 *Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
-Deck.gl Path:: Netzkarte. Erwartet die Datentyp-Rolle "Line".
+Deck.gl Path:: Netzkarte. Erwartet die Datentyp-Rolle "LineString".
 
 Deck.gl Arc:: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
