@@ -81,7 +81,11 @@ Falls man betreffend den möglichen Datentypen unsicher ist, kann man unten im K
 
 Damit ist das Hochladen der Dateien abgeschlossen und man möchte typischerweise die Daten publizieren. 
 Dies geschieht mit einem Chart und einem Dashboard.
+
 Das nächste Kapitel erläutert, wie man ein Chart erstellt.
+
+.Formular "CSV to Database configuration".
+(image)
 
 
 
@@ -155,9 +159,10 @@ Dashboard publizieren:
 * Im Feld "Owners" die Benutzer (Benutzer-Rolle) eintragen.
 * Zuunterst im Formular das Häkchen bei "Published" setzen.
 * Mit Klick auf den Button "Speichern" das Dashboard speichern. 
-* Bereit.
 
-NOTE: Falls der Benutzer zwar das publizierte Dashboard sehen und aufmachen kann, aber keine Daten in den Charts sieht, kontrolliere man die Benutzer-Rolle. 
+Nun ist dein Dashboard publiziert und kann von anderen Benutzern*innen zur Verfügung gestellt werden!
+
+NOTE: Falls der/die Benutzer*in zwar das publizierte Dashboard sehen und aufmachen kann, aber keine Daten in den Charts sieht, kontrolliere man die Benutzer-Rolle. 
 Sie muss so konfiguriert sein, dass sie die zugrundeliegende Datenbank lesen darf (permission "datasource access on ..." oder "all_datasource_access"). 
 Dies sollte vom Superset-Administrator bereits eingerichtet sein. 
 
@@ -297,7 +302,8 @@ COMMIT;
 ## Datentypen
 
 Ein Datentyp bestimmt den erlaubten Wertebereich eines Attributs. 
-Beispiele Datentypen sind Text oder Ganzzahl. 
+Beispiele von Datentypen sind Text oder Ganzzahl. 
+
 Superset kennt folgende *Basis-Datentypen*:
 
 [horizontal]
@@ -314,7 +320,7 @@ Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. `
 
 Zeitliche Daten sind wichtig in jeder Datenanalyse. 
 Sie werden u.a. zum Filtern der Daten verwendet. 
-Die Tatsache, dass ein Attribut vom Typ Timestamp ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht).
+Die Tatsache, dass ein Attribut vom Typ Timestamp ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei bei der Tabellenansicht, Checkbox _is temporal_ unter _Columns_).
 
 Es existieren mehr Basis-Datentypen (beispielsweise `CHAR(3)` und `BOOLEAN`) als diejenigen in Apache Superset, die oben erwähnt wurden. 
 
@@ -369,7 +375,7 @@ Es gibt bei Text (Zeichenkette) unter anderem Kodierungen wie UTF-8, ANSI oder A
 Wir empfehlen in jedem Falle *UTF-8*!
 
 Koordinaten sind nicht die einzige Möglichkeit zur Positionierung und Lagebestimmung von Objekten. 
-Es gibt auch andere Georeferenzierungs-Systeme, insbesondere die sogenannten *ISO 3166-2 Codes* und die *Geohashes*. 
+Es gibt auch andere Georeferenzierungs-Systeme, wie die sogenannten *ISO 3166-2 Codes* und die *Geohashes*. 
 Alle Georeferenzierungs-Systeme - Koordinate, ISO 3166-2 Code und Geohash - haben eigene Kodierungen.
 
 In Superset kommen folgende *Datentyp-Encodings* vor: 
@@ -386,27 +392,30 @@ Delimited:: Zum Beispiel "47.22311,8.81636" sind die Koordinaten des Gebäudes 4
 
 Geohash:: Geohashing ist ein Georeferenzierungs-System, das einen geografischen Standort in eine kurze Folge von Buchstaben und Ziffern kodiert. Es ist eine hierarchische räumliche Datenstruktur bei der die Erde in Kacheln aufgeteilt wird, die weiter unterteilt werden können. Den Kacheln werden Buchstaben und Ziffern zugeordnet. D.h. je länger ein Geohash-Code ist, desto genauer die Ortsangabe. Geohash-Codes sind auf http://en.wikipedia.org/wiki/Geohash[Wikipedia] frei dokumentiert und haben im Vergleich zu Koordinaten unter anderem die Eigenschaft, dass sie kurze Zeichenketten sind. Geohashes werden unter anderem auch von OpenStreetMap und Geocaching verwendet. Nimmt man z.B. die Koordinaten des Gebäudes 4 der HSR Rapperswil (= 47.22311, 8.81636) als Beispiel, ergibt sich der Geohash "u0qk8seys1d". Man kann dies mit der http://geohash.org/u0qk8seys1d[Webapp Geohash.org] nachprüfen.
 
-Polyline (WKT):: Damit ist eigentlich ein Encoding gemäss "Well Known Text" (Abk. WKT) gemeint. Beispiel "LineString (47.22311 8.81636, 47.22469, 8.8173)" für die Luftlinie zwischen HSR und Bahnhof Rapperswil. Siehe z.B. https://de.wikipedia.org/wiki/Simple_Feature_Access#Well-known_Text[WKT auf Wikipedia]. 
+Polyline (WKT):: Damit ist eigentlich ein Encoding gemäss "Well Known Text" (Abk. WKT) gemeint. Ein Beispiel ist "LineString(47.22311 8.81636, 47.22469, 8.8173)" für die Luftlinie zwischen der HSR und dem Bahnhof Rapperswil. Siehe z.B. https://de.wikipedia.org/wiki/Simple_Feature_Access#Well-known_Text[WKT auf Wikipedia]. 
 
-JSON:: JSON als Abkürzung von "JavaScript Object Notation" ist ein kompaktes Datenformat in einer menschenlesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen. 
-Hier im Zusammenhang mit Map Charts wird mit JSON eigentlich GeoJSON gemeint. GeoJSON ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren. GeoJSON kann mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden. Und mit dem Web-Tool http://geojsonlint.com/[geojsonlint.com] können GeoJSON-Daten geprüft werden.
+JSON:: JSON als Abkürzung von "JavaScript Object Notation" ist ein Datenformat in einer menschenlesbaren Textform zum Zweck des Datenaustauschs zwischen Web-Anwendungen. 
+Hier im Zusammenhang mit Map Charts ist mit JSON eigentlich GeoJSON gemeint. GeoJSON ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren. GeoJSON kann u.a. mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden. 
+Und mit dem Web-Tool http://geojsonlint.com/[geojsonlint.com] können GeoJSON-Daten geprüft werden.
 
-ISO 3166-2-Code:: Map Charts wie _Country Map_ und _World Map_ können u.a. auch ISO 3166-2-Codes von Ländern und Untergliederungen (Kantone, Departemente, Provinzen) davon verarbeiten. ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
+ISO 3166-2-Code:: Map Charts wie _Country Map_ und _World Map_ können u.a. auch ISO 3166-2-Codes von Ländern und Untergliederungen davon (Schweizer Kantone, Französische Departemente, Kanadische Provinzen) verarbeiten. 
+ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
 Siehe auch https://superset.incubator.apache.org/visualization.html[Apache Superset-Dokumentation] und https://de.wikipedia.org/wiki/ISO_3166-2:CH[Wikipedia].
 
 
 
 ### Geokodierung
 
-Auch normale geografische Namen wie "Rapperswil" oder "Oberseestrasse 10, Rapperswil-Jona" bilden eine Art textuelles Georeferenzierungs-System, wenn auch ein mehrdeutiges. 
+Auch geografische Namen wie "Rapperswil" oder Adressen wie "Oberseestrasse 10, Rapperswil-Jona" bilden eine Art textuelles Georeferenzierungs-System, wenn auch ein mehrdeutiges. 
 Die Interpretation geografischer Namen ist ein aufwändiger Prozess und nennt sich *Geokodierung*. 
-Geokodierung ist ein Algorithmus oder Prozess, der eine Beschreibung einer Position (Lage, Ort) – z.B. einer Lat/Lon-Koordinate, eines Geohashs, einer Postadresse oder eines Ortsnamens – in eine Position auf der Erdoberfläche umgewandelt wird. 
 
-Hier als Beispiel einer Geokodierung von "Oberseestrasse 10, Rapperswil-Jona" ein Geokodierungs-Aufruf https://map.search.ch/Rapperswil,Oberseestr.10 .
+Die Geokodierung ist ein Algorithmus und ein Prozess, der eine Beschreibung einer Position (Lage, Ort) – beispielsweise ein Geohash, eine Postadresse oder eine Ortsname – in eine Koordinate auf der Erdoberfläche wandelt. 
+
+Hier als Beispiel einer Geokodierung der Gebäudeadresse "Oberseestrasse 10, Rapperswil-Jona" ein Geokodierungs-Aufruf mit OpenStreetMap:  https://map.search.ch/Rapperswil,Oberseestr.10 .
 
 NOTE: In Apache Superset ist zurzeit - nebst den ISO 3166-2 Codes und den Geohashes - keine Geokodierung von *Gebäude- und Postadressen* eingebaut. 
-Wobei es durch Verknüpfung mit einer anderen Tabelle immer möglich ist, geografische Namen(-Kürzel) mit Codes zu verknüpfen: 
-Siehe dazu das Beispiel im Kapitel "Mit Superset eine Tabelle mit einer anderen verknüpfen".
+Wobei es durch die Verknüpfung mit einer anderen Tabelle immer möglich ist, geografische Namen(-skürzel) mit Codes zu verknüpfen: 
+Siehe dazu das Beispiel im Kapitel oben "Mit Superset eine Tabelle mit einer anderen verknüpfen".
 
 
 
