@@ -35,14 +35,12 @@ Apache Superset unterstützt darum vor allem Web-Browser auf dem Desktop oder au
 ## Dokumentation und Feedback
 
 Eine Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
-Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthält u.a. ein kleines FAQ, ist sonst aber leider noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
-Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset').
+Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 verfügbar sein.
+Die https://superset.incubator.apache.org/[offizielle Dokumentation] (englisch) enthält u.a. ein kleines FAQ, ist sonst aber noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
 
-Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 auf dem Dokumentenserver der HSR verfügbar sein.
+Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset'). 
 
-Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
-Fragen kostet nichts.
-
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]). 
 
 
 ## Upload von Daten (Tabellen im CSV-Format)
@@ -127,17 +125,27 @@ Damit ist das Dashboard zwar erstellt, doch müssen wir es noch layouten und ihm
 
 
 
-### Ein Dashboard bearbeiten und publizieren
+### Ein Dashboard bearbeiten
 
-Dieses Kapitel zeigt, wie man ein neu erstelltes Dashboard bearbeitet (z.B. Styling, Positionierung der Charts), und dann publizieret und mit anderen teilt.
+Dieses Kapitel zeigt, wie man ein neu erstelltes Dashboard bearbeitet (Layout, d.h. Positionierung der Charts).
 
 Dashboard bearbeiten:
 
 * Auf Menü _Dashboards_ klicken. Eine Liste mit Dashboards erscheint.
 * In der Liste auf das gewünschte Dashboard kicken, z.B. "CIA World Factbook Test". Das Dashboard öffnet sich im "View-Mode". 
 * In Dashboard-Fenster rechts oben auf den Button "Edit dashboard" klicken. Das Dashboards ist nun im "Edit Mode" und es erscheint unter anderem der Dialog "Insert components" rechts.
-* Das Dashboard kann nun ge-layoutet werden. Dies erfordert einige Übung. Änderungen werden direkt gespeichert. 
+* Das Dashboard kann nun ge-layoutet werden. Änderungen werden direkt gespeichert. 
 * Über den Button "Switch to view mode" rechts oben kann man wieder in die normale Dashboard-Ansicht ("View Mode") zurück wechseln.
+
+
+NOTE: Das Layout, d.h. die Positionierung der Charts erfordert einige Übung. 
+In den Kapiteln weiter unten gibt es einige Hinweise, wie man Charts und Dashboards speziell anpasst.
+Und im Arbeitsblatt "Einführung in Apache Superset" wird ein Filter als besonderer "Chart" vorgestellt, mit dem die Benutzer dann Daten filtern und die Charts  interaktiv beeinflussen können.
+
+
+### Ein Dashboard publizieren
+
+Dieses Kapitel zeigt, wie man ein Dashboard publiziert und mit anderen teilt.
 
 Dashboard publizieren:
 
