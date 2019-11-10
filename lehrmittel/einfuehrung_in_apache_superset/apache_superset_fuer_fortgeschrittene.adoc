@@ -14,15 +14,21 @@ Dieses Informationsblatt bezieht sich auf Release 0.34 von Apache Superset, der 
 Es enthält folgende Themen:
 
 * Dokumentation und Feedback
+* Upload von Daten (Tabellen im CSV-Format)
+* Ein Chart erstellen
+* Ein Dashboard erstellen, bearbeiten und publizieren
+* Eine Tabelle mit einer anderen verknüpfen und die Datenbanksprache SQL nutzen
 * Der Visualisierungsprozess (Daten-Typen, Datentyp-Rollen und Karten-Typen)
-* Chart-Parameter anpassen
+* Charts und Dashboards anpassen
 * Tooltips mit JavaScript anpassen
 * Charts mit Annotations ergänzen
-* Eine Tabelle mit einer anderen verknüpfen (Möglichkeiten der Datenbanksprache SQL)
 
 Im Anhang sind alle Map Charts nochmals zusammengestellt mit allen notwendigen Parametern.
 
 Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
+
+NOTE: Apache Superset ist auf komplexe Daten-Visualisierungen ausgerichtet und erfordert einen erheblichen Bedarf an Ressourcen auf Server- wie auch auf Client-Seite. 
+Apache Superset unterstützt darum vor allem Web-Browser auf dem Desktop oder auf Tablets und kann auf mobilen Geräten mit kleinen Bildschirmen nur beschränkt genutzt werden.
 
 
 
@@ -35,9 +41,244 @@ Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions
 Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 auf dem Dokumentenserver der HSR verfügbar sein.
 
 Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Fragen kostet nichts.
+
+
+
+## Upload von Daten (Tabellen im CSV-Format)
+
+Dieses Kapitel beschreibt, wie man Daten vom eigenen Computer nach Apache Superset importiert. 
+Superset erlaubt das Hochladen von Dateien im Format CSV (Comma Separated Values).
+
+Als Beispiel nehmen wir für den Uplad die Daten des "CIA World Factbook". 
+Die entsprechenden Daten heissen "Apache Superset-Daten (CSV)" auf https://www.openschoolmaps.ch[OpenSchoolMaps] und können dort unter _Unterrichtsmaterialien_ und "Zusätzliche Materialien" heruntergeladen und ausgepackt werden.
+
+Die CSV-Dateien `factbook_data.csv` und `country_codes.csv` sollten nun auf deinem Computer vorhanden sein.
+Überprüfe zuerst die Kodierung und das Format der Datei: die Codierung muss UTF-8 sein und das Format CSV.
+
+NOTE: MS Excel verwaltet normalerweise Dateien im .xlsx-Format. 
+Diese lassen sich als CSV UTF-8 exportieren. 
+Der von MS Excel bevorzugte Delimiter ist das Komma. 
+
+CSV-Datei hochladen:
+
+* Im Superset im Menü _Sources > Upload a CSV_ auswählen. Es erscheint das Formular "CSV to Database configuration".
+* Im Formular "CSV to Database configuration" den Tabellennamen auswählen, z.B. `factbook_data`. Dann die CSV-Datei `factbook_data.csv` auswählen, sowie falls nötig die gewünschte Ziel-Datenbank wählen, z.B. `superset-extra-data` (Datenbank muss durch den Superset-Administrator vorbereitet sein).
+* Auf "Speichern" klicken.
+* Diesen Upload falls nötig wiederholen, beispielsweise mit der CSV-Datei `country_codes.csv` .
+
+Damit bist du mit dem Upload fertig und kannst zum nächsten Kapitel "Ein Chart erstellen" springen.
+
+Es empfiehlt sich jedoch, zu überprüfen, ob die richtigen Datentypen für die entsprechenden Attribute ausgewählt wurden. 
+
+Eine Tabelle mit ihren Attributen und Datentypen überprüfen:
+
+* Menü _Sources > Tables_ auswählen.
+* Die gewünschte Tabelle suchen (z.B. die Tabelle `factbook_data`) und auf "Eintrag bearbeiten" klicken (den mittleren der drei kleinen Buttons). Es erscheint das Formular "Edit Table" mit Tab "Detail".
+* Im Formular "Edit Table" auf Tab "Columns" wechseln. Es erscheint eine Liste der Columns (Attribute) mit ihren Datentypen. 
+* Dort wo nötig beim entsprechenden Feld (Column Name) auf "Eintrag bearbeiten" klicken.
+* Im Feld "Type" den gewünschten Datentyp eingeben (Wichtig: Hier sind bestimtme Datentypen gefragt. Falls man unsicher ist, sollte man nachfragen).
+* Auf "Speichern" klicken. 
+
+Damit ist das Hochladen der Dateien abgeschlossen und man möchte typischerweise die Daten publizieren. 
+Dies geschieht mit einem Chart und einem Dashboard.
+Das nächste Kapitel erläutert, wie man ein Chart erstellt.
+
+
+
+<<<
+## Ein Chart erstellen
+
+Ein neuer Chart wird wie folgt aus einer Tabelle erstellt:
+
+* Menü _Sources > Tables_ auswählen.
+* Die gewünschte Tabelle suchen (z.B. die zuvor hochgeladene Tabelle `factbook_data`) und auf den Namen klicken. 
+* Es erscheint ein Chart-Fenster mit Namen "- untitled" und dem "Visualization Type" (Chart) "Table" (der Default Chart-Typ).
+* Kontrollieren, ob es rechts auf der Zeile "COUNT()" eine Zahl hat, bei Tabelle `factbook_data` is tes 261.
+* Dem Chart einen Namen geben - z.B. "CIA World Factbook Table" - durch Klick auf "- untitled". 
+* Links oben auf _Save_ klicken. Es erscheint ein Dialog "Save A Chart".
+* Beim Dialog "Save A Chart" einen Namen geben, hier z.B. nochmals "CIA World Factbook Table".
+* Auf "OK" klicken.
+
+.Ein Chart erstellen: hier ein Chart vom Typ "Table" mit der Tabelle `factbook_data` als Quelle.
+(image)
+
+
+
+<<<
+## Ein Dashboard erstellen, bearbeiten und publizieren
+
+Dieses Kapitel zeigt, wie man ein Dashboard aus einem Chart erstellen, bearbeiten und publizieren kann.
+
+
+
+### Dashboard erstellen
+
+Hat man einen Chart erstellt - beispielsweise der Chart "CIA World Factbook Table" im Kapitel "Upload von Daten" (siehe auch das Arbeitsblatt "Einführung in Apache Superset") - so will man typischerweie der Chart zu einem Dashboard zusammenstellen und publizieren. 
+
+Neues Dashboard erstellen:
+
+* Ein neus Dashboard kann entweder im Menü _Dashboards_ über den Button _"+"_ rechts erstellt werden oder aber direkt rechts oben mit dem Button _+ New > Dashboard_. Es öffnet sich das Formular "Add Dashboard". 
+* Im Formular "Add Dashboard" einen Titel angeben, z.B. "CIA World Factbook Test".
+* Unten im Formular gibt es ein Häkchen für "Published". Wir gehen später darauf ein.
+* Mit Klick auf den Button "Speichern" das Dashboard speichern.
+
+Damit ist das Dashboard zwar erstellt, doch müssen wir es noch layouten und ihm noch Charts zuordnen.
+
+
+
+### Ein Dashboard bearbeiten und publizieren
+
+Dieses Kapitel zeigt, wie man ein neu erstelltes Dashboard bearbeitet (z.B. Styling, Positionierung der Charts), und dann publizieret und mit anderen teilt.
+
+Dashboard bearbeiten:
+
+* Auf Menü _Dashboards_ klicken. Eine Liste mit Dashboards erscheint.
+* In der Liste auf das gewünschte Dashboard kicken, z.B. "CIA World Factbook Test". Das Dashboard öffnet sich im "View-Mode". 
+* In Dashboard-Fenster rechts oben auf den Button "Edit dashboard" klicken. Das Dashboards ist nun im "Edit Mode" und es erscheint unter anderem der Dialog "Insert components" rechts.
+* Das Dashboard kann nun ge-layoutet werden. Dies erfordert einige Übung. Änderungen werden direkt gespeichert. 
+* Über den Button "Switch to view mode" rechts oben kann man wieder in die normale Dashboard-Ansicht ("View Mode") zurück wechseln.
+
+Dashboard publizieren:
+
+* Ins Menü _Dashboards_ wechseln. Die Dashboards-Liste erscheint.
+* In der Liste der Dashboards bei demjenigen, das veröffentlicht werden soll auf "Eintrag bearbeiten" klicken. Das Formular "Edit Dashboard" erscheint.
+* Im Feld "Owners" die Benutzer (Benutzer-Rolle) eintragen.
+* Zuunterst im Formular das Häkchen bei "Published" setzen.
+* Mit Klick auf den Button "Speichern" das Dashboard speichern. Fertig.
+
+NOTE: Falls der Benutzer zwar das publizierte Dashboard sehen und aufmachen kann, aber keine Daten in den Charts sieht, kontrolliere man die Benutzer-Rolle. 
+Sie muss so konfiguriert sein, dass sie die zugrundeliegende Datenbank lesen darf (permission "datasource access on ..." oder "all_datasource_access"). 
+Dies sollte vom Superset-Administrator bereits eingerichtet sein. 
+
+
+
+<<<
+## Eine Tabelle mit einer anderen verknüpfen
+
+Dieses Kapitel zeigt, wie man eine Tabelle mit einer anderen Tabelle verknüfen kann. 
+
+Durch diese Verknüpfung werden der ersten Tabelle weitere Attribute (Felder, Spalten) der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
+Die Verknüpfung geschieht mit der Datenbanksprache SQL über ein bestimmtes Attribut der einen Tabelle (ein Identifikator, ein Primärschlüssel), das mit einem Attribut (einem Fremdschlüssel) einer weiteren Tabelle verbunden wird. 
+Im Hintergrund muss das Datenbanksystem typischerweise ein sogenannter JOIN ausführen.
+
+Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden (hier gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
+
+* innerhalb demselben Schema: `SELECT * FROM mytable m JOIN othertable t ON m.id = t.id;`.
+* innerhalb derselben Database: `SELECT * FROM myschema.mytable m JOIN otherschema.othertable t ON m.id = t.id;`.
+
+Wenn die andere Tabelle in einer anderen Database oder Datasource bzw. Database ist, dann kann diese zurzeit nur durch jemanden mit Datenbank-Administrator-Rechten und guten Datenbank-Kenntnisse verfügbar gemacht werden (siehe https://giswiki.hsr.ch/PostgreSQL_-_Tipps_und_Tricks#Foreign_Data_Wrappers[PostgreSQL "Foreign Data Wrappers"]).
+
+NOTE: Beim Verknüpfen von zwei Tabellen müssen die Attribute, die verknüpft werden (d.h. Primär- und Fremdschlüssel), denselben - oder aber einen kompatiblen - Datentyp haben. 
+
+
+
+### Mit Superset eine Tabelle mit einer anderen verknüpfen 
+
+In der Dokumentation wird erwähnt, dass man nur eine einzige Datenquelle (Tabelle) auswählen kann, um einen Chart zu erstellen. 
+Dank der Datenbanksprache SQL gibt es jedoch eine Möglichkeit, zwei oder mehrere Tabellen abzufragen. 
+Dazu kann mittels des _SQL Editors_ eine sogenannte "Sicht" (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
+
+Nachfolgend ein Beispiel: 
+Dafür benötigen wir die Tabellen `factbook_data` und `country_codes`: 
+In `factbook_data` enthält für jedes Land Kennzahlen wie Population und Fläche (in km2). 
+Die beiden Tabellen musst du zuerst als Dateien `country_codes.csv` und `factbook_data.csv` herunterladen: 
+siehe "Apache Superset-Daten (CSV)"  _OpenSchoolMaps.ch > Unterrichtsmaterialien_ unter "Zusätzliche Materialien".
+Die heruntergeladene Datei ist eine zip-Datei, die du zuerst in ein eigenes Verzeichnis kopierst und dort auspackst ("unzip").  
+Nun sind die zwei Dateien sind bereit, um zu Superset hochgeladen zu werden. 
+Das Hochladen von CSV-Dateien ist im Kapitel "Upload von Daten" beschrieben.
+
+Angenommen wir wollen die Bevölkerungsdichte aller Länder als Karte darstellen. 
+Die Bevölkerungsdichte eines Landes ist die Population bezogen auf die Fläche eines Landes.
+Wir verknüpfen dazu die Tabelle `country_codes` mit der Tabelle `factbook_data`, und zwar über den `country_name`, der bei beiden das Land identifiziert:
+
+* Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
+* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind die SQL-Schlüsselworte in Grossbuchstaben):
+
+IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` sind PostgresSQL-spezifisch. 
+Sie können nur bei Datenbanken verwendet werden, bei denen _Allow DML_ "True" ist.
+
+----
+BEGIN;
+CREATE VIEW country_population_density AS
+    SELECT 
+        cc.*, 
+        fb.population, 
+        fb.area,
+        CASE
+            WHEN fb.area = 0
+            THEN 0
+            ELSE (fb.population / fb.area * 100)
+        END AS density
+    FROM country_codes AS cc
+    JOIN factbook_data AS fb
+    ON cc.country_name = fb.country_name
+;
+COMMIT;
+----
+
+NOTE: Das Attribut `country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 Codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte). 
+Diese Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können. 
+In diesem Beispiel ist es die Bevölkerungszahl, die Fläche und die Bevölkerungsdichte.
+
+* Im _SQL Editor_ den Button _Run Query_ ausführen.
+* Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
+* Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
+* Im Dialog "Import a table definition" als "Table Name" den Namen der soeben erstellen View ergänzen.
+
+Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
+
+NOTE: Falls bei bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 
+1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 
+2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu _Sources_ und _Databases_ bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
+
+Die Bevölkerungsdichte ist wie gesagt das Verhältnis zwischen Population und Fläche, also ein Attriuts-Merkmal 'Ratio' (Verhältniszahl) pro Geometrie-Datentyp 'Area'. 
+Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte, die Superset _Country Map_. 
+
+NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
+Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
+
+
+
+### Mit Superset die Datenbanksprache SQL nutzen 
+
+Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
+Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
+
+Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität eines Landes vergleicht und Durchschnittswerte berechnet:
+
+----
+BEGIN;
+CREATE VIEW electricity_usage AS
+    WITH temporary AS (
+        SELECT 
+            country_name, 
+            electricity_production, electricity_consumption,
+            CASE
+                WHEN electricity_production = 0
+                THEN 0
+                ELSE (electricity_consumption / electricity_production * 100)
+            END AS percentage
+        FROM factbook_data
+    )
+    SELECT 
+        *, 
+        AVG(electricity_production) OVER () AS avg_production,
+        AVG(electricity_consumption) OVER () AS avg_consumption
+    FROM temporary
+    WHERE percentage IS NOT NULL
+    ;
+COMMIT;
+----
+
+NOTE: Wer SQL näher kennen lernen will, für den gibt es eine Fülle von Quellen. 
+Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
 Eine erste Anfrage kostet nichts.
 
 
+
+<<<
 ## Der Visualisierungsprozess
 
 Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: 
@@ -102,6 +343,11 @@ Weitere werden sicherlich dazu kommen.
 Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. 
 Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
 
+Für die internationale Angaben von Positionen auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). 
+Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). 
+Lat/Lon werden oft als Fliesskommazahlen behandelt. 
+Dabei genügt für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen (Beispiel von Lat/Lon für Rapperswil, was man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+
 Die wichtigsten Geometrie- bzw. "Geodatentypen" (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). 
 In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
 
@@ -116,12 +362,18 @@ Geo-Datentyp-Rolle "Point":: Gibt es noch nicht als eigene Rolle (nur als Longit
 
 Geo-Datentyp-Rolle "Lines":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "Polylines" haben.
 
-Geo-Datentyp-Rolle "Polygons":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 codes" haben.
+Geo-Datentyp-Rolle "Polygons":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 Codes" haben.
 
-NOTE: Für Positionsangaben auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). 
-Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). 
-Lat/Lon werden oft als Fliesskommazahlen behandelt. 
-Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, was man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+NOTE: JSON (JavaScript Object Notation) ist ein kompaktes Datenformat in einer menschen-lesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen. 
+Hier im Zusammenhang mit Map Charts wird mit JSON eigentlich GeoJSON gemeint.
+Dies ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren.
+GeoJSON kann mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden.
+Und mit dem Web-Tool http://geojsonlint.com/[geojsonlint.com] können GeoJSON-Daten geprüft werden.
+
+Map Charts wie _Country Map_ und _World Map_ können nebst Koordinaten auch ISO 3166-2-Codes von Ländern und Untergliederungen (Kantone, Departemente, Provinzen) davon verarbeiten. Man nennt dies auch Geokodierung.
+
+NOTE: ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
+Siehe auch https://superset.incubator.apache.org/visualization.html[Apache Superset-Dokumentation] und https://de.wikipedia.org/wiki/ISO_3166-2:CH[Wikipedia].
 
 
 
@@ -139,7 +391,7 @@ Es gibt folgende Kartentypen:
 
 Die Kartentypen aus der Kartografie helfen, die Superset Map Charts zu gruppieren. 
 Es werden hier nur die bekanntesten Kartentypen vorgestellt. 
-Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map-Chart-Typen zur Verfügung (vgl. auch der Anhang):
+Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map Chart-Typen zur Verfügung (vgl. auch der Anhang):
 
 *Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. 
 Zu diesem Kartentyp gehören folgende Superset Charts:
@@ -181,7 +433,7 @@ a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_arc.png[100,100]
 *Choroplethenkarten* (en. Choropleth Map) (deutsche Synonyme: Dichtemosaikkarten; Flächenkartogramme) werden symbolisiert mit Flächensignaturen bezogen auf Flächen. Die Werte sind hier meist nicht absolut, sondern relativ. Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
-Country Map:: Choroplethenkarte mit Ländergrenzen. Erwartet ISO 3166-2-Codes von Departements/Kantone/etc. als Zeichenkette.
+Country Map:: Choroplethenkarte mit Ländergrenzen. Erwartet ISO 3166-2-Codes von Ländern und Untergliederungen davon als Zeichenkette.
 
 Deck.gl Polygon:: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
 
@@ -202,7 +454,7 @@ Man beachte den Unterschied von Symbol/Marker zu Diagramm.
 Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
-World Map:: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von den Ländern als Zeichenkette.
+World Map:: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von Ländern und Untergliederungen davon als Zeichenkette.
 
 Deck.gl 3D Hexagon:: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
@@ -259,12 +511,12 @@ Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizonta
 
 |===
 
-Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map), wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
+Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits _Mapbox_ (Kartentyp Dot Map), wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits _Country Map_ (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
 
 
 
 <<<
-## Chart-Parameter anpassen
+## Charts und Dashboards anpassen
 
 
 
@@ -438,109 +690,6 @@ Der Name und die Anzeigeeigenschaften können konfiguriert werden.
 Formeln werden als zusätzliche Linie in das Diagramm eingefügt.
 Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird.
 Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
-
-
-
-<<<
-## Eine Tabelle mit einer anderen verknüpfen
-
-Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabelle mit einer anderen Tabelle. 
-Durch diese Verknüpfung werden der ersten Tabelle weitere Attribute (Felder, Spalten)  der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
-
-Diese Verknüpfung geschieht mit der Datenbanksprache SQL über ein bestimmtes Attribut der einen Tabelle, das mit einem Attribut einer weiteren Tabelle verbunden wird. 
-Im Hintergrund muss das Datenbanksystem typischerweise ein sogenannter JOIN ausführen.
-
-Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden (hier gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
-
-* innerhalb demselben Schema: `SELECT * FROM mytable m JOIN othertable t ON m.id = t.id;`.
-* innerhalb derselben Database: `SELECT * FROM myschema.mytable m JOIN otherschema.othertable t ON m.id = t.id;`.
-* mit anderer (PostgreSQL-)Database auf demselben Server/Host: _tbc._
-* mit anderer (PostgreSQL-)Database auf anderem Server/Host: _tbc._ 
-* mit anderer Datasource (z.B. SQLite): Nur möglich mit einer Software-Anpassung.
-
-NOTE: Beim Verknüpfen von zwei Tabellen müssen die Attribute, die verknüpft werden, denselben - oder aber einen kompatiblen - Datentyp haben. 
-
-
-
-### Mit Superset eine Tabelle mit einer anderen verknüpfen 
-
-In der "Einführung in Apache Superset" steht, dass man für einen Chart nur eine einzige Datenquelle (Tabelle) auswählen kann. 
-An dieser Stelle muss hinzugefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
-Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
-
-Nachfolgend ein Beispiel: Gegeben die Tabelle `country_codes`, die mit `factbook_data` verknüpft werden soll, und zwar über den `country_name`, der bei beiden die Nation identifiziert:
-
-* Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
-* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
-
-IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` können nur bei Datenbanken verwendet werden, bei denen _Allow DML_ "True" ist.
-
-----
-BEGIN;
-CREATE VIEW "country_population_density" AS
-    SELECT cc.*, fb.population, fb.area,
-    CASE
-        WHEN fb.area = 0
-        THEN 0
-        ELSE (fb.population / fb.area * 100)
-    END AS density
-    FROM "country_codes" cc
-    JOIN "factbook_data" fb
-    ON cc.country_name = fb.country_name
-;
-COMMIT;
-----
-
-NOTE: `country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte). Diese
-Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können. In diesem Beispiel: Bevölkerungszahl, Fläche, Bevölkerungsdichte.
-
-* Im _SQL Editor_ den Button _Run Query_ ausführen.
-* Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
-* Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
-* Im Dialog "Import a table definition" als "Table Name" den Namen der soeben erstellen View ergänzen.
-
-Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
-
-NOTE: Falls bei bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources` und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
-
-Falls du -- wie oben angedeutet -- eine Tabelle auf weitere Arten mit anderen Tabellen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
-
-NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
-Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
-
-
-
-### Mit Superset die Möglichkeiten der Datenbanksprache SQL nutzen 
-
-Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
-Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
-
-Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität einer Nation vergleicht und Durchschnittswerte berechnet:
-
-----
-BEGIN;
-CREATE VIEW "electricity_usage" AS
-    WITH "temporary" AS (
-        SELECT country_name, electricity_production, electricity_consumption,
-        CASE
-            WHEN electricity_production = 0
-            THEN 0
-            ELSE (electricity_consumption / electricity_production * 100)
-        END AS percentage
-        FROM "factbook_data"
-    )
-    SELECT *, AVG(electricity_production) OVER () AS avg_production,
-    AVG(electricity_consumption) OVER () AS avg_consumption
-    FROM "temporary"
-    WHERE percentage IS NOT NULL
-    ;
-COMMIT;
-----
-
-NOTE: Wer gerne SQL lernen will, für den gibt es eine Fülle von Quellen. 
-Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
-Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
-Eine erste Anfrage kostet nichts.
 
 
 
