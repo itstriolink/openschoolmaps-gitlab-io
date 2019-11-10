@@ -67,7 +67,7 @@ CSV-Datei hochladen:
 
 Damit bist du mit dem Upload fertig und kannst zum nächsten Kapitel "Ein Chart erstellen" springen.
 
-Es empfiehlt sich jedoch, zu überprüfen, ob die richtigen Datentypen für die entsprechenden Attribute ausgewählt wurden. 
+Es empfiehlt sich jedoch zu überprüfen, ob die richtigen Datentypen für die entsprechenden Attribute ausgewählt wurden. 
 
 Eine Tabelle mit ihren Attributen und Datentypen überprüfen:
 
@@ -75,8 +75,10 @@ Eine Tabelle mit ihren Attributen und Datentypen überprüfen:
 * Die gewünschte Tabelle suchen (z.B. die Tabelle `factbook_data`) und auf "Eintrag bearbeiten" klicken (den mittleren der drei kleinen Buttons). Es erscheint das Formular "Edit Table" mit Tab "Detail".
 * Im Formular "Edit Table" auf Tab "Columns" wechseln. Es erscheint eine Liste der Columns (Attribute) mit ihren Datentypen. 
 * Dort wo nötig beim entsprechenden Feld (Column Name) auf "Eintrag bearbeiten" klicken.
-* Im Feld "Type" den gewünschten Datentyp eingeben (Wichtig: Hier sind bestimtme Datentypen gefragt. Falls man unsicher ist, sollte man nachfragen).
+* Im Feld "Type" den gewünschten Datentyp eingeben (Wichtig: Hier sind bestimmte Datentypen gefragt: siehe Notiz unten. Falls man unsicher ist, sollte man nachfragen).
 * Auf "Speichern" klicken. 
+
+NOTE: Dies sind die möglichen Datentypen: Zeichenkette `TEXT`, Fliesskomma `DOUBLE PRECISION`
 
 Damit ist das Hochladen der Dateien abgeschlossen und man möchte typischerweise die Daten publizieren. 
 Dies geschieht mit einem Chart und einem Dashboard.
@@ -92,7 +94,7 @@ Ein neuer Chart wird wie folgt aus einer Tabelle erstellt:
 * Menü _Sources > Tables_ auswählen.
 * Die gewünschte Tabelle suchen (z.B. die zuvor hochgeladene Tabelle `factbook_data`) und auf den Namen klicken. 
 * Es erscheint ein Chart-Fenster mit Namen "- untitled" und dem "Visualization Type" (Chart) "Table" (der Default Chart-Typ).
-* Kontrollieren, ob es rechts auf der Zeile "COUNT()" eine Zahl hat, bei Tabelle `factbook_data` is tes 261.
+* Kontrollieren, ob es rechts auf der Zeile "COUNT(\*)" eine Zahl hat, bei Tabelle `factbook_data` is tes 261.
 * Dem Chart einen Namen geben - z.B. "CIA World Factbook Table" - durch Klick auf "- untitled". 
 * Links oben auf _Save_ klicken. Es erscheint ein Dialog "Save A Chart".
 * Beim Dialog "Save A Chart" einen Namen geben, hier z.B. nochmals "CIA World Factbook Table".
@@ -110,13 +112,13 @@ Dieses Kapitel zeigt, wie man ein Dashboard aus einem Chart erstellen, bearbeite
 
 
 
-### Dashboard erstellen
+### Ein Dashboard erstellen
 
 Hat man einen Chart erstellt - beispielsweise der Chart "CIA World Factbook Table" im Kapitel "Upload von Daten" (siehe auch das Arbeitsblatt "Einführung in Apache Superset") - so will man typischerweie der Chart zu einem Dashboard zusammenstellen und publizieren. 
 
 Neues Dashboard erstellen:
 
-* Ein neus Dashboard kann entweder im Menü _Dashboards_ über den Button _"+"_ rechts erstellt werden oder aber direkt rechts oben mit dem Button _+ New > Dashboard_. Es öffnet sich das Formular "Add Dashboard". 
+* Ein neus Dashboard kann entweder im Menü _Dashboards_ über den Button "+" rechts erstellt werden oder aber direkt rechts oben mit dem Button "+ New" _> Dashboard_. Es öffnet sich das Formular "Add Dashboard". 
 * Im Formular "Add Dashboard" einen Titel angeben, z.B. "CIA World Factbook Test".
 * Unten im Formular gibt es ein Häkchen für "Published". Wir gehen später darauf ein.
 * Mit Klick auf den Button "Speichern" das Dashboard speichern.
@@ -153,7 +155,8 @@ Dashboard publizieren:
 * In der Liste der Dashboards bei demjenigen, das veröffentlicht werden soll auf "Eintrag bearbeiten" klicken. Das Formular "Edit Dashboard" erscheint.
 * Im Feld "Owners" die Benutzer (Benutzer-Rolle) eintragen.
 * Zuunterst im Formular das Häkchen bei "Published" setzen.
-* Mit Klick auf den Button "Speichern" das Dashboard speichern. Fertig.
+* Mit Klick auf den Button "Speichern" das Dashboard speichern. 
+* Bereit.
 
 NOTE: Falls der Benutzer zwar das publizierte Dashboard sehen und aufmachen kann, aber keine Daten in den Charts sieht, kontrolliere man die Benutzer-Rolle. 
 Sie muss so konfiguriert sein, dass sie die zugrundeliegende Datenbank lesen darf (permission "datasource access on ..." oder "all_datasource_access"). 
@@ -241,7 +244,7 @@ NOTE: Falls bei bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein F
 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu _Sources_ und _Databases_ bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
 
 Die Bevölkerungsdichte ist wie gesagt das Verhältnis zwischen Population und Fläche, also ein Attriuts-Merkmal 'Ratio' (Verhältniszahl) pro Geometrie-Datentyp 'Area'. 
-Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte, die Superset _Country Map_. 
+Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte. In Superset ist das die _World Map_ und die _Country Map_. 
 
 NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
@@ -318,70 +321,109 @@ Ratio:: Ein Zahlenwert mit absolutem Nullpunkt; meist Datentyp Fliess- oder Fest
 
 
 
-### Datentypen und Datentyp-Rollen
+### Datentypen
 
-Ein Datentyp bestimmt den erlaubten Wertebereich. Ein Beispiel für einen Datentyp ist die Ganzzahl. Superset kennt folgende *Basis-Datentypen*:
+Ein Datentyp bestimmt den erlaubten Wertebereich eines Attributs. 
+Beispiele Datentypen sind Text oder Ganzzahl. 
+Superset kennt folgende *Basis-Datentypen*:
 
 [horizontal]
-Zeichenkette (en: Text):: In Superset mit dem Icon "ABC" dargestellt. Das können z.B. die PostgreSQL-Typen `TEXT` oder `VARCHAR()` sein.
+Zeichenkette (en: Text):: In Superset mit dem Icon "ABC" dargestellt. Das können z.B. die Typen `TEXT` oder `VARCHAR(255)` sein, wobei 255 die maximale Länge der Zeichenkette bestimmt.
 
-DatumZeit (en: Datetime):: In Superset mit dem Icon "Uhr" dargestellt. Ein "temporaler" d.h. ein zeitlicher Typ mit Datums- und Zeitwert.
+Datum & Zeit (en: Timestamp):: In Superset mit dem Icon "Uhr" dargestellt. Das ist ein "temporaler" d.h. ein zeitlicher Typ mit Datum- und Zeit. Ein zeitlicher Datentyp kann mit oder ohne Zeitzone abgespeichert sein (die Schweiz ist in der Zeitzone "Mitteleuropäische Zeit", MEZ). Diese Datentypen heissen technisch `TIMESTAMP WITH TIMEZONE` und `TIMESTAMP WITHOUT TIMEZONE`. Ein genormte Darstellung eines `TIMESTAMP WITH TIMEZONE` in MEZ sieht z.B. so aus "2019-11-10 12:21:03.000000+01".
 
-Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
+Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen. Technisch heissen diese `INTEGER` und `SMALLINT`.
 
-Fliesskomma (en: float/real) & Festkommazahlen (en: numeric):: Keine Icons in Superset.
+Fliesskommazahl (en: Real) und Festkommazahl (en: Numeric):: Keine Icons in Superset. Technisch heissen diese `REAL` und `NUMERIC`, wobei bei letzterem die Anzahl Stellen vor und nach dem Komma angegeben werden wird, z.B. typischerweise für Geldbeträge `NUMERIC(10,2)`. 
 
 Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
 
 Zeitliche Daten sind wichtig in jeder Datenanalyse. 
 Sie werden u.a. zum Filtern der Daten verwendet. 
-Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht)
+Die Tatsache, dass ein Attribut vom Typ Timestamp ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht).
 
-Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. 
-Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer "Datentyp-Rolle" (en: Data type role) wie beispielsweise "Lines" (Linien).
-
-Mit der Angabe der "Datentyp-Rolle" zu einem Text-Attribut ist es immer noch nicht getan: 
-Es muss noch das "Datentyp-Encoding" (encoding = Kodierung) bestimmt werden. Superset kennt verschiedene Datentyp-Rollen und Datentyp-Encodings. 
-Weitere werden sicherlich dazu kommen.
+Es existieren mehr Basis-Datentypen (beispielsweise `CHAR(3)` und `BOOLEAN`) als diejenigen in Apache Superset, die oben erwähnt wurden. 
 
 
 
-### Räumliche Daten (Geodaten)
+### Datentyp-Rollen und raumbezogene Datentypen
 
-Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. 
-Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
+Die oben erwähnten Basis-Datentypen genügen alleine nicht den vielfältigen Anforderungen von Daten. 
+Wie die zeitlichen (en: temporal) sind auch die raumbezogenen (en: spatial) Daten interessant für die Analyse und Visualisierung. 
+Raumbezogene/räumliche Datentpen - oft auch Geodaten genannt - haben besondere Eigenschaften.
+Superset verlangt darum mit Blick auf bestimmte Charts zusätzlich die Angabe einer *"Datentyp-Rolle"* (en: Data type role) wie beispielsweise "Point" (de: Punkt).
+Für die Datenbank sind diese Daten weiterhin beispielsweise vom Basis-Datentyp Text, doch Superset kann dieses dann speziell interpretieren.
+In dem der Benutzer die Datentyp-Rolle angibt, ist es Superset möglich, beispielsweise Daten als Karten (Map Charts) zu visualisieren.
 
-Für die internationale Angaben von Positionen auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). 
-Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). 
-Lat/Lon werden oft als Fliesskommazahlen behandelt. 
-Dabei genügt für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen (Beispiel von Lat/Lon für Rapperswil, was man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+Die Geometrie ist ein bekannter raumbezogener Datentyp.
+Die vier hauptsächlichsten *Geometrie-Datentypen* heissen genormt *Point* (de: Punkt; Synonyme Koordinate, Punktkoordinate, Ort, Lage), *LineString* (de: Linie, Synonyme Line, Polyline, Way) und *Polygon* (de: Fläche, Synonym: Area) sowie "Volume" (en: Volume).
+Ein Punkt bestimmt die Position/Lage eines Objekts und besteht aus einem Paar von *Koordinaten*.  
+Für die internationale Angabe von Positionen auf der Erde -- beispielsweise mit dem GPS -- werden *Längengrade und Breitengrade* verwendet (en: Longitude/Latitude, abgekürzt: Lat/Lon). 
 
-Die wichtigsten Geometrie- bzw. "Geodatentypen" (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). 
-In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
-
-NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygon verwaltet sind, werden von Superset (noch) als Text oder Binärdaten interpretiert.
-
-Geo-Datentyp-Rollen und Datentyp-Encodings in Apache Superset:
+Übersicht über raumbezogene Datentyp-Rollen in Apache Superset:
 
 [horizontal]
-Geo-Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl float8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". Die entsprechenden Datentype-Encodings sind Delimited oder Geohash.
+Datentyp-Rolle "Point":: Gibt es vor allem als Rolle "Longitude & Latitude columns". Die entsprechenden Datentyp-Encodings sind "Delimited" oder "Geohash" (unten mehr dazu).
 
-Geo-Datentyp-Rolle "Point":: Gibt es noch nicht als eigene Rolle (nur als Longitude & Latitude columns), ist aber vorreserviert.
+Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl float8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". 
 
-Geo-Datentyp-Rolle "Lines":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "Polylines" haben.
+Datentyp-Rolle "Line":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentyp-Encodings "JSON" oder "Polyline"(-Well Known Text) haben.
 
-Geo-Datentyp-Rolle "Polygons":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 Codes" haben.
+Datentyp-Rolle "Polygon":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche das Datentyp-Encoding "JSON" hat. Dazu kommt das Datentyp-Encoding "ISO 3166-2 Codes".
 
-NOTE: JSON (JavaScript Object Notation) ist ein kompaktes Datenformat in einer menschen-lesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen. 
-Hier im Zusammenhang mit Map Charts wird mit JSON eigentlich GeoJSON gemeint.
-Dies ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren.
-GeoJSON kann mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden.
-Und mit dem Web-Tool http://geojsonlint.com/[geojsonlint.com] können GeoJSON-Daten geprüft werden.
+NOTE: Längengrade und Breitengrade basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-System, dem "World Geodetic System 1984" (WGS 84). 
+Lat/Lon werden oft als Fliesskommazahlen behandelt. 
+Eigentlich genügt für die meisten Anwendungen eine Festkommazahl mit maximal 6 Nachkommastellen, also `NUMERIC(3,6)` (Beispiel von Lat/Lon für Rapperswil, was man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
 
-Map Charts wie _Country Map_ und _World Map_ können nebst Koordinaten auch ISO 3166-2-Codes von Ländern und Untergliederungen (Kantone, Departemente, Provinzen) davon verarbeiten. Man nennt dies auch Geokodierung.
+Im folgenden Kapitel wird erklärt, was mit den Datentyp-Encoding gemeint ist.
 
-NOTE: ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
+
+
+### Datentyp-Encodings und Geokodierung
+
+Mit der Angabe eines Datentyps und einer "Datentyp-Rolle" ist es noch nicht getan: 
+Es muss zusätzlich noch festgelegt sein, wie der Inhalt eines Datentyps kodiert ist. 
+Man nennt dies *Datentyp-Encoding* (de: Datentyp-Kodierung). 
+
+NOTE: Sicherlich vielen bekannt sind Probleme mit Umlauten äöü. 
+Diese Probleme haben mit dem Datentyp-Encoding vom Datentyp Text (Zeichenkette) zu tun. 
+Es gibt bei Text (Zeichenkette) unter anderem Kodierungen wie UTF-8, ANSI oder ASCII.
+Wir empfehlen in jedem Falle *UTF-8*!
+
+Koordinaten sind nicht die einzige Möglichkeit zur Positionierung und Lagebestimmung von Objekten. 
+Es gibt auch andere Georeferenzierungs-Systeme, insbesondere die sogenannten *ISO 3166-2 Codes* und die *Geohashes*. 
+Alle Georeferenzierungs-Systeme - Koordinate, ISO 3166-2 Code und Geohash - haben eigene Kodierungen.
+
+In Superset kommen folgende Datentyp-Encodings vor: 
+
+* Bei der Datentyp-Rolle "Point" ist es "Delimited" oder "Geohash".
+* Bei der Datentyp-Rolle "Line" (LineString) sind es "Polyline" oder "JSON".
+* Bei der Datentyp-Rolle "Polygon" ist es "ISO 3166-2 Codes".
+
+Nachfolgend sind einige Informationen zu den Datentyp-Encodings zusammengestellt:
+
+*Delimited*: Zum Beispiel "47.22311,8.81636" sind die Koordinaten des Gebäudes 4 der HSR Rapperswil. Siehe https://www.openstreetmap.org/search?query=47.22311,8.81636[OpenStreetMap] (man beachte die Link-Adresse).
+
+*Geohash* ist ein Georeferenzierungs-Systeme, das einen geografischen Standort in eine kurze Folge von Buchstaben und Ziffern kodiert. Es ist eine hierarchische räumliche Datenstruktur bei der die Erde in Kacheln aufgeteilt wird, die weiter unterteilt werden können. Den Kacheln werden Buchstaben und Ziffern zugeordnet. D.h. je länger ein Geohash-Code ist, desto genauer die Ortsangabe. Geohash-Codes sind auf http://en.wikipedia.org/wiki/Geohash[Wikipedia] frei dokumentiert und haben im Vergleich zu Koordinaten unter anderem die Eigenschaft, dass sie kurze Zeichenketten sind. Geohashes werden unter anderem auch von OpenStreetMap und Geocaching verwendet. Nimmt man z.B. die Koordinaten des Gebäudes 4 der HSR Rapperswil (= 47.22311, 8.81636) als Beispiel, ergibt sich der Geohash "u0qk8seys1d". Man kann dies mit der http://geohash.org/u0qk8seys1d[Webapp Geohash.org] nachprüfen.
+
+*Polyline"*: Damit ist eigentlich ein Encoding gemäss "Well Known Text" (Abk. WKT) gemeint. Beispiel "xxx". Siehe z.B. https://de.wikipedia.org/wiki/Simple_Feature_Access#Well-known_Text[Wikipedia]. 
+
+*JSON (JavaScript Object Notation)* ist ein kompaktes Datenformat in einer menschenlesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen. 
+Hier im Zusammenhang mit Map Charts wird mit JSON eigentlich GeoJSON gemeint. GeoJSON ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren. GeoJSON kann mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden. Und mit dem Web-Tool http://geojsonlint.com/[geojsonlint.com] können GeoJSON-Daten geprüft werden.
+
+*ISO 3166-2-Codes*: Map Charts wie _Country Map_ und _World Map_ können u.a. auch ISO 3166-2-Codes von Ländern und Untergliederungen (Kantone, Departemente, Provinzen) davon verarbeiten. ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
 Siehe auch https://superset.incubator.apache.org/visualization.html[Apache Superset-Dokumentation] und https://de.wikipedia.org/wiki/ISO_3166-2:CH[Wikipedia].
+
+
+
+### Geokodierung
+
+Auch normale geografische Namen wie "Rapperswil" oder "Oberseestrasse 10, Rapperswil-Jona" bilden eine Art textuelles Georeferenzierungs-System, wenn auch ein mehrdeutiges. 
+Weil die Interpretation geografischer Namen jedoch ein aufwändiger Prozess ist, wendet man hier *Geokodierung* an.
+Geokodierung ist ein Algorithmus oder Prozess, der eine Beschreibung einer Position (Lage, Ort) – z.B. einer Lat/Lon-Koordinate, eines Geohashs, einer Postadresse oder eines Ortsnamens – in eine Position auf der Erdoberfläche umgewandelt wird. 
+
+NOTE: In Apache Superset ist zurzeit - nebst den ISO 3166-2 Codes und den Geohashes - noch keine *Geokodierung* von Gebäude- und Postadressen eingebaut. 
+Wobei es durch Verknüpfung mit einer anderen Tabelle immer möglich ist, geografische Namen(-Kürzel) mit Codes zu verknüpfen: Siehe dazu das Beispiel im Kapitel "Mit Superset eine Tabelle mit einer anderen verknüpfen".
 
 
 
@@ -423,7 +465,7 @@ NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim He
 *Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
-Deck.gl Path:: Netzkarte. Erwartet die Datentyp-Rolle "Lines".
+Deck.gl Path:: Netzkarte. Erwartet die Datentyp-Rolle "Line".
 
 Deck.gl Arc:: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
 
@@ -443,7 +485,7 @@ a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_arc.png[100,100]
 [horizontal]
 Country Map:: Choroplethenkarte mit Ländergrenzen. Erwartet ISO 3166-2-Codes von Ländern und Untergliederungen davon als Zeichenkette.
 
-Deck.gl Polygon:: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
+Deck.gl Polygon:: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygon".
 
 |===
 
