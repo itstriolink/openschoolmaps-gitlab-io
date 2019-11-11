@@ -97,7 +97,7 @@ Ein neuer Chart wird wie folgt aus einer Tabelle erstellt:
 * Men체 _Sources > Tables_ ausw채hlen.
 * Die gew체nschte Tabelle suchen (z.B. die zuvor hochgeladene Tabelle `factbook_data`) und auf den Namen klicken. 
 * Es erscheint ein Chart-Fenster mit Namen "- untitled" und dem "Visualization Type" (Chart) "Table" (der Default Chart-Typ).
-* Kontrollieren, ob es rechts auf der Zeile "COUNT(\*)" eine Zahl hat, bei Tabelle `factbook_data` is tes 261.
+* Kontrollieren, ob es rechts auf der Zeile "COUNT(*)" eine Zahl hat, bei Tabelle `factbook_data` is tes 261.
 * Dem Chart einen Namen geben - z.B. "CIA World Factbook Table" - durch Klick auf "- untitled". 
 * Links oben auf _Save_ klicken. Es erscheint ein Dialog "Save A Chart".
 * Beim Dialog "Save A Chart" einen Namen geben, hier z.B. nochmals "CIA World Factbook Table".
@@ -165,6 +165,9 @@ Nun ist dein Dashboard publiziert und kann von anderen Benutzern*innen zur Verf�
 NOTE: Falls der/die Benutzer*in zwar das publizierte Dashboard sehen und aufmachen kann, aber keine Daten in den Charts sieht, kontrolliere man die Benutzer-Rolle. 
 Sie muss so konfiguriert sein, dass sie die zugrundeliegende Datenbank lesen darf (permission "datasource access on ..." oder "all_datasource_access"). 
 Dies sollte vom Superset-Administrator bereits eingerichtet sein. 
+
+.Ein Dashboard bearbeiten: Ein Dashboard im View-Mode.
+(image)
 
 
 
@@ -315,7 +318,7 @@ Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache
 
 Fliesskommazahl (en: Real) und Festkommazahl (en: Numeric):: Keine Icons in Superset. Technisch heissen diese `REAL` und `NUMERIC`, wobei bei letzterem die Anzahl Stellen vor und nach dem Komma angegeben werden wird, z.B. typischerweise f체r Geldbetr채ge `NUMERIC(10,2)`. 
 
-Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. `COUNT(\*)`. Superset f체gt bei Tabellen immer dieses abgeleitete Attribut hinzu.
+Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. `COUNT(*)`. Superset f체gt bei Tabellen immer dieses abgeleitete Attribut hinzu.
 
 
 Zeitliche Daten sind wichtig in jeder Datenanalyse. 
@@ -448,6 +451,9 @@ Intervall:: Ein massstabsloser Zahlenwert, Verh채ltniszahl ("etwas Relatives"). 
 
 Ratio:: Ein Zahlenwert mit absolutem Nullpunkt; meist Datentyp Fliess- oder Festkommazahl.
 
+
+
+### Kartentypen
 
 In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. 
 Hier werden die Geodaten den Kartensymbolen zugeordnet; dies nennt man da Symbolisierung (en: symbolization, styling).
