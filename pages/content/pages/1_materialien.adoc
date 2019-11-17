@@ -40,9 +40,9 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 .OpenStreetMap bearbeiten und nutzen:
 . OpenStreetMap bearbeiten:
   {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt] |
-  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf?job=PDFs[{pdf-icon}{nnbsp}mit Informationen für Instruktoren]
-. OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen:
-  {lehrmittel-url}/osm_bearbeiten/02_osm-daten_beziehen.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt (für Fortgeschrittene)]
+  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf?job=PDFs[{pdf-icon}{nnbsp}mit Informationen für Instruktoren] (Keywords: iD-Editor)
+. OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen (für Fortgeschrittene):
+  {lehrmittel-url}/osm_bearbeiten/02_osm-daten_beziehen.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt] (Keywords: Overpass, QGIS QuickOSM-Plugin, OSM-Daten-Download)
 . Die Umgebung selber kartografieren - Outdoor Mapping Event:
   {lehrmittel-url}/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt für Teilnehmende] |
   {lehrmittel-url}/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.pdf?job=PDFs[{pdf-icon}{nnbsp}für Instruktoren]
