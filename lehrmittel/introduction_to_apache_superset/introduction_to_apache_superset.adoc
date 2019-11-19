@@ -125,12 +125,12 @@ First look at the attachment to see what Apache Superset has to offer for charts
 The charts that will be used in this worksheet are numbered in Figure 1 in the order in which you will create them.
 
 * At the top left is a filter (number 8). This allows you to restrict the datasets to one region or country. 
-* Directly below is Chart No. 3, called *"World's Population "*. This shows the size of the population and its growth by means of a line. 
+* Directly below is Chart No. 3, called *"World's Population"*. This shows the size of the population and its growth by means of a line. 
 * To the right of these two charts is a _world map_ *("% Rural")*. This chart no. 7 shows how many people live in rural areas (black = 100% / white = 0%) by coloring the countries. In addition, a bubble indicates how many people there are as a number. 
-* The chart no. 2 *"Rural Breakdown "* below shows the same data. The inner circle shows the region and the outer circle the country (when hovering over the sections with the mouse, this information is displayed).
+* The chart no. 2 *"Rural Breakdown"* below shows the same data. The inner circle shows the region and the outer circle the country (when hovering over the sections with the mouse, this information is displayed).
 * On the right side there is a _table_ (Chart no. 1) and this shows each country and the size of its population (Metric). 
-* The line chart *"Growth Rate "* (Chart No. 4) also shows the growth of the population, but over a longer period of time than in *"World's Population "*. And it also shows it per country.
-*"World's Pop Growth "* (Chart No. 5) visualizes the same data as Growth Rate, but is divided into regions. 
+* The line chart *"Growth Rate"* (Chart No. 4) also shows the growth of the population, but over a longer period of time than in *"World's Population"*. And it also shows it per country.
+*"World's Pop Growth"* (Chart No. 5) visualizes the same data as Growth Rate, but is divided into regions. 
 * Finally, there is a somewhat more complex Chart No. 6 *"Life Expectancy vs. rural %"*, which shows how high life expectancy is in a country, in which region it is located and what percentage of the population lives in rural areas.
 
 .Dashboard that visualizes World Bank population data with seven interactive charts (No. 1 - 7) plus a filter (No. 8).
@@ -154,7 +154,7 @@ If you want to link several tables to one data source, you need SQL knowledge (s
 Selecting a table will open a new window respectively a new browser tab where you can create a chart.
 There you will find the selected table `wb_health_population` as Datasource.
 
-Directly below, in _Visualization Type_ (Chart-Type) you will find _Table_, a simple bar chart.  
+Directly below, in _Visualization Type_ (Chart-Type) you will find _Table_, which is a simple bar chart.  
 
 First you have to adjust the time span under _Time_, because the data of the table `wb_health_population` starts in 1960 and ends in 2014. 
 We therefore use a _custom_ filter of `2014-01-01` - `2014-12-31`.
@@ -190,8 +190,7 @@ endif::show_solutions[]
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Task 2* +
-_Now that you see the population of each country, we can limit the data to all countries with more than 100 million inhabitants. 
-Try to do this using the filter under Query (you don't need the _Custom SQL_ option for this)._
+_Now that you see the population of each country, we can limit the data to all countries with more than 100 million inhabitants. Try to do this using the filter under Query (you don't need the _Custom SQL_ option for this)._
 
 ifdef::show_solutions[]
 ====
