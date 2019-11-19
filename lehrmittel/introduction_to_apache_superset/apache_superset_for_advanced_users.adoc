@@ -23,5 +23,3 @@ It contains the following topics:
 In the attachment all map charts with all necessary parameters are compiled again.
 
 See also the worksheet "Introduction to Apache Superset".
-
-Translated with www.DeepL.com/Translator
