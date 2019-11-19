@@ -1,0 +1,27 @@
+= Apache Superset for advanced users
+OpenSchoolMaps.ch -- Free Learning Materials on Free Geodata and Maps
+:imagesdir: ../../bilder/
+include::../../snippets/suppress_title_page.adoc[]
+An information sheet for interested individuals.
+
+
+
+## Overview
+
+This fact sheet refers to the release 0.34 of Apache Superset, which was released in September 2019. 
+It contains the following topics:
+
+* Documentation and Feedback
+* Upload data (tables in CSV format)
+* Create a chart
+* Create, edit and publish a dashboard
+* Link one table to another and use the SQL database language.
+* Data types, data type roles, and data type encodings 
+* The visualization process and the Superset maps charts
+* customize charts and dashboards, including tooltips and annotations
+
+In the attachment all map charts with all necessary parameters are compiled again.
+
+See also the worksheet "Introduction to Apache Superset".
+
+Translated with www.DeepL.com/Translator
