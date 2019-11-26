@@ -24,7 +24,7 @@ Für diese Einführung werden keine Programmierkenntnisse vorausgesetzt;
 Grundkenntnisse der Tabellenkalkulation genügen für's Erste. 
 
 Für die Übungen in diesem Arbeitsblatt benötigst du Zugang zu einem Apache Superset-Service (vgl. unten), 
-sowie einen gängigen Webbrowser und eine Internetverbindung. 
+sowie einen gängigen Webbrowser (am besten funktioniert Superset auf Chrome) und eine Internetverbindung. 
 
 Diese Anleitung bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde.
 
@@ -70,7 +70,7 @@ Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Ka
 
 Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 
-* Datasource (Datenquelle): Eine "Source" kann entweder durch die Definition verfügbarer Tabellen und zugehöriger Felder oder durch die Erstellung von SQL-Abfragen und die Definition von Datenquellen aus diesen erstellt werden.
+* Datasource (Datenquelle): Eine "Source" kann entweder durch das Hochladen einer CSV-Datei oder durch die Erstellung von Views mittels SQL-Abfragen erzeugt werden.
 * Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
 * Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
 * Dashboards: Eine interaktive Webseite auf der interaktive Charts präsentiert werden.
@@ -146,7 +146,7 @@ Hierbei kann man auf die Lupe image:einfuehrung_in_apache_superset/lupe.PNG[] kl
 wie z.B. welche Spalten die Tabelle besitzt und welche Datentypen dort gespeichert werden können. 
 Zudem kann man unter _Columns_ einstellen, ob man nach dieser Spalte gruppieren darf ob, sie zeitlich ist oder ob sie filterbar ist.
 
-Um eine Tabelle abzufragen, muss man auf den Namen der Tabelle klicken. 
+Um eine Tabelle abzufragen, muss man unter "Sources" den Menüpunkt "Tables" wählen und dann auf den Namen der Tabelle klicken. 
 In diesem Beispiel ist das `wb_health_population`. 
 Man kann nur eine Tabelle als Quelle auszuwählen. 
 Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse (in weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt wie das geht). 
@@ -157,7 +157,7 @@ Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
 Direkt darunter, bei _Visualization Type_ (Chart-Typ) steht _Table_, also ein einfaches Balken-Diagramm.  
 
 Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 anfangen und im Jahr 2014 aufhören. 
-Wir verwenden deshalb einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
+Da wir in unserem Beispiel nur das Jahr 2014 betrachten wollen, verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
 
 NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn es keine Daten gibt, die Zeitabhängig sind, kann man `No filter` wählen.
 
@@ -166,6 +166,7 @@ NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintip
 
 
 Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst. 
+Dies kannst du tun, indem du auf das Textfeld unter _Metrics_ klickst und dann als Erstes ein _aggregate_ (das sind die Einträge, vor welchen *_AGG_*, und dann die entsprechende Spalte, wählst.
 Die Spalte _Metrics_ muss immer ausgefüllt sein. 
 Sie wird auch bei allen Darstellungen verwendet, um zu bestimmen, wie viel Gewicht diese Zeile hat (bei einem Kreis-Chart wäre das die Grösse des Abschnittes). 
 Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
@@ -216,7 +217,7 @@ _Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar (Hierarchy
 Füge jetzt bei _Hierarchy_ `region` an erster Stelle hinzu.
 Die Reihenfolge ist wichtig für die Darstellung, damit man sieht, in welcher Region 
 das jeweilige Land liegt und wie viel es von dessen Population ausmacht. 
-An dieser Stelle empfiehlt es sich, den zuvor erstellten Filter wieder zu entfernen oder anzupassen, damit man mehr Beispiele hat, bei denen man die Folgen des nächsten Schrittes sehen kann. 
+An dieser Stelle empfiehlt es sich, den in Aufgabe 2 erstellten Filter wieder zu entfernen oder anzupassen, damit man mehr Beispiele hat, bei denen man die Folgen des nächsten Schrittes sehen kann. 
 
 IMPORTANT: Jeder Chart hat seine eigenen Optionen.
 
