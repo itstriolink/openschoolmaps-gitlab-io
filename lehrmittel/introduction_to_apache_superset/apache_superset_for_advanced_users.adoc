@@ -813,4 +813,4 @@ image::einfuehrung_in_apache_superset_fortsetzung/deckgl_grid.png[pdfwidth=75%]
 image::einfuehrung_in_apache_superset_fortsetzung/deckgl_screengrid.png[pdfwidth=75%]
 
 .Visualization Type Deck.gl Multiple Layers, on the right the above charts deck.gl Scatterplot and deck.gl Path merged, on the left the corresponding dialog
-image::introduction_in_apache_superset_continuation/deckgl_multiple_layers.png[pdfwidth=75%]
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_multiple_layers.png[pdfwidth=75%]
