@@ -65,7 +65,7 @@ CSV-Datei hochladen:
 * Auf "Speichern" klicken.
 * Diesen Upload falls nötig wiederholen, beispielsweise mit der CSV-Datei `country_codes.csv` .
 
-Damit bist du mit dem Upload fertig und kannst zum nächsten Kapitel, "Einen Chart erstellen", springen.
+Damit bist du mit dem Upload fertig und kannst zum nächsten Kapitel "Einen Chart erstellen" springen.
 
 Es empfiehlt sich jedoch zu überprüfen, ob die richtigen Datentypen für die entsprechenden Attribute ausgewählt wurden. 
 
