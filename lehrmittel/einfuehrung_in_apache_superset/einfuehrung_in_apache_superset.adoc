@@ -175,8 +175,8 @@ Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt.
 Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten. 
 
 Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen. 
-_Group by_ wird genutzt, um ein Total auf ein bestimmtes Attribut aufzuteilen. Wenn man z.B. die Summe der Erdbevölkerung nach Ländernamen gruppiert,
-wird jedem Land der entsprechende Teil der Erdbevölkerung zugewiesen.
+_Group by_ wird genutzt, um ein Total nach einem bestimmten Attribut aufzuteilen. Wenn man z.B. die Summe der Weltbevölkerung nach Ländernamen gruppiert,
+erhält man die Bevölkerung pro land.
 Wähle darum hier das Attribut `country_name` aus (das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist). 
 
 Speichere nun diesen Chart als dein erstes Ergebnis in Apache Superset, z.B. mit dem Namen "Chart 1". 
@@ -215,7 +215,7 @@ Um das Ganze jetzt noch schöner zu machen, kannst du dir unter _Datasource & Ch
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 3* +
-_Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar (Hierarchy ist ähnlich zu behandeln wie Group by bei der Tabellen-Ansicht)._
+_Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar (Hierarchy, unter Query, ist ähnlich zu behandeln wie Group by bei der Tabellen-Ansicht)._
 
 Füge jetzt bei _Hierarchy_ `region` an erster Stelle hinzu.
 Die Reihenfolge ist wichtig für die Darstellung, damit man sieht, in welcher Region 
@@ -262,7 +262,7 @@ Der beschreibende Text wird direkt hinter der Prozentzahl angezeigt.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 4* +
-_Stelle das Bevölkerungswachstum von 2000 bis 2014 mittels der Big Number with Trendline dar._
+_Stelle das Bevölkerungswachstum von 2000 bis 2014 mittels der Big Number with Trendline dar. Bei Metric soll weiterhin die Summe der Population stehen._
 
 Speichere nun deinen Chart unter einem passenden Namen. Du wirst ihn später wieder brauchen.
 
@@ -282,7 +282,7 @@ Da Chart Nr. 3 uns aber nur das durchschnittlichen Wachstum anzeigt, wäre es no
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 5* +
-_Jetzt, da du schon das Wachstum der Population dargestellt hast, sollte es dir nicht schwer fallen, die Wachstumsrate pro Land mittels eines Line Charts darzustellen. Setze hierbei noch ein Series limit, um die Anzahl Länder, die angezeigt werden zu beschränken und erhöhe die Zeitspanne auf `1960-2014`. Die Zeitspanne kannst du eintippen oder den Filter auf `No filter` setzen._
+_Jetzt, da du schon das Wachstum der Population dargestellt hast, sollte es dir nicht schwer fallen, die Wachstumsrate pro Land mittels eines Line Charts darzustellen. Setze hierbei noch ein Series limit (z.B. 25), um die Anzahl Länder, die angezeigt werden zu beschränken und erhöhe die Zeitspanne auf `1960-2014`. Die Zeitspanne kannst du eintippen oder den Filter auf `No filter` setzen._
 
 Speichere auch diesen Chart wieder ab.
 
@@ -335,6 +335,9 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 7* +
 _Wähle die korrekten Spalten für X Axis, Y Axis und Bubble size._
 
+NOTE: Falls die Achsenbeschriftung nicht korrekt sein sollte, kannst du links auf den Tab _Customize_ gehen und bei _X Axis Format_ oder _Y Axis Format_ "Adaptive Formatting" auswählen.
+Zusätzlich soll noch das Series Limit entfernt werden, damit alle Länder angezeigt werden.
+
 Speichere auch diesen Chart unter einem passenden Namen.
 
 ifdef::show_solutions[]
@@ -365,7 +368,7 @@ Es ist eine _World Map_. Hier die Optionen dazu:
 * Die Zeitspanne musst du hierfür erneut zu `2014-01-01` bis `2014-12-31` abändern. 
 * Unter _Country Control_ wirst du den `Country_code` auswählen müssen und unter _Country Field Type_ den `code ISO 3166-1 alpha-3 (cca3)`. _Country Control_ wird verwendet, um festzulegen in welchem Land sich etwas befindet mittels einer Abkürzung und _Country Field Type_ interpretiert diese Abkürzung. 
 * Unter _Metric for color_ kannst du `SP_RUR_TOTL_ZS` wählen, um die Farbe abhängig vom Prozentsatz von Leuten, die auf dem Land leben, zu machen.
-* Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt wie viele Leute auf dem Land leben.
+* Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt wie viele Leute auf dem Land leben (Damit die Blasen angezeigt werden, muss bei _Show Bubbles_ ein Häkchen gesetzt werden).
 
 Speichere auch diesen Chart unter einem passenden Namen.
 
@@ -380,11 +383,13 @@ Diesen Filter muss man natürlich auch abspeichern, um ihn später benutzen zu k
 
 == Charts zu einem Dashboard anordnen
 
-Unter image:einfuehrung_in_apache_superset/dashboard.PNG[] kannst du nun dein eigenes Dashboard erstellen, bei dem dann all deine Charts ausgestellt werden können. 
+Unter image:einfuehrung_in_apache_superset/dashboard.PNG[] kannst du nun dein eigenes Dashboard erstellen, indem du oben rechts auf das _+_ drückst.
+In diesem Dashboard können nun all deine Charts ausgestellt werden.
 
 Beim Erstellen eines Dashboards kann man einiges einstellen, jedoch reicht es oft, nur das Feld _Title_ auszufüllen.
 
-Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen (die erste Komponente musst du nach oben zum Rand ziehen). 
+Um mit dem Editieren zu beginnen, musst du oben rechts auf _Edit dashboard_ klicken.
+Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen (die erste Komponente musst du nach oben zum Rand ziehen).
 Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleicht anzeigt wie/wo die Komponente platziert wird. 
 Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst. 
 
