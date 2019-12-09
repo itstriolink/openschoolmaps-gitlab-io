@@ -117,7 +117,7 @@ Dieses Kapitel zeigt, wie man ein Dashboard aus einem Chart erstellen, bearbeite
 
 ### Ein Dashboard erstellen
 
-Hat man einen Chart erstellt -- beispielsweise der Chart "CIA World Factbook Table" im Kapitel "Upload von Daten" (siehe auch das Arbeitsblatt "Einführung in Apache Superset") -- so will man typischerweie den Chart zu einem Dashboard zusammenstellen und publizieren. 
+Hat man einen Chart erstellt -- beispielsweise den Chart "CIA World Factbook Table" im Kapitel "Upload von Daten" (siehe auch das Arbeitsblatt "Einführung in Apache Superset") -- so will man typischerweise den Chart zu einem Dashboard hinzufügen und publizieren. 
 
 Neues Dashboard erstellen:
 
@@ -276,7 +276,6 @@ Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beis
 NOTE: Wer SQL näher kennen lernen will, für den gibt es eine Fülle von Quellen. 
 Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
 Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
-Eine erste Anfrage kostet nichts.
 
 Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität eines Landes vergleicht und Durchschnittswerte berechnet:
 
@@ -342,13 +341,13 @@ Während des Sommerhalbjahrs in Europa/Schweiz beträgt die Differenz zur UTC ef
 
 Die oben erwähnten Basis-Datentypen genügen alleine nicht den vielfältigen Anforderungen von Daten. 
 Wie die zeitlichen (en: temporal) sind auch die raumbezogenen (en: spatial) Daten interessant für die Analyse und Visualisierung. 
-Raumbezogene/räumliche Datentpen - oft auch Geodaten genannt - haben besondere Eigenschaften.
+Raumbezogene/räumliche Datentypen - oft auch Geodaten genannt - haben besondere Eigenschaften.
 Superset verlangt darum mit Blick auf bestimmte Charts zusätzlich die Angabe einer *"Datentyp-Rolle"* (en: Data type role) wie beispielsweise "Point" (de: Punkt).
 Für die Datenbank sind diese Daten weiterhin beispielsweise vom Basis-Datentyp Text, doch Superset kann diese dann speziell interpretieren.
 Indem der Benutzer die Datentyp-Rolle angibt, ist es Superset möglich, beispielsweise Daten als Karten (Map Charts) zu visualisieren.
 
 Die Geometrie ist ein bekannter raumbezogener Datentyp.
-Die vier wichtigsten *Geometrie-Datentypen* heissen genormt *Point* (de: Punkt; Synonyme Koordinate, Punktkoordinate, Ort, Lage), *LineString* (de: Linie, Synonyme Line, Polyline, Way) und *Polygon* (de: Fläche, Synonym: Area) sowie "Volumen" (en: Volume).
+Die vier wichtigsten *Geometrie-Datentypen* heissen genormt *Point* (de: Punkt; Synonyme Koordinate, Punktkoordinate, Ort, Lage), *LineString* (de: Linie; Synonyme Line, Polyline, Way) und *Polygon* (de: Fläche; Synonym: Area) sowie "Volumen" (en: Volume).
 Ein Punkt bestimmt die Position/Lage eines Objekts und besteht aus einem Paar von *Koordinaten*.  
 Für die internationale Angabe von Positionen auf der Erde -- beispielsweise mit dem GPS -- werden *Längengrade und Breitengrade* verwendet (en: Longitude/Latitude, abgekürzt: Lon/Lat). 
 
