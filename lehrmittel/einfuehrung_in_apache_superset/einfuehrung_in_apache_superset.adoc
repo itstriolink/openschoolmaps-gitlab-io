@@ -168,7 +168,7 @@ NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintip
 
 
 Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst. 
-Dies kannst du tun, indem du auf das Textfeld unter _Metrics_ klickst und dann als Erstes ein _aggregate_ (das sind die Einträge, vor welchen *_AGG_*, und dann die entsprechende Spalte, wählst.
+Dies kannst du tun, indem du auf das Textfeld unter _Metrics_ klickst und dann als Erstes ein _aggregate_ (das sind die Einträge, vor welchen *_AGG_* steht), und dann die entsprechende Spalte, wählst.
 Die Spalte _Metrics_ muss immer ausgefüllt sein. 
 Sie wird auch bei allen Darstellungen verwendet, um zu bestimmen, wie viel Gewicht diese Zeile hat (bei einem Kreis-Chart wäre das die Grösse des Abschnittes). 
 Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
