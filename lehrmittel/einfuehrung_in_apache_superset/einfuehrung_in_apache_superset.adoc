@@ -390,7 +390,8 @@ In diesem Dashboard können nun all deine Charts ausgestellt werden.
 Beim Erstellen eines Dashboards kann man einiges einstellen, jedoch reicht es oft, nur das Feld _Title_ auszufüllen.
 
 Um mit dem Editieren zu beginnen, musst du oben rechts auf _Edit dashboard_ klicken.
-Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen (die erste Komponente musst du nach oben zum Rand ziehen).
+Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen.
+(Die erste Komponente musst du nach oben zum Rand ziehen.)
 Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleicht anzeigt wie/wo die Komponente platziert wird. 
 Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst. 
 
