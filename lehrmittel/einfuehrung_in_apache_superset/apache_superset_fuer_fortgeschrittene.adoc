@@ -265,7 +265,7 @@ Falls bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausg
 Die Bevölkerungsdichte ist wie gesagt das Verhältnis zwischen Population und Fläche, also ein Attributs-Merkmal 'Ratio' (Verhältniszahl) pro Geometrie-Datentyp 'Area'. 
 Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte. In Superset sind das die _World Map_ und die _Country Map_. 
 
-NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- kann die Dauer erheblich erhöhen bis ein Chart angezeigt wird. 
+NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- können die Dauer, bis ein Chart angezeigt wird, erheblich erhöhen. 
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
 
 
