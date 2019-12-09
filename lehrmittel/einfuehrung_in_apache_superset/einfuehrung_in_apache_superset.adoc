@@ -70,7 +70,7 @@ Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Ka
 
 Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 
-* Datasource (Datenquelle): Eine "Source" kann entweder durch das Hochladen einer CSV-Datei oder durch die Erstellung von Views mittels SQL-Abfragen erzeugt werden.
+* Datasource (Datenquelle): Eine "Source" kann zum Beispiel durch das Hochladen einer CSV-Datei oder durch die Erstellung von Views mittels SQL-Abfragen erzeugt werden.
 * Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
 * Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
 * Dashboards: Eine interaktive Webseite auf der interaktive Charts präsentiert werden.
