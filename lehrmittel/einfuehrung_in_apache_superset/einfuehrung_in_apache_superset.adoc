@@ -215,7 +215,7 @@ Um das Ganze jetzt noch schöner zu machen, kannst du dir unter _Datasource & Ch
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 3* +
-_Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar (Hierarchy, unter Query, ist ähnlich zu behandeln wie Group by bei der Tabellen-Ansicht)._
+_Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar. "Hierarchy" (unter "Query") ist ähnlich zu behandeln wie "Group by" bei der Tabellen-Ansicht._
 
 Füge jetzt bei _Hierarchy_ `region` an erster Stelle hinzu.
 Die Reihenfolge ist wichtig für die Darstellung, damit man sieht, in welcher Region 
