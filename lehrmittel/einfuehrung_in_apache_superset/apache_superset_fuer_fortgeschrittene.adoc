@@ -59,7 +59,10 @@ Der von MS Excel bevorzugte Delimiter ist das Semikolon.
 CSV-Datei hochladen:
 
 * Im Superset im Menü _Sources > Upload a CSV_ auswählen. Es erscheint das Formular "CSV to Database configuration".
-* Im Formular "CSV to Database configuration" den Tabellennamen auswählen, z.B. `factbook_data` (der Einfachheit halber wird empfohlen, keine Grossbuchstaben in Tabellennamen zu verwenden). Dann die CSV-Datei `cia_world_factbook_2019.csv` auswählen, sowie falls nötig die gewünschte Ziel-Datenbank wählen, z.B. `superset-extra-data` (Datenbank muss durch den Superset-Administrator vorbereitet sein).
+* Im Formular "CSV to Database configuration" den Tabellennamen auswählen, z.B. `factbook_data`.
+  (Der Einfachheit halber wird empfohlen, keine Grossbuchstaben in Tabellennamen zu verwenden.)
+  Dann die CSV-Datei `cia_world_factbook_2019.csv` auswählen, sowie falls nötig die gewünschte Ziel-Datenbank wählen, z.B. `superset-extra-data`.
+  (Datenbank muss durch den Superset-Administrator vorbereitet sein.)
 * Falls nötig, den Delimiter anpassen.
 * Unter "Table Exists" auswählen, was Superset tun soll, wenn schon eine Tabelle mit dem selben Namen existiert.
 * Auf "Speichern" klicken.
