@@ -176,7 +176,7 @@ Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre
 
 Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen. 
 _Group by_ wird genutzt, um ein Total nach einem bestimmten Attribut aufzuteilen. Wenn man z.B. die Summe der Weltbevölkerung nach Ländernamen gruppiert,
-erhält man die Bevölkerung pro land.
+erhält man die Bevölkerung pro Land.
 Wähle darum hier das Attribut `country_name` aus (das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist). 
 
 Speichere nun diesen Chart als dein erstes Ergebnis in Apache Superset, z.B. mit dem Namen "Chart 1". 
