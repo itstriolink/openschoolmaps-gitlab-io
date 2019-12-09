@@ -54,12 +54,17 @@ Die CSV-Dateien `cia_world_factbook_2019.csv` und `country_codes.csv` sollten nu
 
 NOTE: MS Excel verwaltet normalerweise Dateien im .xlsx-Format. 
 Diese lassen sich als CSV UTF-8 exportieren. 
-Der von MS Excel bevorzugte Delimiter ist das Komma. 
+Der von MS Excel bevorzugte Delimiter ist das Semikolon. 
 
 CSV-Datei hochladen:
 
 * Im Superset im Menü _Sources > Upload a CSV_ auswählen. Es erscheint das Formular "CSV to Database configuration".
-* Im Formular "CSV to Database configuration" den Tabellennamen auswählen, z.B. `factbook_data`. Dann die CSV-Datei `cia_world_factbook_2019.csv` auswählen, sowie falls nötig die gewünschte Ziel-Datenbank wählen, z.B. `superset-extra-data` (Datenbank muss durch den Superset-Administrator vorbereitet sein).
+* Im Formular "CSV to Database configuration" den Tabellennamen auswählen, z.B. `factbook_data`.
+  (Der Einfachheit halber wird empfohlen, keine Grossbuchstaben in Tabellennamen zu verwenden.)
+  Dann die CSV-Datei `cia_world_factbook_2019.csv` auswählen, sowie falls nötig die gewünschte Ziel-Datenbank wählen, z.B. `superset-extra-data`.
+  (Datenbank muss durch den Superset-Administrator vorbereitet sein.)
+* Falls nötig, den Delimiter anpassen.
+* Unter "Table Exists" auswählen, was Superset tun soll, wenn schon eine Tabelle mit dem selben Namen existiert.
 * Auf "Speichern" klicken.
 * Diesen Upload falls nötig wiederholen, beispielsweise mit der CSV-Datei `country_codes.csv` .
 
@@ -233,8 +238,8 @@ CREATE VIEW country_population_density AS
             THEN 0
             ELSE (fb.population / fb.area * 100)
         END AS density
-    FROM country_codes AS cc
-    JOIN factbook_data AS fb
+    FROM "country_codes" AS cc
+    JOIN "factbook_data" AS fb
     ON cc.country_name = fb.country_name
 ;
 COMMIT;
@@ -263,7 +268,7 @@ Falls bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausg
 Die Bevölkerungsdichte ist wie gesagt das Verhältnis zwischen Population und Fläche, also ein Attributs-Merkmal 'Ratio' (Verhältniszahl) pro Geometrie-Datentyp 'Area'. 
 Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte. In Superset sind das die _World Map_ und die _Country Map_. 
 
-NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
+NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- können die Dauer, bis ein Chart angezeigt wird, erheblich erhöhen. 
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
 
 
