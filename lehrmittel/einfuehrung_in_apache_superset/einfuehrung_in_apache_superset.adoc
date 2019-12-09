@@ -336,7 +336,7 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 _Wähle die korrekten Spalten für X Axis, Y Axis und Bubble size._
 
 NOTE: Falls die Achsenbeschriftung nicht korrekt sein sollte, kannst du links auf den Tab _Customize_ gehen und bei _X Axis Format_ oder _Y Axis Format_ "Adaptive Formatting" auswählen.
-Zusätzlich soll noch das Series Limit entfernt werden, damit alle Länder angezeigt werden.
+Zusätzlich soll noch das Series limit entfernt werden, damit alle Länder angezeigt werden.
 
 Speichere auch diesen Chart unter einem passenden Namen.
 
