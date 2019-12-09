@@ -368,7 +368,8 @@ Es ist eine _World Map_. Hier die Optionen dazu:
 * Die Zeitspanne musst du hierfür erneut zu `2014-01-01` bis `2014-12-31` abändern. 
 * Unter _Country Control_ wirst du den `Country_code` auswählen müssen und unter _Country Field Type_ den `code ISO 3166-1 alpha-3 (cca3)`. _Country Control_ wird verwendet, um festzulegen in welchem Land sich etwas befindet mittels einer Abkürzung und _Country Field Type_ interpretiert diese Abkürzung. 
 * Unter _Metric for color_ kannst du `SP_RUR_TOTL_ZS` wählen, um die Farbe abhängig vom Prozentsatz von Leuten, die auf dem Land leben, zu machen.
-* Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt wie viele Leute auf dem Land leben (Damit die Blasen angezeigt werden, muss bei _Show Bubbles_ ein Häkchen gesetzt werden).
+* Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt, wie viele Leute auf dem Land leben.
+  (Damit die Blasen angezeigt werden, muss bei _Show Bubbles_ ein Häkchen gesetzt werden.)
 
 Speichere auch diesen Chart unter einem passenden Namen.
 
