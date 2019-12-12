@@ -56,7 +56,10 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
   {lehrmittel-url}/umap/02_online-karte_erstellen.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt]
 
 .Apache Superset das Datenvisualisierungs- und Publikations-Werkzeug:
-* Einführung in Apache Superset:
+* Einführung in Apache Superset I (ein Chart):
+  {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt] |
+  {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart_solutions.pdf?job=PDFs[{pdf-icon}{nnbsp}Lösungen]
+* Einführung in Apache Superset II (7 Charts):
   {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt] |
   {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts_solutions.pdf?job=PDFs[{pdf-icon}{nnbsp}Lösungen]
 * Apache Superset für Fortgeschrittene:
