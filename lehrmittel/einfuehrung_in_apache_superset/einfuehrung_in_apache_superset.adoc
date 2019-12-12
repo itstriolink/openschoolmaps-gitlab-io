@@ -24,7 +24,7 @@ Für diese Einführung werden keine Programmierkenntnisse vorausgesetzt;
 Grundkenntnisse der Tabellenkalkulation genügen für's Erste. 
 
 Für die Übungen in diesem Arbeitsblatt benötigst du Zugang zu einem Apache Superset-Service (vgl. unten), 
-sowie einen gängigen Webbrowser und eine Internetverbindung. 
+sowie einen gängigen Webbrowser (am besten funktioniert Superset auf Chrome) und eine Internetverbindung. 
 
 Diese Anleitung bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde.
 
@@ -70,7 +70,7 @@ Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Ka
 
 Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 
-* Datasource (Datenquelle): Eine "Source" kann entweder durch die Definition verfügbarer Tabellen und zugehöriger Felder oder durch die Erstellung von SQL-Abfragen und die Definition von Datenquellen aus diesen erstellt werden.
+* Datasource (Datenquelle): Eine "Source" kann zum Beispiel durch das Hochladen einer CSV-Datei oder durch die Erstellung von Views mittels SQL-Abfragen erzeugt werden.
 * Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
 * Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
 * Dashboards: Eine interaktive Webseite auf der interaktive Charts präsentiert werden.
@@ -134,6 +134,8 @@ Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in der Abbildung 1
 * *"World's Pop Growth"* (Chart Nr. 5) visualisiert dieselben Daten wie Growth Rate, wird jedoch in Regionen aufgeteilt. 
 * Zuletzt gibt es noch einen etwas komplexeren Chart Nr. 6 *"Life Expectancy vs. rural %"*, der darstellt, wie hoch die Lebenserwartung in einem Land ist, in welcher Region es sich befindet und wie viel Prozent von der Bevölkerung ländlich lebt.
 
+NOTE: Wenn die Charts während der Erstellung nicht richtig angezeigt werden, kann das zum Teil behoben werden, indem man die Website neu lädt (F5).
+
 .Dashboard, das Daten der Weltbank zur Population visualisiert und zwar mit sieben interaktiven Charts (Nr. 1 - 7) plus einem Filter (Nr. 8).
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
@@ -146,7 +148,7 @@ Hierbei kann man auf die Lupe image:einfuehrung_in_apache_superset/lupe.PNG[] kl
 wie z.B. welche Spalten die Tabelle besitzt und welche Datentypen dort gespeichert werden können. 
 Zudem kann man unter _Columns_ einstellen, ob man nach dieser Spalte gruppieren darf ob, sie zeitlich ist oder ob sie filterbar ist.
 
-Um eine Tabelle abzufragen, muss man auf den Namen der Tabelle klicken. 
+Um eine Tabelle abzufragen, muss man unter "Sources" den Menüpunkt "Tables" wählen und dann auf den Namen der Tabelle klicken. 
 In diesem Beispiel ist das `wb_health_population`. 
 Man kann nur eine Tabelle als Quelle auszuwählen. 
 Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse (in weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt wie das geht). 
@@ -157,7 +159,7 @@ Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
 Direkt darunter, bei _Visualization Type_ (Chart-Typ) steht _Table_, also ein einfaches Balken-Diagramm.  
 
 Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 anfangen und im Jahr 2014 aufhören. 
-Wir verwenden deshalb einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
+Da wir in unserem Beispiel nur das Jahr 2014 betrachten wollen, verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
 
 NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn es keine Daten gibt, die Zeitabhängig sind, kann man `No filter` wählen.
 
@@ -166,13 +168,15 @@ NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintip
 
 
 Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst. 
+Dies kannst du tun, indem du auf das Textfeld unter _Metrics_ klickst und dann als Erstes ein _aggregate_ (das sind die Einträge, vor welchen *_AGG_* steht), und dann die entsprechende Spalte, wählst.
 Die Spalte _Metrics_ muss immer ausgefüllt sein. 
 Sie wird auch bei allen Darstellungen verwendet, um zu bestimmen, wie viel Gewicht diese Zeile hat (bei einem Kreis-Chart wäre das die Grösse des Abschnittes). 
 Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
 Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten. 
 
 Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen. 
-_Group by_ wird genutzt um von einem Total auf einen Betrag pro ausgewähltem Attribut zu kommen z.B. die Population pro Land.
+_Group by_ wird genutzt, um ein Total nach einem bestimmten Attribut aufzuteilen. Wenn man z.B. die Summe der Weltbevölkerung nach Ländernamen gruppiert,
+erhält man die Bevölkerung pro Land.
 Wähle darum hier das Attribut `country_name` aus (das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist). 
 
 Speichere nun diesen Chart als dein erstes Ergebnis in Apache Superset, z.B. mit dem Namen "Chart 1". 
@@ -211,12 +215,12 @@ Um das Ganze jetzt noch schöner zu machen, kannst du dir unter _Datasource & Ch
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 3* +
-_Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar (Hierarchy ist ähnlich zu behandeln wie Group by bei der Tabellen-Ansicht)._
+_Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar. "Hierarchy" (unter "Query") ist ähnlich zu behandeln wie "Group by" bei der Tabellen-Ansicht._
 
 Füge jetzt bei _Hierarchy_ `region` an erster Stelle hinzu.
 Die Reihenfolge ist wichtig für die Darstellung, damit man sieht, in welcher Region 
 das jeweilige Land liegt und wie viel es von dessen Population ausmacht. 
-An dieser Stelle empfiehlt es sich, den zuvor erstellten Filter wieder zu entfernen oder anzupassen, damit man mehr Beispiele hat, bei denen man die Folgen des nächsten Schrittes sehen kann. 
+An dieser Stelle empfiehlt es sich, den in Aufgabe 2 erstellten Filter wieder zu entfernen oder anzupassen, damit man mehr Beispiele hat, bei denen man die Folgen des nächsten Schrittes sehen kann. 
 
 IMPORTANT: Jeder Chart hat seine eigenen Optionen.
 
@@ -258,7 +262,7 @@ Der beschreibende Text wird direkt hinter der Prozentzahl angezeigt.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 4* +
-_Stelle das Bevölkerungswachstum von 2000 bis 2014 mittels der Big Number with Trendline dar._
+_Stelle das Bevölkerungswachstum von 2000 bis 2014 mittels der Big Number with Trendline dar. Bei Metric soll weiterhin die Summe der Population stehen._
 
 Speichere nun deinen Chart unter einem passenden Namen. Du wirst ihn später wieder brauchen.
 
@@ -278,7 +282,7 @@ Da Chart Nr. 3 uns aber nur das durchschnittlichen Wachstum anzeigt, wäre es no
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 5* +
-_Jetzt, da du schon das Wachstum der Population dargestellt hast, sollte es dir nicht schwer fallen, die Wachstumsrate pro Land mittels eines Line Charts darzustellen. Setze hierbei noch ein Series limit, um die Anzahl Länder, die angezeigt werden zu beschränken und erhöhe die Zeitspanne auf `1960-2014`. Die Zeitspanne kannst du eintippen oder den Filter auf `No filter` setzen._
+_Jetzt, da du schon das Wachstum der Population dargestellt hast, sollte es dir nicht schwer fallen, die Wachstumsrate pro Land mittels eines Line Charts darzustellen. Setze hierbei noch ein Series limit (z.B. 25), um die Anzahl Länder, die angezeigt werden zu beschränken und erhöhe die Zeitspanne auf `1960-2014`. Die Zeitspanne kannst du eintippen oder den Filter auf `No filter` setzen._
 
 Speichere auch diesen Chart wieder ab.
 
@@ -331,6 +335,9 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 7* +
 _Wähle die korrekten Spalten für X Axis, Y Axis und Bubble size._
 
+NOTE: Falls die Achsenbeschriftung nicht korrekt sein sollte, kannst du links auf den Tab _Customize_ gehen und bei _X Axis Format_ oder _Y Axis Format_ "Adaptive Formatting" auswählen.
+Zusätzlich soll noch das Series limit entfernt werden, damit alle Länder angezeigt werden.
+
 Speichere auch diesen Chart unter einem passenden Namen.
 
 ifdef::show_solutions[]
@@ -361,7 +368,8 @@ Es ist eine _World Map_. Hier die Optionen dazu:
 * Die Zeitspanne musst du hierfür erneut zu `2014-01-01` bis `2014-12-31` abändern. 
 * Unter _Country Control_ wirst du den `Country_code` auswählen müssen und unter _Country Field Type_ den `code ISO 3166-1 alpha-3 (cca3)`. _Country Control_ wird verwendet, um festzulegen in welchem Land sich etwas befindet mittels einer Abkürzung und _Country Field Type_ interpretiert diese Abkürzung. 
 * Unter _Metric for color_ kannst du `SP_RUR_TOTL_ZS` wählen, um die Farbe abhängig vom Prozentsatz von Leuten, die auf dem Land leben, zu machen.
-* Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt wie viele Leute auf dem Land leben.
+* Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt, wie viele Leute auf dem Land leben.
+  (Damit die Blasen angezeigt werden, muss bei _Show Bubbles_ ein Häkchen gesetzt werden.)
 
 Speichere auch diesen Chart unter einem passenden Namen.
 
@@ -376,11 +384,14 @@ Diesen Filter muss man natürlich auch abspeichern, um ihn später benutzen zu k
 
 == Charts zu einem Dashboard anordnen
 
-Unter image:einfuehrung_in_apache_superset/dashboard.PNG[] kannst du nun dein eigenes Dashboard erstellen, bei dem dann all deine Charts ausgestellt werden können. 
+Unter image:einfuehrung_in_apache_superset/dashboard.PNG[] kannst du nun dein eigenes Dashboard erstellen, indem du oben rechts auf das _+_ drückst.
+In diesem Dashboard können nun all deine Charts ausgestellt werden.
 
 Beim Erstellen eines Dashboards kann man einiges einstellen, jedoch reicht es oft, nur das Feld _Title_ auszufüllen.
 
-Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen (die erste Komponente musst du nach oben zum Rand ziehen). 
+Um mit dem Editieren zu beginnen, musst du oben rechts auf _Edit dashboard_ klicken.
+Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen.
+(Die erste Komponente musst du nach oben zum Rand ziehen.)
 Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleicht anzeigt wie/wo die Komponente platziert wird. 
 Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst. 
 
