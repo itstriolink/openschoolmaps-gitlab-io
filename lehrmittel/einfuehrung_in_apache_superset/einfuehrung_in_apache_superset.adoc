@@ -462,6 +462,8 @@ image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
 image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=75%]
 
 
+== ANHANG: Dashboards Reproduzieren
+
 .1
 image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=50%]
 
@@ -485,7 +487,30 @@ image:einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=50%]
 image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=50%]
 
 
+Wenn man ein Dashboard reproduzieren, oder eine Idee vom Papier auf Superset bringen will, kann es Sinn machen, das Dashboard erst Aufzuteilen, damit das Setzen von
+Columns und Rows nicht unnötig kompliziert wird. Hier wird eine Art erläutert, wie man das machen kann. Es ist nicht die effizienteste Art (manche Rows/Columns könnte man
+sich sparen), aber für die meisten Anwendungen sollte sie genügen:
 
+Schritt 1:
+Man sucht sich auf dem Dashboard alle Linien, mit welchen man das Dashboard aufteilen kann, ohne dass diese Linien durch einen Chart gehen. Dabei dürfen sich diese Linien nicht
+kreuzen. D.h. im ersten Schritt sind nur entweder Horizontale oder Vertikale linien erlaubt. In unserem Beispiel (*Ausgangslage*) gibt es nur eine Möglichkeit
+dies zu tun (Siehe *Ebene0*).
+Dieser "Schnitt" ergibt nun zwei "Unterdashboards". Die rote Zahl in den Bildern gibt dabei die "Ebene" bzw. den Verschachtelungsgrad des Elements an (Ein Element kann in
+diesem Fall entweder eine Row, eine Column oder ein Chart sein). Nach dem ersten Schnitt befinden sich beide Unterdashboards auf "Ebene 0", was heisst, dass sie von keinem
+anderen Element umgeben sind (keine Verschachtelung).
+
+Diesen Schritt kann man nun wiederholen, bis alle Charts voneinander getrennt sind (*Ebene1 - Ebene4*). Wenn die Aufteilung ähnlich aussieht wie in *EBENE4* kann man mit
+Schritt 2 fortfahren.
+
+Schritt 2:
+Nun kann man mit den Diagrammen die Verschachtelung einfach rekonstruieren. Aus *Ebene0* kann man schliessen, dass man als erstes zwei Rows braucht, die übereinander liegen
+(Siehe *Aufteilung1*). Als nächstes braucht man in der oberen Row zwei Columns (Siehe *Aufteilung2*). In der Unteren Row braucht man die zwei Columns nicht, da alle Charts
+in dieser Row auf einer Gerade liegen und somit platz haben.
+Diesen Schritt wiederholt man, für jede Ebene im Diagramm. Wenn man dies gemacht hat, kann man zu Schritt 3 fortfahren.
+
+Schritt 3:
+Nun, da man die Verschachtelung gemacht hat, kann man einfach die Charts an ihre Plätze ziehen. Falls es irgendwo keinen Platz mehr für einen Chart hat, kann man versuchen,
+einen anderen Chart, der sich in derselben Row / Column befindet, kleiner zu machen und den Chart nochmals rein zu ziehen.
 
 
 
