@@ -461,9 +461,28 @@ image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
 .Visualization Type: Bubble Chart (Entspricht Blasendiagramm in Excel) links am Beispiel der Lebenserwartung vs. den Anteil der ländlich lebenden Bevölkerung pro Land, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=75%]
 
-.Hello: Y no work?
+
+.1
 image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=50%]
 
+.2
+image:einfuehrung_in_apache_superset/Ebene0.PNG[pdfwidth=50%]
+image:einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=50%]
+
+.3
+image:einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=50%]
+image:einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=50%]
+
+.4
+image:einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=50%]
+image:einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=50%]
+
+.5
+image:einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=50%]
+image:einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=50%]
+
+.6
+image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=50%]
 
 
 
