@@ -502,6 +502,9 @@ anderen Element umgeben sind (keine Verschachtelung).
 Diesen Schritt kann man nun wiederholen, bis alle Charts voneinander getrennt sind (*Ebene1 - Ebene4*). Wenn die Aufteilung ähnlich aussieht wie in *EBENE4* kann man mit
 Schritt 2 fortfahren.
 
+NOTE: In zwei Aufeinanderfolgenden Ausführungen von Schritt 1 sollten die linien immer Senkrecht zueinander stehen. Wenn man in zwei aufeinanderfolgenden Ausführungen
+parallele linien bekommt, hätte man die zweite Ausführung zusammen mit der Ersten machen können.
+
 Schritt 2:
 Nun kann man mit den Diagrammen die Verschachtelung einfach rekonstruieren. Aus *Ebene0* kann man schliessen, dass man als erstes zwei Rows braucht, die übereinander liegen
 (Siehe *Aufteilung1*). Als nächstes braucht man in der oberen Row zwei Columns (Siehe *Aufteilung2*). In der Unteren Row braucht man die zwei Columns nicht, da alle Charts
