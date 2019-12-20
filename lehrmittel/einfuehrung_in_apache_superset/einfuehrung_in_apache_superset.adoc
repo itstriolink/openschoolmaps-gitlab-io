@@ -504,7 +504,7 @@ a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=69%]
 
 Wenn man ein Dashboard reproduzieren, oder eine Idee vom Papier auf Superset bringen will, kann es Sinn machen, das Dashboard erst aufzuteilen, damit man beim Setzen der Rows
 und Columns nicht den Überblick verliert. Hier wird eine Art erläutert, wie man das machen kann. Es ist nicht die effizienteste Art (manche Rows/Columns könnte man
-sich sparen), dafür ist sie einfach und für die meisten Anwendungen sollte sie genügen:
+sich sparen), dafür ist sie einfach und sollte für die meisten Anwendungen genügen:
 
 === Schritt 1:
 Man sucht sich auf dem Dashboard alle Linien, welche das Dashboard teilen, ohne dass diese Linien durch einen Chart gehen. Dabei dürfen sich diese Linien nicht
