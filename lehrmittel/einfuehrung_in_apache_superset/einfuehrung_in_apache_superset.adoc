@@ -66,13 +66,15 @@ und ist kostenpflichtig (Teilnehmende von Weiterbildungskursen des Geometa Lab H
 
 == Konzepte und Begriffe
 
-Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Kapitel) siehst du das Menü oben und unter anderem die Menüpunkte _Sources_, _Charts_ und _Dashboards_.
+Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Kapitel) siehst du das Menü oben und unter anderem die Menüpunkte _Sources_, 
+_Charts_ und _Dashboards_.
 
 Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 
 * Datasource (Datenquelle): Eine "Source" kann zum Beispiel durch das Hochladen einer CSV-Datei oder durch die Erstellung von Views mittels SQL-Abfragen erzeugt werden.
 * Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
-* Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
+* Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon
+interaktive Webkarten ("Map Charts") sind.
 * Dashboards: Eine interaktive Webseite auf der interaktive Charts präsentiert werden.
 * Metrics: "Metrics" (manchmal auch "Measurements" genannt) sind numerische Kennzahlen. Sie werden v.a. in den Charts erwähnt und verlangt.
 * Records: Datenquellen und Charts sind alles Programmierelemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
@@ -89,7 +91,8 @@ Wenn nötig, müssen die Daten mit Datenbanksystemen (SQL), Tabellenkalkulations
 (siehe u.a. https://openschoolmaps.ch/[OpenSchoolMaps] > "Einführung in QGIS 3 und in Geoinformationssysteme (GIS)"). 
 Hilfreich, um Daten zu bereinigen ("Data Wrangling"), kann hierbei auch z.B. http://openrefine.org/[OpenRefine] sein.
 
-Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, Stand ca. 2017).
+Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], 
+Lizenz CC BY-4.0, Stand ca. 2017).
 Die Daten beschreiben die Population, urban/rural (Lebensraum) und die Lebenserwartung pro Land bzw. pro Region über die Jahre 1960 bis 2014.
 
 In diesem Arbeitsblatt wird nur eine Tabelle verwendet, die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Population").
@@ -121,7 +124,8 @@ image::einfuehrung_in_apache_superset/daten_schweiz.PNG[, 860, 549]
 
 Am Ende dieser Anleitung wirst du sieben Charts erstellt haben (und einen Filter).
 
-Schaue zuerst im Anhang nach, was Apache Superset alles für Diagramme (Charts) anbietet, wobei wir dort nur eine Auswahl getroffen haben von den über 40 Charts, die Superset zurzeit anbietet.
+Schaue zuerst im Anhang nach, was Apache Superset alles für Diagramme (Charts) anbietet, wobei wir dort nur eine Auswahl getroffen haben von den über 40 Charts, 
+die Superset zurzeit anbietet.
 
 Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in der Abbildung 1 in der Reihenfolge nummeriert, in der du sie gleich erstellen wirst.
 
@@ -464,27 +468,28 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 
 == ANHANG: Dashboards Reproduzieren
 
-.1
+.eins
 image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=50%]
 
-.2
+.zwei
 image:einfuehrung_in_apache_superset/Ebene0.PNG[pdfwidth=50%]
 image:einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=50%]
 
-.3
+.drei
 image:einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=50%]
 image:einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=50%]
 
-.4
+.vier
 image:einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=50%]
 image:einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=50%]
 
-.5
+.fünf
 image:einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=50%]
 image:einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=50%]
 
-.6
-image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=50%]
+.sechs
+image:einfuehrung_in_apache_superset/Ebene4.PNG[pdfwidth=50%]
+image:einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=50%]
 
 
 Wenn man ein Dashboard reproduzieren, oder eine Idee vom Papier auf Superset bringen will, kann es Sinn machen, das Dashboard erst aufzuteilen, damit man beim Setzen der Rows
@@ -499,10 +504,10 @@ Dieser "Schnitt" ergibt nun zwei "Unterdashboards". Die rote Zahl in den Bildern
 diesem Fall entweder eine Row, eine Column oder ein Chart sein). Nach dem ersten Schnitt befinden sich beide Unterdashboards auf "Ebene 0", was heisst, dass sie von keinem
 anderen Element umgeben sind (keine Verschachtelung).
 
-Diesen Schritt kann man nun wiederholen, bis alle Charts voneinander getrennt sind (*Ebene1 - Ebene4*). Wenn die Aufteilung ähnlich aussieht wie in *EBENE4* kann man mit
-Schritt 2 fortfahren.
+Diesen Schritt kann man nun wiederholen, bis alle Charts voneinander getrennt sind (*Ebene1 - Ebene4*). Wenn alle Charts wie in *EBENE4* separiert sind, kann man mit Schritt 2
+fortfahren.
 
-NOTE: In zwei Aufeinanderfolgenden Ausführungen von Schritt 1 sollten die Linien immer senkrecht zueinander stehen. Wenn man in zwei aufeinanderfolgenden Ausführungen
+NOTE: In zwei aufeinanderfolgenden Ausführungen von Schritt 1 sollten die Linien immer senkrecht zueinander stehen. Wenn man in zwei aufeinanderfolgenden Ausführungen
 parallele Linien bekommt, hätte man die zweite Ausführung zusammen mit der Ersten machen können.
 
 === Schritt 2:
