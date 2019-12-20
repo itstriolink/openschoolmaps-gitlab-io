@@ -482,23 +482,23 @@ a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=65%]
 
 |*Ebene1* |*Aufteilung1*
 
-a|image::einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=65%]
-a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=75%]
+a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=75%]
 
 |*Ebene2* |*Aufteilung2*
 
-a|image::einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=65%]
-a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=75%]
+a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=75%]
 
 |*Ebene3* |*Aufteilung3*
 
-a|image::einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=65%]
-a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=75%]
+a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=75%]
 
 |*Ebene4* |*Endresultat*
 
-a|image::einfuehrung_in_apache_superset/Ebene4.PNG[pdfwidth=65%]
-a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Ebene4.PNG[pdfwidth=75%]
+a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=75%]
 
 |===
 
