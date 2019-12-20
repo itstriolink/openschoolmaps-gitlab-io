@@ -468,29 +468,39 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 
 == ANHANG: Dashboards Reproduzieren
 
-.eins
-image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=50%]
+|===
 
-.zwei
-image:einfuehrung_in_apache_superset/Ebene0.PNG[pdfwidth=50%]
-image:einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=50%]
+|*Ausgangslage* |_ _
 
-.drei
-image:einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=50%]
-image:einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=50%]
+a|_ _
 
-.vier
-image:einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=50%]
-image:einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=50%]
+|*Ebene0* |*Aufteilung0*
 
-.fünf
-image:einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=50%]
-image:einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ebene0.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=50%]
 
-.sechs
-image:einfuehrung_in_apache_superset/Ebene4.PNG[pdfwidth=50%]
-image:einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=50%]
+|*Ebene1* |*Aufteilung1*
 
+a|image::einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=50%]
+
+|*Ebene2* |*Aufteilung2*
+
+a|image::einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=50%]
+
+|*Ebene3* |*Aufteilung3*
+
+a|image::einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=50%]
+
+|*Ebene4* |*Endresultat*
+
+a|image::einfuehrung_in_apache_superset/Ebene4.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=50%]
+
+|===
 
 Wenn man ein Dashboard reproduzieren, oder eine Idee vom Papier auf Superset bringen will, kann es Sinn machen, das Dashboard erst aufzuteilen, damit man beim Setzen der Rows
 und Columns nicht den Überblick verliert. Hier wird eine Art erläutert, wie man das machen kann. Es ist nicht die effizienteste Art (manche Rows/Columns könnte man
