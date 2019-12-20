@@ -472,33 +472,33 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 
 |*Ausgangslage* |_ _
 
-a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=65%]
 a|_ _
 
 |*Ebene0* |*Aufteilung0*
 
-a|image::einfuehrung_in_apache_superset/Ebene0.PNG[pdfwidth=50%]
-a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ebene0.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=65%]
 
 |*Ebene1* |*Aufteilung1*
 
-a|image::einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=50%]
-a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ebene1.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=65%]
 
 |*Ebene2* |*Aufteilung2*
 
-a|image::einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=50%]
-a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ebene2.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=65%]
 
 |*Ebene3* |*Aufteilung3*
 
-a|image::einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=50%]
-a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ebene3.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=65%]
 
 |*Ebene4* |*Endresultat*
 
-a|image::einfuehrung_in_apache_superset/Ebene4.PNG[pdfwidth=50%]
-a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=50%]
+a|image::einfuehrung_in_apache_superset/Ebene4.PNG[pdfwidth=65%]
+a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=65%]
 
 |===
 
