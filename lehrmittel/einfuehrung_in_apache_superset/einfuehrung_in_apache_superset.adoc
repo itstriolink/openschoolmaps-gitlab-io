@@ -503,30 +503,32 @@ a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=69%]
 
 |===
 
-Wenn man ein Dashboard entwerfen will, kann es Sinn machen, sich erst eine Skizze zu machen. Wenn man einfach so versucht ein Dashboard zu erstellen....
-Wenn man ein Dashboard vom Papier auf Superset bringen will, kann es Sinn machen, das Dashboard erst aufzuteilen. damit man beim Setzen der Rows
-und Columns nicht den Überblick verliert. Denn je nach Komplexität k
+In den Bildern oben sieht man jeweils in der Linken Spalte die Skizze und die Aufteilungen, die vorgenommen werden und in der rechen Spalte den dazugehörigen Zustand des
+Dashboards.
+
+Wenn man ein Dashboard entwerfen will, kann es Sinn machen, sich erst eine Skizze zu machen. Wenn man viele Charts hat und sie einfach mal beginnt anzuordnen, kann man schnell
+den Überblick verlieren. 
 Hier wird eine Art erläutert, wie man das machen kann. Es ist nicht die effizienteste Art (manche Rows/Columns könnte man
 sich sparen), dafür ist sie einfach und sollte für die meisten Anwendungen genügen:
 
 === Schritt 1:
 Man sucht sich auf dem Dashboard alle Linien, welche das Dashboard teilen, ohne dass diese Linien durch einen Chart gehen. Dabei dürfen sich diese Linien nicht
-kreuzen. D.h. im ersten Schritt sind entweder nur horizontale oder nur vertikale Linien erlaubt. In unserem Beispiel (*Ausgangslage*) gibt es nur eine Möglichkeit
-dies zu tun (Siehe *Ebene0*).
-Dieser "Schnitt" ergibt nun zwei "Unterdashboards". Die rote Zahl in den Bildern gibt dabei die "Ebene" bzw. den Verschachtelungsgrad des Elements an (Ein Element kann in
+kreuzen. D.h. im ersten Schritt sind entweder nur horizontale oder nur vertikale Linien erlaubt. In unserem Beispiel (*Ziel*) gibt es nur eine Möglichkeit
+dies zu tun (Siehe *Aufteilung0*).
+Dieser "Schnitt" ergibt nun zwei "Unterdashboards". Die rote Zahl in den Bildern gibt dabei den Verschachtelungsgrad des Elements an (Ein Element kann in
 diesem Fall entweder eine Row, eine Column oder ein Chart sein). Nach dem ersten Schnitt befinden sich beide Unterdashboards auf "Ebene 0", was heisst, dass sie von keinem
 anderen Element umgeben sind (keine Verschachtelung).
 
-Diesen Schritt kann man nun wiederholen, bis alle Charts voneinander getrennt sind (*Ebene1 - Ebene4*). Wenn alle Charts wie in *EBENE4* separiert sind, kann man mit Schritt 2
-fortfahren.
+Diesen Schritt kann man nun wiederholen, bis alle Charts voneinander getrennt sind (*Aufteilung1 - Aufteilung4*). Wenn alle Charts wie in *Aufteilung4* separiert sind,
+kann man mit Schritt 2 fortfahren.
 
 NOTE: In zwei aufeinanderfolgenden Ausführungen von Schritt 1 sollten die Linien immer senkrecht zueinander stehen. Wenn man in zwei aufeinanderfolgenden Ausführungen
 parallele Linien bekommt, hätte man die zweite Ausführung zusammen mit der Ersten machen können.
 
 === Schritt 2:
-Nun kann man mit den Diagrammen die Verschachtelung einfach rekonstruieren. Aus *Ebene0* kann man schliessen, dass man als erstes zwei Rows braucht, die übereinander liegen
-(Siehe *Aufteilung1*). Als nächstes braucht man in der oberen Row zwei Columns (Siehe *Aufteilung2*). In der Unteren Row braucht man die zwei Columns nicht, da es keine Charts
-gibt, die übereinander stehen.
+Nun kann man mit den Diagrammen die Verschachtelung einfach rekonstruieren. Aus *Aufteilung0* kann man schliessen, dass man als erstes zwei Rows braucht, die übereinander liegen
+(Siehe *Verschachtelung1*). Als nächstes braucht man in der oberen Row zwei Columns (Siehe *Verschachtelung2*). In der Unteren Row braucht man die zwei Columns nicht,
+da sie nur einen Chart enthalten.
 Diesen Schritt wiederholt man für jede Ebene im Diagramm. Wenn man dies gemacht hat, kann man mit Schritt 3 fortfahren.
 
 === Schritt 3:
