@@ -100,7 +100,7 @@ Nimm dir doch kurz Zeit und schaue dir diese Daten genau an.
 Zu verstehen, welche Daten in welcher Spalte sind, ist eine Notwendigkeit, um sinnvolle und korrekte Diagramme erstellen zu können.
 
 .Daten von der Schweiz von 1960 - 1978 aus der Tabelle wb_health_population.
-image::wb_health_population_table.PNG[, 860, 535]
+image::einfuehrung_in_apache_superset/wb_health_population_table.png[, 860, 535]
 
 
 == Charts (Diagramme)
@@ -110,10 +110,10 @@ Apache Superset bietet zurzeit 40 Charts an. Im Anhang findest du weitere Beispi
 Am Ende dieser Anleitung wirst du einen Chart und einen Filter erstellt haben. (Abbildung 2)
 
 * Links befindet sich ein Filter. Damit kann man die Datensätze auf eine Region oder Land beschränken. 
-* Rechts befindet sich ein Kreis-Diagramm (Pie Chart), welches die zehn bevölkerungsreichsten Länder und dessen Grösse der Bevölkerung (Metric) anzeigt.
+* Rechts befindet sich ein Kreis-Diagramm (Pie Chart), welches die zehn bevölkerungsreichsten Länder und deren Einwohnerzahlen (Metric) anzeigt.
 
 .Das Dashboard mit dem Kreis-Diagramm und dem Filter.
-image::Superset_Kurzeinfuehrung_Dashboard.PNG[, 860, 535]
+image::einfuehrung_in_apache_superset/Superset_Kurzeinfuehrung_Dashboard.png[, 860, 535]
 
 NOTE: Wenn die Charts während der Erstellung nicht richtig angezeigt werden, kann das zum Teil behoben werden, indem man die Website neu lädt (F5).
 
@@ -211,14 +211,14 @@ Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten
 * _Header_ können verwendet werden um den einzelnen Komponenten eine Überschrift zu geben und _Markdown_ kann benutzt werden damit man noch einen beschreibenden Text zu einem Chart verfassen kann.
 * Unter _Your charts & filters_ findet man alle Charts, die man bisher erstellt hat.
 
-Nach dem Hinzufügen einer Komponente kann dessen Grösse durch Anklicken der unteren rechten Ecke angepasst werden. 
+Nach dem Hinzufügen einer Komponente kann deren Grösse durch Anklicken der unteren rechten Ecke angepasst werden. 
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 3* +
 _Erstelle nun ein Dashboard, das der Abbildung 3 entspricht._
 
 .Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts mit dem Pie-Chart und dem Filter
-image::Superset_Kurzeinfuehrung_Dashboard.PNG[, 860, 535]
+image::einfuehrung_in_apache_superset/Superset_Kurzeinfuehrung_Dashboard.png[, 860, 535]
 
 == Dashboards mit anderen (übers Web) teilen
 Sobald du mit deinem Dashboard zufrieden bist, kannst du es publizieren. 
