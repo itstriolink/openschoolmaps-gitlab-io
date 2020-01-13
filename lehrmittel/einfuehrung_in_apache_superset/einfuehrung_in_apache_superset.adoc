@@ -471,35 +471,28 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 |===
 |*Skizze* |*Zustand des Dashboards*
 
-|*Ziel* |*Ausgangslage*
+a|image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=69%, title="Skizze"]
+a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=69%, title="Ausgangslage"]
 
-a|image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=69%]
-a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=69%]
 
-|*Aufteilung0* |*Verschachtelung0*
+a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=69%, title="Aufteilung 0"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung0.PNG[pdfwidth=69%, title="Verschachtelung 0"]
 
-a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=69%]
-a|image::einfuehrung_in_apache_superset/Verschachtelung0.PNG[pdfwidth=69%]
 
-|*Aufteilung1* |*Verschachtelung1*
+a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=69%, title="Aufteilung 1"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung1.PNG[pdfwidth=69%, title="Verschachtelung 1"]
 
-a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=69%]
-a|image::einfuehrung_in_apache_superset/Verschachtelung1.PNG[pdfwidth=69%]
 
-|*Aufteilung2* |*Verschachtelung2*
+a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=69%, title="Aufteilung 2"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung2.PNG[pdfwidth=69%, title="Verschachtelung 2"]
 
-a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=69%]
-a|image::einfuehrung_in_apache_superset/Verschachtelung2.PNG[pdfwidth=69%]
 
-|*Aufteilung3* |*Verschachtelung3*
+a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=69%, title="Aufteilung 3"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung3.PNG[pdfwidth=69%, title="Verschachtelung 3"]
 
-a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=69%]
-a|image::einfuehrung_in_apache_superset/Verschachtelung3.PNG[pdfwidth=69%]
 
-|*Aufteilung4* |*Verschachtelung*
-
-a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=69%]
-a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=69%]
+a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=69%, title="Aufteilung 4"]
+a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=69%, title="Endprodukt"]
 
 |===
 
