@@ -494,13 +494,13 @@ a|image::einfuehrung_in_apache_superset/Verschachtelung3.PNG[pdfwidth=69%, title
 a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=69%, title="Aufteilung 4"]
 a|image::einfuehrung_in_apache_superset/Verschachtelung4.PNG[pdfwidth=69%, title="Verschachtelung 4"]
 
-a|image::einfuehrung_in_apache_superset/Aufteilung5.PNG[pdfwidth=69%, title="Aufteilung 5"]
+a|_ _
 a|image::einfuehrung_in_apache_superset/Verschachtelung5.PNG[pdfwidth=69%, title="Verschachtelung 5"]
 
-a|image::einfuehrung_in_apache_superset/Aufteilung6.PNG[pdfwidth=69%, title="Aufteilung 6"]
+a|_ _
 a|image::einfuehrung_in_apache_superset/Verschachtelung6.PNG[pdfwidth=69%, title="Verschachtelung 6"]
 
-a|image::einfuehrung_in_apache_superset/Aufteilung6.PNG[pdfwidth=69%, title="Aufteilung 6"]
+a|_ _
 a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=69%, title="Endprodukt"]
 
 |===
@@ -513,29 +513,29 @@ den Überblick verlieren.
 Hier wird eine Art erläutert, wie man das machen kann. Es ist nicht die effizienteste Art (manche Rows/Columns könnte man
 sich sparen), dafür ist sie einfach und sollte für die meisten Anwendungen genügen:
 
+Als erstes sollten Schritt 1 und Schritt 2 (siehe unten) so lange ausgeführt werden, bis alle Charts voneinander getrennt sind (siehe Abb. 23).\
+Wenn man so weit ist, sollen die weiteren Schritte der Reihe nach ausgeführt werden.
+
 === Schritt 1:
-Man sucht sich auf dem Dashboard alle Linien, welche das Dashboard teilen, ohne dass diese Linien durch einen Chart gehen. Dabei dürfen sich diese Linien nicht
-kreuzen. D.h. im ersten Schritt sind entweder nur horizontale oder nur vertikale Linien erlaubt. In unserem Beispiel (*Ziel*) gibt es nur eine Möglichkeit
-dies zu tun (Siehe *Aufteilung0*).
-Dieser "Schnitt" ergibt nun zwei "Unterdashboards". Die rote Zahl in den Bildern gibt dabei den Verschachtelungsgrad des Elements an (Ein Element kann in
-diesem Fall entweder eine Row, eine Column oder ein Chart sein). Nach dem ersten Schnitt befinden sich beide Unterdashboards auf "Ebene 0", was heisst, dass sie von keinem
-anderen Element umgeben sind (keine Verschachtelung).
+Man sucht sich auf dem Dashboard alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Diese Linien müssen alle parallel sein. In unserem Beispiel
+gibt es im ersten Schritt nur eine Möglichkeit dies zu tun (siehe Abb. 15).
 
-Diesen Schritt kann man nun wiederholen, bis alle Charts voneinander getrennt sind (*Aufteilung1 - Aufteilung4*). Wenn alle Charts wie in *Aufteilung4* separiert sind,
-kann man mit Schritt 2 fortfahren.
-
-NOTE: In zwei aufeinanderfolgenden Ausführungen von Schritt 1 sollten die Linien immer senkrecht zueinander stehen. Wenn man in zwei aufeinanderfolgenden Ausführungen
-parallele Linien bekommt, hätte man die zweite Ausführung zusammen mit der Ersten machen können.
+NOTE: Die Linien von zwei aufeinanderfolgenden Schritten sollten immer senkrecht zueinander stehen. Wenn dies nicht der fall ist, hätte man die zwei Schritte zusammen ausführen
+können.
 
 === Schritt 2:
-Nun kann man mit den Diagrammen die Verschachtelung einfach rekonstruieren. Aus *Aufteilung0* kann man schliessen, dass man als erstes zwei Rows braucht, die übereinander liegen
-(Siehe *Verschachtelung1*). Als nächstes braucht man in der oberen Row zwei Columns (Siehe *Verschachtelung2*). In der Unteren Row braucht man die zwei Columns nicht,
-da sie nur einen Chart enthalten.
-Diesen Schritt wiederholt man für jede Ebene im Diagramm. Wenn man dies gemacht hat, kann man mit Schritt 3 fortfahren.
+Im 2. Schritt geht es darum, Rows oder Columns ins dashboard zu setzen. Was man ins Dashboard einfügen soll hängt von der vorherigen Ausführung des ersten Schrittes ab.
+Wenn man eine waagrechte Linie gezeichnet hat, fügt man zwei Rows ein, wenn man eine senkrechte Linie gezogen hat zwei Columns. Die zwei Rows bzw. Columns kommen immer in das
+Feld, welches von der dazugehörigen Linie geteilt wird.
 
 === Schritt 3:
-Nun, da man die Verschachtelung gemacht hat, kann man einfach die Charts an ihre Plätze ziehen. Falls es irgendwo keinen Platz mehr für einen Chart hat, kann man versuchen,
-einen anderen Chart, der sich in derselben Row / Column befindet, kleiner zu machen und den Chart nochmals rein zu ziehen.
+Entferne alle Columns und Rows, welche nur einen Chart enthalten. In unserem Beispiel sind diese Columns und Rows in Abb. 26 rot markiert. Wenn man diese Charts entfernt hat,
+sollte man etwas Ähnliches wie Abb. 28 erhalten.
+
+=== Schritt 4:
+Wenn man nun die Charts einführt, erhält man das Endprodukt, welches der Skizze sehr ähnlich sehen sollte (Siehe Abb. 30). Die Charts sind hier dunkelgrau eingezeichnet.
+
+NOTE: write here
 
 
 
