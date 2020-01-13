@@ -492,6 +492,15 @@ a|image::einfuehrung_in_apache_superset/Verschachtelung3.PNG[pdfwidth=69%, title
 
 
 a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=69%, title="Aufteilung 4"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung4.PNG[pdfwidth=69%, title="Verschachtelung 4"]
+
+a|image::einfuehrung_in_apache_superset/Aufteilung5.PNG[pdfwidth=69%, title="Aufteilung 5"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung5.PNG[pdfwidth=69%, title="Verschachtelung 5"]
+
+a|image::einfuehrung_in_apache_superset/Aufteilung6.PNG[pdfwidth=69%, title="Aufteilung 6"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung6.PNG[pdfwidth=69%, title="Verschachtelung 6"]
+
+a|image::einfuehrung_in_apache_superset/Aufteilung6.PNG[pdfwidth=69%, title="Aufteilung 6"]
 a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=69%, title="Endprodukt"]
 
 |===
