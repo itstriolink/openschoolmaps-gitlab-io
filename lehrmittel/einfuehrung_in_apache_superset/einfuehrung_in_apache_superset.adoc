@@ -494,11 +494,9 @@ a|image::einfuehrung_in_apache_superset/Verschachtelung3.PNG[pdfwidth=69%, title
 a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=69%, title="Aufteilung 4"]
 a|image::einfuehrung_in_apache_superset/Verschachtelung4.PNG[pdfwidth=69%, title="Verschachtelung 4"]
 
-a|_ _
+a|image::einfuehrung_in_apache_superset/Aufteilung5.PNG[pdfwidth=69%, title="Aufteilung 5"]
 a|image::einfuehrung_in_apache_superset/Verschachtelung5.PNG[pdfwidth=69%, title="Verschachtelung 5"]
 
-a|_ _
-a|image::einfuehrung_in_apache_superset/Verschachtelung6.PNG[pdfwidth=69%, title="Verschachtelung 6"]
 
 a|_ _
 a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=69%, title="Endprodukt"]
@@ -524,16 +522,12 @@ NOTE: Die Linien von zwei aufeinanderfolgenden Schritten sollten immer senkrecht
 können.
 
 === Schritt 2:
-Im 2. Schritt geht es darum, Rows oder Columns ins dashboard zu setzen. Was man ins Dashboard einfügen soll hängt von der vorherigen Ausführung des ersten Schrittes ab.
-Wenn man eine waagrechte Linie gezeichnet hat, fügt man zwei Rows ein, wenn man eine senkrechte Linie gezogen hat zwei Columns. Die zwei Rows bzw. Columns kommen immer in das
-Feld, welches von der dazugehörigen Linie geteilt wird.
+Im 2. Schritt geht es darum, Rows oder Columns ins Dashboard zu setzen. Was man ins Dashboard einfügen soll hängt von der vorherigen Ausführung des ersten Schrittes ab.
+Wenn man eine waagrechte Linie gezeichnet hat, fügt man Rows ein, wenn man eine senkrechte Linie gezogen hat Columns. Eine Row bzw. Column soll nur gesetzt werden, wenn sie
+mehr als einen Chart umschliesst. Wenn sie nur einen Chart umschliessen würde, wird sie nicht gesetzt. (Die Roten Rows und Columns in den Bildern oben sind Beispiele für
+Rows / Columns, die nicht gesetzt werden, da sie nur einen Chart beinhalten.\
+An diesen Stellen setzt man statt den Rows / Columns die entsprechenden Charts. (Charts sind in den oberen Bildern dunkelgrau markiert)
 
-=== Schritt 3:
-Entferne alle Columns und Rows, welche nur einen Chart enthalten. In unserem Beispiel sind diese Columns und Rows in Abb. 26 rot markiert. Wenn man diese Charts entfernt hat,
-sollte man etwas Ähnliches wie Abb. 28 erhalten.
-
-=== Schritt 4:
-Wenn man nun die Charts einführt, erhält man das Endprodukt, welches der Skizze sehr ähnlich sehen sollte (Siehe Abb. 30). Die Charts sind hier dunkelgrau eingezeichnet.
 
 NOTE: write here
 
