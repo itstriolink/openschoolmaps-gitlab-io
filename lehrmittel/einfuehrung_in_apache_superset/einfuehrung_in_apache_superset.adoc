@@ -476,17 +476,17 @@ Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt
 Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen, bis zwischen allen Charts eine Linie gezogen wurde.
 
 === Schritt 1:
-Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Diese Linien müssen alle parallel sein. In unserem Beispiel
-gibt es im ersten Schritt nur eine Möglichkeit dies zu tun (siehe Abb. 15). 
+Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Wenn es mehrere Linien gibt, müssen alle zueinander parallel sein. 
+In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit dies zu tun (siehe Abb. 15). 
 
 NOTE: In der ersten Ausführung dieses Schrittes spielt es keine Rolle, ob die Linien horizontal oder vertikal sind. Danach sollten die Linien von zwei aufeinanderfolgenden
 Schritten immer Senkrecht zueinander stehen. Wenn man zwei mal nacheinander parallele Linien erhält, hätte man die zwei Schritte zu einem zusammenfassen können.
 
 === Schritt 2:
 Im 2. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard zu setzen. Was man ins Dashboard einfügen soll, hängt von der vorherigen Ausführung des ersten Schrittes ab.
-Wenn man eine waagrechte Linie gezeichnet hat, fügt man Rows ein, wenn man eine senkrechte Linie gezogen hat Columns. Eine Row bzw. Column soll nur gesetzt werden, wenn sie
+Wenn man eine waagrechte Linie gezeichnet hat, fügt man zwei Rows ein, wenn man eine senkrechte Linie gezogen hat zwei Columns. Eine Row bzw. Column soll nur gesetzt werden, wenn sie
 mehr als einen Chart umschliesst. Wenn sie nur einen Chart umschliessen würde, wird sie nicht gesetzt. (Die Roten Rows und Columns in den Bildern unten sind Beispiele für
-Rows / Columns, die nicht gesetzt werden, da sie nur einen Chart beinhalten.+
+Rows / Columns, die nicht gesetzt werden, da sie nur einen Chart beinhalten.
 Stattdessen werden an den entsprechenden Stellen die entsprechenden Charts gesetzt. (Charts sind in den unteren Bildern dunkelgrau markiert)
 
 |===
