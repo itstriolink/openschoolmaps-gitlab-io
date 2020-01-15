@@ -473,7 +473,8 @@ den Überblick verlieren.
 Hier wird eine Art erläutert, wie man von einer Skizze auf eine Verschachtelung von Rows und Columns kommt, die dieser Skizze entspricht.
 Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt werden), dafür ist sie einfach und sollte für die meisten Anwendungen genügen:
 
-Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen, bis zwischen allen Charts eine Linie gezogen wurde.
+Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen, bis zwischen allen Charts eine Linie gezogen wurde, oder es nicht mehr möglich ist,
+weitere Linien zu ziehen. Wenn man keine weiteren Linien mehr ziehen kann und noch nicht alle Charts separiert sind, kann das Dashboard in Superset nicht reproduziert werden.
 
 === Schritt 1:
 Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Wenn es mehrere Linien gibt, müssen alle zueinander parallel sein. 
