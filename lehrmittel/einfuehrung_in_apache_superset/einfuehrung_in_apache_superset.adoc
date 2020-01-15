@@ -476,11 +476,11 @@ sich sparen), dafür ist sie einfach und sollte für die meisten Anwendungen gen
 Um die Aufteilung zu erhalten, muss man lediglich die unteren Schritte mehrmals nacheinander ausführen:
 
 === Schritt 1:
-Man sucht sich auf dem Dashboard alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Diese Linien müssen alle parallel sein. In unserem Beispiel
+Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Diese Linien müssen alle parallel sein. In unserem Beispiel
 gibt es im ersten Schritt nur eine Möglichkeit dies zu tun (siehe Abb. 15). 
 
 NOTE: In der ersten Ausführung dieses Schrittes spielt es keine Rolle, ob die Linien horizontal oder vertikal sind. Danach sollten die Linien von zwei aufeinanderfolgenden
-Schritten immer Senkrecht zueinander stehen. Wenn man zwei mal nacheinander dieselbe Richtung erhält, hätte man die zwei Schritte zu einem zusammenfassen können.
+Schritten immer Senkrecht zueinander stehen. Wenn man zwei mal nacheinander parallele Linien erhält, hätte man die zwei Schritte zu einem zusammenfassen können.
 
 === Schritt 2:
 Im 2. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard zu setzen. Was man ins Dashboard einfügen soll hängt von der vorherigen Ausführung des ersten Schrittes ab.
