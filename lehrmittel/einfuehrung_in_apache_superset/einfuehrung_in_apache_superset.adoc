@@ -470,10 +470,10 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 
 Wenn man ein Dashboard entwerfen will, kann es Sinn machen, sich erst eine Skizze zu machen. Wenn man viele Charts hat und sie einfach mal beginnt anzuordnen, kann man schnell
 den Überblick verlieren. 
-Hier wird eine Art erläutert, wie man das machen kann. Es ist nicht die effizienteste Art (manche Rows/Columns könnte man
-sich sparen), dafür ist sie einfach und sollte für die meisten Anwendungen genügen:
+Hier wird eine Art erläutert, wie man von einer Skizze auf eine Verschachtelung von Rows und Columns kommt, die dieser Skizze entspricht.
+Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt werden), dafür ist sie einfach und sollte für die meisten Anwendungen genügen:
 
-Um die Aufteilung zu erhalten, muss man lediglich die unteren Schritte mehrmals nacheinander ausführen:
+Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen, bis zwischen allen Charts eine Linie gezogen wurde.
 
 === Schritt 1:
 Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Diese Linien müssen alle parallel sein. In unserem Beispiel
@@ -483,11 +483,11 @@ NOTE: In der ersten Ausführung dieses Schrittes spielt es keine Rolle, ob die L
 Schritten immer Senkrecht zueinander stehen. Wenn man zwei mal nacheinander parallele Linien erhält, hätte man die zwei Schritte zu einem zusammenfassen können.
 
 === Schritt 2:
-Im 2. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard zu setzen. Was man ins Dashboard einfügen soll hängt von der vorherigen Ausführung des ersten Schrittes ab.
+Im 2. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard zu setzen. Was man ins Dashboard einfügen soll, hängt von der vorherigen Ausführung des ersten Schrittes ab.
 Wenn man eine waagrechte Linie gezeichnet hat, fügt man Rows ein, wenn man eine senkrechte Linie gezogen hat Columns. Eine Row bzw. Column soll nur gesetzt werden, wenn sie
-mehr als einen Chart umschliesst. Wenn sie nur einen Chart umschliessen würde, wird sie nicht gesetzt. (Die Roten Rows und Columns in den Bildern oben sind Beispiele für
-Rows / Columns, die nicht gesetzt werden, da sie nur einen Chart beinhalten.\
-Stattdessen werden an den entsprechenden Stellen die entsprechenden Charts gesetzt. (Charts sind in den oberen Bildern dunkelgrau markiert)
+mehr als einen Chart umschliesst. Wenn sie nur einen Chart umschliessen würde, wird sie nicht gesetzt. (Die Roten Rows und Columns in den Bildern unten sind Beispiele für
+Rows / Columns, die nicht gesetzt werden, da sie nur einen Chart beinhalten.+
+Stattdessen werden an den entsprechenden Stellen die entsprechenden Charts gesetzt. (Charts sind in den unteren Bildern dunkelgrau markiert)
 
 |===
 |*Schritt 1* |*Schritt 2*
