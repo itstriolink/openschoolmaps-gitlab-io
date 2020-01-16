@@ -1,0 +1,17 @@
+= Administratives in Superset
+
+
+== Rollen
+
+
+=== Rollenauflistung
+
+
+=== Rollenerstellung
+
+
+== Datenbanken?
+
+
+== Schemen?
+
