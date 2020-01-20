@@ -46,15 +46,15 @@ Superset ist auch ein Werkzeug zum Teilen (Sharing) von Datenquellen, d.h. von T
 Es kann mit verschiedensten Datenbanken verbunden werden. 
 
 NOTE: Zu Apache Superset gibt es eine offizielle, englischsprachige Dokumentation. 
-Diese scheint leider sehr dünn und nicht nachgeführt zu sein: Es verwendet veraltete Begriffe ("Slices" statt "Charts")
-und das in der Dokumentation enthaltene Tutorial setzt Wetterdaten voraus, die nicht vorinstalliert sind.
-Das Nützlichste der Dokumentation ist das (kleine) FAQ Frequently Asked Questions (Häufig gestellte Fragen): https://superset.incubator.apache.org/faq.html . 
+Diese scheint leider sehr dünn und nicht nachgeführt zu sein: Sie verwendet veraltete Begriffe ("Slices" statt "Charts")
+und das darin enthaltene Tutorial setzt Wetterdaten voraus, die nicht vorinstalliert sind.
+Der nützlichste Teil der Dokumentation ist das (kleine) FAQ Frequently Asked Questions (Häufig gestellte Fragen): https://superset.incubator.apache.org/faq.html . 
 
 
 === Benutzerkonto erstellen/anmelden
 
-Apache Superset ist eine Webapplikation und für den Zugang wird ein Konto benötigt.
-Wenn du bereits Zugang zu Apache Superset hast, dann melde dich dort an.
+Apache Superset ist eine Webapplikation und für den Zugang wird je nach Server ein Konto benötigt.
+Wenn du bereits Zugang zu einer Apache Superset Instanz hast, dann melde dich dort an.
 
 Apache Superset kennt verschiedene Benutzer-Rollen, die bestimmte Rechte haben, um Daten zu verändern oder Funktionen aufzurufen. 
 In diesem Arbeitsblatt wird angenommen, dass du Benutzerrechte erhalten hast, die der "Gamma"-Rolle entsprechen, d.h. du kannst Charts und Dashboards erstellen.
@@ -69,7 +69,7 @@ Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 * Datasource (Datenquelle): Eine "Source" kann zum Beispiel durch das Hochladen einer CSV-Datei oder durch die Erstellung von Views mittels SQL-Abfragen erzeugt werden.
 * Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
 * Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
-* Dashboards: Eine interaktive Webseite auf der interaktive Charts präsentiert werden.
+* Dashboards: Eine interaktive Webseite, auf der interaktive Charts präsentiert werden.
 * Metrics: "Metrics" (manchmal auch "Measurements" genannt) sind numerische Kennzahlen. Sie werden v.a. in den Charts erwähnt und verlangt.
 * Records: Datenquellen und Charts sind alles Programmierelemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
 * SQL-Query: Anweisung, Datenbankanfrage in der Datenbanksprache SQL. SQL-Queries kann man speichern und als Datenquelle anderen zur Verfügung stellen.
@@ -99,7 +99,7 @@ Abbildung 1 zeigt die Daten, die wir nutzen werden.
 Nimm dir doch kurz Zeit und schaue dir diese Daten genau an. 
 Zu verstehen, welche Daten in welcher Spalte sind, ist eine Notwendigkeit, um sinnvolle und korrekte Diagramme erstellen zu können.
 
-.Daten von der Schweiz von 1960 - 1978 aus der Tabelle wb_health_population.
+.Daten von der Schweiz von 1960 - 1976 aus der Tabelle wb_health_population.
 image::einfuehrung_in_apache_superset/wb_health_population_table.png[, 860, 535]
 
 
@@ -109,7 +109,7 @@ Apache Superset bietet zurzeit 40 Charts an. Im Anhang findest du weitere Beispi
 
 Am Ende dieser Anleitung wirst du einen Chart und einen Filter erstellt haben. (Abbildung 2)
 
-* Links befindet sich ein Filter. Damit kann man die Datensätze auf eine Region oder Land beschränken. 
+* Links befindet sich ein Filter. Damit kann man die Datensätze auf bestimmte Regionen und Länder beschränken. 
 * Rechts befindet sich ein Kreis-Diagramm (Pie Chart), welches die zehn bevölkerungsreichsten Länder und deren Einwohnerzahlen (Metric) anzeigt.
 
 .Das Dashboard mit dem Kreis-Diagramm und dem Filter.
@@ -155,6 +155,9 @@ Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen.
 _Group by_ wird genutzt, um ein Total nach einem bestimmten Attribut aufzuteilen. Wenn man z.B. die Summe der Weltbevölkerung nach Ländernamen gruppiert,
 erhält man die Bevölkerung pro Land.
 Wähle darum hier das Attribut `country_name` aus. Das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist. 
+
+Unter _Row Limit_ kannst du das Ergebnis auf eine bestimmte Anzahl einträge beschränken. Wenn du z.B. ein _Row Limit_ von 10 setzt, werden nur die 10 bevölkerungsreichsten
+Länder angezeigt.
 
 Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
 Sie zeigt in einem Kreis-Diagramm die zehn bevölkerungsreichsten Länder im Jahre 2014.
@@ -221,9 +224,15 @@ _Erstelle nun ein Dashboard, das der Abbildung 3 entspricht._
 image::einfuehrung_in_apache_superset/Superset_Kurzeinfuehrung_Dashboard.png[, 860, 535]
 
 == Dashboards mit anderen (übers Web) teilen
-Sobald du mit deinem Dashboard zufrieden bist, kannst du es publizieren. 
-Das geht indem du hinter dem _Edit dashboard_-Knopf auf das Dropdown-Menü und dort auf _Share dashboard_ klickst. 
-Den Link kannst du nun einer anderen Person schicken, jedoch muss diese Person (d.h. deren Rolle) auch Zugriff auf die Daten haben, andernfalls wird nur ein Fehler (Error...) angezeigt.
+Sobald du mit deinem Dashboard zufrieden bist, kannst du es publizieren und/oder teilen.
+
+Um ein Dashboard zu teilen, musst du hinter dem _Edit dashboard_-Knopf auf das Dropdown-Menü und dort auf _Share dashboard_ klicken.
+Die URL kannst du nun einer anderen Person schicken, jedoch muss diese Person (d.h. deren Rolle) auch Zugriff auf die Daten haben, andernfalls wird nur ein Fehler (Error...)
+angezeigt.
+
+Um ein Dashboard zu publizieren, musst du lediglich rechts deben dem Namen des Dashboards auf "Draft" drücken, damit "Published" angezeigt wird. Ein publiziertes Dashboard
+ist für andere User in der Dashboard-Liste sichtbar (sofern diese User zugriff auf die entsprechenden Datasources haben). Ein Dashboard, welches als "Draft" markiert ist, ist 
+zwar nicht für andere User sichtbar (Ausnahme: hochrangige User wie z.B. Admins), dennoch kann man mittels URL direkt drauf zugreifen.
 
 
 == Abschluss
