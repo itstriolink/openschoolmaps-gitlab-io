@@ -10,13 +10,7 @@ include::../../snippets/suppress_title_page.adoc[]
 
 === Lernziele
 
-Diese Einführung hat folgende Lernziele:
-
-* Du kennst die wichtigsten Konzepte und Grundfunktionen von Apache Superset
-* Du kannst Datenquellen selektieren
-* Du kannst Daten mittels Charts visualisieren
-* Du kannst Charts zu einem Dashboard anordnen
-* Du kannst Dashboards mit anderen (übers Web) teilen
+Diese Arbeitsblatt dient zur Vertiefung der Lernziele, die in "Einführung in Apache Superset: One Chart" gesetzt wurden.
 
 Das Bearbeiten dieses Arbeitsblatts dauert ca. zwei Stunden, je nach deinem Vorwissen.
 
@@ -28,71 +22,13 @@ sowie einen gängigen Webbrowser (am besten funktioniert Superset auf Chrome) un
 
 Diese Anleitung bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde.
 
-=== Einleitung
-
-Für den Erfolg einer Entscheidungsfindung ist eine gute Visualisierung wichtig. 
-Darum müssen die Erkenntnisse eines Anliegens, Projektes oder Umfrage visualisiert werden. 
-Wenn Erkenntnisse anschaulich und nachvollziehbar dargestellt werden, erhöht das deren Verständlichkeit und Akzeptanz.
-
-Visualisierung kann man zudem nicht nur zur Veranschaulichung einsetzen, sondern auch zur Datenanalyse. 
-Häufig erkennt man Zusammenhänge in den Daten erst durch eine geschickte Darstellung. 
-Wir Menschen sind schlecht darin, Zahlen zu vergleichen; grafische Muster dagegen erkennen wir gut. 
-Visualisierung stellt somit nicht nur die Daten graphisch dar, sondern kann auch als eigene Technik der Datenanalyse eingesetzt werden. 
-Das Internet ermöglicht zudem die Publikation der Visualisierung und damit die einfache Kommunikation mit Kunden und Arbeitskollegen.
-
-Apache Superset ist so ein Daten-Visualisierungs- und Publikations-Werkzeug. 
-Manche nennen diese Anwendung auch "Business Intelligence Tool". 
-Superset ist auch ein Werkzeug zum Teilen (Sharing) von Datenquellen, d.h. von Tabellen-Daten bis zu Geodaten. 
-Es kann mit verschiedensten Datenbanken verbunden werden. 
-
-NOTE: Zu Apache Superset gibt es eine offizielle, englischsprachige Dokumentation. 
-Diese scheint leider sehr dünn und nicht nachgeführt zu sein: Es verwendet veraltete Begriffe ("Slices" statt "Charts")
-und das in der Dokumentation enthaltene Tutorial setzt Wetterdaten voraus, die nicht vorinstalliert sind.
-Das Nützlichste der Dokumentation ist das (kleine) FAQ Frequently Asked Questions (Häufig gestellte Fragen): https://superset.incubator.apache.org/faq.html . 
-
-
-=== Benutzerkonto erstellen/anmelden
-
-Apache Superset ist eine Webapplikation und für den Zugang wird ein Konto benötigt.
-Wenn du bereits Zugang zu Apache Superset hast, dann melde dich dort an.
-
-Apache Superset kennt verschiedene Benutzer-Rollen, die bestimmte Rechte haben, um Daten zu verändern oder Funktionen aufzurufen. 
-In diesem Arbeitsblatt wird angenommen, dass du Benutzerrechte erhalten hast, die der "Gamma"-Rolle entsprechen, d.h. du kannst Charts und Dashboards erstellen.
-
-Das Geometa Lab HSR betreibt unter anderem "Apache Superset Cloud" als "Software-as-a-Service". 
-Apache Superset Cloud verwendet das Datenbanksystem PostgreSQL mit der PostGIS-Erweiterung
-und ist kostenpflichtig (Teilnehmende von Weiterbildungskursen des Geometa Lab HSR erhalten einen eigenen Zugang).
-
-
-== Konzepte und Begriffe
-
-Nach dem Anmelden bei einer Apache Superset-Applikation (siehe vorhergehendes Kapitel) siehst du das Menü oben und unter anderem die Menüpunkte _Sources_, _Charts_ und _Dashboards_.
-
-Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
-
-* Datasource (Datenquelle): Eine "Source" kann zum Beispiel durch das Hochladen einer CSV-Datei oder durch die Erstellung von Views mittels SQL-Abfragen erzeugt werden.
-* Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
-* Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
-* Dashboards: Eine interaktive Webseite auf der interaktive Charts präsentiert werden.
-* Metrics: "Metrics" (manchmal auch "Measurements" genannt) sind numerische Kennzahlen. Sie werden v.a. in den Charts erwähnt und verlangt.
-* Records: Datenquellen und Charts sind alles Programmierelemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
-* SQL-Query: Anweisung, Datenbankanfrage in der Datenbanksprache SQL. SQL-Queries kann man speichern und als Datenquelle anderen zur Verfügung stellen.
-
-NOTE: Im Menü "Sources" von Apache Superset und in der Orginal-Dokumentation von Apache Superset wird Druid als Datenbanksystem erwähnt. 
-Alle auf Druid bezogenen Informationen im Menü (und in der Dokumentation) kannst du ignorieren.
-
 
 == Daten und Fragestellungen
-
-Die mit Apache Superset (und Business Intelligence Tools allgemein) zu visualisierenden Daten müssen in strukturierter und sauberer Form vorliegen. 
-Wenn nötig, müssen die Daten mit Datenbanksystemen (SQL), Tabellenkalkulationsprogrammen (z.B. MS Excel, LibreOffice) oder GIS (z.B. QGIS) aufbereitet werden 
-(siehe u.a. https://openschoolmaps.ch/[OpenSchoolMaps] > "Einführung in QGIS 3 und in Geoinformationssysteme (GIS)"). 
-Hilfreich, um Daten zu bereinigen ("Data Wrangling"), kann hierbei auch z.B. http://openrefine.org/[OpenRefine] sein.
 
 Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, Stand ca. 2017).
 Die Daten beschreiben die Population, urban/rural (Lebensraum) und die Lebenserwartung pro Land bzw. pro Region über die Jahre 1960 bis 2014.
 
-In diesem Arbeitsblatt wird nur eine Tabelle verwendet, die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Population").
+In diesem Arbeitsblatt wird nur die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Population").
 
 Die Tabelle `wb_health_population` hat ca. 328 Kolonnen (Attribute), d.h. sehr viele.
 Wir verwenden davon folgende Kolonnen:
@@ -106,8 +42,7 @@ Wir verwenden davon folgende Kolonnen:
 * Lebenserwartung: `SP_DYN_LE00_IN`
 
 Abbildung 1 zeigt die Daten, die wir nutzen werden. 
-Nimm dir doch kurz Zeit und schaue dir diese Daten genau an. 
-Zu verstehen, welche Daten in welcher Spalte sind, ist eine Notwendigkeit, um sinnvolle und korrekte Diagramme erstellen zu können.
+Nimm dir doch auch hier wieder kurz Zeit und schaue dir diese Daten genau an. 
 
 Diese Daten wollen wir nun analysieren und uns fragen, ob sich Charakteristika oder Zusammenhänge erkennen lassen, wie beispielsweise: 
 "Leben in einem Land mehr Personen auf dem Land (rural) oder in der Stadt (urban)?", 
