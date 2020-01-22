@@ -1,4 +1,4 @@
-= Einführung in Apache Superset
+= Einführung in Apache Superset: Seven Charts
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
@@ -10,28 +10,26 @@ include::../../snippets/suppress_title_page.adoc[]
 
 === Lernziele
 
-Diese Arbeitsblatt dient zur Vertiefung der Lernziele, die in "Einführung in Apache Superset: One Chart" gesetzt wurden.
+Diese Arbeitsblatt dient zur Vertiefung der Lernziele, die in "Einführung in Apache Superset: One Chart" gesetzt wurden. Aus diesem Grund wird empfohlen, erst das Arbeitsblatt
+"Einführung in Apache Superset: One Chart" durchzuarbeiten.
 
 Das Bearbeiten dieses Arbeitsblatts dauert ca. zwei Stunden, je nach deinem Vorwissen.
 
 Für diese Einführung werden keine Programmierkenntnisse vorausgesetzt; 
 Grundkenntnisse der Tabellenkalkulation genügen für's Erste. 
 
-Für die Übungen in diesem Arbeitsblatt benötigst du Zugang zu einem Apache Superset-Service (vgl. unten), 
-sowie einen gängigen Webbrowser (am besten funktioniert Superset auf Chrome) und eine Internetverbindung. 
+Für die Übungen in diesem Arbeitsblatt benötigst du Zugang zu einem Apache Superset-Service (vgl. "Einführung in Apache Superset: One Chart" -> 
+_Benutzerkonto erstellen/anmelden_), sowie einen gängigen Webbrowser (am besten funktioniert Superset auf Chrome) und eine Internetverbindung. 
 
 Diese Anleitung bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde.
 
 
 == Daten und Fragestellungen
 
-Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, Stand ca. 2017).
-Die Daten beschreiben die Population, urban/rural (Lebensraum) und die Lebenserwartung pro Land bzw. pro Region über die Jahre 1960 bis 2014.
+Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, 
+Stand ca. 2017). Die Daten beschreiben die Population, urban/rural (Lebensraum) und die Lebenserwartung pro Land bzw. pro Region über die Jahre 1960 bis 2014.
 
-In diesem Arbeitsblatt wird nur die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Population").
-
-Die Tabelle `wb_health_population` hat ca. 328 Kolonnen (Attribute), d.h. sehr viele.
-Wir verwenden davon folgende Kolonnen:
+In diesem Arbeitsblatt wird nur die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Population"). Davon verwenden wir folgende Kolonnen:
 
 * Name des Landes: `country_name`
 * Weltregion, in der das Land liegt: `region`
