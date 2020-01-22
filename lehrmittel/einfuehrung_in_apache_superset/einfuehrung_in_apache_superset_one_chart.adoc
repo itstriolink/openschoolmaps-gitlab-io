@@ -1,4 +1,4 @@
-= Einführung in Apache Superset
+= Einführung in Apache Superset: One Chart
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
@@ -21,7 +21,7 @@ Diese Einführung hat folgende Lernziele:
 Das Bearbeiten dieses Arbeitsblatts dauert ca. eine halbe Stunde, je nach deinem Vorwissen.
 
 Für diese Einführung werden keine Programmierkenntnisse vorausgesetzt; 
-Grundkenntnisse der Tabellenkalkulation genügen für's Erste. 
+Grundkenntnisse der Tabellenkalkulation genügen fürs Erste. 
 
 Für die Übungen in diesem Arbeitsblatt benötigst du Zugang zu einem Apache Superset-Service (vgl. unten), 
 sowie einen gängigen Webbrowser (am besten funktioniert Superset auf Chrome) und eine Internetverbindung. 
