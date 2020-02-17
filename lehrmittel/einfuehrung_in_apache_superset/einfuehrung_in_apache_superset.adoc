@@ -468,41 +468,44 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 
 == ANHANG: Dashboards Entwerfen
 
-Wenn man ein Dashboard entwerfen will, kann es Sinn machen, sich erst eine Skizze zu machen. Wenn man viele Charts hat und sie einfach mal beginnt anzuordnen, kann man schnell
-den Überblick verlieren. 
-Hier wird eine Art erläutert, wie man von einer Skizze auf eine Verschachtelung von Rows und Columns kommt, die dieser Skizze entspricht.
-Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt werden), dafür ist sie einfach und sollte für die meisten Anwendungen genügen:
+Die Gestaltung des Dashboards ist für die übersichtliche Darstellung der Charts sehr wichtig.
+Wenn man ein Dashboard entwerfen will, kann es sinnvoll sein, zuerst eine Skizze (Beispiel Abb. 13) zu kreieren. 
+Hier wird eine Art erläutert, wie man eine Verschachtelung von Rows und Columns erstellt, die dieser Skizze entspricht. 
+Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt werden), dafür ist sie einfach und sollte für die meisten Anwendungen genügen.
 
-Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen, bis zwischen allen Charts eine Linie gezogen wurde, oder es nicht mehr möglich ist,
-weitere Linien zu ziehen. Wenn man keine weiteren Linien mehr ziehen kann und noch nicht alle Charts separiert sind, kann das Dashboard in Superset nicht reproduziert werden.
 
 === Schritt 1:
-Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen, ohne dass sie durch einen Chart gehen. Wenn es mehrere Linien gibt, müssen alle zueinander parallel sein. 
-In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit dies zu tun (siehe Abb. 15). 
+Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen und durch keinen Chart gehen. Wenn es mehrere Linien gibt, müssen alle parallel zueinander sein. 
+In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit (siehe Abb. 15).
 
 NOTE: In der ersten Ausführung dieses Schrittes spielt es keine Rolle, ob die Linien horizontal oder vertikal sind. Danach sollten die Linien von zwei aufeinanderfolgenden
 Schritten immer Senkrecht zueinander stehen. Wenn man zwei mal nacheinander parallele Linien erhält, hätte man die zwei Schritte zu einem zusammenfassen können.
 
 === Schritt 2:
 Im 2. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard zu setzen. Was man ins Dashboard einfügen soll, hängt von der vorherigen Ausführung des ersten Schrittes ab.
-Wenn man eine waagrechte Linie gezeichnet hat, fügt man zwei Rows ein, wenn man eine senkrechte Linie gezogen hat zwei Columns. Eine Row bzw. Column soll nur gesetzt werden, wenn sie
-mehr als einen Chart umschliesst. Wenn sie nur einen Chart umschliessen würde, wird sie nicht gesetzt. (Die Roten Rows und Columns in den Bildern unten sind Beispiele für
-Rows / Columns, die nicht gesetzt werden, da sie nur einen Chart beinhalten.
-Stattdessen werden an den entsprechenden Stellen die entsprechenden Charts gesetzt. (Charts sind in den unteren Bildern dunkelgrau markiert)
+Wenn man auf der Skizze eine waagrechte Linie gezeichnet hat, fügt man zwei Rows ein. Wenn man eine senkrechte Linie gezogen hat, setzt man zwei Columns. Eine Row bzw. Column soll nur gesetzt werden, wenn sie
+mehr als einen Chart umschliesst.
+Die Roten `Rows` und `Columns` in der Bilderreihe unten rechts sind Beispiele für
+Rows / Columns, die nicht einfügt werden, da sie nur einen Chart beinhalten.
+Stattdessen werden an den entsprechenden Stellen die Charts direkt eingesetzt. (Charts sind dunkelgrau markiert)
+
+
+Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen, bis zwischen allen Charts eine Linie gezogen wurde oder keine Möglichkeit mehr besteht,
+weitere Linien zu ziehen. Wenn keine Linien mehr gezogen werden können und noch nicht alle Charts separiert sind, kann das Dashboard  in Superset nicht reproduziert werden.
 
 |===
 |*Schritt 1* |*Schritt 2*
 
 a|image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=96%, title="Skizze"]
-a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=96%, title="Ausgangslage"]
+a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=96%, title="Ausgangslage Superset Dashboard"]
 
 
-a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=96%, title="Die einzige Möglichkeit eine Linie durchs Dashboard zu ziehen"]
+a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=96%, title="Die einzige Möglichkeit eine Linie durch das Dashboard zu ziehen"]
 a|image::einfuehrung_in_apache_superset/Verschachtelung0.PNG[pdfwidth=96%, title="Die waagrechte Linie von Schritt 1 teilt das Dashboard in zwei Rows"]
 
 
 a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=96%, title="In diesem Schritt sind zwei parallele Linien möglich"]
-a|image::einfuehrung_in_apache_superset/Verschachtelung1.PNG[pdfwidth=96%, title="Drei Charts können hier direkt eingesetzt werden"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung1.PNG[pdfwidth=96%, title="Drei Charts können hier direkt eingesetzt werden (Anstelle der roten Columns)"]
 
 
 a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=96%, title="Nun ist eine weitere horizontale Linie möglich"]
@@ -513,7 +516,7 @@ a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=96%, title="Hie
 a|image::einfuehrung_in_apache_superset/Verschachtelung3.PNG[pdfwidth=96%, title="Nur eine Column enthält mehr als einen Chart, weshalb nur eine Column gesetzt wird"]
 
 
-a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=96%, title="Die letzte linie, die gesetzt werden kann"]
+a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=96%, title="Die letzte Linie, die gesetzt werden kann"]
 a|image::einfuehrung_in_apache_superset/Verschachtelung4.PNG[pdfwidth=96%, title="Hier beinhalten beide Rows nur einen Chart, weshalb keine Rows gesetzt werden"]
 
 a|image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=96%, title="Hier nochmals die Skizze, die das gewünschte Resultat zeigt"]
