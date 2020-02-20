@@ -150,12 +150,12 @@ Als erstes musst du eine Datenquelle (Source) wählen.
 Unter image:einfuehrung_in_apache_superset/sources.PNG[] können die verschiedenen Tabellen eingesehen werden. 
 Hierbei kann man auf die Lupe image:einfuehrung_in_apache_superset/lupe.PNG[] klicken, um genauere Informationen über die Tabelle zu erhalten, 
 wie z.B. welche Spalten die Tabelle besitzt und welche Datentypen dort gespeichert werden können. 
-Zudem kann man unter _Columns_ einstellen, ob die Spalte zeitlich oder filterbar ist und nach ihr gruppiert werden darf.
+Zudem kann man unter _Columns_ einstellen, ob die Spalte zeitlich oder filterbar ist und ob nach ihr gruppiert werden darf.
 
 Um eine Tabelle abzufragen, muss man unter "Sources" den Menüpunkt "Tables" wählen und dann auf den Namen der Tabelle klicken. 
 In diesem Beispiel ist das `wb_health_population`. 
 Man kann nur eine Tabelle als Quelle auswählen. 
-Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse. In weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt wie das geht. 
+Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse. In weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt, wie das geht. 
 
 Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster bzw. ein neuer Browser Tab, worin man nun einen Chart erstellen kann.
 Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
@@ -224,7 +224,7 @@ _Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar. "Hierarch
 Setze bei _Hierarchy_ `region` an erster Stelle.
 Die Reihenfolge ist wichtig für die Darstellung, damit ersichtlich ist, in welcher Region 
 das jeweilige Land liegt und wie gross der Anteil gegenüber dessen Population ist.
-An dieser Stelle empfiehlt es sich, den in Aufgabe 2 erstellten Filter wieder zu entfernen oder anzupassen, damit es mehr Beispiele hat, bei denen man die Folgen des nächsten Schrittes sehen kann. 
+An dieser Stelle empfiehlt es sich, den in Aufgabe 2 erstellten Filter wieder zu entfernen oder anzupassen, damit es mehr Beispiele gibt, bei denen man die Folgen des nächsten Schrittes sehen kann. 
 
 IMPORTANT: Jeder Chart hat seine eigenen Optionen.
 
@@ -259,7 +259,7 @@ Der Chart wäre so schon brauchbar, aber du kannst noch unter _Options -> Compar
 
 _Comparison Period Lag_ legt fest, welche Jahre miteinander verglichen werden, um das prozentuale Wachstum anzuzeigen.
 Wenn du eine fünf bei _Comparison Period Lag_ eintippst, vergleicht es die letzte vorhandene Jahreszahl (in diesem Fall 2014),
-mit der Jahreszahl, die fünf Jahre zurückliegt (2009). 
+mit der Jahreszahl, die fünf Jahre weiter zurückliegt (2009). 
 
 Bei _Comparison suffix_ kannst du einen Text eingeben, der die Prozentzahl beschreibt.
 Der beschreibende Text wird direkt hinter der Prozentzahl angezeigt. 
@@ -409,7 +409,7 @@ Nach dem Hinzufügen einer Komponente kann durch Anklicken der unteren rechten E
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 8* +
-_Erstelle ein Dashboard mit allen zuvor erstellten Charts und Filter. Probiere am besten auch gerade die verschiedenen Komponenten aus!_
+_Erstelle ein Dashboard mit allen zuvor erstellten Charts und Filtern. Probiere am besten auch gerade die verschiedenen Komponenten aus!_
 
 .Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts mit 7 Charts und einem Filter
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
