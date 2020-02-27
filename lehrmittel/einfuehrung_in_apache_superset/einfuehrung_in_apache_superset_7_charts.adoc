@@ -73,7 +73,7 @@ NOTE: Wenn die Charts während der Erstellung nicht richtig angezeigt werden, ka
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
 
-=== Mein erster Chart
+=== Chart Nr. 1 Bevölkerung pro Land
 
 Als erstes musst du eine Datenquelle (Source) wählen. 
 Unter image:einfuehrung_in_apache_superset/sources.PNG[] können die verschiedenen Tabellen eingesehen werden. 
