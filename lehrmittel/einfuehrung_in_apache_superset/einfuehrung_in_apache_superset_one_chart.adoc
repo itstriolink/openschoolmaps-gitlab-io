@@ -241,7 +241,8 @@ Geschafft! Du solltest nun ein Dashboard zu den Weltbank-Daten haben, das du and
 
 TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direkt Jahreszahlen zu schreiben. Das Datum ist dann automatisch der erste Januar.
 
-Wer mehr über Apache Superset erfahren will, dem sei das ausführlichere Informationsblatt "Einführung in Apache Superset (7 Charts)" und "Apache Superset für Fortgeschrittene" auf OpenSchoolMaps empfohlen.
+Wer mehr über Apache Superset erfahren will, dem seien die ausführlicheren Informationsblätter "Einführung in Apache Superset (7 Charts)" und 
+"Apache Superset für Fortgeschrittene" auf OpenSchoolMaps empfohlen.
 
 .Diagramme, die in der Einführung in Apache Superset (7 Charts) vorgestellt werden.
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
