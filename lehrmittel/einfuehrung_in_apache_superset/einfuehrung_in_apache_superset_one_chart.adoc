@@ -37,7 +37,7 @@ Wenn Erkenntnisse anschaulich und nachvollziehbar dargestellt werden, erhöht da
 Visualisierung kann man zudem nicht nur zur Veranschaulichung einsetzen, sondern auch zur Datenanalyse. 
 Häufig erkennt man Zusammenhänge in den Daten erst durch eine geschickte Darstellung. 
 Wir Menschen sind schlecht darin, Zahlen zu vergleichen; grafische Muster dagegen erkennen wir gut. 
-Visualisierung stellt somit nicht nur die Daten graphisch dar, sondern kann auch als eigene Technik der Datenanalyse eingesetzt werden. 
+Visualisierung stellt somit nicht nur die Daten grafisch dar, sondern kann auch als eigene Technik der Datenanalyse eingesetzt werden. 
 Das Internet ermöglicht zudem die Publikation der Visualisierung und damit die einfache Kommunikation mit Kunden und Arbeitskollegen.
 
 Apache Superset ist so ein Daten-Visualisierungs- und Publikations-Werkzeug. 
