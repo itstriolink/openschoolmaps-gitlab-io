@@ -230,7 +230,7 @@ Um ein Dashboard zu teilen, musst du hinter dem _Edit dashboard_-Knopf auf das D
 Die URL kannst du nun einer anderen Person schicken, jedoch muss diese Person (d.h. deren Rolle) auch Zugriff auf die Daten haben, andernfalls wird nur ein Fehler (Error...)
 angezeigt.
 
-Um ein Dashboard zu publizieren, musst du lediglich rechts deben dem Namen des Dashboards auf "Draft" drücken, damit "Published" angezeigt wird. Ein publiziertes Dashboard
+Um ein Dashboard zu publizieren, musst du lediglich rechts neben dem Namen des Dashboards auf "Draft" drücken, damit "Published" angezeigt wird. Ein publiziertes Dashboard
 ist für andere User unter image:einfuehrung_in_apache_superset/dashboard.PNG[] sichtbar (sofern diese User zugriff auf die entsprechenden Datasources haben). Ein Dashboard, 
 welches als "Draft" markiert ist, ist zwar nicht für andere User sichtbar (Ausnahme: hochrangige User wie z.B. Admins), dennoch kann man mittels URL direkt drauf zugreifen.
 
