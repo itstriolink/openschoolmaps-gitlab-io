@@ -67,8 +67,6 @@ Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in der Abbildung 1
 * *"World's Pop Growth"* (Chart Nr. 5) visualisiert dieselben Daten wie Growth Rate, wird jedoch in Regionen aufgeteilt. 
 * Zuletzt gibt es noch einen etwas komplexeren Chart Nr. 6 *"Life Expectancy vs. rural %"*, der darstellt, wie hoch die Lebenserwartung in einem Land ist, in welcher Region es sich befindet und wie viel Prozent von der Bevölkerung ländlich lebt.
 
-NOTE: Wenn die Charts während der Erstellung nicht richtig angezeigt werden, kann das zum Teil behoben werden, indem man die Website neu lädt (F5).
-
 .Dashboard, das Daten der Weltbank zur Population visualisiert und zwar mit sieben interaktiven Charts (Nr. 1 - 7) plus einem Filter (Nr. 8).
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
@@ -91,26 +89,15 @@ Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
 
 Direkt darunter, bei _Visualization Type_ (Chart-Typ) steht _Table_, also ein einfaches Balken-Diagramm.  
 
-Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 anfangen und im Jahr 2014 aufhören. 
-Da wir in unserem Beispiel nur das Jahr 2014 betrachten wollen, verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
-
-NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn es keine Daten gibt, die Zeitabhängig sind, kann man `No filter` wählen.
+Als erstes musst du unter _Time_ die Zeitspanne anpassen. Da wir in unserem Beispiel nur das Jahr 2014 betrachten wollen, 
+verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
 
 
-NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintippen.
-
-
-Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst. 
-Dies kannst du tun, indem du auf das Textfeld unter _Metrics_ klickst und dann als Erstes ein _aggregate_ (das sind die Einträge, vor welchen *_AGG_* steht), und dann die entsprechende Spalte, wählst.
-Die Spalte _Metrics_ muss immer ausgefüllt sein. 
-Sie wird auch bei allen Darstellungen verwendet, um zu bestimmen, wie viel Gewicht diese Zeile hat (bei einem Kreis-Chart wäre das die Grösse des Abschnittes). 
+Unter _GROUP BY_ kannst du jetzt eine Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst.
 Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
 Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten. 
 
-Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen. 
-_Group by_ wird genutzt, um ein Total nach einem bestimmten Attribut aufzuteilen. Wenn man z.B. die Summe der Weltbevölkerung nach Ländernamen gruppiert,
-erhält man die Bevölkerung pro Land.
-Wähle darum hier das Attribut `country_name` aus (das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist). 
+Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen.Wähle hier das Attribut `country_name` aus, um die Bevölkerungpro Land zu erhalten. 
 
 Speichere nun diesen Chart als dein erstes Ergebnis in Apache Superset, z.B. mit dem Namen "Chart 1". 
 Du wirst diesen Chart später wieder brauchen.
