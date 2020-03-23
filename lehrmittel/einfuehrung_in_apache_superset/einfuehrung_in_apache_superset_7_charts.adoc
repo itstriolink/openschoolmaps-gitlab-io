@@ -95,9 +95,8 @@ verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
 
 Unter _GROUP BY_ kannst du jetzt eine Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst.
 Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
-Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten. 
-
-Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen.Wähle hier das Attribut `country_name` aus, um die Bevölkerungpro Land zu erhalten. 
+Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten. +
+Im Feld _Group by_ kannst du die Abfrage noch weiter unterteilen. Wähle hier das Attribut `country_name` aus, um die Bevölkerung pro Land zu erhalten. 
 
 Speichere nun diesen Chart als dein erstes Ergebnis in Apache Superset, z.B. mit dem Namen "Chart 1". 
 Du wirst diesen Chart später wieder brauchen.
@@ -331,27 +330,16 @@ _Erstelle ein Dashboard, bei dem alle zuvor erstellten Charts und Filter verwend
 .Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts mit 7 Charts und einen Filter
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
-== Dashboards mit anderen (übers Web) teilen
-Sobald du mit deinem Dashboard zufrieden bist, kannst du es publizieren. 
-Das geht indem du hinter dem _Edit dashboard_-Knopf auf das Dropdown-Menü und dort auf _Share dashboard_ klickst. 
-Den Link kannst du nun einer anderen Person schicken, jedoch muss diese Person (d.h. deren Rolle) auch Zugriff auf die Daten haben, andernfalls wird nur ein Fehler (Error...) angezeigt.
-
 
 == Abschluss
 
 Geschafft! Du solltest nun ein Dashboard zu den Weltbank-Daten haben, das du anderen zeigen kannst.
-
-TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direkt Jahreszahlen zu schreiben. Das Datum ist dann automatisch der erste Januar.
 
 Wer mehr über Apache Superset erfahren will, dem sei das Informationsblatt "Apache Superset für Fortgeschrittene" auf OpenSchoolMaps empfohlen.
 
 NOTE: Zu Apache Superset gibt es auch Kurse, u.a. am https://giswiki.hsr.ch/Agenda[Geometa Lab HSR].
 
 Gerne nehmen wir Rückmeldungen entgegen, siehe https://openschoolmaps.ch[OpenSchoolMaps] > _Weitere Unterrichtsideen_.
-
-
-
-
 
 
 == ANHANG: Die sieben Charts und Optionen
