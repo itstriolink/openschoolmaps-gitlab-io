@@ -196,6 +196,7 @@ Im Hintergrund muss das Datenbanksystem typischerweise ein sogenannter JOIN ausf
 
 Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden, hier gegeben die fiktiven Tabellen mytable (als die eigene Tabelle) und othertable (als die andere Tabelle) mit PostgreSQL als das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
 
+[source, sql]
 ----
 SELECT * 
 FROM mytable 
@@ -235,6 +236,7 @@ Wir verknüpfen dazu die Tabelle `country_codes` mit der Tabelle `factbook_data`
 IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` sind PostgresSQL-spezifisch. 
 Sie können nur bei Datenbanken verwendet werden, bei denen _Allow DML_ "True" ist.
 
+[source, sql]
 ----
 BEGIN;
 CREATE VIEW country_population_density AS
@@ -293,6 +295,7 @@ Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoo
 
 Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität eines Landes vergleicht und Durchschnittswerte berechnet:
 
+[source, sql]
 ----
 BEGIN;
 CREATE VIEW electricity_usage AS
@@ -618,6 +621,7 @@ Ein Dashboard kann die Darstellungs-Konfiguration (z.B. Chart-Farben) der Charts
 Dies ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_. 
 Hier wirst du ein Textfeld namens "JSON Metadata" finden. Dies könnte z.B. so aussehen (es kann auch sein, dass es leer ist):
 
+[source, json]
 ----
 {
   "filter_immune_slices": [],
@@ -633,14 +637,17 @@ Die Parameter gelten allgemein für alle Dashboards:
 
 
 * filter_immune_slices: Array von _slice_ids_ (int) von Charts, die nicht gefiltert werden sollen.
+[source, json]
 ----
 "filter_immune_slices": [324, 65, 92],
 ----
 * timed_refresh_immune_slices: Array von _slice_ids_, die vom Browser nicht automatisch neu geladen werden sollen.
+[source, json]
 ----
 "timed_refresh_immune_slices": [324]
 ----
 * filter_immune_slice_fields: Hier kannst du einstellen, ob bei gewissen Charts spezifische Felder nicht filterbar sein sollen.
+[source, json]
 ----
 {
     "filter_immune_slice_fields": {
@@ -650,10 +657,12 @@ Die Parameter gelten allgemein für alle Dashboards:
 }
 ----
 * refresh_frequency: Anzahl Sekunden bis der Browser die Daten vom Server automatisch neu lädt (Ganzzahl in Sekunden).
+[source, json]
 ----
 "refresh_frequency": 5
 ----
 * default_filters: Setzt Default-Werte in den Filter. Die _slice_id_ des Filters muss gegeben sein.
+[source, json]
 ----
 "default_filters": "{\"95\": {\"country_name\": [\"Kenya\"]}}"
 ----
@@ -669,6 +678,7 @@ gesetzt sein.
 
 Um die Farbe von einem Chart abzuändern, musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
 
+[source, json]
 ----
 {
   "label_colors": {
@@ -700,6 +710,7 @@ Kontaktiere den Sys-Admin falls nötig.
 
 Im Textfeld muss man eine Funktion schreiben, die einen String zurück gibt, der dann als Tooltip angezeigt wird. Hier ein einfaches Beispiel, welches den Tooltip zu "test" setzt:
 
+[source, javascript]
 ----
 function myFunction(punkt) {
     return 'test'
@@ -710,6 +721,7 @@ Um einen sinnvolleren Tooltip zu erhalten muss man zuerst die Daten auswählen, 
 
 Wenn du dir jetzt für jeden Punkt einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit dem Namen "Name", musst du die Funktion so schreiben: 
 
+[source, javascript]
 ----
 function myFunction(punkt) {
     return punkt.object.extraProps.Name
