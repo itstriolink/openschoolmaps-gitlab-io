@@ -16,7 +16,7 @@ Diese Arbeitsblatt dient zur Vertiefung der Lernziele, die in "Einführung in Ap
 Das Bearbeiten dieses Arbeitsblatts dauert ca. zwei Stunden, je nach deinem Vorwissen.
 
 Für diese Einführung werden keine Programmierkenntnisse vorausgesetzt; 
-Grundkenntnisse der Tabellenkalkulation genügen für's Erste. 
+Grundkenntnisse der Tabellenkalkulation genügen fürs Erste. 
 
 Für die Übungen in diesem Arbeitsblatt benötigst du Zugang zu einem Apache Superset-Service (vgl. "Einführung in Apache Superset: One Chart" -> 
 _Benutzerkonto erstellen/anmelden_), sowie einen gängigen Webbrowser (am besten funktioniert Superset auf Chrome) und eine Internetverbindung. 
