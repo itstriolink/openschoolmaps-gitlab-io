@@ -30,7 +30,7 @@ Die Daten zu diesem Arbeitsblatt kommen von der Weltbank (https://github.com/apa
 Die Daten beschreiben die Bevölkerung, urban/rural (Lebensraum) und die Lebenserwartung pro Land bzw. pro Region über die Jahre 1960 bis 2014.
 
 In diesem Arbeitsblatt wird nur die Tabelle `wb_health_population` (übersetzt etwa "Weltbank-Gesundheit-Bevölkerung").
-Davon verwenden wir folgende Kolonnen:
+Davon verwenden wir folgende Spalten:
 
 * Name des Landes: `country_name`
 * Weltregion, in der das Land liegt: `region`
