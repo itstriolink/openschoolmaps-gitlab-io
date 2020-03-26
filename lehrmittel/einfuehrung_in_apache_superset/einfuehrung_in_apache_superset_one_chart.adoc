@@ -1,6 +1,7 @@
 = Einführung in Apache Superset: Ein Chart
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
+:xrefstyle: short
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
@@ -95,10 +96,11 @@ Wir verwenden davon folgende Spalten:
 * Jahr der Datenerhebung (1960 - 2014): `year`
 * Anzahl Menschen insgesamt: `SP_POP_TOTL`
 
-Abbildung 1 zeigt die Daten, die wir nutzen werden. 
+<<abb_wb_health_population>> zeigt die Daten, die wir nutzen werden. 
 Nimm dir doch kurz Zeit und schaue dir diese Daten genau an. 
 Zu verstehen, welche Daten in welcher Spalte sind, ist eine Notwendigkeit, um sinnvolle und korrekte Diagramme erstellen zu können.
 
+[[abb_wb_health_population]]
 .Daten der Schweiz von 1960 - 1976 aus der Tabelle wb_health_population.
 image::einfuehrung_in_apache_superset/wb_health_population_table.png[, 860, 535]
 
@@ -107,11 +109,12 @@ image::einfuehrung_in_apache_superset/wb_health_population_table.png[, 860, 535]
 
 Apache Superset bietet derzeit 40 Charts an. Im Anhang findest du weitere Beispieldiagramme zur Tabelle 'wb_health_population', die in weiterführenden Arbeitsblättern vorgestellt werden (Siehe Kapitel "Abschluss").
 
-Am Ende dieser Anleitung wirst du einen Chart und einen Filter erstellt haben. (Abbildung 2)
+Am Ende dieser Anleitung wirst du einen Chart und einen Filter erstellt haben. (<<abb_Superset_Kurzeinfuehrung_Dashboard_1>>)
 
 * Links befindet sich ein Filter. Damit kann man die Datensätze auf bestimmte Regionen und Länder beschränken. 
 * Rechts befindet sich ein Kreis-Diagramm (Pie Chart), welches die zehn bevölkerungsreichsten Länder und deren Einwohnerzahlen (Metric) anzeigt.
 
+[[abb_Superset_Kurzeinfuehrung_Dashboard_1]]
 .Das Dashboard mit dem Kreis-Diagramm und dem Filter.
 image::einfuehrung_in_apache_superset/Superset_Kurzeinfuehrung_Dashboard.png[, 860, 535]
 
@@ -218,8 +221,9 @@ Nach dem Hinzufügen einer Komponente kann deren Grösse durch Anklicken der unt
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 3* +
-_Erstelle nun ein Dashboard, das der Abbildung 3 entspricht._
+_Erstelle nun ein Dashboard, das der <<abb_Superset_Kurzeinfuehrung_Dashboard_2>> entspricht._
 
+[[abb_Superset_Kurzeinfuehrung_Dashboard_2]]
 .Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts mit dem Pie-Chart und dem Filter
 image::einfuehrung_in_apache_superset/Superset_Kurzeinfuehrung_Dashboard.png[, 860, 535]
 
