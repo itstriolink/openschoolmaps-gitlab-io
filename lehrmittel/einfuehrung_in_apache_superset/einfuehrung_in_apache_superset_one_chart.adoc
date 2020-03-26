@@ -85,7 +85,7 @@ Wenn nötig, müssen die Daten mit Datenbanksystemen (SQL), Tabellenkalkulations
 (siehe u.a. https://openschoolmaps.ch/[OpenSchoolMaps] > "Einführung in QGIS 3 und in Geoinformationssysteme (GIS)"). 
 Hilfreich, um Daten zu bereinigen ("Data Wrangling"), kann hierbei auch z.B. http://openrefine.org/[OpenRefine] sein.
 
-In diesem Arbeitsblatt wird nur eine Tabelle verwendet, die Tabelle `wb_health_population` von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, Stand ca. 2017, übersetzt etwa "Weltbank-Gesundheit-Population").
+In diesem Arbeitsblatt wird nur eine Tabelle verwendet, die Tabelle `wb_health_population` von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, Stand ca. 2017, übersetzt etwa "Weltbank-Gesundheit-Bevölkerung").
 
 Die Tabelle `wb_health_population` hat ca. 328 Kolonnen (Attribute), d.h. sehr viele.
 Wir verwenden davon folgende Kolonnen:
@@ -146,7 +146,7 @@ NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn 
 NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintippen.
 
 
-Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metric_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst. 
+Unter _GROUP BY_ kannst du jetzt deine erste Abfrage definieren, indem du bei _Metric_ eine Spalte wie `SP_POP_TOTL` (Bevölkerung Total) auswählst und davon die Summe nimmst. 
 Dies kannst du tun, indem du auf das Textfeld unter _Metric_ klickst und als Erstes ein _aggregate_ (das sind die Einträge, vor welchen *_AGG_* steht) und dann die entsprechende Spalte wählst.
 Die Spalte _Metrics_ muss immer ausgefüllt sein. 
 Sie wird auch bei allen Darstellungen verwendet, um zu bestimmen, wie viel Gewicht diese Zeile hat. Bei unserem Pie-Chart ist es die Grösse des Abschnittes. 
