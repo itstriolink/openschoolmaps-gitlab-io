@@ -1,6 +1,7 @@
 = Einführung in Apache Superset: Sieben Charts
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
+:xrefstyle: short
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
@@ -40,13 +41,14 @@ Davon verwenden wir folgende Spalten:
 * Anteil an Personen, die auf dem Land wohnen (rural) in Prozent: `SP_RUR_TOTL_ZS`
 * Lebenserwartung: `SP_DYN_LE00_IN`
 
-Abbildung 1 zeigt die Daten, die wir nutzen werden. 
+<<abb_daten_schweiz>> zeigt die Daten, die wir nutzen werden. 
 Nimm dir doch auch hier wieder kurz Zeit und schaue dir diese Daten genau an. 
 
 Diese Daten wollen wir nun analysieren und uns fragen, ob sich Charakteristika oder Zusammenhänge erkennen lassen, wie beispielsweise: 
 "Leben in einem Land mehr Personen auf dem Land (rural) oder in der Stadt (urban)?", 
 oder "Gibt es einen Zusammenhang zwischen Lebenserwartung und ruralen bzw. urbanen Regionen?".
 
+[[abb_daten_schweiz]]
 .Daten von der Schweiz von 1960 - 1978 aus der Tabelle wb_health_population.
 image::einfuehrung_in_apache_superset/daten_schweiz.PNG[, 860, 549]
 
@@ -57,7 +59,7 @@ Am Ende dieser Anleitung wirst du sieben Charts erstellt haben (und einen Filter
 
 Schaue zuerst im Anhang nach, was Apache Superset alles für Diagramme (Charts) anbietet, wobei wir dort nur eine Auswahl getroffen haben von den über 40 Charts, die Superset zurzeit anbietet.
 
-Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in der Abbildung 1 in der Reihenfolge nummeriert, in der du sie gleich erstellen wirst.
+Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in <<abb_daten_schweiz>> in der Reihenfolge nummeriert, in der du sie gleich erstellen wirst.
 
 * Oben links befindet sich ein Filter (Nr. 8). Damit kann man die Datensätze auf eine Region oder Land beschränken. 
 * Direkt darunter ist Chart Nr. 3 zu sehen, benannt mit *"World's Population"*. Dieser zeigt wie gross die Bevölkerung ist und deren Wachstum mittels einer Linie. 
@@ -227,7 +229,7 @@ _Eine weitere Art diese Daten darzustellen, wäre mit einem Area Chart möglich.
 Chart Nr. 4 hat die Daten schon sehr stark aufgeteilt, lass uns den Chart so anpassen, dass die Aufteilung weniger stark ist, um einen besseren Überblick zu gewinnen.
 
 Bevor du auch diesen Chart wieder abspeicherst, lass dir das Wachstum der einzelnen Regionen anzeigen.
-Im Anhang findest du ein Bild (Abbildung Nr. 10) von dem Chart. Die Farben könnten evt. anders sein.
+Im Anhang findest du ein Bild (<<abb_worlds_pop_growth_pdf>>) von dem Chart. Die Farben könnten evt. anders sein.
 
 ifdef::show_solutions[]
 ====
@@ -364,6 +366,7 @@ image::einfuehrung_in_apache_superset/growth_rate_pdf.png[pdfwidth=75%]
 .Visualization Type: Big Number with Trendline (ist in Excel nicht vorhanden), links am Beispiel des Bevölkerungswachstums, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/worlds_pop_pdf.png[pdfwidth=75%]
 
+[[abb_worlds_pop_growth_pdf]]
 .Visualization Type: Area Chart (Entspricht Flächendiagramm in Excel) links am Beispiel des Bevölkerungswachstums verschiedener Regionen, rechts der dazugehörige Dialog.
 image::einfuehrung_in_apache_superset/worlds_pop_growth_pdf.png[pdfwidth=75%]
 
