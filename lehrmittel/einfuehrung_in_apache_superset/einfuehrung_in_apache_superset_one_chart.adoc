@@ -1,4 +1,4 @@
-= Einführung in Apache Superset: One Chart
+= Einführung in Apache Superset: Ein Chart
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
