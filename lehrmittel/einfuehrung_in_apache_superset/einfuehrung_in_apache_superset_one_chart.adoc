@@ -54,7 +54,7 @@ Der nützlichste Teil der Dokumentation ist das (kleine) FAQ Frequently Asked Qu
 === Benutzerkonto erstellen/anmelden
 
 Apache Superset ist eine Webapplikation und für den Zugang wird je nach Server ein Konto benötigt.
-Wenn du bereits Zugang zu einer Apache Superset Instanz hast, dann melde dich dort an.
+Wenn du bereits Zugang zu einer Apache-Superset-Instanz hast, dann melde dich dort an.
 
 Apache Superset kennt verschiedene Benutzer-Rollen, die bestimmte Rechte haben, um Daten zu verändern oder Funktionen aufzurufen. 
 In diesem Arbeitsblatt wird angenommen, dass du Benutzerrechte erhalten hast, die der "Gamma"-Rolle entsprechen, d.h. du kannst Charts und Dashboards erstellen.
