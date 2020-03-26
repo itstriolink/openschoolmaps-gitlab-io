@@ -181,7 +181,7 @@ endif::show_solutions[]
 
 
 
-== Aufgabe 2: Filter Box für das Dashboard
+=== Aufgabe 2: Filter Box für das Dashboard
 
 Jetzt, da wir einen Chart haben, wäre ein Filter praktisch, den man nachher im Dashboard anwenden kann. 
 Dafür muss man nur die _Filter Box_ als _Visualization Type_ auswählen und unter _Filters_ passende Spalten auswählen z.B. `region` und `country_name`. 
@@ -219,8 +219,8 @@ Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten
 
 Nach dem Hinzufügen einer Komponente kann deren Grösse durch Anklicken der unteren rechten Ecke angepasst werden. 
 
-image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
-*Aufgabe 3* +
+=== Aufgabe 3: Ein Dashboard erstellen
+
 _Erstelle nun ein Dashboard, das der <<abb_Superset_Kurzeinfuehrung_Dashboard_2>> entspricht._
 
 [[abb_Superset_Kurzeinfuehrung_Dashboard_2]]
