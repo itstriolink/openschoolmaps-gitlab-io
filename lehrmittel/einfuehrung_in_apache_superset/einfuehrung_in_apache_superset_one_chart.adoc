@@ -251,7 +251,7 @@ Wer mehr über Apache Superset erfahren will, dem seien die ausführlicheren Inf
 .Diagramme, die in der Einführung in Apache Superset (7 Charts) vorgestellt werden.
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
-NOTE: Zu Apache Superset gibt es auch Kurse, u.a. am https://giswiki.hsr.ch/Agenda[Geometa Lab HSR].
+TIP: Zu Apache Superset gibt es auch Kurse, u.a. am https://giswiki.hsr.ch/Agenda[Geometa Lab HSR].
 
 Gerne nehmen wir Rückmeldungen entgegen, siehe https://openschoolmaps.ch[OpenSchoolMaps] > _Weitere Unterrichtsideen_.
 
