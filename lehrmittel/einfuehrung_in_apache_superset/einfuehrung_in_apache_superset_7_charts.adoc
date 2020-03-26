@@ -68,6 +68,8 @@ Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in der Abbildung 1
 * *"World's Pop Growth"* (Chart Nr. 5) visualisiert dieselben Daten wie Growth Rate, wird jedoch in Regionen aufgeteilt. 
 * Zuletzt gibt es noch einen etwas komplexeren Chart Nr. 6 *"Life Expectancy vs. rural %"*, der darstellt, wie hoch die Lebenserwartung in einem Land ist, in welcher Region es sich befindet und wie viel Prozent von der Bevölkerung ländlich lebt.
 
+NOTE: Wenn die Charts während der Erstellung nicht richtig angezeigt werden, kann das zum Teil behoben werden, indem man die Website neu lädt (F5).
+
 .Dashboard, das Daten der Weltbank zur Bevölkerung visualisiert und zwar mit sieben interaktiven Charts (Nr. 1 - 7) plus einem Filter (Nr. 8).
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
