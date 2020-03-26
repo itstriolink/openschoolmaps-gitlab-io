@@ -94,9 +94,10 @@ Als erstes musst du unter _Time_ die Zeitspanne anpassen.
 Da wir in unserem Beispiel nur das Jahr 2014 betrachten wollen, verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
 
 
-Unter _GROUP BY_ kannst du jetzt eine Abfrage definieren, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst.
+Definiere jetzt unter _GROUP BY_ eine Abfrage, indem du bei _Metrics_ eine Spalte wie `SP_POP_TOTL` (Population Total) auswählst und davon die Summe nimmst.
 Wenn du jetzt _Run Query_ drückst, wird die Abfrage ausgeführt. 
-Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten. +
+Sie zeigt auf einer Zeile die Weltbevölkerung, also wie viele Menschen im Jahre 2014 lebten.
+
 Im Feld _Group by_ kannst du die Abfrage noch weiter unterteilen. Wähle hier das Attribut `country_name` aus, um die Bevölkerung pro Land zu erhalten. 
 
 Speichere nun diesen Chart als dein erstes Ergebnis in Apache Superset, z.B. mit dem Namen "Chart 1". 
