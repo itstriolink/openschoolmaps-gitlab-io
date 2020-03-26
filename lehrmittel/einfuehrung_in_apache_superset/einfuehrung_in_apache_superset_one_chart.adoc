@@ -99,7 +99,7 @@ Abbildung 1 zeigt die Daten, die wir nutzen werden.
 Nimm dir doch kurz Zeit und schaue dir diese Daten genau an. 
 Zu verstehen, welche Daten in welcher Spalte sind, ist eine Notwendigkeit, um sinnvolle und korrekte Diagramme erstellen zu können.
 
-.Daten von der Schweiz von 1960 - 1976 aus der Tabelle wb_health_population.
+.Daten der Schweiz von 1960 - 1976 aus der Tabelle wb_health_population.
 image::einfuehrung_in_apache_superset/wb_health_population_table.png[, 860, 535]
 
 
