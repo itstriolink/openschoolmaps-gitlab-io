@@ -87,8 +87,8 @@ Hilfreich, um Daten zu bereinigen ("Data Wrangling"), kann hierbei auch z.B. htt
 
 In diesem Arbeitsblatt wird nur eine Tabelle verwendet, die Tabelle `wb_health_population` von der Weltbank (https://github.com/apache/incubator-superset/blob/master/superset/examples/countries.md[Quelle], Lizenz CC BY-4.0, Stand ca. 2017, übersetzt etwa "Weltbank-Gesundheit-Bevölkerung").
 
-Die Tabelle `wb_health_population` hat ca. 328 Kolonnen (Attribute), d.h. sehr viele.
-Wir verwenden davon folgende Kolonnen:
+Die Tabelle `wb_health_population` hat ca. 328 Spalten (Attribute), d.h. sehr viele.
+Wir verwenden davon folgende Spalten:
 
 * Name des Landes: `country_name`
 * Weltregion, in der das Land liegt: `region`
