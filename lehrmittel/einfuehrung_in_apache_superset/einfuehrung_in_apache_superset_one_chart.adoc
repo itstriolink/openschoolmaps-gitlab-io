@@ -105,7 +105,7 @@ image::einfuehrung_in_apache_superset/wb_health_population_table.png[, 860, 535]
 
 == Charts (Diagramme)
 
-Apache Superset bietet zurzeit 40 Charts an. Im Anhang findest du weitere Beispieldiagramme zur 'wb_health_population' Tabelle, die in weiterführenden Informationsblättern vorgestellt werden (Siehe Kapitel "Abschluss").
+Apache Superset bietet derzeit 40 Charts an. Im Anhang findest du weitere Beispieldiagramme zur Tabelle 'wb_health_population', die in weiterführenden Arbeitsblättern vorgestellt werden (Siehe Kapitel "Abschluss").
 
 Am Ende dieser Anleitung wirst du einen Chart und einen Filter erstellt haben. (Abbildung 2)
 
