@@ -175,7 +175,7 @@ ifdef::show_solutions[]
 .Lösung
 Die Abfrage müsste wie folgt aussehen:
 
-image::Superset_Kurzeinfuehrung_aufg1_loesung.PNG[pdfwidth=85%]
+image::einfuehrung_in_apache_superset/Superset_Kurzeinfuehrung_aufg1_loesung.png[pdfwidth=85%]
 ====
 endif::show_solutions[]
 
@@ -194,7 +194,7 @@ ifdef::show_solutions[]
 .Lösung
 Die Abfrage müsste wie folgt aussehen:
 
-image::Superset_Kurzeinfuehrung_aufg2_loesung.PNG[pdfwidth=85%]
+image::einfuehrung_in_apache_superset/Superset_Kurzeinfuehrung_aufg2_loesung.png[pdfwidth=85%]
 ====
 endif::show_solutions[]
 
