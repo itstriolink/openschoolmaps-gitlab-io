@@ -198,7 +198,7 @@ endif::show_solutions[]
 == Charts zu einem Dashboard anordnen
 
 Unter image:einfuehrung_in_apache_superset/dashboard.PNG[] kannst du nun dein eigenes Dashboard erstellen, indem du oben rechts auf das _+_ drückst.
-In diesem Dashboard können nun dein Chart und dein Filter ausgestellt werden.
+In diesem Dashboard können nun dein Chart und dein Filter präsentiert werden.
 
 Beim Erstellen eines Dashboards kann man einiges einstellen, jedoch reicht es oft, nur das Feld _Title_ auszufüllen.
 
