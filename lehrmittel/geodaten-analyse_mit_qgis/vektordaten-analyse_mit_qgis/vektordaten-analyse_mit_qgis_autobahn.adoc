@@ -269,7 +269,7 @@ unter einem generischen Namen (hier: "`Zusammengeführt`") einbindet.
 Benenne ihn gegebenenfalls in "`zonen`" um.
 
 
-=== Aufgabe 5: Bearbeiten der Attributtabelle der Vektordatei `alle_zonen.shp`
+=== Aufgabe 5: Bearbeiten der Attributtabelle des Layers `zonen`
 
 Der neue Layer verfügt noch
 über keine sinnvollen Attributtwerte für die einzelnen Beeinträchtigungszonen.

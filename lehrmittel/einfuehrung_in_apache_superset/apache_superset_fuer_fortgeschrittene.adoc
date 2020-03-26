@@ -68,6 +68,15 @@ CSV-Datei hochladen:
 * Auf "Speichern" klicken.
 * Diesen Upload falls nötig wiederholen, beispielsweise mit der CSV-Datei `country_codes.csv` .
 
+[NOTE]
+====
+* "Header Row" wird automatisch auf 0 gesetzt, wenn man das Feld frei lässt.
+Somit ist es nicht sinnvoll, CSV-Dateien ohne Header Rows hochzuladen.
+
+* Bei _Append_ muss man sich bewusst sein, dass eine Row auch angehängt wird, wenn sie schon in der Tabelle vorhanden ist. 
+Somit können Duplikate entstehen, welche die Daten verfälschen.
+====
+
 Damit bist du mit dem Upload fertig und kannst zum nächsten Kapitel "Einen Chart erstellen" springen.
 
 Es empfiehlt sich jedoch zu überprüfen, ob die richtigen Datentypen für die entsprechenden Attribute ausgewählt wurden. 
@@ -187,6 +196,7 @@ Im Hintergrund muss das Datenbanksystem typischerweise ein sogenannter JOIN ausf
 
 Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden, hier gegeben die fiktiven Tabellen mytable (als die eigene Tabelle) und othertable (als die andere Tabelle) mit PostgreSQL als das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
 
+[source, sql]
 ----
 SELECT * 
 FROM mytable 
@@ -226,6 +236,7 @@ Wir verknüpfen dazu die Tabelle `country_codes` mit der Tabelle `factbook_data`
 IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` sind PostgresSQL-spezifisch. 
 Sie können nur bei Datenbanken verwendet werden, bei denen _Allow DML_ "True" ist.
 
+[source, sql]
 ----
 BEGIN;
 CREATE VIEW country_population_density AS
@@ -268,7 +279,7 @@ Falls bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausg
 Die Bevölkerungsdichte ist wie gesagt das Verhältnis zwischen Population und Fläche, also ein Attributs-Merkmal 'Ratio' (Verhältniszahl) pro Geometrie-Datentyp 'Area'. 
 Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte. In Superset sind das die _World Map_ und die _Country Map_. 
 
-NOTE: Verknüpfungen mittels einer normalen View -- wie oben erläutert -- können die Dauer, bis ein Chart angezeigt wird, erheblich erhöhen. 
+NOTE: Verknüpfungen, die wie oben erläutert, mittels einer normalen View erstellt werden, können die Dauer, bis ein Chart angezeigt wird, erheblich erhöhen. 
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
 
 
@@ -284,6 +295,7 @@ Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoo
 
 Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität eines Landes vergleicht und Durchschnittswerte berechnet:
 
+[source, sql]
 ----
 BEGIN;
 CREATE VIEW electricity_usage AS
@@ -609,6 +621,7 @@ Ein Dashboard kann die Darstellungs-Konfiguration (z.B. Chart-Farben) der Charts
 Dies ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_. 
 Hier wirst du ein Textfeld namens "JSON Metadata" finden. Dies könnte z.B. so aussehen (es kann auch sein, dass es leer ist):
 
+[source, json]
 ----
 {
   "filter_immune_slices": [],
@@ -624,14 +637,17 @@ Die Parameter gelten allgemein für alle Dashboards:
 
 
 * filter_immune_slices: Array von _slice_ids_ (int) von Charts, die nicht gefiltert werden sollen.
+[source, json]
 ----
 "filter_immune_slices": [324, 65, 92],
 ----
 * timed_refresh_immune_slices: Array von _slice_ids_, die vom Browser nicht automatisch neu geladen werden sollen.
+[source, json]
 ----
 "timed_refresh_immune_slices": [324]
 ----
 * filter_immune_slice_fields: Hier kannst du einstellen, ob bei gewissen Charts spezifische Felder nicht filterbar sein sollen.
+[source, json]
 ----
 {
     "filter_immune_slice_fields": {
@@ -641,10 +657,12 @@ Die Parameter gelten allgemein für alle Dashboards:
 }
 ----
 * refresh_frequency: Anzahl Sekunden bis der Browser die Daten vom Server automatisch neu lädt (Ganzzahl in Sekunden).
+[source, json]
 ----
 "refresh_frequency": 5
 ----
 * default_filters: Setzt Default-Werte in den Filter. Die _slice_id_ des Filters muss gegeben sein.
+[source, json]
 ----
 "default_filters": "{\"95\": {\"country_name\": [\"Kenya\"]}}"
 ----
@@ -660,6 +678,7 @@ gesetzt sein.
 
 Um die Farbe von einem Chart abzuändern, musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
 
+[source, json]
 ----
 {
   "label_colors": {
@@ -691,6 +710,7 @@ Kontaktiere den Sys-Admin falls nötig.
 
 Im Textfeld muss man eine Funktion schreiben, die einen String zurück gibt, der dann als Tooltip angezeigt wird. Hier ein einfaches Beispiel, welches den Tooltip zu "test" setzt:
 
+[source, javascript]
 ----
 function myFunction(punkt) {
     return 'test'
@@ -701,6 +721,7 @@ Um einen sinnvolleren Tooltip zu erhalten muss man zuerst die Daten auswählen, 
 
 Wenn du dir jetzt für jeden Punkt einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit dem Namen "Name", musst du die Funktion so schreiben: 
 
+[source, javascript]
 ----
 function myFunction(punkt) {
     return punkt.object.extraProps.Name
