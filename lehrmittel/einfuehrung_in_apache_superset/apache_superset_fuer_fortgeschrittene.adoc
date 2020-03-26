@@ -381,7 +381,7 @@ Datentyp-Rolle "Polygon":: Attribute vom Basis-Datentyp Text (ABC in Superset), 
 
 NOTE: Längengrade und Breitengrade basieren auf einem weltweit einheitlichen, geodätischen Koordinatensystem, dem "World Geodetic System 1984" (WGS 84). 
 Lat/Lon werden oft als Fliesskommazahlen behandelt. 
-Eigentlich genügt für die meisten Anwendungen eine Festkommazahl mit maximal 6 Nachkommastellen, also `NUMERIC(9,6)` (Beispiel von Lat/Lon für Rapperswil, was man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+Eigentlich genügt für die meisten Anwendungen eine Festkommazahl mit maximal 6 Nachkommastellen, also `NUMERIC(9,6)` (Beispiel von Lat/Lon für das Hauptgebäude der HSR Rapperswil, welches man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.223316, 8.8175570).
 
 Im folgenden Kapitel wird erklärt, was mit dem Datentyp-Encoding gemeint ist.
 
