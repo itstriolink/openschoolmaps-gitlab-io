@@ -135,7 +135,7 @@ Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL
 Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster, bzw. ein neuer Browser Tab, in dem man nun einen Chart erstellen kann.
 Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
 
-Direkt darunter, bei _Visualization Type_ (Chart-Typ) kann anstatt  _Table_ "Pie Chart" (Kreis-Diagramm) ausgewählt werden.  
+Direkt darunter, bei _Visualization Type_ (Chart-Typ) kann anstatt _Table_ "Pie Chart" (Kreis-Diagramm) ausgewählt werden.  
 
 Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 anfangen und im Jahr 2014 aufhören. 
 Da wir in unserem Beispiel nur das Jahr 2014 betrachten wollen, verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
