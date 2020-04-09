@@ -333,8 +333,8 @@ diesem Kapitel.
 
 === Geofabrik-Downloads
 
-Die Webseite von Geofabrik http://download.geofabrik.de/ bietet OpenStreetMap-Daten 
-für ganze Länder und Regionen an, die natürlich frei nutzbar sind.
+Die Webseite von Geofabrik http://download.geofabrik.de/ bietet kostenlose und frei nutzbare OpenStreetMap-Daten 
+für ganze Länder und Regionen an.
 Die Daten können dort als Shapefiles (`.shp.zip`) oder aber in den 
 OSM-spezifischen Formaten `.osm.pbf` und `.osm.bz2` heruntergeladen werden.
 
