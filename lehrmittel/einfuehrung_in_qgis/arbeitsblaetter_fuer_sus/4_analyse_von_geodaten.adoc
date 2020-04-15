@@ -140,11 +140,12 @@ Einführung über die wichtigsten Ausdrücke einer Abfrage mit SQL.
 
 Eine _SQL-Abfrage_ ist vereinfacht dargestellt wie folgt aufgebaut:
 
-....
+[source,sql]
+----
 SELECT Auswahlliste
 FROM Quelle
-WHERE Where-Klausel
-....
+WHERE Where_Klausel
+----
 
 Überblick über die Variablen, die du für einfache Abfragen kennen solltest:
 
@@ -243,18 +244,20 @@ http://tel.local.ch/de/ durchgeführt hast._
 ifdef::show_solutions[]
 ====
 .Lösung 1
-....
+[source,sql]
+----
 SELECT * 
 FROM Seen
 WHERE "Flaeche" > 20 AND "max_Tiefe" < 400 
-....
+----
 
 .Lösung 2
-....
+[source,sql]
+----
 SELECT * 
 FROM Adressen
 WHERE "Name" = 'Müller' AND "Vorname" = 'Peter' AND "Ort" = 'Bern'
-....
+----
 ====
 endif::show_solutions[]
 
@@ -324,8 +327,8 @@ Kommen wir nun aber zum Anfangsbeispiel zurück. Diese Abfrage ist etwas
 komplizierter. Öffne durch Klicken auf den Button _Objekte über Ausdruck wählen_
 den Abfrageeditor. Hier kann die Abfrage in Form einer _SQL_-Abfrage formuliert 
 werden. Es muss jedoch nur die _Where-Klausel_ der _SQL_-Abfrage eingegeben 
-werden. Von "_SELECT * FROM Seen WHERE max_Tiefe > 100_" muss also nur der Teil 
-"_max_Tiefe > 100_" ins Abfragefeld eingetippt werden.
+werden. Von `SELECT * FROM Seen WHERE max_Tiefe > 100` muss also nur der Teil 
+`max_Tiefe > 100` ins Abfragefeld eingetippt werden.
 
 Die einzelnen Komponenten der Where-Klausel können durch Doppelklick auf die 
 Felder im rechten Fenster zusammengesetzt werden.
@@ -338,9 +341,10 @@ führe die Abfrage durch. Wie viele Seen erfüllen diese Bedingungen?_
 ifdef::show_solutions[]
 ====
 .Lösung
-....
+[source,sql]
+----
 "Hoehe_muM" < 400 AND "Flaeche" > 20
-....
+----
 4 Seen
 ====
 endif::show_solutions[]
@@ -375,11 +379,12 @@ nun aber als eigenständige SQL-Abfrage. Wie lautet die SQL-Abfrage?_
 ifdef::show_solutions[]
 ====
 .Lösung
-....
+[source,sql]
+----
 SELECT *
 FROM Seen
 WHERE "Hoehe_muM" < 400 AND "Flaeche" > 20
-....
+----
 _(Resultatliste mit 4 Seen)_
 ====
 endif::show_solutions[]
@@ -558,9 +563,10 @@ _Wie lautet die Where-Klausel?_
 ifdef::show_solutions[]
 ====
 .Lösung
-....
+[source,sql]
+----
 "Dichte" > 200 AND "Beitrittsj" > 1800 AND "Beitrittsj" < 1900
-....
+----
 ====
 endif::show_solutions[]
 
@@ -647,12 +653,13 @@ Tabellen und Attribute sollen von den Daten der Übung übernommen werden.
 ifdef::show_solutions[]
 ====
 .Lösung
-....
+[source,sql]
+----
 SELECT * 
 FROM Kantonsgrenzen 
 WHERE "Einwohner" / "Flaeche" > 200 AND "Beitrittsj" < 1600 
 AND "Name" NOT LIKE 'Z%'
-....
+----
 ====
 endif::show_solutions[]
 
@@ -675,11 +682,12 @@ Bedingungen erfüllen mussten.
 ifdef::show_solutions[]
 ====
 .Lösung
-....
+[source,sql]
+----
 SELECT *
 FROM Kantonsgrenzen, Seen
 WHERE Kantonsgrenzen."Beitrittsj" > 1600 AND Seen."Flaeche" > 50
 AND st_intersects(Kantonsgrenzen."geometry", Seen."geometry")
-....
+----
 ====
 endif::show_solutions[]
