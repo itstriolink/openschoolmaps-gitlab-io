@@ -140,11 +140,10 @@ Einführung über die wichtigsten Ausdrücke einer Abfrage mit SQL.
 
 Eine _SQL-Abfrage_ ist vereinfacht dargestellt wie folgt aufgebaut:
 
-[source,sql]
 ----
 SELECT Auswahlliste
 FROM Quelle
-WHERE Where_Klausel
+WHERE Where-Klausel
 ----
 
 Überblick über die Variablen, die du für einfache Abfragen kennen solltest:
