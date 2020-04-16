@@ -673,7 +673,7 @@ _"Selektiere alle Kantone, die nach 1600 der Schweiz beigetreten sind und
 Kontakt mit einem See haben, der grösser als 50 km^2^ ist"_
 
 Bei der Beantwortung dieser Frage müssen nur die Seen berücksichtigt werden, 
-welche im GeoPackage qgis_einfuehrung_daten.gpkg abgespeichert sind. Führe die 
+welche im GeoPackage `qgis_einfuehrung_daten.gpkg` abgespeichert sind. Führe die 
 Abfrage durch und schreibe Schritt für Schritt auf, wie du dabei vorgehst. 
 Kleiner Tipp: Denke an die Aufgabe aus der Übung, in welcher die Namen aller 
 Hauptorte selektiert wurden, deren zugehörige Kantone gewisse thematische 
