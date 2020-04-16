@@ -32,7 +32,7 @@ _Löse als Einstieg in das Kapitel Datenanalyse folgende Aufgaben:_
 . _Suche 1: Rufe die Homepage http://tel.local.ch/de/ auf und gib den Namen und 
 falls bekannt auch den Wohnort einer Person ein, die du kennst und die einen 
 Eintrag im Telefonbuch haben könnte (z.B. deine Eltern oder deine 
-Grosseltern). Klicke anschliessend auf den _Suchen_-Button. Was ist das 
+Grosseltern). Klicke anschliessend auf den Suchen-Button. Was ist das 
 Resultat deiner Suche? In welcher Form sind die Eingabe und die Ausgabe der 
 Suche, wenn du die Suche auf der Seite tel.local.ch allgemein betrachtest?_
 . _Suche 2: Rufe als nächstes die Homepage http://www.sbb.ch/ auf und suche 
@@ -151,7 +151,7 @@ WHERE Where_Klausel
 
 *Auswahlliste:*
 Namen aller Attribute, die als Resultat angezeigt werden sollen.
-Ein * bedeutet, es werden alle Attribute angezeigt.
+Ein `*` bedeutet, es werden alle Attribute angezeigt.
 Bei thematischen Abfragen innerhalb einer Attributtabelle ist nur die Abfrage 
 nach allen Attributen möglich und auch die (Attribut-) Quelle ist gegeben.
 Deshalb konzentrieren wir uns zuerst auf die Where-Klausel.
