@@ -390,7 +390,7 @@ dafür ist sie einfach und sollte für die meisten Anwendungen genügen.
 === Schritt 1:
 Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen und durch keinen Chart gehen.
 Wenn es mehrere Linien gibt, müssen alle parallel zueinander sein. 
-In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit (siehe <<Aufteilung0>>).
+In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit (siehe Abb. 15).
 
 NOTE: In der ersten Ausführung dieses Schrittes spielt es keine Rolle,
 ob die Linien horizontal oder vertikal sind.
