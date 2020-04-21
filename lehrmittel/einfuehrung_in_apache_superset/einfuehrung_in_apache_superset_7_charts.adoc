@@ -416,6 +416,7 @@ Eine Row bzw. Column soll nur gesetzt werden, wenn sie mehr als einen Chart umsc
 Wenn die Row / Column nur einen Chart umschliesst,
 werden an den entsprechenden Stellen die Charts direkt eingesetzt. (Charts sind dunkelgrau markiert)
 
+[[Vorgehen]]
 === Vorgehen
 Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen,
 bis zwischen allen Charts eine Linie gezogen wurde oder keine Möglichkeit mehr besteht,
@@ -458,5 +459,19 @@ a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=96%, title="Hier
 
 |===
 
+=== Nicht-Umsezbare Skizzen
+
+Wie im Abschnitt <<Vorgehen>> schon erwähnt,
+kann man nicht alle möglichen Dashboard-Ideen umsetzen.
+Ein Beispiel für eine nicht-umsetzbare Skizze zeigt folgendes Bild:
+
+.Eine nicht-umsetzbare Skizze
+image::einfuehrung_in_apache_superset/nicht_umsetzbar.PNG[pdfwidth=75%]
+
+Wenn man bei dieser Skizze versucht, das Dashboard aufzuteilen,
+endet das immer damit, dass man einen Chart kreuzt, wie im folgenden Bild:
+
+.Die linie kreuzt einen Chart
+image::einfuehrung_in_apache_superset/nicht_umsetzbar_Aufteilung.PNG[pdfwidth=75%]
 
 include::../../snippets/quellenangabe.adoc[]
