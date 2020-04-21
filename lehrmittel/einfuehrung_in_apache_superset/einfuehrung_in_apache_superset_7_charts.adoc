@@ -463,7 +463,7 @@ a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=96%, title="Hier
 
 Wie im Abschnitt <<Vorgehen>> schon erwähnt,
 kann man nicht alle Dashboard-Ideen umsetzen.
-Ein Beispiel für eine nicht-umsetzbare Skizze zeigt folgendes Bild:
+Ein Beispiel für eine nicht umsetzbare Skizze zeigt folgendes Bild:
 
 .Eine nicht umsetzbare Skizze
 image::einfuehrung_in_apache_superset/nicht_umsetzbar.PNG[pdfwidth=40%]
