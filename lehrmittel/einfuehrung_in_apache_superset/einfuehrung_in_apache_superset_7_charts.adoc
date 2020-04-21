@@ -465,7 +465,7 @@ Wie im Abschnitt <<Vorgehen>> schon erwähnt,
 kann man nicht alle möglichen Dashboard-Ideen umsetzen.
 Ein Beispiel für eine nicht-umsetzbare Skizze zeigt folgendes Bild:
 
-.Eine nicht-umsetzbare Skizze
+.Eine nicht umsetzbare Skizze
 image::einfuehrung_in_apache_superset/nicht_umsetzbar.PNG[pdfwidth=40%]
 
 Wenn man bei dieser Skizze versucht, das Dashboard aufzuteilen,
