@@ -381,7 +381,7 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 
 Die Gestaltung des Dashboards ist für die übersichtliche Darstellung der Charts sehr wichtig.
 Wenn man ein Dashboard entwerfen will,
-kann es sinnvoll sein, zuerst eine Skizze (Beispiel Abb. 13) zu kreieren. 
+kann es sinnvoll sein, zuerst eine Skizze (Beispiel <<Skizze>>) zu kreieren. 
 Hier wird eine Art erläutert, wie man eine Verschachtelung von Rows und Columns erstellt,
 die dieser Skizze entspricht. 
 Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt werden),
@@ -390,7 +390,7 @@ dafür ist sie einfach und sollte für die meisten Anwendungen genügen.
 === Schritt 1:
 Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen und durch keinen Chart gehen.
 Wenn es mehrere Linien gibt, müssen alle parallel zueinander sein. 
-In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit (siehe Abb. 15).
+In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit (siehe <<Aufteilung0>>).
 
 NOTE: In der ersten Ausführung dieses Schrittes spielt es keine Rolle,
 ob die Linien horizontal oder vertikal sind.
@@ -417,11 +417,15 @@ kann das Dashboard  in Superset nicht reproduziert werden.
 |===
 |*Schritt 1* |*Schritt 2*
 
-a|image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=96%, title="Skizze"]
+a|[[Skizze]]
+.Skizze
+image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=96%]
 a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=96%, title="Ausgangslage Superset Dashboard"]
 
 
-a|image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=96%, title="Die einzige Möglichkeit eine Linie durch das Dashboard zu ziehen"]
+a|[[Aufteilung0]]
+.Die einzige Möglichkeit eine Linie durch das Dashboard zu zuiehen
+image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=96%]
 a|image::einfuehrung_in_apache_superset/Verschachtelung0.PNG[pdfwidth=96%, title="Die waagrechte Linie von Schritt 1 teilt das Dashboard in zwei Rows"]
 
 
