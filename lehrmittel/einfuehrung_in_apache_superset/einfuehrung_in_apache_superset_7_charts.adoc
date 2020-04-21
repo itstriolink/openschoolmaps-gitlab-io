@@ -424,7 +424,7 @@ a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=96%, title="Au
 
 
 a|[[Aufteilung0]]
-.Die einzige Möglichkeit eine Linie durch das Dashboard zu zuiehen
+.Die einzige Möglichkeit, eine Linie durch das Dashboard zu ziehen
 image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=96%]
 a|image::einfuehrung_in_apache_superset/Verschachtelung0.PNG[pdfwidth=96%, title="Die waagrechte Linie von Schritt 1 teilt das Dashboard in zwei Rows"]
 
