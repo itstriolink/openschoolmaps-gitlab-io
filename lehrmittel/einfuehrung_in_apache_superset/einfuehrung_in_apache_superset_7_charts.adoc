@@ -394,7 +394,7 @@ da sie die Aufteilung um einiges einfacher macht
 und damit der Überblick nicht verloren geht.
 
 === Schritt 2:
-Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen und durch keinen Chart gehen.
+Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen und keinen Chart kreuzen.
 Die Linien müssen nicht zwingend durch das ganze Dashboard gehen,
 sie können auch von einer zuvor gezeichneten Linie ausgehen,
 solange sie keinen Chart kreuzen.
