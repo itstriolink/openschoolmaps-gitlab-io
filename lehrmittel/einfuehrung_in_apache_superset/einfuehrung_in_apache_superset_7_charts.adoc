@@ -412,7 +412,7 @@ Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 
 bis zwischen allen Charts eine Linie gezogen wurde oder keine Möglichkeit mehr besteht,
 weitere Linien zu ziehen.
 Wenn keine Linien mehr gezogen werden können und noch nicht alle Charts mit Linien voneinander getrennt sind,
-kann das Dashboard  in Superset nicht reproduziert werden.
+kann die Skizze nicht als Dashboard in Superset umgesetzt werden.
 
 |===
 |*Schritt 1* |*Schritt 2*
