@@ -466,12 +466,12 @@ kann man nicht alle möglichen Dashboard-Ideen umsetzen.
 Ein Beispiel für eine nicht-umsetzbare Skizze zeigt folgendes Bild:
 
 .Eine nicht-umsetzbare Skizze
-image::einfuehrung_in_apache_superset/nicht_umsetzbar.PNG[pdfwidth=75%]
+image::einfuehrung_in_apache_superset/nicht_umsetzbar.PNG[pdfwidth=40%]
 
 Wenn man bei dieser Skizze versucht, das Dashboard aufzuteilen,
 endet das immer damit, dass man einen Chart kreuzt, wie im folgenden Bild:
 
 .Die linie kreuzt einen Chart
-image::einfuehrung_in_apache_superset/nicht_umsetzbar_Aufteilung.PNG[pdfwidth=75%]
+image::einfuehrung_in_apache_superset/nicht_umsetzbar_Aufteilung.PNG[pdfwidth=40%]
 
 include::../../snippets/quellenangabe.adoc[]
