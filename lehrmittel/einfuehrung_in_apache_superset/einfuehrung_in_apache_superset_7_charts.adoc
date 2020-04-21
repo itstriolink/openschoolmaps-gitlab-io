@@ -388,6 +388,12 @@ Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt
 dafür ist sie einfach und sollte für die meisten Anwendungen genügen.
 
 === Schritt 1:
+Als erstes soll eine Skizze erstellt werden.
+Für unser vorgehen ist eine Skizze von Vorteil,
+da sie die Aufteilung um einiges einfacher macht
+und damit der Überblick nicht verloren geht.
+
+=== Schritt 2:
 Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen und durch keinen Chart gehen.
 Wenn es mehrere Linien gibt, müssen alle parallel zueinander sein. 
 In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit (siehe <<Aufteilung0>>).
@@ -398,8 +404,8 @@ Danach sollten die Linien von zwei aufeinanderfolgenden Schritten immer senkrech
 Wenn man zweimal nacheinander parallele Linien erhält,
 hätte man die zwei Schritte zu einem zusammenfassen können.
 
-=== Schritt 2:
-Im 2. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard einzufügen.
+=== Schritt 3:
+Im 3. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard einzufügen.
 Was man ins Dashboard einfügen soll, hängt von der vorherigen Ausführung des ersten Schrittes ab.
 Wenn man auf der Skizze eine horizontale Linie gezeichnet hat, fügt man zwei Rows ein.
 Wenn man eine vertikale Linie gezogen hat, setzt man zwei Columns.
