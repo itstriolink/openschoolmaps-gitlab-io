@@ -53,7 +53,7 @@ Aus Kompatibilitätsgründen empfehle ich dir diese Version zu installieren:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_windows_version.PNG[pdfwidth=100%]
 
-VORSICHT, UNTER WINDOWS 10 GIBT ES EINIGE SICHERHEITSWARNUNGEN BEIM INSTALLIEREN DER SOFTWARE.
+WARNING: Vorsicht, unter Windows 10 gibt es einige Sicherheitswarnungen beim Installieren der Software.
 
 ===== Installationsschritte
 
@@ -155,7 +155,7 @@ Danach kannst du dir deine Hintergrundkarten selbst zusammenstellen.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergrund_auswahl.PNG[pdfwidth=75%]
 
-**VERGISS NICHT, DIE AUSWAHL DIE DU GETROFFEN HAST ZU AKTIVIEREN!**
+CAUTION: Vergiss nicht, die Auswahl die DU getroffen haSt zu aktivieren!
 
 ==== Kurzwahl definieren
 
