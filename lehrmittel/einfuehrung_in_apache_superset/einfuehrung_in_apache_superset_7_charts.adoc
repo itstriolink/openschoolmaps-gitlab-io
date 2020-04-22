@@ -382,8 +382,9 @@ image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=
 Die Gestaltung des Dashboards ist für die übersichtliche Darstellung der Charts sehr wichtig.
 Wenn man ein Dashboard entwerfen will,
 kann es sinnvoll sein, zuerst eine Skizze (Beispiel <<Skizze>>) zu kreieren. 
-Hier wird eine Art erläutert, wie man eine Verschachtelung von Rows und Columns erstellt,
-die dieser Skizze entspricht. 
+Hier wird eine Methode vorgestellt,
+wie man mit verschachtelten Rows und Columns ein Dashboard so einteilen kann,
+dass es einer solchen Skizze entspricht.
 Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt werden),
 dafür ist sie einfach und sollte für die meisten Anwendungen genügen.
 
