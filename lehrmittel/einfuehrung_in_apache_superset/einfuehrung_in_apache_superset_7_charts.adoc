@@ -418,7 +418,7 @@ werden an den entsprechenden Stellen die Charts direkt eingesetzt. (Charts sind 
 
 [[Vorgehen]]
 === Vorgehen
-Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 1 und Schritt 2 ausführen,
+Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 2 und Schritt 3 ausführen,
 bis zwischen allen Charts eine Linie gezogen wurde oder keine Möglichkeit mehr besteht,
 weitere Linien zu ziehen.
 Wenn keine Linien mehr gezogen werden können und noch nicht alle Charts mit Linien voneinander getrennt sind,
