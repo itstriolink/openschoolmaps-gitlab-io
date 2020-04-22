@@ -1,12 +1,12 @@
 = JOSM-Einführung
 :imagesdir: ../../bilder/
-:toc-title: INHALTSVERZEICHNIS
+:toc-title: Inhaltsverzeichnis
 :toc:
 :toclevels: 3
 
-== DOKUMENTINFORMATIONEN
+== Dokumentinformationen
 
-=== ÄNDERUNGEN
+=== Änderungen
 
 [%header,format=csv]
 |===
@@ -15,7 +15,7 @@ Version,Datum,Autoren,Bemerkungen
 1.0,19.04.2020,NUC,Fertigstellung 1. Version / Lizenz angepasst
 |===
 
-=== WEITERFÜHRENDE DOKUMENTE
+=== Weiterführende Dokumente
 
 [%header,format=csv]
 |===
@@ -23,7 +23,7 @@ Version,Datum,Autoren,Bemerkungen
  , , , 
 |===
 
-=== ZWECK DIESES DOKUMENTS
+=== Zweck dieses Dokuments
 
 Dieses Dokument beschreibt JOSM.
 JOSM steht für **J**ava **O**pen**S**treet**M**ap Editor.
@@ -32,22 +32,22 @@ Ebenso wird anhand von Beispielen die einfache Anwendung beschrieben.
 Die Seiten wurden so unterteilt,
 dass das Anwendungsbeispiel separat ausgedruckt und verwendet werden kann.
 
-=== LIZENZ
+=== Lizenz
 
 Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung 3.0 Switzerland.
 Um eine Kopie dieser Lizenz zu sehen, besuchen Sie https://creativecommons.org/licenses/by/3.0/
 
 image::cc_3.0_licence.png[pdfwidth=15%]
 
-== SOFTWARE
+== Software
 
-=== INSTALLATION
+=== Installation
 
-==== LINK ZUR INSTALLATION
+==== Link zur installation
 
 Du findest die Software JOSM unter folgendem Link: https://josm.openstreetmap.de/
 
-===== WINDOWS 10
+===== Windows 10
 
 Aus Kompatibilitätsgründen empfehle ich dir diese Version zu installieren:
 
@@ -55,7 +55,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_windows_version.PNG[pd
 
 VORSICHT, UNTER WINDOWS 10 GIBT ES EINIGE SICHERHEITSWARNUNGEN BEIM INSTALLIEREN DER SOFTWARE.
 
-===== INSTALLATIONSSCHRITTE
+===== Installationsschritte
 
 . Sprache wählen
 +
@@ -69,19 +69,19 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/installation_wizard.PNG[pdf
 +
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/full_installation.PNG[pdfwidth=40%]
 
-===== JAVA WIRD BENÖTIGT
+===== Java wird benötigt
 
 Solltest du noch kein Java installiert haben, musst du dies für die Nutzung von JOSM noch installieren.
 Der Installationswizard führt dich direkt auf die Downloadseite von Java.
 Sollte dies nicht so sein, folge diesem Link: https://www.java.com/de/download/
 
-==== MAC OS
+==== Mac OS
 
 Aus Kompatibilitätsgründen empfehle ich dir, diese Version zu installieren
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac_os_version.PNG[pdfwidth=100%]
 
-===== INSTALLATIONSSCHRITTE
+===== Installationsschritte
 
 Öffne das heruntergeladene ZIP und zieh die JOSM Datei einfach in den Programme Ordner rein.
 Beim ersten Öffnen erscheint eine Warnung da das Paket aus einer nicht verifizierten Quelle stammt.
@@ -95,26 +95,26 @@ das Aussehen ähnelt aber mehr dem von MacOS.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac.PNG[pdfwidth=90%]
 
-===== JAVA WIRD BENÖTIGT
+===== Java wird benötigt
 
 Solltest du noch kein Java installiert haben, musst du dies für die Nutzung von JOSM noch installieren.
 Der Installationswizard führt dich direkt auf die Downloadseite von Java.
 Sollte dies nicht so sein, folge diesem Link: https://www.java.com/de/download/
 
-== JOSM ANWENDEN
+== JOSM anwenden
 **Ungeachtet dass oben beide Versionen zur Installation angeleitet wurden,
 beziehen sich weitere Screenshots immer auf die Windows Version von JOSM**
 
-=== JOSM DAS ERSTE MAL STARTEN
+=== JOSM das erste Mal starten
 
-==== AKTUALISIERUNG DER ERWEITERUNGEN
+==== Aktualisierung der Erweiterungen
 
 Beim ersten Start wirst Du aufgefordert, die Erweiterungen, die vorinstalliert waren, zu aktualisieren.
 Das solltest Du auf jeden Fall machen.
 
 Diese Meldung kommt von Zeit zu Zeit auch beim Starten von JOSM wenn es Aktualisierungen zu Erweiterungen gibt.
 
-==== STARTBILDSCHIRM
+==== Startbildschirm
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_startbildschirm.PNG[pdfwidth=100%]
 
@@ -123,9 +123,9 @@ Zusätzlich kriegst du immer die Change Logs angezeigt, der letzten Versionen.
 
 Ebenfalls auf diesem Bildschirm wird angezeigt, sobald es eine neue Version gibt.
 
-== JOSM EINRICHTEN
+== JOSM einrichten
 
-=== BENUTZERDATEN
+=== Benutzerdaten
 
 Am Anfang von JOSM würde ich dir gleich empfehlen, deine Benutzerdaten zu hinterlegen.
 Dazu kannst du einfach unter **Bearbeiten->Einstellungen** unter folgendem Symbol:
@@ -139,7 +139,7 @@ und du erhältst danach verschlüsselt die Zugriffskennung und einen geheimen Te
 Wenn du magst, kannst du die Zugriffskennung testen, musst du aber nicht.
 Danach wirst du eine Bestätigung erhalten, dass deine Daten auf dem offiziellen OSM Server akzeptiert wurden.
 
-=== HINTERGRÜNDE
+=== Hintergründe
 
 JOSM bietet eine Vielzahl an Hintergrundkarten bereits ab Grundinstallation an.
 Nicht weniger kann man JOSM soweit individualisieren, dass man WMS Services anbieten kann.
@@ -148,7 +148,7 @@ der kann ganz einfach einen WMS Dienst anbinden.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergruende.PNG[pdfwidth=90%]
 
-==== HINTERGRUND WÄHLEN
+==== Hintergrund wählen
 
 Um einen Hintergrund zu wählen wählst du im oben gezeigten Screenshot “Hintergrund-Einstellungen”.
 Danach kannst du dir deine Hintergrundkarten selbst zusammenstellen.
@@ -157,7 +157,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergrund_auswahl.PNG[pdf
 
 **VERGISS NICHT, DIE AUSWAHL DIE DU GETROFFEN HAST ZU AKTIVIEREN!**
 
-==== KURZWAHL DEFINIEREN
+==== Kurzwahl definieren
 
 Um nicht jedes Mal die Hintergrundleiste aufmachen zu müssen,
 kann man eine Kurzwahl über die Symbolleiste anlegen.
@@ -171,14 +171,14 @@ erscheint die Kartenansicht in eurer Symbolleiste am oberen Rand und du kannst d
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/symbolleiste.PNG[pdfwidth=100%]
 
-=== ERWEITERUNGEN
+=== Erweiterungen
 
 Zur Einrichtung von JOSM gehören auch Erweiterungen.
 Die Vielfältigkeit die Erweiterungen bieten, möchte ich gerne im <<erweiterungen, Kapitel Erweiterungen>> erläutern.
 
-== JOSM BENUTZEN
+== JOSM benutzen
 
-=== DATEN HERUNTERLADEN
+=== Daten herunterladen
 
 Um Daten herunterzuladen musst du folgendes Symbol verwenden:
 image:osm_editieren/osm_bearbeiten/josm_einfuehrung/download_symbol.PNG[pdfwidth=5%]
@@ -197,25 +197,25 @@ Sobald du die Daten heruntergeladen hast, siehst du folgenden Screen:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/screen_nach_datendownload.PNG[pdfwidth=60%]
 
-=== DATEN BEARBEITEN
+=== Daten bearbeiten
 
 In JOSM lässt sich alles pflegen was man mit dem bekannten Browser Editor iD auch machen kann.
 Jede Funktion zu erklären würde den Zweck dieses Dokumentes bei weitem sprengen.
 Deswegen erkläre ich hier die grundlegenden Funktionen die auch iD beherrscht.
 
-===== PUNKT SETZEN
+===== Punkt setzen
 
 Um einen Punkt auf der Karte zu setzen,
 kannst du mit **Tastaturkürzel A** drücken und du kommst in den Zeichnungsmodus.
 Setze nun mit der Maus den Punkt, den du möchtest.
 
-===== FLÄCHE ZEICHNEN
+===== Fläche zeichnen
 
 Um eine Fläche zu zeichnen kannst du wieder mit **Tastaturkürzel A** in den Zeichnungsmodus wechseln.
 Anstatt nur einen Punkt zu setzen kannst du nun die Fläche mit verschiedenen Punkten zeichnen.
 Sobald du fertig bist, kannst du mit **Tastaturkürzel S** den Zeichnungsmodus beenden.
 
-===== VORLANGEN VERWENDEN
+===== Vorlangen verwenden
 
 Eine sehr nützliche Funktion in JOSM sind die Vorlagen.
 Vorlagen lassen sich auf Punkte und Flächen anwenden.
@@ -234,7 +234,7 @@ Hier ein Anwendungsbeispiel für einen Adresspunkt:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/addresspunkt.PNG[pdfwidth=40%]
 
-===== TAGS KOPIEREN / EINFÜGEN
+===== Tags kopieren / Einfügen
 
 Eine weitere Funktion, die nur in JOSM so gut funktioniert ist, die Funktion einen oder mehrere Tags zu kopieren.
 Das eignet sich besonders gut um mehrere, ähnliche Tags zu bearbeiten.
@@ -250,7 +250,7 @@ Danach musst du nur noch die Hausnummer die unterschiedlich ist, einzeln anpasse
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/tags_einfuegen.PNG[pdfwidth=90%]
 
-=== DATEN HOCHLADEN
+=== Daten hochladen
 
 Wenn du mit deinem Datensatz fertig bist, musst du diesen auf OSM hochladen. Dabei benutzt du folgendes Symbol:
 image:osm_editieren/osm_bearbeiten/josm_einfuehrung/upload_symbol.PNG[pdfwidth=5%]
@@ -265,9 +265,9 @@ Fülle diese Kommentare immer mit sinnvollen und nachvollziehbaren Änderungskom
 so dass dies, wenn jemand dein Change Set liest, deine Änderungen gleich erkennen kann.
 
 [[erweiterungen]]
-== ERWEITERUNGEN
+== Erweiterungen
 
-=== ERWEITERUNGEN INSTALLIEREN
+=== Erweiterungen installieren
 
 Erweiterungen bringen den Funktionsumfang von JOSM noch weiter
 und es gibt für fast jede Situation eine passende Erweiterung.
@@ -282,7 +282,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/erweiterungen_menue.PNG[pdf
 Du musst die gewünschte Erweiterung oder die Erweiterungen anwählen und danach OK drücken.
 Dies installiert die Version automatisch. Gewisse Plugins erfordern einen Neustart von JOSM
 
-=== EMPFEHLUNGEN
+=== Empfehlungen
 
 Zum Start empfehle ich dir folgende Erweiterungen, die dich am Anfang am Weitesten bringen werden:
 
@@ -296,7 +296,7 @@ Zum Start empfehle ich dir folgende Erweiterungen, die dich am Anfang am Weitest
     und gleichzeitig das Tagging für alle neuen Einheiten die Tags zu versehen.
 * **Utilsplugin2**: Diverse kleine Helfer die dir das Leben vereinfachen.
 
-== BEST PRACTICES
+== Best Practices
 
 Der Einstieg ist nicht schwer, aber übernimm dich am Anfang nicht gleich,
 beginne mit einem Gebiet, dass du kennst und mach vorerst mal nur kleine Änderungen.
@@ -311,33 +311,33 @@ Schaue dir die Hilfsmittel an und mappe es nach bestem Wissen und Gewissen.
 Falls dies der Community nicht passt wird Sie dir das schon mitteilen.
 Diskutiere nicht und zeige dich einsichtig oder hole jemanden zu Rate.
 
-== WEITERFÜHRENDE INFORMATION UND QUELLEN
+== Weiterführende Information und Quellen
 
-===== OPENSTREETMAP IM WEB
+===== OpenStreetMap im Web
 
 https://www.openstreetmap.org/
 
-===== OFFIZIELLE JOSM BEDIENUNGSANLEITUNG
+===== Offizielle JOSM Bedienungsanleitung
 
 https://josm.openstreetmap.de/wiki/Introduction
 
-===== MAPBOX JOSM BLOG ARTIKEL
+===== Mapbox JOSM Blog Artikel
 
 https://blog.mapbox.com/your-first-steps-with-josm-the-java-openstreetmap-editor-9e2fcafa7ba8
 
-===== OPENSTREETMAP WIKI
+===== OpenStreetMap Wiki
 
 https://wiki.openstreetmap.org/wiki/DE:Hauptseite?uselang=de
 
-===== “HOW TO MAP A” SEITE
+===== “HOW TO map A” Seite
 
 https://wiki.openstreetmap.org/wiki/DE:How_to_map_a
 
 [[changeset]]
-===== CHANGESET
+===== Changeset
 
 https://wiki.openstreetmap.org/wiki/Changeset
 
-===== SWISS OPENSTREETMAP ASSOCIATION
+===== Swiss OpenStreetMap Association
 
 https://sosm.ch/de/
