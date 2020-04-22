@@ -377,4 +377,105 @@ image::einfuehrung_in_apache_superset/rural_pdf.png[pdfwidth=75%]
 image::einfuehrung_in_apache_superset/life_expectancy_vs_rural_pdf.png[pdfwidth=75%]
 
 
+== ANHANG: Dashboards Entwerfen
+
+Die Gestaltung des Dashboards ist für die übersichtliche Darstellung der Charts sehr wichtig.
+Wenn man ein Dashboard entwerfen will,
+kann es sinnvoll sein, zuerst eine Skizze (Beispiel <<Skizze>>) zu kreieren. 
+Hier wird eine Methode vorgestellt,
+wie man mit verschachtelten Rows und Columns ein Dashboard so einteilen kann,
+dass es einer solchen Skizze entspricht.
+Es ist nicht die effizienteste Art (manche Rows / Columns müssten nicht gesetzt werden),
+dafür ist sie einfach und sollte für die meisten Anwendungen genügen.
+
+=== Schritt 1:
+Als erstes soll eine Skizze erstellt werden.
+Für unser Vorgehen ist eine Skizze von Vorteil,
+da sie die Aufteilung um einiges einfacher macht
+und damit der Überblick nicht verloren geht.
+
+=== Schritt 2:
+Man sucht sich auf der Skizze alle Linien, die das Dashboard teilen und keinen Chart kreuzen.
+Die Linien müssen nicht zwingend durch das ganze Dashboard gehen,
+sie können auch von einer zuvor gezeichneten Linie ausgehen,
+solange sie keinen Chart kreuzen.
+Wenn es mehrere Linien gibt, müssen alle parallel zueinander sein. 
+In unserem Beispiel gibt es im ersten Schritt nur eine Möglichkeit (siehe <<Aufteilung0>>).
+
+NOTE: In der ersten Ausführung dieses Schrittes spielt es keine Rolle,
+ob die Linien horizontal oder vertikal sind.
+Danach sollten die Linien von zwei aufeinanderfolgenden Schritten immer senkrecht zueinander stehen.
+Wenn man zweimal nacheinander parallele Linien erhält,
+hätte man die zwei Schritte zu einem zusammenfassen können.
+
+=== Schritt 3:
+Im 3. Schritt geht es darum, Rows, Columns oder Charts ins Dashboard einzufügen.
+Was man ins Dashboard einfügen soll, hängt von der vorherigen Ausführung des ersten Schrittes ab.
+Wenn man auf der Skizze eine horizontale Linie gezeichnet hat, fügt man zwei Rows ein.
+Wenn man eine vertikale Linie gezogen hat, setzt man zwei Columns.
+Eine Row bzw. Column soll nur gesetzt werden, wenn sie mehr als einen Chart umschliesst.
+Wenn die Row / Column nur einen Chart umfasst,
+werden an den entsprechenden Stellen die Charts direkt eingesetzt. (Charts sind dunkelgrau markiert)
+
+[[Vorgehen]]
+=== Vorgehen
+Um die Verschachtelung zu erhalten, muss man wiederholt Schritt 2 und Schritt 3 ausführen,
+bis zwischen allen Charts eine Linie gezogen wurde oder keine Möglichkeit mehr besteht,
+weitere Linien zu ziehen.
+Wenn keine Linien mehr gezogen werden können und noch nicht alle Charts mit Linien voneinander getrennt sind,
+kann die Skizze nicht als Dashboard in Superset umgesetzt werden.
+
+|===
+|*Schritt 1* |*Schritt 2*
+
+a|[[Skizze]]
+.Skizze
+image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=96%]
+a|image::einfuehrung_in_apache_superset/Ausgangslage.PNG[pdfwidth=96%, title="Ausgangslage Superset Dashboard"]
+
+
+a|[[Aufteilung0]]
+.Die einzige Möglichkeit, eine Linie durch das Dashboard zu ziehen
+image::einfuehrung_in_apache_superset/Aufteilung0.PNG[pdfwidth=96%]
+a|image::einfuehrung_in_apache_superset/Verschachtelung0.PNG[pdfwidth=96%, title="Die waagrechte Linie von Schritt 1 teilt das Dashboard in zwei Rows"]
+
+
+a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=96%, title="In diesem Schritt sind zwei parallele Linien möglich"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung1.PNG[pdfwidth=96%, title="Drei Charts können hier direkt eingesetzt werden"]
+
+
+a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=96%, title="Nun ist eine weitere horizontale Linie möglich"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung2.PNG[pdfwidth=96%, title="Keine der zwei Rows beinhaltet nur einen Chart, weshalb beide gesetzt werden"]
+
+
+a|image::einfuehrung_in_apache_superset/Aufteilung3.PNG[pdfwidth=96%, title="Hier sind wieder zwei senkrechte Linien möglich"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung3.PNG[pdfwidth=96%, title="Nur eine Column enthält mehr als einen Chart, weshalb nur eine Column gesetzt wird"]
+
+
+a|image::einfuehrung_in_apache_superset/Aufteilung4.PNG[pdfwidth=96%, title="Die letzte Linie, die gesetzt werden kann"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung4.PNG[pdfwidth=96%, title="Hier beinhalten beide Rows nur einen Chart, weshalb keine Rows gesetzt werden"]
+
+a|image::einfuehrung_in_apache_superset/Skizze.PNG[pdfwidth=96%, title="Hier nochmals die Skizze, die das gewünschte Resultat zeigt"]
+a|image::einfuehrung_in_apache_superset/Endprodukt.PNG[pdfwidth=96%, title="Hier das Endprodukt, welches der Skizze sehr ähnlich sieht"]
+
+|===
+
+=== Nicht umsetzbare Skizzen
+
+Wie im Abschnitt <<Vorgehen>> schon erwähnt,
+kann man nicht alle Dashboard-Ideen umsetzen.
+Ein Beispiel für eine nicht umsetzbare Skizze zeigt folgendes Bild:
+
+.Eine nicht umsetzbare Skizze
+image::einfuehrung_in_apache_superset/nicht_umsetzbar.PNG[pdfwidth=40%]
+
+Wenn man bei dieser Skizze versucht, das Dashboard aufzuteilen,
+endet das immer damit, dass man einen Chart kreuzt, wie im folgenden Bild:
+
+.Die linie kreuzt einen Chart
+image::einfuehrung_in_apache_superset/nicht_umsetzbar_Aufteilung.PNG[pdfwidth=40%]
+
+Da man die Skizze nicht weiter unterteilen kann, gibt es keine Möglichkeit,
+diese Chart-Anordnung als Superset-Dashboard umzusetzen.
+
 include::../../snippets/quellenangabe.adoc[]
