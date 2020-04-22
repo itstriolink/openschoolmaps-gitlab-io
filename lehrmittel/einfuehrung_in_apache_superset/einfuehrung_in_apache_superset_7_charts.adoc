@@ -440,7 +440,7 @@ a|image::einfuehrung_in_apache_superset/Verschachtelung0.PNG[pdfwidth=96%, title
 
 
 a|image::einfuehrung_in_apache_superset/Aufteilung1.PNG[pdfwidth=96%, title="In diesem Schritt sind zwei parallele Linien möglich"]
-a|image::einfuehrung_in_apache_superset/Verschachtelung1.PNG[pdfwidth=96%, title="Drei Charts können hier direkt eingesetzt werden (Anstelle der roten Columns)"]
+a|image::einfuehrung_in_apache_superset/Verschachtelung1.PNG[pdfwidth=96%, title="Drei Charts können hier direkt eingesetzt werden"]
 
 
 a|image::einfuehrung_in_apache_superset/Aufteilung2.PNG[pdfwidth=96%, title="Nun ist eine weitere horizontale Linie möglich"]
