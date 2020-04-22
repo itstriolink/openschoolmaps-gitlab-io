@@ -11,7 +11,8 @@ PDFs:
   - docker
   script:
   - set -e
-  - apk add python3
+  - apk add python3 graphicsmagick-dev ruby-dev musl-dev gcc
+  - gem install prawn-gmagick
   - ./build.py
   artifacts:
     expire_in: 3 mos
