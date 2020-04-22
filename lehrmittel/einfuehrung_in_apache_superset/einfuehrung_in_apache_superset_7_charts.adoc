@@ -390,7 +390,7 @@ dafür ist sie einfach und sollte für die meisten Anwendungen genügen.
 
 === Schritt 1:
 Als erstes soll eine Skizze erstellt werden.
-Für unser vorgehen ist eine Skizze von Vorteil,
+Für unser Vorgehen ist eine Skizze von Vorteil,
 da sie die Aufteilung um einiges einfacher macht
 und damit der Überblick nicht verloren geht.
 
