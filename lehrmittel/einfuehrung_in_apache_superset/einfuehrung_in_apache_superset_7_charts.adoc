@@ -475,6 +475,6 @@ endet das immer damit, dass man einen Chart kreuzt, wie im folgenden Bild:
 image::einfuehrung_in_apache_superset/nicht_umsetzbar_Aufteilung.PNG[pdfwidth=40%]
 
 Da man die Skizze nicht weiter unterteilen kann, gibt es keine Möglichkeit,
-das Dashboard in Superset umzusetzen.
+diese Chart-Anordnung als Superset-Dashboard umzusetzen.
 
 include::../../snippets/quellenangabe.adoc[]
