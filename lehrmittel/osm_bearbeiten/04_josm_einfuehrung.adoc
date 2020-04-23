@@ -50,7 +50,7 @@ Du findest die Software JOSM unter folgendem Link: https://josm.openstreetmap.de
 
 ===== Windows 10
 
-Aus Kompatibilitätsgründen empfehle ich dir diese Version zu installieren:
+Aus Kompatibilitätsgründen empfehle ich dir, diese Version zu installieren:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_windows_version.PNG[pdfwidth=100%]
 
@@ -110,8 +110,8 @@ beziehen sich weitere Screenshots immer auf die Windows Version von JOSM**
 
 ==== Aktualisierung der Erweiterungen
 
-Beim ersten Start wirst Du aufgefordert, die Erweiterungen, die vorinstalliert waren, zu aktualisieren.
-Das solltest Du auf jeden Fall machen.
+Beim ersten Start wirst du aufgefordert, die Erweiterungen, die vorinstalliert waren, zu aktualisieren.
+Das solltest du auf jeden Fall machen.
 
 Diese Meldung kommt von Zeit zu Zeit auch beim Starten von JOSM, wenn es Aktualisierungen zu Erweiterungen gibt.
 
@@ -144,8 +144,8 @@ Danach wirst du eine Bestätigung erhalten, dass deine Daten auf dem offiziellen
 
 JOSM bietet bereits ab Grundinstallation eine Vielzahl an Hintergrundkarten an.
 Nicht weniger kann man JOSM soweit individualisieren, dass man WMS Services anbieten kann.
-Wem also die Standardauswahl für die Schweiz nicht reicht, oder dann einen speziellen Hintergrund braucht,
-der kann ganz einfach einen WMS Dienst anbinden.
+Wem also die Standardauswahl für die Schweiz nicht reicht oder wer einen speziellen Hintergrund braucht,
+kann ganz einfach einen WMS Dienst anbinden.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergruende.PNG[pdfwidth=90%]
 
@@ -239,7 +239,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/addresspunkt.PNG[pdfwidth=4
 ===== Tags kopieren / Einfügen
 
 Eine weitere Funktion, die nur in JOSM so gut funktioniert, ist die Funktion einen oder mehrere Tags zu kopieren.
-Das eignet sich besonders gut, um mehrere, ähnliche Tags zu bearbeiten.
+Das eignet sich besonders gut, um mehrere ähnliche Tags zu bearbeiten.
 Gerne erkläre ich dir dies anhand einer Strasse, bei der wir nur die Hausnummern editieren wollen.
 
 Ein Objekt musst du normal mit allen Tags versehen, dass du ein Grunddatensatz zu Verfügung hast.
@@ -294,8 +294,8 @@ Zum Start empfehle ich dir folgende Erweiterungen, die dich am Anfang am weitest
 * **Imagery_offset_db (vorinstalliert)**: Ein Tool, um Bildversätze zu importieren.
 * **OpeningHoursEditor**: Ein Wizard,
     der dir hilft die Öffnungszeiten von Geschäften, Bars, Restaurants usw. korrekt zu taggen.
-* **Terracer**: Genial, um Reihenhäuser aus einem quadratischen Block zu erstellen
-    und gleichzeitig das Tagging für alle neuen Einheiten die Tags zu versehen.
+* **Terracer**: Genial, um Reihenhäuser aus einem viereckigen Block zu erstellen
+    und gleichzeitig alle neuen Einheiten mit Tags zu versehen.
 * **Utilsplugin2**: Diverse kleine Helfer, die dir das Leben vereinfachen.
 
 == Best Practices
@@ -310,7 +310,7 @@ Verliere nicht die Freude und hab Spass.
 **Hier noch mein persönlicher Tipp**;
 Scheue dich nicht mal etwas Unbekanntes zu mappen.
 Schaue dir die Hilfsmittel an und mappe es nach bestem Wissen und Gewissen.
-Falls dies der Community nicht passt, wird Sie dir das schon mitteilen.
+Falls dies der Community nicht passt, wird sie dir das schon mitteilen.
 Diskutiere nicht und zeige dich einsichtig oder hole jemanden zu Rate.
 
 == Weiterführende Information und Quellen
