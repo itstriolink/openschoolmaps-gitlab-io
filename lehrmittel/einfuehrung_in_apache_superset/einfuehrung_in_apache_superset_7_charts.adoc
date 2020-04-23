@@ -55,18 +55,18 @@ image::einfuehrung_in_apache_superset/daten_schweiz.PNG[, 860, 549]
 
 == Sieben Charts (Diagramme)
 
-Am Ende dieser Anleitung wirst du sieben Charts erstellt haben (und einen Filter).
+Am Ende dieser Anleitung wirst du sieben Charts und einen Filter erstellt haben.
 
 Schaue zuerst im Anhang nach, was Apache Superset alles für Diagramme (Charts) anbietet, wobei wir dort nur eine Auswahl getroffen haben von den über 40 Charts, die Superset zurzeit anbietet.
 
 Die Charts, die in diesem Arbeitsblatt verwenden werden, sind in <<abb_daten_schweiz>> in der Reihenfolge nummeriert, in der du sie gleich erstellen wirst.
 
 * Oben links befindet sich ein Filter (Nr. 8). Damit kann man die Datensätze auf eine Region oder Land beschränken. 
-* Direkt darunter ist Chart Nr. 3 zu sehen, benannt mit *"World's Population"*. Dieser zeigt wie gross die Bevölkerung ist und deren Wachstum mittels einer Linie. 
-* Rechts dieser beiden Charts befindet sich eine _Weltkarte_ *("% Rural")*. Dieser Chart Nr. 7 zeigt durch das Färben der Länder wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%). Zudem wird als Zahl durch eine Blase angezeigt, wie viele Menschen das sind. 
+* Direkt darunter ist Chart Nr. 3 zu sehen, benannt mit *"World's Population"*. Dieser zeigt die Grösse der Bevölkerung und deren Wachstum mittels einer Linie. 
+* Rechts dieser beiden Charts befindet sich eine _Weltkarte_ *("% Rural")*. Dieser Chart Nr. 7 zeigt durch das Färben der Länder, wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%). Zudem wird durch eine Blase angezeigt, wie viele Menschen das sind. 
 * Im sich darunter befindenden Chart Nr. 2 *"Rural Breakdown"* werden dieselben Daten dargestellt. Der innere Kreis zeigt hierbei die Region an und der äussere das Land (beim Hovern mit der Maus über die Abschnitte werden diese Informationen angezeigt).
-* Am rechten Rand befindet sich eine _Tabelle_ (Chart Nr. 1) und diese zeigt jedes Land und die Grösse dessen Bevölkerung (Metric) an. 
-* Der Linien-Chart *"Growth Rate"* (Chart Nr. 4) veranschaulicht auch das Wachstum der Bevölkerung, jedoch über eine längere Zeitspanne als bei *"World's Population"*. Und es zeigt es zudem pro Land.
+* Am rechten Rand befindet sich eine _Tabelle_ (Chart Nr. 1). Diese zeigt jedes Land und dessen Bevölkerungszahl (Metric) an. 
+* Der Linien-Chart *"Growth Rate"* (Chart Nr. 4) veranschaulicht auch das Bevölkerungswachstum der Länder, jedoch über eine längere Zeitspanne als bei *"World's Population"*.
 * *"World's Pop Growth"* (Chart Nr. 5) visualisiert dieselben Daten wie Growth Rate, wird jedoch in Regionen aufgeteilt. 
 * Zuletzt gibt es noch einen etwas komplexeren Chart Nr. 6 *"Life Expectancy vs. rural %"*, der darstellt, wie hoch die Lebenserwartung in einem Land ist, in welcher Region es sich befindet und wie viel Prozent von der Bevölkerung ländlich lebt.
 
@@ -82,14 +82,14 @@ Als erstes musst du eine Datenquelle (Source) wählen.
 Unter image:einfuehrung_in_apache_superset/sources.PNG[] können die verschiedenen Tabellen eingesehen werden. 
 Hierbei kann man auf die Lupe image:einfuehrung_in_apache_superset/lupe.PNG[] klicken, um genauere Informationen über die Tabelle zu erhalten, 
 wie z.B. welche Spalten die Tabelle besitzt und welche Datentypen dort gespeichert werden können. 
-Zudem kann man unter _Columns_ einstellen, ob man nach dieser Spalte gruppieren darf, ob sie zeitlich ist oder ob sie filterbar ist.
+Zudem kann man unter _Columns_ einstellen, ob die Spalte zeitlich oder filterbar ist und ob nach ihr gruppiert werden darf.
 
 Um eine Tabelle abzufragen, muss man unter "Sources" den Menüpunkt "Tables" wählen und dann auf den Namen der Tabelle klicken. 
 In diesem Beispiel ist das `wb_health_population`. 
 Man kann nur eine Tabelle als Quelle auszuwählen. 
-Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse (in weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt wie das geht). 
+Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse. In weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt, wie das geht.
 
-Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster, bzw. ein neuer Browser Tab, in dem man nun einen Chart erstellen kann.
+Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster bzw. ein neuer Browser Tab, worin man nun einen Chart erstellen kann.
 Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
 
 Direkt darunter, bei _Visualization Type_ (Chart-Typ) steht _Table_, also ein einfaches Balken-Diagramm.  
@@ -120,7 +120,7 @@ endif::show_solutions[]
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 2* +
 _Nun da du die Bevölkerung von jedem Land siehst, können wir die Daten auf alle Länder, die mehr als 100 Millionen Einwohner haben, beschränken. 
-Probiere dies mit Hilfe des Filters unter Query (hierfür wird die Option _Custom SQL_ nicht benötigt)._
+Versuche dies mit Hilfe des Filters unter Query (hierfür wird die Option _Custom SQL_ nicht benötigt)._
 
 ifdef::show_solutions[]
 ====
@@ -142,10 +142,10 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 3* +
 _Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar. "Hierarchy" (unter "Query") ist ähnlich zu behandeln wie "Group by" bei der Tabellen-Ansicht._
 
-Füge jetzt bei _Hierarchy_ `region` an erster Stelle hinzu.
-Die Reihenfolge ist wichtig für die Darstellung, damit man sieht, in welcher Region 
-das jeweilige Land liegt und wie viel es von dessen Bevölkerung ausmacht. 
-An dieser Stelle empfiehlt es sich, den in Aufgabe 2 erstellten Filter wieder zu entfernen oder anzupassen, damit man mehr Beispiele hat, bei denen man die Folgen des nächsten Schrittes sehen kann. 
+Setze bei _Hierarchy_ `region` an erster Stelle.
+Die Reihenfolge ist wichtig für die Darstellung, damit ersichtlich ist, in welcher Region 
+das jeweilige Land liegt wie gross der Anteil gegenüber deren Population ist.
+An dieser Stelle empfiehlt es sich, den in Aufgabe 2 erstellten Filter wieder zu entfernen oder anzupassen, damit es mehr Beispiele gibt, bei denen man die Folgen des nächsten Schrittes sehen kann. 
 
 IMPORTANT: Jeder Chart hat seine eigenen Optionen.
 
@@ -154,8 +154,8 @@ IMPORTANT: Jeder Chart hat seine eigenen Optionen.
 Als nächstes werden wir die Farbe anpassen, da die Abbildung momentan nicht gerade hübsch ist. 
 Die Farbe dieses Charts kann man auf zwei Arten anpassen:
 
-1. klicke auf den Tab _Customize_ und wähle ein neues Farbschema aus.
-2. benutze die Farbe, um mehr Informationen anzuzeigen.
+. Klicke auf den Tab _Customize_ und wähle ein neues Farbschema aus.
+. Benutze die Farbe, um mehr Informationen anzuzeigen.
 Dies machst du, indem du unter _Secondary Metric_ -> `SP_URB_TOTL` (Urban Total) auswählst und summierst. 
 Das führt dazu, dass nun sofort ersichtlich ist wie der Grossteil der Bevölkerung in dem Land lebt (in der Stadt oder auf dem Land).
 
@@ -175,14 +175,14 @@ endif::show_solutions[]
 Als nächstes wäre es spannend zu sehen, wie die Bevölkerung gewachsen ist. 
 
 Das Wachstum kann man sich in Superset mit dem _Big Number with Trendline_ Chart als Trendlinie anzeigen lassen,
-wobei diese auch noch den letzten Wert gross über der Trendlinie darstellt.
+welche auch noch den letzten Wert gross über der Trendlinie darstellt.
 Der Chart wäre so schon brauchbar, aber du kannst noch unter _Options -> Comparison Period Lag_ und _Comparison suffix_ einstellen.
 
-_Comparison Period Lag_ legt fest, welche Jahre miteinander verglichen werden, um das prozentuale Wachstum anzuzeigen
-(Wenn du eine fünf bei _Comparison Period Lag_ eintippst, vergleicht es die letzte Jahreszahl, die er hat (in diesem Fall 2014)
-mit der fünf Jahre vor dieser (2009)). 
+_Comparison Period Lag_ legt fest, welche Jahre miteinander verglichen werden, um das prozentuale Wachstum anzuzeigen.
+Wenn du eine fünf bei _Comparison Period Lag_ eintippst, vergleicht es die letzte vorhandene Jahreszahl (in diesem Fall 2014),
+mit der Jahreszahl, die fünf Jahre weiter zurückliegt (2009).
 
-Bei _Comparison suffix_ kannst du einen Text eingeben der die Prozentzahl beschreibt.
+Bei _Comparison suffix_ kannst du einen Text eingeben, der die Prozentzahl beschreibt.
 Der beschreibende Text wird direkt hinter der Prozentzahl angezeigt. 
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
@@ -203,7 +203,7 @@ endif::show_solutions[]
 
 === Chart Nr. 4 Bevölkerungswachstum pro Land
 
-Da Chart Nr. 3 uns aber nur das durchschnittlichen Wachstum anzeigt, wäre es noch interessant, das Bevölkerungswachstum pro Land zu sehen, um einen besseren Einblick in die Verteilung zu erhalten.
+Da Chart Nr. 3 uns aber nur das durchschnittliche Wachstum anzeigt, wäre es noch interessant, das Bevölkerungswachstum pro Land zu sehen, um einen besseren Einblick in die Verteilung zu erhalten.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 5* +
@@ -226,9 +226,9 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 6* +
 _Eine weitere Art diese Daten darzustellen, wäre mit einem Area Chart möglich. Probiere es aus!_
 
-Chart Nr. 4 hat die Daten schon sehr stark aufgeteilt, lass uns den Chart so anpassen, dass die Aufteilung weniger stark ist, um einen besseren Überblick zu gewinnen.
+Chart Nr. 4 hat die Daten schon sehr stark aufgeteilt. Also passen wir den Chart am besten so an, dass die Aufteilung weniger stark ist, um einen besseren Überblick zu gewinnen.
 
-Bevor du auch diesen Chart wieder abspeicherst, lass dir das Wachstum der einzelnen Regionen anzeigen.
+Lass dir das Wachstum der einzelnen Regionen anzeigen, bevor du auch diesen Chart wieder abspeicherst.
 Im Anhang findest du ein Bild (<<abb_worlds_pop_growth_pdf>>) von dem Chart. Die Farben könnten evt. anders sein.
 
 ifdef::show_solutions[]
@@ -243,14 +243,14 @@ endif::show_solutions[]
 
 === Chart Nr. 6 Lebenserwartung vs. dem Anteil der ländlich lebenden Bevölkerung pro Land
 
-Als Nächstes wollen wir etwas Schwierigeres probieren und zwar wollen wir einen 6. Chart wie folgt erstellen:
+Als Nächstes wollen wir etwas Schwierigeres probieren. Der 6. Chart soll wie folgt aussehen:
 
 .Chart Nr. 6 stellt die Lebenserwartung der Prozentzahl ländlich Lebenden gegenüber.
 image::einfuehrung_in_apache_superset/life_expectancy_vs_rural.PNG[]
 
 In diesem Chart ist ersichtlich, wie viele Einwohner ländlich wohnen (X-Achse), wie hoch die Lebenserwartung ist (Y-Achse), in welcher Region sich ein Land befindet (Farbe der Blasen) und wie hoch die Einwohnerzahl ist (Grösse der Blase).
 
-Dieser Chart veranschaulicht sehr gut, ob und wenn ja, wie die Lebenserwartung mit dem pozentsatz der ländlich Lebenden zusammenhängt.
+Dieser Chart veranschaulicht sehr gut, ob und wie die Lebenserwartung mit dem Prozentsatz der ländlich Lebenden zusammenhängt.
 
 Um diesen Chart zu erhalten, musst du zuerst den _Bubble Chart_ auswählen und die Zeitspanne von `2011-01-01` bis `2011-12-31` setzen. 
 Danach musst du unter _Series_ `region` auswählen, um die Blasen dementsprechend zu färben. 
@@ -260,7 +260,7 @@ image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 7* +
 _Wähle die korrekten Spalten für X Axis, Y Axis und Bubble size._
 
-NOTE: Falls die Achsenbeschriftung nicht korrekt sein sollte, kannst du links auf den Tab _Customize_ gehen und bei _X Axis Format_ oder _Y Axis Format_ "Adaptive Formatting" auswählen.
+NOTE: Falls die Achsenbeschriftung nicht korrekt sein sollte, kannst du links auf den Tab _Customize_ klicken und bei _X Axis Format_ oder _Y Axis Format_ "Adaptive Formatting" auswählen.
 Zusätzlich soll noch das Series limit entfernt werden, damit alle Länder angezeigt werden.
 
 Speichere auch diesen Chart unter einem passenden Namen.
@@ -277,7 +277,7 @@ endif::show_solutions[]
 
 === Chart Nr. 7 Weltkarte
 
-Zum Abschluss erstellen wir noch diesen Chart Nr. 7, ein Map Chart:
+Zum Abschluss erstellen wir noch den Chart Nr. 7, ein Map Chart:
 
 .rural_percentage (Chart 7)
 image::einfuehrung_in_apache_superset/rural_percentage.PNG[]
@@ -285,16 +285,16 @@ image::einfuehrung_in_apache_superset/rural_percentage.PNG[]
 
 
 Dieser Map Chart zeigt durch das Färben der Länder an, wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%).
-Zudem wird als Zahl durch eine Blase angezeigt, wie viele Menschen das sind.
+Die Anzahl dieser Menschen wird durch eine Blase abgebildet.
 Um die Prozentzahl der ländlich Lebenden oder die Grösse der Bevölkerung zu sehen, muss du mit der Maus über das Land beziehungsweise der Blase hovern.
 
 Es ist eine _World Map_. Hier die Optionen dazu:
 
 * Die Zeitspanne musst du hierfür erneut zu `2014-01-01` bis `2014-12-31` abändern. 
-* Unter _Country Control_ wirst du den `Country_code` auswählen müssen und unter _Country Field Type_ den `code ISO 3166-1 alpha-3 (cca3)`. _Country Control_ wird verwendet, um festzulegen in welchem Land sich etwas befindet mittels einer Abkürzung und _Country Field Type_ interpretiert diese Abkürzung. 
+* Unter _Country Control_ wirst du den `Country_code` und unter _Country Field Type_ den `code ISO 3166-1 alpha-3 (cca3)` auswählen müssen. _Country Control_ wird verwendet, um mittels einer Abkürzung festzulegen, in welchem Land sich etwas befindet. _Country Field Type_ interpretiert diese Abkürzung.
 * Unter _Metric for color_ kannst du `SP_RUR_TOTL_ZS` wählen, um die Farbe abhängig vom Prozentsatz von Leuten, die auf dem Land leben, zu machen.
 * Zudem kannst du noch unter _Bubble size_ `SP_RUR_TOTL` wählen, um eine Blase für jedes Land zu erstellen, die anzeigt, wie viele Leute auf dem Land leben.
-  (Damit die Blasen angezeigt werden, muss bei _Show Bubbles_ ein Häkchen gesetzt werden.)
+  Damit die Blasen angezeigt werden, muss bei _Show Bubbles_ ein Häkchen gesetzt werden.
 
 Speichere auch diesen Chart unter einem passenden Namen.
 
@@ -302,7 +302,7 @@ Speichere auch diesen Chart unter einem passenden Namen.
 
 Jetzt, da wir einige Charts haben, wäre ein Filter praktisch, den man nachher im Dashboard auf alle Charts anwenden kann. 
 Dafür muss man nur die _Filter Box_ als _Visualization Type_ auswählen und unter _Filters_ passende Spalten auswählen z.B. `region` und `country_name`. 
-Zudem kann man bei dem Filter die Option _Date Filter_ abwählen.
+Zudem kann beim Filter die Option _Date Filter_ abgewählt werden.
 
 Diesen Filter muss man natürlich auch abspeichern, um ihn später benutzen zu können.
 
@@ -316,24 +316,24 @@ Beim Erstellen eines Dashboards kann man einiges einstellen, jedoch reicht es of
 
 Um mit dem Editieren zu beginnen, musst du oben rechts auf _Edit dashboard_ klicken.
 Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen.
-(Die erste Komponente musst du nach oben zum Rand ziehen.)
-Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleicht anzeigt wie/wo die Komponente platziert wird. 
+Die erste Komponente musst du nach oben zum Rand ziehen.
+Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleich anzeigt,wie/wo die Komponente platziert wird. 
 Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst. 
 
 * _Tabs_ sind wie beim Browser selber zu verstehen und können alles Mögliche beinhalten.
-* _Rows_ sowie _Columns_ können gebraucht werden, um einzelne andere Komponenten zu verbinden. Wenn Komponenten verbunden sind, kann man den Platz zwischen ihnen auch weiss färben. Durch das Hovern über den verbundenen Komponenten erscheint ein Knopf der einem diese Option anzeigt.
+* _Rows_ sowie _Columns_ können gebraucht werden, um einzelne andere Komponenten zu verbinden. Wenn Komponenten verbunden sind, kann man den Platz zwischen ihnen auch weiss färben. Durch das Hovern über den verbundenen Komponenten erscheint ein Knopf, der diese Option anzeigt.
 * Um die verbundenen Komponenten wieder in Gruppen zu unterteilen kann man _Divider_ verwenden. Diese stellen einen Strich dar.
-* _Header_ können verwendet werden um den einzelnen Komponenten eine Überschrift zu geben und _Markdown_ kann benutzt werden damit man noch einen beschreibenden Text zu einem Chart verfassen kann.
-* Unter _Your charts & filters_ findet man alle Charts, die man bisher erstellt hat.
+* _Header_ können verwendet werden, um den einzelnen Komponenten eine Überschrift zu geben. _Markdown_ kann zum Verfassen eines beschreibenden Textes zu einem Chart benutzt werden.
+* Unter _Your charts & filters_ sind alle Charts zu finden, die man bisher erstellt hat.
 
 Nach dem Hinzufügen einer Komponente kann dessen Grösse angepasst werden. 
 Durch Anklicken der unteren rechten Ecke kann die gewünschte Grösse eingestellt werden. 
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 8* +
-_Erstelle ein Dashboard, bei dem alle zuvor erstellten Charts und Filter verwendet werden. Probiere am besten auch gerade die verschiedenen Komponenten aus!_
+_Erstelle ein Dashboard mit allen zuvor erstellten Charts und Filtern. Probiere am besten auch gerade die verschiedenen Komponenten aus!_
 
-.Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts mit 7 Charts und einen Filter
+.Hier nochmals das Dashboard als Ergebnis dieses Arbeitsblatts mit 7 Charts und einem Filter
 image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
 
@@ -350,7 +350,7 @@ Gerne nehmen wir Rückmeldungen entgegen, siehe https://openschoolmaps.ch[OpenSc
 
 == ANHANG: Die sieben Charts und Optionen
 
-Hier siehst du sieben Charts und deren Auswahlmöglichkeiten. Mittels einer roten Umrandung ist jeweils markiert, welche Optionen benötigt werden, um ein solches Diagramm zu erstellen.
+Hier siehst du die sieben Charts und deren Auswahlmöglichkeiten. Mittels einer roten Umrandung ist jeweils markiert, welche Optionen benötigt werden, um ein solches Diagramm zu erstellen.
 
 
 
