@@ -150,12 +150,12 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergruende.PNG[pdfwidth=
 
 ==== Hintergrund wählen
 
-Um einen Hintergrund zu wählen wählst du im oben gezeigten Screenshot “Hintergrund-Einstellungen”.
+Um einen Hintergrund zu wählen, wählst du im oben gezeigten Screenshot “Hintergrund-Einstellungen”.
 Danach kannst du dir deine Hintergrundkarten selbst zusammenstellen.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergrund_auswahl.PNG[pdfwidth=75%]
 
-CAUTION: Vergiss nicht, die Auswahl die DU getroffen haSt zu aktivieren!
+CAUTION: Vergiss nicht, die Auswahl, die du getroffen hast zu aktivieren!
 
 ==== Kurzwahl definieren
 
@@ -166,8 +166,8 @@ Danach kannst du im folgenden Menü alle Kürzel wählen.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/symbolleisten_einstellungen.PNG[pdfwidth=50%]
 
-Wenn ihr dies in der Kurzwahl eingefügt hab,
-erscheint die Kartenansicht in eurer Symbolleiste am oberen Rand und du kannst diese beim Start einfach aktivieren.
+Wenn du dies in der Kurzwahl eingefügt hast,
+erscheint die Kartenansicht in deiner Symbolleiste am oberen Rand und du kannst diese beim Start einfach aktivieren.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/symbolleiste.PNG[pdfwidth=100%]
 
@@ -199,7 +199,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/screen_nach_datendownload.P
 
 === Daten bearbeiten
 
-In JOSM lässt sich alles pflegen was man mit dem bekannten Browser Editor iD auch machen kann.
+In JOSM lässt sich alles pflegen, was man mit dem bekannten Browser Editor iD auch machen kann.
 Jede Funktion zu erklären würde den Zweck dieses Dokumentes bei weitem sprengen.
 Deswegen erkläre ich hier die grundlegenden Funktionen die auch iD beherrscht.
 
@@ -211,19 +211,19 @@ Setze nun mit der Maus den Punkt, den du möchtest.
 
 ===== Fläche zeichnen
 
-Um eine Fläche zu zeichnen kannst du wieder mit **Tastaturkürzel A** in den Zeichnungsmodus wechseln.
+Um eine Fläche zu zeichnen, kannst du wieder mit **Tastaturkürzel A** in den Zeichnungsmodus wechseln.
 Anstatt nur einen Punkt zu setzen kannst du nun die Fläche mit verschiedenen Punkten zeichnen.
 Sobald du fertig bist, kannst du mit **Tastaturkürzel S** den Zeichnungsmodus beenden.
 
-===== Vorlangen verwenden
+===== Vorlagen verwenden
 
 Eine sehr nützliche Funktion in JOSM sind die Vorlagen.
 Vorlagen lassen sich auf Punkte und Flächen anwenden.
-Wenn du etwas Bestimmtes mappen willst kannst du mit **F3** die Vorlagenfunktion aufrufen.
+Wenn du etwas Bestimmtes mappen willst, kannst du mit **F3** die Vorlagenfunktion aufrufen.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/vorlagen_suchen.PNG[pdfwidth=40%]
 
-Es lässt sich beinahe alles Suchen, dass sich mit Tags versehen lässt.
+Es lässt sich beinahe alles suchen, das sich mit Tags versehen lässt.
 Vorteil dabei ist,
 dass die benötigten Felder eines korrekten Taggings bereits vorgeschlagen werden und du nur noch die Daten ausfüllen musst.
 Solltest du etwas nicht wissen, lasse das Feld leer.
@@ -236,7 +236,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/addresspunkt.PNG[pdfwidth=4
 
 ===== Tags kopieren / Einfügen
 
-Eine weitere Funktion, die nur in JOSM so gut funktioniert ist, die Funktion einen oder mehrere Tags zu kopieren.
+Eine weitere Funktion, die nur in JOSM so gut funktioniert, ist die Funktion einen oder mehrere Tags zu kopieren.
 Das eignet sich besonders gut um mehrere, ähnliche Tags zu bearbeiten.
 Gerne erkläre ich dir dies, anhand einer Strasse, bei der wir nur die Hausnummern editieren wollen.
 
@@ -246,7 +246,7 @@ Nun kannst du alle diese Tags markieren und dann mit **Ctrl + C** alle Tags kopi
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/tags_kopieren.PNG[pdfwidth=60%]
 
 Du hast nun alle Tags markiert und kannst dann alle Tags auf dem neuen leeren Objekt einfügen.
-Danach musst du nur noch die Hausnummer die unterschiedlich ist, einzeln anpassen.
+Danach musst du nur noch die Hausnummer, die unterschiedlich ist, von Hand anpassen.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/tags_einfuegen.PNG[pdfwidth=90%]
 
@@ -261,8 +261,8 @@ Sobald ich die Funktion aufgerufen habe, öffnet sich der Dialog um das <<change
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/upload_fenster.PNG[pdfwidth=50%]
 
-Fülle diese Kommentare immer mit sinnvollen und nachvollziehbaren Änderungskommentaren aus,
-so dass dies, wenn jemand dein Change Set liest, deine Änderungen gleich erkennen kann.
+Fülle diese Felder immer mit sinnvollen und nachvollziehbaren Änderungskommentaren aus,
+so dass jemand, der dein Change Set liest, deine Änderungen gleich erkennen kann.
 
 [[erweiterungen]]
 == Erweiterungen
@@ -284,31 +284,31 @@ Dies installiert die Version automatisch. Gewisse Plugins erfordern einen Neusta
 
 === Empfehlungen
 
-Zum Start empfehle ich dir folgende Erweiterungen, die dich am Anfang am Weitesten bringen werden:
+Zum Start empfehle ich dir folgende Erweiterungen, die dich am Anfang am weitesten bringen werden:
 
 * **Building_tools**: Erleichtert das Zeichnen von Gebäuden oder deren logischen Unterteilung.
-* **HouseNumberTaggingTool**: Ein Wizard der dir alle Tags für das korrekte Erstellen von Hausnummern vorschlägt,
+* **HouseNumberTaggingTool**: Ein Wizard, der dir alle Tags für das korrekte Erstellen von Hausnummern vorschlägt,
     die du nur noch abfüllen musst.
 * **Imagery_offset_db (vorinstalliert)**: Ein Tool, um Bildversätze zu importieren.
-* **OpeningHoursEditor**: Ein Wizard
+* **OpeningHoursEditor**: Ein Wizard,
     der dir hilft die Öffnungszeiten von Geschäften, Bars, Restaurants usw. korrekt zu taggen.
 * **Terracer**: Genial, um Reihenhäuser aus einem quadratischen Block zu erstellen
     und gleichzeitig das Tagging für alle neuen Einheiten die Tags zu versehen.
-* **Utilsplugin2**: Diverse kleine Helfer die dir das Leben vereinfachen.
+* **Utilsplugin2**: Diverse kleine Helfer, die dir das Leben vereinfachen.
 
 == Best Practices
 
 Der Einstieg ist nicht schwer, aber übernimm dich am Anfang nicht gleich,
-beginne mit einem Gebiet, dass du kennst und mach vorerst mal nur kleine Änderungen.
+beginne mit einem Gebiet, das du kennst und mach vorerst mal nur kleine Änderungen.
 Wenn du bereits länger mit dem iD mappst, sieh dir die Datensätze die du bereits gemappt hast mal in JOSM an.
 Mache kleine Änderungen an deinen eigenen <<changeset,Change Sets>> und steigere dich in immer grössere Gebiete.
-Wage auch mal etwas, dass du noch nie gemappt hast.
+Wage auch mal etwas, das du noch nie gemappt hast.
 Verliere nicht die Freude und hab Spass.
 
 **Hier noch mein persönlicher Tipp**;
 Scheue dich nicht mal etwas Unbekanntes zu mappen.
 Schaue dir die Hilfsmittel an und mappe es nach bestem Wissen und Gewissen.
-Falls dies der Community nicht passt wird Sie dir das schon mitteilen.
+Falls dies der Community nicht passt, wird Sie dir das schon mitteilen.
 Diskutiere nicht und zeige dich einsichtig oder hole jemanden zu Rate.
 
 == Weiterführende Information und Quellen
