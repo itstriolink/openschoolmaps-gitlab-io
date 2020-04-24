@@ -88,8 +88,6 @@ Diese Meldung kommt von Zeit zu Zeit auch beim Starten von JOSM, wenn es Aktuali
 
 ==== Startbildschirm
 
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_startbildschirm.PNG[pdfwidth=100%]
-
 Das JOSM Projekt behält sich vor, euch immer die neusten Informationen direkt auf den Startbildschirm zu projizieren.
 Zusätzlich kriegst du immer die Release Notes der letzten Versionen angezeigt.
 
