@@ -53,9 +53,7 @@ Sollte dies nicht der Fall sein, findest du den Download https://www.java.com/de
 
 === Mac OS
 
-Aus Kompatibilitätsgründen empfehle ich dir, diese Version zu installieren
-
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac_os_version.PNG[pdfwidth=100%]
+Aus Kompatibilitätsgründen empfehle ich dir, diese Version zu installieren.
 
 ==== Installationsschritte
 
