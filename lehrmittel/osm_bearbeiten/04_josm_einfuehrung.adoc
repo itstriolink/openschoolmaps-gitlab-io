@@ -37,7 +37,7 @@ In diesem Dokument werden wir Screenshots aus der deutschen Version verwenden.
 . *Installations-Wizard durchführen*
 +
 Klicke dich durch die Installation durch,
-bis du zum "*Komponenten auswählen*"-Fenster kommst.
+bis du zum "_Komponenten auswählen_"-Fenster kommst.
 
 . *Vollinstallation auswählen*
 +
@@ -98,13 +98,15 @@ Wenn es eine neue Version gibt, wird dir das ebenfalls hier angezeigt.
 === Benutzerdaten
 
 Am Anfang von JOSM würde ich dir gleich empfehlen, deine Benutzerdaten zu hinterlegen.
-Dazu kannst du einfach unter **Bearbeiten->Einstellungen** unter folgendem Symbol:
-
-Trage deinen OSM Benutzernamen und dein Passwort in das folgende OAUTH Feld ein.
+Drücke dazu unter _Bearbeiten->Einstellungen_ auf das folgende Symbol:
+image:osm_editieren/osm_bearbeiten/josm_einfuehrung/benutzerdaten_hinterlegen_symbol.PNG[pdfwidth=5%]
+Wenn du dann auf _Neue Zugriffskennung_ drückst, solltest du folgendes Fenster sehen:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/oauth.PNG[pdfwidth=75%]
 
-Klicke danach auf die Schaltfläche **Jetzt autorisieren**
+Trage deinen OSM Benutzernamen und dein Passwort in die jeweiligen Felder ein.
+
+Klicke danach auf die Schaltfläche _Jetzt autorisieren_
 und du erhältst danach verschlüsselt die Zugriffskennung und einen geheimen Teil dieser Zugriffskennung.
 Wenn du magst, kannst du die Zugriffskennung testen.
 Danach wirst du eine Bestätigung erhalten, dass deine Daten auf dem offiziellen OSM Server akzeptiert wurden.
@@ -243,7 +245,7 @@ so dass jemand, der dein Change Set liest, deine Änderungen gleich erkennen kan
 
 Erweiterungen bringen den Funktionsumfang von JOSM noch weiter
 und es gibt für fast jede Situation eine passende Erweiterung.
-Du kannst Erweiterungen unter **Bearbeiten -> Einstellungen** unter diesem Symbol finden:
+Du kannst Erweiterungen unter _Bearbeiten -> Einstellungen_ unter diesem Symbol finden:
 image:osm_editieren/osm_bearbeiten/josm_einfuehrung/erweiterungen_symbol.PNG[pdfwidth=5%]
 
 Du kriegst nun eine Auflistung aller Erweiterungen, ob installiert oder einfach verfügbar.
