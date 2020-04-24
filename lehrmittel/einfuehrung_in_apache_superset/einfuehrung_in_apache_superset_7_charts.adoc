@@ -277,7 +277,7 @@ endif::show_solutions[]
 
 === Chart Nr. 7 Weltkarte
 
-Zum Abschluss erstellen wir noch den Chart Nr. 7, ein Map Chart:
+Zum Abschluss erstellen wir noch Chart Nr. 7, einen Map Chart:
 
 .rural_percentage (Chart 7)
 image::einfuehrung_in_apache_superset/rural_percentage.PNG[]
