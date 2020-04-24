@@ -236,6 +236,9 @@ Sobald du die Funktion aufgerufen habe, öffnet sich der Dialog um das <<changes
 Fülle diese Felder immer mit sinnvollen und nachvollziehbaren Änderungskommentaren aus,
 so dass jemand, der dein Change Set liest, deine Änderungen gleich erkennen kann.
 
+Wenn du das getan hast, kannst du auf _Änderungen Hochladen_ drücken,
+um deine Änderungen wieder auf die OSM-Server hochzuladen.
+
 [[erweiterungen]]
 == Erweiterungen
 
