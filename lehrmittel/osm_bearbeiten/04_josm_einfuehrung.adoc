@@ -61,9 +61,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac_os_version.PNG[pdf
 
 Öffne das heruntergeladene ZIP und zieh die JOSM Datei einfach in den Programme Ordner rein.
 Beim ersten Öffnen erscheint eine Warnung, da das Paket aus einer nicht verifizierten Quelle stammt.
-Du kannst JOSM trotzdem Öffnen.
-
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/mac_warning.PNG[pdfwidth=80%]
+Diese Warnung kannst du ignorieren und auf _Öffnen_ drücken.
 
 Die Installation ist nun fertig und JOSM kann verwendet werden.
 Grundsätzlich sind die Funktionen gegenüber der Windows Version 1:1 dieselben,
