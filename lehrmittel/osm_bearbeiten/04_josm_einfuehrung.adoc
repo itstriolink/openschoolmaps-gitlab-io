@@ -15,13 +15,11 @@ Zielgruppe
 Alle, die daran interessiert sind,
 ein mächtiges Werkzeug zur Änderung von OSM-Daten kennen zu lernen.
 
-== Software
-
-=== Installation
+== Installation
 
 Die JOSM-Installationsdateien findest du https://josm.openstreetmap.de/[hier].
 
-===== Windows 10
+=== Windows 10
 
 Aus Kompatibilitätsgründen empfehle ich dir, diese Version zu installieren:
 
@@ -29,7 +27,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_windows_version.PNG[pd
 
 WARNING: Vorsicht, unter Windows 10 gibt es einige Sicherheitswarnungen beim Installieren der Software.
 
-===== Installationsschritte
+==== Installationsschritte
 
 . Sprache wählen
 +
@@ -43,19 +41,19 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/installation_wizard.PNG[pdf
 +
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/full_installation.PNG[pdfwidth=40%]
 
-===== Java wird benötigt
+==== Java wird benötigt
 
 Solltest du noch kein Java installiert haben, musst du dies für die Nutzung von JOSM noch installieren.
 Der Installationswizard führt dich direkt auf die Downloadseite von Java.
 Sollte dies nicht der Fall sein, findest du den Download https://www.java.com/de/download/[hier].
 
-==== Mac OS
+=== Mac OS
 
 Aus Kompatibilitätsgründen empfehle ich dir, diese Version zu installieren
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac_os_version.PNG[pdfwidth=100%]
 
-===== Installationsschritte
+==== Installationsschritte
 
 Öffne das heruntergeladene ZIP und zieh die JOSM Datei einfach in den Programme Ordner rein.
 Beim ersten Öffnen erscheint eine Warnung, da das Paket aus einer nicht verifizierten Quelle stammt.
@@ -69,7 +67,7 @@ das Aussehen ähnelt aber mehr dem von MacOS.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac.PNG[pdfwidth=90%]
 
-===== Java wird benötigt
+==== Java wird benötigt
 
 Solltest du noch kein Java installiert haben, musst du dies für die Nutzung von JOSM noch installieren.
 Der Installationswizard führt dich direkt auf die Downloadseite von Java.
@@ -178,19 +176,19 @@ In JOSM lässt sich alles pflegen, was man mit dem bekannten Browser Editor iD a
 Jede Funktion zu erklären würde den Rahmen dieses Dokumentes bei weitem sprengen.
 Deswegen erkläre ich hier die grundlegenden Funktionen, die auch iD beherrscht.
 
-===== Punkt setzen
+==== Punkt setzen
 
 Um einen Punkt auf der Karte zu setzen,
 kannst du durch das Drücken von kbd:[A] in den Zeichnungsmodus kommen.
 Setze nun mit der Maus den Punkt, den du möchtest.
 
-===== Fläche zeichnen
+==== Fläche zeichnen
 
 Um eine Fläche zu zeichnen, kannst du wieder mittels kbd:[A] in den Zeichnungsmodus wechseln.
 Anstatt nur einen Punkt zu setzen, kannst du nun die Fläche mit verschiedenen Punkten zeichnen.
 Sobald du fertig bist, kannst du mittels kbd:[S] den Zeichnungsmodus beenden.
 
-===== Vorlagen verwenden
+==== Vorlagen verwenden
 
 Eine sehr nützliche Funktion in JOSM sind die Vorlagen.
 Vorlagen lassen sich auf Punkte und Flächen anwenden.
@@ -209,7 +207,7 @@ Hier ein Anwendungsbeispiel für einen Adresspunkt:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/addresspunkt.PNG[pdfwidth=40%]
 
-===== Tags kopieren / Einfügen
+==== Tags kopieren / Einfügen
 
 Eine weitere Funktion, die nur in JOSM so gut funktioniert, ist die Funktion einen oder mehrere Tags zu kopieren.
 Das eignet sich besonders gut, um mehrere ähnliche Tags zu bearbeiten.
@@ -288,32 +286,32 @@ Diskutiere nicht und zeige dich einsichtig oder hole jemanden zu Rate.
 
 == Weiterführende Information und Quellen
 
-===== OpenStreetMap im Web
+==== OpenStreetMap im Web
 
 https://www.openstreetmap.org/
 
-===== Offizielle JOSM Bedienungsanleitung
+==== Offizielle JOSM Bedienungsanleitung
 
 https://josm.openstreetmap.de/wiki/Introduction
 
-===== Mapbox JOSM Blog Artikel
+==== Mapbox JOSM Blog Artikel
 
 https://blog.mapbox.com/your-first-steps-with-josm-the-java-openstreetmap-editor-9e2fcafa7ba8
 
-===== OpenStreetMap Wiki
+==== OpenStreetMap Wiki
 
 https://wiki.openstreetmap.org/wiki/DE:Hauptseite?uselang=de
 
-===== “HOW TO map A” Seite
+==== “HOW TO map A” Seite
 
 https://wiki.openstreetmap.org/wiki/DE:How_to_map_a
 
 [[changeset]]
-===== Changeset
+==== Changeset
 
 https://wiki.openstreetmap.org/wiki/Changeset
 
-===== Swiss OpenStreetMap Association
+==== Swiss OpenStreetMap Association
 
 https://sosm.ch/de/
 
