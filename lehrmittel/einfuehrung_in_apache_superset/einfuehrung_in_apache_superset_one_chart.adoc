@@ -49,7 +49,7 @@ Es kann mit verschiedensten Datenbanken verbunden werden.
 NOTE: Zu Apache Superset gibt es eine offizielle, englischsprachige Dokumentation. 
 Diese scheint leider sehr dünn und nicht nachgeführt zu sein: Sie verwendet veraltete Begriffe ("Slices" statt "Charts")
 und das darin enthaltene Tutorial setzt Wetterdaten voraus, die nicht vorinstalliert sind.
-Der nützlichste Teil der Dokumentation ist das (kleine) FAQ Frequently Asked Questions (Häufig gestellte Fragen): https://superset.incubator.apache.org/faq.html . 
+Der nützlichste Teil der Dokumentation ist das kleine FAQ Frequently Asked Questions (Häufig gestellte Fragen): https://superset.incubator.apache.org/faq.html . 
 
 
 === Benutzerkonto erstellen/anmelden
@@ -71,12 +71,12 @@ Hier einige Erläuterungen zu den Konzepten hinter Apache Superset:
 * Datenbank: Eine Verbindung (Connection) zu einem Datenbanksystem, das Tabellen und Views enthält.
 * Chart (Diagramm), früher "Slice" genannt: Ein "Chart" ist eine Liste, ein Diagramm oder eine Webkarte. Superset kennt zurzeit 48 verschiedene Charts, wobei sieben davon interaktive Webkarten ("Map Charts") sind.
 * Dashboards: Eine interaktive Webseite, auf der interaktive Charts präsentiert werden.
-* Metrics: "Metrics" (manchmal auch "Measurements" genannt) sind numerische Kennzahlen. Sie werden v.a. in den Charts erwähnt und verlangt.
+* Metrics: "Metrics", manchmal auch "Measurements" genannt, sind numerische Kennzahlen. Sie werden v.a. in den Charts erwähnt und verlangt.
 * Records: Datenquellen und Charts sind alles Programmierelemente, die manchmal in der Benutzeroberfläche als "Record" bezeichnet werden.
 * SQL-Query: Anweisung, Datenbankanfrage in der Datenbanksprache SQL. SQL-Queries kann man speichern und als Datenquelle anderen zur Verfügung stellen.
 
 NOTE: Im Menü "Sources" von Apache Superset und in der Orginal-Dokumentation von Apache Superset wird Druid als Datenbanksystem erwähnt. 
-Alle auf Druid bezogenen Informationen im Menü (und in der Dokumentation) kannst du ignorieren.
+Alle auf Druid bezogenen Informationen im Menü und in der Dokumentation kannst du ignorieren.
 
 
 == Daten und Fragestellungen
@@ -128,22 +128,22 @@ Als erstes musst du eine Datenquelle (Source) wählen.
 Unter image:einfuehrung_in_apache_superset/sources.PNG[] können die verschiedenen Tabellen eingesehen werden. 
 Hierbei kann man auf die Lupe image:einfuehrung_in_apache_superset/lupe.PNG[] klicken, um genauere Informationen über die Tabelle zu erhalten, 
 wie z.B. welche Spalten die Tabelle besitzt und welche Datentypen dort gespeichert werden können. 
-Zudem kann man unter _Columns_ einstellen, ob man nach dieser Spalte gruppieren darf, ob sie zeitlich ist oder ob sie filterbar ist.
+Zudem kann man unter _Columns_ einstellen, ob die Spalte zeitlich oder filterbar ist und ob nach ihr gruppiert werden darf.
 
 Um eine Tabelle abzufragen, muss man unter "Sources" den Menüpunkt "Tables" wählen und dann auf den Namen der Tabelle klicken. 
 In diesem Beispiel ist das `wb_health_population`. 
 Man kann nur eine Tabelle als Quelle auszuwählen. 
-Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse (in weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt wie das geht). 
+Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse. In weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt, wie das geht.
 
-Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster, bzw. ein neuer Browser Tab, in dem man nun einen Chart erstellen kann.
+Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster bzw. ein neuer Browser Tab, worin man nun einen Chart erstellen kann.
 Dort steht nun bei Datasource die gewählte Tabelle `wb_health_population`.
 
 Direkt darunter, bei _Visualization Type_ (Chart-Typ) kann anstatt _Table_ "Pie Chart" (Kreis-Diagramm) ausgewählt werden.  
 
-Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 anfangen und im Jahr 2014 aufhören. 
+Als erstes musst du unter _Time_ die Zeitspanne anpassen, da die Daten der Tabelle `wb_health_population` im Jahre 1960 beginnen und im Jahr 2014 aufhören. 
 Da wir in unserem Beispiel nur das Jahr 2014 betrachten wollen, verwenden wir einen _Custom_-Filter von `2014-01-01` – `2014-12-31`.
 
-NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn es keine Daten gibt, die Zeitabhängig sind, kann man `No filter` wählen.
+NOTE: Um alle Daten zu erhalten - egal zu welchem Jahr sie gehören - oder wenn es keine Daten gibt, die zeitabhängig sind, kann man `No filter` wählen.
 
 
 NOTE: Um z.B. das Jahr 2014 auszuwählen, kann man auch `2013` bis `2014` eintippen.
@@ -155,9 +155,9 @@ Die Spalte _Metrics_ muss immer ausgefüllt sein.
 Sie wird auch bei allen Darstellungen verwendet, um zu bestimmen, wie viel Gewicht diese Zeile hat. Bei unserem Pie-Chart ist es die Grösse des Abschnittes. 
 
 Unter _GROUP BY_ -> _Group by_ kannst du die Abfrage noch weiter unterteilen. 
-_Group by_ wird genutzt, um ein Total nach einem bestimmten Attribut aufzuteilen. Wenn man z.B. die Summe der Weltbevölkerung nach Ländernamen gruppiert,
+_Group by_ wird genutzt, um ein Total nach einem bestimmten Attribut aufzuteilen. Wenn z.B. die Summe der Weltbevölkerung nach Ländernamen gruppiert wird,
 erhält man die Bevölkerung pro Land.
-Wähle darum hier das Attribut `country_name` aus. Das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist. 
+Wähle darum hier das Attribut `country_name` aus. Das davorgestellte "ABC" zeigt den Datentyp dieses Attributes an, was an dieser Stelle noch nicht wichtig ist.
 
 Unter _Row Limit_ kannst du das Ergebnis auf eine bestimmte Anzahl einträge beschränken. Wenn du z.B. ein _Row Limit_ von 10 setzt, werden nur die 10 bevölkerungsreichsten
 Länder angezeigt.
@@ -185,7 +185,7 @@ endif::show_solutions[]
 
 Jetzt, da wir einen Chart haben, wäre ein Filter praktisch, den man nachher im Dashboard anwenden kann. 
 Dafür muss man nur die _Filter Box_ als _Visualization Type_ auswählen und unter _Filters_ passende Spalten auswählen z.B. `region` und `country_name`. 
-Zudem kann man bei dem Filter die Option _Date Filter_ abwählen.
+Zudem kann beim Filter die Option _Date Filter_ abgewählt werden.
 
 Diesen Filter muss man natürlich auch abspeichern, um ihn später benutzen zu können.
 
@@ -207,15 +207,15 @@ Beim Erstellen eines Dashboards kann man einiges einstellen, jedoch reicht es of
 
 Um mit dem Editieren zu beginnen, musst du oben rechts auf _Edit dashboard_ klicken.
 Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen.
-(Die erste Komponente musst du nach oben zum Rand ziehen.)
-Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleicht anzeigt wie/wo die Komponente platziert wird. 
+Die erste Komponente musst du nach oben zum Rand ziehen.
+Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleich anzeigt, wie/wo die Komponente platziert wird. 
 Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst. 
 
 * _Tabs_ sind wie beim Browser selber zu verstehen und können alles Mögliche beinhalten.
-* _Rows_ sowie _Columns_ können gebraucht werden, um einzelne andere Komponenten zu verbinden. Wenn Komponenten verbunden sind, kann man den Platz zwischen ihnen auch weiss färben. Durch das Hovern über den verbundenen Komponenten erscheint ein Knopf der einem diese Option anzeigt.
+* _Rows_ sowie _Columns_ können gebraucht werden, um einzelne andere Komponenten zu verbinden. Wenn Komponenten verbunden sind, kann man den Platz zwischen ihnen auch weiss färben. Durch das Hovern über den verbundenen Komponenten erscheint ein Knopf, der diese Option anzeigt.
 * Um die verbundenen Komponenten wieder in Gruppen zu unterteilen kann man _Divider_ verwenden. Diese stellen einen Strich dar.
-* _Header_ können verwendet werden um den einzelnen Komponenten eine Überschrift zu geben und _Markdown_ kann benutzt werden damit man noch einen beschreibenden Text zu einem Chart verfassen kann.
-* Unter _Your charts & filters_ findet man alle Charts, die man bisher erstellt hat.
+* _Header_ können verwendet werden, um den einzelnen Komponenten eine Überschrift zu geben. _Markdown_ kann zum Verfassen eines beschreibenden Textes zu einem Chart benutzt werden.
+* Unter _Your charts & filters_ sind alle Charts zu finden, die man bisher erstellt hat.
 
 Nach dem Hinzufügen einer Komponente kann deren Grösse durch Anklicken der unteren rechten Ecke angepasst werden. 
 
