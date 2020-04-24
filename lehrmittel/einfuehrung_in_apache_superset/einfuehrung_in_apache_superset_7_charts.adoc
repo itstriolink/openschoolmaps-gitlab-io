@@ -326,8 +326,7 @@ Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten
 * _Header_ können verwendet werden, um den einzelnen Komponenten eine Überschrift zu geben. _Markdown_ kann zum Verfassen eines beschreibenden Textes zu einem Chart benutzt werden.
 * Unter _Your charts & filters_ sind alle Charts zu finden, die man bisher erstellt hat.
 
-Nach dem Hinzufügen einer Komponente kann dessen Grösse angepasst werden. 
-Durch Anklicken der unteren rechten Ecke kann die gewünschte Grösse eingestellt werden. 
+Nach dem Hinzufügen einer Komponente kann durch Anklicken der unteren rechten Ecke die gewünschte Grösse eingestellt werden.
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 8* +
