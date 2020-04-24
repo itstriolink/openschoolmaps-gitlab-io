@@ -282,7 +282,7 @@ Du kannst hier nach jeder verfügbaren Erweiterung suchen.
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/erweiterungen_menue.PNG[pdfwidth=40%]
 
 Um eine Erweiterung zu installieren, musst du diese anwählen und danach OK drücken.
-Dies installiert die Version automatisch. Gewisse Plugins erfordern einen Neustart von JOSM
+Dies installiert die Version automatisch. Gewisse Erweiterungen erfordern einen Neustart von JOSM.
 
 === Empfehlungen
 
