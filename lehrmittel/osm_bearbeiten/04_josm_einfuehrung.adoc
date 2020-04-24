@@ -161,9 +161,8 @@ Wählst du ein zu grosses Gebiet, wirst du vom Server vermutlich einen Fehler er
 Solltest du ein ganzes Dorf mappen wollen, kannst du den Datenradius in mehreren Malen herunterladen.
 Du wiederholst dafür einfach oben genannte Schritte und nimmst einen anderen Radius.
 
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/daten_download.PNG[pdfwidth=60%]
-
-Sobald du die Daten heruntergeladen hast, siehst du folgenden Screen:
+Sobald du die Daten heruntergeladen hast, siehst du einen Screen,
+der dem folgen Screenshot ähnlich ist:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/screen_nach_datendownload.PNG[pdfwidth=60%]
 
