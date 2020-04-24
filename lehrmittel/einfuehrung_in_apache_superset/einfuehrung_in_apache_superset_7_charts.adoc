@@ -285,7 +285,7 @@ image::einfuehrung_in_apache_superset/rural_percentage.PNG[]
 
 
 Dieser Map Chart zeigt durch das Färben der Länder an, wie viele Menschen ländlich wohnen (schwarz = 100% / weiss = 0%).
-Die Anzahl dieser Menschen wird durch eine Blase abgebildet.
+Die Anzahl dieser Menschen wird durch eine Blase dargestellt.
 Um die Prozentzahl der ländlich Lebenden oder die Grösse der Bevölkerung zu sehen, muss du mit der Maus über das Land beziehungsweise der Blase hovern.
 
 Es ist eine _World Map_. Hier die Optionen dazu:
