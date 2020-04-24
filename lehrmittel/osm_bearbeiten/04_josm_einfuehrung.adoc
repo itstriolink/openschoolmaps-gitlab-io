@@ -112,7 +112,7 @@ Danach wirst du eine Bestätigung erhalten, dass deine Daten auf dem offiziellen
 === Hintergründe
 
 JOSM bietet bereits ab Grundinstallation eine Vielzahl an Hintergrundkarten an.
-Nicht weniger kann man JOSM soweit individualisieren, dass man WMS Services anbieten kann.
+JOSM lässt sich soweit individualisieren, dass man WMS/TMS Dienste anbinden kann wie z.B geolion.ch.
 Wem also die Standardauswahl für die Schweiz nicht reicht oder wer einen speziellen Hintergrund braucht,
 kann ganz einfach einen WMS Dienst anbinden.
 
@@ -211,7 +211,8 @@ Eine weitere Funktion, die nur in JOSM so gut funktioniert, ist die Funktion ein
 Das eignet sich besonders gut, um mehrere ähnliche Tags zu bearbeiten.
 Gerne erkläre ich dir dies anhand einer Strasse, bei der wir nur die Hausnummern editieren wollen.
 
-Ein Objekt musst du normal mit allen Tags versehen, dass du ein Grunddatensatz zu Verfügung hast.
+Am besten legst du dir am Anfang ein Objekt zurecht das dir als Grunddatensatz dienen wird.
+Danach solltest du dies normal mit allen Tags versehen, die du für weitere Objekte auch benötigen wirst.
 Nun kannst du alle diese Tags markieren und dann mit kbd:[Ctrl+C] alle Tags kopieren.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/tags_kopieren.PNG[pdfwidth=60%]
@@ -251,7 +252,8 @@ Du kannst hier nach jeder verfügbaren Erweiterung suchen.
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/erweiterungen_menue.PNG[pdfwidth=40%]
 
 Um eine Erweiterung zu installieren, musst du diese anwählen und danach OK drücken.
-Dies installiert die Version automatisch. Gewisse Plugins erfordern einen Neustart von JOSM
+Dies installiert die ausgewählte Erweiterung dann automatisch.
+Gewisse Erweiterungen erfordern einen Neustart von JOSM.
 
 === Empfehlungen
 
