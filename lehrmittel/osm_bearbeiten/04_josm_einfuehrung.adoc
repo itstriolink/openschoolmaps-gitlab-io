@@ -1,52 +1,25 @@
 = JOSM-Einführung
 :experimental:
 :imagesdir: ../../bilder/
-:toc-title: Inhaltsverzeichnis
-:toc:
-:toclevels: 3
 
-== Dokumentinformationen
+**Ein Arbeitsblatt für Interessierte und für Schülerinnen und Schüler**
 
-=== Änderungen
+== Übersicht
 
-[%header,format=csv]
-|===
-Version,Datum,Autoren,Bemerkungen
-0.1,16.04.2020,NUC,Erstellung 1. Version
-1.0,19.04.2020,NUC,Fertigstellung 1. Version / Lizenz angepasst
-|===
+Ziel
 
-=== Weiterführende Dokumente
+Das Ziel dieser einführung ist es, den Leser mit dem OSM-Editor vertraut zu machen.
 
-[%header,format=csv]
-|===
- , , , 
- , , , 
-|===
+Zielgruppe
 
-=== Zweck dieses Dokuments
-
-Dieses Dokument beschreibt JOSM.
-JOSM steht für **J**ava **O**pen**S**treet**M**ap Editor.
-Dieser Editor wird für die Änderung von Daten in **O**pen**S**treet**M**ap (OSM) verwendet.
-Ebenso wird anhand von Beispielen die einfache Anwendung beschrieben.
-Die Seiten wurden so unterteilt,
-dass das Anwendungsbeispiel separat ausgedruckt und verwendet werden kann.
-
-=== Lizenz
-
-Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung 3.0 Switzerland.
-Um eine Kopie dieser Lizenz zu sehen, besuchen Sie https://creativecommons.org/licenses/by/3.0/
-
-image::cc_3.0_licence.png[pdfwidth=15%]
+Alle, die daran interessiert sind,
+ein mächtiges Werkzeug zur Änderung von OSM-Daten kennen zu lernen.
 
 == Software
 
 === Installation
 
-==== Link zur installation
-
-Du findest die Software JOSM unter folgendem Link: https://josm.openstreetmap.de/
+Die JOSM-Installationsdateien findest du https://josm.openstreetmap.de/[hier].
 
 ===== Windows 10
 
@@ -74,7 +47,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/full_installation.PNG[pdfwi
 
 Solltest du noch kein Java installiert haben, musst du dies für die Nutzung von JOSM noch installieren.
 Der Installationswizard führt dich direkt auf die Downloadseite von Java.
-Sollte dies nicht so sein, folge diesem Link: https://www.java.com/de/download/
+Sollte dies nicht der Fall sein, findest du den Download https://www.java.com/de/download/[hier].
 
 ==== Mac OS
 
@@ -100,7 +73,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac.PNG[pdfwidth=90%]
 
 Solltest du noch kein Java installiert haben, musst du dies für die Nutzung von JOSM noch installieren.
 Der Installationswizard führt dich direkt auf die Downloadseite von Java.
-Sollte dies nicht so sein, folge diesem Link: https://www.java.com/de/download/
+Sollte dies nicht der Fall sein, findest du den Download https://www.java.com/de/download/[hier].
 
 == JOSM anwenden
 **Ungeachtet dessen, dass oben auch die Installation der MacOS-Version erklärt wird,
@@ -120,7 +93,7 @@ Diese Meldung kommt von Zeit zu Zeit auch beim Starten von JOSM, wenn es Aktuali
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_startbildschirm.PNG[pdfwidth=100%]
 
 Das JOSM Projekt behält sich vor, euch immer die neusten Informationen direkt auf den Startbildschirm zu projizieren.
-Zusätzlich kriegst du immer die Change Logs der letzten Versionen angezeigt.
+Zusätzlich kriegst du immer die Release Notes der letzten Versionen angezeigt.
 
 Wenn es eine neue Version gibt, wird dir das ebenfalls hier angezeigt.
 
@@ -282,7 +255,7 @@ Du kannst hier nach jeder verfügbaren Erweiterung suchen.
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/erweiterungen_menue.PNG[pdfwidth=40%]
 
 Um eine Erweiterung zu installieren, musst du diese anwählen und danach OK drücken.
-Dies installiert die Version automatisch. Gewisse Erweiterungen erfordern einen Neustart von JOSM.
+Dies installiert die Version automatisch. Gewisse Plugins erfordern einen Neustart von JOSM
 
 === Empfehlungen
 
@@ -343,3 +316,29 @@ https://wiki.openstreetmap.org/wiki/Changeset
 ===== Swiss OpenStreetMap Association
 
 https://sosm.ch/de/
+
+== Dokumentinformationen
+
+=== Änderungen
+
+[%header,format=csv]
+|===
+Version,Datum,Autoren,Bemerkungen
+0.1,16.04.2020,NUC,Erstellung 1. Version
+1.0,19.04.2020,NUC,Fertigstellung 1. Version / Lizenz angepasst
+|===
+
+=== Weiterführende Dokumente
+
+[%header,format=csv]
+|===
+ , , ,
+ , , ,
+|===
+
+=== Lizenz
+
+Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung 3.0 Switzerland.
+Um eine Kopie dieser Lizenz zu sehen, besuchen Sie https://creativecommons.org/licenses/by/3.0/
+
+image::cc_3.0_licence.png[pdfwidth=15%]
