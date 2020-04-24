@@ -29,17 +29,21 @@ WARNING: Vorsicht, unter Windows 10 gibt es einige Sicherheitswarnungen beim Ins
 
 ==== Installationsschritte
 
-. Sprache wählen
+. *Sprache wählen*
 +
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/sprachauswahl.PNG[pdfwidth=50%]
+Wähle deine bevorzugte Sprache.
+In diesem Dokument werden wir Screenshots aus der deutschen Version verwenden.
 
-. Installations-Wizard durchführen
+. *Installations-Wizard durchführen*
 +
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/installation_wizard.PNG[pdfwidth=40%]
+Klicke dich durch die Installation durch,
+bis du zum "*Komponenten auswählen*"-Fenster kommst.
 
-. Vollinstallation auswählen
+. *Vollinstallation auswählen*
 +
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/full_installation.PNG[pdfwidth=40%]
+Wähle in diesem Fenster alles an und klicke dann auf _Weiter >_.
+Hier kannst du noch den Installationspfad auswählen.
+Wenn alles stimmt, drücke auf _Installieren_ und schliesse die Installation ab.
 
 ==== Java wird benötigt
 
