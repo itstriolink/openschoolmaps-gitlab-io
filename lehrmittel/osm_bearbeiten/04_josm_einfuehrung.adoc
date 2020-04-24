@@ -190,7 +190,9 @@ Eine sehr nützliche Funktion in JOSM sind die Vorlagen.
 Vorlagen lassen sich auf Punkte und Flächen anwenden.
 Wenn du etwas Bestimmtes mappen willst, kannst du mit kbd:[F3] die Vorlagenfunktion aufrufen.
 
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/vorlagen_suchen.PNG[pdfwidth=40%]
+Im suchfeld kannst du nun alle möglichen Objekte suchen, die es in OSM gibt.
+Es ist definitiv von Von vorteil, wenn du mit OSM Tags vertraut bist,
+da die Anzahl Tags ansonsten überwältigend sein kann.
 
 Es lässt sich beinahe alles suchen, das sich mit Tags versehen lässt.
 Vorteil dabei ist, dass die benötigten Felder eines korrekten Taggings bereits vorgeschlagen werden
