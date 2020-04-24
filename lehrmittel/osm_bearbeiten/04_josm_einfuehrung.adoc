@@ -291,34 +291,20 @@ Diskutiere nicht und zeige dich einsichtig oder hole jemanden zu Rate.
 
 == Weiterführende Information und Quellen
 
-==== OpenStreetMap im Web
+==== https://www.openstreetmap.org/[OpenStreetMap im Web]
 
-https://www.openstreetmap.org/
+==== https://josm.openstreetmap.de/wiki/Introduction[Offizielle JOSM Bedienungsanleitung]
 
-==== Offizielle JOSM Bedienungsanleitung
+==== https://blog.mapbox.com/your-first-steps-with-josm-the-java-openstreetmap-editor-9e2fcafa7ba8[Mapbox JOSM Blog Artikel]
 
-https://josm.openstreetmap.de/wiki/Introduction
+==== https://wiki.openstreetmap.org/wiki/DE:Hauptseite?uselang=de[OpenStreetMap Wiki]
 
-==== Mapbox JOSM Blog Artikel
-
-https://blog.mapbox.com/your-first-steps-with-josm-the-java-openstreetmap-editor-9e2fcafa7ba8
-
-==== OpenStreetMap Wiki
-
-https://wiki.openstreetmap.org/wiki/DE:Hauptseite?uselang=de
-
-==== “HOW TO map A” Seite
-
-https://wiki.openstreetmap.org/wiki/DE:How_to_map_a
+==== https://wiki.openstreetmap.org/wiki/DE:How_to_map_a[“HOW TO map A” Seite]
 
 [[changeset]]
-==== Changeset
+==== https://wiki.openstreetmap.org/wiki/Changeset[Changeset]
 
-https://wiki.openstreetmap.org/wiki/Changeset
-
-==== Swiss OpenStreetMap Association
-
-https://sosm.ch/de/
+==== https://sosm.ch/de/[Swiss OpenStreetMap Association]
 
 == Dokumentinformationen
 
@@ -329,6 +315,7 @@ https://sosm.ch/de/
 Version,Datum,Autoren,Bemerkungen
 0.1,16.04.2020,NUC,Erstellung 1. Version
 1.0,19.04.2020,NUC,Fertigstellung 1. Version / Lizenz angepasst
+2.0,24.04.2020,cdelross,Portierung nach Asciidoc / Generelle Überarbeitung
 |===
 
 === Weiterführende Dokumente
@@ -341,7 +328,6 @@ Version,Datum,Autoren,Bemerkungen
 
 === Lizenz
 
-Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung 3.0 Switzerland.
-Um eine Kopie dieser Lizenz zu sehen, besuchen Sie https://creativecommons.org/licenses/by/3.0/
+Dieses Material steht unter der https://creativecommons.org/licenses/by/3.0/[Creative-Commons-Lizenz Namensnennung 3.0 Switzerland].
 
 image::cc_3.0_licence.png[pdfwidth=15%]
