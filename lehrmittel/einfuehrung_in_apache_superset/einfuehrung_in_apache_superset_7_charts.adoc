@@ -86,7 +86,7 @@ Zudem kann man unter _Columns_ einstellen, ob die Spalte zeitlich oder filterbar
 
 Um eine Tabelle abzufragen, muss man unter "Sources" den Menüpunkt "Tables" wählen und dann auf den Namen der Tabelle klicken. 
 In diesem Beispiel ist das `wb_health_population`. 
-Man kann nur eine Tabelle als Quelle auszuwählen. 
+Man kann nur eine Tabelle als Quelle auswählen. 
 Möchte man mehrere Tabellen zu einer Datenquelle verknüpfen, benötigt man SQL-Kenntnisse. In weiteren Arbeitsblättern auf OpenSchoolMaps wird gezeigt, wie das geht.
 
 Durch das Auswählen einer Tabelle öffnet sich direkt ein neues Fenster bzw. ein neuer Browser Tab, worin man nun einen Chart erstellen kann.
