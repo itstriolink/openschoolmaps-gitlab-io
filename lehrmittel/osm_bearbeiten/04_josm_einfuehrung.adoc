@@ -231,9 +231,7 @@ image:osm_editieren/osm_bearbeiten/josm_einfuehrung/upload_symbol.PNG[pdfwidth=5
 
 Dies machen wir nun mit unseren Änderungen aus dem vorherigen Kapitel.
 
-Sobald ich die Funktion aufgerufen habe, öffnet sich der Dialog um das <<changeset,Change Set>> zu kommentieren.
-
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/upload_fenster.PNG[pdfwidth=50%]
+Sobald du die Funktion aufgerufen habe, öffnet sich der Dialog um das <<changeset,Change Set>> zu kommentieren.
 
 Fülle diese Felder immer mit sinnvollen und nachvollziehbaren Änderungskommentaren aus,
 so dass jemand, der dein Change Set liest, deine Änderungen gleich erkennen kann.
