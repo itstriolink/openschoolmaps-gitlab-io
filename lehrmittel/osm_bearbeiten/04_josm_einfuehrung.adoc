@@ -37,7 +37,7 @@ In diesem Dokument werden wir Screenshots aus der deutschen Version verwenden.
 . *Installations-Wizard durchführen*
 +
 Klicke dich durch die Installation durch,
-bis du zum "_Komponenten auswählen_"-Fenster kommst.
+bis du zum _Komponenten auswählen_-Fenster kommst.
 
 . *Vollinstallation auswählen*
 +
@@ -74,8 +74,8 @@ Der Installationswizard führt dich direkt auf die Downloadseite von Java.
 Sollte dies nicht der Fall sein, findest du den Download https://www.java.com/de/download/[hier].
 
 == JOSM anwenden
-**Ungeachtet dessen, dass oben auch die Installation der MacOS-Version erklärt wird,
-beziehen sich weitere Screenshots immer auf die Windows Version von JOSM**
+NOTE: Ungeachtet dessen, dass oben auch die Installation der MacOS-Version erklärt wird,
+beziehen sich weitere Screenshots immer auf die Windows Version von JOSM
 
 === JOSM das erste Mal starten
 
@@ -84,7 +84,7 @@ beziehen sich weitere Screenshots immer auf die Windows Version von JOSM**
 Beim ersten Start wirst du aufgefordert, die Erweiterungen, die vorinstalliert waren, zu aktualisieren.
 Das solltest du auf jeden Fall machen.
 
-Diese Meldung kommt von Zeit zu Zeit auch beim Starten von JOSM, wenn es Aktualisierungen zu Erweiterungen gibt.
+Diese Meldung kommt von Zeit zu Zeit auch bei späteren Starts von JOSM, wenn es Aktualisierungen zu Erweiterungen gibt.
 
 ==== Startbildschirm
 
@@ -100,6 +100,7 @@ Wenn es eine neue Version gibt, wird dir das ebenfalls hier angezeigt.
 Am Anfang von JOSM würde ich dir gleich empfehlen, deine Benutzerdaten zu hinterlegen.
 Drücke dazu unter _Bearbeiten->Einstellungen_ auf das folgende Symbol:
 image:osm_editieren/osm_bearbeiten/josm_einfuehrung/benutzerdaten_hinterlegen_symbol.PNG[pdfwidth=5%]
+
 Wenn du dann auf _Neue Zugriffskennung_ drückst, solltest du folgendes Fenster sehen:
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/oauth.PNG[pdfwidth=75%]
@@ -193,8 +194,9 @@ Vorlagen lassen sich auf Punkte und Flächen anwenden.
 Wenn du etwas Bestimmtes mappen willst, kannst du mit kbd:[F3] die Vorlagenfunktion aufrufen.
 
 Im suchfeld kannst du nun alle möglichen Objekte suchen, die es in OSM gibt.
-Es ist definitiv von Von vorteil, wenn du mit OSM Tags vertraut bist,
-da die Anzahl Tags ansonsten überwältigend sein kann.
+Es ist definitiv von Vorteil, wenn du mit OSM Tags vertraut bist,
+damit du ungefähr weisst, wonach du suchen musst
+und da die Anzahl Tags ansonsten überwältigend sein kann.
 
 Es lässt sich beinahe alles suchen, das sich mit Tags versehen lässt.
 Vorteil dabei ist, dass die benötigten Felder eines korrekten Taggings bereits vorgeschlagen werden
