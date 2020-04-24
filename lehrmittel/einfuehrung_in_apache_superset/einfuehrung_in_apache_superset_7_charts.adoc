@@ -144,7 +144,7 @@ _Nimm das Ergebnis von Aufgabe 2 und stelle es als Sunburst Chart dar. "Hierarch
 
 Setze bei _Hierarchy_ `region` an erster Stelle.
 Die Reihenfolge ist wichtig für die Darstellung, damit ersichtlich ist, in welcher Region 
-das jeweilige Land liegt wie gross der Anteil gegenüber deren Population ist.
+das jeweilige Land liegt und wie gross der Anteil gegenüber deren Population ist.
 An dieser Stelle empfiehlt es sich, den in Aufgabe 2 erstellten Filter wieder zu entfernen oder anzupassen, damit es mehr Beispiele gibt, bei denen man die Folgen des nächsten Schrittes sehen kann. 
 
 IMPORTANT: Jeder Chart hat seine eigenen Optionen.
