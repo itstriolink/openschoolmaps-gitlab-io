@@ -67,8 +67,6 @@ Die Installation ist nun fertig und JOSM kann verwendet werden.
 Grundsätzlich sind die Funktionen gegenüber der Windows Version 1:1 dieselben,
 das Aussehen ähnelt aber mehr dem von MacOS.
 
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/josm_mac.PNG[pdfwidth=90%]
-
 ==== Java wird benötigt
 
 Solltest du noch kein Java installiert haben, musst du dies für die Nutzung von JOSM noch installieren.
