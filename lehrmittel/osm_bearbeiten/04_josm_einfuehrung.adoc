@@ -116,11 +116,10 @@ Nicht weniger kann man JOSM soweit individualisieren, dass man WMS Services anbi
 Wem also die Standardauswahl für die Schweiz nicht reicht oder wer einen speziellen Hintergrund braucht,
 kann ganz einfach einen WMS Dienst anbinden.
 
-image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergruende.PNG[pdfwidth=90%]
-
 ==== Hintergrund wählen
 
-Um einen Hintergrund zu wählen, wählst du im oben gezeigten Screenshot “Hintergrund-Einstellungen”.
+Um einen Hintergrund zu wählen, gehst du in der Leiste oben auf _Hintergrund_
+und klickst auf _Hintergrund-Einstellungen_.
 Danach kannst du dir deine Hintergrundkarten selbst zusammenstellen.
 
 image::osm_editieren/osm_bearbeiten/josm_einfuehrung/hintergrund_auswahl.PNG[pdfwidth=75%]
