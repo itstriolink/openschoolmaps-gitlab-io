@@ -23,6 +23,7 @@ kann!
 
 ## News
 
+- Am 25. April 2020 gab es einen Online-Workshop zu "[OpenSchoolMaps - Materialien zu OpenStreetMap](https://openeducationday.ch/programm-2020/openschoolmaps/)" im Rahmen des Virtuellen Open Education Halfday 2020.
 - Two new worksheets on "Apache Superset the Data Visualization and Publication Tool" published (25 November 2019).
 - Zwei neue Arbeitsblätter zum Thema "Apache Superset das Datenvisualisierungs- und -Publikations-Werkzeug" publiziert (25. Oktober 2019).
 - OpenSchoolMaps gewinnt den DINAcon Award 2019 in der Kategorie "Best Open Education Project"! Mit den DINAcon Awards werden Open-Projekte von Communities, Unternehmen, Verwaltungen, Organisationen und Einzelpersonen ausgezeichnet. [Weblink](https://awards.dinacon.ch/awards/openschoolmaps/) (18. Oktober 2019)
