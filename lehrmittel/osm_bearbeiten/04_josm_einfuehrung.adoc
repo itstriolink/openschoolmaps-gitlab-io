@@ -306,27 +306,18 @@ Diskutiere nicht und zeige dich einsichtig oder hole jemanden zu Rate.
 
 ==== https://sosm.ch/de/[Swiss OpenStreetMap Association]
 
-== Dokumentinformationen
+=== Weiterführende Themen und Unterlagen
 
-=== Änderungen
+////
+TODO:
+* Arbeitsblätter von OpenSchoolMaps
+* Hinweis auf Plugins wie OpenData
+////
 
-[%header,format=csv]
-|===
-Version,Datum,Autoren,Bemerkungen
-0.1,16.04.2020,NUC,Erstellung 1. Version
-1.0,19.04.2020,NUC,Fertigstellung 1. Version / Lizenz angepasst
-2.0,24.04.2020,cdelross,Portierung nach Asciidoc / Generelle Überarbeitung
-|===
+=== Dank und Lizenz
 
-=== Weiterführende Dokumente
-
-[%header,format=csv]
-|===
- , , ,
- , , ,
-|===
-
-=== Lizenz
+Ein grosser Dank geht an Christian Nüssli als Erstautor dieses Dokuments.
+Änderungen sind auf dem Repository xxx nachvollziehbar.
 
 Dieses Material steht unter der https://creativecommons.org/licenses/by/3.0/[Creative-Commons-Lizenz Namensnennung 3.0 Switzerland].
 
