@@ -1,4 +1,4 @@
-= JOSM-Einführung
+= Einführung in den OpenStreetMap-Editor JOSM
 :experimental:
 :imagesdir: ../../bilder/
 
@@ -8,18 +8,18 @@
 
 Ziel
 
-Das Ziel dieser einführung ist es, den Leser mit dem OSM-Editor vertraut zu machen.
+Das Ziel dieser Einführung ist es, den Leser mit dem OSM-Editor vertraut zu machen.
 
 Zielgruppe
 
-Alle, die daran interessiert sind,
-ein mächtiges Werkzeug zur Änderung von OSM-Daten kennen zu lernen.
+Alle, die daran interessiert sind, ein mächtiges Werkzeug zur Änderung von 
+OSM-Daten kennen zu lernen.
 
 == Installation
 
 Die JOSM-Installationsdateien findest du https://josm.openstreetmap.de/[hier].
 
-=== Windows 10
+=== Windows 
 
 Aus Kompatibilitätsgründen empfehle ich dir, diese Version zu installieren:
 
