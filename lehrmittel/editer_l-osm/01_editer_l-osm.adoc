@@ -137,4 +137,13 @@ et coche la case «Notes/Messages d'erreur». Regarde si tu peux voir les notes 
 utilisateurs de la carte indiquant des erreurs ou des omissions que tu peux corriger en 
 apportant des modifications. Lorsque tu as trouvé quelque chose, clique à nouveau sur «Modifier».
 
+Une autre façon de découvrir ce que vous pouvez cartographier est la "OpenStreetMap Tagging Cheatsheet" sur OpenSchoolMaps.
+
+[NOTE]
+====
+Si tu veux arrêter l'édition et quitter l'éditeur iD, clique sur le logo "OpenStreetMap" dans le coin supérieur gauche. 
+====
+
+Si tu veux en savoir plus sur OpenStreetMap, consulte OpenSchoolMaps, par exemple, pour plus de matériel.
+
 include::../../snippets/quellenangabe.adoc[]
