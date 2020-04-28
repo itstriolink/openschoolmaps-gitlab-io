@@ -99,7 +99,7 @@ Wenn es eine neue Version gibt, wird dir das ebenfalls hier angezeigt.
 
 Am Anfang von JOSM empfehlen wir dir, deine Benutzerdaten von OSM zu hinterlegen.
 Drücke dazu unter _Bearbeiten->Einstellungen_ auf das folgende Symbol:
-image:osm_editieren/osm_bearbeiten/josm_einfuehrung/benutzerdaten_hinterlegen_symbol.PNG[pdfwidth=5%]
+image:osm_editieren/osm_bearbeiten/josm_einfuehrung/benutzerdaten_hinterlegen_symbol.PNG[pdfwidth=5%].
 
 Wenn du dann auf _Neue Zugriffskennung_ drückst, solltest du folgendes Fenster sehen:
 
@@ -287,13 +287,15 @@ Schaue dir die Hilfsmittel an und mappe es nach bestem Wissen und Gewissen.
 Falls dies der Community nicht passt, wird sie dir das schon mitteilen.
 Diskutiere nicht und zeige dich einsichtig oder hole jemanden zu Rate.
 
-== Weiterführende Information und Quellen
+== Weiterführende Informationen und Quellen
 
 Über JOSM:
+
 * https://josm.openstreetmap.de/wiki/Introduction[Offizielle JOSM Bedienungsanleitung]
 * https://blog.mapbox.com/your-first-steps-with-josm-the-java-openstreetmap-editor-9e2fcafa7ba8[Mapbox JOSM Blog Artikel]
 
 Tagging und OSM allgemein:
+
 * Weitere Arbeitsblätter von OpenSchoolMaps, insbesondere das "OpenStreetMap Tagging Cheatsheet".
 * https://wiki.openstreetmap.org/wiki/DE:How_to_map_a["HOW TO map A"-Seite]
 * https://www.openstreetmap.org/[OpenStreetMap im Web]
