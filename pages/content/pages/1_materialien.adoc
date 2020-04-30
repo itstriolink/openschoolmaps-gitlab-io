@@ -46,6 +46,8 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 . Die Umgebung selber kartografieren - Outdoor Mapping Event:
   {lehrmittel-url}/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt für Teilnehmende] |
   {lehrmittel-url}/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.pdf?job=PDFs[{pdf-icon}{nnbsp}für Instruktoren]
+. Einführung in den OpenStreetMap-Editor JOSM:
+  {lehrmittel-url}/osm_bearbeiten/04_josm_einfuehrung.pdf?job=PDFs[{pdf-icon}{nnbsp}Arbeitsblatt] (Keywords: JOSM-Editor)
 
 .uMap der Karteneditor:
 . Mit uMap einen Lageplan erstellen:
