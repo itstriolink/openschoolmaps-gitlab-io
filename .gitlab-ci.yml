@@ -80,7 +80,7 @@ pages:
   - git clone --depth 1 https://github.com/getpelican/pelican-plugins
   - git clone --depth 1 https://gitlab.com/openschoolmaps/pelican-themes.git
   - pip install -r requirements.txt
-  - pelican -s publishconf.py
+  - pelican --fatal errors -s publishconf.py
   - mv .well-known/ public/.well-known
   - mv public/ ..
   only:
