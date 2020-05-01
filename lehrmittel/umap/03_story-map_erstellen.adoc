@@ -1,0 +1,140 @@
+= Mit uMap eine Story-Map mit Bildern erstellen
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+
+*Eine Anleitung für Interessierte und Lehrpersonen*
+
+== Übersicht
+
+.Ziel
+Das Ziel dieser Anleitung ist es, mit dem Karteneditor uMap eine Story-Map zu erstellen. In der Geografie ermöglicht eine Story-Map eine ansprechende und informative Kombination aus öffentlich verfügbaren Karten, begleitendem Text, Bildern und Multimedia-Inhalten.
+So sieht die Karte aus, die wir erstellen werden:
+
+.Beispiel einer mit uMap erstellten Story-Map. Kartendaten (C) OpenStreetMap Contributors
+image::umap/story-map_erstellen/endprodukt.png[]
+
+Die volle Beispielkarte sehen Sie unter https://umap.osm.ch/de/map/karte-von-rapperswil-sg_1377#15/47.2188/8.8119. Eventuell müssen Sie noch auf die blauen Stecknadeln reinzoomen.
+
+.Zielgruppe
+Für alle die an "Mapping" interessiert sind.
+
+.Zeitplanung
+Je nach Grösse Ihrer Story-Map sollten Sie etwa 45 Minuten für diese Anleitung einplanen.
+
+//(Siehe auch Abschnitt https://dinacon.ch/wp-content/uploads/sites/4/2017/10/dinacon_17.pdf#Outline0.3[Erstellen einer Fotostory mit uMap] im Foliensatz des DINAcon-Vortrags https://dinacon.ch/sessions/2017/osm/[Nutzung von OpenStreetMap für Standortkarten und Online-Stories].)
+
+<<<
+
+== Vorbereitung
+Zuerst brauchen Sie einen Web-Browser mit dem Sie die Seite öffnen können.
+Überlegen Sie sich im Vorfeld, wie das Endprodukt in etwa aussehen soll und notieren Sie sich, welche Punkte Sie darin haben wollen. Dieser Schritt ist natürlich optional aber nützlich, um effizienter zum Ziel zu kommen.
+
+== Erstellen der Story-Map
+
+  * Besuchen Sie die Seite https://umap.osm.ch/ .
+  * Erstellen Sie eine neue Karte. +
++
+.Die Startseite von umap.osm.ch
+image::umap/story-map_erstellen/uMap_homepage.png[]
+  * Tragen Sie Punkte image:umap/stecknadel_icon.PNG["Punkte-Icon", 25, 25] ein, die Sie gerne auf der Map hätten. Sie können auch Linien image:umap/weg_icon.PNG["Linien-Icon", 25, 25] und Flächen image:umap/flaeche_icon.PNG["Flächen-Icon", 25, 25] auf der Karte eintragen, wenn Sie möchten.
+* Nun zur eigentlichen "Story". Der wichtigste Schritt ist das Aktivieren der Diashow unter "Einstellungen image:umap/story-map_erstellen/zahnrad_icon.png["Zahnrad-Icon", 25, 25] -> Diashow -> Diashowmodus aktivieren". Nach dem Speichern der Einstellungen müssen Sie wahrscheinlich mit F5 erneuern.
+
+== Beschreibung hinzufügen
+
+Da Sie nun verschiedene Punkte der Karte hinzugefügt haben, können wir jetzt jeden Punkt noch mit einer Beschreibung ergänzen. Diese Beschreibungen werden während der Diashow dargestellt.
+
+Um eine Beschreibung hinzuzufügen, klicken Sie (im Editiermodus) auf den Punkt, den Sie editieren möchten und schreiben Sie Ihren Text in die Box "Beschreibung".
+Schreiben Sie zusätzlich in die Textbox "Name" noch einen geeigneten Namen für den Punkt, da wir diesen später brauchen werden.
+
+[NOTE]
+====
+Um eine schöne Beschreibung zu erstellen haben wir für Sie einige Tipps:
+
+* Um eine kursive Schrift zu machen, brauchen Sie `+*Ein Stern*+`.
+* Um eine fette Schrift zu machen, brauchen Sie `+**Zwei Sterne**+`.
+* Um Überschriften zu machen brauchen Sie `# Titel`. Je mehr `#` desto kleiner die Überschrift.
+
+Weitere Darstellungsarten finden Sie, wenn Sie auf das Fragezeichen über der Textbox von "Beschreibung" klicken.
+====
+
+Um ein Bild in die Beschreibung hinzuzufügen,
+braucht man die URL zum Bild.
+Dazu muss das Bild im Web (z.B. auf einer Online-Plattform) vorhanden sein.
+
+Um nachzuschauen, ob es schon Bilder in der Umgebung gibt,
+können Sie http://projets.pavie.info/pic4carto/ verwenden.
+Eines der Portale, in denen _Pic4Carto_ nachschaut, ist _Mapillary_.
+
+_Mapillary_ ist eine Plattform, auf der man Street-Level-Bilder hochladen kann,
+die danach für alle Personen frei zur Verfügung stehen.
+Unter anderem können Sie damit in OpenStreetMap mitwirken.
+
+Wenn Sie bestehende Bilder von _Mapillary_ verwenden möchten,
+müssen Sie lediglich eines auswählen und unter _Image options_ auf _Download image_ klicken.
+Ein neuer Tab mit dem Bild öffnet sich und Sie können die URL kopieren und in Ihre uMap-Karte einbinden.
+
+Um auf _Mapillary_ eigene Bilder hochzuladen, benötigen Sie ein Benutzerkonto.
+Nach dem Upload können Sie Ihr Bild mit den oben beschriebenen Schritten in uMap einbinden.
+
+NOTE: Hochgeladene Bilder werden vom Mapillary Team verifiziert. Es kann einige Zeit dauern, bis die Bilder auf _Mapillary_ verfügbar sind.
+
+Unabhängig von OpenStreetMap können Sie Ihre Bilder auch auf Webseiten wie z.B https://commons.wikimedia.org oder https://imgur.com hochladen.
+
+Wenn Sie nun eine Bild-URL wie `https://www.example.com/picture.png` haben, müssen Sie `{{https://www.example.com/picture.png}}` eingeben.
+
+Ihre Beschreibung sollte nun etwa so aussehen:
+
+.Element-Eigenschaften mit ausgefüllter Beschreibung
+image::umap/story-map_erstellen/beschreibung.PNG["Text in der Beschreibung", 293, 418]
+
+Fügen Sie nun jedem Punkt eine Beschreibung hinzu. Wenn Sie zufrieden sind mit dem Ergebnis, können Sie auf die Schaltfläche "Speichern" oben rechts klicken und den Editiermodus verlassen.
+
+Durch einen Klick auf die Play-Schaltfläche können Sie die Diashow starten und ihre Story-Map anschauen.
+Wenn Sie auf die Stopp-Schaltfläche klicken, können Sie die Diashow beenden.
+
+== Darstellung ändern (Optional)
+
+* Sie können das Aussehen von Pins unter "Einstellungen -> Standard-Formeigenschaften -> Bildzeichenform" ändern.
+* Sie können die Informationen des Popups auch in der Seitenleiste anzeigen lassen. Dazu gehen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popupstil" und wählen "Seitenleiste" aus. Nach dem Speichern und Erneuern der Website, sollten die Popup-Informationen in der Seitenleiste angezeigt werden.
+
+== Reihenfolge der Diashow steuern (Für Fortgeschrittene)
+
+Um die Reihenfolge der Orte in der Diashow zu steuern, müssen wir diesen einen Sortierschlüssel hinzufügen. Öffnen Sie dazu die Ebenenverwaltung image:umap/story-map_erstellen/ebene_icon.png["Ebenen-Icon", 25 ,25] und klicken Sie auf das winzige Symbol "Merkmale in einer Tabelle bearbeiten" image:umap/story-map_erstellen/merkmal_bearbeiten.png["Merkmal-Icon", 25, 25]. Klicken Sie dort auf die Schaltfläche image:umap/story-map_erstellen/merkmal_hinzufügen.png["Ein-Merkmal-Hinzufügen-Icon", 100, 20] und geben Sie einen Namen (zum Beispiel "index") ein. Nun können Sie für jeden Ort einen Wert in der Spalte "index" eingeben mit dem die Website die Reihenfolge sortieren kann. Da die Tabelle in uMap lexiographisch sortiert, wird zum Beispiel die Nummer 20 vor der Nummer 3 vorkommen. Um das zu verhindern sollten Sie zum Beispiel Werte wie 1000 und aufwärts verwenden um zu sortieren. Wenn Sie für jede Ortschaft einen Sortierschlüssel hinzugefügt haben, müssen Sie dann unter Einstellungen -> Standardeigenschaften -> Sortierschlüssel die neu erstellte Sortierschlüssel-Spalte auswählen. (Hier wird Ihnen keine Auswahl gestellt - Sie müssen den Namen des Feldes selber eintragen!)
+
+== Merkmale hinzufügen (Für Fortgeschrittene)
+
+Bisher haben wir die ganze Beschreibung immer selbst geschrieben. Um uns diesen Vorgang zu vereinfachen, können wir diese Informationen mit Merkmalen speichern.
+
+Wie Sie im vorherigen Schritt "Reihenfolge der Diashow steuern" gelernt haben, müssen Sie hier auch neue Merkmale der Tabelle hinzufügen.
+Zwei weitere Spalten, die Sie sicherlich brauchen, sind "bildurl" und "text". Wir haben im Beispiel noch eine weitere Spalte "oeffnungszeiten" hinzugefügt. Diese ist jedoch optional und natürlich können Sie auch andere Spalten hinzufügen, wenn Sie möchten.
+
+Füllen Sie die neu erstellten Spalten mit Werten und schliessen Sie die Seitenleiste wieder. Das Ergebnis sollte etwa so aussehen:
+
+.Die neu erstellten Spalten "bildurl" (ganz links) und "text" (ganz rechts)
+image::umap/story-map_erstellen/merkmale_gefuellt.PNG["Gefüllte Merkmalen-Tabelle"]
+
+Um diese Werte nun aus der Tabelle auch zu brauchen, müssen Sie unter "Einstellungen -> Standard-Interaktionsoptionen -> Popup Vorlage" diesen Text einfügen:
+
+....
+{text}
+{{{bildurl}}}
+{oeffnungszeiten}
+....
+
+NOTE: Wenn Sie keine Spalte "oeffungszeiten" haben oder generell andere Spaltennamen genutzt haben, müssen Sie diese entsprechend abändern oder entfernen.
+
+Von nun an müssen Sie für die neuen Punkte auf der Karte nur noch die Informationen in der Tabelle ergänzen und danach wird der Anzeigetext für das Popup automatisch zusammengestellt.
+
+IMPORTANT: Beim Erstellen einer uMap werden die Daten in OpenStreetMap nicht verändert, sondern nur "darauf gezeichnet".
+
+NOTE: Auf der OpenSchoolMaps-Homepage gibt es weitere Unterrichtsmaterialien zu uMap.
+
+---
+
+uMap und das OpenSchoolMaps-Projekt basieren auf OpenStreetMap (https://osm.org).
+
+include::../../snippets/kontaktinformationen.adoc[]
+
+include::../../snippets/quellenangabe.adoc[]

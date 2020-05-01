@@ -10,8 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = '/OpenSchoolMaps.ch'
-RELATIVE_URLS = False
+_is_CI = 'CI' in os.environ
+
+SITEURL = os.getenv('CI_PAGES_URL', default='/')
+RELATIVE_URLS = not _is_CI
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
@@ -19,6 +21,9 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = True
 
 THEME = "pelican-themes/gum"
+
+MATOMO_URL = "matomo.infs.ch"
+MATOMO_ID = 2
 
 # Following items are often useful when publishing
 

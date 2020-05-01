@@ -5,29 +5,37 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *Ein Arbeitsblatt*
+ifdef::show_solutions[- *LÖSUNGEN*]
 
-NOTE: In diesem Arbeitsblatt lernst du, den Kartenstil auf openstreetmap.org zu wechseln, die Routenplanung zu verwenden und auf der Karte gefundene Positionen anderen mitzuteilen.
+NOTE: Mit diesem Arbeitsblatt lernst du wie man den Kartenstil auf openstreetmap.org wechselt, die Routenplanung verwendet und auf der Karte gefundene Positionen anderen mitteilt.
 
 == Kartenstile
 
-Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap eigentlich gar keine Karte. Es ist eine detaillierte geographische Datensammlung, aus der Computer eine Karte erzeugen können. Und nicht nur eine Karte, sondern -- basierend auf den gleichen Daten -- verschieden Karten für verschiedene Zwecke.
+Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap nicht nur eine Karte. 
+Es ist eine detaillierte geographische Datensammlung, aus der Computer Karten erzeugen können. 
+Und die Daten können nicht nur Karten sondern auch -- basierend auf den gleichen Daten -- verschiedene Karten für verschiedene Zwecke erzeugen.
 
-Einige davon bietet die openstreetmap.org-Website zur Auswahl an. Was du bisher gesehen hast, ist der OpenStreetMap-Standard-Kartenstil. Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
+Die OSM.org-Website bietet bereits einige Karten zur Auswahl an. 
+Was du als Erstes siehst, ist der OpenStreetMap-Standard-Kartenstil. 
+Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 
 == Navigation (Routen-Planung)
 
-Mit der OpenStreetMap-Geodatensammlung können Computer mehr machen, als "nur" Karten zu zeichnen! Die Such-Funktion, die wir bereits angesehen haben, verwendet dieselben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
+Mit der OpenStreetMap-Geodaten-Sammlung können Computer mehr machen, als "nur" Karten zu zeichnen! 
+Die Such-Funktion, die wir bereits angesehen haben, verwendet dieselben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
 
 Auch Wege von A nach B zu finden, ist mit den OpenStreetMap-Daten möglich. Das geht so:
 
-Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld. Nun kannst du entweder per Text-Eingabe (z.B. Adresse) nach Start- und Zielort suchen, oder die rote und grüne Stecknadel aus dem Suchformular auf die entsprechende Stelle auf der Karte ziehen.
+Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld. 
+Nun kannst du entweder per Text-Eingabe (z.B. Adresse) nach Start- und Zielort suchen, oder die rote und grüne Stecknadel aus dem Suchformular auf die entsprechende Stelle der Karte ziehen.
 
 Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehrsmittel/die Bewegungsart (per Auto, per Velo oder zu Fuss) und das Weg-Such-Programm (in der Fachsprache: den Routing-Algorithmus) wählen.
 
 .Zwischenstationen
 [NOTE]
 ====
-Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich. Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-Planungs-Möglichkeit, die jedoch nur für Strecken innerhalb der Schweiz funktioniert.
+Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich. 
+Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-Planungs-Möglichkeit, die jedoch nur für Strecken innerhalb der Schweiz funktioniert.
 ====
 
 === Aufgaben
@@ -36,41 +44,76 @@ Untersuche mit der Navigations-Funktion deinen Schulweg.
 
 Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
 
-////
-(ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.)
-
-Angabe in Metern oder Kilometern
-////
-
 ====
+ifdef::show_solutions[]
+Deine Angabe sollte in Metern oder Kilometern beschrieben sein.
+
+Beachte: ÖV/Fahrplan-Abfrage wird leider nicht unterstützt.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
-
 
 Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 
 ====
-{empty} +
-====
+ifdef::show_solutions[]
+Falls es exakt die Strecke ist, welche du nimmst, dann sollte die Dauer in etwa stimmen. 
+Wenn es kleine Abweichungen gibt, dann spiegelt sich das natürlich auch in der Dauer wieder.
 
+Temporäre (kurzfristige) Gegebenheiten, die die Dauer deines Schulweges beeinflussen, wie beispielsweise 
+Baustellen oder Unfälle, können von OSM natürlich nur schwer berücksichtigt werden, deshalb gäbe es auch 
+hier Abweichungen betreffend der Dauer.
+endif::show_solutions[]
+ifndef::show_solutions[]
+{empty} +
+endif::show_solutions[]
+====
 
 Stimmt die vorgeschlagene Strecke mit der überein, die du normalerweise nimmst?
 
 ====
+ifdef::show_solutions[]
+Wenn du an einem in OpenStreetMap gut erfasstem Ort wohnst,
+lautet die Antwort vermutlich "Ja".
+An weniger vollständig erfassten Orten kann es sein,
+dass die Wege, die du normalerweise nimmst,
+vielleicht noch gar nicht erfasst
+oder nicht korrekt verbunden sind,
+so dass die Routen-Berechnung
+einen anderen Weg vorschlägt.
+
+Tendenziell sind dichter bewohnte Gebiete (z.B. Städte wie Zürich)
+besser erfasst als ländliche oder dünn besiedelte Gebiete,
+da es bei mehr Bevölkerung auch mehr Leute gibt,
+die an OpenStreetMap interessiert sind,
+und allenfalls als Mapper dazu beitragen.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
-
-Wird für jedes Verkehrsmittel die selbe Strecke vorgeschlagen?
+Wird für jedes Verkehrsmittel dieselbe Strecke vorgeschlagen?
 
 ====
+ifdef::show_solutions[]
+Nein, denn nicht jedes Verkehrsmittel ist für jede Strecke geeignet/zugelassen. 
+Es gibt Autobahnen, die nur für gewisse Motorfahrzeuge sind, Velorouten für Fahrräder und 
+Fahrrad-ähnliche Fahrzeuge und reine Fussgängerwege, die keine Fahrzeuge zulassen. Daneben 
+gibt es noch den ÖV. Züge und Trams fahren definierte Routen entlang einer Schiene ab und Busse 
+haben auch feste Routen entlang diverser Bushaltestellen.
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
-
 
 Wieso kann wohl je nach Verkehrsmittel eine andere Strecke vorgeschlagen werden?
 
-////
+====
+ifdef::show_solutions[]
 Nicht jedes Verkehrsmittel ist überall erlaubt:
 Mit dem Auto darf man nicht durch die Fussgängerzone,
 zu Fuss nicht über die Autobahn.
@@ -81,14 +124,14 @@ Im Auto kann sich ein kleiner Umweg lohnen,
 um eine 30er-Zone zu vermeiden. Velofahrerinnen
 und Fussgänger werden von einer solchen nicht
 ausgebremst.
-////
-
-====
+endif::show_solutions[]
+ifndef::show_solutions[]
 {empty} +
+endif::show_solutions[]
 ====
 
 == Positionen (mit)teilen
 
-Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen wenn du auf den image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 20, 20]-Knopf rechts klickst.
+Wenn du jemandem einen Link zu einem Karten-Ausschnitt oder einer markierten Stelle auf der Karte schicken willst, erhältst du einen solchen, wenn du auf den image:osm-org_als_kartenviewer/share_button.PNG["Share Button", 20, 20]-Knopf rechts klickst.
 
 include::../../../snippets/quellenangabe.adoc[]

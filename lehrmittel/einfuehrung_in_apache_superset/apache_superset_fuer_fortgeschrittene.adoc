@@ -1,0 +1,566 @@
+= Apache Superset für Fortgeschrittene
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+:imagesdir: ../../bilder/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+
+Ein Informationsblatt für Interessierte.
+
+
+
+## Übersicht
+
+Dieses Informationsblatt bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde. 
+Es enthält folgende Themen:
+
+* Dokumentation und Feedback
+* Der Visualisierungsprozess (Daten-Typen, Datentyp-Rollen und Karten-Typen)
+* Chart-Parameter anpassen
+* Tooltips mit JavaScript anpassen
+* Charts mit Annotations ergänzen
+* Eine Tabelle mit einer anderen verknüpfen (Möglichkeiten der Datenbanksprache SQL)
+
+Im Anhang sind alle Map Charts nochmals zusammengestellt mit allen notwendigen Parametern.
+
+Man beachte auch das Arbeitsblatt "Einführung in Apache Superset".
+
+
+
+## Dokumentation und Feedback
+
+Eine Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
+Die offizielle, englischsprachige https://superset.incubator.apache.org/[Dokumentation] enthät u.a. ein kleines FAQ, ist sonst aber leider noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
+Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset').
+
+Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 auf dem Dokumentenserver der HSR verfügbar sein.
+
+Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Eine erste Anfrage kostet nichts.
+
+
+## Der Visualisierungsprozess
+
+Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: 
+Der Visualisierungs-Prozess beginnt mit der Wahl der Datenquelle (Tabelle), dann wird ein passender Chart ausgewählt, und schliesslich wird der Chart einem Dashboard zugeordnet.
+
+Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu vereinfachen. 
+Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen. 
+Das ist die Domäne der beschreibenden Statistik und des Data Engineerings. 
+Wer die Merkmale eines Attributs kennt, findet die in Frage kommenden Charts schneller.
+Wer will, kann dazu direkt zur entsprechenden Tabelle im Kapitel "Zuordnung von Geodaten zu Kartentypen" springen.
+
+.Qualitativ und quantitativ
+Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. 
+Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. 
+Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. 
+Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
+
+.Attributs-Merkmals-Levels
+Die quantitativen Merkmale lassen sich ihrerseits differenzieren in vier "Attributs-Merkmals-Levels" (Quelle: Stanley Stevens, 1946, "One the theory of Scales of Measurement"):
+
+[horizontal]
+Nominal:: Ein Name, Klassenname ("etwas Benanntes"). Meist Datentyp Text.
+
+Ordinal:: Eine Ordnungszahl, eine Rangierung, ("etwas zum Vergleichen"). Meist Datentyp Ganzzahl.
+
+Intervall:: Ein massstabsloser Zahlenwert, Verhältniszahl ("etwas Relatives"). Meist Datentyp Fliess- oder Festkommazahl.
+
+Ratio:: Ein Zahlenwert mit absolutem Nullpunkt; meist Datentyp Fliess- oder Festkommazahl.
+
+
+
+### Datentypen und Datentyp-Rollen
+
+Ein Datentyp bestimmt den erlaubten Wertebereich. Ein Beispiel für einen Datentyp ist die Ganzzahl. Superset kennt folgende *Basis-Datentypen*:
+
+[horizontal]
+Zeichenkette (en: Text):: In Superset mit dem Icon "ABC" dargestellt. Das können z.B. die PostgreSQL-Typen `TEXT` oder `VARCHAR()` sein.
+
+DatumZeit (en: Datetime):: In Superset mit dem Icon "Uhr" dargestellt. Ein "temporaler" d.h. ein zeitlicher Typ mit Datums- und Zeitwert.
+
+Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen (INTEGER).
+
+Fliesskomma (en: float/real) & Festkommazahlen (en: numeric):: Keine Icons in Superset.
+
+Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. COUNT(\*). Superset fügt bei Tabellen immer das abgeleitete Attribut COUNT(*) dazu.
+
+Zeitliche Daten sind wichtig in jeder Datenanalyse. 
+Sie werden u.a. zum Filtern der Daten verwendet. 
+Die Tatsache, dass ein Attribut vom Typ DatumZeit ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei der Checkbox _is temporal_ unter _Columns_ bei der Tabellenansicht)
+
+Es existieren mehr Basis-Datentypen als diejenigen aus Apache Superset, die oben erwähnt wurden. 
+Superset verlangt darum bei vielen Charts oft zusätzlich noch die Angabe einer "Datentyp-Rolle" (en: Data type role) wie beispielsweise "Lines" (Linien).
+
+Mit der Angabe der "Datentyp-Rolle" zu einem Text-Attribut ist es immer noch nicht getan: 
+Es muss noch das "Datentyp-Encoding" (encoding = Kodierung) bestimmt werden. Superset kennt verschiedene Datentyp-Rollen und Datentyp-Encodings. 
+Weitere werden sicherlich dazu kommen.
+
+
+
+### Räumliche Daten (Geodaten)
+
+Wie die zeitlichen (en: temporal) sind auch die räumlichen (en: spatial) Daten wichtig bei der Analyse und Visualisierung. 
+Geometrien sind dabei nicht die einzigen räumlichen Daten, auch Gemeindenamen und Gebäudeadressen sind Geodaten.
+
+Die wichtigsten Geometrie- bzw. "Geodatentypen" (en: Geometry) sind Punkt (Syn. Koordinate; Punktkoordinate; Ort; en: Point), Linie (en: Line, Linestring, Polyline), Fläche (en: Area, Polygon) und Volumen (en: Volume). 
+In dem der Benutzer die Datentyp-Rollen angibt, ist es mit Superset möglich, auch räumliche Daten zu visualisieren.
+
+NOTE: Attribute, die in der Tabelle bereits als Typ Point, Linestring und Polygon verwaltet sind, werden von Superset (noch) als Text oder Binärdaten interpretiert.
+
+Geo-Datentyp-Rollen und Datentyp-Encodings in Apache Superset:
+
+[horizontal]
+Geo-Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl float8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". Die entsprechenden Datentype-Encodings sind Delimited oder Geohash.
+
+Geo-Datentyp-Rolle "Point":: Gibt es noch nicht als eigene Rolle (nur als Longitude & Latitude columns), ist aber vorreserviert.
+
+Geo-Datentyp-Rolle "Lines":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "Polylines" haben.
+
+Geo-Datentyp-Rolle "Polygons":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentype-Encodings "JSON" oder "ISO 3166-2 codes" haben.
+
+NOTE: Für Positionsangaben auf der Erde -- beispielsweise mit dem GPS -- werden Längengrade und Breitengrade verwendet (abgekürzt: Lat/Lon). 
+Sie basieren auf einem weltweit einheitlichen, geodätischen Koordinaten-Referenzsystem, dem World Geodetic System 1984 (WGS 84). 
+Lat/Lon werden oft als Fliesskommazahlen behandelt. 
+Dabei würde für die meisten Anwendungen eine Festkommazahl mit 5 bis max. 6 Nachkommastellen genügen (Beispiel von Lat/Lon für Rapperswil, was man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.22666, 8.81644).
+
+
+
+### Kartentypen und Superset Map Charts
+
+In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. 
+Hier werden die Geodaten den Kartensymbolen zugeordnet; dies nennt man da Symbolisierung (en: symbolization, styling).
+
+Es gibt folgende Kartentypen:
+
+* Standortkarten
+* Netzkarten
+* Choroplethenkarten
+* Ortsdiagrammkarten
+
+Die Kartentypen aus der Kartografie helfen, die Superset Map Charts zu gruppieren. 
+Es werden hier nur die bekanntesten Kartentypen vorgestellt. 
+Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map-Chart-Typen zur Verfügung (vgl. auch der Anhang):
+
+*Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. 
+Zu diesem Kartentyp gehören folgende Superset Charts:
+
+[horizontal]
+Mapbox:: Standortkarte mit Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+Deck.gl Scatterplot:: Standortkarte ohne Point Clustering. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+|===
+
+|Mapbox |Deck.gl Scatterplot
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_mapbox.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_scatterplot.png[100,100]
+
+|===
+
+NOTE: Unter Point Clustering versteht man das "Verschmelzen" von Punkten beim Herauszoomen. Siehe Abbildung 1 und 2 im Anhang.
+
+*Netzkarten* (en: Network map) (deutsches Synonym: Vektorkarten), werden symbolisiert mit Liniensignaturen (beispielsweise rote Linien) bezogen auf Linien. Zu diesem Kartentyp gehören folgende Superset Charts:
+
+[horizontal]
+Deck.gl Path:: Netzkarte. Erwartet die Datentyp-Rolle "Lines".
+
+Deck.gl Arc:: Netzkarte mit Linien, die aus 2 Endpunkten bestehen und die Kurven kürzester Distanz auf der Erdoberfläche (Orthodrome) darstellen, beispielsweise zur Visualisierung von Flügen oder Schiffswegen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+<<<
+
+|===
+
+|Deck.gl Path |Deck.gl Arc
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_path.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_arc.png[100,100]
+
+|===
+
+*Choroplethenkarten* (en. Choropleth Map) (deutsche Synonyme: Dichtemosaikkarten; Flächenkartogramme) werden symbolisiert mit Flächensignaturen bezogen auf Flächen. Die Werte sind hier meist nicht absolut, sondern relativ. Zu diesem Kartentyp gehören folgende Superset Charts:
+
+[horizontal]
+Country Map:: Choroplethenkarte mit Ländergrenzen. Erwartet ISO 3166-2-Codes von Departements/Kantone/etc. als Zeichenkette.
+
+Deck.gl Polygon:: Choroplethenkarte mit Flächen. Erwartet die Datentyp-Rolle "Polygons".
+
+|===
+
+|Country Map |Deck.gl Polygon
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_countrymap.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_polygon.png[100,100]
+
+|===
+
+NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land". 
+Richtig wäre eine relative Angabe wie "Traktoren pro km2", d.h. die absolute Summe durch die Landesfläche geteilt werden.
+
+*Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen. 
+Man beachte den Unterschied von Symbol/Marker zu Diagramm. 
+Zu diesem Kartentyp gehören folgende Superset Charts:
+
+[horizontal]
+World Map:: Ortsdiagrammkarte 2D. Erwartet ISO 3166-2-Codes von den Ländern als Zeichenkette.
+
+Deck.gl 3D Hexagon:: Ortsdiagrammkarte 3D. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+Deck.gl Grid:: Variante von Deck.gl 3D Hexagon, jedoch mit rechteckigen Säulen. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+Deck.gl Screen Grid:: Ähnlich wie Deck.gL Grid und Hexagon. Erwartet die Datentyp-Rolle "Longitude & Latitude columns".
+
+Deck.gl GeoJSON:: (Bemerkung: Funktioniert in Superset momentan nicht!).
+
+Ein weiterer Map Chart ist *Deck.gl Multiple Layers*. Dieser "Chart" erlaubt die Kombination von mehreren Deck.gl-Charts, zusammen mit einer Basiskarte.
+
+|===
+
+|World Map |Deck.gl 3D Hexagon |Deck.gl Grid |Deck.gl Screen Grid |Deck.gl Multiple Layers
+
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_worldmap.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_hexagon.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_grid.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_screengrid.png[100,100]
+a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_layers.png[100,100]
+
+|===
+
+NOTE: Dies ist nur eine Auswahl der wichtigsten Kartentypen. Sie ist unvollständig. Eine mögliche Quelle zum Nachlesen ist https://www.gitta.info/[GITTA.info].
+
+
+
+### Zuordnung von Geodaten zu Kartentypen
+
+Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizontalen Achse und Attributs-Merkmals-Levels auf der vertikalen Achse zu Kartentypen:
+
+.Kartentypen eingeteilt nach Geometrie-Datentypen und Attributs-Merkmals-Levels (Quelle: David Unwin, 1981, “Introductory Spatial Analysis”, London Methuen)
+[%header, cols="h,3*"]
+|===
+
+| |Point |Line |Area
+
+|Nominal
+|Dot map
+|Network map
+|Colored area map
+
+|Ordinal
+|Symbol map
+|Ordered network map
+|Ordered colored map
+
+|Interval
+.2+|Graduated symbol map
+.2+|Flow map
+.2+|Choropleth map
+
+|Ratio
+
+|===
+
+Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits "Mapbox" (Kartentyp Dot Map) wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits "Country Map" (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
+
+
+
+<<<
+## Chart-Parameter anpassen
+
+
+
+### Dashboard-Optionen
+
+Ein Dashboard kann die Darstellungs-Konfiguration (z.B. Chart-Farben) der Charts überschreiben. 
+Dies ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_. 
+Hier wirst du ein Textfeld namens "JSON Metadata" finden. Dies könnte z.B. so aussehen (es kann auch sein, dass es leer ist):
+
+----
+{
+  "filter_immune_slices": [],
+  "timed_refresh_immune_slices": [],
+  "filter_immune_slice_fields": {},
+  "expanded_slices": {},
+  "refresh_frequency": 0,
+  "default_filters": "{}"
+}
+----
+
+Die Parameter gelten allgemein für alle Dashboards:
+
+
+* filter_immune_slices: Array von _slice_ids_ (int) von Charts, die nicht gefiltert werden sollen.
+----
+"filter_immune_slices": [324, 65, 92],
+----
+* timed_refresh_immune_slices: Array von _slice_ids_, die nicht ge-refreshed werden sollen.
+----
+"timed_refresh_immune_slices": [324]
+----
+* filter_immune_slice_fields: Hier kannst du einstellen, ob bei gewissen Charts spezifische Felder nicht filterbar sein sollen.
+----
+{
+    "filter_immune_slice_fields": {
+        "177": ["country_name", "__time_range"],
+        "32": ["__time_range"]
+    }
+}
+----
+* refresh_frequency: Anzahl Sekunden bis der Browser die Daten vom Server automatisch neu lädt (Ganzzahl in Sekunden).
+----
+"refresh_frequency": 5
+----
+* default_filters: Setzt Default-Werte in den Filter. Die _slice_id_ des Filters muss gegeben sein.
+----
+"default_filters": "{\"95\": {\"country_name\": [\"Kenya\"]}}"
+----
+
+NOTE: Die _slice_id_ ist in den Chart-Metadaten unter _Parameter_ zu finden. Falls dein Chart keine ID hat musst du ihn noch einmal abspeichern.
+
+
+
+### Chart-Farben im Dashboard definieren
+
+IMPORTANT: Damit die gewünschten Farben im Dashboard angewendet werden, muss bei den einzelnen Charts unter _Customize_ das Farbschema `Airbnb Colors`
+gesetzt sein.
+
+Um die Farbe von einem Chart abzuändern musst du `"label_colors": {"key": "color"},` hinzufügen. Hier ein Beispiel wie das aussehen könnte:
+
+----
+{
+  "label_colors": {
+    "girl": "#0200ff",
+    "boy": "#00ff00"
+  },
+  "filter_immune_slices": [],
+  "timed_refresh_immune_slices": [],
+  "filter_immune_slice_fields": {},
+  "expanded_slices": {},
+  "refresh_frequency": 0,
+  "default_filters": "{}"
+}
+----
+
+Die "Keys" wie z.B. "girl" kannst du in der Legende des jeweiligen Charts finden.
+
+IMPORTANT: Alle Optionen müssen gültiges JSON sein. Der https://jsoneditoronline.org/["JSON Editor Online"] kann bei der Bearbeitung helfen.
+
+
+
+### Tooltips mit JavaScript anpassen
+
+Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als Tooltip-Text an. Dieser ist beim Chart unter _Advanced_ im _Javascript tooltip generator_
+anpassbar. 
+
+IMPORTANT: Für diese Anpassung muss das Schreiben von JavaScript aktiviert sein (ENABLE-JAVASCRIPT-CONTROL).
+Kontaktiere den Sys-Admin falls nötig.
+
+Im Textfeld muss man eine Funktion schreiben, die einen String zurück gibt, der dann als Tooltip angezeigt wird. Hier ein einfaches Beispiel, welches den Tooltip zu "test" setzt:
+
+----
+function myFunction(punkt) {
+    return 'test'
+}
+----
+
+Um eine sinnvolleren Tooltip zu erhalten muss man zuerst die Daten auswählen, die man nutzen will. Das geht durch das Hinzufügen von den Spalten unter _Extra data for JS_.
+
+Wenn du dir jetzt für jeden Punkt einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit dem Namen "Name", musst du die Funktion so schreiben: 
+
+----
+function myFunction(punkt) {
+    return punkt.object.extraProps.Name
+}
+----
+
+NOTE: Die Funktion muss ein gültiger JavaScript-Code sein. 
+JavaScript ist eine Computersprache, die entsprechende Kenntnisse und Tools verlangt.
+
+
+
+<<<
+## Charts mit Annotations ergänzen
+
+_Annotations_ sind Text- und Grafik-Notizen, die als Anmerkung über Charts gelegt werden können. 
+Je nach Annotations-Typ ist es entweder eine Linie oder ein gefärbtes Rechteck im Hintergrund. 
+Sie können dazu benutzt werden, allgemeine Informationen (z.B. weltweites Bevölkerungswachstum) darzustellen ohne diese als Daten in einer Tabelle ablegen zu müssen.
+
+_Annotation Layers_ dienen dazu, Annotations zu bündeln. 
+Ein Layer kann mehrere Annotations beinhalten und man bindet in Diagrammen jeweils den Annotation Layer ein, der dann alle Annotations darstellt.
+
+Es gibt vier Annotations-Typen:
+
+[horizontal]
+Ereignis (en: Event):: Basierend auf Tabellendaten, wird als Linie dargestellt.
+Intervall (en: Interval):: Wie Event, allerdings mit Start- und Enddatum, wird als "Range" gerendert.
+Zeit (Time Series):: Linie basierend auf beliebiger Time Series.
+Formel (en: Formula):: Linie basierend auf einer Formel (z.B. 2x oder 0.005x).
+
+
+
+### Erstellen von Annotationen
+
+Ereignis- und Intervall-Annotationen sind bei _Annotations_ unter _Manage_ in der Superset-Menüleiste erstellbar. Die _Long Description_
+einer _Annotation_ wird im Chart als Beschreibungstext vom Ereignis oder Intervall dargestellt. Das Start- und End-Datum dient dem
+Intervall als Zeitspanne, dem Ereignis nur das Start-Datum als fixer Zeitpunkt. Diese Art von _Annotation_ muss zu einem _Annotation Layer_
+hinzugefügt werden.
+
+Ereignis- und Intervall-Annotationen können auch mit einer _Table_ erstellt werden. In der Datenbank-Tabelle soll es für die Annotationen
+eine Kolonne für die Beschreibung (Text), eine für das Start-Datum (Date) und evtl. für das End-Datum (Date) vorhanden sein.
+
+IMPORTANT: Die Datenbank-Tabelle kann nicht direkt in den _Annotations and Layers_ referenziert werden. Eine _Table_ mit jener Tabelle, 
+die alle benötigten Kolonnen visualisiert, muss zuerst erstellt werden. Diese _Table_ dient dann als _Annotation Source_ des anderen Diagramms.
+
+Die Daten für Zeit-Annotationen werden von einem beliebigen _Line Chart_ geholt. Dessen "Verlauf" ist in anderen Diagrammen mit einer Zeit-Achse visualisierbar.
+
+
+
+### Ereignis-Annotationen
+
+Ereignisse (en: Events) sind eine Liste von Zeitpunkten (Datum) mit Beschreibungen. Sie werden als vertikale Linien dargestellt. Ihre Beschreibung wird in den Tooltips angezeigt, wenn man mit der Maus über sie fährt.
+
+
+
+### Intervall-Annotationen
+
+Genau wie Events, aber mit einem Start- und Enddatum, werden sie als Bereich dargestellt.
+
+
+
+### Zeitreihen-Annotationen
+
+Zeitreihen werden als zusätzliche Linie auf dem Liniendiagramm hinzugefügt.
+Der Name und die Anzeigeeigenschaften können konfiguriert werden.
+
+
+
+### Formel-Annotationen
+
+Formeln werden als zusätzliche Linie in das Diagramm eingefügt.
+Sie können einen mathematischen Ausdruck eingeben, der auf der Client-Seite mit "mathjs" ausgewertet wird.
+Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel angeben.
+
+
+
+<<<
+## Eine Tabelle mit einer anderen verknüpfen
+
+Datenanalysen und Visualisierungen verlangen oft eine Verknüpfung von einer Tabelle mit einer anderen Tabelle. 
+Durch diese Verknüpfung werden der ersten Tabelle weitere Attribute (Felder, Spalten)  der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
+
+Diese Verknüpfung geschieht mit der Datenbanksprache SQL über ein bestimmtes Attribut der einen Tabelle, das mit einem Attribut einer weiteren Tabelle verbunden wird. 
+Im Hintergrund muss das Datenbanksystem typischerweise ein sogenannter JOIN ausführen.
+
+Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden (hier gegeben PostgreSQL ist das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
+
+* innerhalb demselben Schema: `SELECT * FROM mytable m JOIN othertable t ON m.id = t.id;`.
+* innerhalb derselben Database: `SELECT * FROM myschema.mytable m JOIN otherschema.othertable t ON m.id = t.id;`.
+* mit anderer (PostgreSQL-)Database auf demselben Server/Host: _tbc._
+* mit anderer (PostgreSQL-)Database auf anderem Server/Host: _tbc._ 
+* mit anderer Datasource (z.B. SQLite): Nur möglich mit einer Software-Anpassung.
+
+NOTE: Beim Verknüpfen von zwei Tabellen müssen die Attribute, die verknüpft werden, denselben - oder aber einen kompatiblen - Datentyp haben. 
+
+
+
+### Mit Superset eine Tabelle mit einer anderen verknüpfen 
+
+In der "Einführung in Apache Superset" steht, dass man für einen Chart nur eine einzige Datenquelle (Tabelle) auswählen kann. 
+An dieser Stelle muss hinzugefügt werden, dass es dank der Datenbanksprache SQL eine Möglichkeit gibt, zwei oder mehrere Tabellen abzufragen. 
+Dazu kann mittels des _SQL Editors_ (Menü _SQL Lab_) eine sogenannte Sicht (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
+
+Nachfolgend ein beispielhafter Arbeitsablauf gegeben die Tabelle "Angestellter", die mit der "Abteilung" verknüpft werden soll und zwar über die "Abteilungs-Id" beim Angestellten, eine Zahl, die auf eine bestimmte Abteilungs-Id verweist:
+
+* Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
+* Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind hier Tabellennamen in doppelten Anführungszeichen, die SQL-Schlüsselworte in Grossbuchstaben):
+----
+BEGIN;
+CREATE VIEW "angestellter_view" AS 
+  SELECT * 
+  FROM "angestellter" AS ang 
+  JOIN "abteilung" AS abt ON ang.abtid = abt.id 
+;
+COMMIT;
+----
+* Im _SQL Editor_ den Button _Run Query_ ausführen.
+* Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
+* Dort in der Tabellenliste neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
+* Im Dialog "Import a table definition" als "Table Name" der Namen der soeben erstellen View ergänzen.
+
+Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
+
+NOTE: Falls bei bei _Run Query_ - also der Ausführung des SQL-Skripts - ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen). 2. Die Database erlaubt nicht die Ausführung von SQL (Lösung: Über Menu `Sources`und `Databases` bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
+
+Falls du - wie oben angedeutet - eine Tabelle auf weitere Arten mit anderen Tabellen verknüpfen willst, kontaktiere eine in SQL und PostgreSQL spezialiserte Person. 
+
+NOTE: Verknüpfungen mittels einer normalen View - wie oben erläutert - kann die Dauer erheblich verlangsamen bis ein Chart angezeigt wird. 
+Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
+
+
+
+### Mit Superset die Möglichkeiten der Datenbanksprache SQL nutzen 
+
+Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
+Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
+
+Hier ein Beispiel mit einer SQL-WINDOW-Funktion, welche die Anzahl der Mitarbeiter einer Abteilung zählt:
+
+----
+BEGIN;
+CREATE MATERIALIZED VIEW "angestellter_view" AS 
+  SELECT 
+    name, 
+    persnr, 
+    abtnr, 
+    COUNT(*) OVER (PARTITION BY abtnr) AS anzahl_abt_mitarbeiter 
+  FROM angestellter
+;
+COMMIT;
+----
+
+NOTE: Wer gerne SQL lernen will, für den gibt es eine Fülle von Quellen. 
+Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
+Gerne nehmen wir Feedback entgehen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Eine erste Anfrage kostet nichts.
+
+
+
+<<<
+== ANHANG: Die elf Map Charts von Apache Superset
+
+Hier siehst du die elf Map Charts von Apache Superset und deren Auswahlmöglichkeiten. 
+Mittels einer roten Box ist jeweils markiert, welche Parameter benötigt werden, um die entsprechende Karte zu erstellen.
+
+NOTE: Bei vielen Charts gibt es eine 'time_range'. Sie ist auf 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
+
+.Visualization Type Mapbox, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/mapbox.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl Scatterplot (entspricht scatter plot in Excel), rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_scatterplot.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl Path, rechts am Beispiel Routen in Kalifornien, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_path.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl Arc, rechts am Beispiel Inland-Flüge in den USA, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_arc.png[pdfwidth=75%]
+
+.Visualization Type Country Map, rechts am Beispiel die Geburtenrate 2014 in den französischen Departements, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/country_map.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl Polygon, rechts am Beispiel Bezirke in San Francisco und deren Bevölkerungsdichte, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_polygon.png[pdfwidth=75%]
+
+.Visualization Type World Map, rechts die Bevölkerungdichte der Länder, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/world_map.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl 3D Hexagon, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_3dhexagon.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_grid.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl Screen Grid, rechts am Beispiel Punkte in San Francisco, Kalifornien, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_screengrid.png[pdfwidth=75%]
+
+.Visualization Type Deck.gl Multiple Layers, rechts am Beispiel die obigen Charts deck.gl Scatterplot und deck.gl Path zusammengeführt, links der dazugehörige Dialog
+image::einfuehrung_in_apache_superset_fortsetzung/deckgl_multiple_layers.png[pdfwidth=75%]
