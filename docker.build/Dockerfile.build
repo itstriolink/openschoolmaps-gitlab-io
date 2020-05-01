@@ -1,0 +1,20 @@
+FROM asciidoctor/docker-asciidoctor:latest
+
+RUN set -e; \
+  prawn_gmagick_build_deps=" \
+    graphicsmagick-dev \
+    ruby-dev \
+    musl-dev \
+    gcc \
+  "; \
+  prawn_gmagick_runtime_deps=" \
+    python3 \
+    graphicsmagick \
+    ruby \
+  "; \
+  apk --update --no-cache add \
+    $prawn_gmagick_build_deps \
+    $prawn_gmagick_runtime_deps \
+  && gem install prawn-gmagick --no-document \
+  && apk --no-cache del \
+    $prawn_gmatick_build_deps

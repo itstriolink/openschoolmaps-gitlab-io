@@ -1,18 +1,36 @@
+variables:
+  BUILD_IMAGE: $CI_REGISTRY_IMAGE/build:$CI_COMMIT_REF_SLUG
+
+image: $BUILD_IMAGE
+
 stages:
+- prebuild
 - build
 - pages
 
+build_image:
+  stage: prebuild
+  image: docker:latest
+  services:
+    - docker:dind
+  only:
+    changes:
+      - docker.build/*
+      - .gitlab-ci.yml
+      - pages/requirements.txt
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - cd docker.build
+    - docker build --tag $BUILD_IMAGE -f Dockerfile.build .
+    - docker push $BUILD_IMAGE
+
 PDFs:
-  image: asciidoctor/docker-asciidoctor:latest
   stage: build
   variables:
     LANG: de_CH.utf8
   tags:
   - docker
   script:
-  - set -e
-  - apk add python3 graphicsmagick-dev ruby-dev musl-dev gcc
-  - gem install prawn-gmagick
   - ./build.py
   artifacts:
     expire_in: 3 mos
