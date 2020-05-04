@@ -1,5 +1,6 @@
 FROM asciidoctor/docker-asciidoctor:latest
 
+COPY requirements.txt /tmp/
 RUN set -e; \
   prawn_gmagick_build_deps=" \
     graphicsmagick-dev \
@@ -12,9 +13,19 @@ RUN set -e; \
     graphicsmagick \
     ruby \
   "; \
+  pelican_installation_deps=" \
+    git \
+    py3-pip \
+  "; \
   apk --update --no-cache add \
     $prawn_gmagick_build_deps \
     $prawn_gmagick_runtime_deps \
+    $pelican_installation_deps \
   && gem install prawn-gmagick --no-document \
+  && cd /opt \
+  && git clone --depth 1 https://github.com/getpelican/pelican-plugins.git \
+  && git clone --depth 1 https://gitlab.com/openschoolmaps/pelican-themes.git \
+  && pip3 install -r /tmp/requirements.txt \
   && apk --no-cache del \
-    $prawn_gmatick_build_deps
+    $prawn_gmatick_build_deps \
+    $pelican_installation_deps
