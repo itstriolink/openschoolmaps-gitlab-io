@@ -8,11 +8,17 @@ stages:
 - build
 - pages
 
+
+######################################################################
+# prebuild
+######################################################################
+
+# Builds the Docker image $BUILD_IMAGE for subsequent build steps.
 build_image:
   stage: prebuild
   image: docker:latest
   services:
-    - docker:dind
+    - docker:dind  # required for Docker-in-Docker on gitlab.com
   only:
     changes:
       - docker.build/*
@@ -24,6 +30,11 @@ build_image:
     - cd docker.build
     - docker build --tag $BUILD_IMAGE -f Dockerfile.build .
     - docker push $BUILD_IMAGE
+
+
+######################################################################
+# build
+######################################################################
 
 PDFs:
   stage: build
@@ -88,6 +99,11 @@ superset csv data:
     expire_in: 3 mos
     paths:
     - lehrmittel/einfuehrung_in_apache_superset/files/
+
+
+######################################################################
+# pages
+######################################################################
 
 pages:
   stage: pages
