@@ -1,4 +1,4 @@
-FROM asciidoctor/docker-asciidoctor:latest
+FROM asciidoctor/docker-asciidoctor:1.1.0
 
 COPY requirements.txt /tmp/
 RUN set -e; \
