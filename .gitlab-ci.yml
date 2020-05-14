@@ -1,18 +1,48 @@
+variables:
+  BUILD_IMAGE: $CI_REGISTRY_IMAGE/build:$CI_COMMIT_REF_SLUG
+
+image: $BUILD_IMAGE
+
 stages:
+- prebuild
 - build
 - pages
 
+
+######################################################################
+# prebuild
+######################################################################
+
+# Builds the Docker image $BUILD_IMAGE for subsequent build steps.
+build_image:
+  stage: prebuild
+  image: docker:latest
+  services:
+    - docker:dind  # required for Docker-in-Docker on gitlab.com
+  only:
+    changes:
+      - docker.build/*
+      - .gitlab-ci.yml
+      - pages/requirements.txt
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - mv pages/requirements.txt docker.build
+    - cd docker.build
+    - docker build --tag $BUILD_IMAGE -f Dockerfile.build .
+    - docker push $BUILD_IMAGE
+
+
+######################################################################
+# build
+######################################################################
+
 PDFs:
-  image: asciidoctor/docker-asciidoctor:latest
   stage: build
   variables:
     LANG: de_CH.utf8
   tags:
   - docker
   script:
-  - set -e
-  - apk add python3 graphicsmagick-dev ruby-dev musl-dev gcc
-  - gem install prawn-gmagick
   - ./build.py
   artifacts:
     expire_in: 3 mos
@@ -70,16 +100,16 @@ superset csv data:
     paths:
     - lehrmittel/einfuehrung_in_apache_superset/files/
 
+
+######################################################################
+# pages
+######################################################################
+
 pages:
-  image: asciidoctor/docker-asciidoctor
   stage: pages
   script:
   - cd pages/
-  - apk update
-  - apk add git py3-pip
-  - git clone --depth 1 https://github.com/getpelican/pelican-plugins
-  - git clone --depth 1 https://gitlab.com/openschoolmaps/pelican-themes.git
-  - pip3 install -r requirements.txt
+  - ln -s /opt/pelican-{themes,plugins} .  # Pulls in repos provided by build image
   - pelican --fatal errors -s publishconf.py
   - mv .well-known/ public/.well-known
   - mv public/ ..
