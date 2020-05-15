@@ -1,4 +1,4 @@
-FROM asciidoctor/docker-asciidoctor:latest
+FROM asciidoctor/docker-asciidoctor:1.1.0
 
 COPY requirements.txt /tmp/
 RUN set -e; \
@@ -14,7 +14,7 @@ RUN set -e; \
     ruby \
   "; \
   pelican_installation_deps=" \
-    git \
+    tar \
     py3-pip \
   "; \
   apk --update --no-cache add \
@@ -22,9 +22,10 @@ RUN set -e; \
     $prawn_gmagick_runtime_deps \
     $pelican_installation_deps \
   && gem install prawn-gmagick --no-document \
-  && cd /opt \
-  && git clone --depth 1 https://github.com/getpelican/pelican-plugins.git \
-  && git clone --depth 1 https://gitlab.com/openschoolmaps/pelican-themes.git \
+  && wget -qO- https://github.com/getpelican/pelican-plugins/archive/ac0246dc9ea19dbb288926d7dd286ef17efe3e4f.tar.gz \
+     | tar xzf - --strip-components=1 --one-top-level=/opt/pelican-plugins \
+  && wget -qO- https://gitlab.com/api/v4/projects/openschoolmaps%2Fpelican-themes/repository/archive?sha=c717e706f061e7220a53f2a2e82d3528c8f44952 \
+     | tar xzf - --strip-components=1 --one-top-level=/opt/pelican-themes \
   && pip3 install -r /tmp/requirements.txt \
   && apk --no-cache del \
     $prawn_gmatick_build_deps \
