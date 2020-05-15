@@ -13,6 +13,9 @@ EXTRA_PATH_METADATA = {
 }
 OUTPUT_PATH = 'public'
 
+# When adding plugins here, also adapt
+# docker.build/Dockerfile.build to provide them
+# in the resulting Docker image.
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['asciidoc_reader']
 

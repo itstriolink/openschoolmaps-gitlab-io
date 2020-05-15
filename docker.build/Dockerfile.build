@@ -23,9 +23,9 @@ RUN set -e; \
     $pelican_installation_deps \
   && gem install prawn-gmagick --no-document \
   && wget -qO- https://github.com/getpelican/pelican-plugins/archive/ac0246dc9ea19dbb288926d7dd286ef17efe3e4f.tar.gz \
-     | tar xzf - --strip-components=1 --one-top-level=/opt/pelican-plugins \
+     | tar xzf - --strip-components=1 --one-top-level=/opt/pelican-plugins --wildcards 'pelican-plugins-*/asciidoc_reader' \
   && wget -qO- https://gitlab.com/api/v4/projects/openschoolmaps%2Fpelican-themes/repository/archive?sha=c717e706f061e7220a53f2a2e82d3528c8f44952 \
-     | tar xzf - --strip-components=1 --one-top-level=/opt/pelican-themes \
+     | tar xzf - --strip-components=1 --one-top-level=/opt/pelican-themes --wildcards 'pelican-themes-*/gum' \
   && pip3 install -r /tmp/requirements.txt \
   && apk --no-cache del \
     $prawn_gmatick_build_deps \
