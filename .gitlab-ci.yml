@@ -119,8 +119,7 @@ build_pages:
 pages:
   stage: pages
   script:
-  - cd pages/
-  - mv public/ ..
+  - mv pages/public/ .
   only:
     refs:
       - master
