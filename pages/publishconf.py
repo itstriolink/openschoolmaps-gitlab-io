@@ -23,6 +23,9 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
+# When switching to a different theme,
+# adapt docker.build/Dockerfile.build
+# to provide the theme files.
 THEME = "pelican-themes/gum"
 
 # Following items are often useful when publishing
