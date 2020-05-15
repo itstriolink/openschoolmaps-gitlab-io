@@ -100,6 +100,17 @@ superset csv data:
     paths:
     - lehrmittel/einfuehrung_in_apache_superset/files/
 
+build_pages:
+  stage: build
+  script:
+  - cd pages/
+  - ln -s /opt/pelican-{themes,plugins} .  # Pulls in repos provided by build image
+  - pelican --fatal errors -s publishconf.py
+  - mv .well-known/ public/.well-known
+  artifacts:
+    paths:
+    - pages/public/
+
 
 ######################################################################
 # pages
@@ -109,9 +120,6 @@ pages:
   stage: pages
   script:
   - cd pages/
-  - ln -s /opt/pelican-{themes,plugins} .  # Pulls in repos provided by build image
-  - pelican --fatal errors -s publishconf.py
-  - mv .well-known/ public/.well-known
   - mv public/ ..
   only:
     refs:
