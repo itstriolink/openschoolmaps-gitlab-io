@@ -23,6 +23,7 @@ kann!
 
 ## News
 
+- Am **3. Juni 2020** organisiert das GEOSchoolDay-Team ab 16 Uhr ein **Webinar zu "Geographie im Fernunterricht – Erfahrungen der Sekundarstufe I und II"**. Dabei sollen Erfahrungen im Fernunterricht zu geographischen Themen ausgetauscht werden. Anmeldung und [weitere Informationen...](https://geoschoolday.ch)
 - Neues Arbeitsblatt "Einführung in den OpenStreetMap-Editor JOSM" hinzugefügt, das von Christian Nüssli erarbeitet wurde. Vielen Dank Christian! (30. April 2020).
 - Am 25. April 2020 gab es einen Online-Workshop zu "[OpenSchoolMaps - Materialien zu OpenStreetMap](https://openeducationday.ch/programm-2020/openschoolmaps/)" im Rahmen des Virtuellen Open Education Halfday 2020.
 - Two new worksheets on "Apache Superset the Data Visualization and Publication Tool" published (25 November 2019).
