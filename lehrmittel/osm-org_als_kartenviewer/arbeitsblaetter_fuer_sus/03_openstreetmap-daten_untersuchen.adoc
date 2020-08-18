@@ -26,7 +26,7 @@ Dadurch ändert sich dein Mauszeiger.
 Klicke nun an die ungefähre Stelle auf der Karte, wo das fragliche Objekt liegt. 
 Links erscheint dann eine Liste der dort gefundenen geografischen Objekte. 
 (Es können auch welche dabei sein, die nicht auf der Karte zu sehen sind. 
-Nicht alle in der OpenStreetMap-Datensammlung enthaltenen Daten werden in jedem Kartenstil angezeigt, manches sogar in gar keinem).
+Nicht alle in der OpenStreetMap-Datensammlung enthaltenen Daten werden in jedem Kartenstil angezeigt, manche sogar in gar keinem).
 
 Klick den entsprechenden Link an, und du siehst die Eigenschaften ("Attribute") des Objekts sowie den Kommentar zur letzten Änderung, die daran gemacht wurde und weitere Informationen.
 
