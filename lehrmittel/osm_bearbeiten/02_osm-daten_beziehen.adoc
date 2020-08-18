@@ -571,7 +571,7 @@ image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG["vektorl
 Nachdem du das ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
 Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
 Der neue Layer trägt den Namen "Zusammengeführt". 
-Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennst.
+Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennen würdest.
 Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) 
 nicht umbenannt wurde:
 
