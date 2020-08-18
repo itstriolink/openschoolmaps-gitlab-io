@@ -41,8 +41,8 @@ endif::show_solutions[]
 ====
 
 Falls du zum ersten Mal auf openstreetmap.org bist, ist oben links eine 
-Willkommens-Nachricht erschienen. 
-Falls die Nachricht bereits weggeklickt wurde, ist hier nochmals ihr Inhalt:
+Willkommens-Nachricht erschienen. Diese verschwindet, wenn du dich eingeloggt hast.
+Falls du bereits eingeloggt bist, ist hier nochmals ihr Inhalt:
 
 > Willkommen bei OpenStreetMap!
 > OpenStreetMap ist eine Karte der Welt, erstellt von Menschen wie dir und frei 
@@ -52,8 +52,7 @@ Falls die Nachricht bereits weggeklickt wurde, ist hier nochmals ihr Inhalt:
 >
 > https://www.osm.org/about Mehr erfahren | https://www.osm.org/user/new Mit dem Kartieren anfangen
 
-Lies die Nachricht durch und schliesse sie dann, um mehr von der Landkarte zu 
-sehen.
+Lies die Nachricht durch.
 
 <<<
 
@@ -152,7 +151,7 @@ endif::show_solutions[]
 
 === Such-Feld
 
-Oben links findest du ein Text-Eingabefeld für Such-Anfragen. Hier können Orte, Adressen, Sehenswürdigkeiten und Namen von Läden, Hotels, Restaurants und vielem mehr eingegeben werden.
+Oben links findest du ein Texteingabefeld für Suchanfragen. Hier können Orte, Adressen, Sehenswürdigkeiten und Namen von Läden, Hotels, Restaurants und vielem mehr eingegeben werden.
 
 * Suche deinen Kanton
 * Suche deine Gemeinde oder deinen Ortsteil
