@@ -562,8 +562,8 @@ Da wir jetzt mehrere Punkte-Layer haben, müssen wir diese zusammenführen.
 Solch ein Zusammenführen funktioniert nur, wenn alle Layer denselben 
 Geometrie-Datentyp haben.
 Gehe dafür im QGIS-"Vektor"-Menü zu "Datenmanagement-Werkzeuge" und 
-dann zu "Vektorlayer zusammenführen". 
-Im Dialogfenster wählst du die vier Layer (wie im Bild unten) aus:
+dann zu "Vektorlayer zusammenführen".
+Im Dialogfenster wählst du die vier Layer (wie in der unteren Abbildung) aus:
 
 .Mehrere Layer zu einem einzigen Layer zusammenführen
 image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG["vektorlayer_zusammenfuehren", 480, 317]
