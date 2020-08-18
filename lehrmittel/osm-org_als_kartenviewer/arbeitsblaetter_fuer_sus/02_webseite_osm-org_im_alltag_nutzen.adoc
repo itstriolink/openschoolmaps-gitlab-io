@@ -42,7 +42,7 @@ Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-P
 
 Untersuche mit der Navigations-Funktion deinen Schulweg.
 
-Wie lange ist er mit dem von dir normalerweise verwendeten Verkehrsmittel?
+Wie lange ist der Weg von dem von dir normalerweise verwendeten Verkehrsmittel?
 
 ====
 ifdef::show_solutions[]
