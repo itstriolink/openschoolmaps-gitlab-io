@@ -546,8 +546,8 @@ Darum kommt es vor, dass man im GIS Polygon-Layer erhält mit denselben
 Objektarten, wie im Punkte-Layer.
 Eigentlich will man aber alle Objekte einheitlich und alle auf einmal ansprechen.
 
-Also, gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
-Polygon-Layer in Punkt umwandeln und können diese dann im Punkte-Layer 
+Also, gegeben sind je ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
+Polygon-Layer in Punkte umwandeln und können diese dann im Punkte-Layer 
 integrieren. 
 
 Dafür gehst du in QGIS unter Menü "Vektor" zu "Geometrie-Werkzeuge" und dann 
