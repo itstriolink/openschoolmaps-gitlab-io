@@ -338,7 +338,7 @@ image::einfuehrung_in_apache_superset/alle_diagramme.PNG[, 860, 535]
 
 == Abschluss
 
-Geschafft! Du solltest nun ein Dashboard zu den Weltbank-Daten haben, dass du anderen zeigen kannst.
+Geschafft! Du solltest nun ein Dashboard zu den Weltbank-Daten haben, das du anderen zeigen kannst.
 
 Wer mehr über Apache Superset erfahren will, dem sei das Informationsblatt "Apache Superset für Fortgeschrittene" auf OpenSchoolMaps empfohlen.
 
