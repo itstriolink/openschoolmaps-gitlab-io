@@ -241,7 +241,7 @@ welches als "Draft" markiert ist, ist zwar nicht für andere User sichtbar (Ausn
 
 == Abschluss
 
-Geschafft! Du solltest nun ein Dashboard zu den Weltbank-Daten haben, dass du anderen zeigen kannst.
+Geschafft! Du solltest nun ein Dashboard zu den Weltbank-Daten haben, das du anderen zeigen kannst.
 
 TIP: Tipp zum Filter: In einem Zeit-Filter unter _Custom_ ist es möglich, direkt Jahreszahlen zu schreiben. Das Datum ist dann automatisch der erste Januar.
 
