@@ -543,7 +543,7 @@ Bei OSM kommt es immer wieder vor, dass ein Objekt - wie beispielsweise eine
 Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) 
 erfasst wird. 
 Darum kommt es vor, dass man im GIS Polygon-Layer erhält mit denselben 
-Objektarten wie im Punkte-Layer.
+Objektarten, wie im Punkte-Layer.
 Eigentlich will man aber alle Objekte einheitlich und alle auf einmal ansprechen.
 
 Also, gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
