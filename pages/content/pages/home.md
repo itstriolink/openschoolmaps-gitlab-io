@@ -20,6 +20,7 @@ als Open Educational Resource ([OER](https://de.wikipedia.org/wiki/Open_Educatio
 bereitgestellt, so dass jede/r die Lehr- und Lernmaterialien frei nutzen kann - 
 auch ausserhalb des Unterrichts - und auch so dass jede/r selber dazu beitragen 
 kann!
+Die Unterlagen sind auf dem [OpenSchoolMaps-Repository](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/) verfügbar.
 
 ## News
 
