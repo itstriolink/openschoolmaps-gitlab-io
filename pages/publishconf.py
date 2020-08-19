@@ -19,7 +19,7 @@ SITEURL = _official_url if _is_official_site else _pages_url
 RELATIVE_URLS = not _is_CI
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
