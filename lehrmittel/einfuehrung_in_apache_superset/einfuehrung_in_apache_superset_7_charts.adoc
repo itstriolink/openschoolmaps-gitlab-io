@@ -11,7 +11,7 @@ include::../../snippets/suppress_title_page.adoc[]
 
 === Lernziele
 
-Diese Arbeitsblatt dient zur Vertiefung der Lernziele, die in "Einführung in Apache Superset: One Chart" gesetzt wurden. Aus diesem Grund wird empfohlen, erst das Arbeitsblatt
+Dieses Arbeitsblatt dient zur Vertiefung der Lernziele, die in "Einführung in Apache Superset: One Chart" gesetzt wurden. Aus diesem Grund wird empfohlen, erst das Arbeitsblatt
 "Einführung in Apache Superset: One Chart" durchzuarbeiten.
 
 Das Bearbeiten dieses Arbeitsblatts dauert ca. zwei Stunden, je nach deinem Vorwissen.
@@ -207,7 +207,7 @@ Da Chart Nr. 3 uns aber nur das durchschnittliche Wachstum anzeigt, wäre es noc
 
 image:einfuehrung_in_qgis/ausrufezeichen.png[, 15, 15]
 *Aufgabe 5* +
-_Jetzt, da du schon das Wachstum der Bevölkerung dargestellt hast, sollte es dir nicht schwer fallen, die Wachstumsrate pro Land mittels eines Line Charts darzustellen. Setze hierbei noch ein Series limit (z.B. 25), um die Anzahl Länder, die angezeigt werden zu beschränken und erhöhe die Zeitspanne auf `1960-2014`. Die Zeitspanne kannst du eintippen oder den Filter auf `No filter` setzen._
+_Jetzt, da du schon das Wachstum der Bevölkerung dargestellt hast, sollte es dir nicht schwerfallen, die Wachstumsrate pro Land mittels eines Line Charts darzustellen. Setze hierbei noch ein Series limit (z.B. 25), um die Anzahl Länder, die angezeigt werden zu beschränken und erhöhe die Zeitspanne auf `1960-2014`. Die Zeitspanne kannst du eintippen oder den Filter auf `No filter` setzen._
 
 Speichere auch diesen Chart wieder ab.
 

@@ -13,7 +13,7 @@ image::osm_editieren/Die_Umgebung_selber_kartografieren/outdoorEvent_Intro.PNG[]
 == Übersicht
 
 .Ziel
-Dies ist kein Arbeitsblatt sondern eine Sammlung von Hinweisen und Tipps 
+Dies ist kein Arbeitsblatt, sondern eine Sammlung von Hinweisen und Tipps 
 für Lehrpersonen und Instruktoren zur Organisation eines erfolgreichen 
 Outdoor Mapping Events (manchmal auch "Mapping Party" genannt) mit Schülerinnen 
 und Schülern sowie Interessierten (hier "Teilnehmende" genannt).
