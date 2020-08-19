@@ -6,7 +6,7 @@ Status: hidden
 Url:
 Save_as: index.html
 
-![]({filename}/images/schoolkids.jpg)
+![schoolkids]({static}/images/schoolkids.jpg)
 
 OpenSchoolMaps ist ein Projekt zur Förderung offener Karten und Kartendaten. 
 Dabei werden vornehmlich offene Daten von OpenStreetMap, Open Source-Software 
