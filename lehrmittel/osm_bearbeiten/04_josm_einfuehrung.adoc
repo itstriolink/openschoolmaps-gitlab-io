@@ -115,7 +115,7 @@ Danach wirst du eine Bestätigung erhalten, dass deine Daten auf dem offiziellen
 === Hintergründe
 
 JOSM bietet bereits ab Grundinstallation eine Vielzahl an Hintergrundkarten an.
-JOSM lässt sich so weit individualisieren, dass man WMS/TMS-Dienste anbinden kann wie z.B. diejenigen des Kantons Zürich (geolion.ch).
+JOSM lässt sich so weit individualisieren, dass man WMS/TMS-Dienste anbinden kann wie z.B. diejenigen des Kantons Zürich (geolion.zh.ch).
 Wem also die Standardauswahl für die Schweiz nicht reicht oder wer einen speziellen Hintergrund braucht,
 kann ganz einfach einen WMS-Dienst anbinden.
 
@@ -150,7 +150,7 @@ Gerne möchten wir gerne in diesem <<erweiterungen, Kapitel Erweiterungen>> erl�
 
 === Daten herunterladen
 
-Um Daten herunterzuladenm musst du folgendes Symbol verwenden:
+Um Daten herunterzuladen musst du folgendes Symbol verwenden:
 image:osm_editieren/osm_bearbeiten/josm_einfuehrung/download_symbol.PNG[pdfwidth=5%]
 
 Du findest dieses Symbol in der Symbolleiste auf der linken Seite.
