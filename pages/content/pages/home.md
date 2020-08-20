@@ -6,7 +6,7 @@ Status: hidden
 Url:
 Save_as: index.html
 
-![]({filename}/images/schoolkids.jpg)
+![schoolkids]({static}/images/schoolkids.jpg)
 
 OpenSchoolMaps ist ein Projekt zur Förderung offener Karten und Kartendaten. 
 Dabei werden vornehmlich offene Daten von OpenStreetMap, Open Source-Software 
@@ -20,9 +20,11 @@ als Open Educational Resource ([OER](https://de.wikipedia.org/wiki/Open_Educatio
 bereitgestellt, so dass jede/r die Lehr- und Lernmaterialien frei nutzen kann - 
 auch ausserhalb des Unterrichts - und auch so dass jede/r selber dazu beitragen 
 kann!
+Die Unterlagen sind auf dem [OpenSchoolMaps-Repository](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/) verfügbar.
 
 ## News
 
+- Am **3. Juni 2020** organisiert das GEOSchoolDay-Team ab 16 Uhr ein **Webinar zu "Geographie im Fernunterricht – Erfahrungen der Sekundarstufe I und II"**. Dabei sollen Erfahrungen im Fernunterricht zu geographischen Themen ausgetauscht werden. Anmeldung und [weitere Informationen...](https://geoschoolday.ch)
 - Neues Arbeitsblatt "Einführung in den OpenStreetMap-Editor JOSM" hinzugefügt, das von Christian Nüssli erarbeitet wurde. Vielen Dank Christian! (30. April 2020).
 - Am 25. April 2020 gab es einen Online-Workshop zu "[OpenSchoolMaps - Materialien zu OpenStreetMap](https://openeducationday.ch/programm-2020/openschoolmaps/)" im Rahmen des Virtuellen Open Education Halfday 2020.
 - Two new worksheets on "Apache Superset the Data Visualization and Publication Tool" published (25 November 2019).

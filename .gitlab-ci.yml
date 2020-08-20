@@ -13,23 +13,39 @@ stages:
 # prebuild
 ######################################################################
 
-# Builds the Docker image $BUILD_IMAGE for subsequent build steps.
-build_image:
+# Builds the Docker image $BUILD_IMAGE for subsequent build steps
+# if its inputs have changed.
+build_image_if_changed: &build_image_job
   stage: prebuild
   image: docker:latest
   services:
     - docker:dind  # required for Docker-in-Docker on gitlab.com
-  only:
+  only: &build_image_condition
     changes:
       - docker.build/*
       - .gitlab-ci.yml
       - pages/requirements.txt
   script:
-    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
-    - mv pages/requirements.txt docker.build
-    - cd docker.build
-    - docker build --tag $BUILD_IMAGE -f Dockerfile.build .
-    - docker push $BUILD_IMAGE
+    - &docker_login_cmd "docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY"
+    - &build_image_script
+      - mv pages/requirements.txt docker.build
+      - cd docker.build
+      - docker build --tag $BUILD_IMAGE -f Dockerfile.build .
+      - docker push $BUILD_IMAGE
+
+
+# Builds the Docker image $BUILD_IMAGE for subsequent build steps
+# if its inputs haven't changed but the image is missing.
+build_image_if_missing:
+  <<: *build_image_job
+  only: null
+  except:
+    <<: *build_image_condition
+  script:
+    - *docker_login_cmd
+    - docker pull $BUILD_IMAGE && exit  # If the image is available, there's
+                                        # nothing left to do in this job.
+    - *build_image_script
 
 
 ######################################################################

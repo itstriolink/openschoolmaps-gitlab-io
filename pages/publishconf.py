@@ -21,7 +21,7 @@ RELATIVE_URLS = not _is_CI
 ASCIIDOC_OPTIONS = ['--attribute', f'lehrmittel-url={SITEURL}/lehrmittel']
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

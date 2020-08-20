@@ -67,7 +67,7 @@ Kaum ein Export aus OSM ist darum gleich wie der andere.
 Grundsätzlich kann man OSM-eigene und analysierbare GIS-Formate unterscheiden.
 
 * OSM-spezifische Formate sind v.a. OSM XML und OSM PBF.
-* GIS-kompatible Formate sind GeoJSON, GeoPackage, Shapefiles und GeoJSON.
+* GIS-kompatible Formate sind GeoJSON, GeoPackage und Shapefiles.
 * Weitere GIS-Vektor-Formate sind: KML sowie GPX für den GPS-Datenaustausch.
 * Weitere nicht weiter analysierbare Formate sind Bild-/Raster-Formate wie PNG, JPEG und PDF.
 
@@ -661,7 +661,7 @@ image::osm_editieren/osm-daten_beziehen/single_symbol.PNG["single_symbol_menu", 
 
 Im oberen Bild siehst du eine rote Markierung um den Eintrag "Single symbol". 
 Dies deshalb, da wir jetzt diesen Eintrag zu "Rule-based" ändern.
-Bisher war es so, dass alle Objekte gleich behandelt (nicht unterschieden) und 
+Bisher war es so, dass alle Objekte gleichbehandelt (nicht unterschieden) und 
 somit gleich dargestellt wurden, deshalb "Single symbol". 
 Jetzt, da wir "Rule-based" selektiert haben, können wir Regeln (Ausdrücke) 
 definieren, um die Objekte je nach Attributwert verschiedenen Symbolen zuzuordnen.
@@ -703,7 +703,7 @@ regelbasierten Darstellung.
 Sehen wir uns noch eine andere Möglichkeit an.
 
 Angenommen, wir möchten nach wie vor alle Objekte anzeigen und nur einen Teil 
-abrenzen, dann können wir einfach eine andere Farbe für alle Bäckereien nehmen.
+abgrenzen, dann können wir einfach eine andere Farbe für alle Bäckereien nehmen.
 Lösche die Regel, die wir vorhin auf die Objekte angewendet haben, wieder. 
 Dann starten wir ab folgender Ansicht:
 
@@ -727,7 +727,7 @@ Der Layer "Brotverkaufsstellen" sollte nun zwei verschiedene Objektgruppen
 aufweisen. 
 Einerseits sehen wir alle 27 Brotverkaufstellen in oranger Farbe.
 Andererseits haben wir nun eine neue (Unter-)Gruppe mit 10 Objekten, 
-nämlich unsere Bäckereien in pinker Farbe.
+nämlich unsere Bäckereien in Pink.
 
 Damit schliessen wir dieses Kapitel bzw. dieses Arbeitsblatt ab und überlassen 
 es dir, die Layer und das ganze QGIS-Projekt zu erweitern und die Darstellung 
