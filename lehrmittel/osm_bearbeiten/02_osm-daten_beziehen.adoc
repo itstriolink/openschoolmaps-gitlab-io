@@ -563,8 +563,9 @@ Solch ein Zusammenführen funktioniert nur, wenn alle Layer denselben
 Geometrie-Datentyp haben.
 Gehe dafür im QGIS-"Vektor"-Menü zu "Datenmanagement-Werkzeuge" und 
 dann zu "Vektorlayer zusammenführen".
-Im Dialogfenster wählst du die vier Layer (wie in der unteren Abbildung) aus:
+Im Dialogfenster wählst du die vier Layer (wie in <<abb20>>) aus:
 
+[[abb20]]
 .Mehrere Layer zu einem einzigen Layer zusammenführen
 image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG["vektorlayer_zusammenfuehren", 480, 317]
 
