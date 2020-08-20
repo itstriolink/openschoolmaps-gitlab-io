@@ -360,7 +360,7 @@ diesem Kapitel.
 
 === HOT-Export-Tool
 
-Das Humanitarian OpenStreetMap Team (HOT) bietet einen mit dem HOT-Export-Tool 
+Das Humanitarian OpenStreetMap Team (HOT) bietet mit dem HOT-Export-Tool 
 einen Online-Service an, um Daten von OpenStreetMap herunterzuladen.
 Um das HOT-Export-Tool zu verwenden, brauchst du ein OpenStreetMap-Benutzerkonto 
 und eine gültige E-Mail-Adresse, um benachrichtigt zu werden, wenn die Daten 
@@ -542,12 +542,13 @@ diesem Kapitel.
 Bei OSM kommt es immer wieder vor, dass ein Objekt - wie beispielsweise eine 
 Bäckerei - mal als Punkt (Point) und mal als Gebäudeumriss-Polygon (Area) 
 erfasst wird. 
-Darum kommt es vor, dass man im GIS Polygon-Layer erhält mit denselben 
-Objektarten wie im Punkte-Layer.
+Darum kommt es vor, dass man im GIS Polygon-Layer mit denselben 
+Objektarten wie im Punkte-Layer erhält.
+
 Eigentlich will man aber alle Objekte einheitlich und alle auf einmal ansprechen.
 
-Also, gegeben ein Polygon-Layer und ein Punkte-Layer, müssen wir die Polygone im 
-Polygon-Layer in Punkt umwandeln und können diese dann im Punkte-Layer 
+Also müssen wir die Polygone im 
+Polygon-Layer in Punkte umwandeln und können diese dann im Punkte-Layer 
 integrieren. 
 
 Dafür gehst du in QGIS unter Menü "Vektor" zu "Geometrie-Werkzeuge" und dann 
@@ -562,16 +563,17 @@ Da wir jetzt mehrere Punkte-Layer haben, müssen wir diese zusammenführen.
 Solch ein Zusammenführen funktioniert nur, wenn alle Layer denselben 
 Geometrie-Datentyp haben.
 Gehe dafür im QGIS-"Vektor"-Menü zu "Datenmanagement-Werkzeuge" und 
-dann zu "Vektorlayer zusammenführen". 
-Im Dialogfenster wählst du die vier Layer aus:
+dann zu "Vektorlayer zusammenführen".
+Im Dialogfenster wählst du die vier Layer (wie in <<abb_layer_zusammenfueren>>) aus:
 
+[[abb_layer_zusammenfueren]]
 .Mehrere Layer zu einem einzigen Layer zusammenführen
 image::osm_editieren/osm-daten_beziehen/vektorlayer_zusammenfuehren.PNG["vektorlayer_zusammenfuehren", 480, 317]
 
 Nachdem du das ausgeführt hast, siehst du auf der linken Seite einen neuen Layer.
 Die alten Layer brauchst du nun nicht mehr und du kannst sie somit löschen.
 Der neue Layer trägt den Namen "Zusammengeführt". 
-Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennst.
+Es wäre sinnvoll, wenn du ihn zu "Brotverkaufsstellen" umbenennen würdest.
 Unten siehst du das Endergebnis dieser zweiten Methode, wobei der Layer (noch) 
 nicht umbenannt wurde:
 

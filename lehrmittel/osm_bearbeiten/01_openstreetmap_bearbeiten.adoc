@@ -138,7 +138,7 @@ Eine weitere Möglichkeit, um sich zu informieren, was man alles erfassen kann, 
 
 [NOTE]
 ====
-Wenn man das Editieren beenden und den iD-Editor verlassen will, dann klicke man auf das "OpenStreetMap"-Logo oben links. 
+Wenn man das Editieren beenden und den iD-Editor verlassen will, dann kann man dies durch Klicken auf das "OpenStreetMap"-Logo oben links tun. 
 ====
 
 Wenn du mehr über OpenStreetMap wissen willst, dann schaue z.B. auf OpenSchoolMaps nach, was es für weitere Materialien gibt.
