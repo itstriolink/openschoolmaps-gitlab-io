@@ -29,5 +29,5 @@ RUN set -e; \
   && pip3 install --upgrade pip \
   && pip3 install -r /tmp/requirements.txt \
   && apk --no-cache del \
-    $prawn_gmatick_build_deps \
+    $prawn_gmagick_build_deps \
     $pelican_installation_deps
