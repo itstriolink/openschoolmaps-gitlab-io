@@ -17,10 +17,14 @@ RUN set -e; \
     tar \
     py3-pip \
   "; \
+  additional_packages=" \
+    zip \
+  "; \
   apk --update --no-cache add \
     $prawn_gmagick_build_deps \
     $prawn_gmagick_runtime_deps \
     $pelican_installation_deps \
+    $additional_packages \
   && gem install prawn-gmagick --no-document \
   && wget -qO- https://github.com/getpelican/pelican-plugins/archive/ac0246dc9ea19dbb288926d7dd286ef17efe3e4f.tar.gz \
      | tar xzf - --strip-components=1 --one-top-level=/opt/pelican-plugins --wildcards 'pelican-plugins-*/asciidoc_reader' \

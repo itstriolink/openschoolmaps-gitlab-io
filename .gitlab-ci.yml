@@ -68,53 +68,21 @@ PDFs:
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.pdf
 
-QGIS excercise data:
+ZIPs:
   stage: build
   script:
-  # Dummy script,
-  # because we only need to collect some files from the Git repo as artifacts.
-  - "true"
+  - mkdir lehrmittel/zips/
+  - zip -r Daten_Leitprogramm_QGIS.zip lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
+  - mv Daten_Leitprogramm_QGIS.zip lehrmittel/zips/
+  - zip -r Daten_autobahn.zip lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn/
+  - mv Daten_autobahn.zip lehrmittel/zips/
+  - zip -r Input-Daten_gaemsen.zip lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
+  - mv Input-Daten_gaemsen.zip lehrmittel/zips/
+  - zip -r Superset-Datentabellen.zip lehrmittel/einfuehrung_in_apache_superset/files/
+  - mv Superset-Datentabellen.zip lehrmittel/zips/
   artifacts:
-    name: "Daten_Leitprogramm_QGIS"
-    expire_in: 3 mos
     paths:
-    - lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
-
-autobahn excercise data:
-  stage: build
-  script:
-  # Dummy script,
-  # because we only need to collect some files from the Git repo as artifacts.
-  - "true"
-  artifacts:
-    name: "Daten_autobahn"
-    expire_in: 3 mos
-    paths:
-    - lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn/
-
-gaemsen excercise data:
-  stage: build
-  script:
-  # Dummy script,
-  # because we only need to collect some files from the Git repo as artifacts.
-  - "true"
-  artifacts:
-    name: "Input-Daten_gaemsen"
-    expire_in: 3 mos
-    paths:
-    - lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
-    
-superset csv data:
-  stage: build
-  script:
-  # Dummy script,
-  # because we only need to collect some files from the Git repo as artifacts.
-  - "true"
-  artifacts:
-    name: "Superset-Datentabellen"
-    expire_in: 3 mos
-    paths:
-    - lehrmittel/einfuehrung_in_apache_superset/files/
+    - lehrmittel/
 
 build_pages:
   stage: build
@@ -136,6 +104,7 @@ pages:
   stage: pages
   script:
   - mv pages/public/ .
+  - mv lehrmittel/ public/
   only:
     refs:
       - master
