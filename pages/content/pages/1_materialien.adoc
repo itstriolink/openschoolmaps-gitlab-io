@@ -20,7 +20,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 == Arbeitsblätter _(English version see below, version française voir ci-dessous)_
 
-.OSM.org als Kartenviewer:
+=== OSM.org als Kartenviewer:
 * Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene:
   {lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf[{pdf-icon}{nnbsp}Informationen]
 
@@ -39,7 +39,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
   {osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{pdf-icon}{nnbsp}Informationen] |
   {osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{pdf-icon}{nnbsp}Lösungen]
 
-.OpenStreetMap bearbeiten und nutzen:
+=== OpenStreetMap bearbeiten und nutzen:
 . OpenStreetMap bearbeiten:
   {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf[{pdf-icon}{nnbsp}Arbeitsblatt] |
   {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf[{pdf-icon}{nnbsp}mit Informationen für Instruktoren] (Keywords: iD-Editor)
@@ -51,7 +51,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 . Einführung in den OpenStreetMap-Editor JOSM:
   {lehrmittel-url}/osm_bearbeiten/04_josm_einfuehrung.pdf[{pdf-icon}{nnbsp}Arbeitsblatt] (Keywords: JOSM-Editor)
 
-.uMap der Karteneditor:
+=== uMap der Karteneditor:
 . Mit uMap einen Lageplan erstellen:
   {lehrmittel-url}/umap/01_lageplan_erstellen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt]
 . Mit uMap eine Story-Map mit Bildern erstellen:
@@ -59,7 +59,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 . Mit uMap eine thematische Online-Karte erstellen:
   {lehrmittel-url}/umap/02_online-karte_erstellen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt]
 
-.Apache Superset das Datenvisualisierungs- und Publikations-Werkzeug:
+=== Apache Superset das Datenvisualisierungs- und Publikations-Werkzeug:
 * Einführung in Apache Superset I (ein Chart):
   {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart.pdf[{pdf-icon}{nnbsp}Arbeitsblatt] |
   {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart_solutions.pdf[{pdf-icon}{nnbsp}Lösungen]
@@ -71,7 +71,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 :qgis-worksheets: {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus
 
-.Einführung in QGIS 3 und in Geoinformationssysteme (GIS):
+=== Einführung in QGIS 3 und in Geoinformationssysteme (GIS):
 * Informationen für Lehrpersonen:
   {lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf[{pdf-icon}{nnbsp}Informationen]
 * Einleitung und Vorbereitung:
@@ -94,7 +94,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
   {qgis-worksheets}/5_praesentation_von_geodaten.pdf[{pdf-icon}{nnbsp}Arbeitsblatt] |
   {qgis-worksheets}/5_praesentation_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}Lösungen]
 
-.Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
+=== Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
 
 .. Raumanalyse Vektordaten - Autobahn: 
   {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf[{pdf-icon}{nnbsp}Arbeitsblatt] |
@@ -103,7 +103,7 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
   {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt] |
   {lehrmittel-url}/zips/Input-Daten_gaemsen.zip[{zip-icon}{nnbsp}Daten]
 
-.Zusätzliche Materialien:
+=== Zusätzliche Materialien:
 * OpenStreetMap Tagging Cheatsheet:
   {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.pdf[{pdf-icon}{nnbsp}Dokument] |
   {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.docx[{doc-icon}{nnbsp}Dokument]
