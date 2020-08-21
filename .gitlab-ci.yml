@@ -116,6 +116,15 @@ superset csv data:
     paths:
     - lehrmittel/einfuehrung_in_apache_superset/files/
 
+ZIPs:
+  stage: build
+  script:
+   - zip -r Daten_autobahn.zip lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn/
+   - zip -r Input-Daten_gaemsen.zip lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
+   - zip -r Superset-Datentabellen.zip lehrmittel/einfuehrung_in_apache_superset/files/
+   artifacts:
+    - lehrmittel/
+
 build_pages:
   stage: build
   script:
