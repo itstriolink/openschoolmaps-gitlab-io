@@ -124,6 +124,7 @@ pages:
   script:
   - mv pages/public/ .
   - mv lehrmittel/ public/
+  - mv bilder/ public/
   only:
     refs:
       - master
