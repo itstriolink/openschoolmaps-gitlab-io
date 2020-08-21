@@ -136,6 +136,7 @@ pages:
   stage: pages
   script:
   - mv pages/public/ .
+  - mv lehrmittel/ public/
   only:
     refs:
       - master
