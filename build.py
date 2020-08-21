@@ -60,6 +60,7 @@ def make_htmls(adoc_file_path):
 def make_html_without_solutions(adoc_file_path):
     call_asciidoctor(
         infile=adoc_file_path,
+        output_type='HTML',
     )
 
 def make_html_with_solutions(adoc_file_path):
