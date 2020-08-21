@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import subprocess
+import subprocess, sys
 from pathlib import Path
 from types import MappingProxyType as frozen
 
@@ -9,13 +9,16 @@ materials = Path('lehrmittel')
 SOLUTION_SIGNATURE = 'def::show_solutions['
 
 
-def main():
+def main(output_type):
     adoc_file_paths = list(materials.glob('**/*.adoc'))
     for p in adoc_file_paths:
         sanity_check(p)
-    for p in adoc_file_paths:
-        make_pdfs(p)
-        make_htmls(p)
+    if output_type == 'PDF':
+        for p in adoc_file_paths:
+            make_pdfs(p)
+    elif output_type == 'HTML':
+        for p in adoc_file_paths:
+            make_htmls(p)
 
 
 def sanity_check(path):
@@ -90,7 +93,7 @@ def call_asciidoctor(infile, outfile=None, extra_attributes=frozen({}), output_t
         )
     elif output_type == 'HTML':
         command = (
-            'asciidoctor-html',
+            'asciidoctor',
             *attributes_iterable(attributes),
             infile,
             *outfile_args,
@@ -108,4 +111,7 @@ def attributes_iterable(attributes_dict):
 
 
 if __name__ == '__main__':
-    main()
+    if sys.argv[1] == 'PDF':
+        main(output_type='PDF')
+    elif sys.argv[1] == 'HTML':
+        main(output_type='HTML')
