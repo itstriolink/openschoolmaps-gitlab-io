@@ -29,12 +29,14 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 ==== Webseite OSM.org kennenlernen:
 * {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-{osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
-* {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)] | 
-{osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.html[{pdf-icon}{nnbsp}Lösungen (HTML)]
+{osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
+* {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
+{osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+
 ==== Webseite OSM.org im Alltag nutzen:
 * {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
 {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
+
 ==== OpenStreetMap-Daten untersuchen:
 * {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
 {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
