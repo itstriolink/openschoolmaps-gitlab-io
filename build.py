@@ -15,6 +15,7 @@ def main():
         sanity_check(p)
     for p in adoc_file_paths:
         make_pdfs(p)
+        make_htmls(p)
 
 
 def sanity_check(path):
@@ -45,27 +46,55 @@ def make_pdf_with_solutions(adoc_file_path):
         infile=adoc_file_path,
         outfile=outfile_path,
         extra_attributes=dict(show_solutions=True),
+        output_type='PDF'
     )
 
+def make_htmls(adoc_file_path):
+    make_html_without_solutions(adoc_file_path)
+    if has_solution(adoc_file_path):
+        make_html_with_solutions(adoc_file_path)
+    
+def make_html_without_solutions(adoc_file_path):
+    call_asciidoctor(
+        infile=adoc_file_path,
+    )
+
+def make_html_with_solutions(adoc_file_path):
+    outfile_name = f"{adoc_file_path.stem}_solutions.html"
+    outfile_path = adoc_file_path.parent / outfile_name
+    call_asciidoctor(
+        infile=adoc_file_path,
+        outfile=outfile_path,
+        extra_attributes=dict(show_solutions=True),
+        output_type='HTML'
+    )
 
 def has_solution(adoc_file_path):
     with open(adoc_file_path) as f:
         return any(SOLUTION_SIGNATURE in line for line in f)
 
 
-def call_asciidoctor(infile, outfile=None, extra_attributes=frozen({})):
+def call_asciidoctor(infile, outfile=None, extra_attributes=frozen({}), output_type='PDF'):
     default_attributes = frozen({
         'icons': 'font',
         'source-highlighter': 'coderay',
     })
     attributes = {**default_attributes, **extra_attributes}
     outfile_args = ('-o', outfile) if outfile else ()
-    command = (
-        'asciidoctor-pdf',
-        *attributes_iterable(attributes),
-        infile,
-        *outfile_args,
-    )
+    if output_type == 'PDF':
+        command = (
+            'asciidoctor-pdf',
+            *attributes_iterable(attributes),
+            infile,
+            *outfile_args,
+        )
+    elif output_type == 'HTML':
+        command = (
+            'asciidoctor-html',
+            *attributes_iterable(attributes),
+            infile,
+            *outfile_args,
+        )
     subprocess.run(
         command,
         check=True,
