@@ -14,6 +14,7 @@
 :pdf-icon: image:../file-icons/page_white_acrobat.png[PDF document]
 :doc-icon: image:../file-icons/page_white_word.png[Word document]
 :zip-icon: image:../file-icons/page_white_zip.png[Zip archive]
+:html-icon: image:../file-icons/page_white_world.png[HTML Site]
 :nnbsp: &#8239;
 
 image::../images/tunnel.jpg["Tunnel mit Personen"]
@@ -26,18 +27,24 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 :osm-viewer-worksheets: {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus
 
-. Webseite OSM.org kennenlernen:
-  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt] |
-  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf[{pdf-icon}{nnbsp}Lösungen]
-. Webseite OSM.org im Alltag nutzen:
-  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt]
-. OpenStreetMap-Daten untersuchen:
-  {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt]
+==== Webseite OSM.org kennenlernen:
+* {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
+{osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
+* {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)] | 
+{osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.html[{pdf-icon}{nnbsp}Lösungen (HTML)]
+==== Webseite OSM.org im Alltag nutzen:
+* {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
+{osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
+==== OpenStreetMap-Daten untersuchen:
+* {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
+{osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
 
 //-
-* Zusatzaufgaben:
-  {osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{pdf-icon}{nnbsp}Informationen] |
-  {osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{pdf-icon}{nnbsp}Lösungen]
+==== Zusatzaufgaben:
+* {osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{pdf-icon}{nnbsp}Informationen (PDF)] | 
+{osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{html-icon}{nnbsp}Informationen (HTML)]
+* {osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)] | 
+{osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{html-icon}{nnbsp}Lösungen (HTML)]
 
 === OpenStreetMap bearbeiten und nutzen:
 . OpenStreetMap bearbeiten:
