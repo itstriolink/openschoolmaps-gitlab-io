@@ -24,137 +24,194 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 .OSM.org als Kartenviewer:
 * Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene:
-** {lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf[{pdf-icon}{nnbsp}Informationen (PDF)]
-** {lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.html[{html-icon}{nnbsp}Informationen (HTML)]
+** Informationen: 
+{lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf[{pdf-icon}{nnbsp}PDF] | 
+{lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.html[{html-icon}{nnbsp}HTML]
 
 //-
 . Webseite OSM.org kennenlernen:
-  * {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-  * {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+  * Arbeitsblatt: 
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {osm-viewer-worksheets}/01_webseite_osm-org_kennenlernen_solutions.html[{html-icon}{nnbsp}HTML]
+
 . Webseite OSM.org im Alltag nutzen:
-  * {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-  * {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+  * Arbeitsblatt: 
+  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {osm-viewer-worksheets}/02_webseite_osm-org_im_alltag_nutzen_solutions.html[{html-icon}{nnbsp}HTML]
+
 . OpenStreetMap-Daten untersuchen:
-  * {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)]
-  * {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
+  * Arbeitsblatt: 
+  {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{html-icon}{nnbsp}HTML]
 
 //-
 * Zusatzaufgaben:
-** {osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-{osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-** {osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-{osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{html-icon}{nnbsp}Lösungen (HTML]
+** Arbeitsblatt: 
+{osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{pdf-icon}{nnbsp}PDF] | 
+{osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{html-icon}{nnbsp}HTML]
+
+** Lösungen: 
+{osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+{osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{html-icon}{nnbsp}HTML]
 
 //-
 .OpenStreetMap bearbeiten und nutzen:
 . OpenStreetMap bearbeiten:
-  * {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)] (Keywords: iD-Editor)
-  * {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)] (Keywords: iD-Editor)
+  * Arbeitsblatt: 
+  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/osm_bearbeiten/01_openstreetmap_bearbeiten_solutions.html[{html-icon}{nnbsp}HTML] 
+  (Keywords: iD-Editor)
+
 . OpenStreetMap-Daten beziehen und mit QGIS 3 nutzen (für Fortgeschrittene):
-  * {lehrmittel-url}/osm_bearbeiten/02_osm-daten_beziehen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] (Keywords: Overpass, QGIS QuickOSM-Plugin, OSM-Daten-Download)
-  * {lehrmittel-url}/osm_bearbeiten/02_osm-daten_beziehen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] (Keywords: Overpass, QGIS QuickOSM-Plugin, OSM-Daten-Download)
+  * Arbeitsblatt: 
+  {lehrmittel-url}/osm_bearbeiten/02_osm-daten_beziehen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/osm_bearbeiten/02_osm-daten_beziehen.html[{html-icon}{nnbsp}HTML] 
+  (Keywords: Overpass, QGIS QuickOSM-Plugin, OSM-Daten-Download)
+
 . Die Umgebung selber kartografieren - Outdoor Mapping Event:
-  * {lehrmittel-url}/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.pdf[{pdf-icon}{nnbsp}Arbeitsblatt für Teilnehmende (PDF)] | 
-  {lehrmittel-url}/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.pdf[{pdf-icon}{nnbsp}für Instruktoren (PDF)]
-  * {lehrmittel-url}/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.html[{html-icon}{nnbsp}Arbeitsblatt für Teilnehmende (HTML)] | 
-  {lehrmittel-url}/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.html[{html-icon}{nnbsp}für Instruktoren (HTML)]
+  * Arbeitsblatt für Teilnehmende: 
+  {lehrmittel-url}/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.pdf[{pdf-icon}{nnbsp}PDF] | {lehrmittel-url}/osm_bearbeiten/03b_die_umgebung_selber_kartografieren_teilnehmer.html[{html-icon}{nnbsp}HTML] 
+  * Arbeitsblatt für Instruktoren: 
+  {lehrmittel-url}/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.pdf[{pdf-icon}{nnbsp}PDF]
+  {lehrmittel-url}/osm_bearbeiten/03a_die_umgebung_selber_kartografieren_instruktoren.html[{html-icon}{nnbsp}HTML]
+
 . Einführung in den OpenStreetMap-Editor JOSM:
-  * {lehrmittel-url}/osm_bearbeiten/04_josm_einfuehrung.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] (Keywords: JOSM-Editor)
-  * {lehrmittel-url}/osm_bearbeiten/04_josm_einfuehrung.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] (Keywords: JOSM-Editor)
+  * Arbeitsblatt: 
+  {lehrmittel-url}/osm_bearbeiten/04_josm_einfuehrung.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/osm_bearbeiten/04_josm_einfuehrung.html[{html-icon}{nnbsp}HTML] 
+  (Keywords: JOSM-Editor)
 
 //-
 .uMap der Karteneditor:
 . Mit uMap einen Lageplan erstellen:
-  * {lehrmittel-url}/umap/01_lageplan_erstellen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)]
-  * {lehrmittel-url}/umap/01_lageplan_erstellen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
+  * Arbeitsblatt: 
+  {lehrmittel-url}/umap/01_lageplan_erstellen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/umap/01_lageplan_erstellen.html[{html-icon}{nnbsp}HTML]
+
 . Mit uMap eine Story-Map mit Bildern erstellen:
-  * {lehrmittel-url}/umap/03_story-map_erstellen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)]
-  * {lehrmittel-url}/umap/03_story-map_erstellen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
+  * Arbeitsblatt: 
+  {lehrmittel-url}/umap/03_story-map_erstellen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/umap/03_story-map_erstellen.html[{html-icon}{nnbsp}HTML]
+
 . Mit uMap eine thematische Online-Karte erstellen:
-  * {lehrmittel-url}/umap/02_online-karte_erstellen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)]
-  * {lehrmittel-url}/umap/02_online-karte_erstellen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
+  * Arbeitsblatt: 
+  {lehrmittel-url}/umap/02_online-karte_erstellen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/umap/02_online-karte_erstellen.html[{html-icon}{nnbsp}HTML]
 
 //-
 .Apache Superset das Datenvisualisierungs- und Publikations-Werkzeug:
 * Einführung in Apache Superset I (ein Chart):
-** {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-** {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+** Arbeitsblatt:
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart.pdf[{pdf-icon}{nnbsp}PDF] | 
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart.html[{html-icon}{nnbsp}HTML] | 
+** Lösungen: 
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_one_chart_solutions.html[{html-icon}{nnbsp}HTML]
+
 * Einführung in Apache Superset II (7 Charts):
-** {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-** {lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+** Arbeitsblatt: 
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts.pdf[{pdf-icon}{nnbsp}PDF] | 
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts.html[{html-icon}{nnbsp}HTML]
+** Lösungen: 
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+{lehrmittel-url}/einfuehrung_in_apache_superset/einfuehrung_in_apache_superset_7_charts_solutions.html[{html-icon}{nnbsp}HTML]
+
 * Apache Superset für Fortgeschrittene:
-** {lehrmittel-url}/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.pdf[{pdf-icon}{nnbsp}Informationen (PDF)]
-** {lehrmittel-url}/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.html[{html-icon}{nnbsp}Informationen (HTML)]
+** Informationen: 
+{lehrmittel-url}/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.pdf[{pdf-icon}{nnbsp}PDF] | 
+{lehrmittel-url}/einfuehrung_in_apache_superset/apache_superset_fuer_fortgeschrittene.html[{html-icon}{nnbsp}HTML]
 
 :qgis-worksheets: {lehrmittel-url}/einfuehrung_in_qgis/arbeitsblaetter_fuer_sus
 
 //-
 .Einführung in QGIS 3 und in Geoinformationssysteme (GIS):
 * Informationen für Lehrpersonen:
-** {lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf[{pdf-icon}{nnbsp}Informationen (PDF)]
-** {lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.html[{html-icon}{nnbsp}Informationen (HTML)]
+** Informationen: 
+{lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf[{pdf-icon}{nnbsp}PDF] | 
+{lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.html[{html-icon}{nnbsp}HTML]
+
 * Einleitung und Vorbereitung:
-** {qgis-worksheets}/0_einleitung_und_vorbereitung.pdf[{pdf-icon}{nnbsp}Informationen (PDF)]
-** {qgis-worksheets}/0_einleitung_und_vorbereitung.html[{html-icon}{nnbsp}Informationen (HTML)]
+** Informationen: 
+{qgis-worksheets}/0_einleitung_und_vorbereitung.pdf[{pdf-icon}{nnbsp}PDF] | 
+{qgis-worksheets}/0_einleitung_und_vorbereitung.html[{html-icon}{nnbsp}HTML]
 
 //-
 . Was ist ein Geoinformationssystem?
-  * {qgis-worksheets}/1_was_ist_ein_gis.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-  * {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+  * Arbeitsblatt: 
+  {qgis-worksheets}/1_was_ist_ein_gis.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+
 . Was sind Geodaten?
-  * {qgis-worksheets}/2_was_sind_geodaten.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {qgis-worksheets}/2_was_sind_geodaten_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-  * {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+  * Arbeitsblatt: 
+  {qgis-worksheets}/2_was_sind_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {qgis-worksheets}/2_was_sind_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+
 . Erfassung und Verwaltung von Geodaten:
-  * {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-  * {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+  * Arbeitsblatt: 
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+
 . Analyse von Geodaten:
-  * {qgis-worksheets}/4_analyse_von_geodaten.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {qgis-worksheets}/4_analyse_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-  * {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+  * Arbeitsblatt: 
+  {qgis-worksheets}/4_analyse_von_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {qgis-worksheets}/4_analyse_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+
 . Präsentation von Geodaten:
-  * {qgis-worksheets}/5_praesentation_von_geodaten.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {qgis-worksheets}/5_praesentation_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}Lösungen (PDF)]
-  * {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}Lösungen (HTML)]
+  * Arbeitsblatt: 
+  {qgis-worksheets}/5_praesentation_von_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  * Lösungen: 
+  {qgis-worksheets}/5_praesentation_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
 
 //-
 .Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
 
 .. Raumanalyse Vektordaten - Autobahn: 
-  * {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
-  * {lehrmittel-url}/zips/Daten_autobahn.zip[{zip-icon}{nnbsp}Daten (ZIP)]
+  * Arbeitsblatt: 
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.html[{html-icon}{nnbsp}HTML]
+  * Daten: 
+  {lehrmittel-url}/zips/Daten_autobahn.zip[{zip-icon}{nnbsp}ZIP]
+
 .. Raumanalyse Rasterdaten - Wo die Gämsen wohnen: 
-  * {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf[{pdf-icon}{nnbsp}Arbeitsblatt (PDF)] | 
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.html[{html-icon}{nnbsp}Arbeitsblatt (HTML)]
-  * {lehrmittel-url}/zips/Input-Daten_gaemsen.zip[{zip-icon}{nnbsp}Daten (ZIP)]
+  * Arbeitsblatt: 
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.html[{html-icon}{nnbsp}HTML]
+  * Daten: {lehrmittel-url}/zips/Input-Daten_gaemsen.zip[{zip-icon}{nnbsp}ZIP]
 
 //-
 .Zusätzliche Materialien:
 * OpenStreetMap Tagging Cheatsheet:
-  {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.pdf[{pdf-icon}{nnbsp}Dokument (PDF)] |
-  {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.docx[{doc-icon}{nnbsp}Dokument (DOC)]
+  {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.pdf[{pdf-icon}{nnbsp}PDF] |
+  {lehrmittel-url}/OpenStreetMap%20Tagging%20Cheatsheet.docx[{doc-icon}{nnbsp}DOCX]
+
 * Einführung in QGIS 3:
-  {lehrmittel-url}/zips/Daten_Leitprogramm_QGIS.zip[{zip-icon}{nnbsp}Daten (ZIP)]
+  {lehrmittel-url}/zips/Daten_Leitprogramm_QGIS.zip[{zip-icon}{nnbsp}ZIP]
+
 * Apache Superset-Daten (CSV):
-  {lehrmittel-url}/zips/Superset-Datentabellen.zip[{zip-icon}{nnbsp}Daten (ZIP)]
+  {lehrmittel-url}/zips/Superset-Datentabellen.zip[{zip-icon}{nnbsp}ZIP]
 
 Diese Informations- und Arbeitsblätter (PDFs) werden aus den Dateien auf {repo-url}/tree/master/lehrmittel[dieser Seite] erzeugt und verwenden die Auszeichnungssprache https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc].
 
