@@ -112,7 +112,4 @@ def attributes_iterable(attributes_dict):
 
 
 if __name__ == '__main__':
-    if sys.argv[1] == 'PDF':
-        main(output_type='PDF')
-    elif sys.argv[1] == 'HTML':
-        main(output_type='HTML')
+    main(output_type=sys.argv[1])
