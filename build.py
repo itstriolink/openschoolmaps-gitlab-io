@@ -14,6 +14,7 @@ SUPPORTET_FILE_TYPES = ['pdf', 'html']
 def main(output_type):
     adoc_file_paths = list(materials.glob('**/*.adoc'))
     check_for_file_type(output_type)
+    print(f'The File Generator is generating {output_type.upper()}s')
     for p in adoc_file_paths:
         sanity_check(p)
     for p in adoc_file_paths:
@@ -72,7 +73,7 @@ def call_asciidoctor(infile, outfile=None, extra_attributes=frozen({}), output_t
         'source-highlighter': 'coderay',
     })
     attributes = {**default_attributes, **extra_attributes}
-    is_pdf = ('-r', 'asciidoctor-pdf') if outfile.lower() == 'pdf' else ()
+    is_pdf = ('-r', 'asciidoctor-pdf') if output_type.lower() == 'pdf' else ()
     file_type = ('-b', output_type.lower()) if output_type else ()
     outfile_args = ('-o', outfile) if outfile else ()
     command = (
