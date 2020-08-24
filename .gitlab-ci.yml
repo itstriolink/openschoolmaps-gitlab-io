@@ -79,9 +79,7 @@ HTMLs:
   artifacts:
     expire_in: 3 mos
     paths:
-    - bilder/**/*.png
-    - bilder/**/**/*.png
-    - bilder/**/**/**/*.png
+    - bilder/
     - lehrmittel/**/*.html
     - lehrmittel/**/**/*.html
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
