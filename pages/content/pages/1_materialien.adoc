@@ -24,9 +24,9 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 .OSM.org als Kartenviewer:
 * Informationen für Lehrpersonen und Aufgaben für Fortgeschrittene:
-** Informationen: 
 {lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.pdf[{pdf-icon}{nnbsp}PDF] | 
 {lehrmittel-url}/osm-org_als_kartenviewer/infos_fuer_lp/01_osm-org_als_kartenviewer_lp-infos.html[{html-icon}{nnbsp}HTML]
+
 
 //-
 . Webseite OSM.org kennenlernen:
