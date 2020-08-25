@@ -39,9 +39,9 @@ def check_for_file_type(output_type):
 
 
 def make_files(adoc_file_path, output_type):
-    make_files_without_solutions(adoc_file_path, output_type)
+    make_file_without_solutions(adoc_file_path, output_type)
     if has_solution(adoc_file_path):
-        make_files_with_solutions(adoc_file_path, output_type)
+        make_file_with_solutions(adoc_file_path, output_type)
 
 
 def make_file_without_solutions(adoc_file_path, output_type):
