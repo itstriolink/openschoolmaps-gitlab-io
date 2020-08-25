@@ -51,7 +51,7 @@ def make_files_without_solutions(adoc_file_path, output_type):
     )
 
 
-def make_files_with_solutions(adoc_file_path, output_type):
+def make_file_with_solutions(adoc_file_path, output_type):
     outfile_name = f"{adoc_file_path.stem}_solutions.{output_type.lower()}"
     outfile_path = adoc_file_path.parent / outfile_name
     call_asciidoctor(
