@@ -135,12 +135,10 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 //-
 .Einführung in QGIS 3 und in Geoinformationssysteme (GIS):
 * Informationen für Lehrpersonen:
-** Informationen: 
 {lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.pdf[{pdf-icon}{nnbsp}PDF] | 
 {lehrmittel-url}/einfuehrung_in_qgis/infos_fuer_lp/01_einfuehrung_in_qgis_lp_infos.html[{html-icon}{nnbsp}HTML]
 
 * Einleitung und Vorbereitung:
-** Informationen: 
 {qgis-worksheets}/0_einleitung_und_vorbereitung.pdf[{pdf-icon}{nnbsp}PDF] | 
 {qgis-worksheets}/0_einleitung_und_vorbereitung.html[{html-icon}{nnbsp}HTML]
 
