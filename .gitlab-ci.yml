@@ -59,7 +59,7 @@ PDFs:
   tags:
   - docker
   script:
-  - ./build.py
+  - ./build.py PDF
   artifacts:
     expire_in: 3 mos
     paths:
@@ -67,6 +67,23 @@ PDFs:
     - lehrmittel/**/**/*.pdf
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
     - lehrmittel/OpenStreetMap Tagging Cheatsheet.pdf
+
+HTMLs:
+  stage: build
+  variables:
+    LANG: de_CH.utf8
+  tags:
+  - docker
+  script:
+  - ./build.py HTML
+  artifacts:
+    expire_in: 3 mos
+    paths:
+    - bilder/
+    - lehrmittel/**/*.html
+    - lehrmittel/**/**/*.html
+    - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
+    - lehrmittel/OpenStreetMap Tagging Cheatsheet.html
 
 ZIPs:
   stage: build
@@ -105,6 +122,7 @@ pages:
   script:
   - mv pages/public/ .
   - mv lehrmittel/ public/
+  - mv bilder/ public/
   only:
     refs:
       - master

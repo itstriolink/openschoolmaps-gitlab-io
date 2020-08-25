@@ -38,6 +38,7 @@ Die Dateityp-Icons
 image:../file-icons/page_white_acrobat.png[PDF document icon]
 image:../file-icons/page_white_word.png[Word document icon]
 image:../file-icons/page_white_zip.png[Zip archive download]
+image:../file-icons/page_white_world.png[HTML document icon]
 entstammen
 dem Icon-Set http://www.famfamfam.com/lab/icons/silk/[Silk Icons]
 version 1.3
