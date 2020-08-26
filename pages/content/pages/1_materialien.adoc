@@ -154,34 +154,34 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 . Was sind Geodaten?
   * Arbeitsblatt: 
   {qgis-worksheets}/2_was_sind_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/2_was_sind_geodaten.html[{html-icon}{nnbsp}HTML]
   * Lösungen: 
   {qgis-worksheets}/2_was_sind_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/2_was_sind_geodaten_solutions.html[{html-icon}{nnbsp}HTML]
 
 . Erfassung und Verwaltung von Geodaten:
   * Arbeitsblatt: 
   {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten.html[{html-icon}{nnbsp}HTML]
   * Lösungen: 
   {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/3_verwaltung_und_erfassung_von_geodaten_solutions.html[{html-icon}{nnbsp}HTML]
 
 . Analyse von Geodaten:
   * Arbeitsblatt: 
   {qgis-worksheets}/4_analyse_von_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/4_analyse_von_geodaten.html[{html-icon}{nnbsp}HTML]
   * Lösungen: 
   {qgis-worksheets}/4_analyse_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/4_analyse_von_geodaten_solutions.html[{html-icon}{nnbsp}HTML]
 
 . Präsentation von Geodaten:
   * Arbeitsblatt: 
   {qgis-worksheets}/5_praesentation_von_geodaten.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/5_praesentation_von_geodaten.html[{html-icon}{nnbsp}HTML]
   * Lösungen: 
   {qgis-worksheets}/5_praesentation_von_geodaten_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {qgis-worksheets}/1_was_ist_ein_gis_solutions.html[{html-icon}{nnbsp}HTML]
+  {qgis-worksheets}/5_praesentation_von_geodaten_solutions.html[{html-icon}{nnbsp}HTML]
 
 //-
 .Weitere Arbeitsblätter zu QGIS 3 und Geoinformationssystemen (GIS):
