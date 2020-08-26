@@ -1,4 +1,4 @@
-= Mit uMap eine thematische Online-Karte erstellen (Entwurf)
+= Mit uMap eine thematische Online-Karte erstellen
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 :imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
