@@ -22,6 +22,14 @@ auch ausserhalb des Unterrichts - und auch so dass jede/r selber dazu beitragen
 kann!
 Die Unterlagen sind auf dem [OpenSchoolMaps-Repository](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/) verfügbar.
 
+## Karten (Maps)?
+
+Die Vision dieses Projekts ist, dass jedermann/-frau selber eine thematische Karte erstellen kann. 
+Darum gibt es hier keine Karten zu sehen. 
+Wer Karten sucht, der kann sich beispielsweise bei [OpenWhateverMap](http://openwhatevermap.xyz/#3/28.00/18.00) 
+und bei [uMap](https://umap.osm.ch/de/) inspirieren lassen - abgesehen natürlich von der Standardkarte 
+auf [OSM.ch](https://www.osm.ch) und [OpenStreetMap.org](https://www.openstreetmap.org) und den 1001 Points-of-Interest. 
+
 ## News
 
 - Sämtliche 35(!) Arbeitsblätter von OpenSchoolMaps sind nun nicht nur als herunterladbare PDF sondern auch als Webseiten (HTML) verfügbar. Dies verbessert nochmals die Auffindbarkeit und Nutzbarkeit der Lehr- und Lern-Materialien von OpenSchoolMaps (28. August 2020).
