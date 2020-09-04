@@ -1,0 +1,132 @@
+= Erfassungsformular für den Postenlauf auf dem HSR Gelände
+
+*Zusatzblatt für Teilnehmer am Postenlauf*
+
+== Posten A
+
+=== Frage 1
+Kreuze die richtigen Antworten mit X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+'''
+
+=== Frage 2
+Kreuze die richtigen Antworten mit X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+>>>
+
+== Posten B
+
+=== Frage 3
+Mache für a), b), c) und d) je ein X am richtigen Orten.
+
+[cols=6*] 
+|===
+|
+|Winter
+|Frühling
+|Sommer
+|Herbst
+|Alle
+
+|a)
+|
+|
+|
+|
+|
+
+|b)
+|
+|
+|
+|
+|
+
+|c)
+|
+|
+|
+|
+|
+
+|d)
+|
+|
+|
+|
+|
+|===
+
+'''
+
+=== Frage 4
+Kreuze die richtige Antwort mit X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+>>>
+
+== Posten C
+
+=== Frage 5
+Kreuze die richtige Antwort mit X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+'''
