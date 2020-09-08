@@ -63,10 +63,11 @@ PDFs:
   artifacts:
     expire_in: 3 mos
     paths:
+    - lehrmittel/*.pdf
     - lehrmittel/**/*.pdf
     - lehrmittel/**/**/*.pdf
-    - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
-    - lehrmittel/OpenStreetMap Tagging Cheatsheet.pdf
+    - lehrmittel/*.docx
+    - lehrmittel/**/*.docx
 
 HTMLs:
   stage: build
@@ -82,8 +83,6 @@ HTMLs:
     - bilder/
     - lehrmittel/**/*.html
     - lehrmittel/**/**/*.html
-    - lehrmittel/OpenStreetMap Tagging Cheatsheet.docx
-    - lehrmittel/OpenStreetMap Tagging Cheatsheet.html
 
 ZIPs:
   stage: build
