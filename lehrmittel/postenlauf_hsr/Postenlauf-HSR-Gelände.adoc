@@ -1,0 +1,38 @@
+= Postenlauf auf dem HSR Gelände zum Thema Klima
+OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
+
+*Ein Arbeitsblatt*
+
+== Übersicht
+
+=== Lernziele
+
+Diese Übung hat folgende Lernziele:
+
+* Nach dem Postenlauf solltest du dein Wissen rund ums Thema Klima erweitert haben.
+* Das Gelände der HSR ist dir vertraut.
+* Du kannst eine uMap erstellen.
+
+=== Einleitung
+
+Dieser Postenlauf findet man auf dem Gelände der HSR. Er hat sieben Posten mit insgesamt 18 Fragen, die verwendet werden können. Die Reihenfolge, so wie auch die Anzahl der Posten die verwendet werden, kann vom Lehrer oder der Leitenden Person selber entschieden werden. 
+Einerseits kann man den Postenlauf entspannt als Bewegungslauf mit Wissensfragen ablaufen. So lernt man etwas zum Thema Klima und erkundet dabei noch das HSR Gelände.
+Oder andererseits, man macht aus dem Postenlauf einen Wettkampf, bei dem es darum geht möglichst schnell zu sein, viele Fragen richtig zu beantworten, die eigenen Künste im Kartenlesen unter Beweis zu stellen und zu zeigen, dass man im Team arbeiten kann (wenn es in Gruppen gespielt wird).
+
+=== Vorbereitung
+
+Für diesen Postenlauf werden nur wenige Dinge benötigt:
+
+* Ein mobiles Gerät mit Zugang zu einem Browser.
+* Der Link zu einer uMap.
+* Das Erfassungsformular, um die Antworten zu den Fragen einzutragen.
+* Einen Stift um die Antworten in das Erfassungsformular zu schreiben.
+
+[NOTE]
+====
+Um zu lernen, wie man solch eine uMap erstellt, schaue das Arbeitsblatt "Mit uMap einen Lageplan erstellen" auf OpenSchoolMaps an.
+====
+
+=== Wie funktioniert es?
+
+Beim Start erhält man das Erfassungsformular und den Link zur online Karte, auf der alle Posten verzeichnet sind. Anhand der Karte sollen die Posten gefunden und die dortigen QR-codes eingescannt werden. (Wenn das Scannen nicht funktioniert, hat es auch eine URL die man abtippen kann.) Auf der erscheinenden Website findet man die zu beantwortenden Fragen. Sobald man die Antwort weiss, aufs Erfassungsformular schreiben und zu nächsten Posten weitergehen.
