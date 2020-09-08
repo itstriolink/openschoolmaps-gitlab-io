@@ -16,7 +16,6 @@ Diese Übung hat folgende Lernziele:
 
 * Nach dem Postenlauf solltest du dein Wissen rund ums Thema Klima erweitert haben.
 * Das Gelände der HSR ist dir vertraut.
-* Du kannst eine uMap erstellen.
 
 === Einleitung
 
@@ -33,10 +32,9 @@ Für diesen Postenlauf werden nur wenige Dinge benötigt:
 * Das Erfassungsformular, um die Antworten zu den Fragen einzutragen.
 * Einen Stift um die Antworten in das Erfassungsformular zu schreiben.
 
-[NOTE]
-====
-Um zu lernen, wie man solch eine uMap erstellt, schaue das Arbeitsblatt "Mit uMap einen Lageplan erstellen" auf OpenSchoolMaps an.
-====
+image::umap_screenshot.png["Beispiel Karte auf uMap"]
+
+https://umap.osm.ch/de/map/postenlauf-zum-thema-klima_3004#18/47.22314/8.81679[]
 
 === Wie funktioniert es?
 
