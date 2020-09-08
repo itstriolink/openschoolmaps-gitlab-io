@@ -2,7 +2,7 @@
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 
 :xrefstyle: short
-:imagesdir: ../../bilder/
+:imagesdir: ../../bilder/postenlauf_hsr/
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
@@ -41,5 +41,8 @@ Um zu lernen, wie man solch eine uMap erstellt, schaue das Arbeitsblatt "Mit uMa
 === Wie funktioniert es?
 
 Beim Start erhält man das Erfassungsformular und den Link zur online Karte, auf der alle Posten verzeichnet sind. Anhand der Karte sollen die Posten gefunden und die dortigen QR-codes eingescannt werden. (Wenn das Scannen nicht funktioniert, hat es auch eine URL die man abtippen kann.) Auf der erscheinenden Website findet man die zu beantwortenden Fragen. Sobald man die Antwort weiss, aufs Erfassungsformular schreiben und zu nächsten Posten weitergehen.
+
+Um die Lösungen zu finden, klicken sie auf den Link und dann auf den Ordner pages. Danach klicken sie auf den Ordner content. Dann klicken sie noch mal auf den Ordner pages. Dort können sie zu jedem Posten die Datei mit den Fragen und Lösungen finden. (siehe Bilder unten)
+image::loesungs_screenshot.png["Lösungen auf Gitlab"]
 
 include::../../snippets/quellenangabe.adoc[]
