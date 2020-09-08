@@ -45,6 +45,8 @@ Beim Start erhält man das Erfassungsformular und den Link zur online Karte, auf
 Haben Sie noch Fehler gefunden? Dann eröffnen Sie doch eine Issue auf https://gitlab.com/geometalab/hsr-klima-postenlauf/posten-website[].
 
 Um die Lösungen zu finden, klicken sie auf den Link und dann auf den Ordner pages. Danach klicken sie auf den Ordner content. Dann klicken sie noch mal auf den Ordner pages. Dort können sie zu jedem Posten die Datei mit den Fragen und Lösungen finden. (siehe Bilder unten)
+
 image::loesungs_screenshot.png["Lösungen auf Gitlab"]
+
 
 include::../../snippets/quellenangabe.adoc[]
