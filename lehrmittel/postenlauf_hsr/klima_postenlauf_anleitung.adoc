@@ -32,11 +32,11 @@ Für diesen Postenlauf werden nur wenige Dinge benötigt:
 * Das Erfassungsformular, um die Antworten zu den Fragen einzutragen.
 * Einen Stift um die Antworten in das Erfassungsformular zu schreiben.
 
+=== Wie funktioniert es?
+
 image::umap_screenshot.png["Beispiel Karte auf uMap"]
 
 https://umap.osm.ch/de/map/postenlauf-zum-thema-klima_3004#18/47.22314/8.81679[]
-
-=== Wie funktioniert es?
 
 Beim Start erhält man das Erfassungsformular und den Link zur online Karte, auf der alle Posten verzeichnet sind. Anhand der Karte sollen die Posten gefunden und die dortigen QR-codes eingescannt werden. (Wenn das Scannen nicht funktioniert, hat es auch eine URL die man abtippen kann.) Auf der erscheinenden Website findet man die zu beantwortenden Fragen. Sobald man die Antwort weiss, aufs Erfassungsformular schreiben und zu nächsten Posten weitergehen.
 
