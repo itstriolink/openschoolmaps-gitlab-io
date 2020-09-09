@@ -42,7 +42,7 @@ Kreuze die richtige Antwort mit einem X an..
 |
 |===
 
->>>
+<<<
 
 == Posten B
 
@@ -107,7 +107,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
->>>
+<<<
 
 == Posten C
 
@@ -149,7 +149,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
->>>
+<<<
 
 == Posten D
 
@@ -188,7 +188,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
->>>
+<<<
 
 == Posten E
 
@@ -256,7 +256,7 @@ Ordne die Begriffe in der richtigen Reihenfolge.
 |
 |===
 
->>>
+<<<
 
 == Posten F
 
@@ -318,7 +318,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
->>>
+<<<
 
 == Posten G
 
