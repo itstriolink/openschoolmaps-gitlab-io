@@ -1,0 +1,60 @@
+:xrefstyle: short
+:imagesdir: ../../bilder/postenlauf_hsr/
+include::../../snippets/lang/de.adoc[]
+include::../../snippets/suppress_title_page.adoc[]
+:nofooter:
+
+== Posten A
+
+image::posten_a_qr.png[]
+https://bit.ly/32cIHD7[]
+
+<<<
+
+
+== Posten B
+
+image::posten_b_qr.png[]
+https://bit.ly/3i7NECR[]
+
+<<<
+
+
+== Posten C
+
+image::posten_c_qr.png[]
+https://bit.ly/2Zi7QL2[]
+
+<<<
+
+
+== Posten D
+
+image::posten_d_qr.png[]
+https://bit.ly/2GMrzw1[]
+
+<<<
+
+
+== Posten E
+
+image::posten_e_qr.png[]
+https://bit.ly/2DKW2JC[]
+
+<<<
+
+
+== Posten F
+
+image::posten_f_qr.png[]
+https://bit.ly/2R5Byyj[]
+
+<<<
+
+
+== Posten G
+
+image::posten_g_qr.png[]
+https://bit.ly/3m0Ba2e[]
+
+<<<
