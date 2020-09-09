@@ -1,5 +1,7 @@
 = Erfassungsformular für den Postenlauf auf dem HSR Gelände
 
+:nofooter:
+
 *Zusatzblatt für Teilnehmer am Postenlauf*
 
 == Posten A
@@ -22,7 +24,7 @@ Kreuze die richtigen Antworten mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 2
 Kreuze die richtige Antwort mit einem X an..
@@ -87,7 +89,7 @@ Mache für a), b), c) und d) je ein X am richtigen Orten.
 |
 |===
 
-'''
+
 
 === Frage 4
 Kreuze die richtige Antwort mit einem X an.
@@ -129,7 +131,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 6
 Kreuze die richtige Antwort mit einem X an.
@@ -171,7 +173,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 8
 Kreuze die richtige Antwort mit einem X an.
@@ -216,7 +218,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 10
 Kreuze die richtige Antwort mit einem X an.
@@ -236,7 +238,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 11
 Ordne die Begriffe in der richtigen Reihenfolge.
@@ -278,7 +280,7 @@ Ordne die Begriffe in der richtigen Reihenfolge.
 |
 |===
 
-'''
+
 
 === Frage 13
 Kreuze die richtige Antwort mit einem X an.
@@ -298,7 +300,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 14
 Kreuze die richtige Antwort mit einem X an.
@@ -340,7 +342,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 16
 Kreuze die richtige Antwort mit einem X an.
@@ -360,7 +362,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 17
 Kreuze die richtige Antwort mit einem X an.
@@ -380,7 +382,7 @@ Kreuze die richtige Antwort mit einem X an.
 |
 |===
 
-'''
+
 
 === Frage 18
 Kreuze die richtige Antwort mit einem X an.
