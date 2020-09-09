@@ -99,7 +99,8 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
   {klimapostenlauf-url}/erfassungsformular.pdf[{pdf-icon}{nnbsp}PDF] | 
   {klimapostenlauf-url}/erfassungsformular.html[{html-icon}{nnbsp}HTML]
   * 7 Posten-Blätter:
-  {klimapostenlauf-url}/postenblaetter.pdf[{pdf-icon}{nnbsp}PDF]
+  {klimapostenlauf-url}/posten_blaetter.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {klimapostenlauf-url}/posten_blaetter.html[{html-icon}{nnbsp}HTML]
 //-
 
 .uMap der Karteneditor:
