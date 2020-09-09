@@ -8,7 +8,7 @@ include::../../snippets/suppress_title_page.adoc[]
 [.text-center]
 == Posten A
 
-image::posten_a_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::posten_a_qr.jpg[width=100%, scalewidth=17cm]
 https://bit.ly/32cIHD7[]
 
 <<<
@@ -16,7 +16,7 @@ https://bit.ly/32cIHD7[]
 [.text-center]
 == Posten B
 
-image::posten_b_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::posten_b_qr.jpg[width=100%, scalewidth=17cm]
 https://bit.ly/3i7NECR[]
 
 <<<
@@ -24,7 +24,7 @@ https://bit.ly/3i7NECR[]
 [.text-center]
 == Posten C
 
-image::posten_c_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::posten_c_qr.jpg[width=100%, scalewidth=17cm]
 https://bit.ly/2Zi7QL2[]
 
 <<<
@@ -32,7 +32,7 @@ https://bit.ly/2Zi7QL2[]
 [.text-center]
 == Posten D
 
-image::posten_d_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::posten_d_qr.jpg[width=100%, scalewidth=17cm]
 https://bit.ly/2GMrzw1[]
 
 <<<
@@ -40,7 +40,7 @@ https://bit.ly/2GMrzw1[]
 [.text-center]
 == Posten E
 
-image::posten_e_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::posten_e_qr.jpg[width=100%, scalewidth=17cm]
 https://bit.ly/2DKW2JC[]
 
 <<<
@@ -48,7 +48,7 @@ https://bit.ly/2DKW2JC[]
 [.text-center]
 == Posten F
 
-image::posten_f_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::posten_f_qr.jpg[width=100%, scalewidth=17cm]
 https://bit.ly/2R5Byyj[]
 
 <<<
@@ -56,6 +56,6 @@ https://bit.ly/2R5Byyj[]
 [.text-center]
 == Posten G
 
-image::posten_g_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::posten_g_qr.jpg[width=100%, scalewidth=17cm]
 image::umap_screenshot.png[]
 https://bit.ly/3m0Ba2e[]
