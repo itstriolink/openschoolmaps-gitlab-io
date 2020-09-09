@@ -57,6 +57,5 @@ https://bit.ly/2R5Byyj[]
 == Posten G
 
 image::posten_g_qr.png[width=100%, scalewidth=17cm, scaleheight=17cm]
+image::umap_screenshot.png[]
 https://bit.ly/3m0Ba2e[]
-
-<<<
