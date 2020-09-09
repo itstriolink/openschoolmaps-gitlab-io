@@ -1,60 +1,62 @@
 :xrefstyle: short
 :imagesdir: ../../bilder/postenlauf_hsr/
+:title: Postenblätter
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 :nofooter:
 
+[.text-center]
 == Posten A
 
-image::posten_a_qr.png[]
+image::posten_a_qr.png[width=100%, scalewidth=17cm]
 https://bit.ly/32cIHD7[]
 
 <<<
 
-
+[.text-center]
 == Posten B
 
-image::posten_b_qr.png[]
+image::posten_b_qr.png[width=100%, scalewidth=17cm]
 https://bit.ly/3i7NECR[]
 
 <<<
 
-
+[.text-center]
 == Posten C
 
-image::posten_c_qr.png[]
+image::posten_c_qr.png[width=100%, scalewidth=17cm]
 https://bit.ly/2Zi7QL2[]
 
 <<<
 
-
+[.text-center]
 == Posten D
 
-image::posten_d_qr.png[]
+image::posten_d_qr.png[width=100%, scalewidth=17cm]
 https://bit.ly/2GMrzw1[]
 
 <<<
 
-
+[.text-center]
 == Posten E
 
-image::posten_e_qr.png[]
+image::posten_e_qr.png[width=100%, scalewidth=17cm]
 https://bit.ly/2DKW2JC[]
 
 <<<
 
-
+[.text-center]
 == Posten F
 
-image::posten_f_qr.png[]
+image::posten_f_qr.png[width=100%, scalewidth=17cm]
 https://bit.ly/2R5Byyj[]
 
 <<<
 
-
+[.text-center]
 == Posten G
 
-image::posten_g_qr.png[]
+image::posten_g_qr.png[width=100%, scalewidth=17cm]
 https://bit.ly/3m0Ba2e[]
 
 <<<
