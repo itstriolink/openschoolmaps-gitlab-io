@@ -2,7 +2,7 @@
 OpenSchoolMaps.ch -- Freie Lernmaterialien zu freien Geodaten und Karten
 
 :xrefstyle: short
-:imagesdir: ../../bilder/postenlauf_hsr/
+:imagesdir: ../../bilder/
 include::../../snippets/lang/de.adoc[]
 include::../../snippets/suppress_title_page.adoc[]
 
@@ -34,7 +34,7 @@ Für diesen Postenlauf werden nur wenige Dinge benötigt:
 
 === Wie funktioniert es?
 
-image::umap_screenshot.png["Beispiel Karte auf uMap"]
+image::postenlauf_hsr/umap_screenshot.png["Beispiel Karte auf uMap"]
 
 https://umap.osm.ch/de/map/postenlauf-zum-thema-klima_3004#18/47.22314/8.81679[]
 
@@ -44,7 +44,7 @@ Haben Sie noch Fehler gefunden? Dann eröffnen Sie doch eine Issue auf https://g
 
 Um die Lösungen zu finden, klicken sie auf den Link und dann auf den Ordner pages. Danach klicken sie auf den Ordner content. Dann klicken sie noch mal auf den Ordner pages. Dort können sie zu jedem Posten die Datei mit den Fragen und Lösungen finden. (siehe Bilder unten)
 
-image::loesungs_screenshot.png["Lösungen auf Gitlab"]
+image::postenlauf_hsr/loesungs_screenshot.png["Lösungen auf Gitlab"]
 
 
 include::../../snippets/quellenangabe.adoc[]
