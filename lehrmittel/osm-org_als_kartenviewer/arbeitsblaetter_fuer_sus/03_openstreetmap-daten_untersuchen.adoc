@@ -10,7 +10,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 ====
 Dieses Arbeitsblatt zeigt dir, wie du auf OSM.org einen Blick in die Daten werfen kannst, die der Karte zu Grunde liegen.
 
-Ausserdem lernst du, wie du die OpenStreetMap-Gemeinschaft auf Fehler in der Karte hinweisen kannst. 
+Ausserdem lernst du, wie du die OpenStreetMap-Community auf Fehler in der Karte hinweisen kannst. 
 So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halten.
 ====
 
@@ -43,7 +43,7 @@ Diese können (auch ohne den oben beschriebenen Objekt-Abfrage-Modus) angeklickt
 == OpenStreetMap verbessern helfen
 
 Wie von der Willkommensnachricht verkündet, werden die OpenStreetMap-Daten von Menschen wie dir zusammengetragen. 
-Auch ohne Einarbeitung kannst du zur Verbesserung von OpenStreetMap beitragen, indem du die OpenStreetMap-Gemeinschaft auf Fehler und Auslassungen hinweist.
+Auch ohne Einarbeitung kannst du zur Verbesserung von OpenStreetMap beitragen, indem du die OpenStreetMap-Community auf Fehler und Auslassungen hinweist.
 
 Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schulgebäude? 
 Oder gibt es in der Umgebung der Schule ein Bänkli, einen Brunnen oder einen Abfallkübel, der noch nicht eingetragen ist? 
@@ -51,7 +51,7 @@ Oder ist dir auf der Karte sogar etwas aufgefallen was falsch oder veraltet ist?
 
 === Notiz erstellen
 
-Um die OpenStreetMap-Gemeinschaft auf so etwas hinzuweisen, kannst du eine Notiz erstellen. 
+Um die OpenStreetMap-Community auf so etwas hinzuweisen, kannst du eine Notiz erstellen. 
 Klicke dazu auf den image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-Knopf rechts.
 
 Auf der Karte erscheint eine Positions-Nadel image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. 
