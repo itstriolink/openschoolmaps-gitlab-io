@@ -10,15 +10,16 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-_is_CI = 'CI' in os.environ
-
 _official_url = 'https://openschoolmaps.ch'
 _pages_url = os.getenv('CI_PAGES_URL', default='/')
 _is_official_site = _pages_url == 'https://openschoolmaps.gitlab.io'
 SITEURL = _official_url if _is_official_site else _pages_url
-RELATIVE_URLS = not _is_CI
 
-ASCIIDOC_OPTIONS = ['--attribute', f'lehrmittel-url={SITEURL}/lehrmittel']
+_is_prod = os.getenv('CI_COMMIT_REF_NAME') == 'master'
+RELATIVE_URLS = not _is_prod
+
+_lehrmittel_url = f'{SITEURL if _is_prod else "link:.."}/lehrmittel'
+ASCIIDOC_OPTIONS = ['--attribute', f'lehrmittel-url={_lehrmittel_url}']
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
