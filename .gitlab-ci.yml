@@ -116,15 +116,22 @@ build_pages:
 # pages
 ######################################################################
 
-pages:
+pages: &pages_job
   stage: pages
   script:
   - mv pages/public/ .
   - mv lehrmittel/ public/
   - mv bilder/ public/
-  only:
+  only: &pages_condition
     refs:
       - master
   artifacts:
     paths:
     - public/
+
+# for browsing the combined artifacts:
+pages_without_deployment:
+  <<: *pages_job
+  only: null
+  except:
+    <<: *pages_condition
