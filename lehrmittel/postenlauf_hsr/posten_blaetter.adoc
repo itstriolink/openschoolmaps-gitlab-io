@@ -3,7 +3,6 @@
 :title: Postenblätter
 :author: Kyra Maag
 include::../../snippets/lang/de.adoc[]
-include::../../snippets/suppress_title_page.adoc[]
 :nofooter:
 :noheader:
 
