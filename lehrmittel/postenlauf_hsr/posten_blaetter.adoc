@@ -11,7 +11,7 @@ include::../../snippets/lang/de.adoc[]
 === OpenSchoolMaps.ch
 === Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
 
-image::posten_a_qr.jpg[width=100%, scalewidth=17cm]
+image::posten_a_qr.jpg[width=40%, scalewidth=17cm]
 https://bit.ly/32cIHD7[]
 
 <<<
@@ -21,7 +21,7 @@ https://bit.ly/32cIHD7[]
 === OpenSchoolMaps.ch
 === Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
 
-image::posten_b_qr.jpg[width=100%, scalewidth=17cm]
+image::posten_b_qr.jpg[width=40%, scalewidth=17cm]
 https://bit.ly/3i7NECR[]
 
 <<<
@@ -31,7 +31,7 @@ https://bit.ly/3i7NECR[]
 === OpenSchoolMaps.ch
 === Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
 
-image::posten_c_qr.jpg[width=100%, scalewidth=17cm]
+image::posten_c_qr.jpg[width=40%, scalewidth=17cm]
 https://bit.ly/2Zi7QL2[]
 
 <<<
@@ -41,7 +41,7 @@ https://bit.ly/2Zi7QL2[]
 === OpenSchoolMaps.ch
 === Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
 
-image::posten_d_qr.jpg[width=100%, scalewidth=17cm]
+image::posten_d_qr.jpg[width=40%, scalewidth=17cm]
 https://bit.ly/2GMrzw1[]
 
 <<<
@@ -51,7 +51,7 @@ https://bit.ly/2GMrzw1[]
 === OpenSchoolMaps.ch
 === Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
 
-image::posten_e_qr.jpg[width=100%, scalewidth=17cm]
+image::posten_e_qr.jpg[width=40%, scalewidth=17cm]
 https://bit.ly/2DKW2JC[]
 
 <<<
@@ -61,7 +61,7 @@ https://bit.ly/2DKW2JC[]
 === OpenSchoolMaps.ch
 === Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
 
-image::posten_f_qr.jpg[width=100%, scalewidth=17cm]
+image::posten_f_qr.jpg[width=40%, scalewidth=17cm]
 https://bit.ly/2R5Byyj[]
 
 <<<
@@ -71,5 +71,5 @@ https://bit.ly/2R5Byyj[]
 === OpenSchoolMaps.ch
 === Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
 
-image::posten_g_qr.jpg[width=100%, scalewidth=17cm]
+image::posten_g_qr.jpg[width=40%, scalewidth=17cm]
 https://bit.ly/3m0Ba2e[]
