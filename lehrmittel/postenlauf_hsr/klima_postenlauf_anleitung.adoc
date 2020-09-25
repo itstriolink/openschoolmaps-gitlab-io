@@ -42,7 +42,7 @@ und zu zeigen, dass man im Team arbeiten kann
 Für diesen Postenlauf benötigten die Teilnehmenden nur wenige Dinge:
 
 * Ein mobiles Gerät mit Zugang zum Internet
-* Den Link zu einer uMap-Karte (siehe Abb. 1)
+* Den Link zu einer uMap-Karte (siehe <<uMap>>)
 * Das Erfassungsformular, um die Antworten zu den Fragen einzutragen
 * Einen Stift, um die Antworten in das Erfassungsformular zu schreiben
 
@@ -58,7 +58,8 @@ Auf der erscheinenden Website findet man Fragen,
 die mit dem Erfassungsformular zu beantworten sind.
 Danach geht es weiter zum nächsten Posten.
 
-.Interaktive Karte des Postenlaufs. Link: https://umap.osm.ch/de/map/postenlauf-zum-thema-klima_3004_
+[[uMap]]
+.Interaktive Karte des Postenlaufs. Link: https://umap.osm.ch/de/map/postenlauf-zum-thema-klima_3004[]
 image::postenlauf_hsr/umap_screenshot.png["Beispiel Karte auf uMap"]
 
 Haben Sie noch Fehler gefunden?
@@ -69,8 +70,9 @@ Um die Lösungen zu finden, klicken sie auf den Link
 und dann auf den Ordner pages.
 Danach klicken sie auf den Ordner content.
 Dann klicken sie noch mal auf den Ordner pages.
-Dort können sie zu jedem Posten die Datei mit den Fragen und Lösungen finden. (siehe Abbildung 2)
+Dort können sie zu jedem Posten die Datei mit den Fragen und Lösungen finden. (siehe <<Lösungen>>)
 
+[[Lösungen]]
 .Lösungen auf Gitlab
 image::postenlauf_hsr/loesungs_screenshot.png["Lösungen auf Gitlab"]
 
