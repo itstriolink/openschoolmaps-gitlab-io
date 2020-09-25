@@ -32,6 +32,7 @@ auf [OSM.ch](https://www.osm.ch) und [OpenStreetMap.org](https://www.openstreetm
 
 ## News
 
+- Ein neues Unterrichtsmaterial publiziert: ein Klimapostenlauf! Es ist dies ein Orientierungslauf mit dem Handy zum Thema Klima! (25. September 2020)
 - Sämtliche 35(!) Arbeitsblätter von OpenSchoolMaps sind nun nicht nur als herunterladbare PDF sondern auch als Webseiten (HTML) verfügbar. Dies verbessert nochmals die Auffindbarkeit und Nutzbarkeit der Lehr- und Lern-Materialien von OpenSchoolMaps (28. August 2020).
 - Am **3. Juni 2020** organisiert das GEOSchoolDay-Team ab 16 Uhr ein **Webinar zu "Geographie im Fernunterricht – Erfahrungen der Sekundarstufe I und II"**. Dabei sollen Erfahrungen im Fernunterricht zu geographischen Themen ausgetauscht werden. Anmeldung und [weitere Informationen...](https://geoschoolday.ch)
 - Neues Arbeitsblatt "Einführung in den OpenStreetMap-Editor JOSM" hinzugefügt, das von Christian Nüssli erarbeitet wurde. Vielen Dank Christian! (30. April 2020).
