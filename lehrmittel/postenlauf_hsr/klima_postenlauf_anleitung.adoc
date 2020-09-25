@@ -42,7 +42,7 @@ und zu zeigen, dass man im Team arbeiten kann
 Für diesen Postenlauf benötigten die Teilnehmenden nur wenige Dinge:
 
 * Ein mobiles Gerät mit Zugang zum Internet
-* Der Link zu einer uMap-Karte (siehe Abb. 1)
+* Den Link zu einer uMap-Karte (siehe Abb. 1)
 * Das Erfassungsformular, um die Antworten zu den Fragen einzutragen
 * Einen Stift, um die Antworten in das Erfassungsformular zu schreiben
 
