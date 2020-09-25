@@ -1,0 +1,403 @@
+= Erfassungsformular für den Postenlauf auf dem OST Campus Rapperswil
+
+:nofooter:
+
+*Zusatzblatt für Teilnehmende am Postenlauf*
+
+== Posten A
+
+=== Frage 1
+Kreuze die richtigen Antworten mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 2
+Kreuze die richtige Antwort mit einem X an..
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+<<<
+
+== Posten B
+
+=== Frage 3
+Mache für a), b), c) und d) je ein X am richtigen Orten.
+
+[cols=6*] 
+|===
+|
+|Winter
+|Frühling
+|Sommer
+|Herbst
+|Alle
+
+|a)
+|
+|
+|
+|
+|
+
+|b)
+|
+|
+|
+|
+|
+
+|c)
+|
+|
+|
+|
+|
+
+|d)
+|
+|
+|
+|
+|
+|===
+
+
+
+=== Frage 4
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+<<<
+
+== Posten C
+
+=== Frage 5
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 6
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+<<<
+
+== Posten D
+
+=== Frage 7
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 8
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+|===
+
+<<<
+
+== Posten E
+
+=== Frage 9
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+
+|e)
+|
+
+|f)
+|
+|===
+
+
+
+=== Frage 10
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 11
+Ordne die Begriffe in der richtigen Reihenfolge.
+
+[cols=2*] 
+|===
+|1.
+|
+
+|2.
+|
+
+|3.
+|
+
+|4.
+|
+|===
+
+<<<
+
+== Posten F
+
+=== Frage 12
+Ordne die Begriffe in der richtigen Reihenfolge.
+
+[cols=2*] 
+|===
+|1.
+|
+
+|2.
+|
+
+|3.
+|
+
+|4.
+|
+|===
+
+
+
+=== Frage 13
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 14
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+<<<
+
+== Posten G
+
+=== Frage 15
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 16
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 17
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===
+
+
+
+=== Frage 18
+Kreuze die richtige Antwort mit einem X an.
+
+[cols=2*] 
+|===
+|a)
+|
+
+|b)
+|
+
+|c)
+|
+
+|d)
+|
+|===

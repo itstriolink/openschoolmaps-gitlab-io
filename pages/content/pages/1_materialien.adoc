@@ -11,6 +11,7 @@
 // CI/CD overrides lehrmittel-url through CLI.
 :lehrmittel-url: https://openschoolmaps.ch/lehrmittel
 :osm-viewer-worksheets: {lehrmittel-url}/osm-org_als_kartenviewer/arbeitsblaetter_fuer_sus
+:klimapostenlauf-url: {lehrmittel-url}/postenlauf_hsr
 
 :pdf-icon: image:../file-icons/page_white_acrobat.png[PDF document]
 :doc-icon: image:../file-icons/page_white_word.png[Word document]
@@ -89,7 +90,19 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
   {lehrmittel-url}/osm_bearbeiten/04_josm_einfuehrung.html[{html-icon}{nnbsp}HTML] 
   (Keywords: JOSM-Editor)
 
+. Klimapostenlauf:
+  * Arbeitsblatt für Instruktoren: 
+  {klimapostenlauf-url}/klima_postenlauf_anleitung.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {klimapostenlauf-url}/klima_postenlauf_anleitung.html[{html-icon}{nnbsp}HTML] | 
+  {klimapostenlauf-url}/klima_postenlauf_anleitung.docx[{doc-icon}{nnbsp}DOCX]
+  * Erfassungsformular:
+  {klimapostenlauf-url}/erfassungsformular.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {klimapostenlauf-url}/erfassungsformular.html[{html-icon}{nnbsp}HTML]
+  * 7 Posten-Blätter:
+  {klimapostenlauf-url}/posten_blaetter.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {klimapostenlauf-url}/posten_blaetter.html[{html-icon}{nnbsp}HTML]
 //-
+
 .uMap der Karteneditor:
 . Mit uMap einen Lageplan erstellen:
   * Arbeitsblatt: 

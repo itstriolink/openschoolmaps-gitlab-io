@@ -1,0 +1,75 @@
+:xrefstyle: short
+:imagesdir: ../../bilder/postenlauf_hsr/
+:title: Postenblätter
+:author: Kyra Maag
+include::../../snippets/lang/de.adoc[]
+:nofooter:
+:noheader:
+
+[.text-center]
+== Posten A
+=== OpenSchoolMaps.ch
+=== Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
+
+image::posten_a_qr.jpg[width=40%, scalewidth=17cm]
+https://tinyurl.com/y5yrgrsw
+
+<<<
+
+[.text-center]
+== Posten B
+=== OpenSchoolMaps.ch
+=== Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
+
+image::posten_b_qr.jpg[width=40%, scalewidth=17cm]
+https://tinyurl.com/y4bhyhqs
+
+<<<
+
+[.text-center]
+== Posten C
+=== OpenSchoolMaps.ch
+=== Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
+
+image::posten_c_qr.jpg[width=40%, scalewidth=17cm]
+https://tinyurl.com/y46mtffd
+
+<<<
+
+[.text-center]
+== Posten D
+=== OpenSchoolMaps.ch
+=== Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
+
+image::posten_d_qr.jpg[width=40%, scalewidth=17cm]
+https://tinyurl.com/yyyzv2ul
+
+<<<
+
+[.text-center]
+== Posten E
+=== OpenSchoolMaps.ch
+=== Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
+
+image::posten_e_qr.jpg[width=40%, scalewidth=17cm]
+https://tinyurl.com/y69vhygo
+
+<<<
+
+[.text-center]
+== Posten F
+=== OpenSchoolMaps.ch
+=== Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
+
+image::posten_f_qr.jpg[width=40%, scalewidth=17cm]
+https://tinyurl.com/y3a2sjcu
+
+<<<
+
+[.text-center]
+== Posten G
+=== OpenSchoolMaps.ch
+=== Postenlauf zum Thema Klima auf dem OST Campus Rapperswil
+
+image::posten_g_qr.jpg[width=40%, scalewidth=17cm]
+https://tinyurl.com/yxowrtea
