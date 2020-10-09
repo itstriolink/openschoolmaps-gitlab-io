@@ -66,6 +66,6 @@ Kapitel 5 Präsentation von Geodaten
 
 Noch Fragen?
 Wenden Sie sich an QGIS (https://www.qgis.org) oder Stefan Keller 
-(sfkeller@hsr.ch)!
+(stefan.keller@ost.ch)!
 
 include::../../../snippets/quellenangabe.adoc[]

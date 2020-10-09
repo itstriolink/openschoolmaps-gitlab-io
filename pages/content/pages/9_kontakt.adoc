@@ -9,7 +9,7 @@ image::../images/logo_openschoolmaps_web_128x87.png["Logo"]
 
 == Kontakt
 
-Bei Fragen wenden Sie sich an Stefan Keller, HSR Hochschule für Technik Rapperswil (Schweiz): sfkeller@hsr.ch .
+Bei Fragen wenden Sie sich an Stefan Keller, HSR Hochschule für Technik Rapperswil (Schweiz): stefan.keller@ost.ch .
 
 
 == Rechtliches
