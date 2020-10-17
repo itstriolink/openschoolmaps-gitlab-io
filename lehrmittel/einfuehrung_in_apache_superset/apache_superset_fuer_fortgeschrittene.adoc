@@ -84,7 +84,7 @@ Es empfiehlt sich jedoch zu überprüfen, ob die richtigen Datentypen für die e
 Eine Tabelle mit ihren Attributen und Datentypen überprüfen:
 
 * Menü _Sources > Tables_ auswählen.
-* Die gewünschte Tabelle suchen (z.B. die Tabelle `factbook_data`) und auf "Eintrag bearbeiten" klicken (den mittleren der drei kleinen Buttons). Es erscheint das Formular "Edit Table" mit Tab "Detail".
+* Die gewünschte Tabelle suchen (z.B. die Tabelle `factbook_data`) und auf "Eintrag bearbeiten" klicken (die mittlere der drei kleinen Schaltflächen). Es erscheint das Formular "Edit Table" mit Tab "Detail".
 * Im Formular "Edit Table" auf Tab "Columns" wechseln. Es erscheint eine Liste der Columns (Attribute) mit ihren Datentypen. 
 * Bei den Spaltendefinitionen, deren Typ angepasst werden soll, auf "Eintrag bearbeiten" klicken.
 * Im Feld "Type" den gewünschten Datentyp eingeben, hier: Ganzzahl `INTEGER` statt Fliesskomma `DOUBLE PRECISION`. Datentypen sind in einem eigenen Kapitel weiter unten beschrieben.
@@ -135,10 +135,10 @@ Hat man einen Chart erstellt -- beispielsweise den Chart "CIA World Factbook Tab
 
 Neues Dashboard erstellen:
 
-* Ein neues Dashboard kann entweder im Menü _Dashboards_ über den Button "+" rechts erstellt werden oder aber direkt rechts oben mit dem Button "+ New" _> Dashboard_. Es öffnet sich das Formular "Add Dashboard". 
+* Ein neues Dashboard kann entweder im Menü _Dashboards_ über die Schaltfläche "+" rechts erstellt werden oder aber direkt rechts oben mit der Schaltfläche "+ New" _> Dashboard_. Es öffnet sich das Formular "Add Dashboard".
 * Im Formular "Add Dashboard" einen Titel angeben, z.B. "CIA World Factbook Test".
 * Unten im Formular gibt es ein Häkchen für "Published". Wir gehen später darauf ein.
-* Mit Klick auf den Button "Speichern" das Dashboard speichern.
+* Mit Klick auf die Schaltfläche "Speichern" das Dashboard speichern.
 
 Damit ist das Dashboard zwar erstellt, doch wir müssen es noch layouten und ihm noch Charts zuordnen.
 
@@ -152,9 +152,9 @@ Dashboard bearbeiten:
 
 * Auf Menü _Dashboards_ klicken. Eine Liste mit Dashboards erscheint.
 * In der Liste auf das gewünschte Dashboard klicken, z.B. "CIA World Factbook Test". Das Dashboard öffnet sich im "View-Mode". 
-* Im Dashboard-Fenster rechts oben auf den Button "Edit dashboard" klicken. Das Dashboard ist nun im "Edit Mode" und es erscheint unter anderem der Dialog "Insert components" rechts.
+* Im Dashboard-Fenster rechts oben auf die Schaltfläche "Edit dashboard" klicken. Das Dashboard ist nun im "Edit Mode" und es erscheint unter anderem der Dialog "Insert components" rechts.
 * Das Dashboard kann nun ge-layoutet werden. Änderungen werden direkt gespeichert. 
-* Über den Button "Switch to view mode" rechts oben kann man wieder in die normale Dashboard-Ansicht ("View Mode") zurück wechseln.
+* Über die Schaltfläche "Switch to view mode" rechts oben kann man wieder in die normale Dashboard-Ansicht ("View Mode") zurück wechseln.
 
 
 NOTE: Das Layout, d.h. die Positionierung der Charts erfordert einige Übung. 
@@ -172,7 +172,7 @@ Dashboard publizieren:
 * In der Liste der Dashboards bei demjenigen, das veröffentlicht werden soll auf "Eintrag bearbeiten" klicken. Das Formular "Edit Dashboard" erscheint.
 * Im Feld "Owners" die Benutzer (Benutzer-Rolle) eintragen.
 * Zuunterst im Formular das Häkchen bei "Published" setzen.
-* Mit Klick auf den Button "Speichern" das Dashboard speichern. 
+* Mit Klick auf die Schaltfläche "Speichern" das Dashboard speichern.
 
 Nun ist dein Dashboard publiziert und kann anderen Benutzer*innen zur Verfügung gestellt werden!
 
@@ -260,7 +260,7 @@ NOTE: Das Attribut `country_codes` beinhaltet die Namen der Länder und deren IS
 Diese Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können. 
 In diesem Beispiel sind es die Bevölkerungszahl, die Fläche und die Bevölkerungsdichte.
 
-* Im _SQL Editor_ den Button _Run Query_ ausführen.
+* Im _SQL Editor_ die Schaltfläche _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
 * Dort in der Tabellenliste einen neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
 * Im Dialog "Import a table definition" als "Table Name" den Namen der soeben erstellen View ergänzen.

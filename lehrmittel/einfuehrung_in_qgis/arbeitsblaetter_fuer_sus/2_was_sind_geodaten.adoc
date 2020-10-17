@@ -259,7 +259,7 @@ Nach dieser Übung bist du in der Lage folgendes zu tun:
 === Projekteinstellungen
 
 Um ein leeres Projekt zu öffnen, schliesse und öffne entweder QGIS neu oder 
-klicke auf den Button "Neues Projekt". 
+klicke auf die Schaltfläche "Neues Projekt".
 In das leere Projekt sollen nun Geodaten geladen werden.
 
 Bevor jedoch Daten geladen werden, sollte das Koordinatensystem des Projektes 
@@ -271,7 +271,7 @@ Für die Schweiz werden folgende Koordinatensysteme verwendet: Das EPSG:2056
 (CH1903+/LV95) und manchmal noch das ältere EPSG:21781 (CH1903 /LV03).
 
 Wähle das vorgegebene System mit Hilfe der Suche aus und bestätige die 
-Einstellung durch Klicken auf den _Anwenden_-Button.
+Einstellung durch Klicken auf die _Anwenden_-Schaltfläche.
 
 Gehe anschliessend unter _Projekt_ -> _Properties..._ in den Reiter mit dem Namen 
 _Allgemein_, setze dort den Projekttitel "Die Schweiz" und bestimme eine 
@@ -285,13 +285,13 @@ anpassen zu müssen. Wähle deshalb für dein neues Projekt die Option "Relativ"
 (falls diese Option nicht schon so eingstellt ist).
 
 Schliesse anschliessend das Fenster "Projekteinstellungen" durch Klicken auf 
-den OK-Button. Damit die neue Hintergrundfarbe erscheint, muss im 
+den OK-Schaltfläche. Damit die neue Hintergrundfarbe erscheint, muss im
 Kartenfenster eine Navigationsfunktion wie z.B. Karte verschieben ausgeführt 
 werden.
 
 === Projekt speichern
 
-Speichere mit dem _Projekt speichern_-Button dein neues Projekt in den Ordner, in 
+Speichere mit der _Projekt speichern_-Schaltfläche dein neues Projekt in den Ordner, in
 welchem du die Daten für diese Übung abgespeichert hast.
 
 === Daten einlesen
@@ -299,7 +299,7 @@ welchem du die Daten für diese Übung abgespeichert hast.
 Die Karte ist nun soweit bereit, dass Daten eingelesen werden können. Dazu 
 wird das Menü Datenbank in der Menüleiste verwendet. Für die unterschiedlichen 
 Arten von Daten, die eingelesen werden können, hat es auch unterschiedliche 
-Buttons.
+Schaltflächen.
 
 ==== Vektordaten einlesen
 
@@ -389,7 +389,7 @@ Wenn du im Reiter _Layers_ beim obersten Balken auf den Pfeil klickst, siehst
 du, dass bereits einige Services standardmässig eingebunden sind. Um den Service 
 mit den öffentlichen Daten der _Bundes Geodaten-Infrastruktur_ (BGDI) 
 ebenfalls einzubinden, muss eine neue WMS-Verbindung erstellt werden. Dazu 
-muss auf den _Neu_-Button geklickt werden. Gib im Fenster _Neue 
+muss auf die _Neu_-Schaltfläche geklickt werden. Gib im Fenster _Neue
 WMS/WMTS-Verbindung anlegen_ den Namen der Verbindung an (z.B. WMS-BGDI) und die
 URL zum gewünschten Server (in unserem Fall http://wms.geo.admin.ch/). 
 Benutzername und Passwort werden in diesem Fall nicht gebraucht.

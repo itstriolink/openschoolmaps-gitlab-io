@@ -277,7 +277,7 @@ mit dem ursprünglichen Wert selbst
 (das ist raffiniert ☺, denn der geklammerte boolesche Ausdruck
 wird offenbar als Zahl 1/0 interpretiert anstelle von wahr/falsch).
 Man kann den Ausdruck entweder direkt eintippen oder
-mit Klick auf die Operator-Buttons im Bereich "`Operatoren`" zusammenstellen.
+mit Klick auf die Operator-Schaltfläche im Bereich "`Operatoren`" zusammenstellen.
 Mit btn:[OK] den Rasterrechner starten.
 
 image::05_dhm_rastercalc_bsp.png[]

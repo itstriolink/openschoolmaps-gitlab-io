@@ -139,12 +139,12 @@ als "`Abstand`" musst du 20 Meter eintragen.
 
 7. Das Resultat dieses Vorgangs wollen wir in einer Datei festhalten.
 Um es als Layer in einer neuen Datei abzulegen,
-klicke auf den Knopf btn:[…] neben dem Feld für den Layername
+klicke auf die Schaltfläche btn:[…] neben dem Feld für den Layername
 und wähle menu:Speichern{sp}als{sp}Geopackage…[].
 Nenne die neue Datei `autobahn_analyse.gpkg`
 und den neuen Layer trasse_20.
 
-8. Führe die Verarbeitung mit dem Knopf btn:[Starte] durch.
+8. Führe die Verarbeitung mit der Schaltfläche btn:[Starte] durch.
 +
 Nun siehst du den Autobahnkörper in deinem Untersuchungsgebiet.
 
@@ -281,7 +281,7 @@ Bearbeite die Attributtabelle in den Layer-Eigenschaften
 1. Öffne das Kontext-Menü des Layers "`zonen`"
    und wähle menu:Eigenschaften…[].
 2. Wähle im Layereigenschaften-Fenster den Reiter "`Quellfelder`" an.
-3. Schalte den Bearbeitungs-Modus an (Knopf mit dem Stift)
+3. Schalte den Bearbeitungs-Modus an (Schaltfläche mit dem Stift)
 4. Lösche alle Felder ausser "`layer`" und "`fid`".
 5. Benenne das Feld "`layer`" in "`zone`" um.
 6. Schliesse das Layereigenschaften-Fenster mit btn:[OK].

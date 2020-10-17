@@ -32,7 +32,7 @@ _Löse als Einstieg in das Kapitel Datenanalyse folgende Aufgaben:_
 . _Suche 1: Rufe die Homepage http://tel.local.ch/de/ auf und gib den Namen und 
 falls bekannt auch den Wohnort einer Person ein, die du kennst und die einen 
 Eintrag im Telefonbuch haben könnte (z.B. deine Eltern oder deine 
-Grosseltern). Klicke anschliessend auf den Suchen-Button. Was ist das 
+Grosseltern). Klicke anschliessend auf die Suchen-Schaltfläche. Was ist das
 Resultat deiner Suche? In welcher Form sind die Eingabe und die Ausgabe der 
 Suche, wenn du die Suche auf der Seite tel.local.ch allgemein betrachtest?_
 . _Suche 2: Rufe als nächstes die Homepage http://www.sbb.ch/ auf und suche 
@@ -323,7 +323,7 @@ image::einfuehrung_in_qgis/aufgabe4ausgabe.png["Aufgabe 4 Ausgabe", 629, 71]
 endif::show_solutions[]
 
 Kommen wir nun aber zum Anfangsbeispiel zurück. Diese Abfrage ist etwas 
-komplizierter. Öffne durch Klicken auf den Button _Objekte über Ausdruck wählen_
+komplizierter. Öffne durch Klicken auf die Schaltfläche _Objekte über Ausdruck wählen_
 den Abfrageeditor. Hier kann die Abfrage in Form einer _SQL_-Abfrage formuliert 
 werden. Es muss jedoch nur die _Where-Klausel_ der _SQL_-Abfrage eingegeben 
 werden. Von `SELECT * FROM Seen WHERE max_Tiefe > 100` muss also nur der Teil 
@@ -363,7 +363,7 @@ und einem Ausgabefeld unten.
 Im oberen Feld steht der Cursor bei Zeile 1 und man kann dort SQL 
 schreiben.
 
-Die SQL-Abfrage kann man mit Klick auf den Button _Ausführen_ ausführen. 
+Die SQL-Abfrage kann man mit Klick auf die Schaltfläche _Ausführen_ ausführen.
 Wenn die Abfrage erfolgreich war, wird das Ergebnis im Ausgabefeld angezeigt.
 Falls man vor der Ausführung der SQL-Abfrage die Checkbox 
 _Als neuen Layer laden_ anwählt, wird das Resultat als neuer Layer geladen.
@@ -396,7 +396,7 @@ formuliert, die in der Attributstabelle abgespeichert sind. Nun soll eine
 Abfrage durchgeführt werden, bei welcher die Position der Objekte 
 berücksichtigt wird. Es handelt sich dabei um eine räumliche Abfrage.
 
-Das Werkzeug für die räumlichen Abfragen findet man, in dem man den Button 
+Das Werkzeug für die räumlichen Abfragen findet man, in dem man die Schaltfläche
 _Vektor_ klickt und aus dem neuen Fenster unter _Datenmanagement Werkzeuge_ 
 das Werkzeug _Attribute nach Position zusammenfügen_ auswählt.
 

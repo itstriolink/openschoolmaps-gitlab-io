@@ -183,7 +183,7 @@ Bevor du anfangen kannst auf OpenStreetMap Daten zu bearbeiten oder hinzuzufüge
 musst du dich dort registrieren. 
 Falls der Instruktor die Registration nicht schon für dich gemacht hat, 
 gehe zur Webseite von https://www.openstreetmap.org/[OpenStreetMap].
-Oben rechts siehst du nun einen "Registrieren"-Button. 
+Oben rechts siehst du nun eine "Registrieren"-Schaltfläche.
 Klicke drauf, nun musst du eine Email eingeben und einen Benutzernamen und ein 
 Passwort setzen. 
 Per Email musst du dann die Angaben bestätigen, indem du auf einen Link klickst. 

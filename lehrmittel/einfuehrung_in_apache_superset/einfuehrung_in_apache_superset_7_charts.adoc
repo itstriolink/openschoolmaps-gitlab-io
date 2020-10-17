@@ -318,10 +318,10 @@ Um mit dem Editieren zu beginnen, musst du oben rechts auf _Edit dashboard_ klic
 Momentan ist dein Dashboard noch leer, jedoch kannst du dieses einfach per Drag & Drop füllen.
 Die erste Komponente musst du nach oben zum Rand ziehen.
 Wenn eine Komponente platziert werden kann, wird dies durch eine blaue Linie signalisiert, die zugleich anzeigt,wie/wo die Komponente platziert wird. 
-Zuerst klickst du dafür auf den _Edit dashboard_-Knopf wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst. 
+Zuerst klickst du dafür auf die _Edit dashboard_-Schaltfläche wodurch alle Komponenten angezeigt werden, die du hinzufügen kannst.
 
 * _Tabs_ sind wie beim Browser selber zu verstehen und können alles Mögliche beinhalten.
-* _Rows_ sowie _Columns_ können gebraucht werden, um einzelne andere Komponenten zu verbinden. Wenn Komponenten verbunden sind, kann man den Platz zwischen ihnen auch weiss färben. Durch das Hovern über den verbundenen Komponenten erscheint ein Knopf, der diese Option anzeigt.
+* _Rows_ sowie _Columns_ können gebraucht werden, um einzelne andere Komponenten zu verbinden. Wenn Komponenten verbunden sind, kann man den Platz zwischen ihnen auch weiss färben. Durch das Hovern über den verbundenen Komponenten erscheint eine Schaltfläche, der diese Option anzeigt.
 * Um die verbundenen Komponenten wieder in Gruppen zu unterteilen kann man _Divider_ verwenden. Diese stellen einen Strich dar.
 * _Header_ können verwendet werden, um den einzelnen Komponenten eine Überschrift zu geben. _Markdown_ kann zum Verfassen eines beschreibenden Textes zu einem Chart benutzt werden.
 * Unter _Your charts & filters_ sind alle Charts zu finden, die man bisher erstellt hat.
