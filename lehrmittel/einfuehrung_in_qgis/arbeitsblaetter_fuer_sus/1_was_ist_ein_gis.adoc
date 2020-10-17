@@ -236,10 +236,10 @@ Blende das Bedienfeld "Räumliche Lesezeichen" aus und blende dafür das Bedienf
 === Bestehendes Projekt öffnen
 
 In dieser Übung werden wir mit einem bereits erstellten QGIS-Projekt arbeiten. 
-Dieses Projekt wollen wir jetzt laden. Klicke dazu auf den Button mit dem 
+Dieses Projekt wollen wir jetzt laden. Klicke dazu auf die Schaltfläche mit dem
 Namen Projekt öffnen und navigiere zum Ordner, in welchem du die Daten zu 
 diesem Leitprogramm abgespeichert hast. Wähle die Datei Teil1.qgz aus und 
-bestätige deine Eingabe durch Klicken auf den _Open_ Knopf.
+bestätige deine Eingabe durch Klicken auf die _Open_ Schaltfläche.
 
 Im Layerfenster erscheinen nun zwei Einträge: Seen und Kantonsgrenzen. Diese 
 Einträge werden Layer genannt. Im Kartenfenster sind die grossen Seen und die 

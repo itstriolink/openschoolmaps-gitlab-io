@@ -154,7 +154,7 @@ Um Daten herunterzuladen musst du folgendes Symbol verwenden:
 image:osm_editieren/osm_bearbeiten/josm_einfuehrung/download_symbol.PNG[pdfwidth=5%]
 
 Du findest dieses Symbol in der Symbolleiste auf der linken Seite.
-Nach dem Drücken des Knopfes erscheint eine Minikarte.
+Nach dem Drücken der Schaltfläche erscheint eine Minikarte.
 Auf dieser Karte kannst du auf den Ort zoomen, den du mappen willst.
 Beschränke dich beim Daten-Download auf ein kleines Gebiet.
 Wählst du ein zu grosses Gebiet, wirst du vom Server vermutlich einen Fehler erhalten.

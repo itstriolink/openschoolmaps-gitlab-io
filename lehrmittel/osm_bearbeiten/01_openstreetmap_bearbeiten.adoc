@@ -64,10 +64,10 @@ endif::show_solutions[]
 
 Wenn die Knöpfe auf OSM.org nach der Anmeldung nicht in deutscher Sprache angezeigt werden, kannst du das folgendermassen ändern:
 
-1. Klicke oben rechts auf den Knopf mit deinem Benutzernamen
+1. Klicke oben rechts auf die Schaltfläche mit deinem Benutzernamen
 2. Wähle im Dropdown-Menü "Einstellungen" ("Settings") aus
 3. Unter der Einstellung "Sprachen" ("Preferred Languages") ersetzt du den Text mit `de-CH de`
-4. Klicke den "Speichern"-Knopf ("Save Changes") ganz unten, um diese Änderung zu speichern
+4. Klicke die "Speichern"-Schaltfläche ("Save Changes") ganz unten, um diese Änderung zu speichern
 
 Der im Folgenden verwendete Editor wird die selbe Sprache verwenden, falls verfügbar.
 
@@ -80,9 +80,9 @@ Ein anderer bekannter Editor ist JOSM.
 === Rundgang
 
 Um den iD-Editor kennenzulernen, solltest du zuerst dessen eingebauten "Rundgang" durcharbeiten. 
-Dazu drückst du auf den "Bearbeiten"-Knopf oben links. 
+Dazu drückst du auf die "Bearbeiten"-Schaltfläche oben links.
 Falls dir danach eine Willkommens-Nachricht angezeigt wird, drückst du auf "Rundgang starten". 
-Andernfalls drückst du auf den image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Button", 20, 20]-Knopf (auf der rechten Seite) und startest von dort aus den Rundgang.
+Andernfalls drückst du auf die image:osm_editieren/osm_bearbeiten/help_button.PNG["Help Schaltfläche", 20, 20]-Schaltfläche (auf der rechten Seite) und startest von dort aus den Rundgang.
 
 ifdef::show_solutions[]
 IMPORTANT: Spielen Sie den Rundgang einmal durch, bevor Sie OpenSchoolMaps Ihren Schülern vorstellen.
@@ -130,7 +130,7 @@ image::osm_editieren/osm_bearbeiten/eigenschaften_zugeklappt.PNG["Eigenschaften 
 image::osm_editieren/osm_bearbeiten/eigenschaften_aufgeklappt.PNG["Eigenschaften aufgeklappt"]
 
 Falls dir selbst nichts aufgefallen ist, was geändert oder ergänzt werden müsste, klicke auf das "OpenStreetMap"-Logo oben links, um den iD-Editor zu verlassen und zur Karte zurückzukehren. 
-Klicke dann auf den "Ebenen"-Knopf (der mit den gestapelten Flächen image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an. 
+Klicke dann auf die "Ebenen"-Schaltfläche (der mit den gestapelten Flächen image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 25, 25] als Icon) und wähle die Checkbox "Hinweise/Fehlermeldungen" an.
 Schau, ob du Notizen anderer Kartenbenutzer siehst, die auf Fehler oder Hinweise hinweisen, die du durch Änderungen beheben kannst. 
 Wenn du etwas gefunden hast, klicke wieder auf "Bearbeiten".
 

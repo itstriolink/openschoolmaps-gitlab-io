@@ -20,7 +20,7 @@ So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halte
 === Objekte abfragen
 
 Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. 
-Klicke dazu den image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-Knopf auf der rechten Seite auf openstreetmap.org.
+Klicke dazu die image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Schaltfläche", 20, 20]-Schaltfläche auf der rechten Seite auf openstreetmap.org.
 
 Dadurch ändert sich dein Mauszeiger. 
 Klicke nun an die ungefähre Stelle auf der Karte, wo das fragliche Objekt liegt. 
@@ -52,7 +52,7 @@ Oder ist dir auf der Karte sogar etwas aufgefallen was falsch oder veraltet ist?
 === Notiz erstellen
 
 Um die OpenStreetMap-Community auf so etwas hinzuweisen, kannst du eine Notiz erstellen. 
-Klicke dazu auf den image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-Knopf rechts.
+Klicke dazu auf die image:osm-org_als_kartenviewer/note_button.PNG["Notiz Schaltfläche", 20, 20]-Schaltfläche rechts.
 
 Auf der Karte erscheint eine Positions-Nadel image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. 
 Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. 
