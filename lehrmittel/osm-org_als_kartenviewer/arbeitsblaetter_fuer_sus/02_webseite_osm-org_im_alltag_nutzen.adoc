@@ -11,22 +11,22 @@ NOTE: Mit diesem Arbeitsblatt lernst du wie man den Kartenstil auf openstreetmap
 
 == Kartenstile
 
-Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap nicht nur eine Karte. 
-Es ist eine detaillierte geographische Datensammlung, aus der Computer Karten erzeugen können. 
+Trotz des Namens und der prominenten Ansicht auf openstreetmap.org ist OpenStreetMap nicht nur eine Karte.
+Es ist eine detaillierte geographische Datensammlung, aus der Computer Karten erzeugen können.
 Und die Daten können nicht nur Karten sondern auch -- basierend auf den gleichen Daten -- verschiedene Karten für verschiedene Zwecke erzeugen.
 
-Die OSM.org-Website bietet bereits einige Karten zur Auswahl an. 
-Was du als Erstes siehst, ist der OpenStreetMap-Standard-Kartenstil. 
+Die OSM.org-Website bietet bereits einige Karten zur Auswahl an.
+Was du als Erstes siehst, ist der OpenStreetMap-Standard-Kartenstil.
 Wenn du auf das kleine Stapel-Symbol image:osm_editieren/osm_bearbeiten/osm_ebene_icon.PNG["Flächen-Icon", 20, 20] über dem image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf auf der rechten Seite klickst, kannst du zwischen diesen verschiedenen Kartendarstellungen wechseln.
 
 == Navigation (Routen-Planung)
 
-Mit der OpenStreetMap-Geodaten-Sammlung können Computer mehr machen, als "nur" Karten zu zeichnen! 
+Mit der OpenStreetMap-Geodaten-Sammlung können Computer mehr machen, als "nur" Karten zu zeichnen!
 Die Such-Funktion, die wir bereits angesehen haben, verwendet dieselben Daten und mischt zur Vervollständigung noch zusätzliche freie Daten, z.B. aus WikiData (einem Schwester-Projekt von Wikipedia) hinzu.
 
 Auch Wege von A nach B zu finden, ist mit den OpenStreetMap-Daten möglich. Das geht so:
 
-Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld. 
+Klicke auf den image:osm-org_als_kartenviewer/navigation_button.PNG["Navigation Button", 25, 25]-Knopf neben dem Suchfeld.
 Nun kannst du entweder per Text-Eingabe (z.B. Adresse) nach Start- und Zielort suchen, oder die rote und grüne Stecknadel aus dem Suchformular auf die entsprechende Stelle der Karte ziehen.
 
 Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehrsmittel/die Bewegungsart (per Auto, per Velo oder zu Fuss) und das Weg-Such-Programm (in der Fachsprache: den Routing-Algorithmus) wählen.
@@ -34,7 +34,7 @@ Mit dem Dropdown-Feld unterhalb der Start- und Ziel-Angabe kannst du das Verkehr
 .Zwischenstationen
 [NOTE]
 ====
-Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich. 
+Die Angabe von Zwischenstopps oder "Via"s ist auf openstreetmap.org leider nicht möglich.
 Unter http://routing.osm.ch gibt es eine weitere OpenStreetMap-basierte Routen-Planungs-Möglichkeit, die jedoch nur für Strecken innerhalb der Schweiz funktioniert.
 ====
 
@@ -59,11 +59,11 @@ Stimmt die vorausgesagte Dauer mit deiner Erfahrung überein?
 
 ====
 ifdef::show_solutions[]
-Falls es exakt die Strecke ist, welche du nimmst, dann sollte die Dauer in etwa stimmen. 
+Falls es exakt die Strecke ist, welche du nimmst, dann sollte die Dauer in etwa stimmen.
 Wenn es kleine Abweichungen gibt, dann spiegelt sich das natürlich auch in der Dauer wieder.
 
-Temporäre (kurzfristige) Gegebenheiten, die die Dauer deines Schulweges beeinflussen, wie beispielsweise 
-Baustellen oder Unfälle, können von OSM natürlich nur schwer berücksichtigt werden, deshalb gäbe es auch 
+Temporäre (kurzfristige) Gegebenheiten, die die Dauer deines Schulweges beeinflussen, wie beispielsweise
+Baustellen oder Unfälle, können von OSM natürlich nur schwer berücksichtigt werden, deshalb gäbe es auch
 hier Abweichungen betreffend der Dauer.
 endif::show_solutions[]
 ifndef::show_solutions[]
@@ -99,10 +99,10 @@ Wird für jedes Verkehrsmittel dieselbe Strecke vorgeschlagen?
 
 ====
 ifdef::show_solutions[]
-Nein, denn nicht jedes Verkehrsmittel ist für jede Strecke geeignet/zugelassen. 
-Es gibt Autobahnen, die nur für gewisse Motorfahrzeuge sind, Velorouten für Fahrräder und 
-Fahrrad-ähnliche Fahrzeuge und reine Fussgängerwege, die keine Fahrzeuge zulassen. Daneben 
-gibt es noch den ÖV. Züge und Trams fahren definierte Routen entlang einer Schiene ab und Busse 
+Nein, denn nicht jedes Verkehrsmittel ist für jede Strecke geeignet/zugelassen.
+Es gibt Autobahnen, die nur für gewisse Motorfahrzeuge sind, Velorouten für Fahrräder und
+Fahrrad-ähnliche Fahrzeuge und reine Fussgängerwege, die keine Fahrzeuge zulassen. Daneben
+gibt es noch den ÖV. Züge und Trams fahren definierte Routen entlang einer Schiene ab und Busse
 haben auch feste Routen entlang diverser Bushaltestellen.
 endif::show_solutions[]
 ifndef::show_solutions[]

@@ -9,12 +9,12 @@ include::../../../snippets/suppress_title_page.adoc[]
 == Übersicht
 
 .Ziel
-Nach Bearbeiten der zugehörigen Arbeitsblattes sind Sie bzw. die SuS in der 
-Lage, einige Grundlagen von GIS zu verstehen und die Grundfunktionen von QGIS 
+Nach Bearbeiten der zugehörigen Arbeitsblattes sind Sie bzw. die SuS in der
+Lage, einige Grundlagen von GIS zu verstehen und die Grundfunktionen von QGIS
 3 zu verwenden.
 
 .Zielgruppen
-* SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr) begleitet von einer 
+* SuS im Lehrplan-21-Zyklus 2 oder 3 (4. bis 9. Schuljahr) begleitet von einer
 Lehrperson
 * Interessierte im Selbststudium
 
@@ -22,16 +22,16 @@ Lehrperson
 * Für jedes Kapitel sollte ca. 1 Stunde eingerechnet werden.
 
 == Vorbereitung
-Sie / die SuS sollten das Programm QGIS Version 3 auf einem Rechner 
-installiert oder Zugang dazu haben. Bei Problemen wähle man QGIS Version 3.4.5 
+Sie / die SuS sollten das Programm QGIS Version 3 auf einem Rechner
+installiert oder Zugang dazu haben. Bei Problemen wähle man QGIS Version 3.4.5
 LTR (64 bit).
 
-Die SuS benötigen für das Bearbeiten der Arbeitsblätter einen *Webbrowser* mit 
+Die SuS benötigen für das Bearbeiten der Arbeitsblätter einen *Webbrowser* mit
 *Internet-Zugang*.
 
 == Kapiteltest-Fragen
 
-Es gibt zurzeit 5 Kapitel bzw. 5 Arbeitsblätter. Siehe Kapitel „Kapiteltest“ 
+Es gibt zurzeit 5 Kapitel bzw. 5 Arbeitsblätter. Siehe Kapitel „Kapiteltest“
 am Ende der entsprechenden Kapitel bzw. Arbeitsblätter
 
 Kapitel 1 Was ist ein Geoinformationssystem?
@@ -65,7 +65,7 @@ Kapitel 5 Präsentation von Geodaten
 * Frage 2 Karte beurteilen
 
 Noch Fragen?
-Wenden Sie sich an QGIS (https://www.qgis.org) oder Stefan Keller 
+Wenden Sie sich an QGIS (https://www.qgis.org) oder Stefan Keller
 (stefan.keller@ost.ch)!
 
 include::../../../snippets/quellenangabe.adoc[]

@@ -138,7 +138,7 @@ Wie Sie eine Datei in uMap importieren, sehen Sie im Kapitel <<Daten als externe
 === Daten immer auf dem aktuellsten Stand halten
 
 NOTE: Für folgenden Abschnitt müssen Sie ihren Browser kurz auf Englisch umkonfigurieren und dann auf https://overpass-turbo.osm.ch/ zugreifen.
-Dies deshalb, weil auf der deutschen Version das _copy_ unter _Export_ -> _Query_ noch nicht existiert und man deswegen keine passende URL bekommt. 
+Dies deshalb, weil auf der deutschen Version das _copy_ unter _Export_ -> _Query_ noch nicht existiert und man deswegen keine passende URL bekommt.
 Für mehr Infos zum Thema besuchen Sie folgende Webseite: https://dinacon.ch/sessions/2018/openstreetmap-die-zuverlaessige-karten-alternative/.
 
 Wenn Sie die Daten auf Ihrer uMap immer aktuell halten möchten, ist das ganze sehr ähnlich.
@@ -149,7 +149,7 @@ Nun gehen Sie unter _Export_ -> _Abfrage_ auf _Kopiere_ neben _als umap ausgelag
 image::umap/online-karte_erstellen/overpass-turbo_export.PNG["Export Abfrage", 290, 395]
 
 Ihnen wird eine URL in die Zwischenablage gespeichert.
-Das Dialogfenster, welches sich nun öffnet, beinhaltet 
+Das Dialogfenster, welches sich nun öffnet, beinhaltet
 wahrscheinlich "/missing translation/" als Meldung.
 Dies ist nicht weiter schlimm,
 denn die URL wurde in die Zwischenablage kopiert.

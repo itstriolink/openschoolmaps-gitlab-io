@@ -12,14 +12,14 @@ Das Ziel dieser Einführung ist es, Interessierte und Schülerinnen und Schüler
 
 Zielgruppe
 
-Alle, die daran interessiert sind, ein mächtiges Werkzeug zur Änderung von 
+Alle, die daran interessiert sind, ein mächtiges Werkzeug zur Änderung von
 Daten in OpenStreetMap (OSM) kennen zu lernen.
 
 == Installation
 
 Die Installationsdateien von JOSM findest du https://josm.openstreetmap.de/[hier].
 
-=== Windows 
+=== Windows
 
 Aus Kompatibilitätsgründen wird empfohlen, folgende Version zu installieren:
 
@@ -191,7 +191,7 @@ Vorlagen lassen sich auf Punkte und Flächen anwenden.
 Wenn du etwas Bestimmtes mappen willst, kannst du mit kbd:[F3] die Vorlagenfunktion aufrufen.
 
 Im Suchfeld kannst du nun alle möglichen Objekte suchen, die es in OSM gibt.
-Es ist von grossem Vorteil, wenn du mit den Tags von OSM vertraut bist, damit du 
+Es ist von grossem Vorteil, wenn du mit den Tags von OSM vertraut bist, damit du
 ungefähr weisst, wonach du suchen musst und da die Anzahl Tags ansonsten überwältigend sein kann.
 
 Es lässt sich beinahe alles suchen, das sich mit Tags versehen lässt.
@@ -224,7 +224,7 @@ image::osm_editieren/osm_bearbeiten/josm_einfuehrung/tags_einfuegen.PNG[pdfwidth
 
 === Daten hochladen
 
-Wenn du mit deinem Datensatz fertig bist, musst du diesen auf OSM hochladen. 
+Wenn du mit deinem Datensatz fertig bist, musst du diesen auf OSM hochladen.
 Dabei benutzt du folgendes Symbol:
 image:osm_editieren/osm_bearbeiten/josm_einfuehrung/upload_symbol.PNG[pdfwidth=5%].
 
@@ -265,7 +265,7 @@ Zum Start empfehlen wir dir folgende Erweiterungen, die dich am Anfang am weites
 * **HouseNumberTaggingTool**: Ein Wizard, der dir alle Tags für das korrekte Erstellen von Hausnummern vorschlägt,
     die du nur noch ausfüllen musst.
 * **Imagery_offset_db (vorinstalliert)**: Ein Tool, um Bildversätze zu importieren.
-* **OpeningHoursEditor**: Ein Wizard, der dir hilft die Öffnungszeiten von Geschäften, 
+* **OpeningHoursEditor**: Ein Wizard, der dir hilft die Öffnungszeiten von Geschäften,
     Bars, Restaurants usw. korrekt zu taggen.
 * **Terracer**: Genial, um Reihenhäuser aus einem viereckigen Block zu erstellen
     und gleichzeitig alle neuen Einheiten mit Tags zu versehen.

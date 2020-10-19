@@ -10,7 +10,7 @@ include::../../../snippets/suppress_title_page.adoc[]
 ====
 Dieses Arbeitsblatt zeigt dir, wie du auf OSM.org einen Blick in die Daten werfen kannst, die der Karte zu Grunde liegen.
 
-Ausserdem lernst du, wie du die OpenStreetMap-Community auf Fehler in der Karte hinweisen kannst. 
+Ausserdem lernst du, wie du die OpenStreetMap-Community auf Fehler in der Karte hinweisen kannst.
 So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halten.
 ====
 
@@ -19,55 +19,55 @@ So kannst du mithelfen, OpenStreetMap laufend zu verbessern und aktuell zu halte
 
 === Objekte abfragen
 
-Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden. 
+Wenn du wissen willst, welche Daten hinter einem Objekt auf der Karte stecken, kannst du die Objekt-Abfrage verwenden.
 Klicke dazu den image:osm-org_als_kartenviewer/object_query_button.PNG["Objektabfrage Button", 20, 20]-Knopf auf der rechten Seite auf openstreetmap.org.
 
-Dadurch ändert sich dein Mauszeiger. 
-Klicke nun an die ungefähre Stelle auf der Karte, wo das fragliche Objekt liegt. 
-Links erscheint dann eine Liste der dort gefundenen geografischen Objekte. 
-(Es können auch welche dabei sein, die nicht auf der Karte zu sehen sind. 
+Dadurch ändert sich dein Mauszeiger.
+Klicke nun an die ungefähre Stelle auf der Karte, wo das fragliche Objekt liegt.
+Links erscheint dann eine Liste der dort gefundenen geografischen Objekte.
+(Es können auch welche dabei sein, die nicht auf der Karte zu sehen sind.
 Nicht alle in der OpenStreetMap-Datensammlung enthaltenen Daten werden in jedem Kartenstil angezeigt, manche sogar in gar keinem).
 
 Klick den entsprechenden Link an, und du siehst die Eigenschaften ("Attribute") des Objekts sowie den Kommentar zur letzten Änderung, die daran gemacht wurde und weitere Informationen.
 
 === (Alle) Kartendaten anzeigen
 
-Gerade bei Objekten, die auf der Karte gar nicht angezeigt werden, kann es schwierig sein, sie auf diese Weise zu finden und zu untersuchen. 
+Gerade bei Objekten, die auf der Karte gar nicht angezeigt werden, kann es schwierig sein, sie auf diese Weise zu finden und zu untersuchen.
 In der Seitenleiste mit den Kartenebenen können die örtlichen OpenStreetMap-Daten mit der Checkbox "Kartendaten" eingeblendet werden.
 
 Aber Vorsicht: Vor dem Setzen des Häkchens sollte man *so weit wie möglich hereingezoomt haben*, denn je mehr Daten gleichzeitig angezeigt werden müssen, um so träger und schwerer zu bedienen wird der Webbrowser.
 
-Die Daten-Objekte werden als blaue Kreise (für Punkt-Objekte) und Linien (für Linien-Objekte und Grenzen von Flächen-Objekten) über die Karte gelegt. 
+Die Daten-Objekte werden als blaue Kreise (für Punkt-Objekte) und Linien (für Linien-Objekte und Grenzen von Flächen-Objekten) über die Karte gelegt.
 Diese können (auch ohne den oben beschriebenen Objekt-Abfrage-Modus) angeklickt werden, um wiederum zur Detail-Ansicht des jeweiligen Objekts zu gelangen.
 
 == OpenStreetMap verbessern helfen
 
-Wie von der Willkommensnachricht verkündet, werden die OpenStreetMap-Daten von Menschen wie dir zusammengetragen. 
+Wie von der Willkommensnachricht verkündet, werden die OpenStreetMap-Daten von Menschen wie dir zusammengetragen.
 Auch ohne Einarbeitung kannst du zur Verbesserung von OpenStreetMap beitragen, indem du die OpenStreetMap-Community auf Fehler und Auslassungen hinweist.
 
-Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schulgebäude? 
-Oder gibt es in der Umgebung der Schule ein Bänkli, einen Brunnen oder einen Abfallkübel, der noch nicht eingetragen ist? 
+Fehlt in OpenStreetMap die Adresse deines Schulhauses? Fehlt gar das ganze Schulgebäude?
+Oder gibt es in der Umgebung der Schule ein Bänkli, einen Brunnen oder einen Abfallkübel, der noch nicht eingetragen ist?
 Oder ist dir auf der Karte sogar etwas aufgefallen was falsch oder veraltet ist?
 
 === Notiz erstellen
 
-Um die OpenStreetMap-Community auf so etwas hinzuweisen, kannst du eine Notiz erstellen. 
+Um die OpenStreetMap-Community auf so etwas hinzuweisen, kannst du eine Notiz erstellen.
 Klicke dazu auf den image:osm-org_als_kartenviewer/note_button.PNG["Notiz Button", 20, 20]-Knopf rechts.
 
-Auf der Karte erscheint eine Positions-Nadel image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25]. 
-Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt. 
+Auf der Karte erscheint eine Positions-Nadel image:osm-org_als_kartenviewer/needle_symbol.PNG["Positions-Nadel", 25, 25].
+Verschiebe sie so, dass die Nadelspitze unten möglichst genau auf die betroffene Kartenstelle zeigt.
 Beschreibe im Text-Feld möglichst genau, was geändert oder hinzugefügt werden soll oder was zurzeit falsch ist.
 
 [NOTE]
 ====
-Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten. 
-Man kann sie sich wie einen leicht wieder entfernbaren Klebezettel (auch bekannt als "Post-It") vorstellen, auf den man etwas schreibt, und den man auf die Karte klebt. 
+Eine OpenStreetMap-Notiz verändert weder die Karten-Daten noch die Karten.
+Man kann sie sich wie einen leicht wieder entfernbaren Klebezettel (auch bekannt als "Post-It") vorstellen, auf den man etwas schreibt, und den man auf die Karte klebt.
 Notizen werden an erfahrene Mapper geschickt, welche die Notiz bearbeiten, wenn sie es für notwendig erachten.
 Du brauchst also keine Angst haben, dabei Fehler zu machen!
 
-Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde. 
+Das heisst aber auch, dass mit einer Notiz OpenStreetMap noch nicht verbessert wurde.
 Wer also selbst etwas bewirken will, dem raten wir, die Änderungen gleich selbst durchzuführen (unter anderem, weil das Spass macht).
-Eine Einstiegshilfe dazu gibt es auf OpenSchoolMaps mit dem Arbeitsblatt "OpenStreetMap bearbeiten". 
+Eine Einstiegshilfe dazu gibt es auf OpenSchoolMaps mit dem Arbeitsblatt "OpenStreetMap bearbeiten".
 ====
 
 include::../../../snippets/quellenangabe.adoc[]

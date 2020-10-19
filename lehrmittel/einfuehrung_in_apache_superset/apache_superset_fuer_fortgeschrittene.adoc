@@ -10,7 +10,7 @@ Ein Informationsblatt für Interessierte.
 
 ## Übersicht
 
-Dieses Informationsblatt bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde. 
+Dieses Informationsblatt bezieht sich auf Release 0.34 von Apache Superset, der im September 2019 freigegeben wurde.
 Es enthält folgende Themen:
 
 * Dokumentation und Feedback
@@ -18,7 +18,7 @@ Es enthält folgende Themen:
 * Einen Chart erstellen
 * Ein Dashboard erstellen, bearbeiten und publizieren
 * Eine Tabelle mit einer anderen verknüpfen und die Datenbanksprache SQL nutzen
-* Datentypen, Datentyp-Rollen und Datentyp-Encodings 
+* Datentypen, Datentyp-Rollen und Datentyp-Encodings
 * Der Visualisierungsprozess und die Superset Map Charts
 * Charts und Dashboards anpassen, u.a. mit Tooltips und Annotations
 
@@ -32,29 +32,29 @@ NOTE: Apache Superset ist auf Daten-Visualisierungen ausgerichtet, die einen erh
 
 ## Dokumentation und Feedback
 
-Eine Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein. 
+Eine Dokumentation für Benutzer von Apache Superset scheint erst am Entstehen zu sein.
 Eine Dokumentation für Softwareentwickler wird ca. Anfang 2020 verfügbar sein.
-Die https://superset.incubator.apache.org/[offizielle Dokumentation] (englisch) enthält u.a. ein kleines FAQ, ist sonst aber noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices). 
+Die https://superset.incubator.apache.org/[offizielle Dokumentation] (englisch) enthält u.a. ein kleines FAQ, ist sonst aber noch dünn und nicht nachgeführt (Charts heissen dort beispielsweise noch Slices).
 
-Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset'). 
+Wer Fragen hat, dem empfehlen wir, diese auf https://stackoverflow.com/questions/tagged/apache-superset[Stackoverflow] zu stellen (immer zusammen mit dem Tag 'apache-superset').
 
-Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]). 
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]).
 
 
 ## Upload von Daten (Tabellen im CSV-Format)
 
-Dieses Kapitel beschreibt, wie man Daten vom eigenen Computer in Apache Superset importiert. 
+Dieses Kapitel beschreibt, wie man Daten vom eigenen Computer in Apache Superset importiert.
 Superset erlaubt das Hochladen von Dateien im Format CSV (Comma Separated Values).
 
-Als Beispiel nehmen wir für den Upload die Daten des "CIA World Factbook". 
+Als Beispiel nehmen wir für den Upload die Daten des "CIA World Factbook".
 Die entsprechenden Daten heissen "Apache Superset-Daten (CSV)" auf https://www.openschoolmaps.ch[OpenSchoolMaps] und können dort unter _Unterrichtsmaterialien_ und "Zusätzliche Materialien" heruntergeladen und ausgepackt werden.
 
 Die CSV-Dateien `cia_world_factbook_2019.csv` und `country_codes.csv` sollten nun auf deinem Computer vorhanden sein.
 Überprüfe zuerst die Kodierung und das Format der Datei: die Codierung muss UTF-8 sein und das Format CSV.
 
-NOTE: MS Excel verwaltet normalerweise Dateien im .xlsx-Format. 
-Diese lassen sich als CSV UTF-8 exportieren. 
-Der von MS Excel bevorzugte Delimiter ist das Semikolon. 
+NOTE: MS Excel verwaltet normalerweise Dateien im .xlsx-Format.
+Diese lassen sich als CSV UTF-8 exportieren.
+Der von MS Excel bevorzugte Delimiter ist das Semikolon.
 
 CSV-Datei hochladen:
 
@@ -73,27 +73,27 @@ CSV-Datei hochladen:
 * "Header Row" wird automatisch auf 0 gesetzt, wenn man das Feld frei lässt.
 Somit ist es nicht sinnvoll, CSV-Dateien ohne Header Rows hochzuladen.
 
-* Bei _Append_ muss man sich bewusst sein, dass eine Row auch angehängt wird, wenn sie schon in der Tabelle vorhanden ist. 
+* Bei _Append_ muss man sich bewusst sein, dass eine Row auch angehängt wird, wenn sie schon in der Tabelle vorhanden ist.
 Somit können Duplikate entstehen, welche die Daten verfälschen.
 ====
 
 Damit bist du mit dem Upload fertig und kannst zum nächsten Kapitel "Einen Chart erstellen" springen.
 
-Es empfiehlt sich jedoch zu überprüfen, ob die richtigen Datentypen für die entsprechenden Attribute ausgewählt wurden. 
+Es empfiehlt sich jedoch zu überprüfen, ob die richtigen Datentypen für die entsprechenden Attribute ausgewählt wurden.
 
 Eine Tabelle mit ihren Attributen und Datentypen überprüfen:
 
 * Menü _Sources > Tables_ auswählen.
 * Die gewünschte Tabelle suchen (z.B. die Tabelle `factbook_data`) und auf "Eintrag bearbeiten" klicken (den mittleren der drei kleinen Buttons). Es erscheint das Formular "Edit Table" mit Tab "Detail".
-* Im Formular "Edit Table" auf Tab "Columns" wechseln. Es erscheint eine Liste der Columns (Attribute) mit ihren Datentypen. 
+* Im Formular "Edit Table" auf Tab "Columns" wechseln. Es erscheint eine Liste der Columns (Attribute) mit ihren Datentypen.
 * Bei den Spaltendefinitionen, deren Typ angepasst werden soll, auf "Eintrag bearbeiten" klicken.
 * Im Feld "Type" den gewünschten Datentyp eingeben, hier: Ganzzahl `INTEGER` statt Fliesskomma `DOUBLE PRECISION`. Datentypen sind in einem eigenen Kapitel weiter unten beschrieben.
-* Auf "Speichern" klicken. 
+* Auf "Speichern" klicken.
 
-NOTE: Die Zuordnung und Konversion von Datentypen benötigt Kenntnisse der zugrundeliegenden Daten und Knowhow. 
+NOTE: Die Zuordnung und Konversion von Datentypen benötigt Kenntnisse der zugrundeliegenden Daten und Knowhow.
 Falls man betreffend den möglichen Datentypen unsicher ist, kann man unten im Kapitel "Datentypen" nachschauen.
 
-Damit ist das Hochladen der Dateien abgeschlossen und man möchte typischerweise die Daten publizieren. 
+Damit ist das Hochladen der Dateien abgeschlossen und man möchte typischerweise die Daten publizieren.
 Dies geschieht mit einem Chart und einem Dashboard.
 
 Das nächste Kapitel erläutert, wie man einen Chart erstellt.
@@ -109,10 +109,10 @@ image::einfuehrung_in_apache_superset_fortsetzung/csv_to_db_configuration.PNG[pd
 Ein neuer Chart wird wie folgt aus einer Tabelle erstellt:
 
 * Menü _Sources > Tables_ auswählen.
-* Die gewünschte Tabelle suchen (z.B. die zuvor hochgeladene Tabelle `factbook_data`) und auf den Namen klicken. 
+* Die gewünschte Tabelle suchen (z.B. die zuvor hochgeladene Tabelle `factbook_data`) und auf den Namen klicken.
 * Es erscheint ein Chart-Fenster mit Namen "- untitled" und dem "Visualization Type" (Chart) "Table" (der Default Chart-Typ).
 * Kontrollieren, ob es rechts auf der Zeile "COUNT(*)" eine Zahl hat. Bei Tabelle `factbook_data` ist es 261.
-* Dem Chart durch Klick auf "- untitled" einen Namen geben, z.B. "CIA World Factbook Table". 
+* Dem Chart durch Klick auf "- untitled" einen Namen geben, z.B. "CIA World Factbook Table".
 * Links oben auf _Save_ klicken. Es erscheint ein Dialog "Save A Chart".
 * Beim Dialog "Save A Chart" einen Namen geben, hier z.B. nochmals "CIA World Factbook Table".
 * Auf "OK" klicken.
@@ -131,11 +131,11 @@ Dieses Kapitel zeigt, wie man ein Dashboard aus einem Chart erstellen, bearbeite
 
 ### Ein Dashboard erstellen
 
-Hat man einen Chart erstellt -- beispielsweise den Chart "CIA World Factbook Table" im Kapitel "Upload von Daten" (siehe auch das Arbeitsblatt "Einführung in Apache Superset") -- so will man typischerweise den Chart zu einem Dashboard hinzufügen und publizieren. 
+Hat man einen Chart erstellt -- beispielsweise den Chart "CIA World Factbook Table" im Kapitel "Upload von Daten" (siehe auch das Arbeitsblatt "Einführung in Apache Superset") -- so will man typischerweise den Chart zu einem Dashboard hinzufügen und publizieren.
 
 Neues Dashboard erstellen:
 
-* Ein neues Dashboard kann entweder im Menü _Dashboards_ über den Button "+" rechts erstellt werden oder aber direkt rechts oben mit dem Button "+ New" _> Dashboard_. Es öffnet sich das Formular "Add Dashboard". 
+* Ein neues Dashboard kann entweder im Menü _Dashboards_ über den Button "+" rechts erstellt werden oder aber direkt rechts oben mit dem Button "+ New" _> Dashboard_. Es öffnet sich das Formular "Add Dashboard".
 * Im Formular "Add Dashboard" einen Titel angeben, z.B. "CIA World Factbook Test".
 * Unten im Formular gibt es ein Häkchen für "Published". Wir gehen später darauf ein.
 * Mit Klick auf den Button "Speichern" das Dashboard speichern.
@@ -151,13 +151,13 @@ Dieses Kapitel zeigt, wie man ein neu erstelltes Dashboard bearbeitet (Layout, d
 Dashboard bearbeiten:
 
 * Auf Menü _Dashboards_ klicken. Eine Liste mit Dashboards erscheint.
-* In der Liste auf das gewünschte Dashboard klicken, z.B. "CIA World Factbook Test". Das Dashboard öffnet sich im "View-Mode". 
+* In der Liste auf das gewünschte Dashboard klicken, z.B. "CIA World Factbook Test". Das Dashboard öffnet sich im "View-Mode".
 * Im Dashboard-Fenster rechts oben auf den Button "Edit dashboard" klicken. Das Dashboard ist nun im "Edit Mode" und es erscheint unter anderem der Dialog "Insert components" rechts.
-* Das Dashboard kann nun ge-layoutet werden. Änderungen werden direkt gespeichert. 
+* Das Dashboard kann nun ge-layoutet werden. Änderungen werden direkt gespeichert.
 * Über den Button "Switch to view mode" rechts oben kann man wieder in die normale Dashboard-Ansicht ("View Mode") zurück wechseln.
 
 
-NOTE: Das Layout, d.h. die Positionierung der Charts erfordert einige Übung. 
+NOTE: Das Layout, d.h. die Positionierung der Charts erfordert einige Übung.
 In den Kapiteln weiter unten gibt es einige Hinweise, wie man Charts und Dashboards speziell anpasst.
 Und im Arbeitsblatt "Einführung in Apache Superset" wird ein Filter als "besonderer Chart" vorgestellt, mit dem die Benutzer dann Daten filtern und die Charts  interaktiv beeinflussen können.
 
@@ -172,13 +172,13 @@ Dashboard publizieren:
 * In der Liste der Dashboards bei demjenigen, das veröffentlicht werden soll auf "Eintrag bearbeiten" klicken. Das Formular "Edit Dashboard" erscheint.
 * Im Feld "Owners" die Benutzer (Benutzer-Rolle) eintragen.
 * Zuunterst im Formular das Häkchen bei "Published" setzen.
-* Mit Klick auf den Button "Speichern" das Dashboard speichern. 
+* Mit Klick auf den Button "Speichern" das Dashboard speichern.
 
 Nun ist dein Dashboard publiziert und kann anderen Benutzer*innen zur Verfügung gestellt werden!
 
-NOTE: Falls der/die Benutzer*in zwar das publizierte Dashboard sehen und aufmachen kann, aber keine Daten in den Charts sieht, sollte man die Benutzer-Rolle kontrollieren. 
-Sie muss so konfiguriert sein, dass sie die zugrundeliegende Datenbank lesen darf (permission "datasource access on ..." oder "all_datasource_access"). 
-Dies sollte vom Superset-Administrator bereits eingerichtet sein. 
+NOTE: Falls der/die Benutzer*in zwar das publizierte Dashboard sehen und aufmachen kann, aber keine Daten in den Charts sieht, sollte man die Benutzer-Rolle kontrollieren.
+Sie muss so konfiguriert sein, dass sie die zugrundeliegende Datenbank lesen darf (permission "datasource access on ..." oder "all_datasource_access").
+Dies sollte vom Superset-Administrator bereits eingerichtet sein.
 
 .Ein Dashboard bearbeiten: Ein Dashboard im View-Mode.
 image::einfuehrung_in_apache_superset_fortsetzung/dashboard.PNG[pdfwidth=75%]
@@ -188,22 +188,22 @@ image::einfuehrung_in_apache_superset_fortsetzung/dashboard.PNG[pdfwidth=75%]
 <<<
 ## Eine Tabelle mit einer anderen verknüpfen
 
-Dieses Kapitel zeigt, wie man eine Tabelle mit einer anderen Tabelle verknüpfen kann. 
+Dieses Kapitel zeigt, wie man eine Tabelle mit einer anderen Tabelle verknüpfen kann.
 
-Durch diese Verknüpfung werden der ersten Tabelle weitere Attribute (Felder, Spalten) der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt. 
-Die Verknüpfung geschieht mit der Datenbanksprache SQL über ein bestimmtes Attribut der einen Tabelle (ein Identifikator, ein Primärschlüssel), das mit einem Attribut (einem Fremdschlüssel) einer weiteren Tabelle verbunden wird. 
+Durch diese Verknüpfung werden der ersten Tabelle weitere Attribute (Felder, Spalten) der weiteren Tabelle(n) in horizontaler Richtung hinzugefügt.
+Die Verknüpfung geschieht mit der Datenbanksprache SQL über ein bestimmtes Attribut der einen Tabelle (ein Identifikator, ein Primärschlüssel), das mit einem Attribut (einem Fremdschlüssel) einer weiteren Tabelle verbunden wird.
 Im Hintergrund muss das Datenbanksystem typischerweise ein sogenannter JOIN ausführen.
 
-Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden, hier gegeben die fiktiven Tabellen mytable (als die eigene Tabelle) und othertable (als die andere Tabelle) mit PostgreSQL als das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud): 
+Zwei Tabellen können mit SQL vom Prinzip her wie folgt verknüpft werden, hier gegeben die fiktiven Tabellen mytable (als die eigene Tabelle) und othertable (als die andere Tabelle) mit PostgreSQL als das zugrundeliegende Datenbankmanagement-System wie bei der Apache Superset Cloud):
 
 [source, sql]
 ----
-SELECT * 
-FROM mytable 
-JOIN othertable ON mytable.id = othertable.id; 
+SELECT *
+FROM mytable
+JOIN othertable ON mytable.id = othertable.id;
 ----
 
-NOTE: Beim Verknüpfen von zwei Tabellen müssen die Attribute, die verknüpft werden (d.h. Primär- und Fremdschlüssel), denselben -- oder aber einen kompatiblen -- Datentyp haben. 
+NOTE: Beim Verknüpfen von zwei Tabellen müssen die Attribute, die verknüpft werden (d.h. Primär- und Fremdschlüssel), denselben -- oder aber einen kompatiblen -- Datentyp haben.
 
 Im nachfolgenden Kapitel "Mit Superset eine Tabelle mit einer anderen verknüpfen" gibt es ein konkretes Beispiel dazu.
 
@@ -211,38 +211,38 @@ Wenn die andere Tabelle in einer anderen Database ist, kann diese zurzeit nur du
 
 
 
-### Mit Superset eine Tabelle mit einer anderen verknüpfen 
+### Mit Superset eine Tabelle mit einer anderen verknüpfen
 
-In der Dokumentation wird erwähnt, dass man nur eine einzige Datenquelle (Tabelle) auswählen kann, um einen Chart zu erstellen. 
-Dank der Datenbanksprache SQL gibt es jedoch eine Möglichkeit, zwei oder mehr Tabellen abzufragen. 
-Dazu kann mittels des _SQL Editors_ eine sogenannte "Sicht" (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint. 
+In der Dokumentation wird erwähnt, dass man nur eine einzige Datenquelle (Tabelle) auswählen kann, um einen Chart zu erstellen.
+Dank der Datenbanksprache SQL gibt es jedoch eine Möglichkeit, zwei oder mehr Tabellen abzufragen.
+Dazu kann mittels des _SQL Editors_ eine sogenannte "Sicht" (en: View) erstellt werden, die dann in der Tabellenliste als weitere Tabelle erscheint.
 
-Nachfolgend ein Beispiel: 
-Dafür benötigen wir die Tabellen `factbook_data` und `country_codes`: 
-`factbook_data` enthält für jedes Land Kennzahlen wie Population und Fläche (in km^2^). 
-Die beiden Tabellen musst du zuerst als Dateien `country_codes.csv` und `cia_world_factbook_2019.csv` herunterladen: 
+Nachfolgend ein Beispiel:
+Dafür benötigen wir die Tabellen `factbook_data` und `country_codes`:
+`factbook_data` enthält für jedes Land Kennzahlen wie Population und Fläche (in km^2^).
+Die beiden Tabellen musst du zuerst als Dateien `country_codes.csv` und `cia_world_factbook_2019.csv` herunterladen:
 siehe "Apache Superset-Daten (CSV)"  _OpenSchoolMaps.ch > Unterrichtsmaterialien_ unter "Zusätzliche Materialien".
-Die heruntergeladene Datei ist eine zip-Datei, die du zuerst in ein eigenes Verzeichnis kopierst und dort auspackst ("unzip").  
-Nun sind die zwei Dateien bereit, um auf Superset hochgeladen zu werden. 
+Die heruntergeladene Datei ist eine zip-Datei, die du zuerst in ein eigenes Verzeichnis kopierst und dort auspackst ("unzip").
+Nun sind die zwei Dateien bereit, um auf Superset hochgeladen zu werden.
 Das Hochladen von CSV-Dateien ist im Kapitel "Upload von Daten" beschrieben.
 
-Angenommen wir wollen die Bevölkerungsdichte aller Länder als Karte darstellen. 
+Angenommen wir wollen die Bevölkerungsdichte aller Länder als Karte darstellen.
 Die Bevölkerungsdichte eines Landes ist die Population bezogen auf die Fläche dieses Landes.
 Wir verknüpfen dazu die Tabelle `country_codes` mit der Tabelle `factbook_data`, und zwar über den `country_name`, der bei beiden das Land identifiziert:
 
 * Öffnen des Dialogs _SQL Editor_ über das Menü _SQL Lab_.
 * Eingeben des folgenden SQL-Skripts (dieses sinngemäss anpassen, wobei die SQL-Befehle `BEGIN;` und `COMMIT;` beibehalten werden müssen. Zur besseren Lesbarkeit sind die SQL-Schlüsselworte in Grossbuchstaben):
 
-IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` sind PostgresSQL-spezifisch. 
+IMPORTANT: Die Befehle `BEGIN;` und `COMMIT;` sind PostgresSQL-spezifisch.
 Sie können nur bei Datenbanken verwendet werden, bei denen _Allow DML_ "True" ist.
 
 [source, sql]
 ----
 BEGIN;
 CREATE VIEW country_population_density AS
-    SELECT 
-        cc.*, 
-        fb.population, 
+    SELECT
+        cc.*,
+        fb.population,
         fb.area,
         CASE
             WHEN fb.area = 0
@@ -256,42 +256,42 @@ CREATE VIEW country_population_density AS
 COMMIT;
 ----
 
-NOTE: Das Attribut `country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 Codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte). 
-Diese Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können. 
+NOTE: Das Attribut `country_codes` beinhaltet die Namen der Länder und deren ISO 3166-1 alpha-3 Codes, `factbook_data` die Namen und sonstige länderspezifische Daten (Zahlenwerte).
+Diese Tabellen werden verknüpft damit jene Zahlen auf der _World Map_ visualisiert werden können.
 In diesem Beispiel sind es die Bevölkerungszahl, die Fläche und die Bevölkerungsdichte.
 
 * Im _SQL Editor_ den Button _Run Query_ ausführen.
 * Wechseln zur Tabellenliste mit dem Menü _Source > Tables_.
-* Dort in der Tabellenliste einen neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition". 
+* Dort in der Tabellenliste einen neuen Eintrag hinzufügen mittels Klick auf "+" rechts oben. Es erscheint ein Dialog "Import a table definition".
 * Im Dialog "Import a table definition" als "Table Name" den Namen der soeben erstellen View ergänzen.
 
 Nun lässt sich die View wie eine Tabelle verwenden (siehe Menü _Source > Tables_), typischerweise zur Erstellung eines Charts.
 
 [NOTE]
 ====
-Falls bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben: 
+Falls bei _Run Query_ -- also der Ausführung des SQL-Skripts -- ein Fehler ausgegeben wird, kann dies mehrere Ursachen haben:
 
 1. Du hast das SQL-Skript syntaktisch falsch geschrieben, oder du hast die falsche Database gewählt (Lösung: SQL und/oder Database anpassen).
- 
+
 2. Die Database erlaubt die Ausführung von SQL nicht (Lösung: Über Menu _Sources_ und _Databases_ bei der entsprechenden Database "Allow DML" ankreuzen (lassen)).
 ====
 
-Die Bevölkerungsdichte ist wie gesagt das Verhältnis zwischen Population und Fläche, also ein Attributs-Merkmal 'Ratio' (Verhältniszahl) pro Geometrie-Datentyp 'Area'. 
-Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte. In Superset sind das die _World Map_ und die _Country Map_. 
+Die Bevölkerungsdichte ist wie gesagt das Verhältnis zwischen Population und Fläche, also ein Attributs-Merkmal 'Ratio' (Verhältniszahl) pro Geometrie-Datentyp 'Area'.
+Gemäss Kapitel "Zuordnung von Geodaten zu Kartentypen" eignet sich dafür die Choroplethenkarte. In Superset sind das die _World Map_ und die _Country Map_.
 
-NOTE: Verknüpfungen, die wie oben erläutert, mittels einer normalen View erstellt werden, können die Dauer, bis ein Chart angezeigt wird, erheblich erhöhen. 
+NOTE: Verknüpfungen, die wie oben erläutert, mittels einer normalen View erstellt werden, können die Dauer, bis ein Chart angezeigt wird, erheblich erhöhen.
 Mit geeigneten SQL-Skripts kann die Anfrage beschleunigt werden, wofür jedoch weitere SQL- und PostgreSQL-Kenntnisse nötig sind.
 
 
 
-### Mit Superset die Datenbanksprache SQL nutzen 
+### Mit Superset die Datenbanksprache SQL nutzen
 
-Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL. 
+Der im vorhergehenden Kapitel gezeigte Arbeitsablauf, bei dem es um die Verknüpfung von Tabellen ging, eröffnet die umfangreichen Möglichkeiten der Datenbanksprache SQL.
 Der Arbeitsablauf kann nämlich auch nur auf eine Tabelle verwendet werden, beispielsweise, um Daten vorzuverarbeiten.
 
-NOTE: Wer SQL näher kennen lernen will, für den gibt es eine Fülle von Quellen. 
+NOTE: Wer SQL näher kennen lernen will, für den gibt es eine Fülle von Quellen.
 Eine unterhaltsame Einführung für Einsteiger ist https://sql-island.informatik.uni-kl.de/[SQL Island].
-Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps. 
+Gerne nehmen wir Feedback entgegen (vgl. https://www.openschoolmaps.ch[OpenSchoolMaps > Kontakt]) und geben weitere Tipps.
 
 Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und die Produktion von Elektrizität eines Landes vergleicht und Durchschnittswerte berechnet:
 
@@ -300,8 +300,8 @@ Hier ein Beispiel-Skript mit einer SQL-Window-Funktion, welches den Gebrauch und
 BEGIN;
 CREATE VIEW electricity_usage AS
     WITH temporary AS (
-        SELECT 
-            country_name, 
+        SELECT
+            country_name,
             electricity_production, electricity_consumption,
             CASE
                 WHEN electricity_production = 0
@@ -310,8 +310,8 @@ CREATE VIEW electricity_usage AS
             END AS percentage
         FROM factbook_data
     )
-    SELECT 
-        *, 
+    SELECT
+        *,
         AVG(electricity_production) OVER () AS avg_production,
         AVG(electricity_consumption) OVER () AS avg_consumption
     FROM temporary
@@ -325,15 +325,15 @@ COMMIT;
 <<<
 ## Datentypen
 
-Ein Datentyp bestimmt den erlaubten Wertebereich eines Attributs. 
-Beispiele von Datentypen sind Text oder Ganzzahl. 
+Ein Datentyp bestimmt den erlaubten Wertebereich eines Attributs.
+Beispiele von Datentypen sind Text oder Ganzzahl.
 
 Superset kennt folgende *Basis-Datentypen*:
 
 [horizontal]
 Zeichenkette (en: Text):: In Superset mit dem Icon "ABC" dargestellt. Das können z.B. die Typen `TEXT` oder `VARCHAR(255)` sein, wobei der Wert in Klammern die maximale Länge der Zeichenkette bestimmt.
 
-Datum & Zeit (en: Timestamp):: In Superset mit dem Icon "Uhr" dargestellt. Das ist ein "temporaler" d.h. ein zeitlicher Typ mit Datum- und Zeit. Ein zeitlicher Datentyp kann mit oder ohne Zeitzone abgespeichert sein. Diese Datentypen heissen technisch `TIMESTAMP WITH TIMEZONE` und `TIMESTAMP WITHOUT TIMEZONE`. Ein genormte Darstellung eines `TIMESTAMP WITH TIMEZONE` in MEZ sieht z.B. so aus "2019-11-10 12:21:03.000000+01". 
+Datum & Zeit (en: Timestamp):: In Superset mit dem Icon "Uhr" dargestellt. Das ist ein "temporaler" d.h. ein zeitlicher Typ mit Datum- und Zeit. Ein zeitlicher Datentyp kann mit oder ohne Zeitzone abgespeichert sein. Diese Datentypen heissen technisch `TIMESTAMP WITH TIMEZONE` und `TIMESTAMP WITHOUT TIMEZONE`. Ein genormte Darstellung eines `TIMESTAMP WITH TIMEZONE` in MEZ sieht z.B. so aus "2019-11-10 12:21:03.000000+01".
 
 Zahl (en: Number):: In Superset mit dem Icon "#" dargestellt. Das sind in Apache Superset Ganzzahlen. Technisch heissen diese `INTEGER` und `SMALLINT`.
 
@@ -342,22 +342,22 @@ Fliesskommazahl (en: Real) und Festkommazahl (en: Numeric):: Keine Icons in Supe
 Metrik (en: Metrics):: In Superset als "f" dargestellt. Aggregations-Typ, z.B. `COUNT(*)`. Superset fügt bei Tabellen immer dieses abgeleitete Attribut hinzu.
 
 
-Zeitliche Daten sind wichtig in jeder Datenanalyse. 
-Sie werden u.a. zum Filtern der Daten verwendet. 
+Zeitliche Daten sind wichtig in jeder Datenanalyse.
+Sie werden u.a. zum Filtern der Daten verwendet.
 Die Tatsache, dass ein Attribut vom Typ Timestamp ist, wird durch dessen Attributtyp direkt in der Datenbank-Tabelle bestimmt, zusätzlich zu der Kennzeichnung als temporaler Typ, die in Superset noch manuell gesetzt werden muss. (Bei bei der Tabellenansicht, Checkbox _is temporal_ unter _Columns_).
 
-Es existieren mehr Basis-Datentypen (beispielsweise `CHAR(3)` und `BOOLEAN`) als diejenigen in Apache Superset, die oben erwähnt wurden. 
+Es existieren mehr Basis-Datentypen (beispielsweise `CHAR(3)` und `BOOLEAN`) als diejenigen in Apache Superset, die oben erwähnt wurden.
 
-NOTE: Die Schweiz liegt in der Zeitzone "Mitteleuropäische Zeit" (MEZ; englisch Central European Time, CET). 
-Diese bezieht sich auf den 15. Längengrad Ost. 
-Die Differenz der MEZ zur Weltzeit (Coordinated Universal Time, UTC) beträgt eine Stunde, was mit +1 zum Ausdruck kommt. 
+NOTE: Die Schweiz liegt in der Zeitzone "Mitteleuropäische Zeit" (MEZ; englisch Central European Time, CET).
+Diese bezieht sich auf den 15. Längengrad Ost.
+Die Differenz der MEZ zur Weltzeit (Coordinated Universal Time, UTC) beträgt eine Stunde, was mit +1 zum Ausdruck kommt.
 Während des Sommerhalbjahrs in Europa/Schweiz beträgt die Differenz zur UTC effektiv +2 Stunden.
 
 
 ### Datentyp-Rollen und raumbezogene Datentypen
 
-Die oben erwähnten Basis-Datentypen genügen alleine nicht den vielfältigen Anforderungen von Daten. 
-Wie die zeitlichen (en: temporal) sind auch die raumbezogenen (en: spatial) Daten interessant für die Analyse und Visualisierung. 
+Die oben erwähnten Basis-Datentypen genügen alleine nicht den vielfältigen Anforderungen von Daten.
+Wie die zeitlichen (en: temporal) sind auch die raumbezogenen (en: spatial) Daten interessant für die Analyse und Visualisierung.
 Raumbezogene/räumliche Datentypen - oft auch Geodaten genannt - haben besondere Eigenschaften.
 Superset verlangt darum mit Blick auf bestimmte Charts zusätzlich die Angabe einer *"Datentyp-Rolle"* (en: Data type role) wie beispielsweise "Point" (de: Punkt).
 Für die Datenbank sind diese Daten weiterhin beispielsweise vom Basis-Datentyp Text, doch Superset kann diese dann speziell interpretieren.
@@ -365,22 +365,22 @@ Indem der Benutzer die Datentyp-Rolle angibt, ist es Superset möglich, beispiel
 
 Die Geometrie ist ein bekannter raumbezogener Datentyp.
 Die vier wichtigsten *Geometrie-Datentypen* heissen genormt *Point* (de: Punkt; Synonyme Koordinate, Punktkoordinate, Ort, Lage), *LineString* (de: Linie; Synonyme Line, Polyline, Way) und *Polygon* (de: Fläche; Synonym: Area) sowie "Volumen" (en: Volume).
-Ein Punkt bestimmt die Position/Lage eines Objekts und besteht aus einem Paar von *Koordinaten*.  
-Für die internationale Angabe von Positionen auf der Erde -- beispielsweise mit dem GPS -- werden *Längengrade und Breitengrade* verwendet (en: Longitude/Latitude, abgekürzt: Lon/Lat). 
+Ein Punkt bestimmt die Position/Lage eines Objekts und besteht aus einem Paar von *Koordinaten*.
+Für die internationale Angabe von Positionen auf der Erde -- beispielsweise mit dem GPS -- werden *Längengrade und Breitengrade* verwendet (en: Longitude/Latitude, abgekürzt: Lon/Lat).
 
 Übersicht über raumbezogene Datentyp-Rollen in Apache Superset:
 
 [horizontal]
 Datentyp-Rolle "Point":: Gibt es vor allem als Rolle "Longitude & Latitude columns". Die entsprechenden Datentyp-Encodings sind "Delimited" oder "Geohash" (unten mehr dazu).
 
-Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl float8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point". 
+Datentyp-Rolle "Longitude & Latitude columns":: Zwei untrennbar miteinander verbundene Attribute in der Tabelle, Längengrad und Breitengrad, die vom Datentyp Fliesskomma (z.B. Fliesskommazahl float8) sind. Diese Rolle ist eine Variation der Datentyp-Rolle "Point".
 
 Datentyp-Rolle "LineString":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche die Datentyp-Encodings "JSON" oder "Polyline" (WKT) haben.
 
 Datentyp-Rolle "Polygon":: Attribute vom Basis-Datentyp Text (ABC in Superset), welche das Datentyp-Encoding "JSON" hat. Dazu kommen das Datentyp-Encoding "Polyline" (WKT) sowie "ISO 3166-2 Codes".
 
-NOTE: Längengrade und Breitengrade basieren auf einem weltweit einheitlichen, geodätischen Koordinatensystem, dem "World Geodetic System 1984" (WGS 84). 
-Lat/Lon werden oft als Fliesskommazahlen behandelt. 
+NOTE: Längengrade und Breitengrade basieren auf einem weltweit einheitlichen, geodätischen Koordinatensystem, dem "World Geodetic System 1984" (WGS 84).
+Lat/Lon werden oft als Fliesskommazahlen behandelt.
 Eigentlich genügt für die meisten Anwendungen eine Festkommazahl mit maximal 6 Nachkommastellen, also `NUMERIC(9,6)` (Beispiel von Lat/Lon für das Hauptgebäude der HSR Rapperswil, welches man z.B. auf https://www.osm.org[www.osm.org] prüfen kann: 47.223316, 8.8175570).
 
 Im folgenden Kapitel wird erklärt, was mit dem Datentyp-Encoding gemeint ist.
@@ -389,20 +389,20 @@ Im folgenden Kapitel wird erklärt, was mit dem Datentyp-Encoding gemeint ist.
 
 ### Datentyp-Encodings
 
-Mit der Angabe eines Datentyps und einer "Datentyp-Rolle" ist es noch nicht getan: 
-Es muss zusätzlich noch festgelegt sein, wie der Inhalt eines Datentyps kodiert ist. 
-Man nennt dies Datentyp-Encoding (de: Datentyp-Kodierung). 
+Mit der Angabe eines Datentyps und einer "Datentyp-Rolle" ist es noch nicht getan:
+Es muss zusätzlich noch festgelegt sein, wie der Inhalt eines Datentyps kodiert ist.
+Man nennt dies Datentyp-Encoding (de: Datentyp-Kodierung).
 
-NOTE: Sicherlich vielen bekannt sind Probleme mit Umlauten äöü. 
-Diese Probleme haben mit dem Datentyp-Encoding vom Datentyp Text (Zeichenkette) zu tun. 
+NOTE: Sicherlich vielen bekannt sind Probleme mit Umlauten äöü.
+Diese Probleme haben mit dem Datentyp-Encoding vom Datentyp Text (Zeichenkette) zu tun.
 Es gibt bei Text (Zeichenkette) unter anderem Kodierungen wie UTF-8, ANSI oder ASCII.
 Wir empfehlen in jedem Falle *UTF-8*!
 
-Koordinaten sind nicht die einzige Möglichkeit zur Positionierung und Lagebestimmung von Objekten. 
-Es gibt auch andere Georeferenzierungs-Systeme, wie die sogenannten *ISO 3166-2 Codes* und die *Geohashes*. 
+Koordinaten sind nicht die einzige Möglichkeit zur Positionierung und Lagebestimmung von Objekten.
+Es gibt auch andere Georeferenzierungs-Systeme, wie die sogenannten *ISO 3166-2 Codes* und die *Geohashes*.
 Alle Georeferenzierungs-Systeme - Koordinate, ISO 3166-2 Code und Geohash - haben eigene Kodierungen.
 
-In Superset kommen folgende *Datentyp-Encodings* vor: 
+In Superset kommen folgende *Datentyp-Encodings* vor:
 
 * Bei der Datentyp-Rolle "Point" ist es "Delimited" oder "Geohash".
 * Bei der Datentyp-Rolle "LineString" (Line) sind es "Polyline" oder "JSON".
@@ -416,29 +416,29 @@ Delimited:: Zum Beispiel "47.22311, 8.81636" sind die Koordinaten des Gebäudes 
 
 Geohash:: Geohashing ist ein Georeferenzierungs-System, das einen geografischen Standort in eine kurze Folge von Buchstaben und Ziffern kodiert. Es ist eine hierarchische räumliche Datenstruktur bei der die Erde in Kacheln aufgeteilt wird, die weiter unterteilt werden können. Den Kacheln werden Buchstaben und Ziffern zugeordnet. D.h. je länger ein Geohash-Code ist, desto genauer die Ortsangabe. Geohash-Codes sind auf http://en.wikipedia.org/wiki/Geohash[Wikipedia] frei dokumentiert und haben im Vergleich zu Koordinaten unter anderem die Eigenschaft, dass sie kurze Zeichenketten sind. Geohashes werden unter anderem auch von OpenStreetMap und Geocaching verwendet. Nimmt man z.B. die Koordinaten des Gebäudes 4 der HSR Rapperswil (47.22311, 8.81636) als Beispiel, ergibt sich der Geohash "u0qk8seys1d". Man kann dies mit der http://geohash.org/u0qk8seys1d[Webapp Geohash.org] nachprüfen.
 
-Polyline (WKT):: Damit ist eigentlich ein Encoding gemäss "Well Known Text" (Abk. WKT) gemeint. Ein Beispiel ist "LineString(47.22311 8.81636, 47.22469, 8.8173)" für die Luftlinie zwischen der HSR und dem Bahnhof Rapperswil. Siehe z.B. https://de.wikipedia.org/wiki/Simple_Feature_Access#Well-known_Text[WKT auf Wikipedia]. 
+Polyline (WKT):: Damit ist eigentlich ein Encoding gemäss "Well Known Text" (Abk. WKT) gemeint. Ein Beispiel ist "LineString(47.22311 8.81636, 47.22469, 8.8173)" für die Luftlinie zwischen der HSR und dem Bahnhof Rapperswil. Siehe z.B. https://de.wikipedia.org/wiki/Simple_Feature_Access#Well-known_Text[WKT auf Wikipedia].
 
-JSON:: JSON als Abkürzung von "JavaScript Object Notation" ist ein Datenformat in einer menschenlesbaren Textform zum Zweck des Datenaustauschs zwischen Web-Anwendungen. 
-Hier im Zusammenhang mit Map Charts ist mit JSON eigentlich GeoJSON gemeint. GeoJSON ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren. GeoJSON kann u.a. mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden. 
+JSON:: JSON als Abkürzung von "JavaScript Object Notation" ist ein Datenformat in einer menschenlesbaren Textform zum Zweck des Datenaustauschs zwischen Web-Anwendungen.
+Hier im Zusammenhang mit Map Charts ist mit JSON eigentlich GeoJSON gemeint. GeoJSON ist ein genormtes Datenformat, um geografische Daten nach der Simple-Feature-Access-Spezifikation zu repräsentieren. GeoJSON kann u.a. mit der Website http://geojson.io/[geojson.io] dargestellt und editiert werden.
 Und mit dem Web-Tool http://geojsonlint.com/[geojsonlint.com] können GeoJSON-Daten geprüft werden.
 
-ISO 3166-2-Code:: Map Charts wie _Country Map_ und _World Map_ können u.a. auch ISO 3166-2-Codes von Ländern und Untergliederungen davon (Schweizer Kantone, Französische Departemente, Kanadische Provinzen) verarbeiten. 
-ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166. 
+ISO 3166-2-Code:: Map Charts wie _Country Map_ und _World Map_ können u.a. auch ISO 3166-2-Codes von Ländern und Untergliederungen davon (Schweizer Kantone, Französische Departemente, Kanadische Provinzen) verarbeiten.
+ISO 3166-2 ist Teil der von der Internationalen Organisation für Normung (ISO) veröffentlichten Norm ISO 3166.
 Siehe auch https://superset.incubator.apache.org/visualization.html[Apache Superset-Dokumentation] und https://de.wikipedia.org/wiki/ISO_3166-2:CH[Wikipedia].
 
 
 
 ### Geokodierung
 
-Auch geografische Namen wie "Rapperswil" oder Adressen wie "Oberseestrasse 10, Rapperswil-Jona" bilden eine Art textuelles Georeferenzierungs-System, wenn auch ein mehrdeutiges. 
-Die Interpretation geografischer Namen ist ein aufwändiger Prozess und nennt sich *Geokodierung*. 
+Auch geografische Namen wie "Rapperswil" oder Adressen wie "Oberseestrasse 10, Rapperswil-Jona" bilden eine Art textuelles Georeferenzierungs-System, wenn auch ein mehrdeutiges.
+Die Interpretation geografischer Namen ist ein aufwändiger Prozess und nennt sich *Geokodierung*.
 
-Die Geokodierung ist ein Algorithmus und ein Prozess, der eine Beschreibung einer Position (Lage, Ort) -- beispielsweise ein Geohash, eine Postadresse oder einen Ortsnamen -- in eine Koordinate auf der Erdoberfläche wandelt. 
+Die Geokodierung ist ein Algorithmus und ein Prozess, der eine Beschreibung einer Position (Lage, Ort) -- beispielsweise ein Geohash, eine Postadresse oder einen Ortsnamen -- in eine Koordinate auf der Erdoberfläche wandelt.
 
 Hier als Beispiel einer Geokodierung der Gebäudeadresse "Oberseestrasse 10, Rapperswil-Jona" ein Geokodierungs-Aufruf mit OpenStreetMap:  https://map.search.ch/Rapperswil,Oberseestr.10 .
 
-NOTE: In Apache Superset ist zurzeit - nebst den ISO 3166-2 Codes und den Geohashes - keine Geokodierung von *Gebäude- und Postadressen* eingebaut. 
-Wobei es durch die Verknüpfung mit einer anderen Tabelle immer möglich ist, geografische Namen(-skürzel) mit Codes zu verknüpfen: 
+NOTE: In Apache Superset ist zurzeit - nebst den ISO 3166-2 Codes und den Geohashes - keine Geokodierung von *Gebäude- und Postadressen* eingebaut.
+Wobei es durch die Verknüpfung mit einer anderen Tabelle immer möglich ist, geografische Namen(-skürzel) mit Codes zu verknüpfen:
 Siehe dazu das Beispiel im Kapitel oben "Mit Superset eine Tabelle mit einer anderen verknüpfen".
 
 
@@ -446,18 +446,18 @@ Siehe dazu das Beispiel im Kapitel oben "Mit Superset eine Tabelle mit einer and
 <<<
 ## Der Visualisierungsprozess und die Superset Map Charts
 
-Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut: 
+Visualisieren bedeutet Daten auf grafische Symbole oder Diagramme abzubilden. Auch Apache Superset ist so aufgebaut:
 Der Visualisierungs-Prozess beginnt mit der Wahl der Datenquelle (Tabelle), dann wird ein passender Chart ausgewählt, und schliesslich wird der Chart einem Dashboard zugeordnet.
 
-Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu vereinfachen. 
-Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen. 
-Das ist die Domäne der beschreibenden Statistik und des Data Engineerings. 
+Datentypen helfen, die Entscheidung zur Auswahl eines Charts oder Kartentyps zu vereinfachen.
+Zu Beginn dieses Visualisierungs-Prozesses lohnt es sich, sich mit den Daten vertraut zu machen.
+Das ist die Domäne der beschreibenden Statistik und des Data Engineerings.
 Wer die Merkmale eines Attributs kennt, findet die in Frage kommenden Charts schneller.
 
 .Qualitativ und quantitativ
-Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen. 
-Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text. 
-Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar. 
+Man unterscheide zwischen qualitativen und quantitativen Attribut-Merkmalen.
+Qualitative Merkmale sind solche, die sich nicht durch Zahlen direkt erfassen lassen; deren Datentyp ist meist Text.
+Beispiele dazu sind Vornamen, Firmennamen, etc. Quantitative Merkmale dagegen sind durch Zahlen bestimmbar.
 Diese Merkmale lassen sich durch wiegen, messen, abzählen usw. bestimmen.
 
 .Attributs-Merkmals-Levels
@@ -476,7 +476,7 @@ Ratio:: Ein Zahlenwert mit absolutem Nullpunkt; meist Datentyp Fliess- oder Fest
 
 ### Kartentypen
 
-In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet. 
+In der Geovisualisierung wird der oben beschriebene Visualisierungs-Prozess auf Geodaten und Karten angewendet.
 Dabei werden die Geodaten den Kartensymbolen zugeordnet; dies nennt man Symbolisierung (en: symbolization, styling).
 
 Es gibt theoretisch folgende Kartentypen:
@@ -486,11 +486,11 @@ Es gibt theoretisch folgende Kartentypen:
 * Choroplethenkarten
 * Ortsdiagrammkarten
 
-Die Kartentypen aus der Kartografie helfen, die Superset Map Charts zu gruppieren. 
-Es werden hier nur die bekanntesten Kartentypen vorgestellt. 
+Die Kartentypen aus der Kartografie helfen, die Superset Map Charts zu gruppieren.
+Es werden hier nur die bekanntesten Kartentypen vorgestellt.
 Superset deckt nicht alle Kartentypen ab, stellt aber zurzeit schon zwölf verschiedene Map Chart-Typen zur Verfügung (vgl. auch der Anhang):
 
-*Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte. 
+*Standortkarten* (en: Dot Map) werden symbolisiert mit Punktsignaturen (beispielsweise rote Symbole/Marker) bezogen auf Punkte/Orte.
 Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
@@ -541,11 +541,11 @@ a|image::einfuehrung_in_apache_superset_fortsetzung/icons/icon_polygon.png[100,1
 
 |===
 
-NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land". 
+NOTE: Ein häufiger Fehler in Choroplethenkarten ist, wenn die dargestellten Werte absolut sind, beispielsweise "Summe der Traktoren pro Land".
 Richtig wäre eine relative Angabe wie "Traktoren pro km2", d.h. die absolute Summe durch die Landesfläche geteilt werden.
 
-*Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen. 
-Man beachte den Unterschied von Symbol/Marker zu Diagramm. 
+*Ortsdiagrammkarten* (en. Symbol Map) werden symbolisiert mit lokalen Business-Diagrammen bezogen auf Orte bzw. Flächen.
+Man beachte den Unterschied von Symbol/Marker zu Diagramm.
 Zu diesem Kartentyp gehören folgende Superset Charts:
 
 [horizontal]
@@ -606,7 +606,7 @@ Die Tabelle unten zeigt die Zuordnung von Geometrie-Datentypen auf der horizonta
 
 |===
 
-Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits _Mapbox_ (Kartentyp Dot Map), wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits _Country Map_ (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist. 
+Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits _Mapbox_ (Kartentyp Dot Map), wenn der Geometrie-Datentyp punkthaft (Point) ist, und andererseits _Country Map_ (Choropleth Map), wenn der Geometrie-Datentyp flächenhaft (Area) ist.
 
 
 
@@ -617,8 +617,8 @@ Aus Erfahrung heraus sind die am häufigsten verwendeten Map Charts einerseits _
 
 ### Dashboard-Optionen
 
-Ein Dashboard kann die Darstellungs-Konfiguration (z.B. Chart-Farben) der Charts überschreiben. 
-Dies ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_. 
+Ein Dashboard kann die Darstellungs-Konfiguration (z.B. Chart-Farben) der Charts überschreiben.
+Dies ist möglich, indem man die Metadaten eines Dashboards editiert. Die Einstellungen findet man unter _Dashboard-> Edit record_.
 Hier wirst du ein Textfeld namens "JSON Metadata" finden. Dies könnte z.B. so aussehen (es kann auch sein, dass es leer ist):
 
 [source, json]
@@ -703,7 +703,7 @@ IMPORTANT: Alle Optionen müssen gültiges JSON sein. Der https://jsoneditoronli
 ### Tooltips mit JavaScript anpassen
 
 Jeder Punkt bei z.B. Scatterplot zeigt dessen Längengrad und Breitengrad als Tooltip-Text an. Dieser ist beim Chart unter _Advanced_ im _Javascript tooltip generator_
-anpassbar. 
+anpassbar.
 
 IMPORTANT: Für diese Anpassung muss das Schreiben von JavaScript aktiviert sein (ENABLE-JAVASCRIPT-CONTROL).
 Kontaktiere den Sys-Admin falls nötig.
@@ -719,7 +719,7 @@ function myFunction(punkt) {
 
 Um einen sinnvolleren Tooltip zu erhalten muss man zuerst die Daten auswählen, die man nutzen will. Das geht durch das Hinzufügen von den Spalten unter _Extra data for JS_.
 
-Wenn du dir jetzt für jeden Punkt einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit dem Namen "Name", musst du die Funktion so schreiben: 
+Wenn du dir jetzt für jeden Punkt einen Tooltip anzeigen lassen willst, mit Informationen von einer Spalte mit dem Namen "Name", musst du die Funktion so schreiben:
 
 [source, javascript]
 ----
@@ -728,7 +728,7 @@ function myFunction(punkt) {
 }
 ----
 
-NOTE: Die Funktion muss ein gültiger JavaScript-Code sein. 
+NOTE: Die Funktion muss ein gültiger JavaScript-Code sein.
 JavaScript ist eine Computersprache, die entsprechende Kenntnisse und Tools verlangt.
 
 
@@ -736,11 +736,11 @@ JavaScript ist eine Computersprache, die entsprechende Kenntnisse und Tools verl
 <<<
 ## Charts mit Annotations ergänzen
 
-_Annotations_ sind Text- und Grafik-Notizen, die als Anmerkung über Charts gelegt werden können. 
-Je nach Annotations-Typ ist es entweder eine Linie oder ein gefärbtes Rechteck im Hintergrund. 
+_Annotations_ sind Text- und Grafik-Notizen, die als Anmerkung über Charts gelegt werden können.
+Je nach Annotations-Typ ist es entweder eine Linie oder ein gefärbtes Rechteck im Hintergrund.
 Sie können dazu benutzt werden, allgemeine Informationen (z.B. weltweites Bevölkerungswachstum) darzustellen ohne diese als Daten in einer Tabelle ablegen zu müssen.
 
-_Annotation Layers_ dienen dazu, Annotations zu bündeln. 
+_Annotation Layers_ dienen dazu, Annotations zu bündeln.
 Ein Layer kann mehrere Annotations beinhalten und man bindet in Diagrammen jeweils den Annotation Layer ein, der dann alle Annotations darstellt.
 
 Es gibt vier Annotations-Typen:
@@ -763,7 +763,7 @@ hinzugefügt werden.
 Ereignis- und Intervall-Annotationen können auch mit einer _Table_ erstellt werden. In der Datenbank-Tabelle soll es für die Annotationen
 eine Kolonne für die Beschreibung (Text), eine für das Start-Datum (Date) und evtl. für das End-Datum (Date) vorhanden sein.
 
-IMPORTANT: Die Datenbank-Tabelle kann nicht direkt in den _Annotations and Layers_ referenziert werden. Eine _Table_ mit jener Tabelle, 
+IMPORTANT: Die Datenbank-Tabelle kann nicht direkt in den _Annotations and Layers_ referenziert werden. Eine _Table_ mit jener Tabelle,
 die alle benötigten Kolonnen visualisiert, muss zuerst erstellt werden. Diese _Table_ dient dann als _Annotation Source_ des anderen Diagramms.
 
 Die Daten für Zeit-Annotationen werden von einem beliebigen _Line Chart_ geholt. Dessen "Verlauf" ist in anderen Diagrammen mit einer Zeit-Achse visualisierbar.
@@ -800,7 +800,7 @@ Man kann die Anzeigeeigenschaften festlegen und beliebige mathematische Formel a
 <<<
 == ANHANG: Die elf Map Charts von Apache Superset
 
-Hier siehst du die elf Map Charts von Apache Superset und deren Auswahlmöglichkeiten. 
+Hier siehst du die elf Map Charts von Apache Superset und deren Auswahlmöglichkeiten.
 Mittels einer roten Box ist jeweils markiert, welche Parameter benötigt werden, um die entsprechende Karte zu erstellen.
 
 NOTE: Bei vielen Charts gibt es eine 'time_range'. Sie ist auf 'last week' voreingestellt. Bei den Beispieldaten muss diese meist auf 'no filter' gesetzt werden.
