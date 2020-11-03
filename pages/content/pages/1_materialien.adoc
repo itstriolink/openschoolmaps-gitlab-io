@@ -200,15 +200,15 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 .. Raumanalyse Vektordaten - Autobahn: 
   * Arbeitsblatt: 
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.html[{html-icon}{nnbsp}HTML]
+  {lehrmittel-url}/weitere_qgis-themen/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/weitere_qgis-themen/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn.html[{html-icon}{nnbsp}HTML]
   * Daten: 
   {lehrmittel-url}/zips/Daten_autobahn.zip[{zip-icon}{nnbsp}ZIP]
 
 .. Raumanalyse Rasterdaten - Wo die Gämsen wohnen: 
   * Arbeitsblatt: 
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {lehrmittel-url}/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.html[{html-icon}{nnbsp}HTML]
+  {lehrmittel-url}/weitere_qgis-themen/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.pdf[{pdf-icon}{nnbsp}PDF] | 
+  {lehrmittel-url}/weitere_qgis-themen/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.html[{html-icon}{nnbsp}HTML]
   * Daten: {lehrmittel-url}/zips/Input-Daten_gaemsen.zip[{zip-icon}{nnbsp}ZIP]
 
 //-

@@ -90,9 +90,9 @@ ZIPs:
   - mkdir lehrmittel/zips/
   - zip -r Daten_Leitprogramm_QGIS.zip lehrmittel/einfuehrung_in_qgis/daten_leitprogramm_qgis/
   - mv Daten_Leitprogramm_QGIS.zip lehrmittel/zips/
-  - zip -r Daten_autobahn.zip lehrmittel/geodaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn/
+  - zip -r Daten_autobahn.zip lehrmittel/weitere_qgis-themen/vektordaten-analyse_mit_qgis/vektordaten-analyse_mit_qgis_autobahn/
   - mv Daten_autobahn.zip lehrmittel/zips/
-  - zip -r Input-Daten_gaemsen.zip lehrmittel/geodaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
+  - zip -r Input-Daten_gaemsen.zip lehrmittel/weitere_qgis-themen/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen_daten/
   - mv Input-Daten_gaemsen.zip lehrmittel/zips/
   - zip -r Superset-Datentabellen.zip lehrmittel/einfuehrung_in_apache_superset/files/
   - mv Superset-Datentabellen.zip lehrmittel/zips/
