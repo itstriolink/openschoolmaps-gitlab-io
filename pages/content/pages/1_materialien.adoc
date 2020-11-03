@@ -48,17 +48,17 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 . OpenStreetMap-Daten untersuchen:
   * Arbeitsblatt: 
   {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{pdf-icon}{nnbsp}PDF] | 
-  {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.pdf[{html-icon}{nnbsp}HTML]
+  {osm-viewer-worksheets}/03_openstreetmap-daten_untersuchen.html[{html-icon}{nnbsp}HTML]
 
 //-
 * Zusatzaufgaben:
 ** Arbeitsblatt: 
 {osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{pdf-icon}{nnbsp}PDF] | 
-{osm-viewer-worksheets}/04_zusatzaufgaben.pdf[{html-icon}{nnbsp}HTML]
+{osm-viewer-worksheets}/04_zusatzaufgaben.html[{html-icon}{nnbsp}HTML]
 
 ** Lösungen: 
 {osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{pdf-icon}{nnbsp}PDF] | 
-{osm-viewer-worksheets}/04_zusatzaufgaben_solutions.pdf[{html-icon}{nnbsp}HTML]
+{osm-viewer-worksheets}/04_zusatzaufgaben_solutions.html[{html-icon}{nnbsp}HTML]
 
 //-
 .OpenStreetMap bearbeiten und nutzen:
