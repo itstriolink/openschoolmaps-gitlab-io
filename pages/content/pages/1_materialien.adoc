@@ -217,6 +217,11 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
   {lehrmittel-url}/weitere_qgis-themen/rasterdaten-analyse_mit_qgis/rasterdaten-analyse_mit_qgis_gaemsen.html[{html-icon}{nnbsp}HTML]
   * Daten: {lehrmittel-url}/zips/Input-Daten_gaemsen.zip[{zip-icon}{nnbsp}ZIP]
 
+.. Raumanalyse mit Hektarrasterdaten:
+  * Arbeitsblatt:
+  {lehrmittel-url}weitere_qgis-themen/raumanalyse_mit_hektarrasterdaten/raumanalyse_mit_hektarrasterdaten.pdf[{pdf-icon}{nnbsp}PDF] |
+  {lehrmittel-url}weitere_qgis-themen/raumanalyse_mit_hektarrasterdaten/raumanalyse_mit_hektarrasterdaten.html[{html-icon}{nnbsp}HTML]
+
 //-
 .Zusätzliche Materialien:
 * OpenStreetMap Tagging Cheatsheet:
