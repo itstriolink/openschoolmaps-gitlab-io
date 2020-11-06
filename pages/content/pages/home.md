@@ -32,14 +32,15 @@ auf [OSM.ch](https://www.osm.ch) und [OpenStreetMap.org](https://www.openstreetm
 
 ## News
 
+- Neues Arbeitsblatt zu "Raumanalyse mit Hektarrasterdaten" publiziert mit Hektarrasterdaten vom BfS (Bevölkerungsstatistik) und von OpenStreetMap (Schulen). Zudem die 5 Arbeitsblätter zur Einführung in QGIS aktualisiert aufgrund von vielseitigem Feedback. (6. November 2020)
 - Ein neues Unterrichtsmaterial publiziert: ein Klimapostenlauf! Es ist dies ein Orientierungslauf mit dem Handy zum Thema Klima! (25. September 2020)
-- Sämtliche 35(!) Arbeitsblätter von OpenSchoolMaps sind nun nicht nur als herunterladbare PDF sondern auch als Webseiten (HTML) verfügbar. Dies verbessert nochmals die Auffindbarkeit und Nutzbarkeit der Lehr- und Lern-Materialien von OpenSchoolMaps (28. August 2020).
+- Sämtliche 35(!) Arbeitsblätter von OpenSchoolMaps sind nun nicht nur als herunterladbare PDF sondern auch als Webseiten (HTML) verfügbar. Dies verbessert nochmals die Auffindbarkeit und Nutzbarkeit der Lehr- und Lern-Materialien von OpenSchoolMaps. (28. August 2020)
 - Am **3. Juni 2020** organisiert das GEOSchoolDay-Team ab 16 Uhr ein **Webinar zu "Geographie im Fernunterricht – Erfahrungen der Sekundarstufe I und II"**. Dabei sollen Erfahrungen im Fernunterricht zu geographischen Themen ausgetauscht werden. Anmeldung und [weitere Informationen...](https://geoschoolday.ch)
-- Neues Arbeitsblatt "Einführung in den OpenStreetMap-Editor JOSM" hinzugefügt, das von Christian Nüssli erarbeitet wurde. Vielen Dank Christian! (30. April 2020).
+- Neues Arbeitsblatt "Einführung in den OpenStreetMap-Editor JOSM" hinzugefügt, das von Christian Nüssli erarbeitet wurde. Vielen Dank Christian! (30. April 2020)
 - Am 25. April 2020 gab es einen Online-Workshop zu "[OpenSchoolMaps - Materialien zu OpenStreetMap](https://openeducationday.ch/programm-2020/openschoolmaps/)" im Rahmen des Virtuellen Open Education Halfday 2020.
-- Two new worksheets on "Apache Superset the Data Visualization and Publication Tool" published (25. November 2019).
-- Zwei neue Arbeitsblätter zum Thema "Apache Superset das Datenvisualisierungs- und -Publikations-Werkzeug" publiziert (25. Oktober 2019).
-- OpenSchoolMaps gewinnt den DINAcon Award 2019 in der Kategorie **"Best Open Education Project"**! Mit den DINAcon Awards werden Open-Projekte von Communities, Unternehmen, Verwaltungen, Organisationen und Einzelpersonen ausgezeichnet. [Weblink](https://awards.dinacon.ch/awards/openschoolmaps/) (18. Oktober 2019)
+- Two new worksheets on "Apache Superset the Data Visualization and Publication Tool" published. (25. November 2019)
+- Zwei neue Arbeitsblätter zum Thema "Apache Superset das Datenvisualisierungs- und -Publikations-Werkzeug" publiziert. (25. Oktober 2019)
+- OpenSchoolMaps gewinnt den DINAcon Award 2019 in der Kategorie **"Best Open Education Project"**! Mit den DINAcon Awards werden Open-Projekte von Communities, Unternehmen, Verwaltungen, Organisationen und Einzelpersonen ausgezeichnet. [Weblink](https://awards.dinacon.ch/awards/openschoolmaps/). (18. Oktober 2019)
 - Am 18. August 2019 wurde eine [Wiki-Seite 'Einführung in JOSM' angelegt](https://gitlab.com/openschoolmaps/openschoolmaps.gitlab.io/wikis/Einf%C3%BChrung-in-JOSM) mit kommentierten Links über diesen Editor.
 - Le 16 août 2019, les feuilles de travail pour "OSM.org comme visualiseur de carte" et "Editer et utiliser OpenStreetMap" ont été mises à disposition en français (voir archive Zip ci-dessous sur le matériel didactique).
 - On June 27, 2019, OpenSchoolMaps was supplemented with special teaching material entitled "Mapping the surroundings yourself". An information for instructors and a worksheet for participants explain how to organize an "outdoor mapping event" (including mapping parties and project days for school classes).
