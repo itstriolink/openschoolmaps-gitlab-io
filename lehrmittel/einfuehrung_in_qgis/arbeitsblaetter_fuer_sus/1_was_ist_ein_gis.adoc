@@ -54,8 +54,9 @@ Arbeitsblatt zu beantworten:_
 . _Was ist speziell an den Daten, die in einem GIS dargestellt werden?_
 . _Chalkin stellte im Jahre 1977 das Vierkomponentenmodell auf. Er beschrieb
 die Funktionen eines GIS mit den 4 Komponenten Eingabe (engl. input),
-Verwaltung (manipulation), Analyse (analysis) und Präsentation (presentation),
-kurz EVAP (IMAP).  Aufgabe: Ordne die in der Definition 1 erwähnten Funktionen
+Verwaltung (engl. manipulation), Analyse (engl. analysis)
+und Präsentation (engl. presentation),
+kurz EVAP (engl. IMAP).  Aufgabe: Ordne die in der Definition 1 erwähnten Funktionen
 den vier Komponenten zu._
 
 //-
@@ -172,7 +173,7 @@ endif::show_solutions[]
 
 == QGIS-Übung
 
-Im ersten Theorieteil hast du gelernt, dass die Software eine der vier
+Im ersten Theorieteil hast du gelernt, dass die Software eine der drei
 Komponenten eines GIS-Systems ist. Im Übungsteil sollst du nun den Aufbau und
 die Benutzeroberfläche der Software QGIS kennen lernen.
 
@@ -265,9 +266,9 @@ Kantonsgrenzen und werden deshalb auch im Kartenfenster über diesen angezeigt.
 
 Die Reihenfolge der Layer kann auch verändert werden. Dazu klickst du auf den
 Layer, den du gerne verschieben möchtest, und bewegst ihn mit gedrückter
-Maustaste an die neue Stelle. Probiere diese Funktion aus, indem du die
-Kantonsgrenzen im Layerfenster über die Seen legst. Beobachte dabei, was mit
-der Darstellung im Kartenfenster geschieht.
+Maustaste an die neue Stelle. Probiere diese Funktion aus.
+Schiebe den Seen-Layer unter den Kantonsgrenzen-Layer.
+Beobachte dabei, was mit der Darstellung im Kartenfenster geschieht.
 
 Verschiebe anschliessend die Layer wieder in die Anfangsposition zurück.
 

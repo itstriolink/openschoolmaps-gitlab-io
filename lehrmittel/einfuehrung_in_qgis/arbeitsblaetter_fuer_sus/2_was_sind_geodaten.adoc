@@ -109,7 +109,7 @@ ifdef::show_solutions[]
 . Wenn du weiter ins Bild reinzoomst, dann siehst du ab einer gewissen
 Zoomstufe, dass das Bild aus vielen farbigen Rechtecken besteht. Je weiter du
 reinzoomst, desto grösser werden diese Rechtecke.
-. Ein Objekt ist xmit Hilfe von vielen farbigen Rechtecken abgespeichert.
+. Ein Objekt ist mit Hilfe von vielen farbigen Rechtecken abgespeichert.
 ====
 endif::show_solutions[]
 
@@ -130,7 +130,7 @@ Grau- oder ein Farbwert sein, wie z.B. bei Fotos oder bei Pixelkarten (wie du
 sie in der Übung noch kennenlernen wirst) oder numerische Informationen wie
 z.B. ein Messwert. Schaue dir als Beispiel für Raster aus Messwerten die Karte
 mit den Schneehöhen auf der Homepage des Instituts für Schnee- und
-Lawinenforschung (SLF) an: https://www.slf.ch/ .
+Lawinenforschung (SLF) an: https://www.slf.ch/en/avalanche-bulletin-and-snow-situation/measured-values.html .
 
 ===== Vektordaten
 
@@ -262,18 +262,9 @@ Um ein leeres Projekt zu öffnen, schliesse und öffne entweder QGIS neu oder
 klicke auf den Button "Neues Projekt".
 In das leere Projekt sollen nun Geodaten geladen werden.
 
-Bevor jedoch Daten geladen werden, sollte das Koordinatensystem des Projektes
-definiert werden.
-Dazu drückst du rechts unten in QGIS auf die Schaltfläche _Aktuelles KBS_.
-Mit dem Filter kannst du dann das gewünschte Koordinatensystem suchen.
+Bevor jedoch Daten geladen werden, sollte das Koordinatensystem und der Projekttitel definiert werden.
 
-Für die Schweiz werden folgende Koordinatensysteme verwendet: Das EPSG:2056
-(CH1903+/LV95) und manchmal noch das ältere EPSG:21781 (CH1903 /LV03).
-
-Wähle das vorgegebene System mit Hilfe der Suche aus und bestätige die
-Einstellung durch Klicken auf den _Anwenden_-Button.
-
-Gehe anschliessend unter _Projekt_ -> _Properties..._ in den Reiter mit dem Namen
+Gehe unter _Projekt_ -> _Properties..._ in den Reiter mit dem Namen
 _Allgemein_, setze dort den Projekttitel "Die Schweiz" und bestimme eine
 Hintergrundfarbe.
 
@@ -283,6 +274,20 @@ du den Ordner mit dem QGIS-Projekt und den Daten auch an einen anderen Ort hin
 kopieren kannst, ohne anschliessend die ganzen Pfade zu den Daten wieder
 anpassen zu müssen. Wähle deshalb für dein neues Projekt die Option "Relativ"
 (falls diese Option nicht schon so eingstellt ist).
+
+Um das Koordinatensystem anzupassen, gehe in den Reiter mit dem Namen _Koordinatenbezugssystem (KBS)_.
+Mit dem Filter kannst du dann das gewünschte Koordinatensystem suchen.
+
+Für die Schweiz werden folgende Koordinatensysteme verwendet: Das EPSG:2056
+(CH1903+/LV95) und manchmal noch das ältere EPSG:21781 (CH1903 /LV03).
+
+Wähle das vorgegebene System mit Hilfe der Suche aus und bestätige die
+Einstellung durch Klicken auf den _Anwenden_-Button.
+
+In der rechten unteren Ecke sollte es nun das ausgewählte Koordinatensystem anzeigen.
+Das ist die _Aktuelles KBS_-Schaltfläche.
+Durch das draufklicken kommt man direkt in die Einstellungen für das Koordinatensystem.
+
 
 Schliesse anschliessend das Fenster "Projekteinstellungen" durch Klicken auf
 den OK-Button. Damit die neue Hintergrundfarbe erscheint, muss im
@@ -378,7 +383,7 @@ http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&lang=de klickst,
 wird eine Anfrage an den Server http://wms.geo.admin.ch/ gestartet und du
 erhältst als Antwort eine Auflistung der verfügbaren WMS-Services.
 
-Unter _Titel_ findest du den Titel des WMS-Services und unter _Zusammenfassung_
+Unter _Title (Titel)_ findest du den Titel des WMS-Services und unter _Abstract (Zusammenfassung)_
 eine kurze Beschreibung, was genau in den Daten abgespeichert ist. Zusätzlich
 sind auch Informationen über die Ausdehnung und die möglichen Koordinatensysteme
 erhältlich.
