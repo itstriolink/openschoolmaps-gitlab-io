@@ -31,8 +31,8 @@ DELETE_OUTPUT_DIRECTORY = True
 # to provide the theme files.
 THEME = "pelican-themes/gum"
 
-MATOMO_URL = "matomo.infs.ch"
-MATOMO_ID = 2
+MATOMO_URL = "matomo.dev.ifs.hsr.ch"
+MATOMO_ID = 1
 
 # Following items are often useful when publishing
 

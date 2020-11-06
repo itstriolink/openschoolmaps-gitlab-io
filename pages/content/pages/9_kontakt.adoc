@@ -22,7 +22,7 @@ Der Betreiber von OpenSchoolMaps sind um korrekte und aktualisierte Inhalte auf 
 
 Die von Ihnen über die OpenSchoolMaps übermittelten persönlichen Daten werden vertraulich behandelt und nur zum jeweils deklarierten Zweck bearbeitet. Kontakt siehe oben.
 
-OpenSchoolMaps zeichnet Nutzungs-Statistiken über eine von vom https://www.hsr.ch/geometalab[Geometa Lab der HSR] betriebene Matomo-Instanz auf.
+OpenSchoolMaps zeichnet Nutzungs-Statistiken über eine vom https://ifs.hsr.ch[IFS Institut für Software] der https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/[OST Ostschweizer Fachhochschule] betriebene Matomo-Instanz auf.
 
 === Cookies
 
