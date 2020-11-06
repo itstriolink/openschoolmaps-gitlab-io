@@ -1,0 +1,298 @@
+OpenSchoolMaps – Freie Lernmaterialien zu freien Geodaten und Karten
+
+= Raumanalyse mit Hektarrasterdaten
+
+== Visualisierung von statistischen Geodaten einer Schweizer Gemeinde mit Hektarrasterdaten
+
+:xrefstyle: short
+:imagesdir: ../../../bilder/
+include::../../../snippets/lang/de.adoc[]
+include::../../../snippets/suppress_title_page.adoc[]
+*Ein Arbeitsblatt für Selbstlernende, Studierende, Schülerinnen und Schüler sowie Lehrpersonen auf Sekundarstufe II (Sekundarschulen und Gymnasien).*
+
+== Ziele und Organisatorisches
+
+Dieses Arbeitsblatt zeigt auf, wie man zwei ausgewählte Geodatensätze zur Bevölkerung
+und Schulen für eine Raumanalyse und Visualisierung nutzen kann.
+Dabei wird die sogenannte Hektarraster-Struktur verwendet.
+
+Das Ziel dieser Übung ist es, am Beispiel der Stadt Uster
+die Verteilung der Wohnbevölkerung räumlich aufzuzeigen.
+Zusätzlich soll auch die räumliche Verteilung der Schulen dargestellt werden
+und es sollen grundsätzlich Begriffe wie Hektarraster,
+räumliche Dichte und Klassierung erläutert werden.
+
+In Abbildung 1 unten ist ein mögliches Resultat dieses Arbeitsblatts dargestellt.
+
+Nach dem Bearbeiten dieses Arbeitsblatts bist du in der Lage
+
+* die Datenquellen und die Datenstruktur von Hektarrastern zu verstehen;
+* Daten im “Delimited Text”-Format CSV mit QGIS einzulesen und als Ebene abzuspeichern
+(im Geo-Standard-Format GeoPackage)
+* die Hektarraster-Daten mit QGIS-Funktionen zu klassieren;
+* die Hektarraster-Daten zu symbolisieren und zu visualisieren.
+
+Organisatorisches:
+
+* Zeitaufwand: Diese Übung dauert je nach Vorkenntnissen ca. 1 Stunde.
+* Stichworte: Räumliche Datenanalyse, Klassierung, GIS, QGIS, CSV, GeoPackage.
+
+== Einleitung
+
+=== Begriffe Hektarraster, räumliche Dichte und Klassierung
+
+Es ist wichtig zu wissen, wo Menschen wohnen und wie viele es sind.
+Das ist schon seit dem Alten Testament so.
+Jedes Land führt Volkszählungen durch, so auch das Schweizerische Bundesamt für Statistik (BfS),
+das eine Statistik der Bevölkerung und der Haushalte führt.
+Für die Publikation dieser Statistik wählte das BfS eine Datenstruktur mit Punkten,
+die in einem regelmässigen Gitter (Grid) mit 100 m Rasterweite verwaltet werden.
+Jede Rasterzelle umfasst 100 x 100 Meter, als Masseinheit “Hektare” genannt.
+Daraus ergibt sich ein sogenanntes "*Hektarraster*".
+
+_HINWEIS: Die Hektare (Einzahl), ist eine Masseinheit der Fläche mit dem Einheitenzeichen ha.
+Die Hektare ist vor allem in der Land- und Forstwirtschaft verbreitet
+und entspricht einer Fläche von 10'000 m²,
+also beispielsweise einem quadratischen Feld mit Seitenlängen von 100 Metern._
+
+Das BfS publiziert nebst der Statistik der Bevölkerung (genannt Hektarraster BfS STATPOP)
+weitere interessante nach Hektaren aufsummierte (“aggregierte”) Geodaten zu Gebäuden (GWS),
+Unternehmen und Beschäftigten (STATENT) sowie zur Bodennutzung und Bodenbedeckung (Arealstatistik, NOAS).
+
+Die Hektarraster-Datenstruktur wurde auch von weiteren Datenlieferanten übernommen,
+wie beispielsweise vom Amt für Statistik des Kantons Zürich
+und auch vom Institut für Software in Rapperswil u.a. mit Schulen und Shops
+und potentiell über 1000 weitere sogenannte Points-of-Interest (POI).
+Letzterer Datensatz nennt sich “Hektarraster OSM”.
+
+=== Fragestellungen der Raumanalyse mit Hektarrasterdaten
+
+Typische Fragestellungen der Raumanalyse, die man mit solchen Statistiken beantworten kann, sind:
+
+* “Wie ist die räumliche Verteilung der Population, also der *Bevölkerungsdichte* (Quelle: STATENT)?
+Mit anderen Worten: Wo leben mehr und wo weniger Personen innerhalb einer Gemeinde?”.
+* Dank dem *GIS-Ebenen-Prinzip* (siehe GIS-Grundlagen) lässt sich diese Ebene überlagern mit weiteren Ebenen.
+Eine zusätzliche Fragestellung könnte demnach sein:
+“Wie ist dort die räumliche Verteilung von Schulen?” (Quelle: Hektarraster OSM).
+* Und – gegeben durch diese beiden Ebenen – kann schliesslich gefragt werden:
+“*Korrelieren* die beiden Verteilungen miteinander?”.
+D.h. “Gibt es viele Schulen, dort wo es eine hohe Bevölkerungsdichte hat?
+Gibt es Gegenden, bei denen Schulen fehlen?”
+
+Eine räumliche Dichte wird typischerweise mit der Helligkeit visualisiert,
+also je dunkler eine Fläche ist, desto höher ist beispielsweise die Bevölkerungsdichte.
+Und um die Vergleichbarkeit der Analyse und Visualisierung zu erhöhen,
+klassiert man die Daten – hier die Personen pro Hektare - in Bereiche (Klassen)
+wie z.B. 0-50 Personen pro Einheitsfläche als Klasse 1, dann 51-100 als Klasse 2, dann 101-150, etc.
+Durch diese *Klassierung* ergibt sich eine besser lesbare Karte.
+
+.Karte als Resultat dieser Analyse und Visualisierung.
+image::raumanalyse_mit_hektarrasterdaten/Kartendarstellung der Visualisierungsübung.PNG[Kartendarstellung der Visualisierungsübung]
+
+== Hilfsmittel und Vorgehen
+
+Als Hilfsmittel für dieses Arbeitsblatt benötigst du ein installiertes QGIS (getestet mit QGIS 3.14.15)
+sowie die Datengrundlagen, die gleich vorgestellt werden.
+
+Das weitere Vorgehen ist wie folgt:
+
+* Die Datengrundlagen im Überblick.
+* Der Hektarraster BfS; Einlesen der Text-/CSV-Datei.
+* Der Hektarraster OSM; Einlesen der GeoPackage-Datei.
+* Klassierung der Hektar-Rasterdaten durch Symbolisierung.
+
+=== Datengrundlagen
+
+Bevor die eigentlichen Input-Daten vorgestellt werden,
+hier die Basiskarte und der Basisdatensatz, die der Orientierung und zur Eingrenzung dienen:
+
+* Eine Basiskarte zur Orientierung als Raster-Tile-Service.
+* Datei “Gemeindegrenzen_Uster.geojson” im GeoPackage-Format (Polygon) die Gemeindegrenzen von Uster;
+siehe Abbildung 2.
+
+Das sind die eigentlichen Input-Daten:
+
+* Datei “STATPOP2019”, im CSV-Format (Point), die Bevölkerungsstatistik des BFS aus dem Jahr 2019.
+* Datei “Hektarraster_CH-ZH.” im GeoPackage-Format (Polygon) der Schulen von OpenStreetMap.
+
+.Gemeindegrenzen_Uster: (Polygon) Gemeindegrenzen von Uster
+image::raumanalyse_mit_hektarrasterdaten/TLM_HOHEITSGEBIET_Uster.PNG[TLM_HOHEITSGEBIET_Uster]
+
+=== Hektarraster BfS
+
+Als Arbeitsdaten steht ein Ausschnitt des Punktdatensatzes
+"Statistik der Bevölkerung und Haushalte 2019" (STATPOP) vom Bundesamt für Statistik (BfS)
+bereit (STATPOP2019.csv). Die Daten zur Bevölkerung
+und den Haushalten liegt hierbei auf einem Raster mit 100m Rasterweite aggregiert vor.
+D.h. die Attribute liegen jeweils nur pro Hektar-Rasterzelle vor.
+Da es sich bei STATPOP um einen Punktdatensatz handelt, ist es wichtig zu wissen,
+auf welche Hektar-Fläche sich diese Punktinformation bezieht.
+Den Metadaten kann entnommen werden,
+dass es sich bei jedem Punkt jeweils um den südwestlichen Eckpunkt einer Hektar-Rasterzelle handelt
+(vergl. "be-d-00.03-10-STATPOP-v110.pdf").
+
+.Veranschaulichungsbeispiel: Punktdatensatz STATPOP (mit schwarzen Punkten symbolisiert) und Hektar-Rasterzelle, auf welche sich die Informationen des Punktdatensatzes beziehen (grüne Rasterzellen). Die hier grün dargestellten Rasterzellen dienen nur der Veranschaulichung und sind nicht teil des Datensatzes.
+image::raumanalyse_mit_hektarrasterdaten/Veranschaulichungsbeispiel_Punktdatensatz_STATPOP.png[Veranschaulichungsbeispiel_Punktdatensatz_STATPOP]
+
+Zusätzlich zeigen die Metadaten auch auf, dass es sich bei den Attributen "E_KOORD"
+und "N_KOORD" um die E- und N-Koordinaten des neuen Bezugsrahmens LV95 handelt.
+Für die vorliegende Übung ist daneben auch das Attribut "B19BTOT" von Bedeutung.
+Dies entspricht der totalen ständigen Wohnbevölkerung innerhalb der Hektar-Rasterzelle
+(vergl. " be-b-00.03-10-STATPOP-v120.pdf").
+
+.Ausschnitt aus der Attributbeschreibung der Metadaten.
+image::raumanalyse_mit_hektarrasterdaten/Attributbeschreibung_der_Metadaten.png[Attributbeschreibung_der_Metadaten]
+
+.STATPOP2019: (Point) Bevölkerungsstatistik des BFS
+image::raumanalyse_mit_hektarrasterdaten/STATPOP2019.PNG[STATPOP2019]
+
+=== Hektarraster OSM
+
+Als weiterer Datensatz für die Übung steht ein Ausschnitt aus
+"Hektarraster OSM" bereit (Hektarraster_CH-ZH.gpkg).
+Es handelt sich dabei um einen auf das Hektarraster aggregierten Auszug aus OpenStreetMap.
+Das Hektarraster ist mit demjenigen der BfS-Daten kompatibel.
+
+Zusätzlich gibt es eine Variante mit Polygonen statt Punkten.
+Die Polygone entsprechen einer Hektarrasterzelle. Der Vorteil davon ist,
+dass damit räumliche Analysen und Visualisierungen noch einfacher werden,
+da das Polygon effektiv eine Zelle repräsentiert. Dies im Gegensatz zu Punkten,
+die ja “stellvertretend” sind für die Zelle.
+
+Für die vorliegende Übung wird das Attribut "schools" verwendet, welches aufzeigt,
+wie viele Schulen in einer bestimmten Hektarrasterzelle vorhanden sind.
+
+.Hektarraster_CH-ZH: (Polygon) POI (Schulen) von OpenStreetMap
+image::raumanalyse_mit_hektarrasterdaten/Hektarraster_CH-ZH.PNG[Hektarraster_CH-ZH]
+
+== Aufgaben
+
+=== Vorbereitung: Anlegen der Projekt-Datei und Laden der Input-Daten
+
+Alle, in den Aufgaben benötigten, Daten findest du im Quellenverzeichnis auf OpenSchoolMaps.ch.
+
+Hier: https://openschoolmaps.ch/pages/materialien.html.
+
+. Zum Verzeichnis mit den Daten navigieren.
+. QGIS öffnen.
+. Sicherstellen, dass die Projekteinstellungen von QGIS ebenfalls das Koordinatenreferenzsystems
+LV95 (EPSG:2056) aufweisen. (siehe Ecke unten rechts in QGIS)
+. Basiskarte laden. D.h. Übersichtsplan Kt. ZH URL: http://wms.zh.ch/upwms?SERVICE=WMS.
+(Add Layer (Layer hinzufügen) -> Add WMS/WMTS Layer (WMS/WMTS Layer hinzufügen) -> New (Neu) ->
+siehe Abb. 7 -> Connect (Verbinden) -> evtl. Koordinatensystem anpassen -> Add (Hinzufügen))
++
+Layer im Projekt nach unten schieben.
+. Datei “Gemeindegrenzen_Uster.geojson” laden.
+Optional: Wenn man die Gemeindegrenzen für einen anderen Ort möchte,
+kommt man mit diesen drei Schritten an die Daten.
+Schritt 1: Gehe auf www.osm.org und suche nach dem gewünschten Ort.
+Schaue nach der relation id des Ortes,
+z.B. bei Uster steht diese direkt unter dem Namen in Klammern (1682225).
+Schritt 2: Gehe auf http://overpass-turbo.eu/?template=type-id&type=relation&id=1682225&R
+und gib an der Stelle "relation(…)" in der Klammer die id des gesuchten Ortes an.
+Schritt 3: Nach dem "Ausführen" klicke auf die Schaltfläche "Export".
+Wähle dort "Speichere als GeoJSON", indem du auf das unterstrichene Wort "Speichere" klickst.
+. Das QGIS-Projekt unter dem Namen "Hektarrasterdaten_Uster" (.qgz) speichern.
+
+.Basiskarte laden
+image::raumanalyse_mit_hektarrasterdaten/Basiskarte_laden.png[Basiskarte_laden]
+
+=== Aufgabe 1: Laden und extrahieren des Hektarrasters OSM
+
+In dieser Aufgabe werden die Polygone des Hektarrasters extrahiert und gefiltert.
+
+. Die Datei "Hektarraster_CH-ZH.gpkg" (GeoPackage) laden.
+(Diese wurde von https://drive.switch.ch/index.php/s/CrHsRJeq5yZbEin heruntergeladen.
+In dieser heruntergeladenen Datei, findest du auch die Hektarraster zu den anderen Kantonen der Schweiz.).
+Man beachte, dass diese Daten nur in der originalen Punkt-Datenstruktur verfügbar sind
+(und nicht als Polygone wie Hektarraster OSM).
+. Extrahiere im Layer "Hektarraster_CH-ZH.gpkg" alle Hektarrasterzellen,
+welche innerhalb des Gemeindegebietes von Uster zu liegen kommen oder sich mit dem Gemeindegebiet schneiden.
+Öffne dazu die Processing Toolbox (Verarbeitungswerkzeuge).
+((Verarbeitung) -> (Werkzeugkiste) -> Suche nach: "extract by location" (Nach Position extrahieren))
+(Siehe Abb. 8)
+. Speichere die Extrahierung als Layer unter dem Namen "Hektarraster_Uster".
+. Filtere im neu angelegten Layer " Hektarraster_Uster " alle Hektar-Rasterzellen in welchen mind.
+eine Schule vorhanden ist (Filtere mit dem "Expression Tool" (Datenanbieterspezifischer Filterausdruck)
+“schools >= 1”; Select). Dieses Filtern ist nötig,
+weil die Hektarrasterdaten ursprünglich überall eine Zelle enthalten,
+in der entweder mind. eine Schule oder ein Shop (oder ein anderer POI) enthalten sind.
+. Speichere die Filterung unter dem Namen "Hektarraster_Uster_schools" ab.
+Dieser Datensatz enthält nur noch Hektarrasterzellen, in welchen auch Schulen enthalten sind.
+
+.Nach Position extrahieren
+image::raumanalyse_mit_hektarrasterdaten/NachPositionExtrahieren.PNG[NachPositionExtrahieren]
+
+Hinweis: Die hier verwendeten Daten decken die ganze Schweiz ab.
+Man kann also anstelle von Uster auch eine ganz andere administrative Einheit gewählt werden.
+
+Nun solltest du in QGIS einen Layer "Hektarraster_Uster_schools" haben.
+Klicke an dieser Stelle in QGIS auf "Project“ (Projekt) -> "Save" (Speicher)
+oder benutze den Shortcut "(Crtl+S)".
+
+=== Aufgabe 2: Darstellung der Schuldichte Usters
+
+In dieser Aufgabe wird mit einer Klassifizierung die Schuldichte in Uster dargestellt.
+
+. Öffne das Layer Styling (Layergestaltungsfenster),
+ändere "Single Symbol" (Einzelsymbol) auf "Graduated" (abgestuft)
+und klassifiziere den Layer "Hektarraster_Uster_schools" mit Hilfe des Attributs "schools".
+Erarbeite eine für dich sinnvolle Klassierung der Daten.
+. Ordne den Klassen einen Farbverlauf zu (z. B. von hellgrün bis dunkelgrün).
+. Mache den Layer mit deiner Symbolisierung etwas transparent, damit die Basiskarte auch ersichtlich ist.
+. Erstelle ein Kartenlayout mit Legende und exportiere es als PDF (Schulen_Uster.pdf).
+(Project (Projekte) -> New Print Layout (Neues Drucklayout))
+
+=== Aufgabe 3: Laden des Hektarraster BfS
+
+In dieser Aufgabe wird gezeigt, wie man eine .csv-Datei in QGIS als Layer einfügt.
+
+Die Datei STATPOP2019.csv findest du im Dateienordner (diese wurde von
+https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/gebaeude-wohnungen-haushalte-personen/bevoelkerung-haushalte-ab-2010.assetdetail.14716365.html
+heruntergeladen).
+
+Die Datei STATPOP2019.csv laden mit Menü “Add Layer” (Layer hinzufügen),
+“Add Delimited Text Layer” (Getrennte Textdatei als Layer hinzufügen).
+
+Wie beschrieben enthalten die Attribute E_KOORD und N_KOORD die Koordinaten des neuen Schweizer Koordinatenreferenzsystems LV95 (EPSG:2056).
+
+.Die Datei STATPOP2019.csv als Punkte einfügen
+image::raumanalyse_mit_hektarrasterdaten/STATPOP2019_EINFÜGEN.PNG[STATPOP2019_EINFÜGEN]
+
+=== Aufgabe 4: Darstellung der Bevölkerungsdichte Usters in Klassen
+
+In dieser Aufgabe wird die Bevölkerungsdichte von Uster durch extrahieren und klassifizieren ermittelt.
+
+. Vorbereitung: Gemeindegebiet Uster (Gemeindegrenzen_Uster.geojson) mit Puffer 100m (0.003 Grad) versehen und Layer entsprechend benennen:
+Gemeindegrenzen_Uster_100_Puffer.
+(Öffne wie in Aufgabe 1 die Processing Toolbox (Verarbeitungswerkzeuge) und suche nach "Buffer" (Puffer))
+. Extrahieren der Hektarraster-Daten innerhalb der Gemeindegrenzen:
+Suche wie in Aufgabe 1 "extract by location" (Nach Position extrahieren).
+Wähle den Layer "STATPOP2019" als "Extract features from" (Objekte extrahieren aus)
+und den Layer "Gemeindegrenzen_Uster_100_Puffer" als "By comparing to the features from" (Durch Vergleich mit Objekte aus).
+(Wähle bei "Where the features" (Ort der Objekte): "intersect" (schneidet), "touch" (berührt) und "are within" (sind innerhalb) aus, so wie in Abb. 8)
+Speichere deinen Zuschnitt als Layer unter dem Namen "STATPOP2019_Uster" ab.
+. Klassifizieren: Wähle "Graduated" (Abgestuft) für den Layer "STATPOP2019_Uster"
+und klassifiziere ihn mit Hilfe des Attributs "B19BTOT" (steht für “Bevölkerung 2019 Total”).
+Erarbeite eine für dich sinnvolle Klassierung der Daten in mind. 3 und max. 7 Klassen.
+Verwende dazu einen Farbverlauf (z. B. von hellblau bis dunkelblau).
+. Symbolisierung verbessern: Mache den Layer mit deiner Klassierung etwas transparent,
+damit die Informationen der Basiskarte wieder sichtbar werden.
+. (Optional: Erstelle ein Kartenlayout mit Legende und exportiere es als PDF, z.B. als Datei “Wohnbevoelkerung_Uster.pdf”) (Siehe Aufgabe 2).
+
+== Abschluss 
+
+Folgende Daten müssen nun vorhanden sein:
+
+* Karte im PDF-Format zur räumlichen Verteilung der Wohnbevölkerung in Uster inkl. Legende (Kartenlayout).
+* Karte zur räumlichen Verteilung der Schulen in Uster im PDF-Format inkl. Legende (Kartenlayout).
+
+== Ausblick
+
+Siehe auch Arbeitsblatt *Introduction to Table Joins and Classification* für mehr Informationen und eine weitere Aufgabe.
+
+== Danksagung
+
+Ein herzlicher Dank geht an Oiza Otaru vom Institut für Raumentwicklung IRAP Rapperswil. Sie hat diese Übung entworfen.
+
+Noch Fragen? Wenden Sie sich an OpenStreetMap Schweiz (info@osm.ch) oder Stefan Keller (stefan.keller@ost.ch)!
