@@ -219,8 +219,8 @@ image::../images/tunnel.jpg["Tunnel mit Personen"]
 
 .. Raumanalyse mit Hektarrasterdaten:
   * Arbeitsblatt:
-  {lehrmittel-url}weitere_qgis-themen/raumanalyse_mit_hektarrasterdaten/raumanalyse_mit_hektarrasterdaten.pdf[{pdf-icon}{nnbsp}PDF] |
-  {lehrmittel-url}weitere_qgis-themen/raumanalyse_mit_hektarrasterdaten/raumanalyse_mit_hektarrasterdaten.html[{html-icon}{nnbsp}HTML]
+  {lehrmittel-url}/weitere_qgis-themen/raumanalyse_mit_hektarrasterdaten/raumanalyse_mit_hektarrasterdaten.pdf[{pdf-icon}{nnbsp}PDF] |
+  {lehrmittel-url}/weitere_qgis-themen/raumanalyse_mit_hektarrasterdaten/raumanalyse_mit_hektarrasterdaten.html[{html-icon}{nnbsp}HTML]
 
 //-
 .Zusätzliche Materialien:
