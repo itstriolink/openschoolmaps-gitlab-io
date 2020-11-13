@@ -1,13 +1,10 @@
+= Raumanalyse mit Hektarrasterdaten: Visualisierung von statistischen Geodaten einer Schweizer Gemeinde mit Hektarrasterdaten
 OpenSchoolMaps – Freie Lernmaterialien zu freien Geodaten und Karten
-
-= Raumanalyse mit Hektarrasterdaten
-
-== Analyse und Visualisierung von statistischen Rauminformationen einer Schweizer Gemeinde mittels Hektarrasterdaten
-
 :xrefstyle: short
 :imagesdir: ../../../bilder/
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
+
 *Ein Arbeitsblatt für Selbstlernende, Studierende, Schülerinnen und Schüler sowie Lehrpersonen auf Sekundarstufe II (Sekundarschulen und Gymnasien).*
 
 == Ziele und Organisatorisches
@@ -79,6 +76,8 @@ Eine zusätzliche Fragestellung könnte demnach sein:
 D.h. “Gibt es viele Schulen, dort wo es eine hohe Bevölkerungsdichte hat?
 Gibt es Gegenden, bei denen Schulen fehlen?”
 
+<<<
+
 Eine räumliche Dichte wird typischerweise mit der Helligkeit visualisiert,
 also je dunkler eine Fläche ist, desto höher ist beispielsweise die Bevölkerungsdichte.
 Und um die Vergleichbarkeit der Analyse und Visualisierung zu erhöhen,
@@ -87,7 +86,7 @@ wie z.B. 0-50 Personen pro Einheitsfläche als Klasse 1, dann 51-100 als Klasse 
 Durch diese *Klassierung* ergibt sich eine besser lesbare Karte.
 
 .Karte als Resultat dieser Analyse und Visualisierung.
-image::raumanalyse_mit_hektarrasterdaten/Kartendarstellung der Visualisierungsübung.PNG[Kartendarstellung der Visualisierungsübung]
+image::raumanalyse_mit_hektarrasterdaten/Kartendarstellung der Visualisierungsübung.PNG[Kartendarstellung der Visualisierungsübung, 550]
 
 == Hilfsmittel und Vorgehen
 
@@ -116,7 +115,7 @@ Das sind die eigentlichen Input-Daten:
 * Datei “Hektarraster_CH-ZH.” im GeoPackage-Format (Polygon) der Schulen von OpenStreetMap.
 
 .Gemeindegrenzen_Uster: (Polygon) Gemeindegrenzen von Uster
-image::raumanalyse_mit_hektarrasterdaten/TLM_HOHEITSGEBIET_Uster.PNG[TLM_HOHEITSGEBIET_Uster]
+image::raumanalyse_mit_hektarrasterdaten/TLM_HOHEITSGEBIET_Uster.PNG[TLM_HOHEITSGEBIET_Uster, 410]
 
 === Hektarraster BfS
 
@@ -132,7 +131,7 @@ dass es sich bei jedem Punkt jeweils um den südwestlichen Eckpunkt einer Hektar
 (vergl. "be-d-00.03-10-STATPOP-v110.pdf").
 
 .Veranschaulichungsbeispiel: Punktdatensatz STATPOP (mit schwarzen Punkten symbolisiert) und Hektar-Rasterzelle, auf welche sich die Informationen des Punktdatensatzes beziehen (grüne Rasterzellen). Die hier grün dargestellten Rasterzellen dienen nur der Veranschaulichung und sind nicht teil des Datensatzes.
-image::raumanalyse_mit_hektarrasterdaten/Veranschaulichungsbeispiel_Punktdatensatz_STATPOP.png[Veranschaulichungsbeispiel_Punktdatensatz_STATPOP]
+image::raumanalyse_mit_hektarrasterdaten/Veranschaulichungsbeispiel_Punktdatensatz_STATPOP.png[Veranschaulichungsbeispiel_Punktdatensatz_STATPOP, 240]
 
 Zusätzlich zeigen die Metadaten auch auf, dass es sich bei den Attributen "E_KOORD"
 und "N_KOORD" um die E- und N-Koordinaten des neuen Bezugsrahmens LV95 handelt.
@@ -141,10 +140,10 @@ Dies entspricht der totalen ständigen Wohnbevölkerung innerhalb der Hektar-Ras
 (vergl. " be-b-00.03-10-STATPOP-v120.pdf").
 
 .Ausschnitt aus der Attributbeschreibung der Metadaten.
-image::raumanalyse_mit_hektarrasterdaten/Attributbeschreibung_der_Metadaten.png[Attributbeschreibung_der_Metadaten]
+image::raumanalyse_mit_hektarrasterdaten/Attributbeschreibung_der_Metadaten.png[Attributbeschreibung_der_Metadaten, 420]
 
 .STATPOP2019: (Point) Bevölkerungsstatistik des BFS
-image::raumanalyse_mit_hektarrasterdaten/STATPOP2019.PNG[STATPOP2019]
+image::raumanalyse_mit_hektarrasterdaten/STATPOP2019.PNG[STATPOP2019, 590]
 
 === Hektarraster OSM
 
@@ -163,7 +162,7 @@ Für die vorliegende Übung wird das Attribut "schools" verwendet, welches aufze
 wie viele Schulen in einer bestimmten Hektarrasterzelle vorhanden sind.
 
 .Hektarraster_CH-ZH: (Polygon) POI (Schulen) von OpenStreetMap
-image::raumanalyse_mit_hektarrasterdaten/Hektarraster_CH-ZH.PNG[Hektarraster_CH-ZH]
+image::raumanalyse_mit_hektarrasterdaten/Hektarraster_CH-ZH.PNG[Hektarraster_CH-ZH, 580]
 
 == Aufgaben
 
@@ -195,7 +194,7 @@ Wähle dort "Speichere als GeoJSON", indem du auf das unterstrichene Wort "Speic
 . Das QGIS-Projekt unter dem Namen "Hektarrasterdaten_Uster" (.qgz) speichern.
 
 .Basiskarte laden
-image::raumanalyse_mit_hektarrasterdaten/Basiskarte_laden.png[Basiskarte_laden]
+image::raumanalyse_mit_hektarrasterdaten/Basiskarte_laden.png[Basiskarte_laden, 400]
 
 === Aufgabe 1: Laden und extrahieren des Hektarrasters OSM
 
@@ -221,7 +220,7 @@ in der entweder mind. eine Schule oder ein Shop (oder ein anderer POI) enthalten
 Dieser Datensatz enthält nur noch Hektarrasterzellen, in welchen auch Schulen enthalten sind.
 
 .Nach Position extrahieren
-image::raumanalyse_mit_hektarrasterdaten/NachPositionExtrahieren.PNG[NachPositionExtrahieren]
+image::raumanalyse_mit_hektarrasterdaten/NachPositionExtrahieren.PNG[NachPositionExtrahieren, 300]
 
 Hinweis: Die hier verwendeten Daten decken die ganze Schweiz ab.
 Man kann also anstelle von Uster auch eine ganz andere administrative Einheit gewählt werden.
@@ -257,7 +256,7 @@ Die Datei STATPOP2019.csv laden mit Menü “Add Layer” (Layer hinzufügen),
 Wie beschrieben enthalten die Attribute E_KOORD und N_KOORD die Koordinaten des neuen Schweizer Koordinatenreferenzsystems LV95 (EPSG:2056).
 
 .Die Datei STATPOP2019.csv als Punkte einfügen
-image::raumanalyse_mit_hektarrasterdaten/STATPOP2019_EINFÜGEN.PNG[STATPOP2019_EINFÜGEN]
+image::raumanalyse_mit_hektarrasterdaten/STATPOP2019_EINFÜGEN.PNG[STATPOP2019_EINFÜGEN, 660]
 
 === Aufgabe 4: Darstellung der Bevölkerungsdichte Usters in Klassen
 
