@@ -22,6 +22,8 @@ Der Betreiber von OpenSchoolMaps sind um korrekte und aktualisierte Inhalte auf 
 
 Die von Ihnen über die OpenSchoolMaps übermittelten persönlichen Daten werden vertraulich behandelt und nur zum jeweils deklarierten Zweck bearbeitet. Kontakt siehe oben.
 
+OpenSchoolMaps zeichnet Nutzungs-Statistiken über eine vom https://ifs.hsr.ch[IFS Institut für Software] der https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/[OST Ostschweizer Fachhochschule] betriebene Matomo-Instanz auf.
+
 === Cookies
 
 OpenSchoolMaps verwendet Cookies. Cookies sind kleine Textdateien, die beim Besuch der OpenSchoolMaps-Website in Ihrem Computer dauerhaft oder temporär gespeichert werden. Zweck der Cookies ist insbesondere die Analyse der Nutzung der OpenSchoolMaps-Website zur statistischen Auswertung sowie für Verbesserungen.
