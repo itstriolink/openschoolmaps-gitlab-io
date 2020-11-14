@@ -1,4 +1,4 @@
-= Raumanalyse mit Hektarrasterdaten: Visualisierung von statistischen Geodaten einer Schweizer Gemeinde mit Hektarrasterdaten
+= Raumanalyse mit Hektarrasterdaten: Visualisieren von statistischen Informationen einer Schweizer Gemeinde mit Hektarrasterdaten
 OpenSchoolMaps – Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/
