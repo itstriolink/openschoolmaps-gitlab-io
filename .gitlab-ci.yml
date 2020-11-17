@@ -96,6 +96,8 @@ ZIPs:
   - mv Input-Daten_gaemsen.zip lehrmittel/zips/
   - zip -r Superset-Datentabellen.zip lehrmittel/einfuehrung_in_apache_superset/files/
   - mv Superset-Datentabellen.zip lehrmittel/zips/
+  - zip -r Input-Daten_hektarraster.zip lehrmittel/weitere_qgis-themen/raumanalyse_mit_hektarrasterdaten/daten/
+  - mv Input-Daten_hektarraster.zip lehrmittel/zips/
   artifacts:
     paths:
     - lehrmittel/
