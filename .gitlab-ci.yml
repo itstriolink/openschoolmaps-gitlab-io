@@ -137,3 +137,6 @@ pages_without_deployment:
   only: null
   except:
     <<: *pages_condition
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    url: ${CI_PROJECT_URL}/-/jobs/artifacts/${CI_COMMIT_REF_SLUG}/file/public/index.html?job=${CI_JOB_NAME}

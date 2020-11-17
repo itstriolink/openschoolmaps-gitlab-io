@@ -1,4 +1,4 @@
-= Raumanalyse mit Hektarrasterdaten: Visualisierung von statistischen Geodaten einer Schweizer Gemeinde mit Hektarrasterdaten
+= Raumanalyse mit Hektarrasterdaten: Visualisieren von statistischen Informationen einer Schweizer Gemeinde mit Hektarrasterdaten
 OpenSchoolMaps – Freie Lernmaterialien zu freien Geodaten und Karten
 :xrefstyle: short
 :imagesdir: ../../../bilder/
@@ -13,7 +13,7 @@ Dieses Arbeitsblatt zeigt auf, wie man zwei ausgewählte Geodatensätze zur Bev�
 und Schulen für eine Raumanalyse und Visualisierung nutzen kann.
 Dabei wird die sogenannte Hektarraster-Struktur verwendet.
 
-Das Ziel dieser Übung ist es, am Beispiel der Stadt Uster
+Das Ziel dieser Übung ist es, am Beispiel der Gemeinde Uster im Kanton Zürich 
 die Verteilung der Wohnbevölkerung räumlich aufzuzeigen.
 Zusätzlich soll auch die räumliche Verteilung der Schulen dargestellt werden
 und es sollen grundsätzlich Begriffe wie Hektarraster,
@@ -25,7 +25,7 @@ Nach dem Bearbeiten dieses Arbeitsblatts bist du in der Lage
 
 * die Datenquellen und die Datenstruktur von Hektarrastern zu verstehen;
 * Daten im “Delimited Text”-Format CSV mit QGIS einzulesen und als Ebene abzuspeichern
-(im Geo-Standard-Format GeoPackage)
+(im Geo-Standard-Format GeoPackage);
 * die Hektarraster-Daten mit QGIS-Funktionen zu klassieren;
 * die Hektarraster-Daten zu symbolisieren und zu visualisieren.
 
@@ -59,7 +59,7 @@ Unternehmen und Beschäftigten (STATENT) sowie zur Bodennutzung und Bodenbedecku
 Die Hektarraster-Datenstruktur wurde auch von weiteren Datenlieferanten übernommen,
 wie beispielsweise vom Amt für Statistik des Kantons Zürich
 und auch vom Institut für Software in Rapperswil u.a. mit Schulen und Shops
-und potentiell über 1000 weitere sogenannte Points-of-Interest (POI).
+und potentiell über 1000 sogenannte Points-of-Interest (POI).
 Letzterer Datensatz nennt sich “Hektarraster OSM”.
 
 === Fragestellungen der Raumanalyse mit Hektarrasterdaten
@@ -288,10 +288,14 @@ Folgende Daten müssen nun vorhanden sein:
 
 == Ausblick
 
-Siehe auch Arbeitsblatt *Introduction to Table Joins and Classification* für mehr Informationen und eine weitere Aufgabe.
+In diesem Arbeitsblatt hast du gelernt, wie man mit mittels Hektarrasterdaten eine Analyse 
+und Visualisierung von statistischen Rauminformationen einer Schweizer Gemeinde durchführen kann.
+
+Es gibt weitere Arbeitsblätter auf OpenSchoolMaps vor allem auch zur Raumanalyse. 
+Geplant ist namentlich das Arbeitsblatt *Einführung in Tabellenverknüpfungen und Klassifikation* (Introduction to Table Joins and Classification).
 
 == Danksagung
 
-Ein herzlicher Dank geht an Oiza Otaru vom Institut für Raumentwicklung IRAP Rapperswil. Sie hat diese Übung entworfen.
+Ein herzlicher Dank geht an Frau Oiza Otaru vom Institut für Raumentwicklung (IRAP) am OST-Campus Rapperswil. Sie hat diese Übung entworfen.
 
 Noch Fragen? Wenden Sie sich an OpenStreetMap Schweiz (info@osm.ch) oder Stefan Keller (stefan.keller@ost.ch)!
