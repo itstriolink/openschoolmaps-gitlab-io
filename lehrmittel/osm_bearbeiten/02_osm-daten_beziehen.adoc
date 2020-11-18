@@ -110,7 +110,7 @@ Wenn du die Website das erste Mal besuchst, sieht sie in etwa wie folgt aus:
 .Startseite von Overpass-Turbo
 image::osm_editieren/osm-daten_beziehen/startseite.PNG[]
 
-Klicke auf den rot markierten Button "Wizard".
+Klicke auf die rot markierte Schaltfläche "Wizard".
 Mit dem Wizard lassen sich ganz einfach Overpass-Abfragen erstellen.
 Da wir ja als Beispiel nach Brotverkaufsstellen suchen, suchen wir nach Bäckereien
 und Supermärkten. Als Ortschaft nehmen wir wie gesagt Uster.
@@ -318,7 +318,7 @@ max. 50'000 Nodes bezogen werden, und zudem nur im `OSM XML`-Format.
 Dafür sind die Daten aktuell.
 
 Um Daten in OSM herunterladen zu können, brauchst du keinen Account.
-Klicke einfach oben links auf den Button "Export" und es erscheint auf der linken
+Klicke einfach oben links auf die Schaltfläche "Export" und es erscheint auf der linken
 Seite eine Sidebar. Nun siehst du dort die Bounding Box mit den Koordinaten.
 Die Bounding Box umfasst die ganze OSM-Karte, die gerade sichtbar ist. Die
 Koordinaten verändern sich, wenn du die Karte verschiebst oder rein- und rauszoomst.
@@ -477,7 +477,7 @@ rechten Seite in der Karte nach "Uster" zu suchen. Dann wird darauf gezoomt:
 .HOT-Export-Tool Uster
 image::osm_editieren/osm-daten_beziehen/hotosm_uster.PNG[]
 
-Sobald du das gemacht hast, kannst du auf den Button "Export erstellen"
+Sobald du das gemacht hast, kannst du auf die Schaltfläche "Export erstellen"
 klicken (siehe unten).
 
 .HOT-Export-Tool Tab 4 "Summary".
@@ -608,7 +608,7 @@ In diesem Fenster sieht man folgendes:
 
 * Felder: Eine Liste aller Attribute, welche der ausgewählte Layer beinhaltet
 * Werte: Die Werte auf dem ausgewählten Attribut die im Layer vorkommen
-(um einige Werte anzuzeigen, klicke auf den Knopf "Stichprobe")
+(um einige Werte anzuzeigen, klicke auf die Schaltfläche "Stichprobe")
 * Operatoren: Logische Operatoren zum Verknüpfen der Felder und Werte
 * Datenanbieter-spezifischer Filterausdruck: SQL-Ausdruck zum Filtern der
 Attribute und Werte

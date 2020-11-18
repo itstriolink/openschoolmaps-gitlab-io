@@ -60,7 +60,7 @@ Lies die Nachricht durch.
 
 .Die Webseite OpenStreetMap.org
 image::osm-org_als_kartenviewer/osm_homepage.PNG[]
-Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke den image:osm-org_als_kartenviewer/minus_button.PNG["Minus Button", 20 , 20]-Knopf. Was passiert?
+Am rechten Seitenrand sind einige dunkelgraue Knöpfe mit weissen Symbolen. Klicke die image:osm-org_als_kartenviewer/minus_button.PNG["Minus Schaltfläche", 20 , 20]-Schaltfläche. Was passiert?
 
 ====
 ifdef::show_solutions[]
@@ -82,7 +82,7 @@ ifndef::show_solutions[]
 endif::show_solutions[]
 ====
 
-Was denkst du, was der image:osm-org_als_kartenviewer/plus_button.PNG["Plus Button", 20 , 20]-Knopf macht? Probiere es aus!
+Was denkst du, was die image:osm-org_als_kartenviewer/plus_button.PNG["Plus Schaltfläche", 20 , 20]-Schaltfläche macht? Probiere es aus!
 
 ====
 ifdef::show_solutions[Zoomt "herein"]
@@ -276,7 +276,7 @@ endif::show_solutions[]
 
 === Legende
 
-Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf den image:osm-org_als_kartenviewer/info_button.PNG["Info Button", 20 , 20]-Knopf rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
+Um die Bedeutung verschiedener Linien-Farben und -Arten auf der Karte zu sehen, klicke auf die image:osm-org_als_kartenviewer/info_button.PNG["Info Schaltfläche", 20 , 20]-Schaltfläche rechts. Auch verschiedene Flächen-Arten und einige (nicht alle) Karten-Symbole werden dort aufgelistet.
 
 Je weiter du herein-zoomst, umso mehr Details werden auf der Karte dargestellt und umso länger wird auch diese Kartenlegende.
 

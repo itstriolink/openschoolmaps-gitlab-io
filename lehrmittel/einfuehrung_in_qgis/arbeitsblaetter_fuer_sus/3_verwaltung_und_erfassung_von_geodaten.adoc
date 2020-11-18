@@ -211,14 +211,14 @@ nochmals Kapitel 1 an.
 die Informationen im Textfile voneinander trennt (siehe Resultat der letzten
 Aufgabe).
 
-Klicke dann auf den … -Button und wähle die Textdatei _Hautporte.txt_ aus. Das
+Klicke dann auf die … -Schaltfläche und wähle die Textdatei _Hautporte.txt_ aus. Das
 Werkzeug trennt die Textdatei nun automatisch in verschiedene Felder auf, wobei
 das gewählte Trennzeichen den Ausschlag gibt, wo das neue Feld beginnt.
 
 Unter der Geometrie erscheint nun automatisch ein Vorschlag, welches Feld als
 X-Feld und welches als Y-Feld benutzt werden soll. Vergleiche den Vorschlag
 mit deinen Überlegungen. Falls du nicht einverstanden bist, ändere den
-Eintrag. Klicke anschliessend auf den _OK_-Button, um die Hauptorte im Projekt
+Eintrag. Klicke anschliessend auf die _OK_-Schaltfläche, um die Hauptorte im Projekt
 anzuzeigen.
 
 Um später auch räumliche Analysen mit dem neuen Layer Hauptorte durchführen zu
@@ -260,10 +260,10 @@ image::einfuehrung_in_qgis/qgis_layer_properties_kantonsgrenzen.PNG["Layer-Eigen
 ausgewählt ist. So gelangst du zu einer Maske, in welcher du mit wenigen
 Schritten die Füllfarbe und –art und die Umrandungsoptionen ändern kannst.
 Probiere diese Optionen aus und wähle für die Kantonsflächen eine hellgelbe
-Füllfarbe und eine orangefarbene Umrandung. Durch Klicken auf den
-_Anwenden_-Button kannst du deine Einstellungen schon mal im Kartenfenster
+Füllfarbe und eine orangefarbene Umrandung. Durch Klicken auf die
+_Anwenden_-Schaltfläche kannst du deine Einstellungen schon mal im Kartenfenster
 betrachten. Wenn du zufrieden bist, kannst du das Fenster durch Klicken auf
-den _OK_-Button schliessen.
+die _OK_-Schaltfläche schliessen.
 
 Die Seen sollen eine zweifarbige Füllung erhalten. Öffne dazu das Fenster mit
 dem Namen _Layereigenschaften_ für den Layer Seen.
@@ -271,7 +271,7 @@ dem Namen _Layereigenschaften_ für den Layer Seen.
 .Darstellungsoptionen des Layers Seen
 image::einfuehrung_in_qgis/qgis_layer_properties_seen.PNG["Layer-Eigenschaften Seen", 537, 359]
 
-Erstelle dazu durch Klicken auf den + -Button einen zweiten Symbollayer. Wähle
+Erstelle dazu durch Klicken auf die + -Schaltfläche einen zweiten Symbollayer. Wähle
 für den unteren Layer die Füllfarbe Hellblau und den Füllstil _Solid_ und für
 den oberen Layer als Füllfarbe ein dunkleres Blau als für den ersten Layer und
 als Füllstil die Option _Dense 4_. Die Randfarbe soll die gleiche sein wie die
@@ -306,14 +306,14 @@ werden: der _Lungernsee_ und der _Wägitalersee_.
 Um den Lungernsee zu erfassen, zoome in die Nähe von _Sarnen_. Der See
 zwischen _Giswil_, _Brienz_ und _Meiringen_ ist der _Lungernsee_. Um überhaupt
 Daten erfassen zu können, muss der Layer mit den Seen markiert werden und aus
-dem Werkzeugkasten _Digitalisierungswerkzeugleiste_ der Button
+dem Werkzeugkasten _Digitalisierungswerkzeugleiste_ die Schaltfläche
 _Bearbeitungsstatus umschalten_ ausgewählt werden. Das Gleiche geschieht mit
 Rechter-Mausklick auf den Layer und dann die Option _Bearbeitungsstatus
 umschalten_ wählen. Probiere beide Methoden mal aus und entscheide dich für
 eine, welche du in Zukunft verwenden möchtest.
 
-Die Buttons, welche für die Digitalisierung gebraucht werden können, werden
-nun aktiviert. Wähle den Button _Polygonobjekt hinzufügen_ und setze Punkte
+Die Schaltflächen, welche für die Digitalisierung gebraucht werden können, werden
+nun aktiviert. Wähle die Schaltfläche _Polygonobjekt hinzufügen_ und setze Punkte
 entlang der hellblauen Linie des Uferbereiches auf der Karte ab. Um die Fläche
 zu schliessen, drücke die rechte Maustaste. Es erscheint automatisch ein
 Fenster, in welchem die Attribute eingegeben werden können. Gib folgende Werte

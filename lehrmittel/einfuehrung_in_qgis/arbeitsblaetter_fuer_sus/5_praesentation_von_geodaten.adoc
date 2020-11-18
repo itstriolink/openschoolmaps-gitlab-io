@@ -295,17 +295,17 @@ Somit sind die allgemeinen Einstellungen gemacht und es kann mit der
 Kartengestaltung begonnen werden.
 
 Als erstes sollen die Layer in der Karte dargestellt werden. Klicke dazu auf
-den Button _Karte zum Layout hinzufügen_ und ziehe einen Rahmen in der Grösse
+die Schaltfläche _Karte zum Layout hinzufügen_ und ziehe einen Rahmen in der Grösse
 auf, wie du es in deinem Kartenentwurf vorgesehen hast. Es erscheinen nun der
 Kartenausschnitt und diejenigen Layer, die du zu Beginn der Übung gewählt hast.
 
-Mit Hilfe des Buttons _Eintrag wählen/verschieben_ kann die neue Karte
+Mit Hilfe der Schaltfläche _Eintrag wählen/verschieben_ kann die neue Karte
 ausgewählt und die Grösse durch Klicken auf den Rand verändert werden.
 Zusätzlich kann diese auch in der Druckzusammenstellung verschoben werden. Die
 Grösse kann auch im Reiter _Elementeigenschaften_ unter _Position und Grösse_
 durch die Eingabe von _Breite_ und _Höhe_ bestimmt werden.
 
-Mit Hilfe des Buttons _Elementinhalt verschieben_ kann der Inhalt der Karte
+Mit Hilfe der Schaltfläche _Elementinhalt verschieben_ kann der Inhalt der Karte
 verschoben werden. Unter dem Reiter _Elementeigenschaften_ unter
 _Haupteigenschaften_ können zudem noch der Massstab (_Massstab_) und der
 Drehwinkel (_Kartendrehung_) der Karte eingestellt werden. Falls die
@@ -321,11 +321,11 @@ Unter _Rahmen_ kannst du bestimmen, ob der Rahmen um das Kartenelement
 angezeigt werden soll und falls ja, in welcher Farbe und welcher Strichstärke.
 
 Gestalte dein Kartenelement mit den beschriebenen Möglichkeiten. Wenn du mit
-deinem Resultat zufrieden bist, kannst du durch Klicken des _Projekt speichern_
--Buttons deine Einstellungen sichern.
+deinem Resultat zufrieden bist, kannst du durch Klicken der _Projekt speichern_
+-Schaltfläche deine Einstellungen sichern.
 
 Füge anschliessend die weiteren Kartenelemente hinzu, die du auf deinem
-Entwurf hast. Die Buttons dazu findest du in der Werkzeugleiste. Wenn ein
+Entwurf hast. Die Schaltflächen dazu findest du in der Werkzeugleiste. Wenn ein
 Element hinzugefügt wurde, kannst du jeweils unter dem Reiter _Elementeigenschaften_
 diese Elemente noch anpassen.
 
@@ -345,7 +345,7 @@ gut geeignet. Oft werden aber immer noch gedruckte Pläne verwendet. Deshalb
 hast du in der Maske _Druckerzusammenstellung_ auch diese Möglichkeit.
 
 Im Rahmen dieser Übung soll ein Plan in Form eines __PDF__s erstellt werden.
-Klicke deshalb auf den Button _Export as PDF_, wähle den Speicherort aus und
+Klicke deshalb auf die Schaltfläche _Export as PDF_, wähle den Speicherort aus und
 starte die Erstellung des PDFs. Falls in der Karte auch ein _WMS_-Service
 enthalten ist, der abgespeichert werden soll, so muss je nach verwendeter
 Zoomstufe vor der Erstellung des _PDF_ unter _Exporteinstellungen_ im Reiter
