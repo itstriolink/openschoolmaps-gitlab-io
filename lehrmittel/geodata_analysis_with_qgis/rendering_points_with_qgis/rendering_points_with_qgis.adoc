@@ -1,7 +1,7 @@
 = Rendering Points: Displaying Points by Displacement as Point Cluster and as Heatmap
 OpenSchoolMaps.ch -- Free learning materials on free geodata and maps
 :xrefstyle: short
-:imagesdir: ../../../bilder/
+:imagesdir: ../../../bilder/rendering_points_with_qgis/
 :experimental:
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
@@ -26,7 +26,7 @@ After completing this worksheet, you will be able to:
 A lot of real world objects can be displayed as points. These points are solo objects in the world that have a coordinate (usually lat/lon). It is possible to distinguish and identify a point solely by it's latitude and longitude, but we can not say the same for other types of objects as they can consist multiple points (which all have their own coordinate). (TBC)
 
 .A points layer in QGIS
-image::rendering_points_mit_qgis/qgis_points.png[QGIS and a points layer, 550]
+image::qgis_points.png[QGIS and a points layer, 550]
 
 === Points in the real world
 In this worksheet, we took a special example of all the historical sites in Switzerland such as: castles, towers, archeological sites, forts etc. This is a neat example to demonstrate what points are and what rendering techniques can be used to overcome specific challenges that they can pose. 
@@ -38,7 +38,7 @@ This data is taken directly from OpenStreetMap and all of the tags of the found 
 A _.geojson_ file looks something like this:
 
 .A .geojson file example
-image::rendering_points_mit_qgis/geojson_example.png[A .geojson file example, 550]
+image::geojson_example.png[A .geojson file example, 550]
 
 More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
@@ -65,7 +65,7 @@ Suppose we have a lot of points within a map layer. If we zoom out the map layer
 Here's how some points look after applying the point displacement rendering technique: 
 
 .Castles of Switzerland after applying the point displacement rendering technique
-image::rendering_points_mit_qgis/point_displacement_map.png[Point displacement technique, 550]
+image::point_displacement_map.png[Point displacement technique, 550]
 
 With point displacement renderer, few options are displayed.
 With these options, we can decide the:
@@ -78,7 +78,7 @@ With these options, we can decide the:
 * Labels etc.
 
 .Point displacement options offered by QGIS
-image::rendering_points_mit_qgis/point_displacement_options.png[Point displacement options, 550]
+image::point_displacement_options.png[Point displacement options, 550]
 
 === Generating Heatmaps
 Another important rendering technique is rendering points as a heatmap. This technique is one of the best visualization tools for dense point data. It is useful in determining the density of the input objects. A heatmap rendering technique is most useful when we want to identify clusters of points where there's a high density. They can be useful for a lot of scenarios such as: finding hotspots of crime, traffic incidents, housing density, other types of crime data etc.
@@ -88,7 +88,7 @@ We will be using the same map features as before to demonstrate the heatmap rend
 This is a heatmap generated in QGIS using the castles and towers of Switzerland map features:
 
 .Heatmap generated from the map features
-image::rendering_points_mit_qgis/heatmap_generation_map.png[Heatmap generation technique, 550]
+image::heatmap_generation_map.png[Heatmap generation technique, 550]
 
 After generating the heatmap, a few options are displayed in QGIS.
 These options allow us to set the: 
@@ -99,7 +99,7 @@ These options allow us to set the:
 * How to weigh points etc.
 
 .Heatmap generation options offered by QGIS
-image::rendering_points_mit_qgis/heatmap_generation_options.png[Heatmap generation options, 550]
+image::heatmap_generation_options.png[Heatmap generation options, 550]
 
 
 == Exercises (TBC)
