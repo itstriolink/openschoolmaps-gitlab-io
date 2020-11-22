@@ -65,7 +65,7 @@ Suppose we have a lot of points within a map layer. If we zoom out the map layer
 Here's how some points look after applying the point displacement rendering technique: 
 
 .Castles of Switzerland after applying the point displacement rendering technique
-image::point_displacement_map.png[Point displacement technique, 550]
+image::point_displacement_map.PNG[Point displacement technique, 550]
 
 With point displacement renderer, few options are displayed.
 With these options, we can decide the:
