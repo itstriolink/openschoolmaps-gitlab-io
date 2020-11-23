@@ -74,7 +74,7 @@ Here's how some points look after applying the point displacement rendering tech
 image::point_displacement_map.PNG[Point displacement technique, 550]
 
 .An example of how overlapping points are rendered with a center symbol after using points displacement
-image::point_displacement_example.png[Point displacement example, 550] 
+image::point_displacement_example.png[Point displacement example, 150] 
 
 
 The point displacement renderer also offers us a few options. +
