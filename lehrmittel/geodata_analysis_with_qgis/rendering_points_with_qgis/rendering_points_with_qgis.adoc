@@ -7,7 +7,6 @@ include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 *A worksheet*
-ifdef::show_solutions[- *LÖSUNGEN*]
 
 NOTE: In this worksheet you will learn how to use different point rendering techniques of QGIS to overcome problems that points can pose.
 
@@ -39,7 +38,7 @@ This worksheet includes:
 * Generating Heatmaps from points
 
 .A points layer on top of a map in QGIS
-image::qgis_points.png[QGIS and a points layer, 550]
+image::qgis_points.png[QGIS and a points layer]
 
 == Prerequisites
 In order to understand and complete this worksheet, you need the following prerequisites:
@@ -105,7 +104,7 @@ Suppose we have a lot of points within a map layer. If we zoom out the map layer
 Here's how some points look after applying the point displacement rendering technique: 
 
 .Castles of Switzerland after applying the point displacement rendering technique
-image::point_displacement_map.PNG[Point displacement technique, 550]
+image::point_displacement_map.PNG[Point displacement technique]
 
 .An example of how overlapping points are rendered with a center symbol after using points displacement
 image::point_displacement_example.png[Point displacement example, 150] 
@@ -132,7 +131,7 @@ We will be using the same map features as before to demonstrate the heatmap rend
 This is a heatmap generated in QGIS using the castles and towers of Switzerland map features:
 
 .Heatmap generated from the map features
-image::heatmap_generation_map.png[Heatmap generation technique, 550]
+image::heatmap_generation_map.png[Heatmap generation technique]
 
 After generating the heatmap, a few options are displayed in QGIS.
 These options allow us to set the: 
