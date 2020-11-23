@@ -33,7 +33,7 @@ This worksheet includes:
 * Point Displacement Renderer
 * Generating Heatmaps from points
 
-.A points layer in QGIS
+.A points layer on top of a map in QGIS
 image::qgis_points.png[QGIS and a points layer, 550]
 
 == Prerequisites
@@ -52,9 +52,41 @@ This data is taken directly from OpenStreetMap and all of the tags of the found 
 
 A _.geojson_ file looks something like this:
 
-.A .geojson file example
-image::geojson_example.png[A .geojson file example, 550]
-
+[source, json]
+----
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo (CH)",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "66536",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1167735",
+        "building": "yes",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Château d'Yverdon",
+        "type": "multipolygon",
+        "website": "https://www.yverdonlesbainsregion.ch/de/P944/schloss-von-yverdon-les-bains",
+        "wikidata": "Q683081",
+        "wikipedia": "de:Schloss Yverdon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6414958,
+          46.7782205
+        ]
+      },
+      "id": "relation/1167735"
+    },
+    {
+      "type": "Feature"...
+----
 More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
 == Point Rendering Techniques
