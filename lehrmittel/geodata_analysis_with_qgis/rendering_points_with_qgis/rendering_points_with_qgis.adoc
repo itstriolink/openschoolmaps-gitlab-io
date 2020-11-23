@@ -155,3 +155,6 @@ image::heatmap_generation_options.png[Heatmap generation options, 350]
 With this worksheet, you have learned how points look like in the map and how we can use different point rendering techniques to tackle specific problems that points can pose.
 
 Every one of the point rendering techniques solves specific problems, there is no point rendering techniques that solves all of the point problems. This means that you should choose carefully which technique you decide to use to tackle a problem.
+
+== Outlook (TBC)
+...
