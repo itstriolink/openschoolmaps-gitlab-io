@@ -6,6 +6,11 @@ OpenSchoolMaps.ch -- Free learning materials on free geodata and maps
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
+*A worksheet*
+ifdef::show_solutions[- *LÖSUNGEN*]
+
+NOTE: In this worksheet you will learn how to use different point rendering techniques of QGIS to overcome problems that points can pose.
+
 == Objectives
 
 This worksheet shows how you can use specific point rendering techniques in order to overcome map challenges involving points. We will be using different point renderers offered by QGIS in order to demonstrate how such challenges can be obstacled. (TBC)
@@ -87,7 +92,7 @@ A _.geojson_ file looks something like this:
     {
       "type": "Feature"...
 ----
-More information on the _.geojson_ file extension can be found here: https://geojson.org/
+IMPORTANT: More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
 == Point Rendering Techniques
 === Point Displacement Renderer
