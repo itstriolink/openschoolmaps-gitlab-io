@@ -6,8 +6,6 @@ OpenSchoolMaps.ch -- Free learning materials on free geodata and maps
 include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
-*A worksheet*
-
 NOTE: In this worksheet you will learn how to use different point rendering techniques of QGIS to overcome problems that points can pose.
 
 == Objectives
@@ -107,7 +105,7 @@ Here's how some points look after applying the point displacement rendering tech
 image::point_displacement_map.PNG[Point displacement technique]
 
 .An example of how overlapping points are rendered with a center symbol after using points displacement
-image::point_displacement_example.png[Point displacement example, 150] 
+image::point_displacement_example.png[Point displacement example, 250] 
 
 
 The point displacement renderer also offers us a few options. +
@@ -121,7 +119,7 @@ With these options, we can set the:
 * Labels etc.
 
 .Point displacement options offered by QGIS
-image::point_displacement_options.png[Point displacement options, 250] 
+image::point_displacement_options.png[Point displacement options, 350] 
 
 === Generating Heatmaps
 Another important rendering technique is rendering points as a heatmap. This technique is one of the best visualization tools for dense point data. It is useful in determining the density of the input objects. A heatmap rendering technique is most useful when we want to identify clusters of points where there's a high density. They can be useful for a lot of scenarios such as: finding hotspots of crime, traffic incidents, housing density, other types of crime data etc.
