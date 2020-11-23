@@ -25,6 +25,8 @@ After completing this worksheet, you will be able to:
 == Introduction
 Anything in the real world can be displayed as a point, however, points can pose a lot of challenges. These challenges must be tackled somehow, using specific techniques and renderers. In this worksheet, we will be describing and explaining some of the QGIS renderers that solve specific problems of points.
 
+In this worksheet, we took a special example of all the historical sites in Switzerland such as: castles, towers, archeological sites, forts etc. This is a neat example to demonstrate what points are and what rendering techniques can be used to overcome specific challenges that they can pose. 
+
 This worksheet includes:
 
 * What are points and what problems can they pose?
@@ -34,9 +36,16 @@ This worksheet includes:
 .A points layer in QGIS
 image::qgis_points.png[QGIS and a points layer, 550]
 
-=== Data
-In this worksheet, we took a special example of all the historical sites in Switzerland such as: castles, towers, archeological sites, forts etc. This is a neat example to demonstrate what points are and what rendering techniques can be used to overcome specific challenges that they can pose. 
+== Prerequisites
+In order to understand and complete this worksheet, you need the following prerequisites:
 
+* QGIS environment (tested with QGIS 3.10.1-A Coruña)
+* Data:
+** `castles.geojson` file
+
+After that has been achieved, we will load the necessary data into QGIS and start using and explaining some of the point rendering techniques offered by QGIS.
+
+=== Data
 The geodata used for this worksheet is in the _.geojson_ format and it's taken from the OSM overpass web tool (_overpass-turbo.osm.ch_), which is a very straightforward process for retrieving these types of data.
 
 This data is taken directly from OpenStreetMap and all of the tags of the found objects is also copied to the file, including the coordinates for that OpenStreetMap object. QGIS is able to read _.geojson_ files and process them into the map. 
@@ -48,19 +57,7 @@ image::geojson_example.png[A .geojson file example, 550]
 
 More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
-== Prerequisites and Rendering Techniques
-In this chapter, we will be discussing some of the point rendering techniques offered by QGIS that can tackle problems with points. (TBC)
-
-=== Prerequisites
-In order to understand and complete this worksheet, you need the following prerequisites:
-
-* QGIS environment (tested with QGIS 3.10.1-A Coruña)
-* Data:
-** `castles.geojson` file
-
-
-After that has been achieved, we will load the necessary data into QGIS and start using and explaining some of the point rendering techniques offered by QGIS.
-
+== Point Rendering Techniques
 === Point Displacement Renderer
 One of the key point rendering techniques is called as per QGIS: _Point Displacement Renderer_. This rendering technique allows you to cartographically shift overlapping points.
 
