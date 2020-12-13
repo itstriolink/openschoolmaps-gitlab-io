@@ -54,7 +54,7 @@ The geodata used for this worksheet is in the _.geojson_ format and it's taken f
 
 This data is taken directly from OpenStreetMap and all of the tags of the found objects is also copied to the file, including the coordinates for that OpenStreetMap object. QGIS is able to read _.geojson_ files and process them into the map. 
 
-NOTE: To view the query for the OSM data in the _.geojson_ file using Overpass Turbo, you can just use the following link: https://osm.li/3FH
+IMPORTANT: To view the query for the OSM data in the _.geojson_ file using Overpass Turbo, you can use the following link: https://osm.li/3FH
 
 A _.geojson_ file looks something like this:
 
