@@ -173,7 +173,7 @@ image::heatmap_generation_options.png[Heatmap generation options, 350]
 === Preparation: Requirements before starting the exercises (TBC)
 1. Where and how to get the data (castles.geojson)...?
 2. How to load the data in QGIS (castles.geojson)...?
-3. How to save it as a project and move on to exercises(castles_towers_CH.qgz)...?
+3. How to save it as a project and move on to exercises (castles_towers_CH.qgz)...?
 
 === Exercise 1: Using the point cluster renderer (TBC)
 === Exercise 2: Using the point displacement renderer (TBC)
