@@ -10,19 +10,20 @@ NOTE: In this worksheet you will learn how to use different point rendering tech
 
 == Objectives
 
-This worksheet shows how you can use specific point rendering techniques in order to overcome map challenges involving points. We will be using different point renderers offered by QGIS in order to demonstrate how such challenges can be obstacled. (TBC)
+This worksheet shows how you can use specific point rendering techniques in order to overcome map challenges involving points. We will be using different point renderers offered by QGIS in order to demonstrate how such challenges can be obstacled.
 
 This exercise will be using data consisting of the castles of Switzerland (archeological sites, fortifications, towers inc.) in order to demonstrate some point rendering techniques. +
-It will be using only a few of the QGIS point rendering techniques: 
+It will be explaining and demonstrating some of the key QGIS point rendering techniques: 
 
-* Using the Point Displacement Renderer and 
+* Using the Point Cluster Renderer
+* Using the Point Displacement Renderer 
 * Generating Heatmaps
 
 After completing this worksheet, you will be able to:
 
 * Understand what challenges points can pose and how to overcome those challenges
 * Use key point rendering techniques efficiently using QGIS
-* (TBC) ...
+* Understand which point rendering techniques solve which problems
 
 == Introduction
 Anything in the real world can be displayed as a point, however, points can pose a lot of challenges. These challenges must be tackled somehow, using specific techniques and renderers. In this worksheet, we will be describing and explaining some of the QGIS renderers that solve specific problems of points.
@@ -32,6 +33,7 @@ In this worksheet, we took a special example of all the historical sites in Swit
 This worksheet includes:
 
 * What are points and what problems can they pose?
+* Point Cluster Renderer
 * Point Displacement Renderer
 * Generating Heatmaps from points
 
@@ -94,8 +96,30 @@ A _.geojson_ file looks something like this:
 NOTE: More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
 == Point Rendering Techniques
+=== Point Cluster Renderer
+One of the most important point rendering techniques is: _Point Cluster Renderer_. What this technique does is replace the points that are close to each other with a single symbol. The parameter for defining how close the points should be to be converted to a cluster can be tweaked.
+
+This allows us to view a lot of points in a neater way. Depending on the nature of the objects in the map, clustering can help us distinguish the points locations in a more elegant and "explanatory" way.
+
+Clustering is a very familiar concept in data and is widely used in maps, machine learning algorithms, data visualization etc.
+
+
+Here's how some points look after applying the point displacement rendering technique: 
+
+.Castles of Switzerland after applying the point cluster rendering technique
+image::point_cluster_map.png[Point Cluster technique]
+
+QGIS also offers us a few options for this rendering technique. These allow us to modify the:
+
+* Cluster symbol
+* Distance for triggering the clustering
+* Renderer type etc.
+
+.Point cluster options offered by QGIS
+image::point_cluster_options.png[Point cluster options, 350] 
+
 === Point Displacement Renderer
-One of the key point rendering techniques is called as per QGIS: _Point Displacement Renderer_. This rendering technique allows you to cartographically shift overlapping points.
+Another important point rendering technique is called: _Point Displacement Renderer_. This rendering technique allows you to cartographically shift overlapping points.
 
 What this rendering technique actually does is just move all of the overlapping points in the map view so that they can all become visible.
 
@@ -151,14 +175,13 @@ image::heatmap_generation_options.png[Heatmap generation options, 350]
 2. How to load the data in QGIS (castles.geojson)...?
 3. How to save it as a project and move on to exercises(castles_towers_CH.qgz)...?
 
-=== Exercise 1: Using the point displacement renderer (TBC)
+=== Exercise 1: Using the point cluster renderer (TBC)
+=== Exercise 2: Using the point displacement renderer (TBC)
+=== Exercise 3: Generating heatmaps (TBC)
 
-=== Exercise 2: Generating heatmaps (TBC)
-
-== Conclusion (TBC)
+== Conclusion 
 With this worksheet, you have learned how points look like in the map and how we can use different point rendering techniques to tackle specific problems that points can pose.
 
-Every one of the point rendering techniques solves specific problems, there is no point rendering techniques that solves all of the point problems. This means that you should choose carefully which technique you decide to use to tackle a problem.
+Every one of the point rendering techniques solves a specific set problems, there is no point rendering techniques that solves all of the point problems (No Free Lunch Theorem). This means that you should carefully choose which technique you decide to use to tackle point problems.
 
-== Outlook (TBC)
-...
+More questions? Contact OpenStreetMap Switzerland (info@osm.ch) or directly Prof. Stefan Keller (stefan.keller@ost.ch)!
