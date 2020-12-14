@@ -94,6 +94,8 @@ A _.geojson_ file looks something like this:
 ----
 NOTE: More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
+<<< 
+
 == Point Rendering Techniques
 === Point Cluster Renderer
 One of the most important point rendering techniques is: _Point Cluster Renderer_. What this technique does is replace the points that are close to each other with a single symbol. The parameter for defining how close the points should be to be converted to a cluster can be tweaked.
@@ -167,6 +169,7 @@ These options allow us to set the:
 .Heatmap generation options offered by QGIS
 image::heatmap_generation_options.png[Heatmap generation options, 350]
 
+<<<
 
 == Exercises (TBC)
 === Preparation: Requirements before starting the exercises (TBC)
