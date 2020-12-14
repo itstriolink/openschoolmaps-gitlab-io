@@ -59,38 +59,7 @@ A _.geojson_ file looks something like this:
 
 [source, json]
 ----
-{
-  "type": "FeatureCollection",
-  "generator": "overpass-turbo (CH)",
-  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "66536",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "relation/1167735",
-        "building": "yes",
-        "castle_type": "defensive",
-        "historic": "castle",
-        "historic:civilization": "medieval",
-        "name": "Château d'Yverdon",
-        "type": "multipolygon",
-        "website": "https://www.yverdonlesbainsregion.ch/de/P944/schloss-von-yverdon-les-bains",
-        "wikidata": "Q683081",
-        "wikipedia": "de:Schloss Yverdon",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6414958,
-          46.7782205
-        ]
-      },
-      "id": "relation/1167735"
-    },
-    {
-      "type": "Feature"...
+include::data/castles.geojson[lines=5..35]
 ----
 NOTE: More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
