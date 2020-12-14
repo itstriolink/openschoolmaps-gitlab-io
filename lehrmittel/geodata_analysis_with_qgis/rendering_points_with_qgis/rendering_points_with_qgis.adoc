@@ -1,4 +1,4 @@
-= Rendering Points: Displaying Points as a Point Cluster, by Displacement and as Heatmap
+= Rendering Points: Displaying Points as Point Cluster, by Displacement and as Heatmap
 OpenSchoolMaps.ch -- Free learning materials on free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/rendering_points_with_qgis/
