@@ -1,16 +1,15 @@
-= Rendering Points: Displaying Points by Displacement as Point Cluster and as Heatmap
+= Rendering Points: Displaying Points as a Point Cluster, by Displacement and as Heatmap
 OpenSchoolMaps.ch -- Free learning materials on free geodata and maps
 :xrefstyle: short
 :imagesdir: ../../../bilder/rendering_points_with_qgis/
 :experimental:
-include::../../../snippets/lang/de.adoc[]
 include::../../../snippets/suppress_title_page.adoc[]
 
 NOTE: In this worksheet you will learn how to use different point rendering techniques of QGIS to overcome problems that points can pose.
 
 == Objectives
 
-This worksheet shows how you can use specific point rendering techniques in order to overcome map challenges involving points. We will be using different point renderers offered by QGIS in order to demonstrate how such challenges can be obstacled.
+This worksheet shows how you can use specific point rendering techniques in order to overcome various map challenges taht involve points. We will be using different point renderers offered by QGIS in order to demonstrate how such challenges can be obstacled.
 
 This exercise will be using data consisting of the castles of Switzerland (archeological sites, fortifications, towers inc.) in order to demonstrate some point rendering techniques. +
 It will be explaining and demonstrating some of the key QGIS point rendering techniques: 
@@ -26,9 +25,9 @@ After completing this worksheet, you will be able to:
 * Understand which point rendering techniques solve which problems
 
 == Introduction
-Anything in the real world can be displayed as a point, however, points can pose a lot of challenges. These challenges must be tackled somehow, using specific techniques and renderers. In this worksheet, we will be describing and explaining some of the QGIS renderers that solve specific problems of points.
+Anything in the real world can be displayed as a point, however, points can pose a lot of challenges. These challenges can be of different natures and must be tackled somehow by using specific techniques and renderers. In this worksheet, we will be describing and explaining some of the key QGIS renderers that solve a major set of point challenges.
 
-In this worksheet, we took a special example of all the historical sites in Switzerland such as: castles, towers, archeological sites, forts etc. This is a neat example to demonstrate what points are and what rendering techniques can be used to overcome specific challenges that they can pose. 
+In this worksheet, we took a special example of all the historical sites in Switzerland such as: castles, towers, archeological sites, forts etc. This is a neat example to demonstrate what points are and what rendering techniques can be used to overcome the problems that they can possess.
 
 This worksheet includes:
 
@@ -37,7 +36,7 @@ This worksheet includes:
 * Point Displacement Renderer
 * Generating Heatmaps from points
 
-.A points layer on top of a map in QGIS
+.A set(layer) of points on top of a map in QGIS
 image::qgis_points.png[QGIS and a points layer]
 
 == Prerequisites
@@ -47,10 +46,10 @@ In order to understand and complete this worksheet, you need the following prere
 * Data:
 ** `castles.geojson` file
 
-After that has been achieved, we will load the necessary data into QGIS and start using and explaining some of the point rendering techniques offered by QGIS.
+After that's in place, we will load the necessary data into QGIS and start using and explaining some of the point rendering techniques offered by QGIS.
 
 === Data
-The geodata used for this worksheet is in the _.geojson_ format and it's taken from the OSM overpass web tool (_overpass-turbo.osm.ch_), which is a very straightforward process for retrieving these types of data.
+The geodata used for this worksheet is in the _.geojson_ format and it's taken from the OSM overpass web tool (_overpass-turbo.osm.ch_), which is a very straightforward process for retrieving these types of geodata.
 
 This data is taken directly from OpenStreetMap and all of the tags of the found objects is also copied to the file, including the coordinates for that OpenStreetMap object. QGIS is able to read _.geojson_ files and process them into the map. 
 
@@ -184,4 +183,5 @@ With this worksheet, you have learned how points look like in the map and how we
 
 Every one of the point rendering techniques solves a specific set problems, there is no point rendering techniques that solves all of the point problems (No Free Lunch Theorem). This means that you should carefully choose which technique you decide to use to tackle point problems.
 
+== Notes
 More questions? Contact OpenStreetMap Switzerland (info@osm.ch) or Stefan Keller (stefan.keller@ost.ch)!
