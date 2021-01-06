@@ -119,6 +119,8 @@ These options allow us to set the:
 .Heatmap generation options offered by QGIS
 image::heatmap_generation_options.png[Heatmap generation options, 350]
 
+<<< 
+    
 === Bonus: Point Displacement Renderer
 Another important point rendering technique is called: _Point Displacement Renderer_. This rendering technique allows you to cartographically shift overlapping points.
 
@@ -176,7 +178,7 @@ Some other data sets that can be used to demonstrate how points work and also th
 IMPORTANT: All of the above data sets can also be exported into _.geojson_ files using the _Export_ button in _Overpass Turbo_. They can then be loaded into QGIS using drag and drop.
 
 <<<
-    
+
 == Conclusion 
 With this worksheet, you have learned how points look like in the map and how we can use different point rendering techniques to tackle specific problems that points can pose.
 
