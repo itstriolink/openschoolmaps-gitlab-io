@@ -9,14 +9,14 @@ NOTE: In this worksheet you will learn how to use different point rendering tech
 
 == Objectives
 
-This worksheet shows how you can use specific point rendering techniques in order to overcome various map challenges taht involve points. We will be using different point renderers offered by QGIS in order to demonstrate how such challenges can be obstacled.
+This worksheet shows how you can use specific point rendering techniques in order to overcome various map challenges that involve points. We will be using different point renderers offered by QGIS in order to demonstrate how such challenges can be obstacled.
 
 This exercise will be using data consisting of the castles of Switzerland (archeological sites, fortifications, towers inc.) in order to demonstrate some point rendering techniques. +
 It will be explaining and demonstrating some of the key QGIS point rendering techniques: 
 
 * Using the Point Cluster Renderer
-* Using the Point Displacement Renderer 
 * Generating Heatmaps
+* Using the Point Displacement Renderer 
 
 After completing this worksheet, you will be able to:
 
@@ -25,7 +25,7 @@ After completing this worksheet, you will be able to:
 * Understand which point rendering techniques solve which problems
 
 == Introduction
-Anything in the real world can be displayed as a point, however, points can pose a lot of challenges. These challenges can be of different natures and must be tackled somehow by using specific techniques and renderers. In this worksheet, we will be describing and explaining some of the key QGIS renderers that solve a major set of point challenges.
+Most objects in the real world can be displayed as points, however, points can pose a lot of challenges. These challenges can be of different natures and must be tackled somehow by using specific techniques and renderers. In this worksheet, we will be describing and explaining some of the key QGIS renderers that solve a major set of point challenges.
 
 In this worksheet, we took a special example of all the historical sites in Switzerland such as: castles, towers, archeological sites, forts etc. This is a neat example to demonstrate what points are and what rendering techniques can be used to overcome the problems that they can possess.
 
@@ -33,8 +33,8 @@ This worksheet includes:
 
 * What are points and what problems can they pose?
 * Point Cluster Renderer
-* Point Displacement Renderer
 * Generating Heatmaps from points
+* Point Displacement Renderer
 
 .A set(layer) of points on top of a map in QGIS
 image::qgis_points.png[QGIS and a points layer]
@@ -63,9 +63,17 @@ include::data/castles.geojson[lines=5..35]
 ----
 NOTE: More information on the _.geojson_ file extension can be found here: https://geojson.org/
 
-<<< 
+=== Setting Up
+This worksheet uses the _learn as you go_ technique for teaching, therefore, everything needs to be correctly set up before proceeding to the worksheet's main portion.
+
+For setting up the environment and QGIS, you need to:
+
+1. Open QGIS and make sure that no existing project is open. 
+2. Load the _castles.geojson_ file (or export it manually using overpass turbo: https://osm.li/3FH) into QGIS using the drag and drop technique.
+3. Choose a map background layer so that we can see where the points are located in the world map and you are ready to go!
 
 == Point Rendering Techniques
+QGIS offers some very useful point rendering techniques. Such techniques are mainly used for dealing with limited space on screen and for allowing us to distinguish different points between each other in small spaces. They are also used for letting us know which areas are more frequented than others, which are more active etc.
 === Point Cluster Renderer
 One of the most important point rendering techniques is: _Point Cluster Renderer_. What this technique does is replace the points that are close to each other with a single symbol. The parameter for defining how close the points should be to be converted to a cluster can be tweaked.
 
@@ -73,6 +81,7 @@ This allows us to view a lot of points in a neater way. Depending on the nature 
 
 Clustering is a very familiar concept in data and is widely used in maps, machine learning algorithms, data visualization etc.
 
+NOTE: Play around with the _distance_ parameter in the QGIS rendering options and see what difference it makes.
 
 Here's how some points look after applying the point displacement rendering technique: 
 
@@ -88,7 +97,30 @@ QGIS also offers us a few options for this rendering technique. These allow us t
 .Point cluster options offered by QGIS
 image::point_cluster_options.png[Point cluster options, 350] 
 
-=== Point Displacement Renderer
+=== Generating Heatmaps
+Another important rendering technique is rendering points as a heatmap. This technique is one of the best visualization tools for dense point data. It is useful in determining the density of the input objects. A heatmap rendering technique is most useful when we want to identify clusters of points where there's a high density. They can be useful for a lot of scenarios such as: finding hotspots of crime, traffic incidents, housing density, other types of crime data etc.
+
+We will be using the same map features as before to demonstrate the heatmap rendering technique (castles and towers of Switzerland).
+
+NOTE: Play around with the _radius_ parameter in the QGIS rendering options and see what difference it makes.
+
+This is a heatmap generated in QGIS using the castles and towers of Switzerland map features:
+
+.Heatmap generated from the map features
+image::heatmap_generation_map.png[Heatmap generation technique]
+
+After generating the heatmap, a few options are displayed in QGIS.
+These options allow us to set the: 
+
+* Color of the heatmap and of the background
+* Quality of the heatmap rendering
+* Maximum value
+* How to weigh points etc.
+
+.Heatmap generation options offered by QGIS
+image::heatmap_generation_options.png[Heatmap generation options, 350]
+
+=== Bonus: Point Displacement Renderer
 Another important point rendering technique is called: _Point Displacement Renderer_. This rendering technique allows you to cartographically shift overlapping points.
 
 What this rendering technique actually does is just move all of the overlapping points in the map view so that they can all become visible.
@@ -117,38 +149,34 @@ With these options, we can set the:
 .Point displacement options offered by QGIS
 image::point_displacement_options.png[Point displacement options, 350] 
 
-=== Generating Heatmaps
-Another important rendering technique is rendering points as a heatmap. This technique is one of the best visualization tools for dense point data. It is useful in determining the density of the input objects. A heatmap rendering technique is most useful when we want to identify clusters of points where there's a high density. They can be useful for a lot of scenarios such as: finding hotspots of crime, traffic incidents, housing density, other types of crime data etc.
-
-We will be using the same map features as before to demonstrate the heatmap rendering technique (castles and towers of Switzerland).
-
-This is a heatmap generated in QGIS using the castles and towers of Switzerland map features:
-
-.Heatmap generated from the map features
-image::heatmap_generation_map.png[Heatmap generation technique]
-
-After generating the heatmap, a few options are displayed in QGIS.
-These options allow us to set the: 
-
-* Color of the heatmap and of the background
-* Quality of the heatmap rendering
-* Maximum value
-* How to weigh points etc.
-
-.Heatmap generation options offered by QGIS
-image::heatmap_generation_options.png[Heatmap generation options, 350]
-
 <<<
 
-== Exercises (TBC)
-=== Preparation: Requirements before starting the exercises (TBC)
-1. Where and how to get the data (castles.geojson)...?
-2. How to load the data in QGIS (castles.geojson)...?
-3. How to save it as a project and move on to exercises (castles_towers_CH.qgz)...?
+== Exercises
+In the exercise section, we are going to use a different set of data in order for you to get a better understanding on how points work and how these rendering techniques can help to tackle some point problems.
 
-=== Exercise 1: Using the point cluster renderer (TBC)
-=== Exercise 2: Using the point displacement renderer (TBC)
-=== Exercise 3: Generating heatmaps (TBC)
+We are going to use table tennis data from all over Switzerland.
+
+=== Preparation: Requirements before starting the exercises
+1. Create a new empty QGIS project.
+2. Load the _table_tennis.geojson_ file (or export it manually using overpass turbo: https://osm.li/5XH) into QGIS using the drag and drop technique.
+3. Choose a map background layer so that we can see where the points are located in the world map.
+
+=== Exercise
+Play around with all of the point rendering techniques mentioned in the main portion of the worksheet and answer the following questions: 
+
+1. Find out clusters of table tennis areas in Switzerland.
+2. Generate a heatmap in order to find out the hotspots of table tennis pitches around Switzerland.
+3. Find out which city of Switzerland is mostly crowded with table tennis pitches.
+
+== Other data sets
+Some other data sets that can be used to demonstrate how points work and also the different QGIS point rendering techniques:
+
+* Soccer pitches in Switzerland: https://osm.li/BYH
+* Basketball courts in Switzerland: https://osm.li/CYH
+* Night clubs in Switzerland: https://osm.li/DYH
+* Tourist attractions in Switzerland: https://osm.li/GYH
+
+IMPORTANT: All of the above data sets can also be exported into _.geojson_ files using the _Export_ button in _Overpass Turbo_. They can then be loaded into QGIS using drag and drop.
 
 == Conclusion 
 With this worksheet, you have learned how points look like in the map and how we can use different point rendering techniques to tackle specific problems that points can pose.

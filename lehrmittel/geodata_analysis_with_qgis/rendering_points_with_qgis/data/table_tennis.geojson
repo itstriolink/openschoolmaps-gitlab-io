@@ -1,0 +1,296 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo (CH)",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "67620",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125208300",
+        "leisure": "pitch",
+        "name": "Tischtennistisch",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7277815,
+          46.6615492
+        ]
+      },
+      "id": "way/125208300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/224320931",
+        "leisure": "pitch",
+        "name": "Tischtennisplatz Primarschule",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6328166,
+          47.6720448
+        ]
+      },
+      "id": "way/224320931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/550441411",
+        "landuse": "recreation_ground",
+        "name": "Ping-Pong Tisch",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.726444,
+          47.362057
+        ]
+      },
+      "id": "way/550441411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551442555",
+        "leisure": "pitch",
+        "name": "Hainbuchenweg",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7184016,
+          47.5156714
+        ]
+      },
+      "id": "way/551442555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588601308",
+        "fee": "no",
+        "leisure": "pitch",
+        "name": "zwei Tischtennisplatten",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6114021,
+          47.5686395
+        ]
+      },
+      "id": "way/588601308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588602999",
+        "access": "yes",
+        "fee": "no",
+        "leisure": "pitch",
+        "name": "Tischtennisplatten",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5942414,
+          47.5633377
+        ]
+      },
+      "id": "way/588602999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588603687",
+        "access": "yes",
+        "fee": "no",
+        "leisure": "pitch",
+        "name": "Tischtennisplatten",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5905346,
+          47.5632504
+        ]
+      },
+      "id": "way/588603687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588606810",
+        "access": "yes",
+        "fee": "no",
+        "leisure": "pitch",
+        "name": "Tischtennisplatte",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6046857,
+          47.5574114
+        ]
+      },
+      "id": "way/588606810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588607873",
+        "access": "yes",
+        "fee": "no",
+        "leisure": "pitch",
+        "name": "sechs Tischtennisplatten",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5688603,
+          47.5658337
+        ]
+      },
+      "id": "way/588607873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/667688037",
+        "leisure": "pitch",
+        "name": "Tischtennisplatz",
+        "sport": "table_tennis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7127922,
+          46.3019607
+        ]
+      },
+      "id": "way/667688037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360737830",
+        "name": "Tischtennis",
+        "sport": "table_tennis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0414081,
+          47.4639764
+        ]
+      },
+      "id": "node/4360737830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360773819",
+        "name": "Tischtennis",
+        "sport": "table_tennis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0418864,
+          47.4638866
+        ]
+      },
+      "id": "node/4360773819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4367795022",
+        "leisure": "pitch",
+        "name": "Tischtennisplatte",
+        "sport": "table_tennis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6097412,
+          47.403373
+        ]
+      },
+      "id": "node/4367795022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4382113791",
+        "leisure": "playground",
+        "name": "Pingpong Tisch",
+        "name:de": "Pingpong Tisch",
+        "sport": "table_tennis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6462804,
+          47.6949483
+        ]
+      },
+      "id": "node/4382113791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7538567050",
+        "name": "Table Tennis",
+        "sport": "table_tennis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52503,
+          47.3776
+        ]
+      },
+      "id": "node/7538567050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7538575141",
+        "name": "Table tennis",
+        "sport": "table_tennis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5314,
+          47.3773
+        ]
+      },
+      "id": "node/7538575141"
+    }
+  ]
+}
