@@ -53,7 +53,7 @@ The geodata used for this worksheet is in the _.geojson_ format and it's taken f
 
 This data is taken directly from OpenStreetMap and all of the tags of the found objects is also copied to the file, including the coordinates for that OpenStreetMap object. QGIS is able to read _.geojson_ files and process them into the map. 
 
-IMPORTANT: To view the query for the OSM data in the _.geojson_ file using Overpass Turbo, you can use the following link: https://osm.li/3FH
+NOTE: To view the query for the OSM data in the _.geojson_ file using Overpass Turbo, you can use the following link: https://osm.li/3FH
 
 A _.geojson_ file looks something like this:
 
@@ -74,6 +74,7 @@ For setting up the environment and QGIS, you need to:
 
 == Point Rendering Techniques
 QGIS offers some very useful point rendering techniques. Such techniques are mainly used for dealing with limited space on screen and for allowing us to distinguish different points between each other in small spaces. They are also used for letting us know which areas are more frequented than others, which are more active etc.
+
 === Point Cluster Renderer
 One of the most important point rendering techniques is: _Point Cluster Renderer_. What this technique does is replace the points that are close to each other with a single symbol. The parameter for defining how close the points should be to be converted to a cluster can be tweaked.
 
@@ -104,8 +105,6 @@ We will be using the same map features as before to demonstrate the heatmap rend
 
 NOTE: Play around with the _radius_ parameter in the QGIS rendering options and see what difference it makes.
 
-This is a heatmap generated in QGIS using the castles and towers of Switzerland map features:
-
 .Heatmap generated from the map features
 image::heatmap_generation_map.png[Heatmap generation technique]
 
@@ -126,8 +125,6 @@ Another important point rendering technique is called: _Point Displacement Rende
 What this rendering technique actually does is just move all of the overlapping points in the map view so that they can all become visible.
 
 Suppose we have a lot of points within a map layer. If we zoom out the map layer, it would mean that a lot of points are located on top of each other (overlapping). In order to make all of the points visible, some technique must be used in order to tackle this problem. Here's when point displacement technique comes in. It takes all of the points and analyzes where they're located in the map view and then places shifts them and places symbols around them to denote where the point actually belongs to.
-
-Here's how some points look after applying the point displacement rendering technique: 
 
 .Castles of Switzerland after applying the point displacement rendering technique
 image::point_displacement_map.PNG[Point displacement technique]
@@ -168,7 +165,7 @@ Play around with all of the point rendering techniques mentioned in the main por
 2. Generate a heatmap in order to find out the hotspots of table tennis pitches around Switzerland.
 3. Find out which city of Switzerland is mostly crowded with table tennis pitches.
 
-== Other data sets
+== Some other data sets
 Some other data sets that can be used to demonstrate how points work and also the different QGIS point rendering techniques:
 
 * Soccer pitches in Switzerland: https://osm.li/BYH
@@ -178,6 +175,8 @@ Some other data sets that can be used to demonstrate how points work and also th
 
 IMPORTANT: All of the above data sets can also be exported into _.geojson_ files using the _Export_ button in _Overpass Turbo_. They can then be loaded into QGIS using drag and drop.
 
+<<<
+    
 == Conclusion 
 With this worksheet, you have learned how points look like in the map and how we can use different point rendering techniques to tackle specific problems that points can pose.
 
